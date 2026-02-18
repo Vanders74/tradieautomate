@@ -4,9 +4,3 @@
 
 [build.environment]
   NODE_VERSION = "20"
-
-[[redirects]]
-  from = "https://tradieautomate.com/*"
-  to = "https://www.tradieautomate.com/:splat"
-  status = 301
-  force = true
