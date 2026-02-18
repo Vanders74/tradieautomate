@@ -1,0 +1,59 @@
+---
+const today = new Date();
+---
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-brand">
+      <p><strong>⚡ TradieAutomate</strong></p>
+      <p class="tagline">Compliance. Automation. Growth.</p>
+    </div>
+    <div class="footer-links">
+      <a href="/blog">Blog</a>
+      <a href="/about">About</a>
+      <a href="https://www.instagram.com/tradieautomate/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/profile.php?id=61585208957817" target="_blank" rel="noopener">Facebook</a>
+    </div>
+    <p class="copyright">&copy; {today.getFullYear()} TradieAutomate. All rights reserved.</p>
+  </div>
+</footer>
+<style>
+  footer {
+    margin-top: 4em;
+    padding: 2em 1em;
+    background: var(--navy, #0f172a);
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+  }
+  .footer-content {
+    max-width: 780px;
+    margin: 0 auto;
+  }
+  .footer-brand strong {
+    color: white;
+    font-size: 1.1em;
+  }
+  .tagline {
+    font-size: 0.85em;
+    margin-top: 0.25em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin: 1em 0;
+  }
+  .footer-links a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+  .footer-links a:hover {
+    color: var(--accent, #f97316);
+  }
+  .copyright {
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.4);
+  }
+</style>

@@ -1,0 +1,53 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={`About — ${SITE_TITLE}`} description="TradieAutomate helps Australian solar, battery and electrical installers streamline compliance and grow smarter." />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>About TradieAutomate</h1>
+
+      <p>
+        TradieAutomate exists for one reason: <strong>Australian solar, battery and electrical installers deserve better tools and clearer information.</strong>
+      </p>
+
+      <p>
+        The compliance landscape for installers is shifting fast — CER enforcement is tightening, AS/NZS standards are updating, and the gap between "getting it right" and "getting caught out" is shrinking every year.
+      </p>
+
+      <p>
+        Meanwhile, most trade businesses are still running on paper checklists, scattered photos, and manual processes that don't scale.
+      </p>
+
+      <h2>What We Cover</h2>
+
+      <ul>
+        <li><strong>Solar & Battery Compliance</strong> — CER requirements, AS/NZS 5033, AS/NZS 5139, STC documentation, audit preparation</li>
+        <li><strong>EV Charging Installation</strong> — Appendix P, load balancing, emerging standards</li>
+        <li><strong>Digital Job Management</strong> — Software comparisons, workflow automation, going paperless</li>
+        <li><strong>Trade Business Growth</strong> — Quoting strategies, customer retention, scaling operations</li>
+      </ul>
+
+      <h2>Who's Behind This</h2>
+
+      <p>
+        TradieAutomate is built by people who understand both the trades industry and the technology that's transforming it. We're not just writing about compliance — we're building the resources installers actually need.
+      </p>
+
+      <p>
+        Got a topic you want us to cover? A compliance question you can't find the answer to?
+        <a href="https://www.instagram.com/tradieautomate/">Hit us up on Instagram</a> or
+        <a href="https://www.facebook.com/profile.php?id=61585208957817">Facebook</a>.
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>

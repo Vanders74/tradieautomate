@@ -1,0 +1,171 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+).slice(0, 3);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1>Stop Losing Jobs to<br /><span class="highlight">Compliance Chaos</span></h1>
+        <p class="hero-sub">
+          TradieAutomate helps Australian solar, battery & electrical installers
+          navigate compliance, automate operations, and win more work.
+        </p>
+        <div class="hero-cta">
+          <a href="/blog" class="cta-button">Read the Blog →</a>
+        </div>
+      </section>
+
+      <!-- Value Props -->
+      <section class="value-props">
+        <div class="prop">
+          <h3>📋 Compliance Made Simple</h3>
+          <p>CER rules, AS/NZS standards, STC requirements — broken down into plain English so you never get caught out.</p>
+        </div>
+        <div class="prop">
+          <h3>⚡ Smarter Operations</h3>
+          <p>Digital job management, automated scheduling, paperless workflows. Work smarter, not harder.</p>
+        </div>
+        <div class="prop">
+          <h3>📈 Grow Your Business</h3>
+          <p>Quoting strategies, customer retention, industry trends. Everything you need to scale a modern trade business.</p>
+        </div>
+      </section>
+
+      <!-- Latest Posts -->
+      {posts.length > 0 && (
+        <section class="latest-posts">
+          <h2>Latest Articles</h2>
+          <ul>
+            {posts.map((post) => (
+              <li>
+                <a href={`/blog/${post.id}/`}>
+                  <h4>{post.data.title}</h4>
+                  <p class="post-date">
+                    {post.data.pubDate.toLocaleDateString('en-AU', {
+                      year: 'numeric',
+                      month: 'long',
+                      day: 'numeric',
+                    })}
+                  </p>
+                  <p class="post-desc">{post.data.description}</p>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <a href="/blog" class="see-all">See all articles →</a>
+        </section>
+      )}
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  .hero {
+    text-align: center;
+    padding: 2em 0 3em;
+  }
+  .hero h1 {
+    font-size: 2.6em;
+    line-height: 1.15;
+    margin-bottom: 0.5em;
+  }
+  .highlight {
+    color: var(--accent);
+  }
+  .hero-sub {
+    font-size: 1.15em;
+    color: rgb(var(--gray));
+    max-width: 600px;
+    margin: 0 auto 1.5em;
+  }
+
+  .value-props {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5em;
+    margin: 2em 0 3em;
+  }
+  .prop {
+    padding: 1.5em;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    border: 1px solid rgb(var(--gray-light));
+  }
+  .prop h3 {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+  }
+  .prop p {
+    font-size: 0.9em;
+    color: rgb(var(--gray));
+    margin: 0;
+  }
+
+  .latest-posts {
+    margin: 2em 0;
+  }
+  .latest-posts h2 {
+    margin-bottom: 1em;
+  }
+  .latest-posts ul {
+    list-style: none;
+    padding: 0;
+  }
+  .latest-posts li {
+    margin-bottom: 1em;
+  }
+  .latest-posts a {
+    display: block;
+    text-decoration: none;
+    padding: 1.25em;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid rgb(var(--gray-light));
+    transition: box-shadow 0.2s, border-color 0.2s;
+  }
+  .latest-posts a:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    border-color: var(--accent);
+  }
+  .latest-posts h4 {
+    color: rgb(var(--black));
+    margin-bottom: 0.25em;
+  }
+  .post-date {
+    font-size: 0.8em;
+    color: rgb(var(--gray));
+    margin-bottom: 0.5em;
+  }
+  .post-desc {
+    font-size: 0.9em;
+    color: rgb(var(--gray-dark));
+    margin: 0;
+  }
+  .see-all {
+    display: inline-block;
+    margin-top: 1em;
+    font-weight: 700;
+  }
+
+  @media (max-width: 720px) {
+    .hero h1 { font-size: 2em; }
+    .value-props { grid-template-columns: 1fr; }
+  }
+</style>
