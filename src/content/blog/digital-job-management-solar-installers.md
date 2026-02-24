@@ -2,7 +2,7 @@
 title: 'Why Solar Installers Are Switching to Digital Job Management in 2026'
 description: 'Paper checklists and WhatsApp photos won''t cut it anymore. Here''s why smart solar installers are going digital — and what to look for in a job management platform.'
 pubDate: 'Feb 18 2026'
-heroImage: ''
+heroImage: '/hero-digital-jobs.jpg'
 ---
 
 Here's a scenario most solar installers will recognise:

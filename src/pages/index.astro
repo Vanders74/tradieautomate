@@ -18,30 +18,38 @@ const posts = (await getCollection('blog')).sort(
   <body>
     <Header />
     <main>
-      <!-- Hero Section -->
+      <!-- Hero Section with background image -->
       <section class="hero">
-        <h1>Stop Losing Jobs to<br /><span class="highlight">Compliance Chaos</span></h1>
-        <p class="hero-sub">
-          TradieAutomate helps Australian solar, battery & electrical installers
-          navigate compliance, automate operations, and win more work.
-        </p>
-        <div class="hero-cta">
-          <a href="/blog" class="cta-button">Read the Blog →</a>
+        <div class="hero-bg">
+          <img src="/hero-home.jpg" alt="TradieAutomate — solar compliance for Australian installers" />
+        </div>
+        <div class="hero-content">
+          <h1>Stop Losing Jobs to<br /><span class="highlight">Compliance Chaos</span></h1>
+          <p class="hero-sub">
+            TradieAutomate helps Australian solar, battery & electrical installers
+            navigate compliance, automate operations, and win more work.
+          </p>
+          <div class="hero-cta">
+            <a href="/blog" class="cta-button">Read the Blog →</a>
+          </div>
         </div>
       </section>
 
       <!-- Value Props -->
       <section class="value-props">
         <div class="prop">
-          <h3>📋 Compliance Made Simple</h3>
+          <div class="prop-icon">📋</div>
+          <h3>Compliance Made Simple</h3>
           <p>CER rules, AS/NZS standards, STC requirements — broken down into plain English so you never get caught out.</p>
         </div>
         <div class="prop">
-          <h3>⚡ Smarter Operations</h3>
+          <div class="prop-icon">⚡</div>
+          <h3>Smarter Operations</h3>
           <p>Digital job management, automated scheduling, paperless workflows. Work smarter, not harder.</p>
         </div>
         <div class="prop">
-          <h3>📈 Grow Your Business</h3>
+          <div class="prop-icon">📈</div>
+          <h3>Grow Your Business</h3>
           <p>Quoting strategies, customer retention, industry trends. Everything you need to scale a modern trade business.</p>
         </div>
       </section>
@@ -54,15 +62,24 @@ const posts = (await getCollection('blog')).sort(
             {posts.map((post) => (
               <li>
                 <a href={`/blog/${post.id}/`}>
-                  <h4>{post.data.title}</h4>
-                  <p class="post-date">
-                    {post.data.pubDate.toLocaleDateString('en-AU', {
-                      year: 'numeric',
-                      month: 'long',
-                      day: 'numeric',
-                    })}
-                  </p>
-                  <p class="post-desc">{post.data.description}</p>
+                  {post.data.heroImage && (
+                    <img
+                      class="post-thumb"
+                      src={post.data.heroImage}
+                      alt={post.data.title}
+                    />
+                  )}
+                  <div class="post-text">
+                    <h4>{post.data.title}</h4>
+                    <p class="post-date">
+                      {post.data.pubDate.toLocaleDateString('en-AU', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric',
+                      })}
+                    </p>
+                    <p class="post-desc">{post.data.description}</p>
+                  </div>
                 </a>
               </li>
             ))}
@@ -76,30 +93,59 @@ const posts = (await getCollection('blog')).sort(
 </html>
 
 <style>
+  /* ── Hero ── */
   .hero {
-    text-align: center;
-    padding: 2em 0 3em;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 3em;
+    min-height: 340px;
+    display: flex;
+    align-items: center;
+  }
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+  .hero-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0;
+    display: block;
+  }
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    padding: 3em 2.5em;
+    width: 100%;
   }
   .hero h1 {
     font-size: 2.6em;
     line-height: 1.15;
     margin-bottom: 0.5em;
+    color: white;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.4);
   }
   .highlight {
     color: var(--accent);
   }
   .hero-sub {
-    font-size: 1.15em;
-    color: rgb(var(--gray));
-    max-width: 600px;
-    margin: 0 auto 1.5em;
+    font-size: 1.1em;
+    color: rgba(255,255,255,0.88);
+    max-width: 560px;
+    margin: 0 0 1.5em;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
   }
 
+  /* ── Value Props ── */
   .value-props {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1.5em;
-    margin: 2em 0 3em;
+    margin: 0 0 3em;
   }
   .prop {
     padding: 1.5em;
@@ -108,64 +154,98 @@ const posts = (await getCollection('blog')).sort(
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
     border: 1px solid rgb(var(--gray-light));
   }
-  .prop h3 {
-    font-size: 1.1em;
+  .prop-icon {
+    font-size: 1.8em;
     margin-bottom: 0.5em;
   }
+  .prop h3 {
+    font-size: 1.05em;
+    margin-bottom: 0.5em;
+    color: rgb(var(--black));
+  }
   .prop p {
-    font-size: 0.9em;
+    font-size: 0.88em;
     color: rgb(var(--gray));
     margin: 0;
   }
 
+  /* ── Latest Posts ── */
   .latest-posts {
-    margin: 2em 0;
+    margin: 0 0 2em;
   }
   .latest-posts h2 {
     margin-bottom: 1em;
+    font-size: 1.6em;
   }
   .latest-posts ul {
     list-style: none;
     padding: 0;
-  }
-  .latest-posts li {
-    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
   }
   .latest-posts a {
-    display: block;
+    display: flex;
+    gap: 1.25em;
+    align-items: center;
     text-decoration: none;
-    padding: 1.25em;
+    padding: 0;
     background: white;
     border-radius: 10px;
     border: 1px solid rgb(var(--gray-light));
+    overflow: hidden;
     transition: box-shadow 0.2s, border-color 0.2s;
   }
   .latest-posts a:hover {
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
     border-color: var(--accent);
   }
+  .post-thumb {
+    width: 180px;
+    min-width: 180px;
+    height: 110px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 0;
+    flex-shrink: 0;
+  }
+  .post-text {
+    padding: 1em 1em 1em 0;
+  }
   .latest-posts h4 {
     color: rgb(var(--black));
-    margin-bottom: 0.25em;
+    margin: 0 0 0.25em;
+    font-size: 1em;
+    line-height: 1.3;
   }
   .post-date {
-    font-size: 0.8em;
+    font-size: 0.78em;
     color: rgb(var(--gray));
-    margin-bottom: 0.5em;
+    margin: 0 0 0.4em;
   }
   .post-desc {
-    font-size: 0.9em;
+    font-size: 0.87em;
     color: rgb(var(--gray-dark));
     margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   .see-all {
     display: inline-block;
-    margin-top: 1em;
+    margin-top: 1.25em;
     font-weight: 700;
+    color: var(--accent-dark);
   }
 
   @media (max-width: 720px) {
-    .hero h1 { font-size: 2em; }
-    .value-props { grid-template-columns: 1fr; }
+    .hero { min-height: 280px; border-radius: 12px; }
+    .hero-content { padding: 2em 1.5em; }
+    .hero h1 { font-size: 1.9em; }
+    .value-props { grid-template-columns: 1fr; gap: 1em; }
+    .post-thumb { width: 120px; min-width: 120px; height: 90px; }
+    .post-text { padding: 0.75em 0.75em 0.75em 0; }
   }
 </style>

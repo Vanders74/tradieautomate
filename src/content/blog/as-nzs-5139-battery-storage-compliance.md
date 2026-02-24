@@ -2,6 +2,7 @@
 title: 'AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know in 2026'
 description: 'The AS/NZS 5139:2019 standard changed what compliant battery storage installations look like in Australia. Here is a plain-English breakdown of what changed, what it means on the job, and how to make sure every install passes first time.'
 pubDate: 'Feb 22 2026'
+heroImage: '/hero-battery-storage.jpg'
 ---
 
 Battery storage is now a standard part of the solar conversation in Australia. In 2025, more than 60% of new residential solar installations included a battery — up from under 20% five years ago.
