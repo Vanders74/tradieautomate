@@ -1,0 +1,605 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_URL } from '../../consts';
+
+const title = "Best Job Management Software for Solar Installers Australia 2026";
+const description = "Ranked comparison of the top 5 job management platforms for Australian solar and battery installers — covering CER compliance, STC documentation, AS/NZS checklists, and digital sign-off.";
+
+const software = [
+  {
+    rank: 1,
+    name: "ServiceM8",
+    url: "https://www.servicem8.com",
+    tagline: "The #1 choice for compliance-heavy solar and electrical trades",
+    bestFor: "Solar/electrical compliance",
+    complianceFeatures: "CER checklists, STC docs, digital sign-off, AS/NZS templates",
+    price: "From AUD $39/month",
+    trial: "14-day free trial",
+    hasTrial: true,
+    description: "ServiceM8 is purpose-built for Australian trades requiring rigorous compliance documentation. Solar installers use it for CER checklists, STC paperwork, AS/NZS 5033 and 5139 sign-off forms, and photo capture at every job stage. Its mobile-first design works offline on-site and syncs when back in range.",
+    pros: [
+      "CER-specific job templates and compliance checklists",
+      "Digital sign-off and timestamped photo evidence",
+      "STC paperwork automation",
+      "Xero and MYOB integration",
+      "Australian-based support"
+    ]
+  },
+  {
+    rank: 2,
+    name: "Tradify",
+    url: "https://www.tradifyhq.com",
+    tagline: "Simple, affordable job management for smaller solar businesses",
+    bestFor: "Small trade businesses",
+    complianceFeatures: "Job tracking, quoting, invoicing",
+    price: "From AUD $35/user/month",
+    trial: "14-day free trial",
+    hasTrial: true,
+    description: "Tradify is a strong contender for smaller solar and electrical businesses that need clean job tracking, quoting, and invoicing without the complexity of enterprise platforms. Compliance document management is more manual, making it better suited to teams with simpler paperwork requirements.",
+    pros: [
+      "Fast quoting and invoicing workflow",
+      "Easy to onboard for small teams",
+      "Good mobile app experience",
+      "Xero and QuickBooks integration"
+    ]
+  },
+  {
+    rank: 3,
+    name: "AroFlo",
+    url: "https://www.aroflo.com",
+    tagline: "Enterprise-grade field management for growing operations",
+    bestFor: "Larger operations",
+    complianceFeatures: "Full project management, compliance forms, document control",
+    price: "From AUD $95/month",
+    trial: "Demo only",
+    hasTrial: false,
+    description: "AroFlo is built for larger trade businesses running multiple crews and complex multi-stage projects. Its document control and compliance form features are powerful, though the platform has a steeper learning curve and higher price point than ServiceM8 or Tradify.",
+    pros: [
+      "Full project management capability",
+      "Detailed compliance document control",
+      "Strong scheduling and dispatch",
+      "Inventory and asset management"
+    ]
+  },
+  {
+    rank: 4,
+    name: "simPRO",
+    url: "https://www.simpro.com.au",
+    tagline: "End-to-end ERP for large solar and electrical contractors",
+    bestFor: "Enterprise/large teams",
+    complianceFeatures: "End-to-end ERP, compliance modules, project tracking",
+    price: "From AUD $149/month",
+    trial: "Demo only",
+    hasTrial: false,
+    description: "simPRO is an enterprise resource planning (ERP) platform for large electrical and solar contractors managing complex projects, multiple sites, and large workforces. Overkill for most small–medium solar businesses, but unmatched for large-scale operations.",
+    pros: [
+      "Full ERP capability for large contractors",
+      "Advanced project and cost tracking",
+      "Detailed compliance and audit trails",
+      "Strong subcontractor management"
+    ]
+  },
+  {
+    rank: 5,
+    name: "Fergus",
+    url: "https://www.fergus.com",
+    tagline: "Simple, no-fuss job management for small AU/NZ solar teams",
+    bestFor: "Small AU/NZ teams",
+    complianceFeatures: "Job tracking, invoicing, basic checklists",
+    price: "From AUD $29/user/month",
+    trial: "14-day free trial",
+    hasTrial: true,
+    description: "Fergus offers simple, affordable job management for small solar and electrical businesses in Australia and New Zealand. It lacks the CER-specific compliance depth of ServiceM8 but is a solid choice for businesses with straightforward paperwork needs and tight budgets.",
+    pros: [
+      "Most affordable per-user pricing",
+      "Clean, simple mobile interface",
+      "Good for NZ/AU cross-border teams",
+      "Easy invoicing and payment tracking"
+    ]
+  }
+];
+
+const faqs = [
+  {
+    question: "What is the best job management software for solar installers in Australia?",
+    answer: "ServiceM8 is widely regarded as the best job management software for Australian solar installers in 2026. It is specifically built for compliance-heavy trades, supporting CER checklists, STC documentation, AS/NZS 5033 and 5139 sign-off forms, and digital evidence capture. For smaller operations with simpler compliance needs, Tradify and Fergus are cost-effective alternatives."
+  },
+  {
+    question: "Does ServiceM8 work for CER compliance documentation?",
+    answer: "Yes. ServiceM8 supports CER (Clean Energy Regulator) compliance documentation through customisable job templates and checklists. Installers can build CER-specific inspection forms, attach timestamped photos, and capture digital client sign-offs — all stored against the job record for audit purposes. This makes it well-suited to CER-accredited businesses subject to compliance audits."
+  },
+  {
+    question: "How do solar installers manage STC paperwork digitally?",
+    answer: "Solar installers can manage STC (Small-scale Technology Certificate) paperwork digitally using job management platforms like ServiceM8. The typical workflow involves attaching system design documents and installation evidence to the job record, capturing photos of the completed installation, obtaining digital client sign-off, and exporting job records for submission to the STC registry. ServiceM8's templating system allows STC-specific forms to be built once and reused across all jobs."
+  },
+  {
+    question: "What software do Australian electricians use for job management?",
+    answer: "The most commonly used job management platforms among Australian electricians and solar installers are ServiceM8, Tradify, AroFlo, simPRO, and Fergus. ServiceM8 has the largest adoption among small-to-medium trade businesses due to its Australian-focused compliance features and ease of use. AroFlo and simPRO are preferred by larger contractors managing complex projects."
+  },
+  {
+    question: "Can I create AS/NZS compliance checklists in ServiceM8?",
+    answer: "Yes. ServiceM8 allows users to build custom job forms that can replicate AS/NZS 5033 (solar installation) and AS/NZS 5139 (battery storage) inspection checklists. These forms can include pass/fail checkpoints, photo attachment fields, and signature capture. Completed forms are stored digitally against each job record, providing a compliant audit trail."
+  },
+  {
+    question: "What's the difference between ServiceM8 and Tradify for solar businesses?",
+    answer: "ServiceM8 and Tradify are both popular with Australian trade businesses, but differ in compliance depth. ServiceM8 offers more advanced compliance form building, CER-specific templates, and digital sign-off workflows — making it the stronger choice for solar and battery installers with strict documentation requirements. Tradify is simpler and more affordable per user, making it better suited to small businesses where compliance paperwork is less complex. If CER documentation or AS/NZS audit trails are a priority, ServiceM8 is the better fit."
+  },
+  {
+    question: "How do I go paperless as a solar installer in Australia?",
+    answer: "Going paperless as an Australian solar installer involves three key steps: (1) adopting a job management platform like ServiceM8 that supports digital forms, photo capture, and client sign-off; (2) digitising your compliance checklists (CER, AS/NZS 5033, AS/NZS 5139) as reusable templates; and (3) setting up a digital filing system for STC documentation, certificates of compliance, and audit records. Most solar businesses can go fully paperless within 4–8 weeks of implementing a suitable platform."
+  },
+  {
+    question: "Is there job management software specifically for CER-accredited installers?",
+    answer: "While no job management platform is exclusively built for CER-accredited installers, ServiceM8 is the most widely adopted solution among CER-accredited solar and battery installers in Australia. Its customisable compliance forms, digital evidence capture, and audit-ready job records align closely with CER documentation requirements. TradieAutomate provides guides on configuring ServiceM8 workflows for CER compliance."
+  }
+];
+
+// Schema
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer
+    }
+  }))
+};
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Job Management Software for Solar Installers Australia 2026",
+  "description": "Ranked list of top job management platforms for Australian solar and battery installers",
+  "numberOfItems": software.length,
+  "itemListElement": software.map((s, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "name": s.name,
+    "url": s.url,
+    "description": s.description
+  }))
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} />
+  </head>
+  <body>
+    <Header />
+    <main>
+
+      <!-- Breadcrumb -->
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a> › <a href="/blog">Guides</a> › Best Job Management Software
+      </nav>
+
+      <h1>Best Job Management Software for Solar Installers Australia 2026</h1>
+
+      <p class="meta">Updated February 2026 · 8 min read</p>
+
+      <!-- TL;DR — AEO Answer Block -->
+      <div class="tldr-box">
+        <p class="tldr-label">⚡ TL;DR — Quick Answer</p>
+        <p>
+          For Australian solar and battery installers in 2026, <strong>ServiceM8</strong> is the leading job management platform built specifically for compliance-heavy trades. It supports CER documentation, STC paperwork, AS/NZS compliance checklists, and digital sign-offs — eliminating paper-based audit risk. Tradify and AroFlo are strong alternatives for larger operations needing project management. Choose based on team size, compliance requirements, and whether you need CER-specific workflow support.
+        </p>
+      </div>
+
+      <p>
+        Australian solar and battery installers face unique compliance pressures that generic job management software wasn't built to handle — CER audit requirements, STC documentation, AS/NZS 5033 and 5139 checklists, and the constant risk of paper records going missing before an inspection. The right software eliminates that risk while speeding up every job from booking to invoice.
+      </p>
+
+      <p>
+        This guide ranks the five most widely used job management platforms among Australian solar installers in 2026, with a detailed comparison table, selection criteria, and answers to the questions installers actually ask.
+      </p>
+
+      <!-- Ranked List -->
+      <h2>Top 5 Job Management Software for Solar Installers</h2>
+
+      {software.map((s) => (
+        <div class="software-card">
+          <div class="software-header">
+            <span class="rank-badge">#{s.rank}</span>
+            <div>
+              <h3 class="software-name"><a href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a></h3>
+              <p class="software-tagline">{s.tagline}</p>
+            </div>
+          </div>
+          <p>{s.description}</p>
+          <ul class="pros-list">
+            {s.pros.map(pro => <li>✅ {pro}</li>)}
+          </ul>
+          <div class="software-meta">
+            <span class="meta-badge">{s.price}</span>
+            <span class={`meta-badge ${s.hasTrial ? 'badge-green' : 'badge-gray'}`}>
+              {s.trial}
+            </span>
+          </div>
+        </div>
+      ))}
+
+      <!-- Comparison Table -->
+      <h2>Comparison Table</h2>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Software</th>
+              <th>Best For</th>
+              <th>Compliance Features</th>
+              <th>Price (AUD/month)</th>
+              <th>Free Trial</th>
+            </tr>
+          </thead>
+          <tbody>
+            {software.map((s) => (
+              <tr>
+                <td><strong><a href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a></strong></td>
+                <td>{s.bestFor}</td>
+                <td>{s.complianceFeatures}</td>
+                <td>{s.price}</td>
+                <td>
+                  <span class={s.hasTrial ? 'tick' : 'cross'}>
+                    {s.hasTrial ? '✅ Yes' : '❌ Demo only'}
+                  </span>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p class="table-note">
+        Prices as of February 2026. Verify current pricing on each provider's website. 
+        <a href="https://www.servicem8.com/pricing" target="_blank" rel="noopener noreferrer">ServiceM8 pricing</a> · 
+        <a href="https://www.tradifyhq.com/pricing" target="_blank" rel="noopener noreferrer">Tradify pricing</a> · 
+        <a href="https://www.aroflo.com/pricing" target="_blank" rel="noopener noreferrer">AroFlo pricing</a>
+      </p>
+
+      <!-- How to Choose -->
+      <h2>How to Choose the Right Platform</h2>
+
+      <p>Not every solar business has the same needs. Use these five criteria to narrow your choice:</p>
+
+      <ul class="checklist">
+        <li>
+          <strong>Compliance depth required.</strong> If you're CER-accredited and subject to audits, prioritise platforms with custom form builders and digital sign-off (ServiceM8 is the clear leader here). Simpler businesses can get by with basic job tracking.
+        </li>
+        <li>
+          <strong>Team size and growth trajectory.</strong> Solo operators and small teams (1–5) do well on Tradify or Fergus. Growing businesses (5–20+) benefit from ServiceM8's workflow automation. Large contractors should evaluate AroFlo or simPRO.
+        </li>
+        <li>
+          <strong>CER-specific workflow needs.</strong> If your business depends on STC paperwork, AS/NZS checklists, and CER audit readiness, choose a platform that supports custom form templates — not just basic job notes.
+        </li>
+        <li>
+          <strong>Budget and per-user costs.</strong> Fergus and Tradify are most affordable per seat. ServiceM8's flat monthly pricing becomes better value as team size grows. AroFlo and simPRO carry higher baseline costs but offer more capability at scale.
+        </li>
+        <li>
+          <strong>Integration with your accounting software.</strong> Check that your chosen platform integrates with Xero, MYOB, or QuickBooks. ServiceM8, Tradify, AroFlo, and simPRO all offer accounting integrations — confirm compatibility before committing.
+        </li>
+      </ul>
+
+      <!-- FAQ Section -->
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-list">
+        {faqs.map((faq, i) => (
+          <div class="faq-item">
+            <h3 class="faq-q">{faq.question}</h3>
+            <p class="faq-a">{faq.answer}</p>
+          </div>
+        ))}
+      </div>
+
+      <!-- Citations -->
+      <h2>Sources & Further Reading</h2>
+
+      <ul class="citations">
+        <li>
+          <a href="https://www.cer.gov.au/solar/solar-installation" target="_blank" rel="noopener noreferrer">
+            Clean Energy Regulator — Solar installation accreditation requirements
+          </a>
+        </li>
+        <li>
+          <a href="https://www.standards.org.au/standards-catalogue/sa-snz/electrotechnology/el-042/as-nzs-5033-2021" target="_blank" rel="noopener noreferrer">
+            AS/NZS 5033:2021 — Installation and safety requirements for photovoltaic (PV) arrays
+          </a>
+        </li>
+        <li>
+          <a href="https://www.standards.org.au/standards-catalogue/sa-snz/electrotechnology/el-042/as-nzs-5139-2019" target="_blank" rel="noopener noreferrer">
+            AS/NZS 5139:2019 — Electrical installations — Safety of battery systems for use with power conversion equipment
+          </a>
+        </li>
+        <li>
+          <a href="https://www.servicem8.com" target="_blank" rel="noopener noreferrer">
+            ServiceM8 — Job management software for trade businesses
+          </a>
+        </li>
+        <li>
+          <a href="https://www.tradifyhq.com" target="_blank" rel="noopener noreferrer">
+            Tradify — Trade job management software
+          </a>
+        </li>
+      </ul>
+
+      <!-- CTA -->
+      <div class="cta-box">
+        <h3>Want more guides like this?</h3>
+        <p>
+          TradieAutomate covers compliance, job management, and trade business growth for Australian solar, battery and electrical installers. No fluff — just practical information.
+        </p>
+        <a href="/blog" class="cta-button">Read the Blog →</a>
+      </div>
+
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  .breadcrumb {
+    font-size: 0.82em;
+    color: rgb(var(--gray));
+    margin-bottom: 1.5em;
+  }
+  .breadcrumb a {
+    color: rgb(var(--gray));
+    text-decoration: none;
+  }
+  .breadcrumb a:hover {
+    color: var(--accent);
+  }
+
+  h1 {
+    font-size: 2.2em;
+    line-height: 1.2;
+    margin-bottom: 0.3em;
+    color: var(--navy, #1B2B4B);
+  }
+
+  .meta {
+    font-size: 0.82em;
+    color: rgb(var(--gray));
+    margin-bottom: 1.8em;
+  }
+
+  /* TL;DR box */
+  .tldr-box {
+    background: #fff7ed;
+    border-left: 5px solid var(--accent);
+    border-radius: 10px;
+    padding: 1.25em 1.5em;
+    margin: 0 0 2em;
+  }
+  .tldr-label {
+    font-weight: 700;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--accent-dark);
+    margin: 0 0 0.5em;
+  }
+  .tldr-box p:last-child {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.65;
+  }
+
+  /* Software cards */
+  .software-card {
+    background: white;
+    border: 1px solid rgb(var(--gray-light));
+    border-radius: 12px;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  }
+  .software-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    margin-bottom: 0.75em;
+  }
+  .rank-badge {
+    background: var(--navy, #1B2B4B);
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    border-radius: 8px;
+    padding: 0.3em 0.6em;
+    min-width: 2.2em;
+    text-align: center;
+    flex-shrink: 0;
+    margin-top: 0.15em;
+  }
+  .software-card:first-of-type .rank-badge {
+    background: var(--accent);
+  }
+  .software-name {
+    font-size: 1.3em;
+    margin: 0 0 0.15em;
+  }
+  .software-name a {
+    color: rgb(var(--black));
+    text-decoration: none;
+  }
+  .software-name a:hover {
+    color: var(--accent);
+  }
+  .software-tagline {
+    font-size: 0.88em;
+    color: rgb(var(--gray));
+    margin: 0;
+  }
+  .pros-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.75em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+  }
+  .pros-list li {
+    font-size: 0.9em;
+  }
+  .software-meta {
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    margin-top: 0.75em;
+  }
+  .meta-badge {
+    background: rgb(var(--gray-light));
+    border-radius: 6px;
+    padding: 0.25em 0.65em;
+    font-size: 0.82em;
+    font-weight: 700;
+    color: rgb(var(--gray-dark));
+  }
+  .badge-green { background: #dcfce7; color: #166534; }
+  .badge-gray  { background: rgb(var(--gray-light)); color: rgb(var(--gray)); }
+
+  /* Table */
+  .table-wrap {
+    overflow-x: auto;
+    margin: 0 0 0.5em;
+    border-radius: 10px;
+    border: 1px solid rgb(var(--gray-light));
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+  }
+  thead tr {
+    background: var(--navy, #1B2B4B);
+    color: white;
+  }
+  th {
+    padding: 0.75em 1em;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.85em;
+    letter-spacing: 0.02em;
+  }
+  td {
+    padding: 0.7em 1em;
+    border-bottom: 1px solid rgb(var(--gray-light));
+    vertical-align: top;
+    line-height: 1.4;
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+  .table-note {
+    font-size: 0.8em;
+    color: rgb(var(--gray));
+    margin-top: 0.5em;
+  }
+
+  /* Checklist */
+  .checklist {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .checklist li {
+    background: white;
+    border: 1px solid rgb(var(--gray-light));
+    border-left: 4px solid var(--accent);
+    border-radius: 8px;
+    padding: 0.9em 1.1em;
+    font-size: 0.95em;
+    line-height: 1.55;
+  }
+
+  /* FAQ */
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25em;
+    margin-bottom: 2em;
+  }
+  .faq-item {
+    background: white;
+    border: 1px solid rgb(var(--gray-light));
+    border-radius: 10px;
+    padding: 1.25em 1.5em;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  }
+  .faq-q {
+    font-size: 1.05em;
+    margin: 0 0 0.5em;
+    color: rgb(var(--black));
+    line-height: 1.35;
+  }
+  .faq-a {
+    font-size: 0.95em;
+    color: rgb(var(--gray-dark));
+    margin: 0;
+    line-height: 1.65;
+  }
+
+  /* Citations */
+  .citations {
+    font-size: 0.88em;
+    line-height: 1.6;
+    padding-left: 1.2em;
+    color: rgb(var(--gray-dark));
+  }
+  .citations li { margin-bottom: 0.4em; }
+
+  /* CTA */
+  .cta-box {
+    background: var(--navy, #1B2B4B);
+    color: white;
+    border-radius: 14px;
+    padding: 2em 2em;
+    margin-top: 2.5em;
+    text-align: center;
+  }
+  .cta-box h3 {
+    color: white;
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+  }
+  .cta-box p {
+    color: rgba(255,255,255,0.82);
+    font-size: 0.95em;
+    max-width: 500px;
+    margin: 0 auto 1.25em;
+  }
+  .cta-button {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    font-weight: 700;
+    padding: 0.7em 1.8em;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background 0.2s;
+  }
+  .cta-button:hover {
+    background: var(--accent-dark);
+    color: white;
+  }
+
+  @media (max-width: 720px) {
+    h1 { font-size: 1.7em; }
+    .software-header { flex-direction: column; gap: 0.5em; }
+    .rank-badge { font-size: 0.9em; }
+    .cta-box { padding: 1.5em 1.25em; }
+  }
+</style>

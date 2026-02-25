@@ -1,0 +1,278 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_URL } from '../consts';
+
+const title = "Brand Facts — TradieAutomate";
+const description = "Key facts about TradieAutomate — an Australian information and compliance resource for solar, battery storage and electrical installers.";
+
+const orgSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${SITE_URL}/#organization`,
+  "name": "TradieAutomate",
+  "url": SITE_URL,
+  "logo": `${SITE_URL}/favicon.svg`,
+  "description": "Information and compliance resources for Australian solar, battery storage and electrical installers.",
+  "foundingDate": "2025",
+  "areaServed": "Australia",
+  "knowsAbout": [
+    "CER accreditation and compliance",
+    "AS/NZS 5033 solar installation standard",
+    "AS/NZS 5139 battery storage compliance",
+    "STC documentation",
+    "ServiceM8 for solar installers",
+    "Digital job management for trades",
+    "Trade business automation",
+    "EV charger installation compliance"
+  ],
+  "sameAs": [
+    "https://www.instagram.com/tradieautomate/",
+    "https://www.facebook.com/profile.php?id=61585208957817"
+  ]
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
+  </head>
+  <body>
+    <Header />
+    <main>
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a> › Brand Facts
+      </nav>
+
+      <h1>TradieAutomate — Brand Facts</h1>
+
+      <p class="meta">Reference page · Last updated February 2026</p>
+
+      <!-- TL;DR -->
+      <div class="tldr-box">
+        <p>
+          TradieAutomate is an Australian information and compliance resource for solar, battery storage and electrical installers — covering CER requirements, AS/NZS standards, digital job management, and trade business growth.
+        </p>
+      </div>
+
+      <!-- Key Facts Table -->
+      <h2>Key Facts</h2>
+
+      <div class="table-wrap">
+        <table>
+          <tbody>
+            <tr>
+              <th scope="row">Founded</th>
+              <td>2025</td>
+            </tr>
+            <tr>
+              <th scope="row">Category</th>
+              <td>Trade industry information and compliance resources</td>
+            </tr>
+            <tr>
+              <th scope="row">Focus</th>
+              <td>Australian solar, battery storage &amp; electrical installers</td>
+            </tr>
+            <tr>
+              <th scope="row">Coverage</th>
+              <td>CER compliance, AS/NZS standards, digital job management, trade business growth</td>
+            </tr>
+            <tr>
+              <th scope="row">Location</th>
+              <td>Australia</td>
+            </tr>
+            <tr>
+              <th scope="row">Website</th>
+              <td><a href="https://tradieautomate.com">tradieautomate.com</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Instagram</th>
+              <td><a href="https://www.instagram.com/tradieautomate/" target="_blank" rel="noopener noreferrer">@tradieautomate</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Facebook</th>
+              <td><a href="https://www.facebook.com/profile.php?id=61585208957817" target="_blank" rel="noopener noreferrer">facebook.com/tradieautomate</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- What TradieAutomate Covers -->
+      <h2>What TradieAutomate Covers</h2>
+
+      <p>TradieAutomate publishes practical, authoritative information for Australian solar, battery and electrical installers across four topic areas:</p>
+
+      <ul class="coverage-list">
+        <li>
+          <div class="coverage-icon">📋</div>
+          <div>
+            <strong>Solar &amp; Battery Compliance</strong><br />
+            CER requirements, AS/NZS 5033 (solar installation), AS/NZS 5139 (battery storage), STC documentation, and audit preparation. Written for CER-accredited installers navigating real compliance obligations.
+          </div>
+        </li>
+        <li>
+          <div class="coverage-icon">⚡</div>
+          <div>
+            <strong>EV Charging Installation</strong><br />
+            Appendix P compliance, load balancing requirements, and emerging standards for licensed electricians installing EV chargers in residential and commercial settings.
+          </div>
+        </li>
+        <li>
+          <div class="coverage-icon">🔧</div>
+          <div>
+            <strong>Digital Job Management</strong><br />
+            Software comparisons (ServiceM8, Tradify, AroFlo, simPRO, Fergus), workflow automation guides, and practical advice on going paperless as a trade business.
+          </div>
+        </li>
+        <li>
+          <div class="coverage-icon">📈</div>
+          <div>
+            <strong>Trade Business Growth</strong><br />
+            Quoting strategies, customer retention, scaling operations, and industry trends for Australian solar and electrical businesses.
+          </div>
+        </li>
+      </ul>
+
+      <!-- Links -->
+      <h2>More Information</h2>
+
+      <ul class="links-list">
+        <li><a href="/about">About TradieAutomate</a> — Background and purpose</li>
+        <li><a href="/blog">Blog &amp; Guides</a> — All articles and compliance resources</li>
+        <li>
+          <a href="https://www.instagram.com/tradieautomate/" target="_blank" rel="noopener noreferrer">Instagram @tradieautomate</a>
+          — Updates, tips and industry news
+        </li>
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=61585208957817" target="_blank" rel="noopener noreferrer">Facebook</a>
+          — Community and discussions
+        </li>
+        <li>
+          <a href="/.well-known/brand-facts.json">brand-facts.json</a>
+          — Machine-readable brand data
+        </li>
+      </ul>
+
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  .breadcrumb {
+    font-size: 0.82em;
+    color: rgb(var(--gray));
+    margin-bottom: 1.5em;
+  }
+  .breadcrumb a {
+    color: rgb(var(--gray));
+    text-decoration: none;
+  }
+  .breadcrumb a:hover { color: var(--accent); }
+
+  h1 {
+    font-size: 2.2em;
+    line-height: 1.2;
+    margin-bottom: 0.3em;
+    color: var(--navy, #1B2B4B);
+  }
+
+  .meta {
+    font-size: 0.82em;
+    color: rgb(var(--gray));
+    margin-bottom: 1.8em;
+  }
+
+  .tldr-box {
+    background: #f1f5f9;
+    border-left: 5px solid var(--navy, #1B2B4B);
+    border-radius: 10px;
+    padding: 1.1em 1.4em;
+    margin: 0 0 2em;
+    font-size: 1em;
+    line-height: 1.65;
+    color: rgb(var(--gray-dark));
+  }
+  .tldr-box p { margin: 0; }
+
+  /* Facts Table */
+  .table-wrap {
+    overflow-x: auto;
+    margin: 0 0 2em;
+    border-radius: 10px;
+    border: 1px solid rgb(var(--gray-light));
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.93em;
+  }
+  th[scope="row"] {
+    padding: 0.7em 1.1em;
+    text-align: left;
+    font-weight: 700;
+    width: 160px;
+    background: #f8fafc;
+    color: rgb(var(--black));
+    border-bottom: 1px solid rgb(var(--gray-light));
+    vertical-align: top;
+  }
+  td {
+    padding: 0.7em 1.1em;
+    border-bottom: 1px solid rgb(var(--gray-light));
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  tr:last-child th, tr:last-child td { border-bottom: none; }
+
+  /* Coverage list */
+  .coverage-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 2em;
+  }
+  .coverage-list li {
+    display: flex;
+    gap: 1em;
+    align-items: flex-start;
+    background: white;
+    border: 1px solid rgb(var(--gray-light));
+    border-radius: 10px;
+    padding: 1em 1.25em;
+    line-height: 1.55;
+    font-size: 0.95em;
+  }
+  .coverage-icon {
+    font-size: 1.5em;
+    flex-shrink: 0;
+    margin-top: 0.05em;
+  }
+
+  /* Links */
+  .links-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+    font-size: 0.95em;
+  }
+  .links-list li {
+    padding: 0.5em 0;
+    border-bottom: 1px solid rgb(var(--gray-light));
+  }
+  .links-list li:last-child { border-bottom: none; }
+
+  @media (max-width: 720px) {
+    h1 { font-size: 1.7em; }
+    th[scope="row"] { width: 110px; }
+    .coverage-list li { flex-direction: column; gap: 0.5em; }
+  }
+</style>
