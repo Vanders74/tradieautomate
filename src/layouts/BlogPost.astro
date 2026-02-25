@@ -4,15 +4,44 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
+import { SITE_URL } from '../consts';
 
 type Props = CollectionEntry<'blog'>['data'];
 
 const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+const imageUrl = heroImage ? new URL(heroImage, Astro.site).toString() : null;
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "description": description,
+  "url": canonicalURL,
+  "datePublished": pubDate.toISOString(),
+  "dateModified": (updatedDate || pubDate).toISOString(),
+  "author": {
+    "@type": "Organization",
+    "name": "TradieAutomate",
+    "@id": `${SITE_URL}/#organization`
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TradieAutomate",
+    "@id": `${SITE_URL}/#organization`
+  },
+  ...(imageUrl ? { "image": imageUrl } : {}),
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": canonicalURL
+  }
+};
 ---
 
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead title={title} description={description} type="article" pubDate={pubDate} updatedDate={updatedDate} />
+		<script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
 		<style>
 			main {
 				width: calc(100% - 2em);
