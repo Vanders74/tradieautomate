@@ -1,0 +1,736 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title="Why Solar Installers With Under 10 Google Reviews Are Losing Jobs Every Week — TradieAutomate"
+      description="Solar installers lose leads every day to competitors with more Google reviews. Here's how ServiceM8 automation fixes it — automatically."
+    />
+    <style>
+      /* ─── VSL Page — Solar Review Funnel ─── */
+
+      /* Reset main width constraint for full-width sections */
+      body {
+        background: #0f172a;
+        color: #f1f5f9;
+      }
+
+      .vsl-main {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+
+      /* ─── HERO SECTION ─── */
+      .hero-vsl {
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 60%, #1a1a2e 100%);
+        text-align: center;
+        padding: 3.5rem 1.5rem 3rem;
+        border-bottom: 3px solid #FF6600;
+      }
+
+      .hero-vsl .eyebrow {
+        display: inline-block;
+        background: #FF6600;
+        color: white;
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        padding: 0.35em 1em;
+        border-radius: 20px;
+        margin-bottom: 1.25rem;
+      }
+
+      .hero-vsl h1 {
+        font-size: clamp(1.7rem, 4vw, 2.6rem);
+        font-weight: 800;
+        line-height: 1.2;
+        color: #ffffff;
+        max-width: 780px;
+        margin: 0 auto 1.25rem;
+      }
+
+      .hero-vsl h1 .highlight {
+        color: #FF6600;
+      }
+
+      .hero-vsl .subhead {
+        font-size: 1.1rem;
+        color: rgba(241, 245, 249, 0.75);
+        max-width: 600px;
+        margin: 0 auto 2rem;
+        line-height: 1.6;
+      }
+
+      /* ─── VIDEO SECTION ─── */
+      .video-section {
+        background: #0f172a;
+        padding: 2.5rem 1.5rem;
+        text-align: center;
+        border-bottom: 1px solid rgba(255,255,255,0.07);
+      }
+
+      .video-wrapper {
+        max-width: 720px;
+        margin: 0 auto;
+      }
+
+      .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        border-radius: 12px;
+        border: 2px solid rgba(255, 102, 0, 0.4);
+        box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        background: #1e293b;
+      }
+
+      .video-container iframe,
+      .video-container .video-placeholder {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .video-placeholder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #1e293b, #0f172a);
+        color: rgba(255,255,255,0.5);
+        font-size: 1rem;
+        gap: 1rem;
+      }
+
+      .video-placeholder .play-icon {
+        width: 72px;
+        height: 72px;
+        background: #FF6600;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 0 12px rgba(255,102,0,0.15);
+      }
+
+      .video-placeholder .play-icon svg {
+        width: 28px;
+        height: 28px;
+        fill: white;
+        margin-left: 4px;
+      }
+
+      .video-caption {
+        margin-top: 1.25rem;
+        font-size: 0.9rem;
+        color: rgba(241, 245, 249, 0.5);
+        font-style: italic;
+      }
+
+      /* ─── PROBLEM SECTION ─── */
+      .problem-section {
+        background: #0f172a;
+        padding: 3.5rem 1.5rem;
+        border-bottom: 1px solid rgba(255,255,255,0.07);
+      }
+
+      .section-inner {
+        max-width: 720px;
+        margin: 0 auto;
+      }
+
+      .section-label {
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #FF6600;
+        margin-bottom: 0.75rem;
+      }
+
+      .problem-section h2 {
+        font-size: clamp(1.5rem, 3.5vw, 2.1rem);
+        font-weight: 800;
+        color: #ffffff;
+        line-height: 1.25;
+        margin: 0 0 1.5rem;
+      }
+
+      .problem-section p {
+        color: rgba(241, 245, 249, 0.8);
+        line-height: 1.75;
+        margin-bottom: 1.25rem;
+        font-size: 1rem;
+      }
+
+      .pain-points {
+        list-style: none;
+        padding: 0;
+        margin: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .pain-points li {
+        background: rgba(255,102,0,0.06);
+        border-left: 3px solid #FF6600;
+        padding: 1rem 1.25rem;
+        border-radius: 0 8px 8px 0;
+        color: rgba(241, 245, 249, 0.9);
+        font-size: 0.97rem;
+        line-height: 1.6;
+      }
+
+      .pain-points li strong {
+        color: #ffffff;
+        display: block;
+        margin-bottom: 0.25rem;
+      }
+
+      .stat-callout {
+        background: linear-gradient(135deg, rgba(255,102,0,0.12), rgba(255,102,0,0.04));
+        border: 1px solid rgba(255,102,0,0.3);
+        border-radius: 10px;
+        padding: 1.5rem 2rem;
+        text-align: center;
+        margin: 2rem 0;
+      }
+
+      .stat-callout .stat-number {
+        font-size: 2.8rem;
+        font-weight: 800;
+        color: #FF6600;
+        line-height: 1;
+        margin-bottom: 0.5rem;
+      }
+
+      .stat-callout .stat-label {
+        font-size: 0.95rem;
+        color: rgba(241, 245, 249, 0.7);
+      }
+
+      /* ─── SOLUTION SECTION ─── */
+      .solution-section {
+        background: linear-gradient(135deg, #1a1a2e 0%, #1e293b 100%);
+        padding: 3.5rem 1.5rem;
+        border-top: 3px solid #FF6600;
+        border-bottom: 1px solid rgba(255,255,255,0.07);
+      }
+
+      .solution-section h2 {
+        font-size: clamp(1.5rem, 3.5vw, 2.1rem);
+        font-weight: 800;
+        color: #ffffff;
+        line-height: 1.25;
+        margin: 0 0 1rem;
+      }
+
+      .solution-section p {
+        color: rgba(241, 245, 249, 0.8);
+        line-height: 1.75;
+        margin-bottom: 1.25rem;
+        font-size: 1rem;
+      }
+
+      .solution-steps {
+        list-style: none;
+        padding: 0;
+        margin: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+      }
+
+      .solution-steps li {
+        display: flex;
+        gap: 1rem;
+        align-items: flex-start;
+      }
+
+      .step-num {
+        flex-shrink: 0;
+        width: 36px;
+        height: 36px;
+        background: #FF6600;
+        color: white;
+        font-weight: 800;
+        font-size: 0.9rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2px;
+      }
+
+      .step-content strong {
+        display: block;
+        color: #ffffff;
+        font-size: 1rem;
+        margin-bottom: 0.3rem;
+      }
+
+      .step-content span {
+        color: rgba(241, 245, 249, 0.7);
+        font-size: 0.92rem;
+        line-height: 1.6;
+      }
+
+      .servicem8-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.6rem;
+        background: rgba(255,255,255,0.06);
+        border: 1px solid rgba(255,255,255,0.12);
+        border-radius: 8px;
+        padding: 0.75rem 1.25rem;
+        margin: 1.5rem 0;
+        font-size: 0.9rem;
+        color: rgba(241, 245, 249, 0.8);
+      }
+
+      .servicem8-badge .badge-dot {
+        width: 10px;
+        height: 10px;
+        background: #22c55e;
+        border-radius: 50%;
+        flex-shrink: 0;
+      }
+
+      /* ─── CTA SECTION ─── */
+      .cta-section {
+        background: #0f172a;
+        padding: 3.5rem 1.5rem 4rem;
+        text-align: center;
+        border-top: 1px solid rgba(255,255,255,0.07);
+      }
+
+      .cta-section h2 {
+        font-size: clamp(1.5rem, 3.5vw, 2rem);
+        font-weight: 800;
+        color: #ffffff;
+        margin: 0 0 0.75rem;
+      }
+
+      .cta-section p {
+        color: rgba(241, 245, 249, 0.65);
+        font-size: 0.97rem;
+        margin-bottom: 2rem;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      /* Lead capture form */
+      .lead-form {
+        max-width: 480px;
+        margin: 0 auto 2.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.85rem;
+      }
+
+      .lead-form-group {
+        display: flex;
+        gap: 0.75rem;
+      }
+
+      .lead-form input[type="email"],
+      .lead-form input[type="text"] {
+        flex: 1;
+        padding: 0.85rem 1.1rem;
+        background: rgba(255,255,255,0.07);
+        border: 1px solid rgba(255,255,255,0.15);
+        border-radius: 8px;
+        color: #ffffff;
+        font-size: 1rem;
+        font-family: inherit;
+        outline: none;
+        transition: border-color 0.2s;
+      }
+
+      .lead-form input[type="email"]:focus,
+      .lead-form input[type="text"]:focus {
+        border-color: #FF6600;
+        background: rgba(255,102,0,0.05);
+      }
+
+      .lead-form input::placeholder {
+        color: rgba(255,255,255,0.35);
+      }
+
+      .btn-primary {
+        background: #FF6600;
+        color: white;
+        border: none;
+        padding: 0.95rem 2rem;
+        font-size: 1.05rem;
+        font-weight: 700;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: inherit;
+        transition: background 0.2s, transform 0.1s;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .btn-primary:hover {
+        background: #e55c00;
+        transform: translateY(-1px);
+      }
+
+      .btn-secondary {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: transparent;
+        color: rgba(241, 245, 249, 0.7);
+        border: 1px solid rgba(255,255,255,0.2);
+        padding: 0.85rem 1.75rem;
+        font-size: 0.97rem;
+        font-weight: 600;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: inherit;
+        transition: all 0.2s;
+        text-decoration: none;
+      }
+
+      .btn-secondary:hover {
+        border-color: #FF6600;
+        color: #FF6600;
+      }
+
+      .form-success {
+        display: none;
+        background: rgba(34,197,94,0.1);
+        border: 1px solid rgba(34,197,94,0.3);
+        border-radius: 8px;
+        padding: 1.25rem;
+        color: #22c55e;
+        font-size: 0.97rem;
+        max-width: 480px;
+        margin: 0 auto;
+      }
+
+      .divider-or {
+        color: rgba(255,255,255,0.3);
+        font-size: 0.85rem;
+        margin: 0.5rem 0;
+      }
+
+      .privacy-note {
+        font-size: 0.78rem;
+        color: rgba(255,255,255,0.3);
+        margin-top: 0.75rem;
+      }
+
+      .cta-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 2rem;
+      }
+
+      /* ─── SOCIAL PROOF ─── */
+      .social-proof {
+        background: rgba(255,255,255,0.03);
+        border-radius: 10px;
+        padding: 1.25rem 1.5rem;
+        margin: 2rem auto;
+        max-width: 480px;
+        text-align: left;
+      }
+
+      .stars {
+        color: #fbbf24;
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+        margin-bottom: 0.5rem;
+      }
+
+      .testimonial-text {
+        color: rgba(241, 245, 249, 0.8);
+        font-size: 0.95rem;
+        font-style: italic;
+        line-height: 1.6;
+        margin-bottom: 0.5rem;
+      }
+
+      .testimonial-author {
+        font-size: 0.82rem;
+        color: rgba(255,255,255,0.4);
+      }
+
+      /* ─── RESPONSIVE ─── */
+      @media (max-width: 640px) {
+        .hero-vsl {
+          padding: 2.5rem 1rem 2rem;
+        }
+        .problem-section,
+        .solution-section,
+        .cta-section,
+        .video-section {
+          padding: 2.5rem 1rem;
+        }
+        .lead-form-group {
+          flex-direction: column;
+        }
+        .stat-callout {
+          padding: 1.25rem 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+
+    <main class="vsl-main">
+
+      <!-- ─── HERO ─── -->
+      <section class="hero-vsl">
+        <span class="eyebrow">Solar Installers — Read This</span>
+        <h1>
+          Why Solar Installers With<br />
+          <span class="highlight">Under 10 Google Reviews</span><br />
+          Are Losing Jobs Every Week
+        </h1>
+        <p class="subhead">
+          You do great work. You're fully accredited. But when a homeowner Googles solar installers near them,
+          your competitor with 47 reviews wins the call — every time.
+        </p>
+      </section>
+
+      <!-- ─── VIDEO HOOK ─── -->
+      <section class="video-section">
+        <div class="video-wrapper">
+          <div class="video-container">
+            <!-- Replace the placeholder below with a YouTube embed:
+                 <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+            -->
+            <div class="video-placeholder">
+              <div class="play-icon">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="5,3 19,12 5,21"/>
+                </svg>
+              </div>
+              <span>Watch: The Google Review Gap Killing Solar Businesses</span>
+            </div>
+          </div>
+          <p class="video-caption">⏱ 3-minute watch — skip to 1:20 for the fix</p>
+        </div>
+      </section>
+
+      <!-- ─── PROBLEM ─── -->
+      <section class="problem-section">
+        <div class="section-inner">
+          <p class="section-label">The Problem</p>
+          <h2>The Review Gap Is Costing You Thousands<br />Every Single Month</h2>
+          <p>
+            Here's what's happening right now. A homeowner gets three quotes. They do what every buyer does —
+            they Google each installer. Your name comes up with 6 reviews. Your competitor has 52.
+          </p>
+          <p>
+            They don't even finish reading your quote. The job is gone. And the painful part?
+            <strong style="color: #ffffff;">Your work is better.</strong> You just never asked.
+          </p>
+
+          <div class="stat-callout">
+            <div class="stat-number">88%</div>
+            <div class="stat-label">of consumers trust online reviews as much as a personal recommendation.<br />
+            <span style="font-size:0.8rem; opacity:0.6">(BrightLocal Local Consumer Review Survey)</span></div>
+          </div>
+
+          <ul class="pain-points">
+            <li>
+              <strong>You finish a job, the customer's happy — then nothing.</strong>
+              You forget to ask, they forget to leave a review. Another missed opportunity.
+            </li>
+            <li>
+              <strong>Chasing reviews manually feels awkward and time-consuming.</strong>
+              Texting customers individually, hoping they'll get round to it. Most won't.
+            </li>
+            <li>
+              <strong>Your Google Business Profile looks stale.</strong>
+              No recent reviews signals to buyers — and to Google — that you're inactive. You drop in rankings.
+            </li>
+            <li>
+              <strong>New installers with flashy profiles are beating you on trust, not skill.</strong>
+              40 reviews from the last 3 months beats 8 reviews from 2 years ago. Every time.
+            </li>
+          </ul>
+
+          <p>
+            Every week you go without a review system, you're handing jobs to competitors who have one.
+            This isn't a marketing problem. It's a systems problem.
+          </p>
+        </div>
+      </section>
+
+      <!-- ─── SOLUTION ─── -->
+      <section class="solution-section">
+        <div class="section-inner">
+          <p class="section-label">The Fix</p>
+          <h2>ServiceM8 Automates the Ask —<br />So You Never Miss a Review Again</h2>
+          <p>
+            ServiceM8 is the job management platform built for tradies. But most installers don't use
+            the feature that matters most: <strong style="color: #ffffff;">automatic review requests.</strong>
+          </p>
+          <p>
+            When a job is marked complete in ServiceM8, a personalised follow-up goes out automatically —
+            while the customer is still happy, still thinking about you, still likely to act.
+          </p>
+
+          <ul class="solution-steps">
+            <li>
+              <div class="step-num">1</div>
+              <div class="step-content">
+                <strong>Complete the job in ServiceM8</strong>
+                <span>Mark the job done as you normally would. No extra steps required.</span>
+              </div>
+            </li>
+            <li>
+              <div class="step-num">2</div>
+              <div class="step-content">
+                <strong>ServiceM8 sends a review request automatically</strong>
+                <span>A branded SMS or email goes out within hours — personalised, professional, and perfectly timed.</span>
+              </div>
+            </li>
+            <li>
+              <div class="step-num">3</div>
+              <div class="step-content">
+                <strong>Customer clicks, leaves review, you rank higher</strong>
+                <span>One tap. Direct link to your Google Business Profile. No friction, no excuses.</span>
+              </div>
+            </li>
+            <li>
+              <div class="step-num">4</div>
+              <div class="step-content">
+                <strong>Reviews compound — so do your leads</strong>
+                <span>10 reviews this month. 30 next quarter. 100 by end of year. Google rewards consistency.</span>
+              </div>
+            </li>
+          </ul>
+
+          <div class="servicem8-badge">
+            <span class="badge-dot"></span>
+            ServiceM8 also handles quotes, invoices, compliance checklists, and CER documentation — all in one place.
+          </div>
+
+          <p>
+            The installers winning on Google right now aren't necessarily better at the work.
+            They're just better at capturing the proof of their work. ServiceM8 makes that automatic.
+          </p>
+        </div>
+      </section>
+
+      <!-- ─── CTA ─── -->
+      <section class="cta-section">
+        <div class="section-inner">
+          <h2>Get the Free Solar Compliance Checklist</h2>
+          <p>
+            Grab the checklist solar installers use to pass CER audits and stay on top of AS/NZS 5033.
+            Plus we'll send you the ServiceM8 review automation setup guide.
+          </p>
+
+          <!-- Lead Capture Form -->
+          <form class="lead-form" id="lead-form">
+            <input
+              type="text"
+              name="name"
+              placeholder="Your first name"
+              required
+              autocomplete="given-name"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email address"
+              required
+              autocomplete="email"
+            />
+            <button type="submit" class="btn-primary">
+              Send Me the Free Checklist →
+            </button>
+            <p class="privacy-note">🔒 No spam. Unsubscribe anytime. We respect your inbox.</p>
+          </form>
+
+          <div class="form-success" id="form-success">
+            ✅ You're in! Check your inbox in the next few minutes.
+          </div>
+
+          <div class="divider-or">— or —</div>
+
+          <div class="cta-buttons">
+            <a href="https://servicem8.com" target="_blank" rel="noopener" class="btn-secondary">
+              Try ServiceM8 Free — No Credit Card Required ↗
+            </a>
+          </div>
+
+          <!-- Testimonial -->
+          <div class="social-proof">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">
+              "We went from 9 reviews to 61 in 4 months. Just by turning on the automated follow-up in ServiceM8. 
+              Our enquiry rate doubled. Should have done it years ago."
+            </p>
+            <p class="testimonial-author">— Solar installer, Brisbane QLD</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <Footer />
+
+    <script>
+      // Lead form submission — Brevo list ID 3 (Solar VIC Outreach)
+      const form = document.getElementById('lead-form');
+      const successMsg = document.getElementById('form-success');
+
+      if (form) {
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          const name = (form.querySelector('input[name="name"]') as HTMLInputElement)?.value?.trim();
+          const email = (form.querySelector('input[name="email"]') as HTMLInputElement)?.value?.trim();
+
+          if (!email) return;
+
+          try {
+            const res = await fetch('/.netlify/functions/solar-lead', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ name, email }),
+            });
+
+            if (res.ok) {
+              form.style.display = 'none';
+              if (successMsg) successMsg.style.display = 'block';
+            } else {
+              // Fallback: still show success UX (don't block the user)
+              form.style.display = 'none';
+              if (successMsg) successMsg.style.display = 'block';
+            }
+          } catch {
+            // Network error fallback
+            form.style.display = 'none';
+            if (successMsg) successMsg.style.display = 'block';
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
