@@ -21,7 +21,7 @@ It replaced and significantly updated the previous guidance that applied to batt
 - Lead-acid and flow battery systems
 - Any battery storage connected to a PV array or grid-connected inverter
 
-The standard is referenced in CER accreditation requirements and is the benchmark used during CEC audits.
+The standard is referenced in CER accreditation requirements and is the benchmark used during CEC audits. For a broader compliance picture that covers your full solar install (not just battery), see our [complete solar compliance checklist for Australian installers](/blog/solar-compliance-checklist-2026).
 
 ## The 4 Areas Where Installers Most Often Fail
 
@@ -66,7 +66,7 @@ Every battery installation must be accompanied by a handover package that includ
 
 Missing or incomplete handover documentation is the single most common reason for audit failures. The CER has made clear that documentation failures will be treated as compliance failures — regardless of whether the physical installation is correct.
 
-**The fix:** Never mark a job complete until the documentation is done. Digital job management systems like ServiceM8 allow you to make documentation completion a required step before the job status can be updated — removing the possibility of driving away without completing the paperwork.
+**The fix:** Never mark a job complete until the documentation is done. [Digital job management systems like ServiceM8](/blog/servicem8-for-solar-installers) allow you to make documentation completion a required step before the job status can be updated — removing the possibility of driving away without completing the paperwork.
 
 ### 4. Thermal Management and Ventilation
 
@@ -122,7 +122,7 @@ When every install follows the same process — captured digitally, tied to the 
 
 Paper checklists get lost. Photos in camera rolls can't be tied to a specific job or date. Handover forms left in the van create liability.
 
-Job management platforms like ServiceM8 solve this by making documentation a built-in part of the workflow rather than an afterthought:
+[Digital job management](/blog/digital-job-management-solar-installers) solves this by making documentation a built-in part of the workflow rather than an afterthought. Platforms like [ServiceM8](/blog/servicem8-for-solar-installers) let you build AS/NZS 5139 requirements directly into your job workflow:
 
 - Custom forms built for AS/NZS 5139 requirements
 - Photo capture tied to job records with timestamp and GPS
@@ -150,4 +150,4 @@ If every box is ticked before you leave the site, you're audit-ready.
 
 ---
 
-*TradieAutomate helps Australian solar and battery installers build compliant, efficient businesses. Learn how ServiceM8 can make AS/NZS 5139 compliance a built-in part of your workflow.*
+*TradieAutomate helps Australian solar and battery installers build compliant, efficient businesses. Learn how [ServiceM8 can make AS/NZS 5139 compliance a built-in part of your workflow](/blog/servicem8-for-solar-installers).*
