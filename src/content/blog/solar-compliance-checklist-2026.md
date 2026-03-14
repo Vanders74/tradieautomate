@@ -74,6 +74,14 @@ This checklist covers everything you need to have in order **before, during, and
 - ✅ Customer declaration form signed
 - ✅ Photos stored as evidence (recommended minimum: roof layout, switchboard, isolators, inverter label)
 
+## Battery Storage Jobs — Additional Requirements
+
+If your job includes a battery system, you're working under a separate standard. See our full guide to [AS/NZS 5139 battery storage compliance](/blog/as-nzs-5139-battery-storage-compliance) for the specific clearance, labelling, and documentation requirements that apply.
+
+## Keeping Compliance Documentation Audit-Ready
+
+Paper checklists and photos buried in camera rolls won't cut it when the CER auditor calls. [Digital job management platforms](/blog/digital-job-management-solar-installers) keep every compliance document attached to the job record — retrievable in seconds. [ServiceM8](/blog/servicem8-for-solar-installers) is the platform most Australian solar installers are using to solve this problem.
+
 ## The Bottom Line
 
 Compliance isn't just about avoiding penalties — it's about building a reputation that generates referrals and repeat business.
