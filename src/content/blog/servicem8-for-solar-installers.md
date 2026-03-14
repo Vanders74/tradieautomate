@@ -32,6 +32,8 @@ The installers who get caught out aren't cutting corners on the physical install
 
 Missing compliance checklists. Incorrect inverter labels. No signed customer handover forms. Photos that can't be tied to a specific job and date.
 
+If you're not across the full requirements of [AS/NZS 5139 for battery storage installations](/blog/as-nzs-5139-battery-storage-compliance), that's the place to start — then come back here to see how ServiceM8 makes hitting those requirements automatic.
+
 ServiceM8 addresses this directly:
 
 ### Digital Job Checklists
@@ -41,6 +43,8 @@ Every job in ServiceM8 can include a custom form or checklist that must be compl
 - Pre-install compliance checks happen on-site, on the device, before the tech drives away
 - Every completed checklist is timestamped and attached to the job record
 - CER audit prep becomes a matter of filtering and exporting — not a frantic search through filing cabinets
+
+Need a starting point for what your checklists should cover? Our [solar compliance checklist](/blog/solar-compliance-checklist-2026) maps out every requirement before, during, and after installation.
 
 ### Photo Capture Tied to Jobs
 
@@ -92,7 +96,7 @@ ServiceM8 is best suited for solar installation businesses that:
 - Want to reduce admin hours without hiring a dedicated office manager
 - Are ready to professionalise their customer communication (confirmations, ETAs, invoices, reviews)
 
-If you're a sole trader doing a handful of jobs per month, a simpler setup might be enough for now. But the moment you start thinking about growth — adding crew, scaling to commercial work, or building a business you could eventually sell — the foundations ServiceM8 provides become extremely valuable.
+If you're a sole trader doing a handful of jobs per month, a simpler setup might be enough for now. But if you're still unsure whether [digital job management is the right move for your business](/blog/digital-job-management-solar-installers), that article walks through the full case for switching — and the maths behind it.
 
 ## Getting Started
 
