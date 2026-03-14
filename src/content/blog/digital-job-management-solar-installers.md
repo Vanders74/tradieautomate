@@ -1,6 +1,6 @@
 ---
 title: 'Why Solar Installers Are Switching to Digital Job Management in 2026'
-description: 'Paper checklists and WhatsApp photos won''t cut it anymore. Here''s why smart solar installers are going digital — and what to look for in a job management platform.'
+description: 'Paper checklists and WhatsApp photos won't cut it anymore. Here's why smart solar installers are going digital — and what to look for in a job management platform.'
 pubDate: 'Feb 18 2026'
 heroImage: '/hero-digital-jobs.jpg'
 ---
@@ -30,7 +30,7 @@ A good job management platform doesn't just replace paper — it creates a **sin
 No more copying job details between 4 different tools. One entry flows through the entire job lifecycle.
 
 ### 2. Compliance Documentation Built In
-Digital forms, photo capture, checklists — all attached to the job record. When the auditor calls, you pull up the job in 10 seconds.
+Digital forms, photo capture, checklists — all attached to the job record. When the auditor calls, you pull up the job in 10 seconds. This matters even more for battery storage jobs, which carry specific documentation obligations under [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance).
 
 ### 3. Real-Time Job Tracking
 Know which jobs are scheduled, in progress, or complete. From your phone.
@@ -45,12 +45,16 @@ Know your job costs, margins, and outstanding invoices in real time. Not at the 
 
 Not all job management platforms are built for trades. Here's what matters for solar/electrical installers specifically:
 
-- **Custom forms** — you need forms that match your compliance requirements, not generic templates
+- **Custom forms** — you need forms that match your compliance requirements, not generic templates (see our [solar compliance checklist](/blog/solar-compliance-checklist-2026) for exactly what needs to be captured)
 - **Photo capture with GPS/timestamp** — proves you were on site, when, and what you installed
 - **Asset tracking** — serial numbers, panel locations, inverter details linked to each job
 - **Mobile-first** — if it doesn't work brilliantly on a phone, your crew won't use it
 - **Unlimited users** — some platforms charge per user, which kills you as you grow
 - **Integration with accounting** — Xero/MYOB sync saves hours of double entry
+
+## The Leading Platform for Australian Solar Installers
+
+Of the platforms available to Australian solar businesses, [ServiceM8](/blog/servicem8-for-solar-installers) stands out for its compliance-first design, mobile experience, and the depth of its job record capabilities. We've written a detailed breakdown of how it solves the specific challenges solar installers face.
 
 ## The Cost of NOT Switching
 
