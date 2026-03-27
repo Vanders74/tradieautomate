@@ -194,6 +194,7 @@ Set up your first job today. No credit card required.
 ---
 
 *Related reading:*
+- *[Best Job Management Software for Solar Installers Australia 2026](/guides/best-job-management-software-solar-installers-australia-2026)*
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[Why Solar Installers Are Switching to Digital Job Management](/blog/digital-job-management-solar-installers)*
