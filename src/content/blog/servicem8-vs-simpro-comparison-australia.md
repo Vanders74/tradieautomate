@@ -3,7 +3,6 @@ title: 'ServiceM8 vs simPRO: Which Job Management Software Is Right for Australi
 description: 'Comparing ServiceM8 vs simPRO for Australian trade businesses in 2026. Side-by-side breakdown of pricing, features, compliance tools, and which platform suits solar installers, electricians, and plumbers.'
 pubDate: 'Mar 28 2026'
 heroImage: '/hero-servicem8.jpg'
-tags: ['servicem8', 'simpro', 'job management software', 'australian tradies']
 ---
 
 If you're running a trade business in Australia in 2026, job management software isn't a luxury — it's infrastructure. The question isn't *whether* to use it. It's *which one*.
