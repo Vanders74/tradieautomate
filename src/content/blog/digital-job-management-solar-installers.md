@@ -56,6 +56,8 @@ Not all job management platforms are built for trades. Here's what matters for s
 
 Of the platforms available to Australian solar businesses, [ServiceM8](/blog/servicem8-for-solar-installers) stands out for its compliance-first design, mobile experience, and the depth of its job record capabilities. We've written a detailed breakdown of how it solves the specific challenges solar installers face.
 
+For a full side-by-side comparison of every major platform — including pricing, compliance features, and which businesses each suits best — see our [Best Job Management Software for Solar Installers Australia 2026](/guides/best-job-management-software-solar-installers-australia-2026) guide.
+
 ## The Cost of NOT Switching
 
 Here's the maths most installers don't do:

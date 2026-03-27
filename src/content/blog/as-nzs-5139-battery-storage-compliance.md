@@ -107,7 +107,7 @@ The customer interview element surprises many installers. A technically perfect 
 
 ## Building a Compliant Process
 
-The installers who consistently pass audits aren't necessarily the most technically skilled — they're the most systematically compliant.
+The installers who consistently pass audits aren't necessarily the most technically skilled — they're the most systematically compliant. If you're evaluating which job management platform to build your compliance process on, our [ranked guide to the best job management software for Australian solar installers](/guides/best-job-management-software-solar-installers-australia-2026) covers the top options side by side.
 
 The difference is process:
 
