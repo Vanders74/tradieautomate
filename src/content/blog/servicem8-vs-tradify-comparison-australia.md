@@ -2,7 +2,7 @@
 title: 'ServiceM8 vs Tradify: Which Is Better for Australian Trade Businesses in 2026?'
 description: 'ServiceM8 vs Tradify — a direct comparison for Australian solar installers, electricians, and tradies. Pricing, features, compliance tools, and which platform delivers more value in 2026.'
 pubDate: 'Mar 28 2026'
-heroImage: '/hero-servicem8.jpg'
+heroImage: '/hero-tradify-comparison.jpg'
 ---
 
 When you're researching job management software for your trade business, **ServiceM8 and Tradify** come up together constantly. They're both designed for small trade businesses, they're both cloud-based, and they're both priced for the sub-enterprise market.
