@@ -2,7 +2,7 @@
 title: 'ServiceM8 for Solar Installers: The Job Management Platform Built for Compliance'
 description: 'How Australian solar and battery installation businesses are using ServiceM8 to cut admin time, pass CER audits, and scale without the paperwork chaos.'
 pubDate: 'Feb 22 2026'
-heroImage: '/hero-servicem8.jpg'
+heroImage: '/hero-servicem8-for-solar-installers.jpg'
 ---
 
 Every solar installer eventually hits the same wall.
