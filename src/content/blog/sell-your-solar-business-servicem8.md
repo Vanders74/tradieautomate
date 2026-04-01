@@ -39,7 +39,7 @@ The system that bridges that gap is ServiceM8.
 
 Before getting into what ServiceM8 does, it helps to understand what a buyer's due diligence actually looks like. Serious buyers — trade aggregators, private equity-backed roll-ups, experienced operators looking for a second business — are evaluating several key pillars:
 
-**1. Compliance record.** Every job should have traceable documentation — Certificate of Electrical Safety (COES), SWMS, compliance checklists, and installation photos. If you can't produce these on demand, the liability transfers to the buyer. They won't accept that.
+**1. Compliance record.** Every job should have traceable documentation — Certificate of Electrical Safety (CES), SWMS, compliance checklists, and installation photos. If you can't produce these on demand, the liability transfers to the buyer. They won't accept that.
 
 **2. Asset and warranty register.** For solar and battery businesses, you're selling a portfolio of future liability. Buyers want to know exactly what equipment was installed at every site, when, and with what serial numbers. This is how they assess warranty exposure.
 
@@ -91,7 +91,7 @@ Every automated process in ServiceM8 is part of your answer to that question. It
 
 ### Your Financials Are Clean and Verifiable
 
-ServiceM8's direct integration with Xero and QuickBooks means every job has a corresponding financial record. Job costing shows materials plus labour against the original quote — in real time.
+ServiceM8's direct integration with Xero and MYOB means every job has a corresponding financial record. Job costing shows materials plus labour against the original quote — in real time.
 
 When a buyer's accountant asks for job-level profitability, you don't have to reconstruct it manually. It's already there, consistent, tied to the same data your operations team uses every day.
 
@@ -103,7 +103,7 @@ Clean books tied to verifiable job records eliminate one of the most common reas
 
 Based on what buyers pay most attention to in a solar business, these are the five areas in ServiceM8 that deliver the highest return on your exit:
 
-1. **Mandatory compliance forms on every job** — Set your COES and SWMS forms as required before a job can be marked complete. Zero-gap compliance history is what converts a liability into an asset.
+1. **Mandatory compliance forms on every job** — Set your CES and SWMS forms as required before a job can be marked complete. Zero-gap compliance history is what converts a liability into an asset.
 
 2. **Asset management from day one** — Every install logged, every serial number captured. The more complete your database, the cleaner your warranty picture.
 
@@ -111,7 +111,7 @@ Based on what buyers pay most attention to in a solar business, these are the fi
 
 4. **Automated quote follow-ups** — Proves to a buyer that the business captures every opportunity without manual chasing.
 
-5. **Xero/QuickBooks integration with job costing active** — Clean, auditable financials that tie directly to operations.
+5. **Xero/MYOB integration with job costing active** — Clean, auditable financials that tie directly to operations.
 
 None of these are complex to set up. But the compounding effect of running them consistently over one to two years before a sale is significant.
 
@@ -141,4 +141,4 @@ The question isn't whether you'll ever want to exit your business. Every busines
 
 ---
 
-*Ready to get ServiceM8 set up properly in your solar business? [Try ServiceM8 free for 14 days](#affiliate-link-pending) and start building the digital foundation that makes your business worth more — today and at exit.*
+*Ready to get ServiceM8 set up properly in your solar business? [Try ServiceM8 free for 14 days](https://www.servicem8.com/?ref=tradieautomate) and start building the digital foundation that makes your business worth more — today and at exit.*
