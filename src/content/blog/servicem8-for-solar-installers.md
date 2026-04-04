@@ -110,4 +110,10 @@ If you're ready to stop running your business on spreadsheets and WhatsApp group
 
 ---
 
+*Related reading:*
+- *[ServiceM8 Review 2026: Is It Worth It for Australian Tradies?](/blog/servicem8-review)*
+- *[CER Audit Prep for Solar Installers: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
+
+---
+
 *TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

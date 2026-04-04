@@ -82,6 +82,8 @@ If your job includes a battery system, you're working under a separate standard.
 
 Paper checklists and photos buried in camera rolls won't cut it when the CER auditor calls. [Digital job management platforms](/blog/digital-job-management-solar-installers) keep every compliance document attached to the job record — retrievable in seconds. [ServiceM8](/blog/servicem8-for-solar-installers) is the platform most Australian solar installers are using to solve this problem.
 
+Want to know exactly what CER auditors look for — and how to make sure you pass? Read our dedicated [CER audit prep guide for solar installers](/blog/cer-audit-prep-solar-installers).
+
 Not sure which platform is right for your business? See our ranked guide: [Best Job Management Software for Solar Installers Australia 2026](/guides/best-job-management-software-solar-installers-australia-2026).
 
 ## The Bottom Line
