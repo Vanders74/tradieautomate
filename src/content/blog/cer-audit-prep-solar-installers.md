@@ -2,7 +2,7 @@
 title: "CER Audit Prep for Solar Installers: How to Pass Your Clean Energy Regulator Audit"
 description: "What CER audits involve, common failure points, and how Australian solar installers can prepare their documentation and stay compliant. Practical guide for 2026."
 pubDate: "Apr 05 2026"
-heroImage: "/hero-cer-audit-prep.jpg"
+heroImage: '/hero-cer-audit-prep-solar-installers.jpg'
 ---
 
 CER audit activity is increasing. The Clean Energy Regulator has been ramping up compliance work across the Small-scale Renewable Energy Scheme (SRES), and solar installers are firmly in scope. Whether you're a sole trader with a CEC accreditation or running a crew of installers, understanding what auditors look for — and getting your documentation in order before they come knocking — is no longer optional.
