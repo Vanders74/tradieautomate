@@ -1,0 +1,392 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+
+const title = '2026 Solar Compliance Checklist — Free PDF Download';
+const description = 'Download the free 2026 Solar Compliance Checklist for Australian installers. CER rules, AS/NZS 5139, STC documentation — all in one printable PDF.';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <style>
+      .lead-page {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem 4rem;
+      }
+
+      .badge {
+        display: inline-block;
+        background: #f59e0b;
+        color: #1a2744;
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        padding: 0.35em 0.9em;
+        border-radius: 99px;
+        margin-bottom: 1.2rem;
+      }
+
+      h1 {
+        font-size: 2.2rem;
+        line-height: 1.15;
+        color: #1a2744;
+        margin: 0 0 1rem;
+      }
+
+      h1 span {
+        color: #f59e0b;
+      }
+
+      .sub {
+        font-size: 1.1rem;
+        color: #4b5563;
+        margin-bottom: 2rem;
+        line-height: 1.6;
+      }
+
+      .pdf-preview {
+        background: #f0f4ff;
+        border: 2px solid #dde4f0;
+        border-radius: 12px;
+        padding: 1.5rem 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        gap: 1.5rem;
+        align-items: flex-start;
+      }
+
+      .pdf-icon {
+        font-size: 3rem;
+        flex-shrink: 0;
+        line-height: 1;
+      }
+
+      .pdf-meta {
+        flex: 1;
+      }
+
+      .pdf-meta strong {
+        display: block;
+        font-size: 1rem;
+        color: #1a2744;
+        margin-bottom: 0.3rem;
+      }
+
+      .pdf-meta ul {
+        list-style: none;
+        padding: 0;
+        margin: 0.5rem 0 0;
+        font-size: 0.9rem;
+        color: #374151;
+      }
+
+      .pdf-meta ul li {
+        padding: 0.2rem 0;
+      }
+
+      .pdf-meta ul li::before {
+        content: '✓ ';
+        color: #16a34a;
+        font-weight: 700;
+      }
+
+      .form-box {
+        background: #1a2744;
+        border-radius: 12px;
+        padding: 2rem;
+        color: white;
+        margin-bottom: 2rem;
+      }
+
+      .form-box h2 {
+        font-size: 1.3rem;
+        margin: 0 0 0.5rem;
+        color: white;
+      }
+
+      .form-box p {
+        font-size: 0.9rem;
+        color: #b0bed4;
+        margin: 0 0 1.5rem;
+      }
+
+      .form-row {
+        display: flex;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+        margin-bottom: 0.75rem;
+      }
+
+      .form-field {
+        flex: 1;
+        min-width: 140px;
+      }
+
+      .form-field label {
+        display: block;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #94a3b8;
+        margin-bottom: 0.3rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      .form-field input {
+        width: 100%;
+        padding: 0.65rem 0.9rem;
+        border: 1.5px solid rgba(255,255,255,0.15);
+        border-radius: 6px;
+        background: rgba(255,255,255,0.07);
+        color: white;
+        font-size: 1rem;
+        outline: none;
+        box-sizing: border-box;
+        transition: border-color 0.2s;
+      }
+
+      .form-field input:focus {
+        border-color: #f59e0b;
+      }
+
+      .form-field input::placeholder {
+        color: rgba(255,255,255,0.35);
+      }
+
+      .submit-btn {
+        display: block;
+        width: 100%;
+        padding: 0.9rem 1.5rem;
+        background: #f59e0b;
+        color: #1a2744;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.05rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background 0.2s, transform 0.1s;
+        margin-top: 1rem;
+        text-align: center;
+      }
+
+      .submit-btn:hover {
+        background: #d97706;
+        transform: translateY(-1px);
+      }
+
+      .privacy {
+        font-size: 0.75rem;
+        color: #64748b;
+        margin-top: 0.75rem;
+        text-align: center;
+      }
+
+      .direct-download {
+        text-align: center;
+        padding: 1.5rem;
+        background: #f0fdf4;
+        border: 2px solid #bbf7d0;
+        border-radius: 12px;
+        margin-bottom: 2rem;
+      }
+
+      .direct-download p {
+        color: #15803d;
+        font-weight: 600;
+        margin: 0 0 1rem;
+      }
+
+      .download-btn {
+        display: inline-block;
+        background: #16a34a;
+        color: white;
+        text-decoration: none;
+        padding: 0.9rem 2rem;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 1.1rem;
+        transition: background 0.2s;
+      }
+
+      .download-btn:hover {
+        background: #15803d;
+      }
+
+      .trust-strip {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+      }
+
+      .trust-item {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-size: 0.85rem;
+        color: #6b7280;
+      }
+
+      .trust-item .icon {
+        font-size: 1rem;
+      }
+
+      .content-section {
+        margin-top: 3rem;
+        border-top: 2px solid #e5e7eb;
+        padding-top: 2rem;
+      }
+
+      .content-section h2 {
+        font-size: 1.4rem;
+        color: #1a2744;
+        margin-bottom: 0.75rem;
+      }
+
+      .content-section p {
+        color: #374151;
+        line-height: 1.7;
+        margin-bottom: 1rem;
+      }
+
+      @media (max-width: 600px) {
+        h1 { font-size: 1.7rem; }
+        .pdf-preview { flex-direction: column; }
+        .form-row { flex-direction: column; }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <div class="lead-page">
+
+        <div class="badge">Free Download</div>
+
+        <h1>2026 Solar Compliance Checklist<br /><span>for Australian Installers</span></h1>
+
+        <p class="sub">
+          Every compliance requirement for solar and battery installs — CER accreditation,
+          AS/NZS standards, STC documentation, and audit prep. One printable checklist
+          to keep you covered on every job.
+        </p>
+
+        <!-- PDF Preview -->
+        <div class="pdf-preview">
+          <div class="pdf-icon">📋</div>
+          <div class="pdf-meta">
+            <strong>2026 Solar Compliance Checklist PDF</strong>
+            <p style="color:#4b5563;font-size:0.9rem;margin:0.25rem 0 0.5rem;">A4 · Printable · 1 page · Free</p>
+            <ul>
+              <li>Before the Job — CER accreditation, design compliance, customer docs</li>
+              <li>During Installation — Electrical standards, safety, documentation</li>
+              <li>After Installation — Testing, paperwork, STC documentation</li>
+              <li>Battery Storage Add-On — AS/NZS 5139 requirements</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Direct Download Section -->
+        <div class="direct-download">
+          <p>📥 Ready to download — no signup required</p>
+          <a class="download-btn" href="/solar-compliance-checklist-2026.pdf" download="2026-Solar-Compliance-Checklist-TradieAutomate.pdf">
+            Download PDF Checklist →
+          </a>
+        </div>
+
+        <!-- Optional Email Subscribe -->
+        <div class="form-box">
+          <h2>Want updates when standards change?</h2>
+          <p>We'll email you when CER rules or AS/NZS standards are updated — no spam, just relevant compliance alerts for Australian solar installers.</p>
+
+          <!-- Brevo subscription form -->
+          <div id="sib-form-container">
+            <form id="sib-form" action="https://app.brevo.com/page/popup/form" method="post">
+              <input type="hidden" name="sib_affiliate_prefix" value="" />
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="FIRSTNAME">First Name</label>
+                  <input type="text" id="FIRSTNAME" name="FIRSTNAME" placeholder="Your first name" />
+                </div>
+                <div class="form-field">
+                  <label for="EMAIL">Email Address</label>
+                  <input type="email" id="EMAIL" name="EMAIL" placeholder="your@email.com" required />
+                </div>
+              </div>
+              <button type="submit" class="submit-btn">Get Compliance Updates →</button>
+            </form>
+          </div>
+
+          <p class="privacy">No spam. Unsubscribe anytime. Australian Privacy Act compliant.</p>
+        </div>
+
+        <!-- Trust indicators -->
+        <div class="trust-strip">
+          <div class="trust-item">
+            <span class="icon">🇦🇺</span>
+            <span>Australian-focused</span>
+          </div>
+          <div class="trust-item">
+            <span class="icon">📅</span>
+            <span>Updated for 2026 CER rules</span>
+          </div>
+          <div class="trust-item">
+            <span class="icon">🔒</span>
+            <span>No credit card required</span>
+          </div>
+        </div>
+
+        <!-- Supporting content -->
+        <div class="content-section">
+          <h2>What's Covered in the Checklist</h2>
+          <p>
+            The 2026 Solar Compliance Checklist is designed for Australian solar and battery installers
+            who need a single, reliable reference for every job. It covers the requirements across the
+            full installation lifecycle.
+          </p>
+          <p>
+            <strong>CER Accreditation</strong> — Current CEC accreditation, correct endorsement categories,
+            professional indemnity insurance, and electrical licence validity checks. These are the first
+            things an auditor will look at.
+          </p>
+          <p>
+            <strong>AS/NZS Standards Compliance</strong> — Wiring under AS/NZS 3000, PV array installation
+            under AS/NZS 5033, and battery storage under AS/NZS 5139:2019. The checklist maps each
+            requirement to the specific installation stage where it applies.
+          </p>
+          <p>
+            <strong>STC Documentation</strong> — Every field the Clean Energy Regulator requires for
+            Small-scale Technology Certificate claims, including the photo documentation that protects
+            you in an audit.
+          </p>
+          <p>
+            <strong>Battery Storage Add-On</strong> — The specific clearance, labelling, thermal management,
+            and handover documentation requirements under AS/NZS 5139. See our full guide:
+            <a href="/blog/as-nzs-5139-battery-storage-compliance">AS/NZS 5139 Battery Storage Compliance Guide</a>.
+          </p>
+
+          <h2>Want to Automate Your Compliance Workflow?</h2>
+          <p>
+            A printed checklist is a good start. But for solar businesses doing 20+ jobs a month,
+            digital job management means compliance documentation that's automatically attached to
+            every job record — retrievable in seconds when an audit call comes.
+          </p>
+          <p>
+            <a href="/blog/servicem8-for-solar-installers">ServiceM8 for Solar Installers</a> covers
+            how Australian solar businesses are using digital workflows to eliminate compliance risk —
+            and the <a href="https://www.servicem8.com/?ref=tradieautomate">14-day free trial</a> lets
+            you test it before spending anything.
+          </p>
+        </div>
+
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
