@@ -95,6 +95,7 @@ const description = 'Download the free 2026 Solar Compliance Checklist for Austr
         font-weight: 700;
       }
 
+      /* Gated form box */
       .form-box {
         background: #1a2744;
         border-radius: 12px;
@@ -109,8 +110,8 @@ const description = 'Download the free 2026 Solar Compliance Checklist for Austr
         color: white;
       }
 
-      .form-box p {
-        font-size: 0.9rem;
+      .form-box .form-desc {
+        font-size: 0.95rem;
         color: #b0bed4;
         margin: 0 0 1.5rem;
       }
@@ -174,9 +175,21 @@ const description = 'Download the free 2026 Solar Compliance Checklist for Austr
         text-align: center;
       }
 
-      .submit-btn:hover {
+      .submit-btn:hover:not(:disabled) {
         background: #d97706;
         transform: translateY(-1px);
+      }
+
+      .submit-btn:disabled {
+        opacity: 0.7;
+        cursor: not-allowed;
+      }
+
+      .form-error {
+        color: #fca5a5;
+        font-size: 0.875rem;
+        margin-top: 0.5rem;
+        display: none;
       }
 
       .privacy {
@@ -186,19 +199,26 @@ const description = 'Download the free 2026 Solar Compliance Checklist for Austr
         text-align: center;
       }
 
-      .direct-download {
+      /* Download reveal box — hidden until form submitted */
+      .download-reveal {
+        display: none;
         text-align: center;
-        padding: 1.5rem;
+        padding: 2rem;
         background: #f0fdf4;
         border: 2px solid #bbf7d0;
         border-radius: 12px;
         margin-bottom: 2rem;
       }
 
-      .direct-download p {
+      .download-reveal.visible {
+        display: block;
+      }
+
+      .download-reveal p {
         color: #15803d;
         font-weight: 600;
         margin: 0 0 1rem;
+        font-size: 1rem;
       }
 
       .download-btn {
@@ -292,38 +312,37 @@ const description = 'Download the free 2026 Solar Compliance Checklist for Austr
           </div>
         </div>
 
-        <!-- Direct Download Section -->
-        <div class="direct-download">
-          <p>📥 Ready to download — no signup required</p>
-          <a class="download-btn" href="/solar-compliance-checklist-2026.pdf" download="2026-Solar-Compliance-Checklist-TradieAutomate.pdf">
-            Download PDF Checklist →
-          </a>
-        </div>
+        <!-- Gated email capture form -->
+        <div class="form-box" id="capture-form-box">
+          <h2>Enter your email to get instant access</h2>
+          <p class="form-desc">Free PDF download — we'll also send you an update when CER rules or AS/NZS standards change.</p>
 
-        <!-- Optional Email Subscribe -->
-        <div class="form-box">
-          <h2>Want updates when standards change?</h2>
-          <p>We'll email you when CER rules or AS/NZS standards are updated — no spam, just relevant compliance alerts for Australian solar installers.</p>
-
-          <!-- Brevo subscription form -->
-          <div id="sib-form-container">
-            <form id="sib-form" action="https://app.brevo.com/page/popup/form" method="post">
-              <input type="hidden" name="sib_affiliate_prefix" value="" />
-              <div class="form-row">
-                <div class="form-field">
-                  <label for="FIRSTNAME">First Name</label>
-                  <input type="text" id="FIRSTNAME" name="FIRSTNAME" placeholder="Your first name" />
-                </div>
-                <div class="form-field">
-                  <label for="EMAIL">Email Address</label>
-                  <input type="email" id="EMAIL" name="EMAIL" placeholder="your@email.com" required />
-                </div>
+          <form id="compliance-form" novalidate>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Your first name" autocomplete="given-name" />
               </div>
-              <button type="submit" class="submit-btn">Get Compliance Updates →</button>
-            </form>
-          </div>
+              <div class="form-field">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email" />
+              </div>
+            </div>
+            <div class="form-error" id="form-error"></div>
+            <button type="submit" class="submit-btn" id="submit-btn">
+              Get Free PDF →
+            </button>
+          </form>
 
           <p class="privacy">No spam. Unsubscribe anytime. Australian Privacy Act compliant.</p>
+        </div>
+
+        <!-- Download revealed after form submit -->
+        <div class="download-reveal" id="download-reveal">
+          <p>✅ You're in! Your checklist is ready to download.</p>
+          <a class="download-btn" id="download-link" href="/solar-compliance-checklist-2026.pdf" download="2026-Solar-Compliance-Checklist-TradieAutomate.pdf">
+            Download PDF Checklist →
+          </a>
         </div>
 
         <!-- Trust indicators -->
@@ -388,5 +407,66 @@ const description = 'Download the free 2026 Solar Compliance Checklist for Austr
       </div>
     </main>
     <Footer />
+
+    <script>
+      const form = document.getElementById('compliance-form') as HTMLFormElement;
+      const submitBtn = document.getElementById('submit-btn') as HTMLButtonElement;
+      const formError = document.getElementById('form-error') as HTMLElement;
+      const captureBox = document.getElementById('capture-form-box') as HTMLElement;
+      const downloadReveal = document.getElementById('download-reveal') as HTMLElement;
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        formError.style.display = 'none';
+        formError.textContent = '';
+
+        const emailInput = document.getElementById('email') as HTMLInputElement;
+        const firstNameInput = document.getElementById('firstName') as HTMLInputElement;
+        const email = emailInput.value.trim();
+        const firstName = firstNameInput.value.trim();
+
+        if (!email || !email.includes('@')) {
+          formError.textContent = 'Please enter a valid email address.';
+          formError.style.display = 'block';
+          return;
+        }
+
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Sending…';
+
+        try {
+          const res = await fetch('/.netlify/functions/compliance-lead', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email, firstName }),
+          });
+
+          const data = await res.json();
+
+          if (res.ok && data.success) {
+            // Hide form, show download
+            captureBox.style.display = 'none';
+            downloadReveal.classList.add('visible');
+            // Trigger download automatically
+            const link = document.createElement('a');
+            link.href = data.downloadUrl || '/solar-compliance-checklist-2026.pdf';
+            link.download = '2026-Solar-Compliance-Checklist-TradieAutomate.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+          } else {
+            formError.textContent = data.error || 'Something went wrong. Please try again.';
+            formError.style.display = 'block';
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Get Free PDF →';
+          }
+        } catch (err) {
+          formError.textContent = 'Network error. Please try again.';
+          formError.style.display = 'block';
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Get Free PDF →';
+        }
+      });
+    </script>
   </body>
 </html>
