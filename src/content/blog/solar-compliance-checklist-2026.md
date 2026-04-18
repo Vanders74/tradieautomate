@@ -4,17 +4,6 @@ description: 'Every compliance requirement solar installers need to know in 2026
 pubDate: 'Feb 18 2026'
 updatedDate: 'Apr 18 2026'
 heroImage: '/hero-compliance-checklist.jpg'
-faq:
-  - question: "What compliance standards apply to solar installations in Australia in 2026?"
-    answer: "The primary standards for Australian solar installations are AS/NZS 5033 (Installation and safety requirements for PV arrays), AS/NZS 3000 (Wiring Rules), and the Clean Energy Council (CEC) installation guidelines. Battery storage systems are also governed by AS/NZS 5139:2019. Installers must hold current CEC accreditation and comply with state/territory electrical licensing requirements."
-  - question: "What documentation does the CER require for solar installations?"
-    answer: "The Clean Energy Regulator requires: a completed STC assignment form signed by the customer, proof of installer CEC accreditation, a Certificate of Electrical Safety (CES), installation photos showing key compliance milestones, serial numbers for all installed panels and inverters, and documentation confirming the system design matches the installed equipment."
-  - question: "How long do I need to keep solar installation records?"
-    answer: "CER requirements mandate that installation records be kept for a minimum of 5 years from the date of installation. This includes all STC documentation, compliance checklists, photos, certificates, and customer sign-off documents. Digital storage is strongly recommended — paper records become unreliable over this timeframe."
-  - question: "What are the most common reasons solar installers fail CER audits?"
-    answer: "The most common audit failures are: incomplete or missing compliance checklists, STC assignment forms with errors or missing customer signatures, photos that cannot be linked to a specific job and date, documentation gaps for battery storage (AS/NZS 5139), and installer accreditation that was expired at the time of installation."
-  - question: "Do I need a separate checklist for battery storage installations?"
-    answer: "Yes. Battery energy storage systems (BESS) installed alongside solar PV are governed by AS/NZS 5139:2019, which has specific requirements around labelling, emergency isolation, ventilation clearances, and hazard signage that go beyond the standard solar PV checklist. See our full AS/NZS 5139 compliance guide for detailed requirements."
 ---
 
 If you're installing solar panels in Australia, compliance isn't optional — it's the foundation of your business.
