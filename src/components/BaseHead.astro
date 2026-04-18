@@ -16,7 +16,7 @@ interface Props {
 }
 
 const { title, description, image = FallbackImage, type = 'website', pubDate, updatedDate, author, canonicalURL: canonicalOverride } = Astro.props;
-const canonicalURL = canonicalOverride ? new URL(canonicalOverride) : new URL(Astro.url.pathname, Astro.site);
+const canonicalURL = canonicalOverride || new URL(Astro.url.pathname, Astro.site).toString();
 const imageUrl = typeof image === 'string' ? new URL(image, Astro.site).toString() : new URL((image as ImageMetadata).src, Astro.url).toString();
 
 // Organisation schema (shown on all pages)
