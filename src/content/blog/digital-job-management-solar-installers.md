@@ -4,17 +4,6 @@ description: "Paper checklists and WhatsApp photos won't cut it anymore. Here's 
 pubDate: 'Feb 18 2026'
 updatedDate: 'Apr 18 2026'
 heroImage: '/hero-digital-jobs.jpg'
-faq:
-  - question: "What is digital job management for solar installers?"
-    answer: "Digital job management is software that replaces paper-based systems by managing the entire lifecycle of a solar installation job — quoting, scheduling, on-site forms, compliance photos, invoicing, and customer communication — in one connected platform. It gives solar businesses a single source of truth for every job."
-  - question: "Is digital job management software worth it for a small solar business?"
-    answer: "Yes, even for sole traders. If you're running more than 5-10 jobs per month, the admin savings alone typically cover the software cost within the first month. The bigger risk is the compliance exposure of paper-based systems — one CER audit with disorganised records can cost far more than years of software fees."
-  - question: "What's the best job management software for Australian solar installers?"
-    answer: "ServiceM8 is the most widely used platform among Australian solar and electrical installers, largely due to its strong mobile experience, custom forms for compliance documentation, and Xero integration. For a full comparison of platforms, see our Best Job Management Software for Solar Installers Australia 2026 guide."
-  - question: "How does digital job management help with CER audits?"
-    answer: "When every compliance checklist, photo, serial number, and signed form is attached to the digital job record — not scattered across phones, clipboards, and filing cabinets — audit preparation shifts from a multi-day paper hunt to a filtered export. Digital systems create a timestamped, GPS-tagged evidence trail that auditors can verify instantly."
-  - question: "Can I use digital job management software for battery storage jobs as well as solar PV?"
-    answer: "Absolutely. Platforms like ServiceM8 support fully custom forms, so you can build separate checklists for solar PV and battery storage (AS/NZS 5139) installations. Battery jobs have additional documentation requirements around labelling, clearances, and handover documents — all of which can be enforced digitally before a technician marks the job complete."
 ---
 
 Here's a scenario most solar installers will recognise:
