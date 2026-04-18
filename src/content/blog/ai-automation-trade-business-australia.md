@@ -1,6 +1,7 @@
 ---
 title: 'How to Use AI to Automate Your Trade Business (2026 Guide)'
 description: 'A practical 2026 guide to AI automation for Australian tradies — scheduling, follow-ups, quoting, compliance docs, and more. No fluff, just real-world results.'
+updatedDate: 'Apr 18 2026'
 pubDate: 'Apr 07 2026'
 heroImage: '/hero-digital-jobs.jpg'
 ---
@@ -185,9 +186,9 @@ The most practical approach is using ServiceM8's digital form builder to create 
 
 ---
 
-*Related reading:*
-- *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
-- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
-- *[Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026)*
-- *[AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance)*
-- *[Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)*
+## Related Articles
+
+- [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)
+- [ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)
+- [Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)
+- [AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance)
