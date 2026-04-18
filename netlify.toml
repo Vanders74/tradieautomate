@@ -4,3 +4,17 @@
 
 [build.environment]
   NODE_VERSION = "20"
+
+# 301 redirects for duplicate content consolidation
+# Old "sell solar business" -> canonical "sell trade business value"
+[[redirects]]
+  from = "/blog/sell-your-solar-business-servicem8/"
+  to = "/blog/sell-servicem8-trade-business-value/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/sell-your-solar-business-servicem8"
+  to = "/blog/sell-servicem8-trade-business-value/"
+  status = 301
+  force = true

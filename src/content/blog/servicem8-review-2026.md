@@ -1,6 +1,7 @@
 ---
 title: 'ServiceM8 Review 2026 — Honest Assessment for Australian Tradies'
 description: 'An honest 2026 review of ServiceM8 for Australian tradies. Covers pricing, key features, compliance tools, limitations, and who it suits best.'
+updatedDate: 'Apr 18 2026'
 pubDate: 'Apr 03 2026'
 heroImage: '/hero-servicem8.jpg'
 ---

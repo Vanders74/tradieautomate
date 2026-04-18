@@ -1,6 +1,7 @@
 ---
 title: 'AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know in 2026'
 description: 'The AS/NZS 5139:2019 standard changed what compliant battery storage installations look like in Australia. Here is a plain-English breakdown of what changed, what it means on the job, and how to make sure every install passes first time.'
+updatedDate: 'Apr 18 2026'
 pubDate: 'Feb 22 2026'
 heroImage: '/hero-battery-storage.jpg'
 ---
@@ -147,6 +148,15 @@ Before you drive away from any battery installation job, confirm:
 - [ ] STC paperwork prepared for lodgement
 
 If every box is ticked before you leave the site, you're audit-ready.
+
+---
+
+## Related Articles
+
+- [CER Audit Prep for Solar Installers: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)
+- [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026)
+- [ServiceM8 for Solar Installers](/blog/servicem8-for-solar-installers)
+- [Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)
 
 ---
 

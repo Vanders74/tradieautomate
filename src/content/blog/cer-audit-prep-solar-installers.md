@@ -1,6 +1,7 @@
 ---
 title: "CER Audit Prep for Solar Installers: How to Pass Your Clean Energy Regulator Audit"
 description: "What CER audits involve, common failure points, and how Australian solar installers can prepare their documentation and stay compliant. Practical guide for 2026."
+updatedDate: 'Apr 18 2026'
 pubDate: "Apr 05 2026"
 heroImage: '/hero-cer-audit-prep-solar-installers.jpg'
 ---
@@ -139,3 +140,12 @@ CER audits are not a worst-case scenario you prepare for in a panic. They are a 
 Get your checklist in order. Build your documentation workflow around digital job management. Make sure your accreditation is current and your endorsement categories cover your work. And if you are doing battery storage, get across [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance) now — that is where most gaps are showing up.
 
 For a full rundown of what you need on every solar job, start with the [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026). It covers every document, every photo, and every sign-off you need to stay audit-ready year-round.
+
+---
+
+## Related Articles
+
+- [AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know in 2026](/blog/as-nzs-5139-battery-storage-compliance)
+- [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026)
+- [ServiceM8 for Solar Installers](/blog/servicem8-for-solar-installers)
+- [Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)
