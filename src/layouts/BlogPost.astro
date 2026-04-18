@@ -8,8 +8,8 @@ import { SITE_URL } from '../consts';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
-const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+const { title, description, pubDate, updatedDate, heroImage, canonicalURL: canonicalOverride } = Astro.props;
+const canonicalURL = (canonicalOverride ?? new URL(Astro.url.pathname, Astro.site)).toString();
 const imageUrl = heroImage ? new URL(heroImage, Astro.site).toString() : null;
 
 const articleSchema = {
@@ -40,7 +40,7 @@ const articleSchema = {
 
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} type="article" pubDate={pubDate} updatedDate={updatedDate} />
+		<BaseHead title={title} description={description} type="article" pubDate={pubDate} updatedDate={updatedDate} canonicalURL={canonicalOverride} />
 		<script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
 		<style>
 			main {
