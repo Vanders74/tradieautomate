@@ -9,7 +9,7 @@ import { SITE_URL } from '../consts';
 type Props = CollectionEntry<'blog'>['data'];
 
 const { title, description, pubDate, updatedDate, heroImage, canonicalURL: canonicalOverride } = Astro.props;
-const canonicalURL = (canonicalOverride ?? new URL(Astro.url.pathname, Astro.site)).toString();
+const canonicalURL = canonicalOverride ?? new URL(Astro.url.pathname, Astro.site).toString();
 const imageUrl = heroImage ? new URL(heroImage, Astro.site).toString() : null;
 
 const articleSchema = {
