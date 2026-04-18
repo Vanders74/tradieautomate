@@ -1,6 +1,7 @@
 ---
 title: 'Best Job Management Software for Electricians Australia 2026'
 description: 'The definitive 2026 guide to job management software for Australian electricians. Compare ServiceM8, simPRO, Tradify, Fergus, and AroFlo on pricing, compliance, and features.'
+updatedDate: 'Apr 18 2026'
 pubDate: 'Apr 14 2026'
 heroImage: '/hero-digital-jobs.jpg'
 ---
