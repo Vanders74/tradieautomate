@@ -1,0 +1,433 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_URL } from '../consts';
+
+const title = "Services for Australian Solar & Electrical Installers | TradieAutomate";
+const description = "TradieAutomate helps Australian solar, battery and electrical installers with solar compliance guidance, ServiceM8 automation, and business growth strategies. Free 2026 Solar Compliance Checklist.";
+
+const servicesSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Solar Compliance & Business Automation Consulting",
+  "provider": {
+    "@type": "ProfessionalService",
+    "@id": `${SITE_URL}/#localbusiness`,
+    "name": "TradieAutomate",
+    "url": SITE_URL
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Australia"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "TradieAutomate Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Solar Compliance Guidance",
+          "description": "CER requirements, AS/NZS 5033, AS/NZS 5139, and STC documentation guidance for Australian solar installers."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "ServiceM8 Setup & Automation",
+          "description": "ServiceM8 job management automation for Australian solar and electrical tradies."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "2026 Solar Compliance Checklist",
+          "description": "Free downloadable solar compliance checklist for Australian installers, updated for 2026 CER and AS/NZS requirements."
+        }
+      }
+    ]
+  }
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <script type="application/ld+json" set:html={JSON.stringify(servicesSchema)} />
+  </head>
+  <body>
+    <Header />
+    <main>
+
+      <!-- Page Hero -->
+      <section class="page-hero" aria-labelledby="services-heading">
+        <p class="eyebrow">For Australian Solar &amp; Electrical Installers</p>
+        <h1 id="services-heading">How TradieAutomate Helps You</h1>
+        <p class="page-hero-sub">
+          Practical guidance on <strong>solar compliance</strong>, <strong>ServiceM8</strong> automation,
+          and growing your trade business — all Australia-specific, no fluff.
+        </p>
+      </section>
+
+      <!-- Service 1: Solar Compliance -->
+      <section class="service-section" aria-labelledby="s1-heading">
+        <div class="service-header">
+          <span class="service-num" aria-hidden="true">01</span>
+          <span class="service-emoji" aria-hidden="true">📋</span>
+        </div>
+        <h2 id="s1-heading">Solar Compliance Made Simple</h2>
+        <p class="service-intro">
+          Staying on top of <strong>solar compliance in Australia</strong> is one of the biggest
+          challenges for solar and battery installers. CER rules change, AS/NZS standards
+          get updated, and audits happen without warning. TradieAutomate breaks it all down
+          into plain English so you're always covered.
+        </p>
+        <div class="service-two-col">
+          <div>
+            <h3>What We Cover</h3>
+            <ul class="feature-list">
+              <li>CER accreditation requirements &amp; renewals</li>
+              <li>AS/NZS 5033:2021 solar installation standard</li>
+              <li>AS/NZS 5139:2019 battery storage compliance</li>
+              <li>Small-scale Technology Certificate (STC) documentation</li>
+              <li>Grid connection compliance &amp; AS/NZS 4777</li>
+              <li>Clean Energy Regulator audit preparation</li>
+              <li>Electrical safety requirements by state</li>
+            </ul>
+          </div>
+          <div class="service-cta-box">
+            <h3>Start Here</h3>
+            <p>Download the free 2026 Solar Compliance Checklist — the fastest way to audit your compliance position right now.</p>
+            <a href="/compliance-checklist" class="cta-button">Get Free 2026 Checklist →</a>
+            <div class="also-read">
+              <strong>Also read:</strong>
+              <a href="/blog/solar-compliance-checklist-2026">2026 Solar Compliance Checklist Guide</a>
+              <a href="/blog/as-nzs-5139-battery-storage-compliance">AS/NZS 5139 Battery Storage Compliance</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Service 2: ServiceM8 -->
+      <section class="service-section" aria-labelledby="s2-heading">
+        <div class="service-header">
+          <span class="service-num" aria-hidden="true">02</span>
+          <span class="service-emoji" aria-hidden="true">⚡</span>
+        </div>
+        <h2 id="s2-heading">ServiceM8 for Solar Installers</h2>
+        <p class="service-intro">
+          <strong>ServiceM8</strong> is the leading field service management platform for
+          Australian solar and electrical tradies. TradieAutomate provides practical guides,
+          tips, and comparisons to help you get the most out of it — from first job to
+          fully automated workflow.
+        </p>
+        <div class="service-two-col">
+          <div>
+            <h3>What We Cover</h3>
+            <ul class="feature-list">
+              <li>ServiceM8 setup for solar installers</li>
+              <li>Digital compliance checklists on-site</li>
+              <li>Automated scheduling &amp; dispatch</li>
+              <li>Paperless quoting &amp; invoicing</li>
+              <li>ServiceM8 vs simPRO comparison</li>
+              <li>ServiceM8 vs Tradify comparison</li>
+              <li>Job management software for solar businesses</li>
+            </ul>
+          </div>
+          <div class="service-cta-box">
+            <h3>Start Here</h3>
+            <p>Read the complete guide to using ServiceM8 for solar installation businesses in Australia.</p>
+            <a href="/blog/servicem8-for-solar-installers" class="cta-button">Read the Guide →</a>
+            <div class="also-read">
+              <strong>Also read:</strong>
+              <a href="/blog/servicem8-vs-simpro-comparison-australia">ServiceM8 vs simPRO — Which Wins?</a>
+              <a href="/blog/servicem8-vs-tradify-comparison-australia">ServiceM8 vs Tradify Comparison</a>
+              <a href="/blog/digital-job-management-solar-installers">Digital Job Management for Solar Installers</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Service 3: Business Growth -->
+      <section class="service-section" aria-labelledby="s3-heading">
+        <div class="service-header">
+          <span class="service-num" aria-hidden="true">03</span>
+          <span class="service-emoji" aria-hidden="true">📈</span>
+        </div>
+        <h2 id="s3-heading">Solar Business Growth Strategies</h2>
+        <p class="service-intro">
+          Beyond compliance and software, growing a solar installation business in Australia
+          requires smart quoting, strong reviews, and keeping up with industry trends.
+          TradieAutomate covers the business side so you can focus on the tools.
+        </p>
+        <div class="service-two-col">
+          <div>
+            <h3>What We Cover</h3>
+            <ul class="feature-list">
+              <li>Winning solar installation quotes</li>
+              <li>Online review management for tradies</li>
+              <li>Customer retention &amp; repeat business</li>
+              <li>Field service management best practices</li>
+              <li>Solar industry market trends (Australia)</li>
+              <li>Digital marketing for solar installers</li>
+            </ul>
+          </div>
+          <div class="service-cta-box">
+            <h3>Explore the Blog</h3>
+            <p>Read all of our guides on growing, automating, and scaling an Australian solar installation business.</p>
+            <a href="/blog" class="cta-button">Browse All Articles →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bottom CTA -->
+      <section class="bottom-cta" aria-labelledby="bottom-cta-heading">
+        <h2 id="bottom-cta-heading">Ready to Stop the Compliance Chaos?</h2>
+        <p>
+          Start with the free 2026 Solar Compliance Checklist — the fastest way for
+          Australian solar installers to audit their compliance position and close the gaps.
+        </p>
+        <div class="bottom-cta-btns">
+          <a href="/compliance-checklist" class="cta-button cta-white">Download Free Checklist →</a>
+          <a href="/blog" class="cta-btn-outline">Read the Blog</a>
+        </div>
+      </section>
+
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  /* Page Hero */
+  .page-hero {
+    text-align: center;
+    padding: 2.5em 1em 2.5em;
+    margin-bottom: 0.5em;
+  }
+  .eyebrow {
+    font-size: 0.78em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent, #f97316);
+    margin: 0 0 0.75em;
+  }
+  .page-hero h1 {
+    font-size: 2.4em;
+    color: var(--navy, #0f172a);
+    margin-bottom: 0.5em;
+  }
+  .page-hero-sub {
+    font-size: 1.05em;
+    color: rgb(var(--gray-dark));
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  /* Service Sections */
+  .service-section {
+    padding: 2.5em 0;
+  }
+  .service-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  .service-num {
+    font-size: 0.75em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--accent, #f97316);
+    background: var(--accent-light, #fff7ed);
+    padding: 0.2em 0.6em;
+    border-radius: 4px;
+  }
+  .service-emoji {
+    font-size: 1.5em;
+  }
+  .service-section h2 {
+    font-size: 1.9em;
+    color: var(--navy, #0f172a);
+    margin: 0 0 0.6em;
+  }
+  .service-intro {
+    font-size: 1em;
+    color: rgb(var(--gray-dark));
+    max-width: 700px;
+    margin: 0 0 2em;
+    line-height: 1.7;
+  }
+  .service-two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5em;
+    align-items: start;
+  }
+  .service-section h3 {
+    font-size: 1.05em;
+    color: var(--navy, #0f172a);
+    margin: 0 0 0.75em;
+  }
+  .feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  .feature-list li {
+    font-size: 0.9em;
+    color: rgb(var(--gray-dark));
+    padding-left: 1.4em;
+    position: relative;
+    line-height: 1.4;
+  }
+  .feature-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--green, #22c55e);
+    font-weight: 700;
+  }
+
+  /* CTA Box */
+  .service-cta-box {
+    background: white;
+    border: 1px solid rgb(var(--gray-light));
+    border-radius: 14px;
+    padding: 1.75em;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  }
+  .service-cta-box h3 {
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--navy, #0f172a);
+    margin: 0 0 0.5em;
+  }
+  .service-cta-box p {
+    font-size: 0.88em;
+    color: rgb(var(--gray-dark));
+    margin: 0 0 1.1em;
+    line-height: 1.6;
+  }
+  .cta-button {
+    display: inline-block;
+    background: var(--accent, #f97316);
+    color: white;
+    padding: 0.65em 1.25em;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.9em;
+    transition: background 0.2s, transform 0.1s;
+    margin-bottom: 1em;
+  }
+  .cta-button:hover {
+    background: var(--accent-dark, #c2410c);
+    color: white;
+    transform: translateY(-1px);
+  }
+  .also-read {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35em;
+    font-size: 0.82em;
+  }
+  .also-read strong {
+    color: rgb(var(--gray));
+    font-weight: 700;
+  }
+  .also-read a {
+    color: var(--accent-dark, #c2410c);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    line-height: 1.4;
+  }
+  .also-read a:hover {
+    color: var(--accent, #f97316);
+  }
+
+  /* Divider */
+  .section-divider {
+    border: none;
+    border-top: 1px solid rgb(var(--gray-light));
+    margin: 0;
+  }
+
+  /* Bottom CTA */
+  .bottom-cta {
+    background: var(--navy, #0f172a);
+    border-radius: 16px;
+    padding: 3em 2.5em;
+    margin: 3em 0 1em;
+    text-align: center;
+  }
+  .bottom-cta h2 {
+    color: white;
+    font-size: 1.9em;
+    margin-bottom: 0.5em;
+  }
+  .bottom-cta p {
+    color: rgba(255,255,255,0.8);
+    font-size: 0.95em;
+    max-width: 560px;
+    margin: 0 auto 1.75em;
+    line-height: 1.7;
+  }
+  .bottom-cta-btns {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .cta-white {
+    background: var(--accent, #f97316);
+    color: white !important;
+    padding: 0.75em 1.5em;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.95em;
+    transition: background 0.2s;
+  }
+  .cta-white:hover {
+    background: var(--accent-dark, #c2410c);
+    color: white !important;
+  }
+  .cta-btn-outline {
+    display: inline-block;
+    border: 2px solid rgba(255,255,255,0.3);
+    color: rgba(255,255,255,0.9);
+    padding: 0.72em 1.5em;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.95em;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .cta-btn-outline:hover {
+    border-color: white;
+    color: white;
+  }
+
+  @media (max-width: 720px) {
+    .page-hero h1 { font-size: 1.8em; }
+    .service-section h2 { font-size: 1.5em; }
+    .service-two-col { grid-template-columns: 1fr; gap: 1.5em; }
+    .bottom-cta { padding: 2em 1.25em; }
+    .bottom-cta h2 { font-size: 1.5em; }
+  }
+</style>
