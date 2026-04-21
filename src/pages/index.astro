@@ -2,62 +2,275 @@
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { SITE_DESCRIPTION, SITE_TITLE, SITE_URL } from '../consts';
 import { getCollection } from 'astro:content';
 
 const posts = (await getCollection('blog')).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 ).slice(0, 3);
+
+// LocalBusiness / ProfessionalService schema targeting Australia + solar/electrical compliance
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": ["ProfessionalService", "LocalBusiness"],
+  "@id": `${SITE_URL}/#localbusiness`,
+  "name": "TradieAutomate",
+  "url": SITE_URL,
+  "logo": `${SITE_URL}/favicon.svg`,
+  "image": `${SITE_URL}/hero-home.jpg`,
+  "description": "Helping Australian solar, battery & electrical installers navigate solar compliance, automate operations with ServiceM8, and grow smarter.",
+  "slogan": "Stop Losing Jobs to Compliance Chaos",
+  "areaServed": {
+    "@type": "Country",
+    "name": "Australia"
+  },
+  "serviceArea": {
+    "@type": "Country",
+    "name": "Australia"
+  },
+  "knowsAbout": [
+    "Solar compliance Australia",
+    "CER accreditation",
+    "AS/NZS 5033 solar installation standard",
+    "AS/NZS 5139 battery storage standard",
+    "ServiceM8 job management for solar installers",
+    "Clean Energy Regulator requirements",
+    "STC documentation",
+    "Solar installer business automation",
+    "Electrical compliance Australia"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "TradieAutomate Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Solar Compliance Guidance",
+          "description": "Plain-English guides to CER rules, AS/NZS standards, and STC requirements for Australian solar installers."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "ServiceM8 Setup & Automation",
+          "description": "Streamline solar job management with ServiceM8 — scheduling, quoting, compliance checklists and paperless workflows."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Solar Compliance Checklist",
+          "description": "Free 2026 Solar Compliance Checklist for Australian solar and battery installers."
+        }
+      }
+    ]
+  },
+  "sameAs": [
+    "https://www.instagram.com/tradieautomate/",
+    "https://www.facebook.com/profile.php?id=61585208957817"
+  ]
+};
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <BaseHead
+      title="TradieAutomate — Solar Compliance & ServiceM8 for Australian Installers"
+      description="Stop losing solar jobs to compliance chaos. TradieAutomate helps Australian solar, battery & electrical installers master solar compliance, automate with ServiceM8, and grow their business."
+    />
+    <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />
   </head>
   <body>
+    <!-- PDF Lead Magnet Sticky Bar -->
+    <div class="sticky-bar" id="stickyBar" role="complementary" aria-label="Free compliance checklist">
+      <span class="sticky-bar-text">
+        📋 <strong>Free Download:</strong> 2026 Solar Compliance Checklist for Australian Installers
+      </span>
+      <a href="/compliance-checklist" class="sticky-bar-cta">Get the Free PDF →</a>
+      <button class="sticky-bar-close" aria-label="Dismiss" onclick="document.getElementById('stickyBar').style.display='none'">✕</button>
+    </div>
+
     <Header />
     <main>
-      <!-- Hero Section with background image -->
-      <section class="hero">
-        <div class="hero-bg">
-          <img src="/hero-home.jpg" alt="TradieAutomate — solar compliance for Australian installers" />
-        </div>
-        <div class="hero-content">
-          <h1>Stop Losing Jobs to<br /><span class="highlight">Compliance Chaos</span></h1>
+
+      <!-- ── SPLIT HERO ── -->
+      <section class="hero-split" aria-labelledby="hero-heading">
+        <div class="hero-left">
+          <p class="hero-eyebrow">For Australian Solar &amp; Battery Installers</p>
+          <h1 id="hero-heading">
+            Stop Losing Jobs to<br />
+            <span class="highlight">Compliance Chaos</span>
+          </h1>
           <p class="hero-sub">
-            TradieAutomate helps Australian solar, battery & electrical installers
-            navigate compliance, automate operations, and win more work.
+            Master <strong>solar compliance</strong>, automate your operations with
+            <strong>ServiceM8</strong>, and win more work — without drowning in paperwork.
+            TradieAutomate gives Australian solar and electrical installers the tools
+            and knowledge to stay compliant and scale smarter.
           </p>
-          <div class="hero-cta">
-            <a href="/blog" class="cta-button">Read the Blog →</a>
+          <div class="hero-cta-group">
+            <a href="/compliance-checklist" class="cta-button cta-primary">
+              Get Free 2026 Checklist
+            </a>
+            <a href="/services" class="cta-button cta-secondary">
+              Explore Solutions →
+            </a>
+          </div>
+          <div class="hero-trust">
+            <span>✅ CER &amp; AS/NZS 5033 coverage</span>
+            <span>⚡ ServiceM8 automation guides</span>
+            <span>🇦🇺 Australia-specific</span>
+          </div>
+        </div>
+        <div class="hero-right" aria-hidden="true">
+          <div class="hero-img-wrap">
+            <img
+              src="/hero-home.jpg"
+              alt="Solar installer using tablet for compliance management on site"
+              width="560"
+              height="420"
+              loading="eager"
+              fetchpriority="high"
+            />
+            <div class="hero-badge">
+              <span class="badge-icon">📋</span>
+              <span class="badge-text">2026 Solar Compliance Checklist — Free</span>
+            </div>
           </div>
         </div>
       </section>
 
-      <!-- Value Props -->
-      <section class="value-props">
-        <div class="prop">
-          <div class="prop-icon">📋</div>
-          <h3>Compliance Made Simple</h3>
-          <p>CER rules, AS/NZS standards, STC requirements — broken down into plain English so you never get caught out.</p>
-        </div>
-        <div class="prop">
-          <div class="prop-icon">⚡</div>
-          <h3>Smarter Operations</h3>
-          <p>Digital job management, automated scheduling, paperless workflows. Work smarter, not harder.</p>
-        </div>
-        <div class="prop">
-          <div class="prop-icon">📈</div>
-          <h3>Grow Your Business</h3>
-          <p>Quoting strategies, customer retention, industry trends. Everything you need to scale a modern trade business.</p>
+      <!-- ── SERVICES / SOLUTIONS SECTIONS ── -->
+      <section class="solutions" aria-labelledby="solutions-heading">
+        <h2 id="solutions-heading">What We Help You With</h2>
+        <p class="section-sub">
+          Three core areas where TradieAutomate helps Australian solar and electrical installers
+          work smarter and stay compliant.
+        </p>
+
+        <div class="service-cards">
+
+          <article class="service-card" aria-labelledby="service-compliance">
+            <div class="service-icon" aria-hidden="true">📋</div>
+            <h2 id="service-compliance" class="service-title">Solar Compliance</h2>
+            <p class="service-desc">
+              CER rules, AS/NZS 5033 and 5139 standards, STC requirements — broken down
+              into plain English so Australian solar installers never get caught out during
+              audits or inspections.
+            </p>
+            <ul class="service-features">
+              <li>CER accreditation requirements explained</li>
+              <li>AS/NZS 5033 solar installation compliance</li>
+              <li>Battery storage (AS/NZS 5139) guidance</li>
+              <li>STC documentation made simple</li>
+            </ul>
+            <div class="service-cta-group">
+              <a href="/compliance-checklist" class="cta-button cta-service">Get Free Checklist</a>
+              <a href="/blog/solar-compliance-checklist-2026" class="service-link">Learn More →</a>
+            </div>
+          </article>
+
+          <article class="service-card service-card--featured" aria-labelledby="service-servicem8">
+            <div class="service-badge-top">Most Popular</div>
+            <div class="service-icon" aria-hidden="true">⚡</div>
+            <h2 id="service-servicem8" class="service-title">ServiceM8 Automation</h2>
+            <p class="service-desc">
+              Automate your solar job management with <strong>ServiceM8</strong> — the
+              field service platform built for Australian tradies. Digital scheduling,
+              paperless compliance checklists, and automated follow-ups.
+            </p>
+            <ul class="service-features">
+              <li>Job scheduling &amp; dispatch automation</li>
+              <li>Digital compliance checklists on-site</li>
+              <li>Automated quoting &amp; invoicing</li>
+              <li>ServiceM8 vs simPRO comparison</li>
+            </ul>
+            <div class="service-cta-group">
+              <a href="/blog/servicem8-for-solar-installers" class="cta-button cta-service">Get Started</a>
+              <a href="/services" class="service-link">Learn More →</a>
+            </div>
+          </article>
+
+          <article class="service-card" aria-labelledby="service-growth">
+            <div class="service-icon" aria-hidden="true">📈</div>
+            <h2 id="service-growth" class="service-title">Business Growth</h2>
+            <p class="service-desc">
+              Quoting strategies, customer retention systems, and industry trends
+              — everything Australian solar and battery installers need to scale
+              a modern trade business.
+            </p>
+            <ul class="service-features">
+              <li>Winning more solar quotes</li>
+              <li>Review management for tradies</li>
+              <li>Digital job management software guides</li>
+              <li>Trade business automation tips</li>
+            </ul>
+            <div class="service-cta-group">
+              <a href="/blog" class="cta-button cta-service">Read Articles</a>
+              <a href="/services" class="service-link">Learn More →</a>
+            </div>
+          </article>
+
         </div>
       </section>
 
-      <!-- Latest Posts -->
+      <!-- ── SOCIAL PROOF / STATS STRIP ── -->
+      <section class="stats-strip" aria-label="Why TradieAutomate">
+        <div class="stat">
+          <span class="stat-num">2026</span>
+          <span class="stat-label">Solar Compliance Checklist</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">AU</span>
+          <span class="stat-label">Australia-specific guidance</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">CER</span>
+          <span class="stat-label">Accreditation covered</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">Free</span>
+          <span class="stat-label">Resources for installers</span>
+        </div>
+      </section>
+
+      <!-- ── COMPLIANCE CHECKLIST CTA BLOCK ── -->
+      <section class="checklist-cta-block" aria-labelledby="checklist-cta-heading">
+        <div class="checklist-cta-inner">
+          <div class="checklist-cta-left">
+            <span class="checklist-cta-tag">Free Download</span>
+            <h2 id="checklist-cta-heading">2026 Solar Compliance Checklist</h2>
+            <p>
+              The complete solar compliance checklist for Australian installers — covering
+              CER requirements, AS/NZS 5033 and 5139 standards, STC documentation,
+              battery storage rules, and grid connection compliance. Updated for 2026.
+            </p>
+            <a href="/compliance-checklist" class="cta-button cta-primary">Download Free PDF →</a>
+          </div>
+          <div class="checklist-cta-right" aria-hidden="true">
+            <img
+              src="/hero-compliance-checklist.jpg"
+              alt="2026 Solar Compliance Checklist for Australian installers"
+              width="320"
+              height="220"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- ── LATEST ARTICLES (moved down) ── -->
       {posts.length > 0 && (
-        <section class="latest-posts">
-          <h2>Latest Articles</h2>
+        <section class="latest-posts" aria-labelledby="articles-heading">
+          <h2 id="articles-heading">Latest Articles</h2>
+          <p class="section-sub">
+            In-depth guides on solar compliance, ServiceM8, and trade business automation
+            for Australian installers.
+          </p>
           <ul>
             {posts.map((post) => (
               <li>
@@ -67,10 +280,13 @@ const posts = (await getCollection('blog')).sort(
                       class="post-thumb"
                       src={post.data.heroImage}
                       alt={post.data.title}
+                      width="180"
+                      height="110"
+                      loading="lazy"
                     />
                   )}
                   <div class="post-text">
-                    <h4>{post.data.title}</h4>
+                    <h3>{post.data.title}</h3>
                     <p class="post-date">
                       {post.data.pubDate.toLocaleDateString('en-AU', {
                         year: 'numeric',
@@ -87,86 +303,397 @@ const posts = (await getCollection('blog')).sort(
           <a href="/blog" class="see-all">See all articles →</a>
         </section>
       )}
+
     </main>
     <Footer />
   </body>
 </html>
 
 <style>
-  /* ── Hero ── */
-  .hero {
-    position: relative;
-    border-radius: 16px;
-    overflow: hidden;
-    margin-bottom: 3em;
-    min-height: 340px;
+  /* ── Sticky Bar ── */
+  .sticky-bar {
+    position: sticky;
+    top: 60px; /* below sticky nav */
+    z-index: 90;
+    background: var(--navy, #0f172a);
+    border-bottom: 3px solid var(--accent, #f97316);
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 0.6em 1.5em;
+    flex-wrap: wrap;
   }
-  .hero-bg {
-    position: absolute;
-    inset: 0;
-    z-index: 0;
+  .sticky-bar-text {
+    color: rgba(255,255,255,0.9);
+    font-size: 0.88em;
   }
-  .hero-bg img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 0;
-    display: block;
+  .sticky-bar-text strong {
+    color: white;
   }
-  .hero-content {
-    position: relative;
-    z-index: 1;
-    padding: 3em 2.5em;
-    width: 100%;
+  .sticky-bar-cta {
+    background: var(--accent, #f97316);
+    color: white !important;
+    padding: 0.35em 0.9em;
+    border-radius: 5px;
+    text-decoration: none !important;
+    font-weight: 700;
+    font-size: 0.85em;
+    white-space: nowrap;
+    transition: background 0.2s;
   }
-  .hero h1 {
+  .sticky-bar-cta:hover {
+    background: var(--accent-dark, #c2410c);
+    color: white !important;
+  }
+  .sticky-bar-close {
+    background: none;
+    border: none;
+    color: rgba(255,255,255,0.5);
+    font-size: 1em;
+    cursor: pointer;
+    padding: 0.2em 0.4em;
+    margin-left: auto;
+    flex-shrink: 0;
+    line-height: 1;
+    transition: color 0.2s;
+  }
+  .sticky-bar-close:hover {
+    color: white;
+  }
+
+  /* ── Split Hero ── */
+  .hero-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3em;
+    align-items: center;
+    padding: 2.5em 0 3em;
+    margin-bottom: 1em;
+  }
+  .hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .hero-eyebrow {
+    font-size: 0.78em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent, #f97316);
+    margin: 0 0 0.75em;
+  }
+  .hero-split h1 {
     font-size: 2.6em;
     line-height: 1.15;
     margin-bottom: 0.5em;
-    color: white;
-    text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+    color: var(--navy, #0f172a);
   }
   .highlight {
-    color: var(--accent);
+    color: var(--accent, #f97316);
   }
   .hero-sub {
-    font-size: 1.1em;
-    color: rgba(255,255,255,0.88);
-    max-width: 560px;
+    font-size: 1em;
+    color: rgb(var(--gray-dark));
+    max-width: 520px;
     margin: 0 0 1.5em;
-    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+    line-height: 1.7;
+  }
+  .hero-cta-group {
+    display: flex;
+    gap: 0.75em;
+    flex-wrap: wrap;
+    margin-bottom: 1.25em;
+  }
+  .cta-primary {
+    background: var(--accent, #f97316);
+    color: white;
+    padding: 0.75em 1.4em;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.95em;
+    transition: background 0.2s, transform 0.1s;
+  }
+  .cta-primary:hover {
+    background: var(--accent-dark, #c2410c);
+    color: white;
+    transform: translateY(-1px);
+  }
+  .cta-secondary {
+    background: transparent;
+    color: var(--navy, #0f172a);
+    padding: 0.75em 1.4em;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.95em;
+    border: 2px solid rgb(var(--gray-light));
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .cta-secondary:hover {
+    border-color: var(--accent, #f97316);
+    color: var(--accent-dark, #c2410c);
+  }
+  .hero-trust {
+    display: flex;
+    gap: 1.25em;
+    flex-wrap: wrap;
+  }
+  .hero-trust span {
+    font-size: 0.8em;
+    color: rgb(var(--gray));
+    white-space: nowrap;
+  }
+  /* Hero right / image */
+  .hero-right {
+    position: relative;
+  }
+  .hero-img-wrap {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+  }
+  .hero-img-wrap img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+  }
+  .hero-badge {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    background: white;
+    border-radius: 10px;
+    padding: 0.5em 0.9em;
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    font-size: 0.82em;
+    font-weight: 700;
+    color: var(--navy, #0f172a);
+    max-width: 82%;
+  }
+  .badge-icon {
+    font-size: 1.2em;
+    flex-shrink: 0;
   }
 
-  /* ── Value Props ── */
-  .value-props {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1.5em;
-    margin: 0 0 3em;
+  /* ── Solutions / Services ── */
+  .solutions {
+    margin: 0 0 3.5em;
   }
-  .prop {
-    padding: 1.5em;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
-    border: 1px solid rgb(var(--gray-light));
+  .solutions > h2 {
+    font-size: 1.9em;
+    margin-bottom: 0.35em;
+    color: var(--navy, #0f172a);
   }
-  .prop-icon {
-    font-size: 1.8em;
-    margin-bottom: 0.5em;
-  }
-  .prop h3 {
-    font-size: 1.05em;
-    margin-bottom: 0.5em;
-    color: rgb(var(--black));
-  }
-  .prop p {
-    font-size: 0.88em;
+  .section-sub {
+    font-size: 0.95em;
     color: rgb(var(--gray));
+    margin: 0 0 1.75em;
+    max-width: 600px;
+  }
+  .service-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5em;
+  }
+  .service-card {
+    position: relative;
+    background: white;
+    border: 1px solid rgb(var(--gray-light));
+    border-radius: 14px;
+    padding: 1.75em 1.5em 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    transition: box-shadow 0.2s, border-color 0.2s;
+  }
+  .service-card:hover {
+    box-shadow: 0 8px 28px rgba(0,0,0,0.1);
+    border-color: var(--accent, #f97316);
+  }
+  .service-card--featured {
+    border-color: var(--accent, #f97316);
+    box-shadow: 0 4px 20px rgba(249,115,22,0.15);
+  }
+  .service-badge-top {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--accent, #f97316);
+    color: white;
+    font-size: 0.7em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.2em 0.8em;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+  .service-icon {
+    font-size: 2em;
+    margin-bottom: 0.25em;
+  }
+  .service-title {
+    font-size: 1.15em !important;
+    font-weight: 700;
+    color: var(--navy, #0f172a);
+    margin: 0 0 0.4em !important;
+  }
+  .service-desc {
+    font-size: 0.87em;
+    color: rgb(var(--gray-dark));
+    margin: 0 0 0.75em;
+    line-height: 1.6;
+    flex: 1;
+  }
+  .service-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+  }
+  .service-features li {
+    font-size: 0.82em;
+    color: rgb(var(--gray-dark));
+    padding-left: 1.25em;
+    position: relative;
+  }
+  .service-features li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--green, #22c55e);
+    font-weight: 700;
+  }
+  .service-cta-group {
+    display: flex;
+    gap: 0.75em;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: auto;
+  }
+  .cta-service {
+    display: inline-block;
+    background: var(--accent, #f97316);
+    color: white;
+    padding: 0.55em 1.1em;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.85em;
+    transition: background 0.2s;
+  }
+  .cta-service:hover {
+    background: var(--accent-dark, #c2410c);
+    color: white;
+  }
+  .service-link {
+    font-size: 0.85em;
+    color: var(--accent-dark, #c2410c);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .service-link:hover {
+    color: var(--accent, #f97316);
+    text-decoration: underline;
+  }
+
+  /* ── Stats Strip ── */
+  .stats-strip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    background: var(--navy, #0f172a);
+    border-radius: 14px;
+    margin: 0 0 3em;
+    overflow: hidden;
+  }
+  .stat {
+    padding: 1.5em 1em;
+    text-align: center;
+    border-right: 1px solid rgba(255,255,255,0.08);
+  }
+  .stat:last-child {
+    border-right: none;
+  }
+  .stat-num {
+    display: block;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: var(--accent, #f97316);
+    line-height: 1;
+    margin-bottom: 0.25em;
+  }
+  .stat-label {
+    display: block;
+    font-size: 0.75em;
+    color: rgba(255,255,255,0.7);
+    line-height: 1.3;
+  }
+
+  /* ── Checklist CTA Block ── */
+  .checklist-cta-block {
+    background: linear-gradient(135deg, var(--accent-light, #fff7ed) 0%, #fff 100%);
+    border: 2px solid var(--accent, #f97316);
+    border-radius: 16px;
+    margin: 0 0 3.5em;
+    overflow: hidden;
+  }
+  .checklist-cta-inner {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 2em;
+    align-items: center;
+    padding: 2.5em 2em;
+  }
+  .checklist-cta-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+  }
+  .checklist-cta-tag {
+    display: inline-block;
+    background: var(--accent, #f97316);
+    color: white;
+    font-size: 0.72em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.2em 0.7em;
+    border-radius: 4px;
+    width: fit-content;
+  }
+  .checklist-cta-left h2 {
+    font-size: 1.6em;
+    color: var(--navy, #0f172a);
     margin: 0;
+    line-height: 1.2;
+  }
+  .checklist-cta-left p {
+    font-size: 0.9em;
+    color: rgb(var(--gray-dark));
+    margin: 0;
+    max-width: 540px;
+  }
+  .checklist-cta-right img {
+    border-radius: 12px;
+    width: 200px;
+    height: auto;
+    display: block;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
   }
 
   /* ── Latest Posts ── */
@@ -174,8 +701,8 @@ const posts = (await getCollection('blog')).sort(
     margin: 0 0 2em;
   }
   .latest-posts h2 {
-    margin-bottom: 1em;
-    font-size: 1.6em;
+    margin-bottom: 0.3em;
+    font-size: 1.7em;
   }
   .latest-posts ul {
     list-style: none;
@@ -183,6 +710,7 @@ const posts = (await getCollection('blog')).sort(
     display: flex;
     flex-direction: column;
     gap: 1em;
+    margin-top: 1.25em;
   }
   .latest-posts a {
     display: flex;
@@ -213,10 +741,10 @@ const posts = (await getCollection('blog')).sort(
   .post-text {
     padding: 1em 1em 1em 0;
   }
-  .latest-posts h4 {
+  .latest-posts h3 {
     color: rgb(var(--black));
     margin: 0 0 0.25em;
-    font-size: 1em;
+    font-size: 1em !important;
     line-height: 1.3;
   }
   .post-date {
@@ -240,12 +768,78 @@ const posts = (await getCollection('blog')).sort(
     color: var(--accent-dark);
   }
 
+  /* ── Responsive ── */
+  @media (max-width: 900px) {
+    .service-cards {
+      grid-template-columns: 1fr;
+      max-width: 520px;
+      margin: 0 auto;
+    }
+    .stats-strip {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .stat:nth-child(2) {
+      border-right: none;
+    }
+    .stat:nth-child(1),
+    .stat:nth-child(2) {
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+  }
+
   @media (max-width: 720px) {
-    .hero { min-height: 280px; border-radius: 12px; }
-    .hero-content { padding: 2em 1.5em; }
-    .hero h1 { font-size: 1.9em; }
-    .value-props { grid-template-columns: 1fr; gap: 1em; }
-    .post-thumb { width: 120px; min-width: 120px; height: 90px; }
-    .post-text { padding: 0.75em 0.75em 0.75em 0; }
+    .hero-split {
+      grid-template-columns: 1fr;
+      gap: 2em;
+      padding: 1.5em 0 2em;
+    }
+    .hero-right {
+      order: -1;
+    }
+    .hero-split h1 {
+      font-size: 2em;
+    }
+    .hero-cta-group {
+      flex-direction: column;
+    }
+    .cta-primary, .cta-secondary {
+      text-align: center;
+    }
+    .hero-trust {
+      gap: 0.75em;
+    }
+    .sticky-bar {
+      flex-wrap: wrap;
+      gap: 0.5em;
+      padding: 0.5em 1em;
+    }
+    .sticky-bar-close {
+      margin-left: 0;
+    }
+    .checklist-cta-inner {
+      grid-template-columns: 1fr;
+      gap: 1.25em;
+      padding: 1.75em 1.25em;
+    }
+    .checklist-cta-right {
+      display: none;
+    }
+    .stats-strip {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .post-thumb {
+      width: 120px;
+      min-width: 120px;
+      height: 90px;
+    }
+    .post-text {
+      padding: 0.75em 0.75em 0.75em 0;
+    }
+    .solutions > h2 {
+      font-size: 1.5em;
+    }
+    .checklist-cta-left h2 {
+      font-size: 1.3em;
+    }
   }
 </style>
