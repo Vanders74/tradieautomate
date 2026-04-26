@@ -192,3 +192,5 @@ The most practical approach is using ServiceM8's digital form builder to create 
 - [ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)
 - [Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)
 - [AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance)
+- [AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)
+- [AI Automation for Electricians and Plumbers](/blog/ai-automation-electrical-plumbing)
