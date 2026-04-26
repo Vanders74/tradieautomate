@@ -196,6 +196,9 @@ Set up your first job today. No credit card required.
 ## Related Articles
 
 - [ServiceM8 vs simPRO: Which Job Management Software Is Right for Australian Tradies?](/blog/servicem8-vs-simpro-comparison-australia)
+- [ServiceM8 vs Fergus: Honest Comparison for Australian Trades](/blog/servicem8-vs-fergus)
+- [ServiceM8 vs AroFlo: Which Field Service Platform Is Right for You?](/blog/servicem8-vs-aroflo)
+- [ServiceM8 vs TradiePad: Which Job Management App Wins?](/blog/servicem8-vs-tradie-pad)
+- [ServiceM8 vs Tradify for Solar and Electrical Businesses](/blog/servicem8-vs-tradify-solar-electrical)
 - [ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)
 - [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)
-- [Best Job Management Software for Solar Installers Australia 2026](/guides/best-job-management-software-solar-installers-australia-2026)
