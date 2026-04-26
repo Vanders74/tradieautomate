@@ -203,7 +203,9 @@ Yes. ServiceM8 has a direct Xero integration (and MYOB). Completed, invoiced job
 - [The Complete Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
 - [CER Audit Prep for Solar Installers: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)
 - [ServiceM8 Review 2026: Is It Worth It for Australian Tradies?](/blog/servicem8-review-2026)
-- [Best Job Management Software for Solar Installers Australia 2026](/guides/best-job-management-software-solar-installers-australia-2026)
+- [ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses)
+- [AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)
+- [ServiceM8 vs Tradify for Solar and Electrical Businesses](/blog/servicem8-vs-tradify-solar-electrical)
 
 ---
 
