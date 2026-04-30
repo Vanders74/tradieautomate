@@ -2,7 +2,7 @@
 title: 'ServiceM8 for Builders: Job Management for Australian Residential Construction'
 description: 'How Australian builders and construction businesses use ServiceM8 to manage subcontractors, compliance documentation, quoting, and cash flow on residential builds.'
 pubDate: 'Apr 27 2026'
-heroImage: '/hero-servicem8.jpg'
+heroImage: '/hero-servicem8-for-builders.jpg'
 ---
 
 Residential building in Australia sits at the intersection of significant financial risk and complex regulatory obligation. A typical residential build involves dozens of subcontractor trades, state building authority requirements, mandatory inspections, staged payment schedules, and a client who expects consistent communication throughout a project that might run 6–12 months.

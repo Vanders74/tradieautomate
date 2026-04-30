@@ -2,7 +2,7 @@
 title: 'ServiceM8 vs Fergus: Honest Comparison for Australian Trade Businesses (2026)'
 description: 'ServiceM8 vs Fergus compared side-by-side — pricing, features, compliance tools, job costing, and which platform suits Australian electricians, plumbers, and tradies in 2026.'
 pubDate: 'Apr 27 2026'
-heroImage: '/hero-servicem8.jpg'
+heroImage: '/hero-servicem8-vs-fergus.jpg'
 ---
 
 **ServiceM8 and Fergus** are two of the most frequently compared job management platforms in Australian trade businesses. Both target the small-to-mid-size market, both are mobile-first, and both have genuine followings. But they have different origins, different strengths, and different pricing philosophies.

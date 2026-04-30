@@ -2,7 +2,7 @@
 title: 'ServiceM8 for Solar Businesses: Scale Your Installation Operations Without the Admin Overload'
 description: 'How Australian solar installation businesses use ServiceM8 to manage CER compliance, STC documentation, team scheduling, and cash flow — and scale past the point where manual systems break.'
 pubDate: 'Apr 27 2026'
-heroImage: '/hero-servicem8.jpg'
+heroImage: '/hero-servicem8-for-solar-businesses.jpg'
 ---
 
 The Australian solar industry is at an inflection point. Residential installation volumes remain elevated. Commercial and C&I solar is accelerating. Battery storage is increasingly part of every job. And behind all that growth, the compliance and documentation requirements have never been more demanding.

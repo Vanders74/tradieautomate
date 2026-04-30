@@ -2,7 +2,7 @@
 title: 'ServiceM8 vs AroFlo: Which Field Service Platform Is Right for Your Australian Trade Business?'
 description: 'ServiceM8 vs AroFlo compared — pricing, features, compliance tools, and which platform fits Australian trade businesses from sole traders to 50+ staff in 2026.'
 pubDate: 'Apr 27 2026'
-heroImage: '/hero-servicem8.jpg'
+heroImage: '/hero-servicem8-vs-aroflo.jpg'
 ---
 
 **ServiceM8 and AroFlo** sit at different ends of the Australian trade software spectrum. ServiceM8 is purpose-built for small-to-mid-size trade businesses — fast to set up, mobile-first, and deliberately uncomplicated. AroFlo is a full field service management platform designed for larger, more complex operations — highly configurable, deeply featured, and significantly more expensive.

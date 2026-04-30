@@ -2,7 +2,7 @@
 title: 'ServiceM8 for Landscapers: Run Your Landscaping Business Without the Admin Chaos'
 description: 'How Australian landscaping and garden maintenance businesses use ServiceM8 to quote faster, schedule efficiently, invoice on completion, and grow beyond the sole trader ceiling.'
 pubDate: 'Apr 27 2026'
-heroImage: '/hero-servicem8.jpg'
+heroImage: '/hero-servicem8-for-landscapers.jpg'
 ---
 
 Landscaping sits in an interesting operational position: the work is largely unregulated compared to electrical or plumbing trades, but the business complexity is surprisingly high. Seasonal demand swings. Multiple concurrent jobs. Materials and plant sourcing. Subcontracted equipment hire. Recurrent maintenance contracts sitting alongside one-off project installs. Clients who want photos and updates throughout.

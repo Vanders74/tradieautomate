@@ -2,7 +2,7 @@
 title: 'ServiceM8 vs Tradify for Solar and Electrical Businesses: A Detailed 2026 Comparison'
 description: 'ServiceM8 vs Tradify compared specifically for Australian solar installers and electricians — compliance documentation, CER tools, mobile experience, and real-world performance in 2026.'
 pubDate: 'Apr 27 2026'
-heroImage: '/hero-servicem8.jpg'
+heroImage: '/hero-servicem8-vs-tradify-solar-electrical.jpg'
 ---
 
 When Australian solar installers and electricians compare job management platforms, **ServiceM8 and Tradify** are the two names that come up most often. Both are cloud-based, both are mobile-first, and both are priced for small to mid-size trade businesses.

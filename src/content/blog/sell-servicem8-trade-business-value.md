@@ -3,7 +3,7 @@ title: 'How to Sell Your ServiceM8-Based Trade Business for Maximum Value'
 description: 'Learn how Australian tradies use ServiceM8 to build a more sellable business — documented systems, recurring revenue, and audit-ready records that buyers pay a premium for.'
 updatedDate: 'Apr 18 2026'
 pubDate: 'Apr 10 2026'
-heroImage: '/hero-servicem8.jpg'
+heroImage: '/hero-sell-servicem8-trade-business-value.jpg'
 ---
 
 Most trade business owners think about selling their business as something that happens later — maybe when they're tired, when a good offer comes along, or when they're approaching retirement.

@@ -2,7 +2,7 @@
 title: 'ServiceM8 for HVAC Technicians: Job Management Built for Australian Air Con and Refrigeration Businesses'
 description: 'How Australian HVAC and refrigeration businesses use ServiceM8 to manage ARCtick compliance, streamline service contracts, and grow without the admin chaos.'
 pubDate: 'Apr 27 2026'
-heroImage: '/hero-servicem8.jpg'
+heroImage: '/hero-servicem8-for-hvac.jpg'
 ---
 
 Australian HVAC and refrigeration technicians operate in one of the most compliance-intensive corners of the trades industry. Between ARCtick licensing, F-gas handling records, service contract obligations, and the seasonal demand spikes that make scheduling a full-time job, running an air conditioning or commercial refrigeration business takes serious operational infrastructure.

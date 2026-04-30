@@ -2,7 +2,7 @@
 title: 'ServiceM8 for Plumbers: Run a Tighter Plumbing Business With Less Admin'
 description: 'How Australian plumbers are using ServiceM8 to manage compliance certificates, cut paperwork, speed up invoicing, and scale their business. A practical 2026 guide.'
 pubDate: 'Apr 27 2026'
-heroImage: '/hero-servicem8.jpg'
+heroImage: '/hero-servicem8-for-plumbers.jpg'
 ---
 
 Plumbing is one of the most heavily licensed trades in Australia. Between your licence, your insurance, your compliance certificates, and the documentation requirements that vary state by state — there's a mountain of admin sitting between a completed job and a clear conscience.

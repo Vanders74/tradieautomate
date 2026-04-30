@@ -3,7 +3,7 @@ title: 'ServiceM8 Review 2026 — Honest Assessment for Australian Tradies'
 description: 'An honest 2026 review of ServiceM8 for Australian tradies. Covers pricing, key features, compliance tools, limitations, and who it suits best.'
 updatedDate: 'Apr 18 2026'
 pubDate: 'Apr 03 2026'
-heroImage: '/hero-servicem8.jpg'
+heroImage: '/hero-servicem8-review.jpg'
 ---
 
 ServiceM8 has become a household name in the Australian trades industry — and for good reason. But with so many job management platforms competing for your subscription dollar, it's worth asking: is ServiceM8 actually the best fit for your business in 2026?

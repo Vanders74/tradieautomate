@@ -2,7 +2,7 @@
 title: 'ServiceM8 for Painters: Quote Faster, Invoice Sooner, Chase Less'
 description: 'How Australian painting businesses are using ServiceM8 to win more quotes, invoice same-day, and cut the admin that eats into margins. A practical 2026 guide.'
 pubDate: 'Apr 27 2026'
-heroImage: '/hero-servicem8.jpg'
+heroImage: '/hero-servicem8-for-painters.jpg'
 ---
 
 Painting is a volume business. Most painting contractors are doing dozens of jobs a month — residential repaint, new construction, commercial maintenance, strata work. The trade itself is skilled but the business model runs on throughput, and anything that slows the throughput kills the margin.

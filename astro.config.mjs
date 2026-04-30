@@ -6,7 +6,14 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://tradieautomate.com',
-  integrations: [mdx(), sitemap()],
+  integrations: [
+    mdx(),
+    sitemap({
+      changefreq: 'weekly',
+      priority: 0.7,
+      lastmod: new Date(),
+    }),
+  ],
   redirects: {
     // 301 redirect: old SM8 review → canonical 2026 version
     // Preserves any existing backlinks/rankings for the old URL
