@@ -40,7 +40,7 @@ const articleSchema = {
 
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} type="article" pubDate={pubDate} updatedDate={updatedDate} canonicalURL={canonicalOverride} />
+		<BaseHead title={title} description={description} image={heroImage ?? undefined} type="article" pubDate={pubDate} updatedDate={updatedDate} canonicalURL={canonicalOverride} />
 		<script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
 		<style>
 			main {
