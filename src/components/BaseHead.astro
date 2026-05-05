@@ -97,3 +97,12 @@ const websiteSchema = {
 <!-- Schema.org: Organisation + WebSite (all pages) -->
 <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
 <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E75D22F9TW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-E75D22F9TW');
+</script>
