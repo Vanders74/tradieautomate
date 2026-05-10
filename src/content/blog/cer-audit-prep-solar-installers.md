@@ -149,3 +149,8 @@ For a full rundown of what you need on every solar job, start with the [Solar Co
 - [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026)
 - [ServiceM8 for Solar Installers](/blog/servicem8-for-solar-installers)
 - [Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)
+
+## Related Reading
+
+- [how ServiceM8 adds value to your trade business](/blog/sell-servicem8-trade-business-value)
+- [ServiceM8 review](/blog/servicem8-review-2026)
