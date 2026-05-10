@@ -191,6 +191,9 @@ The honest recommendation: start with ServiceM8's 14-day free trial and evaluate
 
 ## Related Comparisons
 
+- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
+- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
+
 - [ServiceM8 vs Tradify: Australian Tradie Comparison 2026](/blog/servicem8-vs-tradify-comparison-australia)
 - [ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia)
 - [ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)
