@@ -261,3 +261,4 @@ Yes — ServiceM8 offers a 14-day free trial with no credit card required. You g
 - *[ServiceM8 vs TradiePad: Which Job Management App Wins?](/blog/servicem8-vs-tradie-pad)*
 - *[Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026)*
 - *[How to Sell Your ServiceM8-Based Trade Business for Maximum Value](/blog/sell-servicem8-trade-business-value)*
+- *[AI automation for trade businesses](/blog/ai-automation-trade-business-australia)*
