@@ -1,0 +1,180 @@
+---
+title: 'Best Accounting Software for Solar and Electrical Businesses in Australia: Xero vs MYOB vs QuickBooks (2026)'
+description: 'An honest comparison of Xero, MYOB, and QuickBooks for Australian solar installation and electrical businesses — GST handling, payroll, ServiceM8 integration, pricing, and which one is right for your trade business.'
+pubDate: 'May 26 2026'
+heroImage: '/hero-accounting-software-solar.jpg'
+tags: ['accounting software', 'Xero', 'MYOB', 'QuickBooks', 'solar', 'electrician', 'business']
+---
+
+Most solar installers and electricians start out with someone doing the books — a spouse, a bookkeeper, or just themselves with a spreadsheet. At some point, the business grows beyond what that can handle, and a cloud accounting platform becomes necessary.
+
+The three dominant players in the Australian small business accounting market are Xero, MYOB, and QuickBooks Online. All three handle the basics: invoicing, expenses, GST, payroll (in some tiers), bank reconciliation, and financial reporting. The differences are in depth, ease of use, integration with trade software like ServiceM8, and price.
+
+This guide cuts through the marketing to tell you what matters for a solar or electrical trade business in 2026.
+
+---
+
+## What Solar and Electrical Businesses Actually Need From Accounting Software
+
+Before comparing platforms, let's define the requirements:
+
+**Must-have for Australian trade businesses:**
+- Australian GST calculation and BAS reporting (all platforms handle this)
+- Invoice creation and tracking (all platforms)
+- Bank reconciliation (all platforms)
+- Integration with ServiceM8 (the key differentiator — not all integrations are equal)
+- Payroll for electrical award rates (including allowances, overtime)
+- Job profitability reporting (varies significantly between platforms)
+- Subcontractor payment tracking and PAYG withholding
+
+**Nice-to-have:**
+- Construction Industry Scheme / labour hire reporting (for larger businesses)
+- Multi-currency (rarely needed for domestic trade)
+- Inventory management (for businesses selling product)
+- Project tracking / WIP reporting
+
+---
+
+## Xero — Our Recommendation for Most Solar and Electrical Businesses
+
+Xero has become the dominant accounting platform for Australian small and medium businesses, and for good reason. For solar and electrical installation businesses specifically, it wins on the combination of ServiceM8 integration quality, user experience, and ecosystem.
+
+### Xero + ServiceM8 Integration
+
+This is the key differentiator. The [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) and Xero integration is the deepest and most actively maintained of any accounting platform integration ServiceM8 offers.
+
+What the integration does:
+- Invoices created and sent in ServiceM8 automatically push to Xero
+- Payment records sync between the two systems
+- Client records maintained consistently
+- Expense claims from ServiceM8 push to Xero
+- Job cost data flows to Xero for profitability reporting
+
+For a business using ServiceM8 as its job management system and Xero as its accounting platform, the combination handles the complete financial flow from quote to bank reconciliation with minimal manual data entry.
+
+### Xero Payroll
+
+Xero's Australian payroll module handles the Electrical Award rate structure — it's not a perfect automated solution for complex award rates, but with correct setup it handles most scenarios well. Leave management, superannuation lodgement (SuperStream), and Single Touch Payroll reporting are all native.
+
+**Key limitation:** Xero Payroll doesn't automatically calculate award allowances (industry allowance, tool allowance, height allowance). These need to be set up as payroll items and applied manually or through pay templates. This is a known limitation; an experienced payroll bookkeeper can set it up correctly.
+
+### Xero Pricing (2026)
+
+- **Starter:** $32/month — very limited (5 invoices, 5 bills per month). Not suitable for an active trade business.
+- **Standard:** $65/month — unlimited invoices and bills, payroll for up to 5 employees. Good entry point for small businesses.
+- **Premium:** $85/month — multi-currency, payroll for more employees. Most trade businesses don't need this.
+- **Ultimate:** $115/month — includes analytics and enhanced payroll features.
+
+Most solar and electrical businesses will work well on Xero Standard at $65/month.
+
+### Xero Verdict: ★★★★★
+
+Best-in-class ServiceM8 integration. Strong ecosystem. Good user experience. Recommended as the first choice for solar and electrical businesses using ServiceM8.
+
+---
+
+## MYOB — The Established Australian Player
+
+MYOB is an Australian company and has been the dominant accounting software in Australia for over 25 years. It's deeply integrated with Australian regulatory requirements and has a large network of MYOB-certified accountants and bookkeepers.
+
+### MYOB + ServiceM8 Integration
+
+ServiceM8 does integrate with MYOB (specifically MYOB AccountRight and MYOB Business), but the integration is less seamless than the Xero integration. Some users report more manual reconciliation required and occasional sync issues.
+
+For businesses that already have MYOB deeply embedded — existing bookkeeper, established MYOB reports, long-term data history — the switching cost to Xero may not be worth the integration improvement. For new businesses starting fresh, Xero's integration advantage is more compelling.
+
+### MYOB Payroll
+
+MYOB has arguably the most capable payroll module of the three platforms for complex Australian award rate businesses. The award rate library within MYOB Business (or the Payroll-specific product) handles many AHA and award classification scenarios more automatically than Xero.
+
+For larger electrical businesses with multiple employees across multiple classifications (apprentices, grade 1–5 tradespeople, office staff), MYOB's payroll depth may justify its use.
+
+### MYOB Pricing (2026)
+
+- **MYOB Business Lite:** $27/month — basic invoicing and accounting. Too limited for most trade businesses.
+- **MYOB Business:** $54/month — full accounting, BAS, payroll for up to 2 employees.
+- **MYOB Business Pro:** $89/month — unlimited employees, multi-currency, inventory.
+- **MYOB AccountRight Standard/Plus/Premier:** $115–$185/month — more advanced, desktop/cloud hybrid.
+
+### MYOB Verdict: ★★★☆☆
+
+Strong for complex payroll. Deep Australian regulatory integration. Weaker ServiceM8 integration than Xero. Better for businesses that already use MYOB or have complex payroll needs.
+
+---
+
+## QuickBooks Online — The International Option
+
+QuickBooks Online (QBO) is the global market leader in small business accounting but has never dominated the Australian market to the same degree as Xero and MYOB. It's a capable platform but has some Australian-specific limitations.
+
+### QuickBooks + ServiceM8 Integration
+
+ServiceM8 has a QuickBooks Online integration, but it's generally considered the least mature of the three integrations. Some features that work natively in the Xero integration require workarounds in QBO.
+
+### QuickBooks Payroll
+
+QuickBooks Payroll for Australia is functional but lacks some of the depth of Xero and MYOB for complex award rate structures. Single Touch Payroll and SuperStream are supported, but the award rate setup requires more manual configuration.
+
+### QuickBooks Pricing (2026)
+
+- **Simple Start:** $22/month — basic. Not suitable for trade businesses.
+- **Essentials:** $42/month — up to 3 users, time tracking.
+- **Plus:** $55/month — up to 5 users, project tracking (useful for solar businesses tracking job profitability).
+- **Advanced:** $125/month — up to 25 users, business analytics.
+
+### QuickBooks Verdict: ★★★☆☆
+
+Good value and solid functionality, but weaker Australian award rate payroll and a less mature ServiceM8 integration. Worth considering if you already know QuickBooks from a previous business.
+
+---
+
+## Head-to-Head: What Matters Most for Solar/Electrical Trade Businesses
+
+| Feature | Xero | MYOB | QuickBooks |
+|---|---|---|---|
+| ServiceM8 integration quality | ★★★★★ | ★★★☆☆ | ★★☆☆☆ |
+| Australian GST / BAS | ★★★★★ | ★★★★★ | ★★★★☆ |
+| Electrical Award payroll | ★★★☆☆ | ★★★★☆ | ★★★☆☆ |
+| Ease of use | ★★★★★ | ★★★☆☆ | ★★★★☆ |
+| Bookkeeper/accountant availability | ★★★★★ | ★★★★★ | ★★★☆☆ |
+| Pricing (value) | ★★★★☆ | ★★★★☆ | ★★★★★ |
+| Job profitability reporting | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
+
+---
+
+## Our Recommendation
+
+**For most solar and electrical businesses using ServiceM8: choose Xero.**
+
+The ServiceM8 + Xero combination is the gold standard for Australian trade business financial management. The integration is deep, the user experience is excellent, and the ecosystem of Xero-trained bookkeepers and accountants is large.
+
+**If you have complex multi-employee payroll or are already using MYOB: stick with MYOB.**
+
+MYOB's payroll depth and established Australian support network make it the better choice for businesses with more complex employment arrangements, or where the switching cost from existing MYOB data is too high.
+
+**If price is the primary consideration and you don't need deep ServiceM8 integration: QuickBooks Plus** has good value and capable core accounting for a lower price point.
+
+---
+
+## Working With a Bookkeeper
+
+Whichever platform you choose, a good bookkeeper with trade business experience is worth more than the software choice. Find someone who understands:
+- Electrical Award rates and allowances
+- Job cost accounting (matching revenue and cost to individual jobs)
+- GST and BAS for construction/trade businesses
+- ServiceM8 reconciliation (they should have done it before)
+
+Your bookkeeper should set up your accounting platform correctly for your award structure — don't try to do this yourself if you're not confident with payroll.
+
+---
+
+## Related Reading
+
+- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
+- *[Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026)*
+- *[The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)*
+- *[ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)*
+- *[ServiceM8 vs Jobber: The 2026 Tradie Software Guide](/blog/servicem8-vs-jobber-tradie-software-guide-2026)*
+
+---
+
+*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*
