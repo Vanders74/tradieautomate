@@ -176,6 +176,8 @@ Tradify is a credible general tradie platform. But "general" is exactly its limi
 
 ## Related Resources
 
+- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
+
 - [ServiceM8 for Solar Installers — full compliance workflow guide](/blog/servicem8-for-solar-installers)
 - [ServiceM8 for Electricians — compliance certificates and workflows](/blog/servicem8-for-electricians)
 - [CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers)
