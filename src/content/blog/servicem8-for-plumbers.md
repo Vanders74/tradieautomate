@@ -233,3 +233,4 @@ Yes — ServiceM8 integrates natively with both MYOB and Xero. Invoices created 
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
 - *[How to Use AI to Automate Your Trade Business](/blog/ai-automation-trade-business-australia)*
 - *[Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)*
+- *[solar compliance checklist](/blog/solar-compliance-checklist-2026)*

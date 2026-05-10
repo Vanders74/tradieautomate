@@ -161,3 +161,8 @@ If every box is ticked before you leave the site, you're audit-ready.
 ---
 
 *TradieAutomate helps Australian solar and battery installers build compliant, efficient businesses. Learn how [ServiceM8 can make AS/NZS 5139 compliance a built-in part of your workflow](/blog/servicem8-for-solar-installers).*
+
+## Related Reading
+
+- [how ServiceM8 adds value to your trade business](/blog/sell-servicem8-trade-business-value)
+- [ServiceM8 review](/blog/servicem8-review-2026)

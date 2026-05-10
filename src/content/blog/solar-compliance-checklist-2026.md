@@ -204,3 +204,9 @@ Yes. [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance) has specific re
 ---
 
 *Have a compliance question we haven't covered? [Get in touch](https://www.instagram.com/tradieautomate/) — we're building the resource hub solar installers actually need.*
+
+## Related Reading
+
+- [how ServiceM8 adds value to your trade business](/blog/sell-servicem8-trade-business-value)
+- [ServiceM8 review](/blog/servicem8-review-2026)
+- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)

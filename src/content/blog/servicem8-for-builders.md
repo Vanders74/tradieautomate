@@ -182,3 +182,4 @@ For larger, more complex construction project management, you may need additiona
 - *[ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)*
 - *[How to Use AI to Automate Your Trade Business](/blog/ai-automation-trade-business-australia)*
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
+- *[solar compliance checklist](/blog/solar-compliance-checklist-2026)*

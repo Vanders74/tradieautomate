@@ -183,3 +183,5 @@ These three audits will tell you where AI automation investment will deliver the
 - *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
 - *[CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers)*
 - *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
+- *[best job management software for electricians](/blog/best-job-management-software-electricians-australia)*
+- *[ServiceM8 review](/blog/servicem8-review-2026)*

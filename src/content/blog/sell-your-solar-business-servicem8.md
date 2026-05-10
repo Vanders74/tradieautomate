@@ -153,3 +153,7 @@ The question isn't whether you'll ever want to exit your business. Every busines
 ---
 
 *Ready to get ServiceM8 set up properly in your solar business? [Try ServiceM8 free for 14 days](https://www.servicem8.com/?ref=tradieautomate) and start building the digital foundation that makes your business worth more — today and at exit.*
+
+## Related Reading
+
+- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)

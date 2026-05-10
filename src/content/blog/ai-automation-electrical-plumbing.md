@@ -208,3 +208,4 @@ Use AI to systematise everything that's systematisable. Invest the recovered tim
 - *[ServiceM8 for Plumbers: Run a Tighter Plumbing Business](/blog/servicem8-for-plumbers)*
 - *[Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)*
 - *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)*
+- *[solar compliance checklist](/blog/solar-compliance-checklist-2026)*

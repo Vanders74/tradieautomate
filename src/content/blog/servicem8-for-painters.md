@@ -198,3 +198,4 @@ When additional scope is identified on-site (e.g., a wall that needs plastering 
 - *[ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)*
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
 - *[How to Use AI to Automate Your Trade Business](/blog/ai-automation-trade-business-australia)*
+- *[solar compliance checklist](/blog/solar-compliance-checklist-2026)*
