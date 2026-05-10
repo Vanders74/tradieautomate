@@ -180,3 +180,4 @@ Client records in ServiceM8 maintain a complete job history with all associated 
 - *[How to Use AI to Automate Your Trade Business](/blog/ai-automation-trade-business-australia)*
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
 - *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
+- *[solar compliance checklist](/blog/solar-compliance-checklist-2026)*
