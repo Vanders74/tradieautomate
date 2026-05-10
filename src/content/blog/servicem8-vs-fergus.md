@@ -193,6 +193,9 @@ Start with the 14-day trial for ServiceM8 and evaluate whether the compliance an
 
 ## Related Comparisons
 
+- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
+- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
+
 - [ServiceM8 vs Tradify: Australian Tradie Comparison 2026](/blog/servicem8-vs-tradify-comparison-australia)
 - [ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia)
 - [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)
