@@ -182,6 +182,8 @@ For a solar business doing 40 installations per month, the Starter plan (~$65) h
 
 ## Related Resources
 
+- [best job management software for electricians](/blog/best-job-management-software-electricians-australia)
+
 For a deeper look at specific aspects of solar business compliance and operations:
 
 - [ServiceM8 for Solar Installers — full compliance workflow guide](/blog/servicem8-for-solar-installers)
