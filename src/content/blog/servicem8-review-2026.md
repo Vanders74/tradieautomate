@@ -1,6 +1,6 @@
 ---
-title: 'ServiceM8 Review 2026: Is It Worth It for Australian Tradies? (After Running It Live)'
-description: 'Honest ServiceM8 review from Australian trades businesses using it daily in 2026. Real-world results on invoicing speed, compliance, pricing, and who it actually suits.'
+title: 'ServiceM8 Review 2026 | Honest Feedback from a Tradie Pro'
+description: 'Straight-talking ServiceM8 review from Australian trades businesses using it daily in 2026. Real-world results on invoicing speed, compliance, pricing, and who it actually suits.'
 updatedDate: 'Apr 18 2026'
 pubDate: 'Apr 03 2026'
 heroImage: '/hero-servicem8-review.jpg'
