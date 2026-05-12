@@ -1,6 +1,6 @@
 ---
-title: 'ServiceM8 vs simPRO 2026: Real-World Comparison for Australian Trade Businesses'
-description: 'ServiceM8 vs simPRO compared by Australian trades specialists in 2026. Honest breakdown of pricing, usability, compliance tools, and which platform actually suits your business size.'
+title: "ServiceM8 vs Simpro 2026: Don't Overpay for Features You'll Never Use"
+description: 'ServiceM8 vs Simpro 2026 — honest comparison for Australian trade businesses. See real pricing, usability, and compliance differences before you commit to the wrong platform.'
 updatedDate: 'Apr 18 2026'
 pubDate: 'Mar 28 2026'
 heroImage: '/hero-simpro-comparison.jpg'
