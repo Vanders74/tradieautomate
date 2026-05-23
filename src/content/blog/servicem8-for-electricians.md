@@ -2,6 +2,7 @@
 title: 'ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use'
 description: 'How Australian electricians are using ServiceM8 to manage compliance certificates, cut paperwork, win more jobs, and get paid faster. A practical guide for 2026.'
 pubDate: 'Apr 27 2026'
+category: "ServiceM8"
 heroImage: '/hero-servicem8-for-electricians.jpg'
 ---
 
