@@ -6,7 +6,7 @@ heroImage: '/hero-ccew-nsw-compliance.jpg'
 tags: ['CCEW', 'NSW', 'electrical compliance', 'electrician', 'Fair Trading', 'certificate of compliance']
 ---
 
-NSW has the highest CTR of any article on TradieAutomate, and it's not hard to understand why. The Certificate of Compliance Electrical Work is a legal obligation with real financial penalties, and the rules around when it's required — and when the clock starts ticking — are genuinely confusing.
+The Certificate of Compliance Electrical Work is a legal obligation with real financial penalties, and the rules around when it's required — and when the clock starts ticking — are genuinely confusing for many electricians and contractors.
 
 This article cuts through the confusion. Here is exactly when a CCEW is legally required, the 7-day rule that most electricians underestimate, who you have to submit it to, and the compliance gap that field software closes.
 
