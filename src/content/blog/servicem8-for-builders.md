@@ -2,6 +2,7 @@
 title: 'ServiceM8 for Builders: Job Management for Australian Residential Construction'
 description: 'How Australian builders and construction businesses use ServiceM8 to manage subcontractors, compliance documentation, quoting, and cash flow on residential builds.'
 pubDate: 'Apr 27 2026'
+category: "ServiceM8"
 heroImage: '/hero-servicem8-for-builders.jpg'
 ---
 
