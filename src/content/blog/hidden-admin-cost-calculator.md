@@ -2,6 +2,7 @@
 title: 'The Hidden Admin Cost Calculator: What Aussie Tradies Really Lose Each Week'
 description: 'Use this free calculator to find out exactly how much your trade business is losing to admin every week. Enter your team size, hours, and charge-out rate — the real cost might shock you.'
 pubDate: 'May 08 2026'
+category: "Business Growth"
 heroImage: '/hero-admin-cost-calculator.jpg'
 tags: ['admin costs', 'job management software', 'ROI', 'tradie tools', 'ServiceM8']
 ---
