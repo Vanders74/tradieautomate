@@ -2,6 +2,7 @@
 title: 'Best Accounting Software for Solar and Electrical Businesses in Australia: Xero vs MYOB vs QuickBooks (2026)'
 description: 'An honest comparison of Xero, MYOB, and QuickBooks for Australian solar installation and electrical businesses — GST handling, payroll, ServiceM8 integration, pricing, and which one is right for your trade business.'
 pubDate: 'May 26 2026'
+category: "Business Growth"
 heroImage: '/hero-accounting-software-solar.jpg'
 tags: ['accounting software', 'Xero', 'MYOB', 'QuickBooks', 'solar', 'electrician', 'business']
 ---
