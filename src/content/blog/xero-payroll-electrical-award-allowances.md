@@ -2,6 +2,7 @@
 title: 'How to Set Up Electrical Award Allowances in Xero Payroll (Without the Manual Math)'
 description: 'Xero Payroll does not automatically calculate Electrical Award allowances like height money, tool allowance, and dirt money. Here is the step-by-step setup so your sparkie payroll runs correctly every week.'
 pubDate: 'Jun 04 2026'
+category: "Business Growth"
 heroImage: '/hero-xero-payroll-electrical.jpg'
 tags: ['Xero', 'payroll', 'electrical award', 'electrician', 'payroll setup', 'admin automation']
 ---
