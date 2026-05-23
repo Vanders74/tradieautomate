@@ -2,6 +2,7 @@
 title: 'The Paperless Trade Roadmap: How Solar and Electrical Businesses Eliminate Admin Chaos'
 description: 'A step-by-step guide to going paperless for Australian solar installers and electricians — automating job management, compliance docs, and invoicing to reclaim hours every week.'
 pubDate: 'May 01 2026'
+category: "Business Growth"
 heroImage: '/hero-paperless-trade-roadmap.jpg'
 tags: ['operational efficiency', 'job management', 'solar', 'electrician', 'paperless']
 ---
