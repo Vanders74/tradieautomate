@@ -2,6 +2,7 @@
 title: 'How to Get 5-Star Google Reviews as a Solar Installer or Electrician (The Complete Guide)'
 description: 'A practical, step-by-step guide for Australian solar installers and electricians to systematically collect 5-star Google reviews — and convert that social proof into more signed quotes.'
 pubDate: 'Jul 15 2026'
+category: "Business Growth"
 heroImage: '/hero-google-reviews-tradie.jpg'
 tags: ['customer experience', 'Google reviews', 'solar', 'electrician', 'reputation', 'marketing']
 ---
