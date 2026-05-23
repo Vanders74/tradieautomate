@@ -2,6 +2,7 @@
 title: 'SMS vs Email for Sending Quotes: Which Gets More Solar and Electrical Jobs Signed?'
 description: 'Should Australian solar installers and electricians send quotes by SMS or email? The data and real-world experience is clear — here is what gets more quotes signed, faster.'
 pubDate: 'Jul 01 2026'
+category: "Business Growth"
 heroImage: '/hero-sms-vs-email-quotes.jpg'
 tags: ['customer experience', 'quoting', 'solar', 'electrician', 'sales']
 ---
