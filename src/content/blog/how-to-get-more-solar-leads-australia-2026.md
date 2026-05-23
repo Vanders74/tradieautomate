@@ -2,6 +2,7 @@
 title: 'How to Get More Solar Leads in Australia: The 2026 Marketing Guide for Solar Installation Businesses'
 description: 'A practical guide for Australian solar installers on generating consistent, high-quality leads in 2026 — Google Business Profile, SEO, referrals, social proof, and the channels that actually work.'
 pubDate: 'May 16 2026'
+category: "Business Growth"
 heroImage: '/hero-solar-leads-australia.jpg'
 tags: ['solar', 'lead generation', 'marketing', 'electrician', 'Google', 'business growth']
 ---
