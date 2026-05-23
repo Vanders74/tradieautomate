@@ -2,6 +2,7 @@
 title: 'ServiceM8 for Painters: Quote Faster, Invoice Sooner, Chase Less'
 description: 'How Australian painting businesses are using ServiceM8 to win more quotes, invoice same-day, and cut the admin that eats into margins. A practical 2026 guide.'
 pubDate: 'Apr 27 2026'
+category: "ServiceM8"
 heroImage: '/hero-servicem8-for-painters.jpg'
 ---
 
