@@ -2,6 +2,7 @@
 title: 'Solar Monitoring and After-Sales Revenue: How to Turn Installs Into Recurring Income'
 description: 'How Australian solar businesses can build recurring revenue from monitoring, maintenance contracts, and after-sales services — turning one-time installs into long-term customer relationships and predictable income.'
 pubDate: 'May 23 2026'
+category: "Solar & Battery"
 heroImage: '/hero-solar-monitoring-revenue.jpg'
 tags: ['solar', 'recurring revenue', 'monitoring', 'maintenance', 'business growth', 'electrician']
 ---
