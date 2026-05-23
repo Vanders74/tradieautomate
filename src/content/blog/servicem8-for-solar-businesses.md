@@ -2,6 +2,7 @@
 title: 'ServiceM8 for Solar Businesses: Scale Your Installation Operations Without the Admin Overload'
 description: 'How Australian solar installation businesses use ServiceM8 to manage CER compliance, STC documentation, team scheduling, and cash flow — and scale past the point where manual systems break.'
 pubDate: 'Apr 27 2026'
+category: "ServiceM8"
 heroImage: '/hero-servicem8-for-solar-businesses.jpg'
 ---
 

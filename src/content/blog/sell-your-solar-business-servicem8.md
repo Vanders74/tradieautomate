@@ -2,6 +2,7 @@
 title: 'How to Use ServiceM8 to Make Your Solar Business More Valuable — and More Sellable'
 description: "Thinking about selling your solar business? Buyers want proof the business runs itself — not just a revenue number. Here's how ServiceM8 turns your daily operations into a documented, sellable asset."
 pubDate: 'Mar 31 2026'
+category: "ServiceM8"
 updatedDate: 'Apr 18 2026'
 heroImage: '/hero-sell-solar-business.webp'
 canonicalURL: 'https://tradieautomate.com/blog/sell-servicem8-trade-business-value/'

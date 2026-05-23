@@ -2,6 +2,7 @@
 title: 'ServiceM8 vs AroFlo: Which Field Service Platform Is Right for Your Australian Trade Business?'
 description: 'ServiceM8 vs AroFlo compared — pricing, features, compliance tools, and which platform fits Australian trade businesses from sole traders to 50+ staff in 2026.'
 pubDate: 'Apr 27 2026'
+category: "Software Comparisons"
 heroImage: '/hero-servicem8-vs-aroflo.jpg'
 ---
 

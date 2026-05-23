@@ -2,6 +2,7 @@
 title: 'Adding Battery Storage to Your Solar Business: The Complete Guide for Australian Installers'
 description: 'How to add battery storage installation to your solar business in Australia — CEC endorsement, AS/NZS 5139 compliance, pricing battery jobs, the products that sell, and building a profitable battery revenue line.'
 pubDate: 'May 19 2026'
+category: "Solar & Battery"
 heroImage: '/hero-adding-battery-storage-business.jpg'
 tags: ['battery storage', 'solar', 'AS/NZS 5139', 'business growth', 'electrician', 'CEC']
 ---

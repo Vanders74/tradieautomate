@@ -2,6 +2,7 @@
 title: 'ServiceM8 for Roofing Contractors: Manage Jobs, Quotes, and Compliance From the Field'
 description: 'How Australian roofing businesses use ServiceM8 to quote storm damage faster, manage crew scheduling, document compliance, and invoice on completion. A practical 2026 guide.'
 pubDate: 'Apr 27 2026'
+category: "ServiceM8"
 heroImage: '/hero-servicem8-for-roofing.jpg'
 ---
 

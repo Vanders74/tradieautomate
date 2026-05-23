@@ -3,6 +3,7 @@ title: "ServiceM8 vs Simpro 2026: Don't Overpay for Features You'll Never Use"
 description: 'ServiceM8 vs Simpro 2026 — honest comparison for Australian trade businesses. See real pricing, usability, and compliance differences before you commit to the wrong platform.'
 updatedDate: 'Apr 18 2026'
 pubDate: 'Mar 28 2026'
+category: "Software Comparisons"
 heroImage: '/hero-simpro-comparison.jpg'
 ---
 

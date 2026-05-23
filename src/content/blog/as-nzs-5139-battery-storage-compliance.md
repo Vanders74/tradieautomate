@@ -3,6 +3,7 @@ title: 'AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs
 description: 'The AS/NZS 5139:2019 standard changed what compliant battery storage installations look like in Australia. Here is a plain-English breakdown of what changed, what it means on the job, and how to make sure every install passes first time.'
 updatedDate: 'Apr 18 2026'
 pubDate: 'Feb 22 2026'
+category: "Compliance"
 heroImage: '/hero-battery-storage.jpg'
 ---
 

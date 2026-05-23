@@ -2,6 +2,7 @@
 title: 'ServiceM8 for HVAC Technicians: Job Management Built for Australian Air Con and Refrigeration Businesses'
 description: 'How Australian HVAC and refrigeration businesses use ServiceM8 to manage ARCtick compliance, streamline service contracts, and grow without the admin chaos.'
 pubDate: 'Apr 27 2026'
+category: "ServiceM8"
 heroImage: '/hero-servicem8-for-hvac.jpg'
 ---
 

@@ -2,6 +2,7 @@
 title: 'ServiceM8 vs Jobber: The 2026 Tradie Software Guide for Australian Solar and Electrical Businesses'
 description: 'ServiceM8 vs Jobber — a direct comparison for Australian solar installers, electricians, and trade businesses in 2026. Pricing, compliance features, mobile experience, and a clear verdict.'
 pubDate: 'Aug 01 2026'
+category: "Software Comparisons"
 heroImage: '/hero-servicem8-vs-jobber.jpg'
 tags: ['software comparison', 'ServiceM8', 'Jobber', 'solar', 'electrician', 'job management']
 ---

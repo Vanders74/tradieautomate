@@ -2,6 +2,7 @@
 title: 'The 1.5kW Solar Export Clamp Explained: How CSIP-Aus Affects Every System Installed After May 2026'
 description: 'The CSIP-Aus mandate means non-compliant solar systems face a permanent 1.5kW export limit. Here is exactly what triggers the clamp, how to check if a system is affected, and the conversation to have with legacy solar customers.'
 pubDate: 'Jun 03 2026'
+category: "Solar & Battery"
 heroImage: '/hero-csip-aus-export-clamp.jpg'
 tags: ['solar', 'CSIP compliance', 'export limit', 'AS4777', 'solar installer', 'electrician']
 ---

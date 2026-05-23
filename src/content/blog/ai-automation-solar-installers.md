@@ -2,6 +2,7 @@
 title: 'AI Automation for Solar Installers: What Actually Works in 2026'
 description: 'A practical guide to AI automation for Australian solar installation businesses — quoting, compliance, scheduling, customer follow-up, and where to start. No hype, just real-world application.'
 pubDate: 'Apr 27 2026'
+category: "Solar & Battery"
 heroImage: '/hero-ai-automation-solar-installers.jpg'
 ---
 

@@ -2,6 +2,7 @@
 title: '5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician (And How to Fix Them)'
 description: 'The real profit killers for Australian solar installers and electricians are rarely the obvious ones. Here are five hidden costs draining your margins — and exactly how to reclaim them.'
 pubDate: 'Jun 01 2026'
+category: "Business Growth"
 heroImage: '/hero-hidden-costs-profit.jpg'
 tags: ['profitability', 'job costing', 'solar', 'electrician', 'business finance']
 ---

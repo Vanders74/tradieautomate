@@ -3,6 +3,7 @@ title: 'Tradie Automation: Use AI to Run Your Business on Autopilot'
 description: 'A practical 2026 guide to tradie automation — use AI to handle scheduling, follow-ups, quoting, and compliance docs. No fluff, just real-world results for Australian trade businesses.'
 updatedDate: 'Apr 18 2026'
 pubDate: 'Apr 07 2026'
+category: "Business Growth"
 heroImage: '/hero-digital-jobs.jpg'
 ---
 

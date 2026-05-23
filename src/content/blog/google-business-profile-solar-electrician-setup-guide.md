@@ -2,6 +2,7 @@
 title: 'Google Business Profile for Solar Installers and Electricians: Complete Setup and Optimisation Guide (2026)'
 description: 'Step-by-step guide to setting up and optimising Google Business Profile for solar installation and electrical businesses in Australia — local SEO, review strategy, categories, photos, and what actually drives local pack rankings.'
 pubDate: 'May 22 2026'
+category: "Business Growth"
 heroImage: '/hero-google-business-profile-solar.jpg'
 tags: ['Google Business Profile', 'local SEO', 'solar', 'electrician', 'marketing', 'lead generation']
 ---
