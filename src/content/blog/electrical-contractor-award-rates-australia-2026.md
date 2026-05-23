@@ -2,6 +2,7 @@
 title: 'Electrical Contractor Award Rates Australia 2026: What You Must Pay Your Electrician'
 description: 'The current Electrical, Electronic and Communications Contracting Award 2020 rates for 2025-26 — pay rates by classification, allowances, overtime, super, and what solar and electrical businesses need to know about employing electricians.'
 pubDate: 'May 20 2026'
+category: "Business Growth"
 heroImage: '/hero-electrical-award-rates-2026.jpg'
 tags: ['hiring', 'award rates', 'electrician', 'solar', 'employment', 'payroll']
 ---
