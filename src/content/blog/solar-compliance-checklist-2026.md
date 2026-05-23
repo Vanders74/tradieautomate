@@ -2,6 +2,7 @@
 title: 'The Complete Solar Compliance Checklist for Australian Installers (2026)'
 description: 'Every compliance requirement solar installers need to know in 2026 — CER rules, AS/NZS standards, STC documentation, and audit preparation. One checklist to keep you covered.'
 pubDate: 'Feb 18 2026'
+category: "Compliance"
 updatedDate: 'Apr 18 2026'
 heroImage: '/hero-compliance-checklist.jpg'
 ---
