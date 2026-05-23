@@ -2,6 +2,7 @@
 title: 'Certificate of Electrical Safety (CES) — Complete Guide for Victorian Electricians (2026)'
 description: 'Everything Victorian electricians need to know about Certificate of Electrical Safety (CES) requirements in 2026 — when it is required, how to issue it, the timeframe, common mistakes, and digital workflow tips.'
 pubDate: 'May 15 2026'
+category: "Compliance"
 heroImage: '/hero-ces-victoria-guide.jpg'
 tags: ['CES', 'Victoria', 'compliance', 'electrician', 'electrical certificate', 'Energy Safe Victoria']
 ---
