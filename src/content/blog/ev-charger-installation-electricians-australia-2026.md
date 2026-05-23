@@ -2,6 +2,7 @@
 title: 'EV Charger Installation for Electricians: Certification, Compliance and Workflow (2026)'
 description: 'Everything Australian electricians need to know about EV charger installation — EVSE certification, AS/NZS 3000 compliance, switchboard upgrades, customer workflow, and how to build it as a revenue line in 2026.'
 pubDate: 'May 14 2026'
+category: "Solar & Battery"
 heroImage: '/hero-ev-charger-installation.jpg'
 tags: ['EV charger', 'electrician', 'EVSE', 'compliance', 'solar', 'emerging market']
 ---
