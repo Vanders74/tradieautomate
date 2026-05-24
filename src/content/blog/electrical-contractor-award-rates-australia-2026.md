@@ -184,5 +184,3 @@ For building the full pricing model, see our [hidden costs guide](/blog/hidden-c
 ---
 
 *This article provides general information only and does not constitute legal or workplace relations advice. Award rates are updated annually — always verify current rates on the Fair Work Commission website at fairwork.gov.au.*
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

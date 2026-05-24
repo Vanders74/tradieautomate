@@ -186,7 +186,3 @@ For the complete CER audit preparation framework — including what auditors loo
 - *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
 - *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
-
----
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

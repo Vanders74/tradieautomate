@@ -1,7 +1,7 @@
 ---
-title: 'Certificate of Compliance — Electrical Work (CCEW) NSW: Complete Guide for Electricians (2026)'
+title: 'CCEW NSW: Certificate of Compliance — Electrical Work Guide for Electricians'
 description: 'Everything NSW electricians need to know about the Certificate of Compliance — Electrical Work (CCEW) in 2026 — when it is required, how to issue it, timeframes, common errors, and digital workflow tips.'
-pubDate: 'May 27 2026'
+pubDate: 'May 09 2026'
 category: "Compliance"
 heroImage: '/hero-ccew-nsw-guide.jpg'
 tags: ['CCEW', 'NSW', 'compliance', 'electrician', 'electrical certificate', 'SafeWork NSW']
@@ -189,5 +189,3 @@ The property owner is entitled to a copy. Failure to provide it is a Fair Tradin
 ---
 
 *This article provides general information only and does not constitute legal advice. Requirements are subject to legislative change — always verify current obligations with NSW Fair Trading (fairtrading.nsw.gov.au) and SafeWork NSW.*
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

@@ -1,7 +1,7 @@
 ---
 title: 'How to Get 5-Star Google Reviews as a Solar Installer or Electrician (The Complete Guide)'
 description: 'A practical, step-by-step guide for Australian solar installers and electricians to systematically collect 5-star Google reviews — and convert that social proof into more signed quotes.'
-pubDate: 'Jul 15 2026'
+pubDate: 'May 14 2026'
 category: "Business Growth"
 heroImage: '/hero-google-reviews-tradie.jpg'
 tags: ['customer experience', 'Google reviews', 'solar', 'electrician', 'reputation', 'marketing']
@@ -196,7 +196,3 @@ If you're not currently asking every customer for a review, you're leaving a sig
 - *[AI Automation for Solar Installers: What Actually Works](/blog/ai-automation-solar-installers)*
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
 - *[The Paperless Trade Roadmap](/blog/paperless-trade-roadmap-operational-efficiency)*
-
----
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

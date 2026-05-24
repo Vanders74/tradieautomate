@@ -200,7 +200,3 @@ Not sure where your business stands? The first step is an honest assessment of y
 - *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
 - *[AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-
----
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

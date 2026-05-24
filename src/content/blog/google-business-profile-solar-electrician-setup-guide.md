@@ -1,5 +1,5 @@
 ---
-title: 'Google Business Profile for Solar Installers and Electricians: Complete Setup and Optimisation Guide (2026)'
+title: 'Google Business Profile for Solar Installers and Electricians: Setup & Optimisation Guide'
 description: 'Step-by-step guide to setting up and optimising Google Business Profile for solar installation and electrical businesses in Australia — local SEO, review strategy, categories, photos, and what actually drives local pack rankings.'
 pubDate: 'May 22 2026'
 category: "Business Growth"
@@ -220,7 +220,3 @@ Each review you collect makes the next lead easier to win. Over 12 months, this 
 - *[SMS vs Email: Which Gets More Solar Quotes Signed?](/blog/sms-vs-email-quotes-customer-experience)*
 - *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)*
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
-
----
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

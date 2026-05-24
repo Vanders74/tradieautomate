@@ -131,7 +131,3 @@ Explore how ServiceM8 works specifically for your trade:
 - [ServiceM8 for Plumbers](/blog/servicem8-for-plumbers)
 - [ServiceM8 for HVAC Businesses](/blog/servicem8-for-hvac)
 - [ServiceM8 Review 2026](/blog/servicem8-review-2026)
-
----
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

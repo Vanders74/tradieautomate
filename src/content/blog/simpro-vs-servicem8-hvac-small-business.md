@@ -1,7 +1,7 @@
 ---
 title: 'Simpro vs ServiceM8: Which Fits a 3-Man HVAC Business Better?'
 description: "Don't pay for enterprise software your small HVAC team will never use. Here's a straight-up comparison of Simpro and ServiceM8 for split-system installers, duct servicing businesses, and 24/7 breakdown contractors."
-pubDate: 'Jun 05 2026'
+pubDate: 'May 17 2026'
 category: "Software Comparisons"
 heroImage: '/hero-simpro-vs-servicem8-hvac.jpg'
 tags: ['ServiceM8', 'Simpro', 'HVAC', 'job management', 'software comparison', 'tradieautomate']

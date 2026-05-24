@@ -207,7 +207,3 @@ Yes. ServiceM8 has a direct Xero integration (and MYOB). Completed, invoiced job
 - [ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses)
 - [AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)
 - [ServiceM8 vs Tradify for Solar and Electrical Businesses](/blog/servicem8-vs-tradify-solar-electrical)
-
----
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

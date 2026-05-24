@@ -1,7 +1,7 @@
 ---
-title: 'Staying Compliant in 2026: The Complete Safety and Compliance Guide for Solar and Electrical Installers'
+title: 'Australian Solar & Electrical Safety Compliance Guide 2026'
 description: 'SWMS requirements, CER compliance, AS/NZS standards, and the safety audit checklist every Australian solar installer and electrician needs to stay compliant and protected in 2026.'
-pubDate: 'Oct 01 2026'
+pubDate: 'May 24 2026'
 category: "Compliance"
 heroImage: '/hero-compliance-safety-2026.jpg'
 tags: ['compliance', 'safety', 'SWMS', 'solar', 'electrician', 'CER', 'AS/NZS']
@@ -137,7 +137,7 @@ Electrical licensing and compliance requirements vary by state. The key obligati
 
 ### New South Wales — SafeWork NSW
 
-- **Certificate of Compliance — Electrical Work (CCEW):** The NSW equivalent of the Victorian CES. Must be issued for most electrical installation work.
+- **Certificate of Compliance — Electrical Work (CCEW):** The NSW equivalent of the Victorian CES. Must be issued for most electrical installation work. For full detail on timeframes, categories, and digital workflows, see our [complete CCEW guide for NSW electricians](/blog/ccew-nsw-electrical-compliance-guide-2026).
 - **Accredited Service Provider (ASP) requirements:** Work on the network — including solar connection — often requires involvement of an Accredited Service Provider. Know whether your work type requires ASP involvement.
 
 ### Queensland — Electrical Safety Office
@@ -226,7 +226,3 @@ Build your compliance workflows, embed your SWMS checklist, and create the docum
 - *[The Paperless Trade Roadmap: Eliminating Admin Chaos](/blog/paperless-trade-roadmap-operational-efficiency)*
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
 - *[ServiceM8 for Electricians: The Platform Australian Sparkies Use](/blog/servicem8-for-electricians)*
-
----
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*
