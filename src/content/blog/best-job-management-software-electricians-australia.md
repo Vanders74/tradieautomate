@@ -126,6 +126,8 @@ This is particularly valuable for electricians doing solar and battery work, whe
 
 ## Pricing Comparison
 
+> 📊 **Before comparing prices, know your current admin cost.** Our free [Tradie Admin Cost Calculator](/tools/admin-cost-calculator) shows you exactly how much your business is leaking to admin right now — so you can make an informed ROI comparison for any platform.
+
 | Platform | Starting price (AUD/mo) | Per-user pricing? | Free trial |
 |---|---|---|---|
 | **ServiceM8** | ~$29 (Lite, 15 jobs/mo) | No — job-based | 14 days |

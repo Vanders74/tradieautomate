@@ -21,6 +21,8 @@ The Australian trades industry is experiencing a staffing crunch. Skilled labour
 
 AI automation doesn't replace tradies — it replaces the repetitive admin work that sits around the actual trade work. For a solar installation business doing 20–40 jobs a month, that admin can easily consume 15–20 hours a week across the team.
 
+> 📊 **Find out exactly what that's costing you.** Use the free [Tradie Admin Cost Calculator](/tools/admin-cost-calculator) to get your personalised annual admin leak estimate — most businesses are shocked by the number.
+
 Here's where the time goes — and where AI is winning it back.
 
 ---

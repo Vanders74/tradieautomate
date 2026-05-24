@@ -154,6 +154,9 @@ ServiceM8 is the strongest fit for:
 - **Businesses chasing faster payments** — the invoicing and payment processing workflow is best-in-class
 - **Owner-operators** who want to stop losing time to admin without hiring a dedicated admin person
 
+> 📊 **Not sure if job management software is worth it for your business?**
+> Use our free [Tradie Admin Cost Calculator](/tools/admin-cost-calculator) to see exactly how much your current admin overhead is costing you per year — takes 60 seconds.
+
 It's less suitable for:
 - Large commercial or civil contractors with complex project accounting needs
 - Businesses with heavy Android-only workforces

@@ -1,0 +1,79 @@
+---
+// AdminCalcCTA.astro — inline calculator CTA block for blog posts
+// Usage: import AdminCalcCTA from '../components/AdminCalcCTA.astro';
+//        then <AdminCalcCTA />
+---
+
+<div class="admin-calc-cta">
+  <div class="cta-inner">
+    <div class="cta-icon">📊</div>
+    <div class="cta-content">
+      <strong>How much is admin costing your business?</strong>
+      <p>Aussie tradies lose an average of $78,000/year to unbillable admin. Get your number in 60 seconds.</p>
+    </div>
+    <a href="/tools/admin-cost-calculator" class="cta-btn">
+      Take the Free Calc →
+    </a>
+  </div>
+</div>
+
+<style>
+  .admin-calc-cta {
+    margin: 32px 0;
+    background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+    border: 1.5px solid #fdba74;
+    border-radius: 12px;
+    padding: 24px;
+  }
+
+  .cta-inner {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .cta-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+  }
+
+  .cta-content {
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .cta-content strong {
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #9a3412;
+    margin-bottom: 4px;
+  }
+
+  .cta-content p {
+    font-size: 0.875rem;
+    color: #7c2d12;
+    margin: 0;
+    opacity: 0.85;
+  }
+
+  .cta-btn {
+    display: inline-block;
+    background: #f97316;
+    color: white !important;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none !important;
+    white-space: nowrap;
+    flex-shrink: 0;
+    transition: background 0.15s, transform 0.1s;
+  }
+
+  .cta-btn:hover {
+    background: #ea580c;
+    transform: translateY(-1px);
+  }
+</style>

@@ -141,6 +141,8 @@ For solar businesses with high job values, this cash flow compression is materia
 
 Before you can build the paperless trade, you need an honest picture of where your current admin overhead lives.
 
+> 📊 **Not sure where to start?** Use the free [Tradie Admin Cost Calculator](/tools/admin-cost-calculator) to get a personalised breakdown of your annual admin leak by category — quoting, invoicing, scheduling, and follow-up — in under 60 seconds.
+
 Run through this quick audit:
 
 **Job creation:** How long does it take to create a new job from the moment you accept a booking? Where does the job information live? How many places does it need to be entered?

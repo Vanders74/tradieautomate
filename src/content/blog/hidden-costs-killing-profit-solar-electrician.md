@@ -147,6 +147,9 @@ When you remove this overhead, your technicians go home on time, your admin pers
 
 For a full breakdown of how to set up these automations, read our [ServiceM8 for Solar Installers guide](/blog/servicem8-for-solar-installers) — it walks through each workflow in the context of a solar installation business.
 
+> 📊 **Want to quantify your admin leak exactly?**
+> Our free [Tradie Admin Cost Calculator](/tools/admin-cost-calculator) gives you a personalised annual estimate in 60 seconds — enter your charge-out rate, team size, and hours lost.
+
 ---
 
 ## Know Your Numbers: A Profit Margin Calculator Framework

@@ -31,6 +31,8 @@ The solution is building the systems before you hire — or at minimum, simultan
 
 ## Phase 1: Systems Before People
 
+> 📊 **Know your admin baseline before you scale.** Every person you add will multiply your current admin overhead unless you fix the system first. [Calculate your current annual admin leak →](/tools/admin-cost-calculator)
+
 Before hiring your first additional technician or apprentice, the operational systems need to be in place. Here is what that means in practice for a solar or electrical business.
 
 ### 1. Centralised Job Management
