@@ -1,7 +1,7 @@
 ---
 title: 'How to Mine Your Old Job Database for Highly Profitable Battery Retrofits'
 description: 'Stop buying cold Facebook leads. The most profitable battery sales pipeline is already inside your old job records. Here are the exact parameters for an ideal solar battery retrofit lead and how to run the campaign in ServiceM8.'
-pubDate: 'Jun 10 2026'
+pubDate: 'May 21 2026'
 category: "Solar & Battery"
 heroImage: '/hero-solar-battery-retrofit.jpg'
 tags: ['solar', 'battery storage', 'retrofit', 'customer retention', 'ServiceM8', 'lead generation']

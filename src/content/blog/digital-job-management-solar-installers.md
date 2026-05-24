@@ -166,7 +166,3 @@ Absolutely. Platforms like ServiceM8 support fully custom forms, so you can buil
 - [CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers)
 - [Best Job Management Software for Solar Installers Australia 2026](/guides/best-job-management-software-solar-installers-australia-2026)
 - [ServiceM8 Review 2026: Is It Worth It for Australian Tradies?](/blog/servicem8-review-2026)
-
----
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

@@ -1,7 +1,7 @@
 ---
 title: 'How to Write a Solar Quote That Wins the Job: Templates, Strategy and What Customers Actually Want'
 description: 'A practical guide for Australian solar installers on writing compelling, professional solar quotes that convert — what to include, how to present the numbers, common mistakes, and a solar quote template to use today.'
-pubDate: 'May 29 2026'
+pubDate: 'May 11 2026'
 category: "Business Growth"
 heroImage: '/hero-solar-quote-template.jpg'
 tags: ['solar quote', 'quoting', 'solar', 'electrician', 'sales', 'business growth']
@@ -223,7 +223,3 @@ Many customers don't spontaneously ask for battery in the quote request but woul
 - *[How to Get More Solar Leads in Australia: The 2026 Marketing Guide](/blog/how-to-get-more-solar-leads-australia-2026)*
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
-
----
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

@@ -1,7 +1,7 @@
 ---
 title: 'Electrical Contractor Insurance Australia 2026: What You Need, What It Costs, and What Gets You Covered'
 description: 'A practical guide for Australian solar installers and electricians on the insurance policies you must have, should have, and need to understand — public liability, professional indemnity, tool insurance, income protection, and what each covers.'
-pubDate: 'May 28 2026'
+pubDate: 'May 10 2026'
 category: "Business Growth"
 heroImage: '/hero-electrical-contractor-insurance.jpg'
 tags: ['insurance', 'electrician', 'solar', 'public liability', 'professional indemnity', 'business']
@@ -193,5 +193,3 @@ Look for a broker with experience in the construction and trade sector — not a
 ---
 
 *This article provides general information only and does not constitute insurance or financial advice. Insurance requirements vary by state and individual circumstances — always consult a licensed insurance broker or adviser.*
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

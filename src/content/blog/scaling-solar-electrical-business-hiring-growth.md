@@ -1,7 +1,7 @@
 ---
-title: 'How to Scale a Solar or Electrical Business: Hiring, Systems, and Doubling Your Jobs'
+title: 'How to Scale Your Solar or Electrical Business: Hiring, Systems, and Growth'
 description: 'A practical guide to scaling a solar installation or electrical business in Australia — hiring your first apprentice or technician, building systems that scale, and growing revenue without chaos.'
-pubDate: 'Sep 01 2026'
+pubDate: 'May 23 2026'
 category: "Business Growth"
 heroImage: '/hero-scaling-solar-electrical-business.jpg'
 tags: ['growth', 'scaling', 'solar', 'electrician', 'hiring', 'business systems']
@@ -191,7 +191,3 @@ If you're at the point where you know you need to scale but aren't sure where to
 - *[AI Automation for Solar Installers: What Actually Works](/blog/ai-automation-solar-installers)*
 - *[ServiceM8 for Electricians: The Platform Australian Sparkies Use](/blog/servicem8-for-electricians)*
 - *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
-
----
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

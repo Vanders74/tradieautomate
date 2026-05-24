@@ -1,7 +1,7 @@
 ---
 title: '5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician (And How to Fix Them)'
 description: 'The real profit killers for Australian solar installers and electricians are rarely the obvious ones. Here are five hidden costs draining your margins — and exactly how to reclaim them.'
-pubDate: 'Jun 01 2026'
+pubDate: 'May 12 2026'
 category: "Business Growth"
 heroImage: '/hero-hidden-costs-profit.jpg'
 tags: ['profitability', 'job costing', 'solar', 'electrician', 'business finance']
@@ -186,7 +186,3 @@ For most businesses we see, it's either unbilled time or late payment float. Bot
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
 - *[Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)*
 - *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
-
----
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

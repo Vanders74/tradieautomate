@@ -1,7 +1,7 @@
 ---
-title: 'Best Accounting Software for Solar and Electrical Businesses in Australia: Xero vs MYOB vs QuickBooks (2026)'
+title: 'Best Accounting Software for Solar & Electrical Businesses in Australia: Xero vs MYOB vs QuickBooks'
 description: 'An honest comparison of Xero, MYOB, and QuickBooks for Australian solar installation and electrical businesses — GST handling, payroll, ServiceM8 integration, pricing, and which one is right for your trade business.'
-pubDate: 'May 26 2026'
+pubDate: 'May 08 2026'
 category: "Business Growth"
 heroImage: '/hero-accounting-software-solar.jpg'
 tags: ['accounting software', 'Xero', 'MYOB', 'QuickBooks', 'solar', 'electrician', 'business']
@@ -175,7 +175,3 @@ Your bookkeeper should set up your accounting platform correctly for your award 
 - *[The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)*
 - *[ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)*
 - *[ServiceM8 vs Jobber: The 2026 Tradie Software Guide](/blog/servicem8-vs-jobber-tradie-software-guide-2026)*
-
----
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

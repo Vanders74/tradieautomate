@@ -188,7 +188,3 @@ After 20–30 jobs with accurate tracking, your pricing model will be calibrated
 - *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
 - *[How to Write a Solar Quote That Wins](/blog/how-to-write-solar-quote-that-wins)*
-
----
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

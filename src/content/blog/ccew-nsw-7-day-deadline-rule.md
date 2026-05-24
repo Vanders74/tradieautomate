@@ -1,7 +1,7 @@
 ---
 title: 'When Is a CCEW Legally Required in NSW? The 7-Day Deadline Rule Explained'
 description: 'NSW electricians face significant fines for missing the CCEW submission deadline. Here is exactly what triggers the requirement, the 7-day rule, who you submit to, and how digital workflows prevent costly compliance gaps.'
-pubDate: 'Jun 06 2026'
+pubDate: 'May 20 2026'
 category: "Compliance"
 heroImage: '/hero-ccew-nsw-compliance.jpg'
 tags: ['CCEW', 'NSW', 'electrical compliance', 'electrician', 'Fair Trading', 'certificate of compliance']

@@ -1,7 +1,7 @@
 ---
 title: 'The 2026 Solar Playbook: How to Sell Out the "Dumb" Array and Lock In High-Margin Battery Tech'
 description: "Australia's May 2026 regulatory changes mean unmanaged solar systems face permanent 1.5kW export caps. Here's the complete contractor playbook for upselling CSIP-compliant hybrid systems, LFP batteries, and VPP contracts."
-pubDate: 'Jun 02 2026'
+pubDate: 'May 16 2026'
 category: "Solar & Battery"
 heroImage: '/hero-solar-playbook-2026.jpg'
 tags: ['solar', 'battery storage', 'CSIP compliance', 'VPP', 'electrician', 'business strategy']

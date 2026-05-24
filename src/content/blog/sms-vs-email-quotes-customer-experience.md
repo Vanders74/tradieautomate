@@ -1,7 +1,7 @@
 ---
 title: 'SMS vs Email for Sending Quotes: Which Gets More Solar and Electrical Jobs Signed?'
 description: 'Should Australian solar installers and electricians send quotes by SMS or email? The data and real-world experience is clear — here is what gets more quotes signed, faster.'
-pubDate: 'Jul 01 2026'
+pubDate: 'May 13 2026'
 category: "Business Growth"
 heroImage: '/hero-sms-vs-email-quotes.jpg'
 tags: ['customer experience', 'quoting', 'solar', 'electrician', 'sales']
@@ -158,7 +158,3 @@ But the channel matters less than the speed, the follow-up discipline, and the s
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
 - *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)*
-
----
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

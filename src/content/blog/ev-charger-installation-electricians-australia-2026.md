@@ -1,5 +1,5 @@
 ---
-title: 'EV Charger Installation for Electricians: Certification, Compliance and Workflow (2026)'
+title: 'EV Charger Installation for Electricians: Certification, Compliance and Workflow in Australia'
 description: 'Everything Australian electricians need to know about EV charger installation — EVSE certification, AS/NZS 3000 compliance, switchboard upgrades, customer workflow, and how to build it as a revenue line in 2026.'
 pubDate: 'May 14 2026'
 category: "Solar & Battery"
@@ -176,7 +176,3 @@ That conversation is worth $1,500–$3,000 in additional revenue — and it's a 
 - *[The Complete Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
-
----
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

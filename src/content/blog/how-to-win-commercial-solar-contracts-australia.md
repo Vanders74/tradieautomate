@@ -170,7 +170,3 @@ Commercial jobs have higher absolute margin potential but also higher complexity
 - *[The Complete Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)*
 - *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses)*
-
----
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*

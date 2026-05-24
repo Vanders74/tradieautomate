@@ -1,7 +1,7 @@
 ---
-title: 'ServiceM8 vs Jobber: The 2026 Tradie Software Guide for Australian Solar and Electrical Businesses'
+title: 'ServiceM8 vs Jobber: Job Management Software for Australian Solar and Electrical Businesses'
 description: 'ServiceM8 vs Jobber — a direct comparison for Australian solar installers, electricians, and trade businesses in 2026. Pricing, compliance features, mobile experience, and a clear verdict.'
-pubDate: 'Aug 01 2026'
+pubDate: 'May 22 2026'
 category: "Software Comparisons"
 heroImage: '/hero-servicem8-vs-jobber.jpg'
 tags: ['software comparison', 'ServiceM8', 'Jobber', 'solar', 'electrician', 'job management']
@@ -239,7 +239,3 @@ No credit card required. Set up your first compliance form and test the full wor
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[The Paperless Trade Roadmap](/blog/paperless-trade-roadmap-operational-efficiency)*
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
-
----
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you. We only recommend platforms we'd use ourselves.*
