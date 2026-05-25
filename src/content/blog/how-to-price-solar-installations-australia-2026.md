@@ -121,6 +121,8 @@ Many installers have never calculated this number. They price based on materials
 
 ## Step 5: Profit Margin
 
+> 🧮 **Skip the manual maths.** Our free [Solar Quote Profitability Calculator](/tools/solar-quote-calculator) does all of this in real time — enter your system size, costs and state, and instantly see your net profit, margin %, and the exact price needed to hit 10%, 15%, or 20% margin.
+
 After recovering all costs — materials, labour, compliance, overhead — your profit margin is the return on your capital, risk, and time as a business owner.
 
 **Industry benchmark:** 10–20% net profit margin is healthy for a well-run solar installation business. Below 10% leaves you vulnerable to cost increases and provides no buffer for bad jobs. Above 20% is excellent and usually indicates strong repeat/referral business or premium positioning.

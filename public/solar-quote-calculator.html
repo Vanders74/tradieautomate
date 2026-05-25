@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solar Quote Profitability Calculator</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    font-size: 15px;
+    background: #f8fafc;
+    color: #1e293b;
+    line-height: 1.5;
+  }
+
+  .calc-wrap { max-width: 720px; margin: 0 auto; padding: 24px 16px; }
+
+  /* ─── Section blocks ─── */
+  .section {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
+    border: 1px solid #e2e8f0;
+  }
+
+  .section-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: #94a3b8;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  /* ─── Field grid ─── */
+  .field-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .field-grid.three { grid-template-columns: 1fr 1fr 1fr; }
+  .field-grid.full { grid-template-columns: 1fr; }
+
+  .field { display: flex; flex-direction: column; gap: 4px; }
+  .field label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #475569;
+  }
+  .field .hint {
+    font-size: 0.73rem;
+    color: #94a3b8;
+    margin-top: -2px;
+  }
+
+  input[type="number"], select {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 7px;
+    font-size: 0.9rem;
+    color: #1e293b;
+    background: #f9fafb;
+    outline: none;
+    transition: border-color 0.15s;
+    -moz-appearance: textfield;
+  }
+  input[type="number"]::-webkit-inner-spin-button { opacity: 0.5; }
+  input[type="number"]:focus, select:focus {
+    border-color: #f97316;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1);
+  }
+
+  /* ─── Toggle ─── */
+  .toggle-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  .toggle-row label { font-size: 0.85rem; font-weight: 600; color: #374151; }
+  .switch { position: relative; display: inline-block; width: 40px; height: 22px; }
+  .switch input { opacity: 0; width: 0; height: 0; }
+  .slider {
+    position: absolute; inset: 0;
+    background: #d1d5db;
+    border-radius: 22px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .slider:before {
+    content: "";
+    position: absolute;
+    width: 16px; height: 16px;
+    left: 3px; bottom: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: transform 0.2s;
+  }
+  .switch input:checked + .slider { background: #f97316; }
+  .switch input:checked + .slider:before { transform: translateX(18px); }
+
+  /* ─── STC info row ─── */
+  .stc-auto {
+    font-size: 0.8rem;
+    color: #059669;
+    font-weight: 600;
+    padding: 6px 10px;
+    background: #f0fdf4;
+    border-radius: 6px;
+    margin-top: 4px;
+  }
+
+  /* ─── Results ─── */
+  .results {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    border-radius: 14px;
+    padding: 24px;
+    color: white;
+    margin-bottom: 16px;
+  }
+
+  .results-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: #64748b;
+    margin-bottom: 16px;
+  }
+
+  .result-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .result-card {
+    background: rgba(255,255,255,0.07);
+    border-radius: 10px;
+    padding: 14px;
+    text-align: center;
+  }
+  .result-card .val {
+    font-size: 1.5rem;
+    font-weight: 800;
+    display: block;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .result-card .lbl {
+    font-size: 0.72rem;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .result-card.green .val { color: #4ade80; }
+  .result-card.orange .val { color: #fb923c; }
+  .result-card.blue .val { color: #60a5fa; }
+
+  /* ─── Waterfall ─── */
+  .waterfall { margin-bottom: 20px; }
+  .waterfall-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    font-size: 0.88rem;
+  }
+  .waterfall-row:last-child { border-bottom: none; }
+  .waterfall-row .label { color: #94a3b8; }
+  .waterfall-row .amount { font-weight: 700; }
+  .waterfall-row.revenue .amount { color: #4ade80; }
+  .waterfall-row.cost .amount { color: #f87171; }
+  .waterfall-row.total .label { color: white; font-weight: 700; }
+  .waterfall-row.total .amount { color: #4ade80; font-size: 1.05rem; }
+  .waterfall-row.total { border-top: 1px solid rgba(255,255,255,0.15); padding-top: 10px; margin-top: 4px; }
+
+  /* ─── Insights ─── */
+  .insights-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .insight-card {
+    background: rgba(255,255,255,0.07);
+    border-radius: 8px;
+    padding: 12px;
+  }
+  .insight-card .i-label { font-size: 0.72rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; }
+  .insight-card .i-val { font-size: 1rem; font-weight: 700; color: #e2e8f0; }
+  .insight-card .i-sub { font-size: 0.75rem; color: #64748b; margin-top: 2px; }
+
+  /* ─── Margin health bar ─── */
+  .health-bar-wrap { margin-top: 16px; }
+  .health-label { font-size: 0.78rem; color: #94a3b8; margin-bottom: 6px; display: flex; justify-content: space-between; }
+  .health-track {
+    height: 10px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .health-fill {
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.4s ease, background 0.4s ease;
+  }
+
+  /* ─── Battery impact ─── */
+  .battery-impact {
+    background: rgba(99, 102, 241, 0.12);
+    border: 1px solid rgba(99, 102, 241, 0.25);
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 12px;
+    font-size: 0.83rem;
+    color: #c7d2fe;
+  }
+  .battery-impact strong { color: #a5b4fc; }
+
+  /* ─── Breakeven ─── */
+  .breakeven { margin-top: 12px; }
+  .breakeven-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    font-size: 0.82rem;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    color: #94a3b8;
+  }
+  .breakeven-row:last-child { border-bottom: none; }
+  .breakeven-row .be-val { font-weight: 700; color: #e2e8f0; }
+
+  /* ─── Warning / alert ─── */
+  .margin-warning {
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.25);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 0.83rem;
+    color: #fca5a5;
+    margin-top: 12px;
+    display: none;
+  }
+
+  /* ─── Recalc button ─── */
+  .calc-btn {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #f97316, #ea580c);
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    transition: opacity 0.15s, transform 0.1s;
+    letter-spacing: 0.01em;
+  }
+  .calc-btn:hover { opacity: 0.92; transform: translateY(-1px); }
+  .calc-btn:active { transform: translateY(0); }
+
+  @media (max-width: 520px) {
+    .field-grid { grid-template-columns: 1fr; }
+    .field-grid.three { grid-template-columns: 1fr 1fr; }
+    .result-main { grid-template-columns: 1fr; }
+    .insights-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="calc-wrap">
+
+  <!-- ① System Configuration -->
+  <div class="section">
+    <div class="section-title">☀️ System Configuration</div>
+    <div class="field-grid three">
+      <div class="field">
+        <label>System Size (kW)</label>
+        <input type="number" id="systemKw" value="6.6" min="1.5" max="100" step="0.1">
+      </div>
+      <div class="field">
+        <label>State / Territory</label>
+        <select id="state">
+          <option value="nsw">NSW / ACT (Zone 3)</option>
+          <option value="vic">VIC (Zone 4)</option>
+          <option value="qld" selected>QLD (Zone 2)</option>
+          <option value="sa">SA (Zone 3)</option>
+          <option value="wa">WA (Zone 3)</option>
+          <option value="tas">TAS (Zone 4)</option>
+          <option value="nt">NT (Zone 1)</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Install Type</label>
+        <select id="installType">
+          <option value="residential">Residential</option>
+          <option value="commercial">Light Commercial</option>
+          <option value="commercial_large">Commercial 30kW+</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="toggle-row" style="margin-top:14px;">
+      <label class="switch">
+        <input type="checkbox" id="batteryToggle" onchange="toggleBattery()">
+        <span class="slider"></span>
+      </label>
+      <label>Battery Storage Included?</label>
+    </div>
+
+    <div id="batteryFields" style="display:none;">
+      <div class="field-grid">
+        <div class="field">
+          <label>Battery Capacity (kWh)</label>
+          <input type="number" id="batteryKwh" value="10" min="5" max="100" step="0.5">
+        </div>
+        <div class="field">
+          <label>Battery Cost (AUD)</label>
+          <span class="hint">Ex-GST cost to you</span>
+          <input type="number" id="batteryCost" value="5800" min="0">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ② Revenue -->
+  <div class="section">
+    <div class="section-title">💰 Revenue</div>
+    <div class="field-grid">
+      <div class="field">
+        <label>Total Quote Price to Customer ($)</label>
+        <span class="hint">Inc. GST if applicable — enter ex-GST for cleaner margin calc</span>
+        <input type="number" id="quotedPrice" value="8500" min="0">
+      </div>
+      <div class="field">
+        <label>STC Value ($)</label>
+        <span class="hint">Auto-estimated — adjust if you know your exact STC deal</span>
+        <input type="number" id="stcValue" value="" min="0" placeholder="Auto-calculated">
+        <div class="stc-auto" id="stcAutoLabel">Estimated: calculating…</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ③ Direct Costs -->
+  <div class="section">
+    <div class="section-title">🔩 Direct Materials Cost</div>
+    <div class="field-grid">
+      <div class="field">
+        <label>Panels (AUD)</label>
+        <span class="hint">Total panel supply cost</span>
+        <input type="number" id="panelCost" value="1350" min="0">
+      </div>
+      <div class="field">
+        <label>Inverter (AUD)</label>
+        <input type="number" id="inverterCost" value="1100" min="0">
+      </div>
+      <div class="field">
+        <label>Mounting + Hardware (AUD)</label>
+        <input type="number" id="mountingCost" value="380" min="0">
+      </div>
+      <div class="field">
+        <label>Cabling + Switchboard (AUD)</label>
+        <input type="number" id="cablingCost" value="320" min="0">
+      </div>
+    </div>
+  </div>
+
+  <!-- ④ Labour -->
+  <div class="section">
+    <div class="section-title">👷 Labour</div>
+    <div class="field-grid three">
+      <div class="field">
+        <label>Install Hours (field)</label>
+        <input type="number" id="installHours" value="8" min="1" max="200">
+      </div>
+      <div class="field">
+        <label>Labour Cost Rate ($/hr)</label>
+        <span class="hint">All-in: wages + super + WC</span>
+        <input type="number" id="labourRate" value="65" min="0">
+      </div>
+      <div class="field">
+        <label>Admin / Compliance (hrs)</label>
+        <span class="hint">Quoting, certification, CER paperwork</span>
+        <input type="number" id="adminHours" value="3" min="0" step="0.5">
+      </div>
+    </div>
+    <div class="field-grid" style="margin-top:12px;">
+      <div class="field">
+        <label>Office Cost Rate ($/hr)</label>
+        <span class="hint">Your rate or admin person's rate</span>
+        <input type="number" id="officeRate" value="85" min="0">
+      </div>
+      <div class="field">
+        <label>Travel / Fuel Per Job ($)</label>
+        <input type="number" id="travelCost" value="60" min="0">
+      </div>
+    </div>
+  </div>
+
+  <!-- ⑤ Overhead & Risk -->
+  <div class="section">
+    <div class="section-title">🛡️ Overhead & Risk Provision</div>
+    <div class="field-grid three">
+      <div class="field">
+        <label>Overhead Rate (%)</label>
+        <span class="hint">Insurance, vehicle, tools, premises</span>
+        <input type="number" id="overheadPct" value="12" min="0" max="50">
+      </div>
+      <div class="field">
+        <label>Callback Probability (%)</label>
+        <span class="hint">% of jobs with a warranty callout</span>
+        <input type="number" id="callbackPct" value="8" min="0" max="50">
+      </div>
+      <div class="field">
+        <label>Avg Callback Cost ($)</label>
+        <input type="number" id="callbackCost" value="280" min="0">
+      </div>
+    </div>
+  </div>
+
+  <button class="calc-btn" onclick="calculate()">📊 Calculate My Job Margin</button>
+
+  <!-- ─── Results Panel ─── -->
+  <div class="results" id="results" style="display:none;">
+    <div class="results-title">📊 Job Profitability Breakdown</div>
+
+    <div class="result-main">
+      <div class="result-card green">
+        <span class="val" id="netProfit">—</span>
+        <span class="lbl">Net Profit</span>
+      </div>
+      <div class="result-card orange">
+        <span class="val" id="marginPct">—</span>
+        <span class="lbl">Margin</span>
+      </div>
+      <div class="result-card blue">
+        <span class="val" id="effectiveHourly">—</span>
+        <span class="lbl">Effective $/hr</span>
+      </div>
+    </div>
+
+    <!-- Health bar -->
+    <div class="health-bar-wrap">
+      <div class="health-label">
+        <span>Margin Health</span>
+        <span id="healthLabel">—</span>
+      </div>
+      <div class="health-track">
+        <div class="health-fill" id="healthFill" style="width:0%"></div>
+      </div>
+    </div>
+
+    <div class="margin-warning" id="marginWarning">
+      ⚠️ This job is <strong>below the 10% threshold</strong> recommended for solar installs. Review your material costs or increase the quote price.
+    </div>
+
+    <!-- Waterfall -->
+    <div class="waterfall" style="margin-top:20px;">
+      <div class="waterfall-row revenue">
+        <span class="label">Quote Price (Revenue)</span>
+        <span class="amount" id="wfRevenue">—</span>
+      </div>
+      <div class="waterfall-row cost">
+        <span class="label">Materials</span>
+        <span class="amount" id="wfMaterials">—</span>
+      </div>
+      <div class="waterfall-row cost">
+        <span class="label">Field Labour</span>
+        <span class="amount" id="wfLabour">—</span>
+      </div>
+      <div class="waterfall-row cost">
+        <span class="label">Admin & Compliance</span>
+        <span class="amount" id="wfAdmin">—</span>
+      </div>
+      <div class="waterfall-row cost">
+        <span class="label">Overhead (<span id="wfOverheadPctLabel">—</span>%)</span>
+        <span class="amount" id="wfOverhead">—</span>
+      </div>
+      <div class="waterfall-row cost">
+        <span class="label">Warranty Reserve</span>
+        <span class="amount" id="wfWarranty">—</span>
+      </div>
+      <div class="waterfall-row cost">
+        <span class="label">Travel / Fuel</span>
+        <span class="amount" id="wfTravel">—</span>
+      </div>
+      <div class="waterfall-row revenue" style="margin-top:4px;">
+        <span class="label" style="color:#86efac;">STC Rebate Received</span>
+        <span class="amount" id="wfStc" style="color:#86efac;">—</span>
+      </div>
+      <div class="waterfall-row total">
+        <span class="label">Net Profit</span>
+        <span class="amount" id="wfNet">—</span>
+      </div>
+    </div>
+
+    <!-- Insights -->
+    <div class="insights-grid">
+      <div class="insight-card">
+        <div class="i-label">Annual Profit (10 jobs/mo)</div>
+        <div class="i-val" id="annualProfit">—</div>
+        <div class="i-sub">at this margin</div>
+      </div>
+      <div class="insight-card">
+        <div class="i-label">Cost per kW Installed</div>
+        <div class="i-val" id="costPerKw">—</div>
+        <div class="i-sub">total job cost</div>
+      </div>
+      <div class="insight-card">
+        <div class="i-label">Revenue per Install Hour</div>
+        <div class="i-val" id="revenuePerHr">—</div>
+        <div class="i-sub">field labour productivity</div>
+      </div>
+      <div class="insight-card">
+        <div class="i-label">Battery Impact on Margin</div>
+        <div class="i-val" id="batteryImpact">—</div>
+        <div class="i-sub" id="batteryImpactSub">toggle battery above</div>
+      </div>
+    </div>
+
+    <!-- Breakeven -->
+    <div class="breakeven">
+      <div style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:#64748b;margin:16px 0 8px;">Breakeven Price Points</div>
+      <div class="breakeven-row">
+        <span>Breakeven (0% margin)</span>
+        <span class="be-val" id="be0">—</span>
+      </div>
+      <div class="breakeven-row">
+        <span>10% Margin Target</span>
+        <span class="be-val" id="be10">—</span>
+      </div>
+      <div class="breakeven-row">
+        <span>15% Margin Target</span>
+        <span class="be-val" id="be15">—</span>
+      </div>
+      <div class="breakeven-row">
+        <span>20% Margin Target</span>
+        <span class="be-val" id="be20">—</span>
+      </div>
+    </div>
+
+    <div class="battery-impact" id="batteryImpactBlock" style="display:none;">
+      💡 <strong>Battery add-on note:</strong> <span id="batteryImpactText"></span>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  // STC zones by state
+  const STC_ZONES = { nsw: 3, vic: 4, qld: 2, sa: 3, wa: 3, tas: 4, nt: 1 };
+  // STC deeming years (through to 2030)
+  const STC_DEEMING_YEARS = 4;
+  // STC price ~ $35 (market average 2026)
+  const STC_PRICE = 35;
+  // Peak sun hours by zone
+  const PEAK_SUN = { 1: 1.636, 2: 1.536, 3: 1.382, 4: 1.185 };
+
+  function calcStc(kw, state) {
+    const zone = STC_ZONES[state] || 3;
+    const psh = PEAK_SUN[zone];
+    const stcs = Math.round((kw * psh * STC_DEEMING_YEARS) / 1);
+    return stcs * STC_PRICE;
+  }
+
+  function toggleBattery() {
+    const show = document.getElementById('batteryToggle').checked;
+    document.getElementById('batteryFields').style.display = show ? 'block' : 'none';
+    updateStcLabel();
+  }
+
+  function updateStcLabel() {
+    const kw = parseFloat(document.getElementById('systemKw').value) || 6.6;
+    const state = document.getElementById('state').value;
+    const stc = calcStc(kw, state);
+    const stcField = document.getElementById('stcValue');
+    if (!stcField.value || stcField.dataset.auto === 'true') {
+      stcField.value = stc.toFixed(0);
+      stcField.dataset.auto = 'true';
+    }
+    document.getElementById('stcAutoLabel').textContent =
+      `Auto-estimated: $${stc.toLocaleString()} (${Math.round(kw * PEAK_SUN[STC_ZONES[state]||3] * STC_DEEMING_YEARS)} STCs × $${STC_PRICE})`;
+  }
+
+  document.getElementById('systemKw').addEventListener('input', updateStcLabel);
+  document.getElementById('state').addEventListener('change', updateStcLabel);
+  document.getElementById('stcValue').addEventListener('input', function() {
+    this.dataset.auto = 'false';
+  });
+
+  updateStcLabel();
+
+  function fmt(val) {
+    return '$' + Math.abs(Math.round(val)).toLocaleString();
+  }
+
+  function calculate() {
+    const kw = parseFloat(document.getElementById('systemKw').value) || 6.6;
+    const state = document.getElementById('state').value;
+    const quotedPrice = parseFloat(document.getElementById('quotedPrice').value) || 0;
+    const stcValue = parseFloat(document.getElementById('stcValue').value) || calcStc(kw, state);
+
+    const panelCost = parseFloat(document.getElementById('panelCost').value) || 0;
+    const inverterCost = parseFloat(document.getElementById('inverterCost').value) || 0;
+    const mountingCost = parseFloat(document.getElementById('mountingCost').value) || 0;
+    const cablingCost = parseFloat(document.getElementById('cablingCost').value) || 0;
+    const hasBattery = document.getElementById('batteryToggle').checked;
+    const batteryCost = hasBattery ? (parseFloat(document.getElementById('batteryCost').value) || 0) : 0;
+    const batteryKwh = hasBattery ? (parseFloat(document.getElementById('batteryKwh').value) || 0) : 0;
+
+    const installHours = parseFloat(document.getElementById('installHours').value) || 0;
+    const labourRate = parseFloat(document.getElementById('labourRate').value) || 0;
+    const adminHours = parseFloat(document.getElementById('adminHours').value) || 0;
+    const officeRate = parseFloat(document.getElementById('officeRate').value) || 0;
+    const travelCost = parseFloat(document.getElementById('travelCost').value) || 0;
+    const overheadPct = parseFloat(document.getElementById('overheadPct').value) || 0;
+    const callbackPct = parseFloat(document.getElementById('callbackPct').value) || 0;
+    const callbackCost = parseFloat(document.getElementById('callbackCost').value) || 0;
+
+    // ─── Calculations ───
+    const materials = panelCost + inverterCost + mountingCost + cablingCost + batteryCost;
+    const fieldLabour = installHours * labourRate;
+    const adminLabour = adminHours * officeRate;
+    const totalDirectCost = materials + fieldLabour + adminLabour + travelCost;
+    const overhead = (quotedPrice * overheadPct) / 100;
+    const warrantyReserve = (callbackPct / 100) * callbackCost;
+    const totalCost = totalDirectCost + overhead + warrantyReserve;
+    const netProfit = quotedPrice + stcValue - totalCost;
+    const totalRevenue = quotedPrice; // STC shown separately
+    const marginPct = totalRevenue > 0 ? ((netProfit / totalRevenue) * 100) : 0;
+    const totalHours = installHours + adminHours;
+    const effectiveHourly = totalHours > 0 ? (netProfit / totalHours) : 0;
+
+    // ─── Breakevens ───
+    const totalCostNoOverhead = materials + fieldLabour + adminLabour + travelCost + warrantyReserve;
+    // revenue needed: rev + stc - (totalCostNoOverhead + rev*overheadPct/100) = target_profit
+    // rev*(1 - overhead/100) = target_profit + totalCostNoOverhead - stcValue
+    const overheadFactor = 1 - (overheadPct / 100);
+    const be0 = (totalCostNoOverhead - stcValue) / overheadFactor;
+    const be10 = (totalCostNoOverhead - stcValue + 0.10 * be0 / overheadFactor) / overheadFactor;
+    // Cleaner: rev = (cost - stc) / (1 - overhead/100 - margin)
+    function bePrice(targetMarginFraction) {
+      const denom = 1 - (overheadPct / 100) - targetMarginFraction;
+      if (denom <= 0) return Infinity;
+      return (totalCostNoOverhead - stcValue) / denom;
+    }
+
+    // ─── Update UI ───
+    const isProfit = netProfit >= 0;
+    document.getElementById('netProfit').textContent = fmt(netProfit);
+    document.getElementById('netProfit').style.color = isProfit ? '#4ade80' : '#f87171';
+    document.getElementById('marginPct').textContent = marginPct.toFixed(1) + '%';
+    document.getElementById('marginPct').style.color =
+      marginPct >= 15 ? '#4ade80' : marginPct >= 10 ? '#fb923c' : '#f87171';
+    document.getElementById('effectiveHourly').textContent = fmt(effectiveHourly) + '/hr';
+
+    // Health bar
+    const healthPct = Math.min(100, Math.max(0, marginPct * 3.33));
+    const fill = document.getElementById('healthFill');
+    fill.style.width = healthPct + '%';
+    fill.style.background = marginPct >= 15 ? '#4ade80' : marginPct >= 10 ? '#fb923c' : '#f87171';
+    document.getElementById('healthLabel').textContent =
+      marginPct >= 20 ? '🟢 Excellent' : marginPct >= 15 ? '🟢 Good' : marginPct >= 10 ? '🟡 Marginal' : '🔴 Below Target';
+
+    // Warning
+    document.getElementById('marginWarning').style.display = marginPct < 10 ? 'block' : 'none';
+
+    // Waterfall
+    document.getElementById('wfRevenue').textContent = fmt(quotedPrice);
+    document.getElementById('wfMaterials').textContent = '−' + fmt(materials);
+    document.getElementById('wfLabour').textContent = '−' + fmt(fieldLabour);
+    document.getElementById('wfAdmin').textContent = '−' + fmt(adminLabour);
+    document.getElementById('wfOverheadPctLabel').textContent = overheadPct;
+    document.getElementById('wfOverhead').textContent = '−' + fmt(overhead);
+    document.getElementById('wfWarranty').textContent = '−' + fmt(warrantyReserve);
+    document.getElementById('wfTravel').textContent = '−' + fmt(travelCost);
+    document.getElementById('wfStc').textContent = '+' + fmt(stcValue);
+    document.getElementById('wfNet').textContent = (isProfit ? '' : '−') + fmt(Math.abs(netProfit));
+    document.getElementById('wfNet').style.color = isProfit ? '#4ade80' : '#f87171';
+
+    // Insights
+    document.getElementById('annualProfit').textContent = fmt(netProfit * 120);
+    document.getElementById('costPerKw').textContent = fmt(totalCost / kw) + '/kW';
+    document.getElementById('revenuePerHr').textContent = fmt(quotedPrice / (installHours || 1)) + '/hr';
+
+    // Battery impact
+    if (hasBattery) {
+      const costPerKwh = batteryKwh > 0 ? batteryCost / batteryKwh : 0;
+      document.getElementById('batteryImpact').textContent = fmt(batteryCost) + ' added';
+      document.getElementById('batteryImpactSub').textContent = `$${Math.round(costPerKwh)}/kWh cost`;
+      document.getElementById('batteryImpactBlock').style.display = 'block';
+      const batteryRevenueShare = batteryKwh > 0 ? ((batteryCost * 1.2) / quotedPrice * 100).toFixed(0) : '—';
+      document.getElementById('batteryImpactText').textContent =
+        `Battery adds ${fmt(batteryCost)} in material cost. To maintain your current margin, the battery component needs to be quoted at approximately ${fmt(batteryCost / (1 - overheadPct/100 - marginPct/100))} or higher. Batteries typically command 18–25% margins when sold as an add-on vs solar-only.`;
+    } else {
+      document.getElementById('batteryImpact').textContent = 'N/A';
+      document.getElementById('batteryImpactSub').textContent = 'toggle battery above';
+      document.getElementById('batteryImpactBlock').style.display = 'none';
+    }
+
+    // Breakevens
+    document.getElementById('be0').textContent = fmt(bePrice(0));
+    document.getElementById('be10').textContent = fmt(bePrice(0.10));
+    document.getElementById('be15').textContent = fmt(bePrice(0.15));
+    document.getElementById('be20').textContent = fmt(bePrice(0.20));
+
+    document.getElementById('results').style.display = 'block';
+    document.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    // Post resize to parent
+    setTimeout(() => {
+      parent.postMessage({ type: 'resize', height: document.body.scrollHeight }, '*');
+    }, 100);
+  }
+
+  // Auto-resize on load
+  window.addEventListener('load', () => {
+    parent.postMessage({ type: 'resize', height: document.body.scrollHeight }, '*');
+  });
+</script>
+</body>
+</html>

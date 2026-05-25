@@ -126,6 +126,8 @@ For businesses that do solar servicing and maintenance as well as new installs, 
 
 ## What Does ServiceM8 Cost?
 
+> 🧮 **Know your margin before you commit to any platform.** Our free [Solar Quote Profitability Calculator](/tools/solar-quote-calculator) shows exactly how much admin and compliance time is eating into your per-job profit — making the software ROI case obvious.
+
 ServiceM8 pricing in Australia (as of 2026):
 
 | Plan | Monthly Price | Best For |

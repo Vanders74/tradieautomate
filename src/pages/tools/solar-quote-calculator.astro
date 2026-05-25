@@ -1,0 +1,352 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE } from '../../consts';
+
+const title = "Solar Quote Profitability Calculator | Know Your Margin Before You Send the Quote";
+const description = "Free tool for Australian solar installers. Enter your system size, costs and labour — instantly see net profit, margin %, effective hourly rate, and the exact breakeven price for any job.";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <style>
+      .tool-hero {
+        background: linear-gradient(135deg, #0f172a 0%, #1a2744 100%);
+        color: white;
+        padding: 56px 24px 48px;
+        text-align: center;
+      }
+
+      .tool-hero .badge {
+        display: inline-block;
+        background: rgba(250, 204, 21, 0.12);
+        border: 1px solid rgba(250, 204, 21, 0.35);
+        color: #fde047;
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        padding: 4px 12px;
+        border-radius: 100px;
+        margin-bottom: 16px;
+      }
+
+      .tool-hero h1 {
+        font-size: clamp(1.6rem, 4vw, 2.5rem);
+        font-weight: 800;
+        line-height: 1.2;
+        margin: 0 auto 16px;
+        max-width: 720px;
+        color: #ffffff !important;
+        text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+      }
+
+      .tool-hero p {
+        font-size: 1.05rem;
+        color: #cbd5e1;
+        max-width: 580px;
+        margin: 0 auto;
+      }
+
+      .tool-stats {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+        margin-top: 32px;
+        flex-wrap: wrap;
+      }
+
+      .stat { text-align: center; }
+
+      .stat-number {
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: #facc15;
+        display: block;
+      }
+
+      .stat-label {
+        font-size: 0.8rem;
+        color: #64748b;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+      }
+
+      .tool-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 48px 24px;
+      }
+
+      .calc-wrapper {
+        background: white;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 4px 32px rgba(0,0,0,0.1);
+      }
+
+      .context-block {
+        margin-top: 40px;
+        background: #f8fafc;
+        border-radius: 12px;
+        padding: 28px 32px;
+        border: 1px solid #e2e8f0;
+      }
+
+      .context-block h2 {
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: #0f172a;
+        margin-bottom: 12px;
+      }
+
+      .context-block p {
+        color: #475569;
+        font-size: 0.93rem;
+        line-height: 1.65;
+        margin-bottom: 10px;
+      }
+
+      .context-block p:last-child { margin-bottom: 0; }
+
+      .context-block ul {
+        color: #475569;
+        font-size: 0.93rem;
+        line-height: 1.65;
+        padding-left: 18px;
+      }
+
+      .context-block ul li { margin-bottom: 6px; }
+
+      .what-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 14px;
+        margin-top: 28px;
+      }
+
+      .what-card {
+        background: white;
+        border: 1px solid #e2e8f0;
+        border-radius: 10px;
+        padding: 16px;
+      }
+
+      .what-card .icon { font-size: 1.4rem; margin-bottom: 6px; display: block; }
+      .what-card .label { font-size: 0.82rem; font-weight: 700; color: #374151; margin-bottom: 4px; }
+      .what-card .desc { font-size: 0.78rem; color: #6b7280; line-height: 1.4; }
+
+      .stc-explainer {
+        background: #fffbeb;
+        border: 1px solid #fde68a;
+        border-radius: 10px;
+        padding: 16px 20px;
+        font-size: 0.88rem;
+        color: #92400e;
+        margin-top: 20px;
+        line-height: 1.55;
+      }
+
+      .stc-explainer strong { color: #78350f; }
+
+      .cta-block {
+        margin-top: 40px;
+        background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+        border-radius: 12px;
+        padding: 32px;
+        text-align: center;
+        color: white;
+      }
+
+      .cta-block h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 8px; color: white !important; }
+      .cta-block p { font-size: 0.88rem; opacity: 0.92; margin-bottom: 20px; }
+
+      .cta-btn {
+        display: inline-block;
+        background: white;
+        color: #ea580c;
+        font-weight: 700;
+        font-size: 0.95rem;
+        padding: 12px 28px;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: transform 0.1s, box-shadow 0.1s;
+      }
+
+      .cta-btn:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+      }
+
+      .tools-nav {
+        margin-top: 32px;
+        padding-top: 24px;
+        border-top: 1px solid #e2e8f0;
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      .tools-nav a {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: #f1f5f9;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        padding: 8px 14px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: #475569;
+        text-decoration: none;
+        transition: background 0.15s;
+      }
+
+      .tools-nav a:hover { background: #e2e8f0; color: #1e293b; }
+
+      .back-links {
+        margin-top: 24px;
+      }
+
+      .back-links h4 {
+        font-size: 0.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: #94a3b8;
+        margin-bottom: 10px;
+      }
+
+      .back-links ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .back-links ul li a { color: #f97316; text-decoration: none; font-size: 0.88rem; font-weight: 600; }
+      .back-links ul li a:hover { text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <div class="tool-hero">
+        <div class="badge">☀️ Free Tool — Solar Installers</div>
+        <h1>Know Your Margin Before You Send the Quote</h1>
+        <p>Enter your system size, materials, labour, and STC zone — instantly see net profit, margin %, effective hourly rate, and exact breakeven prices.</p>
+        <div class="tool-stats">
+          <div class="stat">
+            <span class="stat-number">STC auto-calc</span>
+            <span class="stat-label">by state & zone</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">4 breakevens</span>
+            <span class="stat-label">at 0%, 10%, 15%, 20% margin</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">Battery aware</span>
+            <span class="stat-label">hybrid job impact</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tool-container">
+        <div class="calc-wrapper">
+          <iframe
+            src="/solar-quote-calculator.html"
+            width="100%"
+            height="900"
+            frameborder="0"
+            scrolling="no"
+            style="display: block;"
+            title="Solar Quote Profitability Calculator"
+            id="solar-calc-iframe"
+          ></iframe>
+        </div>
+
+        <script>
+          window.addEventListener('message', function(e) {
+            if (e.data && e.data.type === 'resize') {
+              var iframe = document.getElementById('solar-calc-iframe');
+              if (iframe) iframe.style.height = (e.data.height + 24) + 'px';
+            }
+          });
+        </script>
+
+        <!-- What it calculates -->
+        <div class="context-block">
+          <h2>What the Calculator Includes</h2>
+          <div class="what-grid">
+            <div class="what-card">
+              <span class="icon">🔩</span>
+              <div class="label">Full Material Cost</div>
+              <div class="desc">Panels, inverter, mounting, cabling — plus battery if applicable</div>
+            </div>
+            <div class="what-card">
+              <span class="icon">👷</span>
+              <div class="label">True Labour Cost</div>
+              <div class="desc">Field hours plus all admin and compliance time at your actual rates</div>
+            </div>
+            <div class="what-card">
+              <span class="icon">🛡️</span>
+              <div class="label">Overhead & Warranty Reserve</div>
+              <div class="desc">Insurance, vehicle, and a statistical warranty callback provision</div>
+            </div>
+            <div class="what-card">
+              <span class="icon">⚡</span>
+              <div class="label">STC Rebate</div>
+              <div class="desc">Auto-estimated from system size and your state's deeming zone</div>
+            </div>
+          </div>
+
+          <div class="stc-explainer">
+            <strong>How STC auto-calculation works:</strong> The calculator uses your system size (kW) and state to determine your Clean Energy Regulator deeming zone (1–4), then estimates the number of Small-scale Technology Certificates at the current deeming period (through 2030) multiplied by a $35 spot price. This is an estimate — your actual STC value depends on your certificate agent's price. Edit the STC field directly if you know your exact deal.
+          </div>
+        </div>
+
+        <!-- How to use it section -->
+        <div class="context-block">
+          <h2>How to Use This at Quote Time</h2>
+          <ul>
+            <li><strong>Run it before every quote</strong> — enter the system design you're about to propose and confirm the margin hits your target before sending</li>
+            <li><strong>Use it to test battery add-ons</strong> — toggle battery on to instantly see how adding storage changes your job economics</li>
+            <li><strong>Find your minimum quote price</strong> — the breakeven table tells you the lowest price you can quote at 10%, 15%, or 20% margin</li>
+            <li><strong>Share with your estimator</strong> — bookmark this page; it's faster than a spreadsheet for quick in-field checks</li>
+            <li><strong>Adjust callback probability by job type</strong> — commercial roofs with quality mounting typically run 4–5%; residential AC installations on aging switchboards can run 12%+</li>
+          </ul>
+        </div>
+
+        <div class="cta-block">
+          <h3>Quote Faster. Invoice Instantly. Get Paid Sooner.</h3>
+          <p>ServiceM8 connects your job quotes to compliance checklists, CER documentation, and automatic invoicing — so the admin cost in this calculator drops to near zero.</p>
+          <a href="https://www.servicem8.com/?ref=tradieautomate" class="cta-btn" target="_blank" rel="noopener">
+            Start Free 14-Day Trial →
+          </a>
+        </div>
+
+        <div class="tools-nav">
+          <a href="/tools/admin-cost-calculator">🧮 Admin Cost Calculator</a>
+          <a href="/blog/servicem8-review-2026">📋 ServiceM8 Review 2026</a>
+          <a href="/blog/hidden-admin-cost-calculator">📊 Full Admin Cost Guide</a>
+        </div>
+
+        <div class="back-links">
+          <h4>Related Articles</h4>
+          <ul>
+            <li><a href="/blog/hidden-costs-killing-profit-solar-electrician">5 Hidden Costs Killing Solar Profit</a></li>
+            <li><a href="/blog/servicem8-for-solar-installers">ServiceM8 for Solar Installers</a></li>
+            <li><a href="/blog/scaling-solar-electrical-business-hiring-growth">Scaling Your Solar Business</a></li>
+            <li><a href="/blog/paperless-trade-roadmap-operational-efficiency">The Paperless Trade Roadmap</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>

@@ -95,6 +95,8 @@ Combine same-day invoicing with an automated payment reminder at 7 days and agai
 
 ## 4. Poor Job Costing (Not Knowing Which Jobs Are Actually Profitable)
 
+> 🧮 **See your exact job margin before you quote.** The free [Solar Quote Profitability Calculator](/tools/solar-quote-calculator) breaks down every cost layer — materials, labour, compliance, overhead, warranty reserve, and STC value — and shows your net profit and breakeven price in real time.
+
 Here's a question most solar and electrical business owners cannot answer accurately: which type of job is most profitable for your business?
 
 Not which type of job generates the most revenue. Which type generates the highest margin after all costs — including labour, materials, compliance admin, travel, and callback risk?

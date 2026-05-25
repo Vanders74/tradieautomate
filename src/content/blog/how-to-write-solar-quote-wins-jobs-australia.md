@@ -168,6 +168,8 @@ Make it easy to say yes. Include a "how to accept this quote" instruction: click
 
 ## Sending the Quote: Timing and Format
 
+> 🧮 **Before you send: confirm your margin.** Use the free [Solar Quote Profitability Calculator](/tools/solar-quote-calculator) to verify you're hitting your target margin on the job before it goes out the door. Takes 60 seconds.
+
 **Speed wins.** Research consistently shows that solar quote conversion rates drop sharply with response time. Quotes sent within 4 hours of the enquiry convert at significantly higher rates than quotes sent the next day. Quotes sent on day 3+ are largely competing with quotes the customer has already begun evaluating.
 
 **PDF via email is standard** but not optimal for conversion. Tools like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate)'s quoting module, Proposify, or simPRO deliver quotes digitally with online acceptance, read-receipt tracking, and follow-up automation. If a customer reads your quote on their phone at 9pm, an automatic follow-up SMS the next morning is much more effective than hoping they remember to call you.
