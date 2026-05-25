@@ -84,7 +84,7 @@ const description = "Free tool for Australian solar installers. Enter your syste
       .calc-wrapper {
         background: white;
         border-radius: 16px;
-        overflow: hidden;
+        overflow: visible;
         box-shadow: 0 4px 32px rgba(0,0,0,0.1);
       }
 
@@ -261,22 +261,42 @@ const description = "Free tool for Australian solar installers. Enter your syste
           <iframe
             src="/solar-quote-calculator.html"
             width="100%"
-            height="900"
+            height="1100"
             frameborder="0"
             scrolling="no"
-            style="display: block;"
+            style="display: block; border-radius: 16px; min-height: 1100px; transition: height 0.2s ease;"
             title="Solar Quote Profitability Calculator"
             id="solar-calc-iframe"
           ></iframe>
         </div>
 
         <script>
-          window.addEventListener('message', function(e) {
-            if (e.data && e.data.type === 'resize') {
+          (function() {
+            function resizeIframe(h) {
               var iframe = document.getElementById('solar-calc-iframe');
-              if (iframe) iframe.style.height = (e.data.height + 24) + 'px';
+              if (iframe) {
+                var newH = Math.max(h + 40, 1100);
+                iframe.style.height = newH + 'px';
+              }
             }
-          });
+            window.addEventListener('message', function(e) {
+              if (e.data && e.data.type === 'resize') {
+                resizeIframe(e.data.height);
+              }
+            });
+            // Fallback: poll iframe scrollHeight in case postMessage doesn't fire
+            var iframe = document.getElementById('solar-calc-iframe');
+            if (iframe) {
+              iframe.addEventListener('load', function() {
+                setTimeout(function() {
+                  try {
+                    var h = iframe.contentWindow.document.body.scrollHeight;
+                    if (h > 0) resizeIframe(h);
+                  } catch(err) {}
+                }, 300);
+              });
+            }
+          })();
         </script>
 
         <!-- What it calculates -->

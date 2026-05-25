@@ -573,10 +573,17 @@
     return stcs * STC_PRICE;
   }
 
+  function notifyResize() {
+    setTimeout(() => {
+      parent.postMessage({ type: 'resize', height: document.body.scrollHeight }, '*');
+    }, 50);
+  }
+
   function toggleBattery() {
     const show = document.getElementById('batteryToggle').checked;
     document.getElementById('batteryFields').style.display = show ? 'block' : 'none';
     updateStcLabel();
+    notifyResize();
   }
 
   function updateStcLabel() {
@@ -717,15 +724,20 @@
     document.getElementById('results').style.display = 'block';
     document.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
 
-    // Post resize to parent
-    setTimeout(() => {
-      parent.postMessage({ type: 'resize', height: document.body.scrollHeight }, '*');
-    }, 100);
+    // Post resize to parent after results render
+    setTimeout(sendHeight, 100);
+    setTimeout(sendHeight, 500);
   }
 
-  // Auto-resize on load
-  window.addEventListener('load', () => {
+  // Auto-resize on load — fire at multiple intervals to catch any late renders
+  function sendHeight() {
     parent.postMessage({ type: 'resize', height: document.body.scrollHeight }, '*');
+  }
+  window.addEventListener('load', () => {
+    sendHeight();
+    setTimeout(sendHeight, 200);
+    setTimeout(sendHeight, 600);
+    setTimeout(sendHeight, 1200);
   });
 </script>
 </body>
