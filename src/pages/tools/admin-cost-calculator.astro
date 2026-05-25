@@ -1,335 +1,307 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE } from '../../consts';
 
 const title = "Tradie Admin Cost Calculator | How Much Is Admin Costing Your Business?";
 const description = "Free calculator for Australian trade businesses. Enter your team size, trade type, and hours — see exactly how much admin is costing you per week, month, and year. Takes 60 seconds.";
 ---
 
-<BaseLayout title={title} description={description}>
-  <style>
-    .tool-hero {
-      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-      color: white;
-      padding: 56px 24px 48px;
-      text-align: center;
-    }
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <style>
+      .tool-hero {
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        color: white;
+        padding: 56px 24px 48px;
+        text-align: center;
+      }
 
-    .tool-hero .badge {
-      display: inline-block;
-      background: rgba(249, 115, 22, 0.15);
-      border: 1px solid rgba(249, 115, 22, 0.4);
-      color: #fb923c;
-      font-size: 0.75rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      padding: 4px 12px;
-      border-radius: 100px;
-      margin-bottom: 16px;
-    }
+      .tool-hero .badge {
+        display: inline-block;
+        background: rgba(249, 115, 22, 0.15);
+        border: 1px solid rgba(249, 115, 22, 0.4);
+        color: #fb923c;
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        padding: 4px 12px;
+        border-radius: 100px;
+        margin-bottom: 16px;
+      }
 
-    .tool-hero h1 {
-      font-size: clamp(1.6rem, 4vw, 2.5rem);
-      font-weight: 800;
-      line-height: 1.2;
-      margin: 0 auto 16px;
-      max-width: 700px;
-    }
+      .tool-hero h1 {
+        font-size: clamp(1.6rem, 4vw, 2.5rem);
+        font-weight: 800;
+        line-height: 1.2;
+        margin: 0 auto 16px;
+        max-width: 700px;
+      }
 
-    .tool-hero p {
-      font-size: 1.05rem;
-      color: #94a3b8;
-      max-width: 540px;
-      margin: 0 auto;
-    }
+      .tool-hero p {
+        font-size: 1.05rem;
+        color: #94a3b8;
+        max-width: 540px;
+        margin: 0 auto;
+      }
 
-    .tool-stats {
-      display: flex;
-      justify-content: center;
-      gap: 32px;
-      margin-top: 32px;
-      flex-wrap: wrap;
-    }
+      .tool-stats {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+        margin-top: 32px;
+        flex-wrap: wrap;
+      }
 
-    .stat {
-      text-align: center;
-    }
+      .stat { text-align: center; }
 
-    .stat-number {
-      font-size: 1.75rem;
-      font-weight: 800;
-      color: #f97316;
-      display: block;
-    }
+      .stat-number {
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: #f97316;
+        display: block;
+      }
 
-    .stat-label {
-      font-size: 0.8rem;
-      color: #64748b;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-    }
+      .stat-label {
+        font-size: 0.8rem;
+        color: #64748b;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+      }
 
-    .tool-container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 48px 24px;
-    }
+      .tool-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 48px 24px;
+      }
 
-    .calc-wrapper {
-      background: white;
-      border-radius: 16px;
-      overflow: hidden;
-      box-shadow: 0 4px 32px rgba(0,0,0,0.1);
-    }
+      .calc-wrapper {
+        background: white;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 4px 32px rgba(0,0,0,0.1);
+      }
 
-    .context-block {
-      margin-top: 48px;
-      background: #f8fafc;
-      border-radius: 12px;
-      padding: 32px;
-      border: 1px solid #e2e8f0;
-    }
+      .context-block {
+        margin-top: 48px;
+        background: #f8fafc;
+        border-radius: 12px;
+        padding: 32px;
+        border: 1px solid #e2e8f0;
+      }
 
-    .context-block h2 {
-      font-size: 1.2rem;
-      font-weight: 700;
-      color: #0f172a;
-      margin-bottom: 16px;
-    }
+      .context-block h2 {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #0f172a;
+        margin-bottom: 16px;
+      }
 
-    .context-block p {
-      color: #475569;
-      font-size: 0.95rem;
-      line-height: 1.6;
-      margin-bottom: 12px;
-    }
+      .context-block p {
+        color: #475569;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 12px;
+      }
 
-    .context-block p:last-child {
-      margin-bottom: 0;
-    }
+      .context-block p:last-child { margin-bottom: 0; }
 
-    .benchmarks-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 16px;
-      margin-top: 32px;
-    }
+      .benchmarks-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        margin-top: 32px;
+      }
 
-    .benchmark-card {
-      background: white;
-      border: 1px solid #e2e8f0;
-      border-radius: 10px;
-      padding: 20px;
-    }
+      .benchmark-card {
+        background: white;
+        border: 1px solid #e2e8f0;
+        border-radius: 10px;
+        padding: 20px;
+      }
 
-    .benchmark-card .trade-icon {
-      font-size: 1.5rem;
-      margin-bottom: 8px;
-      display: block;
-    }
+      .benchmark-card .trade-icon { font-size: 1.5rem; margin-bottom: 8px; display: block; }
+      .benchmark-card .trade-name { font-size: 0.85rem; font-weight: 700; color: #374151; margin-bottom: 4px; }
+      .benchmark-card .trade-loss { font-size: 1.3rem; font-weight: 800; color: #dc2626; }
+      .benchmark-card .trade-loss-label { font-size: 0.75rem; color: #6b7280; }
 
-    .benchmark-card .trade-name {
-      font-size: 0.85rem;
-      font-weight: 700;
-      color: #374151;
-      margin-bottom: 4px;
-    }
+      .cta-block {
+        margin-top: 40px;
+        background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+        border-radius: 12px;
+        padding: 32px;
+        text-align: center;
+        color: white;
+      }
 
-    .benchmark-card .trade-loss {
-      font-size: 1.3rem;
-      font-weight: 800;
-      color: #dc2626;
-    }
+      .cta-block h3 { font-size: 1.25rem; font-weight: 700; margin-bottom: 8px; }
+      .cta-block p { font-size: 0.9rem; opacity: 0.9; margin-bottom: 20px; }
 
-    .benchmark-card .trade-loss-label {
-      font-size: 0.75rem;
-      color: #6b7280;
-    }
+      .cta-btn {
+        display: inline-block;
+        background: white;
+        color: #ea580c;
+        font-weight: 700;
+        font-size: 0.95rem;
+        padding: 12px 28px;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: transform 0.1s, box-shadow 0.1s;
+      }
 
-    .cta-block {
-      margin-top: 40px;
-      background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
-      border-radius: 12px;
-      padding: 32px;
-      text-align: center;
-      color: white;
-    }
+      .cta-btn:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+      }
 
-    .cta-block h3 {
-      font-size: 1.25rem;
-      font-weight: 700;
-      margin-bottom: 8px;
-    }
+      .back-links {
+        margin-top: 32px;
+        padding-top: 24px;
+        border-top: 1px solid #e2e8f0;
+      }
 
-    .cta-block p {
-      font-size: 0.9rem;
-      opacity: 0.9;
-      margin-bottom: 20px;
-    }
+      .back-links h4 {
+        font-size: 0.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: #94a3b8;
+        margin-bottom: 12px;
+      }
 
-    .cta-btn {
-      display: inline-block;
-      background: white;
-      color: #ea580c;
-      font-weight: 700;
-      font-size: 0.95rem;
-      padding: 12px 28px;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: transform 0.1s, box-shadow 0.1s;
-    }
+      .back-links ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
 
-    .cta-btn:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-    }
-
-    .back-links {
-      margin-top: 32px;
-      padding-top: 24px;
-      border-top: 1px solid #e2e8f0;
-    }
-
-    .back-links h4 {
-      font-size: 0.8rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      color: #94a3b8;
-      margin-bottom: 12px;
-    }
-
-    .back-links ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-
-    .back-links ul li a {
-      color: #f97316;
-      text-decoration: none;
-      font-size: 0.9rem;
-      font-weight: 600;
-    }
-
-    .back-links ul li a:hover {
-      text-decoration: underline;
-    }
-  </style>
-
-  <div class="tool-hero">
-    <div class="badge">Free Tool</div>
-    <h1>How Much Is Admin Costing Your Trade Business?</h1>
-    <p>Australian tradies lose an average of $55,000–$120,000 per year to unbillable admin. Find your number in 60 seconds.</p>
-    <div class="tool-stats">
-      <div class="stat">
-        <span class="stat-number">57+</span>
-        <span class="stat-label">trade businesses benchmarked</span>
-      </div>
-      <div class="stat">
-        <span class="stat-number">$78k</span>
-        <span class="stat-label">avg annual admin leak</span>
-      </div>
-      <div class="stat">
-        <span class="stat-number">60s</span>
-        <span class="stat-label">to get your estimate</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="tool-container">
-    <div class="calc-wrapper">
-      <iframe
-        src="/admin-cost-calculator.html"
-        width="100%"
-        height="720"
-        frameborder="0"
-        scrolling="no"
-        style="display: block;"
-        title="Tradie Admin Cost Calculator"
-        id="admin-calc-iframe"
-      ></iframe>
-    </div>
-
-    <script>
-      window.addEventListener('message', function(e) {
-        if (e.data && e.data.type === 'resize') {
-          var iframe = document.getElementById('admin-calc-iframe');
-          if (iframe) iframe.style.height = (e.data.height + 20) + 'px';
-        }
-      });
-    </script>
-
-    <div class="context-block">
-      <h2>How the Calculator Works</h2>
-      <p>
-        Enter your hourly charge-out rate, then estimate how many hours per week your business spends on each admin category: quoting, invoicing, scheduling, and customer follow-up.
-      </p>
-      <p>
-        The calculator uses your opportunity cost — what those hours could have earned if spent on billable work — to produce a weekly and annual admin leak estimate. It then shows you the projected impact of moving to an automated job management platform, based on real-world efficiency gains from Australian trade businesses using ServiceM8.
-      </p>
-      <p>
-        <strong>Tip:</strong> Most tradies underestimate by 30% because they only count desk time. Include phone calls about scheduling, variations discussed on-site, compliance forms filled out from memory, and time chasing outstanding quotes — not just invoicing at a desk.
-      </p>
-    </div>
-
-    <div class="context-block">
-      <h2>Industry Benchmarks: Annual Admin Leak by Trade</h2>
-      <p>Based on 2026 data from Australian sole trader to 5-person teams at median charge-out rates.</p>
-      <div class="benchmarks-grid">
-        <div class="benchmark-card">
-          <span class="trade-icon">⚡</span>
-          <div class="trade-name">Electrician (solo–3)</div>
-          <div class="trade-loss">$55k–$78k</div>
-          <div class="trade-loss-label">per year leaked</div>
-        </div>
-        <div class="benchmark-card">
-          <span class="trade-icon">☀️</span>
-          <div class="trade-name">Solar Installer (1–5)</div>
-          <div class="trade-loss">$95k–$124k</div>
-          <div class="trade-loss-label">per year leaked</div>
-        </div>
-        <div class="benchmark-card">
-          <span class="trade-icon">🔧</span>
-          <div class="trade-name">Plumber (solo–4)</div>
-          <div class="trade-loss">$50k–$73k</div>
-          <div class="trade-loss-label">per year leaked</div>
-        </div>
-        <div class="benchmark-card">
-          <span class="trade-icon">❄️</span>
-          <div class="trade-name">HVAC (solo–5)</div>
-          <div class="trade-loss">$60k–$81k</div>
-          <div class="trade-loss-label">per year leaked</div>
-        </div>
-        <div class="benchmark-card">
-          <span class="trade-icon">🌿</span>
-          <div class="trade-name">Landscaper (1–4)</div>
-          <div class="trade-loss">$40k–$55k</div>
-          <div class="trade-loss-label">per year leaked</div>
+      .back-links ul li a { color: #f97316; text-decoration: none; font-size: 0.9rem; font-weight: 600; }
+      .back-links ul li a:hover { text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <div class="tool-hero">
+        <div class="badge">Free Tool</div>
+        <h1>How Much Is Admin Costing Your Trade Business?</h1>
+        <p>Australian tradies lose an average of $55,000–$120,000 per year to unbillable admin. Find your number in 60 seconds.</p>
+        <div class="tool-stats">
+          <div class="stat">
+            <span class="stat-number">57+</span>
+            <span class="stat-label">trade businesses benchmarked</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">$78k</span>
+            <span class="stat-label">avg annual admin leak</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">60s</span>
+            <span class="stat-label">to get your estimate</span>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="cta-block">
-      <h3>Ready to Plug the Leak?</h3>
-      <p>ServiceM8 eliminates the manual handoffs that create most of your admin overhead. Starts at $65/month. The software pays for itself in week one.</p>
-      <a href="https://www.servicem8.com/?ref=tradieautomate" class="cta-btn" target="_blank" rel="noopener">
-        Start Free 14-Day Trial →
-      </a>
-    </div>
+      <div class="tool-container">
+        <div class="calc-wrapper">
+          <iframe
+            src="/admin-cost-calculator.html"
+            width="100%"
+            height="720"
+            frameborder="0"
+            scrolling="no"
+            style="display: block;"
+            title="Tradie Admin Cost Calculator"
+            id="admin-calc-iframe"
+          ></iframe>
+        </div>
 
-    <div class="back-links">
-      <h4>Learn More</h4>
-      <ul>
-        <li><a href="/blog/hidden-admin-cost-calculator">Full guide: The Hidden Admin Cost Article</a></li>
-        <li><a href="/blog/servicem8-review-2026">ServiceM8 Review 2026</a></li>
-        <li><a href="/blog/paperless-trade-roadmap-operational-efficiency">The Paperless Trade Roadmap</a></li>
-        <li><a href="/blog/best-job-management-software-electricians-australia">Best Job Management Software</a></li>
-        <li><a href="/blog/hidden-costs-killing-profit-solar-electrician">Hidden Profit Killers</a></li>
-      </ul>
-    </div>
-  </div>
-</BaseLayout>
+        <script>
+          window.addEventListener('message', function(e) {
+            if (e.data && e.data.type === 'resize') {
+              var iframe = document.getElementById('admin-calc-iframe');
+              if (iframe) iframe.style.height = (e.data.height + 20) + 'px';
+            }
+          });
+        </script>
+
+        <div class="context-block">
+          <h2>How the Calculator Works</h2>
+          <p>
+            Enter your hourly charge-out rate, then estimate how many hours per week your business spends on each admin category: quoting, invoicing, scheduling, and customer follow-up.
+          </p>
+          <p>
+            The calculator uses your opportunity cost — what those hours could have earned if spent on billable work — to produce a weekly and annual admin leak estimate. It then shows you the projected impact of moving to an automated job management platform, based on real-world efficiency gains from Australian trade businesses using ServiceM8.
+          </p>
+          <p>
+            <strong>Tip:</strong> Most tradies underestimate by 30% because they only count desk time. Include phone calls about scheduling, variations discussed on-site, compliance forms filled out from memory, and time chasing outstanding quotes — not just invoicing at a desk.
+          </p>
+        </div>
+
+        <div class="context-block">
+          <h2>Industry Benchmarks: Annual Admin Leak by Trade</h2>
+          <p>Based on 2026 data from Australian sole trader to 5-person teams at median charge-out rates.</p>
+          <div class="benchmarks-grid">
+            <div class="benchmark-card">
+              <span class="trade-icon">⚡</span>
+              <div class="trade-name">Electrician (solo–3)</div>
+              <div class="trade-loss">$55k–$78k</div>
+              <div class="trade-loss-label">per year leaked</div>
+            </div>
+            <div class="benchmark-card">
+              <span class="trade-icon">☀️</span>
+              <div class="trade-name">Solar Installer (1–5)</div>
+              <div class="trade-loss">$95k–$124k</div>
+              <div class="trade-loss-label">per year leaked</div>
+            </div>
+            <div class="benchmark-card">
+              <span class="trade-icon">🔧</span>
+              <div class="trade-name">Plumber (solo–4)</div>
+              <div class="trade-loss">$50k–$73k</div>
+              <div class="trade-loss-label">per year leaked</div>
+            </div>
+            <div class="benchmark-card">
+              <span class="trade-icon">❄️</span>
+              <div class="trade-name">HVAC (solo–5)</div>
+              <div class="trade-loss">$60k–$81k</div>
+              <div class="trade-loss-label">per year leaked</div>
+            </div>
+            <div class="benchmark-card">
+              <span class="trade-icon">🌿</span>
+              <div class="trade-name">Landscaper (1–4)</div>
+              <div class="trade-loss">$40k–$55k</div>
+              <div class="trade-loss-label">per year leaked</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-block">
+          <h3>Ready to Plug the Leak?</h3>
+          <p>ServiceM8 eliminates the manual handoffs that create most of your admin overhead. Starts at $65/month. The software pays for itself in week one.</p>
+          <a href="https://www.servicem8.com/?ref=tradieautomate" class="cta-btn" target="_blank" rel="noopener">
+            Start Free 14-Day Trial →
+          </a>
+        </div>
+
+        <div class="back-links">
+          <h4>Learn More</h4>
+          <ul>
+            <li><a href="/blog/hidden-admin-cost-calculator">Full guide: The Hidden Admin Cost Article</a></li>
+            <li><a href="/blog/servicem8-review-2026">ServiceM8 Review 2026</a></li>
+            <li><a href="/blog/paperless-trade-roadmap-operational-efficiency">The Paperless Trade Roadmap</a></li>
+            <li><a href="/blog/best-job-management-software-electricians-australia">Best Job Management Software</a></li>
+            <li><a href="/blog/hidden-costs-killing-profit-solar-electrician">Hidden Profit Killers</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
