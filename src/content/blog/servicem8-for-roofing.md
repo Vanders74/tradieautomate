@@ -199,3 +199,4 @@ The ServiceM8 mobile app has offline functionality. Roofers can create job recor
 - *[How to Use AI to Automate Your Trade Business](/blog/ai-automation-trade-business-australia)*
 - *[Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)*
 - *[solar compliance checklist](/blog/solar-compliance-checklist-2026)*
+- *[how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)*
