@@ -251,3 +251,4 @@ Most electricians are up and running with basic job management within a few hour
 - *[ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)*
 - *[How to Use AI to Automate Your Trade Business](/blog/ai-automation-trade-business-australia)*
 - *[AI Automation for Electricians and Plumbers](/blog/ai-automation-electrical-plumbing)*
+- *[how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)*
