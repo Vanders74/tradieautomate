@@ -173,3 +173,11 @@ Related reading:
 ---
 
 *TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you.*
+
+## Related Reading
+
+- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
+- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
+- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)
+- [ServiceM8 review](/blog/servicem8-review-2026)
+- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
