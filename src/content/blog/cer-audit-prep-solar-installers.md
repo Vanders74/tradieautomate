@@ -155,3 +155,8 @@ For a full rundown of what you need on every solar job, start with the [Solar Co
 
 - [how ServiceM8 adds value to your trade business](/blog/sell-servicem8-trade-business-value)
 - [ServiceM8 review](/blog/servicem8-review-2026)
+
+## Related Reading
+
+- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
+- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)
