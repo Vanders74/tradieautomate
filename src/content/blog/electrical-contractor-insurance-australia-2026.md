@@ -193,3 +193,9 @@ Look for a broker with experience in the construction and trade sector — not a
 ---
 
 *This article provides general information only and does not constitute insurance or financial advice. Insurance requirements vary by state and individual circumstances — always consult a licensed insurance broker or adviser.*
+
+## Related Reading
+
+- [ServiceM8 review](/blog/servicem8-review-2026)
+- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
+- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
