@@ -238,3 +238,4 @@ For businesses valued under $300K, private sale (via platforms like Seek Busines
 - *[Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026)*
 - *[AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance)*
 - *[How to Use AI to Automate Your Trade Business](/blog/ai-automation-trade-business-australia)*
+- *[solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)*
