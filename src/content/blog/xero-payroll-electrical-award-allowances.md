@@ -159,3 +159,9 @@ Payroll compliance is one piece of a larger operational picture for electrical c
 ---
 
 *This article is general guidance only. Award interpretations can be complex and fact-specific. Consult a qualified payroll specialist or employment lawyer for advice on your specific situation.*
+
+## Related Reading
+
+- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
+- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
+- [ServiceM8 review](/blog/servicem8-review-2026)

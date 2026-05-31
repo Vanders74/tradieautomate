@@ -265,3 +265,4 @@ ServiceM8 integrates natively with **Xero** and **MYOB** — the two dominant ac
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
 - *[CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers)*
 - *[How to Use AI to Automate Your Trade Business](/blog/ai-automation-trade-business-australia)*
+- *[how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)*

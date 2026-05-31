@@ -184,3 +184,4 @@ For larger, more complex construction project management, you may need additiona
 - *[How to Use AI to Automate Your Trade Business](/blog/ai-automation-trade-business-australia)*
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
 - *[solar compliance checklist](/blog/solar-compliance-checklist-2026)*
+- *[how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)*

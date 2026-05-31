@@ -178,3 +178,8 @@ You can automate this follow-up in [ServiceM8](https://www.servicem8.com/?ref=tr
 - *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
 - *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
 - *[Certificate of Electrical Safety (CES) — Complete Guide for Victorian Electricians](/blog/certificate-electrical-safety-ces-victoria-guide-2026)*
+
+## Related Reading
+
+- [ServiceM8 review](/blog/servicem8-review-2026)
+- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)

@@ -220,3 +220,9 @@ Each review you collect makes the next lead easier to win. Over 12 months, this 
 - *[SMS vs Email: Which Gets More Solar Quotes Signed?](/blog/sms-vs-email-quotes-customer-experience)*
 - *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)*
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
+
+## Related Reading
+
+- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)
+- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
+- [ServiceM8 review](/blog/servicem8-review-2026)

@@ -186,3 +186,4 @@ These three audits will tell you where AI automation investment will deliver the
 - *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
 - *[best job management software for electricians](/blog/best-job-management-software-electricians-australia)*
 - *[ServiceM8 review](/blog/servicem8-review-2026)*
+- *[how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)*

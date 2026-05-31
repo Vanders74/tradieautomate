@@ -153,3 +153,7 @@ This is what a mature solar installation business looks like — and it starts w
 - *[How to Get 5-Star Google Reviews as a Solar Installer or Electrician](/blog/google-reviews-five-star-tradie-guide)*
 - *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
 - *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses)*
+
+## Related Reading
+
+- [ServiceM8 review](/blog/servicem8-review-2026)

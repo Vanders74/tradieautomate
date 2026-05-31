@@ -183,6 +183,8 @@ For a solar business doing 40 installations per month, the Starter plan (~$65) h
 
 ## Related Resources
 
+- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
+
 - [best job management software for electricians](/blog/best-job-management-software-electricians-australia)
 
 For a deeper look at specific aspects of solar business compliance and operations:

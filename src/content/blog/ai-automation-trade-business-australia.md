@@ -197,3 +197,7 @@ The most practical approach is using ServiceM8's digital form builder to create 
 - [AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance)
 - [AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)
 - [AI Automation for Electricians and Plumbers](/blog/ai-automation-electrical-plumbing)
+
+## Related Reading
+
+- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)

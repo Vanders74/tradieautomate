@@ -158,3 +158,5 @@ But the channel matters less than the speed, the follow-up discipline, and the s
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
 - *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)*
+- *[ServiceM8 review](/blog/servicem8-review-2026)*
+- *[solar compliance checklist](/blog/solar-compliance-checklist-2026)*

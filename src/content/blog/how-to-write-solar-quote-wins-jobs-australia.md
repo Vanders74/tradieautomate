@@ -225,3 +225,9 @@ Many customers don't spontaneously ask for battery in the quote request but woul
 - *[How to Get More Solar Leads in Australia: The 2026 Marketing Guide](/blog/how-to-get-more-solar-leads-australia-2026)*
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
+
+## Related Reading
+
+- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
+- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
+- [ServiceM8 review](/blog/servicem8-review-2026)
