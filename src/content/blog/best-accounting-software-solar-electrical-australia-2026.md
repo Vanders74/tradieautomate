@@ -175,3 +175,7 @@ Your bookkeeper should set up your accounting platform correctly for your award 
 - *[The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)*
 - *[ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)*
 - *[ServiceM8 vs Jobber: The 2026 Tradie Software Guide](/blog/servicem8-vs-jobber-tradie-software-guide-2026)*
+
+## Related Reading
+
+- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
