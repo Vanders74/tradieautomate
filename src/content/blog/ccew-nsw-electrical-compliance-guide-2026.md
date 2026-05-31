@@ -189,3 +189,9 @@ The property owner is entitled to a copy. Failure to provide it is a Fair Tradin
 ---
 
 *This article provides general information only and does not constitute legal advice. Requirements are subject to legislative change — always verify current obligations with NSW Fair Trading (fairtrading.nsw.gov.au) and SafeWork NSW.*
+
+## Related Reading
+
+- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
+- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
+- [ServiceM8 review](/blog/servicem8-review-2026)
