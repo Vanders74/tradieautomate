@@ -198,6 +198,8 @@ Start with ServiceM8's 14-day free trial. Full features, no credit card, operati
 
 ## Related Comparisons
 
+- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
+
 - [solar compliance checklist](/blog/solar-compliance-checklist-2026)
 - [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
 
