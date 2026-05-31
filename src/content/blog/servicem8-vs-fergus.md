@@ -194,6 +194,8 @@ Start with the 14-day trial for ServiceM8 and evaluate whether the compliance an
 
 ## Related Comparisons
 
+- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
+
 - [solar compliance checklist](/blog/solar-compliance-checklist-2026)
 - [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
 

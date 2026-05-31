@@ -203,3 +203,7 @@ Set up your first job today. No credit card required.
 - [ServiceM8 vs Tradify for Solar and Electrical Businesses](/blog/servicem8-vs-tradify-solar-electrical)
 - [ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)
 - [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)
+
+## Related Reading
+
+- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)

@@ -182,3 +182,4 @@ Client records in ServiceM8 maintain a complete job history with all associated 
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
 - *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
 - *[solar compliance checklist](/blog/solar-compliance-checklist-2026)*
+- *[how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)*

@@ -200,3 +200,4 @@ When additional scope is identified on-site (e.g., a wall that needs plastering 
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
 - *[How to Use AI to Automate Your Trade Business](/blog/ai-automation-trade-business-australia)*
 - *[solar compliance checklist](/blog/solar-compliance-checklist-2026)*
+- *[how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)*

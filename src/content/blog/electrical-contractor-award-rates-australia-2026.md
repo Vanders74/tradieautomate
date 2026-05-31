@@ -184,3 +184,8 @@ For building the full pricing model, see our [hidden costs guide](/blog/hidden-c
 ---
 
 *This article provides general information only and does not constitute legal or workplace relations advice. Award rates are updated annually — always verify current rates on the Fair Work Commission website at fairwork.gov.au.*
+
+## Related Reading
+
+- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
+- [ServiceM8 review](/blog/servicem8-review-2026)

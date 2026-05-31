@@ -191,3 +191,5 @@ For most businesses we see, it's either unbilled time or late payment float. Bot
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
 - *[Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)*
 - *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
+- *[how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)*
+- *[ServiceM8 review](/blog/servicem8-review-2026)*

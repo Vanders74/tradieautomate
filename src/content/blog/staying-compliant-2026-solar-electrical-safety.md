@@ -226,3 +226,4 @@ Build your compliance workflows, embed your SWMS checklist, and create the docum
 - *[The Paperless Trade Roadmap: Eliminating Admin Chaos](/blog/paperless-trade-roadmap-operational-efficiency)*
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
 - *[ServiceM8 for Electricians: The Platform Australian Sparkies Use](/blog/servicem8-for-electricians)*
+- *[solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)*

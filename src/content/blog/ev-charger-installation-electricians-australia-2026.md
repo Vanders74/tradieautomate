@@ -176,3 +176,7 @@ That conversation is worth $1,500–$3,000 in additional revenue — and it's a 
 - *[The Complete Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
+
+## Related Reading
+
+- [ServiceM8 review](/blog/servicem8-review-2026)

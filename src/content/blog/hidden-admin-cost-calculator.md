@@ -272,3 +272,7 @@ If the calculator above surprised you, the free trial is the fastest way to see 
 - [ServiceM8 Review 2026](/blog/servicem8-review-2026)
 - [Tap to Pay on iPhone for Tradies](/blog/tap-to-pay-iphone-tradies-australia)
 - [How to Scale a Solar or Electrical Business Without Burning Out](/blog/scaling-solar-electrical-business-hiring-growth)
+
+## Related Reading
+
+- [solar compliance checklist](/blog/solar-compliance-checklist-2026)

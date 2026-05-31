@@ -193,3 +193,4 @@ If you're at the point where you know you need to scale but aren't sure where to
 - *[AI Automation for Solar Installers: What Actually Works](/blog/ai-automation-solar-installers)*
 - *[ServiceM8 for Electricians: The Platform Australian Sparkies Use](/blog/servicem8-for-electricians)*
 - *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
+- *[ServiceM8 review](/blog/servicem8-review-2026)*

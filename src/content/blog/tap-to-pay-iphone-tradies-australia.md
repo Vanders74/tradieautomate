@@ -137,3 +137,8 @@ Tap to Pay is one part of a complete mobile workflow. For the full picture of ho
 ---
 
 *TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you.*
+
+## Related Reading
+
+- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
+- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
