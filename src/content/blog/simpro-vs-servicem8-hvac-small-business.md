@@ -117,3 +117,9 @@ Related comparisons and reviews:
 ---
 
 *TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you.*
+
+## Related Reading
+
+- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
+- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
+- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
