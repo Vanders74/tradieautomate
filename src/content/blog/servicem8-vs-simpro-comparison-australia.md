@@ -201,3 +201,7 @@ No credit card required. Set up your first job in under 30 minutes.
 - [ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)
 - [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)
 - [Best Job Management Software for Solar Installers Australia 2026](/guides/best-job-management-software-solar-installers-australia-2026)
+
+## Related Reading
+
+- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
