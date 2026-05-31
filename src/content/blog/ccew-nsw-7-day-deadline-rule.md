@@ -125,3 +125,10 @@ Build the checklist into your job completion workflow. The 7-day clock starts on
 ---
 
 *This article is general guidance only. NSW electrical licensing and compliance requirements can change. Always refer to the current NSW Fair Trading guidance and consult your industry body for advice specific to your licence class and job type.*
+
+## Related Reading
+
+- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
+- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
+- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
+- [ServiceM8 review](/blog/servicem8-review-2026)
