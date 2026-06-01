@@ -191,7 +191,7 @@ The setup process for a plumbing business is straightforward:
 - Run the first full job cycles through the system
 - Refine templates based on real-world feedback
 
-For a comparison of how ServiceM8 stacks up against other platforms before you commit, see our guide to [ServiceM8 vs Tradify](/blog/servicem8-vs-tradify-comparison-australia) and our broader [ServiceM8 review 2026](/blog/servicem8-review-2026).
+For a comparison of how ServiceM8 stacks up against other platforms before you commit, see our guide to [ServiceM8 vs Tradify](/blog/servicem8-vs-tradify-comparison-australia) and our broader [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026).
 
 ---
 
@@ -230,9 +230,9 @@ Yes — ServiceM8 integrates natively with both MYOB and Xero. Invoices created 
 ---
 
 *Related reading:*
-- *[ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
-- *[How to Use AI to Automate Your Trade Business](/blog/ai-automation-trade-business-australia)*
-- *[Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)*
-- *[solar compliance checklist](/blog/solar-compliance-checklist-2026)*
-- *[how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)*
+- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
+- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*

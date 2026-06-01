@@ -149,11 +149,8 @@ This is what a mature solar installation business looks like — and it starts w
 
 - *[Adding Battery Storage to Your Solar Business: The Complete Guide](/blog/adding-battery-storage-solar-business-australia)*
 - *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)*
-- *[How to Get More Solar Leads in Australia: The 2026 Marketing Guide](/blog/how-to-get-more-solar-leads-australia-2026)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
 - *[How to Get 5-Star Google Reviews as a Solar Installer or Electrician](/blog/google-reviews-five-star-tradie-guide)*
 - *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
 - *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses)*
-
-## Related Reading
-
-- [ServiceM8 review](/blog/servicem8-review-2026)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)

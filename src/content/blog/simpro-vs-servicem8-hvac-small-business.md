@@ -112,7 +112,7 @@ ServiceM8 offers a **14-day free trial** with full feature access — no credit 
 Related comparisons and reviews:
 - [ServiceM8 vs Simpro (Full Comparison)](/blog/servicem8-vs-simpro-comparison-australia)
 - [ServiceM8 for HVAC Businesses](/blog/servicem8-for-hvac)
-- [ServiceM8 Review 2026](/blog/servicem8-review-2026)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 
 ---
 
@@ -120,6 +120,6 @@ Related comparisons and reviews:
 
 ## Related Reading
 
-- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
-- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
-- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)

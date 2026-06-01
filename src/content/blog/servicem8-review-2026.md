@@ -263,6 +263,6 @@ Yes — ServiceM8 offers a 14-day free trial with no credit card required. You g
 - *[ServiceM8 vs Fergus: Honest Comparison for Australian Trades](/blog/servicem8-vs-fergus)*
 - *[ServiceM8 vs AroFlo: Which Field Service Platform Is Right for You?](/blog/servicem8-vs-aroflo)*
 - *[ServiceM8 vs TradiePad: Which Job Management App Wins?](/blog/servicem8-vs-tradie-pad)*
-- *[Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[How to Sell Your ServiceM8-Based Trade Business for Maximum Value](/blog/sell-servicem8-trade-business-value)*
-- *[AI automation for trade businesses](/blog/ai-automation-trade-business-australia)*
+- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*

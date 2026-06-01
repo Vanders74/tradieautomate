@@ -196,5 +196,5 @@ If you're not currently asking every customer for a review, you're leaving a sig
 - *[AI Automation for Solar Installers: What Actually Works](/blog/ai-automation-solar-installers)*
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
 - *[The Paperless Trade Roadmap](/blog/paperless-trade-roadmap-operational-efficiency)*
-- *[solar compliance checklist](/blog/solar-compliance-checklist-2026)*
-- *[ServiceM8 review](/blog/servicem8-review-2026)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*

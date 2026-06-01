@@ -209,7 +209,7 @@ ServiceM8 and Jobber are two options in a broader field. We've published detaile
 - [ServiceM8 vs Tradify](/blog/servicem8-vs-tradify-comparison-australia) — for businesses comparing the most affordable options
 - [ServiceM8 vs Fergus](/blog/servicem8-vs-fergus) — for the Kiwi-built alternative
 - [ServiceM8 vs AroFlo](/blog/servicem8-vs-aroflo) — for businesses with complex quoting and project management needs
-- [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia) — the full ranked comparison for electrical businesses
+- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia) — the full ranked comparison for electrical businesses
 
 ---
 
@@ -239,4 +239,4 @@ No credit card required. Set up your first compliance form and test the full wor
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[The Paperless Trade Roadmap](/blog/paperless-trade-roadmap-operational-efficiency)*
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
-- *[how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*

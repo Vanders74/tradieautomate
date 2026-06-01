@@ -176,8 +176,8 @@ Related reading:
 
 ## Related Reading
 
-- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
 - [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
 - [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)
-- [ServiceM8 review](/blog/servicem8-review-2026)
-- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)

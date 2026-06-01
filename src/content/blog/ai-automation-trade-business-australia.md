@@ -185,14 +185,14 @@ Most automation features — including SMS reminders, automated follow-ups, and 
 
 ### How do I use AI for compliance documentation specifically?
 
-The most practical approach is using ServiceM8's digital form builder to create compliance checklists and certificate templates that auto-populate from job data. Combined with required photo capture steps, this creates audit-ready compliance documentation without extra effort from field staff. See our [solar compliance checklist guide](/blog/solar-compliance-checklist-2026) for a detailed walkthrough.
+The most practical approach is using ServiceM8's digital form builder to create compliance checklists and certificate templates that auto-populate from job data. Combined with required photo capture steps, this creates audit-ready compliance documentation without extra effort from field staff. See our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026) for a detailed walkthrough.
 
 ---
 
 ## Related Articles
 
-- [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)
-- [ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)
+- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)
 - [AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance)
 - [AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)
@@ -200,4 +200,4 @@ The most practical approach is using ServiceM8's digital form builder to create 
 
 ## Related Reading
 
-- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)

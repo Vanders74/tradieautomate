@@ -183,12 +183,9 @@ For electricians working in NSW, the equivalent document is the **Certificate of
 ## Related Reading
 
 - *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
-- *[The Complete Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance)*
 - *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
-
-## Related Reading
-
-- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
-- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)

@@ -167,6 +167,6 @@ Commercial jobs have higher absolute margin potential but also higher complexity
 
 - *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
 - *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
-- *[The Complete Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
+- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)*
 - *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses)*

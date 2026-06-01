@@ -128,7 +128,7 @@ Build the checklist into your job completion workflow. The 7-day clock starts on
 
 ## Related Reading
 
-- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
-- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
-- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
-- [ServiceM8 review](/blog/servicem8-review-2026)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)

@@ -178,20 +178,17 @@ The property owner is entitled to a copy. Failure to provide it is a Fair Tradin
 
 ---
 
-## Related Reading
-
-- *[Certificate of Electrical Safety (CES) — Complete Guide for Victorian Electricians](/blog/certificate-electrical-safety-ces-victoria-guide-2026)*
-- *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
-- *[The Complete Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance)*
-- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
-
 ---
 
 *This article provides general information only and does not constitute legal advice. Requirements are subject to legislative change — always verify current obligations with NSW Fair Trading (fairtrading.nsw.gov.au) and SafeWork NSW.*
 
 ## Related Reading
 
-- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
-- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
-- [ServiceM8 review](/blog/servicem8-review-2026)
+- *[Certificate of Electrical Safety (CES) — Complete Guide for Victorian Electricians](/blog/certificate-electrical-safety-ces-victoria-guide-2026)*
+- *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
+- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance)*
+- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)

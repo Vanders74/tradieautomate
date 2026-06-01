@@ -178,7 +178,7 @@ Australian electricians evaluating job management software typically consider Se
 
 **ServiceM8 vs Fergus:** Fergus has strong job costing and margin tracking. ServiceM8 wins on compliance documentation tools and Australian-specific feature development.
 
-For the majority of Australian electrical businesses — residential, solar, and light commercial — ServiceM8 is the clear recommendation in 2026. See our full [best job management software for electricians guide](/blog/best-job-management-software-electricians-australia) for a comprehensive platform comparison.
+For the majority of Australian electrical businesses — residential, solar, and light commercial — ServiceM8 is the clear recommendation in 2026. See our full [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia) for a comprehensive platform comparison.
 
 ---
 
@@ -261,8 +261,8 @@ ServiceM8 integrates natively with **Xero** and **MYOB** — the two dominant ac
 
 *Related reading:*
 - *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
-- *[Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)*
+- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)*
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
 - *[CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers)*
-- *[How to Use AI to Automate Your Trade Business](/blog/ai-automation-trade-business-australia)*
-- *[how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)*
+- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*

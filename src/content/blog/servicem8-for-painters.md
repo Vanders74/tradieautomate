@@ -161,7 +161,7 @@ For a painting business doing 40 jobs a month across 3 crews, the Growing plan (
 - Gather crew feedback on the mobile workflow
 - Refine your templates and pricing based on real-world use
 
-For a broader comparison of job management platforms, see our [ServiceM8 review 2026](/blog/servicem8-review-2026). For practical guidance on using AI to further automate your painting business operations, see our [AI automation guide for tradies](/blog/ai-automation-trade-business-australia).
+For a broader comparison of job management platforms, see our [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026). For practical guidance on using AI to further automate your painting business operations, see our [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia).
 
 ---
 
@@ -196,8 +196,8 @@ When additional scope is identified on-site (e.g., a wall that needs plastering 
 ---
 
 *Related reading:*
-- *[ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
-- *[How to Use AI to Automate Your Trade Business](/blog/ai-automation-trade-business-australia)*
-- *[solar compliance checklist](/blog/solar-compliance-checklist-2026)*
-- *[how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)*
+- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*

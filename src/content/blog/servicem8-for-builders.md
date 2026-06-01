@@ -144,7 +144,7 @@ Builders who are already running digital operations on platforms like ServiceM8 
 - Predictive scheduling based on job history
 - Automated subcontractor coordination messaging
 
-See our [AI automation for tradies guide](/blog/ai-automation-trade-business-australia) for a full breakdown of what's practical today versus what's still emerging for trade businesses.
+See our [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia) for a full breakdown of what's practical today versus what's still emerging for trade businesses.
 
 ---
 
@@ -180,8 +180,8 @@ For larger, more complex construction project management, you may need additiona
 ---
 
 *Related reading:*
-- *[ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)*
-- *[How to Use AI to Automate Your Trade Business](/blog/ai-automation-trade-business-australia)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
+- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
-- *[solar compliance checklist](/blog/solar-compliance-checklist-2026)*
-- *[how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
