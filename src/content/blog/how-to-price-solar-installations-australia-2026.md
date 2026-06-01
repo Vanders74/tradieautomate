@@ -190,8 +190,5 @@ After 20–30 jobs with accurate tracking, your pricing model will be calibrated
 - *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
 - *[How to Write a Solar Quote That Wins](/blog/how-to-write-solar-quote-that-wins)*
-
-## Related Reading
-
-- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
-- [ServiceM8 review](/blog/servicem8-review-2026)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)

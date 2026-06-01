@@ -90,7 +90,7 @@ For a plumber doing straightforward maintenance and repair work, Tradify's simpl
 
 **Custom form builder:** This is the feature that sets ServiceM8 apart for compliance-heavy trades. You can build pre-installation checklists, mid-job photo capture workflows, post-installation handover documents, and customer sign-off forms — all attached directly to job records and accessible from the app.
 
-For solar installers managing CER audit requirements, this isn't a nice-to-have. It's core infrastructure. We cover the full compliance picture in our [Solar Compliance Checklist for 2026](/blog/solar-compliance-checklist-2026).
+For solar installers managing CER audit requirements, this isn't a nice-to-have. It's core infrastructure. We cover the full compliance picture in our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026).
 
 **Review automation:** ServiceM8 has built-in tools to automatically send review requests after job completion. For trade businesses where Google reviews drive lead flow, this feature alone can pay for the software many times over.
 
@@ -201,9 +201,9 @@ Set up your first job today. No credit card required.
 - [ServiceM8 vs AroFlo: Which Field Service Platform Is Right for You?](/blog/servicem8-vs-aroflo)
 - [ServiceM8 vs TradiePad: Which Job Management App Wins?](/blog/servicem8-vs-tradie-pad)
 - [ServiceM8 vs Tradify for Solar and Electrical Businesses](/blog/servicem8-vs-tradify-solar-electrical)
-- [ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)
-- [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)
 
 ## Related Reading
 
-- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)

@@ -64,7 +64,7 @@ The system can be trained on your business — your pricing, your service area, 
 
 ## ServiceM8: The Operational Backbone That Makes AI Work
 
-If Sophiie AI handles the front-end customer communication, [ServiceM8](/blog/servicem8-review-2026) is the operational platform that processes and manages what comes in.
+If Sophiie AI handles the front-end customer communication, [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026) is the operational platform that processes and manages what comes in.
 
 ServiceM8 is a job management platform built specifically for Australian trade businesses. It's the tool most commonly running under the hood of efficient solar and electrical businesses — and it has its own layer of automation that complements AI assistants effectively.
 
@@ -130,8 +130,8 @@ For solar businesses, where a single conversion is worth $8,000–$20,000, the m
 
 AI phone assistants eliminate this gap entirely. Sophiie AI answers within seconds, qualifies the lead, and books the job while the prospect is still engaged. By the time you look at your job board at the end of the day, new appointments are already confirmed.
 
-**Related reading:** [How to Get More Solar Leads in Australia 2026](/blog/how-to-get-more-solar-leads-australia-2026)
-- *[best job management software for electricians](/blog/best-job-management-software-electricians-australia)*
+**Related reading:** [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)*
 
 ---
 
@@ -159,7 +159,7 @@ The businesses that see the best results from AI automation don't try to impleme
 
 **Step 1: Get ServiceM8 properly set up (Weeks 1–4)**
 
-If you're not already using ServiceM8, start there. Get your job types, pricing, and staff set up properly. Build out your automated communication templates. Connect your Xero account for invoicing. [The setup process is straightforward](/blog/servicem8-review-2026) and most businesses are fully operational within a week.
+If you're not already using ServiceM8, start there. Get your job types, pricing, and staff set up properly. Build out your automated communication templates. Connect your Xero account for invoicing. [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026) and most businesses are fully operational within a week.
 
 **Step 2: Activate automated follow-up sequences (Week 2)**
 
@@ -187,8 +187,8 @@ This isn't about technology for its own sake. It's about running a sustainable b
 
 We've put together a practical guide covering the specific automation workflows that work for Australian solar and electrical businesses — including setup checklists for ServiceM8, recommended Sophiie AI configurations, and the exact SMS templates that generate the most Google reviews.
 
-📥 **[Download the Free Tradie Admin Automation Checklist](/blog/solar-compliance-checklist-2026)** — covers the key automations, recommended tools, and a step-by-step implementation sequence for solar and electrical businesses.
+📥 **[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)** — covers the key automations, recommended tools, and a step-by-step implementation sequence for solar and electrical businesses.
 
 ---
 
-*Running a solar installation or electrical business in Australia? The admin automation landscape has changed significantly in 2026. [See how other tradies are using AI and ServiceM8 together](/blog/ai-automation-trade-business-australia) to reclaim their time and grow without adding overhead.*
+*Running a solar installation or electrical business in Australia? The admin automation landscape has changed significantly in 2026. [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia) to reclaim their time and grow without adding overhead.*

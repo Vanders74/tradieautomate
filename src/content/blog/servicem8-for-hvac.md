@@ -142,7 +142,7 @@ For an HVAC business with 5 technicians doing 100 jobs a month, ServiceM8 Growin
 - Refine your templates based on real-world technician feedback
 - Enable automated invoicing and payment reminders
 
-For a broader view of how ServiceM8 compares to alternatives, see our [ServiceM8 review 2026](/blog/servicem8-review-2026). For insights into using AI to further automate HVAC business operations, see our [AI automation for tradies guide](/blog/ai-automation-trade-business-australia).
+For a broader view of how ServiceM8 compares to alternatives, see our [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026). For insights into using AI to further automate HVAC business operations, see our [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia).
 
 ---
 
@@ -177,9 +177,9 @@ Client records in ServiceM8 maintain a complete job history with all associated 
 ---
 
 *Related reading:*
-- *[ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)*
-- *[How to Use AI to Automate Your Trade Business](/blog/ai-automation-trade-business-australia)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
+- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
 - *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
-- *[solar compliance checklist](/blog/solar-compliance-checklist-2026)*
-- *[how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*

@@ -216,13 +216,10 @@ Each review you collect makes the next lead easier to win. Over 12 months, this 
 ## Related Reading
 
 - *[How to Get 5-Star Google Reviews as a Solar Installer or Electrician](/blog/google-reviews-five-star-tradie-guide)*
-- *[How to Get More Solar Leads in Australia: The 2026 Marketing Guide](/blog/how-to-get-more-solar-leads-australia-2026)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
 - *[SMS vs Email: Which Gets More Solar Quotes Signed?](/blog/sms-vs-email-quotes-customer-experience)*
 - *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)*
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
-
-## Related Reading
-
 - [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)
-- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
-- [ServiceM8 review](/blog/servicem8-review-2026)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)

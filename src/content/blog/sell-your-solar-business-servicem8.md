@@ -157,8 +157,5 @@ The question isn't whether you'll ever want to exit your business. Every busines
 
 ## Related Reading
 
-- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
-
-## Related Reading
-
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
 - [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)

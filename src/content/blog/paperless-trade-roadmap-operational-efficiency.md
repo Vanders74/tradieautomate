@@ -169,7 +169,7 @@ If the answers to these questions reveal gaps — and they almost always do — 
 
 **Not training the techs.** The platform is only as good as its adoption in the field. Techs who are used to paper need hands-on training, not just a link to a help article.
 
-**Choosing generic software.** Platforms built for general business use often lack the compliance document features that solar and electrical businesses need. The form builder, photo capture, and digital signature capabilities matter more than a slick UI. We've compared the leading options in our [guide to the best job management software for electricians in Australia](/blog/best-job-management-software-electricians-australia).
+**Choosing generic software.** Platforms built for general business use often lack the compliance document features that solar and electrical businesses need. The form builder, photo capture, and digital signature capabilities matter more than a slick UI. We've compared the leading options in our [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia).
 
 ---
 
@@ -202,4 +202,4 @@ Not sure where your business stands? The first step is an honest assessment of y
 - *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
 - *[AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*

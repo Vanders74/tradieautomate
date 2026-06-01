@@ -185,8 +185,5 @@ Battery storage incentives vary by state and change frequently. Current relevant
 - *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
 - *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
 - *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses)*
-
-## Related Reading
-
 - [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
-- [ServiceM8 review](/blog/servicem8-review-2026)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)

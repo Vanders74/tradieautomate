@@ -48,7 +48,7 @@ Every job in ServiceM8 can include a custom form or checklist that must be compl
 
 You can build separate checklists for different job types: residential solar PV, commercial solar, battery-only retrofit, solar + battery combo. Each checklist enforces the specific requirements for that job category.
 
-Need a starting point for what your checklists should cover? Our [solar compliance checklist](/blog/solar-compliance-checklist-2026) maps out every requirement before, during, and after installation.
+Need a starting point for what your checklists should cover? Our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026) maps out every requirement before, during, and after installation.
 
 ### Photo Capture Tied to Jobs
 
@@ -203,13 +203,13 @@ Yes. ServiceM8 has a direct Xero integration (and MYOB). Completed, invoiced job
 ## Related Articles
 
 - [Why Solar Installers Are Switching to Digital Job Management in 2026](/blog/digital-job-management-solar-installers)
-- [The Complete Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
 - [CER Audit Prep for Solar Installers: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)
-- [ServiceM8 Review 2026: Is It Worth It for Australian Tradies?](/blog/servicem8-review-2026)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses)
 - [AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)
 - [ServiceM8 vs Tradify for Solar and Electrical Businesses](/blog/servicem8-vs-tradify-solar-electrical)
 
 ## Related Reading
 
-- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)

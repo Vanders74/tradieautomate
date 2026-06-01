@@ -173,6 +173,10 @@ For building the full pricing model, see our [hidden costs guide](/blog/hidden-c
 
 ---
 
+---
+
+*This article provides general information only and does not constitute legal or workplace relations advice. Award rates are updated annually — always verify current rates on the Fair Work Commission website at fairwork.gov.au.*
+
 ## Related Reading
 
 - *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
@@ -180,12 +184,5 @@ For building the full pricing model, see our [hidden costs guide](/blog/hidden-c
 - *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
 - *[The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)*
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
-
----
-
-*This article provides general information only and does not constitute legal or workplace relations advice. Award rates are updated annually — always verify current rates on the Fair Work Commission website at fairwork.gov.au.*
-
-## Related Reading
-
-- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
-- [ServiceM8 review](/blog/servicem8-review-2026)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)

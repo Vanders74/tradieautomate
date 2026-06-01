@@ -43,7 +43,7 @@ Before looking at how ServiceM8 helps, it's worth being precise about what Austr
 - Electrical licence details for the technician performing the work
 - Network distributor notification where required
 
-That's a significant compliance documentation set for every job. See our detailed [AS/NZS 5139 battery storage compliance guide](/blog/as-nzs-5139-battery-storage-compliance) and [solar compliance checklist 2026](/blog/solar-compliance-checklist-2026) for the complete requirement breakdown.
+That's a significant compliance documentation set for every job. See our detailed [AS/NZS 5139 battery storage compliance guide](/blog/as-nzs-5139-battery-storage-compliance) and [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026) for the complete requirement breakdown.
 
 ServiceM8 makes meeting all of these requirements automatic — not an afterthought.
 
@@ -183,17 +183,17 @@ For a solar business doing 40 installations per month, the Starter plan (~$65) h
 
 ## Related Resources
 
-- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
 
-- [best job management software for electricians](/blog/best-job-management-software-electricians-australia)
+- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)
 
 For a deeper look at specific aspects of solar business compliance and operations:
 
 - [ServiceM8 for Solar Installers — full compliance workflow guide](/blog/servicem8-for-solar-installers)
-- [Solar Compliance Checklist 2026 — every requirement before, during, and after install](/blog/solar-compliance-checklist-2026)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
 - [CER Audit Prep for Solar Installers — how to pass a Clean Energy Regulator review](/blog/cer-audit-prep-solar-installers)
 - [AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance)
-- [How to Use AI to Automate Your Trade Business](/blog/ai-automation-trade-business-australia)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
 
 ---
 
@@ -219,6 +219,6 @@ ServiceM8 works well for commercial solar installations, though very large-scale
 
 *Related reading:*
 - *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
-- *[Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers)*
 - *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*

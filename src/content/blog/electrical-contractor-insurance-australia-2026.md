@@ -182,6 +182,10 @@ Look for a broker with experience in the construction and trade sector — not a
 
 ---
 
+---
+
+*This article provides general information only and does not constitute insurance or financial advice. Insurance requirements vary by state and individual circumstances — always consult a licensed insurance broker or adviser.*
+
 ## Related Reading
 
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
@@ -189,13 +193,6 @@ Look for a broker with experience in the construction and trade sector — not a
 - *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
 - *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
 - *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
-
----
-
-*This article provides general information only and does not constitute insurance or financial advice. Insurance requirements vary by state and individual circumstances — always consult a licensed insurance broker or adviser.*
-
-## Related Reading
-
-- [ServiceM8 review](/blog/servicem8-review-2026)
-- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
-- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)

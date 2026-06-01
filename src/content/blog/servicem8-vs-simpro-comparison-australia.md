@@ -118,7 +118,7 @@ If you're running commercial solar projects worth $500K+, with multiple subcontr
 
 ## Compliance and Documentation
 
-For Australian solar installers, compliance documentation isn't optional — it's the difference between passing a CER audit and losing your accreditation. See our [Solar Compliance Checklist for 2026](/blog/solar-compliance-checklist-2026) for a full breakdown of what's required.
+For Australian solar installers, compliance documentation isn't optional — it's the difference between passing a CER audit and losing your accreditation. See our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026) for a full breakdown of what's required.
 
 ### ServiceM8
 
@@ -198,10 +198,10 @@ No credit card required. Set up your first job in under 30 minutes.
 ## Related Articles
 
 - [ServiceM8 vs Tradify: Which Is Better for Australian Trade Businesses in 2026?](/blog/servicem8-vs-tradify-comparison-australia)
-- [ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)
-- [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)
 - [Best Job Management Software for Solar Installers Australia 2026](/guides/best-job-management-software-solar-installers-australia-2026)
 
 ## Related Reading
 
-- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)

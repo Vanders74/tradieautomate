@@ -128,7 +128,7 @@ For mobile trade work, the phone is your terminal. Use it.
 
 Tap to Pay is one part of a complete mobile workflow. For the full picture of how ServiceM8 turns your iPhone into a job management system — quoting, scheduling, photos, compliance checklists, and payment collection — read:
 
-- [ServiceM8 Review 2026](/blog/servicem8-review-2026)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [ServiceM8 for Electricians](/blog/servicem8-for-electricians)
 - [The Hidden Admin Cost Calculator](/blog/hidden-admin-cost-calculator) — see what manual payment collection is actually costing your business
 
@@ -140,5 +140,5 @@ Tap to Pay is one part of a complete mobile workflow. For the full picture of ho
 
 ## Related Reading
 
-- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
-- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)

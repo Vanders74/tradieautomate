@@ -164,7 +164,7 @@ On a $500,000 EBITDA business, that's the difference between a $750,000 sale and
 
 ## What "Automated" Actually Looks Like
 
-Reducing admin overhead doesn't require hiring staff. It requires removing the manual handoffs from your workflow. Here's what the key transitions look like in practice on a platform like [ServiceM8](/blog/servicem8-review-2026):
+Reducing admin overhead doesn't require hiring staff. It requires removing the manual handoffs from your workflow. Here's what the key transitions look like in practice on a platform like [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026):
 
 **Quoting:** Technicians build quotes on-site from a pre-configured parts and labour library on their phone. The quote is sent to the customer as a PDF within minutes of the site assessment. No typing up notes at 9pm. No quote that gets delayed because the office was busy.
 
@@ -228,7 +228,7 @@ Possibly, or you may already have some level of automation in place. The most co
 
 **What's the best way to reduce admin in a solar or electrical business?**
 
-A dedicated field service management platform (ServiceM8, Tradify, Fergus, or similar) is the highest-leverage starting point. The goal is to move every admin step — quoting, invoicing, compliance docs, scheduling, customer comms — into the same system, so data flows automatically from field to office without manual re-entry. See our [full comparison of platforms for electricians](/blog/best-job-management-software-electricians-australia) for a detailed breakdown.
+A dedicated field service management platform (ServiceM8, Tradify, Fergus, or similar) is the highest-leverage starting point. The goal is to move every admin step — quoting, invoicing, compliance docs, scheduling, customer comms — into the same system, so data flows automatically from field to office without manual re-entry. See our [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia) for a detailed breakdown.
 
 **Is this only relevant for businesses with employees?**
 
@@ -268,11 +268,11 @@ If the calculator above surprised you, the free trial is the fastest way to see 
 
 - [The Paperless Trade Roadmap: Step-by-Step Automation for Solar and Electrical](/blog/paperless-trade-roadmap-operational-efficiency)
 - [5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)
-- [Best Job Management Software for Electricians in Australia 2026](/blog/best-job-management-software-electricians-australia)
-- [ServiceM8 Review 2026](/blog/servicem8-review-2026)
+- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [Tap to Pay on iPhone for Tradies](/blog/tap-to-pay-iphone-tradies-australia)
 - [How to Scale a Solar or Electrical Business Without Burning Out](/blog/scaling-solar-electrical-business-hiring-growth)
 
 ## Related Reading
 
-- [solar compliance checklist](/blog/solar-compliance-checklist-2026)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)

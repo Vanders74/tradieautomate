@@ -177,16 +177,16 @@ Tradify is a credible general tradie platform. But "general" is exactly its limi
 
 ## Related Resources
 
-- [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
 
-- [AI automation for trade businesses](/blog/ai-automation-trade-business-australia)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
 
 - [ServiceM8 for Solar Installers — full compliance workflow guide](/blog/servicem8-for-solar-installers)
 - [ServiceM8 for Electricians — compliance certificates and workflows](/blog/servicem8-for-electricians)
 - [CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers)
-- [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
 - [ServiceM8 vs Tradify (General Comparison)](/blog/servicem8-vs-tradify-comparison-australia)
-- [ServiceM8 Review 2026](/blog/servicem8-review-2026)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 
 ---
 
