@@ -177,6 +177,13 @@ Battery storage incentives vary by state and change frequently. Current relevant
 
 ---
 
+---
+
+> **Got a compliance question right now?**
+> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CER audits, AS/NZS 5033 & 5139, CCEW lodgement, STC claims, EV charger approvals, and more. No login required.
+
+---
+
 ## Related Reading
 
 - *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance)*

@@ -151,6 +151,13 @@ For a full rundown of what you need on every solar job, start with the [Solar Co
 - [ServiceM8 for Solar Installers](/blog/servicem8-for-solar-installers)
 - [Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)
 
+---
+
+> **Got a compliance question right now?**
+> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CER audits, AS/NZS 5033 & 5139, CCEW lodgement, STC claims, EV charger approvals, and more. No login required.
+
+---
+
 ## Related Reading
 
 - [how ServiceM8 adds value to your trade business](/blog/sell-servicem8-trade-business-value)

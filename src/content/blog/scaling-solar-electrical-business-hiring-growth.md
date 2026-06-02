@@ -194,3 +194,10 @@ If you're at the point where you know you need to scale but aren't sure where to
 - *[ServiceM8 for Electricians: The Platform Australian Sparkies Use](/blog/servicem8-for-electricians)*
 - *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
 - *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
+
+---
+
+> **Got a compliance question right now?**
+> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CER audits, AS/NZS 5033 & 5139, CCEW lodgement, STC claims, EV charger approvals, and more. No login required.
+
+---

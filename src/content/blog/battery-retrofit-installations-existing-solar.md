@@ -170,6 +170,13 @@ You can automate this follow-up in [ServiceM8](https://www.servicem8.com/?ref=tr
 
 ---
 
+---
+
+> **Got a compliance question right now?**
+> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CER audits, AS/NZS 5033 & 5139, CCEW lodgement, STC claims, EV charger approvals, and more. No login required.
+
+---
+
 ## Related Reading
 
 - *[Adding Battery Storage to Your Solar Business: The Complete Guide for Australian Installers](/blog/adding-battery-storage-solar-business-australia)*

@@ -126,6 +126,13 @@ Build the checklist into your job completion workflow. The 7-day clock starts on
 
 *This article is general guidance only. NSW electrical licensing and compliance requirements can change. Always refer to the current NSW Fair Trading guidance and consult your industry body for advice specific to your licence class and job type.*
 
+---
+
+> **Got a compliance question right now?**
+> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CER audits, AS/NZS 5033 & 5139, CCEW lodgement, STC claims, EV charger approvals, and more. No login required.
+
+---
+
 ## Related Reading
 
 - [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)

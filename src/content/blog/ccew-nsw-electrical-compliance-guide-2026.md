@@ -182,6 +182,13 @@ The property owner is entitled to a copy. Failure to provide it is a Fair Tradin
 
 *This article provides general information only and does not constitute legal advice. Requirements are subject to legislative change — always verify current obligations with NSW Fair Trading (fairtrading.nsw.gov.au) and SafeWork NSW.*
 
+---
+
+> **Got a compliance question right now?**
+> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CER audits, AS/NZS 5033 & 5139, CCEW lodgement, STC claims, EV charger approvals, and more. No login required.
+
+---
+
 ## Related Reading
 
 - *[Certificate of Electrical Safety (CES) — Complete Guide for Victorian Electricians](/blog/certificate-electrical-safety-ces-victoria-guide-2026)*

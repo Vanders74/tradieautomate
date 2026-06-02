@@ -3,6 +3,101 @@ import BaseHead from '../../../components/BaseHead.astro';
 import Header from '../../../components/Header.astro';
 import Footer from '../../../components/Footer.astro';
 import { SITE_TITLE } from '../../../consts';
+
+const softwareSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Tradie Brain AI",
+  "url": "https://tradieautomate.com/tools/tradie-brain/",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Australia"
+  },
+  "description": "Free AI advisor for Australian solar and electrical contractors. Instant answers on CER audits, AS/NZS 5033 and 5139, ServiceM8, STC claims, CCEW lodgement, EV charger approvals, and trade business growth.",
+  "author": {
+    "@type": "Organization",
+    "name": "TradieAutomate",
+    "url": "https://tradieautomate.com"
+  }
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Tradie Brain AI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tradie Brain AI is a free AI-powered compliance and business advisor built specifically for Australian solar installers, battery storage technicians, and licensed electricians. It answers questions about CER audits, AS/NZS 5033, AS/NZS 5139, CCEW lodgement, STC claims, EV charger approvals, ServiceM8 workflows, and trade business growth — instantly, with no login required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I prepare for a Clean Energy Regulator (CER) audit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To pass a CER audit, you need complete installation records for every solar job including signed customer consent, compliant wiring diagrams, correct STC assignment forms, and evidence of AS/NZS 5033 compliance. Tradie Brain AI can walk you through a pre-audit checklist, explain common CER audit triggers, and advise on documentation gaps. Ask it specific questions about your setup and it will give you step-by-step guidance based on current CER guidelines."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the CCEW 7-day rule in NSW?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In NSW, electricians must lodge a Certificate of Compliance Electrical Work (CCEW) within 7 days of completing any electrical installation or alteration work. Failure to lodge on time is a compliance breach under the Home Building Act 1989 and can attract fines. The CCEW must be lodged through the NSW Fair Trading portal. Tradie Brain AI can help you understand what work triggers a CCEW, how to handle partial completions, and how to manage CCEW lodgement at scale using ServiceM8."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does AS/NZS 5139 cover for battery storage systems?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AS/NZS 5139:2019 is the Australian and New Zealand standard for the installation of battery energy storage systems (BESS). It covers safety clearances, ventilation requirements, wiring specifications, signage, and documentation for both lithium-ion and lead-acid battery systems. Compliance with AS/NZS 5139 is mandatory for all battery installations in Australia. Tradie Brain AI can explain clearance requirements, answer questions about specific battery brands, and help you document compliance for audit purposes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Tradie Brain AI help with ServiceM8 setup for solar businesses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Tradie Brain AI has deep knowledge of ServiceM8 workflows for solar and electrical businesses, including how to set up job templates for solar installations, configure STC and certificate checklists, manage client paperwork, automate follow-ups, and handle invoicing. It can advise on integrations with Xero and Stripe, and help you build SOPs that ensure every job is CER-audit ready from the moment it's created."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Tradie Brain AI free to use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Tradie Brain AI is completely free to use. No login, no subscription, no credit card required. It's available 24/7 at tradieautomate.com/tools/tradie-brain/ for any Australian solar installer, electrician, or trade contractor who needs fast, accurate compliance and business advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What regulations does Tradie Brain AI reference?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tradie Brain AI references the following official Australian standards and regulatory frameworks: Clean Energy Regulator (CER) guidelines, AS/NZS 5033 (Installation and Safety Requirements for Photovoltaic Arrays), AS/NZS 5139 (Battery Energy Storage Systems), AS/NZS 3000 (Wiring Rules), Clean Energy Council (CEC) Solar Retailer and Installer Code of Conduct, NSW CCEW requirements under the Home Building Act 1989, Victorian Certificate of Electrical Safety (CES) requirements, and STC (Small-scale Technology Certificate) program rules. Always verify advice against the latest published standards before acting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What EV charger approval process does Tradie Brain AI cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tradie Brain AI covers the full EV charger installation approval process for licensed electricians in Australia, including load calculations, network notification requirements, switchboard upgrade triggers, smart charger configuration, DNSP (Distribution Network Service Provider) requirements by state, and relevant Australian standards. It can also help with quoting, job templates in ServiceM8, and compliance documentation for EV charger installations."
+      }
+    }
+  ]
+};
 ---
 
 <!doctype html>
@@ -12,6 +107,8 @@ import { SITE_TITLE } from '../../../consts';
       title={"Tradie Brain AI — Solar & Electrical Compliance Advisor | " + SITE_TITLE}
       description="Ask Tradie Brain AI anything about CER audits, AS/NZS 5033 & 5139, ServiceM8, STC claims, EV chargers and more. Free instant answers for Australian solar and electrical contractors."
     />
+    <script type="application/ld+json" set:html={JSON.stringify(softwareSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
     <style>
       .tb-hero {
         text-align: center;
@@ -80,6 +177,79 @@ import { SITE_TITLE } from '../../../consts';
       @media (max-width: 600px) {
         .tb-embed-wrap iframe { height: 90vh; }
       }
+      .tb-about {
+        max-width: 860px;
+        margin: 0 auto 48px;
+        padding: 0 24px;
+      }
+      .tb-about h2 {
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: #0f172a;
+        margin-bottom: 16px;
+      }
+      .tb-about h3 {
+        font-size: 1.05rem;
+        font-weight: 700;
+        color: #0f172a;
+        margin: 28px 0 8px;
+      }
+      .tb-about p {
+        color: #475569;
+        font-size: 0.95rem;
+        line-height: 1.7;
+        margin-bottom: 12px;
+      }
+      .tb-about ul {
+        color: #475569;
+        font-size: 0.95rem;
+        line-height: 1.7;
+        padding-left: 20px;
+        margin-bottom: 16px;
+      }
+      .tb-about li {
+        margin-bottom: 6px;
+      }
+      .tb-disclaimer {
+        background: #f8fafc;
+        border: 1px solid #e2e8f0;
+        border-radius: 10px;
+        padding: 16px 20px;
+        margin-top: 32px;
+        font-size: 0.82rem;
+        color: #64748b;
+        line-height: 1.6;
+      }
+      .tb-faq {
+        max-width: 860px;
+        margin: 0 auto 64px;
+        padding: 0 24px;
+      }
+      .tb-faq h2 {
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: #0f172a;
+        margin-bottom: 24px;
+      }
+      .faq-item {
+        border-bottom: 1px solid #e2e8f0;
+        padding: 20px 0;
+      }
+      .faq-item:last-child {
+        border-bottom: none;
+      }
+      .faq-item h3 {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #0f172a;
+        margin-bottom: 8px;
+      }
+      .faq-item p {
+        color: #475569;
+        font-size: 0.92rem;
+        line-height: 1.7;
+        margin: 0;
+      }
     </style>
   </head>
   <body>
@@ -104,6 +274,7 @@ import { SITE_TITLE } from '../../../consts';
           <span>Business Growth</span>
         </div>
       </div>
+
       <div class="tb-embed-wrap">
         <iframe
           src="https://tradie-brain-ai-1f704c89.viktor.space"
@@ -112,6 +283,93 @@ import { SITE_TITLE } from '../../../consts';
           allow="clipboard-write"
         ></iframe>
       </div>
+
+      <section class="tb-about">
+        <h2>What Tradie Brain AI Knows</h2>
+        <p>
+          Tradie Brain AI is trained on the compliance frameworks, regulatory guidelines, and day-to-day operational challenges
+          faced by Australian solar installers, battery storage technicians, and licensed electricians.
+          It gives direct, practical answers — no waffle, no generic advice — because it understands
+          your industry specifically.
+        </p>
+
+        <h3>Compliance &amp; Regulatory Knowledge</h3>
+        <ul>
+          <li><strong>CER Audits</strong> — Clean Energy Regulator audit preparation, documentation requirements, common triggers, and how to respond to a compliance notice</li>
+          <li><strong>AS/NZS 5033</strong> — Installation and safety requirements for photovoltaic (PV) arrays, string sizing, overcurrent protection, and labelling</li>
+          <li><strong>AS/NZS 5139</strong> — Battery energy storage system (BESS) installation requirements including safety clearances, ventilation, and signage</li>
+          <li><strong>CCEW NSW</strong> — Certificate of Compliance Electrical Work lodgement requirements, 7-day deadline rule, and bulk lodgement workflows</li>
+          <li><strong>CES Victoria</strong> — Certificate of Electrical Safety requirements for Victorian electrical contractors</li>
+          <li><strong>STC Claims</strong> — Small-scale Technology Certificate assignment, compliance paperwork, and common claim errors</li>
+          <li><strong>EV Charger Approvals</strong> — DNSP notification, load calculations, smart charger configuration, and state-specific requirements</li>
+        </ul>
+
+        <h3>ServiceM8 &amp; Business Operations</h3>
+        <ul>
+          <li>Job templates and checklist setup for solar, battery, and EV charger installations</li>
+          <li>Certificate and compliance documentation workflows</li>
+          <li>Xero and Stripe integrations, invoicing, and payment setup</li>
+          <li>Quoting, scheduling, and client communication automation</li>
+          <li>Building SOPs that make every job CER-audit ready</li>
+        </ul>
+
+        <h3>Business Growth</h3>
+        <ul>
+          <li>Hiring your first apprentice or subcontractor</li>
+          <li>Scaling from 1 to 3+ install crews</li>
+          <li>Pricing solar and battery jobs for sustainable margin</li>
+          <li>Winning commercial solar contracts</li>
+          <li>Reducing admin time and hidden costs</li>
+        </ul>
+
+        <div class="tb-disclaimer">
+          <strong>Data sources &amp; disclaimer:</strong> Tradie Brain AI references official Australian standards and regulatory frameworks including Clean Energy Regulator (CER) guidelines, AS/NZS 5033 (Installation and Safety Requirements for Photovoltaic Arrays), AS/NZS 5139 (Battery Energy Storage Systems), AS/NZS 3000 (Wiring Rules), Clean Energy Council (CEC) Solar Retailer and Installer Code of Conduct, NSW CCEW requirements under the Home Building Act 1989, Victorian Certificate of Electrical Safety (CES) requirements under the Electrical Safety Act 1998, and STC (Small-scale Technology Certificate) program rules. Responses are informational only and should be verified against the latest published standards before acting. For complex compliance matters, consult a licensed professional or your state electrical regulator.
+        </div>
+      </section>
+
+      <section class="tb-faq">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+          <h3>Is Tradie Brain AI free to use?</h3>
+          <p>Yes — completely free, no login, no subscription required. Available 24/7 for any Australian solar installer, electrician, or trade contractor.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>How do I prepare for a CER audit?</h3>
+          <p>You need complete installation records for every solar job: signed customer consent, compliant wiring diagrams, correct STC assignment forms, and evidence of AS/NZS 5033 compliance. Ask Tradie Brain AI for a pre-audit checklist specific to your business setup and it will walk you through it step by step.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>What is the CCEW 7-day rule in NSW?</h3>
+          <p>NSW electricians must lodge a Certificate of Compliance Electrical Work (CCEW) within 7 days of completing any electrical installation. Failure to lodge is a breach under the Home Building Act 1989 and can attract fines. Tradie Brain AI can explain what triggers a CCEW, how to handle partial completions, and how to manage lodgement at scale.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>What does AS/NZS 5139 cover for battery storage?</h3>
+          <p>AS/NZS 5139:2019 covers safety clearances, ventilation, wiring specifications, signage, and documentation for all battery energy storage system (BESS) installations in Australia. Compliance is mandatory. Ask Tradie Brain AI for clearance requirements for specific battery brands or how to document compliance for a CER audit.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Can it help with ServiceM8 setup for solar businesses?</h3>
+          <p>Yes. Tradie Brain AI has deep ServiceM8 knowledge for solar and electrical businesses — job templates, STC checklists, certificate workflows, Xero integration, quoting, and building SOPs that keep every job CER-audit ready from the moment it's created.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>What regulations does Tradie Brain AI reference?</h3>
+          <p>CER guidelines, AS/NZS 5033, AS/NZS 5139, AS/NZS 3000 Wiring Rules, Clean Energy Council Code of Conduct, NSW CCEW requirements, Victorian CES requirements, and STC program rules. Always verify advice against the latest published standards.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>What EV charger approvals does it cover?</h3>
+          <p>Load calculations, DNSP notification requirements by state, switchboard upgrade triggers, smart charger configuration, relevant Australian standards, and compliance documentation. Ask for state-specific requirements for NSW, VIC, QLD, SA, or WA.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Can I share answers from Tradie Brain AI?</h3>
+          <p>Yes — every response includes a share button so you can post useful compliance answers to your team's WhatsApp group, Facebook, or Instagram. The Field Manual below the chat also stores the best community questions so you can browse them without asking again.</p>
+        </div>
+      </section>
     </main>
     <Footer />
   </body>

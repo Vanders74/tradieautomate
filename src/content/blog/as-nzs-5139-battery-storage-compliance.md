@@ -163,6 +163,13 @@ If every box is ticked before you leave the site, you're audit-ready.
 
 *TradieAutomate helps Australian solar and battery installers build compliant, efficient businesses. Learn how [ServiceM8 can make AS/NZS 5139 compliance a built-in part of your workflow](/blog/servicem8-for-solar-installers).*
 
+---
+
+> **Got a compliance question right now?**
+> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CER audits, AS/NZS 5033 & 5139, CCEW lodgement, STC claims, EV charger approvals, and more. No login required.
+
+---
+
 ## Related Reading
 
 - [how ServiceM8 adds value to your trade business](/blog/sell-servicem8-trade-business-value)
