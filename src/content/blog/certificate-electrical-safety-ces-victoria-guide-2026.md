@@ -180,6 +180,13 @@ For electricians working in NSW, the equivalent document is the **Certificate of
 
 ---
 
+---
+
+> **Got a compliance question right now?**
+> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CER audits, AS/NZS 5033 & 5139, CCEW lodgement, STC claims, EV charger approvals, and more. No login required.
+
+---
+
 ## Related Reading
 
 - *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
