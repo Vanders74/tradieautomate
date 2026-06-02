@@ -1,0 +1,118 @@
+---
+import BaseHead from '../../../components/BaseHead.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import { SITE_TITLE } from '../../../consts';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title={"Tradie Brain AI — Solar & Electrical Compliance Advisor | " + SITE_TITLE}
+      description="Ask Tradie Brain AI anything about CER audits, AS/NZS 5033 & 5139, ServiceM8, STC claims, EV chargers and more. Free instant answers for Australian solar and electrical contractors."
+    />
+    <style>
+      .tb-hero {
+        text-align: center;
+        padding: 40px 24px 20px;
+        max-width: 680px;
+        margin: 0 auto;
+      }
+      .tb-hero .badge {
+        display: inline-block;
+        background: #fff7ed;
+        color: #ea580c;
+        font-size: 0.72rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+        padding: 3px 10px;
+        border-radius: 100px;
+        margin-bottom: 14px;
+      }
+      .tb-hero h1 {
+        font-size: clamp(1.7rem, 4vw, 2.4rem);
+        font-weight: 800;
+        color: #0f172a;
+        margin-bottom: 12px;
+        line-height: 1.2;
+      }
+      .tb-hero p {
+        color: #64748b;
+        font-size: 1rem;
+        line-height: 1.6;
+        max-width: 520px;
+        margin: 0 auto 12px;
+      }
+      .tb-topics {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        justify-content: center;
+        margin: 16px auto 32px;
+        max-width: 580px;
+      }
+      .tb-topics span {
+        background: #f1f5f9;
+        color: #475569;
+        font-size: 0.75rem;
+        font-weight: 600;
+        padding: 4px 10px;
+        border-radius: 100px;
+        border: 1px solid #e2e8f0;
+      }
+      .tb-embed-wrap {
+        max-width: 860px;
+        margin: 0 auto 48px;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 8px 40px rgba(0,0,0,0.12);
+        border: 1px solid #e2e8f0;
+        background: #09090b;
+      }
+      .tb-embed-wrap iframe {
+        width: 100%;
+        height: 780px;
+        border: none;
+        display: block;
+      }
+      @media (max-width: 600px) {
+        .tb-embed-wrap iframe { height: 90vh; }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <div class="tb-hero">
+        <span class="badge">⚡ Free AI Tool</span>
+        <h1>Tradie Brain AI</h1>
+        <p>
+          Instant answers on solar &amp; electrical compliance, ServiceM8 setup, STC claims,
+          CER audits, EV chargers, and scaling your trade business.
+          No login. No fluff. Just straight answers.
+        </p>
+        <div class="tb-topics">
+          <span>CER Audits</span>
+          <span>AS/NZS 5033 &amp; 5139</span>
+          <span>ServiceM8</span>
+          <span>STC Claims</span>
+          <span>CCEW NSW</span>
+          <span>EV Chargers</span>
+          <span>Battery Compliance</span>
+          <span>Business Growth</span>
+        </div>
+      </div>
+      <div class="tb-embed-wrap">
+        <iframe
+          src="https://tradie-brain-ai-1f704c89.viktor.space"
+          title="Tradie Brain AI — Solar & Electrical Compliance Advisor"
+          loading="lazy"
+          allow="clipboard-write"
+        ></iframe>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
