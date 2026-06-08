@@ -116,14 +116,16 @@ Both the Electrical Safety Queensland contractor licence and the QBCC licence re
 ### Electrical Safety Queensland renewal:
 - Renew online via the ESQ portal
 - Confirm insurance details are current
-- Pay renewal fee (currently $283.45 per year — confirm current fee on ESQ website)
+- Pay renewal fee (confirm current fee on ESQ website — updated annually)
 
 ### QBCC renewal:
 - Submit updated financial information (MFR report or self-declaration)
 - Confirm nominated Qualified Supervisor details
 - Pay renewal fee based on licence category and revenue band
 
-**Key risk:** Letting either licence lapse — even for a short period — means you cannot legally carry out or quote electrical or solar work in Queensland. If a lapse occurs, any work undertaken is unlicensed and exposes you to significant penalties.
+**Key risk:** Letting either licence lapse — even for a short period — means you cannot legally carry out or quote electrical or solar work in Queensland. Build your renewal calendar into your job management system so nothing slips.
+
+If you use [ServiceM8](https://www.servicem8.com/?ref=tradieautomate), you can set recurring reminders on licence expiry dates directly in the app — many Queensland contractors use this to track ESQ, QBCC, and CEC renewal dates in one place.
 
 ---
 
@@ -142,7 +144,7 @@ Many electrical sole traders and small businesses don't realise QLeave applies t
 If your nominated QS leaves or their licence lapses, your QBCC licence may be immediately at risk. You have a limited window to nominate a replacement.
 
 **5. Inadequate insurance**
-Both agencies have minimum insurance requirements. If your policy lapses or coverage drops below the required level, your licence becomes non-compliant.
+Both agencies have minimum insurance requirements. If your policy lapses or coverage drops below the required level, your licence becomes non-compliant. See our [electrical contractor insurance guide](/blog/electrical-contractor-insurance-australia-2026) for what coverage levels are required.
 
 ---
 
@@ -155,6 +157,14 @@ Solar installation businesses in Queensland have additional obligations beyond t
 - **CCEW compliance** — Not applicable in Queensland (that's NSW-specific). Queensland uses different electrical safety certificate requirements — the Certificate of Test is the primary post-installation document for most low-voltage installation work.
 
 If you're operating across state borders (e.g., running installs in northern NSW), you'll need to comply with both state regimes simultaneously.
+
+---
+
+## Managing Compliance Without Losing Your Mind
+
+The licence renewal calendar is where most Queensland electrical businesses drop the ball — not because the obligations are complex, but because they're easy to forget in a busy workflow.
+
+The most reliable approach: create recurring job entries or calendar reminders for every licence renewal and QLeave quarterly filing. Many operators use their job management platform for this. The [digital job management guide for solar installers](/blog/digital-job-management-solar-installers) covers how to set up compliance reminder workflows that keep these dates front of mind.
 
 ---
 
@@ -173,4 +183,18 @@ Staying compliant in Queensland isn't complicated, but it does require active ma
 
 ---
 
-*Related reading: [CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers) · [Electrical Contractor Insurance Australia 2026](/blog/electrical-contractor-insurance-australia-2026) · [Staying Compliant in 2026](/blog/staying-compliant-2026-solar-electrical-safety)*
+> **Have a compliance question right now?**
+> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on QBCC obligations, QLeave requirements, CEC accreditation, STC claims, and solar compliance — no login required.
+
+---
+
+## Related Reading
+
+- *[CER Audit Prep for Solar Installers: Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
+- *[Electrical Contractor Insurance Australia 2026: What You Need and Why](/blog/electrical-contractor-insurance-australia-2026)*
+- *[Staying Compliant in 2026: The Complete Solar & Electrical Safety Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
+- *[WA Electrical Contractor Licence Guide 2026](/blog/wa-electrical-contractor-licence-guide-2026)*
+- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
+- *[Solar Compliance Checklist for Australian Installers 2026](/blog/solar-compliance-checklist-2026)*
+- *[Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026)*
+- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
