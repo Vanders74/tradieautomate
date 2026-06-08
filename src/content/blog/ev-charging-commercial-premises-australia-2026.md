@@ -1,96 +1,106 @@
 ---
 title: "EV Charging at Commercial Premises Australia 2026: What Electricians Need to Know"
-description: "The complete guide for Australian electricians installing EV charging infrastructure at commercial premises — AS/NZS 3000 compliance, load management, metering, network approvals, and how to price and win commercial EV charging jobs."
+description: "The complete guide for Australian electricians installing EV charging infrastructure at commercial premises — AS/NZS 3000 compliance, load management, metering, network approvals, pricing, and how to build commercial EV charging as a revenue line."
 pubDate: 'Jun 9 2026'
 category: "Solar & Battery"
-heroImage: '/hero-ev-charging-commercial-premises-2026.jpg'
+heroImage: '/hero-ev-charger-installation.jpg'
 tags: ['EV charging', 'commercial', 'electrician', 'EVSE', 'AS/NZS 3000', 'compliance', 'load management']
 ---
 
-Commercial EV charging is moving from a niche add-on to a mainstream building infrastructure requirement. In 2026, Australian businesses — from office parks to retail centres, industrial estates to hotel chains — are under increasing pressure to provide EV charging for staff, fleet vehicles, and customers. And that means work for electricians.
+Commercial EV charging is moving from a niche add-on to a mainstream building infrastructure requirement. In 2026, Australian businesses — from office parks to retail centres, industrial estates to hotel chains — are under increasing pressure to provide EV charging for staff, fleet vehicles, and customers. Every one of those charge points needs a licensed electrician to install it.
 
-For solar and electrical contractors already doing commercial work, EV charging infrastructure is the logical next revenue line. But commercial EV charging is materially more complex than residential EVSE installation. Load management, sub-metering, network authority requirements, tenancy billing, and switchboard capacity planning all come into play.
+For solar and electrical contractors already working in the commercial space, EV charging infrastructure is a natural next revenue line. But commercial EV charging is materially more complex than a residential EVSE installation. Load management, sub-metering, network authority approvals, switchboard capacity planning, and the interplay with existing solar systems all come into play.
 
-This guide covers what Australian electricians need to know to work in commercial EV charging in 2026: compliance requirements, technical considerations, commercial structures, and how to price the work.
+This guide covers what Australian electricians need to know to work in commercial EV charging in 2026: compliance requirements, technical considerations, commercial structures, and how to price and win the work.
 
 ---
 
 ## Why Commercial EV Charging Is Different From Residential
 
-Residential EV charger installation is typically straightforward: a dedicated 7.2–22kW circuit from the switchboard, a wall-mounted EVSE unit, a compliance certificate. One charger, one customer, one meter.
+A residential EV charger installation is typically straightforward — a dedicated 7.2kW circuit from the switchboard, a wall-mounted EVSE, a compliance certificate, a satisfied customer. One charger, one customer, one meter.
 
 Commercial EV charging involves:
 
 - **Multiple chargers** — anywhere from 4 to 100+ charge points on a single site
 - **Shared electrical infrastructure** — chargers must fit within the building's existing or upgraded maximum demand
-- **Multiple users and billing** — staff, visitors, tenants, or customers each using chargers who may pay per session
+- **Multiple users** — staff, visitors, tenants, or paying customers each using the network
+- **Sub-metering and billing** — session-level energy measurement for user billing or cost allocation
 - **Network connectivity** — most commercial chargers are networked, requiring integration with a charge point management system (CPMS)
-- **Long-term infrastructure planning** — the first 4 chargers might be the foundation for 40 more in three years
-- **Regulatory complexity** — network authority approvals, sub-metering requirements, and tenancy legislation all intersect
+- **Long-term infrastructure planning** — the first 4 chargers are often the foundation for 40 more over the next three years
 
-Getting commercial EV charging right requires a systems-thinking approach, not a residential-job mindset.
+Getting commercial EV charging right requires a systems-thinking approach. The businesses that do it well are treating commercial EV infrastructure as a deliberate specialisation, not a residential job at larger scale.
 
 ---
 
-## Technical Compliance Requirements
+## Compliance Requirements
 
-### AS/NZS 3000:2018 (Wiring Rules)
+### AS/NZS 3000:2018 — Wiring Rules
 
-All EV charging installations in Australia must comply with AS/NZS 3000:2018 — the Australian and New Zealand Wiring Rules. Key requirements relevant to commercial EVSE:
+All EV charging installations must comply with AS/NZS 3000:2018. Key requirements for commercial EVSE:
 
-**Circuit protection:** Each EV charger circuit requires appropriately rated overcurrent protection. The circuit breaker rating must be matched to the charger's continuous load — typically a breaker rated at 125% of the charger's rated current.
+**Circuit protection:** Each EV charger circuit requires appropriately-rated overcurrent protection. The circuit breaker rating must be sized at 125% of the charger's rated continuous current.
 
-**Cable sizing:** Commercial charger circuits carry significant sustained loads. Cable sizing must account for continuous duty (EV chargers are considered continuous load devices), derating for grouping and installation method, and voltage drop over longer cable runs — particularly relevant in large car parks with long cable runs from the switchboard.
+**Cable sizing:** Commercial charger circuits carry significant sustained loads. Cable sizing must account for continuous duty derating, grouping derating, installation method, and voltage drop — particularly relevant in large car parks with long cable runs from the switchboard. Undersized cable is both a compliance failure and a fire risk.
 
-**Earthing and RCD protection:** AS/NZS 3000 requires RCD protection for EV charger circuits. For three-phase AC chargers, this typically means Type A or Type B RCDs depending on the charger type and DC fault current characteristics. Many European-origin chargers inject DC components that require Type B RCDs — check manufacturer specifications carefully.
+**Earthing and RCD protection:** RCD protection is required for all EV charger circuits. For three-phase AC chargers, the correct RCD type matters — many European-origin chargers produce DC fault current components that require Type B RCDs rather than standard Type A. Check manufacturer specifications before specifying RCDs.
 
-**Switchboard capacity:** Commercial sites often don't have headroom in their existing switchboard. You'll need to assess Maximum Demand, available switchboard capacity, and whether a new switchboard section or network upgrade is required.
+**Switchboard capacity:** Most commercial sites don't have spare headroom in their existing switchboard. Assess available Maximum Demand before quoting.
 
-### AS/NZS 61851 (EV Charging Equipment)
+### AS/NZS 61851 — EV Charging Equipment Standards
 
-The EVSE equipment itself must comply with AS/NZS 61851 (Electric Vehicle Conductive Charging Systems). In practice, this means specifying EV chargers from reputable manufacturers with Australian SAA/RCM certification. Don't install uncertified EVSE equipment — it's a compliance breach and creates significant liability exposure.
+EVSE equipment installed in Australia must comply with AS/NZS 61851 (Electric Vehicle Conductive Charging Systems). In practice, specify equipment from reputable manufacturers with Australian SAA/RCM certification. Uncertified imports create compliance liability and may not be covered by your public liability insurance in the event of a fault.
+
+For your own compliance requirements as an electrical contractor in commercial environments, ensure your [electrical contractor insurance](/blog/electrical-contractor-insurance-australia-2026) explicitly covers EV charging installation work — some policies have exclusions or sub-limits for EV infrastructure.
+
+### State Electrical Compliance Certificates
+
+EV charger installation is electrical work and requires the appropriate compliance certificate in each state — Certificate of Compliance Electrical Work (CCEW) in NSW, Certificate of Electrical Safety (CES) in Victoria, Certificate of Testing and Compliance in Queensland, or CCEI in WA. The same process applies as for any commercial electrical installation. For NSW specifically, the [CCEW compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026) covers the documentation and lodgement requirements in detail.
 
 ---
 
 ## Load Management: The Critical Design Challenge
 
-The number one technical challenge in commercial EV charging is load management. If 20 vehicles all charge simultaneously at 22kW, that's 440kW of load. Most commercial premises can't absorb that on top of existing building load.
+The number one technical challenge in commercial EV charging is load management. If 20 vehicles charge simultaneously at 22kW, that's 440kW of additional load. Most commercial premises can't absorb that on top of existing building loads — and the network authority won't approve it without a supply upgrade.
 
 ### Dynamic Load Management (DLM)
 
-Dynamic Load Management is the solution. A DLM system monitors the building's total electrical load in real time and allocates available capacity to EV chargers dynamically. When building load is high (peak business hours), charger output is throttled. When building load drops (overnight), charger output ramps up.
+Dynamic Load Management is the industry solution. A DLM system monitors the building's total electrical load in real time and allocates available capacity to EV chargers dynamically. When building load is high, charger output is throttled back. When building load drops overnight, charger output ramps up.
+
+A well-designed DLM system means a car park with 40 chargers can operate within the same Maximum Demand approval as a site with 10 chargers — because the chargers never all draw full power simultaneously.
 
 DLM requires:
-- A smart EVSE system capable of receiving and responding to load management signals
-- A building energy management interface or dedicated sub-meter monitoring the switchboard
-- A charge point management system (CPMS) that ties it together
+- Smart EVSE hardware capable of receiving and responding to load signals
+- A building sub-meter or energy management interface monitoring the switchboard
+- A charge point management system (CPMS) tying the load data and charger control together
 
-As the installing electrician, your role is the electrical infrastructure design and installation. But you need to understand how DLM works to specify the right charger hardware and commission it correctly.
+As the installing electrician, you're responsible for the electrical infrastructure design and installation. But you need to understand DLM well enough to specify compatible hardware and commission the system correctly — selecting an EVSE brand with robust DLM support is a prerequisite for any multi-charger commercial site.
 
-### Maximum Demand and Network Capacity
+### Maximum Demand and Network Authority Approval
 
-Before designing a commercial EV charging system, you need to understand:
+Before designing a commercial EV charging system:
 
-1. **Existing Maximum Demand** — What is the site's current approved maximum demand from the network authority?
-2. **Available headroom** — How much of that demand is already used by building loads?
-3. **Future growth** — What's the planned EV charging rollout? Design for phase 2 and 3 now.
+1. **Determine the site's existing Maximum Demand approval** — What has the distribution network authority approved for this site?
+2. **Assess available headroom** — How much of that approved demand is already consumed by building loads?
+3. **Project EV charging load** — What's the peak concurrent charging load from the proposed charger count? Apply DLM to calculate the actual additional demand required.
+4. **Plan for future stages** — Design the electrical infrastructure for Phase 2 and Phase 3 now, even if you're only installing Phase 1 today. Running conduit for future cable capacity costs almost nothing during construction; retrofitting it later costs significantly more.
 
-If the proposed EV charging load exceeds the site's available headroom, a **network augmentation** (supply upgrade) is required. This is a significant project — involving the network authority, potentially new transformers, HV work, and long lead times (6–18 months in some areas). Identify this early in the project scoping process.
+If the proposed EV charging load exceeds the site's available headroom under DLM, a **network augmentation** — a supply upgrade — is required. This involves the distribution network authority, potentially new transformers or HV equipment, and lead times of 6–18 months in many network areas. Identify this at scoping, not during installation.
 
 ---
 
-## Sub-Metering and Tenant Billing
+## Sub-Metering and Billing Models
 
-In commercial buildings with multiple tenants — office parks, strata industrial, retail centres, mixed-use developments — EV charging raises a billing question: who pays for the electricity?
+In commercial buildings with multiple tenants or users, EV charging creates a billing question: who pays for the electricity?
 
-### Options:
-**Building owner pays, charging is free to users.** Simple, no metering required, but the building owner absorbs the cost. Common in staff car parks as an employee benefit, but not scalable as numbers grow.
+**Three common models:**
 
-**Per-session billing via the CPMS.** The charge point management system records energy delivered per session and invoices users. Requires networked chargers with user authentication (RFID card, app, or credit card payment at the terminal). Sub-metering is built into the charger; the CPMS handles billing.
+**Building owner pays, free to users:** Simple, no session billing required. Common in staff car parks as an employee benefit. Not scalable as EV penetration grows — the electricity cost becomes material.
 
-**Landlord sub-meters the EV charging circuit and bills tenants.** A separate meter (National Meter Identifier/NMI) for the EV charging infrastructure, with the landlord purchasing electricity at their rate and on-selling it to tenants or users. Requires a separate meter installation and potentially a retail licence depending on the structure — seek legal advice on the on-selling model.
+**Session billing via the CPMS:** The charge point management system records energy delivered per session and invoices users. Requires networked chargers with user authentication — RFID card, mobile app, or tap-to-pay at the terminal. Sub-metering is built into the charger hardware; the CPMS handles billing. This is the most scalable model for large sites.
 
-Your job is the electrical installation. But the billing model chosen by the building owner directly affects what you need to install. Clarify the billing model before finalising your design.
+**Landlord sub-meters and on-sells:** A separate electrical sub-meter (potentially with its own NMI) for the EV charging infrastructure, with the landlord purchasing electricity and on-selling to tenants or users. Requires a separate meter installation — and depending on the structure, may require a retail licence for the on-selling arrangement. Seek legal advice before recommending this model to commercial customers.
+
+Your job is the electrical infrastructure. But the billing model chosen by the building owner directly affects what you install — session billing via CPMS requires different hardware to a "free to staff" model. Clarify the billing intent before finalising your design.
 
 ---
 
@@ -98,62 +108,57 @@ Your job is the electrical installation. But the billing model chosen by the bui
 
 ### AC Chargers (Level 2, 7–22kW)
 
-The workhorse of commercial EV charging. A 22kW AC charger (three-phase, 32A) can charge most EVs from near-empty to full overnight. In a destination charging context (workplace, shopping centre) where vehicles dwell for several hours, 7–11kW AC chargers are often sufficient.
+The workhorse of commercial EV charging. A 22kW AC charger (three-phase, 32A) can charge most EVs from near-empty to full overnight. In a destination charging context — workplace, shopping centre, hotel — where vehicles dwell for several hours, 7–11kW AC chargers are often the most practical and cost-effective choice.
 
-AC chargers are:
-- Relatively low cost ($800–$4,000 per unit for commercial-grade hardware)
-- Simple to install (standard AC distribution circuit)
-- Suitable for slow and medium charging in dwell-time applications
-- The right choice for most car park, workplace, and retail applications
+AC commercial chargers typically cost $800–$4,000 per unit (hardware only, before installation). They're straightforward to install using standard AC distribution circuits.
 
 ### DC Fast Chargers (50–400kW)
 
-DC fast chargers bypass the vehicle's onboard AC charger and charge the battery directly at high DC current. They can charge most EVs to 80% in 20–45 minutes.
+DC fast chargers bypass the vehicle's onboard AC charger and charge the battery directly at high DC current. Most EVs can charge from 20%–80% in 20–45 minutes at a 50kW+ DC charger.
 
-DC fast chargers are:
-- High cost ($25,000–$200,000+ per unit)
-- Require significant electrical infrastructure (dedicated HV connection for high-power units)
-- Appropriate for service stations, highways, fleet depot applications
-- Typically outside the scope of standard electrical contractors without specialist DC charging training
+DC fast chargers cost $25,000–$200,000+ per unit and require dedicated high-power electrical infrastructure — often including HV connection upgrades. They're appropriate for service stations, highway rest stops, fleet depots, and high-dwell applications.
 
-For most commercial premises installations (workplaces, retail, hospitality), AC chargers are the right answer. Don't overspec the system — a car park full of 7kW AC chargers connected to a well-designed DLM system is often more practical and cost-effective than a handful of DC chargers.
+For most commercial premises (workplaces, retail, hospitality), AC chargers with DLM is the right answer. Don't overspec the system. A car park full of 7kW AC chargers on a well-designed DLM system is more practical, more cost-effective, and easier to maintain than a handful of high-power DC units. See our [EV charger installation guide for electricians](/blog/ev-charger-installation-electricians-australia-2026) for a detailed breakdown of residential vs commercial charging use cases.
 
 ---
 
 ## Network Authority Approvals
 
-Commercial EV charging installations often require engagement with the distribution network authority. Requirements vary by network and by the scale of the installation:
+Commercial EV charging often requires formal engagement with the distribution network authority:
 
-**Small installations (single charger, <20A additional load):** In most cases, no formal network approval is required beyond standard installation and compliance certificate processes.
+| Installation Scale | Approval Likely Required? |
+|---|---|
+| Single charger, under 20A additional load | Generally no formal approval required |
+| Multiple chargers, significant load addition | Maximum Demand application to the DNSP |
+| High-power multi-charger site, 50kW+ total | Network augmentation assessment — allow 6–18 months |
 
-**Medium installations (multiple chargers, significant additional load):** Formal Maximum Demand application may be required. The network authority needs to confirm the site's supply can accommodate the additional load.
-
-**Large installations (high-power multi-charger sites, 50kW+ total EVSE load):** Network augmentation assessment. May require a new service, transformer upgrade, or substations. Engage the network authority early — approval and works can take 6–18 months.
-
-In practice, get in the habit of checking Maximum Demand for every commercial EVSE job. It takes 30 minutes and can save you from a nasty surprise three months into a project.
+Get into the habit of checking Maximum Demand for every commercial EVSE job at the scoping stage. A quick call to the DNSP to confirm available headroom takes 30 minutes and can save you months of delays and a re-scoped project budget.
 
 ---
 
-## How to Price Commercial EV Charging Jobs
+## Pricing Commercial EV Charging Work
 
-Commercial EV charging is not a commodity. The pricing reflects design, coordination, compliance, and commissioning complexity — not just cable and labour.
+Commercial EV charging is not a commodity. The design complexity, coordination, DLM commissioning, and compliance documentation all justify a higher margin than residential installation.
 
 **Key cost components:**
-- EVSE hardware (AC charger units — typically $800–$4,000 per charger)
-- Sub-board installation / switchboard modification
-- Cable and conduit (can be significant in large car parks)
-- Sub-metering hardware and installation
-- Network authority application fees (if required)
-- CPMS integration and commissioning
-- Compliance certificates
-- Project management and design
 
-**Typical job values:**
+| Component | Typical Range |
+|---|---|
+| EVSE hardware (AC charger units) | $800–$4,000 per charger |
+| Sub-board installation / switchboard modification | $2,000–$8,000+ |
+| Cable and conduit (significant in large car parks) | Variable |
+| Sub-metering hardware and installation | $500–$2,000 |
+| Network authority application fees | Variable |
+| CPMS integration and commissioning | $500–$3,000 |
+| Compliance certificates | $50–$300 per installation |
+| Project management and design | 10–15% of project value |
+
+**Typical project values:**
 - 4-charger workplace install: $12,000–$35,000
 - 20-charger commercial car park: $60,000–$180,000
-- 50+ charger large site with DLM and CPMS: $200,000–$500,000+
+- 50+ charger site with DLM and CPMS: $200,000–$500,000+
 
-Margin on EV charging jobs should be higher than residential — the design complexity, coordination, and warranty exposure justify it. Don't race to the bottom on price; the customers who want the cheapest quote are also the customers who create the most warranty headaches.
+Use a structured estimating template for commercial EV charging quotes — every cost component above must be captured. The [hidden admin cost calculator](/blog/hidden-admin-cost-calculator) can help you quantify what poor estimating processes cost your business across the year.
 
 ---
 
@@ -161,14 +166,32 @@ Margin on EV charging jobs should be higher than residential — the design comp
 
 For solar and electrical contractors looking to build a commercial EV charging practice:
 
-1. **Get trained.** Complete EVSE-specific training (several RTOs offer commercial EV charging installation courses). Some major EVSE brands run installer accreditation programs.
+**Get trained.** Complete EVSE-specific training (several RTOs offer commercial EV installation courses). Major EVSE brands including Wallbox, Zappi, and Tritium run installer accreditation programs — their certified installer networks are often their primary sales channel.
 
-2. **Choose your CPMS partner.** The charge point management system is often the commercial customer's key concern — uptime, reporting, billing, and support. Align with one or two reputable CPMS providers and become a competent installer of their systems.
+**Choose your CPMS partner.** The charge point management system is often the commercial customer's primary concern — uptime, reporting, billing reliability, and support. Align with one or two reputable CPMS providers and become a competent integrator of their systems.
 
-3. **Build a commercial estimating template.** Commercial EV charging quotes are complex. A structured estimating template that covers all cost components prevents margin leakage.
+**Track every job properly.** Commercial EV jobs have longer documentation tails than residential — commissioning records, CPMS integration notes, DLM settings, compliance certificates. Use [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) or equivalent to create a commercial EV job type with its own completion checklist, so nothing gets missed between installation and final invoice.
 
-4. **Start with 4–10 charger jobs.** Develop your workflow and commissioning competency on manageable commercial jobs before tendering for 50+ charger sites.
+**Price for complexity.** The contractors who build successful commercial EV practices are the ones who price for the design and commissioning complexity, not just the cable and labour hours. Customers who want the cheapest quote are also the customers who create the most warranty headaches.
 
 ---
 
-*Related reading: [EV Charger Installation for Electricians Australia 2026](/blog/ev-charger-installation-electricians-australia-2026) · [How to Win Commercial Solar Contracts Australia](/blog/how-to-win-commercial-solar-contracts-australia) · [Scaling Your Solar Electrical Business](/blog/scaling-solar-electrical-business-hiring-growth)*
+*This article provides general guidance only. Compliance requirements, network authority rules, and scheme details are subject to change — always verify current requirements with your state electrical regulator and relevant DNSP.*
+
+---
+
+> **Got a compliance or technical question right now?**
+> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on AS/NZS 3000, EV charger approvals, network authority requirements, CCEW lodgement, and more. No login required.
+
+---
+
+## Related Reading
+
+- *[EV Charger Installation for Electricians: Certification, Compliance and Workflow in Australia](/blog/ev-charger-installation-electricians-australia-2026)*
+- *[How to Win Commercial Solar Contracts in Australia](/blog/how-to-win-commercial-solar-contracts-australia)*
+- *[Electrical Contractor Insurance Australia 2026: What Coverage You Actually Need](/blog/electrical-contractor-insurance-australia-2026)*
+- *[NSW CCEW Compliance Guide for Electrical Contractors 2026](/blog/ccew-nsw-electrical-compliance-guide-2026)*
+- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
+- *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
+- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
+- *[The Hidden Admin Cost Calculator: What Aussie Tradies Really Lose Each Week](/blog/hidden-admin-cost-calculator)*
