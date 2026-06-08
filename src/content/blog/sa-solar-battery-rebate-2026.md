@@ -99,6 +99,8 @@ Registration requirements include:
 
 Register via the SA Government's Home Battery Scheme installer portal. Processing time varies — allow at least 2–3 weeks before you need to quote HBS-eligible jobs.
 
+Build HBS registration renewal into your compliance calendar alongside your CEC accreditation renewal. If you're using [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) for job management, create a recurring reminder for both — they're easy to miss in a busy pipeline.
+
 ---
 
 ## What Batteries Qualify?
@@ -123,7 +125,7 @@ When quoting a battery installation for a customer interested in the HBS:
 
 1. **Confirm eligibility first** — Don't invest time in a detailed quote until you've confirmed the customer meets the basic owner-occupier, SA resident, and previous-HBS criteria.
 
-2. **Quote the full system cost** — The loan covers up to $10,000 of the battery system cost. Quote the full installed price, then show the customer how the loan reduces their out-of-pocket cost (the balance they fund themselves).
+2. **Quote the full system cost** — The loan covers up to $10,000 of the battery system cost. Quote the full installed price, then show the customer how the loan reduces their out-of-pocket cost (the balance they fund themselves). Our free [Solar Quote Profitability Calculator](/tools/solar-quote-calculator) can help you model margin at different price points before you quote.
 
 3. **Include only approved battery products** — Quoting a battery not on the CEC approved list means the customer won't qualify for the loan.
 
@@ -141,7 +143,7 @@ A new solar + battery installation in SA can access:
 - **Federal STCs** for the solar PV component (calculated based on system size and zone)
 - **SA HBS subsidised loan** for the battery storage component
 
-Both can apply to the same installation. Make sure your quotes and customer communications are clear about which rebate applies to which component.
+Both can apply to the same installation. Make sure your quotes and customer communications are clear about which rebate applies to which component. See our [STC claim process guide](/blog/stc-claim-process-solar-installers-australia) for the full federal rebate workflow.
 
 ---
 
@@ -151,7 +153,7 @@ Both can apply to the same installation. Make sure your quotes and customer comm
 
 **Grid export limits:** SA has some of the most active virtual power plant and export management requirements in Australia. If your customer is interested in a VPP (e.g., the SA Virtual Power Plant program), ensure the battery system you spec is compatible with VPP operation — this can affect battery selection.
 
-**Referral pipeline:** Customers who've received an HBS-subsidised battery frequently refer friends and family. A well-handled HBS installation — smooth application, clear communication, zero surprises — is one of the best referral generators in the SA market.
+**Referral pipeline:** Customers who've received an HBS-subsidised battery frequently refer friends and family. A well-handled HBS installation — smooth application, clear communication, zero surprises — is one of the best referral generators in the SA market. Build an automated follow-up sequence to ask for reviews and referrals 2–4 weeks after installation.
 
 ---
 
@@ -169,4 +171,18 @@ Both can apply to the same installation. Make sure your quotes and customer comm
 
 ---
 
-*Related reading: [Adding Battery Storage to Your Solar Business](/blog/adding-battery-storage-solar-business-australia) · [AS/NZS 5139 Battery Storage Compliance](/blog/as-nzs-5139-battery-storage-compliance) · [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026)*
+> **Got questions on SA battery rebate eligibility, CEC accreditation, or AS/NZS 5139 compliance?**
+> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers, no login required.
+
+---
+
+## Related Reading
+
+- *[Adding Battery Storage to Your Solar Business: The Complete Guide](/blog/adding-battery-storage-solar-business-australia)*
+- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance)*
+- *[VIC Solar Homes Program Battery Rebate 2026](/blog/vic-solar-homes-program-rebate-2026)*
+- *[Battery Retrofit Installations: Adding Storage to Existing Solar Systems](/blog/battery-retrofit-installations-existing-solar)*
+- *[STC Claim Process for Solar Installers Australia](/blog/stc-claim-process-solar-installers-australia)*
+- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
+- *[Solar Battery System Cost Australia 2026](/blog/solar-battery-system-cost-australia-2026)*
+- *[CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers)*
