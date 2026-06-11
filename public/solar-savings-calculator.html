@@ -735,13 +735,13 @@ input[type="number"]:focus, select:focus {
   </div>
 
   <!-- ─── 5. VPP Incentives ─── -->
-  <div class="section">
+  <div class="section" id="vppSection" style="display:none;">
     <div class="vpp-toggle-row" onclick="toggleVpp()">
       <label class="switch" onclick="event.stopPropagation()">
         <input type="checkbox" id="vppToggle" onchange="toggleVpp()">
         <span class="slider"></span>
       </label>
-      <span class="battery-label">Virtual Power Plant (VPP) Incentives <span>Model the impact of joining a VPP — speeds up battery payback dramatically</span></span>
+      <span class="battery-label">Virtual Power Plant (VPP) Incentives <span>Requires battery — model the impact of joining a VPP to speed up payback</span></span>
     </div>
     <div id="vppFields">
       <div class="field-grid three">
@@ -1006,6 +1006,7 @@ function toggleVpp() {
   const on = document.getElementById('vppToggle').checked;
   document.getElementById('vppFields').classList.toggle('show', on);
   recalc();
+  sendHeight();
 }
 
 function getVppValues() {
@@ -1079,9 +1080,18 @@ function setTariffType(type) {
 function toggleBattery() {
   const on = document.getElementById('batteryToggle').checked;
   document.getElementById('batteryFields').classList.toggle('show', on);
+  // VPP requires a battery — show/hide VPP section with battery
+  const vppSection = document.getElementById('vppSection');
+  vppSection.style.display = on ? 'block' : 'none';
+  if (!on) {
+    // Reset VPP toggle and collapse fields when battery is removed
+    document.getElementById('vppToggle').checked = false;
+    document.getElementById('vppFields').classList.remove('show');
+  }
   updateBatteryRebateAuto();
   updateSelfConsDefault();
   recalc();
+  sendHeight();
 }
 
 function updateSelfConsDefault() {
@@ -1140,6 +1150,7 @@ document.getElementById('systemKwSlider').addEventListener('input', function() {
 function toggleCollapse(bodyId, headerId) {
   document.getElementById(bodyId).classList.toggle('hidden');
   document.getElementById(headerId).classList.toggle('open');
+  sendHeight();
 }
 
 function fmtDollar(val) {

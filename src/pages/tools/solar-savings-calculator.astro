@@ -207,10 +207,10 @@ const description = "Free homeowner calculator for Australian solar. Enter your 
           <iframe
             src="/solar-savings-calculator.html"
             width="100%"
-            height="1200"
+            height="800"
             frameborder="0"
             scrolling="no"
-            style="display: block; border-radius: 16px; min-height: 1200px; transition: height 0.2s ease;"
+            style="display: block; border-radius: 16px; min-height: 600px; transition: height 0.2s ease;"
             title="Solar Savings & Break-Even Calculator"
             id="solar-savings-iframe"
           ></iframe>
@@ -221,7 +221,7 @@ const description = "Free homeowner calculator for Australian solar. Enter your 
             var iframe = document.getElementById('solar-savings-iframe');
             window.addEventListener('message', function(e) {
               if (e.data && e.data.type === 'resize') {
-                var h = Math.max(e.data.height + 40, 1200);
+                var h = Math.max(e.data.height + 40, 600);
                 iframe.style.height = h + 'px';
               }
             });
@@ -230,7 +230,7 @@ const description = "Free homeowner calculator for Australian solar. Enter your 
                 setTimeout(function() {
                   try {
                     var h = iframe.contentWindow.document.body.scrollHeight;
-                    if (h > 0) iframe.style.height = Math.max(h + 40, 1200) + 'px';
+                    if (h > 0) iframe.style.height = Math.max(h + 40, 600) + 'px';
                   } catch(e) {}
                 }, 400);
               });
