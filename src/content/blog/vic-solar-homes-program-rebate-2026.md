@@ -123,6 +123,22 @@ Solar Victoria processes the claim and pays the rebate to the installer. The cus
 
 ---
 
+## Common Compliance Mistakes That Delay Rebate Payment
+
+For Victorian solar businesses running a high volume of Solar Victoria jobs, delayed rebate payments directly affect cash flow. Most delays are caused by documentation errors that are entirely avoidable:
+
+**Missing or invalid reservation number.** If the reservation number on the claim doesn't match the customer's Solar Victoria record, the claim is rejected. Confirm the number with the customer at quote stage — not after installation.
+
+**Wrong battery product.** Quoting and installing a battery model that isn't on the current approved product list means the claim will be rejected. The approved list changes — verify before every quote, not just once when you first registered.
+
+**Incomplete CES documentation.** The Certificate of Electrical Safety is a mandatory claim document. If it isn't attached, or the certificate number is incorrect, the claim stalls. Build CES follow-up into your job closure checklist.
+
+**Installation before reservation.** If the installation date precedes the reservation issue date, Solar Victoria will reject the claim. This catches businesses that schedule installation before the customer has completed their application.
+
+Capturing all of this in ServiceM8 — reservation number in the job record, CES as a required job closure step, product model verified against the approved list before quote confirmation — eliminates most of these failure modes.
+
+---
+
 ## Practical Tips for Victorian Solar Businesses
 
 **Watch the rebate pool availability.** The annual allocation can run out mid-year. Monitor Solar Victoria's website actively and communicate availability to your sales team so they're not promising a rebate that isn't available.
@@ -165,6 +181,30 @@ Both can apply to the same job. Make sure your quotes itemise these separately a
 
 > **Questions on Solar Victoria registration, CES obligations, or AS/NZS 5139 compliance?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers, no login required.
+
+---
+
+## FAQ
+
+### How long does it take for Solar Victoria to pay the rebate after claim submission?
+
+Solar Victoria's published processing time is typically 10–20 business days after a complete, compliant claim is submitted. Claims with documentation errors or missing information take longer — sometimes significantly longer if the error requires back-and-forth correspondence. Businesses running a high volume of Solar Victoria claims should factor a 3–5 week receivable cycle into their cash flow planning. Getting the documentation right the first time is the best way to minimise this wait.
+
+### Can I lose my Solar Victoria registration and what happens if I do?
+
+Yes — Solar Victoria can suspend or cancel installer registrations for Code of Conduct breaches, which include misleading pricing or sales practices, improper use of rebates, and failure to maintain technical standards. If your registration is suspended, you cannot offer Solar Victoria rebates to customers until it's reinstated. This directly impacts your ability to compete for battery jobs in Victoria, where the rebate is a major sales tool. Treating Solar Victoria compliance as a business-critical obligation — not just paperwork — protects your most valuable competitive asset.
+
+### Does the Solar Victoria rebate apply to battery-only installations (without new solar)?
+
+The Solar Victoria battery rebate requires the battery to be paired with a qualifying solar system. However, the solar system doesn't need to be installed at the same time — it can be an existing system installed at the property, provided it meets the minimum size requirements. So a customer who installed solar 3 years ago and now wants to add a battery can still claim the rebate for the battery addition. This is one of the key drivers of battery retrofit business in Victoria.
+
+### Is there a maximum battery capacity for the Solar Victoria rebate?
+
+The rebate applies to batteries that meet minimum usable capacity requirements on the approved products list — there isn't a published maximum capacity limit that caps eligibility. However, the maximum rebate amount ($2,950) doesn't scale with system size — a $30,000 large-capacity installation gets the same maximum rebate as a $10,000 entry-level system. The rebate is most impactful as a proportion of system cost for smaller, mid-range battery systems.
+
+### What happens if the battery product I quote is removed from the approved list before installation?
+
+Solar Victoria periodically updates the approved products list, including removing products that no longer meet current requirements or have had certification issues. If a product you quoted is removed before installation, the customer's reservation may no longer be valid for that product. You'll need to contact Solar Victoria to discuss the situation and potentially requote with an approved product. This is why confirming approved product status as close to installation date as possible is important — don't rely on a quote from 3 months earlier.
 
 ---
 

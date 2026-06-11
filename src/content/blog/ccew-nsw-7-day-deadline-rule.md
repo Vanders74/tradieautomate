@@ -86,6 +86,43 @@ The pattern we see most commonly in electrical contracting businesses:
 
 **Solar-specific complexity.** For solar installations, the CCEW requirements interact with the inverter registration, the STCs claim process, and the distributor connection approval. The paperwork chain is longer and the consequences of gaps are higher.
 
+**Lost test results.** The most common failure mode isn't contractors who don't know the rules — it's test results that were captured on paper, then lost, damaged, or illegible. If you can't produce the test results, you can't produce a compliant CCEW. Digital capture at the point of test eliminates this entirely.
+
+---
+
+## CCEW vs Other NSW Electrical Compliance Documents
+
+It's worth distinguishing the CCEW from other documents in the NSW electrical compliance stack:
+
+**CCEW (Certificate of Compliance Electrical Work):** Issued by the electrical contractor. Certifies the work complies with applicable standards. Provided to customer, network distributor, and Fair Trading NSW.
+
+**Electrical Safety Certificate (ESC):** A separate document required for certain categories of electrical work. Not all jobs that require a CCEW also require an ESC, and vice versa. The specific requirements depend on the nature of the work and the relevant regulation.
+
+**Connection/Service Alteration Notice:** Required for work affecting the metered supply point or network connection. Issued to the network distributor separately from the CCEW.
+
+**Design Registration:** For major electrical installations above certain capacity thresholds, a design may need to be registered with SafeWork NSW before work commences. This is separate from the CCEW issued on completion.
+
+Understanding which documents are required for which job types is fundamental compliance knowledge for any NSW electrical contractor. The CCEW is required for the broadest category of work — but it isn't the only document in the compliance picture.
+
+---
+
+## The Solar-Specific CCEW Workflow
+
+Solar installations deserve specific attention because the paperwork chain is longer and more complex:
+
+**Standard solar installation triggers:**
+- New switchboard circuits for inverter connection → CCEW required
+- Increased connected load → CCEW required
+- Any metering changes (smart meter installation by distributor) → connection notification required
+
+**The solar documentation chain for NSW:**
+1. Grid connection application to network distributor (before installation)
+2. CCEW issued within 7 days of completion (to customer, distributor, Fair Trading NSW)
+3. CEC installation report / STC paperwork lodged with the Clean Energy Regulator
+4. Any required metering change notification to the distributor
+
+Missing any step in this chain creates both regulatory and commercial problems — STC claims can't be lodged without the installation certificate, and the distributor won't approve export if the connection notification hasn't been received.
+
 ---
 
 ## How Digital Job Workflows Fix This
@@ -102,7 +139,27 @@ ServiceM8 enables this through job diary templates that function as digital comp
 
 When the technician completes the checklist before leaving the driveway, the office has everything needed to generate and issue the CCEW the same day. The 7-day window becomes a non-issue because the documentation process is built into the job completion workflow, not separate from it.
 
+The additional benefit: if Fair Trading NSW requests your records for an audit — and they do — you can produce the complete documentation for any job in seconds rather than spending days reconstructing paper files.
+
 Read the full overview of [how ServiceM8 supports electrical compliance work](/blog/servicem8-for-electricians) and [the CCEW compliance guide for NSW](/blog/ccew-nsw-electrical-compliance-guide-2026) for a deeper dive into the specific requirements.
+
+---
+
+## Building a Systematic CCEW Process
+
+The businesses that never have compliance failures aren't necessarily the ones with the most careful people — they're the ones with the best systems. Here's what a systematic CCEW process looks like:
+
+**Step 1 — Trigger identification.** Every time a job is created, the system prompts "Does this job require a CCEW?" The answer is captured before the job is dispatched.
+
+**Step 2 — On-site capture.** The job diary template includes all required testing fields. The technician cannot mark the job complete without completing the testing checklist.
+
+**Step 3 — Same-day generation.** The office generates the CCEW from the digital job data on the day the job is closed — not at end of week.
+
+**Step 4 — Multi-party distribution.** The CCEW is emailed to the customer, submitted to the relevant distributor portal, and lodged with Fair Trading NSW — all on the same day.
+
+**Step 5 — Record archiving.** The CCEW and all supporting test documentation are attached to the job record in your job management system. Retrievable in seconds, stored for 7 years.
+
+This is not a complicated system. It's a disciplined process. The discipline is built into the software workflow so it doesn't rely on individual memory.
 
 ---
 
@@ -130,6 +187,30 @@ Build the checklist into your job completion workflow. The 7-day clock starts on
 
 > **Got a compliance question right now?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CER audits, AS/NZS 5033 & 5139, CCEW lodgement, STC claims, EV charger approvals, and more. No login required.
+
+---
+
+## FAQ
+
+### Does a CCEW need to be submitted for every electrical job in NSW?
+
+No — only for jobs that involve prescribed electrical work, which broadly means any work that modifies a wiring installation, adds new circuits, increases connected load, or installs new electrical equipment connected to the supply system. Minor repairs and like-for-like replacements on existing circuits typically don't require a CCEW. When uncertain, issue one — the downside of issuing unnecessarily is minor compared to the penalty for not issuing when required.
+
+### Who can sign a CCEW in NSW?
+
+The CCEW must be signed by the licensed electrical contractor of record — not just any licensed electrician. The licensed contractor accepts legal responsibility for the work with their signature. If the contractor didn't personally do the work, they must be satisfied the work was carried out to the required standard before signing.
+
+### What happens if the 7-day CCEW deadline passes?
+
+Missing the 7-day deadline is a compliance breach and exposes the contractor to the applicable penalties (up to $22,000 per offence). If you've missed the deadline, issue the CCEW as soon as possible — a late CCEW is better than none — but be aware that you may still be subject to penalties for the delay. Contact your industry association for advice on your specific situation.
+
+### Can a CCEW be issued electronically?
+
+Yes. NSW Fair Trading accepts electronic CCEW lodgement through the approved regulatory system. Customers can receive their copy by email. The requirement is that the document be issued — the format (electronic or paper) is secondary to the substance and timeliness.
+
+### Does solar battery storage require a CCEW in NSW?
+
+Yes. Battery storage systems are classified as electrical installation work under NSW regulations, and their installation typically involves switchboard modifications and increased connected load — both of which trigger the CCEW requirement. The 7-day rule applies in the same way as for any other triggering job.
 
 ---
 

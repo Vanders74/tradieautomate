@@ -79,6 +79,10 @@ Backup-capable systems require:
 
 Add $500–$2,000 for backup capability depending on the scope.
 
+### 5. CSIP-Aus compliance (post May 2026)
+
+From May 2026, all new solar systems must use CSIP-compliant inverters or face the 1.5kW export clamp. For battery systems, this means the hybrid inverter must also be CSIP-Aus certified. Premium hybrid inverters from Fronius, Sungrow, SolarEdge, and Enphase all meet this requirement — but it rules out cheaper generic inverter options. This has added a modest premium to the inverter component of new battery installations. See our [CSIP-Aus guide](/blog/csip-aus-export-limit-1-5kw-solar) for the full context.
+
 ---
 
 ## State Rebates: What Reduces the Cost
@@ -143,6 +147,30 @@ For installers, the battery pricing conversation is often where deals are lost �
 
 > **Got a question about battery sizing, rebate eligibility, or compliance for a specific installation?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers, no login required.
+
+---
+
+## FAQ
+
+### How much has battery pricing changed in 2025–2026 compared to previous years?
+
+Battery hardware prices have continued to fall. LFP battery hardware costs in Australia have dropped approximately 15–25% over 2024–2025, driven by Chinese manufacturing scale (particularly BYD, Sungrow, and Alpha ESS) and increasing import competition. Premium brands (Tesla, Enphase) have remained more stable in price but are facing stronger competition on value. The net effect: installed battery systems that cost $18,000–$20,000 in 2022 are now achievable at $13,000–$16,000 for the same capacity in 2026.
+
+### Should customers buy a bigger battery to get better payback?
+
+Not necessarily. Oversizing a battery — buying more storage than the household solar generates or the household consumes in a typical day — adds cost without proportional benefit. A household with a 6.6kW solar system generating 25kWh/day and consuming 12kWh/day doesn't benefit much from a 20kWh battery vs a 10kWh battery. The second 10kWh rarely cycles. A well-sized battery (typically 80–120% of daily solar surplus) delivers better economics than a larger one. This is a design conversation — the right installer sizes the battery to the household's actual generation and consumption data, not just to the maximum rebate amount.
+
+### Is a battery worthwhile if I don't have solar yet?
+
+No — battery storage without solar makes very limited financial sense. The value of a battery comes from storing solar generation and using it at night, avoiding grid imports during peak pricing periods. Without solar, the battery is effectively just arbitraging grid electricity prices (buy cheap off-peak, use during peak) — a very low-margin proposition given current Australian electricity tariff structures. Always install solar first, or solar and battery simultaneously for the most favourable economics and to qualify for state rebates.
+
+### What warranty comes with a solar battery?
+
+Most major battery brands offer a 10-year product warranty with a performance guarantee — typically guaranteeing the battery will retain at least 70% of its original capacity after 10 years or a specified number of cycles (e.g., 4,000 cycles). Tesla Powerwall 3 includes an unlimited cycle warranty for the first 10 years. Some manufacturers (Sonnen) offer 10,000-cycle warranties. Read the warranty documents carefully — particularly the exclusions for temperature ranges and installation requirements, which can void the warranty if the battery is installed in a non-compliant location.
+
+### Do I need a smart meter to use a solar battery effectively?
+
+A compatible smart meter significantly improves battery management. Without consumption monitoring, the battery's charge/discharge controller can't see how much the household is actually using — it can only respond to solar generation. With consumption data (from a smart meter or clamp-on consumption monitor), the battery can optimise for self-consumption, time-of-use tariff management, and VPP participation. Most modern hybrid inverters include a clamp-on consumption monitor; some require the grid's smart meter data via CT clamp. Clarify monitoring requirements with the customer before installation.
 
 ---
 
