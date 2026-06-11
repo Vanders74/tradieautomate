@@ -57,7 +57,7 @@ For a business using ServiceM8 as its job management system and Xero as its acco
 
 Xero's Australian payroll module handles the Electrical Award rate structure — it's not a perfect automated solution for complex award rates, but with correct setup it handles most scenarios well. Leave management, superannuation lodgement (SuperStream), and Single Touch Payroll reporting are all native.
 
-**Key limitation:** Xero Payroll doesn't automatically calculate award allowances (industry allowance, tool allowance, height allowance). These need to be set up as payroll items and applied manually or through pay templates. This is a known limitation; an experienced payroll bookkeeper can set it up correctly.
+**Key limitation:** Xero Payroll doesn't automatically calculate award allowances (industry allowance, tool allowance, height allowance). These need to be set up as payroll items and applied manually or through pay templates. This is a known limitation; an experienced payroll bookkeeper can set it up correctly. See our [complete guide to Xero Payroll for electrical award allowances](/blog/xero-payroll-electrical-award-allowances) for step-by-step setup instructions.
 
 ### Xero Pricing (2026)
 
@@ -142,6 +142,18 @@ Good value and solid functionality, but weaker Australian award rate payroll and
 
 ---
 
+## The Real Cost of Getting Accounting Software Wrong
+
+There's a cost to choosing poorly that doesn't show up in the monthly subscription comparison — the cost of switching later.
+
+If you start a business on MYOB, build 3 years of customer data, and then want to move to Xero because your new ServiceM8 implementation needs it, you're looking at data migration, bookkeeper retraining, and a transition period where neither system is fully functional. That's a $2,000–$8,000 problem depending on how complex your data is.
+
+The right time to make this decision is now — before you're embedded in a system. For a new solar or electrical business building its operations from scratch, choosing Xero from day one means every integration and every workflow builds on the right foundation.
+
+For businesses already on Xero: don't switch. For businesses already on MYOB with complex payroll: don't switch unless you have a specific integration problem that MYOB can't solve. For businesses on QuickBooks who are implementing ServiceM8: seriously consider migrating to Xero before adding the ServiceM8 layer.
+
+---
+
 ## Our Recommendation
 
 **For most solar and electrical businesses using ServiceM8: choose Xero.**
@@ -168,11 +180,34 @@ Your bookkeeper should set up your accounting platform correctly for your award 
 
 ---
 
+## FAQ
+
+### Do I need accounting software if I'm just starting out?
+
+Yes — even from day one. The ATO requires you to maintain business records, and attempting to do this on spreadsheets creates significant work at BAS and tax time. Xero Starter at $32/month is designed for businesses with very few transactions — it's the right entry point for sole traders just starting out. Upgrade as your transaction volume grows.
+
+### Can I do my BAS through Xero without an accountant?
+
+Yes — Xero prepares your BAS automatically from your categorised transactions, and you can lodge it directly to the ATO through Xero's BAS lodgement feature. Many sole traders do this themselves for straightforward situations. For more complex situations (building and construction, PAYG withholding, complex GST) it's worth having an accountant review before lodgement, at least initially.
+
+### What's the best way to track solar job profitability in Xero?
+
+Xero Standard doesn't have native job-level profitability reporting. For true job profitability tracking — seeing whether each solar installation made or lost money — you need to either (a) use ServiceM8's job cost tracking and then reconcile with Xero, or (b) upgrade to Xero Projects (add-on, additional cost) which allows cost and revenue to be tracked against specific projects. ServiceM8 + Xero together give you a reasonable view of job profitability without the Projects add-on for most small businesses.
+
+### Does Xero integrate with solar-specific software like PVSell or Aurora Solar?
+
+Xero's integration ecosystem (Xero App Store) includes many business tools but doesn't have deep integrations with solar design tools like PVSell or Aurora Solar as of 2026. For solar design and quoting, these tools typically stand alone — you create proposals in the design tool, then enter the approved job into ServiceM8 as a quote or job. The financial data flows from ServiceM8 to Xero.
+
+### Is MYOB better than Xero for construction businesses?
+
+For businesses doing significant construction work (not just electrical installation), MYOB AccountRight's project tracking and WIP (work in progress) reporting is arguably stronger than Xero's built-in capability. However, for businesses primarily doing electrical installation, solar, or service work (rather than construction projects), Xero + ServiceM8 typically provides a better integrated workflow. The distinction is whether your business is closer to "service business" or "construction business" in how it manages projects.
+
+---
+
 ## Related Reading
 
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
 - *[Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026)*
-- *[How to Set Up Electrical Award Allowances in Xero Payroll (Without the Manual Math)](/blog/xero-payroll-electrical-award-allowances)*
 - *[The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)*
 - *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
 - *[ServiceM8 vs Jobber: The 2026 Tradie Software Guide](/blog/servicem8-vs-jobber-tradie-software-guide-2026)*

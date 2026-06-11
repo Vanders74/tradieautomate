@@ -97,6 +97,20 @@ This is your retrofit pipeline. More on how to mine it efficiently in [How to Fi
 
 ---
 
+## CSIP-Aus and Battery Storage: The Double Opportunity
+
+For solar businesses offering battery storage, CSIP-Aus creates a compelling double upgrade story:
+
+**Without a battery + CSIP-compliant inverter:** Customer either has the clamp (losing $820/year) or has an ageing legacy system that will trigger the clamp at next modification.
+
+**With a CSIP-compliant hybrid inverter + battery:** The clamp is eliminated, midday surplus is captured in the battery instead of being curtailed, and the battery provides grid backup capability. The economics of the upgrade are stronger than either solution alone.
+
+For solar businesses that haven't yet built battery storage into their core offering, CSIP-Aus is the external pressure that makes battery conversations unavoidable. Customers will ask about it. Be the contractor who can explain it clearly and present the solution.
+
+See our [battery retrofit guide](/blog/adding-battery-storage-solar-business-australia) for how to build battery storage into your service offering from a business operations perspective.
+
+---
+
 ## The Contractor's Sales Conversation
 
 When a legacy customer calls about their next system upgrade, panel addition, or battery install, this is the conversation to have before they commit to anything:
@@ -150,6 +164,30 @@ For the full commercial framework, read the [2026 Solar Playbook](/blog/solar-pl
 
 > **Got a compliance question right now?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CER audits, AS/NZS 5033 & 5139, CCEW lodgement, STC claims, EV charger approvals, and more. No login required.
+
+---
+
+## FAQ
+
+### Does the 1.5kW CSIP-Aus export clamp apply to all Australian states?
+
+The CSIP-Aus mandate applies across all major Australian network operators but the enforcement approach varies by state. Networks on the National Electricity Market (NEM — QLD, NSW, VIC, SA, TAS) are generally aligned with the May 2026 enforcement date. Western Power (WA, SWIS) has its own timeline and is in active rollout. The Northern Territory operates under a separate framework. Always check the specific requirements of the network operator for the installation location before committing to equipment selection.
+
+### Can an existing non-CSIP inverter be updated with a firmware upgrade to become compliant?
+
+Some inverter manufacturers have released CSIP-Aus firmware updates for models that have the underlying hardware capability (the right communication module and cloud connection). Fronius and some Sungrow models, for example, have received updates. However, many older inverters lack the hardware to support CSIP even with firmware updates — the communication module simply isn't there. Check the specific inverter model against the manufacturer's CSIP compatibility list before assuming a firmware update is available.
+
+### What is the actual CSIP-Aus technical requirement for an inverter to be compliant?
+
+CSIP-Aus compliance requires an inverter to: (a) connect to a DNSP-accessible cloud platform via the inverter's communication module, (b) support the IEEE 2030.5 (SEP 2.0) communication protocol that CSIP-Aus is built on, (c) respond to real-time dynamic operating envelope signals from the network operator, and (d) be registered on the relevant DNSP's CSIP-Aus device registry. Meeting the AS4777.2:2024 standard is a prerequisite. Inverters on the CEC approved products list with AS4777.2:2024 marking should meet these requirements — but confirm with the manufacturer.
+
+### How do I register a CSIP-compliant inverter with the network operator?
+
+The registration process varies by network. For most DNSPs, registration is handled either through the inverter manufacturer's cloud platform (e.g., Fronius Solar.web, SolarEdge monitoring, Sungrow iSolarCloud) which has an existing data-sharing arrangement with the DNSP, or through a direct registration step in the connection application. In practice, using inverter brands with established CSIP-Aus partnerships — Fronius, SolarEdge, Sungrow, Enphase — means the registration is typically handled as part of the standard commissioning process.
+
+### Is the 1.5kW clamp a network charge or a technical limitation?
+
+The 1.5kW static export limit is a technical operating condition imposed by the DNSP — not a charge or fee. It means the inverter is configured (via the connection approval) to limit export to 1.5kW regardless of what the system is capable of generating. There is no financial penalty per se, but the economic cost is the lost value of curtailed solar generation. The clamp cannot be removed by paying a fee; it can only be removed by replacing the non-compliant inverter with a CSIP-certified model.
 
 ---
 

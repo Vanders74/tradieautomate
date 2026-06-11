@@ -86,6 +86,32 @@ That's a float that costs you nothing to fix, other than building the habit of c
 
 ---
 
+## How Tap to Pay Fits Into a Full Job Workflow
+
+Tap to Pay works best when it's the final step of a complete mobile workflow — not a standalone payment workaround. For trade businesses, the ideal flow looks like this:
+
+**Step 1 — Quote on-site**
+Create and send a quote directly from your phone before you leave the property. The client approves it digitally.
+
+**Step 2 — Schedule and dispatch**
+The approved quote converts to a job. Scheduling and crew dispatch happen from the same system.
+
+**Step 3 — Do the work**
+Technician completes the job, captures photos, fills in compliance checklists or job diary notes in the app.
+
+**Step 4 — Invoice immediately**
+When the job is marked complete, the invoice is generated automatically from the job data. No re-entry.
+
+**Step 5 — Collect payment on-site**
+The technician taps "Collect Payment" in ServiceM8. Customer taps card. Payment is done before the tech walks out the door.
+
+**Step 6 — Automatic sync**
+Payment syncs to Xero or MYOB. Bank reconciliation is already done. Nothing sits in a pile waiting for Friday.
+
+This is the workflow that eliminates the Friday afternoon admin session. When Tap to Pay is just the final step in this chain rather than a standalone workaround, it integrates seamlessly.
+
+---
+
 ## Handling Customers Who Want to Pay Later
 
 Not every customer will want to pay on the spot, and some jobs — particularly for regular customers, larger commercial work, or where the invoice requires customer sign-off — will still go through traditional invoicing.
@@ -97,6 +123,18 @@ The right system handles both. ServiceM8 allows you to:
 - **Set automated payment reminders** so you're not manually chasing — the system sends reminders at 7, 14, and 28 days automatically
 
 The manual phone chase is the one that burns your time. Automated reminders on digital invoices capture most of the "meaning to pay" customers without any effort on your part.
+
+For larger jobs with staged payments — common in solar installations, major electrical upgrades, or commercial work — ServiceM8 also supports progress invoicing. You can invoice 30% upfront, 40% at midpoint, and 30% on completion, each collected via Tap to Pay or digital payment link.
+
+---
+
+## Security and Customer Trust
+
+A common question: is it safe? The answer is yes — Tap to Pay on iPhone uses the same tokenisation and encryption as Apple Pay. The actual card number is never transmitted or stored. Apple processes the contactless interaction but cannot see the payment details.
+
+From the customer's perspective, tapping their card on an iPhone is no different from tapping on any other contactless terminal. The experience is identical.
+
+For tradies who are concerned about customer perception, the experience is actually more professional than many alternatives. A smooth on-site payment via a modern iPhone app reads better than fumbling with a Bluetooth card reader that loses its connection.
 
 ---
 
@@ -118,9 +156,29 @@ Once connected, payment collection from the ServiceM8 app takes about 10 seconds
 
 Traditional EFTPOS terminals from the banks cost $15–$55/month in rental fees, plus transaction fees on top. For a sole trader or small trade business doing 10–30 jobs per month, Tap to Pay on iPhone via Stripe is almost always cheaper.
 
-The only scenario where a dedicated EFTPOS terminal makes more sense is if you're processing very high volume (thousands of transactions per month, where merchant facility rates become better than Stripe's flat rate), or if you're in a fixed retail environment where a counter terminal makes ergonomic sense.
+At 20 jobs per month averaging $450 each ($9,000/month revenue), Stripe's 1.75% + 30c per transaction works out to approximately $183/month in fees. That compares to a bank terminal at $30–$50/month rental plus similar per-transaction fees. The cost difference is modest — but the elimination of hardware, rental commitments, and lost or damaged equipment is tangible.
+
+The only scenario where a dedicated EFTPOS terminal makes more sense is if you're processing very high volume (thousands of transactions per month, where negotiated merchant facility rates become better than Stripe's flat rate), or if you're in a fixed retail or counter environment where a dedicated terminal makes ergonomic sense.
 
 For mobile trade work, the phone is your terminal. Use it.
+
+---
+
+## The Bigger Picture: Getting Paid Faster
+
+Tap to Pay is one tool in a cash flow strategy. The businesses that consistently get paid fastest combine several approaches:
+
+**1. Collect deposits upfront.** For jobs over $1,000, collect 20–30% upfront before scheduling. ServiceM8 supports deposit collection via the same Stripe integration — customer pays the deposit link in the quote acceptance email.
+
+**2. Invoice immediately on completion.** Every day between job completion and invoice issue is a day the customer spends the money on something else. Automate invoice generation as part of job closure.
+
+**3. Tap to Pay for jobs under $3,000.** These are the jobs where immediate collection is easiest — the customer is present, the scope is clear, and there's no reason to delay.
+
+**4. Digital payment links for larger jobs.** For jobs where the customer needs to check their account or process through accounts payable, a digital payment link is faster than paper invoice + bank transfer.
+
+**5. Automated reminders.** Set and forget. 7 days, 14 days, 28 days — automated follow-up without manual effort.
+
+The combination of these approaches can reduce your average debtor days from 25–30 days to under 10. On a $50,000/month revenue business, that's $25,000 in working capital that shifts back to you.
 
 ---
 
@@ -131,14 +189,40 @@ Tap to Pay is one part of a complete mobile workflow. For the full picture of ho
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [ServiceM8 for Electricians](/blog/servicem8-for-electricians)
 - [The Hidden Admin Cost Calculator](/blog/hidden-admin-cost-calculator) — see what manual payment collection is actually costing your business
+- [The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)
 
 **[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)**
 
 ---
 
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you.*
+## FAQ
+
+### Does Tap to Pay on iPhone work with all contactless cards in Australia?
+
+Yes — it works with Visa, Mastercard, and eftpos contactless cards, as well as Apple Pay, Google Pay, and Samsung Pay. The NFC chip on the iPhone handles any contactless payment method, exactly as a standard EFTPOS terminal would.
+
+### Is there a contactless payment limit for Tap to Pay on iPhone?
+
+The same contactless payment limits that apply to standard EFTPOS terminals apply to Tap to Pay on iPhone — typically $100 per tap without PIN in Australia, though this can vary by card issuer. For payments above the contactless limit, the customer will be prompted to use their PIN via a connected PIN entry device. Stripe is working on PIN on Glass (entering PIN directly on the iPhone screen) for higher-value transactions, but this is not yet widely available in Australia as of 2026.
+
+### Can I use Tap to Pay on iPhone with an Android phone?
+
+Tap to Pay on iPhone is specific to Apple's NFC implementation. For Android, Stripe and other payment providers offer equivalent functionality through Tap to Pay on Android — the NFC chip in compatible Android devices can also function as a payment terminal. The ServiceM8 Android app has this capability via Stripe as well.
+
+### What happens if my phone loses signal on-site?
+
+Stripe requires an internet connection to process payments. If you're in a location with poor coverage, you won't be able to process a Tap to Pay transaction. In this scenario, ServiceM8 allows you to send the customer a payment link by SMS that they can pay once you've both left the site — not as immediate as on-site collection, but still faster than traditional invoicing.
+
+### How quickly does Stripe settle funds to my bank account?
+
+Stripe's standard settlement in Australia is T+2 business days (two business days after the transaction). For example, a payment collected on Monday settles to your bank account by Wednesday. Stripe Instant Payouts (for an additional fee) can accelerate this to within minutes for eligible accounts.
+
+---
 
 ## Related Reading
 
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)
 - [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+- [5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)
+- [Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)

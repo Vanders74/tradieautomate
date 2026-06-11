@@ -173,9 +173,45 @@ For building the full pricing model, see our [hidden costs guide](/blog/hidden-c
 
 ---
 
+## Setting Up Payroll Correctly in Xero
+
+If you're using Xero Payroll, the Electrical Award allowances don't calculate automatically — they must be set up as custom pay items. This includes the industry allowance, tool allowance, height allowance, and confined space allowance. See our step-by-step guide to [setting up Electrical Award allowances in Xero Payroll](/blog/xero-payroll-electrical-award-allowances) for the complete setup process.
+
+Key steps:
+- Create separate pay items for each allowance type with correct PAYG and super treatment
+- Build pay templates for each employee grade
+- Capture allowance triggers (height hours, confined space days) via your job management system
+- Update rates on 1 July each year following the Fair Work Annual Wage Review
+
 ---
 
 *This article provides general information only and does not constitute legal or workplace relations advice. Award rates are updated annually — always verify current rates on the Fair Work Commission website at fairwork.gov.au.*
+
+---
+
+## FAQ
+
+### Which award covers electricians working on solar installations?
+
+Most electricians working on residential and commercial solar installation in Australia are covered by the Electrical, Electronic and Communications Contracting Award 2020 (MA000025). However, electricians working on large construction sites may fall under the Building and Construction General On-site Award depending on the nature of the project. If your electricians work in both contexts, take advice on which award applies to each work arrangement — the consequences of applying the wrong award can be significant.
+
+### Can I pay my electricians a flat salary instead of the Award hourly rate?
+
+Yes — you can employ electricians on a salary provided the total salary, when broken down, exceeds the Award minimum including all applicable allowances for a standard week's work. This is called an "annualised salary arrangement." The Fair Work Act requires you to document the arrangement, specify what Award entitlements the salary is intended to cover, and reconcile annually to confirm the salary covers all Award obligations. If the reconciliation shows the salary was insufficient, you must pay the shortfall.
+
+### What's the difference between an apprentice and a tradie assistant for payroll purposes?
+
+An apprentice is employed under a formal training contract with a registered training organisation (RTO) and paid at the Award apprentice rates by year of training. A trades assistant (or "labourer") who isn't in a formal training contract is paid under a different classification — typically at a lower base rate than a tradesperson, but not at the apprentice percentage rates. The classification matters for both pay rate and tax treatment. Misclassifying an employee creates underpayment risk.
+
+### How often do Fair Work Ombudsman audits happen in the electrical contracting sector?
+
+The FWO conducts targeted audits by industry sector and has run specific campaigns in the construction and trades sector in 2024–2025. Audits are also triggered by employee complaints, which the FWO treats as confidential. Small businesses — particularly those in growth phases hiring multiple tradespeople — are a common audit target because underpayment risk is highest when payroll systems are informal or growing quickly. Running proper payroll software and conducting your own annual audit against Award rates is the best protection.
+
+### Does my apprentice need a separate employment contract?
+
+Yes. Apprentices must have a formal training contract (apprenticeship agreement) registered with the relevant state apprenticeship authority. This is separate from the standard employment contract. The training contract specifies the training organisation, the qualification being worked toward, and the training obligations of both parties. Without a registered training contract, the person may not legally qualify as an apprentice for payroll purposes and wage subsidy eligibility.
+
+---
 
 ## Related Reading
 
@@ -184,6 +220,5 @@ For building the full pricing model, see our [hidden costs guide](/blog/hidden-c
 - *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
 - *[The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)*
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
-- *[How to Set Up Electrical Award Allowances in Xero Payroll (Without the Manual Math)](/blog/xero-payroll-electrical-award-allowances)*
 - [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)

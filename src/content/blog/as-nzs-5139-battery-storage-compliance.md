@@ -107,6 +107,30 @@ In practice, audits focus on:
 
 The customer interview element surprises many installers. A technically perfect installation can still result in a compliance finding if the customer has no idea how to isolate the system in an emergency.
 
+## AS/NZS 5139 and State-Specific Requirements
+
+The standard is a national framework, but state jurisdictions add their own regulatory layers:
+
+**Victoria:** Battery installations require a Certificate of Electrical Safety (CES). This is issued by a Licensed Electrical Inspector or via approved VSA processes. The CES is also required for Solar Victoria battery rebate claims. See our [full CES guide for Victoria](/blog/certificate-electrical-safety-ces-victoria-guide-2026) for the complete process.
+
+**NSW:** A Certificate of Compliance Electrical Work (CCEW) is required for battery installations under NSW Fair Trading rules — issued within 7 days of job completion. See the [NSW CCEW guide](/blog/ccew-nsw-7-day-deadline-rule) for the deadline and submission requirements.
+
+**Queensland:** Electrical Safety Certificate requirements apply via Electrical Safety Queensland. Battery installations typically trigger additional compliance documentation beyond the CEC installer certificate.
+
+**South Australia:** SA Power Networks has specific AS/NZS 5139 documentation requirements for battery installs, tied to the connection approval process.
+
+Understanding the state-specific requirements on top of the national standard is essential for businesses operating across state lines or in states with active rebate programs.
+
+## The Difference Between AS/NZS 5139 Compliance and CEC Installer Requirements
+
+These two requirements often get conflated — they're related but distinct:
+
+**AS/NZS 5139** is the technical installation standard. It specifies what a compliant physical installation looks like: clearances, labelling, thermal management, documentation.
+
+**CEC Battery Storage Installer** endorsement is an accreditation requirement. It's the certification that allows you to install battery systems and claim STCs. Holding CEC accreditation means you've demonstrated competence — but it doesn't automatically make every installation you do compliant with AS/NZS 5139. Compliance depends on how you do the work, not just that you're licensed to do it.
+
+Both requirements apply simultaneously. CEC accreditation gets you in the door; AS/NZS 5139 compliance is what makes each job you do pass inspection.
+
 ## Building a Compliant Process
 
 The installers who consistently pass audits aren't necessarily the most technically skilled — they're the most systematically compliant. If you're evaluating which job management platform to build your compliance process on, our [ranked guide to the best job management software for Australian solar installers](/guides/best-job-management-software-solar-installers-australia-2026) covers the top options side by side.
@@ -167,6 +191,30 @@ If every box is ticked before you leave the site, you're audit-ready.
 
 > **Got a compliance question right now?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CER audits, AS/NZS 5033 & 5139, CCEW lodgement, STC claims, EV charger approvals, and more. No login required.
+
+---
+
+## FAQ
+
+### Does AS/NZS 5139 apply to all battery systems or only lithium-ion?
+
+AS/NZS 5139:2019 applies to all electrochemical battery energy storage systems used with renewable energy generation — including lithium-ion (LFP, NMC, LTO), lead-acid (VRLA, flooded), and flow battery systems. Lithium-ion is the dominant technology for residential and small commercial installs in Australia, so most installer focus is on LI-ion requirements, but the standard applies regardless of chemistry.
+
+### What are the minimum clearances for an indoor battery installation under AS/NZS 5139?
+
+The standard specifies minimum clearances from habitable spaces, openable windows and doors (generally 600mm), gas meters and appliances, and air conditioning intakes. The exact requirements depend on the battery system's specific hazard category (classified under AS/NZS 5139) and whether it's an indoor or outdoor installation. Always consult the full standard — and the battery manufacturer's installation manual, which may specify additional clearances — before finalising an installation location.
+
+### Is a compliance checklist from the battery manufacturer sufficient for CER purposes?
+
+No. The manufacturer's installation checklist is a starting point but doesn't replace the installer's own AS/NZS 5139 compliance documentation. CER audit documentation must be completed by the accredited installer and cover all relevant standard requirements, not just the manufacturer's installation steps. Many installers use the Sunulator or CEC's battery storage compliance templates as a starting point for their own documentation.
+
+### What happens if a past customer's battery installation is found non-compliant in an audit?
+
+CER audit outcomes for non-compliant past installations can include: installer remediation requirements, suspension of accreditation, and — in serious cases — STC clawback for improperly claimed STCs. The customer may also have recourse against the installer for non-compliant work under consumer protection law. This is why systematic compliance documentation for every install is essential — not just for current installs, but as a protection for past work.
+
+### Does the CSIP-Aus mandate interact with AS/NZS 5139?
+
+Yes — from May 2026, new battery installations using inverters that aren't CSIP-Aus compliant (AS4777.2:2024) are subject to the 1.5kW static export limit. AS/NZS 5139 handles the physical installation safety requirements; CSIP-Aus handles the network communication requirements. Both standards must be satisfied for a new installation to be fully compliant and to avoid the export limit penalty. See our [CSIP-Aus export clamp guide](/blog/csip-aus-export-limit-1-5kw-solar) for the full story.
 
 ---
 

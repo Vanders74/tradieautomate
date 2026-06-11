@@ -82,6 +82,32 @@ When a breakdown call comes in for a client you serviced last year, the technici
 
 ---
 
+## What Most Small HVAC Businesses Actually Need Day-to-Day
+
+It's worth being specific about the daily workflow for a 3-technician HVAC operation, because software choice should be grounded in the actual tasks you're running:
+
+**Morning:** Office allocates jobs to technicians. Technicians check their ServiceM8 queue, see the day's jobs with addresses, customer notes, and asset history. No morning briefing call required — all the information is in the app.
+
+**On-site:** Technician arrives, updates job status to "In Progress." Pulls up asset history — sees the split-system was last serviced 14 months ago, has a note from the previous tech about a deteriorating capacitor. Carries out the service, captures photos, records refrigerant gas added.
+
+**Completion:** Job completed on-site. Technician fills in service record, attaches photos, customer signs off digitally. Invoice generated automatically. Payment collected via Tap to Pay if the customer is present.
+
+**Back-office:** Office sees all jobs completed, all invoices generated, payments synced to Xero. No re-entry.
+
+This is the workflow ServiceM8 was built for. Simpro does the same thing — but requires more steps, more screens, and more configuration to get there.
+
+---
+
+## The Transition Cost: Why Businesses Stick with the Wrong Software
+
+One thing this comparison doesn't fully capture: the cost of switching. If you're already on Simpro and have three years of job history, customer records, and asset data in the system — the switching cost is real. Data migration, retraining, the transition period where productivity drops — these are legitimate considerations.
+
+The right time to make this decision is before you commit to either platform. If you're setting up a new business, or evaluating software for the first time, the decision is clean. If you're already embedded in one platform and it's working well enough, the marginal improvement may not justify the switching cost.
+
+For new HVAC businesses or those still on spreadsheets and paper: ServiceM8 is the right starting point. It will handle your operational needs until you hit roughly 10–15 technicians with significant commercial contract complexity. At that scale, revisit the decision.
+
+---
+
 ## The Decision Logic
 
 **Choose ServiceM8 if:**
@@ -109,17 +135,36 @@ ServiceM8 offers a **14-day free trial** with full feature access — no credit 
 
 **[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)**
 
-Related comparisons and reviews:
-- [ServiceM8 vs Simpro (Full Comparison)](/blog/servicem8-vs-simpro-comparison-australia)
-- [ServiceM8 for HVAC Businesses](/blog/servicem8-for-hvac)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+---
+
+## FAQ
+
+### Can ServiceM8 handle refrigerant logging for Australian compliance?
+
+Yes. ServiceM8 allows you to capture refrigerant gas quantities (recovered, added, disposed of) as custom fields within the job record. This creates a per-job record of refrigerant handling that satisfies Australian refrigerant handling documentation requirements. For businesses with ARC accreditation, this digital record replaces manual paper log books.
+
+### Does Simpro have a free trial?
+
+Simpro offers a demo rather than a self-serve free trial. You'll be walked through the platform with a Simpro consultant. This reflects the onboarding complexity — Simpro needs to be configured for your business before it's meaningful to trial. ServiceM8, by contrast, offers a self-service 14-day free trial you can set up in 15 minutes.
+
+### How do ServiceM8 and Simpro compare for preventive maintenance scheduling?
+
+Both platforms handle scheduled maintenance. In ServiceM8, you can set recurring jobs against specific assets — a "6-month service" for a split-system that automatically generates a job every 6 months. Simpro's planned maintenance module is more sophisticated for large commercial plant (multiple assets, complex schedules, compliance window tracking), but for residential and light commercial HVAC, ServiceM8's recurring job functionality is sufficient.
+
+### Can I migrate data from Simpro to ServiceM8?
+
+Yes, though it requires some work. ServiceM8 can import client and job data from CSV files. Simpro data can be exported to CSV. The migration isn't turnkey — some manual cleaning and re-formatting is typically needed — but it's manageable for a business with a few hundred clients. ServiceM8's support team can assist with migration planning.
+
+### What's the best ServiceM8 plan for a 3-man HVAC team?
+
+For a 3-technician operation doing residential and light commercial HVAC, the ServiceM8 **Grow** or **Manage** plan (depending on feature requirements) with the Asset Management add-on covers most needs. The Asset Management add-on is strongly recommended for any HVAC business — it's the feature that most directly addresses HVAC-specific workflow requirements. Pricing changes — check ServiceM8's current pricing page for the latest.
 
 ---
 
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you.*
-
 ## Related Reading
 
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
-- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+- [ServiceM8 vs Simpro (Full Comparison)](/blog/servicem8-vs-simpro-comparison-australia)
+- [ServiceM8 for HVAC Businesses](/blog/servicem8-for-hvac)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)
+- [The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)

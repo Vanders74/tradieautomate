@@ -85,6 +85,18 @@ Many customers who say no at installation will say yes when you follow up 12 mon
 
 ---
 
+## CSIP-Aus and Monitoring: The New Compliance Angle
+
+From May 2026, the CSIP-Aus mandate means solar systems need cloud-connected CSIP-compliant inverters to avoid the 1.5kW export clamp. This creates a new monitoring-related sales angle.
+
+For customers with CSIP-compliant inverters, their monitoring data is already feeding into the network. Offering to help them understand and manage that data — what it means for their export allowances, how it relates to their energy bills — is a value-added service that positions you as their ongoing solar advisor, not just the company that installed the system.
+
+For legacy customers approaching their first system modification (adding panels, replacing inverter, adding battery), the CSIP-Aus conversation is also a monitoring conversation: a compliant hybrid inverter comes with cloud monitoring as standard, and that monitoring is now the foundation of their ongoing relationship with you.
+
+See our [full CSIP-Aus guide](/blog/csip-aus-export-limit-1-5kw-solar) for how the export clamp affects your customer conversations.
+
+---
+
 ## Inverter Replacement: The Windfall Revenue Stream
 
 Solar inverters typically have a 10–12 year lifespan. String inverters installed during the 2013–2016 solar boom are entering replacement territory now. Premium inverters (Fronius, SMA, SolarEdge) may last longer; cheaper inverters from the commodity era may fail sooner.
@@ -142,6 +154,30 @@ For a solar business doing 15 installs/month consistently, the after-sales reven
 At this scale, your business has a significant recurring revenue base that provides stability regardless of new installation volume in any given month. In a slow installation month, after-sales revenue keeps the business flowing.
 
 This is what a mature solar installation business looks like — and it starts with the first maintenance plan you sell at your next installation.
+
+---
+
+## FAQ
+
+### What monitoring platform should I use as an Australian solar installer?
+
+The best monitoring platform is typically the one that matches your inverter brand — Fronius Solar.web for Fronius, SolarEdge monitoring for SolarEdge, Enphase Enlighten for Enphase, Sungrow iSolarCloud for Sungrow. For installer-level fleet management (monitoring multiple customers' systems from one dashboard), SolarmanBiz and AlsoEnergy/PowerTrack are popular platforms that work across brands. The key feature to look for as an installer offering monitoring services: the ability to grant yourself monitoring access to customer systems so you receive fault alerts proactively.
+
+### How do I charge customers for monitoring services?
+
+Most installers bundle monitoring access into their maintenance plan rather than charging for it separately. The monitoring itself (the cloud platform subscription) is often free or low-cost through the inverter manufacturer. What you're charging for in the maintenance plan is the value-added services you provide: proactive fault response, annual reporting, and priority service. Trying to charge separately for monitoring access often meets customer resistance — the plan model is a cleaner commercial structure.
+
+### At what point does it make business sense to build an after-sales program?
+
+The minimum viable database size for a structured after-sales program is roughly 100–200 installed customers. Below that, the administrative overhead of running a maintenance plan program may not be worth it relative to the revenue. At 50–100 customers, a lighter approach — annual email check-in with a battery offer, seasonal panel cleaning campaign — is more practical. At 200+ customers, systemising with ServiceM8 recurring jobs and automated follow-up delivers real leverage.
+
+### How does the CSIP-Aus change affect my maintenance plan offering?
+
+CSIP-Aus creates a new maintenance conversation for legacy customers. As part of annual reviews, you can now check whether a customer's inverter is CSIP-compliant and flag the risk to them: "Your current inverter is non-CSIP. If you add panels or make any changes to your system, it will trigger the 1.5kW export clamp. Here's what that means for your savings, and here's what a compliant upgrade would cost." This is a genuine, valuable advisory service — not a sales pitch. It also opens the battery conversation naturally.
+
+### Can I use past job data in ServiceM8 to identify after-sales opportunities if I didn't tag installations when I did them?
+
+Yes — ServiceM8 allows you to filter jobs by date range and client, so you can identify all solar installation jobs done 3+ years ago, for example, and create a batch of follow-up tasks. Even without specific asset tags, a date-based filter on job type (e.g., jobs categorised as "Solar Install") gives you a workable prospect list for battery outreach. Going forward, tagging jobs by system type and installation year makes future filtering easier.
 
 ---
 

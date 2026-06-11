@@ -136,15 +136,47 @@ What used to take 90 minutes takes 20. What used to require careful manual check
 
 ---
 
+## Dealing With the Annual Rate Update
+
+The Fair Work Commission hands down Annual Wage Review decisions in June each year, with new rates effective from the first full pay period on or after 1 July. For most businesses, this means rates change from early July.
+
+In Xero Payroll, the rate update process is manual:
+
+1. Navigate to **Payroll → Payroll Settings → Pay Items**
+2. For each pay item (ordinary hours by grade, each allowance), update the rate to the new Award rate
+3. For each employee pay template that uses a fixed wage rate, update the salary/wage amount
+
+This needs to be done before your first July pay run. Set a calendar reminder for late June to check for the Fair Work determination and update your Xero rates.
+
+Failure to update rates from 1 July creates an underpayment situation — one that the Fair Work Ombudsman considers the employer's responsibility to identify and rectify.
+
+---
+
 ## Common Mistakes to Avoid
 
 **Conflating tool allowance with expense reimbursement.** Tool allowances are Award entitlements — they're not the same as reimbursing a specific expense. Treating them as expense claims in Xero changes the PAYG and super treatment.
 
 **Not updating rates on July 1.** The Annual Wage Review changes all Award rates. Your Xero pay items won't update automatically — you have to change the rates manually each financial year.
 
-**Ignoring apprentice year transitions.** When an apprentice moves from Year 2 to Year 3, their pay template needs updating. It's easy to miss in a busy business. Put it in your calendar.
+**Ignoring apprentice year transitions.** When an apprentice moves from Year 2 to Year 3, their pay template needs updating. It's easy to miss in a busy business. Put it in your calendar when you hire each apprentice.
 
-**Assuming Xero's superannuation calculation handles allowances correctly.** For non-OTE allowances, Xero's default super calculation may incorrectly include them. Review each pay item's super settings against the current SGC guidelines.
+**Assuming Xero's superannuation calculation handles allowances correctly.** For non-OTE allowances, Xero's default super calculation may incorrectly include them. Review each pay item's super settings against the current SGC guidelines — or better, have your accountant review the setup.
+
+**Not capturing allowance triggers on-site.** Even with perfect Xero setup, your payroll is only as accurate as the data going in. If technicians don't record which hours were worked at height, the allowance data has to be estimated — which creates both underpayment risk and overpayment risk. Digital capture at the job level is the fix.
+
+---
+
+## When to Bring in a Payroll Specialist
+
+Setting up Electrical Award pay items in Xero isn't complicated if you understand the Award. But there are situations where bringing in a payroll specialist or employment lawyer is the right call:
+
+- You're setting up payroll for the first time with more than 3 employees
+- You have employees across different classifications with unusual arrangements
+- You want to use an Enterprise Agreement instead of the Award
+- You've received a Fair Work inquiry or complaint
+- You want to verify that your existing setup is compliant before continuing
+
+A payroll bookkeeper who specialises in trade businesses will typically charge $500–$2,000 to set up and verify Award-compliant payroll in Xero. That's an investment that pays for itself the first time it avoids an underpayment claim.
 
 ---
 
@@ -155,10 +187,37 @@ Payroll compliance is one piece of a larger operational picture for electrical c
 - [Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026) — full breakdown of current grade rates and entitlements
 - [ServiceM8 for Electricians](/blog/servicem8-for-electricians) — how job management software closes the gap between on-site work and back-office admin
 - [The Hidden Admin Cost Calculator](/blog/hidden-admin-cost-calculator) — quantify exactly what the manual payroll process is costing your business
+- [Best Accounting Software for Solar & Electrical Businesses](/blog/best-accounting-software-solar-electrical-australia-2026) — Xero vs MYOB vs QuickBooks compared
 
 ---
 
 *This article is general guidance only. Award interpretations can be complex and fact-specific. Consult a qualified payroll specialist or employment lawyer for advice on your specific situation.*
+
+---
+
+## FAQ
+
+### Does Xero automatically calculate the Electrical Contracting Award rates?
+
+No. Xero does not natively auto-interpret modern award rates. Xero Payroll allows you to set up pay items for each allowance type, but you must enter the correct rates manually and update them each July following the Annual Wage Review. Xero's automated payroll (Xero Payroll Plus with award interpretation, where available) has broader coverage but should still be verified against the current Award determination for your specific employee classifications.
+
+### Are all Electrical Award allowances subject to superannuation?
+
+No — superannuation applies to ordinary time earnings (OTE), not to all allowances. Tool allowances (used to maintain tools) are generally excluded from OTE and therefore not subject to super. Allowances for uncongenial conditions (height, dirt, confined space) may also be excluded from OTE depending on their nature. This should be confirmed with your accountant based on the current SGC and ATO guidance — the rules can change.
+
+### What's the difference between the Electrical Contracting Award and the Building and Construction Award?
+
+The Electrical, Electronic and Communications Contracting Award 2020 (MA000025) covers electricians, electronic tradespeople, and their apprentices working in installation, maintenance, and service roles. The Building and Construction General On-site Award covers construction workers on building sites. Some electricians working on large construction sites may be covered by the building award instead — which award applies depends on the principal purpose of the work, not just the trade. If your electricians work across both contexts, take advice on which award applies.
+
+### How do I handle overtime in Xero for an electrician?
+
+Overtime rates under the Electrical Award (time and a half for the first 3 hours of overtime, double time after that on weekdays; double time on Sundays; double time and a half on public holidays) must be set up as separate pay items in Xero. Create pay items for each overtime rate category and add them to employee pay runs when applicable. Capturing hours on Xero's built-in timesheets or through your job management system helps ensure overtime is correctly identified and applied.
+
+### Can I use Xero's Auto Superannuation feature with Electrical Award pay items?
+
+Yes — Xero's Auto Superannuation calculates and submits super contributions automatically based on the OTE amounts in each pay run. Once your pay items are correctly configured to include or exclude from OTE as appropriate, the super calculation should be accurate. Review the settings for each allowance pay item to ensure OTE treatment is correctly marked before enabling Auto Super.
+
+---
 
 ## Related Reading
 
