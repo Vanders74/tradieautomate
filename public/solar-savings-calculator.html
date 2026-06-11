@@ -1,0 +1,1539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solar Savings & Break-Even Calculator</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 15px;
+  background: #f1f5f9;
+  color: #1e293b;
+  line-height: 1.5;
+}
+
+.calc-wrap { max-width: 800px; margin: 0 auto; padding: 20px 16px 40px; }
+
+/* ─── Section blocks ─── */
+.section {
+  background: white;
+  border-radius: 14px;
+  padding: 20px 22px;
+  margin-bottom: 14px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.section-title {
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #64748b;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+/* ─── Field grid ─── */
+.field-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.field-grid.three { grid-template-columns: 1fr 1fr 1fr; }
+.field-grid.full { grid-template-columns: 1fr; }
+
+@media (max-width: 540px) {
+  .field-grid, .field-grid.three { grid-template-columns: 1fr; }
+}
+
+.field { display: flex; flex-direction: column; gap: 4px; }
+.field label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #374151;
+}
+.field .hint {
+  font-size: 0.72rem;
+  color: #94a3b8;
+  margin-top: -2px;
+  margin-bottom: 2px;
+}
+
+/* ─── Slider + number combo ─── */
+.slider-combo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.slider-combo input[type="range"] {
+  flex: 1;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 5px;
+  border-radius: 3px;
+  background: #e2e8f0;
+  outline: none;
+  cursor: pointer;
+}
+.slider-combo input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #f97316;
+  cursor: pointer;
+  box-shadow: 0 0 0 3px rgba(249,115,22,0.15);
+  transition: box-shadow 0.1s;
+}
+.slider-combo input[type="range"]::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 0 5px rgba(249,115,22,0.25);
+}
+.slider-combo input[type="number"] {
+  width: 76px;
+  flex-shrink: 0;
+}
+
+input[type="number"], select {
+  width: 100%;
+  padding: 9px 11px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  color: #1e293b;
+  background: #f9fafb;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-inner-spin-button { opacity: 0.4; }
+input[type="number"]:focus, select:focus {
+  border-color: #f97316;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(249,115,22,0.1);
+}
+
+/* ─── Toggle / radio ─── */
+.toggle-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.toggle-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #374151;
+  margin-right: 4px;
+}
+.toggle-btn {
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #64748b;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.toggle-btn.active {
+  background: #f97316;
+  border-color: #f97316;
+  color: white;
+}
+.pill-toggle {
+  display: flex;
+  background: #f1f5f9;
+  border-radius: 8px;
+  padding: 3px;
+  gap: 3px;
+}
+.pill-btn {
+  padding: 5px 12px;
+  border-radius: 6px;
+  border: none;
+  background: transparent;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #64748b;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.pill-btn.active {
+  background: white;
+  color: #f97316;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+/* ─── Battery toggle ─── */
+.battery-toggle-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  background: #fafafa;
+  border: 1px solid #e2e8f0;
+  border-radius: 9px;
+  margin-bottom: 14px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.switch input { opacity: 0; width: 0; height: 0; }
+.switch .slider {
+  position: absolute;
+  inset: 0;
+  background: #d1d5db;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.switch .slider:before {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 3px;
+  bottom: 3px;
+  background: white;
+  border-radius: 50%;
+  transition: 0.2s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+.switch input:checked + .slider { background: #f97316; }
+.switch input:checked + .slider:before { transform: translateX(18px); }
+.battery-label { font-size: 0.85rem; font-weight: 600; color: #374151; }
+.battery-label span { font-size: 0.75rem; color: #94a3b8; font-weight: 400; margin-left: 4px; }
+
+#batteryFields { display: none; }
+#batteryFields.show { display: block; }
+
+#touFields { display: none; }
+#touFields.show { display: block; }
+
+.state-defaults-note {
+  font-size: 0.72rem;
+  color: #10b981;
+  font-weight: 600;
+  margin-top: 4px;
+  display: none;
+}
+
+/* ─── Results ─── */
+.results-header {
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #64748b;
+  margin-bottom: 14px;
+}
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 18px;
+}
+@media (max-width: 580px) {
+  .kpi-grid { grid-template-columns: 1fr 1fr; }
+}
+
+.kpi-card {
+  background: #0f172a;
+  border-radius: 12px;
+  padding: 14px 12px;
+  text-align: center;
+}
+.kpi-card.green { background: linear-gradient(135deg, #064e3b, #065f46); }
+.kpi-card.orange { background: linear-gradient(135deg, #7c2d12, #9a3412); }
+.kpi-card.blue { background: linear-gradient(135deg, #1e3a5f, #1e40af); }
+.kpi-card.purple { background: linear-gradient(135deg, #4c1d95, #5b21b6); }
+.kpi-val {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: white;
+  display: block;
+  line-height: 1.1;
+}
+.kpi-lbl {
+  font-size: 0.68rem;
+  color: rgba(255,255,255,0.65);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 4px;
+  display: block;
+}
+
+/* ─── Waterfall ─── */
+.waterfall {
+  margin-bottom: 14px;
+}
+.wf-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 12px;
+  border-radius: 7px;
+  font-size: 0.85rem;
+  margin-bottom: 3px;
+}
+.wf-row.saving { background: #f0fdf4; color: #166534; }
+.wf-row.cost { background: #fef2f2; color: #991b1b; }
+.wf-row.neutral { background: #f8fafc; color: #374151; border: 1px solid #e2e8f0; }
+.wf-row.total {
+  background: #0f172a;
+  color: white;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.wf-amount { font-weight: 700; }
+
+/* ─── Breakeven bar ─── */
+.breakeven-bar-wrap {
+  margin: 16px 0;
+  background: #f8fafc;
+  border-radius: 10px;
+  padding: 14px 16px;
+  border: 1px solid #e2e8f0;
+}
+.breakeven-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #374151;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.be-track {
+  height: 12px;
+  background: #e2e8f0;
+  border-radius: 6px;
+  overflow: visible;
+  position: relative;
+}
+.be-fill {
+  height: 100%;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #f97316, #4ade80);
+  transition: width 0.3s ease;
+  max-width: 100%;
+}
+.be-marker {
+  position: absolute;
+  top: -5px;
+  width: 3px;
+  height: 22px;
+  background: #1e293b;
+  border-radius: 2px;
+  transform: translateX(-50%);
+}
+.be-year-label {
+  font-size: 0.72rem;
+  color: #64748b;
+  margin-top: 6px;
+}
+
+/* ─── Chart section ─── */
+.chart-section {
+  margin-top: 14px;
+}
+.chart-toggle-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+.chart-btn {
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  background: white;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #64748b;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.chart-btn.active {
+  background: #0f172a;
+  border-color: #0f172a;
+  color: white;
+}
+.chart-wrap {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid #e2e8f0;
+}
+.chart-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #374151;
+  margin-bottom: 12px;
+}
+
+/* ─── Quote output ─── */
+.quote-output {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  border-radius: 14px;
+  padding: 22px;
+  margin-top: 14px;
+}
+.quote-output-title {
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #94a3b8;
+  margin-bottom: 4px;
+}
+.quote-output-sub {
+  font-size: 0.82rem;
+  color: #64748b;
+  margin-bottom: 14px;
+}
+.quote-text-block {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 10px;
+  padding: 16px 18px;
+  font-size: 0.85rem;
+  color: #e2e8f0;
+  line-height: 1.75;
+  white-space: pre-wrap;
+  font-family: inherit;
+  min-height: 80px;
+}
+.copy-btn {
+  margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: #f97316;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 18px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+.copy-btn:hover { background: #ea580c; transform: translateY(-1px); }
+.copy-btn.copied { background: #10b981; }
+
+/* ─── 25-year table ─── */
+.year-table-wrap {
+  overflow-x: auto;
+  margin-top: 14px;
+}
+.year-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+.year-table th {
+  background: #f1f5f9;
+  padding: 7px 10px;
+  text-align: right;
+  font-weight: 700;
+  color: #64748b;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.year-table th:first-child { text-align: left; }
+.year-table td {
+  padding: 6px 10px;
+  border-bottom: 1px solid #f1f5f9;
+  text-align: right;
+  color: #374151;
+}
+.year-table td:first-child { text-align: left; font-weight: 600; }
+.year-table tr.breakeven-row td { background: #fef9c3; font-weight: 700; }
+.year-table tr.profit td { color: #166534; }
+
+/* ─── Calc button ─── */
+.live-note {
+  font-size: 0.72rem;
+  color: #10b981;
+  font-weight: 600;
+  text-align: center;
+  padding: 8px;
+}
+
+/* ─── Assumptions note ─── */
+.assumptions {
+  font-size: 0.72rem;
+  color: #94a3b8;
+  line-height: 1.6;
+  padding: 12px 14px;
+  background: #f8fafc;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* ─── Collapsible ─── */
+.collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+.collapsible-header .chevron {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  transition: transform 0.2s;
+}
+.collapsible-header.open .chevron { transform: rotate(180deg); }
+.collapsible-body { margin-top: 14px; }
+.collapsible-body.hidden { display: none; }
+
+/* ─── Results wrapper ─── */
+#resultsWrap { display: none; }
+#resultsWrap.show { display: block; }
+</style>
+</head>
+<body>
+<div class="calc-wrap">
+
+  <!-- ─── 1. Energy Usage ─── -->
+  <div class="section">
+    <div class="section-title">⚡ Energy Usage Profile</div>
+    <div class="field-grid" style="margin-bottom:14px;">
+      <div class="field">
+        <label>Average Daily Consumption (kWh)</label>
+        <span class="hint">Check the back of your electricity bill</span>
+        <div class="slider-combo">
+          <input type="range" id="dailyKwhSlider" min="5" max="60" step="0.5" value="20" oninput="syncSlider('dailyKwh','dailyKwhSlider')">
+          <input type="number" id="dailyKwh" min="5" max="60" step="0.5" value="20" oninput="syncNum('dailyKwh','dailyKwhSlider')">
+        </div>
+      </div>
+      <div class="field">
+        <label>Load Profile</label>
+        <span class="hint">When does your household use power?</span>
+        <select id="loadProfile" onchange="onLoadProfileChange()">
+          <option value="balanced">Balanced / Flat (consistent all day)</option>
+          <option value="dayDynamic">Day Dynamic (home all day / WFH)</option>
+          <option value="eveningPeak">Evening Peak (out all day, peak 4–9pm)</option>
+        </select>
+      </div>
+    </div>
+    <div id="loadProfileNote" class="assumptions" style="display:none;"></div>
+  </div>
+
+  <!-- ─── 2. Tariff ─── -->
+  <div class="section">
+    <div class="section-title">💡 Electricity Tariff Structure</div>
+
+    <div class="toggle-row" style="margin-bottom:14px;">
+      <span class="toggle-label">State:</span>
+      <select id="state" style="width:auto;min-width:120px;" onchange="onStateChange()">
+        <option value="">— Select state —</option>
+        <option value="nsw">NSW</option>
+        <option value="vic">VIC</option>
+        <option value="qld">QLD</option>
+        <option value="sa">SA</option>
+        <option value="wa">WA</option>
+        <option value="tas">TAS</option>
+        <option value="nt">NT</option>
+        <option value="act">ACT</option>
+      </select>
+      <span id="stateDefaultsNote" class="state-defaults-note">✓ Rates auto-filled for your state</span>
+    </div>
+
+    <div class="toggle-row" style="margin-bottom:14px;">
+      <span class="toggle-label">Tariff Type:</span>
+      <div class="pill-toggle">
+        <button class="pill-btn active" id="btnFlat" onclick="setTariffType('flat')">Flat Rate</button>
+        <button class="pill-btn" id="btnTou" onclick="setTariffType('tou')">Time of Use</button>
+      </div>
+    </div>
+
+    <div class="field-grid" id="flatFields">
+      <div class="field">
+        <label>Grid Rate ($/kWh)</label>
+        <span class="hint">Your single flat rate from your bill</span>
+        <div class="slider-combo">
+          <input type="range" id="flatRateSlider" min="0.15" max="0.60" step="0.01" value="0.31" oninput="syncSlider('flatRate','flatRateSlider')">
+          <input type="number" id="flatRate" min="0.10" max="0.60" step="0.01" value="0.31" oninput="syncNum('flatRate','flatRateSlider')">
+        </div>
+      </div>
+      <div class="field">
+        <label>Feed-in Tariff ($/kWh)</label>
+        <span class="hint">What your retailer pays for solar exports</span>
+        <div class="slider-combo">
+          <input type="range" id="fitRateSlider" min="0.01" max="0.20" step="0.005" value="0.05" oninput="syncSlider('fitRate','fitRateSlider')">
+          <input type="number" id="fitRate" min="0.01" max="0.20" step="0.005" value="0.05" oninput="syncNum('fitRate','fitRateSlider')">
+        </div>
+      </div>
+    </div>
+
+    <div id="touFields" class="field-grid three" style="display:none;">
+      <div class="field">
+        <label>Peak Rate ($/kWh)</label>
+        <span class="hint">Typically 3pm–9pm weekdays</span>
+        <div class="slider-combo">
+          <input type="range" id="touPeakSlider" min="0.20" max="0.80" step="0.01" value="0.45" oninput="syncSlider('touPeak','touPeakSlider')">
+          <input type="number" id="touPeak" min="0.10" max="0.80" step="0.01" value="0.45" oninput="syncNum('touPeak','touPeakSlider')">
+        </div>
+      </div>
+      <div class="field">
+        <label>Shoulder Rate ($/kWh)</label>
+        <span class="hint">Varies by retailer</span>
+        <div class="slider-combo">
+          <input type="range" id="touShoulderSlider" min="0.10" max="0.50" step="0.01" value="0.30" oninput="syncSlider('touShoulder','touShoulderSlider')">
+          <input type="number" id="touShoulder" min="0.10" max="0.50" step="0.01" value="0.30" oninput="syncNum('touShoulder','touShoulderSlider')">
+        </div>
+      </div>
+      <div class="field">
+        <label>Off-Peak Rate ($/kWh)</label>
+        <span class="hint">Overnight / low demand</span>
+        <div class="slider-combo">
+          <input type="range" id="touOffPeakSlider" min="0.08" max="0.30" step="0.01" value="0.15" oninput="syncSlider('touOffPeak','touOffPeakSlider')">
+          <input type="number" id="touOffPeak" min="0.08" max="0.30" step="0.01" value="0.15" oninput="syncNum('touOffPeak','touOffPeakSlider')">
+        </div>
+      </div>
+    </div>
+    <div id="touFitRow" style="display:none;margin-top:12px;" class="field-grid">
+      <div class="field">
+        <label>Feed-in Tariff ($/kWh)</label>
+        <div class="slider-combo">
+          <input type="range" id="touFitSlider" min="0.01" max="0.20" step="0.005" value="0.05" oninput="syncSlider('touFit','touFitSlider')">
+          <input type="number" id="touFit" min="0.01" max="0.20" step="0.005" value="0.05" oninput="syncNum('touFit','touFitSlider')">
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:14px;" class="field-grid">
+      <div class="field">
+        <label>Daily Supply Charge (¢/day)</label>
+        <span class="hint">Fixed connection fee — solar doesn't eliminate this</span>
+        <div class="slider-combo">
+          <input type="range" id="supplyChargeSlider" min="50" max="200" step="1" value="110" oninput="syncSlider('supplyCharge','supplyChargeSlider')">
+          <input type="number" id="supplyCharge" min="50" max="200" step="1" value="110" oninput="syncNum('supplyCharge','supplyChargeSlider')">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── 3. System Specs ─── -->
+  <div class="section">
+    <div class="section-title">🔆 System Specifications</div>
+
+    <div class="field-grid" style="margin-bottom:14px;">
+      <div class="field">
+        <label>Solar Array Size (kW)</label>
+        <span class="hint">Total panel capacity</span>
+        <div class="slider-combo">
+          <input type="range" id="systemKwSlider" min="3" max="30" step="0.1" value="10" oninput="syncSlider('systemKw','systemKwSlider')">
+          <input type="number" id="systemKw" min="1" max="30" step="0.1" value="10" oninput="syncNum('systemKw','systemKwSlider')">
+        </div>
+      </div>
+      <div class="field">
+        <label>Inverter Capacity (kW)</label>
+        <span class="hint">Max AC output — typically ~75% of panel kW</span>
+        <div class="slider-combo">
+          <input type="range" id="inverterKwSlider" min="2" max="20" step="0.5" value="8" oninput="syncSlider('inverterKw','inverterKwSlider')">
+          <input type="number" id="inverterKw" min="1" max="20" step="0.5" value="8" oninput="syncNum('inverterKw','inverterKwSlider')">
+        </div>
+      </div>
+    </div>
+
+    <div class="battery-toggle-row">
+      <label class="switch">
+        <input type="checkbox" id="batteryToggle" onchange="toggleBattery()">
+        <span class="slider"></span>
+      </label>
+      <span class="battery-label">Add Battery Storage <span>Turn on to model solar + battery</span></span>
+    </div>
+
+    <div id="batteryFields">
+      <div class="field-grid">
+        <div class="field">
+          <label>Battery Usable Capacity (kWh)</label>
+          <span class="hint">LFP chemistry recommended (BYD, Sungrow, etc.)</span>
+          <div class="slider-combo">
+            <input type="range" id="batteryKwhSlider" min="0" max="40" step="0.5" value="10" oninput="syncSlider('batteryKwh','batteryKwhSlider')">
+            <input type="number" id="batteryKwh" min="0" max="40" step="0.5" value="10" oninput="syncNum('batteryKwh','batteryKwhSlider')">
+          </div>
+        </div>
+        <div class="field">
+          <label>Battery Round-Trip Efficiency (%)</label>
+          <span class="hint">LFP typically 92–96%; default 94</span>
+          <div class="slider-combo">
+            <input type="range" id="battEffSlider" min="75" max="99" step="1" value="94" oninput="syncSlider('battEff','battEffSlider')">
+            <input type="number" id="battEff" min="75" max="99" step="1" value="94" oninput="syncNum('battEff','battEffSlider')">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── 4. Financial Outlay ─── -->
+  <div class="section">
+    <div class="section-title">💰 Financial Outlay &amp; Rebates</div>
+    <div class="field-grid" style="margin-bottom:14px;">
+      <div class="field">
+        <label>Gross System Cost ($)</label>
+        <span class="hint">Total cost before any rebates</span>
+        <div class="slider-combo">
+          <input type="range" id="grossCostSlider" min="3000" max="40000" step="100" value="14000" oninput="syncSlider('grossCost','grossCostSlider')">
+          <input type="number" id="grossCost" min="0" max="100000" step="100" value="14000" oninput="syncNum('grossCost','grossCostSlider')">
+        </div>
+      </div>
+      <div class="field">
+        <label>STC Rebate — Auto-Estimated ($)</label>
+        <span class="hint">Based on system size &amp; state. Edit if you know your exact amount.</span>
+        <input type="number" id="stcValue" min="0" step="100" value="0" oninput="recalc()" data-auto="true">
+        <span id="stcAutoNote" style="font-size:0.71rem;color:#94a3b8;margin-top:2px;"></span>
+      </div>
+    </div>
+    <div class="field-grid">
+      <div class="field">
+        <label>Federal Battery Rebate ($)</label>
+        <span class="hint">Cheaper Home Batteries Scheme — $372/kWh (2026). Auto-fills when battery is on.</span>
+        <input type="number" id="batteryRebate" min="0" step="100" value="0" oninput="recalc()" data-auto="true">
+        <span id="batteryRebateNote" style="font-size:0.71rem;color:#94a3b8;margin-top:2px;"></span>
+      </div>
+      <div class="field">
+        <label>State Rebate / Other Incentives ($)</label>
+        <span class="hint">VIC: up to $1,400 · QLD: up to $4,000 (battery) · Enter 0 if unsure</span>
+        <div class="slider-combo">
+          <input type="range" id="stateRebateSlider" min="0" max="10000" step="100" value="0" oninput="syncSlider('stateRebate','stateRebateSlider')">
+          <input type="number" id="stateRebate" min="0" step="100" value="0" oninput="syncNum('stateRebate','stateRebateSlider')">
+        </div>
+      </div>
+    </div>
+    <div id="netCostDisplay" style="margin-top:12px;padding:10px 14px;background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;font-size:0.85rem;color:#166534;font-weight:600;display:none;">
+      Net out-of-pocket: <span id="netCostVal">—</span>  ·  <span id="stcZoneNote" style="font-weight:400;color:#059669;"></span>
+    </div>
+  </div>
+
+  <!-- ─── 5. Technical Variables ─── -->
+  <div class="section">
+    <div class="collapsible-header" id="techHeader" onclick="toggleCollapse('techBody','techHeader')">
+      <div class="section-title" style="margin-bottom:0;">⚙️ Technical &amp; Environmental Variables</div>
+      <span class="chevron">▼</span>
+    </div>
+    <div class="collapsible-body hidden" id="techBody">
+      <div class="field-grid" style="margin-top:14px;">
+        <div class="field">
+          <label>Solar Zone Peak Sun Hours (hrs/day)</label>
+          <span class="hint">Auto-set from state. Zone 1=5.26 · Zone 2=4.92 · Zone 3=4.47 · Zone 4=3.76</span>
+          <div class="slider-combo">
+            <input type="range" id="peakSunSlider" min="2.5" max="6.5" step="0.05" value="4.47" oninput="syncSlider('peakSun','peakSunSlider')">
+            <input type="number" id="peakSun" min="2" max="7" step="0.05" value="4.47" oninput="syncNum('peakSun','peakSunSlider')">
+          </div>
+        </div>
+        <div class="field">
+          <label>Self-Consumption Rate (%)</label>
+          <span class="hint">Auto-set from load profile &amp; battery. Adjust if needed.</span>
+          <div class="slider-combo">
+            <input type="range" id="selfConsSlider" min="10" max="100" step="1" value="35" oninput="syncSlider('selfCons','selfConsSlider')">
+            <input type="number" id="selfCons" min="5" max="100" step="1" value="35" oninput="syncNum('selfCons','selfConsSlider')">
+          </div>
+        </div>
+      </div>
+      <div class="field-grid three" style="margin-top:14px;">
+        <div class="field">
+          <label>Panel Degradation (%/yr)</label>
+          <span class="hint">Typically 0.5–0.8%/yr</span>
+          <div class="slider-combo">
+            <input type="range" id="panelDegSlider" min="0.1" max="1.5" step="0.05" value="0.5" oninput="syncSlider('panelDeg','panelDegSlider')">
+            <input type="number" id="panelDeg" min="0.1" max="2" step="0.05" value="0.5" oninput="syncNum('panelDeg','panelDegSlider')">
+          </div>
+        </div>
+        <div class="field">
+          <label>Battery Degradation (%/yr)</label>
+          <span class="hint">LFP: ~1.5–2.5%/yr</span>
+          <div class="slider-combo">
+            <input type="range" id="battDegSlider" min="0.5" max="5" step="0.1" value="2" oninput="syncSlider('battDeg','battDegSlider')">
+            <input type="number" id="battDeg" min="0" max="5" step="0.1" value="2" oninput="syncNum('battDeg','battDegSlider')">
+          </div>
+        </div>
+        <div class="field">
+          <label>Electricity Price Inflation (%/yr)</label>
+          <span class="hint">Historical AUS avg: 3–5%</span>
+          <div class="slider-combo">
+            <input type="range" id="inflationSlider" min="0" max="8" step="0.25" value="3" oninput="syncSlider('inflation','inflationSlider')">
+            <input type="number" id="inflation" min="0" max="10" step="0.25" value="3" oninput="syncNum('inflation','inflationSlider')">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="live-note">⚡ Results update instantly as you adjust any input</div>
+
+  <!-- ─── Results ─── -->
+  <div id="resultsWrap">
+
+    <!-- KPIs -->
+    <div class="section">
+      <div class="results-header">📊 Your Solar Economics</div>
+      <div class="kpi-grid">
+        <div class="kpi-card green">
+          <span class="kpi-val" id="kpiYear1">—</span>
+          <span class="kpi-lbl">Year 1 Savings</span>
+        </div>
+        <div class="kpi-card orange">
+          <span class="kpi-val" id="kpiPayback">—</span>
+          <span class="kpi-lbl">Break-Even</span>
+        </div>
+        <div class="kpi-card blue">
+          <span class="kpi-val" id="kpi10yr">—</span>
+          <span class="kpi-lbl">10-Year Savings</span>
+        </div>
+        <div class="kpi-card purple">
+          <span class="kpi-val" id="kpi25yr">—</span>
+          <span class="kpi-lbl">25-Year Savings</span>
+        </div>
+      </div>
+
+      <!-- Breakeven bar -->
+      <div class="breakeven-bar-wrap">
+        <div class="breakeven-label">
+          <span>Payback progress (25-year system life)</span>
+          <span id="paybackFraction">—</span>
+        </div>
+        <div class="be-track">
+          <div class="be-fill" id="beFill" style="width:0%"></div>
+          <div class="be-marker" id="beMarker" style="left:0%"></div>
+        </div>
+        <div class="be-year-label" id="beYearLabel">—</div>
+      </div>
+
+      <!-- Bill comparison waterfall -->
+      <div class="waterfall">
+        <div class="wf-row neutral">
+          <span>Current annual electricity bill</span>
+          <span class="wf-amount" id="wfCurrentBill">—</span>
+        </div>
+        <div class="wf-row saving">
+          <span>Solar self-consumption saving</span>
+          <span class="wf-amount" id="wfSelfConsSaving">—</span>
+        </div>
+        <div class="wf-row saving">
+          <span>Export feed-in earnings</span>
+          <span class="wf-amount" id="wfFitEarnings">—</span>
+        </div>
+        <div class="wf-row neutral">
+          <span>Remaining grid import cost</span>
+          <span class="wf-amount" id="wfGridRemain">—</span>
+        </div>
+        <div class="wf-row total">
+          <span>New annual electricity bill</span>
+          <span class="wf-amount" id="wfNewBill">—</span>
+        </div>
+      </div>
+
+      <!-- Energy flow summary -->
+      <div style="display:flex;gap:10px;flex-wrap:wrap;font-size:0.78rem;color:#64748b;margin-top:8px;">
+        <span>☀️ Annual generation: <strong id="sumAnnualGen">—</strong> kWh</span>
+        <span>🏠 Self-consumed: <strong id="sumSelfCons">—</strong> kWh (<span id="sumSelfConsPct">—</span>%)</span>
+        <span>⚡ Grid export: <strong id="sumExport">—</strong> kWh</span>
+        <span>🔋 Grid import remaining: <strong id="sumGridImport">—</strong> kWh</span>
+      </div>
+    </div>
+
+    <!-- Charts -->
+    <div class="section chart-section">
+      <div class="results-header">📈 Visual Analysis</div>
+      <div class="chart-toggle-row">
+        <button class="chart-btn active" id="btnCumulative" onclick="showChart('cumulative')">Cumulative Savings</button>
+        <button class="chart-btn" id="btnAnnual" onclick="showChart('annual')">Annual Savings Growth</button>
+        <button class="chart-btn" id="btnEnergyFlow" onclick="showChart('energyflow')">Energy Flow</button>
+      </div>
+      <div class="chart-wrap">
+        <div class="chart-title" id="chartTitle">Cumulative Savings vs Investment — 25 Years</div>
+        <canvas id="mainChart" style="max-height:320px;"></canvas>
+      </div>
+    </div>
+
+    <!-- Optional: Year-by-year table -->
+    <div class="section">
+      <div class="collapsible-header" id="tableHeader" onclick="toggleCollapse('tableBody','tableHeader')">
+        <div class="results-header" style="margin-bottom:0;">📋 Year-by-Year Breakdown</div>
+        <span class="chevron">▼</span>
+      </div>
+      <div class="collapsible-body hidden" id="tableBody">
+        <div class="year-table-wrap">
+          <table class="year-table">
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Annual Saving</th>
+                <th>Cumulative Saving</th>
+                <th>Net Position</th>
+                <th>Grid Rate</th>
+              </tr>
+            </thead>
+            <tbody id="yearTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quote Output Block -->
+    <div class="quote-output">
+      <div class="quote-output-title">✍️ Quote Output Block</div>
+      <div class="quote-output-sub">Copy-paste ready text for your customer quote — drop into Section 2 (System Summary) of your solar proposal.</div>
+      <div class="quote-text-block" id="quoteOutputText">Fill in the inputs above to generate your quote text.</div>
+      <button class="copy-btn" id="copyBtn" onclick="copyQuoteText()">📋 Copy to Clipboard</button>
+    </div>
+
+    <div class="assumptions">
+      <strong>Assumptions &amp; disclaimers:</strong> This calculator provides estimates only. STC values are estimated at $38/certificate using CER deeming zone factors. Cheaper Home Batteries Scheme rebate applied at $372/kWh (2026 Federal Budget). Battery degradation, panel degradation, and electricity price inflation compound annually. Self-consumption rates are estimates based on load profile; actual rates vary. This calculator does not constitute financial advice. Consult a Clean Energy Council accredited installer for a site-specific assessment.
+    </div>
+  </div>
+
+</div>
+
+<script>
+// ─── State defaults ───
+const STATE_DEFAULTS = {
+  nsw: { zone: 3, psh: 4.47, fit: 0.05, flatRate: 0.31, supplyCharge: 110 },
+  vic: { zone: 4, psh: 3.76, fit: 0.05, flatRate: 0.32, supplyCharge: 115 },
+  qld: { zone: 2, psh: 4.92, fit: 0.05, flatRate: 0.27, supplyCharge: 95 },
+  sa:  { zone: 3, psh: 4.47, fit: 0.08, flatRate: 0.38, supplyCharge: 125 },
+  wa:  { zone: 3, psh: 4.47, fit: 0.03, flatRate: 0.29, supplyCharge: 100 },
+  tas: { zone: 4, psh: 3.76, fit: 0.075, flatRate: 0.27, supplyCharge: 100 },
+  nt:  { zone: 1, psh: 5.26, fit: 0.08, flatRate: 0.26, supplyCharge: 90 },
+  act: { zone: 3, psh: 4.47, fit: 0.06, flatRate: 0.30, supplyCharge: 108 }
+};
+
+const STC_ZONE_FACTORS = { 1: 1.636, 2: 1.536, 3: 1.382, 4: 1.185 };
+const STC_DEEMING = 4; // years to 2030
+const STC_PRICE = 38;
+const BATTERY_REBATE_PER_KWH = 372;
+const BATTERY_REBATE_CAP_KWH = 50;
+
+// Load profile self-consumption defaults (without battery)
+const LOAD_PROFILE_SELFCONS = { dayDynamic: 45, balanced: 35, eveningPeak: 25 };
+// Battery boost: additional % of self-consumption added per 10kWh battery (diminishing returns)
+// Also depends on load profile
+const LOAD_PROFILE_BATTERY_BOOST = { dayDynamic: 12, balanced: 18, eveningPeak: 28 }; // per 10kWh
+const LOAD_PROFILE_NOTES = {
+  dayDynamic: '☀️ Day Dynamic: High daytime usage means the most solar is consumed directly — no battery needed to maximise self-consumption. Best pure-solar ROI.',
+  balanced: '⚖️ Balanced: Moderate self-consumption throughout the day. A battery modestly improves evening grid independence.',
+  eveningPeak: '🌙 Evening Peak: Most of your usage is 4–9pm when solar isn\'t generating. A battery is a strong recommendation — it stores daytime solar and discharges into your peak usage window.'
+};
+
+// ToU blend weights by load profile (what tariff band is the self-consumed solar offsetting?)
+// Solar generates ~9am–4pm (shoulder band for most retailers)
+const TOU_BLEND_SELFCONS = {
+  dayDynamic:   { peak: 0.15, shoulder: 0.60, offPeak: 0.25 },
+  balanced:     { peak: 0.12, shoulder: 0.55, offPeak: 0.33 },
+  eveningPeak:  { peak: 0.05, shoulder: 0.65, offPeak: 0.30 }
+};
+// With battery, can offset more peak (evening discharge)
+const TOU_BLEND_WITH_BATTERY = {
+  dayDynamic:   { peak: 0.30, shoulder: 0.45, offPeak: 0.25 },
+  balanced:     { peak: 0.35, shoulder: 0.40, offPeak: 0.25 },
+  eveningPeak:  { peak: 0.50, shoulder: 0.35, offPeak: 0.15 }
+};
+
+let tariffType = 'flat';
+let currentChartType = 'cumulative';
+let mainChartInstance = null;
+let yearlyData = [];
+
+// ─── Sync helpers ───
+function syncSlider(numId, sliderId) {
+  const v = parseFloat(document.getElementById(numId).value);
+  const s = document.getElementById(sliderId);
+  if (!isNaN(v)) { s.value = v; }
+  recalc();
+}
+function syncNum(numId, sliderId) {
+  const v = parseFloat(document.getElementById(sliderId).value);
+  document.getElementById(numId).value = v;
+  recalc();
+}
+function v(id) { return parseFloat(document.getElementById(id).value) || 0; }
+function vi(id) { return parseInt(document.getElementById(id).value) || 0; }
+function vs(id) { return document.getElementById(id).value; }
+
+// ─── State change ───
+function onStateChange() {
+  const state = vs('state');
+  if (!state) return;
+  const d = STATE_DEFAULTS[state];
+  if (!d) return;
+
+  // Set PSH
+  document.getElementById('peakSun').value = d.psh;
+  document.getElementById('peakSunSlider').value = d.psh;
+
+  // Set flat rate
+  document.getElementById('flatRate').value = d.flatRate;
+  document.getElementById('flatRateSlider').value = d.flatRate;
+
+  // Set FiT
+  document.getElementById('fitRate').value = d.fit;
+  document.getElementById('fitRateSlider').value = d.fit;
+  document.getElementById('touFit').value = d.fit;
+  document.getElementById('touFitSlider').value = d.fit;
+
+  // Set supply charge
+  document.getElementById('supplyCharge').value = d.supplyCharge;
+  document.getElementById('supplyChargeSlider').value = d.supplyCharge;
+
+  document.getElementById('stateDefaultsNote').style.display = 'inline';
+
+  // Recalculate STC (zone changed)
+  updateStcAuto();
+  recalc();
+}
+
+function onLoadProfileChange() {
+  const profile = vs('loadProfile');
+  const note = document.getElementById('loadProfileNote');
+  note.textContent = LOAD_PROFILE_NOTES[profile] || '';
+  note.style.display = LOAD_PROFILE_NOTES[profile] ? 'block' : 'none';
+  updateSelfConsDefault();
+  recalc();
+}
+
+// ─── Tariff type toggle ───
+function setTariffType(type) {
+  tariffType = type;
+  document.getElementById('btnFlat').classList.toggle('active', type === 'flat');
+  document.getElementById('btnTou').classList.toggle('active', type === 'tou');
+  document.getElementById('flatFields').style.display = type === 'flat' ? 'grid' : 'none';
+  document.getElementById('touFields').style.display = type === 'tou' ? 'grid' : 'none';
+  document.getElementById('touFitRow').style.display = type === 'tou' ? 'grid' : 'none';
+  recalc();
+}
+
+// ─── Battery toggle ───
+function toggleBattery() {
+  const on = document.getElementById('batteryToggle').checked;
+  document.getElementById('batteryFields').classList.toggle('show', on);
+  updateBatteryRebateAuto();
+  updateSelfConsDefault();
+  recalc();
+}
+
+// ─── Self-consumption auto-set ───
+function updateSelfConsDefault() {
+  const profile = vs('loadProfile') || 'balanced';
+  const battOn = document.getElementById('batteryToggle').checked;
+  const battKwh = v('batteryKwh');
+  const dailyKwh = v('dailyKwh') || 20;
+
+  let base = LOAD_PROFILE_SELFCONS[profile] || 35;
+  if (battOn && battKwh > 0) {
+    const boost = LOAD_PROFILE_BATTERY_BOOST[profile] || 18;
+    // Diminishing returns: first 10kWh gives full boost, next 10kWh gives 60%, etc.
+    const boostAmount = boost * (1 - Math.exp(-battKwh / 12));
+    base = Math.min(base + boostAmount, 95);
+  }
+  const rounded = Math.round(base);
+  document.getElementById('selfCons').value = rounded;
+  document.getElementById('selfConsSlider').value = rounded;
+}
+
+// ─── STC auto-calc ───
+function updateStcAuto() {
+  const stcField = document.getElementById('stcValue');
+  if (stcField.dataset.auto !== 'true') return;
+  const state = vs('state');
+  const kw = v('systemKw');
+  if (!state || !kw) {
+    stcField.value = 0;
+    document.getElementById('stcAutoNote').textContent = '';
+    return;
+  }
+  const d = STATE_DEFAULTS[state];
+  if (!d) return;
+  const zoneFactor = STC_ZONE_FACTORS[d.zone] || 1.382;
+  const stcCount = Math.round(kw * zoneFactor * STC_DEEMING);
+  const stcVal = Math.round(stcCount * STC_PRICE);
+  stcField.value = stcVal;
+  document.getElementById('stcAutoNote').textContent =
+    `Auto: Zone ${d.zone} · ${stcCount} STCs × $${STC_PRICE} = $${stcVal.toLocaleString()}`;
+  recalc();
+}
+
+// ─── Battery rebate auto-calc ───
+function updateBatteryRebateAuto() {
+  const rebateField = document.getElementById('batteryRebate');
+  if (rebateField.dataset.auto !== 'true') return;
+  const battOn = document.getElementById('batteryToggle').checked;
+  if (!battOn) {
+    rebateField.value = 0;
+    document.getElementById('batteryRebateNote').textContent = '';
+    return;
+  }
+  const kwh = v('batteryKwh');
+  const eligible = Math.min(kwh, BATTERY_REBATE_CAP_KWH);
+  const rebate = Math.round(eligible * BATTERY_REBATE_PER_KWH);
+  rebateField.value = rebate;
+  document.getElementById('batteryRebateNote').textContent =
+    `Cheaper Home Batteries Scheme 2026: ${eligible}kWh × $${BATTERY_REBATE_PER_KWH} = $${rebate.toLocaleString()}`;
+  recalc();
+}
+
+// Override auto when user edits
+document.getElementById('stcValue').addEventListener('input', function() { this.dataset.auto = 'false'; recalc(); });
+document.getElementById('batteryRebate').addEventListener('input', function() { this.dataset.auto = 'false'; recalc(); });
+document.getElementById('batteryKwh').addEventListener('input', function() { updateBatteryRebateAuto(); updateSelfConsDefault(); });
+document.getElementById('batteryKwhSlider').addEventListener('input', function() { updateBatteryRebateAuto(); updateSelfConsDefault(); });
+document.getElementById('systemKw').addEventListener('input', function() { updateStcAuto(); });
+document.getElementById('systemKwSlider').addEventListener('input', function() { updateStcAuto(); });
+
+// ─── Collapsible ───
+function toggleCollapse(bodyId, headerId) {
+  const body = document.getElementById(bodyId);
+  const header = document.getElementById(headerId);
+  body.classList.toggle('hidden');
+  header.classList.toggle('open');
+}
+
+// ─── Format helpers ───
+function fmtDollar(v) {
+  const abs = Math.abs(Math.round(v));
+  return (v < 0 ? '−' : '') + '$' + abs.toLocaleString();
+}
+function fmtDollarPos(v) { return '$' + Math.round(v).toLocaleString(); }
+function fmtNum(v, dp) { return v.toFixed(dp || 0); }
+
+// ─── Effective grid rate (flat or ToU blend) ───
+function getEffectiveGridRate(profile, battOn) {
+  if (tariffType === 'flat') return v('flatRate');
+  const peak = v('touPeak'), shoulder = v('touShoulder'), offPeak = v('touOffPeak');
+  const blend = (battOn && document.getElementById('batteryToggle').checked)
+    ? TOU_BLEND_WITH_BATTERY[profile]
+    : TOU_BLEND_SELFCONS[profile];
+  return blend.peak * peak + blend.shoulder * shoulder + blend.offPeak * offPeak;
+}
+
+function getFitRate() {
+  return tariffType === 'flat' ? v('fitRate') : v('touFit');
+}
+
+// ─── Main calculation model ───
+function buildYearlyData() {
+  const dailyKwh = v('dailyKwh') || 20;
+  const annualConsumption = dailyKwh * 365;
+  const psh = v('peakSun') || 4.47;
+  const systemKw = v('systemKw') || 10;
+  const battOn = document.getElementById('batteryToggle').checked;
+  const battKwh = battOn ? v('batteryKwh') : 0;
+  const battEff = (v('battEff') || 94) / 100;
+  const selfConsPct = Math.min(v('selfCons') || 35, 100) / 100;
+  const grossCost = v('grossCost');
+  const stcVal = v('stcValue');
+  const battRebate = v('batteryRebate');
+  const stateRebate = v('stateRebate');
+  const netCost = grossCost - stcVal - battRebate - stateRebate;
+  const panelDegPct = (v('panelDeg') || 0.5) / 100;
+  const battDegPct = (v('battDeg') || 2) / 100;
+  const inflationPct = (v('inflation') || 3) / 100;
+  const profile = vs('loadProfile') || 'balanced';
+  const supplyChargeDollars = (v('supplyCharge') || 110) / 100; // cents to dollars
+  const annualSupplyCharge = supplyChargeDollars * 365;
+
+  const baseEffRate = getEffectiveGridRate(profile, battOn);
+  const fitRate = getFitRate();
+
+  const data = [];
+  let cumSaving = -netCost; // starts negative (investment made)
+
+  for (let yr = 1; yr <= 25; yr++) {
+    const panelFactor = Math.pow(1 - panelDegPct, yr - 1);
+    const battFactor = battOn ? Math.pow(1 - battDegPct, yr - 1) : 0;
+    const gridRate = baseEffRate * Math.pow(1 + inflationPct, yr - 1);
+
+    const annualGen = systemKw * psh * 365 * panelFactor;
+
+    // Self-consumed: can't exceed generation OR consumption
+    const selfConsumed = Math.min(annualGen * selfConsPct, annualConsumption);
+    const exported = annualGen - selfConsumed;
+    const gridImport = Math.max(annualConsumption - selfConsumed, 0);
+
+    // Battery adjustment: apply round-trip efficiency to battery-boosted portion
+    // (battFactor just degrades the capacity, already factored into selfConsPct auto-calculation)
+    const batterySaving = battOn && battKwh > 0 ? 0 : 0; // already in selfCons
+
+    const selfConsSaving = selfConsumed * gridRate;
+    const fitEarnings = exported * fitRate;
+    const gridCost = gridImport * gridRate + annualSupplyCharge;
+    const currentBill = annualConsumption * gridRate + annualSupplyCharge;
+
+    const annualSaving = selfConsSaving + fitEarnings;
+    cumSaving += annualSaving;
+
+    data.push({
+      year: yr,
+      annualGen: Math.round(annualGen),
+      selfConsumed: Math.round(selfConsumed),
+      exported: Math.round(exported),
+      gridImport: Math.round(gridImport),
+      selfConsSaving,
+      fitEarnings,
+      gridCost,
+      currentBill,
+      annualSaving,
+      cumSaving,
+      netCost,
+      gridRate,
+      isProfitable: cumSaving >= 0
+    });
+  }
+  return { data, netCost, annualConsumption, baseEffRate, fitRate };
+}
+
+// ─── Main recalc ───
+function recalc() {
+  const { data, netCost, annualConsumption, baseEffRate, fitRate } = buildYearlyData();
+  yearlyData = data;
+  if (!data.length) return;
+
+  const yr1 = data[0];
+  const yr10 = data[9];
+  const yr25 = data[24];
+
+  // Find break-even year
+  let beYear = null;
+  let beFraction = 0;
+  for (let i = 0; i < data.length; i++) {
+    if (data[i].cumSaving >= 0) {
+      beYear = data[i].year;
+      // Interpolate fraction within the year
+      const prevCum = i > 0 ? data[i-1].cumSaving : -netCost;
+      const frac = (-prevCum) / (data[i].annualSaving);
+      beYear = (i > 0 ? data[i-1].year : 0) + Math.max(0, Math.min(1, frac));
+      beFraction = beYear / 25;
+      break;
+    }
+  }
+
+  // KPIs
+  document.getElementById('kpiYear1').textContent = fmtDollarPos(yr1.annualSaving);
+  document.getElementById('kpiPayback').textContent = beYear
+    ? fmtNum(beYear, 1) + ' yrs'
+    : netCost <= 0 ? 'Immediate' : '>25 yrs';
+  document.getElementById('kpi10yr').textContent = fmtDollar(yr10.cumSaving + netCost);
+  document.getElementById('kpi25yr').textContent = fmtDollar(yr25.cumSaving + netCost);
+
+  // Payback bar
+  const pct = beYear ? Math.min(beFraction * 100, 100) : 0;
+  document.getElementById('beFill').style.width = pct + '%';
+  document.getElementById('beMarker').style.left = pct + '%';
+  document.getElementById('beMarker').style.display = beYear ? 'block' : 'none';
+  document.getElementById('paybackFraction').textContent = beYear
+    ? fmtNum(beYear, 1) + ' yrs of 25-yr system life'
+    : '>25 years';
+  document.getElementById('beYearLabel').textContent = beYear
+    ? `System breaks even at year ${fmtNum(beYear, 1)} — ${(25 - beYear).toFixed(1)} years of pure profit follow.`
+    : 'At current inputs, break-even is beyond 25 years — try reducing system cost or increasing consumption.';
+
+  // Waterfall
+  const currentBill = yr1.currentBill;
+  const newBill = yr1.gridCost;
+  document.getElementById('wfCurrentBill').textContent = fmtDollarPos(currentBill) + '/yr';
+  document.getElementById('wfSelfConsSaving').textContent = '−' + fmtDollarPos(yr1.selfConsSaving);
+  document.getElementById('wfFitEarnings').textContent = '−' + fmtDollarPos(yr1.fitEarnings);
+  document.getElementById('wfGridRemain').textContent = '+' + fmtDollarPos(yr1.gridCost);
+  document.getElementById('wfNewBill').textContent = fmtDollarPos(Math.max(0, yr1.gridCost - yr1.fitEarnings)) + '/yr';
+
+  // Energy summary
+  document.getElementById('sumAnnualGen').textContent = yr1.annualGen.toLocaleString();
+  document.getElementById('sumSelfCons').textContent = yr1.selfConsumed.toLocaleString();
+  document.getElementById('sumSelfConsPct').textContent = Math.round(yr1.selfConsumed / yr1.annualGen * 100);
+  document.getElementById('sumExport').textContent = yr1.exported.toLocaleString();
+  document.getElementById('sumGridImport').textContent = yr1.gridImport.toLocaleString();
+
+  // Net cost display
+  const netCostDisplay = document.getElementById('netCostDisplay');
+  netCostDisplay.style.display = 'block';
+  document.getElementById('netCostVal').textContent = fmtDollarPos(Math.max(0, netCost));
+  const state = vs('state');
+  const d = state ? STATE_DEFAULTS[state] : null;
+  document.getElementById('stcZoneNote').textContent = d
+    ? `Solar Zone ${d.zone} · ${fmtNum(d.psh, 2)} peak sun hrs/day`
+    : '';
+
+  // Year table
+  buildYearTable(data, netCost);
+
+  // Chart
+  updateChart(currentChartType, data, netCost);
+
+  // Quote output
+  updateQuoteOutput(yr1, data, beYear, netCost);
+
+  // Show results
+  document.getElementById('resultsWrap').classList.add('show');
+
+  // Notify parent for iframe resize
+  sendHeight();
+}
+
+// ─── Year table ───
+function buildYearTable(data, netCost) {
+  const tbody = document.getElementById('yearTableBody');
+  tbody.innerHTML = '';
+  const showAll = data.length;
+  for (let i = 0; i < showAll; i++) {
+    const d = data[i];
+    const netPos = d.cumSaving; // cumSaving already includes -netCost at start
+    const isBreakeven = d.isProfitable && (i === 0 || !data[i-1].isProfitable);
+    const tr = document.createElement('tr');
+    if (isBreakeven) tr.className = 'breakeven-row';
+    else if (d.isProfitable) tr.className = 'profit';
+    tr.innerHTML = `
+      <td>Year ${d.year}${isBreakeven ? ' ✅' : ''}</td>
+      <td>${fmtDollarPos(d.annualSaving)}</td>
+      <td>${fmtDollarPos(d.cumSaving + netCost)}</td>
+      <td style="color:${netPos>=0?'#16a34a':'#dc2626'}">${fmtDollar(netPos)}</td>
+      <td>${(d.gridRate * 100).toFixed(1)}¢/kWh</td>
+    `;
+    tbody.appendChild(tr);
+  }
+}
+
+// ─── Charts ───
+function showChart(type) {
+  currentChartType = type;
+  ['cumulative','annual','energyflow'].forEach(t => {
+    document.getElementById('btn' + t.charAt(0).toUpperCase() + t.slice(1))?.classList.remove('active');
+    document.getElementById('btnCumulative')?.classList.remove('active');
+    document.getElementById('btnAnnual')?.classList.remove('active');
+    document.getElementById('btnEnergyFlow')?.classList.remove('active');
+  });
+  document.getElementById('btn' + type.charAt(0).toUpperCase() + type.slice(1)).classList.add('active');
+  updateChart(type, yearlyData, yearlyData.length ? yearlyData[0].netCost : 0);
+}
+
+function updateChart(type, data, netCost) {
+  if (!data || !data.length) return;
+  const ctx = document.getElementById('mainChart').getContext('2d');
+
+  if (mainChartInstance) { mainChartInstance.destroy(); }
+
+  const years = data.map(d => 'Yr ' + d.year);
+
+  if (type === 'cumulative') {
+    document.getElementById('chartTitle').textContent = 'Cumulative Net Position — 25 Years';
+    const netPositions = data.map(d => Math.round(d.cumSaving));
+    const colors = netPositions.map(v => v >= 0 ? 'rgba(74,222,128,0.85)' : 'rgba(249,115,22,0.7)');
+
+    mainChartInstance = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: years,
+        datasets: [{
+          label: 'Net Position ($)',
+          data: netPositions,
+          backgroundColor: colors,
+          borderRadius: 3,
+          borderWidth: 0
+        }, {
+          label: 'Cumulative Savings',
+          data: data.map(d => Math.round(d.cumSaving + netCost)),
+          type: 'line',
+          borderColor: '#60a5fa',
+          backgroundColor: 'transparent',
+          borderWidth: 2,
+          pointRadius: 0,
+          tension: 0.3,
+          yAxisID: 'y'
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: true,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: { labels: { color: '#374151', font: { size: 11 } } },
+          tooltip: {
+            callbacks: {
+              label: ctx => {
+                const val = ctx.raw;
+                return ` ${ctx.dataset.label}: ${val >= 0 ? '+' : ''}$${Math.abs(val).toLocaleString()}`;
+              }
+            }
+          }
+        },
+        scales: {
+          x: { ticks: { color: '#94a3b8', font: { size: 10 } }, grid: { display: false } },
+          y: {
+            ticks: { color: '#94a3b8', font: { size: 10 },
+              callback: v => '$' + (Math.abs(v) >= 1000 ? (v/1000).toFixed(0)+'k' : v)
+            },
+            grid: { color: '#f1f5f9' }
+          }
+        }
+      }
+    });
+
+  } else if (type === 'annual') {
+    document.getElementById('chartTitle').textContent = 'Annual Savings — Growing with Inflation (25 Years)';
+    mainChartInstance = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: years,
+        datasets: [{
+          label: 'Self-Consumption Saving',
+          data: data.map(d => Math.round(d.selfConsSaving)),
+          backgroundColor: 'rgba(249,115,22,0.85)',
+          stack: 'savings',
+          borderRadius: 3
+        }, {
+          label: 'Export Earnings',
+          data: data.map(d => Math.round(d.fitEarnings)),
+          backgroundColor: 'rgba(250,204,21,0.85)',
+          stack: 'savings',
+          borderRadius: 0
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: true,
+        plugins: {
+          legend: { labels: { color: '#374151', font: { size: 11 } } },
+          tooltip: {
+            callbacks: {
+              label: ctx => ` ${ctx.dataset.label}: $${ctx.raw.toLocaleString()}`
+            }
+          }
+        },
+        scales: {
+          x: { stacked: true, ticks: { color: '#94a3b8', font: { size: 10 } }, grid: { display: false } },
+          y: { stacked: true, ticks: { color: '#94a3b8', font: { size: 10 },
+              callback: v => '$' + (v >= 1000 ? (v/1000).toFixed(1)+'k' : v)
+            }, grid: { color: '#f1f5f9' } }
+        }
+      }
+    });
+
+  } else if (type === 'energyflow') {
+    document.getElementById('chartTitle').textContent = 'Year 1 Energy Flow Breakdown (kWh)';
+    const d = data[0];
+    mainChartInstance = new Chart(ctx, {
+      type: 'doughnut',
+      data: {
+        labels: ['Solar self-consumed', 'Solar exported to grid', 'Remaining grid import'],
+        datasets: [{
+          data: [d.selfConsumed, d.exported, d.gridImport],
+          backgroundColor: ['#f97316', '#fbbf24', '#60a5fa'],
+          borderWidth: 0,
+          hoverOffset: 8
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: true,
+        plugins: {
+          legend: { position: 'bottom', labels: { color: '#374151', font: { size: 11 }, padding: 16 } },
+          tooltip: {
+            callbacks: {
+              label: ctx => ` ${ctx.label}: ${ctx.raw.toLocaleString()} kWh (${(ctx.raw/(d.selfConsumed+d.exported+d.gridImport)*100).toFixed(1)}%)`
+            }
+          }
+        }
+      }
+    });
+  }
+
+  sendHeight();
+}
+
+// ─── Quote output ───
+function updateQuoteOutput(yr1, data, beYear, netCost) {
+  const profile = vs('loadProfile') || 'balanced';
+  const profileLabel = { dayDynamic: 'Day Dynamic (working from home)', balanced: 'Balanced flat usage', eveningPeak: 'Evening Peak (out all day)' }[profile];
+  const state = vs('state');
+  const stateLabel = { nsw:'NSW',vic:'VIC',qld:'QLD',sa:'SA',wa:'WA',tas:'TAS',nt:'NT',act:'ACT' }[state] || '';
+  const battOn = document.getElementById('batteryToggle').checked;
+  const battKwh = v('batteryKwh');
+  const sysKw = v('systemKw');
+  const fitRate = getFitRate();
+  const netCostDisplay = Math.max(0, netCost);
+  const yr25 = data[24];
+
+  const beText = beYear
+    ? `at year ${fmtNum(beYear, 1)}`
+    : 'beyond the 25-year system life at current inputs';
+
+  const battText = battOn && battKwh > 0
+    ? ` The ${battKwh}kWh battery system stores excess solar generation and discharges into your evening usage window, estimated to increase self-consumption from solar to ${v('selfCons')}% of your annual generation.`
+    : '';
+
+  const quoteText =
+`Solar System Financial Summary — ${stateLabel ? stateLabel + ' ' : ''}${sysKw}kW Solar${battOn && battKwh > 0 ? ' + ' + battKwh + 'kWh Battery' : ''}
+
+Based on your household electricity usage of ${v('dailyKwh')} kWh/day (${profileLabel}), your proposed ${sysKw}kW solar system is estimated to generate ${yr1.annualGen.toLocaleString()} kWh annually.
+
+Year 1 financial performance:
+• Estimated annual savings: $${Math.round(yr1.annualSaving).toLocaleString()}
+• Grid electricity avoided: ${yr1.selfConsumed.toLocaleString()} kWh ($${Math.round(yr1.selfConsSaving).toLocaleString()})
+• Solar feed-in export: ${yr1.exported.toLocaleString()} kWh × ${(fitRate * 100).toFixed(1)}¢ = $${Math.round(yr1.fitEarnings).toLocaleString()}
+• Estimated new annual bill: $${Math.max(0, Math.round(yr1.gridCost - yr1.fitEarnings)).toLocaleString()} (down from $${Math.round(yr1.currentBill).toLocaleString()})${battText}
+
+Net investment after rebates: $${Math.round(netCostDisplay).toLocaleString()}
+Simple payback period: ${beYear ? fmtNum(beYear, 1) + ' years' : '>25 years'} (break-even ${beText})
+Projected 25-year cumulative savings: $${Math.round(yr25.cumSaving + netCostDisplay).toLocaleString()}
+
+These estimates use ${v('inflation')}% annual electricity price growth and ${v('panelDeg')}% annual panel degradation, based on Clean Energy Regulator Zone ${STATE_DEFAULTS[state]?.zone || '—'} solar data${stateLabel ? ' for ' + stateLabel : ''}.`;
+
+  document.getElementById('quoteOutputText').textContent = quoteText;
+}
+
+// ─── Copy to clipboard ───
+function copyQuoteText() {
+  const text = document.getElementById('quoteOutputText').textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.getElementById('copyBtn');
+    btn.textContent = '✅ Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = '📋 Copy to Clipboard';
+      btn.classList.remove('copied');
+    }, 2000);
+  });
+}
+
+// ─── iframe resize ───
+function sendHeight() {
+  setTimeout(() => {
+    parent.postMessage({ type: 'resize', height: document.body.scrollHeight }, '*');
+  }, 60);
+}
+
+window.addEventListener('load', () => {
+  // Set initial load profile note
+  onLoadProfileChange();
+  // Run initial calculation
+  recalc();
+  // Send heights
+  sendHeight();
+  setTimeout(sendHeight, 400);
+  setTimeout(sendHeight, 1000);
+});
+
+// Attach recalc to all remaining inputs not already wired
+document.querySelectorAll('input[type="number"], select').forEach(el => {
+  if (!el.getAttribute('oninput') && !el.getAttribute('onchange')) {
+    el.addEventListener('input', recalc);
+    el.addEventListener('change', recalc);
+  }
+});
+</script>
+</body>
+</html>
