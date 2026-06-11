@@ -449,55 +449,6 @@ input[type="number"]:focus, select:focus {
 .year-table tr.breakeven-row td { background: #fef9c3; font-weight: 700; }
 .year-table tr.profit td { color: #166534; }
 
-/* ─── Blog links ─── */
-.blog-links {
-  margin-top: 14px;
-  background: white;
-  border-radius: 14px;
-  padding: 20px 22px;
-  border: 1px solid #e2e8f0;
-}
-.blog-links-title {
-  font-size: 0.74rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #64748b;
-  margin-bottom: 12px;
-}
-.blog-links-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-}
-@media (max-width: 500px) {
-  .blog-links-grid { grid-template-columns: 1fr; }
-}
-.blog-link-card {
-  display: block;
-  padding: 12px 14px;
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-radius: 9px;
-  text-decoration: none;
-  transition: background 0.15s, border-color 0.15s;
-}
-.blog-link-card:hover { background: #fff7ed; border-color: #fed7aa; }
-.blog-link-card .blc-tag {
-  font-size: 0.67rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: #f97316;
-  margin-bottom: 4px;
-}
-.blog-link-card .blc-title {
-  font-size: 0.83rem;
-  font-weight: 700;
-  color: #1e293b;
-  line-height: 1.3;
-}
-
 /* ─── Live note ─── */
 .live-note {
   font-size: 0.72rem;
@@ -516,6 +467,33 @@ input[type="number"]:focus, select:focus {
   background: #f8fafc;
   border-radius: 8px;
   margin-top: 10px;
+}
+
+/* ─── VPP toggle ─── */
+.vpp-toggle-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 9px;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+.vpp-toggle-row .battery-label { color: #166534; }
+.vpp-toggle-row .battery-label span { color: #4ade80; }
+#vppFields { display: none; }
+#vppFields.show { display: block; }
+.vpp-info-box {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.78rem;
+  color: #166534;
+  margin-top: 12px;
+  line-height: 1.5;
 }
 
 /* ─── Collapsible ─── */
@@ -756,7 +734,47 @@ input[type="number"]:focus, select:focus {
     </div>
   </div>
 
-  <!-- ─── 5. Technical Variables ─── -->
+  <!-- ─── 5. VPP Incentives ─── -->
+  <div class="section">
+    <div class="vpp-toggle-row" onclick="toggleVpp()">
+      <label class="switch" onclick="event.stopPropagation()">
+        <input type="checkbox" id="vppToggle" onchange="toggleVpp()">
+        <span class="slider"></span>
+      </label>
+      <span class="battery-label">Virtual Power Plant (VPP) Incentives <span>Model the impact of joining a VPP — speeds up battery payback dramatically</span></span>
+    </div>
+    <div id="vppFields">
+      <div class="field-grid three">
+        <div class="field">
+          <label>Upfront VPP Rebate ($)</label>
+          <span class="hint">One-off payment or install subsidy from VPP provider (e.g. AGL, Amber, Tesla Energy Plan)</span>
+          <div class="slider-combo">
+            <input type="range" id="vppRebateSlider" min="0" max="5000" step="50" value="500" oninput="syncSlider('vppRebate','vppRebateSlider')">
+            <input type="number" id="vppRebate" min="0" step="50" value="500" oninput="syncNum('vppRebate','vppRebateSlider')">
+          </div>
+        </div>
+        <div class="field">
+          <label>Daily Participation Credit ($/day)</label>
+          <span class="hint">Daily credit just for being enrolled — e.g. $1.00/day = $365/yr regardless of events</span>
+          <div class="slider-combo">
+            <input type="range" id="vppDailySlider" min="0" max="5" step="0.10" value="1.00" oninput="syncSlider('vppDaily','vppDailySlider')">
+            <input type="number" id="vppDaily" min="0" max="10" step="0.10" value="1.00" oninput="syncNum('vppDaily','vppDailySlider')">
+          </div>
+        </div>
+        <div class="field">
+          <label>Annual Event Bonuses ($/yr)</label>
+          <span class="hint">Estimated lump-sum from dispatching into peak grid events — check local VPP history (e.g. $200–$500/yr)</span>
+          <div class="slider-combo">
+            <input type="range" id="vppEventSlider" min="0" max="1000" step="25" value="300" oninput="syncSlider('vppEvent','vppEventSlider')">
+            <input type="number" id="vppEvent" min="0" step="25" value="300" oninput="syncNum('vppEvent','vppEventSlider')">
+          </div>
+        </div>
+      </div>
+      <div id="vppImpactNote" class="vpp-info-box"></div>
+    </div>
+  </div>
+
+  <!-- ─── 6. Technical Variables ─── -->
   <div class="section">
     <div class="collapsible-header" id="techHeader" onclick="toggleCollapse('techBody','techHeader')">
       <div class="section-title" style="margin-bottom:0;">⚙️ Technical &amp; Environmental Variables</div>
@@ -868,6 +886,10 @@ input[type="number"]:focus, select:focus {
           <span>Remaining grid import cost</span>
           <span class="wf-amount" id="wfGridRemain">—</span>
         </div>
+        <div class="wf-row saving" id="wfVppRow" style="display:none;">
+          <span>⚡ VPP credits &amp; event bonuses</span>
+          <span class="wf-amount" id="wfVppSaving">—</span>
+        </div>
         <div class="wf-row total">
           <span>New annual electricity bill</span>
           <span class="wf-amount" id="wfNewBill">—</span>
@@ -929,38 +951,7 @@ input[type="number"]:focus, select:focus {
     </div>
 
     <div class="assumptions">
-      <strong>Assumptions &amp; disclaimers:</strong> This calculator provides estimates only. STC values are estimated at $38/certificate using CER deeming zone factors. Cheaper Home Batteries Scheme rebate applied at $372/kWh (2026 Federal Budget). Battery degradation, panel degradation, and electricity price inflation compound annually. Self-consumption rates are estimates based on load profile; actual rates vary. This calculator does not constitute financial advice. Consult a Clean Energy Council accredited installer for a site-specific assessment.
-    </div>
-
-    <!-- Blog links -->
-    <div class="blog-links">
-      <div class="blog-links-title">📖 Related Reading</div>
-      <div class="blog-links-grid">
-        <a href="https://tradieautomate.com/blog/how-to-write-solar-quote-wins-jobs-australia/" class="blog-link-card" target="_parent">
-          <div class="blc-tag">Solar Installers</div>
-          <div class="blc-title">How to Write a Solar Quote That Wins the Job</div>
-        </a>
-        <a href="https://tradieautomate.com/blog/solar-battery-system-cost-australia-2026/" class="blog-link-card" target="_parent">
-          <div class="blc-tag">Batteries</div>
-          <div class="blc-title">Solar Battery System Cost Australia 2026</div>
-        </a>
-        <a href="https://tradieautomate.com/blog/vic-solar-homes-program-rebate-2026/" class="blog-link-card" target="_parent">
-          <div class="blc-tag">Rebates &amp; Incentives</div>
-          <div class="blc-title">VIC Solar Homes Program Rebate 2026</div>
-        </a>
-        <a href="https://tradieautomate.com/blog/hidden-costs-killing-profit-solar-electrician/" class="blog-link-card" target="_parent">
-          <div class="blc-tag">Business</div>
-          <div class="blc-title">5 Hidden Costs Killing Your Solar Profit</div>
-        </a>
-        <a href="https://tradieautomate.com/blog/how-to-win-commercial-solar-contracts-australia/" class="blog-link-card" target="_parent">
-          <div class="blc-tag">Commercial Solar</div>
-          <div class="blc-title">How to Win Commercial Solar Contracts</div>
-        </a>
-        <a href="https://tradieautomate.com/blog/solar-monitoring-after-sales-revenue-australia/" class="blog-link-card" target="_parent">
-          <div class="blc-tag">After-Sales</div>
-          <div class="blc-title">Solar Monitoring as an After-Sales Revenue Stream</div>
-        </a>
-      </div>
+      <strong>Assumptions &amp; disclaimers:</strong> This calculator provides estimates only. STC values are estimated at $38/certificate using CER deeming zone factors. Cheaper Home Batteries Scheme rebate applied at $372/kWh (2026 Federal Budget). VPP participation credits and event bonuses are user-estimated inputs; actual earnings vary by provider and grid conditions. Battery degradation, panel degradation, and electricity price inflation compound annually. Self-consumption rates are estimates based on load profile; actual rates vary. This calculator does not constitute financial advice. Consult a Clean Energy Council accredited installer for a site-specific assessment.
     </div>
 
   </div><!-- /resultsWrap -->
@@ -1009,6 +1000,23 @@ let tariffType = 'flat';
 let currentChartType = 'cumulative';
 let mainChartInstance = null;
 let yearlyData = [];
+
+// ─── VPP toggle ───
+function toggleVpp() {
+  const on = document.getElementById('vppToggle').checked;
+  document.getElementById('vppFields').classList.toggle('show', on);
+  recalc();
+}
+
+function getVppValues() {
+  const on = document.getElementById('vppToggle').checked;
+  if (!on) return { on: false, upfrontRebate: 0, annualRecurring: 0 };
+  return {
+    on: true,
+    upfrontRebate: v('vppRebate'),
+    annualRecurring: (v('vppDaily') * 365) + v('vppEvent')
+  };
+}
 
 // ─── Mobile detection ───
 function isMobile() { return window.innerWidth < 520; }
@@ -1165,7 +1173,9 @@ function buildYearlyData() {
   const stcVal = v('stcValue');
   const battRebate = v('batteryRebate');
   const stateRebate = v('stateRebate');
-  const netCost = grossCost - stcVal - battRebate - stateRebate;
+  const vpp = getVppValues();
+  // VPP upfront rebate reduces net cost (like a rebate)
+  const netCost = grossCost - stcVal - battRebate - stateRebate - vpp.upfrontRebate;
   const panelDegPct = (v('panelDeg') || 0.5) / 100;
   const inflationPct = (v('inflation') || 3) / 100;
   const profile = vs('loadProfile') || 'balanced';
@@ -1188,21 +1198,23 @@ function buildYearlyData() {
     const fitEarnings = exported * fitRate;
     const gridCost = gridImport * gridRate + annualSupplyCharge;
     const currentBill = annualConsumption * gridRate + annualSupplyCharge;
-    const annualSaving = selfConsSaving + fitEarnings;
+    // VPP recurring income added to annual savings
+    const annualSaving = selfConsSaving + fitEarnings + vpp.annualRecurring;
     cumSaving += annualSaving;
     data.push({
       year: yr, annualGen: Math.round(annualGen),
       selfConsumed: Math.round(selfConsumed), exported: Math.round(exported),
       gridImport: Math.round(gridImport), selfConsSaving, fitEarnings,
+      vppRecurring: vpp.annualRecurring,
       gridCost, currentBill, annualSaving, cumSaving, netCost, gridRate,
       isProfitable: cumSaving >= 0
     });
   }
-  return { data, netCost, annualConsumption, baseEffRate, fitRate };
+  return { data, netCost, annualConsumption, baseEffRate, fitRate, vpp };
 }
 
 function recalc() {
-  const { data, netCost } = buildYearlyData();
+  const { data, netCost, vpp } = buildYearlyData();
   yearlyData = data;
   if (!data.length) return;
 
@@ -1239,6 +1251,25 @@ function recalc() {
   document.getElementById('wfFitEarnings').textContent = '−' + fmtDollarPos(yr1.fitEarnings);
   document.getElementById('wfGridRemain').textContent = '+' + fmtDollarPos(yr1.gridCost);
   document.getElementById('wfNewBill').textContent = fmtDollarPos(Math.max(0, yr1.gridCost - yr1.fitEarnings)) + '/yr';
+
+  // VPP waterfall row
+  const vppRow = document.getElementById('wfVppRow');
+  if (vpp && vpp.on && vpp.annualRecurring > 0) {
+    document.getElementById('wfVppSaving').textContent = '−' + fmtDollarPos(vpp.annualRecurring) + '/yr';
+    vppRow.style.display = 'flex';
+  } else {
+    vppRow.style.display = 'none';
+  }
+
+  // VPP impact note
+  if (vpp && vpp.on) {
+    const noteEl = document.getElementById('vppImpactNote');
+    const dailyStr = v('vppDaily').toFixed(2);
+    const eventStr = v('vppEvent');
+    const annualStr = Math.round(vpp.annualRecurring).toLocaleString();
+    const rebateStr = v('vppRebate').toLocaleString();
+    noteEl.innerHTML = `⚡ <strong>VPP impact:</strong> $${dailyStr}/day × 365 + $${eventStr} events = <strong>$${annualStr}/yr</strong> added to annual savings. $${rebateStr} upfront rebate reduces your net cost. Break-even shown above already includes these values.`;
+  }
 
   document.getElementById('sumAnnualGen').textContent = yr1.annualGen.toLocaleString();
   document.getElementById('sumSelfCons').textContent = yr1.selfConsumed.toLocaleString();
@@ -1458,17 +1489,23 @@ function updateQuoteOutput(yr1, data, beYear, netCost) {
   const battText = battOn && battKwh > 0
     ? ` The ${battKwh}kWh battery system stores excess solar generation and discharges into your evening usage window, estimated to increase self-consumption from solar to ${v('selfCons')}% of your annual generation.`
     : '';
+  const vpp = getVppValues();
+  const vppText = vpp.on && vpp.annualRecurring > 0
+    ? `\n• VPP credits & bonuses: $${Math.round(vpp.annualRecurring).toLocaleString()}/yr (daily participation + estimated event bonuses)\n  → VPP upfront rebate: $${Math.round(v('vppRebate')).toLocaleString()} deducted from net system cost`
+    : '';
+  const soleSavingBase = Math.round(yr1.selfConsSaving + yr1.fitEarnings);
+  const vppContrib = vpp.on ? Math.round(vpp.annualRecurring) : 0;
 
   document.getElementById('quoteOutputText').textContent =
-`Solar System Financial Summary — ${stateLabel ? stateLabel + ' ' : ''}${sysKw}kW Solar${battOn && battKwh > 0 ? ' + ' + battKwh + 'kWh Battery' : ''}
+`Solar System Financial Summary — ${stateLabel ? stateLabel + ' ' : ''}${sysKw}kW Solar${battOn && battKwh > 0 ? ' + ' + battKwh + 'kWh Battery' : ''}${vpp.on ? ' + VPP' : ''}
 
 Based on your household electricity usage of ${v('dailyKwh')} kWh/day (${profileLabel}), your proposed ${sysKw}kW solar system is estimated to generate ${yr1.annualGen.toLocaleString()} kWh annually.
 
 Year 1 financial performance:
-• Estimated annual savings: $${Math.round(yr1.annualSaving).toLocaleString()}
+• Total estimated annual savings: $${Math.round(yr1.annualSaving).toLocaleString()}${vppContrib > 0 ? ` (incl. $${vppContrib.toLocaleString()} VPP)` : ''}
 • Grid electricity avoided: ${yr1.selfConsumed.toLocaleString()} kWh ($${Math.round(yr1.selfConsSaving).toLocaleString()})
 • Solar feed-in export: ${yr1.exported.toLocaleString()} kWh × ${(fitRate * 100).toFixed(1)}¢ = $${Math.round(yr1.fitEarnings).toLocaleString()}
-• Estimated new annual bill: $${Math.max(0, Math.round(yr1.gridCost - yr1.fitEarnings)).toLocaleString()} (down from $${Math.round(yr1.currentBill).toLocaleString()})${battText}
+• Estimated new annual bill: $${Math.max(0, Math.round(yr1.gridCost - yr1.fitEarnings)).toLocaleString()} (down from $${Math.round(yr1.currentBill).toLocaleString()})${vppText}${battText}
 
 Net investment after rebates: $${Math.round(netCostDisplay).toLocaleString()}
 Simple payback period: ${beYear ? fmtNum(beYear, 1) + ' years' : '>25 years'} (break-even ${beText})
