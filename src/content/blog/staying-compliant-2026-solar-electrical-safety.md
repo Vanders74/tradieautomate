@@ -227,3 +227,5 @@ Build your compliance workflows, embed your SWMS checklist, and create the docum
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
 - *[ServiceM8 for Electricians: The Platform Australian Sparkies Use](/blog/servicem8-for-electricians)*
 - *[solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)*
+- *[The 2026 Solar Playbook: How to Win the Battery Upgrade Wave](/blog/solar-playbook-2026-battery-upgrade)*
+- *[The 1.5kW Export Limit Explained for Solar Installers (CSIP-Aus)](/blog/csip-aus-export-limit-1-5kw-solar)*

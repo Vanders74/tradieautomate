@@ -184,5 +184,6 @@ For building the full pricing model, see our [hidden costs guide](/blog/hidden-c
 - *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
 - *[The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)*
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
+- *[How to Set Up Electrical Award Allowances in Xero Payroll (Without the Manual Math)](/blog/xero-payroll-electrical-award-allowances)*
 - [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)

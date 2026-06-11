@@ -194,6 +194,8 @@ If you're at the point where you know you need to scale but aren't sure where to
 - *[ServiceM8 for Electricians: The Platform Australian Sparkies Use](/blog/servicem8-for-electricians)*
 - *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
 - *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
+- *[How to Set Up Electrical Award Allowances in Xero Payroll (Without the Manual Math)](/blog/xero-payroll-electrical-award-allowances)*
+- *[Tap to Pay on iPhone for Australian Tradies: Get Paid on the Spot](/blog/tap-to-pay-iphone-tradies-australia)*
 
 ---
 

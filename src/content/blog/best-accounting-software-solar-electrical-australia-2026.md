@@ -172,6 +172,7 @@ Your bookkeeper should set up your accounting platform correctly for your award 
 
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
 - *[Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026)*
+- *[How to Set Up Electrical Award Allowances in Xero Payroll (Without the Manual Math)](/blog/xero-payroll-electrical-award-allowances)*
 - *[The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)*
 - *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
 - *[ServiceM8 vs Jobber: The 2026 Tradie Software Guide](/blog/servicem8-vs-jobber-tradie-software-guide-2026)*

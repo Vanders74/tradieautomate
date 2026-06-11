@@ -193,3 +193,5 @@ For most businesses we see, it's either unbilled time or late payment float. Bot
 - *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
 - *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
 - *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
+- *[How to Set Up Electrical Award Allowances in Xero Payroll (Without the Manual Math)](/blog/xero-payroll-electrical-award-allowances)*
+- *[Tap to Pay on iPhone for Australian Tradies: Get Paid on the Spot](/blog/tap-to-pay-iphone-tradies-australia)*

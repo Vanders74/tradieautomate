@@ -185,3 +185,5 @@ For larger, more complex construction project management, you may need additiona
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
+- *[ServiceM8 for Painters: Quote Faster, Invoice Sooner, Chase Less](/blog/servicem8-for-painters)*
+- *[ServiceM8 for Roofing Contractors: Manage Jobs, Quotes, and Compliance From the Field](/blog/servicem8-for-roofing)*
