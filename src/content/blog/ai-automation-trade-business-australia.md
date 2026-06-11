@@ -201,3 +201,4 @@ The most practical approach is using ServiceM8's digital form builder to create 
 ## Related Reading
 
 - [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+- [Tap to Pay on iPhone for Australian Tradies: Get Paid on the Spot](/blog/tap-to-pay-iphone-tradies-australia)

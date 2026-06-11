@@ -258,6 +258,9 @@ Yes — ServiceM8 offers a 14-day free trial with no credit card required. You g
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
 - *[ServiceM8 for Plumbers: Run a Tighter Plumbing Business With Less Admin](/blog/servicem8-for-plumbers)*
 - *[ServiceM8 for HVAC Technicians](/blog/servicem8-for-hvac)*
+- *[ServiceM8 for Painters: Quote Faster, Invoice Sooner, Chase Less](/blog/servicem8-for-painters)*
+- *[ServiceM8 for Roofing Contractors: Manage Jobs, Quotes, and Compliance From the Field](/blog/servicem8-for-roofing)*
+- *[simPRO vs ServiceM8: Which Fits a 3-Man HVAC Business Better?](/blog/simpro-vs-servicem8-hvac-small-business)*
 - *[ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia)*
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
 - *[ServiceM8 vs Fergus: Honest Comparison for Australian Trades](/blog/servicem8-vs-fergus)*
