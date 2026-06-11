@@ -26,6 +26,9 @@ body {
   border: 1px solid #e2e8f0;
   box-shadow: 0 1px 4px rgba(0,0,0,0.04);
 }
+@media (max-width: 480px) {
+  .section { padding: 16px 14px; border-radius: 10px; }
+}
 
 .section-title {
   font-size: 0.74rem;
@@ -84,8 +87,8 @@ body {
 .slider-combo input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 18px;
-  height: 18px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
   background: #f97316;
   cursor: pointer;
@@ -96,7 +99,7 @@ body {
   box-shadow: 0 0 0 5px rgba(249,115,22,0.25);
 }
 .slider-combo input[type="number"] {
-  width: 76px;
+  width: 72px;
   flex-shrink: 0;
 }
 
@@ -132,22 +135,6 @@ input[type="number"]:focus, select:focus {
   font-weight: 600;
   color: #374151;
   margin-right: 4px;
-}
-.toggle-btn {
-  padding: 6px 14px;
-  border-radius: 6px;
-  border: 1px solid #d1d5db;
-  background: #f9fafb;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: #64748b;
-  cursor: pointer;
-  transition: all 0.15s;
-}
-.toggle-btn.active {
-  background: #f97316;
-  border-color: #f97316;
-  color: white;
 }
 .pill-toggle {
   display: flex;
@@ -220,9 +207,6 @@ input[type="number"]:focus, select:focus {
 #batteryFields { display: none; }
 #batteryFields.show { display: block; }
 
-#touFields { display: none; }
-#touFields.show { display: block; }
-
 .state-defaults-note {
   font-size: 0.72rem;
   color: #10b981;
@@ -248,48 +232,51 @@ input[type="number"]:focus, select:focus {
   margin-bottom: 18px;
 }
 @media (max-width: 580px) {
-  .kpi-grid { grid-template-columns: 1fr 1fr; }
+  .kpi-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
 }
 
 .kpi-card {
   background: #0f172a;
   border-radius: 12px;
-  padding: 14px 12px;
+  padding: 14px 10px;
   text-align: center;
+}
+@media (max-width: 580px) {
+  .kpi-card { padding: 12px 8px; border-radius: 10px; }
 }
 .kpi-card.green { background: linear-gradient(135deg, #064e3b, #065f46); }
 .kpi-card.orange { background: linear-gradient(135deg, #7c2d12, #9a3412); }
 .kpi-card.blue { background: linear-gradient(135deg, #1e3a5f, #1e40af); }
 .kpi-card.purple { background: linear-gradient(135deg, #4c1d95, #5b21b6); }
 .kpi-val {
-  font-size: 1.35rem;
+  font-size: clamp(1rem, 4vw, 1.35rem);
   font-weight: 800;
   color: white;
   display: block;
   line-height: 1.1;
 }
 .kpi-lbl {
-  font-size: 0.68rem;
+  font-size: clamp(0.58rem, 1.8vw, 0.68rem);
   color: rgba(255,255,255,0.65);
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
   margin-top: 4px;
   display: block;
 }
 
 /* ─── Waterfall ─── */
-.waterfall {
-  margin-bottom: 14px;
-}
+.waterfall { margin-bottom: 14px; }
 .wf-row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 7px 12px;
+  align-items: flex-start;
+  padding: 8px 12px;
   border-radius: 7px;
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   margin-bottom: 3px;
+  gap: 8px;
 }
+.wf-row span:first-child { flex: 1; min-width: 0; }
 .wf-row.saving { background: #f0fdf4; color: #166534; }
 .wf-row.cost { background: #fef2f2; color: #991b1b; }
 .wf-row.neutral { background: #f8fafc; color: #374151; border: 1px solid #e2e8f0; }
@@ -297,9 +284,9 @@ input[type="number"]:focus, select:focus {
   background: #0f172a;
   color: white;
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
 }
-.wf-amount { font-weight: 700; }
+.wf-amount { font-weight: 700; white-space: nowrap; flex-shrink: 0; }
 
 /* ─── Breakeven bar ─── */
 .breakeven-bar-wrap {
@@ -316,6 +303,8 @@ input[type="number"]:focus, select:focus {
   margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px;
 }
 .be-track {
   height: 12px;
@@ -347,9 +336,7 @@ input[type="number"]:focus, select:focus {
 }
 
 /* ─── Chart section ─── */
-.chart-section {
-  margin-top: 14px;
-}
+.chart-section { margin-top: 14px; }
 .chart-toggle-row {
   display: flex;
   gap: 8px;
@@ -357,15 +344,16 @@ input[type="number"]:focus, select:focus {
   margin-bottom: 12px;
 }
 .chart-btn {
-  padding: 6px 14px;
+  padding: 7px 16px;
   border-radius: 20px;
   border: 1px solid #e2e8f0;
   background: white;
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: #64748b;
   cursor: pointer;
   transition: all 0.15s;
+  touch-action: manipulation;
 }
 .chart-btn.active {
   background: #0f172a;
@@ -375,14 +363,15 @@ input[type="number"]:focus, select:focus {
 .chart-wrap {
   background: white;
   border-radius: 12px;
-  padding: 16px;
+  padding: 12px 8px 4px;
   border: 1px solid #e2e8f0;
 }
 .chart-title {
   font-size: 0.8rem;
   font-weight: 700;
   color: #374151;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  padding: 0 6px;
 }
 
 /* ─── Quote output ─── */
@@ -426,25 +415,19 @@ input[type="number"]:focus, select:focus {
   color: white;
   border: none;
   border-radius: 8px;
-  padding: 9px 18px;
-  font-size: 0.82rem;
+  padding: 10px 20px;
+  font-size: 0.85rem;
   font-weight: 700;
   cursor: pointer;
   transition: background 0.15s, transform 0.1s;
+  touch-action: manipulation;
 }
 .copy-btn:hover { background: #ea580c; transform: translateY(-1px); }
 .copy-btn.copied { background: #10b981; }
 
 /* ─── 25-year table ─── */
-.year-table-wrap {
-  overflow-x: auto;
-  margin-top: 14px;
-}
-.year-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.8rem;
-}
+.year-table-wrap { overflow-x: auto; margin-top: 14px; -webkit-overflow-scrolling: touch; }
+.year-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; min-width: 340px; }
 .year-table th {
   background: #f1f5f9;
   padding: 7px 10px;
@@ -466,7 +449,56 @@ input[type="number"]:focus, select:focus {
 .year-table tr.breakeven-row td { background: #fef9c3; font-weight: 700; }
 .year-table tr.profit td { color: #166534; }
 
-/* ─── Calc button ─── */
+/* ─── Blog links ─── */
+.blog-links {
+  margin-top: 14px;
+  background: white;
+  border-radius: 14px;
+  padding: 20px 22px;
+  border: 1px solid #e2e8f0;
+}
+.blog-links-title {
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #64748b;
+  margin-bottom: 12px;
+}
+.blog-links-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+@media (max-width: 500px) {
+  .blog-links-grid { grid-template-columns: 1fr; }
+}
+.blog-link-card {
+  display: block;
+  padding: 12px 14px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 9px;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+.blog-link-card:hover { background: #fff7ed; border-color: #fed7aa; }
+.blog-link-card .blc-tag {
+  font-size: 0.67rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #f97316;
+  margin-bottom: 4px;
+}
+.blog-link-card .blc-title {
+  font-size: 0.83rem;
+  font-weight: 700;
+  color: #1e293b;
+  line-height: 1.3;
+}
+
+/* ─── Live note ─── */
 .live-note {
   font-size: 0.72rem;
   color: #10b981;
@@ -843,29 +875,28 @@ input[type="number"]:focus, select:focus {
       </div>
 
       <!-- Energy flow summary -->
-      <div style="display:flex;gap:10px;flex-wrap:wrap;font-size:0.78rem;color:#64748b;margin-top:8px;">
-        <span>☀️ Annual generation: <strong id="sumAnnualGen">—</strong> kWh</span>
-        <span>🏠 Self-consumed: <strong id="sumSelfCons">—</strong> kWh (<span id="sumSelfConsPct">—</span>%)</span>
-        <span>⚡ Grid export: <strong id="sumExport">—</strong> kWh</span>
-        <span>🔋 Grid import remaining: <strong id="sumGridImport">—</strong> kWh</span>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;font-size:0.76rem;color:#64748b;margin-top:8px;">
+        <span>☀️ Gen: <strong id="sumAnnualGen">—</strong> kWh</span>
+        <span>🏠 Self-used: <strong id="sumSelfCons">—</strong> kWh (<span id="sumSelfConsPct">—</span>%)</span>
+        <span>⚡ Exported: <strong id="sumExport">—</strong> kWh</span>
+        <span>🔋 Grid import: <strong id="sumGridImport">—</strong> kWh</span>
       </div>
     </div>
 
-    <!-- Charts -->
+    <!-- Charts — 2 tabs only (Energy Flow removed) -->
     <div class="section chart-section">
       <div class="results-header">📈 Visual Analysis</div>
       <div class="chart-toggle-row">
         <button class="chart-btn active" id="btnCumulative" onclick="showChart('cumulative')">Cumulative Savings</button>
         <button class="chart-btn" id="btnAnnual" onclick="showChart('annual')">Annual Savings Growth</button>
-        <button class="chart-btn" id="btnEnergyFlow" onclick="showChart('energyflow')">Energy Flow</button>
       </div>
       <div class="chart-wrap">
-        <div class="chart-title" id="chartTitle">Cumulative Savings vs Investment — 25 Years</div>
-        <canvas id="mainChart" style="max-height:320px;"></canvas>
+        <div class="chart-title" id="chartTitle">Cumulative Net Position — 25 Years</div>
+        <canvas id="mainChart"></canvas>
       </div>
     </div>
 
-    <!-- Optional: Year-by-year table -->
+    <!-- Year-by-year table -->
     <div class="section">
       <div class="collapsible-header" id="tableHeader" onclick="toggleCollapse('tableBody','tableHeader')">
         <div class="results-header" style="margin-bottom:0;">📋 Year-by-Year Breakdown</div>
@@ -900,7 +931,39 @@ input[type="number"]:focus, select:focus {
     <div class="assumptions">
       <strong>Assumptions &amp; disclaimers:</strong> This calculator provides estimates only. STC values are estimated at $38/certificate using CER deeming zone factors. Cheaper Home Batteries Scheme rebate applied at $372/kWh (2026 Federal Budget). Battery degradation, panel degradation, and electricity price inflation compound annually. Self-consumption rates are estimates based on load profile; actual rates vary. This calculator does not constitute financial advice. Consult a Clean Energy Council accredited installer for a site-specific assessment.
     </div>
-  </div>
+
+    <!-- Blog links -->
+    <div class="blog-links">
+      <div class="blog-links-title">📖 Related Reading</div>
+      <div class="blog-links-grid">
+        <a href="https://tradieautomate.com/blog/how-to-write-solar-quote-wins-jobs-australia/" class="blog-link-card" target="_parent">
+          <div class="blc-tag">Solar Installers</div>
+          <div class="blc-title">How to Write a Solar Quote That Wins the Job</div>
+        </a>
+        <a href="https://tradieautomate.com/blog/solar-battery-system-cost-australia-2026/" class="blog-link-card" target="_parent">
+          <div class="blc-tag">Batteries</div>
+          <div class="blc-title">Solar Battery System Cost Australia 2026</div>
+        </a>
+        <a href="https://tradieautomate.com/blog/vic-solar-homes-program-rebate-2026/" class="blog-link-card" target="_parent">
+          <div class="blc-tag">Rebates &amp; Incentives</div>
+          <div class="blc-title">VIC Solar Homes Program Rebate 2026</div>
+        </a>
+        <a href="https://tradieautomate.com/blog/hidden-costs-killing-profit-solar-electrician/" class="blog-link-card" target="_parent">
+          <div class="blc-tag">Business</div>
+          <div class="blc-title">5 Hidden Costs Killing Your Solar Profit</div>
+        </a>
+        <a href="https://tradieautomate.com/blog/how-to-win-commercial-solar-contracts-australia/" class="blog-link-card" target="_parent">
+          <div class="blc-tag">Commercial Solar</div>
+          <div class="blc-title">How to Win Commercial Solar Contracts</div>
+        </a>
+        <a href="https://tradieautomate.com/blog/solar-monitoring-after-sales-revenue-australia/" class="blog-link-card" target="_parent">
+          <div class="blc-tag">After-Sales</div>
+          <div class="blc-title">Solar Monitoring as an After-Sales Revenue Stream</div>
+        </a>
+      </div>
+    </div>
+
+  </div><!-- /resultsWrap -->
 
 </div>
 
@@ -918,30 +981,24 @@ const STATE_DEFAULTS = {
 };
 
 const STC_ZONE_FACTORS = { 1: 1.636, 2: 1.536, 3: 1.382, 4: 1.185 };
-const STC_DEEMING = 4; // years to 2030
+const STC_DEEMING = 4;
 const STC_PRICE = 38;
 const BATTERY_REBATE_PER_KWH = 372;
 const BATTERY_REBATE_CAP_KWH = 50;
 
-// Load profile self-consumption defaults (without battery)
 const LOAD_PROFILE_SELFCONS = { dayDynamic: 45, balanced: 35, eveningPeak: 25 };
-// Battery boost: additional % of self-consumption added per 10kWh battery (diminishing returns)
-// Also depends on load profile
-const LOAD_PROFILE_BATTERY_BOOST = { dayDynamic: 12, balanced: 18, eveningPeak: 28 }; // per 10kWh
+const LOAD_PROFILE_BATTERY_BOOST = { dayDynamic: 12, balanced: 18, eveningPeak: 28 };
 const LOAD_PROFILE_NOTES = {
   dayDynamic: '☀️ Day Dynamic: High daytime usage means the most solar is consumed directly — no battery needed to maximise self-consumption. Best pure-solar ROI.',
   balanced: '⚖️ Balanced: Moderate self-consumption throughout the day. A battery modestly improves evening grid independence.',
   eveningPeak: '🌙 Evening Peak: Most of your usage is 4–9pm when solar isn\'t generating. A battery is a strong recommendation — it stores daytime solar and discharges into your peak usage window.'
 };
 
-// ToU blend weights by load profile (what tariff band is the self-consumed solar offsetting?)
-// Solar generates ~9am–4pm (shoulder band for most retailers)
 const TOU_BLEND_SELFCONS = {
   dayDynamic:   { peak: 0.15, shoulder: 0.60, offPeak: 0.25 },
   balanced:     { peak: 0.12, shoulder: 0.55, offPeak: 0.33 },
   eveningPeak:  { peak: 0.05, shoulder: 0.65, offPeak: 0.30 }
 };
-// With battery, can offset more peak (evening discharge)
 const TOU_BLEND_WITH_BATTERY = {
   dayDynamic:   { peak: 0.30, shoulder: 0.45, offPeak: 0.25 },
   balanced:     { peak: 0.35, shoulder: 0.40, offPeak: 0.25 },
@@ -953,20 +1010,22 @@ let currentChartType = 'cumulative';
 let mainChartInstance = null;
 let yearlyData = [];
 
+// ─── Mobile detection ───
+function isMobile() { return window.innerWidth < 520; }
+
 // ─── Sync helpers ───
 function syncSlider(numId, sliderId) {
-  const v = parseFloat(document.getElementById(numId).value);
+  const val = parseFloat(document.getElementById(numId).value);
   const s = document.getElementById(sliderId);
-  if (!isNaN(v)) { s.value = v; }
+  if (!isNaN(val)) { s.value = val; }
   recalc();
 }
 function syncNum(numId, sliderId) {
-  const v = parseFloat(document.getElementById(sliderId).value);
-  document.getElementById(numId).value = v;
+  const val = parseFloat(document.getElementById(sliderId).value);
+  document.getElementById(numId).value = val;
   recalc();
 }
 function v(id) { return parseFloat(document.getElementById(id).value) || 0; }
-function vi(id) { return parseInt(document.getElementById(id).value) || 0; }
 function vs(id) { return document.getElementById(id).value; }
 
 // ─── State change ───
@@ -975,28 +1034,17 @@ function onStateChange() {
   if (!state) return;
   const d = STATE_DEFAULTS[state];
   if (!d) return;
-
-  // Set PSH
   document.getElementById('peakSun').value = d.psh;
   document.getElementById('peakSunSlider').value = d.psh;
-
-  // Set flat rate
   document.getElementById('flatRate').value = d.flatRate;
   document.getElementById('flatRateSlider').value = d.flatRate;
-
-  // Set FiT
   document.getElementById('fitRate').value = d.fit;
   document.getElementById('fitRateSlider').value = d.fit;
   document.getElementById('touFit').value = d.fit;
   document.getElementById('touFitSlider').value = d.fit;
-
-  // Set supply charge
   document.getElementById('supplyCharge').value = d.supplyCharge;
   document.getElementById('supplyChargeSlider').value = d.supplyCharge;
-
   document.getElementById('stateDefaultsNote').style.display = 'inline';
-
-  // Recalculate STC (zone changed)
   updateStcAuto();
   recalc();
 }
@@ -1010,7 +1058,6 @@ function onLoadProfileChange() {
   recalc();
 }
 
-// ─── Tariff type toggle ───
 function setTariffType(type) {
   tariffType = type;
   document.getElementById('btnFlat').classList.toggle('active', type === 'flat');
@@ -1021,7 +1068,6 @@ function setTariffType(type) {
   recalc();
 }
 
-// ─── Battery toggle ───
 function toggleBattery() {
   const on = document.getElementById('batteryToggle').checked;
   document.getElementById('batteryFields').classList.toggle('show', on);
@@ -1030,17 +1076,13 @@ function toggleBattery() {
   recalc();
 }
 
-// ─── Self-consumption auto-set ───
 function updateSelfConsDefault() {
   const profile = vs('loadProfile') || 'balanced';
   const battOn = document.getElementById('batteryToggle').checked;
   const battKwh = v('batteryKwh');
-  const dailyKwh = v('dailyKwh') || 20;
-
   let base = LOAD_PROFILE_SELFCONS[profile] || 35;
   if (battOn && battKwh > 0) {
     const boost = LOAD_PROFILE_BATTERY_BOOST[profile] || 18;
-    // Diminishing returns: first 10kWh gives full boost, next 10kWh gives 60%, etc.
     const boostAmount = boost * (1 - Math.exp(-battKwh / 12));
     base = Math.min(base + boostAmount, 95);
   }
@@ -1049,17 +1091,12 @@ function updateSelfConsDefault() {
   document.getElementById('selfConsSlider').value = rounded;
 }
 
-// ─── STC auto-calc ───
 function updateStcAuto() {
   const stcField = document.getElementById('stcValue');
   if (stcField.dataset.auto !== 'true') return;
   const state = vs('state');
   const kw = v('systemKw');
-  if (!state || !kw) {
-    stcField.value = 0;
-    document.getElementById('stcAutoNote').textContent = '';
-    return;
-  }
+  if (!state || !kw) { stcField.value = 0; document.getElementById('stcAutoNote').textContent = ''; return; }
   const d = STATE_DEFAULTS[state];
   if (!d) return;
   const zoneFactor = STC_ZONE_FACTORS[d.zone] || 1.382;
@@ -1071,16 +1108,11 @@ function updateStcAuto() {
   recalc();
 }
 
-// ─── Battery rebate auto-calc ───
 function updateBatteryRebateAuto() {
   const rebateField = document.getElementById('batteryRebate');
   if (rebateField.dataset.auto !== 'true') return;
   const battOn = document.getElementById('batteryToggle').checked;
-  if (!battOn) {
-    rebateField.value = 0;
-    document.getElementById('batteryRebateNote').textContent = '';
-    return;
-  }
+  if (!battOn) { rebateField.value = 0; document.getElementById('batteryRebateNote').textContent = ''; return; }
   const kwh = v('batteryKwh');
   const eligible = Math.min(kwh, BATTERY_REBATE_CAP_KWH);
   const rebate = Math.round(eligible * BATTERY_REBATE_PER_KWH);
@@ -1090,7 +1122,6 @@ function updateBatteryRebateAuto() {
   recalc();
 }
 
-// Override auto when user edits
 document.getElementById('stcValue').addEventListener('input', function() { this.dataset.auto = 'false'; recalc(); });
 document.getElementById('batteryRebate').addEventListener('input', function() { this.dataset.auto = 'false'; recalc(); });
 document.getElementById('batteryKwh').addEventListener('input', function() { updateBatteryRebateAuto(); updateSelfConsDefault(); });
@@ -1098,29 +1129,23 @@ document.getElementById('batteryKwhSlider').addEventListener('input', function()
 document.getElementById('systemKw').addEventListener('input', function() { updateStcAuto(); });
 document.getElementById('systemKwSlider').addEventListener('input', function() { updateStcAuto(); });
 
-// ─── Collapsible ───
 function toggleCollapse(bodyId, headerId) {
-  const body = document.getElementById(bodyId);
-  const header = document.getElementById(headerId);
-  body.classList.toggle('hidden');
-  header.classList.toggle('open');
+  document.getElementById(bodyId).classList.toggle('hidden');
+  document.getElementById(headerId).classList.toggle('open');
 }
 
-// ─── Format helpers ───
-function fmtDollar(v) {
-  const abs = Math.abs(Math.round(v));
-  return (v < 0 ? '−' : '') + '$' + abs.toLocaleString();
+function fmtDollar(val) {
+  const abs = Math.abs(Math.round(val));
+  return (val < 0 ? '−' : '') + '$' + abs.toLocaleString();
 }
-function fmtDollarPos(v) { return '$' + Math.round(v).toLocaleString(); }
-function fmtNum(v, dp) { return v.toFixed(dp || 0); }
+function fmtDollarPos(val) { return '$' + Math.round(val).toLocaleString(); }
+function fmtNum(val, dp) { return val.toFixed(dp || 0); }
 
-// ─── Effective grid rate (flat or ToU blend) ───
 function getEffectiveGridRate(profile, battOn) {
   if (tariffType === 'flat') return v('flatRate');
   const peak = v('touPeak'), shoulder = v('touShoulder'), offPeak = v('touOffPeak');
   const blend = (battOn && document.getElementById('batteryToggle').checked)
-    ? TOU_BLEND_WITH_BATTERY[profile]
-    : TOU_BLEND_SELFCONS[profile];
+    ? TOU_BLEND_WITH_BATTERY[profile] : TOU_BLEND_SELFCONS[profile];
   return blend.peak * peak + blend.shoulder * shoulder + blend.offPeak * offPeak;
 }
 
@@ -1128,7 +1153,6 @@ function getFitRate() {
   return tariffType === 'flat' ? v('fitRate') : v('touFit');
 }
 
-// ─── Main calculation model ───
 function buildYearlyData() {
   const dailyKwh = v('dailyKwh') || 20;
   const annualConsumption = dailyKwh * 365;
@@ -1136,7 +1160,6 @@ function buildYearlyData() {
   const systemKw = v('systemKw') || 10;
   const battOn = document.getElementById('batteryToggle').checked;
   const battKwh = battOn ? v('batteryKwh') : 0;
-  const battEff = (v('battEff') || 94) / 100;
   const selfConsPct = Math.min(v('selfCons') || 35, 100) / 100;
   const grossCost = v('grossCost');
   const stcVal = v('stcValue');
@@ -1144,157 +1167,103 @@ function buildYearlyData() {
   const stateRebate = v('stateRebate');
   const netCost = grossCost - stcVal - battRebate - stateRebate;
   const panelDegPct = (v('panelDeg') || 0.5) / 100;
-  const battDegPct = (v('battDeg') || 2) / 100;
   const inflationPct = (v('inflation') || 3) / 100;
   const profile = vs('loadProfile') || 'balanced';
-  const supplyChargeDollars = (v('supplyCharge') || 110) / 100; // cents to dollars
-  const annualSupplyCharge = supplyChargeDollars * 365;
+  const annualSupplyCharge = ((v('supplyCharge') || 110) / 100) * 365;
 
   const baseEffRate = getEffectiveGridRate(profile, battOn);
   const fitRate = getFitRate();
 
   const data = [];
-  let cumSaving = -netCost; // starts negative (investment made)
+  let cumSaving = -netCost;
 
   for (let yr = 1; yr <= 25; yr++) {
     const panelFactor = Math.pow(1 - panelDegPct, yr - 1);
-    const battFactor = battOn ? Math.pow(1 - battDegPct, yr - 1) : 0;
     const gridRate = baseEffRate * Math.pow(1 + inflationPct, yr - 1);
-
     const annualGen = systemKw * psh * 365 * panelFactor;
-
-    // Self-consumed: can't exceed generation OR consumption
     const selfConsumed = Math.min(annualGen * selfConsPct, annualConsumption);
     const exported = annualGen - selfConsumed;
     const gridImport = Math.max(annualConsumption - selfConsumed, 0);
-
-    // Battery adjustment: apply round-trip efficiency to battery-boosted portion
-    // (battFactor just degrades the capacity, already factored into selfConsPct auto-calculation)
-    const batterySaving = battOn && battKwh > 0 ? 0 : 0; // already in selfCons
-
     const selfConsSaving = selfConsumed * gridRate;
     const fitEarnings = exported * fitRate;
     const gridCost = gridImport * gridRate + annualSupplyCharge;
     const currentBill = annualConsumption * gridRate + annualSupplyCharge;
-
     const annualSaving = selfConsSaving + fitEarnings;
     cumSaving += annualSaving;
-
     data.push({
-      year: yr,
-      annualGen: Math.round(annualGen),
-      selfConsumed: Math.round(selfConsumed),
-      exported: Math.round(exported),
-      gridImport: Math.round(gridImport),
-      selfConsSaving,
-      fitEarnings,
-      gridCost,
-      currentBill,
-      annualSaving,
-      cumSaving,
-      netCost,
-      gridRate,
+      year: yr, annualGen: Math.round(annualGen),
+      selfConsumed: Math.round(selfConsumed), exported: Math.round(exported),
+      gridImport: Math.round(gridImport), selfConsSaving, fitEarnings,
+      gridCost, currentBill, annualSaving, cumSaving, netCost, gridRate,
       isProfitable: cumSaving >= 0
     });
   }
   return { data, netCost, annualConsumption, baseEffRate, fitRate };
 }
 
-// ─── Main recalc ───
 function recalc() {
-  const { data, netCost, annualConsumption, baseEffRate, fitRate } = buildYearlyData();
+  const { data, netCost } = buildYearlyData();
   yearlyData = data;
   if (!data.length) return;
 
-  const yr1 = data[0];
-  const yr10 = data[9];
-  const yr25 = data[24];
+  const yr1 = data[0], yr10 = data[9], yr25 = data[24];
 
-  // Find break-even year
+  // Break-even interpolation
   let beYear = null;
-  let beFraction = 0;
   for (let i = 0; i < data.length; i++) {
     if (data[i].cumSaving >= 0) {
-      beYear = data[i].year;
-      // Interpolate fraction within the year
       const prevCum = i > 0 ? data[i-1].cumSaving : -netCost;
-      const frac = (-prevCum) / (data[i].annualSaving);
+      const frac = (-prevCum) / data[i].annualSaving;
       beYear = (i > 0 ? data[i-1].year : 0) + Math.max(0, Math.min(1, frac));
-      beFraction = beYear / 25;
       break;
     }
   }
+  const beFraction = beYear ? beYear / 25 : 0;
 
-  // KPIs
   document.getElementById('kpiYear1').textContent = fmtDollarPos(yr1.annualSaving);
-  document.getElementById('kpiPayback').textContent = beYear
-    ? fmtNum(beYear, 1) + ' yrs'
-    : netCost <= 0 ? 'Immediate' : '>25 yrs';
+  document.getElementById('kpiPayback').textContent = beYear ? fmtNum(beYear, 1) + ' yrs' : (netCost <= 0 ? 'Now' : '>25 yrs');
   document.getElementById('kpi10yr').textContent = fmtDollar(yr10.cumSaving + netCost);
   document.getElementById('kpi25yr').textContent = fmtDollar(yr25.cumSaving + netCost);
 
-  // Payback bar
-  const pct = beYear ? Math.min(beFraction * 100, 100) : 0;
+  const pct = Math.min(beFraction * 100, 100);
   document.getElementById('beFill').style.width = pct + '%';
   document.getElementById('beMarker').style.left = pct + '%';
   document.getElementById('beMarker').style.display = beYear ? 'block' : 'none';
-  document.getElementById('paybackFraction').textContent = beYear
-    ? fmtNum(beYear, 1) + ' yrs of 25-yr system life'
-    : '>25 years';
+  document.getElementById('paybackFraction').textContent = beYear ? fmtNum(beYear, 1) + ' yrs of 25' : '>25 yrs';
   document.getElementById('beYearLabel').textContent = beYear
     ? `System breaks even at year ${fmtNum(beYear, 1)} — ${(25 - beYear).toFixed(1)} years of pure profit follow.`
     : 'At current inputs, break-even is beyond 25 years — try reducing system cost or increasing consumption.';
 
-  // Waterfall
-  const currentBill = yr1.currentBill;
-  const newBill = yr1.gridCost;
-  document.getElementById('wfCurrentBill').textContent = fmtDollarPos(currentBill) + '/yr';
+  document.getElementById('wfCurrentBill').textContent = fmtDollarPos(yr1.currentBill) + '/yr';
   document.getElementById('wfSelfConsSaving').textContent = '−' + fmtDollarPos(yr1.selfConsSaving);
   document.getElementById('wfFitEarnings').textContent = '−' + fmtDollarPos(yr1.fitEarnings);
   document.getElementById('wfGridRemain').textContent = '+' + fmtDollarPos(yr1.gridCost);
   document.getElementById('wfNewBill').textContent = fmtDollarPos(Math.max(0, yr1.gridCost - yr1.fitEarnings)) + '/yr';
 
-  // Energy summary
   document.getElementById('sumAnnualGen').textContent = yr1.annualGen.toLocaleString();
   document.getElementById('sumSelfCons').textContent = yr1.selfConsumed.toLocaleString();
   document.getElementById('sumSelfConsPct').textContent = Math.round(yr1.selfConsumed / yr1.annualGen * 100);
   document.getElementById('sumExport').textContent = yr1.exported.toLocaleString();
   document.getElementById('sumGridImport').textContent = yr1.gridImport.toLocaleString();
 
-  // Net cost display
-  const netCostDisplay = document.getElementById('netCostDisplay');
-  netCostDisplay.style.display = 'block';
+  const netCostEl = document.getElementById('netCostDisplay');
+  netCostEl.style.display = 'block';
   document.getElementById('netCostVal').textContent = fmtDollarPos(Math.max(0, netCost));
-  const state = vs('state');
-  const d = state ? STATE_DEFAULTS[state] : null;
-  document.getElementById('stcZoneNote').textContent = d
-    ? `Solar Zone ${d.zone} · ${fmtNum(d.psh, 2)} peak sun hrs/day`
-    : '';
+  const state = vs('state'), d = state ? STATE_DEFAULTS[state] : null;
+  document.getElementById('stcZoneNote').textContent = d ? `Solar Zone ${d.zone} · ${fmtNum(d.psh, 2)} peak sun hrs/day` : '';
 
-  // Year table
   buildYearTable(data, netCost);
-
-  // Chart
   updateChart(currentChartType, data, netCost);
-
-  // Quote output
   updateQuoteOutput(yr1, data, beYear, netCost);
-
-  // Show results
   document.getElementById('resultsWrap').classList.add('show');
-
-  // Notify parent for iframe resize
   sendHeight();
 }
 
-// ─── Year table ───
 function buildYearTable(data, netCost) {
   const tbody = document.getElementById('yearTableBody');
   tbody.innerHTML = '';
-  const showAll = data.length;
-  for (let i = 0; i < showAll; i++) {
-    const d = data[i];
-    const netPos = d.cumSaving; // cumSaving already includes -netCost at start
+  data.forEach((d, i) => {
+    const netPos = d.cumSaving;
     const isBreakeven = d.isProfitable && (i === 0 || !data[i-1].isProfitable);
     const tr = document.createElement('tr');
     if (isBreakeven) tr.className = 'breakeven-row';
@@ -1304,29 +1273,76 @@ function buildYearTable(data, netCost) {
       <td>${fmtDollarPos(d.annualSaving)}</td>
       <td>${fmtDollarPos(d.cumSaving + netCost)}</td>
       <td style="color:${netPos>=0?'#16a34a':'#dc2626'}">${fmtDollar(netPos)}</td>
-      <td>${(d.gridRate * 100).toFixed(1)}¢/kWh</td>
+      <td>${(d.gridRate * 100).toFixed(1)}¢</td>
     `;
     tbody.appendChild(tr);
-  }
+  });
 }
 
-// ─── Charts ───
+// ─── Mobile-optimised chart options ───
+function getMobileChartOptions(overrides) {
+  const mobile = isMobile();
+  // On mobile, show every 5th year label; on desktop show all
+  const tickStep = mobile ? 5 : 2;
+  const legendFontSize = mobile ? 10 : 12;
+  const tickFontSize = mobile ? 9 : 10;
+  const aspectRatio = mobile ? 1.3 : 2.0;
+
+  return {
+    responsive: true,
+    maintainAspectRatio: true,
+    aspectRatio,
+    interaction: { mode: 'index', intersect: false },
+    plugins: {
+      legend: {
+        labels: {
+          color: '#374151',
+          font: { size: legendFontSize },
+          boxWidth: mobile ? 10 : 14,
+          padding: mobile ? 8 : 12,
+          usePointStyle: mobile
+        }
+      },
+      tooltip: overrides.tooltip || {}
+    },
+    scales: {
+      x: {
+        ticks: {
+          color: '#94a3b8',
+          font: { size: tickFontSize },
+          maxRotation: 0,
+          callback: function(val, idx) {
+            // Show every Nth label to avoid crowding on mobile
+            return idx % tickStep === 0 ? this.getLabelForValue(val) : '';
+          }
+        },
+        grid: { display: false }
+      },
+      y: {
+        ticks: {
+          color: '#94a3b8',
+          font: { size: tickFontSize },
+          maxTicksLimit: mobile ? 5 : 8,
+          callback: overrides.yCallback || (val => '$' + (Math.abs(val) >= 1000 ? (val/1000).toFixed(0)+'k' : val))
+        },
+        grid: { color: '#f1f5f9' }
+      },
+      ...overrides.extraScales
+    },
+    ...overrides.extra
+  };
+}
+
 function showChart(type) {
   currentChartType = type;
-  ['cumulative','annual','energyflow'].forEach(t => {
-    document.getElementById('btn' + t.charAt(0).toUpperCase() + t.slice(1))?.classList.remove('active');
-    document.getElementById('btnCumulative')?.classList.remove('active');
-    document.getElementById('btnAnnual')?.classList.remove('active');
-    document.getElementById('btnEnergyFlow')?.classList.remove('active');
-  });
-  document.getElementById('btn' + type.charAt(0).toUpperCase() + type.slice(1)).classList.add('active');
+  document.getElementById('btnCumulative').classList.toggle('active', type === 'cumulative');
+  document.getElementById('btnAnnual').classList.toggle('active', type === 'annual');
   updateChart(type, yearlyData, yearlyData.length ? yearlyData[0].netCost : 0);
 }
 
 function updateChart(type, data, netCost) {
   if (!data || !data.length) return;
   const ctx = document.getElementById('mainChart').getContext('2d');
-
   if (mainChartInstance) { mainChartInstance.destroy(); }
 
   const years = data.map(d => 'Yr ' + d.year);
@@ -1334,20 +1350,21 @@ function updateChart(type, data, netCost) {
   if (type === 'cumulative') {
     document.getElementById('chartTitle').textContent = 'Cumulative Net Position — 25 Years';
     const netPositions = data.map(d => Math.round(d.cumSaving));
-    const colors = netPositions.map(v => v >= 0 ? 'rgba(74,222,128,0.85)' : 'rgba(249,115,22,0.7)');
+    const colors = netPositions.map(val => val >= 0 ? 'rgba(74,222,128,0.85)' : 'rgba(249,115,22,0.7)');
 
     mainChartInstance = new Chart(ctx, {
       type: 'bar',
       data: {
         labels: years,
         datasets: [{
-          label: 'Net Position ($)',
+          label: 'Net Position',
           data: netPositions,
           backgroundColor: colors,
-          borderRadius: 3,
-          borderWidth: 0
+          borderRadius: 2,
+          borderWidth: 0,
+          order: 2
         }, {
-          label: 'Cumulative Savings',
+          label: 'Gross Savings',
           data: data.map(d => Math.round(d.cumSaving + netCost)),
           type: 'line',
           borderColor: '#60a5fa',
@@ -1355,106 +1372,77 @@ function updateChart(type, data, netCost) {
           borderWidth: 2,
           pointRadius: 0,
           tension: 0.3,
-          yAxisID: 'y'
+          order: 1
         }]
       },
-      options: {
-        responsive: true, maintainAspectRatio: true,
-        interaction: { mode: 'index', intersect: false },
-        plugins: {
-          legend: { labels: { color: '#374151', font: { size: 11 } } },
-          tooltip: {
-            callbacks: {
-              label: ctx => {
-                const val = ctx.raw;
-                return ` ${ctx.dataset.label}: ${val >= 0 ? '+' : ''}$${Math.abs(val).toLocaleString()}`;
-              }
+      options: getMobileChartOptions({
+        tooltip: {
+          callbacks: {
+            label: ctx => {
+              const val = ctx.raw;
+              return ` ${ctx.dataset.label}: ${val >= 0 ? '+' : ''}$${Math.abs(val).toLocaleString()}`;
             }
           }
-        },
-        scales: {
-          x: { ticks: { color: '#94a3b8', font: { size: 10 } }, grid: { display: false } },
-          y: {
-            ticks: { color: '#94a3b8', font: { size: 10 },
-              callback: v => '$' + (Math.abs(v) >= 1000 ? (v/1000).toFixed(0)+'k' : v)
-            },
-            grid: { color: '#f1f5f9' }
-          }
         }
-      }
+      })
     });
 
   } else if (type === 'annual') {
-    document.getElementById('chartTitle').textContent = 'Annual Savings — Growing with Inflation (25 Years)';
+    document.getElementById('chartTitle').textContent = 'Annual Savings — Growing with Inflation';
     mainChartInstance = new Chart(ctx, {
       type: 'bar',
       data: {
         labels: years,
         datasets: [{
-          label: 'Self-Consumption Saving',
+          label: 'Self-Use Saving',
           data: data.map(d => Math.round(d.selfConsSaving)),
           backgroundColor: 'rgba(249,115,22,0.85)',
           stack: 'savings',
-          borderRadius: 3
+          borderRadius: 2
         }, {
           label: 'Export Earnings',
           data: data.map(d => Math.round(d.fitEarnings)),
           backgroundColor: 'rgba(250,204,21,0.85)',
-          stack: 'savings',
-          borderRadius: 0
+          stack: 'savings'
         }]
       },
-      options: {
-        responsive: true, maintainAspectRatio: true,
-        plugins: {
-          legend: { labels: { color: '#374151', font: { size: 11 } } },
-          tooltip: {
-            callbacks: {
-              label: ctx => ` ${ctx.dataset.label}: $${ctx.raw.toLocaleString()}`
-            }
+      options: getMobileChartOptions({
+        tooltip: {
+          callbacks: {
+            label: ctx => ` ${ctx.dataset.label}: $${ctx.raw.toLocaleString()}`
           }
         },
-        scales: {
-          x: { stacked: true, ticks: { color: '#94a3b8', font: { size: 10 } }, grid: { display: false } },
-          y: { stacked: true, ticks: { color: '#94a3b8', font: { size: 10 },
-              callback: v => '$' + (v >= 1000 ? (v/1000).toFixed(1)+'k' : v)
-            }, grid: { color: '#f1f5f9' } }
-        }
-      }
-    });
-
-  } else if (type === 'energyflow') {
-    document.getElementById('chartTitle').textContent = 'Year 1 Energy Flow Breakdown (kWh)';
-    const d = data[0];
-    mainChartInstance = new Chart(ctx, {
-      type: 'doughnut',
-      data: {
-        labels: ['Solar self-consumed', 'Solar exported to grid', 'Remaining grid import'],
-        datasets: [{
-          data: [d.selfConsumed, d.exported, d.gridImport],
-          backgroundColor: ['#f97316', '#fbbf24', '#60a5fa'],
-          borderWidth: 0,
-          hoverOffset: 8
-        }]
-      },
-      options: {
-        responsive: true, maintainAspectRatio: true,
-        plugins: {
-          legend: { position: 'bottom', labels: { color: '#374151', font: { size: 11 }, padding: 16 } },
-          tooltip: {
-            callbacks: {
-              label: ctx => ` ${ctx.label}: ${ctx.raw.toLocaleString()} kWh (${(ctx.raw/(d.selfConsumed+d.exported+d.gridImport)*100).toFixed(1)}%)`
-            }
+        extraScales: {
+          x: {
+            stacked: true,
+            ticks: {
+              color: '#94a3b8',
+              font: { size: isMobile() ? 9 : 10 },
+              maxRotation: 0,
+              callback: function(val, idx) {
+                return idx % (isMobile() ? 5 : 2) === 0 ? this.getLabelForValue(val) : '';
+              }
+            },
+            grid: { display: false }
+          },
+          y: {
+            stacked: true,
+            ticks: {
+              color: '#94a3b8',
+              font: { size: isMobile() ? 9 : 10 },
+              maxTicksLimit: isMobile() ? 5 : 8,
+              callback: val => '$' + (val >= 1000 ? (val/1000).toFixed(1)+'k' : val)
+            },
+            grid: { color: '#f1f5f9' }
           }
         }
-      }
+      })
     });
   }
 
   sendHeight();
 }
 
-// ─── Quote output ───
 function updateQuoteOutput(yr1, data, beYear, netCost) {
   const profile = vs('loadProfile') || 'balanced';
   const profileLabel = { dayDynamic: 'Day Dynamic (working from home)', balanced: 'Balanced flat usage', eveningPeak: 'Evening Peak (out all day)' }[profile];
@@ -1466,16 +1454,12 @@ function updateQuoteOutput(yr1, data, beYear, netCost) {
   const fitRate = getFitRate();
   const netCostDisplay = Math.max(0, netCost);
   const yr25 = data[24];
-
-  const beText = beYear
-    ? `at year ${fmtNum(beYear, 1)}`
-    : 'beyond the 25-year system life at current inputs';
-
+  const beText = beYear ? `at year ${fmtNum(beYear, 1)}` : 'beyond the 25-year system life at current inputs';
   const battText = battOn && battKwh > 0
     ? ` The ${battKwh}kWh battery system stores excess solar generation and discharges into your evening usage window, estimated to increase self-consumption from solar to ${v('selfCons')}% of your annual generation.`
     : '';
 
-  const quoteText =
+  document.getElementById('quoteOutputText').textContent =
 `Solar System Financial Summary — ${stateLabel ? stateLabel + ' ' : ''}${sysKw}kW Solar${battOn && battKwh > 0 ? ' + ' + battKwh + 'kWh Battery' : ''}
 
 Based on your household electricity usage of ${v('dailyKwh')} kWh/day (${profileLabel}), your proposed ${sysKw}kW solar system is estimated to generate ${yr1.annualGen.toLocaleString()} kWh annually.
@@ -1491,43 +1475,42 @@ Simple payback period: ${beYear ? fmtNum(beYear, 1) + ' years' : '>25 years'} (b
 Projected 25-year cumulative savings: $${Math.round(yr25.cumSaving + netCostDisplay).toLocaleString()}
 
 These estimates use ${v('inflation')}% annual electricity price growth and ${v('panelDeg')}% annual panel degradation, based on Clean Energy Regulator Zone ${STATE_DEFAULTS[state]?.zone || '—'} solar data${stateLabel ? ' for ' + stateLabel : ''}.`;
-
-  document.getElementById('quoteOutputText').textContent = quoteText;
 }
 
-// ─── Copy to clipboard ───
 function copyQuoteText() {
   const text = document.getElementById('quoteOutputText').textContent;
   navigator.clipboard.writeText(text).then(() => {
     const btn = document.getElementById('copyBtn');
     btn.textContent = '✅ Copied!';
     btn.classList.add('copied');
-    setTimeout(() => {
-      btn.textContent = '📋 Copy to Clipboard';
-      btn.classList.remove('copied');
-    }, 2000);
+    setTimeout(() => { btn.textContent = '📋 Copy to Clipboard'; btn.classList.remove('copied'); }, 2000);
   });
 }
 
-// ─── iframe resize ───
 function sendHeight() {
   setTimeout(() => {
     parent.postMessage({ type: 'resize', height: document.body.scrollHeight }, '*');
-  }, 60);
+  }, 80);
 }
 
 window.addEventListener('load', () => {
-  // Set initial load profile note
   onLoadProfileChange();
-  // Run initial calculation
   recalc();
-  // Send heights
   sendHeight();
-  setTimeout(sendHeight, 400);
-  setTimeout(sendHeight, 1000);
+  setTimeout(sendHeight, 500);
+  setTimeout(sendHeight, 1200);
 });
 
-// Attach recalc to all remaining inputs not already wired
+// Redraw chart on resize (mobile orientation change etc.)
+let resizeTimer;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    if (yearlyData.length) updateChart(currentChartType, yearlyData, yearlyData[0].netCost);
+    sendHeight();
+  }, 200);
+});
+
 document.querySelectorAll('input[type="number"], select').forEach(el => {
   if (!el.getAttribute('oninput') && !el.getAttribute('onchange')) {
     el.addEventListener('input', recalc);
