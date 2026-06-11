@@ -1,0 +1,315 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+const title = "Solar Savings & Break-Even Calculator | Know Your Payback Before You Buy";
+const description = "Free homeowner calculator for Australian solar. Enter your usage, tariff, system specs and rebates — instantly see Year 1 savings, break-even year, and a 25-year forecast. Generates copy-paste quote text for solar installers.";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <style>
+      .tool-hero {
+        background: linear-gradient(135deg, #0f172a 0%, #1a2744 100%);
+        color: white;
+        padding: 56px 24px 48px;
+        text-align: center;
+      }
+      .tool-hero .badge {
+        display: inline-block;
+        background: rgba(74,222,128,0.12);
+        border: 1px solid rgba(74,222,128,0.35);
+        color: #4ade80;
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        padding: 4px 12px;
+        border-radius: 100px;
+        margin-bottom: 16px;
+      }
+      .tool-hero h1 {
+        font-size: clamp(1.6rem, 4vw, 2.5rem);
+        font-weight: 800;
+        line-height: 1.2;
+        margin: 0 auto 16px;
+        max-width: 720px;
+        color: #ffffff !important;
+        text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+      }
+      .tool-hero p {
+        font-size: 1.05rem;
+        color: #cbd5e1;
+        max-width: 580px;
+        margin: 0 auto;
+      }
+      .tool-stats {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+        margin-top: 32px;
+        flex-wrap: wrap;
+      }
+      .stat { text-align: center; }
+      .stat-number {
+        font-size: 1.6rem;
+        font-weight: 800;
+        color: #4ade80;
+        display: block;
+      }
+      .stat-label {
+        font-size: 0.78rem;
+        color: #64748b;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+      }
+      .tool-container {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 40px 24px 60px;
+      }
+      .calc-wrapper {
+        background: white;
+        border-radius: 16px;
+        overflow: visible;
+        box-shadow: 0 4px 32px rgba(0,0,0,0.09);
+      }
+      .context-block {
+        margin-top: 40px;
+        background: #f8fafc;
+        border-radius: 12px;
+        padding: 28px 32px;
+        border: 1px solid #e2e8f0;
+      }
+      .context-block h2 {
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: #0f172a;
+        margin-bottom: 12px;
+      }
+      .context-block p, .context-block ul {
+        color: #475569;
+        font-size: 0.93rem;
+        line-height: 1.65;
+        margin-bottom: 10px;
+      }
+      .context-block ul { padding-left: 18px; }
+      .context-block ul li { margin-bottom: 6px; }
+      .context-block p:last-child { margin-bottom: 0; }
+      .what-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        gap: 12px;
+        margin-top: 20px;
+      }
+      .what-card {
+        background: white;
+        border: 1px solid #e2e8f0;
+        border-radius: 10px;
+        padding: 14px 16px;
+      }
+      .what-card .icon { font-size: 1.3rem; margin-bottom: 6px; display: block; }
+      .what-card .label { font-size: 0.8rem; font-weight: 700; color: #374151; margin-bottom: 3px; }
+      .what-card .desc { font-size: 0.76rem; color: #6b7280; line-height: 1.4; }
+      .cta-block {
+        margin-top: 40px;
+        background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+        border-radius: 12px;
+        padding: 32px;
+        text-align: center;
+        color: white;
+      }
+      .cta-block h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 8px; color: white !important; }
+      .cta-block p { font-size: 0.88rem; opacity: 0.92; margin-bottom: 20px; }
+      .cta-btn {
+        display: inline-block;
+        background: white;
+        color: #ea580c;
+        font-weight: 700;
+        font-size: 0.95rem;
+        padding: 12px 28px;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: transform 0.1s, box-shadow 0.1s;
+      }
+      .cta-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 16px rgba(0,0,0,0.15); }
+      .tools-nav {
+        margin-top: 32px;
+        padding-top: 24px;
+        border-top: 1px solid #e2e8f0;
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .tools-nav a {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: #f1f5f9;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        padding: 8px 14px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: #475569;
+        text-decoration: none;
+        transition: background 0.15s;
+      }
+      .tools-nav a:hover { background: #e2e8f0; color: #1e293b; }
+      .back-links { margin-top: 24px; }
+      .back-links h4 {
+        font-size: 0.78rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: #94a3b8;
+        margin-bottom: 10px;
+      }
+      .back-links ul {
+        list-style: none;
+        padding: 0; margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .back-links ul li a { color: #f97316; text-decoration: none; font-size: 0.88rem; font-weight: 600; }
+      .back-links ul li a:hover { text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <div class="tool-hero">
+        <div class="badge">☀️ Free Tool — Homeowners &amp; Solar Installers</div>
+        <h1>Solar Savings &amp; Break-Even Calculator</h1>
+        <p>Enter your household usage, tariff structure, system size, and rebates — see exactly when solar pays back and what it earns you over 25 years.</p>
+        <div class="tool-stats">
+          <div class="stat">
+            <span class="stat-number">25-yr model</span>
+            <span class="stat-label">with degradation &amp; inflation</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">State defaults</span>
+            <span class="stat-label">tariffs, FiT &amp; rebates auto-fill</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">Quote output</span>
+            <span class="stat-label">copy-paste text for installers</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tool-container">
+        <div class="calc-wrapper">
+          <iframe
+            src="/solar-savings-calculator.html"
+            width="100%"
+            height="1200"
+            frameborder="0"
+            scrolling="no"
+            style="display: block; border-radius: 16px; min-height: 1200px; transition: height 0.2s ease;"
+            title="Solar Savings & Break-Even Calculator"
+            id="solar-savings-iframe"
+          ></iframe>
+        </div>
+
+        <script>
+          (function() {
+            var iframe = document.getElementById('solar-savings-iframe');
+            window.addEventListener('message', function(e) {
+              if (e.data && e.data.type === 'resize') {
+                var h = Math.max(e.data.height + 40, 1200);
+                iframe.style.height = h + 'px';
+              }
+            });
+            if (iframe) {
+              iframe.addEventListener('load', function() {
+                setTimeout(function() {
+                  try {
+                    var h = iframe.contentWindow.document.body.scrollHeight;
+                    if (h > 0) iframe.style.height = Math.max(h + 40, 1200) + 'px';
+                  } catch(e) {}
+                }, 400);
+              });
+            }
+          })();
+        </script>
+
+        <div class="context-block">
+          <h2>What This Calculator Models</h2>
+          <div class="what-grid">
+            <div class="what-card">
+              <span class="icon">🏠</span>
+              <div class="label">Household Usage Profile</div>
+              <div class="desc">Daily kWh + when you use power — changes self-consumption dramatically</div>
+            </div>
+            <div class="what-card">
+              <span class="icon">💡</span>
+              <div class="label">Flat or Time-of-Use Tariffs</div>
+              <div class="desc">Full ToU modelling — peak, shoulder and off-peak blend based on your load profile</div>
+            </div>
+            <div class="what-card">
+              <span class="icon">🔋</span>
+              <div class="label">Battery Storage</div>
+              <div class="desc">Toggle a battery on to see the uplift in self-consumption and payback impact</div>
+            </div>
+            <div class="what-card">
+              <span class="icon">💰</span>
+              <div class="label">All 2026 Rebates</div>
+              <div class="desc">STC auto-calc by zone, $372/kWh battery scheme, and state rebates</div>
+            </div>
+            <div class="what-card">
+              <span class="icon">📈</span>
+              <div class="label">25-Year Forecast</div>
+              <div class="desc">Panel &amp; battery degradation + electricity price inflation compounded annually</div>
+            </div>
+            <div class="what-card">
+              <span class="icon">✍️</span>
+              <div class="label">Quote Output Block</div>
+              <div class="desc">Generates copy-paste text installers drop directly into their customer quote</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="context-block">
+          <h2>How to Use This to Win More Jobs</h2>
+          <ul>
+            <li><strong>Run it during the site survey</strong> — enter the customer's actual bill details on the spot. A live, personalised forecast built in front of the customer is far more persuasive than a generic savings claim in a later quote.</li>
+            <li><strong>Always show the battery comparison</strong> — toggle battery on and off and show both results side-by-side. Many customers say yes to battery when they can see the payback difference directly.</li>
+            <li><strong>Copy the Quote Output Block</strong> — paste it into Section 2 (System Summary) of your solar quote. It matches the format recommended in our <a href="/blog/how-to-write-solar-quote-wins-jobs-australia" style="color:#f97316;font-weight:600;">Solar Quote Writing Guide</a>.</li>
+            <li><strong>Check your margin too</strong> — once you've confirmed the system works for the customer, run the <a href="/tools/solar-quote-calculator" style="color:#f97316;font-weight:600;">Solar Quote Profitability Calculator</a> to make sure it also works for you.</li>
+          </ul>
+        </div>
+
+        <div class="cta-block">
+          <h3>Turn Every Quote Into a Trackable Job</h3>
+          <p>ServiceM8 connects solar quotes to site surveys, compliance checklists, CER documentation, and automatic invoicing — so nothing falls through the cracks after a customer says yes.</p>
+          <a href="https://www.servicem8.com/?ref=tradieautomate" class="cta-btn" target="_blank" rel="noopener">
+            Start Free 14-Day Trial →
+          </a>
+        </div>
+
+        <div class="tools-nav">
+          <a href="/tools/solar-quote-calculator">💹 Solar Quote Profitability Calculator</a>
+          <a href="/tools/admin-cost-calculator">🧮 Admin Cost Calculator</a>
+          <a href="/blog/how-to-write-solar-quote-wins-jobs-australia">📋 Solar Quote Writing Guide</a>
+        </div>
+
+        <div class="back-links">
+          <h4>Related Articles</h4>
+          <ul>
+            <li><a href="/blog/how-to-write-solar-quote-wins-jobs-australia">How to Write a Solar Quote That Wins the Job</a></li>
+            <li><a href="/blog/how-to-get-more-solar-leads-australia-2026">How to Get More Solar Leads in Australia (2026)</a></li>
+            <li><a href="/blog/solar-battery-system-cost-australia-2026">Solar Battery System Cost Australia 2026</a></li>
+            <li><a href="/blog/vic-solar-homes-program-rebate-2026">VIC Solar Homes Program Rebate 2026</a></li>
+            <li><a href="/blog/hidden-costs-killing-profit-solar-electrician">5 Hidden Costs Killing Your Solar Profit</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
