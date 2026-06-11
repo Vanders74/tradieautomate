@@ -1246,11 +1246,15 @@ function recalc() {
     ? `System breaks even at year ${fmtNum(beYear, 1)} — ${(25 - beYear).toFixed(1)} years of pure profit follow.`
     : 'At current inputs, break-even is beyond 25 years — try reducing system cost or increasing consumption.';
 
+  // Effective annual bill = grid cost remaining after FiT credits and VPP income
+  const vppRecurringYr1 = (vpp && vpp.on) ? vpp.annualRecurring : 0;
+  const effectiveNewBill = Math.max(0, yr1.gridCost - yr1.fitEarnings - vppRecurringYr1);
+
   document.getElementById('wfCurrentBill').textContent = fmtDollarPos(yr1.currentBill) + '/yr';
   document.getElementById('wfSelfConsSaving').textContent = '−' + fmtDollarPos(yr1.selfConsSaving);
   document.getElementById('wfFitEarnings').textContent = '−' + fmtDollarPos(yr1.fitEarnings);
   document.getElementById('wfGridRemain').textContent = '+' + fmtDollarPos(yr1.gridCost);
-  document.getElementById('wfNewBill').textContent = fmtDollarPos(Math.max(0, yr1.gridCost - yr1.fitEarnings)) + '/yr';
+  document.getElementById('wfNewBill').textContent = fmtDollarPos(effectiveNewBill) + '/yr';
 
   // VPP waterfall row
   const vppRow = document.getElementById('wfVppRow');
@@ -1435,7 +1439,12 @@ function updateChart(type, data, netCost) {
           data: data.map(d => Math.round(d.fitEarnings)),
           backgroundColor: 'rgba(250,204,21,0.85)',
           stack: 'savings'
-        }]
+        }, ...(data[0] && data[0].vppRecurring > 0 ? [{
+          label: 'VPP Income',
+          data: data.map(d => Math.round(d.vppRecurring)),
+          backgroundColor: 'rgba(74,222,128,0.85)',
+          stack: 'savings'
+        }] : [])]
       },
       options: getMobileChartOptions({
         tooltip: {
@@ -1505,7 +1514,7 @@ Year 1 financial performance:
 • Total estimated annual savings: $${Math.round(yr1.annualSaving).toLocaleString()}${vppContrib > 0 ? ` (incl. $${vppContrib.toLocaleString()} VPP)` : ''}
 • Grid electricity avoided: ${yr1.selfConsumed.toLocaleString()} kWh ($${Math.round(yr1.selfConsSaving).toLocaleString()})
 • Solar feed-in export: ${yr1.exported.toLocaleString()} kWh × ${(fitRate * 100).toFixed(1)}¢ = $${Math.round(yr1.fitEarnings).toLocaleString()}
-• Estimated new annual bill: $${Math.max(0, Math.round(yr1.gridCost - yr1.fitEarnings)).toLocaleString()} (down from $${Math.round(yr1.currentBill).toLocaleString()})${vppText}${battText}
+• Estimated new annual bill: $${Math.max(0, Math.round(yr1.gridCost - yr1.fitEarnings - (vpp.on ? vpp.annualRecurring : 0))).toLocaleString()} (down from $${Math.round(yr1.currentBill).toLocaleString()})${vppText}${battText}
 
 Net investment after rebates: $${Math.round(netCostDisplay).toLocaleString()}
 Simple payback period: ${beYear ? fmtNum(beYear, 1) + ' years' : '>25 years'} (break-even ${beText})
