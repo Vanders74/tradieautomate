@@ -708,6 +708,51 @@ input[type="number"]:focus, select:focus {
   text-align: center;
 }
 
+/* ─── System Size Recommendation Box ─── */
+.size-recommend-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: linear-gradient(135deg, #fff7ed 0%, #fef3c7 100%);
+  border: 1.5px solid #f97316;
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-top: 14px;
+}
+.size-recommend-icon {
+  font-size: 1.3rem;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.size-recommend-text {
+  font-size: 0.82rem;
+  color: #7c2d12;
+  line-height: 1.55;
+}
+.size-recommend-text strong {
+  color: #c2410c;
+  font-size: 0.92rem;
+}
+.size-recommend-text .rec-tag {
+  display: inline-block;
+  background: #f97316;
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 2px 7px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.size-recommend-text .rec-min {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.76rem;
+  color: #92400e;
+  opacity: 0.85;
+}
+
 /* ─── Seasonal Consumption Section ─── */
 .seasonal-section {
   background: linear-gradient(135deg, #0f2042 0%, #1e3a5f 100%);
@@ -882,6 +927,12 @@ input[type="number"]:focus, select:focus {
       </div>
     </div>
     <div id="loadProfileNote" class="assumptions" style="display:none;"></div>
+
+    <!-- System size recommendation -->
+    <div id="sizeRecommendBox" class="size-recommend-box" style="display:none;">
+      <div class="size-recommend-icon">💡</div>
+      <div class="size-recommend-text" id="sizeRecommendText"></div>
+    </div>
   </div>
 
   <!-- ─── ADVANCED SETTINGS ACCORDION (Tariff only) ─── -->
@@ -1000,10 +1051,10 @@ input[type="number"]:focus, select:focus {
     <div class="field-grid" style="margin-bottom:14px;">
       <div class="field">
         <label>Solar Array Size (kW)</label>
-        <span class="hint">Total panel capacity</span>
+        <span class="hint" id="systemKwHint">Total panel capacity</span>
         <div class="slider-combo">
-          <input type="range" id="systemKwSlider" min="3" max="30" step="0.1" value="10" oninput="syncSlider('systemKw','systemKwSlider')">
-          <input type="number" id="systemKw" min="1" max="30" step="0.1" value="10" oninput="syncNum('systemKw','systemKwSlider')">
+          <input type="range" id="systemKwSlider" min="3" max="30" step="0.1" value="10" oninput="syncSlider('systemKw','systemKwSlider'); onSystemKwManualChange();">
+          <input type="number" id="systemKw" min="1" max="30" step="0.1" value="10" oninput="syncNum('systemKw','systemKwSlider'); onSystemKwManualChange();">
         </div>
       </div>
       <div class="field">
@@ -1584,6 +1635,8 @@ function onLoadProfileChange() {
   note.textContent = LOAD_PROFILE_NOTES[profile] || '';
   note.style.display = LOAD_PROFILE_NOTES[profile] ? 'block' : 'none';
   updateSelfConsDefault();
+  _userOverrode = false; // Load profile change resets override so we auto-fill again
+  updateSystemSizeRecommendation();
   recalc();
 }
 
@@ -2241,16 +2294,107 @@ document.querySelectorAll('input[type="number"], select').forEach(el => {
 function updateSeasonalAvg() {
   const summer = parseFloat(document.getElementById('summerKwh').value) || 45;
   const winter = parseFloat(document.getElementById('winterKwh').value) || 35;
-  // Weight: roughly 6 months each, but solar performance peaks in summer
-  // Simple annual average: (summer + winter) / 2
   const avg = Math.round(((summer + winter) / 2) * 10) / 10;
-  // Update the display
   document.getElementById('seasonalAvgDisplay').textContent = avg.toFixed(1) + ' kWh/day';
-  // Drive the hidden dailyKwh field
   document.getElementById('dailyKwh').value = avg;
   document.getElementById('dailyKwhSlider').value = avg;
+  updateSystemSizeRecommendation();
   recalc();
   sendHeight();
+}
+
+// ─── System Size Recommendation ────────────────────────────────────────────
+// Standard installed system sizes available in Australia
+const STD_SIZES = [5, 6.6, 8, 10, 13, 15, 16.5, 20];
+
+// Peak sun hours by load profile (accounts for self-consumption timing)
+const PSH_BY_PROFILE = { dayDynamic: 4.4, balanced: 4.2, eveningPeak: 4.0 };
+
+// Performance ratio (degradation, shading, temp losses)
+const PERF_RATIO = 0.77;
+
+let _recommendedKw = null;   // track the auto-recommended value
+let _userOverrode = false;   // true if user manually dragged the slider
+
+function updateSystemSizeRecommendation() {
+  const summer = parseFloat(document.getElementById('summerKwh').value) || 45;
+  const winter = parseFloat(document.getElementById('winterKwh').value) || 35;
+  const dailyAvg = (summer + winter) / 2;
+  const profile = vs('loadProfile') || 'balanced';
+
+  // We want the system to cover ~90% of peak (winter) consumption
+  // Use winter as the design load — more conservative, ensures year-round coverage
+  const designLoad = Math.max(summer, winter);  // size to handle the heavier season
+  const psh = PSH_BY_PROFILE[profile] || 4.2;
+
+  // kW needed: designLoad / (psh × PR)
+  const rawKw = designLoad / (psh * PERF_RATIO);
+
+  // Round up to next standard size
+  let recKw = STD_SIZES.find(s => s >= rawKw) || 20;
+  _recommendedKw = recKw;
+
+  // Load profile labels
+  const profileLabel = { dayDynamic: 'Day Dynamic (home all day)', balanced: 'Balanced', eveningPeak: 'Evening Peak (out all day)' }[profile] || profile;
+
+  // Self-consumption context
+  const selfConsLabel = { dayDynamic: '~45%', balanced: '~35%', eveningPeak: '~25%' }[profile] || '~35%';
+
+  // Season label
+  const peakSeason = summer >= winter ? 'summer' : 'winter';
+  const peakVal = Math.max(summer, winter);
+
+  // Build recommendation text
+  const box = document.getElementById('sizeRecommendBox');
+  const text = document.getElementById('sizeRecommendText');
+
+  // Show the box once we have both seasonal values
+  if (!summer || !winter) { box.style.display = 'none'; return; }
+  box.style.display = 'flex';
+
+  const overText = _userOverrode
+    ? ` <em style="color:#92400e;font-size:0.75rem;">(you've set a custom size — update usage profile to recalculate)</em>`
+    : '';
+
+  text.innerHTML = `
+    <strong>Recommended: ${recKw}kW system</strong><span class="rec-tag">auto-filled ↓</span>${overText}<br>
+    Your peak daily usage is <strong>${peakVal} kWh</strong> (${peakSeason}). With a <strong>${profile === 'dayDynamic' ? 'Day Dynamic' : profile === 'eveningPeak' ? 'Evening Peak' : 'Balanced'}</strong> load profile and
+    ${selfConsLabel} self-consumption, a <strong>${recKw}kW array</strong> will generate enough electricity to substantially cover
+    your heaviest days — estimated ~${Math.round(recKw * psh * PERF_RATIO)} kWh/day production at your location.
+    <span class="rec-min">⚡ Minimum based on your usage pattern: <strong>${recKw}kW</strong>. You can increase this if you plan to add an EV or pool pump in future.</span>
+  `;
+
+  // Auto-populate system size (only if user hasn't manually overridden)
+  if (!_userOverrode) {
+    document.getElementById('systemKw').value = recKw;
+    document.getElementById('systemKwSlider').value = recKw;
+    document.getElementById('systemKwHint').textContent = `Minimum based on your usage: ${recKw}kW`;
+    // Also auto-set inverter to ~75% of system kW (standard ratio), rounded to 0.5
+    const invKw = Math.round((recKw * 0.76) * 2) / 2;
+    document.getElementById('inverterKw').value = invKw;
+    document.getElementById('inverterKwSlider').value = invKw;
+    updateStcAuto();
+  }
+}
+
+function onSystemKwManualChange() {
+  // User touched the system size — flag as overridden so auto-fill stops
+  const current = parseFloat(document.getElementById('systemKw').value);
+  if (_recommendedKw !== null && Math.abs(current - _recommendedKw) > 0.15) {
+    _userOverrode = true;
+    document.getElementById('systemKwHint').textContent = `Minimum from usage profile: ${_recommendedKw}kW`;
+    // Refresh the rec box to show override note
+    const text = document.getElementById('sizeRecommendText');
+    if (text && _recommendedKw) {
+      const existingHTML = text.innerHTML;
+      if (!existingHTML.includes('custom size')) {
+        text.innerHTML = existingHTML.replace('</strong><span class="rec-tag">', `</strong> <em style="color:#92400e;font-size:0.75rem;">(custom size set)</em><span class="rec-tag" style="display:none;">`);
+      }
+    }
+  } else if (Math.abs(current - _recommendedKw) <= 0.15) {
+    _userOverrode = false;
+    document.getElementById('systemKwHint').textContent = `Minimum based on your usage: ${_recommendedKw}kW`;
+  }
 }
 
 // Initialise on load
