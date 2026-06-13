@@ -1407,15 +1407,17 @@ function getVppValues() {
 function isMobile() { return window.innerWidth < 520; }
 
 // ─── Sync helpers ───
+// Called when the RANGE SLIDER moves — update the paired number input
 function syncSlider(numId, sliderId) {
+  const val = parseFloat(document.getElementById(sliderId).value);
+  if (!isNaN(val)) { document.getElementById(numId).value = val; }
+  recalc();
+}
+// Called when the NUMBER INPUT changes — update the paired range slider
+function syncNum(numId, sliderId) {
   const val = parseFloat(document.getElementById(numId).value);
   const s = document.getElementById(sliderId);
   if (!isNaN(val)) { s.value = val; }
-  recalc();
-}
-function syncNum(numId, sliderId) {
-  const val = parseFloat(document.getElementById(sliderId).value);
-  document.getElementById(numId).value = val;
   recalc();
 }
 function v(id) { return parseFloat(document.getElementById(id).value) || 0; }
