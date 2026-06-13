@@ -7,6 +7,9 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  overflow-x: hidden;
+}
 body {
   font-family: system-ui, -apple-system, sans-serif;
   font-size: 15px;
@@ -1546,16 +1549,20 @@ function copyQuoteText() {
 
 function sendHeight() {
   setTimeout(() => {
-    parent.postMessage({ type: 'resize', height: document.body.scrollHeight }, '*');
-  }, 80);
+    // Use the larger of body and documentElement scrollHeight for cross-browser accuracy
+    const h = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight);
+    parent.postMessage({ type: 'resize', height: h }, '*');
+  }, 100);
 }
 
+document.addEventListener('DOMContentLoaded', () => { sendHeight(); });
 window.addEventListener('load', () => {
   onLoadProfileChange();
   recalc();
   sendHeight();
-  setTimeout(sendHeight, 500);
-  setTimeout(sendHeight, 1200);
+  setTimeout(sendHeight, 300);
+  setTimeout(sendHeight, 800);
+  setTimeout(sendHeight, 1500);
 });
 
 // Redraw chart on resize (mobile orientation change etc.)
