@@ -220,7 +220,7 @@ const description = "Free homeowner calculator for Australian solar. Enter your 
             var iframe = document.getElementById('solar-savings-iframe');
             window.addEventListener('message', function(e) {
               if (e.data && e.data.type === 'resize') {
-                var h = Math.max(e.data.height + 40, 600);
+                var h = Math.max(e.data.height, 600);
                 iframe.style.height = h + 'px';
               }
             });
@@ -229,7 +229,7 @@ const description = "Free homeowner calculator for Australian solar. Enter your 
                 setTimeout(function() {
                   try {
                     var h = iframe.contentWindow.document.body.scrollHeight;
-                    if (h > 0) iframe.style.height = Math.max(h + 40, 600) + 'px';
+                    if (h > 0) iframe.style.height = Math.max(h, 600) + 'px';
                   } catch(e) {}
                 }, 400);
               });

@@ -8,7 +8,9 @@
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html, body {
-  overflow-x: hidden;
+  /* Do NOT set overflow:hidden here — it breaks touch/drag on sliders in iframes */
+  overflow: visible;
+  width: 100%;
 }
 body {
   font-family: system-ui, -apple-system, sans-serif;
@@ -18,7 +20,7 @@ body {
   line-height: 1.5;
 }
 
-.calc-wrap { max-width: 800px; margin: 0 auto; padding: 20px 16px 40px; }
+.calc-wrap { max-width: 800px; margin: 0 auto; padding: 20px 16px 40px; overflow-x: hidden; }
 
 /* ─── Section blocks ─── */
 .section {
@@ -86,6 +88,13 @@ body {
   background: #e2e8f0;
   outline: none;
   cursor: pointer;
+  touch-action: manipulation;
+  /* Allow horizontal drag in iframes on iOS */
+  -webkit-user-select: none;
+  user-select: none;
+}
+input[type="range"] {
+  touch-action: manipulation;
 }
 .slider-combo input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
@@ -577,6 +586,20 @@ input[type="number"]:focus, select:focus {
   .tip-text::after { left: auto; right: 10px; transform: none; }
 }
 
+/* ─── Postcode section ─── */
+.postcode-section { border: 2px solid #f97316; background: linear-gradient(135deg, #fff7ed, #fff); }
+.postcode-row { display: flex; flex-direction: column; gap: 8px; }
+.postcode-inner { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.postcode-icon { font-size: 1.6rem; flex-shrink: 0; }
+.postcode-field { display: flex; flex-direction: column; gap: 4px; }
+.postcode-field label { font-weight: 700; font-size: 0.88rem; color: #1e293b; }
+.postcode-field input { border: 1.5px solid #e2e8f0; border-radius: 8px; padding: 8px 12px; font-size: 1rem; font-weight: 600; outline: none; transition: border 0.2s; }
+.postcode-field input:focus { border-color: #f97316; box-shadow: 0 0 0 3px rgba(249,115,22,0.15); }
+.postcode-result { display: flex; align-items: center; gap: 8px; font-size: 0.82rem; font-weight: 600; padding: 6px 12px; border-radius: 8px; }
+.postcode-result.ok { background: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; }
+.postcode-result.err { background: #fef2f2; color: #991b1b; border: 1px solid #fecaca; }
+.postcode-hint { font-size: 0.78rem; color: #64748b; }
+
 /* ─── Advanced settings accordion wrapper ─── */
 .advanced-accordion {
   border: 1px dashed #e2e8f0;
@@ -688,6 +711,21 @@ input[type="number"]:focus, select:focus {
 </head>
 <body>
 <div class="calc-wrap">
+
+  <!-- ─── 0. Postcode (location lookup) ─── -->
+  <div class="section postcode-section">
+    <div class="postcode-row">
+      <div class="postcode-inner">
+        <span class="postcode-icon">📍</span>
+        <div class="postcode-field">
+          <label for="postcodeInput">Your Postcode</label>
+          <input type="number" id="postcodeInput" placeholder="e.g. 2000" min="0200" max="9999" maxlength="4" oninput="onPostcodeInput()" style="max-width:120px;">
+        </div>
+        <div id="postcodeResult" class="postcode-result" style="display:none;"></div>
+      </div>
+      <div class="postcode-hint">Enter your postcode to auto-fill your state, solar zone, grid rate &amp; feed-in tariff — or set them manually below.</div>
+    </div>
+  </div>
 
   <!-- ─── 1. Energy Usage ─── -->
   <div class="section">
@@ -1197,6 +1235,102 @@ input[type="number"]:focus, select:focus {
 
 <script>
 // ─── State defaults ───
+// ─── Postcode lookup ─────────────────────────────────────────────────────────
+// Ranges: [from, to, stateKey, stcZoneOverride (null = use state default)]
+// Australian postcode ranges by state/territory (Clean Energy Regulator zones)
+const POSTCODE_RANGES = [
+  // NSW + ACT overlap — ACT specific range first
+  [200,  299,  'act', null],   // ACT (Canberra)
+  [2600, 2620, 'act', null],   // ACT postcodes in NSW range
+  [1000, 2599, 'nsw', null],
+  [2621, 2899, 'nsw', null],
+  [2900, 2920, 'act', null],
+  [2921, 2999, 'nsw', null],
+  // VIC
+  [3000, 3999, 'vic', null],
+  [8000, 8999, 'vic', null],
+  // QLD
+  [4000, 4999, 'qld', null],
+  [9000, 9999, 'qld', null],
+  // SA
+  [5000, 5799, 'sa',  null],
+  // WA
+  [6000, 6999, 'wa',  null],
+  // TAS
+  [7000, 7999, 'tas', null],
+  // NT
+  [800,  899,  'nt',  null],
+  [900,  999,  'nt',  null],
+];
+
+// STC zone overrides for specific postcode ranges (where state-level is too coarse)
+// Zone 1 = Tropical (Darwin), Zone 2 = Subtropical (SE QLD), Zone 3 = Temperate, Zone 4 = Cool (VIC/TAS)
+const POSTCODE_STC_OVERRIDES = [
+  // Far North QLD — Zone 1 (tropical)
+  [4870, 4895, 1],
+  // North QLD — Zone 1/2 boundary, use 2
+  [4800, 4869, 2],
+  // SE QLD (Brisbane region) — Zone 2
+  [4000, 4209, 2],
+  [4500, 4600, 2],
+  // WA coastal (Perth metro) — Zone 3
+  [6000, 6100, 3],
+  // WA inland/north — Zone 2
+  [6530, 6800, 2],
+  [6700, 6770, 1],
+  // NT all Zone 1
+  [800, 999, 1],
+  // TAS all Zone 4
+  [7000, 7999, 4],
+];
+
+function postcodeToState(pc) {
+  // Returns { state, stcZone } or null
+  const n = parseInt(pc, 10);
+  if (isNaN(n) || n < 200 || n > 9999) return null;
+  // Check ACT specific ranges first
+  let state = null;
+  for (const [from, to, s] of POSTCODE_RANGES) {
+    if (n >= from && n <= to) { state = s; break; }
+  }
+  if (!state) return null;
+  // Determine STC zone
+  let zone = STATE_DEFAULTS[state]?.zone || 3;
+  for (const [from, to, z] of POSTCODE_STC_OVERRIDES) {
+    if (n >= from && n <= to) { zone = z; break; }
+  }
+  return { state, zone };
+}
+
+function onPostcodeInput() {
+  const raw = document.getElementById('postcodeInput').value.trim();
+  const resultEl = document.getElementById('postcodeResult');
+  if (!raw || raw.length < 4) { resultEl.style.display = 'none'; return; }
+  const result = postcodeToState(raw);
+  if (!result) {
+    resultEl.className = 'postcode-result err';
+    resultEl.textContent = '✗ Postcode not recognised — set location manually below';
+    resultEl.style.display = 'flex';
+    return;
+  }
+  const { state, zone } = result;
+  const d = STATE_DEFAULTS[state];
+  // Apply to form
+  document.getElementById('state').value = state;
+  // Call onStateChange to fill rate fields
+  onStateChange();
+  // Override STC zone via peakSun lookup using the zone override
+  const ZONE_PSH = { 1: 5.26, 2: 4.92, 3: 4.47, 4: 3.76 };
+  const psh = ZONE_PSH[zone] || d.psh;
+  document.getElementById('peakSun').value = psh;
+  document.getElementById('peakSunSlider').value = psh;
+  const STATE_NAMES = { nsw: 'NSW', vic: 'VIC', qld: 'QLD', sa: 'SA', wa: 'WA', tas: 'TAS', nt: 'NT', act: 'ACT' };
+  resultEl.className = 'postcode-result ok';
+  resultEl.textContent = `✓ ${STATE_NAMES[state]} · Solar Zone ${zone} · Grid ${d.flatRate.toFixed(2)}$/kWh · FiT ${(d.fit*100).toFixed(1)}¢/kWh`;
+  resultEl.style.display = 'flex';
+  recalc();
+}
+
 const STATE_DEFAULTS = {
   nsw: { zone: 3, psh: 4.47, fit: 0.05, flatRate: 0.31, supplyCharge: 110 },
   vic: { zone: 4, psh: 3.76, fit: 0.05, flatRate: 0.32, supplyCharge: 115 },
@@ -1236,6 +1370,7 @@ const TOU_BLEND_WITH_BATTERY = {
 let tariffType = 'flat';
 let currentChartType = 'cumulative';
 let mainChartInstance = null;
+let lastChartType = null;
 let yearlyData = [];
 
 // ─── Advanced accordions ───
@@ -1731,109 +1866,150 @@ function showChart(type) {
 function updateChart(type, data, netCost) {
   if (!data || !data.length) return;
   const ctx = document.getElementById('mainChart').getContext('2d');
-  if (mainChartInstance) { mainChartInstance.destroy(); }
 
   const years = data.map(d => 'Yr ' + d.year);
+
+  // If chart type changed, destroy and recreate — otherwise update in-place to prevent flashing
+  if (mainChartInstance && lastChartType !== type) {
+    mainChartInstance.destroy();
+    mainChartInstance = null;
+  }
+  lastChartType = type;
 
   if (type === 'cumulative') {
     document.getElementById('chartTitle').textContent = 'Cumulative Net Position — 25 Years';
     const netPositions = data.map(d => Math.round(d.cumSaving));
     const colors = netPositions.map(val => val >= 0 ? 'rgba(74,222,128,0.85)' : 'rgba(249,115,22,0.7)');
+    const grossPositions = data.map(d => Math.round(d.cumSaving + netCost));
 
-    mainChartInstance = new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: years,
-        datasets: [{
-          label: 'Net Position',
-          data: netPositions,
-          backgroundColor: colors,
-          borderRadius: 2,
-          borderWidth: 0,
-          order: 2
-        }, {
-          label: 'Gross Savings',
-          data: data.map(d => Math.round(d.cumSaving + netCost)),
-          type: 'line',
-          borderColor: '#60a5fa',
-          backgroundColor: 'transparent',
-          borderWidth: 2,
-          pointRadius: 0,
-          tension: 0.3,
-          order: 1
-        }]
-      },
-      options: getMobileChartOptions({
-        tooltip: {
-          callbacks: {
-            label: ctx => {
-              const val = ctx.raw;
-              return ` ${ctx.dataset.label}: ${val >= 0 ? '+' : ''}$${Math.abs(val).toLocaleString()}`;
+    if (mainChartInstance) {
+      // Update in-place — no flashing
+      mainChartInstance.data.labels = years;
+      mainChartInstance.data.datasets[0].data = netPositions;
+      mainChartInstance.data.datasets[0].backgroundColor = colors;
+      mainChartInstance.data.datasets[1].data = grossPositions;
+      mainChartInstance.update('none'); // 'none' = no animation on data updates
+    } else {
+      mainChartInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: years,
+          datasets: [{
+            label: 'Net Position',
+            data: netPositions,
+            backgroundColor: colors,
+            borderRadius: 2,
+            borderWidth: 0,
+            order: 2
+          }, {
+            label: 'Gross Savings',
+            data: grossPositions,
+            type: 'line',
+            borderColor: '#60a5fa',
+            backgroundColor: 'transparent',
+            borderWidth: 2,
+            pointRadius: 0,
+            tension: 0.3,
+            order: 1
+          }]
+        },
+        options: getMobileChartOptions({
+          tooltip: {
+            callbacks: {
+              label: ctx => {
+                const val = ctx.raw;
+                return ` ${ctx.dataset.label}: ${val >= 0 ? '+' : ''}$${Math.abs(val).toLocaleString()}`;
+              }
             }
           }
-        }
-      })
-    });
+        })
+      });
+    }
 
   } else if (type === 'annual') {
     document.getElementById('chartTitle').textContent = 'Annual Savings — Growing with Inflation';
-    mainChartInstance = new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: years,
-        datasets: [{
-          label: 'Self-Use Saving',
-          data: data.map(d => Math.round(d.selfConsSaving)),
-          backgroundColor: 'rgba(249,115,22,0.85)',
-          stack: 'savings',
-          borderRadius: 2
-        }, {
-          label: 'Export Earnings',
-          data: data.map(d => Math.round(d.fitEarnings)),
-          backgroundColor: 'rgba(250,204,21,0.85)',
-          stack: 'savings'
-        }, ...(data[0] && data[0].vppRecurring > 0 ? [{
-          label: 'VPP Income',
-          data: data.map(d => Math.round(d.vppRecurring)),
-          backgroundColor: 'rgba(74,222,128,0.85)',
-          stack: 'savings'
-        }] : [])]
-      },
-      options: getMobileChartOptions({
-        tooltip: {
-          callbacks: {
-            label: ctx => ` ${ctx.dataset.label}: $${ctx.raw.toLocaleString()}`
-          }
-        },
-        extraScales: {
-          x: {
-            stacked: true,
-            ticks: {
-              color: '#94a3b8',
-              font: { size: isMobile() ? 9 : 10 },
-              maxRotation: 0,
-              callback: function(val, idx) {
-                return idx % (isMobile() ? 5 : 2) === 0 ? this.getLabelForValue(val) : '';
-              }
-            },
-            grid: { display: false }
-          },
-          y: {
-            stacked: true,
-            ticks: {
-              color: '#94a3b8',
-              font: { size: isMobile() ? 9 : 10 },
-              maxTicksLimit: isMobile() ? 5 : 8,
-              callback: val => '$' + (val >= 1000 ? (val/1000).toFixed(1)+'k' : val)
-            },
-            grid: { color: '#f1f5f9' }
-          }
+    const hasVpp = data[0] && data[0].vppRecurring > 0;
+    const selfConsSavings = data.map(d => Math.round(d.selfConsSaving));
+    const fitEarnings = data.map(d => Math.round(d.fitEarnings));
+
+    if (mainChartInstance) {
+      mainChartInstance.data.labels = years;
+      mainChartInstance.data.datasets[0].data = selfConsSavings;
+      mainChartInstance.data.datasets[1].data = fitEarnings;
+      if (hasVpp) {
+        if (mainChartInstance.data.datasets[2]) {
+          mainChartInstance.data.datasets[2].data = data.map(d => Math.round(d.vppRecurring));
+        } else {
+          mainChartInstance.data.datasets.push({
+            label: 'VPP Income',
+            data: data.map(d => Math.round(d.vppRecurring)),
+            backgroundColor: 'rgba(74,222,128,0.85)',
+            stack: 'savings'
+          });
         }
-      })
-    });
+      } else if (mainChartInstance.data.datasets.length > 2) {
+        mainChartInstance.data.datasets.splice(2);
+      }
+      mainChartInstance.update('none');
+    } else {
+      mainChartInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: years,
+          datasets: [{
+            label: 'Self-Use Saving',
+            data: selfConsSavings,
+            backgroundColor: 'rgba(249,115,22,0.85)',
+            stack: 'savings',
+            borderRadius: 2
+          }, {
+            label: 'Export Earnings',
+            data: fitEarnings,
+            backgroundColor: 'rgba(250,204,21,0.85)',
+            stack: 'savings'
+          }, ...(hasVpp ? [{
+            label: 'VPP Income',
+            data: data.map(d => Math.round(d.vppRecurring)),
+            backgroundColor: 'rgba(74,222,128,0.85)',
+            stack: 'savings'
+          }] : [])]
+        },
+        options: getMobileChartOptions({
+          tooltip: {
+            callbacks: {
+              label: ctx => ` ${ctx.dataset.label}: $${ctx.raw.toLocaleString()}`
+            }
+          },
+          extraScales: {
+            x: {
+              stacked: true,
+              ticks: {
+                color: '#94a3b8',
+                font: { size: isMobile() ? 9 : 10 },
+                maxRotation: 0,
+                callback: function(val, idx) {
+                  return idx % (isMobile() ? 5 : 2) === 0 ? this.getLabelForValue(val) : '';
+                }
+              },
+              grid: { display: false }
+            },
+            y: {
+              stacked: true,
+              ticks: {
+                color: '#94a3b8',
+                font: { size: isMobile() ? 9 : 10 },
+                maxTicksLimit: isMobile() ? 5 : 8,
+                callback: val => '$' + (val >= 1000 ? (val/1000).toFixed(1)+'k' : val)
+              },
+              grid: { color: '#f1f5f9' }
+            }
+          }
+        })
+      });
+    }
   }
 
-  sendHeight();
+  // Do NOT call sendHeight here — recalc() already calls it after updateChart
 }
 
 function updateQuoteOutput(yr1, data, beYear, netCost) {
@@ -1888,10 +2064,14 @@ function copyQuoteText() {
 
 function sendHeight() {
   setTimeout(() => {
-    // Use the larger of body and documentElement scrollHeight for cross-browser accuracy
-    const h = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight);
-    parent.postMessage({ type: 'resize', height: h }, '*');
-  }, 100);
+    // Use the calc-wrap height + body padding — more reliable than scrollHeight
+    // when html/body overflow is not hidden
+    const wrap = document.querySelector('.calc-wrap');
+    const wrapH = wrap ? (wrap.getBoundingClientRect().top + wrap.scrollHeight + 20) : 0;
+    const bodyH = document.body.scrollHeight;
+    const h = Math.max(wrapH, bodyH, 600);
+    parent.postMessage({ type: 'resize', height: Math.ceil(h) }, '*');
+  }, 80);
 }
 
 document.addEventListener('DOMContentLoaded', () => { sendHeight(); });
