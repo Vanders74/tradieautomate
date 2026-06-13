@@ -708,6 +708,29 @@ input[type="number"]:focus, select:focus {
   text-align: center;
 }
 
+/* ─── Gross Cost Callout ─── */
+.gross-cost-callout {
+  margin-top: 8px;
+  background: #f0fdf4;
+  border: 1.5px solid #22c55e;
+  border-radius: 9px;
+  padding: 10px 13px;
+  font-size: 0.78rem;
+  color: #14532d;
+  line-height: 1.5;
+}
+.gross-cost-callout strong { color: #15803d; }
+.gross-cost-callout .cost-range { font-size: 0.82rem; font-weight: 700; color: #16a34a; }
+.gross-cost-callout .cost-source { display: block; margin-top: 4px; font-size: 0.7rem; color: #4ade80; opacity: 0.85; }
+.gross-cost-callout.overridden {
+  background: #fff7ed;
+  border-color: #f97316;
+  color: #7c2d12;
+}
+.gross-cost-callout.overridden strong { color: #c2410c; }
+.gross-cost-callout.overridden .cost-range { color: #ea580c; }
+.gross-cost-callout.overridden .cost-source { color: #fb923c; }
+
 /* ─── System Size Recommendation Box ─── */
 .size-recommend-box {
   display: flex;
@@ -1114,11 +1137,12 @@ input[type="number"]:focus, select:focus {
     <div class="field-grid" style="margin-bottom:14px;">
       <div class="field">
         <label>Gross System Cost ($)</label>
-        <span class="hint">Total cost before any rebates</span>
+        <span class="hint" id="grossCostHint">Total cost before any rebates — auto-estimated from system size &amp; state</span>
         <div class="slider-combo">
-          <input type="range" id="grossCostSlider" min="3000" max="40000" step="100" value="14000" oninput="syncSlider('grossCost','grossCostSlider')">
-          <input type="number" id="grossCost" min="0" max="100000" step="100" value="14000" oninput="syncNum('grossCost','grossCostSlider')">
+          <input type="range" id="grossCostSlider" min="3000" max="60000" step="100" value="14000" oninput="syncSlider('grossCost','grossCostSlider'); onGrossCostManualChange();">
+          <input type="number" id="grossCost" min="0" max="200000" step="100" value="14000" oninput="syncNum('grossCost','grossCostSlider'); onGrossCostManualChange();">
         </div>
+        <div id="grossCostCallout" class="gross-cost-callout" style="display:none;"></div>
       </div>
       <div class="field">
         <label>STC Rebate — Auto-Estimated ($) <span class="tip" tabindex="0">ⓘ<span class="tip-text">Small-scale Technology Certificates — a federal upfront discount assigned at point of sale. Value depends on system size, your solar zone, and the current STC spot price (~$38).</span></span></label>
@@ -1513,6 +1537,8 @@ function onPostcodeInput() {
   resultEl.className = 'postcode-result ok';
   resultEl.textContent = `✓ ${STATE_NAMES[state]} · Solar Zone ${zone} · Grid ${d.flatRate.toFixed(2)}$/kWh · FiT ${(d.fit*100).toFixed(1)}¢/kWh`;
   resultEl.style.display = 'flex';
+  // Update gross cost estimate with the now-known state
+  if (!_grossCostUserOverrode) updateGrossCostAuto();
   recalc();
 }
 
@@ -1626,6 +1652,7 @@ function onStateChange() {
   document.getElementById('supplyChargeSlider').value = d.supplyCharge;
   document.getElementById('stateDefaultsNote').style.display = 'inline';
   updateStcAuto();
+  if (!_grossCostUserOverrode) updateGrossCostAuto();
   recalc();
 }
 
@@ -1666,6 +1693,7 @@ function toggleBattery() {
   }
   updateBatteryRebateAuto();
   updateSelfConsDefault();
+  if (!_grossCostUserOverrode) updateGrossCostAuto();
   recalc();
   sendHeight();
 }
@@ -1718,10 +1746,10 @@ function updateBatteryRebateAuto() {
 
 document.getElementById('stcValue').addEventListener('input', function() { this.dataset.auto = 'false'; recalc(); });
 document.getElementById('batteryRebate').addEventListener('input', function() { this.dataset.auto = 'false'; recalc(); });
-document.getElementById('batteryKwh').addEventListener('input', function() { updateBatteryRebateAuto(); updateSelfConsDefault(); });
-document.getElementById('batteryKwhSlider').addEventListener('input', function() { updateBatteryRebateAuto(); updateSelfConsDefault(); });
-document.getElementById('systemKw').addEventListener('input', function() { updateStcAuto(); });
-document.getElementById('systemKwSlider').addEventListener('input', function() { updateStcAuto(); });
+document.getElementById('batteryKwh').addEventListener('input', function() { updateBatteryRebateAuto(); updateSelfConsDefault(); if (!_grossCostUserOverrode) updateGrossCostAuto(); });
+document.getElementById('batteryKwhSlider').addEventListener('input', function() { updateBatteryRebateAuto(); updateSelfConsDefault(); if (!_grossCostUserOverrode) updateGrossCostAuto(); });
+document.getElementById('systemKw').addEventListener('input', function() { updateStcAuto(); if (!_grossCostUserOverrode) updateGrossCostAuto(); });
+document.getElementById('systemKwSlider').addEventListener('input', function() { updateStcAuto(); if (!_grossCostUserOverrode) updateGrossCostAuto(); });
 
 // ─── Solar-only shadow calc for battery comparison ───
 function buildSolarOnlyData() {
@@ -2374,6 +2402,9 @@ function updateSystemSizeRecommendation() {
     document.getElementById('inverterKw').value = invKw;
     document.getElementById('inverterKwSlider').value = invKw;
     updateStcAuto();
+    // Also update gross cost estimate when system size is auto-set
+    _grossCostUserOverrode = false;
+    updateGrossCostAuto();
   }
 }
 
@@ -2397,6 +2428,124 @@ function onSystemKwManualChange() {
   }
 }
 
+// ─── Indicative Gross Cost — Option 3 ──────────────────────────────────────
+// Prices sourced from Solar Choice national averages Q2 2026 (installed, inc GST)
+// Format: [low, high] in AUD
+const SOLAR_COST_TABLE = {
+  //  kW:    [solar_only_low, solar_only_high]
+  5:    [4200,  6000],
+  6.6:  [5200,  7800],
+  8:    [6400,  9200],
+  10:   [7800, 11000],
+  13:  [10000, 14500],
+  15:  [11500, 16500],
+  16.5:[12500, 18000],
+  20:  [15000, 22000],
+};
+// Battery add-on cost by kWh capacity (installed, inc GST)
+const BATTERY_COST_TABLE = {
+  // kWh: [low, high]
+  5:   [4000,  5500],
+  10:  [7000,  9000],
+  13.5:[9000, 11500],
+  15:  [9800, 12500],
+};
+// State price adjustment multipliers (relative to national avg = 1.0)
+const STATE_COST_MULT = {
+  NSW: 1.00, VIC: 1.05, QLD: 0.97, SA: 1.08, WA: 1.04,
+  TAS: 1.10, ACT: 1.03, NT: 1.12
+};
+// State display names
+const STATE_NAMES = {
+  NSW: 'NSW', VIC: 'VIC', QLD: 'QLD', SA: 'SA', WA: 'WA',
+  TAS: 'TAS', ACT: 'ACT', NT: 'NT'
+};
+
+let _grossCostAutoValue = null;
+let _grossCostUserOverrode = false;
+
+function getBatteryAddOnCost(battKwh) {
+  if (!battKwh || battKwh <= 0) return [0, 0];
+  // Find closest bracket
+  const keys = Object.keys(BATTERY_COST_TABLE).map(Number).sort((a,b)=>a-b);
+  let chosen = keys[keys.length - 1];
+  for (const k of keys) { if (k >= battKwh) { chosen = k; break; } }
+  return BATTERY_COST_TABLE[chosen];
+}
+
+function updateGrossCostAuto() {
+  if (_grossCostUserOverrode) return; // user typed their own number
+
+  const systemKw = v('systemKw') || 10;
+  const state = vs('state') || 'NSW';
+  const battOn = document.getElementById('batteryToggle').checked;
+  const battKwh = v('batteryKwh') || 10;
+
+  // Find closest solar bracket
+  const solarKeys = Object.keys(SOLAR_COST_TABLE).map(Number).sort((a,b)=>a-b);
+  let solarKey = solarKeys[solarKeys.length - 1];
+  for (const k of solarKeys) { if (k >= systemKw) { solarKey = k; break; } }
+  const [sLow, sHigh] = SOLAR_COST_TABLE[solarKey];
+
+  // Battery add-on
+  const [bLow, bHigh] = battOn ? getBatteryAddOnCost(battKwh) : [0, 0];
+
+  // State multiplier
+  const mult = STATE_COST_MULT[state] || 1.0;
+  const totalLow  = Math.round((sLow  + bLow)  * mult / 100) * 100;
+  const totalHigh = Math.round((sHigh + bHigh) * mult / 100) * 100;
+  const midpoint  = Math.round(((totalLow + totalHigh) / 2) / 100) * 100;
+
+  _grossCostAutoValue = midpoint;
+
+  // Auto-fill the field
+  document.getElementById('grossCost').value = midpoint;
+  document.getElementById('grossCostSlider').value = Math.min(midpoint, 60000);
+
+  // Show callout
+  const callout = document.getElementById('grossCostCallout');
+  callout.style.display = 'block';
+  callout.className = 'gross-cost-callout';
+
+  const stateName = STATE_NAMES[state] || state;
+  const sizeLabel = systemKw % 1 === 0 ? `${systemKw}kW` : `${systemKw}kW`;
+  const battLabel = battOn ? ` + ${battKwh}kWh battery` : '';
+  const fmtNum = n => '$' + n.toLocaleString('en-AU');
+
+  callout.innerHTML = `
+    <strong>Auto-estimate:</strong> <span class="cost-range">${fmtNum(totalLow)} – ${fmtNum(totalHigh)}</span> &nbsp;·&nbsp; midpoint set to <strong>${fmtNum(midpoint)}</strong><br>
+    Based on a <strong>${sizeLabel} system${battLabel}</strong> in <strong>${stateName}</strong>. Fully editable — enter your installer's quote for accurate results.
+    <span class="cost-source">Source: Solar Choice national averages Q2 2026 · State-adjusted · inc. GST</span>
+  `;
+
+  // Update hint
+  document.getElementById('grossCostHint').textContent = `Auto-estimated: ${fmtNum(totalLow)}–${fmtNum(totalHigh)} for ${sizeLabel}${battLabel} in ${stateName}`;
+
+  recalc();
+}
+
+function onGrossCostManualChange() {
+  const current = parseFloat(document.getElementById('grossCost').value);
+  if (_grossCostAutoValue !== null && Math.abs(current - _grossCostAutoValue) > 200) {
+    _grossCostUserOverrode = true;
+    const callout = document.getElementById('grossCostCallout');
+    if (callout) {
+      callout.className = 'gross-cost-callout overridden';
+      // Preserve existing content, just add override note
+      const existing = callout.innerHTML;
+      if (!existing.includes('custom quote')) {
+        callout.innerHTML = existing.replace(
+          'Fully editable — enter your installer\'s quote for accurate results.',
+          '✏️ <strong>Using your custom quote.</strong> Clear and re-select system size to reset to market estimate.'
+        );
+      }
+    }
+  } else if (_grossCostAutoValue !== null && Math.abs(current - _grossCostAutoValue) <= 200) {
+    _grossCostUserOverrode = false;
+  }
+}
+
+// Hook into state changes (postcode auto-fill triggers state change → recalc gross)
 // Initialise on load
 document.addEventListener('DOMContentLoaded', () => { updateSeasonalAvg(); });
 </script>
