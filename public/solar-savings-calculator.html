@@ -707,10 +707,347 @@ input[type="number"]:focus, select:focus {
   padding: 8px 14px 10px;
   text-align: center;
 }
+
+/* ═══════════════════════════════════════════════
+   HOME POWER QUIZ
+   ═══════════════════════════════════════════════ */
+
+/* Quiz section wrapper */
+#quizSection {
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+  border-radius: 20px 20px 0 0;
+  padding: 28px 24px 32px;
+  margin-bottom: 0;
+}
+.quiz-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.quiz-badge {
+  display: inline-block;
+  background: rgba(249,115,22,0.18);
+  color: #f97316;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(249,115,22,0.3);
+  margin-bottom: 10px;
+}
+.quiz-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+.quiz-subtitle {
+  font-size: 0.88rem;
+  color: #94a3b8;
+  margin-bottom: 0;
+}
+
+/* Progress bar */
+.quiz-progress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+.quiz-progress-bar {
+  flex: 1;
+  height: 5px;
+  background: rgba(255,255,255,0.12);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.quiz-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #f97316, #fbbf24);
+  border-radius: 999px;
+  transition: width 0.4s cubic-bezier(0.4,0,0.2,1);
+}
+.quiz-progress-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #64748b;
+  white-space: nowrap;
+  min-width: 48px;
+  text-align: right;
+}
+
+/* Question card */
+.quiz-question-card {
+  animation: quizFadeIn 0.28s ease;
+}
+@keyframes quizFadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.quiz-q-number {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #f97316;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.quiz-q-text {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+  line-height: 1.35;
+}
+.quiz-q-why {
+  font-size: 0.78rem;
+  color: #64748b;
+  margin-bottom: 16px;
+  font-style: italic;
+}
+
+/* Option grid — 2 columns */
+.quiz-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+@media (max-width: 480px) {
+  .quiz-options { grid-template-columns: 1fr; gap: 8px; }
+  .quiz-title { font-size: 1.1rem; }
+}
+.quiz-option {
+  background: rgba(255,255,255,0.06);
+  border: 1.5px solid rgba(255,255,255,0.1);
+  border-radius: 12px;
+  padding: 13px 14px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+.quiz-option:hover {
+  background: rgba(255,255,255,0.11);
+  border-color: rgba(249,115,22,0.45);
+  transform: translateY(-1px);
+}
+.quiz-option.selected {
+  background: rgba(249,115,22,0.18);
+  border-color: #f97316;
+  box-shadow: 0 0 0 2px rgba(249,115,22,0.25);
+}
+.quiz-option-icon {
+  font-size: 1.4rem;
+  margin-bottom: 6px;
+  display: block;
+}
+.quiz-option-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 3px;
+  line-height: 1.2;
+}
+.quiz-option-desc {
+  font-size: 0.72rem;
+  color: #94a3b8;
+  line-height: 1.35;
+}
+.quiz-option.selected .quiz-option-desc { color: #cbd5e1; }
+.quiz-option .check-mark {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background: #f97316;
+  border-radius: 50%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  color: white;
+  font-weight: 800;
+}
+.quiz-option.selected .check-mark { display: flex; }
+
+/* Multi-select (Q4) */
+.quiz-options.multi-select .quiz-option { cursor: pointer; }
+.quiz-next-btn {
+  margin-top: 14px;
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  display: none;
+}
+.quiz-next-btn:hover { opacity: 0.9; }
+.quiz-next-btn.visible { display: block; }
+
+/* ─── Profile card (result) ─── */
+#profileCard {
+  display: none;
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+  border-radius: 0;
+  padding: 0 24px 28px;
+  margin-bottom: 0;
+}
+.profile-inner {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  padding: 22px;
+}
+.profile-heading {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #f97316;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.profile-name {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 14px;
+  line-height: 1.3;
+}
+.profile-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.profile-chip {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+.profile-chip.highlight {
+  background: rgba(249,115,22,0.2);
+  border-color: rgba(249,115,22,0.4);
+  color: #fed7aa;
+}
+.profile-rec {
+  background: rgba(255,255,255,0.04);
+  border-left: 3px solid #f97316;
+  border-radius: 0 8px 8px 0;
+  padding: 12px 14px;
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  line-height: 1.55;
+  margin-bottom: 16px;
+}
+.profile-rec strong { color: #fff; }
+.profile-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.profile-btn-primary {
+  flex: 1;
+  min-width: 160px;
+  padding: 11px 18px;
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  color: white;
+  font-size: 0.88rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.profile-btn-primary:hover { opacity: 0.9; }
+.profile-btn-secondary {
+  padding: 11px 16px;
+  background: rgba(255,255,255,0.07);
+  color: #94a3b8;
+  font-size: 0.82rem;
+  font-weight: 600;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 9px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.profile-btn-secondary:hover { color: #e2e8f0; background: rgba(255,255,255,0.12); }
+
+/* ─── Smooth reveal for calculator after quiz ─── */
+#calcBody {
+  display: none;
+  animation: calcReveal 0.4s ease;
+}
+#calcBody.visible { display: block; }
+@keyframes calcReveal {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+/* Dark-to-light bridge between quiz and calculator */
+.quiz-bridge {
+  height: 24px;
+  background: linear-gradient(180deg, #1e3a5f 0%, #f1f5f9 100%);
+  margin: 0;
+}
 </style>
 </head>
 <body>
 <div class="calc-wrap">
+
+  <!-- ══════════════════════════════════════════
+       HOME POWER QUIZ
+       ══════════════════════════════════════════ -->
+  <div id="quizSection">
+    <div class="quiz-header">
+      <div class="quiz-badge">Step 1 of 2 — Your Home Profile</div>
+      <div class="quiz-title">Let's personalise your solar estimate</div>
+      <div class="quiz-subtitle">5 quick questions — takes about 30 seconds</div>
+    </div>
+
+    <div class="quiz-progress">
+      <div class="quiz-progress-bar">
+        <div class="quiz-progress-fill" id="quizProgressFill" style="width:0%"></div>
+      </div>
+      <div class="quiz-progress-label" id="quizProgressLabel">0 / 5</div>
+    </div>
+
+    <div id="quizQuestionWrap"></div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       SOLAR PROFILE RESULT CARD
+       ══════════════════════════════════════════ -->
+  <div id="profileCard">
+    <div class="profile-inner">
+      <div class="profile-heading">⚡ Your Solar Profile</div>
+      <div class="profile-name" id="profileName"></div>
+      <div class="profile-chips" id="profileChips"></div>
+      <div class="profile-rec" id="profileRec"></div>
+      <div class="profile-actions">
+        <button class="profile-btn-primary" onclick="revealCalculator()">View Your Personalised Calculator →</button>
+        <button class="profile-btn-secondary" onclick="retakeQuiz()">↺ Retake Quiz</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="quiz-bridge" id="quizBridge" style="display:none;"></div>
+
+  <!-- ══════════════════════════════════════════
+       CALCULATOR (revealed after quiz)
+       ══════════════════════════════════════════ -->
+  <div id="calcBody">
 
   <!-- ─── 0. Postcode (location lookup) ─── -->
   <div class="section postcode-section">
@@ -1230,6 +1567,8 @@ input[type="number"]:focus, select:focus {
     </div>
 
   </div><!-- /resultsWrap -->
+
+  </div><!-- /calcBody -->
 
 </div>
 
@@ -2102,6 +2441,368 @@ document.querySelectorAll('input[type="number"], select').forEach(el => {
     el.addEventListener('change', recalc);
   }
 });
+
+// ═══════════════════════════════════════════════════════════════
+// HOME POWER QUIZ
+// ═══════════════════════════════════════════════════════════════
+
+const QUIZ_QUESTIONS = [
+  {
+    id: 'people',
+    number: 'Question 1 of 5',
+    text: 'How many people live in your home?',
+    why: 'Household size is the best predictor of daily electricity use.',
+    options: [
+      { icon: '🧑', title: '1–2 people', desc: 'Single occupant or couple', value: '1-2' },
+      { icon: '👨‍👩‍👦', title: '3–4 people', desc: 'Small family', value: '3-4' },
+      { icon: '👨‍👩‍👧‍👦', title: '5–6 people', desc: 'Larger family', value: '5-6' },
+      { icon: '🏘️', title: '7+ people', desc: 'Large household or multi-generational', value: '7+' }
+    ],
+    multi: false
+  },
+  {
+    id: 'schedule',
+    number: 'Question 2 of 5',
+    text: "What's your household's typical weekday schedule?",
+    why: 'When you use power determines how much daytime solar you can directly consume.',
+    options: [
+      { icon: '🏠', title: 'Home all day', desc: 'WFH, retired, or caring for family — power used throughout the day', value: 'dayDynamic' },
+      { icon: '🏢', title: 'Out 9–5', desc: 'Empty during the day — energy spikes in morning and evening', value: 'eveningPeak' },
+      { icon: '⚖️', title: 'Mixed / balanced', desc: 'Some home, some out — fairly even usage across the day', value: 'balanced' },
+      { icon: '🌙', title: 'Night owl', desc: 'Most energy used late evening (TV, laundry, charging)', value: 'eveningPeak' }
+    ],
+    multi: false
+  },
+  {
+    id: 'hvac',
+    number: 'Question 3 of 5',
+    text: 'How do you heat and cool your home?',
+    why: 'Heating and cooling is often the largest electricity load — it changes your system size requirements.',
+    options: [
+      { icon: '❄️', title: 'Split systems', desc: 'Energy-efficient reverse-cycle in individual rooms', value: 'split' },
+      { icon: '🌬️', title: 'Ducted electric', desc: 'Whole-house ducted reverse-cycle or electric heating', value: 'ducted' },
+      { icon: '🔥', title: 'Gas + electric fans', desc: 'Gas heating (with electric blowers) or gas cooling', value: 'gas_hvac' },
+      { icon: '🪟', title: 'Portable / none', desc: 'Portable heaters, window ACs, or minimal heating/cooling', value: 'portable' }
+    ],
+    multi: false
+  },
+  {
+    id: 'appliances',
+    number: 'Question 4 of 5',
+    text: 'Do you have any of these high-draw appliances? (Select all that apply)',
+    why: 'These create large energy loads that directly affect the system size and battery need.',
+    options: [
+      { icon: '🚗', title: 'Electric Vehicle', desc: 'EV or plug-in hybrid charged at home', value: 'ev' },
+      { icon: '🏊', title: 'Pool or spa heater', desc: 'Electric heat pump heating a pool or spa', value: 'pool_heater' },
+      { icon: '💧', title: 'Pool / spa pump', desc: 'Filtration pump running daily (no heater)', value: 'pool_pump' },
+      { icon: '✋', title: 'None of the above', desc: 'Standard household appliances only', value: 'none' }
+    ],
+    multi: true
+  },
+  {
+    id: 'hotwater',
+    number: 'Question 5 of 5',
+    text: 'How do you heat your hot water?',
+    why: 'Hot water is typically a home\'s second-largest energy cost and a key solar opportunity.',
+    options: [
+      { icon: '🛢️', title: 'Electric storage tank', desc: 'Standard resistive electric hot water cylinder', value: 'electric_tank' },
+      { icon: '♻️', title: 'Heat pump', desc: 'High-efficiency heat pump water heater', value: 'heat_pump' },
+      { icon: '🔥', title: 'Gas (natural or LPG)', desc: 'Gas continuous flow or gas storage system', value: 'gas_hw' },
+      { icon: '☀️', title: 'Solar thermal', desc: 'Dedicated solar thermal roof panels', value: 'solar_thermal' }
+    ],
+    multi: false
+  }
+];
+
+let quizAnswers = {};
+let currentQ = 0;
+let multiSelections = [];
+
+function renderQuestion(idx) {
+  const q = QUIZ_QUESTIONS[idx];
+  const wrap = document.getElementById('quizQuestionWrap');
+
+  // Update progress
+  const pct = Math.round((idx / QUIZ_QUESTIONS.length) * 100);
+  document.getElementById('quizProgressFill').style.width = pct + '%';
+  document.getElementById('quizProgressLabel').textContent = idx + ' / ' + QUIZ_QUESTIONS.length;
+
+  multiSelections = [];
+
+  const multiClass = q.multi ? ' multi-select' : '';
+  const optionHTML = q.options.map((o, oi) => `
+    <div class="quiz-option" data-val="${o.value}" data-qi="${idx}" data-oi="${oi}" onclick="onOptionClick(${idx}, ${oi}, this)">
+      <span class="check-mark">✓</span>
+      <span class="quiz-option-icon">${o.icon}</span>
+      <div class="quiz-option-title">${o.title}</div>
+      <div class="quiz-option-desc">${o.desc}</div>
+    </div>
+  `).join('');
+
+  wrap.innerHTML = `
+    <div class="quiz-question-card">
+      <div class="quiz-q-number">${q.number}</div>
+      <div class="quiz-q-text">${q.text}</div>
+      <div class="quiz-q-why">${q.why}</div>
+      <div class="quiz-options${multiClass}" id="quizOptions">
+        ${optionHTML}
+      </div>
+      ${q.multi ? `<button class="quiz-next-btn" id="quizNextBtn" onclick="onMultiNext(${idx})">Continue →</button>` : ''}
+    </div>
+  `;
+  sendHeight();
+}
+
+function onOptionClick(qi, oi, el) {
+  const q = QUIZ_QUESTIONS[qi];
+
+  if (q.multi) {
+    const val = el.dataset.val;
+    if (val === 'none') {
+      // Deselect all others
+      document.querySelectorAll('#quizOptions .quiz-option').forEach(o => o.classList.remove('selected'));
+      el.classList.add('selected');
+      multiSelections = ['none'];
+    } else {
+      // Remove 'none' if another selected
+      const noneEl = document.querySelector('#quizOptions .quiz-option[data-val="none"]');
+      if (noneEl) noneEl.classList.remove('selected');
+      multiSelections = multiSelections.filter(v => v !== 'none');
+
+      if (el.classList.contains('selected')) {
+        el.classList.remove('selected');
+        multiSelections = multiSelections.filter(v => v !== val);
+      } else {
+        el.classList.add('selected');
+        multiSelections.push(val);
+      }
+    }
+    // Show next button if at least one selected
+    const btn = document.getElementById('quizNextBtn');
+    if (btn) btn.classList.toggle('visible', multiSelections.length > 0);
+  } else {
+    document.querySelectorAll('#quizOptions .quiz-option').forEach(o => o.classList.remove('selected'));
+    el.classList.add('selected');
+    quizAnswers[q.id] = el.dataset.val;
+    // Auto-advance after short delay
+    setTimeout(() => advanceQuiz(qi), 320);
+  }
+}
+
+function onMultiNext(qi) {
+  if (multiSelections.length === 0) return;
+  quizAnswers[QUIZ_QUESTIONS[qi].id] = [...multiSelections];
+  advanceQuiz(qi);
+}
+
+function advanceQuiz(qi) {
+  if (qi + 1 < QUIZ_QUESTIONS.length) {
+    currentQ = qi + 1;
+    renderQuestion(currentQ);
+  } else {
+    showProfile();
+  }
+}
+
+function showProfile() {
+  // Update progress to complete
+  document.getElementById('quizProgressFill').style.width = '100%';
+  document.getElementById('quizProgressLabel').textContent = '5 / 5';
+
+  // Hide question wrap
+  document.getElementById('quizQuestionWrap').innerHTML = '';
+
+  // Calculate profile
+  const profile = buildProfile(quizAnswers);
+
+  // Populate profile card
+  document.getElementById('profileName').textContent = profile.headline;
+
+  const chipsEl = document.getElementById('profileChips');
+  chipsEl.innerHTML = profile.chips.map(c =>
+    `<span class="profile-chip${c.highlight ? ' highlight' : ''}">${c.text}</span>`
+  ).join('');
+
+  document.getElementById('profileRec').innerHTML = profile.recommendation;
+
+  document.getElementById('profileCard').style.display = 'block';
+  sendHeight();
+}
+
+function revealCalculator() {
+  // Pre-fill the calculator
+  const profile = buildProfile(quizAnswers);
+  applyProfileToCalc(profile);
+
+  // Show the bridge + calculator
+  document.getElementById('quizBridge').style.display = 'block';
+  const calcBody = document.getElementById('calcBody');
+  calcBody.classList.add('visible');
+
+  // Scroll to calculator
+  setTimeout(() => {
+    calcBody.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    sendHeight();
+  }, 100);
+}
+
+function retakeQuiz() {
+  quizAnswers = {};
+  currentQ = 0;
+  multiSelections = [];
+  document.getElementById('profileCard').style.display = 'none';
+  document.getElementById('quizBridge').style.display = 'none';
+  document.getElementById('calcBody').classList.remove('visible');
+  renderQuestion(0);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  sendHeight();
+}
+
+// ─── Profile builder ───────────────────────────────────────────────────────────
+function buildProfile(ans) {
+  // --- Daily kWh from people ---
+  const peopleMap = { '1-2': 12, '3-4': 22, '5-6': 32, '7+': 44 };
+  let dailyKwh = peopleMap[ans.people] || 22;
+
+  // --- kWh adjustments ---
+  const hvacAdj = { split: 0, ducted: 7, gas_hvac: 2, portable: 4 };
+  dailyKwh += (hvacAdj[ans.hvac] || 0);
+
+  const hwAdj = { electric_tank: 4, heat_pump: 1.5, gas_hw: 0, solar_thermal: 0 };
+  dailyKwh += (hwAdj[ans.hotwater] || 0);
+
+  const appliances = Array.isArray(ans.appliances) ? ans.appliances : [ans.appliances];
+  const hasEv = appliances.includes('ev');
+  const hasPoolHeater = appliances.includes('pool_heater');
+  const hasPoolPump = appliances.includes('pool_pump');
+  const hasNone = appliances.includes('none');
+  if (hasEv) dailyKwh += 12;
+  if (hasPoolHeater) dailyKwh += 8;
+  if (hasPoolPump) dailyKwh += 3;
+
+  dailyKwh = Math.round(dailyKwh);
+
+  // --- Load profile ---
+  const loadProfile = ans.schedule || 'balanced';
+
+  // --- Self-consumption estimate ---
+  const selfConsBase = { dayDynamic: 45, balanced: 35, eveningPeak: 25 };
+  let selfCons = selfConsBase[loadProfile] || 35;
+
+  // --- System size: target ~80% of annual usage ---
+  // system_kw ≈ daily_kwh × 365 / (peak_sun_hours × performance_ratio × 365)
+  // Use 4.2 PSH × 0.77 PR = 3.23 kWh/kWp/day → system_kw = daily_kwh / 3.23
+  const rawKw = dailyKwh / 3.23;
+  // Round to standard sizes
+  const stdSizes = [5, 6.6, 8, 10, 13, 15, 16.5, 20];
+  let systemKw = stdSizes.find(s => s >= rawKw) || 20;
+
+  // --- Battery recommendation ---
+  const needsBattery = hasEv || hasPoolHeater || loadProfile === 'eveningPeak' || dailyKwh >= 28;
+  const batteryStrongReason = hasEv ? 'EV charging at home' : hasPoolHeater ? 'pool/spa heating load' : loadProfile === 'eveningPeak' ? 'evening-heavy usage pattern' : 'high daily consumption';
+
+  let battKwh = 0;
+  if (needsBattery) {
+    if (dailyKwh >= 38 || (hasEv && hasPoolHeater)) battKwh = 15;
+    else if (dailyKwh >= 28 || hasEv || hasPoolHeater) battKwh = 10;
+    else battKwh = 6.4;
+  }
+
+  // Boost self-consumption with battery
+  if (battKwh > 0) selfCons = Math.min(selfCons + 18, 90);
+
+  // --- Headline ---
+  let headline;
+  if (dailyKwh >= 38) headline = `High-demand home — ${systemKw}kW solar${needsBattery ? ` + ${battKwh}kWh battery` : ''} recommended`;
+  else if (dailyKwh >= 22) headline = `Medium household — ${systemKw}kW solar${needsBattery ? ` + ${battKwh}kWh battery` : ' (battery optional)'} recommended`;
+  else headline = `Efficient household — ${systemKw}kW solar${needsBattery ? ` + ${battKwh}kWh battery` : ' (solar-only is strong value)'} recommended`;
+
+  // --- Chips ---
+  const chips = [
+    { text: `~${dailyKwh} kWh/day`, highlight: false },
+    { text: `${systemKw}kW system`, highlight: true },
+  ];
+  if (battKwh > 0) chips.push({ text: `${battKwh}kWh battery`, highlight: true });
+  if (hasEv) chips.push({ text: '🚗 EV owner', highlight: false });
+  if (hasPoolHeater || hasPoolPump) chips.push({ text: hasPoolHeater ? '🏊 Pool heater' : '💧 Pool pump', highlight: false });
+  if (ans.hotwater === 'electric_tank') chips.push({ text: '⚡ Hot water upgrade available', highlight: false });
+
+  // --- Recommendation text ---
+  let rec = `Based on your answers, your household uses an estimated <strong>~${dailyKwh} kWh per day</strong>. `;
+
+  rec += `A <strong>${systemKw}kW solar system</strong> would generate enough electricity to offset the majority of your annual consumption`;
+
+  if (loadProfile === 'dayDynamic') {
+    rec += ` — and because someone's home during the day, you'll directly consume a high proportion of what you generate (~${selfCons}% self-consumption)`;
+  } else if (loadProfile === 'eveningPeak') {
+    rec += `. However, because your usage peaks in the evening when solar isn't generating, a significant share of your solar will be exported`;
+  } else {
+    rec += ` with a balanced consumption pattern`;
+  }
+  rec += '. ';
+
+  if (needsBattery) {
+    rec += `<strong>A ${battKwh}kWh battery is strongly recommended</strong> due to your ${batteryStrongReason}. It allows you to store surplus daytime solar and use it in the evening, lifting your self-consumption to ~${selfCons}%. `;
+  } else {
+    rec += `Battery storage is <strong>optional at this stage</strong> — your daytime usage means you'll self-consume a good portion of solar directly. You can add a battery later when prices fall further. `;
+  }
+
+  if (hasEv) {
+    rec += `Your EV is ideally charged during solar peak hours (10am–3pm) — a smart charger that responds to solar output can dramatically reduce fuel costs. `;
+  }
+  if (ans.hotwater === 'electric_tank') {
+    rec += `💡 <strong>Tip:</strong> Your electric storage hot water tank can be switched to a timer to run midday on free solar — or upgraded to a heat pump for 3–4× the efficiency. `;
+  }
+  if (ans.hotwater === 'gas_hw') {
+    rec += `💡 <strong>Tip:</strong> Your gas hot water system is a candidate for electrification — switching to a heat pump water heater would save ~$400–800/year and could run entirely on solar. `;
+  }
+  if (ans.hvac === 'gas_hvac') {
+    rec += `💡 <strong>Tip:</strong> Your gas heating system has some electrical load (fans/pumps) that solar can offset. Full electrification (reverse-cycle split systems) would allow solar to cover all your heating & cooling. `;
+  }
+
+  rec = rec.trim();
+
+  return {
+    headline, chips, recommendation: rec,
+    // Calculator pre-fill values
+    dailyKwh, loadProfile, selfCons, systemKw, battKwh, needsBattery
+  };
+}
+
+// ─── Apply profile to calculator fields ─────────────────────────────────────
+function applyProfileToCalc(p) {
+  // Daily kWh
+  document.getElementById('dailyKwh').value = p.dailyKwh;
+  document.getElementById('dailyKwhSlider').value = p.dailyKwh;
+
+  // Load profile
+  document.getElementById('loadProfile').value = p.loadProfile;
+  onLoadProfileChange();
+
+  // System kW
+  document.getElementById('systemKw').value = p.systemKw;
+  document.getElementById('systemKwSlider').value = p.systemKw;
+
+  // Self-consumption
+  document.getElementById('selfCons').value = p.selfCons;
+  document.getElementById('selfConsSlider').value = p.selfCons;
+
+  // Battery
+  if (p.needsBattery && p.battKwh > 0) {
+    document.getElementById('batteryToggle').checked = true;
+    toggleBattery();
+    document.getElementById('batteryKwh').value = p.battKwh;
+    document.getElementById('batteryKwhSlider').value = p.battKwh;
+    updateBatteryRebateAuto();
+  }
+
+  // Update STC and recalc
+  updateStcAuto();
+  recalc();
+}
+
+// ─── Init quiz ───────────────────────────────────────────────────────────────
+renderQuestion(0);
 </script>
 </body>
 </html>
