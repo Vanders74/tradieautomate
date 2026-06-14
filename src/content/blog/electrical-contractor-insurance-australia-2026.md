@@ -196,3 +196,22 @@ Look for a broker with experience in the construction and trade sector — not a
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
 - [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+
+---
+
+## FAQ
+
+### What insurance is legally required for electrical contractors in Australia?
+Public liability insurance is effectively mandatory for licensed electrical contractors in all states — most licensing bodies require evidence of a minimum $5M–$20M public liability policy as a condition of contractor licence issuance or renewal. Home warranty insurance (also called domestic building insurance) is required in most states for electrical work on residential buildings above a certain contract value threshold (e.g. $20,000 in NSW and VIC). Workers' compensation insurance is required for any business with employees. Professional indemnity is not legally required but is strongly recommended for businesses that provide design advice or energy consultancy.
+
+### How much does public liability insurance cost for an electrician in Australia?
+Public liability insurance for a sole trader electrician in Australia typically costs $800–$1,500/year for $10M cover, depending on your annual turnover, the types of work you do, and your claims history. For a 3–5 person electrical business doing solar and battery work, expect $1,500–$3,000/year. Businesses doing large commercial projects, hot work, or work at heights may pay more. Solar-specific public liability policies that cover panel installation, roof work, and electrical connection typically cost 20–30% more than standard electrical-only policies.
+
+### Do solar installers need different insurance to standard electricians?
+Yes — solar installation introduces specific risks that standard electrical contractor policies may not cover, including: work at heights (roof installation), product liability exposure for solar systems over the system's lifetime, damage to the building structure during installation, and potential solar fire liability. Ensure your policy explicitly covers solar PV installation, battery storage installation, and grid-connected systems. Some standard electrical policies exclude renewable energy work. Always disclose your solar and battery revenue split to your broker when sourcing cover.
+
+### What is professional indemnity insurance and do electricians need it?
+Professional indemnity (PI) insurance covers claims arising from professional advice or design work — for example, if a customer suffers a financial loss because you provided incorrect advice about their solar system size, energy savings, or battery capacity. While not legally required for most electrical contractors, PI is increasingly important for solar businesses that provide detailed energy assessments, ROI projections, or battery sizing recommendations as part of their sales process. If you provide any written advice, proposals, or reports that customers rely on financially, PI cover is worth having — typically $2,000–$5,000/year for $1M–$2M cover.
+
+### What insurance do I need for battery storage installations in Australia?
+Battery storage installation requires careful attention to your insurance policy wording. Key coverage areas: your public liability policy must cover battery installation (some exclude lithium battery work); product liability should extend to the battery system over its warranty period; and if a battery system causes property damage due to a fault in your installation (improper earthing, incorrect cabling, thermal event triggers), your policy must respond. Ensure your broker confirms in writing that your policy covers AS/NZS 5139 battery installations. As battery installations become more common, some insurers are introducing specific battery storage endorsements.
