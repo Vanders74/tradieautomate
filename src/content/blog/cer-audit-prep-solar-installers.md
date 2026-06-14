@@ -160,6 +160,7 @@ For a full rundown of what you need on every solar job, start with the [Solar Co
 
 ## Related Reading
 
+- *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
 - [how ServiceM8 adds value to your trade business](/blog/sell-servicem8-trade-business-value)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)

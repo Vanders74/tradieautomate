@@ -179,6 +179,7 @@ These three audits will tell you where AI automation investment will deliver the
 ---
 
 *Related reading:*
+- *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
 - *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
 - *[ServiceM8 for Solar Businesses: Scale Without the Admin Overload](/blog/servicem8-for-solar-businesses)*
 - *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*

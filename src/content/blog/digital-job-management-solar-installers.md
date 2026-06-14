@@ -169,5 +169,5 @@ Absolutely. Platforms like ServiceM8 support fully custom forms, so you can buil
 
 ## Related Reading
 
+- *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
 - [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
-- [Solar & Battery Installer Resources for Australian Businesses](/solar/)

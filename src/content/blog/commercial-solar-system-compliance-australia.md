@@ -189,6 +189,7 @@ See the [digital job management guide for solar installers](/blog/digital-job-ma
 
 ## Related Reading
 
+- *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
 - *[EV Charging at Commercial Premises Australia 2026: Compliance & Load Management](/blog/ev-charging-commercial-premises-australia-2026)*
 - *[How to Win Commercial Solar Contracts Australia](/blog/how-to-win-commercial-solar-contracts-australia)*
 - *[Solar Compliance Checklist for Australian Installers 2026](/blog/solar-compliance-checklist-2026)*

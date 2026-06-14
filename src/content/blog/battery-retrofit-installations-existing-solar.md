@@ -179,6 +179,7 @@ You can automate this follow-up in [ServiceM8](https://www.servicem8.com/?ref=tr
 
 ## Related Reading
 
+- *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
 - *[Adding Battery Storage to Your Solar Business: The Complete Guide for Australian Installers](/blog/adding-battery-storage-solar-business-australia)*
 - *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance)*
 - *[Solar Monitoring and After-Sales Revenue: How to Turn Installs Into Recurring Income](/blog/solar-monitoring-after-sales-revenue-australia)*

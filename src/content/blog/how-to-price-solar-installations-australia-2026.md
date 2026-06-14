@@ -185,6 +185,7 @@ After 20–30 jobs with accurate tracking, your pricing model will be calibrated
 
 ## Related Reading
 
+- *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
 - *[The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)*
 - *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
@@ -192,6 +193,3 @@ After 20–30 jobs with accurate tracking, your pricing model will be calibrated
 - *[How to Write a Solar Quote That Wins](/blog/how-to-write-solar-quote-that-wins)*
 - [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [The 2026 Solar Playbook: How to Win the Battery Upgrade Wave](/blog/solar-playbook-2026-battery-upgrade)
-- [The 1.5kW Export Limit Explained for Solar Installers (CSIP-Aus)](/blog/csip-aus-export-limit-1-5kw-solar)
-- [Solar & Battery Installer Resources for Australian Businesses](/solar/)

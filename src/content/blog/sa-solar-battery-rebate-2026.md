@@ -178,6 +178,7 @@ Both can apply to the same installation. Make sure your quotes and customer comm
 
 ## Related Reading
 
+- *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
 - *[Adding Battery Storage to Your Solar Business: The Complete Guide](/blog/adding-battery-storage-solar-business-australia)*
 - *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance)*
 - *[VIC Solar Homes Program Battery Rebate 2026](/blog/vic-solar-homes-program-rebate-2026)*

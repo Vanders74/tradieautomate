@@ -218,6 +218,7 @@ ServiceM8 works well for commercial solar installations, though very large-scale
 ---
 
 *Related reading:*
+- *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
 - *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers)*

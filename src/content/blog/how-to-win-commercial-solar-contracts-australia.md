@@ -135,20 +135,6 @@ The proposal is your sales document for commercial solar. A strong commercial pr
 
 ---
 
-## After You Win: Delivering the Commercial Job
-
-Winning the tender or contract is only the start. How you deliver separates contractors who build commercial solar businesses from those who do one or two commercial jobs and go back to residential.
-
-**Dedicated project management.** Commercial solar projects need a single point of contact who is responsible for delivery. This is typically not the lead installer — it's someone in your business who manages the project timeline, subcontractor coordination, customer communication, and documentation.
-
-**Proactive communication.** Commercial clients expect regular project status updates. Build a communication cadence into your delivery process: weekly project status email, notification when key milestones are complete, advance notice of any delays. No news is bad news in commercial project management.
-
-**Documentation from day one.** Commercial projects generate significant compliance documentation: design drawings, engineering certifications, network connection approvals, progress photos, AS/NZS 5033 compliance checklists, electrical certificates. Capture this digitally throughout the project — don't try to reconstruct it at the end.
-
-**Commercial payment terms management.** Commercial projects typically involve progress payments at defined milestones (e.g., 30% on order, 30% on delivery of materials, 30% on commissioning, 10% on sign-off). Managing these milestones and invoicing on time is a core business function. ServiceM8 supports progress invoicing for multi-payment jobs — use it.
-
----
-
 ## Managing Commercial Jobs in ServiceM8
 
 Commercial solar jobs are larger, more complex, and have more moving parts than residential. The job management discipline that works for residential needs to scale up for commercial.
@@ -177,32 +163,9 @@ Commercial jobs have higher absolute margin potential but also higher complexity
 
 ---
 
-## FAQ
-
-### Do I need a different CEC accreditation for commercial solar?
-
-Yes — for systems above 100kW, you need the CEC Design accreditation with a Large-scale Systems endorsement (or equivalent). For systems up to 100kW, the standard Accredited Installer endorsement typically covers the scope. Always check the CEC requirements for your specific system size and type before committing to a commercial project. Installing outside your accreditation scope risks voiding STCs and CEC accreditation entirely.
-
-### What insurance do I need for commercial solar work?
-
-At minimum: public liability insurance with adequate limits for the project value (typically $10–$20 million for commercial work), workers' compensation, and contractor's all-risk / installation insurance for the equipment value. Many commercial clients also require professional indemnity insurance. Check the specific insurance requirements in the tender documents or contract before pricing the job.
-
-### How do I handle network connection approvals for large commercial solar?
-
-Commercial solar systems above certain thresholds typically require a formal Small Embedded Generator connection application with the relevant network operator (Ausgrid, Endeavour Energy, Essential Energy, Western Power, etc.). This involves submitting system designs, protection relay settings, and sometimes detailed power system studies. Level 2 ASPs (Accredited Service Providers) are often involved. Factor the connection approval timeline — which can be 4–12 weeks — into your project schedule before committing to a delivery date.
-
-### How should I price a commercial solar tender if I'm unsure of the structural costs?
-
-Don't guess on structural costs — they can swing a commercial job from profitable to a loss. Options: (a) include a provisional sum for structural engineering in your tender price with a note that it's subject to final engineering assessment, (b) engage a structural engineer for a preliminary assessment before you price, or (c) include a structural exclusion and note that structural requirements will be addressed via variation if required. Option (b) is the most professional approach and gives you confidence in your pricing.
-
-### What's the biggest mistake solar businesses make when transitioning to commercial?
-
-Under-estimating the complexity of commercial procurement and delivery is the most common error. Businesses that are excellent at residential solar — high volume, efficient installs, fast turnaround — sometimes assume commercial is just a bigger version of the same thing. It isn't. Commercial involves longer sales cycles (3–12 months for mid-size), more complex designs, more documentation, longer delivery timelines, and more stakeholders. The businesses that succeed in commercial build separate systems for it rather than applying residential workflows to bigger jobs.
-
----
-
 ## Related Reading
 
+- *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
 - *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
 - *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
