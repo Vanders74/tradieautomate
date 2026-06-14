@@ -214,3 +214,22 @@ Yes. [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance) has specific re
 - [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
 - [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
 - [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)
+
+---
+
+## FAQ
+
+### What compliance documents are required for a solar installation in Australia?
+A standard residential solar installation in Australia requires: (1) a Certificate of Compliance for Electrical Work (CCEW in NSW) or equivalent state certificate (CES in VIC, CCEW in QLD), issued within 7 days of completion; (2) STC lodgement with the Clean Energy Regulator (CER) for the applicable zone and system size; (3) geo-tagged installation photos meeting CER requirements for audit purposes; (4) customer STC assignment declaration; and (5) DNSP network notification where required. Battery installs additionally require AS/NZS 5139 documentation.
+
+### What does the Clean Energy Regulator audit during a solar inspection?
+CER audits assess whether installations comply with the requirements of the Renewable Energy (Electricity) Act 2000 and the Small-scale Renewable Energy Scheme. Auditors check: CEC accreditation currency for the installing electrician, STC lodgement accuracy (system size, location, STC quantity), geo-tagged photo documentation showing panel layout and labelling, inverter and panel model compliance with the approved product list, AS/NZS 5033 adherence for DC wiring, and proper labelling of AC/DC isolators. The most common audit failure points are inaccurate STC calculations and missing or low-quality geo-tagged photos.
+
+### What are the AS/NZS standards that solar installers must comply with?
+The primary standards for Australian solar installations are: AS/NZS 5033 (Installation and Safety Requirements for PV Arrays — DC wiring, isolators, labelling), AS/NZS 4777.1 and 4777.2 (Grid Connection of Energy Systems — inverter requirements and installation), and for battery storage, AS/NZS 5139 (Electrical Installations — Safety of Battery Systems). Compliance with AS/NZS 3000 Wiring Rules is also required for all AC electrical work. These standards are referenced in CER audit assessments and in state compliance certificates.
+
+### How do I prepare for a CER audit as a solar installer?
+The best preparation is maintaining a complete job file for every installation. This should include: a copy of the signed customer STC assignment form, CEC accreditation certificate (current), geo-tagged photos of the installation (roof layout, inverter, meter board, labelling), the compliance certificate (CCEW/CES), the DNSP notification (if applicable), the inverter and panel data sheets confirming they're on the approved product list, and your AS/NZS 5033 site assessment notes. Using a digital job management system like ServiceM8 to capture and store all of this per-job means you can produce the full audit file in minutes if contacted by the CER.
+
+### What happens if my solar installation fails a CER audit?
+CER audit failures can result in: revocation of STC certificates (meaning you or your customer loses the rebate), requirement to rectify the installation at your cost, suspension or revocation of your CEC accreditation (preventing future STC claims), and referral to state electrical safety regulators. Serious or repeated breaches can result in criminal penalties under the Renewable Energy (Electricity) Act 2000. The most common outcome of a minor first-time audit failure is a rectification notice — but accreditation suspension is a real risk for documentation or installation deficiencies.
