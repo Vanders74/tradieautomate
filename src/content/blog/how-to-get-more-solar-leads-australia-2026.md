@@ -184,3 +184,22 @@ By month 3, a consistent lead flow from Google organic + GBP + referrals should 
 - *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)*
 - [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+
+---
+
+## FAQ
+
+### What is the best way to get solar leads in Australia in 2026?
+The highest-ROI lead source for most Australian solar businesses is Google Business Profile (GBP) — it's free, drives local search traffic, and delivers high-intent leads from people actively looking for a solar installer. The next highest-ROI source is referrals, which convert at 3–5× the rate of cold leads and typically require only a systematic review request and referral incentive program. Paid Google Ads can deliver consistent volume but require careful keyword management to avoid low-quality traffic. SEO (ranking for local solar installation terms) delivers compounding returns over 6–18 months.
+
+### How much should a solar business spend on marketing in Australia?
+A well-run solar installation business typically allocates 3–8% of revenue to marketing. For a business doing $1.5M/year in revenue, that's $45,000–$120,000/year across all channels. The most cost-effective allocation for most Australian solar businesses is: 40% to Google Ads (for consistent lead volume), 30% to SEO and content (for long-term organic growth), 20% to local partnerships and referral programs, and 10% to social media and review management. Many businesses overspend on social media ads that generate awareness but not high-intent leads.
+
+### How do I get more Google reviews for my solar business?
+The most effective approach is automated review requests triggered by job completion. When a job is marked complete in your job management system, an SMS and email goes to the customer automatically with a direct link to your Google Business Profile review page. Timing matters: requests sent within 2 hours of job completion have significantly higher conversion than those sent the next day. Businesses using this system consistently achieve 15–30% review conversion rates. Responding to every review (positive and negative) within 24 hours also signals quality to Google's algorithm and builds trust with prospective customers.
+
+### Does SEO work for solar installation businesses in Australia?
+Yes — and it compounds over time in a way paid advertising doesn't. The most valuable SEO targets for Australian solar businesses are location-specific queries ("solar installer [suburb]", "solar panels [city]") and comparison/review queries ("best solar company [city]", "solar installer reviews [suburb]"). These queries have high commercial intent and relatively low competition outside major metros. Building suburb-specific landing pages, maintaining an active Google Business Profile, and creating authoritative content around common customer questions (battery sizing, STC rebates, grid connection) are the highest-leverage SEO actions for most solar businesses.
+
+### What is the fastest way to improve solar lead conversion rates?
+The fastest conversion improvement typically comes from response speed, not marketing spend. Research consistently shows that leads contacted within 5 minutes of inquiry convert at 9× the rate of leads contacted after 30 minutes. For solar businesses where owners are often on the roof or in the van, AI-powered phone answering (e.g. Sophiie AI) or an auto-SMS response that acknowledges the inquiry and sets expectations for a callback eliminates the response gap entirely. The second fastest improvement is a systematic quote follow-up sequence — most unconverted quotes are delayed decisions, not dead ones, and a 5-touch sequence over 21 days typically recovers 15–25% of otherwise-lost quotes.

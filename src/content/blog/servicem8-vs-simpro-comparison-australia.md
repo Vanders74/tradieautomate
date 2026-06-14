@@ -206,3 +206,21 @@ No credit card required. Set up your first job in under 30 minutes.
 ## Related Reading
 
 - [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+---
+
+## FAQ
+
+### Is ServiceM8 or simPRO better for a small Australian trade business?
+For a business with 1–10 field staff, ServiceM8 is the stronger choice in almost all cases. It's mobile-first, faster to implement, significantly cheaper, and well-suited to the compliance workflows that Australian electricians and solar installers need (CCEW, CER documentation, Xero integration). simPRO is built for larger businesses that need complex project management, multi-stage billing, and detailed cost tracking across long-duration commercial jobs. If you're not doing large commercial projects with subcontractor chains, you're paying for simPRO's complexity without benefiting from it.
+
+### How much does simPRO cost compared to ServiceM8?
+ServiceM8 ranges from $29–$349/month AUD (covering up to unlimited staff on the top plan). simPRO pricing is not publicly listed and is quote-based, but typically starts at $150–$250/month per user — making it $1,500–$2,500/month for a 10-person team, compared to $109/month for ServiceM8 on the Growing plan. The gap widens when you include simPRO's implementation and training costs, which are typically $3,000–$10,000 for a proper onboarding. For a small trade business, the ROI calculation rarely favours simPRO.
+
+### Can ServiceM8 handle solar compliance documentation?
+Yes. ServiceM8 supports custom digital forms that can capture CER-required documentation, geo-tagged site photos, customer STC declarations, CCEW data fields, and AS/NZS 5033/5139 checklist items. These forms integrate directly into the job workflow, so technicians complete them on-site rather than after the fact. simPRO also supports custom forms but requires more configuration and is generally harder to adapt for field-level compliance capture.
+
+### What are the main reasons to choose simPRO over ServiceM8?
+simPRO is the better fit if you: manage large commercial solar or electrical projects with multi-stage billing and retentions; have 20+ field staff with complex scheduling and resource allocation needs; need detailed job costing and WIP reporting at a project level; or manage significant subcontractor relationships that require purchase order workflows. For residential and light commercial work — the majority of Australian electrical and solar businesses — simPRO's additional capability comes at a cost that is difficult to justify.
+
+### Does ServiceM8 integrate with Xero and MYOB?
+Yes. ServiceM8 has native integrations with both Xero and MYOB AccountRight. Invoices raised in ServiceM8 push directly to your accounting software, and customers sync both ways. This eliminates double entry and ensures your accounts accurately reflect completed work. simPRO also integrates with Xero and MYOB, though the integration is somewhat more complex to configure correctly.

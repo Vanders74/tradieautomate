@@ -211,3 +211,21 @@ Use AI to systematise everything that's systematisable. Invest the recovered tim
 - *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
+---
+
+## FAQ
+
+### What AI automation tools work best for electricians and plumbers in Australia?
+The most effective AI tools for Australian electricians and plumbers in 2026 are: ServiceM8 (job management automation — scheduling, invoicing, compliance workflows), Sophiie AI (24/7 phone answering and lead capture without a receptionist), automated quote follow-up sequences via CRM tools (HubSpot, ActiveCampaign), and automated review request systems triggered by job completion. These deliver measurable, immediate ROI — not theoretical future gains. Avoid tools that require significant integration work or technical setup without a clear payback timeline.
+
+### Can AI handle compliance documentation for electricians?
+AI tools significantly reduce the compliance documentation burden for electricians — but they don't replace licensed sign-off. What they do well: auto-populating compliance forms with job data, triggering CCEW workflows when a job is marked complete, reminding technicians of missing documentation before they leave the site, and storing geo-tagged photos automatically in the job record. This eliminates the end-of-day paperwork backlog and creates an audit-ready digital trail. For electricians doing 10+ jobs per week, this workflow automation saves 3–5 hours of admin time weekly.
+
+### How much admin time can AI automation save a plumbing or electrical business?
+For a 2–4 person electrical or plumbing business, well-configured automation typically saves 5–8 hours of admin time per week across the business. The biggest savings come from: automated invoicing (30–60 minutes/day eliminated), automated payment follow-up (eliminates manual chasing), automated review requests (eliminates the awkward post-job conversation), and 24/7 AI phone answering (eliminates missed calls and voicemail follow-up). At a $100/hour effective rate for business owner time, that's $25,000–$40,000/year in recovered time.
+
+### Is it expensive to implement AI automation for a small trade business?
+No — the core automation stack for an electrical or plumbing business costs $400–$800/month total. ServiceM8 for job management and compliance automation: $109–$189/month. Sophiie AI for phone answering: $300–$500/month (less than a part-time receptionist). CRM-based quote follow-up: $50–$150/month. The implementation investment is primarily time (3–8 hours to configure each tool correctly), not software cost. Most businesses achieve payback within 60 days through reduced admin hours and improved lead conversion alone.
+
+### What should an electrician or plumber never automate?
+Don't automate anything that requires licensed judgement, client-specific relationship context, or legal sign-off. Specifically: the licensed electrician or plumber must still personally approve compliance certificates (CCEW, certificate of electrical safety, plumbing compliance certificates) — AI tools can capture the data but can't replace the licensed practitioner's responsibility. Complex quoting for non-standard jobs should remain human-driven. Complaint handling should never be fully automated — an unhappy customer who receives an automated response to a complaint escalates quickly. Use automation to free up time for these high-judgment tasks, not to replace them.

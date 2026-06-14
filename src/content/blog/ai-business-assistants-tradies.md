@@ -192,3 +192,21 @@ We've put together a practical guide covering the specific automation workflows 
 ---
 
 *Running a solar installation or electrical business in Australia? The admin automation landscape has changed significantly in 2026. [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia) to reclaim their time and grow without adding overhead.*
+---
+
+## FAQ
+
+### What is an AI business assistant for tradies and how does it work?
+An AI business assistant for tradies is software that handles routine business tasks autonomously — answering calls, booking jobs, sending quotes, following up leads, and requesting reviews — without requiring a human to be present. For solar installers and electricians, the most impactful application is AI phone answering: a platform like Sophiie AI answers every call (including after-hours calls) in a natural, conversational way, captures the caller's details and job requirements, and either books the job directly or notifies the owner for follow-up. This eliminates the missed-lead problem that costs most trade businesses $50,000–$200,000 in revenue annually.
+
+### How much does AI phone answering cost for a trade business?
+AI phone answering services like Sophiie AI typically cost $300–$600/month for unlimited calls, 24/7 availability, and integration with job management platforms. This compares to $3,000–$4,500/month for a full-time receptionist ($36,000–$54,000/year), or $1,500–$2,500/month for a part-time receptionist. The economics are straightforward: if the AI captures one additional job per month (that would otherwise have gone to a competitor due to a missed call), it has paid for itself. Most businesses report capturing 3–8 additional jobs per month that were previously falling through via missed calls or slow response.
+
+### Can AI book jobs for solar installers automatically?
+Yes — AI phone assistants integrated with job management platforms (e.g. Sophiie AI + ServiceM8) can check technician availability in real time, propose available appointment times to the caller, and book the job directly into the schedule without human involvement. This is particularly valuable for after-hours calls (which represent 30–40% of inbound call volume for many trade businesses) and for handling inquiry calls during peak on-site periods. The booking is automatically confirmed via SMS to both the customer and the technician.
+
+### How does AI help with Google reviews for trade businesses?
+AI-triggered review requests are one of the highest-ROI applications for trade businesses. When a job is marked complete in your job management software, an automated SMS goes to the customer within 1–2 hours — while the experience is still fresh — with a direct link to your Google Business Profile review page. This timing and friction-reduction (no searching for your business, just one click) drives 15–30% review conversion rates. A solar business doing 20 jobs per month with a 20% review conversion rate generates 4 new Google reviews per month — roughly 50 per year — without any manual follow-up effort.
+
+### What is the ROI of implementing AI automation for a solar installation business?
+For a solar installation business doing $1.5M/year in revenue, a full AI automation stack (AI phone answering + automated job management + review automation) typically delivers: $80,000–$150,000 in additional captured revenue from leads previously missed via slow response or after-hours calls; $20,000–$40,000 in recovered owner/admin time; and a measurable improvement in Google Business Profile rankings (more reviews = higher local pack position = more organic leads). The combined stack costs $600–$800/month ($7,200–$9,600/year). The ROI multiple is typically 10–15× in year one for a business implementing it correctly.

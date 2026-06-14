@@ -240,3 +240,21 @@ No credit card required. Set up your first compliance form and test the full wor
 - *[The Paperless Trade Roadmap](/blog/paperless-trade-roadmap-operational-efficiency)*
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
 - *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
+---
+
+## FAQ
+
+### Is ServiceM8 or Jobber better for Australian electricians?
+ServiceM8 is the stronger choice for Australian electricians in almost all cases. The key reasons: ServiceM8 supports Australian compliance documentation workflows (CCEW, CER forms, geo-tagged photos) that Jobber does not — Jobber is a North American platform and lacks these local compliance features. ServiceM8 integrates natively with Xero and MYOB (the dominant accounting platforms in Australia), while Jobber's accounting integration is primarily built for QuickBooks (common in North America but less prevalent here). For Australian solar and electrical businesses, this compliance and accounting integration gap is decisive.
+
+### Can Jobber be used in Australia?
+Yes — Jobber is available in Australia and some Australian trade businesses use it, particularly those in trades that don't have strong compliance documentation requirements (cleaning, landscaping, general maintenance). However, for licensed electrical contractors and solar installers who need to manage CCEW documentation, CER compliance workflows, and integrate with Xero or MYOB, Jobber's Australian-specific support is limited. Most Australian electricians who evaluate both platforms choose ServiceM8 for these reasons.
+
+### How does ServiceM8 pricing compare to Jobber in Australia?
+ServiceM8 is priced in AUD and ranges from $29–$349/month. Jobber is priced in USD and ranges from approximately $49–$249/month USD (roughly $75–$380 AUD at current exchange rates). At similar feature tiers, pricing is broadly comparable, but ServiceM8 offers better value for Australian businesses because its feature set is more directly suited to local compliance and accounting workflows. Jobber's higher tiers include features (like two-way texting and advanced reporting) that ServiceM8 offers at lower price points.
+
+### What are the main reasons to choose Jobber over ServiceM8?
+Jobber is worth considering if: your business is primarily client-facing with a focus on customer experience features (Jobber's client hub and self-serve booking portal are strong); you do significant quoting volume with complex multi-option proposals; or your business doesn't involve licensed compliance documentation (e.g. residential cleaning, landscaping, or property maintenance). For electrical and solar businesses with compliance documentation needs and Australian accounting systems, the case for Jobber over ServiceM8 is weak.
+
+### Does ServiceM8 work offline for field technicians?
+Yes — the ServiceM8 mobile app stores job data locally and continues to function without internet connectivity. Technicians can view job details, complete forms, and capture photos while offline. Data syncs automatically when the device reconnects to mobile data or WiFi. This is important for electrical and solar work where roof-level connectivity can be patchy. Jobber similarly supports offline functionality in its mobile app, so this is not a differentiating factor between the two platforms.
