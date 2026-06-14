@@ -269,3 +269,21 @@ Yes — ServiceM8 offers a 14-day free trial with no credit card required. You g
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[How to Sell Your ServiceM8-Based Trade Business for Maximum Value](/blog/sell-servicem8-trade-business-value)*
 - *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
+---
+
+## FAQ
+
+### Is ServiceM8 worth it for a small electrical or solar business?
+Yes — for a 1–5 person electrical or solar business, ServiceM8 delivers a clear positive ROI. The most immediate benefit is invoice speed: businesses consistently report getting invoices out same-day instead of 3–5 days after job completion, which alone recovers significant working capital. The compliance form support (CCEW, solar site documentation), Xero integration, and mobile-first design make it purpose-built for the way trade businesses actually work in the field.
+
+### What are the main limitations of ServiceM8?
+ServiceM8 is not well-suited for large businesses (20+ field staff) with complex project management, multi-stage billing, or detailed cost tracking at a project level. It lacks native gantt-chart scheduling, doesn't handle retention billing natively, and its reporting suite is less powerful than simPRO or AroFlo. For a business doing large commercial solar projects with multiple milestones and subcontractor management, a platform like simPRO is worth evaluating despite the higher cost and complexity.
+
+### How much does ServiceM8 cost in Australia in 2026?
+ServiceM8 is priced in AUD for Australian businesses. Plans start at $29/month (Starter, 2 staff) and go up to $349/month (Unlimited staff). The most popular plan for small electrical and solar businesses is the Growing plan at $109/month, which covers up to 15 staff members. All plans include the mobile app, client management, quoting, invoicing, and Xero integration. There is a free 14-day trial with no credit card required.
+
+### Does ServiceM8 work for solar compliance documentation?
+Yes — ServiceM8 supports custom digital forms that can capture all the data required for solar compliance workflows: CER documentation requirements, geo-tagged site photos (which can be attached directly in the app), AS/NZS 5033 and 5139 checklist items, customer declarations for STC assignment, and CCEW data fields. These forms can be completed on-site and synced automatically, eliminating end-of-day paperwork and creating a timestamped digital audit trail.
+
+### How does ServiceM8 compare to Tradify for Australian electricians?
+Both are strong mobile-first platforms for Australian trade businesses. ServiceM8 has more mature compliance form support and a larger ecosystem of integrations, which makes it the preferred choice for solar installers who need CER-compatible workflows. Tradify has a simpler interface and is often preferred by newer businesses or sole traders who want faster onboarding. ServiceM8's pricing advantage diminishes at higher staff counts. For a 1–3 person electrical business new to job management software, Tradify is a legitimate alternative worth trialling alongside ServiceM8.
