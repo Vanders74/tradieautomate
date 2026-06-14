@@ -157,3 +157,7 @@ For installers, the battery pricing conversation is often where deals are lost â
 - *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
 - *[EV Charger Installation Cost Australia 2026](/blog/ev-charger-installation-cost-australia-2026)*
 - *[Solar Installer Cash Flow Management](/blog/solar-installer-cash-flow-management)*
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
+- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)

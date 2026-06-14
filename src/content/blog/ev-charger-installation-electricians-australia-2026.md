@@ -184,6 +184,7 @@ That conversation is worth $1,500–$3,000 in additional revenue — and it's a 
 - *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
 
 ---
 
