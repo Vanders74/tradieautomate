@@ -189,3 +189,22 @@ For the complete CER audit preparation framework — including what auditors loo
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
 - [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
 - [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
+
+---
+
+## FAQ
+
+### How do STCs work for solar installers in Australia?
+Small-scale Technology Certificates (STCs) are the federal solar rebate mechanism under the Small-scale Renewable Energy Scheme (SRES). When a solar system is installed, a number of STCs are created based on the system's expected electricity output over its deeming period (to 2030), the installation zone, and the system size. The installer or agent assigns the STCs (with the customer's consent) and sells them to liable entities (electricity retailers) via the STC clearing house or spot market. The value is typically passed to the customer as an upfront discount on the system price.
+
+### How many STCs does a 6.6kW solar system get in Sydney?
+In Sydney (Zone 3), a 6.6kW system installed in 2026 generates approximately 80–85 STCs (the exact number depends on the calculation year and module type). At the clearing house price of $40/certificate, that's approximately $3,200–$3,400 in STC value, typically applied as a discount on the customer's invoice. The STC deeming period ends in 2030, so the number of certificates per kW has been declining each year as the end date approaches. STCs are calculated using the CER's STC Calculator.
+
+### What CEC accreditation do you need to claim STCs?
+To create STCs for a solar installation, the installing electrician must hold current Clean Energy Council (CEC) accreditation — specifically, the Solar (PV) Designer Accreditation or the combined Installer/Designer accreditation. The accreditation requires completion of a CEC-approved training course, evidence of practical installation experience, and annual continuing professional development (CPD). Accreditation must be current at the date of installation, not the date of STC lodgement. Accreditation that lapses before an installation date invalidates the STC claim for that job.
+
+### What are the most common STC errors that trigger CER audits?
+The most common STC errors that attract CER attention are: (1) STC quantity calculation errors (wrong zone code, incorrect system size rounding, or using the wrong year multiplier); (2) installation date discrepancies between the STC lodgement and compliance certificate; (3) geo-tagged photos missing or not meeting CER requirements (must show panel layout, mounting, labelling, and be date/location stamped); (4) using products not on the CER approved product list; and (5) expired CEC accreditation at time of installation. All of these are preventable with a robust job documentation workflow.
+
+### How long does the STC lodgement process take?
+STC lodgement through the REC Registry typically takes 5–15 business days for the certificates to be created once the application is submitted, provided all documentation is complete and correct. Lodgement can be done by the installer directly or through an STC agent (aggregator). Most residential solar businesses use an STC agent who handles the lodgement process and pays the installer within a set timeframe (typically 2–5 business days after audit approval). Errors or missing documentation can delay the process by weeks and may trigger a CER audit before certificates are issued.
