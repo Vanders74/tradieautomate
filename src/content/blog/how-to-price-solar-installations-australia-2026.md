@@ -193,3 +193,22 @@ After 20–30 jobs with accurate tracking, your pricing model will be calibrated
 - *[How to Write a Solar Quote That Wins](/blog/how-to-write-solar-quote-that-wins)*
 - [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+
+---
+
+## FAQ
+
+### What is the average cost of a solar installation in Australia in 2026?
+A standard 6.6kW residential solar system in Australia costs $5,500–$8,500 fully installed in 2026 (after STC rebate). Higher-quality components (Tier 1 panels, string inverters from SMA, Fronius, or SolarEdge) sit at the upper end; value-tier systems with less-established brands sit at the lower end. A 10kW system typically costs $8,000–$12,000 installed. Adding a battery (e.g. Tesla Powerwall 3 or Alpha ESS) adds $8,000–$15,000 to the installed price. State rebates (VIC, SA) can reduce the effective customer price further. Prices vary by state, roof complexity, and installation difficulty.
+
+### What profit margin should a solar installer target in Australia?
+A well-run residential solar installation business should target 40–55% gross margin per job (revenue minus direct costs of labour, materials, compliance, and travel). Net profit margin (after overhead) should be 15–25% for an efficiently operated business. If your gross margins are consistently below 35%, review your direct cost structure — particularly unbilled compliance time, travel cost absorption, and materials pricing. Battery-add installations can achieve slightly higher margins (40–60%) due to less price competition than the solar-only market.
+
+### How do you calculate the labour cost for a solar installation quote?
+Calculate your true cost rate per technician: annual salary + super (11.5% in 2026) + WorkCover premium + vehicle running cost + tools and equipment depreciation + pro-rata training and certification costs. Divide by billable hours per year (typically 1,400–1,600 for a full-time technician after leave, training, travel, and admin). For a technician on $75,000 base salary in 2026, the true cost rate is typically $65–$80/hour. A standard 6.6kW installation takes 4–6 hours for a 2-person crew (8–12 labour hours total). At $70/hour true cost, that's $560–$840 in direct labour cost per job.
+
+### How do STC rebates affect solar pricing in Australia?
+STCs (Small-scale Technology Certificates) reduce the effective system cost for customers. The STC value is typically passed through as an upfront discount on the customer's invoice — you install at the "post-STC" price and claim the STC value from the market (via an agent or directly through the CER clearing house at $40/certificate). For a 6.6kW system in Zone 3 (Sydney), 2026 STCs are worth approximately $3,200–$3,400. You receive this amount from the STC agent (typically within 2–5 business days of lodgement), while the customer has already received the discount at point of sale. The cash flow timing between customer discount and STC receipt is important to model correctly.
+
+### What is the best pricing strategy for winning solar quotes in Australia?
+Lead with value, not price. The customers most worth winning are those comparing quality and service, not hunting for the lowest price — those customers are more profitable and generate better referrals. Present three pricing tiers (good/better/best) where possible, with clear differentiation in equipment quality, warranty, and service. Always show the STC calculation transparently — it builds trust and explains the pricing structure. Follow up unconverted quotes systematically (5 touchpoints over 21 days) — most solar leads are delayed decisions, not rejections. Response speed also matters: quoting within 24 hours of inquiry closes significantly more business than quoting after 48–72 hours.

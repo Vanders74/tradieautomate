@@ -187,3 +187,21 @@ For larger, more complex construction project management, you may need additiona
 - *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
 - *[ServiceM8 for Painters: Quote Faster, Invoice Sooner, Chase Less](/blog/servicem8-for-painters)*
 - *[ServiceM8 for Roofing Contractors: Manage Jobs, Quotes, and Compliance From the Field](/blog/servicem8-for-roofing)*
+---
+
+## FAQ
+
+### Is ServiceM8 suitable for building and construction businesses?
+ServiceM8 works well for builders running residential construction and renovation projects where job sizes are manageable and client communication is important. Its strengths for builders are: quoting, scheduling subcontractors, client communication automation (booking confirmations, progress updates), same-day invoicing, and Xero/MYOB integration. Its limitations for builders are: it doesn't natively handle multi-stage milestone billing with retentions, doesn't have a built-in gantt chart for project scheduling, and lacks dedicated variation management workflows. For residential building up to medium complexity, it's a strong option — for large or complex commercial builds, purpose-built construction management software is a better fit.
+
+### Does ServiceM8 support builder's warranty and contract documentation?
+ServiceM8 supports custom digital forms that can be used to capture job-related documentation — site inspections, defect lists, handover checklists — and attach them to the job record. However, it doesn't include dedicated builder's contract templates or home warranty insurance documentation workflows out of the box. These documents are typically managed as attachments within the job file. For Victorian and NSW builders, ensuring your Home Warranty Insurance documentation workflow integrates with ServiceM8 requires some setup but is achievable.
+
+### How does ServiceM8 handle subcontractor management for builders?
+ServiceM8 allows you to assign jobs or tasks to subcontractors who can access job details, complete forms, and submit timesheets via the mobile app with a subcontractor account. This is useful for coordinating trades on a residential build — sharing job access, tracking what's been done on site, and getting signoff documentation back without chasing phone calls. However, it doesn't manage subcontractor purchase orders, retention amounts, or compliance certificates (e.g. subcontractor SWMS) at the depth that dedicated construction platforms like Buildxact or Procore offer.
+
+### What is the cost of ServiceM8 for a building business?
+ServiceM8 costs AUD $29/month (Starter, 2 staff), $109/month (Growing, up to 15 staff), $189/month (Established, up to 30 staff), or $349/month (Unlimited). For a small building business with an office coordinator and 3–5 on-site workers, the Growing plan at $109/month is typically sufficient. This is significantly cheaper than dedicated construction management platforms (Buildxact, CoConstruct) which often cost $200–$500/month and require more implementation time. ServiceM8 is best positioned for builders who primarily need workflow management, client communication, and integrated accounting — not complex project cost control.
+
+### What alternatives to ServiceM8 should builders consider?
+Tradify is worth comparing — it's simpler to onboard and better suited to sole traders or very small building businesses. Buildxact is the leading purpose-built platform for residential builders, with stronger estimating, scheduling, and job costing features at a higher price point ($150–$500/month). For larger residential or commercial builders, Procore or Hammertech offer enterprise-grade construction management but at enterprise pricing. ServiceM8 sits in the "simple but effective" category — the right choice for building businesses that don't need the full complexity of a dedicated construction platform.

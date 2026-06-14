@@ -229,3 +229,22 @@ Build your compliance workflows, embed your SWMS checklist, and create the docum
 - *[solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)*
 - *[The 2026 Solar Playbook: How to Win the Battery Upgrade Wave](/blog/solar-playbook-2026-battery-upgrade)*
 - *[The 1.5kW Export Limit Explained for Solar Installers (CSIP-Aus)](/blog/csip-aus-export-limit-1-5kw-solar)*
+
+---
+
+## FAQ
+
+### What is a Safe Work Method Statement (SWMS) and is it required for solar installations?
+A Safe Work Method Statement (SWMS) is a written document that identifies high-risk construction work, the hazards involved, and the control measures in place to manage those risks. Under the Work Health and Safety (WHS) Regulations in all Australian states and territories (except Victoria, which uses OHS), a SWMS is legally required before commencing any high-risk construction work. Solar installation consistently triggers SWMS requirements because it involves work at heights (roof work) — one of the defined categories of high-risk construction work under the regulations. A SWMS must be prepared and reviewed by the workers involved before work commences on each site.
+
+### What are the current CEC accreditation requirements for solar installers in Australia?
+To install solar systems eligible for STCs under the federal Small-scale Renewable Energy Scheme, the installer must hold current Clean Energy Council (CEC) accreditation. Requirements in 2026 include: completing a CEC-approved training course (typically a Certificate III or IV in electrotechnology plus a solar-specific unit), a minimum 12 months of practical solar installation experience, and completing 2 CPD units per year to maintain accreditation. CEC accreditation must be renewed annually. Installers who allow accreditation to lapse cannot create STCs for installations performed during the lapsed period.
+
+### Which AS/NZS standards apply to solar installations in Australia in 2026?
+The primary standards are: AS/NZS 5033:2021 (Installation and Safety Requirements for PV Arrays — covering DC wiring, cable sizing, isolators, and labelling), AS/NZS 4777.1:2016 and AS/NZS 4777.2:2020 (Grid Connection of Energy Systems via Inverters), and for battery storage, AS/NZS 5139:2019 (Electrical Installations — Safety of Battery Systems for Use with Power Conversion Equipment). Compliance with AS/NZS 3000:2018 (Wiring Rules) is required for all AC electrical work. State regulators and the CER reference these standards in audits.
+
+### Do electrical compliance requirements differ by state in Australia?
+Yes — significantly. The compliance certificate name and issuing authority differs by state: CCEW (NSW and QLD, issued under state fair trading legislation), Certificate of Electrical Safety (VIC, issued under Energy Safe Victoria), Certificate of Compliance (SA and WA), and similar instruments in other states. Notification requirements to DNSPs also vary. Solar-specific requirements (grid connection rules, export limits, battery installation requirements) are set partly by the DNSP and partly by state regulators, meaning a solar installer operating across state lines must be familiar with multiple compliance frameworks.
+
+### How do I stay compliant as solar and electrical standards change in 2026?
+The most reliable approach is layered: (1) subscribe to CEC update emails and the relevant state electrical safety regulator's bulletins; (2) complete your annual CEC CPD units, which are updated to reflect standard changes; (3) review your compliance checklist and job documentation workflows at the start of each year; and (4) use job management software that supports custom form updates, so when a new documentation requirement is introduced (e.g. a new field on the CCEW, or a new CER photo requirement), you can update your digital form in minutes rather than reprinting paper checklists. Standards updates in 2024–2025 have primarily affected battery storage (AS/NZS 5139 tightening) and grid connection limits.

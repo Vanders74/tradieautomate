@@ -184,3 +184,22 @@ That conversation is worth $1,500–$3,000 in additional revenue — and it's a 
 - *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+
+---
+
+## FAQ
+
+### What certification do electricians need to install EV chargers in Australia?
+To install EV charging equipment (EVSE) in Australia, you need to be a licensed electrical contractor in your state or territory. There is no separate national EVSE-specific licence, but you must be competent in AS/NZS 3000 Wiring Rules (which covers the electrical installation), and the charger equipment must be compliant with AS/NZS 4755 (Demand Response). For installations involving solar and battery integration, familiarity with AS/NZS 5033 and AS/NZS 5139 is also required. Manufacturer-specific training (e.g. Zappi, Tesla Wall Connector, Wallbox) is recommended but not legally required.
+
+### How much should electricians charge for EV charger installation in Australia?
+For a standard Level 2 residential EV charger installation (single-phase, existing switchboard capacity adequate), the typical installed price in Australia ranges from $800–$1,500 including the charger unit. If a switchboard upgrade is required, add $1,500–$3,000. For three-phase commercial installations, prices range from $2,500–$8,000+ depending on cabling runs and switchboard work. Margin on EV charger installations is typically strong — 40–60% gross margin is achievable for businesses with an efficient workflow, as installation time is relatively predictable.
+
+### Do EV charger installations require a compliance certificate in Australia?
+Yes. Like any electrical installation work in Australia, EV charger installations require the appropriate compliance certificate — a CCEW in NSW, a Certificate of Electrical Safety (CES) in Victoria, and equivalent certificates in other states. The certificate must be issued within 7 days of completing the work. Additionally, if the installation exceeds a certain load threshold, network notification to the DNSP (e.g. Ausgrid, AusNet, Energex) may be required. Always check your state regulator's requirements, as EV charger load management rules are evolving.
+
+### Can EV charger installation be combined with solar and battery sales?
+Yes — and this is one of the strongest business development opportunities for Australian solar electricians right now. The "solar + battery + EV charger trifecta" is a natural upsell conversation: customers installing solar frequently want to charge their EV from it, and adding a battery allows overnight or cloudy-day EV charging from stored solar energy. This three-product installation typically delivers $25,000–$45,000 per household in revenue, compared to $8,000–$12,000 for solar alone. Building the EV charger conversation into every solar sales quote is the highest-leverage addition most solar businesses can make.
+
+### What is the difference between Level 1, Level 2, and DC fast chargers for Australian electricians?
+Level 1 (7-amp, single-phase, ~1.8kW) uses a standard power point and charges at roughly 10km of range per hour — rarely installed as a dedicated system. Level 2 (32-amp, single-phase or three-phase, 7–22kW) is the standard residential and commercial installation, adding 30–100km of range per hour and requiring a dedicated circuit. DC fast charging (50–350kW) is commercial infrastructure (car parks, service stations) requiring significant three-phase capacity and specialist switchboard design — a separate market segment. Most residential and small commercial EV charger work for electricians falls in the Level 2 category.

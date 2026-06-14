@@ -224,3 +224,22 @@ Each review you collect makes the next lead easier to win. Over 12 months, this 
 - [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)
 - [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+
+---
+
+## FAQ
+
+### How do I set up Google Business Profile for a solar installation business?
+Go to business.google.com and claim or create your listing. Use your exact legal trading name, your primary service address (or service area if you don't have a shopfront), and select "Solar energy contractor" or "Electrician" as your primary category (you can add both). Add your phone, website, business hours, and a detailed description that includes your service area, main services, and any certifications (CEC accreditation, licensed electrician). Verify via postcard or instant phone verification if eligible. A fully completed GBP listing with 10+ reviews typically ranks in the top 3 of Google Maps for local solar searches.
+
+### What is the most important factor for Google Business Profile local rankings?
+Reviews are the single most important ranking and conversion factor for GBP. The number of reviews, recency, and average rating all influence both where you appear in the local pack and whether searchers choose to contact you. A business with 50 reviews at 4.8 stars will consistently outperform a competitor with 10 reviews at 5.0 stars in both rankings and click-through rates. The fastest way to build reviews is an automated request system — SMS sent within 2 hours of job completion with a direct Google review link. This typically converts 15–30% of customers into reviewers.
+
+### How often should I post on Google Business Profile?
+Aim for at least one Google Post per week — more frequently during seasonal peaks (summer cooling, pre-winter heating, end-of-financial-year solar purchases). Effective post types for solar and electrical businesses include: completed project photos with a brief description, seasonal offers (e.g. STC rebate deadlines), educational content (e.g. "How to check your solar system is performing"), and staff or certification updates. Google Posts appear in your GBP listing for 7 days (offers last longer). Regular posting signals an active business and gives customers more confidence before contacting you.
+
+### Does my solar business need separate Google Business Profiles for different locations?
+If you operate from multiple physical locations (e.g. offices in Sydney and the Central Coast), yes — each location should have its own GBP listing with its own address, phone number, and reviews. If you operate from a single base but service a wide area, use the "service area" feature instead of listing multiple addresses. Creating fake location listings (for areas where you don't have a physical presence) violates Google's guidelines and can result in all your listings being suspended. For SEO in specific suburbs without a physical presence, suburb-specific landing pages on your website are the correct approach.
+
+### How do I handle negative reviews on Google Business Profile?
+Respond to every negative review promptly (within 24 hours) and professionally. Acknowledge the issue, apologise if appropriate, and offer to resolve it offline — include a phone number or email in your response. Never be defensive or dispute factual claims publicly. This approach serves two audiences: the reviewer (who may update their rating) and prospective customers reading your response (who judge your professionalism by how you handle complaints). After resolving the issue, you can politely ask the customer to update their review, but don't pressure them. A business with a thoughtful response to every negative review often converts better than one with a perfect rating and no responses.

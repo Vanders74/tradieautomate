@@ -199,3 +199,22 @@ The property owner is entitled to a copy. Failure to provide it is a Fair Tradin
 - [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
 - [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+
+---
+
+## FAQ
+
+### What is a CCEW in NSW and when is it required?
+A Certificate of Compliance — Electrical Work (CCEW) is a legal document that a licensed electrician in NSW must issue after completing electrical installation or alteration work. It is required any time you connect, disconnect, or alter electrical wiring — including solar installations, switchboard upgrades, EV charger installations, and air conditioning wiring. The CCEW must be issued within 7 days of completing the work and sent to both the property owner and Ausgrid/Endeavour/Essential Energy as applicable.
+
+### Who can issue a CCEW in NSW?
+Only a licensed electrical contractor or a licensed electrician working under a contractor's licence can issue a CCEW in NSW. The licence is issued by NSW Fair Trading. If you are an electrical worker (not a contractor), you cannot issue the certificate in your own name — the contractor of record must issue it. Penalties for failing to issue a CCEW or issuing one incorrectly can reach $22,000 for individuals and $110,000 for corporations under the Home Building Act 1989.
+
+### What happens if you don't issue a CCEW within 7 days in NSW?
+Failing to issue a CCEW within 7 days of completing the work is a breach of the Home Building Act 1989. NSW Fair Trading can issue a formal warning, compliance notice, or financial penalty. Repeat non-compliance can trigger a licence review. In practice, some electricians unknowingly breach this regularly — particularly on large multi-job weeks where paperwork piles up. Using a job management app like ServiceM8 to trigger CCEW preparation as part of the job completion workflow prevents these oversights.
+
+### Does a CCEW need to be issued for solar installations in NSW?
+Yes. Any solar PV installation that involves electrical connection work requires a CCEW in NSW. This includes the AC wiring from the inverter to the switchboard, any switchboard modifications, and the grid connection. The CCEW must be issued within 7 days and notified to the appropriate DNSP (Ausgrid, Endeavour Energy, or Essential Energy). In addition to the CCEW, solar installers must lodge STC documentation with the Clean Energy Regulator and meet CEC accreditation requirements.
+
+### What information must be included on a NSW CCEW?
+A valid NSW CCEW must include: the contractor's licence number, the property address, a description of the electrical work performed, the date of completion, confirmation that the work complies with AS/NZS 3000 Wiring Rules and relevant standards, and the contractor's signature. For solar installations, it should also reference the grid connection type and inverter specifications. Incomplete CCEWs are one of the most common triggers for NSW Fair Trading compliance audits.
