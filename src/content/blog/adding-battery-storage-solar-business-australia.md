@@ -195,3 +195,22 @@ Battery storage incentives vary by state and change frequently. Current relevant
 - *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses)*
 - [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+
+---
+
+## FAQ
+
+### What CEC endorsement do I need to install batteries in Australia?
+To install battery storage systems that are eligible for state rebates (Victorian Battery Loan, SA Home Battery Scheme, etc.) and to legally connect battery systems to the grid, you need the Clean Energy Council (CEC) Battery Storage Endorsement in addition to your standard solar accreditation. The endorsement requires completing a CEC-approved battery storage training course (typically 1–2 days) and demonstrating competency in AS/NZS 5139 requirements. Without the endorsement, you can still install batteries as an electrician — but your systems won't be eligible for state incentives, which is a significant commercial disadvantage.
+
+### What does AS/NZS 5139 compliance require for battery installations?
+AS/NZS 5139:2019 sets the safety requirements for battery energy storage systems (BESS) installed in Australian homes and businesses. Key requirements include: minimum separation distances from windows, doors, and ignition sources; ventilation requirements (particularly for installations in enclosed spaces or garages); temperature management specifications; state of charge (SoC) monitoring; CT clamp metering for systems with grid feed-in; correct labelling of the battery system and isolators; and a documented system commissioning record. Installations that don't meet AS/NZS 5139 requirements fail CER audits and may not be covered by insurance in the event of a fire.
+
+### Which battery brands sell best in Australia in 2026?
+The strongest-selling residential battery brands in Australia in 2026 are Tesla Powerwall 3 (the market leader by volume, strong brand recognition, good installer margin), Alpha ESS (competitive pricing and strong after-sales support, popular with value-focused customers), Sungrow SBR series (growing rapidly due to competitive pricing and strong inverter pairing), and BYD Battery-Box (well-established with broad inverter compatibility). Brand choice often depends on inverter compatibility — a SolarEdge or Enphase system may steer you toward specific battery options. Margin varies significantly; negotiating direct installer pricing with two or three brands is recommended.
+
+### How much should I charge to install a battery in Australia?
+For a standard residential battery installation (5–15kWh, single-phase, existing solar), typical installed prices in Australia range from $8,000–$18,000 depending on battery size and complexity. Installation labour typically accounts for $600–$1,200 of that cost for a straightforward job, with materials (battery unit, mounting, cabling, isolators) making up the majority. After-state-rebate prices (particularly in Victoria and SA) can be significantly lower for eligible customers. Target gross margins of 30–45% on battery installations — lower than solar-only on a per-job basis, but with less price competition and a stronger repeat/referral customer profile.
+
+### What state incentives are available for battery storage in Australia in 2026?
+State battery incentives in 2026 include: Victoria's Solar Homes Battery Loan (interest-free loans up to $8,800 for eligible households, requires CEC Battery Storage Endorsement); South Australia's Home Battery Scheme (subsidies up to $2,000 for eligible batteries, managed through retailers); and Queensland's Battery Booster program (subsidies for households in priority areas). NSW, WA, and other states have not yet introduced equivalent programs, though household battery installations still benefit from virtual power plant (VPP) agreements with some retailers. Check the relevant state energy agency for current eligibility and funding availability, as programs are updated regularly.
