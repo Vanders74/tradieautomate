@@ -196,3 +196,22 @@ For electricians working in NSW, the equivalent document is the **Certificate of
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
 - [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
 - [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+
+---
+
+## FAQ
+
+### What is a Certificate of Electrical Safety in Victoria and when is it required?
+A Certificate of Electrical Safety (CES) is a mandatory document that a licensed electrical contractor must issue after completing any electrical installation or alteration work in Victoria. It is required for all electrical work including solar installations, switchboard upgrades, EV charger installations, and any new circuits. The CES must be issued within 7 days of completing the work and sent to both the property owner and the relevant electricity distributor (CitiPower, Powercor, AusNet, United Energy, or Jemena depending on the location).
+
+### Who can issue a Certificate of Electrical Safety in Victoria?
+Only a licensed electrical contractor in Victoria (licensed by Energy Safe Victoria) can issue a CES. An individual electrician working as an employee cannot issue one in their own name — the issuing entity must hold a contractor's licence. The person named on the CES takes legal responsibility for the work meeting AS/NZS 3000 Wiring Rules and all applicable Victorian standards. Energy Safe Victoria conducts random audits of CES records and investigates non-compliance complaints.
+
+### What information must a Victorian CES include?
+A valid Victorian CES must include: the contractor's licence number, the address of the installation, a description of the electrical work, the date of completion, the type of electrical installation (domestic, commercial, industrial), whether a network notification was made, and confirmation that the work complies with Victorian electrical safety regulations. For solar installations, it should reference the inverter model and grid connection type. Incomplete or inaccurate certificates are the most common trigger for Energy Safe Victoria audits.
+
+### Does a solar installation require a Certificate of Electrical Safety in Victoria?
+Yes. Every solar PV installation in Victoria that involves electrical connection work requires a CES. This includes the connection from the inverter to the switchboard, any switchboard modifications, and the grid connection. The contractor must also notify the relevant electricity distributor (DNSP) of the installation. In addition to the CES, Victorian solar installers must comply with CEC accreditation requirements and lodge STC documentation with the Clean Energy Regulator (CER).
+
+### What happens if an electrician doesn't issue a CES in Victoria?
+Failure to issue a CES within 7 days is a breach of the Electricity Safety Act 1998 and can result in fines, licence suspension, or revocation. Energy Safe Victoria takes CES compliance seriously and has increased its audit activity in recent years, particularly for solar installations. Businesses repeatedly failing to issue timely certificates risk losing their contractor's licence. Using a job management app that triggers a CES workflow automatically when a job is marked complete is the most reliable way to prevent these breaches.
