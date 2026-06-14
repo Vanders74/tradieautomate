@@ -202,3 +202,21 @@ The most practical approach is using ServiceM8's digital form builder to create 
 
 - [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
 - [Tap to Pay on iPhone for Australian Tradies: Get Paid on the Spot](/blog/tap-to-pay-iphone-tradies-australia)
+---
+
+## FAQ
+
+### What AI automation tools actually work for Australian trade businesses?
+The most proven AI automation tools for Australian tradies in 2026 are: (1) ServiceM8 for automated invoicing, job scheduling, and compliance form workflows; (2) Sophiie AI for 24/7 phone answering and lead capture without a receptionist; (3) automated review request systems triggered by job completion; and (4) CRM-integrated quote follow-up sequences (5-touch over 21 days). These deliver measurable ROI — reduced admin hours, higher quote conversion, faster invoice payment — without requiring deep technical knowledge to implement.
+
+### How much time can AI automation save a trade business each week?
+For a typical 2–5 person electrical or solar business, well-implemented automation typically saves 4–8 hours per week across the business. The biggest time savers are: automated invoicing (eliminates 30–60 minutes of daily admin), automated payment reminders (eliminates manual collection calls), automated review requests (eliminates the awkward conversation at job completion), and 24/7 AI phone answering (eliminates missed leads and after-hours voicemails). At $100/hour for a business owner's time, that's $20,000–$40,000 in recovered hours annually.
+
+### Can AI handle compliance documentation for solar and electrical work?
+AI tools can streamline compliance documentation significantly — but they can't replace licensed sign-off. What AI does well: automating the data capture process for CCEW and CER documentation, pre-populating forms with job data, triggering documentation workflows at the right point in the job lifecycle, and alerting you when compliance steps are incomplete. Platforms like ServiceM8 embed these workflows into the job management system so documentation happens naturally as part of the job process rather than as a separate after-the-fact task.
+
+### Is AI automation expensive to implement for a small trade business?
+The most effective tools are surprisingly affordable. ServiceM8's automation features are included in plans starting at $109/month. Sophiie AI typically costs $300–$600/month for 24/7 phone coverage — less than a part-time receptionist. Quote follow-up automation through platforms like HubSpot or ActiveCampaign costs $50–$200/month. The implementation investment is primarily time, not software cost. Most trade businesses can achieve the core automation stack for under $700/month total, with payback typically within 2–3 months through improved lead conversion and invoice collection alone.
+
+### What should a tradie automate first?
+Start with the highest-leverage, lowest-risk automation: same-day invoicing. Set up your job management software to automatically generate an invoice when a job is marked complete. This one change typically recovers 5–10 days of payment float across the business and requires no complex configuration. The second priority is payment reminders — automated SMS or email at 7 days, 14 days, and 21 days outstanding. Third is review requests. These three automations alone deliver the majority of the ROI that most trade businesses achieve from automation.
