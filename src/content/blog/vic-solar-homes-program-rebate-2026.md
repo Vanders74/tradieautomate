@@ -1,10 +1,10 @@
 ---
-title: "VIC Solar Homes Program Battery Rebate 2026: Eligibility, Registration & Process"
-description: "How the Solar Victoria battery rebate works in 2026 — eligibility criteria, installer registration, the reservation process, interest-free loan, and how solar businesses can streamline HES-eligible installations."
+title: "VIC Solar Homes Battery Rebate 2026: Eligibility & Registration"
+description: "Solar Victoria battery rebate 2026 — eligibility, rebate amount, interest-free loan, CES Code of Conduct, installer registration, and reservation process."
 pubDate: 'Jun 9 2026'
 category: "Solar & Battery"
 heroImage: '/hero-vic-solar-homes-program-rebate-2026.jpg'
-tags: ['Victoria', 'Solar Homes Program', 'battery rebate', 'solar', 'Solar Victoria', 'state rebate']
+tags: ['Victoria', 'Solar Homes Program', 'battery rebate', 'solar', 'Solar Victoria', 'VIC', 'installer']
 ---
 
 Victoria's Solar Homes Program remains one of the most significant state-level incentives for residential solar and battery storage in Australia. For solar and battery installation businesses operating in Victoria, Solar Victoria registration — and a thorough understanding of the current rebate structure — is foundational to your business model.
@@ -163,8 +163,40 @@ Both can apply to the same job. Make sure your quotes itemise these separately a
 
 ---
 
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — manage Solar Victoria reservation tracking, CES certificate generation, and customer follow-up in one system.
+
 > **Questions on Solar Victoria registration, CES obligations, or AS/NZS 5139 compliance?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers, no login required.
+
+---
+
+## FAQ
+
+**How much is the Solar Victoria battery rebate in 2026?**
+
+The Solar Victoria battery rebate in 2026 is up to $2,950 applied at the point of sale — meaning eligible customers pay less upfront, and the Solar Victoria-registered installer claims the rebate back from Solar Victoria. In addition, eligible homeowners can access an interest-free loan of up to $8,800 to cover the remaining battery cost. The maximum combined benefit is $2,950 rebate + $8,800 interest-free loan = up to $11,750 in financial support, subject to program availability and current funding caps.
+
+**Who is eligible for the Solar Victoria battery rebate?**
+
+Eligible Victorian homeowners must: own and occupy the property as their principal place of residence, hold a combined household taxable income under $210,000 (or under $180,000 for households without dependent children — check current income thresholds on Solar Victoria's website as these are reviewed), have a grid-connected solar PV system of at least 5kW already installed, and not have previously received a VIC battery rebate for the same address. Rental properties are not eligible.
+
+**Do I need to be registered with Solar Victoria to offer the rebate to customers?**
+
+Yes. Only Solar Victoria-registered businesses can offer the battery rebate at point of sale. Registration requires CEC Accreditation (Design and Install endorsement), compliance with the Solar Victoria Code of Conduct, and completion of the Solar Victoria registration process. Unregistered businesses cannot claim the rebate on behalf of customers.
+
+**What is the reservation process for the Solar Victoria battery rebate?**
+
+Because Solar Victoria funding is capped and allocated in rounds, eligible customers must make a reservation before installation proceeds. The homeowner applies via the Solar Victoria portal, receives a reservation confirmation, and then engages a Solar Victoria-registered installer to complete the installation within the reservation window. Installations completed without a valid reservation are not eligible for the rebate.
+
+**What certificates are required after a Solar Victoria battery installation in Victoria?**
+
+After a Solar Victoria battery installation, the installing electrician must issue a Certificate of Electrical Safety (CES) for the electrical work. The CES must be lodged with Energy Safe Victoria. The installer also needs to upload the relevant compliance documentation to the Solar Victoria portal to trigger the rebate claim. Maintaining organised job records for these submissions is essential — this is where a job management system pays for itself.
+
+---
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much is the Solar Victoria battery rebate in 2026?","acceptedAnswer":{"@type":"Answer","text":"The Solar Victoria battery rebate is up to $2,950 at point of sale, plus an optional interest-free loan of up to $8,800. Combined maximum benefit is up to $11,750, subject to program availability and current funding caps."}},{"@type":"Question","name":"Who is eligible for the Solar Victoria battery rebate?","acceptedAnswer":{"@type":"Answer","text":"Eligible owner-occupiers with a combined household taxable income under the current threshold, a grid-connected solar PV system of at least 5kW, and who have not previously received a VIC battery rebate. Rental properties are not eligible."}},{"@type":"Question","name":"Do I need to be registered with Solar Victoria to offer the rebate?","acceptedAnswer":{"@type":"Answer","text":"Yes. Only Solar Victoria-registered businesses can offer the rebate at point of sale. Registration requires CEC Accreditation, compliance with the Solar Victoria Code of Conduct, and completing Solar Victoria's registration process."}},{"@type":"Question","name":"What is the Solar Victoria reservation process?","acceptedAnswer":{"@type":"Answer","text":"Because funding is capped, eligible customers must make a reservation via the Solar Victoria portal before installation. The homeowner receives a reservation confirmation, then engages a registered installer to complete installation within the reservation window."}}]}
+</script>
 
 ---
 

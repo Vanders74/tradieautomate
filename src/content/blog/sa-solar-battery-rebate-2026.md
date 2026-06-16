@@ -1,10 +1,10 @@
 ---
-title: "SA Solar Battery Rebate 2026: Home Battery Scheme Eligibility & Application Guide"
-description: "A practical guide to South Australia's Home Battery Scheme in 2026 — who qualifies, what's subsidised, how to apply, and what solar installers need to know to offer rebate-eligible battery installations to SA customers."
+title: "SA Home Battery Scheme 2026: Eligibility, Loan & Installer Guide"
+description: "SA Home Battery Scheme 2026 — subsidised loan eligibility, approved installer registration, application steps, and how to offer HBS-eligible battery installs."
 pubDate: 'Jun 9 2026'
 category: "Solar & Battery"
 heroImage: '/hero-sa-solar-battery-rebate-2026.jpg'
-tags: ['South Australia', 'battery rebate', 'Home Battery Scheme', 'solar', 'compliance', 'state rebate']
+tags: ['South Australia', 'battery rebate', 'Home Battery Scheme', 'solar', 'battery storage', 'state rebate', 'installer']
 ---
 
 South Australia has been at the leading edge of residential battery storage adoption in Australia for years. The state's Home Battery Scheme (HBS) — launched in 2018 and maintained through subsequent government iterations — remains one of the most accessible state-level battery subsidies available to SA homeowners in 2026.
@@ -171,8 +171,40 @@ Both can apply to the same installation. Make sure your quotes and customer comm
 
 ---
 
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — track HBS jobs, quotes, installer registration status, and compliance docs in one system.
+
 > **Got questions on SA battery rebate eligibility, CEC accreditation, or AS/NZS 5139 compliance?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers, no login required.
+
+---
+
+## FAQ
+
+**What does the SA Home Battery Scheme actually provide in 2026?**
+
+The SA Home Battery Scheme in 2026 provides a subsidised low-interest loan of up to $10,000 for eligible South Australian owner-occupiers to install a battery storage system. It's not a direct cash rebate — the subsidy takes the form of a below-market interest rate on a home battery loan delivered through approved financiers. The loan term is up to 5 years and must be used for the battery system and associated installation costs.
+
+**Do I need to be a registered HBS installer to offer the scheme to SA customers?**
+
+Yes. SA homeowners can only access the HBS loan for systems installed by a registered HBS installer. You must hold CEC Accreditation (Design and Install endorsement) and register separately with the SA Home Battery Scheme. Unregistered installers cannot offer HBS-subsidised installations. Check the current registration requirements and process on the SA Government website.
+
+**Can my customer apply for the HBS loan after installation?**
+
+No — this is a critical point. The homeowner must apply for and receive loan approval *before* installation commences. Systems installed before HBS loan approval is confirmed are not eligible for the scheme. Always confirm the customer's loan pre-approval before scheduling installation day.
+
+**Is the SA Home Battery Scheme available for rental properties or investment properties?**
+
+No. The scheme is available to owner-occupiers only. Rental property landlords and investment property owners do not qualify. The property must be the homeowner's principal place of residence and must be connected to the SA Power Networks distribution grid.
+
+**Can the SA Home Battery Scheme be combined with federal STCs?**
+
+Yes — the federal Small-scale Technology Certificate (STC) scheme and the SA HBS are separate programs and can both apply to the same installation. STCs apply to the solar PV component (not the battery), and the HBS loan applies to the battery. Combining both reduces the total customer cost and is standard practice for SA solar-plus-battery installs.
+
+---
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does the SA Home Battery Scheme provide in 2026?","acceptedAnswer":{"@type":"Answer","text":"The SA HBS provides a subsidised low-interest loan up to $10,000 for eligible SA owner-occupiers installing battery storage. It's not a cash rebate — the subsidy is a below-market interest rate on a loan through approved financiers, with a term up to 5 years."}},{"@type":"Question","name":"Do I need to be a registered HBS installer?","acceptedAnswer":{"@type":"Answer","text":"Yes. SA customers can only access the HBS loan for systems installed by a registered HBS installer. You must hold CEC Accreditation and register separately with the SA scheme. Unregistered installers cannot offer HBS-subsidised installations."}},{"@type":"Question","name":"Can my customer apply for the HBS loan after installation?","acceptedAnswer":{"@type":"Answer","text":"No. The homeowner must receive loan approval before installation commences. Systems installed before HBS approval is confirmed are not eligible. Always confirm the customer's loan pre-approval before scheduling installation."}},{"@type":"Question","name":"Can the SA Home Battery Scheme be combined with federal STCs?","acceptedAnswer":{"@type":"Answer","text":"Yes. STCs apply to the solar PV component and the HBS loan applies to the battery — they are separate programs and both can apply to the same installation, reducing total customer cost."}}]}
+</script>
 
 ---
 

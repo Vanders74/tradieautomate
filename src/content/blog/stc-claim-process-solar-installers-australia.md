@@ -189,6 +189,9 @@ For the complete CER audit preparation framework — including what auditors loo
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
 - [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
 - [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
+- *[SA Home Battery Scheme 2026: Eligibility, Loan & Installer Registration](/blog/sa-solar-battery-rebate-2026)*
+- *[Heat Pump Hot Water for Electricians Australia: Circuits, Rebates & Sales Workflow](/blog/heat-pump-hot-water-installation-electricians-australia)*
+- *[Replacing Gas Hot Water with Heat Pump: Complete Guide Australia](/blog/replacing-gas-hot-water-electric-heat-pump)*
 
 ---
 

@@ -224,3 +224,5 @@ Yes — from May 2026, new battery installations using inverters that aren't CSI
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
 - [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)
+- *[VIC Solar Homes Battery Rebate 2026: Eligibility, Registration & Process](/blog/vic-solar-homes-program-rebate-2026)*
+- *[Solar Battery System Cost Australia 2026: Prices, Rebates & Payback Periods](/blog/solar-battery-system-cost-australia-2026)*

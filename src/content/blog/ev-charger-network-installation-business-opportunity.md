@@ -1,10 +1,10 @@
 ---
-title: "EV Charger Network Installation: The Business Opportunity for Australian Electricians"
-description: "How Australian electricians can build a profitable EV charger network installation business — multi-site fleets, strata, councils, charge point management, and what it takes to position your business for the commercial EV infrastructure boom."
+title: "EV Charger Network Installation: Business Guide for Electricians"
+description: "How Australian electricians build a profitable EV charging network business — fleet depots, strata, councils, CPMS, DLM, and commercial EV project pricing."
 pubDate: 'Jun 9 2026'
 category: "Business Growth"
 heroImage: '/hero-ev-charger-network-installation-business.jpg'
-tags: ['EV charging', 'business growth', 'electrician', 'strata', 'fleet', 'commercial']
+tags: ['EV charging', 'business growth', 'electrician', 'strata', 'fleet', 'commercial', 'CPMS', 'DLM']
 ---
 
 The residential EV charger install is a good job. One charger, one circuit, a few hours, $1,500–$2,500 delivered. Clean, profitable, growing volume.
@@ -159,8 +159,40 @@ That means taking on smaller commercial jobs now — even at lower margin — to
 
 ---
 
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — manage commercial EV project workflows, DNSP application tracking, milestone billing, and ongoing maintenance contracts.
+
 > **Questions on EV charger network design, CPMS platforms, or commercial compliance requirements?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers, no login required.
+
+---
+
+## FAQ
+
+**How much does a commercial EV charging network installation cost in Australia?**
+
+Commercial EV charging network installation costs depend heavily on site complexity, charger count, and whether DLM and CPMS integration is required. Benchmark ranges: a 4-charger workplace install with DLM and CPMS typically runs $18,000–$35,000; a 20-charger strata system with sub-metering and billing can range from $55,000–$130,000; a 30-charger fleet depot install with full CPMS and DLM typically runs $90,000–$200,000. These are total installed costs — hardware, labour, CPMS setup, and compliance documentation.
+
+**What is a Charge Point Management System (CPMS) and why does it matter for network installs?**
+
+A CPMS is the software platform that manages charger operations: access control (who can charge), energy monitoring, billing, dynamic load management, and reporting. For commercial EV charging installations — where multiple users share the infrastructure — a CPMS is essential. Common CPMS platforms in Australia include OCPP-compatible systems like Monta, Ampeco, and ChargeHQ Commercial, as well as proprietary platforms from hardware brands. Becoming proficient with 1–2 CPMS platforms is a key differentiator for commercial EV installers.
+
+**What is dynamic load management (DLM) and when is it required for EV charging?**
+
+DLM is a control system that monitors total site electricity consumption and dynamically adjusts the charging rate of individual chargers to prevent the site from exceeding its available electrical capacity. DLM is practically essential for any site with 4+ chargers on a shared circuit. Without DLM, simultaneous charging could trigger protection devices or breach DNSP connection conditions. Many CPMS platforms include DLM as a built-in feature.
+
+**How do I find commercial EV charging clients as an electrical contractor?**
+
+The strongest commercial EV charging opportunities come from: fleet operators transitioning their vehicles to EVs (target businesses with 5+ company vehicles), body corporate managers at apartment complexes (strata EV charging), local councils (fleet depots, public car parks, community facilities), and hospitality businesses (hotels, shopping centres seeking customer amenity). Existing clients who operate fleets or large facilities are your warmest leads — review your [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) client list for businesses with company fleets.
+
+**What certifications do I need to install commercial EV chargers in Australia?**
+
+A licensed electrical contractor's licence in the relevant state is required for all EV charger electrical installation work. CEC Accreditation is not required for EV charger installation (unlike solar). For commercial networks, competency with CPMS configuration and DLM is increasingly expected by commercial clients. Some CPMS providers have installer certification programs — completing these programs helps differentiate your business and may give access to installer referral networks.
+
+---
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much does a commercial EV charging network installation cost in Australia?","acceptedAnswer":{"@type":"Answer","text":"Benchmark installed costs: 4-charger workplace with DLM and CPMS: $18,000–$35,000; 20-charger strata system with sub-metering: $55,000–$130,000; 30-charger fleet depot with full CPMS and DLM: $90,000–$200,000. These are total installed costs including hardware, labour, CPMS setup, and compliance documentation."}},{"@type":"Question","name":"What is a CPMS for EV charging?","acceptedAnswer":{"@type":"Answer","text":"A Charge Point Management System manages charger operations: access control, energy monitoring, billing, dynamic load management, and reporting. For commercial multi-user installations a CPMS is essential. Common platforms in Australia include Monta, Ampeco, and ChargeHQ Commercial."}},{"@type":"Question","name":"What is dynamic load management for EV charging?","acceptedAnswer":{"@type":"Answer","text":"DLM monitors total site electricity consumption and dynamically adjusts individual charger rates to prevent the site exceeding its electrical capacity. Practically essential for sites with 4+ chargers on a shared circuit."}},{"@type":"Question","name":"What certifications do I need to install commercial EV chargers in Australia?","acceptedAnswer":{"@type":"Answer","text":"A state electrical contractor licence is required. CEC Accreditation is not required for EV charger installation (unlike solar). CPMS provider certification programs are increasingly valued for commercial network installs."}}]}
+</script>
 
 ---
 

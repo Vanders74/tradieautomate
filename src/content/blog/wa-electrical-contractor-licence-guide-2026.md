@@ -1,10 +1,10 @@
 ---
-title: "WA Electrical Contractor Licence 2026: EnergySafety, CCEI & Solar Compliance"
-description: "The complete guide for Western Australian electrical contractors — EnergySafety licensing, CCEI obligations, solar installer requirements, and staying compliant in 2026 while growing your electrical or solar business."
+title: "WA Electrical Contractor Licence 2026: EnergySafety & CCEI Guide"
+description: "WA electrical contractor licensing 2026 — EnergySafety framework, CCEI obligations, responsible supervisor rules, solar compliance, and renewal requirements."
 pubDate: 'Jun 9 2026'
 category: "Compliance"
 heroImage: '/hero-wa-electrical-contractor-licence-guide-2026.jpg'
-tags: ['Western Australia', 'electrical contractor', 'EnergySafety', 'CCEI', 'compliance', 'solar']
+tags: ['Western Australia', 'electrical contractor', 'EnergySafety', 'CCEI', 'licence', 'compliance', 'solar']
 ---
 
 Western Australia has its own distinct framework for electrical contractor licensing — one that operates quite differently from the eastern states. If you're running an electrical or solar installation business in WA, your obligations flow through the Department of Energy, Mines, Industry Regulation and Safety (DEMIRS), specifically its **EnergySafety** division.
@@ -159,8 +159,40 @@ WA's licensing framework is manageable for electrical and solar businesses, but 
 
 ---
 
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — set licence renewal reminders, track CEC and CCEI compliance, and manage jobs from one app.
+
 > **Have a compliance question about WA licensing, CCEIs, or CEC accreditation?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers, no login required.
+
+---
+
+## FAQ
+
+**What is the difference between an electrical worker licence and an electrical contractor licence in WA?**
+
+In Western Australia, these are separate licences issued by EnergySafety (a division of the Department of Energy, Mines, Industry Regulation and Safety). An electrical worker licence (A-grade or restricted) is a personal licence that allows an individual to carry out electrical work. An electrical contractor licence authorises a business entity to carry out electrical work for profit and employ electricians. You need both — or your business needs a contractor licence with a nominated responsible person who holds an A-grade worker licence.
+
+**What is the Certificate of Compliance for Electrical Installations (CCEI) in WA?**
+
+The CCEI is the Western Australian post-installation electrical safety certificate. A licensed electrical contractor must issue a CCEI for all new electrical installation work in WA — including solar PV system electrical connections. The CCEI certifies that the work complies with the WA Electricity (Licensing) Regulations 1991 and relevant Australian Standards. Failure to issue or retain CCEIs is a compliance breach.
+
+**Does a WA electrical contractor licence cover solar PV installation?**
+
+Yes — an unrestricted WA electrical contractor licence covers the electrical installation aspects of solar PV work, including grid connection wiring and inverter installation. However, to install systems eligible for federal STC rebates, you also need CEC Accreditation (issued by the Clean Energy Council, separate from the state licence). Many WA solar installers hold both the EnergySafety contractor licence and CEC Accreditation.
+
+**What are the responsible supervisor obligations for a WA electrical contracting business?**
+
+Every WA electrical contracting business must have a nominated responsible person — a licensed A-grade electrical worker — who is actively involved in supervising the electrical work carried out by the business. The responsible person must be available and contactable, and their details must be current with EnergySafety. If your responsible person leaves, you must notify EnergySafety and nominate a replacement within the required timeframe or risk licence suspension.
+
+**How often do I renew my WA electrical contractor licence?**
+
+WA electrical contractor licences are renewed annually through the EnergySafety online portal. Renewal requires confirmation of current insurance coverage (minimum $5 million public liability) and payment of the renewal fee. Check the current fee schedule on the EnergySafety website as fees are updated annually.
+
+---
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between an electrical worker licence and electrical contractor licence in WA?","acceptedAnswer":{"@type":"Answer","text":"An electrical worker licence (A-grade or restricted) is a personal licence allowing an individual to carry out electrical work. An electrical contractor licence authorises a business to carry out electrical work for profit. Both are issued by EnergySafety WA, and a contracting business needs both — or a contractor licence with a nominated responsible person holding an A-grade worker licence."}},{"@type":"Question","name":"What is a CCEI in Western Australia?","acceptedAnswer":{"@type":"Answer","text":"The Certificate of Compliance for Electrical Installations (CCEI) is the WA post-installation electrical safety certificate. A licensed electrical contractor must issue a CCEI for all new electrical installation work including solar PV connections. It certifies compliance with the WA Electricity (Licensing) Regulations 1991."}},{"@type":"Question","name":"Does a WA electrical contractor licence cover solar PV installation?","acceptedAnswer":{"@type":"Answer","text":"Yes — an unrestricted WA contractor licence covers solar PV electrical installation. However, to install systems eligible for federal STC rebates, you also need CEC Accreditation from the Clean Energy Council, which is separate from the state licence."}},{"@type":"Question","name":"How often do I renew my WA electrical contractor licence?","acceptedAnswer":{"@type":"Answer","text":"WA electrical contractor licences are renewed annually through the EnergySafety online portal. Renewal requires current insurance (minimum $5M public liability) and payment of the annual renewal fee."}}]}
+</script>
 
 ---
 

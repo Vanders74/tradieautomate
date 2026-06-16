@@ -1,10 +1,10 @@
 ---
-title: "EV Charging at Commercial Premises Australia 2026: Compliance, Load Management & Pricing"
-description: "The complete guide for Australian electricians doing commercial EV charging installations — AS/NZS 3000, dynamic load management, sub-metering, network approvals, CPMS, and how to price and win commercial EV charging jobs."
+title: "Commercial EV Charging Australia 2026: Compliance & Pricing"
+description: "Australian electricians guide to commercial EV charging — AS/NZS 3000, dynamic load management, DNSP approvals, sub-metering, CPMS, and 2026 pricing."
 pubDate: 'Jun 9 2026'
 category: "Solar & Battery"
 heroImage: '/hero-ev-charging-commercial-premises-2026.jpg'
-tags: ['EV charging', 'commercial', 'electrician', 'load management', 'compliance', 'AS/NZS 3000']
+tags: ['EV charging', 'commercial', 'electrician', 'load management', 'compliance', 'AS/NZS 3000', 'DNSP']
 ---
 
 Commercial EV charging installation is emerging as one of the most significant growth opportunities for Australian electrical contractors in 2026. Every workplace, shopping centre, hotel, strata block, and fleet depot that wants to attract EV drivers — or comply with incoming obligations — needs chargers installed by licensed electricians.
@@ -189,8 +189,40 @@ This is a genuine integrated offering that larger commercial customers are activ
 
 ---
 
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — track EV charging project milestones, DNSP applications, CPMS commissioning steps, and certificate lodgement in one place.
+
 > **Got a compliance question on commercial EV charging, load management, or network connection requirements?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on AS/NZS 3000, CCEW, CES, and more — no login required.
+
+---
+
+## FAQ
+
+**What Australian Standard governs commercial EV charger installation?**
+
+Commercial EV charger electrical installation in Australia is governed primarily by AS/NZS 3000:2018 (the Wiring Rules) for the electrical installation work, and AS/NZS 3112 for plug and socket requirements. For AC EV supply equipment specifically, AS/NZS 61851.1 applies. Large commercial installations that involve DNSP connection applications may also trigger network-specific technical requirements issued by the relevant distribution network service provider.
+
+**When is a DNSP connection application required for a commercial EV charging installation?**
+
+A DNSP (distribution network service provider) connection application is typically required when the total new load exceeds the capacity thresholds set by the local network operator. While thresholds vary by DNSP, a common trigger is new load above 30kVA in a single connection application. For commercial EV charging sites with 6+ chargers, or any site with DC fast chargers, DNSP engagement should be assumed. Allow 4–12 weeks for DNSP approval — this is often the longest lead-time item on commercial EV projects.
+
+**Is dynamic load management (DLM) required for commercial EV charging installations?**
+
+DLM is not always legally mandated, but it is practically essential for any site with 4+ chargers sharing a single circuit or supply. Without DLM, simultaneous charging could exceed the site's electrical capacity. Network connection approvals for larger sites often include conditions requiring DLM. Most CPMS platforms include DLM capability — specify DLM when recommending a CPMS to commercial EV customers.
+
+**What sub-metering is required for commercial EV charging?**
+
+For installations where individual users will be billed for their electricity consumption — such as strata buildings or shared fleet depots — revenue-grade sub-meters must be installed at each charger or charger group. Sub-meters allow the CPMS to allocate energy consumption to individual users for billing. The sub-metering specification should be confirmed with the CPMS provider before hardware procurement.
+
+**What compliance certificates are required after a commercial EV charging installation?**
+
+A licensed electrician must issue an electrical compliance certificate for the installation work — the specific certificate type varies by state (CES in VIC, CCEW in NSW, CCEI in WA, etc.). For commercial sites, the commissioning documentation from the CPMS provider and load management system should also be retained as part of the installation record. Large sites with DNSP connection approvals will also have network-specific commissioning sign-off requirements.
+
+---
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What Australian Standard governs commercial EV charger installation?","acceptedAnswer":{"@type":"Answer","text":"Commercial EV charger electrical installation is governed by AS/NZS 3000:2018 (Wiring Rules) for electrical work, AS/NZS 3112 for plug and socket requirements, and AS/NZS 61851.1 for AC EV supply equipment. DNSP connection applications trigger additional network-specific requirements."}},{"@type":"Question","name":"When is a DNSP application required for commercial EV charging?","acceptedAnswer":{"@type":"Answer","text":"A DNSP connection application is typically required when total new load exceeds network thresholds (commonly 30kVA). For sites with 6+ chargers or any DC fast chargers, assume DNSP engagement is needed. Allow 4-12 weeks for DNSP approval."}},{"@type":"Question","name":"Is dynamic load management required for commercial EV charging?","acceptedAnswer":{"@type":"Answer","text":"DLM is not always legally mandated but is practically essential for sites with 4+ chargers on a shared supply. Without DLM, simultaneous charging can exceed site capacity. Network connection approvals for larger sites often require DLM as a condition."}},{"@type":"Question","name":"What compliance certificates are needed after commercial EV charging installation?","acceptedAnswer":{"@type":"Answer","text":"A licensed electrician must issue an electrical compliance certificate (CES in VIC, CCEW in NSW, CCEI in WA, etc.). Commercial sites with DNSP approval also need network-specific commissioning sign-off."}}]}
+</script>
 
 ---
 

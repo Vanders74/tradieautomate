@@ -197,9 +197,14 @@ If you're at the point where you know you need to scale but aren't sure where to
 - *[How to Set Up Electrical Award Allowances in Xero Payroll (Without the Manual Math)](/blog/xero-payroll-electrical-award-allowances)*
 - *[Tap to Pay on iPhone for Australian Tradies: Get Paid on the Spot](/blog/tap-to-pay-iphone-tradies-australia)*
 
+
+**See also:** [Commercial EV Charging at Premises Australia 2026: Compliance & Pricing Guide](/blog/ev-charging-commercial-premises-australia-2026)
+
 ---
 
 > **Got a compliance question right now?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CER audits, AS/NZS 5033 & 5139, CCEW lodgement, STC claims, EV charger approvals, and more. No login required.
+
+Commercial EV charging networks are a high-value expansion opportunity — see the [EV Charger Network Installation guide](/blog/ev-charger-network-installation-business-opportunity) for fleet, strata, and council market strategies.
 
 ---

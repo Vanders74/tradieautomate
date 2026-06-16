@@ -188,3 +188,5 @@ You can automate this follow-up in [ServiceM8](https://www.servicem8.com/?ref=tr
 - *[Certificate of Electrical Safety (CES) — Complete Guide for Victorian Electricians](/blog/certificate-electrical-safety-ces-victoria-guide-2026)*
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
+- *[SA Home Battery Scheme 2026: Eligibility, Loan & Installer Registration](/blog/sa-solar-battery-rebate-2026)*
+- *[VIC Solar Homes Battery Rebate 2026: Eligibility, Registration & Process](/blog/vic-solar-homes-program-rebate-2026)*
