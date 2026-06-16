@@ -1,10 +1,10 @@
 ---
-title: "Queensland Electrical Contractor Licence 2026: Requirements, Renewal & Costs"
-description: "Everything Queensland electrical contractors need to know about licensing in 2026 — QBCC licence classes, application requirements, QLeave levy obligations, renewal, and how to stay compliant while running a solar or electrical business."
+title: "QLD Electrical Contractor Licence 2026: QBCC, ESQ & QLeave"
+description: "QBCC and ESQ contractor licence requirements for Queensland electricians — application, renewal, MFR obligations, QLeave levy, and solar compliance in 2026."
 pubDate: 'Jun 9 2026'
 category: "Compliance"
 heroImage: '/hero-qld-electrical-contractor-licence-2026.jpg'
-tags: ['Queensland', 'electrical contractor', 'QBCC', 'licence', 'compliance', 'solar']
+tags: ['Queensland', 'electrical contractor', 'QBCC', 'ESQ', 'compliance', 'solar', 'QLeave']
 ---
 
 If you're running an electrical contracting business in Queensland — whether that's residential solar installs, commercial fit-outs, or general electrical maintenance — you need the right licence. In Queensland, that means operating under the framework managed by the Queensland Building and Construction Commission (QBCC), with additional obligations to Electrical Safety Queensland and the QLeave portable long service leave scheme.
@@ -183,8 +183,40 @@ Staying compliant in Queensland isn't complicated, but it does require active ma
 
 ---
 
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — manage licence renewal reminders, compliance calendar, and job paperwork in one place.
+
 > **Have a compliance question right now?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on QBCC obligations, QLeave requirements, CEC accreditation, STC claims, and solar compliance — no login required.
+
+---
+
+## FAQ
+
+**Do I need both a QBCC licence and an Electrical Safety Queensland contractor licence to operate in Queensland?**
+
+Yes — for most electrical installation work valued over $3,300, both are required. The Electrical Safety Queensland contractor licence (issued under the *Electrical Safety Act 2002*) authorises you to carry out electrical work for profit. The QBCC licence is required for any building work over $3,300, and solar PV installation is classified as building work in Queensland. Operating with only one licence exposes you to compliance risk and potential penalties.
+
+**How often do I need to renew my QBCC contractor licence in Queensland?**
+
+QBCC licences are renewed annually. As part of renewal, you must submit updated financial information — either a self-declaration (for lower-turnover businesses) or a formal accountant's report meeting the Minimum Financial Requirements (MFR) framework. Missing your MFR filing deadline is one of the most common causes of automatic licence suspension in Queensland.
+
+**What is the QLeave levy and who has to pay it?**
+
+QLeave is Queensland's portable long service leave scheme for the building and construction industry. Any business engaging workers on building work in Queensland must register as an employer and pay the quarterly levy — currently 2.5% of ordinary time earnings for eligible workers. Solar and electrical installation businesses are typically covered. Many small operators don't realise QLeave applies to them until they're audited.
+
+**What happens if my Electrical Safety Queensland contractor licence lapses?**
+
+You cannot legally carry out or quote electrical work in Queensland while unlicenced. If your licence lapses — even briefly — you must cease trading and apply for reinstatement before recommencing work. Build renewal reminders into your job management calendar and check the ESQ portal at least 60 days before expiry.
+
+**Can I operate across the QLD/NSW border with a Queensland contractor licence?**
+
+No — each state has its own licensing framework. To carry out electrical work in NSW, you need a NSW contractor licence (regulated by NSW Fair Trading). To carry out solar installation in NSW, you also need to comply with CCEW (Certificate of Compliance for Electrical Work) requirements. Operating interstate requires separate licensing in each state.
+
+---
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do I need both a QBCC licence and an Electrical Safety Queensland contractor licence?","acceptedAnswer":{"@type":"Answer","text":"Yes — for most electrical installation work over $3,300, both are required. The ESQ contractor licence authorises you to carry out electrical work for profit. The QBCC licence covers building work, and solar PV installation is classified as building work in Queensland."}},{"@type":"Question","name":"How often do I renew my QBCC contractor licence in Queensland?","acceptedAnswer":{"@type":"Answer","text":"QBCC licences are renewed annually. Renewal requires updated financial information meeting the Minimum Financial Requirements (MFR) framework. Missing the MFR filing deadline is a common cause of automatic licence suspension."}},{"@type":"Question","name":"What is the QLeave levy and who pays it?","acceptedAnswer":{"@type":"Answer","text":"QLeave is Queensland's portable long service leave scheme. Any business with workers on building work in Queensland must register and pay the quarterly levy — currently 2.5% of ordinary time earnings. Solar and electrical installation businesses are covered."}},{"@type":"Question","name":"What happens if my Queensland contractor licence lapses?","acceptedAnswer":{"@type":"Answer","text":"You cannot legally carry out or quote electrical work while unlicenced. You must cease trading and apply for reinstatement. Build renewal reminders at least 60 days before expiry."}}]}
+</script>
 
 ---
 

@@ -266,6 +266,15 @@ ServiceM8 integrates natively with **Xero** and **MYOB** — the two dominant ac
 - *[CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers)*
 - *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
 - *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
+
+**See also:** [Commercial EV Charging at Premises Australia 2026: Compliance & Pricing Guide](/blog/ev-charging-commercial-premises-australia-2026)
+
+
+**See also:** [Heat Pump Hot Water for Electricians Australia: Circuits, Rebates & Sales Workflow](/blog/heat-pump-hot-water-installation-electricians-australia)
+
+
+**See also:** [EV Charger Network Installation: Business Opportunity for Australian Electricians](/blog/ev-charger-network-installation-business-opportunity)
+
 ---
 
 ## FAQ

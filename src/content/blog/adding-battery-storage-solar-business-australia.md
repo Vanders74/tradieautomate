@@ -195,6 +195,11 @@ Battery storage incentives vary by state and change frequently. Current relevant
 - *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses)*
 - [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- *[SA Home Battery Scheme 2026: Eligibility, Loan & Installer Registration](/blog/sa-solar-battery-rebate-2026)*
+- *[VIC Solar Homes Battery Rebate 2026: Eligibility, Registration & Process](/blog/vic-solar-homes-program-rebate-2026)*
+- *[Heat Pump Hot Water for Electricians Australia: Circuits, Rebates & Sales Workflow](/blog/heat-pump-hot-water-installation-electricians-australia)*
+- *[Replacing Gas Hot Water with Heat Pump: Complete Guide Australia](/blog/replacing-gas-hot-water-electric-heat-pump)*
+- *[Solar Battery System Cost Australia 2026: Prices, Rebates & Payback Periods](/blog/solar-battery-system-cost-australia-2026)*
 
 ---
 

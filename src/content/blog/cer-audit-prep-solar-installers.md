@@ -165,3 +165,5 @@ For a full rundown of what you need on every solar job, start with the [Solar Co
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
 - [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)
+- *[WA Electrical Contractor Licence 2026: EnergySafety, CCEI & Compliance Guide](/blog/wa-electrical-contractor-licence-guide-2026)*
+- *[Commercial Solar System Compliance Australia: CEC, DNSP & Metering](/blog/commercial-solar-system-compliance-australia)*

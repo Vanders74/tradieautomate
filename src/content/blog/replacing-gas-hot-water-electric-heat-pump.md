@@ -1,10 +1,10 @@
 ---
-title: "Replacing Gas Hot Water with Electric Heat Pump: The Complete Switchover Guide"
-description: "Everything Australian homeowners and installers need to know about replacing gas hot water with an electric heat pump — cost, process, rebates, installation considerations, and why 2026 is the year to make the switch."
+title: "Replacing Gas Hot Water with Heat Pump: Complete Guide Australia"
+description: "Complete guide replacing gas hot water with a heat pump in Australia — cost, circuits, rebates, gas decommissioning process, and solar integration."
 pubDate: 'Jun 9 2026'
 category: "Solar & Battery"
 heroImage: '/hero-replacing-gas-hot-water-electric-heat-pump.jpg'
-tags: ['heat pump hot water', 'gas replacement', 'electrification', 'rebates', 'solar', 'electrician']
+tags: ['heat pump hot water', 'gas replacement', 'electrification', 'rebates', 'solar', 'electrician', 'VEU', 'STCs']
 ---
 
 Gas hot water is on the way out in Australia. Rising gas prices, state government electrification incentives, and a growing awareness that heat pump technology delivers cheaper hot water than gas — these forces are converging to make the switch from gas to electric heat pump one of the most common home upgrade decisions in 2026.
@@ -180,8 +180,40 @@ Build these into your job completion checklist. The customer documentation step 
 
 ---
 
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — manage gas-to-heat-pump jobs, coordinate plumbing subcontractors, track rebate paperwork, and generate compliance certificates.
+
 > **Questions on heat pump hot water rebates, VEU accreditation, or solar integration?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers, no login required.
+
+---
+
+## FAQ
+
+**How much does it cost to replace gas hot water with a heat pump in Australia?**
+
+A complete gas-to-heat-pump replacement in Australia typically costs $2,500–$5,000 installed (hardware + labour + compliance), before rebates. The installed cost varies based on: the brand and capacity of heat pump selected ($1,200–$2,500 for the unit), whether a new electrical circuit is required (add $600–$1,200), whether a switchboard upgrade is needed (add $1,000–$2,500), and the cost of plumbing labour to remove the gas unit and connect the new system. After Victorian VEU or NSW ESS rebates plus federal STCs, the customer's out-of-pocket cost can be $800–$2,500 less than the gross cost.
+
+**Why are homeowners switching from gas hot water to heat pumps in Australia?**
+
+Three main drivers: rising gas prices (east coast residential gas has increased 30–60% in some markets over five years), state government incentives that make the upfront cost of heat pump hot water competitive with gas replacement, and the solar synergy opportunity — a heat pump set to run during the day can use rooftop solar generation to heat water essentially for free. For solar-owning households, a gas-to-heat-pump switch is one of the highest-impact home electrification upgrades available.
+
+**Does a gas hot water replacement require a plumber or an electrician?**
+
+Both. Removing the old gas hot water unit and capping the gas line requires a licensed plumber (and gas decommissioning notification to the gas network). Installing the new dedicated electrical circuit for the heat pump requires a licensed electrician. In most installations, an electrician manages the job and subcontracts the plumbing component, or the business holds both licences.
+
+**What is the gas decommissioning process when replacing a gas hot water system?**
+
+The homeowner typically requests gas disconnection (or just cap-off at the appliance) from their gas retailer or network operator. The gas network schedules the disconnection — allow 5–15 business days in most markets. A licensed plumber then removes the gas hot water unit and caps the gas line. Importantly: coordinate the gas decommissioning date before scheduling installation day. Arriving to install before gas is disconnected will delay the job.
+
+**Can a heat pump hot water system be integrated with solar to use free solar electricity?**
+
+Yes — and this is one of the strongest selling points for solar-owning customers. The simplest approach: programme the heat pump timer to operate between 10am and 3pm, using midday solar generation to heat the water. A solar diverter (Catch Power, iBoost, etc.) provides smarter integration by monitoring actual solar export and diverting excess energy to the heat pump automatically. Either way, the result is water heated primarily or entirely from solar — dramatically reducing running cost.
+
+---
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much does it cost to replace gas hot water with a heat pump in Australia?","acceptedAnswer":{"@type":"Answer","text":"A complete gas-to-heat-pump replacement typically costs $2,500–$5,000 installed before rebates. After Victorian VEU or NSW ESS rebates plus federal STCs, the customer out-of-pocket cost can be $800–$2,500 less than the gross price."}},{"@type":"Question","name":"Why are homeowners switching from gas hot water to heat pumps?","acceptedAnswer":{"@type":"Answer","text":"Three main drivers: rising gas prices (30-60% increase in some markets), state government incentives reducing upfront costs, and solar synergy — a heat pump running during the day can use rooftop solar to heat water essentially for free."}},{"@type":"Question","name":"Does a gas hot water replacement require a plumber or electrician?","acceptedAnswer":{"@type":"Answer","text":"Both. Removing the gas unit and capping the line requires a licensed plumber. Installing the dedicated electrical circuit requires a licensed electrician. Most installations involve both trades."}},{"@type":"Question","name":"Can a heat pump hot water system use solar electricity?","acceptedAnswer":{"@type":"Answer","text":"Yes. Programme the heat pump to run 10am-3pm using midday solar generation. A solar diverter (Catch Power, iBoost etc.) provides smarter integration by automatically diverting excess solar export to the heat pump."}}]}
+</script>
 
 ---
 
