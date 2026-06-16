@@ -1,6 +1,6 @@
 ---
 title: "Heat Pump Hot Water for Electricians: Circuits, Rebates & Sales"
-description: "Electricians guide to heat pump hot water installation in Australia — load requirements, circuit specs, VEU and ESS rebates, STCs, brands, and solar integration."
+description: "Electricians guide to heat pump hot water in Australia — load requirements, circuit specs, VEU and ESS rebates, STCs, brands, and solar integration tips."
 pubDate: 'Jun 9 2026'
 category: "Business Growth"
 heroImage: '/hero-heat-pump-hot-water-installation-electricians.jpg'
