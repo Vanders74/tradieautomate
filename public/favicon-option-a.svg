@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Option A: Lightning bolt inside a rounded square — energy + automation -->
+  <rect width="32" height="32" rx="7" fill="#0f172a"/>
+  <!-- Lightning bolt -->
+  <polygon points="19,4 10,18 15,18 13,28 22,14 17,14" fill="#f97316"/>
+</svg>

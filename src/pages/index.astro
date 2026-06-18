@@ -198,7 +198,7 @@ const localBusinessSchema = {
           </div>
 
           <!-- NEW WAY -->
-          <div class="compare-col compare-col--new">
+          <div class="compare-col compare-col--new" aria-label="With TradieAutomate automation">
             <div class="compare-col-header">
               <span class="compare-col-icon">🚀</span>
               <h3>The TradieAutomate Way</h3>
@@ -1002,8 +1002,17 @@ const localBusinessSchema = {
 
   /* ── Responsive ── */
   @media (max-width: 900px) {
+    /* On tablet/mobile, hide the full two-column compare and show compact version */
     .compare-grid {
       grid-template-columns: 1fr;
+    }
+    /* Hide old way card on mobile — show compact inline list instead */
+    .compare-col--old {
+      display: none;
+    }
+    /* Expand new way card to full width */
+    .compare-col--new {
+      border-radius: 16px;
     }
     .service-cards {
       grid-template-columns: 1fr;
