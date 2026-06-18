@@ -194,6 +194,8 @@ const aboutSchema = {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.25em;
+    box-sizing: border-box;
+    overflow-x: hidden;
   }
 
   /* ── Hero ── */
@@ -276,6 +278,8 @@ const aboutSchema = {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.25em;
+    width: 100%;
+    min-width: 0;
   }
   .cover-card {
     background: white;
@@ -349,6 +353,8 @@ const aboutSchema = {
     background: var(--navy, #0f172a);
     border-radius: 16px;
     overflow: hidden;
+    width: 100%;
+    min-width: 0;
   }
   .trust-stat {
     display: flex;
@@ -460,6 +466,7 @@ const aboutSchema = {
 
   /* ── Mobile ── */
   @media (max-width: 900px) {
+    .about-page { padding: 0 1em; }
     .covers-grid {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -469,13 +476,21 @@ const aboutSchema = {
     .trust-stat:nth-child(2) { border-right: none; }
     .trust-stat:nth-child(1),
     .trust-stat:nth-child(2) { border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .problem-card { padding: 1.25em 1.25em; }
+    .disclosure-box { padding: 1.25em 1.25em; }
   }
 
   @media (max-width: 640px) {
-    .about-hero h1 { font-size: 1.8em; }
+    .about-page { padding: 0 0.875em; }
+    .about-hero { padding: 2em 0 1.75em; }
+    .about-hero h1 { font-size: 1.65em; }
+    .about-lead { font-size: 0.95em; }
     .covers-grid { grid-template-columns: 1fr; }
-    .problem-card { flex-direction: column; gap: 0.75em; }
-    .about-cta h2 { font-size: 1.4em; }
+    .trust-num { font-size: 1.6em; }
+    .trust-stat { padding: 1.25em 0.75em; }
+    .problem-card { flex-direction: column; gap: 0.75em; padding: 1em 1em; }
+    .about-cta { padding: 2em 0 3em; }
+    .about-cta h2 { font-size: 1.35em; }
     .about-cta-btns { flex-direction: column; align-items: center; }
     .cta-btn { width: 100%; max-width: 320px; text-align: center; }
   }
