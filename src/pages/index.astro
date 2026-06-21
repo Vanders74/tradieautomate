@@ -80,8 +80,8 @@ const localBusinessSchema = {
 <html lang="en">
   <head>
     <BaseHead
-      title="TradieAutomate — Solar Compliance & ServiceM8 for Australian Installers"
-      description="Stop losing solar jobs to compliance chaos. TradieAutomate helps Australian solar, battery & electrical installers master solar compliance, automate with ServiceM8, and grow their business."
+      title="TradieAutomate — Guides & Automation for Australian Trades"
+      description="TradieAutomate helps Australian solar, electrical and trade businesses cut compliance chaos, automate admin with ServiceM8, and grow without extra office staff."
     />
     <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />
   </head>
@@ -89,7 +89,7 @@ const localBusinessSchema = {
     <!-- PDF Lead Magnet Sticky Bar -->
     <div class="sticky-bar" id="stickyBar" role="complementary" aria-label="Free compliance checklist">
       <span class="sticky-bar-text">
-        📋 <strong>Free Download:</strong> 2026 Solar Compliance Checklist for Australian Installers
+        📋 <strong>Free Download:</strong> 2026 Compliance Checklist for Australian Trades
       </span>
       <a href="/compliance-checklist" class="sticky-bar-cta">Get the Free PDF →</a>
       <button class="sticky-bar-close" aria-label="Dismiss" onclick="document.getElementById('stickyBar').style.display='none'">✕</button>
@@ -101,14 +101,14 @@ const localBusinessSchema = {
       <!-- ── SPLIT HERO ── -->
       <section class="hero-split" aria-labelledby="hero-heading">
         <div class="hero-left">
-          <p class="hero-eyebrow">For Australian Solar &amp; Battery Installers</p>
+          <p class="hero-eyebrow">For Australian Solar, Electrical &amp; Trade Businesses</p>
           <h1 id="hero-heading">
             Scale Your Trade Business<br />
             <span class="highlight">Without Adding to Your<br />Office Headcount</span>
           </h1>
           <p class="hero-sub">
-            Stop doing paperwork at 9 PM. TradieAutomate helps Australian solar and electrical
-            installers <strong>automate scheduling, follow-ups, and Google reviews</strong> — so
+            Stop doing paperwork at 9 PM. TradieAutomate helps Australian tradies
+            <strong>cut compliance chaos, automate scheduling and follow-ups</strong> — so
             you win more jobs and finish the day on time, without hiring extra admin staff.
           </p>
           <div class="hero-cta-group">
@@ -198,7 +198,7 @@ const localBusinessSchema = {
           </div>
 
           <!-- NEW WAY -->
-          <div class="compare-col compare-col--new">
+          <div class="compare-col compare-col--new" aria-label="With TradieAutomate automation">
             <div class="compare-col-header">
               <span class="compare-col-icon">🚀</span>
               <h3>The TradieAutomate Way</h3>
@@ -251,24 +251,24 @@ const localBusinessSchema = {
       <section class="solutions" aria-labelledby="solutions-heading">
         <h2 id="solutions-heading">What We Help You With</h2>
         <p class="section-sub">
-          Three core areas where TradieAutomate helps Australian solar and electrical installers
-          work smarter and stay compliant.
+          Three core areas where TradieAutomate helps Australian tradies work smarter,
+          stay compliant, and grow their business.
         </p>
 
         <div class="service-cards">
 
           <article class="service-card" aria-labelledby="service-compliance">
             <div class="service-icon" aria-hidden="true">📋</div>
-            <h2 id="service-compliance" class="service-title">Solar Compliance</h2>
+            <h2 id="service-compliance" class="service-title">Compliance &amp; Standards</h2>
             <p class="service-desc">
-              CER rules, AS/NZS 5033 and 5139 standards, STC requirements — broken down
-              into plain English so Australian solar installers never get caught out during
+              CER rules, AS/NZS 5033 and 5139, state licensing, EV charger standards —
+              broken into plain English so Australian installers never get caught out during
               audits or inspections.
             </p>
             <ul class="service-features">
-              <li>CER accreditation requirements explained</li>
-              <li>AS/NZS 5033 solar installation compliance</li>
-              <li>Battery storage (AS/NZS 5139) guidance</li>
+              <li>Solar &amp; battery compliance (CER, AS/NZS 5033/5139)</li>
+              <li>State electrical contractor licensing guides</li>
+              <li>EV charging installation standards</li>
               <li>STC documentation made simple</li>
             </ul>
             <div class="service-cta-group">
@@ -324,20 +324,20 @@ const localBusinessSchema = {
       <!-- ── SOCIAL PROOF / STATS STRIP ── -->
       <section class="stats-strip" aria-label="Why TradieAutomate">
         <div class="stat">
-          <span class="stat-num">2026</span>
-          <span class="stat-label">Solar Compliance Checklist</span>
+          <span class="stat-num">67+</span>
+          <span class="stat-label">In-depth guides</span>
         </div>
         <div class="stat">
-          <span class="stat-num">AU</span>
-          <span class="stat-label">Australia-specific guidance</span>
+          <span class="stat-num">3</span>
+          <span class="stat-label">Free tools</span>
         </div>
         <div class="stat">
-          <span class="stat-num">CER</span>
-          <span class="stat-label">Accreditation covered</span>
+          <span class="stat-num">🇦🇺</span>
+          <span class="stat-label">Australia-specific</span>
         </div>
         <div class="stat">
           <span class="stat-num">Free</span>
-          <span class="stat-label">Resources for installers</span>
+          <span class="stat-label">No sign-up needed</span>
         </div>
       </section>
 
@@ -1002,8 +1002,17 @@ const localBusinessSchema = {
 
   /* ── Responsive ── */
   @media (max-width: 900px) {
+    /* On tablet/mobile, hide the full two-column compare and show compact version */
     .compare-grid {
       grid-template-columns: 1fr;
+    }
+    /* Hide old way card on mobile — show compact inline list instead */
+    .compare-col--old {
+      display: none;
+    }
+    /* Expand new way card to full width */
+    .compare-col--new {
+      border-radius: 16px;
     }
     .service-cards {
       grid-template-columns: 1fr;

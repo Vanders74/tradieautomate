@@ -4,8 +4,8 @@ import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_URL } from '../consts';
 
-const title = "Services for Australian Solar & Electrical Installers | TradieAutomate";
-const description = "TradieAutomate helps Australian solar, battery and electrical installers with solar compliance guidance, ServiceM8 automation, and business growth strategies. Free 2026 Solar Compliance Checklist.";
+const title = "How TradieAutomate Helps Australian Solar & Electrical Installers | TradieAutomate";
+const description = "TradieAutomate provides practical guides, free tools and honest software comparisons to help Australian solar, battery, electrical and EV installers cut compliance chaos and grow their business.";
 
 const servicesSchema = {
   "@context": "https://schema.org",
@@ -48,6 +48,14 @@ const servicesSchema = {
           "name": "2026 Solar Compliance Checklist",
           "description": "Free downloadable solar compliance checklist for Australian installers, updated for 2026 CER and AS/NZS requirements."
         }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "EV Charging & Heat Pump Installation Guides",
+          "description": "Guides on EV charger installation standards, commercial EV charging business opportunities, and heat pump hot water compliance for Australian electricians."
+        }
       }
     ]
   }
@@ -66,11 +74,12 @@ const servicesSchema = {
 
       <!-- Page Hero -->
       <section class="page-hero" aria-labelledby="services-heading">
-        <p class="eyebrow">For Australian Solar &amp; Electrical Installers</p>
+        <p class="eyebrow">Free Guides &amp; Resources for Australian Tradies</p>
         <h1 id="services-heading">How TradieAutomate Helps You</h1>
         <p class="page-hero-sub">
-          Practical guidance on <strong>solar compliance</strong>, <strong>ServiceM8</strong> automation,
-          and growing your trade business — all Australia-specific, no fluff.
+          TradieAutomate is a free resource — practical guides, honest software comparisons, and
+          interactive tools built specifically for Australian solar, battery, electrical and EV installers.
+          No fluff, no paywalls.
         </p>
       </section>
 
@@ -185,6 +194,45 @@ const servicesSchema = {
             <h3>Explore the Blog</h3>
             <p>Read all of our guides on growing, automating, and scaling an Australian solar installation business.</p>
             <a href="/blog" class="cta-button">Browse All Articles →</a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Service 4: EV Charging & Heat Pumps -->
+      <section class="service-section" aria-labelledby="s4-heading">
+        <div class="service-header">
+          <span class="service-num" aria-hidden="true">04</span>
+          <span class="service-emoji" aria-hidden="true">🔌</span>
+        </div>
+        <h2 id="s4-heading">EV Charging &amp; Heat Pump Installations</h2>
+        <p class="service-intro">
+          EV charging and heat pump hot water are the fastest-growing work segments for Australian
+          electricians. TradieAutomate covers the installation standards, commercial opportunities,
+          and compliance requirements so you're ahead of the curve — not playing catch-up.
+        </p>
+        <div class="service-two-col">
+          <div>
+            <h3>What We Cover</h3>
+            <ul class="feature-list">
+              <li>EV charger installation standards &amp; Appendix P</li>
+              <li>Commercial EV charging network business opportunities</li>
+              <li>Load balancing &amp; grid connection for EV sites</li>
+              <li>Heat pump hot water installation for electricians</li>
+              <li>Replacing gas hot water with electric heat pumps</li>
+              <li>State rebates and incentive programs</li>
+            </ul>
+          </div>
+          <div class="service-cta-box">
+            <h3>Start Here</h3>
+            <p>Read our guide on building an EV charging network installation business — one of the highest-growth opportunities for Aussie electricians right now.</p>
+            <a href="/blog/ev-charger-network-installation-business-opportunity" class="cta-button">Read the Guide →</a>
+            <div class="also-read">
+              <strong>Also read:</strong>
+              <a href="/blog/ev-charging-commercial-premises-australia-2026">EV Charging for Commercial Premises 2026</a>
+              <a href="/blog/heat-pump-hot-water-installation-electricians-australia">Heat Pump Hot Water — Installer's Guide</a>
+            </div>
           </div>
         </div>
       </section>
