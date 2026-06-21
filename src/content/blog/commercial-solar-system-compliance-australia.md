@@ -230,3 +230,5 @@ DNSP connection application timeframes vary significantly by network operator an
 - *[STC Claim Process for Solar Installers Australia](/blog/stc-claim-process-solar-installers-australia)*
 - *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
 - *[Scaling Your Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)

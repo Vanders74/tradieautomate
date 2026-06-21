@@ -199,6 +199,7 @@ The property owner is entitled to a copy. Failure to provide it is a Fair Tradin
 - [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
 - [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
 
 ---
 

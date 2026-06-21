@@ -197,6 +197,7 @@ Look for a broker with experience in the construction and trade sector — not a
 - [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
 - [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
 - *[QLD Electrical Contractor Licence 2026: QBCC, ESQ & QLeave Requirements](/blog/qld-electrical-contractor-licence-guide-2026)*
+- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
 
 ---
 

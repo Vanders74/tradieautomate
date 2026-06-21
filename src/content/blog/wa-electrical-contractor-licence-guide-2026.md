@@ -206,3 +206,5 @@ WA electrical contractor licences are renewed annually through the EnergySafety 
 - *[Staying Compliant in 2026: The Complete Solar & Electrical Safety Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
 - *[STC Claim Process for Solar Installers Australia](/blog/stc-claim-process-solar-installers-australia)*
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)

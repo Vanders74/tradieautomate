@@ -206,3 +206,5 @@ A licensed electrical contractor's licence in the relevant state is required for
 - *[Scaling Your Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
 - *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)

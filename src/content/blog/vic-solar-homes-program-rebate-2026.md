@@ -211,3 +211,6 @@ After a Solar Victoria battery installation, the installing electrician must iss
 - *[Solar Installer Cash Flow Management](/blog/solar-installer-cash-flow-management)*
 - *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
 - *[Solar Battery System Cost Australia 2026](/blog/solar-battery-system-cost-australia-2026)*
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)

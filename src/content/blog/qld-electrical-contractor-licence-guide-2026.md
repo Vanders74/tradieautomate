@@ -230,3 +230,5 @@ No — each state has its own licensing framework. To carry out electrical work 
 - *[Solar Compliance Checklist for Australian Installers 2026](/blog/solar-compliance-checklist-2026)*
 - *[Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026)*
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
