@@ -219,3 +219,6 @@ Yes — the federal Small-scale Technology Certificate (STC) scheme and the SA H
 - *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
 - *[Solar Battery System Cost Australia 2026](/blog/solar-battery-system-cost-australia-2026)*
 - *[CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers)*
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
+- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
