@@ -222,3 +222,4 @@ Yes. Apprentices must have a formal training contract (apprenticeship agreement)
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
 - [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
