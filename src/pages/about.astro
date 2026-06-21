@@ -2,52 +2,496 @@
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
-import { SITE_TITLE } from '../consts';
+import { SITE_TITLE, SITE_URL } from '../consts';
+
+const aboutSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": `${SITE_URL}/about/#webpage`,
+  "name": "About TradieAutomate",
+  "url": `${SITE_URL}/about/`,
+  "description": "TradieAutomate was built to help Australian solar, battery and electrical installers cut compliance chaos, automate admin, and win more business.",
+  "publisher": {
+    "@type": "Organization",
+    "@id": `${SITE_URL}/#organization`,
+    "name": "TradieAutomate"
+  }
+};
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
-    <BaseHead title={`About — ${SITE_TITLE}`} description="TradieAutomate helps Australian solar, battery and electrical installers streamline compliance and grow smarter." />
+    <BaseHead
+      title={`About TradieAutomate — Built for Aussie Solar & Electrical Installers`}
+      description="TradieAutomate was built to help Australian solar, battery and electrical installers cut compliance chaos, automate admin, and grow their business without the paperwork grind."
+    />
+    <script type="application/ld+json" set:html={JSON.stringify(aboutSchema)} />
   </head>
   <body>
     <Header />
-    <main>
-      <h1>About TradieAutomate</h1>
+    <main class="about-page">
 
-      <p>
-        TradieAutomate exists for one reason: <strong>Australian solar, battery and electrical installers deserve better tools and clearer information.</strong>
-      </p>
+      <!-- ── ORIGIN HERO ── -->
+      <section class="about-hero" aria-labelledby="about-heading">
+        <div class="about-hero-inner">
+          <p class="about-eyebrow">Our Story</p>
+          <h1 id="about-heading">
+            TradieAutomate was built because<br />
+            <span class="highlight">Australian tradies deserve better.</span>
+          </h1>
+          <p class="about-lead">
+            Too many skilled solar and electrical installers are losing jobs not because of their
+            workmanship — but because compliance paperwork, missed follow-ups, and manual admin
+            are eating their time and their margins.
+          </p>
+          <p class="about-lead">
+            TradieAutomate exists to fix that. We publish plain-English compliance guides,
+            honest software comparisons, and practical automation playbooks — all built
+            specifically for the Australian trades industry.
+          </p>
+        </div>
+      </section>
 
-      <p>
-        The compliance landscape for installers is shifting fast — CER enforcement is tightening, AS/NZS standards are updating, and the gap between "getting it right" and "getting caught out" is shrinking every year.
-      </p>
+      <!-- ── WHAT PROBLEM WE SOLVE ── -->
+      <section class="about-problem" aria-labelledby="problem-heading">
+        <div class="problem-card">
+          <span class="problem-icon" aria-hidden="true">😩</span>
+          <div>
+            <h2 id="problem-heading">The Problem We Saw</h2>
+            <p>
+              CER rules are tightening. AS/NZS standards keep updating. State licensing varies
+              by jurisdiction. And most installers are still navigating this with paper checklists,
+              scattered photos, and gut feel — while also trying to run a profitable business.
+            </p>
+            <p>
+              Meanwhile, the job management software market is a maze of tools that all claim
+              to be built for tradies. Most aren't — or at least, not for the specific workflows
+              solar and electrical installers actually need.
+            </p>
+          </div>
+        </div>
+      </section>
 
-      <p>
-        Meanwhile, most trade businesses are still running on paper checklists, scattered photos, and manual processes that don't scale.
-      </p>
+      <!-- ── WHAT WE COVER ── -->
+      <section class="about-covers" aria-labelledby="covers-heading">
+        <h2 id="covers-heading">What We Cover</h2>
+        <p class="section-sub">Five areas where TradieAutomate gives you the edge.</p>
+        <div class="covers-grid">
 
-      <h2>What We Cover</h2>
+          <div class="cover-card">
+            <span class="cover-icon" aria-hidden="true">📋</span>
+            <h3>Solar &amp; Battery Compliance</h3>
+            <p>CER requirements, AS/NZS 5033 &amp; 5139, STC documentation, grid connection compliance, and audit preparation — all in plain English.</p>
+            <a href="/blog/solar-compliance-checklist-2026" class="cover-link">Read the guide →</a>
+          </div>
 
-      <ul>
-        <li><strong>Solar & Battery Compliance</strong> — CER requirements, AS/NZS 5033, AS/NZS 5139, STC documentation, audit preparation</li>
-        <li><strong>EV Charging Installation</strong> — Appendix P, load balancing, emerging standards</li>
-        <li><strong>Digital Job Management</strong> — Software comparisons, workflow automation, going paperless</li>
-        <li><strong>Trade Business Growth</strong> — Quoting strategies, customer retention, scaling operations</li>
-      </ul>
+          <div class="cover-card">
+            <span class="cover-icon" aria-hidden="true">⚡</span>
+            <h3>ServiceM8 Automation</h3>
+            <p>Setup guides, workflow automation, and honest comparisons against simPRO, Tradify, Fergus, and others — so you pick the right tool the first time.</p>
+            <a href="/blog/servicem8-review-2026" class="cover-link">Read the guide →</a>
+          </div>
 
-      <h2>Who's Behind This</h2>
+          <div class="cover-card">
+            <span class="cover-icon" aria-hidden="true">🔌</span>
+            <h3>EV Charging &amp; Heat Pumps</h3>
+            <p>Installation standards, commercial EV charging business opportunities, and heat pump hot water compliance — the fastest-growing segment for Aussie electricians.</p>
+            <a href="/blog/ev-charger-network-installation-business-opportunity" class="cover-link">Read the guide →</a>
+          </div>
 
-      <p>
-        TradieAutomate is built by people who understand both the trades industry and the technology that's transforming it. We're not just writing about compliance — we're building the resources installers actually need.
-      </p>
+          <div class="cover-card">
+            <span class="cover-icon" aria-hidden="true">🏛️</span>
+            <h3>Licensing &amp; Electrical Standards</h3>
+            <p>State-by-state electrical contractor licensing guides for QLD, WA, VIC, NSW and beyond — so you know exactly what you need to operate legally.</p>
+            <a href="/blog/qld-electrical-contractor-licence-guide-2026" class="cover-link">Read the guide →</a>
+          </div>
 
-      <p>
-        Got a topic you want us to cover? A compliance question you can't find the answer to?
-        <a href="https://www.instagram.com/tradieautomate/">Hit us up on Instagram</a> or
-        <a href="https://www.facebook.com/profile.php?id=61585208957817">Facebook</a>.
-      </p>
+          <div class="cover-card">
+            <span class="cover-icon" aria-hidden="true">📈</span>
+            <h3>Business Growth</h3>
+            <p>Winning solar quotes, Google review automation, customer retention, pricing strategy, and scaling your trade business without drowning in overhead.</p>
+            <a href="/blog/scaling-solar-electrical-business-australia" class="cover-link">Read the guide →</a>
+          </div>
+
+          <div class="cover-card cover-card--tools">
+            <span class="cover-icon" aria-hidden="true">🧮</span>
+            <h3>Free Tools</h3>
+            <p>Interactive calculators built for Australian solar and trade businesses — no sign-up required.</p>
+            <ul class="tools-list">
+              <li><a href="/tools/solar-savings-calculator/">Solar Savings Calculator</a></li>
+              <li><a href="/tools/solar-quote-calculator/">Solar Quote Calculator</a></li>
+              <li><a href="/tools/admin-cost-calculator/">Admin Cost Calculator</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ── TRUST SIGNALS ── -->
+      <section class="about-trust" aria-label="Site statistics">
+        <div class="trust-strip">
+          <div class="trust-stat">
+            <span class="trust-num">67</span>
+            <span class="trust-label">In-depth articles</span>
+          </div>
+          <div class="trust-stat">
+            <span class="trust-num">3</span>
+            <span class="trust-label">Free tools</span>
+          </div>
+          <div class="trust-stat">
+            <span class="trust-num">🇦🇺</span>
+            <span class="trust-label">Australia-specific</span>
+          </div>
+          <div class="trust-stat">
+            <span class="trust-num">2026</span>
+            <span class="trust-label">Standards current</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── AFFILIATE DISCLOSURE ── -->
+      <section class="about-disclosure" aria-label="Affiliate disclosure">
+        <div class="disclosure-box">
+          <h2>Transparency</h2>
+          <p>
+            Some links on TradieAutomate are affiliate links — primarily to <strong>ServiceM8</strong>,
+            our recommended field service management platform for Australian solar and electrical
+            installers. If you sign up through our link, we may earn a commission at no extra
+            cost to you. This never influences what we recommend — we only endorse tools we
+            believe genuinely help Australian tradies.
+          </p>
+          <p>
+            All compliance content is based on publicly available Australian standards and
+            Clean Energy Regulator guidelines. It is for information purposes only and does not
+            constitute professional legal or safety advice.
+          </p>
+        </div>
+      </section>
+
+      <!-- ── CTA ── -->
+      <section class="about-cta" aria-labelledby="about-cta-heading">
+        <h2 id="about-cta-heading">Ready to stop the compliance chaos?</h2>
+        <p>Start with our free 2026 Solar Compliance Checklist — the fastest way to audit your position and close the gaps.</p>
+        <div class="about-cta-btns">
+          <a href="/compliance-checklist" class="cta-btn cta-btn--primary">Get the Free Checklist →</a>
+          <a href="/blog" class="cta-btn cta-btn--secondary">Browse All Articles</a>
+        </div>
+        <p class="about-social">
+          Got a topic you want us to cover? Hit us up on
+          <a href="https://www.instagram.com/tradieautomate/">Instagram</a> or
+          <a href="https://www.facebook.com/profile.php?id=61585208957817">Facebook</a>.
+        </p>
+      </section>
+
     </main>
     <Footer />
   </body>
 </html>
+
+<style>
+  .about-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.25em;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  /* ── Hero ── */
+  .about-hero {
+    padding: 3em 0 2.5em;
+    border-bottom: 1px solid rgb(var(--gray-light));
+    margin-bottom: 2.5em;
+  }
+  .about-eyebrow {
+    font-size: 0.78em;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--accent, #f97316);
+    margin: 0 0 0.75em;
+  }
+  .about-hero h1 {
+    font-size: 2.4em;
+    line-height: 1.2;
+    color: var(--navy, #0f172a);
+    margin: 0 0 0.75em;
+  }
+  .highlight {
+    color: var(--accent, #f97316);
+  }
+  .about-lead {
+    font-size: 1.05em;
+    color: rgb(var(--gray-dark));
+    line-height: 1.75;
+    margin: 0 0 1em;
+    max-width: 720px;
+  }
+
+  /* ── Problem Card ── */
+  .about-problem {
+    margin-bottom: 3em;
+  }
+  .problem-card {
+    display: flex;
+    gap: 1.25em;
+    align-items: flex-start;
+    background: rgb(var(--gray-light), 0.4);
+    border-left: 4px solid var(--accent, #f97316);
+    border-radius: 0 12px 12px 0;
+    padding: 1.75em 2em;
+  }
+  .problem-icon {
+    font-size: 2em;
+    flex-shrink: 0;
+    margin-top: 0.1em;
+  }
+  .problem-card h2 {
+    font-size: 1.35em;
+    color: var(--navy, #0f172a);
+    margin: 0 0 0.6em;
+  }
+  .problem-card p {
+    color: rgb(var(--gray-dark));
+    line-height: 1.7;
+    margin: 0 0 0.75em;
+    font-size: 0.95em;
+  }
+  .problem-card p:last-child { margin: 0; }
+
+  /* ── What We Cover Grid ── */
+  .about-covers {
+    margin-bottom: 3em;
+  }
+  .about-covers > h2 {
+    font-size: 1.9em;
+    color: var(--navy, #0f172a);
+    margin: 0 0 0.35em;
+  }
+  .section-sub {
+    color: rgb(var(--gray));
+    font-size: 0.95em;
+    margin: 0 0 1.75em;
+  }
+  .covers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25em;
+    width: 100%;
+    min-width: 0;
+  }
+  .cover-card {
+    background: white;
+    border: 1px solid rgb(var(--gray-light));
+    border-radius: 14px;
+    padding: 1.5em 1.25em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    transition: box-shadow 0.2s, border-color 0.2s;
+  }
+  .cover-card:hover {
+    box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+    border-color: var(--accent, #f97316);
+  }
+  .cover-card--tools {
+    background: var(--navy, #0f172a);
+    border-color: var(--navy, #0f172a);
+    color: white;
+  }
+  .cover-card--tools h3 { color: white; }
+  .cover-card--tools p { color: rgba(255,255,255,0.7); }
+  .cover-icon {
+    font-size: 1.8em;
+    margin-bottom: 0.1em;
+  }
+  .cover-card h3 {
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--navy, #0f172a);
+    margin: 0;
+  }
+  .cover-card p {
+    font-size: 0.84em;
+    color: rgb(var(--gray-dark));
+    line-height: 1.6;
+    margin: 0;
+    flex: 1;
+  }
+  .cover-link {
+    font-size: 0.82em;
+    font-weight: 700;
+    color: var(--accent-dark, #c2410c);
+    text-decoration: none;
+    margin-top: 0.25em;
+  }
+  .cover-link:hover { color: var(--accent, #f97316); text-decoration: underline; }
+  .tools-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.25em 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+  }
+  .tools-list a {
+    color: var(--accent, #f97316);
+    font-size: 0.82em;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .tools-list a:hover { text-decoration: underline; }
+
+  /* ── Trust Strip ── */
+  .about-trust {
+    margin-bottom: 3em;
+  }
+  .trust-strip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background: var(--navy, #0f172a);
+    border-radius: 16px;
+    overflow: hidden;
+    width: 100%;
+    min-width: 0;
+  }
+  .trust-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.75em 1em;
+    border-right: 1px solid rgba(255,255,255,0.08);
+    gap: 0.3em;
+  }
+  .trust-stat:last-child { border-right: none; }
+  .trust-num {
+    font-size: 2em;
+    font-weight: 800;
+    color: var(--accent, #f97316);
+    line-height: 1;
+  }
+  .trust-label {
+    font-size: 0.78em;
+    color: rgba(255,255,255,0.6);
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  /* ── Disclosure ── */
+  .about-disclosure {
+    margin-bottom: 3em;
+  }
+  .disclosure-box {
+    background: rgb(var(--gray-light), 0.35);
+    border: 1px solid rgb(var(--gray-light));
+    border-radius: 12px;
+    padding: 1.75em 2em;
+  }
+  .disclosure-box h2 {
+    font-size: 1.1em;
+    color: var(--navy, #0f172a);
+    margin: 0 0 0.75em;
+  }
+  .disclosure-box p {
+    font-size: 0.88em;
+    color: rgb(var(--gray-dark));
+    line-height: 1.7;
+    margin: 0 0 0.75em;
+  }
+  .disclosure-box p:last-child { margin: 0; }
+
+  /* ── CTA ── */
+  .about-cta {
+    text-align: center;
+    padding: 3em 0 4em;
+    border-top: 1px solid rgb(var(--gray-light));
+  }
+  .about-cta h2 {
+    font-size: 1.8em;
+    color: var(--navy, #0f172a);
+    margin: 0 0 0.5em;
+  }
+  .about-cta > p {
+    color: rgb(var(--gray-dark));
+    font-size: 1em;
+    margin: 0 0 1.5em;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-cta-btns {
+    display: flex;
+    gap: 0.75em;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.5em;
+  }
+  .cta-btn {
+    padding: 0.75em 1.5em;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.95em;
+    text-decoration: none;
+    transition: background 0.2s, border-color 0.2s, transform 0.1s;
+  }
+  .cta-btn--primary {
+    background: var(--accent, #f97316);
+    color: white;
+  }
+  .cta-btn--primary:hover {
+    background: var(--accent-dark, #c2410c);
+    color: white;
+    transform: translateY(-1px);
+  }
+  .cta-btn--secondary {
+    background: transparent;
+    color: var(--navy, #0f172a);
+    border: 2px solid rgb(var(--gray-light));
+  }
+  .cta-btn--secondary:hover {
+    border-color: var(--accent, #f97316);
+    color: var(--accent-dark, #c2410c);
+  }
+  .about-social {
+    font-size: 0.88em;
+    color: rgb(var(--gray));
+    margin: 0;
+  }
+  .about-social a {
+    color: var(--accent-dark, #c2410c);
+    font-weight: 600;
+  }
+
+  /* ── Mobile ── */
+  @media (max-width: 900px) {
+    .about-page { padding: 0 1em; }
+    .covers-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .trust-strip {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .trust-stat:nth-child(2) { border-right: none; }
+    .trust-stat:nth-child(1),
+    .trust-stat:nth-child(2) { border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .problem-card { padding: 1.25em 1.25em; }
+    .disclosure-box { padding: 1.25em 1.25em; }
+  }
+
+  @media (max-width: 640px) {
+    .about-page { padding: 0 0.875em; }
+    .about-hero { padding: 2em 0 1.75em; }
+    .about-hero h1 { font-size: 1.65em; }
+    .about-lead { font-size: 0.95em; }
+    .covers-grid { grid-template-columns: 1fr; }
+    .trust-num { font-size: 1.6em; }
+    .trust-stat { padding: 1.25em 0.75em; }
+    .problem-card { flex-direction: column; gap: 0.75em; padding: 1em 1em; }
+    .about-cta { padding: 2em 0 3em; }
+    .about-cta h2 { font-size: 1.35em; }
+    .about-cta-btns { flex-direction: column; align-items: center; }
+    .cta-btn { width: 100%; max-width: 320px; text-align: center; }
+  }
+</style>
