@@ -154,22 +154,33 @@ For businesses doing 20+ installations per month, this kind of system discipline
 
 ---
 
-## Common CES Mistakes to Avoid
+## Common CES Audit Failures — What Triggers ESV Action
 
-**1. Missing the 28-day deadline**
-The most common failure. Set a reminder in your job management system as soon as a job is completed.
+Energy Safe Victoria has intensified audit activity in recent years, particularly targeting solar installations. These are the failure patterns that most commonly result in ESV compliance action:
 
-**2. Issuing the CES before the work is complete**
-A CES must certify completed, compliant work. Issuing it prematurely — to close out paperwork before returning for a punch-list item — is a false certification.
+**1. Missing or late CES lodgement**
+The most common failure — and the most easily avoided. The 28-day window runs from job completion, not from invoice, customer sign-off, or grid connection approval. Set a task in your job management system at the moment of completion. Contractors who rely on memory or end-of-month batching consistently miss deadlines when jobs cluster around month-end.
 
-**3. Insufficient work description**
-"Solar installation" is not adequate. "Installation of 22x 440W Jinko solar panels, 10kW SolarEdge HD-Wave inverter, 10kWh BYD battery system, connection to existing switchboard" is adequate.
+**2. Issuing the CES before work is complete**
+A CES certifies that the electrical installation is complete and compliant. Issuing one before returning for punchlist items is a false certification under the Electricity Safety Act 1998 and can result in immediate licence suspension. ESV takes this seriously — multiple instances can result in licence cancellation.
 
-**4. Wrong contractor listed**
-The CES must be issued by the REC who engaged the performing electrician — not the electrician themselves (unless they are also the REC).
+**3. Vague or generic work description**
+"Solar installation" or "electrical work" is not a valid CES description. ESV expects enough detail to independently verify what was installed. Adequate format: *"Installation of 22× 440W Jinko Tiger panels (9.68kW), Fronius Primo 10kW inverter, 10kWh BYD HVS battery, AC connection to existing Clipsal 3-phase switchboard, dedicated circuit and protection relay installed."* Include brand, model, capacity, and connection type for every major component.
 
-**5. No physical copy retained**
-ESV Connect stores the lodgement but you should retain your own copy as a backup.
+**4. Wrong entity issuing the CES**
+The CES must be issued by the Registered Electrical Contractor (REC) who contracted to perform the work — not the individual electrician who did it, unless that electrician holds their own REC licence. Sub-contracting arrangements frequently cause errors here. If a solar company subcontracts installation to a licensed sparky, the solar company (as the REC with the customer contract) issues the CES.
+
+**5. Confusing CES with DNSP notification**
+Lodging the CES in ESV Connect satisfies your ESV obligation. It does not notify your DNSP (AusNet, Jemena, CitiPower, Powercor, or United Energy) of the grid connection — that is a separate requirement. Both obligations must be met independently. DNSPs who discover unnotified solar connections report them to ESV.
+
+**6. Battery storage labelling gaps**
+Solar + battery systems require more documentation than PV-only work. The CES must cover the battery system electrical installation, and labelling requirements under AS/NZS 5139 must be completed and documented. Missing battery warning labels, non-compliant signage, or absent energy management system documentation are consistently flagged in ESV audits of battery installations. See our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance) for full labelling requirements.
+
+**7. No copy retained and no copy given to owner**
+ESV Connect records the lodgement but you must also retain your own copy and provide a copy to the property owner. Owners who sell or refinance without a CES on record will pursue the installing contractor — often years after the job.
+
+> **Got a CES compliance question right now?**
+> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CES lodgement, ESV requirements, AS/NZS 5033 & 5139, and solar compliance documentation. No login required.
 
 ---
 
@@ -194,8 +205,16 @@ For electricians working in NSW, the equivalent document is the **Certificate of
 
 ---
 
-> **Got a compliance question right now?**
-> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CER audits, AS/NZS 5033 & 5139, CCEW lodgement, STC claims, EV charger approvals, and more. No login required.
+<div class="tradie-brain-cta">
+  <div class="tb-cta-inner">
+    <div class="tb-cta-icon">🤖</div>
+    <div class="tb-cta-content">
+      <strong>Got a CES compliance question right now?</strong>
+      <p>Tradie Brain AI has instant answers on CES lodgement, ESV audit requirements, AS/NZS 5033 & 5139 battery labelling, solar documentation, and Victorian electrical safety rules. No login required.</p>
+    </div>
+    <a href="https://tradieautomate.com/tools/tradie-brain/" class="tb-cta-btn">Ask Tradie Brain Free →</a>
+  </div>
+</div>
 
 ---
 

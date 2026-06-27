@@ -163,22 +163,33 @@ For businesses working across both NSW and VIC (or other states), your job manag
 
 ---
 
-## Common CCEW Mistakes to Avoid
+## Common CCEW Audit Failures — What Gets Contractors Caught
+
+SafeWork NSW and NSW Fair Trading receive complaints and conduct audits. These are the failure patterns that consistently appear in compliance outcomes:
 
 **1. Missing the 7-day deadline**
-Set reminders immediately when a job is completed. Don't batch CCEW issuance at the end of the week — the 7-day clock starts the moment the job is complete. Issue within 24–48 hours of each job.
+The most common breach — and the easiest to prevent. The 7-day clock starts at job completion, not when you send the invoice. Set a job management system reminder at the point of sign-off. Contractors who batch CCEW issuance at the end of the week regularly miss the window when jobs complete on a Friday or public holiday eve.
 
-**2. Insufficient work description**
-"Solar installation" is not adequate. Include all equipment details: panel count, panel brand/model, inverter brand/model, system size in kW, connection type.
+**2. Vague or incomplete work description**
+"Electrical installation" or "solar installation" is not sufficient. A valid CCEW work description must be specific enough for an auditor to understand exactly what was installed and where. For solar: panel count, panel brand and model, inverter brand and model, total system size in kW, whether there's a battery, battery brand and kWh rating, and the type of grid connection. For switchboard work: circuit count, breaker specifications, RCD types installed.
 
-**3. Wrong contractor name**
-Use the exact business name as it appears on your Fair Trading contractor licence — not a trading name or abbreviation.
+**3. Wrong contractor name or licence number**
+The CCEW must use the exact business name as it appears on your NSW Fair Trading contractor licence — not a trading name, abbreviation, or the individual electrician's name. A CCEW issued under a trading name not matching the registered licence name is technically defective.
 
-**4. Confusing CCEW with network notification**
-These are separate obligations. Issuing the CCEW does not notify the DNSP — do both.
+**4. Confusing CCEW with DNSP notification**
+Issuing the CCEW satisfies the NSW Fair Trading obligation. It does not notify the DNSP (Ausgrid, Endeavour Energy, or Essential Energy). These are separate obligations to separate bodies. Many contractors make this error and receive complaints from DNSPs about unnotified connections.
 
-**5. Not providing a copy to the property owner**
-The property owner is entitled to a copy. Failure to provide it is a Fair Trading compliance failure.
+**5. No copy provided to the property owner**
+The property owner is legally entitled to receive a copy of the CCEW. Failing to provide it is a separate compliance failure under the Home Building Act. If the homeowner later sells or refinances, a missing CCEW becomes their problem — and they will trace it back to you.
+
+**6. Issuing before work is complete**
+A CCEW certifies that work has been completed and is compliant. Issuing one before all punchlist items are done is a false certification — potentially exposing you to disciplinary action and voiding insurance coverage.
+
+**7. Poor photo documentation for solar**
+While photos aren't part of the CCEW itself, NSW Fair Trading and DNSPs increasingly cross-reference CCEW records against installation photos during solar audits. A CCEW with no corresponding job documentation is a red flag. Geo-tagged, timestamped photos should be stored against every job.
+
+> **Need to check a CCEW requirement right now?**
+> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CCEW lodgement, network notification rules, solar documentation requirements, and more. No login required.
 
 ---
 
@@ -200,8 +211,16 @@ The property owner is entitled to a copy. Failure to provide it is a Fair Tradin
 
 ---
 
-> **Got a compliance question right now?**
-> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CER audits, AS/NZS 5033 & 5139, CCEW lodgement, STC claims, EV charger approvals, and more. No login required.
+<div class="tradie-brain-cta">
+  <div class="tb-cta-inner">
+    <div class="tb-cta-icon">🤖</div>
+    <div class="tb-cta-content">
+      <strong>Got a CCEW question right now?</strong>
+      <p>Tradie Brain AI has instant answers on CCEW lodgement, 7-day deadline rules, network notification, solar documentation, and SafeWork NSW requirements. No login required.</p>
+    </div>
+    <a href="https://tradieautomate.com/tools/tradie-brain/" class="tb-cta-btn">Ask Tradie Brain Free →</a>
+  </div>
+</div>
 
 ---
 

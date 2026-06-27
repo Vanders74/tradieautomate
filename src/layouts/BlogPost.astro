@@ -97,6 +97,58 @@ const articleSchema = {
 			.last-updated-on {
 				font-style: italic;
 			}
+			/* Tradie Brain CTA block — used in compliance blog posts */
+			.tradie-brain-cta {
+				margin: 32px 0;
+				background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+				border: 1.5px solid #7dd3fc;
+				border-radius: 12px;
+				padding: 24px;
+			}
+			.tb-cta-inner {
+				display: flex;
+				align-items: center;
+				gap: 16px;
+				flex-wrap: wrap;
+			}
+			.tb-cta-icon {
+				font-size: 2rem;
+				flex-shrink: 0;
+			}
+			.tb-cta-content {
+				flex: 1;
+				min-width: 200px;
+			}
+			.tb-cta-content strong {
+				display: block;
+				font-size: 1rem;
+				font-weight: 700;
+				color: #0c4a6e;
+				margin-bottom: 4px;
+			}
+			.tb-cta-content p {
+				font-size: 0.875rem;
+				color: #075985;
+				margin: 0;
+				opacity: 0.9;
+			}
+			.tb-cta-btn {
+				display: inline-block;
+				background: #0ea5e9;
+				color: white !important;
+				font-weight: 700;
+				font-size: 0.9rem;
+				padding: 10px 20px;
+				border-radius: 8px;
+				text-decoration: none !important;
+				white-space: nowrap;
+				flex-shrink: 0;
+				transition: background 0.15s, transform 0.1s;
+			}
+			.tb-cta-btn:hover {
+				background: #0284c7;
+				transform: translateY(-1px);
+			}
 		</style>
 	</head>
 
