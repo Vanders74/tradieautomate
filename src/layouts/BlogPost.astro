@@ -8,9 +8,22 @@ import { SITE_URL } from '../consts';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage, canonicalURL: canonicalOverride } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, canonicalURL: canonicalOverride, faq } = Astro.props;
 const canonicalURL = canonicalOverride ?? new URL(Astro.url.pathname, Astro.site).toString();
 const imageUrl = heroImage ? new URL(heroImage, Astro.site).toString() : null;
+
+const faqSchema = faq && faq.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faq.map((item: { question: string; answer: string }) => ({
+    "@type": "Question",
+    "name": item.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": item.answer
+    }
+  }))
+} : null;
 
 const articleSchema = {
   "@context": "https://schema.org",
@@ -42,6 +55,7 @@ const articleSchema = {
 	<head>
 		<BaseHead title={title} description={description} image={heroImage ?? undefined} type="article" pubDate={pubDate} updatedDate={updatedDate} canonicalURL={canonicalOverride} />
 		<script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+		{faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
 		<style>
 			main {
 				width: calc(100% - 2em);
