@@ -22,9 +22,9 @@ const softwareSchema = {
   },
   "description": "Free AI advisor for Australian solar and electrical contractors. Instant answers on CER audits, AS/NZS 5033 and 5139, ServiceM8, STC claims, CCEW lodgement, EV charger approvals, and trade business growth.",
   "author": {
-    "@type": "Organization",
-    "name": "TradieAutomate",
-    "url": "https://tradieautomate.com"
+    "@type": "Person",
+    "name": "Shane Vandenborn",
+    "url": "https://tradieautomate.com/about"
   }
 };
 
@@ -104,16 +104,17 @@ const faqSchema = {
 <html lang="en">
   <head>
     <BaseHead
-      title={"Tradie Brain AI — Solar & Electrical Compliance Advisor | " + SITE_TITLE}
+      title={"Tradie Brain AI — Free Solar & Electrical Compliance Advisor | " + SITE_TITLE}
       description="Ask Tradie Brain AI anything about CER audits, AS/NZS 5033 & 5139, ServiceM8, STC claims, EV chargers and more. Free instant answers for Australian solar and electrical contractors."
     />
     <script type="application/ld+json" set:html={JSON.stringify(softwareSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
     <style>
+      /* ── Hero (compact) ── */
       .tb-hero {
         text-align: center;
-        padding: 40px 24px 20px;
-        max-width: 680px;
+        padding: 28px 24px 16px;
+        max-width: 700px;
         margin: 0 auto;
       }
       .tb-hero .badge {
@@ -126,251 +127,461 @@ const faqSchema = {
         letter-spacing: 0.07em;
         padding: 3px 10px;
         border-radius: 100px;
-        margin-bottom: 14px;
+        margin-bottom: 10px;
       }
       .tb-hero h1 {
-        font-size: clamp(1.7rem, 4vw, 2.4rem);
+        font-size: clamp(1.6rem, 3.5vw, 2.2rem);
         font-weight: 800;
         color: #0f172a;
-        margin-bottom: 12px;
+        margin: 0 0 8px;
         line-height: 1.2;
       }
-      .tb-hero p {
+      .tb-hero .tagline {
         color: #64748b;
-        font-size: 1rem;
-        line-height: 1.6;
-        max-width: 520px;
-        margin: 0 auto 12px;
+        font-size: 0.97rem;
+        margin: 0 auto;
+        max-width: 480px;
       }
-      .tb-topics {
+
+      /* ── Trust bar ── */
+      .tb-trust {
         display: flex;
         flex-wrap: wrap;
-        gap: 6px;
+        gap: 18px;
         justify-content: center;
-        margin: 16px auto 32px;
-        max-width: 580px;
-      }
-      .tb-topics span {
-        background: #f1f5f9;
-        color: #475569;
-        font-size: 0.75rem;
+        align-items: center;
+        margin: 14px auto 20px;
+        font-size: 0.8rem;
+        color: #64748b;
         font-weight: 600;
-        padding: 4px 10px;
-        border-radius: 100px;
-        border: 1px solid #e2e8f0;
       }
+      .tb-trust span {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+      .tb-trust .dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #22c55e;
+        flex-shrink: 0;
+      }
+
+      /* ── Chat embed ── */
       .tb-embed-wrap {
-        max-width: 860px;
-        margin: 0 auto 48px;
+        max-width: 920px;
+        margin: 0 auto 12px;
         border-radius: 16px;
         overflow: hidden;
-        box-shadow: 0 8px 40px rgba(0,0,0,0.12);
+        box-shadow: 0 8px 48px rgba(0,0,0,0.13);
         border: 1px solid #e2e8f0;
         background: #09090b;
+        position: relative;
       }
       .tb-embed-wrap iframe {
         width: 100%;
-        height: 780px;
+        height: calc(100vh - 120px);
+        min-height: 560px;
+        max-height: 860px;
         border: none;
         display: block;
       }
+      .tb-scroll-hint {
+        text-align: center;
+        font-size: 0.75rem;
+        color: #94a3b8;
+        margin: 0 auto 32px;
+        letter-spacing: 0.03em;
+      }
+      .tb-scroll-hint span {
+        display: inline-block;
+        animation: bounce 1.8s ease-in-out infinite;
+      }
+      @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(4px); }
+      }
       @media (max-width: 600px) {
-        .tb-embed-wrap iframe { height: 90vh; }
+        .tb-embed-wrap iframe {
+          height: 80vh;
+          min-height: 480px;
+        }
       }
-      .tb-about {
-        max-width: 860px;
-        margin: 0 auto 48px;
-        padding: 0 24px;
-      }
-      .tb-about h2 {
-        font-size: 1.5rem;
-        font-weight: 800;
-        color: #0f172a;
-        margin-bottom: 16px;
-      }
-      .tb-about h3 {
-        font-size: 1.05rem;
-        font-weight: 700;
-        color: #0f172a;
-        margin: 28px 0 8px;
-      }
-      .tb-about p {
-        color: #475569;
-        font-size: 0.95rem;
-        line-height: 1.7;
-        margin-bottom: 12px;
-      }
-      .tb-about ul {
-        color: #475569;
-        font-size: 0.95rem;
-        line-height: 1.7;
-        padding-left: 20px;
-        margin-bottom: 16px;
-      }
-      .tb-about li {
-        margin-bottom: 6px;
-      }
-      .tb-disclaimer {
+
+      /* ── E-E-A-T bar ── */
+      .tb-eeat {
+        max-width: 920px;
+        margin: 0 auto 40px;
+        padding: 14px 24px;
         background: #f8fafc;
         border: 1px solid #e2e8f0;
-        border-radius: 10px;
-        padding: 16px 20px;
-        margin-top: 32px;
-        font-size: 0.82rem;
-        color: #64748b;
-        line-height: 1.6;
+        border-radius: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+        font-size: 0.83rem;
+        color: #475569;
       }
+      .tb-eeat-item {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        font-weight: 600;
+      }
+      .tb-eeat-item .icon {
+        font-size: 1rem;
+      }
+      .tb-eeat-item a {
+        color: #0f172a;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+      .tb-eeat .divider {
+        color: #cbd5e1;
+        font-size: 1.2rem;
+        font-weight: 300;
+      }
+      @media (max-width: 600px) {
+        .tb-eeat { flex-direction: column; gap: 10px; }
+        .tb-eeat .divider { display: none; }
+      }
+
+      /* ── Capability cards ── */
+      .tb-caps {
+        max-width: 920px;
+        margin: 0 auto 40px;
+        padding: 0 24px;
+      }
+      .tb-caps h2 {
+        font-size: 1.3rem;
+        font-weight: 800;
+        color: #0f172a;
+        margin-bottom: 18px;
+        text-align: center;
+      }
+      .tb-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+      }
+      @media (max-width: 680px) {
+        .tb-cards { grid-template-columns: 1fr; }
+      }
+      .tb-card {
+        background: #f8fafc;
+        border: 1px solid #e2e8f0;
+        border-radius: 12px;
+        padding: 20px;
+      }
+      .tb-card .card-icon {
+        font-size: 1.6rem;
+        margin-bottom: 8px;
+        display: block;
+      }
+      .tb-card h3 {
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: #0f172a;
+        margin: 0 0 8px;
+      }
+      .tb-card ul {
+        margin: 0;
+        padding-left: 16px;
+        color: #475569;
+        font-size: 0.82rem;
+        line-height: 1.65;
+      }
+      .tb-card li { margin-bottom: 3px; }
+
+      /* ── FAQ accordion ── */
       .tb-faq {
-        max-width: 860px;
+        max-width: 920px;
         margin: 0 auto 64px;
         padding: 0 24px;
       }
       .tb-faq h2 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 800;
         color: #0f172a;
-        margin-bottom: 24px;
+        margin-bottom: 16px;
+        text-align: center;
       }
       .faq-item {
         border-bottom: 1px solid #e2e8f0;
-        padding: 20px 0;
       }
-      .faq-item:last-child {
-        border-bottom: none;
-      }
-      .faq-item h3 {
-        font-size: 1rem;
+      .faq-item:last-child { border-bottom: none; }
+      .faq-btn {
+        width: 100%;
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 16px 4px;
+        text-align: left;
+        font-size: 0.92rem;
         font-weight: 700;
         color: #0f172a;
-        margin-bottom: 8px;
+        font-family: inherit;
       }
-      .faq-item p {
+      .faq-btn:hover { color: #ea580c; }
+      .faq-chevron {
+        flex-shrink: 0;
+        width: 18px;
+        height: 18px;
+        color: #94a3b8;
+        transition: transform 0.25s ease;
+      }
+      .faq-btn[aria-expanded="true"] .faq-chevron {
+        transform: rotate(180deg);
+        color: #ea580c;
+      }
+      .faq-body {
+        display: none;
+        padding: 0 4px 16px;
         color: #475569;
-        font-size: 0.92rem;
-        line-height: 1.7;
-        margin: 0;
+        font-size: 0.9rem;
+        line-height: 1.75;
       }
+      .faq-body.open { display: block; }
+
+      /* ── Disclaimer toggle ── */
+      .tb-disclaimer-wrap {
+        max-width: 920px;
+        margin: -16px auto 48px;
+        padding: 0 24px;
+      }
+      .tb-disclaimer-toggle {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 0.78rem;
+        color: #94a3b8;
+        font-family: inherit;
+        padding: 0;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+      .tb-disclaimer-toggle:hover { color: #64748b; }
+      .tb-disclaimer-body {
+        display: none;
+        margin-top: 10px;
+        background: #f8fafc;
+        border: 1px solid #e2e8f0;
+        border-radius: 10px;
+        padding: 14px 18px;
+        font-size: 0.8rem;
+        color: #64748b;
+        line-height: 1.65;
+      }
+      .tb-disclaimer-body.open { display: block; }
     </style>
   </head>
   <body>
     <Header />
     <main>
+
+      <!-- Compact hero -->
       <div class="tb-hero">
         <span class="badge">⚡ Free AI Tool</span>
         <h1>Tradie Brain AI</h1>
-        <p>
-          Instant answers on solar &amp; electrical compliance, ServiceM8 setup, STC claims,
-          CER audits, EV chargers, and scaling your trade business.
-          No login. No fluff. Just straight answers.
+        <p class="tagline">
+          Instant compliance answers for Australian solar installers &amp; electricians.
+          No login. No fluff.
         </p>
-        <div class="tb-topics">
-          <span>CER Audits</span>
-          <span>AS/NZS 5033 &amp; 5139</span>
-          <span>ServiceM8</span>
-          <span>STC Claims</span>
-          <span>CCEW NSW</span>
-          <span>EV Chargers</span>
-          <span>Battery Compliance</span>
-          <span>Business Growth</span>
+        <div class="tb-trust">
+          <span><span class="dot"></span> Free &amp; no login</span>
+          <span>⚡ CER &bull; AS/NZS 5033 &bull; 5139</span>
+          <span>🔧 ServiceM8 &bull; STC &bull; EV Chargers</span>
+          <span>🕐 Available 24/7</span>
         </div>
       </div>
 
+      <!-- Chat embed (viewport-height) -->
       <div class="tb-embed-wrap">
         <iframe
           src="https://tradie-brain-ai-1f704c89.viktor.space"
           title="Tradie Brain AI — Solar & Electrical Compliance Advisor"
-          loading="lazy"
+          loading="eager"
           allow="clipboard-write"
         ></iframe>
       </div>
+      <p class="tb-scroll-hint"><span>↕</span> Scroll inside the tool to read full answers</p>
 
-      <section class="tb-about">
+      <!-- E-E-A-T bar -->
+      <div class="tb-eeat">
+        <div class="tb-eeat-item">
+          <span class="icon">👷</span>
+          <span>Curated by <a href="/about">Shane Vandenborn</a> — solar &amp; electrical contractor</span>
+        </div>
+        <span class="divider">|</span>
+        <div class="tb-eeat-item">
+          <span class="icon">✅</span>
+          <span>CEC-accredited installer</span>
+        </div>
+        <span class="divider">|</span>
+        <div class="tb-eeat-item">
+          <span class="icon">🗓️</span>
+          <span>Updated June 2026</span>
+        </div>
+        <span class="divider">|</span>
+        <div class="tb-eeat-item">
+          <span class="icon">📖</span>
+          <span>References: CER, AS/NZS 5033, 5139, 3000, CEC Code</span>
+        </div>
+      </div>
+
+      <!-- 3-column capability cards -->
+      <section class="tb-caps">
         <h2>What Tradie Brain AI Knows</h2>
-        <p>
-          Tradie Brain AI is trained on the compliance frameworks, regulatory guidelines, and day-to-day operational challenges
-          faced by Australian solar installers, battery storage technicians, and licensed electricians.
-          It gives direct, practical answers — no waffle, no generic advice — because it understands
-          your industry specifically.
-        </p>
-
-        <h3>Compliance &amp; Regulatory Knowledge</h3>
-        <ul>
-          <li><strong>CER Audits</strong> — Clean Energy Regulator audit preparation, documentation requirements, common triggers, and how to respond to a compliance notice</li>
-          <li><strong>AS/NZS 5033</strong> — Installation and safety requirements for photovoltaic (PV) arrays, string sizing, overcurrent protection, and labelling</li>
-          <li><strong>AS/NZS 5139</strong> — Battery energy storage system (BESS) installation requirements including safety clearances, ventilation, and signage</li>
-          <li><strong>CCEW NSW</strong> — Certificate of Compliance Electrical Work lodgement requirements, 7-day deadline rule, and bulk lodgement workflows</li>
-          <li><strong>CES Victoria</strong> — Certificate of Electrical Safety requirements for Victorian electrical contractors</li>
-          <li><strong>STC Claims</strong> — Small-scale Technology Certificate assignment, compliance paperwork, and common claim errors</li>
-          <li><strong>EV Charger Approvals</strong> — DNSP notification, load calculations, smart charger configuration, and state-specific requirements</li>
-        </ul>
-
-        <h3>ServiceM8 &amp; Business Operations</h3>
-        <ul>
-          <li>Job templates and checklist setup for solar, battery, and EV charger installations</li>
-          <li>Certificate and compliance documentation workflows</li>
-          <li>Xero and Stripe integrations, invoicing, and payment setup</li>
-          <li>Quoting, scheduling, and client communication automation</li>
-          <li>Building SOPs that make every job CER-audit ready</li>
-        </ul>
-
-        <h3>Business Growth</h3>
-        <ul>
-          <li>Hiring your first apprentice or subcontractor</li>
-          <li>Scaling from 1 to 3+ install crews</li>
-          <li>Pricing solar and battery jobs for sustainable margin</li>
-          <li>Winning commercial solar contracts</li>
-          <li>Reducing admin time and hidden costs</li>
-        </ul>
-
-        <div class="tb-disclaimer">
-          <strong>Data sources &amp; disclaimer:</strong> Tradie Brain AI references official Australian standards and regulatory frameworks including Clean Energy Regulator (CER) guidelines, AS/NZS 5033 (Installation and Safety Requirements for Photovoltaic Arrays), AS/NZS 5139 (Battery Energy Storage Systems), AS/NZS 3000 (Wiring Rules), Clean Energy Council (CEC) Solar Retailer and Installer Code of Conduct, NSW CCEW requirements under the Home Building Act 1989, Victorian Certificate of Electrical Safety (CES) requirements under the Electrical Safety Act 1998, and STC (Small-scale Technology Certificate) program rules. Responses are informational only and should be verified against the latest published standards before acting. For complex compliance matters, consult a licensed professional or your state electrical regulator.
+        <div class="tb-cards">
+          <div class="tb-card">
+            <span class="card-icon">📋</span>
+            <h3>Compliance &amp; Regulatory</h3>
+            <ul>
+              <li>CER audit prep &amp; documentation</li>
+              <li>AS/NZS 5033 — PV array requirements</li>
+              <li>AS/NZS 5139 — Battery BESS installs</li>
+              <li>CCEW NSW 7-day lodgement rule</li>
+              <li>CES Victoria requirements</li>
+              <li>STC claims &amp; common errors</li>
+              <li>EV charger DNSP approvals</li>
+            </ul>
+          </div>
+          <div class="tb-card">
+            <span class="card-icon">🔧</span>
+            <h3>ServiceM8 &amp; Operations</h3>
+            <ul>
+              <li>Job templates for solar &amp; battery</li>
+              <li>Certificate &amp; compliance workflows</li>
+              <li>Xero &amp; Stripe integrations</li>
+              <li>Invoicing &amp; payment automation</li>
+              <li>Quoting, scheduling, SOPs</li>
+              <li>Post-job follow-up sequences</li>
+            </ul>
+          </div>
+          <div class="tb-card">
+            <span class="card-icon">📈</span>
+            <h3>Business Growth</h3>
+            <ul>
+              <li>Pricing solar &amp; battery jobs</li>
+              <li>Hiring first apprentice or sub</li>
+              <li>Scaling to 3+ install crews</li>
+              <li>Winning commercial contracts</li>
+              <li>Reducing admin &amp; hidden costs</li>
+              <li>Cash flow &amp; debtor management</li>
+            </ul>
+          </div>
         </div>
       </section>
 
+      <!-- Disclaimer toggle -->
+      <div class="tb-disclaimer-wrap">
+        <button class="tb-disclaimer-toggle" id="disclaimer-toggle" aria-expanded="false">
+          + Data sources &amp; disclaimer
+        </button>
+        <div class="tb-disclaimer-body" id="disclaimer-body">
+          Tradie Brain AI references official Australian standards and regulatory frameworks including: Clean Energy Regulator (CER) guidelines; AS/NZS 5033 (Installation and Safety Requirements for Photovoltaic Arrays); AS/NZS 5139 (Battery Energy Storage Systems); AS/NZS 3000 (Wiring Rules); Clean Energy Council (CEC) Solar Retailer and Installer Code of Conduct; NSW CCEW requirements under the Home Building Act 1989; Victorian Certificate of Electrical Safety (CES) requirements under the Electrical Safety Act 1998; and STC (Small-scale Technology Certificate) program rules. <strong>Responses are informational only</strong> and should be verified against the latest published standards before acting. For complex compliance matters, consult a licensed professional or your state electrical regulator.
+        </div>
+      </div>
+
+      <!-- FAQ accordion -->
       <section class="tb-faq">
         <h2>Frequently Asked Questions</h2>
 
         <div class="faq-item">
-          <h3>Is Tradie Brain AI free to use?</h3>
-          <p>Yes — completely free, no login, no subscription required. Available 24/7 for any Australian solar installer, electrician, or trade contractor.</p>
+          <button class="faq-btn" aria-expanded="false" aria-controls="faq1">
+            Is Tradie Brain AI free to use?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-body" id="faq1">Yes — completely free, no login, no subscription required. Available 24/7 for any Australian solar installer, electrician, or trade contractor.</div>
         </div>
 
         <div class="faq-item">
-          <h3>How do I prepare for a CER audit?</h3>
-          <p>You need complete installation records for every solar job: signed customer consent, compliant wiring diagrams, correct STC assignment forms, and evidence of AS/NZS 5033 compliance. Ask Tradie Brain AI for a pre-audit checklist specific to your business setup and it will walk you through it step by step.</p>
+          <button class="faq-btn" aria-expanded="false" aria-controls="faq2">
+            How do I prepare for a CER audit?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-body" id="faq2">You need complete installation records for every solar job: signed customer consent, compliant wiring diagrams, correct STC assignment forms, and evidence of AS/NZS 5033 compliance. Ask Tradie Brain AI for a pre-audit checklist specific to your business setup and it will walk you through it step by step.</div>
         </div>
 
         <div class="faq-item">
-          <h3>What is the CCEW 7-day rule in NSW?</h3>
-          <p>NSW electricians must lodge a Certificate of Compliance Electrical Work (CCEW) within 7 days of completing any electrical installation. Failure to lodge is a breach under the Home Building Act 1989 and can attract fines. Tradie Brain AI can explain what triggers a CCEW, how to handle partial completions, and how to manage lodgement at scale.</p>
+          <button class="faq-btn" aria-expanded="false" aria-controls="faq3">
+            What is the CCEW 7-day rule in NSW?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-body" id="faq3">NSW electricians must lodge a Certificate of Compliance Electrical Work (CCEW) within 7 days of completing any electrical installation. Failure to lodge is a breach under the Home Building Act 1989 and can attract fines. Tradie Brain AI can explain what triggers a CCEW, how to handle partial completions, and how to manage lodgement at scale.</div>
         </div>
 
         <div class="faq-item">
-          <h3>What does AS/NZS 5139 cover for battery storage?</h3>
-          <p>AS/NZS 5139:2019 covers safety clearances, ventilation, wiring specifications, signage, and documentation for all battery energy storage system (BESS) installations in Australia. Compliance is mandatory. Ask Tradie Brain AI for clearance requirements for specific battery brands or how to document compliance for a CER audit.</p>
+          <button class="faq-btn" aria-expanded="false" aria-controls="faq4">
+            What does AS/NZS 5139 cover for battery storage?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-body" id="faq4">AS/NZS 5139:2019 covers safety clearances, ventilation, wiring specifications, signage, and documentation for all battery energy storage system (BESS) installations in Australia. Compliance is mandatory. Ask Tradie Brain AI for clearance requirements for specific battery brands or how to document compliance for a CER audit.</div>
         </div>
 
         <div class="faq-item">
-          <h3>Can it help with ServiceM8 setup for solar businesses?</h3>
-          <p>Yes. Tradie Brain AI has deep ServiceM8 knowledge for solar and electrical businesses — job templates, STC checklists, certificate workflows, Xero integration, quoting, and building SOPs that keep every job CER-audit ready from the moment it's created.</p>
+          <button class="faq-btn" aria-expanded="false" aria-controls="faq5">
+            Can it help with ServiceM8 setup for solar businesses?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-body" id="faq5">Yes. Tradie Brain AI has deep ServiceM8 knowledge for solar and electrical businesses — job templates, STC checklists, certificate workflows, Xero integration, quoting, and building SOPs that keep every job CER-audit ready from the moment it's created.</div>
         </div>
 
         <div class="faq-item">
-          <h3>What regulations does Tradie Brain AI reference?</h3>
-          <p>CER guidelines, AS/NZS 5033, AS/NZS 5139, AS/NZS 3000 Wiring Rules, Clean Energy Council Code of Conduct, NSW CCEW requirements, Victorian CES requirements, and STC program rules. Always verify advice against the latest published standards.</p>
+          <button class="faq-btn" aria-expanded="false" aria-controls="faq6">
+            What regulations does Tradie Brain AI reference?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-body" id="faq6">CER guidelines, AS/NZS 5033, AS/NZS 5139, AS/NZS 3000 Wiring Rules, Clean Energy Council Code of Conduct, NSW CCEW requirements, Victorian CES requirements, and STC program rules. Always verify advice against the latest published standards.</div>
         </div>
 
         <div class="faq-item">
-          <h3>What EV charger approvals does it cover?</h3>
-          <p>Load calculations, DNSP notification requirements by state, switchboard upgrade triggers, smart charger configuration, relevant Australian standards, and compliance documentation. Ask for state-specific requirements for NSW, VIC, QLD, SA, or WA.</p>
+          <button class="faq-btn" aria-expanded="false" aria-controls="faq7">
+            What EV charger approvals does it cover?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-body" id="faq7">Load calculations, DNSP notification requirements by state, switchboard upgrade triggers, smart charger configuration, relevant Australian standards, and compliance documentation. Ask for state-specific requirements for NSW, VIC, QLD, SA, or WA.</div>
         </div>
 
         <div class="faq-item">
-          <h3>Can I share answers from Tradie Brain AI?</h3>
-          <p>Yes — every response includes a share button so you can post useful compliance answers to your team's WhatsApp group, Facebook, or Instagram. The Field Manual below the chat also stores the best community questions so you can browse them without asking again.</p>
+          <button class="faq-btn" aria-expanded="false" aria-controls="faq8">
+            Can I share answers from Tradie Brain AI?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-body" id="faq8">Yes — copy any response and share it to your team's WhatsApp group, Facebook, or Instagram. If you get a particularly useful compliance answer, share it to the TradieAutomate community.</div>
         </div>
+
       </section>
     </main>
     <Footer />
+
+    <script>
+      // FAQ accordion
+      document.querySelectorAll('.faq-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const expanded = btn.getAttribute('aria-expanded') === 'true';
+          btn.setAttribute('aria-expanded', String(!expanded));
+          const body = document.getElementById(btn.getAttribute('aria-controls'));
+          if (body) body.classList.toggle('open', !expanded);
+        });
+      });
+
+      // Disclaimer toggle
+      const disclaimerBtn = document.getElementById('disclaimer-toggle');
+      const disclaimerBody = document.getElementById('disclaimer-body');
+      if (disclaimerBtn && disclaimerBody) {
+        disclaimerBtn.addEventListener('click', () => {
+          const open = disclaimerBody.classList.toggle('open');
+          disclaimerBtn.setAttribute('aria-expanded', String(open));
+          disclaimerBtn.textContent = (open ? '− ' : '+ ') + 'Data sources & disclaimer';
+        });
+      }
+    </script>
   </body>
 </html>
