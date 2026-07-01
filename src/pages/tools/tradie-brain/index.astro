@@ -95,6 +95,78 @@ const faqSchema = {
         "@type": "Answer",
         "text": "Tradie Brain AI covers the full EV charger installation approval process for licensed electricians in Australia, including load calculations, network notification requirements, switchboard upgrade triggers, smart charger configuration, DNSP (Distribution Network Service Provider) requirements by state, and relevant Australian standards. It can also help with quoting, job templates in ServiceM8, and compliance documentation for EV charger installations."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What documents do I need to have ready for a CER audit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a CER audit you need, for every installation audited: signed customer consent form (must be signed before STC assignment), RESA assignment form, installer declaration, site-specific wiring diagram, inverter commissioning record, battery commissioning record (if applicable), electrical safety certificate (CES or CCEW), network approval confirmation, and photos of the array, inverter, switchboard, labels, and battery installation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the most common CER audit failures for solar installers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most common CER audit failures for solar installers are: consent forms signed after STC assignment, generic wiring diagrams (site-specific diagrams are required), missing or incorrect AS/NZS 5033 labelling, installer declaration not retained, STC quantity miscalculation, subcontractor compliance gaps, and no evidence of DNSP network approval."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the AS/NZS 5139 clearance requirements for a Tesla Powerwall installed in a garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a Tesla Powerwall 3 (lithium-ion, Class 1) under AS/NZS 5139: 600mm clearance from any ignition source (gas appliances, pilot lights, switchboards with arc-producing contacts), 500mm clearance from openings to habitable areas, natural ventilation generally sufficient in a garage, and AS/NZS 5139 hazard signage required at or near the unit. Always cross-reference the manufacturer's installation guide with AS/NZS 5139 — the more restrictive requirement applies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the AS/NZS 5033 labelling requirements for a residential solar installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AS/NZS 5033:2021 requires labels at: the array (CAUTION — Solar Array, string polarity labels), inverter (Solar Supply Main Switch at AC isolator), main switchboard (SOLAR SUPPLY — DO NOT SWITCH OFF on the inverter circuit breaker), DC isolator (DC Isolator — PV Array with live terminal warning), and meter board (SOLAR GRID CONNECT SYSTEM INSTALLED with capacity and installer details). Missing labels are one of the most common CER audit failures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What DNSP approval do I need for a 7.2 kW residential EV charger in NSW?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a 7.2 kW single-phase EV charger in NSW: Ausgrid and Endeavour Energy do not require pre-approval for chargers up to 7.2 kW — notify after installation via the relevant portal. Essential Energy (rural NSW) may require a pre-installation request. For three-phase chargers or above 7.2 kW, a network application is required before installation from all NSW DNSPs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When does a solar or EV charger installation require a switchboard upgrade under AS/NZS 3000?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An AS/NZS 3000 switchboard upgrade is required when: the existing board has no RCD protection on power circuits, the main switch or fuse is undersized for the combined load after adding the new circuit, there is no spare circuit breaker position, or existing non-compliant wiring is disturbed or extended. Always assess the switchboard in your initial site inspection — pre-2000 boards almost always need upgrading."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I set up a ServiceM8 job template for a solar and battery installation that is CER-audit ready?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A CER-audit-ready ServiceM8 solar + battery job template should include: pre-install, install, and post-install checklists; in-field customer consent and RESA forms; required photo attachments (array, inverter, switchboard, battery, labelling); a CCEW/CES lodgement confirmation field with reference number; equipment serial number capture; and an automated 7-day follow-up with a review request."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I manage cash flow as a solar installer with high material costs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Solar cash flow fixes: require a 30–50% deposit upfront before ordering equipment (automate this with ServiceM8 + Stripe); negotiate 30–60 day supplier credit terms; invoice on the same day as completion; use 7-day not 30-day payment terms; and maintain a 6–8 week cash buffer. Most cash flow problems in solar businesses come from ordering equipment before receiving deposits and using 30-day payment terms on residential customers who don't need them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I calculate STCs for a solar installation in Australia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "STCs are calculated as: system capacity (kW) × deeming years remaining to 2030 × postcode zone multiplier. Use the CER's official STC calculator at rec-registry.gov.au. The customer must sign an RESA assignment form before STCs are created. STCs must be created within 12 months of installation. Only CEC-accredited installers can create STCs. Common errors include claiming STCs for batteries (batteries don't generate STCs — only PV does), incorrect postcode zone, and overclaiming system capacity."
+      }
     }
   ]
 };
@@ -521,6 +593,141 @@ const faqSchema = {
       }
       .tb-disclaimer-body.open { display: block; }
 
+      /* ── Q&A Library ── */
+      .tb-library {
+        max-width: 920px;
+        margin: 0 auto 72px;
+        padding: 0 24px;
+      }
+      .tb-library-intro {
+        text-align: center;
+        margin-bottom: 28px;
+      }
+      .tb-library-intro h2 {
+        font-size: 1.3rem;
+        font-weight: 800;
+        color: #0f172a;
+        margin: 0 0 8px;
+      }
+      .tb-library-intro p {
+        color: #64748b;
+        font-size: 0.9rem;
+        margin: 0;
+      }
+      /* Category block */
+      .lib-category {
+        border: 1px solid #e2e8f0;
+        border-radius: 14px;
+        overflow: hidden;
+        margin-bottom: 12px;
+      }
+      .lib-cat-btn {
+        width: 100%;
+        background: #f8fafc;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 16px 20px;
+        text-align: left;
+        font-family: inherit;
+        transition: background 0.15s;
+      }
+      .lib-cat-btn:hover { background: #f1f5f9; }
+      .lib-cat-btn[aria-expanded="true"] { background: #fff7ed; border-bottom: 1px solid #e2e8f0; }
+      .lib-cat-icon { font-size: 1.3rem; flex-shrink: 0; }
+      .lib-cat-title {
+        flex: 1;
+        font-size: 0.97rem;
+        font-weight: 700;
+        color: #0f172a;
+      }
+      .lib-cat-count {
+        font-size: 0.75rem;
+        color: #94a3b8;
+        font-weight: 600;
+        background: #e2e8f0;
+        padding: 2px 8px;
+        border-radius: 100px;
+        flex-shrink: 0;
+      }
+      .lib-cat-btn[aria-expanded="true"] .lib-cat-count { background: #fed7aa; color: #c2410c; }
+      .lib-cat-chevron {
+        flex-shrink: 0;
+        width: 16px;
+        height: 16px;
+        color: #94a3b8;
+        transition: transform 0.2s ease;
+      }
+      .lib-cat-btn[aria-expanded="true"] .lib-cat-chevron { transform: rotate(180deg); color: #ea580c; }
+      /* Category body */
+      .lib-cat-body { display: none; }
+      .lib-cat-body.open { display: block; }
+      /* Individual Q&A item */
+      .lib-qa {
+        border-bottom: 1px solid #f1f5f9;
+        padding: 0 20px;
+      }
+      .lib-qa:last-child { border-bottom: none; }
+      .lib-qa-btn {
+        width: 100%;
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 14px 0;
+        text-align: left;
+        font-family: inherit;
+        font-size: 0.88rem;
+        font-weight: 600;
+        color: #1e293b;
+      }
+      .lib-qa-btn:hover { color: #ea580c; }
+      .lib-qa-chevron {
+        flex-shrink: 0;
+        width: 14px;
+        height: 14px;
+        color: #94a3b8;
+        margin-top: 3px;
+        transition: transform 0.2s ease;
+      }
+      .lib-qa-btn[aria-expanded="true"] .lib-qa-chevron { transform: rotate(180deg); color: #ea580c; }
+      .lib-qa-body {
+        display: none;
+        padding: 0 0 14px;
+        color: #475569;
+        font-size: 0.86rem;
+        line-height: 1.75;
+      }
+      .lib-qa-body.open { display: block; }
+      .lib-qa-body p { margin: 0 0 8px; }
+      .lib-qa-body p:last-child { margin-bottom: 0; }
+      .lib-qa-body ul { margin: 4px 0; padding-left: 18px; }
+      .lib-qa-body li { margin-bottom: 3px; }
+      .lib-qa-body strong { color: #0f172a; }
+      /* Ask button inside answer */
+      .lib-ask-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        margin-top: 10px;
+        background: #fff7ed;
+        border: 1px solid #fdba74;
+        border-radius: 8px;
+        padding: 6px 12px;
+        font-size: 0.78rem;
+        font-weight: 700;
+        color: #c2410c;
+        cursor: pointer;
+        font-family: inherit;
+        transition: background 0.15s;
+      }
+      .lib-ask-btn:hover { background: #fed7aa; }
+
       @media (max-width: 600px) {
         .tb-chat-wrap { height: 80vh; min-height: 480px; }
       }
@@ -739,6 +946,678 @@ const faqSchema = {
         </div>
 
       </section>
+      <!-- Q&A Library -->
+      <section class="tb-library">
+        <div class="tb-library-intro">
+          <h2>Common Questions &amp; Answers</h2>
+          <p>Browse 31 real compliance and business questions — or click <em>Ask Tradie Brain</em> to send any question straight to the chat above.</p>
+        </div>
+
+        <!-- Category 1: CER Audits & Compliance -->
+        <div class="lib-category">
+          <button class="lib-cat-btn" aria-expanded="false" aria-controls="lib-cat-1">
+            <span class="lib-cat-icon">📋</span>
+            <span class="lib-cat-title">CER Audits &amp; Compliance</span>
+            <span class="lib-cat-count">6 Q&amp;As</span>
+            <svg class="lib-cat-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="lib-cat-body" id="lib-cat-1">
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-1-1" data-prompt="Give me a full pre-CER audit checklist for a solar installer">
+                What documents do I need to have ready for a CER audit?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-1-1">
+                <p>For a CER audit you need to produce, for every installation audited:</p>
+                <ul>
+                  <li><strong>Signed customer consent form</strong> — must be signed before STC assignment, not after</li>
+                  <li><strong>Assignment form (RESA)</strong> — Renewable Energy System Assignment form signed by the customer assigning STCs to your business</li>
+                  <li><strong>Installation declaration</strong> — installer's declaration that the system meets AS/NZS 5033</li>
+                  <li><strong>Compliant wiring diagram</strong> — site-specific, shows array layout, inverter, protection devices, labelling</li>
+                  <li><strong>Inverter commissioning record</strong> — including export limit confirmation where applicable</li>
+                  <li><strong>Battery commissioning record</strong> (if applicable) — including AS/NZS 5139 clearance documentation</li>
+                  <li><strong>Electrical safety certificate</strong> — CES (VIC) or CCEW (NSW) or equivalent for your state</li>
+                  <li><strong>Network approval / DNSP notification</strong> — evidence of submission and approval for grid-connected systems</li>
+                  <li><strong>Photos</strong> — array, inverter label, main switchboard before and after, labelling, battery installation</li>
+                </ul>
+                <p>Common CER audit triggers include: STC claim volume spikes, customer complaints, installation quality flags from retailers, random selection, or state-regulator referrals.</p>
+                <button class="lib-ask-btn" data-prompt="Give me a full pre-CER audit checklist for a solar installer">⚡ Ask Tradie Brain for the full checklist</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-1-2" data-prompt="What are the most common reasons solar installers fail a CER audit?">
+                What are the most common CER audit failures for solar installers?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-1-2">
+                <p>The most common CER audit failures are:</p>
+                <ul>
+                  <li><strong>Consent forms signed after STC assignment</strong> — the consent must precede the claim</li>
+                  <li><strong>Generic wiring diagrams</strong> — site-specific diagrams are required; stock templates fail</li>
+                  <li><strong>Missing or incorrect labelling</strong> — AS/NZS 5033 requires labels at array, inverter, switchboard, and isolation points</li>
+                  <li><strong>Installer declaration not retained</strong> — must be kept and produced on request</li>
+                  <li><strong>STC quantity miscalculation</strong> — oversizing claimed STCs vs actual installed capacity</li>
+                  <li><strong>Subcontractor compliance gaps</strong> — you are responsible for the compliance of subbies you use</li>
+                  <li><strong>No evidence of network approval</strong> — DNSP application confirmation must be on file</li>
+                </ul>
+                <button class="lib-ask-btn" data-prompt="What are the most common reasons solar installers fail a CER audit?">⚡ Ask Tradie Brain about audit failures</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-1-3" data-prompt="I've received a CER compliance notice. What should I do first?">
+                I've received a CER compliance notice — what should I do?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-1-3">
+                <p>Don't panic — a compliance notice is not an automatic penalty. Your immediate steps:</p>
+                <ul>
+                  <li><strong>Read carefully and note the response deadline</strong> — typically 14–28 days; missing it escalates the matter</li>
+                  <li><strong>Pull all documentation for the flagged installations</strong> — gather every record listed above</li>
+                  <li><strong>Identify gaps before responding</strong> — do not submit a response until you know where your records stand</li>
+                  <li><strong>Respond factually</strong> — explain what happened, what you have, and what remediation action you've taken or will take</li>
+                  <li><strong>Offer a corrective action plan</strong> — the CER responds well to installers who demonstrate they've fixed the root cause</li>
+                </ul>
+                <p>If you cannot locate records for specific installations, check whether they can be reconstructed from network approval emails, inverter portal data, or retailer records. Ask Tradie Brain for help drafting your response.</p>
+                <button class="lib-ask-btn" data-prompt="I've received a CER compliance notice. What should I do first?">⚡ Ask Tradie Brain for guidance</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-1-4" data-prompt="What is the CCEW 7-day rule in NSW and what work triggers it for a solar installer?">
+                What is the CCEW 7-day rule in NSW?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-1-4">
+                <p>Under the NSW Home Building Act 1989, a licensed electrician must lodge a <strong>Certificate of Compliance Electrical Work (CCEW)</strong> within <strong>7 days of completing</strong> any electrical installation, alteration, addition, or repair work.</p>
+                <p>For solar/battery installers in NSW, a CCEW is required for:</p>
+                <ul>
+                  <li>Every new solar PV installation connected to the grid or meter board</li>
+                  <li>Every battery storage system installation</li>
+                  <li>Switchboard upgrades or modifications during an install</li>
+                  <li>EV charger installations</li>
+                </ul>
+                <p>The CCEW is lodged through the NSW Fair Trading portal. Non-lodgement or late lodgement can attract fines and may be flagged to the CER.</p>
+                <button class="lib-ask-btn" data-prompt="What is the CCEW 7-day rule in NSW and what work triggers it for a solar installer?">⚡ Ask about CCEW in NSW</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-1-5" data-prompt="What are the Certificate of Electrical Safety (CES) requirements in Victoria for solar installers?">
+                What are the CES requirements for solar installers in Victoria?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-1-5">
+                <p>In Victoria, a <strong>Certificate of Electrical Safety (CES)</strong> must be issued under the Electrical Safety Act 1998 for all electrical installation work, including solar PV and battery installations.</p>
+                <ul>
+                  <li>The CES must be issued by the <strong>Licensed Electrical Inspector (LEI)</strong> or the installing contractor where permitted</li>
+                  <li>It must be issued within <strong>7 days of completion</strong> of the work</li>
+                  <li>A copy must be provided to the property owner or occupier</li>
+                  <li>Records must be retained for a minimum period</li>
+                </ul>
+                <p>Solar CES requirements in VIC align with AS/NZS 5033 compliance. Failure to issue a CES is a breach of the Electrical Safety Act and can affect your CER standing.</p>
+                <button class="lib-ask-btn" data-prompt="What are the Certificate of Electrical Safety (CES) requirements in Victoria for solar installers?">⚡ Ask about CES Victoria</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-1-6" data-prompt="How do I calculate and claim STCs for a solar installation in Australia?">
+                How do I calculate and claim STCs for a solar installation?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-1-6">
+                <p>STCs (Small-scale Technology Certificates) are calculated based on the system's expected generation over its deeming period (up to 2030), multiplied by the postcode zone factor.</p>
+                <ul>
+                  <li><strong>Formula:</strong> System capacity (kW) × deeming years remaining × zone multiplier</li>
+                  <li>Use the CER's STC calculator at <strong>rec-registry.gov.au</strong> for exact figures</li>
+                  <li>The customer signs an RESA form to assign STCs to you or your retailer</li>
+                  <li>STCs must be created within <strong>12 months</strong> of installation</li>
+                  <li>Only CEC-accredited installers can create STCs</li>
+                  <li>Common errors: claiming for batteries separately (batteries don't generate STCs — only PV does), incorrect postcode zone, overclaiming kW capacity</li>
+                </ul>
+                <button class="lib-ask-btn" data-prompt="How do I calculate and claim STCs for a solar installation in Australia?">⚡ Ask about STC calculations</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Category 2: Battery Storage — AS/NZS 5139 -->
+        <div class="lib-category">
+          <button class="lib-cat-btn" aria-expanded="false" aria-controls="lib-cat-2">
+            <span class="lib-cat-icon">🔋</span>
+            <span class="lib-cat-title">Battery Storage — AS/NZS 5139</span>
+            <span class="lib-cat-count">5 Q&amp;As</span>
+            <svg class="lib-cat-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="lib-cat-body" id="lib-cat-2">
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-2-1" data-prompt="What are the AS/NZS 5139 clearance requirements for a Tesla Powerwall 3 installed in a garage?">
+                What are the AS/NZS 5139 clearance requirements for a Tesla Powerwall?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-2-1">
+                <p>AS/NZS 5139:2019 sets safety clearances for all battery energy storage systems. For a Tesla Powerwall 3 (lithium-ion, Class 1):</p>
+                <ul>
+                  <li><strong>600mm clearance</strong> from any ignition source (gas appliances, pilot lights, electrical switchboards with arc-producing contacts)</li>
+                  <li><strong>500mm clearance</strong> from openings to the interior of a habitable area (doors, windows, vents)</li>
+                  <li><strong>Garage installations:</strong> the Powerwall 3 is rated for indoor and covered outdoor areas — confirm the specific location is compliant with the manufacturer's installation guide AND 5139</li>
+                  <li><strong>Ventilation:</strong> natural ventilation is generally sufficient for Powerwall 3 in a garage; forced ventilation required in enclosed spaces</li>
+                  <li><strong>Signage:</strong> AS/NZS 5139 requires battery hazard signage at or near the unit</li>
+                </ul>
+                <p>Always cross-reference the manufacturer's installation guide with AS/NZS 5139 — the more restrictive requirement applies. Ask Tradie Brain for a specific installation scenario for a more detailed answer.</p>
+                <button class="lib-ask-btn" data-prompt="What are the AS/NZS 5139 clearance requirements for a Tesla Powerwall 3 installed in a garage?">⚡ Ask about Powerwall clearances</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-2-2" data-prompt="Can I install a battery storage system inside a house in Australia under AS/NZS 5139?">
+                Can I install a battery inside the house (not the garage)?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-2-2">
+                <p>Yes, but with strict conditions under AS/NZS 5139. An indoor installation in a <strong>habitable space</strong> (living room, bedroom, hallway) requires:</p>
+                <ul>
+                  <li>The battery must be installed in an <strong>enclosure</strong> with appropriate fire and thermal runaway protection</li>
+                  <li>The enclosure must have <strong>external venting to outside</strong> — not into the roof void or wall cavity</li>
+                  <li>The battery must be a <strong>Class 1 system</strong> (as defined by 5139) with all required protection devices</li>
+                  <li>A minimum of <strong>600mm clearance</strong> from ignition sources</li>
+                  <li>Manufacturer must explicitly approve the indoor application</li>
+                </ul>
+                <p>In practice, most residential batteries are installed in garages or externally on a wall. Inside-the-house installations require careful documentation and are scrutinised more closely in CER audits.</p>
+                <button class="lib-ask-btn" data-prompt="Can I install a battery storage system inside a house in Australia under AS/NZS 5139?">⚡ Ask about indoor battery installs</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-2-3" data-prompt="What signage is required for a battery storage system installation under AS/NZS 5139 in Australia?">
+                What signage is required for a battery storage installation?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-2-3">
+                <p>AS/NZS 5139 requires the following signage for battery installations:</p>
+                <ul>
+                  <li><strong>Battery energy storage system hazard label</strong> — at or near the unit, warning of electrical and fire hazards</li>
+                  <li><strong>Isolation label</strong> — showing location and operating procedure for the main isolation switch</li>
+                  <li><strong>Emergency contacts label</strong> — where required by state regulations (VIC, NSW)</li>
+                  <li><strong>No smoking / no naked flame signs</strong> — in enclosed installations with venting</li>
+                </ul>
+                <p>Missing or incorrect signage is one of the top 5 CER audit findings for battery installs. Check the CEC's published Battery Installation Guide for current approved label designs.</p>
+                <button class="lib-ask-btn" data-prompt="What signage is required for a battery storage system installation under AS/NZS 5139 in Australia?">⚡ Ask about battery signage</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-2-4" data-prompt="What documentation do I need to keep for a battery storage installation for CER audit purposes?">
+                What documentation do I need for a battery storage installation?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-2-4">
+                <p>For each battery installation, retain:</p>
+                <ul>
+                  <li><strong>Site-specific wiring diagram</strong> — showing battery, inverter/charger, switchboard connection, isolation, and protection devices</li>
+                  <li><strong>AS/NZS 5139 clearance checklist</strong> — documented measurements and compliance confirmation</li>
+                  <li><strong>Manufacturer's installation guide</strong> — version used at time of install</li>
+                  <li><strong>Commissioning record</strong> — with SOC (state of charge) at handover, BMS confirmation, any error codes cleared</li>
+                  <li><strong>Photos</strong> — unit installed, signage in place, clearances visible, switchboard connection</li>
+                  <li><strong>Customer sign-off</strong> — acknowledging the system location, emergency procedure, and isolation point</li>
+                  <li><strong>Electrical safety certificate</strong> (CES in VIC, CCEW in NSW, equivalent in other states)</li>
+                </ul>
+                <button class="lib-ask-btn" data-prompt="What documentation do I need to keep for a battery storage installation for CER audit purposes?">⚡ Ask about battery documentation</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-2-5" data-prompt="What are the differences between the SA Home Battery Scheme, VIC Solar Homes battery rebate, and federal battery incentives in 2026?">
+                What state battery rebates are available in Australia in 2026?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-2-5">
+                <p>Current battery rebate programs in Australia (2026):</p>
+                <ul>
+                  <li><strong>SA — Home Battery Scheme:</strong> Up to $3,000 subsidy for eligible SA households, means-tested. Requires CEC-accredited installer and approved battery. Application via the SA Government portal.</li>
+                  <li><strong>VIC — Solar Homes Battery Rebate:</strong> Up to $2,950 rebate plus optional interest-free loan for battery storage. Combined with solar or standalone. Must use a Solar Victoria registered installer.</li>
+                  <li><strong>QLD — Battery Booster:</strong> $4,000 subsidy for eligible Queensland households including renters and owners. Part of the QLD Energy and Jobs Plan.</li>
+                  <li><strong>Federal — Small Battery Incentive:</strong> Subject to 2025 federal budget announcements — check current CER guidance for the latest rules.</li>
+                  <li><strong>NSW, WA, TAS, ACT, NT:</strong> No standalone residential battery rebate programs as of mid-2026; check state government websites for updates.</li>
+                </ul>
+                <p>Eligibility, rebate amounts, and participating installer requirements change regularly. Always verify current rules before quoting a customer on rebate value.</p>
+                <button class="lib-ask-btn" data-prompt="What are the differences between the SA Home Battery Scheme, VIC Solar Homes battery rebate, and federal battery incentives in 2026?">⚡ Ask about battery rebates</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Category 3: Solar PV — AS/NZS 5033 -->
+        <div class="lib-category">
+          <button class="lib-cat-btn" aria-expanded="false" aria-controls="lib-cat-3">
+            <span class="lib-cat-icon">☀️</span>
+            <span class="lib-cat-title">Solar PV — AS/NZS 5033</span>
+            <span class="lib-cat-count">5 Q&amp;As</span>
+            <svg class="lib-cat-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="lib-cat-body" id="lib-cat-3">
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-3-1" data-prompt="What are the AS/NZS 5033 labelling requirements for a residential solar installation in Australia?">
+                What are the AS/NZS 5033 labelling requirements for a residential solar install?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-3-1">
+                <p>AS/NZS 5033:2021 requires labels at multiple points on every installation:</p>
+                <ul>
+                  <li><strong>Array/rooftop:</strong> "CAUTION — Solar Array" label on each sub-array and combiner box; string polarity labels on each string</li>
+                  <li><strong>Inverter:</strong> "Solar Supply Main Switch" at the AC isolator; inverter label must show rated output and serial number</li>
+                  <li><strong>Main switchboard:</strong> "SOLAR SUPPLY — DO NOT SWITCH OFF" or equivalent warning label on the inverter circuit breaker</li>
+                  <li><strong>DC isolator:</strong> "DC Isolator — PV Array" with warning that terminals may remain live after isolation</li>
+                  <li><strong>Meter board (where applicable):</strong> "SOLAR GRID CONNECT SYSTEM INSTALLED" with system capacity and installer details</li>
+                </ul>
+                <p>Missing labels are one of the most common CER audit failures. Use a labelling checklist as part of your post-install sign-off.</p>
+                <button class="lib-ask-btn" data-prompt="What are the AS/NZS 5033 labelling requirements for a residential solar installation in Australia?">⚡ Ask about 5033 labelling</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-3-2" data-prompt="What is the 1.5 kW export limit under the CSIP-AUS standard and how do I comply when installing solar in Australia?">
+                What is the 1.5 kW export limit and how do I set it up?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-3-2">
+                <p>The <strong>1.5 kW default export limit</strong> applies under the CSIP-AUS (Common Smart Inverter Profile) framework that most Australian DNSPs are adopting from 2024 onward.</p>
+                <ul>
+                  <li>New inverters must support CSIP-AUS or be set to a 1.5 kW export limit at commissioning in networks that have adopted this requirement</li>
+                  <li>Configuration is done via the inverter's communication port (Wi-Fi, RS485, or CSIP-AUS gateway) — process varies by brand (Fronius, Sungrow, SMA, Enphase etc.)</li>
+                  <li>Confirm with the DNSP before install whether the 1.5 kW default applies to the specific site</li>
+                  <li>Higher export limits (above 1.5 kW) require a DNSP application and approval</li>
+                  <li>Documentation: record the export limit setting in your commissioning report</li>
+                </ul>
+                <button class="lib-ask-btn" data-prompt="What is the 1.5 kW export limit under the CSIP-AUS standard and how do I comply when installing solar in Australia?">⚡ Ask about export limits</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-3-3" data-prompt="What are the overcurrent protection requirements for a solar string inverter under AS/NZS 5033?">
+                What overcurrent protection is required for a string inverter under AS/NZS 5033?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-3-3">
+                <p>AS/NZS 5033:2021 requires overcurrent protection on the DC side where the short-circuit current of parallel strings exceeds the rating of the cables or inverter inputs:</p>
+                <ul>
+                  <li><strong>Single string:</strong> typically no string fuse required if the cable is rated for the short-circuit current of the string</li>
+                  <li><strong>Two parallel strings or more:</strong> string fuses or combiner box with fusing required for each string where the parallel fault current exceeds cable rating</li>
+                  <li><strong>Fuse rating:</strong> must not exceed 2 × Isc of the string (check manufacturer's datasheet)</li>
+                  <li><strong>AC side:</strong> circuit breaker at the switchboard sized to the inverter's rated AC output</li>
+                  <li><strong>DC isolator:</strong> required between the array and inverter — must be DC-rated, not AC-rated</li>
+                </ul>
+                <button class="lib-ask-btn" data-prompt="What are the overcurrent protection requirements for a solar string inverter under AS/NZS 5033?">⚡ Ask about overcurrent protection</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-3-4" data-prompt="What wiring diagram must I produce for a solar installation to satisfy AS/NZS 5033 and the CER?">
+                What must a compliant solar wiring diagram include?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-3-4">
+                <p>A CER-compliant, site-specific wiring diagram must include:</p>
+                <ul>
+                  <li>Array layout — number of panels, strings, string configuration (series × parallel)</li>
+                  <li>All DC cable sizes and ratings</li>
+                  <li>DC overcurrent protection (string fuses, if applicable)</li>
+                  <li>DC isolator location and specification</li>
+                  <li>Inverter make, model, and serial number</li>
+                  <li>AC isolator between inverter and switchboard</li>
+                  <li>Circuit breaker rating at main switchboard</li>
+                  <li>Export limit setting (if applicable)</li>
+                  <li>Battery connection (if applicable) with AS/NZS 5139 clearance note</li>
+                  <li>Installer name, accreditation number, installation date, and site address</li>
+                </ul>
+                <p>Generic or template diagrams fail CER audits. The diagram must reflect what is actually installed at that specific site.</p>
+                <button class="lib-ask-btn" data-prompt="What wiring diagram must I produce for a solar installation to satisfy AS/NZS 5033 and the CER?">⚡ Ask about wiring diagrams</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-3-5" data-prompt="What does CEC accreditation require to stay current as a solar installer in Australia?">
+                What do I need to do to keep my CEC accreditation current?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-3-5">
+                <p>CEC (Clean Energy Council) accreditation renewal requires:</p>
+                <ul>
+                  <li><strong>Annual renewal</strong> — pay the annual accreditation fee by the expiry date (non-payment = immediate lapse)</li>
+                  <li><strong>Professional Development:</strong> complete the required CPD hours each renewal period (check CEC portal for current requirements)</li>
+                  <li><strong>Standards updates:</strong> if AS/NZS 5033 or 5139 have been updated, you may need to complete an online update module</li>
+                  <li><strong>Licence check:</strong> your state electrical licence must remain current — CEC will check this at renewal</li>
+                  <li><strong>Insurance:</strong> public liability and professional indemnity insurance must be current</li>
+                </ul>
+                <p>Letting your CEC accreditation lapse means you cannot create STCs, which effectively halts your ability to sell rebate-included solar to customers.</p>
+                <button class="lib-ask-btn" data-prompt="What does CEC accreditation require to stay current as a solar installer in Australia?">⚡ Ask about CEC accreditation</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Category 4: EV Chargers & Switchboards -->
+        <div class="lib-category">
+          <button class="lib-cat-btn" aria-expanded="false" aria-controls="lib-cat-4">
+            <span class="lib-cat-icon">⚡</span>
+            <span class="lib-cat-title">EV Chargers &amp; Switchboards</span>
+            <span class="lib-cat-count">5 Q&amp;As</span>
+            <svg class="lib-cat-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="lib-cat-body" id="lib-cat-4">
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-4-1" data-prompt="What DNSP approval or notification do I need to install a 7.2 kW EV charger at a residential property in NSW?">
+                What DNSP approval do I need for a residential EV charger in NSW?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-4-1">
+                <p>For a <strong>7.2 kW (32A) single-phase EV charger</strong> at a residential property in NSW:</p>
+                <ul>
+                  <li><strong>Ausgrid:</strong> No prior approval required for chargers up to 7.2 kW single-phase — notification via the Ausgrid online portal after installation</li>
+                  <li><strong>Endeavour Energy:</strong> No pre-approval required for up to 7.2 kW — notify after installation</li>
+                  <li><strong>Essential Energy:</strong> May require a pre-installation request for larger rural connections — check Essential Energy's website for the specific feeder</li>
+                  <li><strong>All NSW DNSPs:</strong> For three-phase or chargers above 7.2 kW, a network application is required before installation</li>
+                </ul>
+                <p>Always check the DNSP's current EV charger requirements — they update frequently as EV uptake increases. Include DNSP notification confirmation in your job documentation.</p>
+                <button class="lib-ask-btn" data-prompt="What DNSP approval or notification do I need to install a 7.2 kW EV charger at a residential property in NSW?">⚡ Ask about EV charger DNSP approval</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-4-2" data-prompt="When does a solar or EV charger installation require a switchboard upgrade under AS/NZS 3000?">
+                When does a solar or EV install require a switchboard upgrade?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-4-2">
+                <p>AS/NZS 3000 requires you to upgrade a switchboard when the new work creates a non-compliant condition:</p>
+                <ul>
+                  <li><strong>No RCD protection:</strong> If the existing switchboard has no RCDs on power circuits (old-style fuse boards), adding a solar or EV circuit triggers an upgrade requirement</li>
+                  <li><strong>Insufficient capacity:</strong> If the main switch/fuse is undersized for the combined load after adding the EV charger or solar inverter AC output</li>
+                  <li><strong>No spare circuit breaker position:</strong> Cannot add a new circuit without physical space in the board</li>
+                  <li><strong>Existing non-compliant wiring:</strong> If you disturb or extend wiring that doesn't meet current standards, you must bring that work up to AS/NZS 3000</li>
+                </ul>
+                <p>This is the most common unexpected cost in EV charger and solar quotes. Always assess the switchboard in your initial site inspection and include a switchboard upgrade allowance in your quote if the board is pre-2000.</p>
+                <button class="lib-ask-btn" data-prompt="When does a solar or EV charger installation require a switchboard upgrade under AS/NZS 3000?">⚡ Ask about switchboard upgrade triggers</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-4-3" data-prompt="What load management options are available for a commercial EV charger installation in Australia?">
+                What are the load management options for a commercial EV charger install?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-4-3">
+                <p>For a commercial site with multiple EV chargers, load management is critical to avoid exceeding the site's supply capacity:</p>
+                <ul>
+                  <li><strong>Static load sharing:</strong> Maximum combined output capped regardless of actual demand — simple, low cost</li>
+                  <li><strong>Dynamic load management (DLM):</strong> Chargers communicate with each other and a load controller to distribute available capacity in real time, prioritising active vehicles</li>
+                  <li><strong>OCPP-based management:</strong> Open Charge Point Protocol allows a back-end management platform to control individual charger output — best for multi-site or fleet applications</li>
+                  <li><strong>CSIP-AUS integration:</strong> Some commercial sites require chargers that can respond to DNSP signals to reduce export/import — particularly in areas with constrained networks</li>
+                </ul>
+                <p>For commercial installs above 22 kW total, a formal load study and DNSP application is typically required. Factor design and DNSP approval time into your project timeline.</p>
+                <button class="lib-ask-btn" data-prompt="What load management options are available for a commercial EV charger installation in Australia?">⚡ Ask about commercial EV load management</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-4-4" data-prompt="How do I quote an EV charger installation job for a residential customer including all potential costs?">
+                How do I quote an EV charger installation so I don't get caught out on costs?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-4-4">
+                <p>A complete EV charger quote should cover:</p>
+                <ul>
+                  <li><strong>Charger hardware:</strong> AC Level 2 (7.2 kW typical) or DC fast charger — confirm customer's vehicle compatibility</li>
+                  <li><strong>Installation labour:</strong> cable run from switchboard to garage — quote per-metre for longer runs, not a flat rate</li>
+                  <li><strong>Switchboard assessment:</strong> Include a conditional line item for upgrade if the board is pre-2000; don't absorb this cost</li>
+                  <li><strong>DNSP notification fee:</strong> Low cost but required; include time for follow-up</li>
+                  <li><strong>Trenching/conduit:</strong> If the cable run goes underground or through walls</li>
+                  <li><strong>Permit/CCEW/CES fee:</strong> Your state electrical certificate cost</li>
+                  <li><strong>Smart charging setup:</strong> If the customer wants app-based or solar-optimised charging — allow for commissioning time</li>
+                </ul>
+                <p>Quote with allowances and communicate clearly. More EV charger jobs blow out on cable run length and switchboard surprises than on the charger itself.</p>
+                <button class="lib-ask-btn" data-prompt="How do I quote an EV charger installation job for a residential customer including all potential costs?">⚡ Ask about EV charger quoting</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-4-5" data-prompt="What is the difference between a Type 1 and Type 2 EV charger connector in Australia?">
+                What's the difference between Type 1 and Type 2 EV connectors?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-4-5">
+                <p>The two main AC charging connector standards in Australia:</p>
+                <ul>
+                  <li><strong>Type 1 (SAE J1772):</strong> 5-pin, single-phase only, max 7.2 kW. Used on older EVs including early Nissan Leaf, Mitsubishi Outlander PHEV (pre-2019). Being phased out in new vehicles.</li>
+                  <li><strong>Type 2 (IEC 62196-2 / Mennekes):</strong> 7-pin, supports single-phase (7.2 kW) and three-phase (22 kW). Standard on virtually all new EVs sold in Australia from 2020 onwards — Tesla, Hyundai Ioniq, BYD, MG ZS EV, Kia EV6, etc.</li>
+                </ul>
+                <p><strong>For new installations:</strong> always install a Type 2 charger. Many quality chargers include both a tethered Type 2 cable and a Type 2 socket so customers with different vehicles can use the charger. Confirm the customer's vehicle inlet type before quoting — some PHEVs still have Type 1.</p>
+                <button class="lib-ask-btn" data-prompt="What is the difference between a Type 1 and Type 2 EV charger connector in Australia?">⚡ Ask about EV connector types</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Category 5: ServiceM8 & Operations -->
+        <div class="lib-category">
+          <button class="lib-cat-btn" aria-expanded="false" aria-controls="lib-cat-5">
+            <span class="lib-cat-icon">🔧</span>
+            <span class="lib-cat-title">ServiceM8 &amp; Operations</span>
+            <span class="lib-cat-count">5 Q&amp;As</span>
+            <svg class="lib-cat-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="lib-cat-body" id="lib-cat-5">
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-5-1" data-prompt="How do I set up a ServiceM8 job template for a solar and battery installation that is CER-audit ready?">
+                How do I set up a ServiceM8 job template for a solar + battery install?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-5-1">
+                <p>A CER-audit-ready solar + battery job template in ServiceM8 should include:</p>
+                <ul>
+                  <li><strong>Job checklists:</strong> Pre-install checklist (site inspection, DNSP notification sent), install checklist (labelling, clearances, commissioning), and post-install checklist (photos uploaded, wiring diagram attached, certificate lodged)</li>
+                  <li><strong>Forms:</strong> Customer consent form, installer declaration, STC assignment (RESA) form — all completable in-field via the ServiceM8 app</li>
+                  <li><strong>Photo requirements:</strong> Required photos attached directly to the job (array, inverter, switchboard, battery, all signage)</li>
+                  <li><strong>Certificate tracking:</strong> A custom field or checklist item confirming CCEW/CES lodgement with lodgement reference number</li>
+                  <li><strong>Line items:</strong> All equipment with serial numbers captured during install</li>
+                  <li><strong>Automated follow-up:</strong> SMS/email to customer with warranty info and a review request 7 days after job completion</li>
+                </ul>
+                <button class="lib-ask-btn" data-prompt="How do I set up a ServiceM8 job template for a solar and battery installation that is CER-audit ready?">⚡ Ask for a full ServiceM8 template guide</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-5-2" data-prompt="How do I set up Xero integration in ServiceM8 for a solar installation business?">
+                How do I connect ServiceM8 to Xero for a solar business?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-5-2">
+                <p>ServiceM8 has a native Xero integration:</p>
+                <ul>
+                  <li><strong>Connect:</strong> ServiceM8 → Add-ons → Xero → Authorize. Both apps must be active with valid subscriptions.</li>
+                  <li><strong>Account mapping:</strong> Map ServiceM8 labour and material line items to the correct Xero accounts and tax codes (typically 15% GST for standard solar installs)</li>
+                  <li><strong>Invoice sync:</strong> Set whether invoices sync to Xero on creation, approval, or payment — most solar businesses use approval to allow for review</li>
+                  <li><strong>Payments:</strong> Xero payments can sync back to ServiceM8 to mark jobs as paid — reduces double-handling</li>
+                  <li><strong>Customer records:</strong> Customers created in ServiceM8 sync to Xero contacts automatically</li>
+                </ul>
+                <p>Common issue: GST codes mismatched. STC rebate values passed through to customers should be mapped to the correct account — ask your accountant how to treat STC assignment value in Xero before setting up the integration.</p>
+                <button class="lib-ask-btn" data-prompt="How do I set up Xero integration in ServiceM8 for a solar installation business?">⚡ Ask about ServiceM8 Xero integration</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-5-3" data-prompt="How do I take a deposit from a solar customer using Stripe through ServiceM8?">
+                How do I take a deposit from a customer using ServiceM8 + Stripe?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-5-3">
+                <p>ServiceM8 integrates with Stripe for online credit/debit card payments:</p>
+                <ul>
+                  <li><strong>Setup:</strong> ServiceM8 → Add-ons → Stripe → Connect or create a Stripe account</li>
+                  <li><strong>Deposit quote:</strong> Create a quote in ServiceM8, add a deposit line item (e.g. "Deposit — 30%"), send to customer via email</li>
+                  <li><strong>Pay link:</strong> The quote email includes a "Pay Now" button that takes the customer to a Stripe-hosted payment page — no separate link needed</li>
+                  <li><strong>Confirmation:</strong> ServiceM8 records the payment and updates the job status automatically</li>
+                  <li><strong>Fees:</strong> Standard Stripe card rates apply (approx. 1.7–2.9% depending on card type) — factor this into your pricing or set a minimum transaction</li>
+                </ul>
+                <p>Pro tip: send the deposit request the same day as the quote, not when you're ready to book. Acceptance rate drops significantly after 48 hours.</p>
+                <button class="lib-ask-btn" data-prompt="How do I take a deposit from a solar customer using Stripe through ServiceM8?">⚡ Ask about ServiceM8 Stripe deposits</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-5-4" data-prompt="How do I build an automated follow-up and review request workflow in ServiceM8 for completed solar jobs?">
+                How do I automate review requests and follow-ups in ServiceM8?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-5-4">
+                <p>ServiceM8 Automation lets you trigger SMS and email messages based on job status changes:</p>
+                <ul>
+                  <li><strong>Post-completion email:</strong> Trigger on "Work Order — Completed" → send a branded email with system handover info, warranty details, and a Google Review link</li>
+                  <li><strong>7-day follow-up SMS:</strong> Trigger 7 days after completion → "Hi [name], just checking everything is working with your solar — any questions let us know. Loved working with you! [Review link]"</li>
+                  <li><strong>Unpaid invoice reminder:</strong> Trigger 3 days after invoice sent → polite SMS reminder with payment link</li>
+                </ul>
+                <p>Setup: ServiceM8 → Automation → New Automation → select trigger event → add action (send email/SMS) → customise template with merge fields. Keep messages short and personal — automation that sounds like a person gets far better review conversion than corporate templates.</p>
+                <button class="lib-ask-btn" data-prompt="How do I build an automated follow-up and review request workflow in ServiceM8 for completed solar jobs?">⚡ Ask about ServiceM8 automation</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-5-5" data-prompt="How do I handle a negative Google review as a solar or electrical contractor in Australia?">
+                How should I respond to a negative Google review?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-5-5">
+                <p>A good response to a negative review is read by every future customer who sees it — it's marketing, not damage control:</p>
+                <ul>
+                  <li><strong>Respond within 24–48 hours</strong> — shows you're attentive</li>
+                  <li><strong>Acknowledge, don't argue</strong> — even if the review is unfair, publicly arguing looks worse than the review itself</li>
+                  <li><strong>Template:</strong> "Hi [name], thanks for taking the time to leave feedback. We're sorry to hear you had this experience. We take [issue] seriously and would like to make it right — please contact us directly on [phone] so we can resolve this for you."</li>
+                  <li><strong>Move it offline</strong> — never go back and forth in review replies; get it to a private channel</li>
+                  <li><strong>Flag if fake:</strong> If you believe the review is from someone who was never a customer, flag it through Google Business Profile for removal</li>
+                </ul>
+                <p>The best protection against negative reviews is a high volume of positive ones. Set up your review automation (above) so every happy customer gets a prompt.</p>
+                <button class="lib-ask-btn" data-prompt="How should I respond to a negative Google review as a solar or electrical contractor in Australia?">⚡ Ask about handling negative reviews</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Category 6: Business Growth -->
+        <div class="lib-category">
+          <button class="lib-cat-btn" aria-expanded="false" aria-controls="lib-cat-6">
+            <span class="lib-cat-icon">📈</span>
+            <span class="lib-cat-title">Business Growth</span>
+            <span class="lib-cat-count">5 Q&amp;As</span>
+            <svg class="lib-cat-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="lib-cat-body" id="lib-cat-6">
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-6-1" data-prompt="How should I price a residential solar and battery installation for a good margin in Australia in 2026?">
+                How do I price a solar + battery job for a good margin?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-6-1">
+                <p>Solar and battery pricing in Australia has compressed significantly. To protect your margin:</p>
+                <ul>
+                  <li><strong>Know your cost base:</strong> Materials + labour + overheads + compliance costs + warranty provision — most small operators underestimate overheads by 15–25%</li>
+                  <li><strong>Target 25–35% gross margin</strong> on materials and 50–60% gross margin on labour</li>
+                  <li><strong>Don't compete on price with the volume stackers</strong> — compete on quality, documentation, and compliance. The market is splitting between cheap-and-risky and quality-and-documented.</li>
+                  <li><strong>3-tier quoting:</strong> present a Good / Better / Best option — customers who would have bought Good often upgrade to Better when they see the comparison</li>
+                  <li><strong>Price the risk separately:</strong> switchboard upgrade, difficult roof access, battery in a non-standard location — itemise these so the customer sees the value, not just the total</li>
+                </ul>
+                <button class="lib-ask-btn" data-prompt="How should I price a residential solar and battery installation for a good margin in Australia in 2026?">⚡ Ask about solar pricing strategy</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-6-2" data-prompt="When should a solar installation business hire their first full-time employee or apprentice in Australia?">
+                When should I hire my first employee or apprentice?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-6-2">
+                <p>The right time to hire is when you are consistently turning down work or when your admin load is preventing you from doing revenue-generating work:</p>
+                <ul>
+                  <li><strong>Financial trigger:</strong> 3+ months of consistent revenue above your cost base + new hire cost. Don't hire on a spike.</li>
+                  <li><strong>Apprentice vs sub:</strong> Apprentice = lower immediate cost but significant time investment in training and supervision. Subcontractor = higher per-job cost but flexible and faster to deploy. Most solo operators start with a reliable sub, then apprentice when volume sustains it.</li>
+                  <li><strong>Award rates (2026):</strong> Electrical apprentices are covered by the Electrical, Electronic and Communications Contracting Award 2020 — check Fair Work Australia for current rates</li>
+                  <li><strong>Compliance:</strong> Hiring an apprentice requires registration with your state training authority (e.g. TAFE NSW, VIC Skills First) and a formal training contract</li>
+                  <li><strong>ServiceM8 impact:</strong> Before hiring, build your SOPs and job templates so the new person can follow your system — don't hire and then build the system</li>
+                </ul>
+                <button class="lib-ask-btn" data-prompt="When should a solar installation business hire their first full-time employee or apprentice in Australia?">⚡ Ask about hiring your first employee</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-6-3" data-prompt="How do I manage cash flow as a solar installer dealing with large material costs and slow-paying customers?">
+                How do I manage cash flow when material costs are high?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-6-3">
+                <p>Solar installation cash flow is brutally front-loaded — you buy equipment weeks before you get paid. Fixes:</p>
+                <ul>
+                  <li><strong>Require a deposit:</strong> 30–50% upfront before ordering equipment. Non-negotiable. Automate this with ServiceM8 + Stripe.</li>
+                  <li><strong>Negotiate supplier terms:</strong> 30-day or 60-day supplier credit means you can complete and invoice before your materials cost comes due</li>
+                  <li><strong>Invoice on completion, not monthly:</strong> Same-day invoicing after every job. Every day you wait is a day of free credit to your customer.</li>
+                  <li><strong>7-day payment terms:</strong> Not 30 days. Residential customers don't need 30 days. Make it 7 days and follow up on day 8.</li>
+                  <li><strong>Maintain a cash buffer:</strong> 6–8 weeks of operating costs in a separate account — treat it as untouchable except for genuine emergencies</li>
+                </ul>
+                <button class="lib-ask-btn" data-prompt="How do I manage cash flow as a solar installer dealing with large material costs and slow-paying customers?">⚡ Ask about solar business cash flow</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-6-4" data-prompt="How do I win commercial solar contracts in Australia as a small to medium solar installer?">
+                How do I win commercial solar contracts as a smaller installer?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-6-4">
+                <p>Commercial solar is different territory — the margins are better but the qualification bar is higher:</p>
+                <ul>
+                  <li><strong>Credentials first:</strong> You need public liability insurance of at least $10M, professional indemnity, and ideally a history of completed commercial installs. Without these you won't get past the tender questionnaire.</li>
+                  <li><strong>Target the right size:</strong> 30–100 kW commercial jobs are the sweet spot for small-medium installers. The big EPCs dominate MW-scale; you can win on service and responsiveness at the SME level.</li>
+                  <li><strong>Know the procurement process:</strong> Most commercial clients use a 3-quote process. Your quote needs a professional design report, energy modelling (Helioscope or similar), ROI analysis, and a clear project schedule.</li>
+                  <li><strong>References matter more than price:</strong> One strong reference from a local business owner is worth more than a 5% lower price in commercial tendering</li>
+                  <li><strong>AS/NZS 5033 commercial design compliance:</strong> String sizing, combiner boxes, surge protection, and metering requirements are more complex at commercial scale — make sure your design is watertight before submitting</li>
+                </ul>
+                <button class="lib-ask-btn" data-prompt="How do I win commercial solar contracts in Australia as a small to medium solar installer?">⚡ Ask about winning commercial solar</button>
+              </div>
+            </div>
+
+            <div class="lib-qa">
+              <button class="lib-qa-btn" aria-expanded="false" aria-controls="qa-6-5" data-prompt="How do I scale a solar installation business from 1 to 3 crews without losing quality or compliance?">
+                How do I scale from 1 to 3 install crews without losing quality?
+                <svg class="lib-qa-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="lib-qa-body" id="qa-6-5">
+                <p>Scaling is where most solar businesses lose control of compliance and quality. The sequence that works:</p>
+                <ul>
+                  <li><strong>Step 1 — Systemise before you scale:</strong> Every job process must be documented and running in ServiceM8 with checklists, forms, and photo requirements before you add crew number 2</li>
+                  <li><strong>Step 2 — Prove the system on crew 2 first:</strong> Don't add crew 3 until crew 2 can complete a job end-to-end, including compliance documentation, without you in the field</li>
+                  <li><strong>Step 3 — Separate sales from operations:</strong> You (or someone you hire) needs to own sales. The install crews need to own delivery. When the owner is doing both, growth stalls at the bottleneck.</li>
+                  <li><strong>Step 4 — CER audit-proof each crew:</strong> Every crew member must know the compliance non-negotiables: consent before STC, site-specific wiring diagram, all labelling, photos before the truck leaves</li>
+                  <li><strong>Step 5 — Review and fix:</strong> Monthly QA audits on a random sample of each crew's jobs. Catch compliance drift before the CER does.</li>
+                </ul>
+                <button class="lib-ask-btn" data-prompt="How do I scale a solar installation business from 1 to 3 crews without losing quality or compliance?">⚡ Ask about scaling your solar business</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
     </main>
     <Footer />
 
@@ -880,6 +1759,45 @@ const faqSchema = {
           appendMessage('ai', 'Connection error. Please check your internet connection and try again.');
         }
       }
+
+      // ── Q&A Library — category toggles ──
+      document.querySelectorAll('.lib-cat-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const expanded = btn.getAttribute('aria-expanded') === 'true';
+          btn.setAttribute('aria-expanded', String(!expanded));
+          const body = document.getElementById(btn.getAttribute('aria-controls'));
+          if (body) body.classList.toggle('open', !expanded);
+        });
+      });
+
+      // ── Q&A Library — individual item accordions ──
+      document.querySelectorAll('.lib-qa-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const expanded = btn.getAttribute('aria-expanded') === 'true';
+          btn.setAttribute('aria-expanded', String(!expanded));
+          const body = document.getElementById(btn.getAttribute('aria-controls'));
+          if (body) body.classList.toggle('open', !expanded);
+        });
+      });
+
+      // ── "Ask Tradie Brain" buttons — pre-fill chat and scroll up ──
+      document.querySelectorAll('.lib-ask-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const prompt = btn.dataset.prompt;
+          if (!prompt) return;
+          inputEl.value = prompt;
+          inputEl.style.height = 'auto';
+          inputEl.style.height = Math.min(inputEl.scrollHeight, 120) + 'px';
+          sendBtn.disabled = false;
+          // Scroll to chat
+          const chatWrap = document.getElementById('chat-container');
+          if (chatWrap) {
+            chatWrap.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            setTimeout(() => inputEl.focus(), 400);
+          }
+        });
+      });
 
       // ── FAQ accordion ──
       document.querySelectorAll('.faq-btn').forEach(btn => {
