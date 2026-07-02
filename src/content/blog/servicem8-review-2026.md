@@ -1,7 +1,7 @@
 ---
-title: 'ServiceM8 Review 2026 | Honest Feedback from a Tradie Pro'
-description: 'Straight-talking ServiceM8 review from Australian trades businesses using it daily in 2026. Real-world results on invoicing speed, compliance, pricing, and who it actually suits.'
-updatedDate: 'Jun 27 2026'
+title: 'ServiceM8 Review 2026: Real Pricing, Features & Who It Actually Suits'
+description: 'ServiceM8 review from Australian trades using it daily in 2026. Real results on invoicing speed, compliance, pricing, and who it suits — rated 4.6/5 by our team.'
+updatedDate: 'Jul 02 2026'
 pubDate: 'Apr 03 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-review.jpg'
@@ -286,6 +286,7 @@ Yes — ServiceM8 offers a 14-day free trial with no credit card required. You g
 
 *Related reading:*
 - *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
+- *[Why Solar Installers Are Switching to Digital Job Management](/blog/digital-job-management-solar-installers)*
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
 - *[ServiceM8 for Plumbers: Run a Tighter Plumbing Business With Less Admin](/blog/servicem8-for-plumbers)*
 - *[ServiceM8 for HVAC Technicians](/blog/servicem8-for-hvac)*
