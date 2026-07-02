@@ -2,7 +2,7 @@
 title: 'CCEW NSW: The 7-Day Rule, Who Must Issue It, and How to Avoid Penalties'
 description: 'NSW electricians: complete CCEW guide for 2026 — when it is required, the 7-day deadline, solar-specific rules, common mistakes, and what triggers a SafeWork NSW audit.'
 pubDate: 'May 09 2026'
-updatedDate: 'Jun 27 2026'
+updatedDate: 'Jul 02 2026'
 category: "Compliance"
 heroImage: '/hero-ccew-nsw-guide.jpg'
 tags: ['CCEW', 'NSW', 'compliance', 'electrician', 'electrical certificate', 'SafeWork NSW']
@@ -234,6 +234,8 @@ While photos aren't part of the CCEW itself, NSW Fair Trading and DNSPs increasi
 - [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
 - [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [ServiceM8 vs simPRO 2026: Australia's Honest Comparison](/blog/servicem8-vs-simpro-comparison-australia)
+- [The Paperless Trade Business Roadmap: From Paper Forms to Digital Ops](/blog/paperless-trade-roadmap-operational-efficiency)
 - [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
 
 ---
