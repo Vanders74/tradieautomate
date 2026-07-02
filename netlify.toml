@@ -18,3 +18,11 @@
   to = "/blog/sell-servicem8-trade-business-value/"
   status = 301
   force = true
+
+# Fix trailing-slash cannibalisation: consolidate ranking power into canonical (trailing slash) URL
+# GSC was surfacing both versions separately, splitting ~2,800 impressions at position ~26
+[[redirects]]
+  from = "/blog/best-job-management-software-electricians-australia"
+  to = "/blog/best-job-management-software-electricians-australia/"
+  status = 301
+  force = true
