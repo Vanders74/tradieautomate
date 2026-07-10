@@ -1,6 +1,6 @@
 ---
 title: 'CCEW NSW: The 7-Day Rule, Who Must Issue It, and How to Avoid Penalties'
-description: 'NSW electricians: complete CCEW guide for 2026 — when it is required, the 7-day deadline, solar-specific rules, common mistakes, and what triggers a SafeWork NSW audit.'
+description: "Miss the 7-day CCEW deadline in NSW and you're facing $22,000 in individual penalties. Step-by-step guide to issuing certificates correctly — who can sign, solar-specific rules, and the audit triggers SafeWork NSW is using in 2026."
 pubDate: 'May 09 2026'
 updatedDate: 'Jul 02 2026'
 category: "Compliance"

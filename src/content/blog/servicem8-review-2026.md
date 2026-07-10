@@ -1,6 +1,6 @@
 ---
 title: 'ServiceM8 Review 2026: Real Pricing, Features & Who It Actually Suits'
-description: 'ServiceM8 review from Australian trades using it daily in 2026. Real results on invoicing speed, compliance, pricing, and who it suits — rated 4.6/5 by our team.'
+description: "ServiceM8 starts at $29/mo but the real cost depends on your team size. We break down what 50+ Aussie tradies say about pricing, limitations, and whether it actually speeds up invoicing. Full 2026 review."
 updatedDate: 'Jul 02 2026'
 pubDate: 'Apr 03 2026'
 category: "ServiceM8"

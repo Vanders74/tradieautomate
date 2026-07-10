@@ -1,6 +1,6 @@
 ---
 title: 'Certificate of Electrical Safety Victoria: Avoid ESV Audit Failures in 2026'
-description: 'Victorian electricians: exact CES requirements, who can issue, common ESV audit triggers, and the 28-day clock. What gets contractors fined — and how to stay clean. Updated Jun 2026.'
+description: "ESV is targeting solar installers in 2026 audits. Miss a CES within 28 days and you risk your contractor's licence — not just a fine. Complete guide: requirements, common triggers, and a compliance workflow that prevents failures."
 pubDate: 'May 15 2026'
 updatedDate: 'Jun 27 2026'
 category: "Compliance"
