@@ -188,7 +188,7 @@ As of 2026, Queensland, NSW (outside of some low-income programs), and WA do not
 - *[Battery Retrofit Installations: Adding Storage to Existing Solar Systems](/blog/battery-retrofit-installations-existing-solar)*
 - *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
 - *[EV Charger Installation Cost Australia 2026](/blog/ev-charger-installation-cost-australia-2026)*
-- *[Solar Installer Cash Flow Management](/blog/solar-installer-cash-flow-management)*
+- *[Solar Installer Cash Flow Management Australia: Getting Paid Faster](/blog/solar-installer-cash-flow-management-australia)*
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
 - [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
