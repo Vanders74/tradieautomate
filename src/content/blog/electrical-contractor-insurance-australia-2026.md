@@ -275,6 +275,7 @@ When you approach a broker, come prepared with:
 - [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
 - *[QLD Electrical Contractor Licence 2026: QBCC, ESQ & QLeave Requirements](/blog/qld-electrical-contractor-licence-guide-2026)*
 - [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
+- *[Electrical Switchboard Upgrade Cost Australia 2026](/blog/electrical-switchboard-upgrade-cost-australia-2026)*
 
 ---
 

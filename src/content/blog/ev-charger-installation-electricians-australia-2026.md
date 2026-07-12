@@ -186,6 +186,8 @@ That conversation is worth $1,500–$3,000 in additional revenue — and it's a 
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - *[Commercial EV Charging Installation Australia 2026: Compliance, Load Management & Pricing](/blog/ev-charging-commercial-premises-australia-2026)*
 - *[EV Charger Network Installation: Business Opportunity for Australian Electricians](/blog/ev-charger-network-installation-business-opportunity)*
+- *[Commercial EV Charging Installation: The Electrician's Business Guide for 2026](/blog/commercial-ev-charging-installation-guide-electricians)*
+- *[Electrical Switchboard Upgrade Cost Australia 2026](/blog/electrical-switchboard-upgrade-cost-australia-2026)*
 
 ---
 

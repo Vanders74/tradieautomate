@@ -195,6 +195,7 @@ After 20–30 jobs with accurate tracking, your pricing model will be calibrated
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - *[Replacing Gas Hot Water with Heat Pump: Complete Guide Australia](/blog/replacing-gas-hot-water-electric-heat-pump)*
 - *[Solar Battery System Cost Australia 2026: Prices, Rebates & Payback Periods](/blog/solar-battery-system-cost-australia-2026)*
+- *[Solar Installer Cash Flow Management Australia: Getting Paid Faster](/blog/solar-installer-cash-flow-management-australia)*
 
 ---
 
