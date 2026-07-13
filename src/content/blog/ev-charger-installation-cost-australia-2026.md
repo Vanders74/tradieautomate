@@ -161,3 +161,4 @@ For building a broader lead generation system for your solar and electrical busi
 - *[How to Get More Solar Leads in Australia 2026](/blog/how-to-get-more-solar-leads-australia-2026)*
 - *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)

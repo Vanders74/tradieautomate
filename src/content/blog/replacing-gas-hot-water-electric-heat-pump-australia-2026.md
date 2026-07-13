@@ -156,3 +156,5 @@ Track every gas-to-electric job through a proper workflow — STC lodgement, sta
 - *[Adding Battery Storage to Your Solar Business](/blog/adding-battery-storage-solar-business-australia)*
 - *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
 - *[The Hidden Admin Cost Calculator: What Aussie Tradies Really Lose Each Week](/blog/hidden-admin-cost-calculator)*
+- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)

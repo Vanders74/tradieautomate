@@ -179,3 +179,5 @@ HPHW installations involve a two-trade workflow (electrical + plumbing), STC lod
 - *[EV Charger Installation for Electricians Australia 2026](/blog/ev-charger-installation-electricians-australia-2026)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
