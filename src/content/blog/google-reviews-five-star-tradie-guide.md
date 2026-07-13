@@ -198,3 +198,4 @@ If you're not currently asking every customer for a review, you're leaving a sig
 - *[The Paperless Trade Roadmap](/blog/paperless-trade-roadmap-operational-efficiency)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
+- *[Negative Google Reviews: The Tradie's Exact Response Playbook](/blog/how-to-handle-negative-google-reviews-tradie)*

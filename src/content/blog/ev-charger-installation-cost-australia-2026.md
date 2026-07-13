@@ -162,3 +162,5 @@ For building a broader lead generation system for your solar and electrical busi
 - *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- *[Electrical Switchboard Upgrade Cost Australia 2026: What to Expect and Why](/blog/electrical-switchboard-upgrade-cost-australia-2026)*
+- *[Commercial EV Charging Installation: The Electrician's Business Guide for 2026](/blog/commercial-ev-charging-installation-guide-electricians)*
