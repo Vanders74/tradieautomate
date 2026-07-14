@@ -5,6 +5,10 @@
 [build.environment]
   NODE_VERSION = "20"
 
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
 # 301 redirects for duplicate content consolidation
 # Old "sell solar business" -> canonical "sell trade business value"
 [[redirects]]
