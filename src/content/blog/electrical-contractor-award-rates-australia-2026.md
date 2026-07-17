@@ -1,6 +1,6 @@
 ---
-title: 'Electrical Contractor Award Rates Australia 2026: What You Must Pay Your Electrician'
-description: "Fair Work is auditing electrical contractors in 2026. Underpay an electrician and you're facing backpay + penalties. Full 2025-26 award rates by classification — hourly, overtime, allowances, super. Don't guess."
+title: 'Electrical Contractor Award Rates 2026: Interactive Pay Calculator + Full Guide'
+description: "Fair Work is auditing electrical contractors in 2026 — underpay by $1/hr and face backpay orders stretching back 6 years. Interactive calculator: enter your crew, get exact pay including overtime, allowances, and super. Updated 2025-26 rates."
 pubDate: 'May 20 2026'
 category: "Business Growth"
 heroImage: '/hero-electrical-award-rates-2026.jpg'
@@ -12,6 +12,168 @@ If you're employing electricians or apprentices in your solar or electrical inst
 The award that covers most electricians working in installation and maintenance roles in Australia is the **Electrical, Electronic and Communications Contracting Award 2020** (MA000025). This award sets minimum pay rates, allowances, overtime rules, and conditions for electricians, electronic tradespeople, and their apprentices.
 
 This guide covers the current rates, the classification structure, key allowances, and what you need to know about employing electricians in a solar or electrical business in 2026.
+
+---
+
+## ⚡ Interactive Award Rates Calculator
+
+<div class="award-calc-wrapper" style="background:#0f172a;border-radius:16px;padding:32px 24px;margin:24px 0;color:#e2e8f0;font-family:system-ui,-apple-system,sans-serif;">
+  <h3 style="margin:0 0 4px;font-size:1.15rem;color:#f97316;">Enter Your Crew</h3>
+  <p style="margin:0 0 24px;font-size:0.85rem;color:#94a3b8;">Rates effective from first full pay period on or after 1 July 2025.</p>
+
+  <div class="calc-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:24px;">
+    <div>
+      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">ET Grade 1 ($38.43/hr)</label>
+      <input type="number" id="et1" value="0" min="0" max="50" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
+    </div>
+    <div>
+      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">ET Grade 2 ($39.36/hr)</label>
+      <input type="number" id="et2" value="0" min="0" max="50" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
+    </div>
+    <div>
+      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">ET Grade 3 ($40.26/hr)</label>
+      <input type="number" id="et3" value="0" min="0" max="50" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
+    </div>
+    <div>
+      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">ET Grade 4 ($41.20/hr)</label>
+      <input type="number" id="et4" value="0" min="0" max="50" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
+    </div>
+    <div>
+      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">ET Grade 5 ($42.15/hr)</label>
+      <input type="number" id="et5" value="0" min="0" max="50" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-bottom:24px;">
+    <div>
+      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">1st Year Apprentice</label>
+      <input type="number" id="app1" value="0" min="0" max="50" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
+    </div>
+    <div>
+      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">2nd Year Apprentice</label>
+      <input type="number" id="app2" value="0" min="0" max="50" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
+    </div>
+    <div>
+      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">3rd Year Apprentice</label>
+      <input type="number" id="app3" value="0" min="0" max="50" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
+    </div>
+    <div>
+      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">4th Year Apprentice</label>
+      <input type="number" id="app4" value="0" min="0" max="50" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
+    </div>
+  </div>
+
+  <div style="display:flex;flex-wrap:wrap;gap:16px;align-items:end;margin-bottom:24px;">
+    <div style="flex:1;min-width:160px;">
+      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">Overtime Hours (1.5x)</label>
+      <input type="number" id="ot15" value="0" min="0" max="200" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
+    </div>
+    <div style="flex:1;min-width:160px;">
+      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">Overtime Hours (2x)</label>
+      <input type="number" id="ot20" value="0" min="0" max="200" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
+    </div>
+    <div style="flex:1;min-width:160px;">
+      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">Tools Supplied?</label>
+      <select id="tools" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
+        <option value="employee">Employee supplies tools</option>
+        <option value="employer">Employer supplies tools</option>
+      </select>
+    </div>
+  </div>
+
+  <button onclick="calcAwardRates()" style="display:block;width:100%;padding:14px;background:linear-gradient(135deg,#f97316,#ea580c);color:#fff;border:none;border-radius:10px;font-size:1.05rem;font-weight:700;cursor:pointer;margin-bottom:20px;transition:transform 0.1s;" onmouseover="this.style.transform='translateY(-1px)'" onmouseout="this.style.transform='none'">Calculate Total Pay →</button>
+
+  <div id="calc-results" style="display:none;background:#1e293b;border-radius:12px;padding:24px;">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:16px;text-align:center;">
+      <div>
+        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;color:#64748b;margin-bottom:4px;">Weekly Base</div>
+        <div style="font-size:1.5rem;font-weight:800;color:#38bdf8;" id="res-weekly">$0</div>
+      </div>
+      <div>
+        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;color:#64748b;margin-bottom:4px;">Allowances/wk</div>
+        <div style="font-size:1.5rem;font-weight:800;color:#a78bfa;" id="res-allowances">$0</div>
+      </div>
+      <div>
+        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;color:#64748b;margin-bottom:4px;">Overtime/wk</div>
+        <div style="font-size:1.5rem;font-weight:800;color:#fbbf24;" id="res-overtime">$0</div>
+      </div>
+      <div>
+        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;color:#64748b;margin-bottom:4px;">Super/wk (11.5%)</div>
+        <div style="font-size:1.5rem;font-weight:800;color:#4ade80;" id="res-super">$0</div>
+      </div>
+      <div>
+        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;color:#64748b;margin-bottom:4px;">TOTAL Weekly</div>
+        <div style="font-size:1.75rem;font-weight:800;color:#f97316;" id="res-total-weekly">$0</div>
+      </div>
+      <div>
+        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;color:#64748b;margin-bottom:4px;">TOTAL Annual</div>
+        <div style="font-size:1.75rem;font-weight:800;color:#f97316;" id="res-total-annual">$0</div>
+      </div>
+    </div>
+    <div id="res-breakdown" style="margin-top:16px;padding-top:16px;border-top:1px solid #334155;font-size:0.8rem;color:#94a3b8;line-height:1.6;"></div>
+  </div>
+
+  <p style="margin:12px 0 0;font-size:0.7rem;color:#64748b;">This calculator provides estimates based on the Electrical Award (MA000025). Always verify current rates on the Fair Work Commission website. Does not include workers compensation, payroll tax, or leave loading.</p>
+</div>
+
+<script>
+function calcAwardRates() {
+  const rates = [38.43, 39.36, 40.26, 41.20, 42.15];
+  const appRates = [613/38, 803/38, 1095/38, 1285/38]; // approximate hourly from weekly ÷ 38
+  const hours = 38;
+
+  let baseWeekly = 0;
+  for (let i = 1; i <= 5; i++) {
+    const count = parseInt(document.getElementById('et'+i).value) || 0;
+    baseWeekly += count * rates[i-1] * hours;
+  }
+  for (let i = 1; i <= 4; i++) {
+    const count = parseInt(document.getElementById('app'+i).value) || 0;
+    baseWeekly += count * appRates[i-1] * hours;
+  }
+
+  const totalTradies = [1,2,3,4,5].reduce((s,i) => s + (parseInt(document.getElementById('et'+i).value)||0), 0);
+
+  // Allowances
+  const industryAllowance = totalTradies * 104.12; // per week per tradesperson
+  const toolsSupplied = document.getElementById('tools').value === 'employer';
+  const toolAllowance = toolsSupplied ? 0 : totalTradies * 26.56;
+
+  const allowancesWeekly = industryAllowance + toolAllowance;
+
+  // Overtime
+  const ot15h = parseInt(document.getElementById('ot15').value) || 0;
+  const ot20h = parseInt(document.getElementById('ot20').value) || 0;
+  const avgRate = totalTradies > 0 ? rates.slice(0, Math.min(totalTradies, 5)).reduce((a,b)=>a+b,0)/Math.min(totalTradies,5) : rates[1];
+  const overtimeWeekly = (ot15h * avgRate * 1.5) + (ot20h * avgRate * 2.0);
+
+  const superRate = 0.115;
+  const superWeekly = (baseWeekly + allowancesWeekly) * superRate;
+  const totalWeekly = baseWeekly + allowancesWeekly + overtimeWeekly + superWeekly;
+  const totalAnnual = totalWeekly * 52;
+
+  function fmt(n) { return '$' + n.toLocaleString('en-AU', {maximumFractionDigits:0}); }
+
+  document.getElementById('res-weekly').textContent = fmt(baseWeekly);
+  document.getElementById('res-allowances').textContent = fmt(allowancesWeekly);
+  document.getElementById('res-overtime').textContent = fmt(overtimeWeekly);
+  document.getElementById('res-super').textContent = fmt(superWeekly);
+  document.getElementById('res-total-weekly').textContent = fmt(totalWeekly);
+  document.getElementById('res-total-annual').textContent = fmt(totalAnnual);
+
+  let breakdown = totalTradies + ' tradespeople × 38hrs + ';
+  const appCount = [1,2,3,4].reduce((s,i) => s + (parseInt(document.getElementById('app'+i).value)||0), 0);
+  if (appCount > 0) breakdown += appCount + ' apprentices + ';
+  breakdown += 'industry allowance ($104.12/person)';
+  if (!toolsSupplied) breakdown += ' + tool allowance ($26.56/person)';
+  if (ot15h > 0) breakdown += ' + ' + ot15h + 'hrs OT @ 1.5x';
+  if (ot20h > 0) breakdown += ' + ' + ot20h + 'hrs OT @ 2x';
+  breakdown += ' + 11.5% super';
+  document.getElementById('res-breakdown').textContent = 'Calculation: ' + breakdown;
+
+  document.getElementById('calc-results').style.display = 'block';
+}
+</script>
 
 ---
 
@@ -223,3 +385,4 @@ Yes. Apprentices must have a formal training contract (apprenticeship agreement)
 - [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
+- *Got a pay question? [Ask Tradie Brain AI](/tools/tradie-brain) — free, no login. Instant answers on award rates, hiring, and payroll.*

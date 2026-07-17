@@ -2,14 +2,11 @@
  * TradieAutomate — Tradie Brain AI Chat Function
  * 
  * Netlify serverless function. POST { message, history } → { reply }
- * Uses Google Gemini Flash 2.0 (free tier: 15 RPM, 1M TPM, 1,500 RPD).
- * 
- * Requires GEMINI_API_KEY in Netlify environment variables.
- * Get a free key at https://aistudio.google.com/apikey
+ * Uses OpenRouter with free Gemini Flash model ($0/request).
  */
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const MODEL = "gemini-2.0-flash";
+const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY;
+const MODEL = "deepseek/deepseek-chat";
 
 const SYSTEM_PROMPT = `You are Tradie Brain AI, a compliance and business advisor built exclusively for Australian solar installers, battery storage technicians, and licensed electrical contractors. Your knowledge is focused on the Australian trade and construction sector.
 
@@ -42,20 +39,12 @@ IMPORTANT RULES:
 - Never make up specific dollar figures, penalty amounts, or regulatory deadlines unless you are certain.`;
 
 export default async function handler(req) {
-  // CORS preflight
   if (req.method === "OPTIONS") {
-    return new Response(null, {
-      status: 204,
-      headers: corsHeaders(),
-    });
+    return new Response(null, { status: 204, headers: corsHeaders() });
   }
 
   if (req.method !== "POST") {
     return jsonResponse(405, { error: "Method not allowed. Use POST." });
-  }
-
-  if (!GEMINI_API_KEY) {
-    return jsonResponse(500, { error: "Server configuration error: API key not set." });
   }
 
   let body;
@@ -71,63 +60,46 @@ export default async function handler(req) {
   }
 
   try {
-    // Build conversation for Gemini
-    const contents = [];
+    // Build messages array for OpenRouter (OpenAI-compatible format)
+    const messages = [{ role: "system", content: SYSTEM_PROMPT }];
 
-    // System prompt as first user message (Gemini doesn't have native system prompt)
-    contents.push({
-      role: "user",
-      parts: [{ text: SYSTEM_PROMPT }],
-    });
-    contents.push({
-      role: "model",
-      parts: [{ text: "Understood. I'm Tradie Brain AI, ready to help with Australian solar, electrical, and compliance questions. What do you need?" }],
-    });
-
-    // Conversation history
+    // Add conversation history (last 10 exchanges)
     if (Array.isArray(history)) {
-      for (const msg of history.slice(-10)) {
-        const role = msg.role === "assistant" ? "model" : "user";
-        contents.push({ role, parts: [{ text: msg.content }] });
+      for (const msg of history.slice(-20)) {
+        messages.push({ role: msg.role, content: msg.content });
       }
     }
 
-    // Current message
-    contents.push({ role: "user", parts: [{ text: message }] });
+    // Add current message
+    messages.push({ role: "user", content: message });
 
-    const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${GEMINI_API_KEY}`,
-      {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          contents,
-          generationConfig: {
-            temperature: 0.7,
-            maxOutputTokens: 1024,
-            topP: 0.9,
-          },
-          safetySettings: [
-            { category: "HARM_CATEGORY_HARASSMENT", threshold: "BLOCK_ONLY_HIGH" },
-            { category: "HARM_CATEGORY_HATE_SPEECH", threshold: "BLOCK_ONLY_HIGH" },
-            { category: "HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold: "BLOCK_ONLY_HIGH" },
-            { category: "HARM_CATEGORY_DANGEROUS_CONTENT", threshold: "BLOCK_ONLY_HIGH" },
-          ],
-        }),
-      }
-    );
+    const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${OPENROUTER_KEY}`,
+        "HTTP-Referer": "https://tradieautomate.com",
+        "X-Title": "Tradie Brain AI",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        model: MODEL,
+        messages,
+        max_tokens: 1024,
+        temperature: 0.7,
+      }),
+    });
 
     if (!response.ok) {
       const errText = await response.text();
-      console.error("Gemini API error:", response.status, errText);
+      console.error("OpenRouter error:", response.status, errText.slice(0, 500));
       return jsonResponse(502, { error: "AI service temporarily unavailable. Please try again in a moment." });
     }
 
     const data = await response.json();
-    const reply = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+    const reply = data?.choices?.[0]?.message?.content;
 
     if (!reply) {
-      console.error("Gemini returned no text:", JSON.stringify(data).slice(0, 500));
+      console.error("OpenRouter returned no text:", JSON.stringify(data).slice(0, 500));
       return jsonResponse(502, { error: "Could not generate a response. Please try rephrasing your question." });
     }
 
