@@ -2,8 +2,16 @@
 title: 'ServiceM8 for HVAC Technicians: Job Management Built for Australian Air Con and Refrigeration Businesses'
 description: 'How Australian HVAC and refrigeration businesses use ServiceM8 to manage ARCtick compliance, streamline service contracts, and grow without the admin chaos.'
 pubDate: 'Apr 27 2026'
+updatedDate: 'Jul 18 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-for-hvac.jpg'
+faq:
+  - question: "What is ARCtick and who needs it for HVAC work in Australia?"
+    answer: "ARCtick is the licensing scheme for refrigerant handling in Australia, administered under the Ozone Protection and Synthetic Greenhouse Gas Management Act 1989. Any technician who purchases, handles, or recovers refrigerants must hold an ARCtick licence. It is illegal to handle refrigerants without one — penalties under the Act can reach $220,000 for corporations."
+  - question: "Can ServiceM8 help manage ARCtick refrigerant logbook requirements?"
+    answer: "ServiceM8 lets you create custom refrigerant handling forms that attach to individual jobs — recording quantities purchased, used, recovered, and transferred. While this doesn't replace the formal ARCtick logbook required by the Department of Climate Change, Energy, the Environment and Water, it creates a job-level cross-reference for compliance audits."
+  - question: "How should HVAC businesses price service contracts in Australia?"
+    answer: "Most commercial HVAC service contracts are priced on a per-unit annual basis, covering scheduled preventive maintenance visits plus a set number of reactive callouts. Typical pricing runs $200–$600 per unit per year depending on unit type, access difficulty, and service frequency. ServiceM8 handles recurring job scheduling, contract invoicing, and site-by-site service history automatically."
 ---
 
 Australian HVAC and refrigeration technicians operate in one of the most compliance-intensive corners of the trades industry. Between ARCtick licensing, F-gas handling records, service contract obligations, and the seasonal demand spikes that make scheduling a full-time job, running an air conditioning or commercial refrigeration business takes serious operational infrastructure.
@@ -18,7 +26,7 @@ Most HVAC businesses are managing this with a combination of paper service recor
 
 HVAC and refrigeration work has specific operational requirements that most generic business software doesn't address:
 
-**Refrigerant handling compliance.** Under the Ozone Protection and Synthetic Greenhouse Gas Management Act 1989 and the associated Regulations, refrigerant handling in Australia requires ARCtick licensing, mandatory logbooks, and record-keeping for refrigerant purchases, usage, recovery, and destruction. This documentation must be accurate and retrievable.
+**Refrigerant handling compliance.** Under the **Ozone Protection and Synthetic Greenhouse Gas Management Act 1989** (Cth) and the **Ozone Protection and Synthetic Greenhouse Gas Management Regulations 2021**, refrigerant handling in Australia requires an **ARCtick licence** issued by the Department of Climate Change, Energy, the Environment and Water (DCCEEW). ARCtick requirements include mandatory logbooks, and record-keeping for refrigerant purchases, usage, recovery, and destruction. Penalties for unlicensed refrigerant handling can reach $220,000 for corporations and $44,000 for individuals. This documentation must be accurate and retrievable for DCCEEW audits.
 
 **Service contract management.** Commercial HVAC businesses typically manage ongoing maintenance contracts across multiple sites and systems. Scheduled services, reactive callouts, and warranty work all need to be tracked, dispatched, and invoiced consistently.
 
@@ -27,6 +35,8 @@ HVAC and refrigeration work has specific operational requirements that most gene
 **Multi-technician dispatch.** HVAC businesses with 3+ technicians need real-time visibility across the team to manage emergency callouts, avoid geographic inefficiency, and keep customers informed.
 
 **Defect and warranty tracking.** HVAC installations carry warranty obligations and ongoing defect liability. Documenting installation conditions, commissioning data, and subsequent service history creates the paper trail that protects your business when warranty claims arise.
+
+**Electrical disconnect/reconnect compliance.** Split-system and ducted HVAC installations require electrical disconnect and reconnect work under **AS/NZS 3000:2018** (Wiring Rules). This must be performed by a licensed electrical contractor — regulated by **Energy Safe Victoria (ESV)** in Victoria, **SafeWork NSW** in New South Wales, and the **Electrical Safety Office** in Queensland. HVAC businesses that subcontract this work must ensure their electrical subcontractor holds the appropriate licence and issues the correct Certificate of Electrical Compliance for each installation.
 
 ServiceM8 handles all of these with native features.
 

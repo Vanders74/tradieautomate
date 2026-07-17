@@ -1,10 +1,18 @@
 ---
 title: 'Adding Battery Storage to Your Solar Business: The Complete Guide for Australian Installers'
-description: 'How to add battery storage installation to your solar business in Australia — CEC endorsement, AS/NZS 5139 compliance, pricing battery jobs, the products that sell, and building a profitable battery revenue line.'
+description: "Adding battery storage to your solar business can push job values from $8K to $22K+ — here's exactly how to get CEC-endorsed, meet AS/NZS 5139:2019, price jobs profitably, and build battery storage into your revenue line."
 pubDate: 'May 19 2026'
+updatedDate: 'Jul 18 2026'
 category: "Solar & Battery"
 heroImage: '/hero-adding-battery-storage-business.jpg'
 tags: ['battery storage', 'solar', 'AS/NZS 5139', 'business growth', 'electrician', 'CEC']
+faq:
+  - question: "What CEC endorsement do I need to install battery storage in Australia?"
+    answer: "You need the Clean Energy Council (CEC) Battery Storage Endorsement, which is separate from your Grid-connect PV accreditation. It requires completion of an approved RTO training course (typically 1–2 days, $500–$1,200) and an active Grid-connect PV accreditation. Without this endorsement, battery installations won't be CEC-accredited or eligible for STC or state rebate schemes."
+  - question: "How much does a residential battery storage system typically cost in Australia?"
+    answer: "A 10kWh residential battery system (hardware plus installation) typically runs $8,000–$14,000 in 2026 before any rebates. Combined with a new solar system, the total solar + battery package is typically $15,000–$22,000+. State-based rebates (VIC Solar Homes, SA Home Battery Scheme) can reduce this by $1,000–$4,000 depending on location."
+  - question: "Which battery products are selling best for Australian solar installers in 2026?"
+    answer: "Tesla Powerwall 3, BYD Battery-Box Premium, Sungrow SBH, and Soltaro are the most commonly installed residential battery systems in Australia. All are CEC-approved products. The CEC maintains an approved products list — only systems on this list are eligible for CEC-accredited installations and associated rebates."
 ---
 
 Battery storage attachment rates with new solar installations in Australia have climbed dramatically in the past two years. In some states and markets, more than half of residential solar installations now include a battery. The standalone solar-only installation is increasingly a reduced-margin commodity sale; the solar + battery package is where margin, differentiation, and customer lifetime value live.

@@ -5,6 +5,14 @@ pubDate: 'May 16 2026'
 category: "Business Growth"
 heroImage: '/hero-solar-leads-australia.jpg'
 tags: ['solar', 'lead generation', 'marketing', 'electrician', 'Google', 'business growth']
+updatedDate: 'Jul 18 2026'
+faq:
+  - question: "How much does a solar lead cost in Australia in 2026?"
+    answer: "Purchased solar leads from aggregators typically cost $30–$120 each, and are shared with 3–10 competitors. Google Ads leads cost $60–$200 per conversion depending on location and competition. Referral and organic leads cost effectively $0 per lead once the system is set up — making them the highest-ROI channel for established solar businesses."
+  - question: "What is the best lead generation channel for solar installers in Australia?"
+    answer: "Google Business Profile (GBP) is the highest-ROI free channel — appearing in the local pack puts you in front of buyers actively searching for a solar installer. For paid channels, targeted Google Ads using high-intent keywords outperforms solar lead aggregators significantly because the lead is exclusive to your business."
+  - question: "Should solar installers use Google Ads or rely on organic SEO?"
+    answer: "Both work best together. Google Ads deliver leads immediately but stop when the budget stops. SEO builds compounding lead flow over 6–12 months that generates enquiries with no ongoing cost. Most solar businesses use Ads to fill the pipeline while SEO builds, then reduce Ads spend as organic rankings strengthen."
 ---
 
 Getting consistent solar installation leads is the number one challenge for most solar businesses in Australia in 2026. The market is large — hundreds of thousands of homeowners are still considering solar — but so is the competition. Every suburb has three to ten installation businesses competing for the same enquiries.
@@ -23,7 +31,7 @@ Understanding what's changed helps you allocate budget intelligently:
 
 **What's declining:** Solar lead aggregators (high volume but low quality, shared with 5–10 competitors), cold outbound at scale, generic Facebook ads without strong local targeting.
 
-**The core shift:** Homeowners in 2026 are more educated. They've seen cheap solar fail. They research before they contact. They read reviews. They check CEC accreditation. The businesses that win are the ones that appear authoritative and trustworthy before the first conversation — not the ones with the lowest price in a comparison table.
+**The core shift:** Homeowners in 2026 are more educated. They've seen cheap solar fail. They research before they contact. They read reviews. They check **Clean Energy Council (CEC)** accreditation. The businesses that win are the ones that appear authoritative and trustworthy before the first conversation — not the ones with the lowest price in a comparison table. CEC accreditation is governed by the CEC Installer Code of Conduct and is a prerequisite for claiming STCs under the Small-scale Renewable Energy Scheme.
 
 ---
 
@@ -143,7 +151,7 @@ Getting leads is only half the equation. Converting them into signed jobs is whe
 **The fastest-converting businesses do three things:**
 1. **Respond within 4 hours** — ideally within 1 hour. Response speed is the #1 factor in solar lead conversion after price. Leads that go 24+ hours without a response are largely lost.
 2. **Follow up systematically** — a lead that doesn't book on first contact doesn't mean they've said no. A 3-touch follow-up sequence (call, SMS, email over 5 days) can convert 30–40% more leads.
-3. **Quote fast** — send the quote the same day or next morning after the site visit. Every day of delay reduces close probability.
+3. **Quote fast** — send the quote the same day or next morning after the site visit. Every day of delay reduces close probability. Note that under the **Australian Consumer Law (ACL)**, solar quotes and contracts must be accurate and not misleading — quote the system size, expected output, and STC rebate amount precisely, as misrepresentation is enforceable by the **Australian Competition and Consumer Commission (ACCC)**.
 
 [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) automates the follow-up process — set up an automatic SMS to new enquiries within 15 minutes, automatic quote delivery, and a follow-up sequence after the quote is sent. This happens without you thinking about it.
 

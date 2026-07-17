@@ -1,10 +1,18 @@
 ---
 title: '5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician (And How to Fix Them)'
-description: 'The real profit killers for Australian solar installers and electricians are rarely the obvious ones. Here are five hidden costs draining your margins — and exactly how to reclaim them.'
+description: "Australian solar and electrical businesses leak $55K–$120K annually in unbilled time, slow invoicing, and unconverted quotes. Here are the 5 hidden profit killers — and exactly how to fix each one."
 pubDate: 'May 12 2026'
+updatedDate: 'Jul 18 2026'
 category: "Business Growth"
 heroImage: '/hero-hidden-costs-profit.jpg'
 tags: ['profitability', 'job costing', 'solar', 'electrician', 'business finance']
+faq:
+  - question: "How much money do solar installers and electricians lose to admin inefficiency each year?"
+    answer: "Industry data suggests Australian trade businesses with 3–6 staff lose $55,000–$120,000 annually in unbilled time, slow invoicing, and unconverted quotes. The biggest single leak is compliance admin — post-job STC documentation, certificate lodgement, and CER record-keeping that takes 20–40 minutes per install but is rarely priced into jobs."
+  - question: "How do you calculate the true admin cost for a solar installation business?"
+    answer: "Run a time audit for one week: track every hour spent on travel, quote prep, compliance admin, invoicing, and callbacks. Multiply total non-billable hours by your effective hourly rate. Most solar business owners find 8–15 hours per week of unbilled time — at $120/hour, that's $50,000–$94,000 in annual cost that isn't in their pricing model."
+  - question: "What is job costing and why does it matter for solar electricians?"
+    answer: "Job costing is tracking the actual labour, materials, and overhead for each job type so you know which jobs are profitable and which aren't. Most solar businesses price by gut feel — job costing reveals whether residential solar, battery retrofits, or EV charger installs are actually generating the margins you think they are."
 ---
 
 You're winning work. Revenue is coming in. But at the end of the month, the profit isn't where it should be.

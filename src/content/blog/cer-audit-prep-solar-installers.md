@@ -1,10 +1,17 @@
 ---
 title: "CER Audit Prep for Solar Installers: How to Pass Your Clean Energy Regulator Audit"
-description: "What CER audits involve, common failure points, and how Australian solar installers can prepare their documentation and stay compliant. Practical guide for 2026."
-updatedDate: 'Apr 18 2026'
+description: "STC claims can be suspended after a failed CER audit — and audits are increasing in 2026. How Australian solar installers can prepare documentation, avoid common failure points, and stay compliant with the Clean Energy Regulator."
+updatedDate: 'Jul 18 2026'
 pubDate: "Apr 05 2026"
 category: "Compliance"
 heroImage: '/hero-cer-audit-prep-solar-installers.jpg'
+faq:
+  - question: "What triggers a CER audit for a solar installer in Australia?"
+    answer: "The Clean Energy Regulator selects installers via random compliance checks, data-matching on STC claim anomalies, consumer complaints, and agent-linked activity. New accreditations also attract early-stage checks. You don't need to do anything obviously wrong — being active in the SRES is sufficient to be in scope."
+  - question: "What documentation does the CER require during an audit?"
+    answer: "Auditors request STC lodgement records, job-specific installation photos (date-stamped and tied to each installation), customer declarations, grid connection approvals, and certificates of compliance. All records must be retained for a minimum of 5 years under the Renewable Energy (Electricity) Act 2000."
+  - question: "What happens if you fail a CER audit?"
+    answer: "Consequences range from a compliance notice requiring remediation, to STC claim suspension, financial penalties, and CEC accreditation cancellation. Without active CEC accreditation, you cannot lodge STCs and cannot legally install solar under the Small-scale Renewable Energy Scheme (SRES)."
 ---
 
 CER audit activity is increasing. The Clean Energy Regulator has been ramping up compliance work across the Small-scale Renewable Energy Scheme (SRES), and solar installers are firmly in scope. Whether you're a sole trader with a CEC accreditation or running a crew of installers, understanding what auditors look for — and getting your documentation in order before they come knocking — is no longer optional.
@@ -15,7 +22,7 @@ This guide covers exactly what a CER audit involves, what triggers one, where in
 
 ## What Is a CER Audit?
 
-The Clean Energy Regulator administers the SRES, which includes the Small-scale Technology Certificate (STC) scheme that most residential solar installers use every day. As part of its compliance function, the CER conducts audits of both installers and agents to verify that STC claims are legitimate and that installations meet the required standards.
+The Clean Energy Regulator administers the SRES under the **Renewable Energy (Electricity) Act 2000** and its associated regulations — the **Renewable Energy (Electricity) (Small-scale Technology Shortfall Charge) Act 2010** and the **Renewable Energy (Electricity) Regulations 2001**. The SRES includes the Small-scale Technology Certificate (STC) scheme that most residential solar installers use every day. As part of its compliance function, the CER conducts audits of both installers and agents to verify that STC claims are legitimate and that installations meet the required standards — including compliance with **AS/NZS 5033:2021** for PV systems and **AS/NZS 5139:2019** for battery storage systems.
 
 There are three main audit types:
 
@@ -65,7 +72,7 @@ Your CEC accreditation must be current and your endorsement categories must cove
 
 ### Compliance with AS/NZS 5033 and AS/NZS 5139
 
-Photovoltaic installations must comply with AS/NZS 5033, and battery storage systems must comply with AS/NZS 5139. Auditors will check that your documentation — including certificates of compliance and electrical safety certificates — reflects compliance with the current versions of these standards.
+Photovoltaic installations must comply with **AS/NZS 5033:2021**, and battery storage systems must comply with **AS/NZS 5139:2019**. Auditors will check that your documentation — including certificates of compliance and electrical safety certificates — reflects compliance with the current versions of these standards. The documentation requirements in AS/NZS 5033:2021 include wiring diagrams, system commissioning test results, labelling compliance, and customer handover documentation — all of which must be retrievable per installation for the 5-year retention period mandated under the Renewable Energy (Electricity) Act 2000.
 
 ---
 
