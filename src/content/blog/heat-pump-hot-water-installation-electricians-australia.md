@@ -5,6 +5,14 @@ pubDate: 'Jun 9 2026'
 category: "Business Growth"
 heroImage: '/hero-heat-pump-hot-water-installation-electricians.jpg'
 tags: ['heat pump hot water', 'electrician', 'VEU', 'rebates', 'STC', 'solar integration', 'electrification', 'business growth']
+updatedDate: 'Jul 18 2026'
+faq:
+  - question: "What rebates are available for heat pump hot water installation in Australia?"
+    answer: "Victorian electricians can claim rebates through the Victorian Energy Upgrades (VEU) program administered by Energy Safe Victoria, reducing customer cost by $300–$1,000+. The federal Small-scale Renewable Energy Scheme (SRES) also provides STCs for eligible heat pump systems, assessed by the Clean Energy Regulator (CER)."
+  - question: "What circuit size does a heat pump hot water system require?"
+    answer: "Most residential heat pump hot water units need a dedicated 10A or 16A circuit with 2.5mm² TPS cabling, an RCD, and a spare switchboard slot — all compliant with AS/NZS 3000:2018 Wiring Rules. Always verify against the specific manufacturer's specifications before quoting."
+  - question: "Can a heat pump hot water system be integrated with an existing solar PV system?"
+    answer: "Yes — a heat pump hot water system is the most cost-effective way to use excess daytime solar generation. It can be controlled via a smart relay, solar diverter, or energy management system to heat water preferentially during solar export hours, maximising self-consumption and reducing grid draw."
 ---
 
 Heat pump hot water systems are having a moment in Australia — and the moment is becoming a movement. As gas prices climb, governments push electrification incentives, and homeowners increasingly seek alternatives to both gas and traditional resistance electric hot water, heat pump systems have moved from niche to mainstream.
@@ -45,7 +53,7 @@ The implications for installation:
 
 ### Standard installation requirements
 
-Most residential heat pump hot water units require:
+Most residential heat pump hot water units require compliance with **AS/NZS 3000:2018** (the Australian Wiring Rules), enforced by state electrical safety regulators — **Energy Safe Victoria (ESV)** in Victoria, **SafeWork NSW** in New South Wales, and the **Electrical Safety Office** in Queensland:
 
 | Requirement | Typical Specification |
 |---|---|
@@ -82,7 +90,7 @@ The rebate landscape is one of the most compelling aspects of heat pump hot wate
 
 ### Federal: Small-scale Technology Certificates (STCs)
 
-Heat pump hot water systems are eligible for STCs under the federal Renewable Energy (Electricity) Act. The number of STCs depends on:
+Heat pump hot water systems are eligible for STCs under the federal **Renewable Energy (Electricity) Act 2000**, administered by the **Clean Energy Regulator (CER)**. The number of STCs depends on:
 - System capacity (litres)
 - Installation climate zone
 - System efficiency rating (energy factor)

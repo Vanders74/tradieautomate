@@ -2,13 +2,14 @@
 title: 'ServiceM8 for Solar Businesses: Scale Your Installation Operations Without the Admin Overload'
 description: 'How Australian solar installation businesses use ServiceM8 to manage CER compliance, STC documentation, team scheduling, and cash flow — and scale past the point where manual systems break.'
 pubDate: 'Apr 27 2026'
+updatedDate: 'Jul 18 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-for-solar-businesses.jpg'
 ---
 
 The Australian solar industry is at an inflection point. Residential installation volumes remain elevated. Commercial and C&I solar is accelerating. Battery storage is increasingly part of every job. And behind all that growth, the compliance and documentation requirements have never been more demanding.
 
-The Clean Energy Regulator has increased audit activity. The AS/NZS 5033 and AS/NZS 5139 standards set detailed documentation requirements for every installation. STC claims require precise records. And the VBA (Victoria), ESA (WA), Office of the Technical Regulator (SA), and their interstate equivalents are all actively enforcing compliance at the installer level.
+The **Clean Energy Regulator (CER)** has increased audit activity under the Renewable Energy (Electricity) Act 2000. **AS/NZS 5033:2021** and **AS/NZS 5139:2019** set detailed documentation requirements for every PV and battery installation. STC claims require precise records retained for 5 years. State electrical safety regulators — **Energy Safe Victoria (ESV)**, **Building and Energy (WA)**, the **Electrical Safety Office (QLD)**, and the Office of the Technical Regulator (SA) — are all actively enforcing compliance at the installer level.
 
 Running a solar business in 2026 without a systematic approach to compliance documentation isn't just operationally inefficient — it's a material business risk.
 
@@ -23,13 +24,13 @@ Before looking at how ServiceM8 helps, it's worth being precise about what Austr
 **CEC Accreditation and SRES compliance:**
 - Current Clean Energy Council accreditation in the correct categories for the work performed
 - Small-scale Technology Certificate (STC) calculations and claims under the SRES
-- CER audit readiness — records sufficient to respond to a documentation audit within the 5-year retention period
+- CER audit readiness — records sufficient to respond to a documentation audit within the **5-year retention period mandated under the Renewable Energy (Electricity) Act 2000** (s.24 and associated regulations)
 
-**AS/NZS 5033:2021 — Solar PV installations:**
-- Wiring diagrams and system specifications
+**AS/NZS 5033:2021 — Solar PV installations** (the primary compliance standard for all PV work, enforced by state electrical safety regulators and referenced in CER audit requirements):
+- Wiring diagrams and system specifications (Clause 4.3 and 5.1 documentation requirements)
 - Module and inverter installation compliance
-- Labelling requirements (array label, system performance label, main switch label)
-- Commissioning test results
+- Labelling requirements (array label, system performance label, main switch label — Clause 7 of AS/NZS 5033:2021)
+- Commissioning test results (Clause 8 — mandatory for STC lodgement)
 - Customer handover documentation
 
 **AS/NZS 5139:2019 — Battery energy storage:**
