@@ -34,7 +34,7 @@ The Certificate of Compliance — Electrical Work (CCEW) is a document that cert
 2. That the work complies with the Electricity (Consumer Safety) Act 2004 and relevant Australian Standards (primarily AS/NZS 3000, and for solar work, AS/NZS 5033 and AS/NZS 5139)
 3. The details of the work performed, the property address, and the performing contractor
 
-The CCEW replaced the previous Certificate of Compliance system in NSW and is now issued digitally through the NSW Fair Trading portal.
+From 1 July 2026, all CCEWs must be submitted through the **BCNSW eCert portal** — the mandatory digital lodgement system. Handwritten forms, PDF forms, and previous submission methods are no longer accepted. The BCNSW eCert portal is the only valid submission channel.
 
 ---
 
@@ -111,19 +111,33 @@ A compliant NSW CCEW must include:
 
 ---
 
-## How to Issue a CCEW in NSW
+## BCNSW eCert Portal — Mandatory Digital CCEW Submission
 
-### Online via NSW Fair Trading Portal
+**As of 1 July 2026, the BCNSW eCert portal is the only valid submission channel for all CCEWs in NSW.** This is a hard regulatory change — not a preference.
 
-CCEWs in NSW are issued through the NSW Fair Trading Contractor Licensing portal:
+The following submission methods are **no longer accepted**:
+- CCEW PDF forms (previously available on the NSW Fair Trading website)
+- Essential Energy portal lodgements
+- Hard copy / NECA book forms (the carbon-paper pads many electricians kept in the van)
 
-1. Log in to the NSW Fair Trading online services portal (you'll need a Service NSW account linked to your contractor licence)
-2. Navigate to CCEW / Certificate of Compliance — Electrical Work
-3. Complete the CCEW form with all required details
-4. Submit — the CCEW is recorded and a certificate reference number is generated
-5. Provide a copy of the CCEW to the property owner
+**What this means for your business:**
+1. If you haven't registered for a BCNSW eCert account yet, you cannot submit CCEWs legally after 1 July 2026
+2. Any CCEW submitted via old methods (PDF, Essential Energy portal, paper) is treated as not submitted — penalties apply
+3. The BCNSW eCert portal auto-distributes copies to the customer (via email), the relevant DNSP, and Building Commission NSW — eliminating the multi-party distribution headache
 
-**Property owner copy:** The property owner is entitled to a copy of the CCEW. Provide it digitally (email or PDF) and ensure a copy is retained in your job records.
+Registration is free. The portal is at [ecert.buildingcommission.nsw.gov.au](https://ecert.buildingcommission.nsw.gov.au/). You need your contractor licence details and a Service NSW account linked to your licence.
+
+**For compliance-heavy electrical businesses:** If you submit 10+ CCEWs per month, the portal's batch-upload and pre-fill features will save hours over the old manual methods. The mandatory transition is actually a workflow improvement — but only if you register and learn the system before you need it for a live job.
+
+> **Working across NSW and VIC?** Victoria's equivalent system is ESV Connect for CES lodgement. See our [CES Victoria complete guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026) for the side-by-side comparison of both state portals.
+
+### How to Issue a CCEW via BCNSW eCert
+
+1. Register at [ecert.buildingcommission.nsw.gov.au](https://ecert.buildingcommission.nsw.gov.au/) (free — you need your contractor licence and a Service NSW account)
+2. Log in and select "Create new CCEW"
+3. Complete all fields: contractor details, property address, work description, compliance declaration
+4. Submit — the system generates a certificate reference number and auto-distributes copies to the customer (if email provided) and the relevant DNSP
+5. Download and retain a copy for your job records
 
 ---
 

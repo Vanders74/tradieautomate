@@ -123,7 +123,7 @@ From the app, your electricians can:
 
 - View all assigned jobs for the day with full details and access notes
 - Navigate to the job site with integrated maps
-- Complete digital forms and compliance checklists on-site
+- Complete digital forms and compliance checklists on-site — including CCEW fields. See our [CCEW NSW compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026) for how the BCNSW eCert portal now mandates digital submission from 1 July 2026.
 - Take and attach compliance photos directly to the job record
 - Capture client signatures digitally
 - Generate and send quotes and invoices before leaving the site

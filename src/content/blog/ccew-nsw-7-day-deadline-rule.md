@@ -2,6 +2,7 @@
 title: 'When Is a CCEW Legally Required in NSW? The 7-Day Deadline Rule Explained'
 description: 'NSW electricians face significant fines for missing the CCEW submission deadline. Here is exactly what triggers the requirement, the 7-day rule, who you submit to, and how digital workflows prevent costly compliance gaps.'
 pubDate: 'May 20 2026'
+updatedDate: 'Jul 17 2026'
 category: "Compliance"
 heroImage: '/hero-ccew-nsw-compliance.jpg'
 tags: ['CCEW', 'NSW', 'electrical compliance', 'electrician', 'Fair Trading', 'certificate of compliance']
@@ -125,7 +126,16 @@ Missing any step in this chain creates both regulatory and commercial problems �
 
 ---
 
-## How Digital Job Workflows Fix This
+## BCNSW eCert Portal — What Changed on 1 July 2026
+
+As of 1 July 2026, all CCEWs must be submitted through the **BCNSW eCert portal**. This was previously the "NSW Fair Trading portal" — the system has been rebranded and centralised under Building Commission NSW, and the PDF form, Essential Energy portal, and paper NECA book submission methods are no longer accepted.
+
+**If you're still submitting CCEWs the old way, you're now non-compliant.** Every CCEW submitted through the old channels after 1 July 2026 is treated as not submitted. The penalties for non-submission remain: up to $22,000 for individuals and up to $550,000 for corporations.
+
+**What to do now:**
+- Register at [ecert.buildingcommission.nsw.gov.au](https://ecert.buildingcommission.nsw.gov.au/) (free — you need your contractor licence and Service NSW account)
+- BCNSW eCert auto-distributes copies to the customer, the DNSP, and Building Commission NSW
+- See our [complete CCEW NSW compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026) for the full step-by-step lodgement workflow, solar-specific requirements, and common audit triggers
 
 The compliance gap is a data-capture problem. If testing data is captured digitally on-site, at the time of work, the CCEW can be generated and issued the same day — without a Friday afternoon scramble.
 

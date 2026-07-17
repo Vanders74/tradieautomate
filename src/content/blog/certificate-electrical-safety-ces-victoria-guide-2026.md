@@ -1,6 +1,6 @@
 ---
 title: 'Certificate of Electrical Safety Victoria: Avoid ESV Audit Failures in 2026'
-description: "ESV is targeting solar installers in 2026 audits. Miss a CES within 28 days and you risk your contractor's licence — not just a fine. Complete guide: requirements, common triggers, and a compliance workflow that prevents failures."
+description: "COES fees just increased for FY 2026–2027. Energy Safe Victoria is auditing solar installers — a missing Certificate of Electrical Safety risks your REC licence, not just a fine. Step-by-step guide: who issues it, the 28-day deadline, and how to lodge through ESV Connect."
 pubDate: 'May 15 2026'
 updatedDate: 'Jun 27 2026'
 category: "Compliance"
@@ -247,3 +247,5 @@ Yes. Every solar PV installation in Victoria that involves electrical connection
 
 ### What happens if an electrician doesn't issue a CES in Victoria?
 Failure to issue a CES within 7 days is a breach of the Electricity Safety Act 1998 and can result in fines, licence suspension, or revocation. Energy Safe Victoria takes CES compliance seriously and has increased its audit activity in recent years, particularly for solar installations. Businesses repeatedly failing to issue timely certificates risk losing their contractor's licence. Using a job management app that triggers a CES workflow automatically when a job is marked complete is the most reliable way to prevent these breaches.
+
+> Got a compliance question? [Ask Tradie Brain AI](/tools/tradie-brain) — free, no login. Instant answers on CES, ESV audits, and electrical safety.
