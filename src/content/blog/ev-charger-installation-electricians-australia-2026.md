@@ -5,6 +5,14 @@ pubDate: 'May 14 2026'
 category: "Solar & Battery"
 heroImage: '/hero-ev-charger-installation.jpg'
 tags: ['EV charger', 'electrician', 'EVSE', 'compliance', 'solar', 'emerging market']
+updatedDate: 'Jul 18 2026'
+faq:
+  - question: "Do EV chargers need to be certified to Australian standards?"
+    answer: "Yes. EV chargers (EVSE) sold and installed in Australia must comply with applicable Australian standards including AS/NZS 3112 (plugs and socket outlets) and IEC 61851 for AC charging equipment. Always install equipment certified to these standards — uncertified imports create product liability and void insurance coverage."
+  - question: "Does a switchboard need to be upgraded for a home EV charger installation?"
+    answer: "Often yes. A dedicated 32A circuit for a 7.4kW Level 2 charger requires a spare circuit breaker slot, adequate main switch capacity, and RCD protection under AS/NZS 3000:2018. If the existing switchboard is at capacity or is an older fuse-based board, an upgrade is required — assess and quote this upfront, not on installation day."
+  - question: "How much does a home EV charger installation typically cost in Australia?"
+    answer: "A residential Level 2 EV charger installation typically costs $800–$2,500 including the charger hardware and electrical installation. The range depends on cable run length, whether a switchboard upgrade is needed, and charger brand. Smart chargers (with solar integration and app control) sit at the higher end. Most installations take 2–4 hours."
 ---
 
 Electric vehicle adoption in Australia is accelerating faster than the electricians qualified to install chargers can scale. In 2024, EVs represented over 8% of new car sales in Australia for the first time. In 2025 and 2026, that figure has continued climbing, driven by an expanding model range, falling prices, and government incentives across multiple states.
@@ -58,7 +66,7 @@ DC fast chargers are commercial-grade equipment for public charging, fleet depot
 
 ### Licensed Electrical Work
 
-EVSE installation is electrical work. It must be performed by a licensed electrician. The licensing requirements are the same as for any electrical installation — your existing electrical contractor licence covers EV charger installation.
+EVSE installation is electrical work. It must be performed by a licensed electrician — regulated by **Energy Safe Victoria (ESV)** under the Electricity Safety Act 1998 (Vic) in Victoria, **SafeWork NSW** under the Electricity (Consumer Safety) Act 2004 in New South Wales, and the **Electrical Safety Office** under the Electrical Safety Act 2002 in Queensland. Your existing electrical contractor licence covers EV charger installation — no additional licence is required for residential Level 2 installations.
 
 ### AS/NZS 3000:2018 — Wiring Rules
 
@@ -86,7 +94,7 @@ EV charger installation is electrical work and requires a Certificate of Electri
 
 ### Grid Connection and Network Notification
 
-For Level 2 installations involving significant load additions to the network connection point (typically 32A or above), network notification may be required. Check your distribution network service provider's requirements — they vary by DNSP and state.
+For Level 2 installations involving significant load additions to the network connection point (typically 32A or above), network notification to the relevant **Distribution Network Service Provider (DNSP)** is required. Requirements vary by state and network operator — **Ausgrid** and **Endeavour Energy** in NSW, **AusNet** and **Powercor** in Victoria, **Energex** and **Ergon** in Queensland. Most DNSPs require notification for new dedicated circuits above 32A within 5–30 business days of installation. Check your specific DNSP's network connection guidelines before quoting.
 
 ---
 

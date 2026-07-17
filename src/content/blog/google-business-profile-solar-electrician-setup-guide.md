@@ -1,10 +1,18 @@
 ---
 title: 'Google Business Profile for Solar Installers and Electricians: Setup & Optimisation Guide'
-description: 'Step-by-step guide to setting up and optimising Google Business Profile for solar installation and electrical businesses in Australia — local SEO, review strategy, categories, photos, and what actually drives local pack rankings.'
+description: "Most solar installers are invisible on Google Maps while competitors in the local pack take 60% of clicks. Step-by-step GBP setup for Australian solar and electrical businesses — CEC accreditation, review strategy, and the local ranking signals that actually matter."
 pubDate: 'May 22 2026'
+updatedDate: 'Jul 18 2026'
 category: "Business Growth"
 heroImage: '/hero-google-business-profile-solar.jpg'
 tags: ['Google Business Profile', 'local SEO', 'solar', 'electrician', 'marketing', 'lead generation']
+faq:
+  - question: "What does it take to rank in Google Maps local pack as a solar installer?"
+    answer: "The three primary factors are proximity to the searcher, review count and recency, and profile completeness. A solar installer with 50+ reviews, a fully completed GBP with service areas listed, and consistent NAP across directories will consistently outrank competitors in the local pack."
+  - question: "How do I get more Google reviews as a solar installer or electrician?"
+    answer: "The most effective approach is an automated SMS review request sent within 2 hours of job completion with a direct Google review link. This typically converts 15–30% of customers into reviewers. Consistency matters — 10 reviews per month beats 100 reviews once and nothing since."
+  - question: "Which GBP categories should a solar installer and electrician use?"
+    answer: "Use 'Solar Energy Contractor' as your primary category and 'Electrician' as a secondary. You can add up to 9 additional categories — but only use those that accurately describe your actual services. Over-categorising dilutes your relevance signal for your core searches."
 ---
 
 For an Australian solar installer or electrician, your Google Business Profile (GBP) is quite possibly your most valuable marketing asset — and it costs nothing to set up and maintain.
@@ -70,7 +78,7 @@ Inconsistencies in NAP across the web reduce Google's confidence in your busines
 - Your website (header, footer, contact page)
 - Facebook Business Page
 - Yelp, TrueLocal, Hotfrog, HiPages, Service Seeking listings
-- CEC installer directory listing
+- **Clean Energy Council (CEC)** installer directory listing — your CEC accreditation page is an authoritative citation that strengthens your NAP consistency and trust signals with Google
 - Yellow Pages, White Pages
 
 Even small variations matter: "Solar Co" vs "Solar Company", "38 Smith St" vs "38 Smith Street", different phone number formats. Fix every discrepancy you find.
@@ -152,6 +160,8 @@ Google reviews are the single most impactful GBP ranking factor in the local pac
 For the complete system to collect 5-star reviews automatically from every completed job, see our [Google Reviews guide for solar installers and electricians](/blog/google-reviews-five-star-tradie-guide).
 
 **Responding to reviews:** Respond to every review — positive and negative. For positive reviews, mention the job type and suburb (local SEO signal): *"Thanks [name] — loved getting that 6.6kW system up in [suburb] for you. Hope you're seeing great generation numbers!"* For negative reviews, respond professionally and invite offline resolution.
+
+**Review guidelines compliance:** The **Australian Competition and Consumer Commission (ACCC)** enforces the Australian Consumer Law on fake and incentivised reviews. Never offer discounts, gifts, or cash in exchange for a Google review — this is a violation of ACCC guidelines and can expose your business to significant penalties. Genuine review requests (asking satisfied customers to leave a review) are perfectly legal.
 
 ---
 
