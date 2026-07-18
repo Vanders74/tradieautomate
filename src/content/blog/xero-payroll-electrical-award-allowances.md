@@ -2,9 +2,20 @@
 title: 'How to Set Up Electrical Award Allowances in Xero Payroll (Without the Manual Math)'
 description: 'Xero Payroll does not automatically calculate Electrical Award allowances like height money, tool allowance, and dirt money. Here is the step-by-step setup so your sparkie payroll runs correctly every week.'
 pubDate: 'May 19 2026'
+updatedDate: 'Jul 19 2026'
 category: "Business Growth"
 heroImage: '/hero-xero-payroll-electrical.jpg'
 tags: ['Xero', 'payroll', 'electrical award', 'electrician', 'payroll setup', 'admin automation']
+faq:
+  - question: "Does Xero automatically calculate Electrical Award allowances?"
+    answer: "No. Xero Payroll does not automatically apply Electrical Award (MA000025) allowances such as height money, tool allowance, or dirt money. Each allowance must be manually configured as a pay item using the correct ATO tax treatment. Once set up, they can be applied per-employee or per-payrun as required."
+  - question: "What are the main allowances under the Electrical Contracting Award?"
+    answer: "The Electrical Contracting Award (MA000025) includes tool allowance, height allowance (per metre above a set threshold), dirty work allowance, confined space allowance, and travel allowance. Exact rates are updated by the Fair Work Commission annually — check the current award at fairwork.gov.au before setting up Xero pay items."
+  - question: "How do I set up tool allowance in Xero for electricians?"
+    answer: "In Xero Payroll, create a new Earnings pay item, select 'Allowance' as the type, and set the ATO reporting category to 'Tool allowances' under STP Phase 2 reporting. Enter the current weekly rate from the Electrical Contracting Award (MA000025). Assign the pay item to the relevant employees or add it manually each pay cycle for casual workers."
+  - question: "Are Electrical Award allowances subject to superannuation in Australia?"
+    answer: "Tool allowances are generally not subject to superannuation under the Superannuation Guarantee (SG) rules — they are reimbursements for expenses, not ordinary time earnings. Other allowances (height, dirty work) may be classified differently. Confirm the correct treatment with your accountant and ensure your Xero payroll setup reflects the correct super calculations."
+
 ---
 
 Every Monday morning, the same problem. The bookkeeper opens Xero, looks at the week's timesheets, and starts manually calculating height allowance, tool money, and dirt money for six electricians who all worked different sites with different conditions.

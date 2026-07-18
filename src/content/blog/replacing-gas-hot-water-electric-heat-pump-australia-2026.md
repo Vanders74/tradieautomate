@@ -5,6 +5,16 @@ pubDate: 'Jun 9 2026'
 category: "Solar & Battery"
 heroImage: '/hero-adding-battery-storage-business.jpg'
 tags: ['heat pump hot water', 'gas to electric', 'electrification', 'rebate', 'solar', 'electrician', 'compliance']
+faq:
+  - question: "How much does a gas-to-electric heat pump hot water conversion cost in Australia?"
+    answer: "A gas-to-electric heat pump conversion typically costs $2,500–$5,500 fully installed before rebates. After applying Small-scale Technology Certificates (STCs) from the Clean Energy Regulator (CER) and available state rebates (VIC Solar Homes, QLD rebate programs), customer out-of-pocket costs are often $1,200–$3,000 depending on location and system size."
+  - question: "Are heat pump hot water systems eligible for STCs?"
+    answer: "Yes. Heat pump hot water systems are eligible for Small-scale Technology Certificates (STCs) under the Small-scale Renewable Energy Scheme administered by the Clean Energy Regulator (CER). The number of STCs depends on climate zone and system size — typically generating $400–$1,200 in value that is assigned to the retailer/installer at point of sale as an upfront discount."
+  - question: "What electrical compliance is required for a heat pump hot water installation?"
+    answer: "All electrical work for a heat pump hot water installation must comply with AS/NZS 3000:2018 (Wiring Rules). A compliance certificate is required after completion — CCEW in NSW (SafeWork NSW requirements) or Certificate of Electrical Safety in Victoria (Energy Safe Victoria). If the switchboard is non-compliant, modifications may trigger an upgrade obligation."
+  - question: "What state rebates are available for gas-to-electric heat pump conversion in 2026?"
+    answer: "Victoria offers a rebate through the Solar Homes Program (Solar Victoria) and Victorian Energy Upgrades (VEU) program for eligible heat pump systems. NSW, QLD, and SA have varying incentives — check the relevant state energy authority before quoting. Federal STCs from the Clean Energy Regulator apply nationally."
+
 ---
 
 Gas connections are being phased out in new residential builds across multiple Australian states. Existing gas appliances — particularly gas hot water systems — are increasingly being replaced with electric alternatives as households electrify and as gas prices continue rising faster than electricity prices in many markets.
@@ -78,7 +88,7 @@ Gas-to-electric hot water conversion attracts multiple layers of rebates and inc
 
 ### Federal: Small-scale Technology Certificates (STCs)
 
-Heat pump hot water systems are eligible for STCs under the "solar water heater" category of the SRES. The number of STCs generated depends on:
+Heat pump hot water systems are eligible for STCs under the "solar water heater" category of the Small-scale Renewable Energy Scheme (SRES), administered by the Clean Energy Regulator (CER). The number of STCs generated depends on:
 - System capacity (litres)
 - Climate zone (1–5, with zone 1 tropical regions generating the most STCs)
 - Installation date
@@ -87,7 +97,9 @@ Typical STC value for a residential heat pump hot water installation: **$400–$
 
 STCs are typically assigned to the retailer/installer at point of sale in exchange for an upfront discount to the customer — the same mechanism used for solar PV. For the full STC creation and assignment process, see our [STC claim process guide](/blog/stc-claim-process-solar-installers-australia).
 
-### Victoria: Solar Homes Program Hot Water Rebate
+### Victoria: Solar Homes Program & Victorian Energy Upgrades (VEU)
+
+In Victoria, gas-to-electric hot water conversions may attract rebates through both the Solar Homes Program (Solar Victoria) and the Victorian Energy Upgrades (VEU) program administered by the Essential Services Commission. Installers must be registered under the relevant program to offer rebates at point of sale.
 
 Solar Victoria's Solar Homes Program includes a rebate for eligible heat pump hot water systems. The rebate amount and current eligibility criteria are available at solarvictoria.vic.gov.au. The same registration requirements apply as for the solar and battery rebates — see the [Solar Victoria rebate guide](/blog/vic-solar-homes-program-rebate-2026) for installer registration details.
 

@@ -3,8 +3,16 @@ title: 'Why Solar Installers Are Switching to Digital Job Management in 2026'
 description: "Paper checklists and WhatsApp photos won't cut it anymore. Here's why smart solar installers are going digital - and what to look for in a job management platform."
 pubDate: 'Feb 18 2026'
 category: "ServiceM8"
-updatedDate: 'Apr 18 2026'
+updatedDate: 'Jul 19 2026'
 heroImage: '/hero-digital-jobs.jpg'
+faq:
+  - question: "What documentation does the Clean Energy Regulator require for solar installations?"
+    answer: "The Clean Energy Regulator (CER) requires photographic evidence of the installation, a completed compliance checklist, signed customer declaration, and system specification records. Documentation must be retained for at least 5 years and produced on request during a CER audit."
+  - question: "How does digital job management help solar installers pass CER audits?"
+    answer: "Digital platforms capture GPS-stamped photos, timestamped compliance checklists, and customer sign-offs automatically at the point of work. This creates an audit-ready record that satisfies CER requirements without relying on paper documents that can be lost or completed retrospectively."
+  - question: "Do AS/NZS 5033 compliance requirements affect how solar jobs are documented?"
+    answer: "Yes. AS/NZS 5033:2021 requires specific labelling, isolator placement, and installation records that must be documented for each job. Digital forms built to match AS/NZS 5033 requirements ensure technicians capture every required item on-site, reducing the risk of incomplete documentation flagged in Clean Energy Council (CEC) accreditation audits."
+
 ---
 
 Here's a scenario most solar installers will recognise:
@@ -36,7 +44,7 @@ A good job management platform doesn't just replace paper — it creates a **sin
 No more copying job details between 4 different tools. One entry flows through the entire job lifecycle. Quote accepted? It converts to a job automatically. Job completed? Invoice goes out immediately. Every stage tracked, timestamped, and visible to the whole team.
 
 ### 2. Compliance Documentation Built In
-Digital forms, photo capture, checklists — all attached to the job record. When the auditor calls, you pull up the job in 10 seconds. This matters even more for battery storage jobs, which carry specific documentation obligations under [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance). The platform enforces compliance at the point of work — a technician literally cannot mark a job complete without filling in the required checklist items.
+Digital forms, photo capture, checklists — all attached to the job record. When the Clean Energy Regulator (CER) auditor calls, you pull up the job in 10 seconds. This matters even more for battery storage jobs, which carry specific documentation obligations under [AS/NZS 5139:2019](/blog/as-nzs-5139-battery-storage-compliance) and CEC accreditation conditions. The platform enforces compliance at the point of work — a technician literally cannot mark a job complete without filling in the required checklist items.
 
 ### 3. Real-Time Job Tracking
 Know which jobs are scheduled, in progress, or complete. From your phone. If a job runs long and is going to impact the afternoon booking, you know before the customer does — and you can send an automated update without anyone making a call.
@@ -51,7 +59,7 @@ Know your job costs, margins, and outstanding invoices in real time. Not at the 
 
 Let's talk about the risk that doesn't show up in your weekly admin hours tally.
 
-The Clean Energy Regulator conducted **over 800 installer audits** in the 2023–24 financial year. The most common non-compliance findings weren't about shoddy installs — they were about documentation:
+The Clean Energy Regulator (CER) conducted **over 800 installer audits** in the 2023–24 financial year. The most common non-compliance findings weren't about shoddy installs — they were about documentation:
 
 - Photos that couldn't be linked to specific jobs
 - Missing or incomplete compliance checklists

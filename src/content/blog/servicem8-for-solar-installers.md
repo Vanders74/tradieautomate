@@ -5,6 +5,14 @@ pubDate: 'Feb 22 2026'
 category: "ServiceM8"
 updatedDate: 'Apr 18 2026'
 heroImage: '/hero-servicem8-for-solar-installers.jpg'
+faq:
+  - question: "How does ServiceM8 help solar installers with CER compliance documentation?"
+    answer: "ServiceM8 captures GPS-timestamped photos, digital compliance checklists, and customer sign-offs automatically for every job. When the Clean Energy Regulator (CER) requests installation records during an audit, installers can retrieve a complete job record in seconds — including AS/NZS 5033:2021 checklist completion, system specifications, and before/after photos."
+  - question: "Can ServiceM8 manage STC documentation for solar installations?"
+    answer: "Yes. ServiceM8 job records capture all the information needed for Small-scale Technology Certificate (STC) claims: system size, installation date, installer CEC accreditation number, and customer details. Custom forms can mirror your STC claim checklist, ensuring every required item is captured on-site before the claim is submitted to the Clean Energy Regulator."
+  - question: "Does ServiceM8 support AS/NZS 5139 battery storage compliance documentation?"
+    answer: "Yes. ServiceM8's custom form builder allows you to create battery storage job templates that capture AS/NZS 5139:2019 specific requirements — labelling verification, ventilation clearance measurements, emergency response signage, and customer safety handover documentation. These records are stored with the job and retrievable for CEC accreditation audits."
+
 ---
 
 Every solar installer eventually hits the same wall.

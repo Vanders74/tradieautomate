@@ -2,9 +2,20 @@
 title: "QLD Electrical Contractor Licence 2026: QBCC, ESQ & QLeave"
 description: "QBCC and ESQ contractor licence requirements for Queensland electricians — application, renewal, MFR obligations, QLeave levy, and solar compliance in 2026."
 pubDate: 'Jun 9 2026'
+updatedDate: 'Jul 19 2026'
 category: "Compliance"
 heroImage: '/hero-qld-electrical-contractor-licence-2026.jpg'
 tags: ['Queensland', 'electrical contractor', 'QBCC', 'ESQ', 'compliance', 'solar', 'QLeave']
+faq:
+  - question: "What licences do I need to operate as an electrical contractor in Queensland?"
+    answer: "In Queensland, electrical contractors require both a Queensland Building and Construction Commission (QBCC) contractor licence and an Electrical Contractor Licence issued by the Electrical Safety Office (QLD). The QBCC licence covers financial requirements (Minimum Financial Requirements) and insurance, while the Electrical Safety Office licence covers electrical safety compliance under the Electrical Safety Act 2002 (QLD)."
+  - question: "What insurance is required for a QLD electrical contractor licence?"
+    answer: "QBCC requires electrical contractors to maintain public liability insurance of at least $5 million and professional indemnity insurance where applicable. You must also meet the QBCC Minimum Financial Requirements (MFR) for your licence category. Insurance certificates must be current at all times and produced on QBCC request."
+  - question: "Does a Queensland electrical contractor licence cover solar installation?"
+    answer: "Solar PV installation in Queensland requires both a current Electrical Safety Office (QLD) electrical licence and Clean Energy Council (CEC) accreditation as a solar installer. The QBCC licence is required if your solar work involves structural or building work (mounting systems, roof penetrations). The Electrical Safety Act 2002 (QLD) governs all electrical work including solar."
+  - question: "What is QLeave and do Queensland electrical contractors have to pay it?"
+    answer: "QLeave is Queensland's portable long service leave scheme for the building and construction industry. Electrical contractors must register with QLeave and pay the levy (currently 2.5% of ordinary time earnings) for all workers covered by the scheme. Failure to register and pay is a compliance offence under QLD legislation."
+
 ---
 
 If you're running an electrical contracting business in Queensland — whether that's residential solar installs, commercial fit-outs, or general electrical maintenance — you need the right licence. In Queensland, that means operating under the framework managed by the Queensland Building and Construction Commission (QBCC), with additional obligations to Electrical Safety Queensland and the QLeave portable long service leave scheme.

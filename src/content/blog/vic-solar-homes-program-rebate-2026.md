@@ -5,6 +5,16 @@ pubDate: 'Jun 9 2026'
 category: "Solar & Battery"
 heroImage: '/hero-vic-solar-homes-program-rebate-2026.jpg'
 tags: ['Victoria', 'Solar Homes Program', 'battery rebate', 'solar', 'Solar Victoria', 'VIC', 'installer']
+faq:
+  - question: "Who is eligible for the Solar Victoria battery rebate in 2026?"
+    answer: "Victorian households are eligible if their combined household taxable income is under $210,000 per year, they own the property, have an existing solar system meeting minimum size requirements, and have not previously received a Solar Victoria battery rebate for the same property. The battery must be on Solar Victoria's approved products list."
+  - question: "How much is the Solar Victoria battery rebate in 2026?"
+    answer: "Solar Victoria provides an upfront rebate of up to $2,950 (confirm current figure at solar.vic.gov.au — updated periodically) plus an optional interest-free loan of up to $8,800. The rebate is applied directly at point of sale — the installer claims it from Solar Victoria, not the customer."
+  - question: "Do installers need special registration to offer Solar Victoria rebates?"
+    answer: "Yes. Installers must be registered with Solar Victoria and hold current Clean Energy Council (CEC) accreditation as a solar installer or battery storage installer. All installations must comply with AS/NZS 5033:2021 (solar PV) and AS/NZS 5139:2019 (battery storage). Solar Victoria conducts post-installation audits and can suspend unregistered or non-compliant installers."
+  - question: "What batteries qualify for the Solar Victoria rebate?"
+    answer: "Only batteries on Solar Victoria's approved products list qualify. The list includes major brands such as Tesla Powerwall, Sonnen, and BYD — but check solar.vic.gov.au before quoting as the list is updated. Batteries must also meet AS/NZS 5139:2019 safety requirements and be installed by a CEC-accredited battery storage installer."
+
 ---
 
 Victoria's Solar Homes Program remains one of the most significant state-level incentives for residential solar and battery storage in Australia. For solar and battery installation businesses operating in Victoria, Solar Victoria registration — and a thorough understanding of the current rebate structure — is foundational to your business model.
@@ -70,7 +80,7 @@ Always verify the specific model before quoting — the approved list is updated
 
 ## Installer Registration: Solar Victoria Requirements
 
-To offer Solar Victoria rebates to customers, your business must be registered with Solar Victoria. This is mandatory — you cannot access the rebate on behalf of unregistered businesses.
+To offer Solar Victoria rebates to customers, your business must be registered with Solar Victoria and hold current Clean Energy Council (CEC) accreditation. This is mandatory — you cannot access the rebate on behalf of unregistered businesses. All solar PV installations must comply with AS/NZS 5033:2021 and all battery installations with AS/NZS 5139:2019 as conditions of CEC accreditation and Solar Victoria registration.
 
 ### Registration requirements:
 - Valid CEC accreditation (Design and Install endorsement)

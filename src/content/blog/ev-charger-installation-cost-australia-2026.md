@@ -5,6 +5,16 @@ pubDate: 'Jun 9 2026'
 category: "Business Growth"
 heroImage: '/hero-ev-charger-installation.jpg'
 tags: ['EV charger cost', 'EVSE installation', 'pricing', 'electrician', 'solar', 'EV charging Australia']
+faq:
+  - question: "How much does a residential EV charger installation cost in Australia in 2026?"
+    answer: "A standard residential EV charger installation in Australia typically costs $900–$2,500 including labour and materials, but not the charger hardware. Simple installs (modern home, switchboard capacity available, short cable run) sit at the lower end. Switchboard upgrades and long cable runs add $400–$2,500 to the total."
+  - question: "Do electricians need special certification to install EV chargers in Australia?"
+    answer: "A licensed electrical contractor's licence is required in all states. All EV charger wiring must comply with AS/NZS 3000:2018 (the Australian Wiring Rules). In Victoria, Energy Safe Victoria (ESV) governs compliance certificate requirements. In NSW, SafeWork NSW regulates electrical contractor licensing and compliance obligations."
+  - question: "When does an EV charger installation require a switchboard upgrade?"
+    answer: "A switchboard upgrade is required when there is insufficient spare capacity for the EV charger circuit, when the existing switchboard has rewireable fuses (pre-circuit breaker), or when the installation triggers compliance obligations under AS/NZS 3000:2018 requiring the existing board to be brought up to current standard. Switchboard upgrades typically add $1,200–$3,500 to the total job cost."
+  - question: "How long does an EV charger installation take?"
+    answer: "A straightforward residential EV charger installation takes 2–4 hours. Jobs requiring switchboard upgrades, long cable runs, or conduit through walls or under slabs typically take a full day (6–8 hours). Commercial multi-charger installations are scoped as multi-day projects."
+
 ---
 
 EV charger installation is one of the fastest-growing service lines for Australian electricians in 2026. Every new EV sold needs a home charger. Every commercial premises with a company fleet or customer-facing EV charging is a potential job. And unlike many residential electrical jobs, EV charger installations are often clean, fast, and high-margin.
@@ -39,7 +49,7 @@ A quality residential EV charger installation includes:
 - **Dedicated 32A circuit** from switchboard to charger location
 - **Weatherproof installation** where the charger is mounted externally
 - **RCD protection** on the charger circuit
-- **Compliance certificate** (state-specific — CCEW in NSW, CES in VIC, etc.)
+- **Compliance certificate** (state-specific — CCEW in NSW under SafeWork NSW requirements, Certificate of Electrical Safety (CES) in VIC under Energy Safe Victoria (ESV) requirements). All electrical work must comply with AS/NZS 3000:2018 (the Wiring Rules).
 - **EVSE commissioning** — app setup, smart charging configuration, solar integration where applicable
 - **Customer handover** including operation instructions and warranty documentation
 
