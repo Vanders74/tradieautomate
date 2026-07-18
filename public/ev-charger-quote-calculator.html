@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EV Charger Installation Cost Calculator — Australia 2026</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    font-size: 15px;
+    background: #f8fafc;
+    color: #1e293b;
+    line-height: 1.5;
+  }
+
+  .calc-wrap { max-width: 720px; margin: 0 auto; padding: 24px 16px 32px; }
+
+  /* ─── Progress bar ─── */
+  .progress-bar {
+    display: flex;
+    gap: 0;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+  }
+  .progress-step {
+    flex: 1;
+    padding: 10px 8px;
+    text-align: center;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #94a3b8;
+    background: white;
+    border-right: 1px solid #e2e8f0;
+    transition: background 0.2s, color 0.2s;
+    cursor: default;
+  }
+  .progress-step:last-child { border-right: none; }
+  .progress-step.active { background: #0f172a; color: #facc15; }
+  .progress-step.done { background: #f0fdf4; color: #16a34a; }
+
+  /* ─── Section blocks ─── */
+  .section {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
+    border: 1px solid #e2e8f0;
+    display: none;
+  }
+  .section.visible { display: block; }
+
+  .section-title {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: #94a3b8;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  /* ─── Card-button selectors ─── */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 10px;
+  }
+  .card-grid.two-col { grid-template-columns: 1fr 1fr; }
+  .card-grid.three-col { grid-template-columns: 1fr 1fr 1fr; }
+
+  .option-card {
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 14px 12px;
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s, transform 0.1s;
+    text-align: center;
+    user-select: none;
+    background: white;
+  }
+  .option-card:hover { border-color: #94a3b8; transform: translateY(-1px); }
+  .option-card.selected { border-color: #f97316; background: #fff7ed; }
+  .option-card .card-icon { font-size: 1.6rem; margin-bottom: 6px; display: block; }
+  .option-card .card-label { font-size: 0.82rem; font-weight: 700; color: #1e293b; line-height: 1.3; }
+  .option-card .card-hint { font-size: 0.72rem; color: #64748b; margin-top: 3px; line-height: 1.3; }
+
+  /* ─── Navigation buttons ─── */
+  .nav-row {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .btn-back {
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    background: white;
+    color: #475569;
+    font-size: 0.88rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .btn-back:hover { background: #f1f5f9; }
+  .btn-next {
+    flex: 1;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    background: #f97316;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.15s, transform 0.1s;
+  }
+  .btn-next:hover { background: #ea580c; transform: translateY(-1px); }
+  .btn-next:disabled { background: #e2e8f0; color: #94a3b8; cursor: not-allowed; transform: none; }
+
+  /* ─── Results panel ─── */
+  #results-panel { display: none; }
+  #results-panel.visible { display: block; }
+
+  .result-hero {
+    background: linear-gradient(135deg, #0f172a 0%, #1a2744 100%);
+    border-radius: 12px;
+    padding: 28px 24px;
+    color: white;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .result-hero .label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #94a3b8;
+    margin-bottom: 6px;
+  }
+  .result-hero .price-range {
+    font-size: clamp(1.8rem, 6vw, 2.8rem);
+    font-weight: 800;
+    color: #facc15;
+    line-height: 1.1;
+    margin-bottom: 6px;
+  }
+  .result-hero .price-sub {
+    font-size: 0.82rem;
+    color: #94a3b8;
+  }
+
+  /* ─── Breakdown table ─── */
+  .breakdown-card {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+    margin-bottom: 16px;
+  }
+  .breakdown-title {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: #94a3b8;
+    padding: 14px 16px 10px;
+    border-bottom: 1px solid #f1f5f9;
+  }
+  .breakdown-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 16px;
+    border-bottom: 1px solid #f8fafc;
+    font-size: 0.88rem;
+  }
+  .breakdown-row:last-child { border-bottom: none; }
+  .breakdown-row .row-label { color: #475569; }
+  .breakdown-row .row-value { font-weight: 700; color: #1e293b; }
+  .breakdown-row .row-value.highlight { color: #f97316; }
+  .breakdown-row.total-row {
+    background: #f8fafc;
+    font-weight: 700;
+    border-top: 2px solid #e2e8f0;
+  }
+  .breakdown-row.total-row .row-label { color: #0f172a; font-size: 0.92rem; }
+  .breakdown-row.total-row .row-value { color: #0f172a; font-size: 0.92rem; }
+
+  /* ─── Cost driver explainer ─── */
+  .driver-card {
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 16px;
+    font-size: 0.88rem;
+    color: #92400e;
+    line-height: 1.55;
+  }
+  .driver-card strong { color: #78350f; }
+
+  /* ─── What's always included ─── */
+  .included-card {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  .included-card h4 {
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #15803d;
+    margin-bottom: 8px;
+  }
+  .included-card ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .included-card ul li {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.8rem;
+    color: #166534;
+    background: white;
+    border: 1px solid #bbf7d0;
+    border-radius: 6px;
+    padding: 4px 8px;
+  }
+
+  /* ─── CTA ─── */
+  .cta-card {
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+    color: white;
+    margin-bottom: 16px;
+  }
+  .cta-card h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 6px; }
+  .cta-card p { font-size: 0.82rem; opacity: 0.92; margin-bottom: 16px; line-height: 1.5; }
+  .cta-btn-white {
+    display: inline-block;
+    background: white;
+    color: #ea580c;
+    font-weight: 700;
+    font-size: 0.88rem;
+    padding: 11px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 4px;
+    transition: transform 0.1s;
+  }
+  .cta-btn-white:hover { transform: translateY(-1px); }
+  .cta-btn-outline {
+    display: inline-block;
+    border: 2px solid rgba(255,255,255,0.7);
+    color: white;
+    font-weight: 600;
+    font-size: 0.82rem;
+    padding: 9px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 4px;
+    transition: background 0.15s;
+  }
+  .cta-btn-outline:hover { background: rgba(255,255,255,0.15); }
+
+  /* ─── Restart ─── */
+  .restart-row {
+    text-align: center;
+    margin-top: 8px;
+  }
+  .btn-restart {
+    background: none;
+    border: none;
+    color: #94a3b8;
+    font-size: 0.82rem;
+    cursor: pointer;
+    padding: 4px 8px;
+    text-decoration: underline;
+  }
+  .btn-restart:hover { color: #475569; }
+
+  /* ─── Selection summary strip ─── */
+  .summary-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+  .summary-pill {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    border-radius: 100px;
+    padding: 3px 10px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #475569;
+  }
+
+  /* Mobile */
+  @media (max-width: 480px) {
+    .card-grid.three-col { grid-template-columns: 1fr 1fr; }
+    .card-grid.two-col { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="calc-wrap">
+
+  <!-- Progress bar -->
+  <div class="progress-bar" id="progress-bar">
+    <div class="progress-step active" id="step-indicator-1">🏠 Property</div>
+    <div class="progress-step" id="step-indicator-2">⚡ Installation</div>
+    <div class="progress-step" id="step-indicator-3">🔌 Hardware</div>
+  </div>
+
+  <!-- ───────────────────────────────────────
+       STEP 1 — Property
+  ─────────────────────────────────────── -->
+  <div class="section visible" id="step-1">
+    <div class="section-title">🏠 Step 1 of 3 — Property Type</div>
+
+    <div class="card-grid three-col" id="q-property">
+      <div class="option-card" data-q="property" data-v="house">
+        <span class="card-icon">🏡</span>
+        <div class="card-label">House</div>
+        <div class="card-hint">Detached home with own switchboard</div>
+      </div>
+      <div class="option-card" data-q="property" data-v="townhouse">
+        <span class="card-icon">🏘️</span>
+        <div class="card-label">Townhouse</div>
+        <div class="card-hint">Attached dwelling, own meter</div>
+      </div>
+      <div class="option-card" data-q="property" data-v="apartment">
+        <span class="card-icon">🏢</span>
+        <div class="card-label">Apartment / Unit</div>
+        <div class="card-hint">Strata, shared building</div>
+      </div>
+    </div>
+
+    <div class="nav-row">
+      <div></div>
+      <button class="btn-next" id="next-1" disabled onclick="goStep(2)">Next: Installation →</button>
+    </div>
+  </div>
+
+  <!-- ───────────────────────────────────────
+       STEP 2 — Installation details
+  ─────────────────────────────────────── -->
+  <div class="section" id="step-2">
+    <div class="section-title">⚡ Step 2 of 3 — Installation Details</div>
+
+    <div class="section-title" style="margin-top:0; margin-bottom:10px; font-size:0.78rem; color:#1e293b; font-weight:600; text-transform:none; letter-spacing:0;">
+      How old is your switchboard / fuse box?
+    </div>
+    <div class="card-grid three-col" id="q-switchboard" style="margin-bottom:18px;">
+      <div class="option-card" data-q="switchboard" data-v="modern">
+        <span class="card-icon">✅</span>
+        <div class="card-label">Modern</div>
+        <div class="card-hint">Less than 15 yrs, RCDs fitted, spare breaker slots</div>
+      </div>
+      <div class="option-card" data-q="switchboard" data-v="ageing">
+        <span class="card-icon">⚠️</span>
+        <div class="card-label">Older (15–30 yrs)</div>
+        <div class="card-hint">May need breaker added or partial upgrade</div>
+      </div>
+      <div class="option-card" data-q="switchboard" data-v="old">
+        <span class="card-icon">🔴</span>
+        <div class="card-label">Old / Fuse board</div>
+        <div class="card-hint">Pre-2000 or unsure — likely needs upgrade</div>
+      </div>
+    </div>
+
+    <div class="section-title" style="margin-top:0; margin-bottom:10px; font-size:0.78rem; color:#1e293b; font-weight:600; text-transform:none; letter-spacing:0;">
+      Distance from switchboard to where the charger will go?
+    </div>
+    <div class="card-grid three-col" id="q-cablerun" style="margin-bottom:18px;">
+      <div class="option-card" data-q="cablerun" data-v="short">
+        <span class="card-icon">📏</span>
+        <div class="card-label">Short (&lt;5m)</div>
+        <div class="card-hint">Garage right next to the metre box</div>
+      </div>
+      <div class="option-card" data-q="cablerun" data-v="medium">
+        <span class="card-icon">📐</span>
+        <div class="card-label">Medium (5–15m)</div>
+        <div class="card-hint">Across the house or a longer wall run</div>
+      </div>
+      <div class="option-card" data-q="cablerun" data-v="long">
+        <span class="card-icon">🔗</span>
+        <div class="card-label">Long (15m+)</div>
+        <div class="card-hint">Carport at end of driveway, under-house runs</div>
+      </div>
+    </div>
+
+    <div class="section-title" style="margin-top:0; margin-bottom:10px; font-size:0.78rem; color:#1e293b; font-weight:600; text-transform:none; letter-spacing:0;">
+      Where will the charger be mounted?
+    </div>
+    <div class="card-grid two-col" id="q-location" style="margin-bottom:18px;">
+      <div class="option-card" data-q="location" data-v="indoor">
+        <span class="card-icon">🏠</span>
+        <div class="card-label">Garage / Indoor</div>
+        <div class="card-hint">Sheltered, no weatherproofing needed</div>
+      </div>
+      <div class="option-card" data-q="location" data-v="outdoor">
+        <span class="card-icon">🌧️</span>
+        <div class="card-label">Carport / Outdoor</div>
+        <div class="card-hint">Needs IP-rated mount and outdoor conduit</div>
+      </div>
+    </div>
+
+    <div class="section-title" style="margin-top:0; margin-bottom:10px; font-size:0.78rem; color:#1e293b; font-weight:600; text-transform:none; letter-spacing:0;">
+      Your state (affects compliance certificate cost)?
+    </div>
+    <div class="card-grid" style="grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); margin-bottom:4px;" id="q-state">
+      <div class="option-card" data-q="state" data-v="nsw">
+        <span class="card-icon">🦘</span>
+        <div class="card-label">NSW</div>
+      </div>
+      <div class="option-card" data-q="state" data-v="vic">
+        <span class="card-icon">🏙️</span>
+        <div class="card-label">VIC</div>
+      </div>
+      <div class="option-card" data-q="state" data-v="qld">
+        <span class="card-icon">☀️</span>
+        <div class="card-label">QLD</div>
+      </div>
+      <div class="option-card" data-q="state" data-v="sa">
+        <span class="card-icon">🍷</span>
+        <div class="card-label">SA</div>
+      </div>
+      <div class="option-card" data-q="state" data-v="wa">
+        <span class="card-icon">🌊</span>
+        <div class="card-label">WA</div>
+      </div>
+      <div class="option-card" data-q="state" data-v="other">
+        <span class="card-icon">🗺️</span>
+        <div class="card-label">Other</div>
+      </div>
+    </div>
+
+    <div class="nav-row">
+      <button class="btn-back" onclick="goStep(1)">← Back</button>
+      <button class="btn-next" id="next-2" disabled onclick="goStep(3)">Next: Hardware →</button>
+    </div>
+  </div>
+
+  <!-- ───────────────────────────────────────
+       STEP 3 — Hardware & Charger Type
+  ─────────────────────────────────────── -->
+  <div class="section" id="step-3">
+    <div class="section-title">🔌 Step 3 of 3 — Charger & Hardware</div>
+
+    <div class="section-title" style="margin-top:0; margin-bottom:10px; font-size:0.78rem; color:#1e293b; font-weight:600; text-transform:none; letter-spacing:0;">
+      What charger type do you need?
+    </div>
+    <div class="card-grid three-col" id="q-chargertype" style="margin-bottom:18px;">
+      <div class="option-card" data-q="chargertype" data-v="single">
+        <span class="card-icon">⚡</span>
+        <div class="card-label">Single-phase 7.2kW</div>
+        <div class="card-hint">Most common — fills most EVs overnight</div>
+      </div>
+      <div class="option-card" data-q="chargertype" data-v="three">
+        <span class="card-icon">⚡⚡</span>
+        <div class="card-label">Three-phase 22kW</div>
+        <div class="card-hint">Faster — needs 3-phase supply at property</div>
+      </div>
+      <div class="option-card" data-q="chargertype" data-v="unsure">
+        <span class="card-icon">🤔</span>
+        <div class="card-label">Not sure yet</div>
+        <div class="card-hint">We'll estimate based on single-phase</div>
+      </div>
+    </div>
+
+    <div class="section-title" style="margin-top:0; margin-bottom:10px; font-size:0.78rem; color:#1e293b; font-weight:600; text-transform:none; letter-spacing:0;">
+      Who supplies the charger hardware?
+    </div>
+    <div class="card-grid three-col" id="q-hardware">
+      <div class="option-card" data-q="hardware" data-v="customer">
+        <span class="card-icon">📦</span>
+        <div class="card-label">I supply my own</div>
+        <div class="card-hint">Already purchased (e.g. Zappi, Tesla Wall Connector)</div>
+      </div>
+      <div class="option-card" data-q="hardware" data-v="standard">
+        <span class="card-icon">🔌</span>
+        <div class="card-label">Installer supplies (standard)</div>
+        <div class="card-hint">Quality 7kW wall charger, AU standards certified</div>
+      </div>
+      <div class="option-card" data-q="hardware" data-v="smart">
+        <span class="card-icon">📱</span>
+        <div class="card-label">Installer supplies (smart)</div>
+        <div class="card-hint">App-controlled, solar & time-of-use optimised</div>
+      </div>
+    </div>
+
+    <div class="nav-row">
+      <button class="btn-back" onclick="goStep(2)">← Back</button>
+      <button class="btn-next" id="next-3" disabled onclick="showResults()">See My Estimate →</button>
+    </div>
+  </div>
+
+  <!-- ───────────────────────────────────────
+       RESULTS
+  ─────────────────────────────────────── -->
+  <div id="results-panel">
+
+    <!-- Summary pills -->
+    <div class="summary-strip" id="summary-strip"></div>
+
+    <!-- Price hero -->
+    <div class="result-hero">
+      <div class="label">Estimated Installation Cost — Australia 2026</div>
+      <div class="price-range" id="result-price"></div>
+      <div class="price-sub">Inc. GST &bull; Labour, materials &amp; compliance certificate &bull; Indicative range based on typical job variables</div>
+    </div>
+
+    <!-- Breakdown -->
+    <div class="breakdown-card">
+      <div class="breakdown-title">📋 Cost Breakdown</div>
+      <div id="breakdown-rows"></div>
+      <div class="breakdown-row total-row">
+        <span class="row-label">Total estimated range</span>
+        <span class="row-value" id="total-row-value"></span>
+      </div>
+    </div>
+
+    <!-- Cost driver explainer -->
+    <div class="driver-card" id="driver-text"></div>
+
+    <!-- What's always included -->
+    <div class="included-card">
+      <h4>✅ Always included in a quality installation</h4>
+      <ul>
+        <li>✓ Dedicated 32A circuit</li>
+        <li>✓ RCD protection</li>
+        <li>✓ Compliance certificate</li>
+        <li>✓ EVSE commissioning</li>
+        <li>✓ App setup &amp; handover</li>
+        <li>✓ AS/NZS 3000:2018 compliance</li>
+      </ul>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-card">
+      <h3>Ready for an accurate quote?</h3>
+      <p>Find a licensed electrician near you, or see how ServiceM8 helps electricians manage EV charger jobs — from quote to compliance certificate.</p>
+      <a href="https://www.cec.org.au/consumers/i-want-to/find-an-accredited-installer" class="cta-btn-white" target="_blank" rel="noopener">Find a CEC-Accredited Electrician →</a>
+      <a href="https://www.servicem8.com/?ref=tradieautomate" class="cta-btn-outline" target="_blank" rel="noopener">ServiceM8 Free Trial</a>
+    </div>
+
+    <div class="restart-row">
+      <button class="btn-restart" onclick="restartCalc()">↩ Start over with different inputs</button>
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+// ─────────────────────────────────────────
+// State
+// ─────────────────────────────────────────
+const selections = {
+  property: null,
+  switchboard: null,
+  cablerun: null,
+  location: null,
+  state: null,
+  chargertype: null,
+  hardware: null,
+};
+
+// Which questions belong to which step (for validation)
+const stepQuestions = {
+  1: ['property'],
+  2: ['switchboard', 'cablerun', 'location', 'state'],
+  3: ['chargertype', 'hardware'],
+};
+
+// ─────────────────────────────────────────
+// Card selection logic
+// ─────────────────────────────────────────
+document.querySelectorAll('.option-card').forEach(card => {
+  card.addEventListener('click', () => {
+    const q = card.dataset.q;
+    const v = card.dataset.v;
+    // Deselect siblings
+    document.querySelectorAll(`.option-card[data-q="${q}"]`).forEach(c => c.classList.remove('selected'));
+    card.classList.add('selected');
+    selections[q] = v;
+    checkStepReady(getCurrentStep());
+  });
+});
+
+function getCurrentStep() {
+  for (let s = 1; s <= 3; s++) {
+    if (document.getElementById(`step-${s}`).classList.contains('visible')) return s;
+  }
+  return 1;
+}
+
+function checkStepReady(step) {
+  const qs = stepQuestions[step];
+  const ready = qs.every(q => selections[q] !== null);
+  const btn = document.getElementById(`next-${step}`);
+  if (btn) btn.disabled = !ready;
+}
+
+// ─────────────────────────────────────────
+// Navigation
+// ─────────────────────────────────────────
+function goStep(n) {
+  for (let s = 1; s <= 3; s++) {
+    document.getElementById(`step-${s}`).classList.remove('visible');
+    const ind = document.getElementById(`step-indicator-${s}`);
+    if (s < n) {
+      ind.classList.remove('active');
+      ind.classList.add('done');
+    } else if (s === n) {
+      ind.classList.add('active');
+      ind.classList.remove('done');
+    } else {
+      ind.classList.remove('active', 'done');
+    }
+  }
+  document.getElementById(`step-${n}`).classList.add('visible');
+  checkStepReady(n);
+  postHeight();
+  window.scrollTo && window.scrollTo(0, 0);
+}
+
+// ─────────────────────────────────────────
+// Pricing engine
+// ─────────────────────────────────────────
+function calcPrice() {
+  // ── Base cost: circuit install (labour + materials, no hardware)
+  let baseMin = 700;
+  let baseMax = 1100;
+
+  // ── Charger type uplift
+  if (selections.chargertype === 'three') {
+    baseMin += 600; baseMax += 1200;
+  }
+
+  // ── Switchboard uplift
+  if (selections.switchboard === 'ageing') {
+    baseMin += 400; baseMax += 800;
+  } else if (selections.switchboard === 'old') {
+    baseMin += 800; baseMax += 2500;
+  }
+
+  // ── Cable run uplift
+  if (selections.cablerun === 'medium') {
+    baseMin += 200; baseMax += 400;
+  } else if (selections.cablerun === 'long') {
+    baseMin += 400; baseMax += 800;
+  }
+
+  // ── Outdoor / weatherproofing uplift
+  if (selections.location === 'outdoor') {
+    baseMin += 150; baseMax += 400;
+  }
+
+  // ── Apartment uplift (strata approvals, complex wiring)
+  if (selections.property === 'apartment') {
+    baseMin += 500; baseMax += 1200;
+  }
+
+  // ── Hardware cost
+  let hwMin = 0, hwMax = 0;
+  if (selections.hardware === 'standard') {
+    hwMin = 600; hwMax = 900;
+  } else if (selections.hardware === 'smart') {
+    hwMin = 900; hwMax = 1400;
+  }
+
+  // ── Compliance cert (varies by state)
+  const certCosts = {
+    nsw: [250, 350], vic: [200, 300], qld: [200, 320],
+    sa: [180, 280], wa: [180, 280], other: [200, 350],
+  };
+  const [certMin, certMax] = certCosts[selections.state] || [200, 350];
+
+  const totalMin = baseMin + hwMin + certMin;
+  const totalMax = baseMax + hwMax + certMax;
+
+  return {
+    base: { min: baseMin, max: baseMax },
+    hardware: { min: hwMin, max: hwMax },
+    cert: { min: certMin, max: certMax },
+    total: { min: totalMin, max: totalMax },
+  };
+}
+
+function fmt(n) {
+  return '$' + n.toLocaleString('en-AU', { maximumFractionDigits: 0 });
+}
+
+function getDriverText() {
+  const drivers = [];
+
+  if (selections.switchboard === 'old') {
+    drivers.push('<strong>Your main cost driver is the switchboard.</strong> Older fuse boards often need a full upgrade to support a 32A EV circuit safely — this alone can add $800–$2,500 to the job. Your electrician will assess on-site before confirming the final price.');
+  } else if (selections.switchboard === 'ageing') {
+    drivers.push('<strong>Your switchboard may need work.</strong> Boards aged 15–30 years sometimes need a new circuit breaker or partial upgrade before an EV circuit can be added — typically $400–$800 extra.');
+  }
+
+  if (selections.cablerun === 'long') {
+    drivers.push('<strong>A long cable run adds cost.</strong> Running 32A cable over 15m+ (especially under the house or through multiple walls) requires heavier cable to stay within voltage drop limits under AS/NZS 3000. This adds time and materials.');
+  }
+
+  if (selections.property === 'apartment') {
+    drivers.push('<strong>Apartment installations are complex.</strong> Strata approval, shared risers, and building management coordination can add significant cost and time. Get written strata approval before engaging an electrician.');
+  }
+
+  if (selections.hardware === 'smart') {
+    drivers.push('<strong>Smart charger integration takes time.</strong> Solar pairing, app commissioning, and time-of-use configuration typically adds 30–60 minutes to the installation — worth it for ongoing savings, but factor it into your quote comparison.');
+  }
+
+  if (drivers.length === 0) {
+    drivers.push('<strong>Your job looks straightforward.</strong> Modern switchboard, short cable run, and a simple install location — this is the ideal EV charger job. Expect quotes toward the lower end of this range.');
+  }
+
+  return drivers.join('<br><br>');
+}
+
+function buildSummaryPills() {
+  const labels = {
+    property: { house: 'House', townhouse: 'Townhouse', apartment: 'Apartment' },
+    switchboard: { modern: 'Modern board', ageing: 'Older board', old: 'Old/fuse board' },
+    cablerun: { short: 'Short run', medium: 'Medium run', long: 'Long run' },
+    location: { indoor: 'Indoor', outdoor: 'Outdoor' },
+    state: { nsw: 'NSW', vic: 'VIC', qld: 'QLD', sa: 'SA', wa: 'WA', other: 'Other state' },
+    chargertype: { single: '7.2kW single-phase', three: '22kW three-phase', unsure: 'Single-phase est.' },
+    hardware: { customer: 'Customer supplies HW', standard: 'Standard charger', smart: 'Smart charger' },
+  };
+  const strip = document.getElementById('summary-strip');
+  strip.innerHTML = '';
+  Object.keys(labels).forEach(q => {
+    if (selections[q] && labels[q][selections[q]]) {
+      const pill = document.createElement('div');
+      pill.className = 'summary-pill';
+      pill.textContent = labels[q][selections[q]];
+      strip.appendChild(pill);
+    }
+  });
+}
+
+function buildBreakdown(prices) {
+  const rows = document.getElementById('breakdown-rows');
+  rows.innerHTML = '';
+
+  const items = [
+    { label: 'Circuit installation (labour + materials)', min: prices.base.min, max: prices.base.max },
+  ];
+  if (prices.hardware.min > 0) {
+    const hwLabel = selections.hardware === 'smart' ? 'Smart charger hardware' : 'Standard charger hardware';
+    items.push({ label: hwLabel, min: prices.hardware.min, max: prices.hardware.max });
+  }
+  items.push({ label: `Compliance certificate (${(selections.state || 'AU').toUpperCase()})`, min: prices.cert.min, max: prices.cert.max });
+
+  items.forEach(item => {
+    const row = document.createElement('div');
+    row.className = 'breakdown-row';
+    row.innerHTML = `<span class="row-label">${item.label}</span><span class="row-value">${fmt(item.min)} – ${fmt(item.max)}</span>`;
+    rows.appendChild(row);
+  });
+}
+
+// ─────────────────────────────────────────
+// Show results
+// ─────────────────────────────────────────
+function showResults() {
+  // Hide all steps and progress
+  for (let s = 1; s <= 3; s++) {
+    document.getElementById(`step-${s}`).classList.remove('visible');
+    const ind = document.getElementById(`step-indicator-${s}`);
+    ind.classList.remove('active');
+    ind.classList.add('done');
+  }
+
+  const prices = calcPrice();
+
+  buildSummaryPills();
+  document.getElementById('result-price').textContent = `${fmt(prices.total.min)} – ${fmt(prices.total.max)}`;
+  document.getElementById('total-row-value').textContent = `${fmt(prices.total.min)} – ${fmt(prices.total.max)}`;
+  buildBreakdown(prices);
+  document.getElementById('driver-text').innerHTML = getDriverText();
+
+  document.getElementById('results-panel').classList.add('visible');
+  document.getElementById('progress-bar').style.display = 'none';
+
+  postHeight();
+  window.scrollTo && window.scrollTo(0, 0);
+}
+
+// ─────────────────────────────────────────
+// Restart
+// ─────────────────────────────────────────
+function restartCalc() {
+  Object.keys(selections).forEach(k => selections[k] = null);
+  document.querySelectorAll('.option-card').forEach(c => c.classList.remove('selected'));
+  document.getElementById('results-panel').classList.remove('visible');
+  document.getElementById('progress-bar').style.display = 'flex';
+  goStep(1);
+}
+
+// ─────────────────────────────────────────
+// iframe auto-resize
+// ─────────────────────────────────────────
+function postHeight() {
+  setTimeout(() => {
+    const h = document.body.scrollHeight;
+    window.parent && window.parent.postMessage({ type: 'resize', height: h }, '*');
+  }, 80);
+}
+
+// Initial height post
+window.addEventListener('load', postHeight);
+</script>
+</body>
+</html>

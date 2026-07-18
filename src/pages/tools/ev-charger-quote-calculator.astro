@@ -1,0 +1,370 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE } from '../../consts';
+
+const title = "EV Charger Installation Cost Calculator Australia 2026 | Free Estimator";
+const description = "Free EV charger installation cost calculator for Australian homeowners. Get an instant cost estimate for your property — house, townhouse or apartment — with breakdown by switchboard, cable run, hardware and compliance cert.";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <style>
+      .tool-hero {
+        background: linear-gradient(135deg, #0f172a 0%, #1a2744 100%);
+        color: white;
+        padding: 56px 24px 48px;
+        text-align: center;
+      }
+
+      .tool-hero .badge {
+        display: inline-block;
+        background: rgba(34, 197, 94, 0.12);
+        border: 1px solid rgba(34, 197, 94, 0.35);
+        color: #4ade80;
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        padding: 4px 12px;
+        border-radius: 100px;
+        margin-bottom: 16px;
+      }
+
+      .tool-hero h1 {
+        font-size: clamp(1.6rem, 4vw, 2.5rem);
+        font-weight: 800;
+        line-height: 1.2;
+        margin: 0 auto 16px;
+        max-width: 720px;
+        color: #ffffff !important;
+        text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+      }
+
+      .tool-hero p {
+        font-size: 1.05rem;
+        color: #cbd5e1;
+        max-width: 580px;
+        margin: 0 auto;
+      }
+
+      .tool-stats {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+        margin-top: 32px;
+        flex-wrap: wrap;
+      }
+
+      .stat { text-align: center; }
+
+      .stat-number {
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: #4ade80;
+        display: block;
+      }
+
+      .stat-label {
+        font-size: 0.8rem;
+        color: #64748b;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+      }
+
+      .tool-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 48px 24px;
+      }
+
+      .calc-wrapper {
+        background: white;
+        border-radius: 16px;
+        overflow: visible;
+        box-shadow: 0 4px 32px rgba(0,0,0,0.1);
+      }
+
+      .context-block {
+        margin-top: 40px;
+        background: #f8fafc;
+        border-radius: 12px;
+        padding: 28px 32px;
+        border: 1px solid #e2e8f0;
+      }
+
+      .context-block h2 {
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: #0f172a;
+        margin-bottom: 12px;
+      }
+
+      .context-block p {
+        color: #475569;
+        font-size: 0.93rem;
+        line-height: 1.65;
+        margin-bottom: 10px;
+      }
+
+      .context-block p:last-child { margin-bottom: 0; }
+
+      .context-block ul {
+        color: #475569;
+        font-size: 0.93rem;
+        line-height: 1.65;
+        padding-left: 18px;
+      }
+
+      .context-block ul li { margin-bottom: 6px; }
+
+      .what-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+        gap: 14px;
+        margin-top: 20px;
+      }
+
+      .what-card {
+        background: white;
+        border: 1px solid #e2e8f0;
+        border-radius: 10px;
+        padding: 16px;
+      }
+
+      .what-card .icon { font-size: 1.4rem; margin-bottom: 6px; display: block; }
+      .what-card .label { font-size: 0.82rem; font-weight: 700; color: #374151; margin-bottom: 4px; }
+      .what-card .desc { font-size: 0.78rem; color: #6b7280; line-height: 1.4; }
+
+      .disclaimer-block {
+        background: #fffbeb;
+        border: 1px solid #fde68a;
+        border-radius: 10px;
+        padding: 16px 20px;
+        font-size: 0.85rem;
+        color: #92400e;
+        margin-top: 20px;
+        line-height: 1.55;
+      }
+
+      .disclaimer-block strong { color: #78350f; }
+
+      .cta-block {
+        margin-top: 40px;
+        background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+        border-radius: 12px;
+        padding: 32px;
+        text-align: center;
+        color: white;
+      }
+
+      .cta-block h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 8px; color: white !important; }
+      .cta-block p { font-size: 0.88rem; opacity: 0.92; margin-bottom: 20px; }
+
+      .cta-btn {
+        display: inline-block;
+        background: white;
+        color: #ea580c;
+        font-weight: 700;
+        font-size: 0.95rem;
+        padding: 12px 28px;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: transform 0.1s, box-shadow 0.1s;
+      }
+
+      .cta-btn:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+      }
+
+      .tools-nav {
+        margin-top: 32px;
+        padding-top: 24px;
+        border-top: 1px solid #e2e8f0;
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      .tools-nav a {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: #f1f5f9;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        padding: 8px 14px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: #475569;
+        text-decoration: none;
+        transition: background 0.15s;
+      }
+
+      .tools-nav a:hover { background: #e2e8f0; color: #1e293b; }
+
+      .back-links { margin-top: 24px; }
+
+      .back-links h4 {
+        font-size: 0.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: #94a3b8;
+        margin-bottom: 10px;
+      }
+
+      .back-links ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .back-links ul li a { color: #f97316; text-decoration: none; font-size: 0.88rem; font-weight: 600; }
+      .back-links ul li a:hover { text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <div class="tool-hero">
+        <div class="badge">⚡ Free Tool — EV Owners &amp; Electricians</div>
+        <h1>How Much Does EV Charger Installation Cost in Australia?</h1>
+        <p>Answer 7 quick questions about your property and get an instant, itemised cost estimate — based on real 2026 Australian installation data.</p>
+        <div class="tool-stats">
+          <div class="stat">
+            <span class="stat-number">7 questions</span>
+            <span class="stat-label">No email required</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">Real data</span>
+            <span class="stat-label">2026 AU install costs</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">All states</span>
+            <span class="stat-label">NSW · VIC · QLD · SA · WA</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tool-container">
+        <div class="calc-wrapper">
+          <iframe
+            src="/ev-charger-quote-calculator.html"
+            width="100%"
+            height="700"
+            frameborder="0"
+            scrolling="no"
+            style="display: block; border-radius: 16px; min-height: 700px; transition: height 0.2s ease;"
+            title="EV Charger Installation Cost Calculator"
+            id="ev-calc-iframe"
+          ></iframe>
+        </div>
+
+        <script>
+          (function() {
+            function resizeIframe(h) {
+              var iframe = document.getElementById('ev-calc-iframe');
+              if (iframe) {
+                var newH = Math.max(h + 40, 700);
+                iframe.style.height = newH + 'px';
+              }
+            }
+            window.addEventListener('message', function(e) {
+              if (e.data && e.data.type === 'resize') {
+                resizeIframe(e.data.height);
+              }
+            });
+            var iframe = document.getElementById('ev-calc-iframe');
+            if (iframe) {
+              iframe.addEventListener('load', function() {
+                setTimeout(function() {
+                  try {
+                    var h = iframe.contentWindow.document.body.scrollHeight;
+                    if (h > 0) resizeIframe(h);
+                  } catch(err) {}
+                }, 300);
+              });
+            }
+          })();
+        </script>
+
+        <!-- What the calculator covers -->
+        <div class="context-block">
+          <h2>What This Calculator Accounts For</h2>
+          <div class="what-grid">
+            <div class="what-card">
+              <span class="icon">🔌</span>
+              <div class="label">Circuit Installation</div>
+              <div class="desc">Dedicated 32A circuit from switchboard to charger, including all cabling and conduit</div>
+            </div>
+            <div class="what-card">
+              <span class="icon">⚡</span>
+              <div class="label">Switchboard Work</div>
+              <div class="desc">Breaker addition or board upgrade cost based on your switchboard age</div>
+            </div>
+            <div class="what-card">
+              <span class="icon">📏</span>
+              <div class="label">Cable Run Distance</div>
+              <div class="desc">Longer runs require heavier cable under AS/NZS 3000 — this is a common cost surprise</div>
+            </div>
+            <div class="what-card">
+              <span class="icon">📋</span>
+              <div class="label">Compliance Certificate</div>
+              <div class="desc">State-specific electrical compliance cert (CCEW in NSW, CES in VIC, etc.) — legally required</div>
+            </div>
+          </div>
+
+          <div class="disclaimer-block">
+            <strong>This is an indicative estimate, not a binding quote.</strong> Final pricing depends on a site assessment by a licensed electrician — especially switchboard condition, cable path complexity, and any pre-existing non-compliance that may need to be rectified. Always get 2–3 quotes for EV charger installation. Cost data is based on 2026 Australian market rates sourced from our <a href="/blog/ev-charger-installation-cost-australia-2026" style="color:#78350f;">EV charger cost guide</a>.
+          </div>
+        </div>
+
+        <!-- When to get a site visit -->
+        <div class="context-block">
+          <h2>When to Ask for a Site Assessment First</h2>
+          <ul>
+            <li><strong>Your switchboard is older than 15 years</strong> — a sparky needs to confirm there's capacity for a 32A circuit before quoting accurately</li>
+            <li><strong>Your garage is more than 10m from the metre box</strong> — cable path and voltage drop calculations affect the quote</li>
+            <li><strong>You're in a strata/apartment building</strong> — strata approval, building manager sign-off, and shared riser access all need to be confirmed before any work begins</li>
+            <li><strong>You want solar integration</strong> — smart charger pairing with your inverter model should be confirmed before hardware is purchased</li>
+            <li><strong>The property is older than 30 years</strong> — aluminium wiring, asbestos-lined walls, or ceramic fuse boards create complications that only a site visit will reveal</li>
+          </ul>
+        </div>
+
+        <div class="cta-block">
+          <h3>Are You an Electrician Quoting EV Charger Jobs?</h3>
+          <p>ServiceM8 has job templates purpose-built for EV charger installations — compliance checklists, photo capture, AS/NZS 3000 sign-off, and automatic invoicing when the job closes.</p>
+          <a href="https://www.servicem8.com/?ref=tradieautomate" class="cta-btn" target="_blank" rel="noopener">
+            Start Your Free 14-Day Trial →
+          </a>
+        </div>
+
+        <div class="tools-nav">
+          <a href="/tools/solar-savings-calculator">📊 Solar Savings Calculator</a>
+          <a href="/tools/solar-quote-calculator">☀️ Solar Quote Calculator</a>
+          <a href="/tools/admin-cost-calculator">🧮 Admin Cost Calculator</a>
+          <a href="/tools/">🔧 All Free Tools</a>
+        </div>
+
+        <div class="back-links">
+          <h4>Related Articles</h4>
+          <ul>
+            <li><a href="/blog/ev-charger-installation-cost-australia-2026">EV Charger Installation Costs Australia 2026</a></li>
+            <li><a href="/blog/ev-charger-installation-electricians-australia-2026">EV Charger Compliance &amp; Workflow for Electricians</a></li>
+            <li><a href="/blog/ev-charging-commercial-premises-australia-2026">Commercial EV Charging — What Electricians Need to Know</a></li>
+            <li><a href="/blog/servicem8-for-electricians">ServiceM8 for Electricians</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
