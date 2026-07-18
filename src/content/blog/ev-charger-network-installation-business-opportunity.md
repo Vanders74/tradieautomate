@@ -2,9 +2,20 @@
 title: "EV Charger Network Installation: Business Guide for Electricians"
 description: "How Australian electricians build a profitable EV charging network business — fleet depots, strata, councils, CPMS, DLM, and commercial EV project pricing."
 pubDate: 'Jun 9 2026'
+updatedDate: 'Jul 19 2026'
 category: "Business Growth"
 heroImage: '/hero-ev-charger-network-installation-business.jpg'
 tags: ['EV charging', 'business growth', 'electrician', 'strata', 'fleet', 'commercial', 'CPMS', 'DLM']
+faq:
+  - question: "How much does a commercial EV charging network installation cost in Australia?"
+    answer: "Installed costs vary by scale: a 4-charger workplace system with DLM and CPMS typically costs $18,000–$35,000; a 20-charger strata building with sub-metering ranges from $55,000–$130,000; a 30-charger fleet depot with full CPMS and DLM runs $90,000–$200,000. These figures include hardware, labour, CPMS setup, and compliance documentation."
+  - question: "What licences and accreditations do I need to install EV charger networks in Australia?"
+    answer: "A state electrical contractor licence is required for all EV charger installation work under each state's electrical safety legislation — the Electrical Safety Act 2002 (QLD), Energy Safe Victoria (ESV) requirements (VIC), and SafeWork NSW (NSW). All wiring must comply with AS/NZS 3000:2018. Clean Energy Council (CEC) accreditation is not required for EV charging (unlike solar PV)."
+  - question: "What is a Charge Point Management System (CPMS) and do I need one?"
+    answer: "A CPMS manages charger operations: access control, energy monitoring, billing, dynamic load management, and reporting. For commercial multi-user installations with 4+ chargers, a CPMS is practically essential. Common Australian platforms include Monta, Ampeco, and ChargeHQ Commercial."
+  - question: "What is dynamic load management for commercial EV charging?"
+    answer: "Dynamic load management (DLM) monitors total site electricity consumption and automatically adjusts individual charger output to prevent exceeding the site's electrical capacity. Required on any site with 4+ chargers sharing a circuit — specified and installed under AS/NZS 3000:2018 load calculation requirements."
+
 ---
 
 The residential EV charger install is a good job. One charger, one circuit, a few hours, $1,500–$2,500 delivered. Clean, profitable, growing volume.
@@ -85,7 +96,7 @@ For retail sites, the install complexity can be high — running cable through a
 
 ## The Technical Capabilities You Need
 
-Building a commercial EV charging practice requires competency beyond standard residential installation:
+Building a commercial EV charging practice requires competency beyond standard residential installation. All electrical work must comply with AS/NZS 3000:2018 (the Australian Wiring Rules). State licensing requirements are enforced by the Electrical Safety Office (QLD), Energy Safe Victoria (ESV), and SafeWork NSW — ensure your contractor licence is current in every state where you operate:
 
 ### Dynamic Load Management (DLM)
 On any site with more than 4 chargers, DLM is essential. Understand how to spec, configure, and commission DLM systems for your chosen charger brands. See the [commercial EV charging compliance guide](/blog/ev-charging-commercial-premises-australia-2026) for a full DLM explainer.
@@ -186,7 +197,7 @@ The strongest commercial EV charging opportunities come from: fleet operators tr
 
 **What certifications do I need to install commercial EV chargers in Australia?**
 
-A licensed electrical contractor's licence in the relevant state is required for all EV charger electrical installation work. CEC Accreditation is not required for EV charger installation (unlike solar). For commercial networks, competency with CPMS configuration and DLM is increasingly expected by commercial clients. Some CPMS providers have installer certification programs — completing these programs helps differentiate your business and may give access to installer referral networks.
+A licensed electrical contractor's licence in the relevant state is required for all EV charger electrical installation work — regulated by the Electrical Safety Office (QLD), Energy Safe Victoria (ESV) in Victoria, and SafeWork NSW. All wiring installations must meet AS/NZS 3000:2018. Clean Energy Council (CEC) accreditation is not required for EV charger installation (unlike solar PV). For commercial networks, competency with CPMS configuration and DLM is increasingly expected by commercial clients. Some CPMS providers have installer certification programs — completing these programs helps differentiate your business and may give access to installer referral networks.
 
 ---
 

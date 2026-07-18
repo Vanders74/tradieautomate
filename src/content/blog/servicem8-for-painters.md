@@ -2,6 +2,7 @@
 title: 'ServiceM8 for Painters: Quote Faster, Invoice Sooner, Chase Less'
 description: 'How Australian painting businesses are using ServiceM8 to win more quotes, invoice same-day, and cut the admin that eats into margins. A practical 2026 guide.'
 pubDate: 'Apr 27 2026'
+updatedDate: 'Jul 19 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-for-painters.jpg'
 ---
@@ -49,6 +50,16 @@ ServiceM8's mobile quoting lets your estimator or site supervisor build itemised
 The quote is professional and branded. It can be emailed to the client before your team leaves the driveway. The client accepts via a digital link, and the quote converts to a job in one tap — no re-entry, all data carries forward.
 
 For strata managers and property managers who manage multiple buildings, ServiceM8 lets you maintain a record of each property's past paint history, specifications used, and previous quote history — making follow-up quotes faster and more accurate.
+
+---
+
+## Licensing and Compliance for Australian Painters
+
+Australian painting businesses operate under state-based licensing and insurance frameworks. In NSW, painting contractors must be licensed by NSW Fair Trading under the Home Building Act 1989 for work over $5,000. In Queensland, the Queensland Building and Construction Commission (QBCC) requires a contractor licence for residential painting work. Victoria, SA, and WA have their own state licensing requirements for tradesperson registration.
+
+All painting businesses should carry public liability insurance of at least $5 million and, where offering design or consulting services, professional indemnity insurance. Commercial painting contracts — particularly strata, body corporate, and government work — typically require certificate of currency before engagement.
+
+ServiceM8 supports compliance by maintaining a documented audit trail for every job: scope of work, photos, materials used, and client sign-off. This documentation supports any licensing body enquiry or insurance claim.
 
 ---
 

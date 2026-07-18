@@ -2,6 +2,7 @@
 title: 'ServiceM8 for Roofing Contractors: Manage Jobs, Quotes, and Compliance From the Field'
 description: 'How Australian roofing businesses use ServiceM8 to quote storm damage faster, manage crew scheduling, document compliance, and invoice on completion. A practical 2026 guide.'
 pubDate: 'Apr 27 2026'
+updatedDate: 'Jul 19 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-for-roofing.jpg'
 ---
@@ -58,7 +59,9 @@ Insurance roofing claims live or die on documentation. ServiceM8 creates a compl
 
 ### Height Safety Compliance
 
-Roof work in Australia is classified as high-risk construction work under the WHS Regulations, and it requires:
+Roof work in Australia is classified as high-risk construction work under the Work Health and Safety Act 2011 (and state equivalents) and associated WHS Regulations. Licensing requirements vary by state: in Queensland, the Queensland Building and Construction Commission (QBCC) requires a Roofing (Stormwater) contractor licence; in NSW, NSW Fair Trading requires a roofing contractor licence under the Home Building Act 1989. All states require a Safe Work Method Statement (SWMS) for roof work over 2 metres.
+
+Work at heights regulatory requirements include:
 
 - A Safe Work Method Statement (SWMS) prepared before work commences
 - Documentation of edge protection or restraint systems used
@@ -67,7 +70,7 @@ Roof work in Australia is classified as high-risk construction work under the WH
 
 ServiceM8's form builder lets you create digital SWMS templates and fall protection checklist forms that must be completed before the job is marked started. The completed records are stored with the job and retrievable for WorkSafe audits or incident investigations.
 
-For roofing businesses in Victoria, Safe Work Australia's code of practice for managing the risk of falls at workplaces sets the practical framework. Having digital compliance records for every job — completed on the day, attached to the job record, not in a filing cabinet somewhere — is significantly better than paper-based systems from both a compliance and audit perspective.
+For roofing businesses in Victoria, WorkSafe Victoria (under the OHS Act 2004) and Safe Work Australia's code of practice for managing the risk of falls at workplaces set the practical framework. All roofing contractors should carry public liability insurance of at least $5 million and confirm their policy covers high-risk work at heights — some insurers impose conditions for roof work above 4 metres. Having digital compliance records for every job — completed on the day, attached to the job record, not in a filing cabinet somewhere — is significantly better than paper-based systems from both a compliance and audit perspective.
 
 ### Quoting Storm Damage Repairs
 
