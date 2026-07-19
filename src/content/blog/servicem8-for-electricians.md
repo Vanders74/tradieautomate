@@ -132,6 +132,8 @@ From the app, your electricians can:
 
 The Android app is functional but has historically been less polished than iOS — worth considering if your team uses Android-heavy devices.
 
+For a broader comparison across platforms, see our [best job management software for electricians guide](/blog/best-job-management-software-electricians-australia) which covers ServiceM8, simPRO, Tradify, Fergus, and AroFlo side-by-side.
+
 ---
 
 ## Real Numbers: Where ServiceM8 Saves Time
