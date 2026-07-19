@@ -157,3 +157,6 @@ Yes — if your terms of trade include an interest clause and the customer was g
 - [Scaling Your Solar and Electrical Business: The Hiring Guide](/blog/scaling-solar-electrical-business-hiring-growth/)
 - [Best Accounting Software for Solar and Electrical Australia 2026](/blog/best-accounting-software-solar-electrical-australia-2026/)
 - [How to Win Commercial Solar Contracts in Australia](/blog/how-to-win-commercial-solar-contracts-australia/)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)

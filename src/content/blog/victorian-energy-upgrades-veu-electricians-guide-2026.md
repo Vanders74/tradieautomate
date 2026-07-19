@@ -219,6 +219,8 @@ The ESC's accreditation process requires ongoing compliance — including audits
 - [STC Claim Process for Solar Installers](/blog/stc-claim-process-solar-installers-australia)
 - [Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)
 - [CER Audit Preparation for Solar Installers](/blog/cer-audit-prep-solar-installers)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
 
 ---
 
