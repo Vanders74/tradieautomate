@@ -201,6 +201,8 @@ WA electrical contractor licences are renewed annually through the EnergySafety 
 - *[CER Audit Prep for Solar Installers: Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
 - *[Electrical Contractor Insurance Australia 2026: Coverage Types and Minimums](/blog/electrical-contractor-insurance-australia-2026)*
 - *[QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026)*
+- *[SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026)*
+- *[VIC Electrical Contractor Licence Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026)*
 - *[Solar Compliance Checklist for Australian Installers 2026](/blog/solar-compliance-checklist-2026)*
 - *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
 - *[Staying Compliant in 2026: The Complete Solar & Electrical Safety Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
