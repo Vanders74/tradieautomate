@@ -22,9 +22,9 @@ The document must be signed by a licensed electrical contractor (not just a lice
 
 ---
 
-## What Triggers the CCEW Requirement?
+## What Triggers the CCEW Requirement? When Is a CCEW Legally Required?
 
-A CCEW is required for any electrical installation work that results in one or more of the following:
+A CCEW is required for any electrical installation work that results in one or more of the following (see our [full CCEW compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026) for the complete regulatory framework):
 
 1. **A change to the main switchboard** — adding circuits, replacing the switchboard, upgrading protection devices (MCBs, RCDs), or modifying the main switch
 2. **An increase in connected load** — any addition of new circuits, high-load appliances, EV chargers, air conditioning units, or solar inverters that increase the total connected demand on the supply

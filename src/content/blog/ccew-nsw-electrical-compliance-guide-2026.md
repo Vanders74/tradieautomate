@@ -72,9 +72,9 @@ For solar businesses using subcontractors, this creates an important considerati
 
 ---
 
-## Timeframe for Issuing a CCEW
+## NSW Fair Trading CCEW Requirements & Timeframe
 
-Under NSW requirements, a CCEW must be issued **within 7 days** of completing the notifiable electrical installation work.
+Under NSW requirements, a CCEW must be issued **within 7 days** of completing the notifiable electrical installation work. For a detailed breakdown of exactly when the 7-day clock starts and what triggers the requirement, see our [CCEW 7-day deadline rule guide](/blog/ccew-nsw-7-day-deadline-rule).
 
 Best practice is to issue within 24–48 hours of completion — while the installation details are fresh, photos are uploaded, and documentation is complete. Waiting until day 6 creates unnecessary risk.
 
