@@ -176,3 +176,6 @@ Active engagement with reviews (responding promptly and professionally) is a pos
 - [Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia/)
 - [Scaling Your Solar and Electrical Business](/blog/scaling-solar-electrical-business-hiring-growth/)
 - [Hidden Costs Killing Profit for Solar and Electrical Businesses](/blog/hidden-costs-killing-profit-solar-electrician/)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)

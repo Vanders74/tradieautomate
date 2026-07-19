@@ -166,3 +166,6 @@ No — switchboard upgrades are a maintenance and compliance cost, not an insure
 - [Staying Compliant in 2026: Solar and Electrical Safety](/blog/staying-compliant-2026-solar-electrical-safety/)
 - [CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers/)
 - [Best Job Management Software for Electricians Australia](/blog/best-job-management-software-electricians-australia/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
