@@ -273,7 +273,9 @@ When you approach a broker, come prepared with:
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
 - [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
-- *[QLD Electrical Contractor Licence 2026: QBCC, ESQ & QLeave Requirements](/blog/qld-electrical-contractor-licence-guide-2026)*
+- *[QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026)*
+- *[SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026)*
+- *[VIC Electrical Contractor Licence Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026)*
 - [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
 - *[Electrical Switchboard Upgrade Cost Australia 2026](/blog/electrical-switchboard-upgrade-cost-australia-2026)*
 

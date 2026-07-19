@@ -220,6 +220,7 @@ For electricians working in NSW, the equivalent document is the **Certificate of
 
 ## Related Reading
 
+- *[VIC Electrical Contractor Licence Guide 2026: REC Registration with Energy Safe Victoria](/blog/vic-electrical-contractor-licence-guide-2026)*
 - *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance)*
