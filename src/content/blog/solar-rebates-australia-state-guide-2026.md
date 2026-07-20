@@ -3,7 +3,7 @@ title: "Solar Rebates Australia 2026: State-by-State Guide for Installers"
 description: "Complete guide to solar rebates and incentives in Australia 2026 — federal STCs, Victoria Solar Homes, SA Home Battery Scheme, QLD, WA, NSW, and ACT. What's available, who qualifies, and how installers handle the paperwork."
 pubDate: 2026-07-21
 updatedDate: 2026-07-21
-heroImage: "/images/blog/solar-rebates-australia-state-guide-2026.jpg"
+heroImage: "/hero-solar-playbook-2026.jpg"
 category: "Solar & Battery"
 tags: ["solar rebates australia 2026", "solar incentives australia", "solar rebate by state", "australia solar panel rebate", "federal solar rebate australia", "solar battery rebate australia", "state solar rebates 2026"]
 faq:
