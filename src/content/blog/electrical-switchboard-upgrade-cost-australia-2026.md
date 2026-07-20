@@ -158,6 +158,16 @@ No — switchboard upgrades are a maintenance and compliance cost, not an insure
 
 ---
 
+
+
+---
+
+> **This article is featured in Chapter 2 of The Sparky's Playbook.**
+> The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download the full book free →](/playbook)
+
+---
+
 ## Related Reading
 
 - [Electrical Contractor Insurance Australia 2026: What You Actually Need](/blog/electrical-contractor-insurance-australia-2026/)
