@@ -207,6 +207,10 @@ A licensed electrical contractor's licence in the relevant state is required for
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - *[EV Charging at Commercial Premises Australia 2026: Compliance, Load Management & Pricing](/blog/ev-charging-commercial-premises-australia-2026)*

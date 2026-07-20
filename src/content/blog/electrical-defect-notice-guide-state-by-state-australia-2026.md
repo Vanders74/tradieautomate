@@ -285,6 +285,10 @@ The consequence is not just regulatory. Property owners and insurers can pursue 
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - *[RCD Safety Switch Requirements Under AS/NZS 3000 — Electricians' 2026 Guide](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026)*

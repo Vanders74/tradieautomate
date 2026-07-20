@@ -178,6 +178,10 @@ For the complete CER audit preparation framework — including what auditors loo
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*

@@ -219,6 +219,10 @@ Stripe's standard settlement in Australia is T+2 business days (two business day
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)

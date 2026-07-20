@@ -210,6 +210,10 @@ ServiceM8 creates a complete, timestamped, GPS-verified documentation record for
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 *Related reading:*
 - *[ServiceM8 for Solar Businesses: Scale Without Admin Overload](/blog/servicem8-for-solar-businesses)*
 - *[AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance)*

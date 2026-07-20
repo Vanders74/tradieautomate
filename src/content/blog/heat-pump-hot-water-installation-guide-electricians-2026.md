@@ -169,6 +169,10 @@ HPHW installations involve a two-trade workflow (electrical + plumbing), STC lod
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - *[Replacing Gas Hot Water With Electric Heat Pump Australia 2026](/blog/replacing-gas-hot-water-electric-heat-pump-australia-2026)*

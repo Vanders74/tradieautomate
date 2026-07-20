@@ -226,6 +226,10 @@ A licensed electrician must issue an electrical compliance certificate for the i
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - *[EV Charger Installation for Electricians Australia 2026: Certification, Compliance and Workflow](/blog/ev-charger-installation-electricians-australia-2026)*

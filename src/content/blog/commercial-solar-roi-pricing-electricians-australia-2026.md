@@ -211,6 +211,10 @@ Building a commercial pipeline takes 6–12 months to develop. The lead times ar
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - [Commercial Solar Compliance Australia 2026: What Installers Need to Know](/blog/commercial-solar-compliance-australia-2026)

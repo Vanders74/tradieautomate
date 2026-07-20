@@ -217,6 +217,10 @@ Yes — and this is one of the strongest selling points for solar-owning custome
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - *[Heat Pump Hot Water Installation for Electricians Australia: Load, Rebates & Workflow](/blog/heat-pump-hot-water-installation-electricians-australia)*

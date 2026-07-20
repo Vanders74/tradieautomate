@@ -229,6 +229,10 @@ Yes — ServiceM8 integrates natively with both MYOB and Xero. Invoices created 
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 *Related reading:*
 - *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*

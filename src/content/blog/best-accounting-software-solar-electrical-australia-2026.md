@@ -204,6 +204,10 @@ For businesses doing significant construction work (not just electrical installa
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*

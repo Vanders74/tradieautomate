@@ -203,6 +203,10 @@ Use AI to systematise everything that's systematisable. Invest the recovered tim
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 *Related reading:*
 - *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
 - *[ServiceM8 for Electricians: Compliance-Ready Job Management](/blog/servicem8-for-electricians)*

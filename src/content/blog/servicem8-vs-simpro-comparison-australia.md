@@ -215,6 +215,10 @@ No credit card required. Set up your first job in under 30 minutes.
 - [Best Job Management Software for Solar Installers Australia 2026](/guides/best-job-management-software-solar-installers-australia-2026)
 - [simPRO vs ServiceM8: Which Fits a 3-Man HVAC Business Better?](/blog/simpro-vs-servicem8-hvac-small-business)
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)

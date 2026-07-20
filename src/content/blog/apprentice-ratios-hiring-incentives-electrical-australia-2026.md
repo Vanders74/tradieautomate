@@ -205,6 +205,10 @@ Yes, provided the sole trader holds a current electrical licence and can demonst
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - *[Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026)*

@@ -130,7 +130,11 @@ For solar businesses, where a single conversion is worth $8,000–$20,000, the m
 
 AI phone assistants eliminate this gap entirely. Sophiie AI answers within seconds, qualifies the lead, and books the job while the prospect is still engaged. By the time you look at your job board at the end of the day, new appointments are already confirmed.
 
-**Related reading:** [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+*
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
+*Related reading:** [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
 - *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)*
 
 ---

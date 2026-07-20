@@ -227,6 +227,10 @@ For a two-technician solar business, end-of-day paperwork and manual admin typic
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 *Related reading:*
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
 - *[The Paperless Trade Roadmap: Eliminating Admin Chaos](/blog/paperless-trade-roadmap-operational-efficiency)*

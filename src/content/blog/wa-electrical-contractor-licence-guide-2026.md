@@ -196,6 +196,10 @@ WA electrical contractor licences are renewed annually through the EnergySafety 
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - *[CER Audit Prep for Solar Installers: Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*

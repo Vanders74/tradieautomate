@@ -252,6 +252,10 @@ Most electricians are up and running with basic job management within a few hour
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 *Related reading:*
 - *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*

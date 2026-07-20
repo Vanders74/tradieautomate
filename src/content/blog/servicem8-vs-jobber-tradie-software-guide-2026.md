@@ -233,6 +233,10 @@ No credit card required. Set up your first compliance form and test the full wor
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 *Related reading:*
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
 - *[ServiceM8 for Electricians: The Platform Australian Sparkies Use](/blog/servicem8-for-electricians)*

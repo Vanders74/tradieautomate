@@ -206,6 +206,10 @@ Yes. [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance) has specific re
 
 *Have a compliance question we haven't covered? [Get in touch](https://www.instagram.com/tradieautomate/) — we're building the resource hub solar installers actually need.*
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*

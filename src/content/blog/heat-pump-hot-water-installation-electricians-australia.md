@@ -193,6 +193,10 @@ In most Australian states, heat pump hot water installation involves both plumbi
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - *[Replacing Gas Hot Water with Electric Heat Pump: The Complete Switchover Guide](/blog/replacing-gas-hot-water-electric-heat-pump)*

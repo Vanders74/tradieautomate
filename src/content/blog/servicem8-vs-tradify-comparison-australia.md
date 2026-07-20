@@ -204,6 +204,10 @@ Set up your first job today. No credit card required.
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)

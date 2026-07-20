@@ -261,6 +261,10 @@ ServiceM8 integrates natively with **Xero** and **MYOB** — the two dominant ac
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 *Related reading:*
 - *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
 - *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)*
