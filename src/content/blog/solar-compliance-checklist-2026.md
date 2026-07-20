@@ -3,7 +3,7 @@ title: 'The Complete Solar Compliance Checklist for Australian Installers (2026)
 description: 'Every compliance requirement solar installers need to know in 2026 — CER rules, AS/NZS standards, STC documentation, and audit preparation. One checklist to keep you covered.'
 pubDate: 'Feb 18 2026'
 category: "Compliance"
-updatedDate: 'Apr 18 2026'
+updatedDate: 'Jul 20 2026'
 heroImage: '/hero-compliance-checklist.jpg'
 ---
 
@@ -110,11 +110,11 @@ See our full guide to [AS/NZS 5139 battery storage compliance](/blog/as-nzs-5139
 
 Compliance in Australia isn't fully uniform — each state and territory has its own electrical licensing requirements, Certificate of Electrical Safety (CES) lodgement processes, and in some cases specific rules around metering and grid connection:
 
-- **NSW** — Fair Trading requires CES lodgement within 3 business days of inspection. The Inspector of Electrical Work must be notified for certain system sizes.
-- **VIC** — Energy Safe Victoria has specific requirements around solar design documentation and export limiting. Always check current DNSP requirements.
-- **QLD** — Electrical Safety Office requires licensed electrical contractors to complete and issue an ESREQ for new connections and major work.
-- **SA** — Consumer and Business Services has specific requirements for Certificate of Compliance (COC) documentation.
-- **WA** — EnergySafety WA requirements differ from eastern states; check current requirements for solar installations specifically.
+- **NSW** — Fair Trading requires CES lodgement within 3 business days of inspection. The Inspector of Electrical Work must be notified for certain system sizes. See our full [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026).
+- **VIC** — Energy Safe Victoria has specific requirements around solar design documentation and export limiting. The [VIC Solar Homes battery rebate program](/blog/vic-solar-homes-program-rebate-2026) adds registration and reporting obligations for participating installers.
+- **QLD** — Electrical Safety Office requires licensed electrical contractors to complete and issue an ESREQ for new connections and major work. See the full [QLD electrical contractor licence guide](/blog/qld-electrical-contractor-licence-guide-2026) for QBCC, ESQ, and QLeave requirements.
+- **SA** — Consumer and Business Services has specific requirements for Certificate of Compliance (COC) documentation. If you're participating in the [SA Home Battery Scheme](/blog/sa-solar-battery-rebate-2026), there are additional installer registration and rebate documentation obligations.
+- **WA** — EnergySafety WA requirements differ from eastern states. See our [WA electrical contractor licence guide](/blog/wa-electrical-contractor-licence-guide-2026) for the EnergySafety framework and CCEI requirements.
 
 When working across multiple states, always verify the current local requirements — they change, and interstate differences catch out even experienced installers.
 
@@ -146,7 +146,7 @@ Paper checklists and photos buried in camera rolls won't cut it when the CER aud
 
 Want to know exactly what CER auditors ask for and how to prepare? Read our dedicated [CER audit prep guide for solar installers](/blog/cer-audit-prep-solar-installers) — it covers the audit process step by step, including what auditors specifically look for and how to respond to an audit notice.
 
-Not sure which platform is right for your business? See our ranked guide: [Best Job Management Software for Solar Installers Australia 2026](/guides/best-job-management-software-solar-installers-australia-2026).
+Not sure which platform is right for your business? See our [Electrical Job Management Software Buyer's Guide](/blog/electrical-job-management-software-buyers-guide-australia) or our comparison of [ServiceM8 pricing plans and what you actually get](/blog/servicem8-pricing-plans-australia-2026).
 
 ## Staying Current as Standards Change
 
@@ -198,9 +198,11 @@ Yes. [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance) has specific re
 
 - [AS/NZS 5139 Battery Storage Compliance: What Australian Installers Need to Know](/blog/as-nzs-5139-battery-storage-compliance)
 - [CER Audit Prep for Solar Installers: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)
+- [Commercial Solar System Compliance Australia: CEC, DNSP & Metering](/blog/commercial-solar-system-compliance-australia)
+- [Commercial EV Charging Australia 2026: Compliance, AS/NZS 3000 & Pricing](/blog/ev-charging-commercial-premises-australia-2026)
 - [Why Solar Installers Are Switching to Digital Job Management in 2026](/blog/digital-job-management-solar-installers)
 - [ServiceM8 for Solar Installers: The Job Management Platform Built for Compliance](/blog/servicem8-for-solar-installers)
-- [Best Job Management Software for Solar Installers Australia 2026](/guides/best-job-management-software-solar-installers-australia-2026)
+- [Electrical Job Management Software Australia 2026: Buyer's Guide](/blog/electrical-job-management-software-buyers-guide-australia)
 
 ---
 
