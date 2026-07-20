@@ -1,6 +1,6 @@
 ---
 title: "The Sparky's Playbook — Chapter 7: Cash Flow for Electrical Contractors"
-description: 'Excerpt from The Sparky's Playbook — Ch.7: cash flow for electrical contractors. Progress billing, debtor control, seasonal patterns, and financial habits.'
+description: "Excerpt from The Sparky's Playbook — Ch.7: cash flow for electrical contractors. Progress billing, debtor control, seasonal patterns, and financial habits."
 pubDate: 2026-07-20
 updatedDate: 'Jul 20 2026'
 heroImage: "/hero-hidden-costs-profit.jpg"

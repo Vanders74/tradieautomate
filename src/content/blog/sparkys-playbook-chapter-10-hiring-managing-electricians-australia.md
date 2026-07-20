@@ -1,6 +1,6 @@
 ---
 title: "The Sparky's Playbook — Chapter 10: Hiring & Managing Electricians"
-description: 'Excerpt from The Sparky's Playbook — Ch.10: hiring and managing electricians. Award rates, apprentice obligations, retaining staff, and delegating quality.'
+description: "Excerpt from The Sparky's Playbook — Ch.10: hiring and managing electricians. Award rates, apprentice obligations, retaining staff, and delegating quality."
 pubDate: 2026-07-20
 updatedDate: 'Jul 20 2026'
 heroImage: "/hero-hiring-managing-electricians-australia.jpg"

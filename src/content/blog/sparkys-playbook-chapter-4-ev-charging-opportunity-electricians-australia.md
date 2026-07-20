@@ -1,6 +1,6 @@
 ---
 title: "The Sparky's Playbook — Chapter 4: The EV Charging Opportunity"
-description: 'Excerpt from The Sparky's Playbook — Ch.4: the EV charging opportunity for electricians. Residential installs, commercial sites, and building recurring revenue.'
+description: "Excerpt from The Sparky's Playbook — Ch.4: the EV charging opportunity for electricians. Residential installs, commercial sites, and building recurring revenue."
 pubDate: 2026-07-20
 updatedDate: 'Jul 20 2026'
 heroImage: "/hero-ev-charger-network-installation-business.jpg"

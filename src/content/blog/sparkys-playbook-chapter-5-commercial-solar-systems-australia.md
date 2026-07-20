@@ -1,6 +1,6 @@
 ---
 title: "The Sparky's Playbook — Chapter 5: Commercial Solar Systems"
-description: 'Excerpt from The Sparky's Playbook — Ch.5: winning commercial solar projects. CEC design, network approvals, metering, compliance, and commercial positioning.'
+description: "Excerpt from The Sparky's Playbook — Ch.5: winning commercial solar projects. CEC design, network approvals, metering, compliance, and commercial positioning."
 pubDate: 2026-07-20
 updatedDate: 'Jul 20 2026'
 heroImage: "/hero-commercial-solar-system-compliance-australia.jpg"

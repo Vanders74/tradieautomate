@@ -1,6 +1,6 @@
 ---
 title: "The Sparky's Playbook — Chapter 1: Mastering State Licensing & Compliance"
-description: 'Excerpt from The Sparky's Playbook — Ch.1: electrical licensing across all Australian states. Renewals, insurance, multi-state work, and compliance traps.'
+description: "Excerpt from The Sparky's Playbook — Ch.1: electrical licensing across all Australian states. Renewals, insurance, multi-state work, and compliance traps."
 pubDate: 2026-07-20
 updatedDate: 'Jul 20 2026'
 heroImage: "/hero-ccew-nsw-compliance.jpg"

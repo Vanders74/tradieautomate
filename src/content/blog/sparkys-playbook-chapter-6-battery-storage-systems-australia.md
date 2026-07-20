@@ -1,6 +1,6 @@
 ---
 title: "The Sparky's Playbook — Chapter 6: Battery Storage Systems"
-description: 'Excerpt from The Sparky's Playbook — Ch.6: battery storage installs. AS/NZS 5139, manufacturer certification, safety obligations, and monitoring opportunity.'
+description: "Excerpt from The Sparky's Playbook — Ch.6: battery storage installs. AS/NZS 5139, manufacturer certification, safety obligations, and monitoring opportunity."
 pubDate: 2026-07-20
 updatedDate: 'Jul 20 2026'
 heroImage: "/hero-battery-storage.jpg"
