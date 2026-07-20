@@ -136,7 +136,7 @@ For businesses that do solar servicing and maintenance as well as new installs, 
 
 > 🧮 **Know your margin before you commit to any platform.** Our free [Solar Quote Profitability Calculator](/tools/solar-quote-calculator) shows exactly how much admin and compliance time is eating into your per-job profit — making the software ROI case obvious.
 
-ServiceM8 pricing in Australia (as of 2026):
+[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026) in Australia (as of 2026):
 
 | Plan | Monthly Price | Best For |
 |------|--------------|----------|
@@ -158,7 +158,7 @@ ServiceM8 isn't the only option, and the right choice depends on your business s
 
 **ServiceM8 vs simPRO:** simPRO is a more complex platform suited to larger commercial and multi-trade businesses. For pure solar installation businesses under ~$3M revenue, simPRO's complexity is usually more burden than benefit. Full comparison: [ServiceM8 vs simPRO for Australian Solar Installers](/blog/servicem8-vs-simpro-comparison-australia).
 
-**ServiceM8 vs Tradify:** Tradify is simpler and cheaper, but has less depth in compliance documentation and asset tracking. Good for very small operations; ServiceM8 pulls ahead as volume grows. Full comparison: [ServiceM8 vs Tradify](/blog/servicem8-vs-tradify-comparison-australia).
+**ServiceM8 vs [Tradify](/blog/tradify-review-2026-australia):** Tradify is simpler and cheaper, but has less depth in compliance documentation and asset tracking. Good for very small operations; ServiceM8 pulls ahead as volume grows. Full comparison: [ServiceM8 vs Tradify](/blog/servicem8-vs-tradify-comparison-australia).
 
 For a broader ranked view covering all major platforms — including AroFlo, Fergus, and others — see our [Best Job Management Software for Solar Installers Australia 2026](/guides/best-job-management-software-solar-installers-australia-2026) guide.
 

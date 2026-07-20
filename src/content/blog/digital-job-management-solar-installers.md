@@ -105,7 +105,7 @@ Compare this to the paper-based version of the same day. End-of-day admin. Photo
 
 Of the platforms available to Australian solar businesses, [ServiceM8](/blog/servicem8-for-solar-installers) stands out for its compliance-first design, mobile experience, and the depth of its job record capabilities. We've written a detailed breakdown of how it solves the specific challenges solar installers face.
 
-If you want to go deeper on ServiceM8's capabilities and how it compares to alternatives, our [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026) covers pricing, features, and real-world use cases in detail. For head-to-head comparisons, see [ServiceM8 vs simPRO](/blog/servicem8-vs-simpro-comparison-australia) and [ServiceM8 vs Tradify](/blog/servicem8-vs-tradify-comparison-australia).
+If you want to go deeper on ServiceM8's capabilities and how it compares to alternatives, our [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026) covers pricing, features, and real-world use cases in detail. For head-to-head comparisons, see [ServiceM8 vs simPRO](/blog/servicem8-vs-simpro-comparison-australia) and [ServiceM8 vs Tradify](/blog/servicem8-vs-[tradify](/blog/tradify-review-2026-australia)-comparison-australia).
 
 For a full side-by-side comparison of every major platform — including pricing, compliance features, and which businesses each suits best — see our [Best Job Management Software for Solar Installers Australia 2026](/guides/best-job-management-software-solar-installers-australia-2026) guide.
 

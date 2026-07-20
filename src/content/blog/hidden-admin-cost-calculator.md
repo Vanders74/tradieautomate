@@ -228,7 +228,7 @@ Possibly, or you may already have some level of automation in place. The most co
 
 **What's the best way to reduce admin in a solar or electrical business?**
 
-A dedicated field service management platform (ServiceM8, Tradify, Fergus, or similar) is the highest-leverage starting point. The goal is to move every admin step — quoting, invoicing, compliance docs, scheduling, customer comms — into the same system, so data flows automatically from field to office without manual re-entry. See our [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia) for a detailed breakdown.
+A dedicated field service management platform (ServiceM8, [Tradify](/blog/tradify-review-2026-australia), Fergus, or similar) is the highest-leverage starting point. The goal is to move every admin step — quoting, invoicing, compliance docs, scheduling, customer comms — into the same system, so data flows automatically from field to office without manual re-entry. See our [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia) for a detailed breakdown.
 
 **Is this only relevant for businesses with employees?**
 
@@ -240,7 +240,7 @@ No. Sole traders are often proportionally more affected than multi-person busine
 
 Fixing the admin leak doesn't require hiring staff. Moving to cloud-based job management bridges the field-to-office gap without adding headcount.
 
-ServiceM8 pricing starts at **$65–$149/month AUD** for a small trade business.
+[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026) starts at **$65–$149/month AUD** for a small trade business.
 
 If your current admin overhead is $60,000/year and software cuts it by 60%, you're saving **$36,000 annually**. The software costs $1,548/year. Net saving: **~$34,452/year.**
 

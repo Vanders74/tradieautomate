@@ -35,7 +35,7 @@ But they're built differently, target different business sizes, and have meaning
 
 This is the most important structural difference between the two platforms.
 
-### ServiceM8 Pricing
+### [ServiceM8 Pricing](/blog/servicem8-pricing-plans-australia-2026)
 
 ServiceM8 charges per-job, not per-user. The number of staff using the platform doesn't change your bill — only your job volume does.
 
@@ -197,7 +197,7 @@ The honest recommendation: start with ServiceM8's 14-day free trial and evaluate
 - [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
 - [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
 
-- [ServiceM8 vs Tradify: Australian Tradie Comparison 2026](/blog/servicem8-vs-tradify-comparison-australia)
+- [ServiceM8 vs Tradify: Australian Tradie Comparison 2026](/blog/servicem8-vs-[tradify](/blog/tradify-review-2026-australia)-comparison-australia)
 - [ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)

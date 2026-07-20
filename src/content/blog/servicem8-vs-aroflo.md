@@ -204,7 +204,7 @@ Start with ServiceM8's 14-day free trial. Full features, no credit card, operati
 - [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
 
 - [ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia)
-- [ServiceM8 vs Tradify: Australian Tradie Comparison 2026](/blog/servicem8-vs-tradify-comparison-australia)
+- [ServiceM8 vs Tradify: Australian Tradie Comparison 2026](/blog/servicem8-vs-[tradify](/blog/tradify-review-2026-australia)-comparison-australia)
 - [ServiceM8 vs Fergus: Honest Comparison for Australian Trades](/blog/servicem8-vs-fergus)
 - [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)

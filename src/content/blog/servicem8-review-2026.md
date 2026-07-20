@@ -155,7 +155,7 @@ The mobile apps are genuinely polished — one of the strongest in the category.
 
 How does ServiceM8 stack up against the other main players in the Australian market?
 
-| Feature | ServiceM8 | simPRO | Tradify | Fergus |
+| Feature | ServiceM8 | simPRO | [Tradify](/blog/tradify-review-2026-australia) | Fergus |
 |---|---|---|---|---|
 | Starting price (AUD/mo) | ~$29 | ~$149 | ~$35/user | ~$49/user |
 | Per-user pricing | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes |
@@ -275,7 +275,7 @@ Yes — all of these refer to the same platform. The official brand name is *Ser
 ### What are the main limitations of ServiceM8?
 ServiceM8 is not well-suited for large businesses (20+ field staff) with complex project management, multi-stage billing, or detailed cost tracking at a project level. It lacks native gantt-chart scheduling, doesn't handle retention billing natively, and its reporting suite is less powerful than simPRO or AroFlo. For a business doing large commercial solar projects with multiple milestones and subcontractor management, a platform like simPRO is worth evaluating despite the higher cost and complexity.
 
-### How much does ServiceM8 cost in Australia in 2026?
+### [How much does ServiceM8 cost](/blog/servicem8-pricing-plans-australia-2026) in Australia in 2026?
 ServiceM8 is priced in AUD for Australian businesses. Plans start at $29/month (Lite, up to 15 jobs/month) and go up to custom pricing on the Premium+ unlimited plan. The most popular plan for small electrical and solar businesses is the Growing plan at ~$149/month, covering 150 jobs/month with unlimited staff. There is a free 14-day trial with no credit card required.
 
 ### Does ServiceM8 work for solar compliance documentation?

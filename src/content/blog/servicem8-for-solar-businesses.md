@@ -167,7 +167,7 @@ This is the operational infrastructure that lets a solar installation business g
 
 ## Pricing
 
-ServiceM8 pricing is per-job, not per-user:
+[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026) is per-job, not per-user:
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|

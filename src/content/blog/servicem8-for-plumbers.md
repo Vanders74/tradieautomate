@@ -142,7 +142,7 @@ For Victorian plumbers, the VBA regulates both plumbing and gas work. The compli
 
 ## Pricing for Plumbing Businesses
 
-ServiceM8 pricing is per-job, not per-user — a significant advantage as your team grows:
+[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026) is per-job, not per-user — a significant advantage as your team grows:
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
@@ -151,7 +151,7 @@ ServiceM8 pricing is per-job, not per-user — a significant advantage as your t
 | Growing | ~$149 | 150 |
 | Premium | ~$349 | Unlimited |
 
-For a plumbing business with 4 field plumbers doing 80 jobs a month, ServiceM8 Growing at ~$149 compares to Tradify at ~$140 (4 × $35) for less functionality, or Fergus at ~$196 (4 × $49) with comparable capability but less Australian-specific compliance tooling.
+For a plumbing business with 4 field plumbers doing 80 jobs a month, ServiceM8 Growing at ~$149 compares to [Tradify](/blog/tradify-review-2026-australia) at ~$140 (4 × $35) for less functionality, or Fergus at ~$196 (4 × $49) with comparable capability but less Australian-specific compliance tooling.
 
 14-day free trial, full features, no credit card required.
 

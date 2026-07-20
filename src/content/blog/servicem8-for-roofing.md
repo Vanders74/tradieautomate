@@ -128,7 +128,7 @@ Roofing invoicing involves some complexity that ServiceM8 handles well:
 
 ## Pricing
 
-ServiceM8 pricing is per-job, not per-user:
+[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026) is per-job, not per-user:
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
@@ -202,7 +202,7 @@ The ServiceM8 mobile app has offline functionality. Roofers can create job recor
 
 *Related reading:*
 - *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
-- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
+- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-[tradify](/blog/tradify-review-2026-australia)-comparison-australia)*
 - *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
 - *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*

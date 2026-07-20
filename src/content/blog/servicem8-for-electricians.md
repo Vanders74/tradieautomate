@@ -132,7 +132,7 @@ From the app, your electricians can:
 
 The Android app is functional but has historically been less polished than iOS — worth considering if your team uses Android-heavy devices.
 
-For a broader comparison across platforms, see our [best job management software for electricians guide](/blog/best-job-management-software-electricians-australia) which covers ServiceM8, simPRO, Tradify, Fergus, and AroFlo side-by-side.
+For a broader comparison across platforms, see our [best job management software for electricians guide](/blog/best-job-management-software-electricians-australia) which covers ServiceM8, simPRO, [Tradify](/blog/tradify-review-2026-australia), Fergus, and AroFlo side-by-side.
 
 ---
 
@@ -176,7 +176,7 @@ Australian electricians evaluating job management software typically consider Se
 
 **ServiceM8 vs Tradify:** Tradify is simpler and slightly cheaper for very small teams. ServiceM8 wins significantly on compliance documentation depth, mobile app quality, and automated workflows. For electricians doing compliance-heavy work, ServiceM8 is the stronger choice. See our [ServiceM8 vs Tradify comparison](/blog/servicem8-vs-tradify-comparison-australia) for a detailed breakdown.
 
-**ServiceM8 vs simPRO:** simPRO is designed for larger electrical contractors with complex project management needs and 20+ staff. If you're running large commercial electrical projects with sophisticated job costing, simPRO has more depth. For residential and light commercial electricians under 20 staff, ServiceM8 provides significantly better value. See the [ServiceM8 vs simPRO comparison](/blog/servicem8-vs-simpro-comparison-australia).
+**ServiceM8 vs simPRO:** simPRO is designed for larger electrical contractors with complex project management needs and 20+ staff. If you're running large commercial electrical projects with sophisticated job costing, simPRO has more depth. For residential and light commercial electricians under 20 staff, ServiceM8 provides significantly better value. See our [ServiceM8 vs simPRO for electricians](/blog/servicem8-vs-simpro-electricians-australia-2026) comparison for the full breakdown.
 
 **ServiceM8 vs Fergus:** Fergus has strong job costing and margin tracking. ServiceM8 wins on compliance documentation tools and Australian-specific feature development.
 
@@ -186,7 +186,7 @@ For the majority of Australian electrical businesses — residential, solar, and
 
 ## Pricing
 
-ServiceM8 pricing is per-job (not per-user), which is a significant advantage for growing teams:
+[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026) is per-job (not per-user), which is a significant advantage for growing teams:
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
