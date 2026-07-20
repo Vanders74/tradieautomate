@@ -231,6 +231,16 @@ No — each state has its own licensing framework. To carry out electrical work 
 
 ---
 
+
+
+---
+
+> **This article is featured in Chapter 1 of The Sparky's Playbook.**
+> The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download the full book free →](/playbook)
+
+---
+
 ## Related Reading
 
 - *[CER Audit Prep for Solar Installers: Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
