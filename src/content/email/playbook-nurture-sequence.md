@@ -1,60 +1,26 @@
 # Playbook Nurture Sequence
 ## 3-email automation — triggered on Sparky's Playbook download (Brevo list 5)
+## Goal: ServiceM8 free trial signups via affiliate link
 
 ---
 
 ## Email 1 — Day 1 (immediate, after download confirmation)
 
-**Subject:** Did Chapter 8 hit home?
+**Subject:** Chapter 8 — the one that saves 8-10 hours a week
 
 **Body:**
 
 G'day,
 
-You grabbed The Sparky's Playbook — hope it's useful.
+You grabbed The Sparky's Playbook — good move.
 
-Most electricians I hear from say Chapter 8 (the tech stack comparison) is the one that lands hardest. The difference between running ServiceM8 properly and running a whiteboard + Xero manually is about 8-10 hours of admin per week per job. At your billable rate, that's a lot of money left on the table.
+The chapter most electricians tell me paid for the read immediately is Chapter 8 (the tech stack comparison). If you're running jobs off a whiteboard and invoicing from Xero manually, the gap between where you are and where a properly set up ServiceM8 gets you is about 8-10 hours of admin per week.
 
-If you're currently on spreadsheets or your ServiceM8 isn't set up the way Chapter 8 describes, the fastest fix is the setup template most electricians miss:
+Chapter 8 breaks down what to look for: compliance forms that field staff complete on-site, Xero sync that auto-generates invoices at job completion, SMS reminders that fire without you touching them.
 
-- Compliance forms built once, reused on every job
-- Xero sync configured so invoices generate automatically at job completion
-- SMS reminders triggered without manual intervention
+The fastest way to see if this fits your business is the free trial. No card, no commitment — 14 days to test it with real jobs.
 
-All three are covered in the chapter. Takes about 90 minutes to set up, pays back in the first week.
-
-No pitch — just wanted to flag the chapter that usually has the biggest impact.
-
-Talk soon,
-
-Shane
-TradieAutomate.com
-
-P.S. If you haven't read Chapter 1 (state licensing), that one has saved a few contractors I know from letting their licence lapse without realising. Worth a skim at least.
-
----
-
-## Email 2 — Day 3
-
-**Subject:** A 6-person sparky crew in Brisbane
-
-**Body:**
-
-Quick story.
-
-Electrical contractor in Brisbane — 6 field staff, doing residential and light commercial. Owner was working 60-hour weeks, personally scheduling every job, chasing every invoice, handling every compliance certificate.
-
-He applied Chapter 11 (scaling and systems) to his business over about 6 weeks:
-
-- Moved job scheduling into ServiceM8 so the office manager could handle dispatch
-- Built compliance form templates so field staff completed certificates on-site, not at 7pm back at the office
-- Set up progress payment triggers so deposits landed before equipment was ordered
-
-The result: he takes Fridays off now. The business runs the same whether he's there or not. Revenue went up — not because he worked more, but because he stopped being the bottleneck.
-
-He's not an outlier. Chapter 11 describes a system that works for any electrical contractor doing $500k-$3M who's willing to document their processes once and then step back.
-
-If you want to talk through how this applies to your setup, I'm around.
+**→ [Start free 14-day ServiceM8 trial](https://www.servicem8.com/?ref=tradieautomate)**
 
 Cheers,
 
@@ -63,29 +29,52 @@ TradieAutomate.com
 
 ---
 
+## Email 2 — Day 3
+
+**Subject:** How a Brisbane sparky got his Fridays back
+
+**Body:**
+
+Quick one.
+
+Electrical contractor in Brisbane — 6 field staff, residential and light commercial. Before ServiceM8: 60-hour weeks, personally scheduling every job, chasing every invoice, doing compliance certificates at 7pm.
+
+After setting up the workflows in Chapter 11:
+
+- Job scheduling delegated to the office manager — owner not involved
+- Compliance forms built once, completed on-site by field staff
+- Progress payments triggered automatically when jobs hit certain stages
+
+Result: owner takes Fridays off. Revenue went up. Not because he marketed harder — because he stopped being the bottleneck on every job.
+
+Every chapter in the playbook links to a tool or resource that helps execute it. Chapter 8 and 11 both point to ServiceM8 for the job management layer. If you haven't kicked the tyres yet:
+
+**→ [Try ServiceM8 free for 14 days](https://www.servicem8.com/?ref=tradieautomate)**
+
+No fluff — just the platform that most of the sparkies I talk to are running.
+
+Shane
+TradieAutomate.com
+
+---
+
 ## Email 3 — Day 7
 
-**Subject:** What's actually stuck?
+**Subject:** What's stuck? And one favour.
 
 **Body:**
 
 One week since you downloaded the playbook.
 
-By now you've probably found 2 or 3 chapters that are directly useful and skimmed the rest. That's how it's designed — not every chapter is relevant to where you are right now.
+If it helped you think differently about compliance, cash flow, or scaling — I'd genuinely like to know which chapter landed. Hit reply. I read every response.
 
-What I'd genuinely like to know: which chapter landed hardest? And is there something you're trying to solve in your business right now that the playbook didn't cover?
+And if you're still running the business off a phone and a spreadsheet, here's the one move that changes everything this week:
 
-Hit reply — I read every response.
+**→ [Start your free ServiceM8 trial](https://www.servicem8.com/?ref=tradieautomate)**
 
-If you're looking at the next step and want help — whether that's getting your ServiceM8 compliance workflow set up properly, pricing your first commercial solar job, or building the systems to step back from the tools — here's what that looks like:
+14 days. No card. Set up your first compliance form template and run one real job through it. You'll know by day 10 whether it fits.
 
-**Book a 30-minute call.** We'll look at your current setup, identify the one thing that'll make the biggest difference, and map out what it takes to get there. No hard sell. If it's not a fit, you'll still walk away with a clear action plan.
-
-**→ [Calendar link — insert when ready]**
-
-Either way, appreciate you reading.
+If the playbook was useful, forward it to another sparky. The more Australian electrical contractors running tight businesses, the stronger the industry gets.
 
 Shane
 TradieAutomate.com
-
-P.S. If the playbook helped you, forward it to another sparky. The more Australian electrical contractors running tight businesses, the better the industry gets.
