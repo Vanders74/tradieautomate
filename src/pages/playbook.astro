@@ -1,0 +1,623 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+
+const title = "The Sparky's Playbook — Free Guide for Australian Electricians";
+const description = "A free 12-chapter guide covering licensing, EV charging, commercial solar, cash flow, job management software, and building an electrical business worth selling.";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <style>
+      .lead-page {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem 4rem;
+      }
+
+      .badge {
+        display: inline-block;
+        background: #F97316;
+        color: #ffffff;
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        padding: 0.35em 0.9em;
+        border-radius: 99px;
+        margin-bottom: 1.2rem;
+      }
+
+      h1 {
+        font-size: 2.2rem;
+        line-height: 1.15;
+        color: #1a2744;
+        margin: 0 0 1rem;
+      }
+
+      h1 span {
+        color: #F97316;
+      }
+
+      .sub {
+        font-size: 1.1rem;
+        color: #4b5563;
+        margin-bottom: 2rem;
+        line-height: 1.6;
+      }
+
+      /* Book preview card */
+      .book-preview {
+        background: #1a2744;
+        border-radius: 14px;
+        padding: 1.75rem 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        gap: 1.75rem;
+        align-items: flex-start;
+      }
+
+      .book-cover-thumb {
+        flex-shrink: 0;
+        width: 80px;
+        background: linear-gradient(135deg, #F97316 0%, #ea6b0e 100%);
+        border-radius: 6px;
+        padding: 0.75rem 0.5rem;
+        text-align: center;
+        min-height: 110px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.4rem;
+      }
+
+      .book-cover-thumb .lightning {
+        font-size: 1.8rem;
+        line-height: 1;
+      }
+
+      .book-cover-thumb .cover-title {
+        font-size: 0.55rem;
+        font-weight: 800;
+        color: #1a2744;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        text-align: center;
+        line-height: 1.2;
+      }
+
+      .book-meta {
+        flex: 1;
+      }
+
+      .book-meta strong {
+        display: block;
+        font-size: 1.05rem;
+        color: #ffffff;
+        margin-bottom: 0.3rem;
+      }
+
+      .book-meta .meta-line {
+        font-size: 0.85rem;
+        color: #94a3b8;
+        margin-bottom: 0.75rem;
+      }
+
+      .chapter-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.25rem 1rem;
+      }
+
+      .chapter-list li {
+        font-size: 0.82rem;
+        color: #b0bed4;
+        padding: 0.15rem 0;
+      }
+
+      .chapter-list li::before {
+        content: '→ ';
+        color: #F97316;
+        font-weight: 700;
+      }
+
+      /* Gated form box */
+      .form-box {
+        background: #f8fafc;
+        border: 2px solid #e2e8f0;
+        border-radius: 12px;
+        padding: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .form-box h2 {
+        font-size: 1.3rem;
+        margin: 0 0 0.5rem;
+        color: #1a2744;
+      }
+
+      .form-box .form-desc {
+        font-size: 0.95rem;
+        color: #6b7280;
+        margin: 0 0 1.5rem;
+      }
+
+      .form-row {
+        display: flex;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+        margin-bottom: 0.75rem;
+      }
+
+      .form-field {
+        flex: 1;
+        min-width: 140px;
+      }
+
+      .form-field label {
+        display: block;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #374151;
+        margin-bottom: 0.3rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      .form-field input {
+        width: 100%;
+        padding: 0.65rem 0.9rem;
+        border: 1.5px solid #d1d5db;
+        border-radius: 6px;
+        background: #ffffff;
+        color: #111827;
+        font-size: 1rem;
+        outline: none;
+        box-sizing: border-box;
+        transition: border-color 0.2s;
+      }
+
+      .form-field input:focus {
+        border-color: #F97316;
+      }
+
+      .submit-btn {
+        display: block;
+        width: 100%;
+        padding: 0.95rem 1.5rem;
+        background: #F97316;
+        color: #ffffff;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.05rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background 0.2s, transform 0.1s;
+        margin-top: 1rem;
+        text-align: center;
+      }
+
+      .submit-btn:hover:not(:disabled) {
+        background: #ea6b0e;
+        transform: translateY(-1px);
+      }
+
+      .submit-btn:disabled {
+        opacity: 0.7;
+        cursor: not-allowed;
+      }
+
+      .form-error {
+        color: #dc2626;
+        font-size: 0.875rem;
+        margin-top: 0.5rem;
+        display: none;
+      }
+
+      .privacy {
+        font-size: 0.75rem;
+        color: #9ca3af;
+        margin-top: 0.75rem;
+        text-align: center;
+      }
+
+      /* Download reveal box */
+      .download-reveal {
+        display: none;
+        text-align: center;
+        padding: 2rem;
+        background: #f0fdf4;
+        border: 2px solid #bbf7d0;
+        border-radius: 12px;
+        margin-bottom: 2rem;
+      }
+
+      .download-reveal.visible {
+        display: block;
+      }
+
+      .download-reveal p {
+        color: #15803d;
+        font-weight: 600;
+        margin: 0 0 1rem;
+        font-size: 1rem;
+      }
+
+      .download-btn {
+        display: inline-block;
+        background: #F97316;
+        color: white;
+        text-decoration: none;
+        padding: 0.9rem 2rem;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 1.1rem;
+        transition: background 0.2s;
+      }
+
+      .download-btn:hover {
+        background: #ea6b0e;
+      }
+
+      /* Trust strip */
+      .trust-strip {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+      }
+
+      .trust-item {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-size: 0.85rem;
+        color: #6b7280;
+      }
+
+      .trust-item .icon {
+        font-size: 1rem;
+      }
+
+      /* What's inside section */
+      .content-section {
+        margin-top: 3rem;
+        border-top: 2px solid #e5e7eb;
+        padding-top: 2rem;
+      }
+
+      .content-section h2 {
+        font-size: 1.4rem;
+        color: #1a2744;
+        margin-bottom: 0.75rem;
+      }
+
+      .content-section p {
+        color: #374151;
+        line-height: 1.7;
+        margin-bottom: 1rem;
+      }
+
+      .chapter-overview {
+        margin: 1.5rem 0;
+        display: grid;
+        gap: 0.75rem;
+      }
+
+      .chapter-row {
+        display: flex;
+        gap: 1rem;
+        align-items: flex-start;
+        padding: 0.75rem 1rem;
+        background: #f8fafc;
+        border-radius: 8px;
+        border-left: 3px solid #F97316;
+      }
+
+      .chapter-num {
+        font-size: 0.75rem;
+        font-weight: 800;
+        color: #F97316;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        min-width: 52px;
+        padding-top: 0.1rem;
+      }
+
+      .chapter-detail strong {
+        display: block;
+        font-size: 0.95rem;
+        color: #1a2744;
+        margin-bottom: 0.15rem;
+      }
+
+      .chapter-detail span {
+        font-size: 0.85rem;
+        color: #6b7280;
+      }
+
+      @media (max-width: 600px) {
+        h1 { font-size: 1.7rem; }
+        .book-preview { flex-direction: column; }
+        .chapter-list { grid-template-columns: 1fr; }
+        .form-row { flex-direction: column; }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <div class="lead-page">
+
+        <div class="badge">Free Download — No Credit Card</div>
+
+        <h1>The Sparky's Playbook<br /><span>Scale Your Electrical Business</span></h1>
+
+        <p class="sub">
+          A free 12-chapter guide for Australian electricians — licensing, EV charging,
+          commercial solar, cash flow, job management software, and building a business
+          worth selling. Written specifically for sparks running their own show.
+        </p>
+
+        <!-- Book Preview -->
+        <div class="book-preview">
+          <div class="book-cover-thumb">
+            <div class="lightning">⚡</div>
+            <div class="cover-title">The Sparky's Playbook</div>
+          </div>
+          <div class="book-meta">
+            <strong>The Sparky's Playbook</strong>
+            <div class="meta-line">PDF · 12 Chapters · ~80 pages · Free</div>
+            <ul class="chapter-list">
+              <li>State licensing & compliance</li>
+              <li>EV charging opportunity</li>
+              <li>Commercial solar systems</li>
+              <li>Battery storage work</li>
+              <li>AI data centre growth</li>
+              <li>Emergency & safety upgrades</li>
+              <li>Cash flow management</li>
+              <li>Job management tech stack</li>
+              <li>5-star reputation building</li>
+              <li>Hiring & team management</li>
+              <li>Scaling & growth levers</li>
+              <li>Exit strategy & valuation</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Gated email capture form -->
+        <div class="form-box" id="capture-form-box">
+          <h2>Get instant access — it's free</h2>
+          <p class="form-desc">Enter your email and we'll send you the download link. We'll also notify you when new chapters drop.</p>
+
+          <form id="playbook-form" novalidate>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Your first name" autocomplete="given-name" />
+              </div>
+              <div class="form-field">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email" />
+              </div>
+            </div>
+            <div class="form-error" id="form-error"></div>
+            <button type="submit" class="submit-btn" id="submit-btn">
+              Download The Sparky's Playbook →
+            </button>
+          </form>
+
+          <p class="privacy">No spam. Unsubscribe anytime. Australian Privacy Act compliant.</p>
+        </div>
+
+        <!-- Download revealed after form submit -->
+        <div class="download-reveal" id="download-reveal">
+          <p>✅ You're in! Your copy of The Sparky's Playbook is ready.</p>
+          <a class="download-btn" id="download-link" href="/sparkys-playbook.pdf" download="The-Sparkys-Playbook-TradieAutomate.pdf">
+            Download Free PDF →
+          </a>
+        </div>
+
+        <!-- Trust indicators -->
+        <div class="trust-strip">
+          <div class="trust-item">
+            <span class="icon">🇦🇺</span>
+            <span>Australian-focused</span>
+          </div>
+          <div class="trust-item">
+            <span class="icon">⚡</span>
+            <span>Written for electricians</span>
+          </div>
+          <div class="trust-item">
+            <span class="icon">🔒</span>
+            <span>No credit card required</span>
+          </div>
+        </div>
+
+        <!-- Supporting content -->
+        <div class="content-section">
+          <h2>What's Inside the Playbook</h2>
+          <p>
+            The Sparky's Playbook is a practical, no-fluff guide built around the real decisions
+            Australian electricians face when running and growing a contracting business. Each chapter
+            stands alone — read it cover to cover or jump to the section you need.
+          </p>
+
+          <div class="chapter-overview">
+            <div class="chapter-row">
+              <div class="chapter-num">Ch 1</div>
+              <div class="chapter-detail">
+                <strong>State Licensing & Compliance</strong>
+                <span>NSW, VIC, QLD, SA, WA — every licensing body, renewal cycle, and the traps that catch experienced operators.</span>
+              </div>
+            </div>
+            <div class="chapter-row">
+              <div class="chapter-num">Ch 2</div>
+              <div class="chapter-detail">
+                <strong>Safety & Standards (AS/NZS 3000)</strong>
+                <span>RCD requirements, switchboard upgrades, inspection obligations, and audit survival.</span>
+              </div>
+            </div>
+            <div class="chapter-row">
+              <div class="chapter-num">Ch 3</div>
+              <div class="chapter-detail">
+                <strong>Where the Industry Is Heading</strong>
+                <span>AI data centres, grid-scale storage, and the infrastructure investment creating work for Australian electricians.</span>
+              </div>
+            </div>
+            <div class="chapter-row">
+              <div class="chapter-num">Ch 4</div>
+              <div class="chapter-detail">
+                <strong>The EV Charging Opportunity</strong>
+                <span>Residential, commercial, multi-site — how to build a recurring revenue stream from EV infrastructure.</span>
+              </div>
+            </div>
+            <div class="chapter-row">
+              <div class="chapter-num">Ch 5</div>
+              <div class="chapter-detail">
+                <strong>Commercial Solar Systems</strong>
+                <span>CEC design requirements, network approvals, metering, and how to position for commercial work.</span>
+              </div>
+            </div>
+            <div class="chapter-row">
+              <div class="chapter-num">Ch 6</div>
+              <div class="chapter-detail">
+                <strong>Battery Storage & Hybrid Systems</strong>
+                <span>AS/NZS 5139, manufacturer certification, safety obligations, and the after-sales monitoring opportunity.</span>
+              </div>
+            </div>
+            <div class="chapter-row">
+              <div class="chapter-num">Ch 7</div>
+              <div class="chapter-detail">
+                <strong>Cash Flow Management</strong>
+                <span>Progress billing, retention clauses, debtor management, and the cash flow patterns that kill profitable businesses.</span>
+              </div>
+            </div>
+            <div class="chapter-row">
+              <div class="chapter-num">Ch 8</div>
+              <div class="chapter-detail">
+                <strong>Job Management, Accounting & Automation</strong>
+                <span>ServiceM8 vs competitors, Xero vs MYOB, and the tech stack that runs a lean electrical business.</span>
+              </div>
+            </div>
+            <div class="chapter-row">
+              <div class="chapter-num">Ch 9</div>
+              <div class="chapter-detail">
+                <strong>Marketing & Reputation</strong>
+                <span>5-star Google reviews, handling complaints, local SEO, and the marketing that actually works for trades.</span>
+              </div>
+            </div>
+            <div class="chapter-row">
+              <div class="chapter-num">Ch 10</div>
+              <div class="chapter-detail">
+                <strong>Hiring & Managing Electricians</strong>
+                <span>When to hire, award rate obligations, keeping good people, and building a team that doesn't need you on every job.</span>
+              </div>
+            </div>
+            <div class="chapter-row">
+              <div class="chapter-num">Ch 11</div>
+              <div class="chapter-detail">
+                <strong>Scaling the Business</strong>
+                <span>Systems for growth, pricing for margin, and what to delegate before you scale — not after.</span>
+              </div>
+            </div>
+            <div class="chapter-row">
+              <div class="chapter-num">Ch 12</div>
+              <div class="chapter-detail">
+                <strong>Exit Strategy & Valuation</strong>
+                <span>What makes an electrical business worth buying, how to prepare for a sale, and when to bring in a broker.</span>
+              </div>
+            </div>
+          </div>
+
+          <h2>Already in the Playbook</h2>
+          <p>
+            Chapter 1 is live now — read it free on TradieAutomate.com:
+            <a href="/blog/sparkys-playbook-chapter-1-state-licensing-compliance-australia-2026">The Sparky's Playbook — Chapter 1: Mastering State Licensing & Compliance</a>.
+          </p>
+          <p>
+            The complete 12-chapter PDF is available when you enter your email above. No paywall,
+            no subscription — just a practical guide built for Australian electricians.
+          </p>
+
+          <h2>Want to Automate Your Business?</h2>
+          <p>
+            Chapter 8 covers the full tech stack. If you want to get ahead now, start with
+            <a href="/blog/servicem8-review-2026">our ServiceM8 review</a> — it's the job
+            management platform most Australian electrical businesses end up on — and
+            <a href="https://www.servicem8.com/?ref=tradieautomate">try it free for 14 days</a>.
+          </p>
+        </div>
+
+      </div>
+    </main>
+    <Footer />
+
+    <script>
+      const form = document.getElementById('playbook-form') as HTMLFormElement;
+      const submitBtn = document.getElementById('submit-btn') as HTMLButtonElement;
+      const formError = document.getElementById('form-error') as HTMLElement;
+      const captureBox = document.getElementById('capture-form-box') as HTMLElement;
+      const downloadReveal = document.getElementById('download-reveal') as HTMLElement;
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        formError.style.display = 'none';
+        formError.textContent = '';
+
+        const emailInput = document.getElementById('email') as HTMLInputElement;
+        const firstNameInput = document.getElementById('firstName') as HTMLInputElement;
+        const email = emailInput.value.trim();
+        const firstName = firstNameInput.value.trim();
+
+        if (!email || !email.includes('@')) {
+          formError.textContent = 'Please enter a valid email address.';
+          formError.style.display = 'block';
+          return;
+        }
+
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Sending…';
+
+        try {
+          const res = await fetch('/.netlify/functions/playbook-lead', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email, firstName }),
+          });
+
+          const data = await res.json();
+
+          if (res.ok && data.success) {
+            captureBox.style.display = 'none';
+            downloadReveal.classList.add('visible');
+            const link = document.createElement('a');
+            link.href = data.downloadUrl || '/sparkys-playbook.pdf';
+            link.download = 'The-Sparkys-Playbook-TradieAutomate.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+          } else {
+            formError.textContent = data.error || 'Something went wrong. Please try again.';
+            formError.style.display = 'block';
+            submitBtn.disabled = false;
+            submitBtn.textContent = "Download The Sparky's Playbook →";
+          }
+        } catch (err) {
+          formError.textContent = 'Network error. Please try again.';
+          formError.style.display = 'block';
+          submitBtn.disabled = false;
+          submitBtn.textContent = "Download The Sparky's Playbook →";
+        }
+      });
+    </script>
+  </body>
+</html>
