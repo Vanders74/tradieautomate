@@ -1,7 +1,8 @@
 ---
 title: "The Sparky's Playbook — Chapter 12: Exit Strategy & Business Valuation"
-description: "How Australian electricians value, prepare, and sell their electrical business — valuation multiples, what buyers want, how to maximise sale price, and what to do with the proceeds."
+description: 'Excerpt from The Sparky's Playbook — Ch.12: exit strategy for electricians. Valuation multiples, what buyers want, maximising sale price, and CGT.'
 pubDate: 2026-07-20
+updatedDate: 'Jul 20 2026'
 heroImage: "/hero-sell-servicem8-trade-business-value.jpg"
 category: "Business Growth"
 tags: ["sell electrical business", "electrical business valuation", "business exit strategy", "tradie business sale", "EBITDA multiple", "business broker Australia", "electrical contractor sale", "business succession"]
@@ -16,9 +17,13 @@ faq:
     answer: "For most electrical businesses above $200,000 in value, a specialist business broker is worth the commission (typically 5–8% of sale price, with a minimum engagement fee). A good broker: knows where to find qualified buyers, manages the confidentiality of the sale process (keeping it from staff and competitors until the right time), handles due diligence management, and negotiates on your behalf. For smaller businesses or transitions to a family member or existing employee, a broker may not be necessary — an accountant and a commercial lawyer can manage the process."
   - question: "What is an earnout and when is it used in business sales?"
     answer: "An earnout is a component of the sale price paid based on the future performance of the business after the sale. For example, 70% of the agreed price on settlement, with the remaining 30% paid over 2 years if the business maintains or grows revenue. Buyers use earnouts when they're uncertain about whether the business's performance was driven by the owner personally rather than the business systems. Sellers generally prefer upfront payment — earnouts put you in a position of working to earn money you've technically 'sold'. If an earnout is proposed, negotiate hard on the terms and get legal advice."
+  - question: "Where can I get the full Sparky's Playbook?"
+    answer: "This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook)."
 ---
 
 *This article is Chapter 12 of [The Sparky's Playbook](/playbook) — the free guide to scaling, compliance, and building a high-value electrical business in Australia. [Download the full 12-chapter book free →](/playbook)*
+
+# Sparky's Playbook — Chapter 12: Exit Strategy & Business Valuation
 
 ---
 

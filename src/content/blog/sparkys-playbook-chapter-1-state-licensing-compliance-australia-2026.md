@@ -1,7 +1,8 @@
 ---
 title: "The Sparky's Playbook — Chapter 1: Mastering State Licensing & Compliance"
-description: "A complete guide to electrical contractor licensing across all Australian states — renewals, insurance, multi-state work, and the compliance traps that cost sparkies their licence."
+description: 'Excerpt from The Sparky's Playbook — Ch.1: electrical licensing across all Australian states. Renewals, insurance, multi-state work, and compliance traps.'
 pubDate: 2026-07-20
+updatedDate: 'Jul 20 2026'
 heroImage: "/hero-ccew-nsw-compliance.jpg"
 category: "Compliance"
 tags: ["electrical licence", "state licensing", "compliance", "QBCC", "NSW Fair Trading", "Energy Safe Victoria", "EnergySafety WA", "CBS SA", "contractor licence"]
@@ -16,9 +17,13 @@ faq:
     answer: "Mutual recognition is available under the Mutual Recognition Act 1992, but it must be formally invoked — you cannot simply work in another state assuming it applies. The process requires written notification to the receiving state's licensing body before commencing work, and some occupations and states have specific carve-outs."
   - question: "What is the most common reason electrical contractor licence applications are delayed?"
     answer: "Applying under the wrong licence category is the most common cause of delays, followed by insurance certificates that don't exactly match the licensing body's requirements — wrong issuer name, incorrect cover amount, or a general commercial policy that doesn't meet the specific trade requirements."
+  - question: "Where can I get the full Sparky's Playbook?"
+    answer: "This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook)."
 ---
 
 *This article is Chapter 1 of [The Sparky's Playbook](/playbook) — the free guide to scaling, compliance, and building a high-value electrical business in Australia. [Download the full 12-chapter book free →](/playbook)*
+
+# Sparky's Playbook — Chapter 1: Mastering State Licensing & Compliance
 
 ---
 

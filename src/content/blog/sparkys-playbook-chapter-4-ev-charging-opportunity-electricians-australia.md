@@ -1,8 +1,9 @@
 ---
 title: "The Sparky's Playbook — Chapter 4: The EV Charging Opportunity"
-description: "How Australian electricians can build a profitable EV charging business — residential, commercial, and multi-site installs, recurring revenue, and the technical requirements."
+description: 'Excerpt from The Sparky's Playbook — Ch.4: the EV charging opportunity for electricians. Residential installs, commercial sites, and building recurring revenue.'
 pubDate: 2026-07-20
-heroImage: "/hero-ev-charger-installation.jpg"
+updatedDate: 'Jul 20 2026'
+heroImage: "/hero-ev-charger-network-installation-business.jpg"
 category: "Business Growth"
 tags: ["EV charger installation", "electric vehicle charging", "EV charging business", "EVSE installation", "EV charger electrician", "commercial EV charging", "level 2 charger", "AS/NZS 3000 EV"]
 faq:
@@ -16,9 +17,13 @@ faq:
     answer: "Commercial and multi-site installations are the most profitable category. Apartment buildings (strata), commercial car parks, fleet depots, hotels, shopping centres, and workplaces all require multiple chargers with load management systems — the electrical work is substantial and the job values are high. Ongoing maintenance contracts for commercial charging infrastructure are also a growing revenue stream. The residential market is high volume but competitive on price; commercial is where the margin and complexity justify higher rates."
   - question: "What is dynamic load management and why does it matter for commercial EV charging?"
     answer: "Dynamic load management (DLM) is a system that monitors the total electrical load on a site and distributes available capacity across multiple EV chargers — reducing individual charger output when total site load is high, and increasing it when capacity is available. Without DLM, installing multiple high-powered chargers in a commercial setting could require expensive supply upgrades. With DLM, the same chargers can be installed on a smaller supply connection, making the project economically viable. Understanding DLM — and specifying and installing it correctly — is a core competency for commercial EV charging work."
+  - question: "Where can I get the full Sparky's Playbook?"
+    answer: "This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook)."
 ---
 
 *This article is Chapter 4 of [The Sparky's Playbook](/playbook) — the free guide to scaling, compliance, and building a high-value electrical business in Australia. [Download the full 12-chapter book free →](/playbook)*
+
+# Sparky's Playbook — Chapter 4: The EV Charging Opportunity
 
 ---
 
