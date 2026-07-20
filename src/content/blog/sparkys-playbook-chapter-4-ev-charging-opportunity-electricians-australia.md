@@ -2,7 +2,7 @@
 title: "The Sparky's Playbook — Chapter 4: The EV Charging Opportunity"
 description: "How Australian electricians can build a profitable EV charging business — residential, commercial, and multi-site installs, recurring revenue, and the technical requirements."
 pubDate: 2026-07-20
-heroImage: "/images/blog/ev-charger-installation-electrician-australia.jpg"
+heroImage: "/hero-ev-charger-installation.jpg"
 category: "Business Growth"
 tags: ["EV charger installation", "electric vehicle charging", "EV charging business", "EVSE installation", "EV charger electrician", "commercial EV charging", "level 2 charger", "AS/NZS 3000 EV"]
 faq:

@@ -2,7 +2,7 @@
 title: "The Sparky's Playbook — Chapter 9: Marketing & Reputation"
 description: "How Australian electricians build a 5-star reputation, handle negative Google reviews, win local SEO, and generate consistent leads without expensive ads."
 pubDate: 2026-07-20
-heroImage: "/images/blog/electrician-marketing-google-reviews-australia.jpg"
+heroImage: "/hero-google-reviews-tradie.jpg"
 category: "Business Growth"
 tags: ["electrician marketing", "Google reviews", "local SEO", "tradie marketing", "5 star reviews", "negative review response", "Google Business Profile", "electrician leads"]
 faq:

@@ -3,7 +3,7 @@ title: "Solar Job Management Software Australia 2026: Top Platforms Compared"
 description: "Best job management software for Australian solar installers in 2026 — ServiceM8, simPRO, Tradify and more compared on CEC compliance, quoting, real pricing, and solar-specific workflows."
 pubDate: 2026-07-20
 updatedDate: 2026-07-20
-heroImage: "/images/blog/solar-job-management-software-australia-2026.jpg"
+heroImage: "/hero-servicem8-for-solar-installers.jpg"
 category: "Software Comparisons"
 tags: ["solar job management software", "solar installer software", "solar business software australia", "CEC compliance software", "solar quoting software", "servicem8 solar", "job management solar"]
 faq:

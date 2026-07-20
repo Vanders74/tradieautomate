@@ -2,7 +2,7 @@
 title: "The Sparky's Playbook — Chapter 2: Safety Standards & AS/NZS 3000"
 description: "AS/NZS 3000 compliance for Australian electricians — RCD requirements, switchboard upgrades, inspection obligations, defect notices, and how to survive an audit."
 pubDate: 2026-07-20
-heroImage: "/images/blog/as-nzs-3000-electrical-safety-standards-australia.jpg"
+heroImage: "/hero-compliance-safety-2026.jpg"
 category: "Compliance"
 tags: ["AS/NZS 3000", "electrical safety", "RCD requirements", "switchboard upgrade", "electrical compliance", "wiring rules", "electrical inspection", "defect notice"]
 faq:

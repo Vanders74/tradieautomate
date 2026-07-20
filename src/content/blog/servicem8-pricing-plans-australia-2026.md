@@ -3,7 +3,7 @@ title: "ServiceM8 Pricing 2026: Plans, Real Costs & What You Actually Get"
 description: "ServiceM8 pricing breakdown for 2026 — all plans from Starter to Unlimited, real monthly costs for Australian electrical and solar businesses, plus what's included and what's not."
 pubDate: 2026-07-20
 updatedDate: 2026-07-20
-heroImage: "/images/blog/servicem8-pricing-plans-australia-2026.jpg"
+heroImage: "/hero-servicem8.jpg"
 category: "ServiceM8"
 tags: ["servicem8 pricing", "servicem8 plans", "servicem8 cost", "servicem8 australia", "job management software pricing", "servicem8 review"]
 faq:
