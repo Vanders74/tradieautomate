@@ -149,6 +149,16 @@ Yes — if your terms of trade include an interest clause and the customer was g
 
 ---
 
+
+
+---
+
+> **This article is featured in Chapter 7 of The Sparky's Playbook.**
+> The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download the full book free →](/playbook)
+
+---
+
 ## Related Reading
 
 - [How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026/)
