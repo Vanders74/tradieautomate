@@ -2,7 +2,7 @@
 title: "The Sparky's Playbook — Chapter 1: Mastering State Licensing & Compliance"
 description: "A complete guide to electrical contractor licensing across all Australian states — renewals, insurance, multi-state work, and the compliance traps that cost sparkies their licence."
 pubDate: 2026-07-20
-heroImage: "/images/blog/electrical-contractor-licensing-australia.jpg"
+heroImage: "/hero-ccew-nsw-compliance.jpg"
 category: "Compliance"
 tags: ["electrical licence", "state licensing", "compliance", "QBCC", "NSW Fair Trading", "Energy Safe Victoria", "EnergySafety WA", "CBS SA", "contractor licence"]
 faq:

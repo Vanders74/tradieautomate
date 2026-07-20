@@ -2,7 +2,7 @@
 title: "The Sparky's Playbook — Chapter 11: Scaling Your Electrical Business"
 description: "How Australian electrical businesses scale sustainably — pricing for margin, building systems, knowing what to delegate, and the growth traps that stall most small electrical contractors."
 pubDate: 2026-07-20
-heroImage: "/images/blog/scaling-electrical-business-australia.jpg"
+heroImage: "/hero-scaling-solar-electrical-business.jpg"
 category: "Business Growth"
 tags: ["scaling electrical business", "electrical contractor growth", "pricing for margin", "business systems", "electrical business strategy", "tradie business growth", "delegating tradie", "electrical business profit"]
 faq:

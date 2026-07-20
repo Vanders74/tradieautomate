@@ -2,7 +2,7 @@
 title: "The Sparky's Playbook — Chapter 6: Battery Storage Systems"
 description: "How Australian electricians install residential and commercial battery storage — AS/NZS 5139, manufacturer certification, safety obligations, and the after-sales monitoring opportunity."
 pubDate: 2026-07-20
-heroImage: "/images/blog/battery-storage-installation-electrician-australia.jpg"
+heroImage: "/hero-battery-storage.jpg"
 category: "Solar & Battery"
 tags: ["battery storage", "solar battery", "AS/NZS 5139", "battery installation", "energy storage", "CEC battery accreditation", "home battery", "commercial battery storage"]
 faq:

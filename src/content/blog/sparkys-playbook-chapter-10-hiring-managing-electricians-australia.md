@@ -2,7 +2,7 @@
 title: "The Sparky's Playbook — Chapter 10: Hiring & Managing Electricians"
 description: "How to hire, onboard, retain, and manage electricians in Australia — award rates, apprentice obligations, keeping good staff, and delegating without losing quality control."
 pubDate: 2026-07-20
-heroImage: "/images/blog/hiring-electricians-australia-electrical-business.jpg"
+heroImage: "/hero-scaling-solar-electrical-business.jpg"
 category: "Business Growth"
 tags: ["hiring electricians", "electrical apprentice", "award rates", "managing tradespeople", "electrical business growth", "tradie staff", "electrician wages", "Fair Work electrician"]
 faq:

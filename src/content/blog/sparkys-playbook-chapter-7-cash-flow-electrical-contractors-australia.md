@@ -2,7 +2,7 @@
 title: "The Sparky's Playbook — Chapter 7: Cash Flow for Electrical Contractors"
 description: "How Australian electrical contractors manage cash flow — progress billing, debtor control, seasonal patterns, and the financial habits that keep profitable businesses from going under."
 pubDate: 2026-07-20
-heroImage: "/images/blog/cash-flow-electrical-contractor-australia.jpg"
+heroImage: "/hero-hidden-costs-profit.jpg"
 category: "Business Growth"
 tags: ["cash flow", "electrical contractor", "progress billing", "debtor management", "business finance", "tradie business", "financial management"]
 faq:

@@ -2,7 +2,7 @@
 title: "The Sparky's Playbook — Chapter 5: Commercial Solar Systems"
 description: "How Australian electricians win and deliver commercial solar projects — CEC design requirements, network approvals, metering, compliance, and positioning for commercial work."
 pubDate: 2026-07-20
-heroImage: "/images/blog/commercial-solar-system-electrician-australia.jpg"
+heroImage: "/hero-commercial-solar-system-compliance-australia.jpg"
 category: "Solar & Battery"
 tags: ["commercial solar", "solar installation", "CEC accreditation", "network approval", "solar compliance", "commercial solar Australia", "solar electrician", "large scale solar"]
 faq:
