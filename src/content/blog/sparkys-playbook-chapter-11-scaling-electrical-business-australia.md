@@ -1,6 +1,6 @@
 ---
 title: "The Sparky's Playbook — Chapter 11: Scaling Your Electrical Business"
-description: 'Excerpt from The Sparky's Playbook — Ch.11: scaling an electrical business. Pricing for margin, building systems, what to delegate, and avoiding growth traps.'
+description: "Excerpt from The Sparky's Playbook — Ch.11: scaling an electrical business. Pricing for margin, building systems, what to delegate, and avoiding growth traps."
 pubDate: 2026-07-20
 updatedDate: 'Jul 20 2026'
 heroImage: "/hero-scaling-electrical-business-growth.jpg"

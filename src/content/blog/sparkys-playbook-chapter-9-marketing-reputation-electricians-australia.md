@@ -1,6 +1,6 @@
 ---
 title: "The Sparky's Playbook — Chapter 9: Marketing & Reputation"
-description: 'Excerpt from The Sparky's Playbook — Ch.9: marketing for electricians. 5-star reviews, handling negative feedback, local SEO, and lead generation without ads.'
+description: "Excerpt from The Sparky's Playbook — Ch.9: marketing for electricians. 5-star reviews, handling negative feedback, local SEO, and lead generation without ads."
 pubDate: 2026-07-20
 updatedDate: 'Jul 20 2026'
 heroImage: "/hero-google-reviews-tradie.jpg"

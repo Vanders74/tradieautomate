@@ -1,6 +1,6 @@
 ---
 title: "The Sparky's Playbook — Chapter 12: Exit Strategy & Business Valuation"
-description: 'Excerpt from The Sparky's Playbook — Ch.12: exit strategy for electricians. Valuation multiples, what buyers want, maximising sale price, and CGT.'
+description: "Excerpt from The Sparky's Playbook — Ch.12: exit strategy for electricians. Valuation multiples, what buyers want, maximising sale price, and CGT."
 pubDate: 2026-07-20
 updatedDate: 'Jul 20 2026'
 heroImage: "/hero-sell-servicem8-trade-business-value.jpg"

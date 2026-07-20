@@ -1,6 +1,6 @@
 ---
 title: "The Sparky's Playbook — Chapter 2: Safety Standards & AS/NZS 3000"
-description: 'Excerpt from The Sparky's Playbook — Ch.2: AS/NZS 3000 for electricians. RCD requirements, switchboard obligations, defect notices, and audit survival.'
+description: "Excerpt from The Sparky's Playbook — Ch.2: AS/NZS 3000 for electricians. RCD requirements, switchboard obligations, defect notices, and audit survival."
 pubDate: 2026-07-20
 updatedDate: 'Jul 20 2026'
 heroImage: "/hero-compliance-safety-2026.jpg"

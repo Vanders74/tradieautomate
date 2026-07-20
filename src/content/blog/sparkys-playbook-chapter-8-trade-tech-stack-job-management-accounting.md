@@ -1,6 +1,6 @@
 ---
 title: "The Sparky's Playbook — Chapter 8: The Modern Trade Tech Stack"
-description: 'Excerpt from The Sparky's Playbook — Ch.8: the modern trade tech stack. ServiceM8 vs competitors, Xero vs MYOB, and software for lean electrical contracting.'
+description: "Excerpt from The Sparky's Playbook — Ch.8: the modern trade tech stack. ServiceM8 vs competitors, Xero vs MYOB, and software for lean electrical contracting."
 pubDate: 2026-07-20
 updatedDate: 'Jul 20 2026'
 heroImage: "/hero-servicem8-for-solar-businesses.jpg"
