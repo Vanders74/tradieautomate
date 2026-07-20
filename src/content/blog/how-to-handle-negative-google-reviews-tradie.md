@@ -168,6 +168,11 @@ Active engagement with reviews (responding promptly and professionally) is a pos
 
 ---
 
+---
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - [How to Get 5-Star Google Reviews as a Solar Installer or Electrician](/blog/google-reviews-five-star-tradie-guide/)
