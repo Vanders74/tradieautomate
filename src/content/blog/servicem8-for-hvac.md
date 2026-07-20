@@ -120,7 +120,7 @@ For commercial HVAC businesses where the technician is often the sole point of c
 
 ## Pricing
 
-ServiceM8 pricing is per-job, not per-user:
+[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026) is per-job, not per-user:
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
@@ -193,7 +193,7 @@ Client records in ServiceM8 maintain a complete job history with all associated 
 *Related reading:*
 - *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
 - *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
-- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
+- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-[tradify](/blog/tradify-review-2026-australia)-comparison-australia)*
 - *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*

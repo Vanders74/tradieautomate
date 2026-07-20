@@ -7,7 +7,7 @@ category: "Software Comparisons"
 heroImage: '/hero-tradify-comparison.jpg'
 ---
 
-When you're researching job management software for your trade business, **ServiceM8 and Tradify** come up together constantly. They're both designed for small trade businesses, they're both cloud-based, and they're both priced for the sub-enterprise market.
+When you're researching job management software for your trade business, **ServiceM8 and [Tradify](/blog/tradify-review-2026-australia)** come up together constantly. They're both designed for small trade businesses, they're both cloud-based, and they're both priced for the sub-enterprise market.
 
 So what's actually different? And which one should you use?
 

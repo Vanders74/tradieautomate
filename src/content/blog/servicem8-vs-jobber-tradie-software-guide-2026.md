@@ -44,7 +44,7 @@ Here's the honest breakdown.
 
 ## Pricing: What You'll Actually Pay
 
-### ServiceM8 Pricing (AUD)
+### [ServiceM8 Pricing](/blog/servicem8-pricing-plans-australia-2026) (AUD)
 
 ServiceM8 pricing is based on active staff and jobs per month:
 
@@ -206,7 +206,7 @@ Jobber is worth considering if you're:
 ServiceM8 and Jobber are two options in a broader field. We've published detailed comparisons with other major platforms:
 
 - [ServiceM8 vs simPRO](/blog/servicem8-vs-simpro-comparison-australia) — for businesses evaluating enterprise-grade project management
-- [ServiceM8 vs Tradify](/blog/servicem8-vs-tradify-comparison-australia) — for businesses comparing the most affordable options
+- [ServiceM8 vs Tradify](/blog/servicem8-vs-[tradify](/blog/tradify-review-2026-australia)-comparison-australia) — for businesses comparing the most affordable options
 - [ServiceM8 vs Fergus](/blog/servicem8-vs-fergus) — for the Kiwi-built alternative
 - [ServiceM8 vs AroFlo](/blog/servicem8-vs-aroflo) — for businesses with complex quoting and project management needs
 - [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia) — the full ranked comparison for electrical businesses

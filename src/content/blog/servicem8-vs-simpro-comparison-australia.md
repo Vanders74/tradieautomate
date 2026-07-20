@@ -54,7 +54,7 @@ Quick note before we dive in: if you searched for "Service M 8 vs simPRO" or "Se
 
 ### ServiceM8
 
-ServiceM8 pricing starts at around **$29/month AUD** for the Starter plan and scales with the number of staff and features. Their pricing model is transparent and designed for businesses that don't want a surprise invoice from their software vendor.
+[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026) starts at around **$29/month AUD** for the Starter plan and scales with the number of staff and features. Their pricing model is transparent and designed for businesses that don't want a surprise invoice from their software vendor.
 
 Key points:
 - No lock-in contracts on most plans
@@ -208,7 +208,7 @@ No credit card required. Set up your first job in under 30 minutes.
 
 ## Related Articles
 
-- [ServiceM8 vs Tradify: Which Is Better for Australian Trade Businesses in 2026?](/blog/servicem8-vs-tradify-comparison-australia)
+- [ServiceM8 vs Tradify: Which Is Better for Australian Trade Businesses in 2026?](/blog/servicem8-vs-[tradify](/blog/tradify-review-2026-australia)-comparison-australia)
 - [ServiceM8 vs Fergus: Honest Comparison for Australian Trades](/blog/servicem8-vs-fergus)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)
