@@ -1,7 +1,7 @@
 ---
 title: 'ServiceM8 Review 2026: Real Pricing, Features & Who It Actually Suits'
-description: "ServiceM8 starts at $29/mo with unlimited staff logins. 2026 review from Australian tradies: real pricing, invoicing speed, solar compliance features, and honest trade-offs. Free 14-day trial."
-updatedDate: 'Jul 02 2026'
+description: "ServiceM8 pricing starts at $29/month. Real Australian electrician review: 2026 features, CCEW compliance support, NSW Fair Trading requirements, and whether it's worth upgrading from spreadsheets."
+updatedDate: 'Jul 20 2026'
 pubDate: 'Apr 03 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-review.jpg'
@@ -20,6 +20,10 @@ faq:
     answer: "Yes. ServiceM8 has native integrations with both Xero and MYOB AccountRight. Invoices, client records, and payments sync automatically, eliminating double-entry between your job management and accounting platforms."
   - question: "Is there a free trial for ServiceM8?"
     answer: "Yes — ServiceM8 offers a 14-day free trial with no credit card required. You get full access to explore the platform before committing."
+  - question: "Does ServiceM8 help with NSW CCEW compliance requirements?"
+    answer: "Yes. Under NSW Fair Trading's CCEW framework (Home Building Act 1989 and Electricity (Consumer Safety) Act 2004), electricians must lodge a Certificate of Compliance Electrical Work within 7 days of job completion. ServiceM8's digital forms capture all required testing data on-site — earth continuity, insulation resistance, polarity, RCD test results — and attach geo-tagged photos directly to the job record. This eliminates the Friday afternoon compliance scramble and ensures you can produce a compliant CCEW the same day the job closes."
+  - question: "Does ServiceM8 support Energy Safe Victoria (ESV) compliance for Victorian electricians?"
+    answer: "Yes. Victorian electricians must comply with the Electricity Safety Act 1998 (Vic), which requires a Certificate of Electrical Safety (CES) to be lodged with Energy Safe Victoria within 30 days of completing electrical installation work. ServiceM8's job forms can be configured to capture the ESV-required test data and installation details at the point of work, making same-day CES generation practical rather than an end-of-month scramble."
 ---
 
 ServiceM8 has become a household name in the Australian trades industry — and for good reason. But with so many job management platforms competing for your subscription dollar, it's worth asking: is ServiceM8 actually the best fit for your business in 2026?
@@ -105,7 +109,11 @@ There are some add-ons that push costs higher — advanced scheduling, job costi
 
 For solar installers and electricians operating under strict regulatory requirements, ServiceM8's digital forms are exceptional. You can build custom compliance checklists, inspection reports, and certificate of compliance templates that field staff complete on-site via the app.
 
-Photos attach directly to job records — not floating in someone's camera roll. Every site visit is timestamped and auditable. When the Clean Energy Regulator comes knocking, your documentation is already organised.
+The regulatory landscape for Australian electricians is demanding: under **NSW Fair Trading's CCEW framework** (*Home Building Act 1989* and *Electricity (Consumer Safety) Act 2004*), a Certificate of Compliance Electrical Work must be lodged within 7 days of job completion — with penalties up to $22,000 per offence for non-compliance. In Victoria, **Energy Safe Victoria requires CES lodgement within 30 days** under the *Electricity Safety Act 1998 (Vic)*. Nationally, Clean Energy Regulator audits under the *Renewable Energy (Electricity) Act 2000* require complete installation records including geo-tagged photos and test results.
+
+ServiceM8's digital job forms are built to capture all of this at the point of work — not in a Friday afternoon paperwork scramble.
+
+Photos attach directly to job records — not floating in someone's camera roll. Every site visit is timestamped and auditable. When Fair Trading NSW, Energy Safe Victoria, or the Clean Energy Regulator comes knocking, your documentation is already organised.
 
 Working with trades businesses preparing for CER audits, I've seen this shift firsthand: companies that previously spent two days pulling together paper records for a spot audit now do it in under two hours — because everything is tied to the job record automatically.
 
@@ -179,8 +187,8 @@ Talk to Australian tradies who've switched to ServiceM8, and a few themes come u
 
 ServiceM8 is the strongest fit for:
 
-- **Solar and battery installers** — compliance documentation, CER audit readiness, and certificate generation are built-in
-- **Electricians and plumbers** running residential and light commercial work
+- **Solar and battery installers** — compliance documentation, CER audit readiness (under the *Renewable Energy (Electricity) Act 2000*), and certificate generation are built-in
+- **Electricians and plumbers** running residential and light commercial work — particularly those managing CCEW obligations under *Home Building Act 1989 (NSW)* or Certificate of Electrical Safety requirements under *Electricity Safety Act 1998 (Vic)*
 - **Growing trade businesses** (2–30 staff) that want to replace paper-based workflows
 - **Businesses chasing faster payments** — the invoicing and payment processing workflow is best-in-class
 - **Owner-operators** who want to stop losing time to admin without hiring a dedicated admin person
