@@ -15,6 +15,12 @@ This guide covers the current rates, the classification structure, key allowance
 
 ---
 
+> **Want the rates on one printable page?**  
+> Download the free **MA000025 Quick Reference Card** — Grades 1–5, apprentice Year 1–4, overtime, tool allowance, and super rate, all on a single A4 sheet. Updated for July 2026.  
+> [Download the 1-page quick reference →](/award-rates-card)
+
+---
+
 ## ⚡ Interactive Award Rates Calculator
 
 <div class="award-calc-wrapper" style="background:#0f172a;border-radius:16px;padding:32px 24px;margin:24px 0;color:#e2e8f0;font-family:system-ui,-apple-system,sans-serif;">
@@ -372,6 +378,14 @@ The FWO conducts targeted audits by industry sector and has run specific campaig
 ### Does my apprentice need a separate employment contract?
 
 Yes. Apprentices must have a formal training contract (apprenticeship agreement) registered with the relevant state apprenticeship authority. This is separate from the standard employment contract. The training contract specifies the training organisation, the qualification being worked toward, and the training obligations of both parties. Without a registered training contract, the person may not legally qualify as an apprentice for payroll purposes and wage subsidy eligibility.
+
+---
+
+---
+
+> **📥 Take the rates with you**  
+> The **MA000025 Award Rates Quick Reference Card** puts every rate, allowance, and OT multiplier on one printable page — so you can cost a week's labour without opening a spreadsheet.  
+> [Download free →](/award-rates-card)
 
 ---
 
