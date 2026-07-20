@@ -205,7 +205,7 @@ A 14-day free trial with full feature access is available. No credit card requir
 ## Getting Started: A Practical 3-Step Setup
 
 **Week 1: Core account setup**
-- Start your free 14-day trial at [servicem8.com](https://www.servicem8.com/?ref=tradieautomate)
+- Start your free 14-day trial at [servicem8.com](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 - Configure your business profile, service types, and labour rates
 - Set up Xero or MYOB integration
 - Add your technicians with their licence details and skill sets
@@ -234,7 +234,7 @@ It solves the real problems: compliance paperwork risk, slow invoicing, poor fie
 
 The 14-day trial is long enough to validate it for your business. Most electricians who commit to setting it up properly don't go back to the old way.
 
-[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

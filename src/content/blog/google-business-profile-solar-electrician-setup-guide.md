@@ -212,7 +212,7 @@ For systematic tracking of your website's SEO performance across both GBP and or
 
 Getting the enquiry through GBP is only the first step. Converting it into a booked job — and then a review that strengthens your GBP for the next customer — is where the system completes.
 
-[ServiceM8](https://www.servicem8.com/?ref=tradieautomate) integrates the entire cycle:
+[ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) integrates the entire cycle:
 - New lead captured (phone call or contact form) → job created in ServiceM8
 - Quote sent automatically within hours
 - Job booked → confirmation SMS to customer

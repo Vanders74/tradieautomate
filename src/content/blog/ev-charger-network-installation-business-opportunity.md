@@ -141,7 +141,7 @@ This is a professional services pitch, not a materials-and-labour quote. Price i
 
 Commercial EV charging projects involve parallel workstreams — DNSP applications, CPMS configuration, sub-metering installation, hardware commissioning — that need to be tracked carefully.
 
-Using a job management system like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) with custom commercial EV job templates allows you to track each milestone: site assessment complete, DNSP application submitted, CPMS configured, chargers commissioned, compliance certificates issued. This is especially important when you're running multiple commercial jobs simultaneously.
+Using a job management system like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) with custom commercial EV job templates allows you to track each milestone: site assessment complete, DNSP application submitted, CPMS configured, chargers commissioned, compliance certificates issued. This is especially important when you're running multiple commercial jobs simultaneously.
 
 Keep your admin tight. Commercial clients notice when your project management is sloppy — and it affects their confidence in your technical work.
 
@@ -170,7 +170,7 @@ That means taking on smaller commercial jobs now — even at lower margin — to
 
 ---
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — manage commercial EV project workflows, DNSP application tracking, milestone billing, and ongoing maintenance contracts.
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — manage commercial EV project workflows, DNSP application tracking, milestone billing, and ongoing maintenance contracts.
 
 > **Questions on EV charger network design, CPMS platforms, or commercial compliance requirements?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers, no login required.
@@ -193,7 +193,7 @@ DLM is a control system that monitors total site electricity consumption and dyn
 
 **How do I find commercial EV charging clients as an electrical contractor?**
 
-The strongest commercial EV charging opportunities come from: fleet operators transitioning their vehicles to EVs (target businesses with 5+ company vehicles), body corporate managers at apartment complexes (strata EV charging), local councils (fleet depots, public car parks, community facilities), and hospitality businesses (hotels, shopping centres seeking customer amenity). Existing clients who operate fleets or large facilities are your warmest leads — review your [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) client list for businesses with company fleets.
+The strongest commercial EV charging opportunities come from: fleet operators transitioning their vehicles to EVs (target businesses with 5+ company vehicles), body corporate managers at apartment complexes (strata EV charging), local councils (fleet depots, public car parks, community facilities), and hospitality businesses (hotels, shopping centres seeking customer amenity). Existing clients who operate fleets or large facilities are your warmest leads — review your [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) client list for businesses with company fleets.
 
 **What certifications do I need to install commercial EV chargers in Australia?**
 

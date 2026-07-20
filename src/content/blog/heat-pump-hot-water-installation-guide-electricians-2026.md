@@ -143,7 +143,7 @@ Choose brands with local technical support, Australian installer training progra
 
 ### Track HPHW Jobs Properly
 
-HPHW installations involve a two-trade workflow (electrical + plumbing), STC lodgement, and often a state rebate claim — all running in parallel. Use [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) to create a dedicated HPHW job type with a multi-step workflow that tracks both the electrical and plumbing tasks, the STC lodgement, and the state rebate claim in one place. Without a structured workflow, HPHW jobs are easy to under-bill and over-administer.
+HPHW installations involve a two-trade workflow (electrical + plumbing), STC lodgement, and often a state rebate claim — all running in parallel. Use [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) to create a dedicated HPHW job type with a multi-step workflow that tracks both the electrical and plumbing tasks, the STC lodgement, and the state rebate claim in one place. Without a structured workflow, HPHW jobs are easy to under-bill and over-administer.
 
 ---
 

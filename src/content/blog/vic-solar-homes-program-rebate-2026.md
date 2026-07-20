@@ -99,7 +99,7 @@ Registering with Solar Victoria means agreeing to their Code of Conduct. Key obl
 
 **Solar Victoria conducts installer audits.** Non-compliance with the Code of Conduct can result in registration suspension — which means you can no longer offer rebates.
 
-If you use a job management platform like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) to manage your solar jobs, you can build Code of Conduct compliance steps into your job templates — quote checklist, customer communication log, post-install documentation — so every job is audit-ready without extra effort.
+If you use a job management platform like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) to manage your solar jobs, you can build Code of Conduct compliance steps into your job templates — quote checklist, customer communication log, post-install documentation — so every job is audit-ready without extra effort.
 
 ---
 
@@ -173,7 +173,7 @@ Both can apply to the same job. Make sure your quotes itemise these separately a
 
 ---
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — manage Solar Victoria reservation tracking, CES certificate generation, and customer follow-up in one system.
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — manage Solar Victoria reservation tracking, CES certificate generation, and customer follow-up in one system.
 
 > **Questions on Solar Victoria registration, CES obligations, or AS/NZS 5139 compliance?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers, no login required.

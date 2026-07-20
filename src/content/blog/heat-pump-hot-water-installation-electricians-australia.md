@@ -140,7 +140,7 @@ For existing solar customers, the conversation is natural:
 
 This framing — free hot water from existing solar — resonates strongly with solar-owning customers. It's not selling another product; it's making their solar investment work harder.
 
-Track your past solar customers in [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) and filter for those who have gas hot water systems — this is your warm heat pump pipeline. A targeted phone or email campaign to this segment typically converts well.
+Track your past solar customers in [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) and filter for those who have gas hot water systems — this is your warm heat pump pipeline. A targeted phone or email campaign to this segment typically converts well.
 
 ---
 
@@ -156,7 +156,7 @@ Build these documentation steps into your job completion checklist so they're no
 
 ---
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — manage heat pump hot water jobs, VEU documentation, rebate paperwork, and customer follow-up from one system.
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — manage heat pump hot water jobs, VEU documentation, rebate paperwork, and customer follow-up from one system.
 
 > **Questions on heat pump hot water rebates, VEU accreditation, or solar integration?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers, no login required.

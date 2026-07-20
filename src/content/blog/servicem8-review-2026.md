@@ -83,7 +83,7 @@ There are some add-ons that push costs higher — advanced scheduling, job costi
 
 **Free trial:** 14 days, no credit card required.
 
-[Try ServiceM8 free for 14 days →](https://www.servicem8.com/?ref=tradieautomate)
+[Try ServiceM8 free for 14 days →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 
@@ -260,7 +260,7 @@ The job-based pricing model, unlimited staff logins, compliance form builder, an
 
 If you're a solar installer or electrician running more than 15 jobs a month, the time savings alone will cover the subscription cost within weeks.
 
-[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 
@@ -288,7 +288,7 @@ Yes. ServiceM8 has native integrations with both Xero and MYOB AccountRight. Inv
 Both are strong mobile-first platforms for Australian trade businesses. ServiceM8 has more mature compliance form support and a larger ecosystem of integrations, which makes it the preferred choice for solar installers who need CER-compatible workflows. Tradify has a simpler interface and is often preferred by newer businesses or sole traders who want faster onboarding. For a 1–3 person electrical business new to job management software, Tradify is a legitimate alternative worth trialling alongside ServiceM8.
 
 ### Is there a free trial for ServiceM8?
-Yes — ServiceM8 offers a 14-day free trial with no credit card required. You get full access to explore the platform before committing. [Start your trial here](https://www.servicem8.com/?ref=tradieautomate).
+Yes — ServiceM8 offers a 14-day free trial with no credit card required. You get full access to explore the platform before committing. [Start your trial here](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate).
 
 ---
 

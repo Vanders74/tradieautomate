@@ -133,7 +133,7 @@ Start with the right tool for where you are now. When you're at 15 technicians r
 
 ServiceM8 offers a **14-day free trial** with full feature access — no credit card required. For HVAC businesses, set up Asset Management first. It's the feature that delivers the most immediate value and sets you up for a systematic service database from day one.
 
-**[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)**
+**[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)**
 
 ---
 

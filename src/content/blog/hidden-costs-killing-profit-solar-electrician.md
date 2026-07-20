@@ -57,7 +57,7 @@ Step one is measurement. Run a time audit across a typical week — track every 
 
 Step two is pricing correction. If compliance admin takes 30 minutes per install and you're doing 20 installs a month, that's 10 hours of time that needs to be in your cost model. Either price it in, or eliminate it through automation.
 
-Using a platform like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) with automated compliance form completion significantly reduces the post-install admin burden — technicians complete forms on-site as part of the job, rather than in the van or back at the office afterward. Our [paperless trade roadmap](/blog/paperless-trade-roadmap-operational-efficiency) covers this in detail.
+Using a platform like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) with automated compliance form completion significantly reduces the post-install admin burden — technicians complete forms on-site as part of the job, rather than in the van or back at the office afterward. Our [paperless trade roadmap](/blog/paperless-trade-roadmap-operational-efficiency) covers this in detail.
 
 The right software pays for itself fast — our [best job management software comparison for electricians](/blog/best-job-management-software-electricians-australia) breaks down real 2026 pricing across 5 platforms.
 
@@ -105,7 +105,7 @@ This float has real costs:
 
 The answer is simple in principle and requires discipline in practice: invoice on the day of job completion, every time.
 
-With [ServiceM8](https://www.servicem8.com/?ref=tradieautomate), invoices can be generated automatically when a job is marked complete. The technician finishes the install, marks the job done, and the invoice goes to the customer's inbox within minutes — not days. Payment links in the invoice allow customers to pay immediately via card.
+With [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate), invoices can be generated automatically when a job is marked complete. The technician finishes the install, marks the job done, and the invoice goes to the customer's inbox within minutes — not days. Payment links in the invoice allow customers to pay immediately via card.
 
 A Brisbane-based solar installation business with three technicians reduced their average invoice-to-payment time from 12 days to 4 days after switching to same-day digital invoicing — recovering approximately $24,000 in monthly working capital that had previously been locked in transit.
 
@@ -201,7 +201,7 @@ You don't need to fix all five problems simultaneously. Most solar and electrica
 
 For most businesses we see, it's either unbilled time or late payment float. Both are immediately addressable with digital job management tooling.
 
-[See how ServiceM8 handles each of these workflows →](https://www.servicem8.com/?ref=tradieautomate)
+[See how ServiceM8 handles each of these workflows →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

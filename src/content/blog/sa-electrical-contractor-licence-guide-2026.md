@@ -144,7 +144,7 @@ Both the CBS electrical worker licence and the electrical contractor licence are
 
 **Key risk:** Failing to renew on time means you're immediately unlicensed. In SA, working without a current CBS licence is an offence under the *Plumbers, Gas Fitters and Electricians Act 1995* and can result in significant fines and liability exposure.
 
-Set your licence expiry date as a recurring reminder in your job management system — ideally with a 60-day advance alert. Many SA electrical businesses use [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) to track licence renewal dates, COC lodgement records, and compliance calendar deadlines in one place alongside their job workflow.
+Set your licence expiry date as a recurring reminder in your job management system — ideally with a 60-day advance alert. Many SA electrical businesses use [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) to track licence renewal dates, COC lodgement records, and compliance calendar deadlines in one place alongside their job workflow.
 
 ---
 
@@ -199,7 +199,7 @@ Running a compliant electrical contracting business in SA requires active manage
 
 The practical solution is to centralise compliance tracking in your job management platform. For each regulatory obligation, create a recurring reminder that fires 60 days before expiry — enough time to act without panic. Log every COC lodgement against the relevant job record. Keep current certificates of currency in a folder accessible to whoever handles your admin.
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — manage licence renewal reminders, COC records, and compliance calendar alongside your job workflow.
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — manage licence renewal reminders, COC records, and compliance calendar alongside your job workflow.
 
 > **Have a compliance question right now?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on SA electrical licensing, COC requirements, CEC accreditation, STC claims, and battery storage compliance — no login required.

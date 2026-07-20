@@ -136,7 +136,7 @@ For an HVAC business with 5 technicians doing 100 jobs a month, ServiceM8 Growin
 ## Getting Started
 
 **Setup week 1:**
-- Start your free 14-day trial at [servicem8.com](https://www.servicem8.com/?ref=tradieautomate)
+- Start your free 14-day trial at [servicem8.com](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 - Create your HVAC service types (split system service, commercial chiller maintenance, refrigeration callout, installation, etc.)
 - Build your first compliance form templates — refrigerant handling record, commissioning checklist, service report
 - Add your technicians with ARCtick licence details and certifications
@@ -162,7 +162,7 @@ Australian HVAC businesses face a specific set of compliance, seasonal, and oper
 
 The 14-day free trial is long enough to prove whether it fits your operation.
 
-[Start your free ServiceM8 trial — no credit card required →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free ServiceM8 trial — no credit card required →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

@@ -143,7 +143,7 @@ Energy Safe Victoria has an online portal — **ESV Connect** — where CES must
 
 The most reliable way to ensure every job gets a CES issued within the required timeframe is to build it into your job completion workflow — not treat it as a post-job admin task you remember when you have time.
 
-In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate), you can set up:
+In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate), you can set up:
 - A mandatory checklist item on every solar and electrical job: "CES issued — certificate number entered"
 - A job follow-up task created automatically when a job is completed, due within 14 days, for CES lodgement confirmation
 - A notes field for the CES certificate number, stored against the job record

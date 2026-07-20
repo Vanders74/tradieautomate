@@ -131,7 +131,7 @@ This communication happens without anyone in the office making manual calls. For
 
 For a builder running 10–20 active renovation projects at any time, the Starter or Growing plan handles the volume. The per-job pricing model means costs don't scale with headcount.
 
-[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 
@@ -151,7 +151,7 @@ See our [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation
 ## Getting Started for Builders
 
 **Week 1: Foundation setup**
-- Start your free trial at [servicem8.com](https://www.servicem8.com/?ref=tradieautomate)
+- Start your free trial at [servicem8.com](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 - Configure your business profile, job types, and labour rates
 - Connect Xero or MYOB
 - Add your subcontractors as limited-access staff members
@@ -175,7 +175,7 @@ ServiceM8 is a strong operational platform for Australian builders doing residen
 
 For larger, more complex construction project management, you may need additional tools. But for the builder whose biggest operational challenges are paperwork, invoicing delays, and communication overhead, ServiceM8 addresses all three.
 
-[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

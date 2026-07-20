@@ -170,7 +170,7 @@ See our [solar compliance checklist](/blog/solar-compliance-checklist-2026) and 
 
 The most reliable way to ensure every job gets a CCEW issued correctly and on time is to build it into your job completion workflow — not rely on memory.
 
-In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate), set up:
+In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate), set up:
 - A mandatory job completion checklist item: "CCEW issued — reference number recorded"
 - A follow-up task created automatically when a NSW job is marked complete, due within 14 days, for CCEW confirmation
 - A notes field for the CCEW certificate number and issue date, stored against the job record

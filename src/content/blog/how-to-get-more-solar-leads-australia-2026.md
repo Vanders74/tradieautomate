@@ -95,7 +95,7 @@ Yet most solar businesses have no systematic referral program — they get refer
 
 **Offer a referral incentive.** $100–$200 referral credit (applied to their next service call, or a gift card) pays for itself many times over compared to the cost of an equivalent ad-generated lead. Let customers know the incentive exists at the time of installation.
 
-**Track referrals in your job management system.** In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate), you can add a "referred by" field to each job — this tells you which customers are generating referrals and lets you reward them appropriately.
+**Track referrals in your job management system.** In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate), you can add a "referred by" field to each job — this tells you which customers are generating referrals and lets you reward them appropriately.
 
 ---
 
@@ -153,7 +153,7 @@ Getting leads is only half the equation. Converting them into signed jobs is whe
 2. **Follow up systematically** — a lead that doesn't book on first contact doesn't mean they've said no. A 3-touch follow-up sequence (call, SMS, email over 5 days) can convert 30–40% more leads.
 3. **Quote fast** — send the quote the same day or next morning after the site visit. Every day of delay reduces close probability. Note that under the **Australian Consumer Law (ACL)**, solar quotes and contracts must be accurate and not misleading — quote the system size, expected output, and STC rebate amount precisely, as misrepresentation is enforceable by the **Australian Competition and Consumer Commission (ACCC)**.
 
-[ServiceM8](https://www.servicem8.com/?ref=tradieautomate) automates the follow-up process — set up an automatic SMS to new enquiries within 15 minutes, automatic quote delivery, and a follow-up sequence after the quote is sent. This happens without you thinking about it.
+[ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) automates the follow-up process — set up an automatic SMS to new enquiries within 15 minutes, automatic quote delivery, and a follow-up sequence after the quote is sent. This happens without you thinking about it.
 
 For a deeper dive into quote conversion, see our [SMS vs email guide](/blog/sms-vs-email-quotes-customer-experience).
 

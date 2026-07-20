@@ -186,7 +186,7 @@ TradiePad is a credible option for very small teams with simple needs. As those 
 
 The honest recommendation: start with ServiceM8's 14-day free trial and evaluate it properly before committing to either platform.
 
-[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

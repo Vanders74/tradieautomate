@@ -191,7 +191,7 @@ Tap to Pay is one part of a complete mobile workflow. For the full picture of ho
 - [The Hidden Admin Cost Calculator](/blog/hidden-admin-cost-calculator) — see what manual payment collection is actually costing your business
 - [The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)
 
-**[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)**
+**[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)**
 
 ---
 

@@ -153,7 +153,7 @@ The question isn't whether you'll ever want to exit your business. Every busines
 
 ---
 
-*Ready to get ServiceM8 set up properly in your solar business? [Try ServiceM8 free for 14 days](https://www.servicem8.com/?ref=tradieautomate) and start building the digital foundation that makes your business worth more — today and at exit.*
+*Ready to get ServiceM8 set up properly in your solar business? [Try ServiceM8 free for 14 days](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) and start building the digital foundation that makes your business worth more — today and at exit.*
 
 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.

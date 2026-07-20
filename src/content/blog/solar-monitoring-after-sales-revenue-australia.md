@@ -117,7 +117,7 @@ Your monitoring data — or even a simple reminder of their installation date �
 
 The operational challenge of after-sales revenue is that it requires systematic tracking across potentially hundreds or thousands of customers — far beyond what a spreadsheet or ad-hoc memory can manage.
 
-In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate), you can:
+In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate), you can:
 - Tag jobs by installation year and system type to filter your customer database
 - Create follow-up tasks against past jobs (e.g., "Contact at 12 months for annual review", "Contact at 3 years for battery offer")
 - Set up recurring job templates for maintenance plan customers — annual inspection jobs created automatically

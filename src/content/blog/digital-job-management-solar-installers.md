@@ -109,7 +109,7 @@ If you want to go deeper on ServiceM8's capabilities and how it compares to alte
 
 For a full side-by-side comparison of every major platform — including pricing, compliance features, and which businesses each suits best — see our [Best Job Management Software for Solar Installers Australia 2026](/guides/best-job-management-software-solar-installers-australia-2026) guide.
 
-**Ready to try ServiceM8?** [Start your free trial through TradieAutomate](https://www.servicem8.com/?ref=tradieautomate) — we'll help you get configured for solar compliance workflows from day one.
+**Ready to try ServiceM8?** [Start your free trial through TradieAutomate](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — we'll help you get configured for solar compliance workflows from day one.
 
 ## The Cost of NOT Switching
 

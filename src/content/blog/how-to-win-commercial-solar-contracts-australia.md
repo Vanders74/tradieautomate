@@ -139,7 +139,7 @@ The proposal is your sales document for commercial solar. A strong commercial pr
 
 Commercial solar jobs are larger, more complex, and have more moving parts than residential. The job management discipline that works for residential needs to scale up for commercial.
 
-In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate), you can manage commercial projects with:
+In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate), you can manage commercial projects with:
 - Multi-day job scheduling across multiple teams
 - Purchase order tracking for major equipment orders
 - Photo and document management for compliance records

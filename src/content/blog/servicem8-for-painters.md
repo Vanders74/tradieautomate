@@ -149,14 +149,14 @@ Building a client record for each property manager with their properties, prefer
 
 For a painting business doing 40 jobs a month across 3 crews, the Growing plan (~$149) provides full capability without per-user cost blowout. As you add crew members, the software cost stays flat.
 
-[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 
 ## Getting Started
 
 **Days 1–3: Core account setup**
-- Start your free trial at [servicem8.com](https://www.servicem8.com/?ref=tradieautomate)
+- Start your free trial at [servicem8.com](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 - Configure your service types (residential interior, residential exterior, commercial, strata)
 - Build your labour rate schedule and standard materials list
 - Connect Xero or MYOB
@@ -182,7 +182,7 @@ ServiceM8 gives painting businesses the operational infrastructure they need to 
 
 The 14-day free trial is full-feature. No credit card required.
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

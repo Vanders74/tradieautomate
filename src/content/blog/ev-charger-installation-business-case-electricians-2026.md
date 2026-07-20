@@ -169,7 +169,7 @@ The path:
 3. Get OCPP-capable charger brand accreditation — commercial customers want managed charging
 4. Partner with a CPMS provider (ChargePoint, Ocular IP, EV.Energy) — they have commercial customer pipelines and need install partners
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

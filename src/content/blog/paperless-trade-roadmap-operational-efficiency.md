@@ -51,7 +51,7 @@ Going digital doesn't just tidy things up. It changes the economics of complianc
 
 The first problem to solve is fragmentation. If your jobs live in different places — a spreadsheet for scheduling, a notepad for quotes, a camera roll for compliance photos — you're doing the same data entry multiple times and losing information in the gaps.
 
-**The fix:** A single job management system that handles the full lifecycle from first enquiry to paid invoice. For Australian solar and electrical businesses, [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) is the platform most purpose-built for this. It was designed in Australia for trade businesses, and its compliance documentation features directly address the CER and state licensing requirements you're navigating daily.
+**The fix:** A single job management system that handles the full lifecycle from first enquiry to paid invoice. For Australian solar and electrical businesses, [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) is the platform most purpose-built for this. It was designed in Australia for trade businesses, and its compliance documentation features directly address the CER and state licensing requirements you're navigating daily.
 
 When a job is created in ServiceM8:
 - Every subsequent action — scheduling, checklists, photos, customer communication, invoicing — attaches to that job record
@@ -201,7 +201,7 @@ This is the operational baseline that lets a solar or electrical business scale 
 
 Not sure where your business stands? The first step is an honest assessment of your current workflows — where admin time is going, where documentation is falling through the gaps, and what the highest-impact changes would be.
 
-**[Start your free 14-day ServiceM8 trial](https://www.servicem8.com/?ref=tradieautomate)** — and use the trial period to rebuild your first compliance form and test the automation sequence on a real job. Most solar and electrical businesses see the ROI within the first week.
+**[Start your free 14-day ServiceM8 trial](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)** — and use the trial period to rebuild your first compliance form and test the automation sequence on a real job. Most solar and electrical businesses see the ROI within the first week.
 
 ---
 

@@ -130,7 +130,7 @@ When a switchboard upgrade is triggered by a solar installation, the most effici
 
 Using ServiceM8, you can set up a job template that captures both sets of compliance documentation — switchboard and solar — in a single job with separate checklist items. This prevents documentation gaps that arise when the upgrade is treated as an afterthought.
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

@@ -141,7 +141,7 @@ For installers, the battery pricing conversation is often where deals are lost �
 
 ---
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — track battery quotes, rebate eligibility, job progress, and customer follow-up from quote to certificate.
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — track battery quotes, rebate eligibility, job progress, and customer follow-up from quote to certificate.
 
 > **Got a question about battery sizing, rebate eligibility, or compliance for a specific installation?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers, no login required.

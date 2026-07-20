@@ -172,7 +172,7 @@ Make it easy to say yes. Include a "how to accept this quote" instruction: click
 
 **Speed wins.** Research consistently shows that solar quote conversion rates drop sharply with response time. Quotes sent within 4 hours of the enquiry convert at significantly higher rates than quotes sent the next day. Quotes sent on day 3+ are largely competing with quotes the customer has already begun evaluating.
 
-**PDF via email is standard** but not optimal for conversion. Tools like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate)'s quoting module, Proposify, or simPRO deliver quotes digitally with online acceptance, read-receipt tracking, and follow-up automation. If a customer reads your quote on their phone at 9pm, an automatic follow-up SMS the next morning is much more effective than hoping they remember to call you.
+**PDF via email is standard** but not optimal for conversion. Tools like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)'s quoting module, Proposify, or simPRO deliver quotes digitally with online acceptance, read-receipt tracking, and follow-up automation. If a customer reads your quote on their phone at 9pm, an automatic follow-up SMS the next morning is much more effective than hoping they remember to call you.
 
 **Follow-up sequence:** Don't send and wait. A 3-touch follow-up sequence (Day 1: confirmation SMS "I've sent the quote — happy to walk through it with you", Day 3: check-in call, Day 7: final follow-up) can convert 30–40% more quotes. Most of your competitors don't follow up — this alone is a competitive advantage.
 

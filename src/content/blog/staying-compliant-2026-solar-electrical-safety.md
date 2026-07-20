@@ -57,7 +57,7 @@ For a solar installation business doing primarily residential rooftop work, deve
 
 Keep completed SWMS documents for a minimum of two years — you'll need them if a WorkCover or WHS authority requests them following an incident or routine audit.
 
-Document the SWMS completion in your job management system. [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) allows you to create a mandatory SWMS review checklist in your job workflow — technicians must confirm they've reviewed the site-specific SWMS before the job can be progressed. This creates an auditable record of SWMS compliance for every job in your system.
+Document the SWMS completion in your job management system. [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) allows you to create a mandatory SWMS review checklist in your job workflow — technicians must confirm they've reviewed the site-specific SWMS before the job can be progressed. This creates an auditable record of SWMS compliance for every job in your system.
 
 ---
 
@@ -203,7 +203,7 @@ Use this checklist to assess your business's current compliance position across 
 
 The highest-performing solar and electrical businesses in Australia don't treat compliance as a separate administrative task. They build it into every job workflow through their job management system.
 
-With [ServiceM8](https://www.servicem8.com/?ref=tradieautomate), you can create mandatory compliance checklists that must be completed before a job can be marked done. Pre-installation WHS review. SWMS confirmation. AS/NZS 5033 installation checklist. Battery clearance photo capture. Customer handover sign-off.
+With [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate), you can create mandatory compliance checklists that must be completed before a job can be marked done. Pre-installation WHS review. SWMS confirmation. AS/NZS 5033 installation checklist. Battery clearance photo capture. Customer handover sign-off.
 
 Every item on the checklist above becomes a digital step in your job workflow — enforced automatically, documented against the job record, retrievable in seconds when an auditor asks.
 
@@ -215,7 +215,7 @@ This is what [digital job management for solar businesses](/blog/digital-job-man
 
 Build your compliance workflows, embed your SWMS checklist, and create the documentation system that keeps you audit-ready.
 
-**[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)**
+**[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)**
 
 ---
 

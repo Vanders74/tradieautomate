@@ -173,7 +173,7 @@ Whichever platform you choose, ServiceM8 is the job management engine. Quotes, j
 
 The integration direction matters: ServiceM8 → accounting. Your accounting platform should never be the primary record for job or invoice data. ServiceM8 is the source of truth; Xero or MYOB is the financial ledger.
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

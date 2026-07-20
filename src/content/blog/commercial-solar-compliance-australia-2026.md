@@ -138,7 +138,7 @@ Commercial solar inspections are more thorough than residential. Inspectors comm
 
 **Keep a complete installation dossier for every commercial job.** This should include: the network authority approval, single-line diagram, all compliance certificates, inverter commissioning records, protection relay commissioning records (where applicable), and photo records of the installation at key stages.
 
-Using [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) or a comparable job management system to capture photos during installation — array layout, isolator placement, switchboard connection, labelling — creates an audit-ready record that can be produced instantly if an inspector requests it. See our [CER audit prep guide](/blog/cer-audit-prep-solar-installers) for the documentation standard that the CER expects from solar installers across all system sizes.
+Using [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) or a comparable job management system to capture photos during installation — array layout, isolator placement, switchboard connection, labelling — creates an audit-ready record that can be produced instantly if an inspector requests it. See our [CER audit prep guide](/blog/cer-audit-prep-solar-installers) for the documentation standard that the CER expects from solar installers across all system sizes.
 
 ---
 

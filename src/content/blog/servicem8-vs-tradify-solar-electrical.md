@@ -171,7 +171,7 @@ The compliance documentation tools — custom form builder, enforced completion,
 
 Tradify is a credible general tradie platform. But "general" is exactly its limitation for compliance-heavy licensed trades. The gap in compliance tooling is meaningful and, for solar and electrical businesses facing CER oversight and licensing authority scrutiny, potentially costly.
 
-[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

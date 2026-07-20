@@ -202,7 +202,7 @@ If you're still growing — or if you've hit the wall with paper systems and nee
 
 No credit card required. Set up your first job in under 30 minutes.
 
-**[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)**
+**[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)**
 
 ---
 

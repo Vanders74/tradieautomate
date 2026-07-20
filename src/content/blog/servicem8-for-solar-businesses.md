@@ -178,7 +178,7 @@ This is the operational infrastructure that lets a solar installation business g
 
 For a solar business doing 40 installations per month, the Starter plan (~$65) handles the volume. As you grow, you step up plans without the per-user cost blowout that other platforms create as you add staff.
 
-[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

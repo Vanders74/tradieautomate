@@ -89,7 +89,7 @@ This URL takes customers directly to the review compose screen — they don't ne
 
 ### Step 2: Configure the Automation in Your Job Management System
 
-In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate), you can set up an automated review request that triggers when a job is marked complete or when an invoice is paid.
+In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate), you can set up an automated review request that triggers when a job is marked complete or when an invoice is paid.
 
 The message should be configured as an SMS to the primary client contact for the job, sent within 24 hours of the trigger event.
 
@@ -186,7 +186,7 @@ When all of these work together, customer experience becomes a genuine business 
 
 If you're not currently asking every customer for a review, you're leaving a significant competitive advantage unclaimed.
 
-**[Start your free 14-day ServiceM8 trial](https://www.servicem8.com/?ref=tradieautomate)** — set up your automated review request in the first hour of the trial and start building your Google profile today.
+**[Start your free 14-day ServiceM8 trial](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)** — set up your automated review request in the first hour of the trial and start building your Google profile today.
 
 ---
 

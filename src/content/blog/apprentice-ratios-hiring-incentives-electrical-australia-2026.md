@@ -181,7 +181,7 @@ Apprentice supervision requires documentation — site visits, sign-offs, traini
 - Set reminders for training contract reviews and milestone payments
 - Generate structured job sheets that create training evidence automatically
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

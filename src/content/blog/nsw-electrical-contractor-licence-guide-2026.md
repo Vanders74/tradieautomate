@@ -204,7 +204,7 @@ Licence expiry, insurance renewal, and CCEW submission deadlines are easy to mis
 - Track insurance expiry dates for your business and subcontractors
 - Auto-generate compliant job cards with contractor licence numbers included in client-facing paperwork
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

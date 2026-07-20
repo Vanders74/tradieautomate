@@ -45,7 +45,7 @@ The math is simple. A 30% deposit on a $20,000 solar and battery job gives you $
 
 The friction objection — "my customers don't like paying deposits" — is usually not accurate. Most customers expect to pay a deposit for a significant home improvement. Those who strongly resist may be signalling a credit risk you don't want.
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 
