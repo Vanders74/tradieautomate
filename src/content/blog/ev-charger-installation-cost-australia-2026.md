@@ -161,6 +161,10 @@ For building a broader lead generation system for your solar and electrical busi
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - *[EV Charger Installation for Electricians: Certification, Compliance and Workflow in Australia](/blog/ev-charger-installation-electricians-australia-2026)*

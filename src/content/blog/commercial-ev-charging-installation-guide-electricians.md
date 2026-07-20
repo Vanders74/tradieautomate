@@ -213,6 +213,10 @@ A dedicated EVSE (Electric Vehicle Supply Equipment) is purpose-designed for EV 
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - [Commercial EV Charging at Commercial Premises Australia 2026](/blog/ev-charging-commercial-premises-australia-2026/)

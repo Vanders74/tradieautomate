@@ -198,6 +198,10 @@ The most practical approach is using ServiceM8's digital form builder to create 
 - [AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)
 - [AI Automation for Electricians and Plumbers](/blog/ai-automation-electrical-plumbing)
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)

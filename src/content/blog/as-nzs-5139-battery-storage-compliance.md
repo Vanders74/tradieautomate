@@ -218,6 +218,10 @@ Yes — from May 2026, new battery installations using inverters that aren't CSI
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - [how ServiceM8 adds value to your trade business](/blog/sell-servicem8-trade-business-value)

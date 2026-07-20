@@ -273,6 +273,10 @@ If the calculator above surprised you, the free trial is the fastest way to see 
 - [Tap to Pay on iPhone for Tradies](/blog/tap-to-pay-iphone-tradies-australia)
 - [How to Scale a Solar or Electrical Business Without Burning Out](/blog/scaling-solar-electrical-business-hiring-growth)
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)

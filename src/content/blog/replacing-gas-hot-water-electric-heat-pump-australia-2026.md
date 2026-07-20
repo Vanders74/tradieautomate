@@ -158,6 +158,10 @@ Track every gas-to-electric job through a proper workflow — STC lodgement, sta
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - *[Heat Pump Hot Water Installation Guide for Electricians Australia 2026](/blog/heat-pump-hot-water-installation-guide-electricians-2026)*

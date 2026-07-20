@@ -161,6 +161,10 @@ For a 3-technician operation doing residential and light commercial HVAC, the Se
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - [ServiceM8 vs Simpro (Full Comparison)](/blog/servicem8-vs-simpro-comparison-australia)

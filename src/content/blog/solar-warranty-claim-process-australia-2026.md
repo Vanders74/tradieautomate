@@ -183,6 +183,10 @@ Yes — ServiceM8 allows you to create a warranty job type linked to the origina
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - [Solar Compliance Checklist 2026 for Installers and Electricians](/blog/solar-compliance-checklist-2026/)

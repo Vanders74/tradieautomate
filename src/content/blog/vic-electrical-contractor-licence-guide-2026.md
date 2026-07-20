@@ -277,6 +277,10 @@ Submitting incomplete documentation. The most common rejection reasons are: insu
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - *[Certificate of Electrical Safety Victoria: Avoid ESV Audit Failures in 2026](/blog/certificate-electrical-safety-ces-victoria-guide-2026)*

@@ -172,6 +172,10 @@ And if you're wondering what the administrative cost of running commercial solar
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - *[How to Win Commercial Solar Contracts in Australia](/blog/how-to-win-commercial-solar-contracts-australia)*

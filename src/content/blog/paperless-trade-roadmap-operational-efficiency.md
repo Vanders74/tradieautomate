@@ -205,6 +205,10 @@ Not sure where your business stands? The first step is an honest assessment of y
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 *Related reading:*
 - *[Why Solar Installers Are Switching to Digital Job Management](/blog/digital-job-management-solar-installers)*
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*

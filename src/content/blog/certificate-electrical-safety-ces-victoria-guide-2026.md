@@ -218,6 +218,10 @@ For electricians working in NSW, the equivalent document is the **Certificate of
 
 ---
 
+
+> **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download free →](/playbook)
+
 ## Related Reading
 
 - *[VIC Electrical Contractor Licence Guide 2026: REC Registration with Energy Safe Victoria](/blog/vic-electrical-contractor-licence-guide-2026)*
