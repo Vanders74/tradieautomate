@@ -236,3 +236,5 @@ Yes — Xero's Auto Superannuation calculates and submits super contributions au
 - [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
+- *[Xero vs MYOB for Australian Trade Businesses 2026](/blog/xero-vs-myob-accounting-software-australian-tradies-2026)*
+- *[Apprentice Ratios & Hiring Incentives for Electricians Australia 2026](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026)*
