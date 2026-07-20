@@ -3,7 +3,7 @@ title: "Tradify Review 2026: Is It Worth It for Australian Trades?"
 description: "Honest Tradify review for Australian electricians, solar installers, and tradies in 2026 — real pricing, features, limitations, and how it compares to ServiceM8 and simPRO."
 pubDate: 2026-07-20
 updatedDate: 2026-07-20
-heroImage: "/images/blog/tradify-review-2026-australia.jpg"
+heroImage: "/hero-tradify-comparison.jpg"
 category: "Software Comparisons"
 tags: ["tradify review", "tradify australia", "tradify pricing 2026", "tradify vs servicem8", "tradify for electricians", "trade job management software", "tradify review 2026"]
 faq:

@@ -2,7 +2,7 @@
 title: "The Sparky's Playbook — Chapter 12: Exit Strategy & Business Valuation"
 description: "How Australian electricians value, prepare, and sell their electrical business — valuation multiples, what buyers want, how to maximise sale price, and what to do with the proceeds."
 pubDate: 2026-07-20
-heroImage: "/images/blog/sell-electrical-business-australia-valuation.jpg"
+heroImage: "/hero-sell-servicem8-trade-business-value.jpg"
 category: "Business Growth"
 tags: ["sell electrical business", "electrical business valuation", "business exit strategy", "tradie business sale", "EBITDA multiple", "business broker Australia", "electrical contractor sale", "business succession"]
 faq:

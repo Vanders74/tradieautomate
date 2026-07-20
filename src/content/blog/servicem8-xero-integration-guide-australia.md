@@ -3,7 +3,7 @@ title: "ServiceM8 Xero Integration: Setup Guide for Electricians & Solar"
 description: "How to connect ServiceM8 to Xero for Australian electrical and solar businesses — step-by-step setup, what syncs automatically, common issues, and how to maximise the integration for faster payment and cleaner accounts."
 pubDate: 2026-07-21
 updatedDate: 2026-07-21
-heroImage: "/images/blog/servicem8-xero-integration-guide-australia.jpg"
+heroImage: "/hero-xero-payroll-electrical.jpg"
 category: "ServiceM8"
 tags: ["servicem8 xero integration", "servicem8 xero setup", "xero servicem8", "servicem8 accounting integration", "servicem8 xero sync", "electrical business xero", "xero trade business australia"]
 faq:

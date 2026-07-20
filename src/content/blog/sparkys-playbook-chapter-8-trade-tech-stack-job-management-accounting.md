@@ -2,7 +2,7 @@
 title: "The Sparky's Playbook — Chapter 8: The Modern Trade Tech Stack"
 description: "Job management, accounting, and automation for Australian electrical businesses — ServiceM8 vs competitors, Xero vs MYOB, and the tech stack that runs a lean electrical contracting business."
 pubDate: 2026-07-20
-heroImage: "/images/blog/trade-tech-stack-electrical-business-australia.jpg"
+heroImage: "/hero-servicem8-for-solar-businesses.jpg"
 category: "Software Comparisons"
 tags: ["ServiceM8", "job management software", "Xero", "MYOB", "tradie software", "electrical business software", "trade automation", "field service management"]
 faq:

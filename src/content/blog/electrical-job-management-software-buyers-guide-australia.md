@@ -3,7 +3,7 @@ title: "Electrical Job Management Software Australia 2026: Buyer's Guide"
 description: "The complete buyer's guide to electrical job management software in Australia — compare ServiceM8, simPRO, Tradify, AroFlo, Fergus on CCEW compliance, pricing, and which suits your business size."
 pubDate: 2026-07-20
 updatedDate: 2026-07-20
-heroImage: "/images/blog/electrical-job-management-software-buyers-guide-australia.jpg"
+heroImage: "/hero-best-job-management-electricians.jpg"
 category: "Software Comparisons"
 tags: ["electrical job management software", "job management software electricians", "electrical contractor software australia", "CCEW software", "electrician scheduling software", "best software electricians australia"]
 faq:
