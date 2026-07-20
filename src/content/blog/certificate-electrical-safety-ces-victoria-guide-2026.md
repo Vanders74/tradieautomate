@@ -1,6 +1,6 @@
 ---
 title: 'Certificate of Electrical Safety Victoria: Avoid ESV Audit Failures in 2026'
-description: "COES fees just increased for FY 2026–2027. Energy Safe Victoria is auditing solar installers — a missing Certificate of Electrical Safety risks your REC licence, not just a fine. Step-by-step guide: who issues it, the 28-day deadline, and how to lodge through ESV Connect."
+description: "ESV auditing solar installers — missing CES risks your REC licence. 2026 COES fee increases, 28-day deadline, and step-by-step ESV Connect lodgement guide."
 pubDate: 'May 15 2026'
 updatedDate: 'Jun 27 2026'
 category: "Compliance"

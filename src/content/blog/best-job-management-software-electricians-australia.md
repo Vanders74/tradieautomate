@@ -1,6 +1,6 @@
 ---
 title: 'Best Job Management Software for Electricians Australia 2026'
-description: 'Australian electricians lose $12,000+/year to unbillable admin. Compare ServiceM8, simPRO, Tradify, Fergus, and AroFlo on real 2026 pricing, CCEW compliance, and mobile-first workflows.'
+description: 'Electricians lose $12,000+/yr to unbillable admin. Compare ServiceM8, simPRO, Tradify, Fergus, AroFlo on 2026 pricing, CCEW compliance, and mobile workflow.'
 updatedDate: 'Jul 02 2026'
 pubDate: 'Apr 14 2026'
 category: "Software Comparisons"
