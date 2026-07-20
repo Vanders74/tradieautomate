@@ -4,6 +4,7 @@ description: 'Becoming a licensed electrician in Australia takes 4 years and the
 pubDate: 'Jul 2026'
 updatedDate: 'Jul 2026'
 category: 'Business Growth'
+heroImage: '/hero-how-to-become-electrician.jpg'
 tags: ['electrician', 'apprentice', 'career', 'licensing', 'business', 'training']
 faq:
   - question: "How long does it take to become a licensed electrician in Australia?"

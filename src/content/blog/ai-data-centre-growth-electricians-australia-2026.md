@@ -4,6 +4,7 @@ description: 'Australia has 500+ MW of data centre projects under construction a
 pubDate: 'Jul 2026'
 updatedDate: 'Jul 2026'
 category: 'Business Growth'
+heroImage: '/hero-ai-data-centre-growth.jpg'
 tags: ['data centre', 'commercial', 'electrician', 'HV', 'business growth', 'AI']
 faq:
   - question: "How many data centres are being built in Australia right now?"
