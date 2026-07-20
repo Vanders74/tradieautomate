@@ -1,8 +1,9 @@
 ---
 title: "The Sparky's Playbook — Chapter 3: Where the Electrical Industry Is Heading"
-description: "AI data centres, grid-scale battery storage, and energy transition infrastructure — the long-term tailwinds reshaping demand for skilled Australian electricians."
+description: 'Excerpt from The Sparky's Playbook — Ch.3: long-term tailwinds for Australian electricians. AI data centres, grid batteries, and energy transition demand.'
 pubDate: 2026-07-20
-heroImage: "/hero-scaling-solar-electrical-business.jpg"
+updatedDate: 'Jul 20 2026'
+heroImage: "/hero-ai-automation-electrical-plumbing.jpg"
 category: "Business Growth"
 tags: ["electrical industry trends", "AI data centres", "grid scale battery storage", "energy transition", "electrician business opportunity", "future of electrical contracting", "infrastructure investment"]
 faq:
@@ -16,9 +17,13 @@ faq:
     answer: "The commercial and industrial solar, battery, and EV charging space. These projects don't require HV licensing (typically), are large enough to be worth winning, and are driven by private investment rather than government procurement timelines. A small electrical business that develops genuine expertise in commercial solar systems, large-scale battery installations, and EV charging infrastructure is well-positioned for the next 5-10 years of the energy transition. The technical skills are learnable; the market is real and growing."
   - question: "Should I be worried about electricians being replaced by automation?"
     answer: "No. Physical electrical installation — pulling cable, terminating connections, commissioning systems, problem-solving on-site — is one of the hardest categories of work to automate. The combination of physical dexterity, site variability, safety requirements, and regulatory oversight means electrical installation work is among the most automation-resistant trades. The risk is not automation; it's electricians who don't adapt their service offering to capture the growing demand for EV, solar, battery, and grid-connected work."
+  - question: "Where can I get the full Sparky's Playbook?"
+    answer: "This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook)."
 ---
 
 *This article is Chapter 3 of [The Sparky's Playbook](/playbook) — the free guide to scaling, compliance, and building a high-value electrical business in Australia. [Download the full 12-chapter book free →](/playbook)*
+
+# Sparky's Playbook — Chapter 3: Where the Electrical Industry Is Heading
 
 ---
 

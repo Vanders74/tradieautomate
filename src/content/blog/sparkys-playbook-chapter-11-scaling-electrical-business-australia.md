@@ -1,8 +1,9 @@
 ---
 title: "The Sparky's Playbook — Chapter 11: Scaling Your Electrical Business"
-description: "How Australian electrical businesses scale sustainably — pricing for margin, building systems, knowing what to delegate, and the growth traps that stall most small electrical contractors."
+description: 'Excerpt from The Sparky's Playbook — Ch.11: scaling an electrical business. Pricing for margin, building systems, what to delegate, and avoiding growth traps.'
 pubDate: 2026-07-20
-heroImage: "/hero-scaling-solar-electrical-business.jpg"
+updatedDate: 'Jul 20 2026'
+heroImage: "/hero-paperless-trade-roadmap.jpg"
 category: "Business Growth"
 tags: ["scaling electrical business", "electrical contractor growth", "pricing for margin", "business systems", "electrical business strategy", "tradie business growth", "delegating tradie", "electrical business profit"]
 faq:
@@ -16,9 +17,13 @@ faq:
     answer: "The right time is before you're desperate. Most owners wait until they're turning down work or burning out, then hire reactively — rushing the decision and making costly mistakes. The right indicators: you're consistently turning away work, your lead time has stretched beyond what customers tolerate, you're regularly working nights and weekends on admin and quotes, and your growth is constrained by your personal capacity rather than market demand. Hire when those indicators are consistently present, not when one busy week appears."
   - question: "How do I stop being the bottleneck in my own electrical business?"
     answer: "You become the bottleneck when everything requires your personal approval, presence, or knowledge. The solution is documented systems and trained people. Document your processes (how a job gets quoted, scheduled, completed, invoiced, and followed up). Train your team to those processes. Build quality checks that don't depend on you being present. The owner who can take a two-week holiday and return to a business that ran well in their absence has built a real business. The owner who can't take a day off has built a job for themselves."
+  - question: "Where can I get the full Sparky's Playbook?"
+    answer: "This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook)."
 ---
 
 *This article is Chapter 11 of [The Sparky's Playbook](/playbook) — the free guide to scaling, compliance, and building a high-value electrical business in Australia. [Download the full 12-chapter book free →](/playbook)*
+
+# Sparky's Playbook — Chapter 11: Scaling Your Electrical Business
 
 ---
 

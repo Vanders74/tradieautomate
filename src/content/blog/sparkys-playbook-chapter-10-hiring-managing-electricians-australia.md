@@ -1,8 +1,9 @@
 ---
 title: "The Sparky's Playbook — Chapter 10: Hiring & Managing Electricians"
-description: "How to hire, onboard, retain, and manage electricians in Australia — award rates, apprentice obligations, keeping good staff, and delegating without losing quality control."
+description: 'Excerpt from The Sparky's Playbook — Ch.10: hiring and managing electricians. Award rates, apprentice obligations, retaining staff, and delegating quality.'
 pubDate: 2026-07-20
-heroImage: "/hero-scaling-solar-electrical-business.jpg"
+updatedDate: 'Jul 20 2026'
+heroImage: "/hero-electrical-award-rates-2026.jpg"
 category: "Business Growth"
 tags: ["hiring electricians", "electrical apprentice", "award rates", "managing tradespeople", "electrical business growth", "tradie staff", "electrician wages", "Fair Work electrician"]
 faq:
@@ -16,9 +17,13 @@ faq:
     answer: "The reasons good electricians leave: pay below market, no clear career progression, poor tools and equipment, being micromanaged, feeling like a number rather than a person. Retention strategies that work: pay market rates (see above), create clear progression paths (senior electrician, leading hand, project manager), invest in their tools and training, give them autonomy within clear quality standards, involve them in decisions that affect their work, and recognise performance. Regular one-on-ones (even informal ones) catch problems before they become resignations."
   - question: "What is the difference between an employee and a subcontractor for electricians?"
     answer: "The distinction matters for tax (PAYG vs ABN), superannuation, leave entitlements, and workers' compensation. The ATO and Fair Work use a multi-factor test — a subcontractor relationship is genuine if the worker has their own ABN, sets their own hours, provides their own tools, can subcontract work themselves, and bears commercial risk. A worker who works exclusively for you, uses your tools, works your hours, and is directed by you on how to do the work is likely an employee under the law even if they have an ABN. Misclassifying an employee as a subcontractor exposes you to significant back-payment liability. When in doubt, treat the person as an employee."
+  - question: "Where can I get the full Sparky's Playbook?"
+    answer: "This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook)."
 ---
 
 *This article is Chapter 10 of [The Sparky's Playbook](/playbook) — the free guide to scaling, compliance, and building a high-value electrical business in Australia. [Download the full 12-chapter book free →](/playbook)*
+
+# Sparky's Playbook — Chapter 10: Hiring & Managing Electricians
 
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "The Sparky's Playbook — Chapter 9: Marketing & Reputation"
-description: "How Australian electricians build a 5-star reputation, handle negative Google reviews, win local SEO, and generate consistent leads without expensive ads."
+description: 'Excerpt from The Sparky's Playbook — Ch.9: marketing for electricians. 5-star reviews, handling negative feedback, local SEO, and lead generation without ads.'
 pubDate: 2026-07-20
+updatedDate: 'Jul 20 2026'
 heroImage: "/hero-google-reviews-tradie.jpg"
 category: "Business Growth"
 tags: ["electrician marketing", "Google reviews", "local SEO", "tradie marketing", "5 star reviews", "negative review response", "Google Business Profile", "electrician leads"]
@@ -16,9 +17,13 @@ faq:
     answer: "Google Ads can be effective for electrical businesses but requires careful management. The cost per click for electrician terms is high ($8–$25+ per click in metro areas), and leads from ads are generally lower intent than organic or referral leads. Ads make sense when: you're a new business without organic ranking and need leads immediately; you're entering a new service area; or you have a specific high-value service (commercial solar, EV chargers) you want to promote. For established businesses with strong Google Business Profile and referral networks, ads are often not the best use of marketing spend. Start with organic and referral channels first."
   - question: "How do I get consistent referrals from past customers?"
     answer: "A referral program doesn't need to be complex. The fundamentals: do exceptional work (this is the foundation — no marketing fixes poor quality), follow up after the job to confirm the customer is happy, stay in their memory with occasional touchpoints (annual maintenance reminder, seasonal check-in), and make it easy to refer (a card or message with 'If you know anyone who needs an electrician, we'd love the introduction'). Some businesses incentivise referrals with a gift card for both the referrer and the new customer — this works but isn't necessary if your quality and follow-up are strong."
+  - question: "Where can I get the full Sparky's Playbook?"
+    answer: "This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook)."
 ---
 
 *This article is Chapter 9 of [The Sparky's Playbook](/playbook) — the free guide to scaling, compliance, and building a high-value electrical business in Australia. [Download the full 12-chapter book free →](/playbook)*
+
+# Sparky's Playbook — Chapter 9: Marketing & Reputation
 
 ---
 

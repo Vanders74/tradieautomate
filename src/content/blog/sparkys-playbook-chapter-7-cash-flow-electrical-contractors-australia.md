@@ -1,7 +1,8 @@
 ---
 title: "The Sparky's Playbook — Chapter 7: Cash Flow for Electrical Contractors"
-description: "How Australian electrical contractors manage cash flow — progress billing, debtor control, seasonal patterns, and the financial habits that keep profitable businesses from going under."
+description: 'Excerpt from The Sparky's Playbook — Ch.7: cash flow for electrical contractors. Progress billing, debtor control, seasonal patterns, and financial habits.'
 pubDate: 2026-07-20
+updatedDate: 'Jul 20 2026'
 heroImage: "/hero-hidden-costs-profit.jpg"
 category: "Business Growth"
 tags: ["cash flow", "electrical contractor", "progress billing", "debtor management", "business finance", "tradie business", "financial management"]
@@ -16,9 +17,13 @@ faq:
     answer: "Residential work: payment on completion or 7-day net maximum. Commercial work: 14-30 day net is standard, though many large clients push for 30-60 days — assess this against your cash position before agreeing. Always specify payment terms clearly in your quote and invoice, not just verbally. For repeat commercial clients with good payment history, 30-day net is reasonable. For new clients on large jobs, require a deposit before mobilisation regardless of what their standard terms say."
   - question: "How do I chase overdue invoices without damaging client relationships?"
     answer: "The key is making it process-driven, not personal. Send an automated reminder at 7 days overdue, a second at 14 days with a clear statement of your payment terms and any late payment clause, and make a direct phone call at 21 days. Frame every communication as administrative — 'our records show this invoice is outstanding' rather than 'you haven't paid.' Most overdue invoices are not disputed — they're just not being prioritised. A consistent, professional follow-up sequence resolves the majority without damaging the relationship."
+  - question: "Where can I get the full Sparky's Playbook?"
+    answer: "This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook)."
 ---
 
 *This article is Chapter 7 of [The Sparky's Playbook](/playbook) — the free guide to scaling, compliance, and building a high-value electrical business in Australia. [Download the full 12-chapter book free →](/playbook)*
+
+# Sparky's Playbook — Chapter 7: Cash Flow for Electrical Contractors
 
 ---
 

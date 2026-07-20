@@ -1,7 +1,8 @@
 ---
 title: "The Sparky's Playbook — Chapter 8: The Modern Trade Tech Stack"
-description: "Job management, accounting, and automation for Australian electrical businesses — ServiceM8 vs competitors, Xero vs MYOB, and the tech stack that runs a lean electrical contracting business."
+description: 'Excerpt from The Sparky's Playbook — Ch.8: the modern trade tech stack. ServiceM8 vs competitors, Xero vs MYOB, and software for lean electrical contracting.'
 pubDate: 2026-07-20
+updatedDate: 'Jul 20 2026'
 heroImage: "/hero-servicem8-for-solar-businesses.jpg"
 category: "Software Comparisons"
 tags: ["ServiceM8", "job management software", "Xero", "MYOB", "tradie software", "electrical business software", "trade automation", "field service management"]
@@ -16,9 +17,13 @@ faq:
     answer: "The highest-value automations for electrical businesses are: automated invoice reminders (set in Xero or ServiceM8, runs without you, dramatically improves cash flow); automated job follow-up messages to customers after completion (requesting a Google review — a major driver of online reputation); automated quote follow-ups (ServiceM8 can send a reminder if a quote hasn't been accepted within a set timeframe); and automated compliance certificate delivery (triggering Certificate of Compliance delivery to the customer on job completion). These automations combined save 3–5 hours per week for most businesses."
   - question: "How much does the right tech stack cost for an electrical business?"
     answer: "A typical small-to-medium electrical business tech stack (ServiceM8 Starter or Growing plan + Xero Standard) runs $130–$220 per month. This covers job management, scheduling, invoicing, accounting, bank reconciliation, and payroll. For a business turning over $500,000+ per year, this represents well under 1% of revenue — the ROI from improved cash flow, reduced admin hours, and professional presentation is typically 10–20x the cost within the first year."
+  - question: "Where can I get the full Sparky's Playbook?"
+    answer: "This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook)."
 ---
 
 *This article is Chapter 8 of [The Sparky's Playbook](/playbook) — the free guide to scaling, compliance, and building a high-value electrical business in Australia. [Download the full 12-chapter book free →](/playbook)*
+
+# Sparky's Playbook — Chapter 8: The Modern Trade Tech Stack
 
 ---
 

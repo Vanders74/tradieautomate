@@ -1,7 +1,8 @@
 ---
 title: "The Sparky's Playbook — Chapter 6: Battery Storage Systems"
-description: "How Australian electricians install residential and commercial battery storage — AS/NZS 5139, manufacturer certification, safety obligations, and the after-sales monitoring opportunity."
+description: 'Excerpt from The Sparky's Playbook — Ch.6: battery storage installs. AS/NZS 5139, manufacturer certification, safety obligations, and monitoring opportunity.'
 pubDate: 2026-07-20
+updatedDate: 'Jul 20 2026'
 heroImage: "/hero-battery-storage.jpg"
 category: "Solar & Battery"
 tags: ["battery storage", "solar battery", "AS/NZS 5139", "battery installation", "energy storage", "CEC battery accreditation", "home battery", "commercial battery storage"]
@@ -16,9 +17,13 @@ faq:
     answer: "A Virtual Power Plant is a network of residential and commercial battery systems that are aggregated and dispatched by a central operator to provide grid services — balancing supply and demand, reducing peak grid load. VPP programs exist in SA, VIC, NSW, and QLD, offered by energy retailers and aggregators. For electricians, VPP programs create installation work (the customer gets a subsidised battery in exchange for joining the VPP), and in some cases the aggregator has preferred installer arrangements. It's worth being registered as a preferred installer with the major VPP operators in your state."
   - question: "What ongoing maintenance do battery systems require?"
     answer: "Battery systems require less active maintenance than mechanical systems but do benefit from periodic checks: annual inspection of connections and cabling for corrosion or looseness, software/firmware updates (many manufacturers push updates remotely, but some require onsite action), capacity testing to verify the battery is delivering rated performance, verification that safety systems (smoke detectors, ventilation) remain functional, and monitoring review to identify any anomalies in charging/discharging behaviour. Offering an annual service contract for battery customers creates a recurring revenue stream and keeps you connected to the customer for system expansions."
+  - question: "Where can I get the full Sparky's Playbook?"
+    answer: "This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook)."
 ---
 
 *This article is Chapter 6 of [The Sparky's Playbook](/playbook) — the free guide to scaling, compliance, and building a high-value electrical business in Australia. [Download the full 12-chapter book free →](/playbook)*
+
+# Sparky's Playbook — Chapter 6: Battery Storage Systems
 
 ---
 

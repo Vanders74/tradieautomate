@@ -1,7 +1,8 @@
 ---
 title: "The Sparky's Playbook — Chapter 2: Safety Standards & AS/NZS 3000"
-description: "AS/NZS 3000 compliance for Australian electricians — RCD requirements, switchboard upgrades, inspection obligations, defect notices, and how to survive an audit."
+description: 'Excerpt from The Sparky's Playbook — Ch.2: AS/NZS 3000 for electricians. RCD requirements, switchboard obligations, defect notices, and audit survival.'
 pubDate: 2026-07-20
+updatedDate: 'Jul 20 2026'
 heroImage: "/hero-compliance-safety-2026.jpg"
 category: "Compliance"
 tags: ["AS/NZS 3000", "electrical safety", "RCD requirements", "switchboard upgrade", "electrical compliance", "wiring rules", "electrical inspection", "defect notice"]
@@ -16,9 +17,13 @@ faq:
     answer: "When you identify an electrical defect, your obligations depend on severity. An immediate danger — a live exposed conductor, a fault that creates a shock or fire risk right now — requires you to make it safe before leaving the site (disconnect, isolate, or secure), notify the owner, and in most states issue a formal written defect notice. A non-immediate defect that still represents non-compliance requires written notification to the owner with a recommended rectification timeframe. Document everything. Your obligation is to notify and recommend; the owner's obligation is to rectify. But if you leave without documenting a known defect and an incident occurs, the liability exposure falls partly on you."
   - question: "How long do electrical inspection records need to be kept?"
     answer: "AS/NZS 3000 requires the installer to provide a Certificate of Compliance (or equivalent state documentation) on completion of an installation. State regulations govern retention periods, but the general standard is a minimum of 7 years for electrical installation records. In practice, keep them indefinitely — storage is cheap, and records are your primary defence in the event of a complaint, insurance claim, or prosecution. Digital records stored in your job management software are acceptable in all states."
+  - question: "Where can I get the full Sparky's Playbook?"
+    answer: "This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook)."
 ---
 
 *This article is Chapter 2 of [The Sparky's Playbook](/playbook) — the free guide to scaling, compliance, and building a high-value electrical business in Australia. [Download the full 12-chapter book free →](/playbook)*
+
+# Sparky's Playbook — Chapter 2: Safety Standards & AS/NZS 3000
 
 ---
 
