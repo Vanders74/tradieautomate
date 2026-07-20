@@ -219,6 +219,8 @@ Building a commercial pipeline takes 6–12 months to develop. The lead times ar
 - [Hidden Costs Killing Your Solar and Electrical Business Profit](/blog/hidden-costs-killing-profit-solar-electrician)
 - [CER Audit Preparation for Solar Installers](/blog/cer-audit-prep-solar-installers)
 - [Scaling a Solar and Electrical Business: Hiring and Growth](/blog/scaling-solar-electrical-business-hiring-growth)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 
 ---
 

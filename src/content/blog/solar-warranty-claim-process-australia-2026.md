@@ -191,3 +191,6 @@ Yes — ServiceM8 allows you to create a warranty job type linked to the origina
 - [Solar Battery System Cost Australia 2026](/blog/solar-battery-system-cost-australia-2026/)
 - [SA Solar Battery Rebate 2026: Eligibility and Application](/blog/sa-solar-battery-rebate-2026/)
 - [ServiceM8 for Solar Installers: A Practical Field Guide](/blog/servicem8-for-solar-installers/)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
+- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
+- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)
