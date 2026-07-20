@@ -385,4 +385,6 @@ Yes. Apprentices must have a formal training contract (apprenticeship agreement)
 - [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
+- *[Apprentice Ratios & Hiring Incentives for Electricians Australia 2026](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026)*
+- *[Xero vs MYOB for Australian Trade Businesses 2026](/blog/xero-vs-myob-accounting-software-australian-tradies-2026)*
 - *Got a pay question? [Ask Tradie Brain AI](/tools/tradie-brain) — free, no login. Instant answers on award rates, hiring, and payroll.*

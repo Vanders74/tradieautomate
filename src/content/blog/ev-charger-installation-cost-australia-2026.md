@@ -174,3 +174,5 @@ For building a broader lead generation system for your solar and electrical busi
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - *[Electrical Switchboard Upgrade Cost Australia 2026: What to Expect and Why](/blog/electrical-switchboard-upgrade-cost-australia-2026)*
 - *[Commercial EV Charging Installation: The Electrician's Business Guide for 2026](/blog/commercial-ev-charging-installation-guide-electricians)*
+- *[EV Charger Installation Business Case for Electricians 2026](/blog/ev-charger-installation-business-case-electricians-2026)*
+- *[RCD Safety Switch Requirements Under AS/NZS 3000](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026)*
