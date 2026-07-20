@@ -190,6 +190,16 @@ If you're not currently asking every customer for a review, you're leaving a sig
 
 ---
 
+
+
+---
+
+> **This article is featured in Chapter 9 of The Sparky's Playbook.**
+> The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download the full book free →](/playbook)
+
+---
+
 *Related reading:*
 - *[SMS vs Email: Which Gets More Solar Quotes Signed?](/blog/sms-vs-email-quotes-customer-experience)*
 - *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*

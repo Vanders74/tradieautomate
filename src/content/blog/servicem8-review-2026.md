@@ -292,6 +292,16 @@ Yes — ServiceM8 offers a 14-day free trial with no credit card required. You g
 
 ---
 
+
+
+---
+
+> **This article is featured in Chapter 8 of The Sparky's Playbook.**
+> The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download the full book free →](/playbook)
+
+---
+
 *Related reading:*
 - *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
 - *[Why Solar Installers Are Switching to Digital Job Management](/blog/digital-job-management-solar-installers)*

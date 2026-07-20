@@ -197,6 +197,16 @@ Yes. Both are STP2 compliant. MYOB's setup is more guided; Xero requires manual 
 
 ---
 
+
+
+---
+
+> **This article is featured in Chapter 8 of The Sparky's Playbook.**
+> The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download the full book free →](/playbook)
+
+---
+
 ## Related Reading
 
 - *[How to Set Up Electrical Award Allowances in Xero Payroll](/blog/xero-payroll-electrical-award-allowances)*

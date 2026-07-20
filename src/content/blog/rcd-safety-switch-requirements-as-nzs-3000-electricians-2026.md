@@ -209,6 +209,16 @@ The standard does not precisely define this term. In practice, it encompasses sw
 
 ---
 
+
+
+---
+
+> **This article is featured in Chapter 2 of The Sparky's Playbook.**
+> The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download the full book free →](/playbook)
+
+---
+
 ## Related Reading
 
 - *[Electrical Switchboard Upgrade Cost Australia 2026](/blog/electrical-switchboard-upgrade-cost-australia-2026)*

@@ -206,6 +206,16 @@ Not scoping the switchboard before quoting. EV charger installation requires a d
 
 ---
 
+
+
+---
+
+> **This article is featured in Chapter 4 of The Sparky's Playbook.**
+> The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download the full book free →](/playbook)
+
+---
+
 ## Related Reading
 
 - *[EV Charger Installation Cost Australia 2026](/blog/ev-charger-installation-cost-australia-2026)*
