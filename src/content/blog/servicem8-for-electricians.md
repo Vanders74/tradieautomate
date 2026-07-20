@@ -1,7 +1,8 @@
 ---
 title: 'ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use'
-description: "Australian sparkies lose 10+ hours/week to admin while competitors using ServiceM8 invoice on-site and get paid same-day. See how the platform handles CCEW compliance, scheduling, quoting, and faster payments for electrical businesses in 2026."
+description: "Sparkies lose 10 hrs/week to admin. ServiceM8: invoice on-site, paid same-day. CCEW compliance, scheduling, and faster payments for Australian electricians."
 pubDate: 'Apr 27 2026'
+updatedDate: 'Jul 20 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-for-electricians.jpg'
 ---

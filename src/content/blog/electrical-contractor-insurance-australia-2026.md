@@ -1,8 +1,8 @@
 ---
 title: 'Electrical Contractor Insurance Australia 2026: What You Need, What It Costs, and What Gets You Covered'
-description: 'Australian solar installers and electricians: exact insurance policies required per state, 2026 premium benchmarks, common coverage gaps that cost businesses thousands, and the licence renewal checklist for NSW, VIC, and QLD.'
+description: 'No public liability = no electrical licence. 2026 premiums, required policies per state, and coverage gaps for Australian solar installers and electricians.'
 pubDate: 'May 10 2026'
-updatedDate: 'Jun 27 2026'
+updatedDate: 'Jul 20 2026'
 category: "Business Growth"
 heroImage: '/hero-electrical-contractor-insurance.jpg'
 tags: ['insurance', 'electrician', 'solar', 'public liability', 'professional indemnity', 'business']

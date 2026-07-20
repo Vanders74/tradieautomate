@@ -1,7 +1,8 @@
 ---
 title: 'Electrical Contractor Award Rates 2026: Interactive Pay Calculator + Full Guide'
-description: "Fair Work is auditing electrical contractors in 2026 — underpay by $1/hr and face backpay orders stretching back 6 years. Interactive calculator: enter your crew, get exact pay including overtime, allowances, and super. Updated 2025-26 rates."
+description: "Underpay by $1/hr and face 6 years of backpay orders. Free calculator: enter your crew, get exact 2026 electrical award rates with overtime and allowances."
 pubDate: 'May 20 2026'
+updatedDate: 'Jul 20 2026'
 category: "Business Growth"
 heroImage: '/hero-electrical-award-rates-2026.jpg'
 tags: ['hiring', 'award rates', 'electrician', 'solar', 'employment', 'payroll']

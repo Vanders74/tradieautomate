@@ -1,7 +1,8 @@
 ---
 title: "WA Electrical Contractor Licence 2026: EnergySafety & CCEI Guide"
-description: "WA electrical contractor licensing 2026 — EnergySafety framework, CCEI obligations, responsible supervisor rules, solar compliance, and renewal requirements."
+description: "WA unlicensed electrical work: $50,000 fine. 2026 guide — EnergySafety CCEI, responsible supervisor rules, solar compliance, and licence renewal."
 pubDate: 'Jun 9 2026'
+updatedDate: 'Jul 20 2026'
 category: "Compliance"
 heroImage: '/hero-wa-electrical-contractor-licence-guide-2026.jpg'
 tags: ['Western Australia', 'electrical contractor', 'EnergySafety', 'CCEI', 'licence', 'compliance', 'solar']
