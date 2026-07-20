@@ -3,7 +3,7 @@ title: "Fergus Review 2026: Is It Worth It for Australian Tradies?"
 description: "Honest Fergus review for Australian electricians, solar installers, and tradies in 2026 — real pricing, features, compliance tools, and how it compares to ServiceM8 and Tradify."
 pubDate: 2026-07-21
 updatedDate: 2026-07-21
-heroImage: "/images/blog/fergus-review-2026-australia.jpg"
+heroImage: "/hero-servicem8-vs-fergus.jpg"
 category: "Software Comparisons"
 tags: ["fergus review", "fergus australia", "fergus pricing 2026", "fergus vs servicem8", "fergus for electricians", "trade job management software", "fergus review 2026"]
 faq:

@@ -3,7 +3,7 @@ title: "simPRO Review 2026: Is It Worth It for Australian Trades?"
 description: "Honest simPRO review for Australian electrical, solar, and trade businesses in 2026 — real pricing, features, what it does well, where it falls short, and who it actually suits."
 pubDate: 2026-07-21
 updatedDate: 2026-07-21
-heroImage: "/images/blog/simpro-review-2026-australia.jpg"
+heroImage: "/hero-simpro-comparison.jpg"
 category: "Software Comparisons"
 tags: ["simpro review", "simpro australia", "simpro pricing 2026", "simpro vs servicem8", "simpro for electricians", "trade job management software", "simpro review 2026"]
 faq:
