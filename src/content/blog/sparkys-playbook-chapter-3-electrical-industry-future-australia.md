@@ -3,7 +3,7 @@ title: "The Sparky's Playbook — Chapter 3: Where the Electrical Industry Is He
 description: 'Excerpt from The Sparky's Playbook — Ch.3: long-term tailwinds for Australian electricians. AI data centres, grid batteries, and energy transition demand.'
 pubDate: 2026-07-20
 updatedDate: 'Jul 20 2026'
-heroImage: "/hero-ai-automation-electrical-plumbing.jpg"
+heroImage: "/hero-electrical-industry-future-australia.jpg"
 category: "Business Growth"
 tags: ["electrical industry trends", "AI data centres", "grid scale battery storage", "energy transition", "electrician business opportunity", "future of electrical contracting", "infrastructure investment"]
 faq:

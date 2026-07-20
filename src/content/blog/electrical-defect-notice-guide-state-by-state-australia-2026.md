@@ -3,7 +3,7 @@ title: 'Electrical Defect Notice: What to Do State-by-State Australia 2026'
 description: "Received an electrical defect notice? Unresolved notices suspend your contractor licence and compound across jobs. Here's the exact response process, deadlines, and appeal rights in all 8 Australian states."
 pubDate: 'Jul 20 2026'
 updatedDate: 'Jul 20 2026'
-heroImage: '/hero-electrical-compliance-australia.jpg'
+heroImage: '/hero-cer-audit-prep.jpg'
 category: "Compliance"
 tags: ['electrical defect notice', 'electrical compliance', 'ESV', 'SafeWork NSW', 'ESO Queensland', 'EnergySafety WA', 'electrician', 'contractor licence']
 faq:
