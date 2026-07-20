@@ -20,7 +20,7 @@ Chapter 8 breaks down what to look for: compliance forms that field staff comple
 
 The fastest way to see if this fits your business is the free trial. No card, no commitment — 14 days to test it with real jobs.
 
-**→ [Start free 14-day ServiceM8 trial](https://www.servicem8.com/?ref=tradieautomate)**
+**→ [Start free 14-day ServiceM8 trial](https://www.servicem8.com/?ref=tradieautomate&utm_source=playbook&utm_medium=email&utm_campaign=nurture&utm_content=email1)**
 
 Cheers,
 
@@ -49,7 +49,7 @@ Result: owner takes Fridays off. Revenue went up. Not because he marketed harder
 
 Every chapter in the playbook links to a tool or resource that helps execute it. Chapter 8 and 11 both point to ServiceM8 for the job management layer. If you haven't kicked the tyres yet:
 
-**→ [Try ServiceM8 free for 14 days](https://www.servicem8.com/?ref=tradieautomate)**
+**→ [Try ServiceM8 free for 14 days](https://www.servicem8.com/?ref=tradieautomate&utm_source=playbook&utm_medium=email&utm_campaign=nurture&utm_content=email2)**
 
 No fluff — just the platform that most of the sparkies I talk to are running.
 
@@ -70,7 +70,7 @@ If it helped you think differently about compliance, cash flow, or scaling — I
 
 And if you're still running the business off a phone and a spreadsheet, here's the one move that changes everything this week:
 
-**→ [Start your free ServiceM8 trial](https://www.servicem8.com/?ref=tradieautomate)**
+**→ [Start your free ServiceM8 trial](https://www.servicem8.com/?ref=tradieautomate&utm_source=playbook&utm_medium=email&utm_campaign=nurture&utm_content=email3)**
 
 14 days. No card. Set up your first compliance form template and run one real job through it. You'll know by day 10 whether it fits.
 
