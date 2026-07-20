@@ -232,6 +232,16 @@ $5,000,000 for general electrical work. $20,000,000 for specialist work includin
 
 ---
 
+
+
+---
+
+> **This article is featured in Chapter 1 of The Sparky's Playbook.**
+> The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
+> [Download the full book free →](/playbook)
+
+---
+
 ## Related Reading
 
 - *[QLD Electrical Contractor Licence 2026: QBCC, ESQ & QLeave Requirements](/blog/qld-electrical-contractor-licence-guide-2026)*
