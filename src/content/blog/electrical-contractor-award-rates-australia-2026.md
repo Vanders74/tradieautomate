@@ -1,6 +1,6 @@
 ---
-title: 'Electrical Contractor Award Rates 2026: Interactive Pay Calculator + Full Guide'
-description: "Underpay by $1/hr and face 6 years of backpay orders. Free calculator: enter your crew, get exact 2026 electrical award rates with overtime and allowances."
+title: 'Electrical Contractor Award Rates Australia 2026: ET Grades, Apprentice Pay, Overtime & Allowances'
+description: '2026 electrical award rates: ET Grade 1-5 from $38.43/hr, apprentice Year 1-4 from $16.14/hr, overtime at 1.5x-2.5x, tool and industry allowances. Free interactive pay calculator included.'
 pubDate: 'May 20 2026'
 updatedDate: 'Jul 20 2026'
 category: "Business Growth"
