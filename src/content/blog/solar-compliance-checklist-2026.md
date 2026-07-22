@@ -1,6 +1,6 @@
 ---
-title: 'The Complete Solar Compliance Checklist for Australian Installers (2026)'
-description: 'CER audit failure costs your accreditation. 2026 checklist: AS/NZS standards, STC docs, CER rules, and state regulator requirements — all in one place.'
+title: '2026 Solar Compliance Checklist for Australian Installers: CER, AS/NZS 5033 & 5139, NSW/VIC/QLD/SA/WA'
+description: 'Free 2026 solar compliance checklist covering CER accreditation, AS/NZS 5033 & 5139 standards, STC documentation, and state regulator requirements for every Australian jurisdiction. Printable, audit-ready, updated July 2026.'
 pubDate: 'Feb 18 2026'
 category: "Compliance"
 updatedDate: 'Jul 20 2026'
