@@ -1,6 +1,6 @@
 ---
 title: 'Why Solar Installers Are Switching to Digital Job Management in 2026'
-description: "Paper checklists and WhatsApp photos won't cut it anymore. Here's why smart solar installers are going digital - and what to look for in a job management platform."
+description: "CER audits are easier when your job records are digital from day one. GPS-stamped photos, AS/NZS 5033:2021 compliance checklists, and customer sign-offs captured automatically — what the Clean Energy Regulator requires and how digital job management makes every install audit-ready without extra admin."
 pubDate: 'Feb 18 2026'
 category: "ServiceM8"
 updatedDate: 'Jul 19 2026'
@@ -34,7 +34,7 @@ Paper-based systems worked fine when you were running 5 jobs a month as a sole t
 
 The downstream effects are worse than the inefficiency itself. When a customer calls to ask about their system warranty, you can't answer without finding the paperwork. When a new technician starts, they have no standardised process to follow. When a dispute arises about what was installed and when, you have nothing defensible to show.
 
-These aren't hypothetical problems. They're why hundreds of Australian solar businesses plateau between $500K and $1M revenue — they hit a wall of admin complexity they can't grow through with the systems they've built on paper and habit.
+These aren't hypothetical problems. They're why hundreds of Australian solar businesses plateau between $500K and $1M revenue — they hit a wall of admin complexity they can't grow through with the systems they've built on paper and habit. The Clean Energy Regulator (CER) under the Renewable Energy (Electricity) Act 2000 requires installation records retained for 5+ years, AS/NZS 5033:2021 compliance checklists, and photographic evidence — documentation that's nearly impossible to produce reliably from a paper-based system.
 
 ## What Digital Job Management Actually Solves
 

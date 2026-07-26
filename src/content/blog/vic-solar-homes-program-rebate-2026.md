@@ -1,6 +1,6 @@
 ---
 title: "VIC Solar Homes Battery Rebate 2026: Eligibility & Registration"
-description: "Solar Victoria battery rebate 2026 — eligibility, rebate amount, interest-free loan, CES Code of Conduct, installer registration, and reservation process."
+description: "Solar Victoria battery rebate: up to $2,950 upfront + $8,800 interest-free loan for eligible Victorian households. Installer registration requirements, approved battery list, AS/NZS 5139:2019 compliance, and Solar Victoria post-installation audit process — what solar and battery installers need to know."
 pubDate: 'Jun 9 2026'
 updatedDate: 'Jul 26 2026'
 category: "Solar & Battery"

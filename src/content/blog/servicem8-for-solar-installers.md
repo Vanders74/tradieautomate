@@ -1,6 +1,6 @@
 ---
 title: 'ServiceM8 for Solar Installers: The Job Management Platform Built for Compliance'
-description: 'How Australian solar and battery installation businesses are using ServiceM8 to cut admin time, pass CER audits, and scale without the paperwork chaos.'
+description: "CER audits don't need to be stressful. GPS-stamped photos, AS/NZS 5033:2021 compliance checklists, and digital STC documentation captured on-site — how ServiceM8 makes every solar installation audit-ready from the moment the job is created, with custom forms for AS/NZS 5139 battery storage compliance."
 pubDate: 'Feb 22 2026'
 category: "ServiceM8"
 updatedDate: 'Apr 18 2026'
@@ -32,7 +32,7 @@ ServiceM8 is a cloud-based job management platform built specifically for trade 
 - Invoices go out automatically when the job is marked complete
 - Customers get live updates and arrival ETAs without anyone picking up the phone
 
-It's not a generic CRM duct-taped into a trades context. It was designed from the ground up for how trade businesses actually operate — and the Australian solar industry has been a particularly strong adopter, because the compliance documentation demands map neatly to what ServiceM8 does best.
+It's not a generic CRM duct-taped into a trades context. It was designed from the ground up for how trade businesses actually operate — and the Australian solar industry has been a particularly strong adopter, because the compliance documentation demands map neatly to what ServiceM8 does best. Under the Renewable Energy (Electricity) Act 2000, the Clean Energy Regulator (CER) requires solar installers to retain installation records for 5+ years — including AS/NZS 5033:2021 compliance checklists, system specifications, and photographic evidence. ServiceM8 captures all of this automatically.
 
 ## The Compliance Problem ServiceM8 Solves
 

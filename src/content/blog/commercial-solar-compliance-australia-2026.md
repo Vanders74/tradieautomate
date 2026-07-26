@@ -1,6 +1,6 @@
 ---
 title: "Commercial Solar System Compliance Australia 2026: What Installers Need to Know"
-description: "A complete compliance guide for commercial solar PV installations in Australia — AS/NZS 5033, IEC 62109, network authority approvals, protection relay requirements, AS 4777, and what solar businesses need to know to pass a commercial solar inspection in 2026."
+description: "AS/NZS 5033:2021, AS 4777, network authority approvals, and protection relay requirements for commercial solar systems in Australia. CER STC rules, CEC accreditation, and what triggers a compliance audit — $22,000+ penalties for non-compliance under state electrical safety legislation."
 pubDate: 'Jun 9 2026'
 updatedDate: 'Jul 19 2026'
 category: "Compliance"
@@ -22,7 +22,7 @@ faq:
 
 Commercial solar is a different compliance world to residential installation. A 6.6kW residential system and a 100kW commercial rooftop both involve solar panels, inverters, and grid connection — but the standards, approvals, documentation, and inspector scrutiny are materially different.
 
-For solar and electrical contractors moving into or scaling commercial solar work in Australia, understanding the compliance framework before you take on your first large commercial job — not after — is the difference between a smooth project and an expensive rework.
+For solar and electrical contractors moving into or scaling commercial solar work in Australia, understanding the compliance framework before you take on your first large commercial job — not after — is the difference between a smooth project and an expensive rework. The Clean Energy Regulator (CER) and Clean Energy Council (CEC) set the national framework; state regulators including Energy Safe Victoria (ESV), the Electrical Safety Office (QLD), and SafeWork NSW enforce compliance at the state level under each state's electrical safety legislation.
 
 This guide covers the key compliance requirements for commercial solar PV systems in Australia in 2026: applicable standards, network authority requirements, protection relay obligations, and the documentation that inspectors and DNSPs require.
 

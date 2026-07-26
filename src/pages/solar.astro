@@ -3,185 +3,363 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 
-const title = "Solar & Battery Installer Resources | TradieAutomate";
-const description = "Resources, tools, and guides for Australian solar and battery installers. Check the health of your online review profile and discover how to win more work.";
+const pageTitle = "Solar & Battery Installer Resources — Compliance, Tools & Business Growth | TradieAutomate";
+const pageDescription = "Practical guides for Australian solar and battery installers: AS/NZS 5033 compliance, STC claims, battery storage, EV charger installation, and business growth. Free solar savings calculator included.";
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What compliance standards must Australian solar installers follow?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Australian solar installers must comply with AS/NZS 5033:2021 (PV array installation and safety), AS/NZS 4777.2:2024 (grid connection and CSIP-Aus export management), and AS/NZS 3000:2018 (Wiring Rules). All grid-connected systems must use Clean Energy Council (CEC) approved products, and STC claims are administered by the Clean Energy Regulator (CER) under the Renewable Energy (Electricity) Act 2000."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is CSIP-Aus and how does it affect solar installations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CSIP-Aus (Common Smart Inverter Profile — Australia) is the technical standard under AS/NZS 4777.2:2024 that allows Distribution Network Service Providers (DNSPs) to remotely manage solar exports. From May 2026, new solar systems with non-CSIP-Aus-compliant inverters face a permanent 1.5kW export limit imposed by the DNSP. Check the Clean Energy Council and ARENA approved products lists before specifying inverters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do solar installers claim STCs for their customers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Small-scale Technology Certificates (STCs) are claimed through the Clean Energy Regulator's (CER) REC Registry. Installers must hold current Clean Energy Council (CEC) accreditation, and the installation must comply with AS/NZS 5033:2021. STCs are typically assigned to the installer/retailer at point of sale as an upfront discount to the customer, calculated based on system size, climate zone, and deeming period."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What battery storage standards apply in Australia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Battery energy storage systems in Australia must comply with AS/NZS 5139:2019 (electrical installation safety), AS/NZS 4777.2:2024 (grid connection), and in some states additional requirements from regulators such as Energy Safe Victoria (ESV) or the Electrical Safety Office (QLD). Installers must hold CEC battery storage accreditation and maintain compliance documentation including battery location, ventilation clearances, and emergency signage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the solar savings calculator free to use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The TradieAutomate Solar Savings & Break-Even Calculator is completely free, no sign-up required. Enter household usage, tariff, system specs and current rebates to see Year 1 savings, break-even year, and a 25-year forecast. Solar installers can use it to generate copy-paste quote text for customer proposals."
+      }
+    }
+  ]
+};
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
-    <BaseHead title={title} description={description} />
+    <BaseHead title={pageTitle} description={pageDescription} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+    <style>
+      .solar-hero {
+        background: linear-gradient(135deg, #0f172a 0%, #1a2744 100%);
+        color: white;
+        text-align: center;
+        padding: 64px 24px 56px;
+      }
+      .solar-hero h1 {
+        font-size: clamp(1.8rem, 4.5vw, 2.6rem);
+        font-weight: 800;
+        line-height: 1.2;
+        margin: 0 auto 16px;
+        max-width: 780px;
+        color: #ffffff !important;
+      }
+      .solar-hero p {
+        font-size: 1.1rem;
+        color: #cbd5e1;
+        max-width: 620px;
+        margin: 0 auto;
+        line-height: 1.65;
+      }
+      .solar-hero .cta-row {
+        margin-top: 28px;
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .solar-hero .btn-primary {
+        background: #f97316;
+        color: white;
+        font-weight: 700;
+        padding: 12px 28px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 1rem;
+        transition: background 0.2s;
+      }
+      .solar-hero .btn-primary:hover { background: #ea580c; }
+      .solar-hero .btn-outline {
+        background: transparent;
+        color: white;
+        font-weight: 700;
+        padding: 12px 28px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 1rem;
+        border: 2px solid rgba(255,255,255,0.3);
+        transition: border-color 0.2s;
+      }
+      .solar-hero .btn-outline:hover { border-color: rgba(255,255,255,0.7); }
+
+      .content-section {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 48px 24px;
+      }
+      .content-section h2 {
+        font-size: 1.6rem;
+        color: #0f172a;
+        margin-bottom: 12px;
+        font-weight: 700;
+      }
+      .content-section .intro-text {
+        color: #475569;
+        line-height: 1.7;
+        margin-bottom: 32px;
+        max-width: 680px;
+      }
+      .article-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 16px;
+        margin-bottom: 40px;
+      }
+      .article-card {
+        background: white;
+        border: 1px solid #e2e8f0;
+        border-radius: 12px;
+        padding: 20px;
+        text-decoration: none;
+        color: inherit;
+        transition: box-shadow 0.2s, transform 0.15s;
+        display: block;
+      }
+      .article-card:hover {
+        box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+        transform: translateY(-1px);
+      }
+      .article-card .card-label {
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+        color: #f97316;
+        margin-bottom: 8px;
+      }
+      .article-card h3 {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #0f172a;
+        margin-bottom: 6px;
+        line-height: 1.35;
+      }
+      .article-card p {
+        font-size: 0.85rem;
+        color: #64748b;
+        line-height: 1.5;
+        margin: 0;
+      }
+
+      .tools-cta {
+        background: #fff7ed;
+        border: 1px solid #fed7aa;
+        border-radius: 14px;
+        padding: 32px;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      .tools-cta h3 {
+        font-size: 1.4rem;
+        color: #0f172a;
+        margin-bottom: 8px;
+      }
+      .tools-cta p {
+        color: #64748b;
+        max-width: 500px;
+        margin: 0 auto 20px;
+        line-height: 1.6;
+      }
+      .tools-cta .cta-link {
+        display: inline-block;
+        background: #f97316;
+        color: white;
+        font-weight: 700;
+        padding: 12px 28px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 1rem;
+      }
+      .tools-cta .cta-link:hover { background: #ea580c; }
+
+      @media (max-width: 720px) {
+        .solar-hero { padding: 48px 20px 40px; }
+        .content-section { padding: 32px 20px; }
+      }
+    </style>
   </head>
   <body>
     <Header />
     <main>
 
-      <!-- Hero Section -->
+      <!-- Hero -->
       <section class="solar-hero">
         <h1>Resources for Australian Solar &amp; Battery Installers</h1>
-        <p class="hero-sub">
-          Practical tools and guides to help you stay compliant, win more reviews,
-          and grow your solar business.
-        </p>
-      </section>
-
-      <!-- VSL / Video Section -->
-      <section class="vsl-section">
-        <div class="vsl-wrapper">
-          <div class="vsl-placeholder">
-            <span class="vsl-icon">▶</span>
-            <p>Watch: How Top Solar Installers Automate Their Business</p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Quiz Section (below VSL, above CTA) -->
-      <section class="quiz-section">
-        <div class="quiz-intro">
-          <h2>How Healthy Is Your Review Profile?</h2>
-          <p>
-            Your online reviews are one of the biggest factors in winning new solar jobs.
-            Take this 2-minute quiz to find out how your review profile stacks up — and
-            what to do if it's holding you back.
-          </p>
-        </div>
-        <div class="quiz-embed">
-          <iframe src="https://review-health-quiz-6906bc3c.viktor.space" width="100%" height="750" frameborder="0" style="border-radius:12px;" title="Review Health Quiz"></iframe>
-        </div>
-      </section>
-
-      <!-- CTA Section -->
-      <div class="cta-box">
-        <h3>Want more guides like this?</h3>
         <p>
-          TradieAutomate covers compliance, job management, and trade business growth
-          for Australian solar, battery and electrical installers. No fluff — just
-          practical information.
+          Practical compliance guides, business growth strategies, and free tools for solar PV,
+          battery storage, and electrical contractors operating in Australia. Every guide is
+          anchored in Australian Standards, state regulator requirements, and real installer economics.
         </p>
-        <a href="/blog" class="cta-button">Read the Blog →</a>
-      </div>
+        <div class="cta-row">
+          <a href="/tools/solar-savings-calculator" class="btn-primary">☀️ Free Solar Savings Calculator</a>
+          <a href="/blog" class="btn-outline">📚 Browse All Guides →</a>
+        </div>
+      </section>
 
+      <div class="content-section">
+
+        <!-- Solar Compliance -->
+        <h2>⚡ Solar Compliance &amp; Standards</h2>
+        <p class="intro-text">
+          Solar PV installations in Australia are regulated by a network of national standards
+          and state-level electrical safety regulators. AS/NZS 5033:2021 governs PV array installation
+          and safety. AS/NZS 4777.2:2024 covers grid connection and the CSIP-Aus export management
+          framework. All grid-connected solar work requires Clean Energy Council (CEC) accreditation,
+          and STC claims are administered by the Clean Energy Regulator (CER) under the
+          <em>Renewable Energy (Electricity) Act 2000</em>.
+        </p>
+        <div class="article-grid">
+          <a href="/blog/csip-aus-export-limit-1-5kw-solar" class="article-card">
+            <span class="card-label">Technical Standard</span>
+            <h3>The 1.5kW CSIP-Aus Export Clamp Explained</h3>
+            <p>How the May 2026 mandate affects every solar system with non-compliant inverters.</p>
+          </a>
+          <a href="/blog/commercial-solar-compliance-australia-2026" class="article-card">
+            <span class="card-label">Compliance</span>
+            <h3>Commercial Solar Compliance Australia 2026</h3>
+            <p>AS/NZS 5033, IEC 62109, network approvals, and protection relay requirements.</p>
+          </a>
+          <a href="/blog/staying-compliant-2026-solar-electrical-safety" class="article-card">
+            <span class="card-label">Safety</span>
+            <h3>Staying Compliant: Solar Electrical Safety 2026</h3>
+            <p>State-by-state electrical safety regulator requirements for solar installers.</p>
+          </a>
+          <a href="/blog/cer-audit-prep-solar-installers" class="article-card">
+            <span class="card-label">Audit Readiness</span>
+            <h3>CER Audit Preparation for Solar Installers</h3>
+            <p>What the Clean Energy Regulator looks for and how to document every job.</p>
+          </a>
+        </div>
+
+        <!-- Battery Storage -->
+        <h2>🔋 Battery Storage</h2>
+        <p class="intro-text">
+          Battery energy storage system (BESS) installations must comply with AS/NZS 5139:2019
+          covering physical installation safety, clearance requirements, ventilation, signage,
+          and documentation. Additional state requirements apply — Energy Safe Victoria (ESV)
+          and the Electrical Safety Office (QLD) enforce battery-specific compliance. Installers
+          must hold CEC battery storage accreditation.
+        </p>
+        <div class="article-grid">
+          <a href="/blog/as-nzs-5139-battery-storage-compliance" class="article-card">
+            <span class="card-label">Standard</span>
+            <h3>AS/NZS 5139 Battery Storage Compliance</h3>
+            <p>Complete breakdown of clearance, ventilation, signage, and documentation requirements.</p>
+          </a>
+          <a href="/blog/solar-battery-system-cost-australia-2026" class="article-card">
+            <span class="card-label">Pricing</span>
+            <h3>Solar Battery System Cost Australia 2026</h3>
+            <p>Real pricing for residential and commercial battery storage — what installers charge.</p>
+          </a>
+          <a href="/blog/solar-battery-retrofit-database-mining" class="article-card">
+            <span class="card-label">Growth Strategy</span>
+            <h3>Database Mining for Battery Retrofits</h3>
+            <p>How to mine your existing solar customer database for high-probability battery upgrade jobs.</p>
+          </a>
+        </div>
+
+        <!-- State Rebates & Licensing -->
+        <h2>📋 State Rebates &amp; Licensing</h2>
+        <div class="article-grid">
+          <a href="/blog/vic-solar-homes-program-rebate-2026" class="article-card">
+            <span class="card-label">Victoria</span>
+            <h3>VIC Solar Homes Battery Rebate 2026</h3>
+            <p>Eligibility, rebate amount up to $2,950, interest-free loan, and installer registration.</p>
+          </a>
+          <a href="/blog/sa-solar-battery-rebate-2026" class="article-card">
+            <span class="card-label">South Australia</span>
+            <h3>SA Solar Battery Rebate 2026</h3>
+            <p>Current SA Home Battery Scheme rebate amounts, eligibility, and installer requirements.</p>
+          </a>
+          <a href="/blog/solar-rebates-australia-state-guide-2026" class="article-card">
+            <span class="card-label">National</span>
+            <h3>Solar Rebates Australia: Complete State Guide 2026</h3>
+            <p>Every state rebate, federal STC program, and incentive available to solar customers.</p>
+          </a>
+        </div>
+
+        <!-- Business Growth -->
+        <h2>📈 Business Growth &amp; Operations</h2>
+        <div class="article-grid">
+          <a href="/blog/how-to-price-solar-installations-australia-2026" class="article-card">
+            <span class="card-label">Pricing</span>
+            <h3>How to Price Solar Installations 2026</h3>
+            <p>Margin calculation, competitive positioning, and pricing for profitability at scale.</p>
+          </a>
+          <a href="/blog/how-to-get-more-solar-leads-australia-2026" class="article-card">
+            <span class="card-label">Lead Generation</span>
+            <h3>How to Get More Solar Leads 2026</h3>
+            <p>Proven lead generation strategies for Australian solar installation businesses.</p>
+          </a>
+          <a href="/blog/solar-installer-cash-flow-management-australia" class="article-card">
+            <span class="card-label">Finance</span>
+            <h3>Solar Installer Cash Flow Management</h3>
+            <p>Managing the gap between paying suppliers and collecting progress payments.</p>
+          </a>
+          <a href="/blog/servicem8-for-solar-installers" class="article-card">
+            <span class="card-label">Software</span>
+            <h3>ServiceM8 for Solar Installers</h3>
+            <p>Job management built for CER compliance documentation and STC workflows.</p>
+          </a>
+        </div>
+
+        <!-- EV Charging -->
+        <h2>🔌 EV Charger Installation</h2>
+        <div class="article-grid">
+          <a href="/blog/ev-charger-installation-cost-australia-2026" class="article-card">
+            <span class="card-label">Pricing</span>
+            <h3>EV Charger Installation Cost Australia 2026</h3>
+            <p>Residential and commercial pricing: $900-$2,500 typical; switchboard upgrades from $1,200.</p>
+          </a>
+          <a href="/blog/ev-charger-network-installation-business-opportunity" class="article-card">
+            <span class="card-label">Business Opportunity</span>
+            <h3>EV Charger Network Installation Business Guide</h3>
+            <p>Fleet depots, strata, councils — $20K-$500K+ projects with recurring revenue.</p>
+          </a>
+        </div>
+
+        <!-- Tools CTA -->
+        <div class="tools-cta">
+          <h3>☀️ Free Solar Savings Calculator</h3>
+          <p>
+            Enter household usage, tariff, system specs and rebates — instantly see Year 1 savings,
+            break-even year, and a 25-year forecast. Generates copy-paste quote text for solar installers.
+            No sign-up required.
+          </p>
+          <a href="/tools/solar-savings-calculator" class="cta-link">Try the Calculator →</a>
+        </div>
+
+      </div>
     </main>
     <Footer />
   </body>
 </html>
-
-<style>
-  /* Hero */
-  .solar-hero {
-    text-align: center;
-    padding: 2.5em 1em 2em;
-    margin-bottom: 1em;
-  }
-  .solar-hero h1 {
-    font-size: 2.2em;
-    line-height: 1.2;
-    color: var(--navy, #1B2B4B);
-    margin-bottom: 0.5em;
-  }
-  .hero-sub {
-    font-size: 1.05em;
-    color: rgb(var(--gray-dark));
-    max-width: 580px;
-    margin: 0 auto;
-    line-height: 1.65;
-  }
-
-  /* VSL */
-  .vsl-section {
-    margin-bottom: 3em;
-  }
-  .vsl-wrapper {
-    border-radius: 14px;
-    overflow: hidden;
-    background: var(--navy, #1B2B4B);
-    aspect-ratio: 16 / 9;
-    max-width: 800px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .vsl-placeholder {
-    text-align: center;
-    color: rgba(255,255,255,0.7);
-  }
-  .vsl-icon {
-    font-size: 3em;
-    display: block;
-    margin-bottom: 0.4em;
-    color: var(--accent);
-  }
-  .vsl-placeholder p {
-    font-size: 0.95em;
-    margin: 0;
-  }
-
-  /* Quiz Section */
-  .quiz-section {
-    margin-bottom: 3em;
-  }
-  .quiz-intro {
-    text-align: center;
-    max-width: 640px;
-    margin: 0 auto 1.75em;
-  }
-  .quiz-intro h2 {
-    font-size: 1.8em;
-    color: var(--navy, #1B2B4B);
-    margin-bottom: 0.5em;
-  }
-  .quiz-intro p {
-    font-size: 1em;
-    color: rgb(var(--gray-dark));
-    line-height: 1.65;
-    margin: 0;
-  }
-  .quiz-embed {
-    border-radius: 14px;
-    overflow: hidden;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
-  }
-
-  /* CTA */
-  .cta-box {
-    background: var(--navy, #1B2B4B);
-    color: white;
-    border-radius: 14px;
-    padding: 2em;
-    margin-top: 1em;
-    text-align: center;
-  }
-  .cta-box h3 {
-    color: white;
-    font-size: 1.4em;
-    margin-bottom: 0.5em;
-  }
-  .cta-box p {
-    color: rgba(255,255,255,0.82);
-    font-size: 0.95em;
-    max-width: 500px;
-    margin: 0 auto 1.25em;
-  }
-  .cta-button {
-    display: inline-block;
-    background: var(--accent);
-    color: white;
-    font-weight: 700;
-    padding: 0.7em 1.8em;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 1em;
-    transition: background 0.2s;
-  }
-  .cta-button:hover {
-    background: var(--accent-dark);
-    color: white;
-  }
-
-  @media (max-width: 720px) {
-    .solar-hero h1 { font-size: 1.7em; }
-    .quiz-intro h2 { font-size: 1.4em; }
-    .cta-box { padding: 1.5em 1.25em; }
-  }
-</style>

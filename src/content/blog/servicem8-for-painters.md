@@ -1,6 +1,6 @@
 ---
 title: 'ServiceM8 for Painters: Quote Faster, Invoice Sooner, Chase Less'
-description: 'How Australian painting businesses are using ServiceM8 to win more quotes, invoice same-day, and cut the admin that eats into margins. A practical 2026 guide.'
+description: "Hand a quote to the homeowner before leaving the property — painters who quote on-site close at 2-3x the rate of email quotes sent days later. How Australian painting contractors use ServiceM8 mobile quoting, SWMS compliance, and multi-crew scheduling to reclaim 15-20 admin hours per week."
 pubDate: 'Apr 27 2026'
 updatedDate: 'Jul 19 2026'
 category: "ServiceM8"
