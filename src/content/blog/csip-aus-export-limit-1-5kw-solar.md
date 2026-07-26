@@ -1,6 +1,6 @@
 ---
 title: 'The 1.5kW Solar Export Clamp Explained: How CSIP-Aus Affects Every System Installed After May 2026'
-description: 'The CSIP-Aus mandate means non-compliant solar systems face a permanent 1.5kW export limit. Here is exactly what triggers the clamp, how to check if a system is affected, and the conversation to have with legacy solar customers.'
+description: "From May 2026, non-CSIP-Aus-compliant solar inverters face a permanent 1.5kW export limit — zero flexibility, zero appeal. AS/NZS 4777.2:2024 mandate explained: which inverters are affected, how to check compliance, and the upgrade conversation that turns a regulatory problem into a $3,000-$6,000 inverter replacement job."
 pubDate: 'May 18 2026'
 updatedDate: 'Jul 19 2026'
 category: "Solar & Battery"
@@ -24,7 +24,7 @@ This article explains exactly what's happening, how to identify affected systems
 
 ## What Is the CSIP-Aus Export Clamp?
 
-CSIP-Aus — the Common Smart Inverter Profile for Australia — is the technical standard that allows electricity network operators to communicate in real-time with solar inverters on their grid. It's underpinned by AS4777.2:2024 and has been progressively enforced across all major Australian networks since May 1, 2026.
+CSIP-Aus — the Common Smart Inverter Profile for Australia — is the technical standard that allows electricity network operators to communicate in real-time with solar inverters on their grid. It's underpinned by AS 4777.2:2024, enforced by Distribution Network Service Providers (DNSPs) under the National Electricity Rules, and the Clean Energy Council (CEC) and Australian Renewable Energy Agency (ARENA) maintain the approved products list. The mandate has been progressively enforced across all major Australian networks since May 1, 2026.
 
 The mandate creates two categories of solar system:
 

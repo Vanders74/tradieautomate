@@ -1,6 +1,6 @@
 ---
 title: "Replacing Gas Hot Water With Electric Heat Pump Australia 2026: The Installer's Guide"
-description: "A practical guide for Australian electricians and solar installers on gas-to-electric heat pump hot water conversions — technical requirements, electrical supply, state rebates, the sales conversation, and how to price gas-to-electric switchover jobs in 2026."
+description: "Gas-to-electric heat pump hot water conversions: $2,500-$5,500 installed before rebates, $1,200-$3,000 customer cost after STCs and state rebates. AS/NZS 3000:2018 Wiring Rules, CCEW/CES compliance certificate requirements, and how electricians price and sell the switchover profitably."
 pubDate: 'Jun 9 2026'
 updatedDate: 'Jul 26 2026'
 category: "Solar & Battery"
@@ -28,7 +28,7 @@ This guide covers the technical requirements for gas-to-electric heat pump conve
 
 ## Why Customers Are Switching From Gas Hot Water
 
-The combination of financial and regulatory drivers is creating genuine pull demand for gas-to-electric conversion — customers are coming to you, not just the other way around:
+The combination of financial and regulatory drivers is creating genuine pull demand for gas-to-electric conversion — customers are coming to you, not just the other way around. All electrical work on heat pump installations must comply with AS/NZS 3000:2018 (the Wiring Rules), and the completed installation requires a compliance certificate — a CCEW in NSW (under SafeWork NSW requirements) or a Certificate of Electrical Safety in Victoria (under Energy Safe Victoria). The Clean Energy Regulator (CER) administers the STC program that makes these jobs financially attractive to customers.
 
 **Gas price increases:** Wholesale and retail gas prices have risen significantly in Australia since 2022. For households on gas hot water, this has translated directly into higher energy bills. Heat pump hot water on solar generation can reduce hot water costs by 60–90%.
 

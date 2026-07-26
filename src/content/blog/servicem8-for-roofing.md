@@ -1,6 +1,6 @@
 ---
 title: 'ServiceM8 for Roofing Contractors: Manage Jobs, Quotes, and Compliance From the Field'
-description: 'How Australian roofing businesses use ServiceM8 to quote storm damage faster, manage crew scheduling, document compliance, and invoice on completion. A practical 2026 guide.'
+description: "Storm damage surges can generate 50-100 calls in 48 hours. GPS-stamped damage photos, digital SWMS (Work Health and Safety Act 2011), and insurance documentation captured on-site — how Australian roofing contractors use ServiceM8 to handle volume, compliance, and height safety documentation without losing control."
 pubDate: 'Apr 27 2026'
 updatedDate: 'Jul 19 2026'
 category: "ServiceM8"

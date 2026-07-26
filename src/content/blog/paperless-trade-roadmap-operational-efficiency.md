@@ -1,6 +1,6 @@
 ---
 title: 'The Paperless Trade Roadmap: How Solar and Electrical Businesses Eliminate Admin Chaos'
-description: 'A step-by-step guide to going paperless for Australian solar installers and electricians — automating job management, compliance docs, and invoicing to reclaim hours every week.'
+description: "Replace paper checklists and WhatsApp photos with digital job records that survive a CER audit. AS/NZS 5033:2021 installation documentation, SWMS compliance, and CCEW/CES lodgement — how solar and electrical businesses cut 15-20 admin hours per week while meeting Work Health and Safety Act 2011 and state regulator requirements."
 pubDate: 'May 01 2026'
 updatedDate: 'Jul 19 2026'
 category: "Business Growth"

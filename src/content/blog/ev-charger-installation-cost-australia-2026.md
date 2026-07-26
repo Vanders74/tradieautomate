@@ -1,6 +1,6 @@
 ---
 title: "EV Charger Installation Cost Australia 2026: What Electricians Charge and Why"
-description: "A realistic breakdown of EV charger installation costs in Australia in 2026 — residential and commercial pricing, what drives cost variation, switchboard upgrades, smart charger options, and how electricians can price EV charging work profitably."
+description: "Residential EV charger installation costs $900-$2,500; switchboard upgrades add $1,200-$3,500. AS/NZS 3000:2018 Wiring Rules compliance, state-by-state electrical contractor licence requirements (ESV Victoria, SafeWork NSW, Electrical Safety Office QLD), and how to price EV charging work at 35-50% margin."
 pubDate: 'Jun 9 2026'
 updatedDate: 'Jul 26 2026'
 category: "Business Growth"

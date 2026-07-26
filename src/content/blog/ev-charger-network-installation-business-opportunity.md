@@ -1,6 +1,6 @@
 ---
 title: "EV Charger Network Installation: Business Guide for Electricians"
-description: "How Australian electricians build a profitable EV charging network business — fleet depots, strata, councils, CPMS, DLM, and commercial EV project pricing."
+description: "4-charger workplace system: $18,000-$35,000. 30-charger fleet depot: $90,000-$200,000. CPMS, DLM, AS/NZS 3000:2018 load calculations, state electrical contractor licensing (ESV, SafeWork NSW), and how to become a preferred supplier for decade-long infrastructure rollouts."
 pubDate: 'Jun 9 2026'
 updatedDate: 'Jul 19 2026'
 category: "Business Growth"
