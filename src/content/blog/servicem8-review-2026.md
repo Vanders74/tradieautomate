@@ -65,7 +65,7 @@ So if you landed here searching for a review of "Service M8" or "Servicemate," y
 
 ---
 
-## Pricing Breakdown
+## ServiceM8 Pricing 2026
 
 ServiceM8 operates on a monthly subscription with pricing based on the number of job records created per month (not the number of users — which is a meaningful advantage for growing teams).
 

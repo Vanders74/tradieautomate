@@ -4,7 +4,7 @@ description: "A complete compliance guide for commercial solar PV installations 
 pubDate: 'Jun 9 2026'
 updatedDate: 'Jul 19 2026'
 category: "Compliance"
-heroImage: '/hero-commercial-solar-contracts.jpg'
+heroImage: '/hero-commercial-solar-system-compliance-australia.jpg'
 tags: ['commercial solar', 'compliance', 'AS/NZS 5033', 'AS 4777', 'solar', 'network approval', 'electrician']
 faq:
   - question: "What compliance standards apply to commercial solar installations in Australia?"

@@ -2,6 +2,7 @@
 title: "VIC Solar Homes Battery Rebate 2026: Eligibility & Registration"
 description: "Solar Victoria battery rebate 2026 — eligibility, rebate amount, interest-free loan, CES Code of Conduct, installer registration, and reservation process."
 pubDate: 'Jun 9 2026'
+updatedDate: 'Jul 26 2026'
 category: "Solar & Battery"
 heroImage: '/hero-vic-solar-homes-program-rebate-2026.jpg'
 tags: ['Victoria', 'Solar Homes Program', 'battery rebate', 'solar', 'Solar Victoria', 'VIC', 'installer']

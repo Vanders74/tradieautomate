@@ -1,0 +1,282 @@
+<!-- Exit-Readiness Quiz Widget — embed in blog article -->
+<div id="exit-quiz" style="background:#0f172a;border-radius:16px;padding:32px 24px;margin:32px 0;color:#e2e8f0;font-family:system-ui,-apple-system,sans-serif;max-width:720px;">
+
+  <!-- Intro -->
+  <div id="quiz-intro">
+    <h2 style="margin:0 0 6px;font-size:1.5rem;color:#f97316;">⚡ Exit-Readiness Quiz</h2>
+    <p style="margin:0 0 8px;font-size:0.9rem;color:#94a3b8;">Is your trade business built to sell — or stuck on you? <strong>3-minute self-assessment.</strong></p>
+
+    <!-- Architecture diagram -->
+    <div style="background:#1e293b;border-radius:10px;padding:16px 20px;margin-bottom:24px;text-align:center;font-size:0.78rem;color:#64748b;line-height:1.6;">
+      <div style="color:#f97316;font-weight:700;margin-bottom:8px;">📊 HOW IT WORKS</div>
+      <div style="display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;">
+        <span style="background:#1e3a5f;color:#38bdf8;padding:4px 10px;border-radius:6px;">12 Questions</span>
+        <span style="color:#475569;">→</span>
+        <span style="background:#1e3a5f;color:#38bdf8;padding:4px 10px;border-radius:6px;">Instant Score</span>
+        <span style="color:#475569;">→</span>
+        <span style="background:#1e3a5f;color:#38bdf8;padding:4px 10px;border-radius:6px;">Diagnosis</span>
+        <span style="color:#475569;">→</span>
+        <span style="background:#1e3a5f;color:#fbbf24;padding:4px 10px;border-radius:6px;">Custom Action Plan (Free)</span>
+      </div>
+      <div style="margin-top:8px;font-size:0.72rem;">Email-gated report with your top 3 actions based on your specific answers</div>
+    </div>
+
+    <div style="display:flex;gap:16px;margin-bottom:20px;">
+      <input type="text" id="quiz-name" placeholder="First name" style="flex:1;padding:12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:0.95rem;">
+      <button onclick="startQuiz()" id="quiz-start-btn" style="padding:12px 28px;background:linear-gradient(135deg,#f97316,#ea580c);color:#fff;border:none;border-radius:8px;font-size:0.95rem;font-weight:700;cursor:pointer;white-space:nowrap;">Start Quiz →</button>
+    </div>
+    <p style="margin:0;font-size:0.72rem;color:#64748b;">No spam. Your results and a custom action plan delivered instantly. Unsubscribe anytime.</p>
+  </div>
+
+  <!-- Quiz body (hidden until start) -->
+  <div id="quiz-body" style="display:none;">
+    <!-- Progress -->
+    <div style="margin-bottom:20px;">
+      <div style="display:flex;justify-content:space-between;margin-bottom:6px;font-size:0.78rem;color:#64748b;">
+        <span>Question <span id="q-current">1</span> of 12</span>
+        <span>Score: <span id="running-score" style="color:#f97316;font-weight:700;">0</span></span>
+      </div>
+      <div style="height:4px;background:#1e293b;border-radius:2px;overflow:hidden;">
+        <div id="quiz-progress" style="height:100%;background:linear-gradient(90deg,#f97316,#ea580c);width:0%;transition:width 0.3s;"></div>
+      </div>
+    </div>
+
+    <!-- Question -->
+    <div id="quiz-question" style="background:#1e293b;border-radius:12px;padding:24px;margin-bottom:16px;"></div>
+
+    <!-- Options -->
+    <div id="quiz-options" style="display:flex;flex-direction:column;gap:10px;"></div>
+  </div>
+
+  <!-- Results (hidden until complete) -->
+  <div id="quiz-results" style="display:none;"></div>
+</div>
+
+<style>
+  #exit-quiz .quiz-option {
+    display:block;width:100%;padding:14px 16px;text-align:left;
+    background:#1e293b;border:1.5px solid #334155;border-radius:10px;
+    color:#cbd5e1;font-size:0.9rem;line-height:1.5;cursor:pointer;
+    transition:all 0.15s;
+  }
+  #exit-quiz .quiz-option:hover {
+    border-color:#f97316;background:#1e293b;color:#f1f5f9;
+    transform:translateX(4px);
+  }
+  #exit-quiz .quiz-option.selected {
+    border-color:#f97316;background:#1e3a5f;color:#fff;
+  }
+  #exit-quiz .quiz-option .opt-label {
+    display:inline-block;width:22px;height:22px;line-height:22px;
+    text-align:center;border-radius:50%;background:#334155;
+    color:#94a3b8;font-weight:700;font-size:0.75rem;margin-right:10px;
+  }
+  #exit-quiz .quiz-option.selected .opt-label {
+    background:#f97316;color:#fff;
+  }
+</style>
+
+<script>
+(function() {
+  const questions = [
+    {
+      q: "If you went off the grid for 4 weeks — no phone, no internet — what happens to your business?",
+      a: "Revenue stalls, open quotes freeze, and major fires are waiting when I get back.",
+      b: "The team handles active jobs, but quoting, client relations, and payroll grind to a halt.",
+      c: "The business runs seamlessly — quoting, dispatch, invoicing, and team management continue without me."
+    },
+    {
+      q: "How are your SOPs, safety workflows, and job standards documented?",
+      a: "\"It's all in my head.\" If someone has a question, they call me directly.",
+      b: "We have basic checklists or scattered PDFs, but people rarely follow them unless I remind them.",
+      c: "Every workflow — from switchboard testing to CCEW compliance — is embedded in automated field software templates."
+    },
+    {
+      q: "How do quotes get built and sent to prospective clients?",
+      a: "I personally review every site, do manual takeoffs, and type up quotes late at night.",
+      b: "Techs write rough notes on site, but I still check supplier prices, calculate margins, and approve every quote.",
+      c: "Field techs use standardised pricing rules and digital tools to build compliant quotes from the site driveway."
+    },
+    {
+      q: "What percentage of your annual revenue comes from your top 3 clients or personal relationships?",
+      a: "Over 50% — if our primary builder drops us, the business takes a massive hit.",
+      b: "Around 25–40% — we have steady repeat clients, but they only deal with me personally.",
+      c: "Under 20% — revenue is diversified across web leads, service contracts, and accounts managed by the team."
+    },
+    {
+      q: "If a buyer asked for gross profit margins by job type, how fast could you provide it?",
+      a: "It would take two weeks with my accountant to wade through paper invoices and spreadsheets.",
+      b: "I could estimate roughly from quarterly Xero reports, but I don't track live job costing per crew or job type.",
+      c: "Instant — our job management and accounting platforms track real-time labour hours and supplier costs against every job."
+    },
+    {
+      q: "What role do you play in daily field operations and on-site troubleshooting?",
+      a: "Chief Firefighter — I spend 80% of my day answering calls, solving issues on site, and picking up parts.",
+      b: "Semi-active — I don't hold tools much, but every scheduling, material, and staff decision goes through me.",
+      c: "Strategic oversight — leading hands run daily operations using structured debriefs and digital job tracking."
+    },
+    {
+      q: "How are post-job compliance filings managed (CES, CCEW, STC audit photos, warranties)?",
+      a: "Techs drop photos in a WhatsApp group or leave paper forms on the ute dash for me to sort later.",
+      b: "Techs submit forms digitally, but I constantly chase them for missing serial numbers or blurry photos.",
+      c: "Compliance is mandatory in our field app — jobs can't be marked complete or invoiced until all checks pass automated validation."
+    },
+    {
+      q: "What percentage of your revenue is recurring (service contracts, maintenance plans, monitoring)?",
+      a: "Zero — every dollar we earn comes from one-off project work or word-of-mouth callouts.",
+      b: "Under 10% — a few maintenance agreements, but nothing systematic.",
+      c: "Over 15% — we have structured service contracts, monitoring subscriptions, and automated renewal cycles."
+    },
+    {
+      q: "What does your lead pipeline and follow-up process look like?",
+      a: "Word of mouth only — if a client doesn't accept immediately, the quote sits in my inbox and gets forgotten.",
+      b: "We have a basic website and run manual SMS follow-ups on open quotes when we get a spare moment.",
+      c: "Automated — web leads are qualified 24/7, open quotes enter multi-stage follow-up sequences, past customers get automated maintenance prompts."
+    },
+    {
+      q: "Which best describes your current tech stack for running the business?",
+      a: "Spreadsheets, a whiteboard, and my phone. Maybe a basic accounting package for BAS.",
+      b: "Xero or MYOB for accounting, plus some scheduling tools — but nothing integrated end-to-end.",
+      c: "Fully integrated — job management (ServiceM8/simPRO) + accounting (Xero/MYOB) + digital compliance forms, synced automatically."
+    },
+    {
+      q: "How clear is your transition plan for key client accounts and leadership over the next 12–36 months?",
+      a: "No plan — my name is on every licence, contract, and supplier trade account.",
+      b: "I have a leading hand who could take over, but they don't know the business financials or backend systems yet.",
+      c: "Clear management layer — an operational team handles day-to-day clients, suppliers, and field staff under documented systems."
+    },
+    {
+      q: "If a broker valued your business today, what would they actually be buying?",
+      a: "A glorified job — my client contact list, my personal reputation, and a fleet of aging utes.",
+      b: "A profitable business with good cash flow, but high key-person risk requiring me to stay on for 2+ years post-sale.",
+      c: "A turn-key asset — fully systematised, cash-flowing, documented SOPs, automated compliance, and a management team that runs without me."
+    }
+  ];
+
+  let currentQ = 0;
+  let scores = [];
+  let answers = {};
+
+  window.startQuiz = function() {
+    document.getElementById('quiz-intro').style.display = 'none';
+    document.getElementById('quiz-body').style.display = 'block';
+    currentQ = 0;
+    scores = [];
+    answers = {};
+    showQuestion();
+  };
+
+  function showQuestion() {
+    if (currentQ >= questions.length) {
+      showResults();
+      return;
+    }
+    const q = questions[currentQ];
+    document.getElementById('q-current').textContent = currentQ + 1;
+    document.getElementById('quiz-progress').style.width = ((currentQ / questions.length) * 100) + '%';
+    document.getElementById('running-score').textContent = scores.reduce((a,b) => a+b, 0);
+
+    document.getElementById('quiz-question').innerHTML = 
+      '<h3 style="margin:0;font-size:1.05rem;font-weight:600;color:#f1f5f9;line-height:1.5;">' + q.q + '</h3>';
+
+    let opts = '';
+    ['a','b','c'].forEach(function(opt) {
+      opts += '<button class="quiz-option" onclick="selectAnswer(\'' + opt + '\')">' +
+        '<span class="opt-label">' + opt.toUpperCase() + '</span>' + q[opt] + '</button>';
+    });
+    document.getElementById('quiz-options').innerHTML = opts;
+  }
+
+  window.selectAnswer = function(opt) {
+    const score = opt === 'a' ? 1 : (opt === 'b' ? 2 : 3);
+    scores.push(score);
+    answers[currentQ + 1] = opt.toUpperCase();
+    currentQ++;
+    showQuestion();
+  };
+
+  function showResults() {
+    document.getElementById('quiz-body').style.display = 'none';
+    const totalScore = scores.reduce(function(a,b) { return a + b; }, 0);
+    const maxScore = questions.length * 3;
+    const pct = Math.round((totalScore / maxScore) * 100);
+
+    let tier, tierLabel, diagnosis, color, nextSteps;
+    if (totalScore <= 18) {
+      tier = 'high-risk';
+      tierLabel = '🔴 High Key-Person Risk';
+      color = '#ef4444';
+      diagnosis = 'Your business is currently a job, not a sellable asset. It relies on your time, energy, and personal memory. Buyers see key-person risk — and they discount heavily for it.';
+      nextSteps = '<li>Get off the tools by centralising quoting rules and pricing</li><li>Build systemised SOPs in job management software</li><li>Start tracking job profitability per job type</li>';
+    } else if (totalScore <= 27) {
+      tier = 'scaling-trap';
+      tierLabel = '🟡 The Scaling Trap';
+      color = '#fbbf24';
+      diagnosis = 'You\'ve grown beyond a solo operation, but you\'re the operational bottleneck. You have basic systems in place but lack the automation to remove yourself from admin, compliance chasing, and job costing. Buyers will see potential — but also risk.';
+      nextSteps = '<li>Automate compliance documentation so jobs close without you</li><li>Build recurring revenue streams (service contracts, monitoring)</li><li>Document your tech stack and integrate accounting with job management</li>';
+    } else {
+      tier = 'exit-ready';
+      tierLabel = '🟢 Exit-Ready Asset';
+      color = '#22c55e';
+      diagnosis = 'You\'ve decoupled your time from business revenue. Low key-person risk, automated compliance, real-time margin visibility, and a management layer that runs without you — making your business an attractive, high-multiple acquisition target.';
+      nextSteps = '<li>Maximise recurring revenue to boost your EBIT multiple</li><li>Get a professional valuation to benchmark your exit number</li><li>Prepare your 3-year transition plan for leadership and key accounts</li>';
+    }
+
+    document.getElementById('quiz-results').innerHTML =
+      '<div style="text-align:center;margin-bottom:24px;">' +
+        '<div style="font-size:3rem;margin-bottom:8px;">' + (totalScore <= 18 ? '🔴' : (totalScore <= 27 ? '🟡' : '🟢')) + '</div>' +
+        '<h2 style="margin:0 0 8px;font-size:1.3rem;color:' + color + ';">' + tierLabel + '</h2>' +
+        '<div style="font-size:1rem;color:#94a3b8;">Score: <strong style="color:#f1f5f9;">' + totalScore + ' / ' + maxScore + '</strong> (' + pct + '%)</div>' +
+      '</div>' +
+      '<div style="background:#1e293b;border-radius:10px;padding:20px;margin-bottom:20px;font-size:0.9rem;line-height:1.6;color:#cbd5e1;">' +
+        '<p style="margin:0 0 12px;">' + diagnosis + '</p>' +
+        '<p style="margin:0 0 8px;font-weight:700;color:#f1f5f9;">Your top 3 priorities:</p>' +
+        '<ol style="margin:0;padding-left:18px;">' + nextSteps + '</ol>' +
+      '</div>' +
+      '<div style="background:linear-gradient(135deg,#1e293b,#0f172a);border:1px solid #334155;border-radius:10px;padding:20px;text-align:center;">' +
+        '<h3 style="margin:0 0 6px;font-size:1rem;color:#f97316;">📋 Get Your Custom Action Plan</h3>' +
+        '<p style="margin:0 0 16px;font-size:0.82rem;color:#94a3b8;">A personalised 1-page PDF with your score breakdown and exact next steps based on YOUR answers. Free. Instant.</p>' +
+        '<form onsubmit="requestPlan(event)" style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">' +
+          '<input type="email" id="quiz-email" placeholder="Your email" required style="flex:1;min-width:200px;padding:12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:0.9rem;">' +
+          '<button type="submit" style="padding:12px 24px;background:linear-gradient(135deg,#f97316,#ea580c);color:#fff;border:none;border-radius:8px;font-size:0.9rem;font-weight:700;cursor:pointer;white-space:nowrap;">Send My Plan →</button>' +
+        '</form>' +
+        '<div id="plan-status" style="margin-top:12px;font-size:0.85rem;"></div>' +
+      '</div>';
+
+    document.getElementById('quiz-results').style.display = 'block';
+
+    // Store results for lead capture
+    window._quizResults = { score: totalScore, tier: tier, answers: answers };
+  }
+
+  window.requestPlan = async function(e) {
+    e.preventDefault();
+    const email = document.getElementById('quiz-email').value;
+    const name = document.getElementById('quiz-name').value || '';
+    const status = document.getElementById('plan-status');
+    status.innerHTML = '<span style="color:#fbbf24;">Generating your plan...</span>';
+
+    try {
+      const resp = await fetch('/.netlify/functions/exit-readiness-lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          firstName: name,
+          email: email,
+          score: window._quizResults.score,
+          tier: window._quizResults.tier,
+          answers: window._quizResults.answers
+        })
+      });
+      const data = await resp.json();
+      if (data.success) {
+        status.innerHTML = '<span style="color:#22c55e;">✅ Plan sent! Check your inbox.<br><a href="' + data.downloadUrl + '" style="color:#f97316;">Download your custom action plan →</a></span>';
+      } else {
+        status.innerHTML = '<span style="color:#ef4444;">' + (data.error || 'Something went wrong. Try again.') + '</span>';
+      }
+    } catch(err) {
+      status.innerHTML = '<span style="color:#ef4444;">Connection error. Please try again.</span>';
+    }
+  };
+})();
+</script>

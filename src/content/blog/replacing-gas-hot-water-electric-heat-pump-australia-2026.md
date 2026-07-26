@@ -2,8 +2,9 @@
 title: "Replacing Gas Hot Water With Electric Heat Pump Australia 2026: The Installer's Guide"
 description: "A practical guide for Australian electricians and solar installers on gas-to-electric heat pump hot water conversions — technical requirements, electrical supply, state rebates, the sales conversation, and how to price gas-to-electric switchover jobs in 2026."
 pubDate: 'Jun 9 2026'
+updatedDate: 'Jul 26 2026'
 category: "Solar & Battery"
-heroImage: '/hero-adding-battery-storage-business.jpg'
+heroImage: '/hero-replacing-gas-hot-water-electric-heat-pump.jpg'
 tags: ['heat pump hot water', 'gas to electric', 'electrification', 'rebate', 'solar', 'electrician', 'compliance']
 faq:
   - question: "How much does a gas-to-electric heat pump hot water conversion cost in Australia?"
