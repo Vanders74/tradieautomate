@@ -133,11 +133,13 @@ Solar installations deserve specific attention because the paperwork chain is lo
 
 Missing any step in this chain creates both regulatory and commercial problems — STC claims can't be lodged without the installation certificate, and the distributor won't approve export if the connection notification hasn't been received.
 
+For the complete solar compliance documentation workflow including CER requirements and audit preparation, see our [solar compliance checklist](/blog/solar-compliance-checklist-2026).
+
 ---
 
 ## BCNSW eCert Portal — What Changed on 1 July 2026
 
-As of 1 July 2026, all CCEWs must be submitted through the **BCNSW eCert portal**. This was previously the "NSW Fair Trading portal" — the system has been rebranded and centralised under Building Commission NSW, and the PDF form, Essential Energy portal, and paper NECA book submission methods are no longer accepted.
+As of 1 July 2026, all CCEWs must be submitted through the **BCNSW eCert portal**. This was previously the "NSW Fair Trading portal" — the system has been rebranded and centralised under Building Commission NSW, and the PDF form, Essential Energy portal, and paper NECA book submission methods are no longer accepted — **mandatory digital lodgement** through BCNSW eCert is the only valid pathway.
 
 **If you're still submitting CCEWs the old way, you're now non-compliant.** Every CCEW submitted through the old channels after 1 July 2026 is treated as not submitted. The penalties for non-submission remain: up to $22,000 for individuals and up to $550,000 for corporations.
 
