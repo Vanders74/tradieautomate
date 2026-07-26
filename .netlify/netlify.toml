@@ -54,3 +54,15 @@ force = true
 [redirects.conditions]
 
 [redirects.headers]
+
+[[redirects]]
+from = "/blog/best-job-management-software-electricians-australia"
+to = "/blog/best-job-management-software-electricians-australia/"
+status = 301.0
+force = true
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]

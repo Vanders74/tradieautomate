@@ -332,6 +332,162 @@ For building the full pricing model, see our [hidden costs guide](/blog/hidden-c
 
 ---
 
+## Award Pay Calculator
+
+Use the calculator below to work out the exact minimum pay for an electrical employee, including overtime and allowances. Enter their classification, hours, and applicable allowances — the total updates live.
+
+<div id="award-calc" style="background:#0f172a;border:1px solid #1e293b;border-radius:12px;padding:24px;margin:16px 0;color:#e2e8f0;font-family:inherit">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px">
+    <!-- Inputs -->
+    <div>
+      <div style="margin-bottom:12px">
+        <label style="font-size:13px;color:#94a3b8;display:block;margin-bottom:4px">Classification</label>
+        <select id="ac-class" style="width:100%;padding:10px;background:#1e293b;border:1px solid #334155;border-radius:8px;color:#e2e8f0;font-size:14px">
+          <option value="app1">1st Year Apprentice</option>
+          <option value="app2">2nd Year Apprentice</option>
+          <option value="app3">3rd Year Apprentice</option>
+          <option value="app4">4th Year Apprentice</option>
+          <option value="et1" selected>ET Grade 1 — $38.43/hr</option>
+          <option value="et2">ET Grade 2 — $39.36/hr</option>
+          <option value="et3">ET Grade 3 — $40.26/hr</option>
+          <option value="et4">ET Grade 4 — $41.20/hr</option>
+          <option value="et5">ET Grade 5 — $42.15/hr</option>
+        </select>
+      </div>
+      <div style="margin-bottom:12px;display:grid;grid-template-columns:1fr 1fr;gap:10px">
+        <div>
+          <label style="font-size:13px;color:#94a3b8;display:block;margin-bottom:4px">Ordinary hours</label>
+          <input id="ac-ordinary" type="number" value="38" min="0" max="80" style="width:100%;padding:10px;background:#1e293b;border:1px solid #334155;border-radius:8px;color:#e2e8f0;font-size:14px">
+        </div>
+        <div>
+          <label style="font-size:13px;color:#94a3b8;display:block;margin-bottom:4px">Overtime 1.5x (hrs)</label>
+          <input id="ac-ot15" type="number" value="0" min="0" max="40" style="width:100%;padding:10px;background:#1e293b;border:1px solid #334155;border-radius:8px;color:#e2e8f0;font-size:14px">
+        </div>
+      </div>
+      <div style="margin-bottom:16px;display:grid;grid-template-columns:1fr 1fr;gap:10px">
+        <div>
+          <label style="font-size:13px;color:#94a3b8;display:block;margin-bottom:4px">Overtime 2x (hrs)</label>
+          <input id="ac-ot20" type="number" value="0" min="0" max="40" style="width:100%;padding:10px;background:#1e293b;border:1px solid #334155;border-radius:8px;color:#e2e8f0;font-size:14px">
+        </div>
+        <div>
+          <label style="font-size:13px;color:#94a3b8;display:block;margin-bottom:4px">Public Holiday 2.5x (hrs)</label>
+          <input id="ac-ph" type="number" value="0" min="0" max="40" style="width:100%;padding:10px;background:#1e293b;border:1px solid #334155;border-radius:8px;color:#e2e8f0;font-size:14px">
+        </div>
+      </div>
+      <div style="margin-bottom:8px">
+        <label style="font-size:13px;color:#94a3b8;display:block;margin-bottom:6px">Allowances</label>
+        <label style="display:flex;align-items:center;gap:8px;font-size:13px;color:#cbd5e1;margin-bottom:6px;cursor:pointer">
+          <input type="checkbox" id="ac-ind-allow" checked> Industry allowance ($2.74/hr) — applies to all
+        </label>
+        <label style="display:flex;align-items:center;gap:8px;font-size:13px;color:#cbd5e1;margin-bottom:6px;cursor:pointer">
+          <input type="checkbox" id="ac-tool-allow"> Tool allowance ($26.56/wk) — employee provides tools
+        </label>
+        <label style="display:flex;align-items:center;gap:8px;font-size:13px;color:#cbd5e1;margin-bottom:6px;cursor:pointer">
+          <input type="checkbox" id="ac-height-allow"> Height work (over 15.25m — $0.76/hr)
+        </label>
+      </div>
+    </div>
+    <!-- Output -->
+    <div style="background:#0a0f1a;border:1px solid #1e293b;border-radius:10px;padding:20px">
+      <div style="font-size:14px;font-weight:600;color:#94a3b8;margin-bottom:16px;text-transform:uppercase;letter-spacing:0.05em">Pay Breakdown</div>
+      <div id="ac-results" style="font-size:14px;line-height:1.8">
+        <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(30,41,59,0.5)">
+          <span>Ordinary wage</span>
+          <span id="ac-r-ordinary" style="font-weight:600">$1,460.34</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(30,41,59,0.5)">
+          <span>Industry allowance</span>
+          <span id="ac-r-industry" style="font-weight:600">$104.12</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(30,41,59,0.5)">
+          <span>Overtime 1.5x</span>
+          <span id="ac-r-ot15" style="font-weight:600">$0.00</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(30,41,59,0.5)">
+          <span>Overtime 2x</span>
+          <span id="ac-r-ot20" style="font-weight:600">$0.00</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(30,41,59,0.5)">
+          <span>Public holiday 2.5x</span>
+          <span id="ac-r-ph" style="font-weight:600">$0.00</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(30,41,59,0.5)">
+          <span>Tool allowance</span>
+          <span id="ac-r-tool" style="font-weight:600">$0.00</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(30,41,59,0.5)">
+          <span>Height allowance</span>
+          <span id="ac-r-height" style="font-weight:600">$0.00</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding:10px 0 6px;border-top:2px solid #22c55e;margin-top:4px">
+          <span style="font-weight:700;color:#f8fafc">Total weekly pay</span>
+          <span id="ac-r-total" style="font-weight:700;color:#22c55e;font-size:18px">$1,564.46</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding:6px 0">
+          <span>Superannuation (11.5%)</span>
+          <span id="ac-r-super" style="font-weight:600;color:#94a3b8">$179.91</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding:6px 0;border-top:1px solid #334155">
+          <span style="font-weight:700;color:#f8fafc">Total cost to employer</span>
+          <span id="ac-r-employer" style="font-weight:700;color:#f97316;font-size:18px">$1,744.37</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p style="font-size:11px;color:#64748b;margin-top:16px;border-top:1px solid #1e293b;padding-top:12px">These are minimum award rates for the Electrical, Electronic and Communications Contracting Award 2020 (MA000025). Always verify current rates with the Fair Work Commission — rates change annually on 1 July.</p>
+</div>
+
+<script>
+(function() {
+  const RATES = { app1: 613/38, app2: 803/38, app3: 1095/38, app4: 1285/38, et1: 38.43, et2: 39.36, et3: 40.26, et4: 41.20, et5: 42.15 };
+  const APP_PCT = { app1: 0.42, app2: 0.55, app3: 0.75, app4: 0.88 };
+  const BASE_ET = 38.43;
+  function calc() {
+    var cls = document.getElementById('ac-class').value;
+    var ord = parseFloat(document.getElementById('ac-ordinary').value) || 0;
+    var ot15 = parseFloat(document.getElementById('ac-ot15').value) || 0;
+    var ot20 = parseFloat(document.getElementById('ac-ot20').value) || 0;
+    var ph = parseFloat(document.getElementById('ac-ph').value) || 0;
+    var ind = document.getElementById('ac-ind-allow').checked;
+    var tool = document.getElementById('ac-tool-allow').checked;
+    var height = document.getElementById('ac-height-allow').checked;
+    var rate = RATES[cls] || RATES.et1;
+    var baseOrd = rate * ord;
+    var baseOT15 = rate * 1.5 * ot15;
+    var baseOT20 = rate * 2.0 * ot20;
+    var basePH = rate * 2.5 * ph;
+    var indAmt = ind ? (2.74 * ord) : 0;
+    var toolAmt = tool ? 26.56 : 0;
+    var heightAmt = height ? (0.76 * ord) : 0;
+    var subTotal = baseOrd + indAmt + baseOT15 + baseOT20 + basePH + toolAmt + (height ? 0.76 * ord : 0);
+    // Height already added above
+    var total = baseOrd + baseOT15 + baseOT20 + basePH + indAmt + toolAmt + heightAmt;
+    var superAmt = baseOrd * 0.115;
+    var employerTotal = total + superAmt;
+    document.getElementById('ac-r-ordinary').textContent = '$' + (baseOrd).toFixed(2);
+    document.getElementById('ac-r-industry').textContent = '$' + (indAmt).toFixed(2);
+    document.getElementById('ac-r-ot15').textContent = '$' + (baseOT15).toFixed(2);
+    document.getElementById('ac-r-ot20').textContent = '$' + (baseOT20).toFixed(2);
+    document.getElementById('ac-r-ph').textContent = '$' + (basePH).toFixed(2);
+    document.getElementById('ac-r-tool').textContent = '$' + (toolAmt).toFixed(2);
+    document.getElementById('ac-r-height').textContent = '$' + (heightAmt).toFixed(2);
+    document.getElementById('ac-r-total').textContent = '$' + (total).toFixed(2);
+    document.getElementById('ac-r-super').textContent = '$' + (superAmt).toFixed(2);
+    document.getElementById('ac-r-employer').textContent = '$' + (employerTotal).toFixed(2);
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    ['ac-class','ac-ordinary','ac-ot15','ac-ot20','ac-ph','ac-ind-allow','ac-tool-allow','ac-height-allow'].forEach(function(id) {
+      var el = document.getElementById(id);
+      if (el) el.addEventListener('change', calc);
+      if (el && el.tagName === 'INPUT' && el.type !== 'checkbox') el.addEventListener('input', calc);
+    });
+    calc();
+  });
+})();
+</script>
+
+---
+
 ## Staying Compliant With Fair Work Obligations
 
 **Record-keeping:** You must keep employment records for 7 years. Records must include hours worked, rates paid, leave taken, super paid. Using a payroll system (Xero Payroll, MYOB, QuickBooks) helps ensure records are complete and compliant.
