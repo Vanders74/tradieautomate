@@ -2,6 +2,7 @@
 title: 'The 2026 Solar Playbook: How to Sell Out the "Dumb" Array and Lock In High-Margin Battery Tech'
 description: "Australia's May 2026 regulatory changes mean unmanaged solar systems face permanent 1.5kW export caps. Here's the complete contractor playbook for upselling CSIP-compliant hybrid systems, LFP batteries, and VPP contracts."
 pubDate: 'May 16 2026'
+updatedDate: 'Jul 27 2026'
 category: "Solar & Battery"
 heroImage: '/hero-solar-playbook-2026.jpg'
 tags: ['solar', 'battery storage', 'CSIP compliance', 'VPP', 'electrician', 'business strategy']
@@ -14,6 +15,10 @@ Australia has crossed 3.7 million rooftop solar installations. The grid wasn't d
 If your business is still selling panels-only systems with a basic grid-tied inverter, your margins are shrinking and your customers are getting penalised. But if you understand what's actually happening in the energy market right now, the next two years are the highest-margin window Australian solar contractors have ever seen.
 
 This is the playbook.
+
+---
+
+> **🔄 July 2026 Update:** CSIP-AUS v1.2 is rolling out across Australian jurisdictions from July 2026, introducing tighter certification requirements for inverter manufacturers and new compliance obligations for installers. The core framework in this playbook — CSIP-compliant hardware, LFP storage, and HEMS orchestration — remains the play. But expect updated certification lists and potential grace periods as networks transition to v1.2. We'll update this article as specific state-level timelines are confirmed.
 
 ---
 
