@@ -1,6 +1,6 @@
 ---
 title: 'ServiceM8 Review 2026: Real Pricing, Features & Who It Actually Suits'
-description: "ServiceM8 pricing starts at $29/month. Real Australian electrician review: 2026 features, CCEW compliance support, NSW Fair Trading requirements, and whether it's worth upgrading from spreadsheets."
+description: "$29/mo for 15 jobs, $149/mo for 150. ServiceM8 review 2026: best value for small crews, where it falls short at scale, and who should look elsewhere."
 updatedDate: 'Jul 20 2026'
 pubDate: 'Apr 03 2026'
 category: "ServiceM8"

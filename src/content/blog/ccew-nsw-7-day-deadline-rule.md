@@ -27,6 +27,8 @@ This article cuts through the confusion. Here is exactly when a CCEW is legally 
 
 A Certificate of Compliance Electrical Work (CCEW) is a legal document under the *Home Building Act 1989 (NSW)* and the *Electricity (Consumer Safety) Act 2004 (NSW)*. It certifies that electrical work was carried out in accordance with the applicable wiring rules (AS/NZS 3000), the Electricity (Consumer Safety) Regulation, and any relevant Australian Standards.
 
+**As of 1 July 2026, all CCEWs must be submitted digitally through the mandatory BCNSW eCert portal** — paper forms and old submission methods are no longer accepted. See our [full CCEW compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026) for the complete lodgement workflow and portal registration steps.
+
 The document must be signed by a licensed electrical contractor (not just a licensed electrician — the contractor of record takes legal responsibility with their signature).
 
 ---
