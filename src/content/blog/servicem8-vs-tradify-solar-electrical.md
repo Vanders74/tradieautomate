@@ -2,6 +2,7 @@
 title: 'ServiceM8 vs Tradify for Solar and Electrical Businesses: A Detailed 2026 Comparison'
 description: 'ServiceM8 vs Tradify compared specifically for Australian solar installers and electricians — compliance documentation, CER tools, mobile experience, and real-world performance in 2026.'
 pubDate: 'Apr 27 2026'
+updatedDate: 'Jul 30 2026'
 category: "Software Comparisons"
 heroImage: '/hero-servicem8-vs-tradify-solar-electrical.jpg'
 ---

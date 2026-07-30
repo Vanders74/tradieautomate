@@ -2,6 +2,7 @@
 title: 'How to Scale Your Solar or Electrical Business: Hiring, Systems, and Growth'
 description: 'A practical guide to scaling a solar installation or electrical business in Australia — hiring your first apprentice or technician, building systems that scale, and growing revenue without chaos.'
 pubDate: 'May 23 2026'
+updatedDate: 'Jul 30 2026'
 category: "Business Growth"
 heroImage: '/hero-scaling-solar-electrical-business.jpg'
 tags: ['growth', 'scaling', 'solar', 'electrician', 'hiring', 'business systems']

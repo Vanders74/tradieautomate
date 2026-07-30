@@ -2,6 +2,7 @@
 title: 'ServiceM8 for Landscapers: Run Your Landscaping Business Without the Admin Chaos'
 description: 'How Australian landscaping and garden maintenance businesses use ServiceM8 to quote faster, schedule efficiently, invoice on completion, and grow beyond the sole trader ceiling.'
 pubDate: 'Apr 27 2026'
+updatedDate: 'Jul 30 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-for-landscapers.jpg'
 ---

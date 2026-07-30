@@ -2,6 +2,7 @@
 title: 'How to Price Solar Installations in Australia 2026: The Complete Guide for Solar Businesses'
 description: 'How to price solar installations in Australia — labour rates, equipment costs, overhead recovery, profit margins, and a real-world pricing model for solar businesses in 2026.'
 pubDate: 'May 12 2026'
+updatedDate: 'Jul 30 2026'
 category: "Solar & Battery"
 heroImage: '/hero-how-to-price-solar.jpg'
 tags: ['solar', 'pricing', 'job costing', 'business', 'electrician', 'profitability']

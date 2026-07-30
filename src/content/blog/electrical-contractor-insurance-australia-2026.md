@@ -1,6 +1,6 @@
 ---
 title: 'Electrical Contractor Insurance Australia 2026: What You Need, What It Costs, and What Gets You Covered'
-description: 'No public liability = no electrical licence. 2026 premiums, required policies per state, and coverage gaps for Australian solar installers and electricians.'
+description: "$1,200-$5,000/yr — what Australian electrical contractors actually pay for insurance in 2026. Public liability, PI, and solar-specific policies by state."
 pubDate: 'May 10 2026'
 updatedDate: 'Jul 20 2026'
 category: "Business Growth"

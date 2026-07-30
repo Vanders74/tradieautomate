@@ -19,7 +19,7 @@ faq:
     answer: "A valid NSW CCEW must include: the contractor's licence number, the property address, a description of the electrical work performed, the date of completion, confirmation that the work complies with AS/NZS 3000 Wiring Rules and relevant standards, and the contractor's signature. For solar installations, it should also reference the inverter specifications and grid connection type."
 ---
 
-The Certificate of Compliance — Electrical Work (CCEW) is the cornerstone compliance document for electrical contractors working in New South Wales. Under the Home Building Act 1989 and the Electricity (Consumer Safety) Act 2004, the CCEW is the legal record that electrical installation work has been performed by a licensed contractor and complies with Australian Standards.
+The Certificate of Compliance — Electrical Work (CCEW) — also commonly searched as the NSW electrical certificate of compliance — is the cornerstone compliance document for electrical contractors working in New South Wales. Under the Home Building Act 1989 and the Electricity (Consumer Safety) Act 2004, the CCEW is the legal record that electrical installation work has been performed by a licensed contractor and complies with Australian Standards.
 
 In 2025 and 2026, SafeWork NSW and Fair Trading NSW have increased their compliance focus on electrical contractors — particularly in the solar and battery installation sector, where rapid market growth has led to a mix of highly professional operators and those cutting corners on documentation.
 

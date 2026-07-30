@@ -2,6 +2,7 @@
 title: 'Battery Retrofit Installations: How to Add Battery Storage to an Existing Solar System in Australia'
 description: 'A complete guide for Australian solar installers and electricians on adding battery storage to existing solar systems — compatibility assessment, AC vs DC coupling, hybrid inverter retrofits, AS/NZS 5139 compliance, and the customer opportunity.'
 pubDate: 'May 15 2026'
+updatedDate: 'Jul 30 2026'
 category: "Solar & Battery"
 heroImage: '/hero-battery-retrofit-solar.jpg'
 tags: ['battery retrofit', 'battery storage', 'solar', 'AS/NZS 5139', 'electrician', 'existing solar']

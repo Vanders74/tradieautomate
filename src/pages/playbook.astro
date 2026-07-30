@@ -422,7 +422,7 @@ const description = "A free 12-chapter guide covering licensing, EV charging, co
         <div class="download-reveal" id="download-reveal">
           <p>✅ You're in! Your copy of The Sparky's Playbook is ready.</p>
           <a class="download-btn" id="download-link" href="/sparkys-playbook.pdf" download="The-Sparkys-Playbook-TradieAutomate.pdf"
-            onclick="if(typeof gtag==='function'){gtag('event','playbook_download_click',{event_category:'lead_magnet',event_label:'sparkys_playbook_reveal_btn'})}">
+            onclick="if(typeof gtag==='function'){gtag('event','lead_magnet_download',{content_type:'playbook',method:'manual_click',page_location:window.location.pathname})}">
             Download Free PDF →
           </a>
         </div>
@@ -600,11 +600,12 @@ const description = "A free 12-chapter guide covering licensing, EV charging, co
           if (res.ok && data.success) {
             captureBox.style.display = 'none';
             downloadReveal.classList.add('visible');
-            // GA4: track playbook download
+            // GA4: track lead magnet download
             if (typeof window.gtag === 'function') {
-              window.gtag('event', 'playbook_download', {
-                event_category: 'lead_magnet',
-                event_label: 'sparkys_playbook_full',
+              window.gtag('event', 'lead_magnet_download', {
+                content_type: 'playbook',
+                method: 'email_capture',
+                page_location: window.location.pathname
               });
             }
             const link = document.createElement('a');

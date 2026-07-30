@@ -2,6 +2,7 @@
 title: 'ServiceM8 vs TradiePad: Which One Actually Fits Your Workflow?'
 description: 'ServiceM8 vs TradiePad compared side-by-side — pricing, features, compliance tools, and mobile experience. Find out which platform actually fits your Australian trade business workflow.'
 pubDate: 'Apr 27 2026'
+updatedDate: 'Jul 30 2026'
 category: "Software Comparisons"
 heroImage: '/hero-servicem8-vs-tradie-pad.jpg'
 ---

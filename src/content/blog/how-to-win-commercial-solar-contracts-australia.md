@@ -2,6 +2,7 @@
 title: 'How to Win Commercial Solar Contracts: Moving from Residential to Commercial Work in Australia (2026)'
 description: 'A practical guide for Australian solar and electrical businesses on winning commercial solar contracts — the differences from residential, the tendering process, commercial design requirements, and how to position for larger projects.'
 pubDate: 'May 21 2026'
+updatedDate: 'Jul 30 2026'
 category: "Business Growth"
 heroImage: '/hero-commercial-solar-contracts.jpg'
 tags: ['commercial solar', 'solar', 'electrician', 'business growth', 'tendering', 'scaling']

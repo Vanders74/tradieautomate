@@ -2,6 +2,7 @@
 title: 'The Hidden Admin Cost Calculator: What Aussie Tradies Really Lose Each Week'
 description: 'Free calculator reveals exactly how much your trade business loses to admin every week. Includes real benchmarks for electricians, solar, plumbers, HVAC, and landscapers — the numbers are shocking.'
 pubDate: 'May 08 2026'
+updatedDate: 'Jul 30 2026'
 category: "Business Growth"
 heroImage: '/hero-admin-cost-calculator.jpg'
 tags: ['admin costs', 'job management software', 'ROI', 'tradie tools', 'ServiceM8']

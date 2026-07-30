@@ -2,6 +2,7 @@
 title: "Commercial Solar Compliance Australia: CEC, DNSP & Metering"
 description: "Commercial solar compliance for Australian installers — CEC design requirements, AS/NZS 5033, DNSP metering, network approvals, and protection relay obligations."
 pubDate: 'Jun 9 2026'
+updatedDate: 'Jul 30 2026'
 category: "Compliance"
 heroImage: '/hero-commercial-solar-system-compliance-australia.jpg'
 tags: ['commercial solar', 'compliance', 'CEC', 'DNSP', 'AS/NZS 5033', 'metering', 'network approvals', 'solar']

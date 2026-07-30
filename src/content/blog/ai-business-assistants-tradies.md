@@ -2,6 +2,7 @@
 title: 'AI Business Assistants for Tradies: How Solar Installers and Electricians Are Reclaiming 10+ Hours a Week'
 description: 'Discover how AI-powered business assistants like Sophiie AI and ServiceM8 help Australian solar installers and electricians automate admin, handle calls 24/7, and never miss another lead.'
 pubDate: 'May 21 2026'
+updatedDate: 'Jul 30 2026'
 category: "Business Growth"
 heroImage: '/hero-ai-business-assistants-tradies.jpg'
 tags: ['AI automation', 'business tools', 'solar', 'electrician', 'Sophiie AI', 'ServiceM8', 'admin automation']

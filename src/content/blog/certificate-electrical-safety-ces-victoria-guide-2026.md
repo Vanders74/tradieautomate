@@ -1,6 +1,6 @@
 ---
 title: 'Certificate of Electrical Safety Victoria: Avoid ESV Audit Failures in 2026'
-description: "REC licence suspension risk. ESV's 2026 COES fee increases, the 28-day lodgement deadline, and step-by-step ESV Connect guide for Victorian electrical contractors."
+description: "ESV is auditing Victorian electrical contractors in 2026. Miss your CES lodgement and risk licence suspension. Step-by-step ESV Connect guide plus the updated fee structure."
 pubDate: 'May 15 2026'
 updatedDate: 'Jun 27 2026'
 category: "Compliance"

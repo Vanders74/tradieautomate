@@ -1,6 +1,6 @@
 ---
 title: 'ServiceM8 Review 2026: Real Pricing, Features & Who It Actually Suits'
-description: "$29/mo for 15 jobs, $149/mo for 150. ServiceM8 review 2026: best value for small crews, where it falls short at scale, and who should look elsewhere."
+description: "$29/mo ServiceM8 review by Australian tradies — best for 1-5 person crews, where it fails at scale, and when simPRO or AroFlo is the better call."
 updatedDate: 'Jul 20 2026'
 pubDate: 'Apr 03 2026'
 category: "ServiceM8"

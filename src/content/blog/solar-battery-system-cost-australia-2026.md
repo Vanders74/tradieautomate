@@ -2,6 +2,7 @@
 title: "Solar Battery System Cost Australia 2026: Prices & Payback"
 description: "Real solar battery system costs in Australia 2026 — hardware prices by brand, installation costs, state rebates, payback periods, and how to price profitably."
 pubDate: 'Jun 9 2026'
+updatedDate: 'Jul 30 2026'
 category: "Solar & Battery"
 heroImage: '/hero-solar-battery-system-cost-australia-2026.jpg'
 tags: ['solar battery cost', 'battery storage', 'pricing', 'rebates', 'payback period', 'solar installer', 'Australia']

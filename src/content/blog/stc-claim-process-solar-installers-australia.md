@@ -2,6 +2,7 @@
 title: 'STC Claim Process: Step-by-Step Guide for Australian Solar Installers (2026)'
 description: 'How to lodge STC claims as an Australian solar installer — eligibility, calculation, customer declarations, lodgement process, common errors that trigger audits, and how to manage it at scale.'
 pubDate: 'May 13 2026'
+updatedDate: 'Jul 30 2026'
 category: "Solar & Battery"
 heroImage: '/hero-stc-claim-process.jpg'
 tags: ['STC', 'CER', 'compliance', 'solar', 'electrician', 'SRES']

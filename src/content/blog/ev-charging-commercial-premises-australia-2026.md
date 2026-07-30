@@ -2,6 +2,7 @@
 title: "Commercial EV Charging Australia 2026: Compliance & Pricing"
 description: "Australian electricians guide to commercial EV charging — AS/NZS 3000, dynamic load management, DNSP approvals, sub-metering, CPMS, and 2026 pricing."
 pubDate: 'Jun 9 2026'
+updatedDate: 'Jul 30 2026'
 category: "Solar & Battery"
 heroImage: '/hero-ev-charging-commercial-premises-2026.jpg'
 tags: ['EV charging', 'commercial', 'electrician', 'load management', 'compliance', 'AS/NZS 3000', 'DNSP']

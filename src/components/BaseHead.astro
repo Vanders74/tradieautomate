@@ -116,6 +116,21 @@ const websiteSchema = {
       window.gtag = gtag;
       gtag('js', new Date());
       gtag('config', 'G-E75D22F9TW');
+      // ── Conversion events: set up after config ──
+      gtag('set', 'user_properties', { content_group: 'blog' });
+      // Track ServiceM8 affiliate clicks (primary conversion)
+      document.addEventListener('click', function(e) {
+        var el = e.target.closest('a[href]');
+        if (!el) return;
+        var href = el.getAttribute('href');
+        if (href && href.indexOf('servicem8.com') > -1 && href.indexOf('ref=tradieautomate') > -1) {
+          gtag('event', 'affiliate_click', {
+            link_url: href,
+            link_text: (el.textContent || '').trim().slice(0, 80),
+            page_location: window.location.pathname
+          });
+        }
+      }, true);
     }
     if (document.readyState === 'complete') {
       setTimeout(loadGA, 1);

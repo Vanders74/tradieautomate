@@ -2,6 +2,7 @@
 title: "Replacing Gas Hot Water with Heat Pump: Complete Guide Australia"
 description: "Complete guide replacing gas hot water with a heat pump in Australia — cost, circuits, rebates, gas decommissioning process, and solar integration."
 pubDate: 'Jun 9 2026'
+updatedDate: 'Jul 30 2026'
 category: "Solar & Battery"
 heroImage: '/hero-replacing-gas-hot-water-electric-heat-pump.jpg'
 tags: ['heat pump hot water', 'gas replacement', 'electrification', 'rebates', 'solar', 'electrician', 'VEU', 'STCs']

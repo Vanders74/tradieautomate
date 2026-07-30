@@ -2,6 +2,7 @@
 title: 'How to Take Tap-to-Pay Card Payments on Your iPhone (No Extra Hardware Required)'
 description: "Forget the Square reader. Aussie tradies can now accept contactless card payments directly on their iPhone — no extra hardware, no monthly hardware rental. Here's exactly how it works and which apps support it."
 pubDate: 'May 20 2026'
+updatedDate: 'Jul 30 2026'
 category: "Business Growth"
 heroImage: '/hero-tap-to-pay-iphone-tradie.jpg'
 tags: ['payments', 'iPhone', 'tap to pay', 'ServiceM8', 'Stripe', 'tradie tools', 'cash flow']

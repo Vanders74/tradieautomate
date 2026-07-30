@@ -2,6 +2,7 @@
 title: 'ServiceM8 for Plumbers: Run a Tighter Plumbing Business With Less Admin'
 description: 'How Australian plumbers are using ServiceM8 to manage compliance certificates, cut paperwork, speed up invoicing, and scale their business. A practical 2026 guide.'
 pubDate: 'Apr 27 2026'
+updatedDate: 'Jul 30 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-for-plumbers.jpg'
 ---

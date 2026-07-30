@@ -2,6 +2,7 @@
 title: "SA Home Battery Scheme 2026: Eligibility, Loan & Installer Guide"
 description: "SA Home Battery Scheme 2026 — subsidised loan eligibility, approved installer registration, application steps, and how to offer HBS-eligible battery installs."
 pubDate: 'Jun 9 2026'
+updatedDate: 'Jul 30 2026'
 category: "Solar & Battery"
 heroImage: '/hero-sa-solar-battery-rebate-2026.jpg'
 tags: ['South Australia', 'battery rebate', 'Home Battery Scheme', 'solar', 'battery storage', 'state rebate', 'installer']

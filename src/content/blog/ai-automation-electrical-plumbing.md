@@ -2,6 +2,7 @@
 title: 'AI Automation for Electricians and Plumbers: Cut Admin, Win More Jobs, Get Paid Faster'
 description: "Practical AI automation for Australian electricians and plumbers — from instant lead response to compliance documentation workflows. What works, what doesn't, and where to start in 2026."
 pubDate: 'Apr 27 2026'
+updatedDate: 'Jul 30 2026'
 category: "Business Growth"
 heroImage: '/hero-ai-automation-electrical-plumbing.jpg'
 ---

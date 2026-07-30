@@ -504,6 +504,14 @@ const description = 'Free 1-page PDF: MA000025 electrical award rates July 2026.
           if (res.ok && data.success) {
             captureBox.style.display = 'none';
             downloadReveal.classList.add('visible');
+            // GA4: track lead magnet download
+            if (typeof window.gtag === 'function') {
+              window.gtag('event', 'lead_magnet_download', {
+                content_type: 'award_rates_card',
+                method: 'email_capture',
+                page_location: window.location.pathname
+              });
+            }
             const link = document.createElement('a');
             link.href = data.downloadUrl || '/electrical-award-rates-card-2026.pdf';
             link.download = 'MA000025-Award-Rates-Quick-Reference-2026-TradieAutomate.pdf';
