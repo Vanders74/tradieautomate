@@ -21,6 +21,8 @@ faq:
 
 One of the main reasons Australian electrical and solar businesses choose ServiceM8 is its Xero integration — invoices generated in the field sync to Xero automatically, payments flow back, and the two systems stay in sync without manual data entry.
 
+For electrical contractors, this isn't just about convenience. Under the **Fair Work Act 2009**, employers must maintain accurate time and wage records for 7 years. The **Australian Taxation Office** requires GST-compliant invoicing with correct ABNs and tax codes. A properly configured ServiceM8-Xero integration means every invoice is compliant at source — no end-of-month reconciliation panic, no missing records if Fair Work or the ATO audits.
+
 This guide walks through how to set it up, what syncs and what doesn't, and how to get the most from the integration.
 
 ---

@@ -21,6 +21,8 @@ faq:
 
 ServiceM8 and simPRO dominate the job management conversation for Australian electrical contractors. They're both capable platforms — but they're built for different business sizes and workflows.
 
+Before comparing features, the compliance stakes need stating. Under the **Home Building Act 1989**, **NSW Fair Trading** requires electrical contractors to lodge a CCEW within 7 days of completing prescribed work — with penalties of $22,000 for individuals and $110,000 for corporations. The **Clean Energy Regulator (CER)** audits solar installations under the **Renewable Energy (Electricity) Act 2000**, requiring complete documentation demonstrating compliance with **AS/NZS 5033** and **AS/NZS 5139**. Your job management software either supports this workflow — or it becomes your audit failure point.
+
 Choosing the wrong one is an expensive mistake. This comparison is written specifically for electrical contractors: CCEW compliance, electrician-specific workflows, and realistic pricing for trade business sizes.
 
 ---
