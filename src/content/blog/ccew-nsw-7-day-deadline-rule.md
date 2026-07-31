@@ -52,7 +52,7 @@ The general principle: if you touched the wiring or changed what's connected to 
 
 ---
 
-## The 7-Day Rule: What It Actually Means
+## The CCEW 7-Day Rule (2026): When the Clock Starts
 
 This is where most compliance failures happen.
 
@@ -74,7 +74,7 @@ Note: The network distributor may have separate notification requirements (e.g.,
 
 ---
 
-## The Fines for Non-Compliance
+## The Fines for Non-Compliance (2026 Penalties)
 
 The penalties under NSW law for CCEW failures are significant and apply per offence — not per licence.
 
@@ -168,7 +168,7 @@ Read the full overview of [how ServiceM8 supports electrical compliance work](/b
 
 ---
 
-## Building a Systematic CCEW Process
+## Building a Systematic CCEW Process (2026)
 
 The businesses that never have compliance failures aren't necessarily the ones with the most careful people — they're the ones with the best systems. Here's what a systematic CCEW process looks like:
 

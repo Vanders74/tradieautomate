@@ -72,7 +72,7 @@ For solar businesses using subcontractors, this creates an important considerati
 
 ---
 
-## NSW Fair Trading CCEW Requirements & Timeframe
+## NSW Fair Trading CCEW Requirements & Timeframe (2026)
 
 Under NSW requirements, a CCEW must be issued **within 7 days** of completing the notifiable electrical installation work. For a detailed breakdown of exactly when the 7-day clock starts and what triggers the requirement, see our [CCEW 7-day deadline rule guide](/blog/ccew-nsw-7-day-deadline-rule).
 
@@ -181,7 +181,7 @@ For businesses working across both NSW and VIC (or other states), your job manag
 
 ---
 
-## Common CCEW Audit Failures — What Gets Contractors Caught
+## Common CCEW Audit Failures — What Gets Contractors Caught in 2026
 
 SafeWork NSW and NSW Fair Trading receive complaints and conduct audits. These are the failure patterns that consistently appear in compliance outcomes:
 
@@ -213,7 +213,7 @@ While photos aren't part of the CCEW itself, NSW Fair Trading and DNSPs increasi
 
 ---
 
-## Consequences of Non-Compliance
+## Consequences of Non-Compliance (2026 Penalties)
 
 **Fair Trading penalties:** NSW Fair Trading can issue penalty infringement notices for CCEW failures and refer serious cases for prosecution.
 

@@ -55,7 +55,7 @@ The platform you choose needs to make this documentation systematic, enforced, a
 
 ---
 
-## Compliance Documentation: The Critical Difference
+## Compliance Documentation (2026): The Critical Difference
 
 ### ServiceM8
 
@@ -88,7 +88,7 @@ For a solar or electrical business managing CER compliance risk, this gap is sig
 
 ---
 
-## Pricing: Per-Job vs Per-User
+## Pricing (2026): Per-Job vs Per-User
 
 ### ServiceM8
 
@@ -164,7 +164,7 @@ Tradify has client communication features, but the automation depth and integrat
 
 ---
 
-## The Verdict for Solar and Electrical Businesses
+## The Verdict for Solar and Electrical Businesses (2026)
 
 For Australian solar installers and electricians, **ServiceM8 is the clear recommendation**.
 

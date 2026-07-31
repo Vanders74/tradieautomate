@@ -13,7 +13,7 @@ The Clean Energy Regulator (CER) has been tightening enforcement through 2026. I
 
 This checklist covers everything you need to have in order **before, during, and after** every solar installation job.
 
-## Before the Job
+## Before the Job (2026 Pre-Installation)
 
 ### CER Accreditation
 - ✅ Current CEC accreditation (check expiry date — accreditation lapses mid-year for many installers)
@@ -64,7 +64,7 @@ This checklist covers everything you need to have in order **before, during, and
 - ✅ Any variations from the approved design documented and approved by supervising electrician
 - ✅ Conductor test results recorded before energisation
 
-## After Installation
+## After Installation (2026 CER Documentation)
 
 ### Testing & Commissioning
 - ✅ Insulation resistance testing completed (values recorded)
@@ -118,7 +118,7 @@ Compliance in Australia isn't fully uniform — each state and territory has its
 
 When working across multiple states, always verify the current local requirements — they change, and interstate differences catch out even experienced installers.
 
-## Common Audit Failure Points
+## Common Audit Failure Points (2026)
 
 After reviewing CER audit findings data and speaking with installers who've been through the process, the most frequent documentation failures are:
 

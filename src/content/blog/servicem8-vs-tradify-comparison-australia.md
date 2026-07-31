@@ -95,7 +95,7 @@ For a plumber doing straightforward maintenance and repair work, Tradify's simpl
 
 ---
 
-## Features: Where the Gap Opens Up
+## Features: Where the Gap Opens Up (2026)
 
 ### ServiceM8's Differentiators
 
@@ -121,7 +121,7 @@ For solar installers managing CER audit requirements, this isn't a nice-to-have.
 
 ---
 
-## Compliance and Documentation: A Clear Differentiator
+## Compliance and Documentation (2026): A Clear Differentiator
 
 For Australian solar installers and electricians, compliance is the whole game. CER audits, AS/NZS standards, STC documentation — this paperwork must be complete, accurate, and retrievable.
 

@@ -13,7 +13,7 @@ But with that growth has come increased regulatory scrutiny, and **AS/NZS 5139:2
 
 This article breaks down what the standard actually requires, where installers commonly get it wrong, and how to make sure every job you do passes — first time.
 
-## What Is AS/NZS 5139?
+## What Is AS/NZS 5139? (2026 Requirements)
 
 AS/NZS 5139:2019 is the Australian and New Zealand standard for battery energy storage systems (BESS) used with renewable energy generation. It covers design, installation, maintenance, and safety requirements for battery systems connected to solar arrays.
 
@@ -25,7 +25,7 @@ It replaced and significantly updated the previous guidance that applied to batt
 
 The standard is referenced in CER accreditation requirements and is the benchmark used during CEC audits. For a broader compliance picture that covers your full solar install (not just battery), see our [complete solar compliance checklist for Australian installers](/blog/solar-compliance-checklist-2026).
 
-## The 4 Areas Where Installers Most Often Fail
+## The 4 Areas Where Installers Most Often Fail (2026 Audit Data)
 
 After reviewing audit outcomes and installer feedback across the industry, four areas account for the majority of compliance failures:
 
@@ -82,7 +82,7 @@ Roof spaces, garages without ventilation, and enclosed outdoor cabinet installat
 
 **The fix:** During the site assessment, evaluate the installation location's thermal environment across seasons — not just on install day. Document your assessment and the mitigation measures (additional ventilation, shade structures, cabinet selection) you specified.
 
-## What CER Auditors Actually Look For
+## What CER Auditors Actually Look For (2026)
 
 CER audit inspectors are typically experienced electrical professionals. They're not trying to catch installers out — they're verifying that the installation meets the standard.
 

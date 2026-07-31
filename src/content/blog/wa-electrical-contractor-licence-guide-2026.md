@@ -37,7 +37,7 @@ Both are issued by EnergySafety under the *Electricity (Licensing) Regulations 1
 
 ---
 
-## Electrical Contractor's Licence: Requirements
+## Electrical Contractor's Licence: Requirements (2026)
 
 To hold an electrical contractor's licence in WA, you or your nominated Responsible Supervisor must hold a current WA electrical worker's licence. This is the individual doing (or supervising) the work.
 
@@ -84,7 +84,7 @@ If you use [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) for job ma
 
 ---
 
-## Solar Installer Requirements in WA
+## Solar Installer Requirements in WA (2026)
 
 For solar and battery installation businesses operating in WA, licensing obligations layer on top of the base contractor requirements:
 
@@ -108,7 +108,7 @@ For installations in Horizon Power's service territory (regional, remote, and no
 
 ---
 
-## Licence Renewal
+## Licence Renewal (2026)
 
 WA electrical contractor licences are issued for 1–3 year terms. Renewal requirements:
 
