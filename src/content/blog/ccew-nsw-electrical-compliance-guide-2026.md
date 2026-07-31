@@ -25,6 +25,8 @@ In 2025 and 2026, SafeWork NSW and Fair Trading NSW have increased their complia
 
 Getting your CCEW obligations right is not complex, but it is non-negotiable. This guide covers everything you need to know.
 
+> **⚡ Using ServiceM8?** Its custom form builder auto-generates CCEW templates from your job data — [see how it works for NSW electricians](/blog/servicem8-for-electricians).
+
 <div class="compliance-bridge-box" style="border-left:4px solid #f97316;background:#0f172a;padding:20px 24px;border-radius:8px;margin:32px 0;color:#e2e8f0">
   <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
     <div style="flex:1;min-width:220px">

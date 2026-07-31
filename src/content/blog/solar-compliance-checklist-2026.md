@@ -13,6 +13,8 @@ The Clean Energy Regulator (CER) has been tightening enforcement through 2026. I
 
 This checklist covers everything you need to have in order **before, during, and after** every solar installation job.
 
+> **☀️ Solar compliance at scale:** [How ServiceM8 handles CER documentation, STC forms, and AS/NZS checklists](/blog/servicem8-for-solar-businesses) — built into your job workflow.
+
 ## Before the Job (2026 Pre-Installation)
 
 ### CER Accreditation

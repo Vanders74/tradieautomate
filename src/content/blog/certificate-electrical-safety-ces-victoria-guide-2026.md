@@ -25,6 +25,8 @@ Energy Safe Victoria (ESV) has been increasing its compliance activity in 2025 a
 
 This guide covers the CES requirements comprehensively — when it applies, what it must include, how to issue it, and how to build CES compliance into your job workflow so nothing slips through the cracks.
 
+> **⚡ Still doing CES forms manually?** ServiceM8 pre-fills certificates from job data — [how Victorian electricians are automating ESV compliance](/blog/servicem8-for-electricians).
+
 <div class="compliance-bridge-box" style="border-left:4px solid #f97316;background:#0f172a;padding:20px 24px;border-radius:8px;margin:32px 0;color:#e2e8f0">
   <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
     <div style="flex:1;min-width:220px">

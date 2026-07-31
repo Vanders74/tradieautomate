@@ -29,6 +29,8 @@ An electrical fire traced to your installation. A personal injury claim from a h
 
 The right insurance doesn't just protect you financially. It protects your licence, your business, and your ability to keep operating. This guide covers what you need, what it costs in the current market, and the traps to watch for.
 
+> **🛡️ Compliance + insurance together:** [ServiceM8 stores licence docs, insurance certificates, and job records in one place](/blog/servicem8-review-2026) — ready for any audit.
+
 ---
 
 ## The Insurance Policies Every Solar Installer and Electrician Needs

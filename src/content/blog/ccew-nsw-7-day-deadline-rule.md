@@ -21,6 +21,8 @@ The Certificate of Compliance Electrical Work is a legal obligation with real fi
 
 This article cuts through the confusion. Here is exactly when a CCEW is legally required, the 7-day rule that most electricians underestimate, who you have to submit it to, and the compliance gap that field software closes.
 
+> **⚡ Deadline stress?** ServiceM8 auto-generates CCEW forms and sends 7-day reminders — [how NSW electricians are automating compliance](/blog/servicem8-for-electricians).
+
 <div class="compliance-bridge-box" style="border-left:4px solid #f97316;background:#0f172a;padding:20px 24px;border-radius:8px;margin:32px 0;color:#e2e8f0">
   <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
     <div style="flex:1;min-width:220px">

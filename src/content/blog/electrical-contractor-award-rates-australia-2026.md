@@ -14,6 +14,8 @@ The award that covers most electricians working in installation and maintenance 
 
 This guide covers the current rates, the classification structure, key allowances, and what you need to know about employing electricians in a solar or electrical business in 2026.
 
+> **💰 Getting payroll right:** [ServiceM8 syncs job data to Xero — see the full review for electrical contractors](/blog/servicem8-review-2026).
+
 ---
 
 > **Want the rates on one printable page?**  
