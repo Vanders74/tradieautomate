@@ -25,6 +25,20 @@ In 2025 and 2026, SafeWork NSW and Fair Trading NSW have increased their complia
 
 Getting your CCEW obligations right is not complex, but it is non-negotiable. This guide covers everything you need to know.
 
+<div class="compliance-bridge-box" style="border-left:4px solid #f97316;background:#0f172a;padding:20px 24px;border-radius:8px;margin:32px 0;color:#e2e8f0">
+  <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
+    <div style="flex:1;min-width:220px">
+      <strong style="display:block;font-size:1.05rem;margin-bottom:4px">Tired of manually generating CCEW forms after hours?</strong>
+      <p style="margin:0;font-size:0.9rem;color:#94a3b8">
+        ServiceM8 auto-populates CCEW compliance forms directly from site photos on your phone — and reminds you before the 7-day deadline.
+      </p>
+    </div>
+    <a href="https://www.servicem8.com/au/free-trial/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=ccew_bridge" target="_blank" rel="nofollow sponsored" style="background:#f97316;color:#fff;padding:12px 20px;border-radius:8px;font-weight:700;text-decoration:none;white-space:nowrap;flex-shrink:0">
+      Try Free 14 Days →
+    </a>
+  </div>
+</div>
+
 ---
 
 ## What Is the CCEW? (2026 Requirements)
