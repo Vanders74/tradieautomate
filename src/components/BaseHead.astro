@@ -125,7 +125,7 @@ const websiteSchema = {
         var href = el.getAttribute('href');
         // ServiceM8 trial clicks (free trial CTAs — highest intent)
         if (href && href.indexOf('servicem8.com') > -1 && (href.indexOf('free-trial') > -1 || href.indexOf('trial') > -1)) {
-          gtag('event', 'trial_click', {
+          gtag('event', 'trial_click_1', {
             link_url: href,
             link_text: (el.textContent || '').trim().slice(0, 80),
             page_location: window.location.pathname

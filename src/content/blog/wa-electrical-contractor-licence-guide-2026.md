@@ -19,7 +19,7 @@ faq:
 
 Western Australia has its own distinct framework for electrical contractor licensing — one that operates quite differently from the eastern states. If you're running an electrical or solar installation business in WA, your obligations flow through the Department of Energy, Mines, Industry Regulation and Safety (DEMIRS), specifically its **EnergySafety** division.
 
-An **electrical contractor's licence** is a business authorisation issued by EnergySafety under the *Electricity (Licensing) Regulations 1991* that permits a company, partnership, or sole trader to carry out electrical work for profit in Western Australia. It requires a nominated Responsible Supervisor holding a current WA A-grade electrical worker's licence and minimum $5 million public liability insurance.
+An **electrical contractor's licence** is a business authorisation issued by EnergySafety under the *Electricity (Licensing) Regulations 1991* that permits a company, partnership, or sole trader to carry out electrical work for profit in Western Australia. It requires a nominated **Responsible Supervisor** holding a current WA A-grade electrical worker's licence and minimum **$5 million public liability insurance**.
 
 This guide covers the WA licensing requirements for 2026: who needs what, the Contractor Certificate of Electrical Inspection (CCEI) obligation, solar-specific requirements, and how to stay compliant without letting administrative tasks overwhelm your operations.
 
