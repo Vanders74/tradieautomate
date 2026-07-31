@@ -205,7 +205,7 @@ If you're on the fence, try ServiceM8 first. Most solar and electrical businesse
 
 Set up your first job today. No credit card required.
 
-**[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)**
+**[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)**
 
 ---
 

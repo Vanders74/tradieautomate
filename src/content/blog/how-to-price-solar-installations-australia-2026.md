@@ -89,7 +89,7 @@ This is the most consistently underestimated cost category.
 
 At your loaded admin rate ($50–$70/hr equivalent), compliance adds $75–$200+ per job that many installers absorb into their margin without tracking.
 
-If you're using [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) with a compliance workflow built in, this time drops significantly — but it still needs to be recovered in pricing. Never treat compliance admin as a cost of doing business that doesn't count.
+If you're using [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) with a compliance workflow built in, this time drops significantly — but it still needs to be recovered in pricing. Never treat compliance admin as a cost of doing business that doesn't count.
 
 ---
 
@@ -165,7 +165,7 @@ For context, average market pricing ranges for residential solar installation in
 The cheapest quote wins less than 30% of solar jobs in the current market, according to consistent industry surveys. Homeowners buying solar in 2026 are more educated — they've been stung by cheap installers, they read reviews, they check CEC accreditation.
 
 **What actually wins jobs:**
-- Fast quote turnaround (within 24 hours — use [ServiceM8 quote automation](https://www.servicem8.com/?ref=tradieautomate))
+- Fast quote turnaround (within 24 hours — use [ServiceM8 quote automation](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate))
 - Professional quote presentation with clear breakdown
 - Google reviews and social proof
 - CEC accreditation prominently displayed
@@ -178,7 +178,7 @@ Price confidently. Know your numbers. And make it easy for customers to say yes 
 
 ## Track Every Job to Refine Your Pricing
 
-Your pricing model is a hypothesis until you track actual job profitability against estimates. Using [ServiceM8's job costing](https://www.servicem8.com/?ref=tradieautomate) features, you can compare quoted time against actual time, see materials variance, and identify the job types where you consistently over or underestimate.
+Your pricing model is a hypothesis until you track actual job profitability against estimates. Using [ServiceM8's job costing](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) features, you can compare quoted time against actual time, see materials variance, and identify the job types where you consistently over or underestimate.
 
 After 20–30 jobs with accurate tracking, your pricing model will be calibrated to your actual business — not industry averages that may not reflect your cost structure.
 

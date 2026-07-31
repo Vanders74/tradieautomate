@@ -90,7 +90,7 @@ The CCEI is issued by the electrical contractor (your business), signed by the R
 
 Not issuing CCEIs — or issuing them after the fact — is one of the most commonly cited compliance failures for WA solar businesses. Build CCEI generation into your job completion checklist.
 
-If you use [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) for job management, create a job completion checklist that flags CCEI issuance as a required step before a job can be marked complete. This prevents the common scenario of CCEI documentation being forgotten in the rush to move to the next job.
+If you use [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) for job management, create a job completion checklist that flags CCEI issuance as a required step before a job can be marked complete. This prevents the common scenario of CCEI documentation being forgotten in the rush to move to the next job.
 
 ---
 
@@ -185,7 +185,7 @@ WA's licensing framework is manageable for electrical and solar businesses, but 
 
 ---
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — set licence renewal reminders, track CEC and CCEI compliance, and manage jobs from one app.
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — set licence renewal reminders, track CEC and CCEI compliance, and manage jobs from one app.
 
 > **Have a compliance question about WA licensing, CCEIs, or CEC accreditation?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers, no login required.

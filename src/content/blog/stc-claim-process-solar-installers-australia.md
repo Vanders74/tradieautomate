@@ -94,7 +94,7 @@ The customer is declaring:
 
 **Specification mismatches:** If the declaration says 6.6kW but your installation records show 6.5kW (due to a module substitution on the day), there's a discrepancy. Fix it before lodgement, not after.
 
-**Store declarations digitally.** Every signed customer declaration should be scanned and stored against the job record in your job management system. If you're using [ServiceM8](https://www.servicem8.com/?ref=tradieautomate), attach the signed PDF to the job — you'll need it if the CER requests it in an audit, sometimes months or years later.
+**Store declarations digitally.** Every signed customer declaration should be scanned and stored against the job record in your job management system. If you're using [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate), attach the signed PDF to the job — you'll need it if the CER requests it in an audit, sometimes months or years later.
 
 ---
 
@@ -158,7 +158,7 @@ Lodging STCs without a signed customer declaration, or with a declaration dated 
 **5. Lodgement outside 12 months**
 Late lodgement of STCs — beyond 12 months from installation date — means the certificates are invalid. In a busy business without systematic tracking, jobs can slip past this deadline.
 
-**Fix:** Track STC lodgement deadlines in your job management system. [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) allows you to add follow-up tasks against jobs with due dates — use this to flag STC lodgement deadlines 30 days before they expire.
+**Fix:** Track STC lodgement deadlines in your job management system. [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) allows you to add follow-up tasks against jobs with due dates — use this to flag STC lodgement deadlines 30 days before they expire.
 
 ---
 

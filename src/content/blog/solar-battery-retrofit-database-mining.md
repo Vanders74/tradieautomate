@@ -164,7 +164,7 @@ Your retrofit pipeline is sitting in your job history, not in Facebook Ads Manag
 
 The customers who bought solar from you once already trust you. Use that trust before a competitor does.
 
-**[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)**
+**[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)**
 
 Related reading:
 - [The 2026 Solar Playbook](/blog/solar-playbook-2026-battery-upgrade) — the full commercial framework

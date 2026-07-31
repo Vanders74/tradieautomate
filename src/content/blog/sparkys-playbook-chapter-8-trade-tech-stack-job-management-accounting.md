@@ -82,7 +82,7 @@ ServiceM8 is the most widely used job management platform among small-to-medium 
 
 For most electrical businesses, the Growing or Established plan covers what's needed.
 
-**[Try ServiceM8 free for 14 days](https://www.servicem8.com/?ref=tradieautomate)**
+**[Try ServiceM8 free for 14 days](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)**
 
 ### Tradify — The Alternative
 

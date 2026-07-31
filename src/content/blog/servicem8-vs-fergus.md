@@ -189,7 +189,7 @@ The decision ultimately comes down to what you optimise for. Compliance and auto
 
 Start with the 14-day trial for ServiceM8 and evaluate whether the compliance and automation features address your most significant operational problems.
 
-[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

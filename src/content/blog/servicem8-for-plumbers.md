@@ -175,7 +175,7 @@ The consistent feedback from plumbing businesses that have adopted ServiceM8 fal
 The setup process for a plumbing business is straightforward:
 
 **Days 1–3: Core account**
-- Start your free trial at [servicem8.com](https://www.servicem8.com/?ref=tradieautomate)
+- Start your free trial at [servicem8.com](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 - Configure your business profile, service types, and pricing
 - Connect Xero or MYOB
 - Add your plumbers with their licence and certification details
@@ -202,7 +202,7 @@ ServiceM8 is the strongest job management platform available for Australian plum
 
 The 14-day trial is enough to prove it. Build one job template, run three jobs through the system, and see whether it fits. Most plumbing businesses that commit to setup don't go back.
 
-[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

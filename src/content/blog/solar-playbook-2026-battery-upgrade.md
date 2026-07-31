@@ -179,7 +179,7 @@ Legacy unmanaged solar is dead. CSIP-compliant, battery-integrated, HEMS-orchest
 
 The playbook is above. The window is now.
 
-**[Start your ServiceM8 free trial →](https://www.servicem8.com/?ref=tradieautomate)**
+**[Start your ServiceM8 free trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)**
 
 Systemise your install operation before the volume kicks in.
 

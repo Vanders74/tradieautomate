@@ -150,7 +150,7 @@ Most solar installation businesses land on the Growing or Momentum tier. Unlimit
 
 The ROI calculation is usually straightforward: if ServiceM8 saves your business 5 hours per week in admin — a conservative estimate for a business doing 15+ jobs/month — that's 260 hours per year. At an average admin wage of $35/hr, that's $9,100 in direct cost savings before you even count the compliance risk reduction.
 
-[Start your free ServiceM8 trial through TradieAutomate](https://www.servicem8.com/?ref=tradieautomate) — and we'll help you get set up with solar-specific workflows from day one.
+[Start your free ServiceM8 trial through TradieAutomate](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — and we'll help you get set up with solar-specific workflows from day one.
 
 ## ServiceM8 vs. The Alternatives
 
@@ -178,7 +178,7 @@ If you're a sole trader doing a handful of jobs per month, a simpler setup might
 
 ServiceM8 offers a free trial. TradieAutomate helps Australian solar and battery installation businesses get set up, configured for their specific compliance requirements, and trained on the workflows that actually save time.
 
-[Start your free ServiceM8 trial here](https://www.servicem8.com/?ref=tradieautomate).
+[Start your free ServiceM8 trial here](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate).
 
 If you're ready to stop running your business on spreadsheets and WhatsApp groups, we'll help you set up solar-specific job templates, compliance checklists, automated communications, and Xero integration in a single onboarding session.
 
@@ -200,7 +200,7 @@ Yes. ServiceM8's form builder lets you create custom checklists for different jo
 
 **How much does ServiceM8 cost?**
 
-Plans start at $29/month for solo operators and scale to $349/month for larger teams. Unlimited staff logins are available from the Momentum plan ($219/month). A free trial is available — [start yours here](https://www.servicem8.com/?ref=tradieautomate).
+Plans start at $29/month for solo operators and scale to $349/month for larger teams. Unlimited staff logins are available from the Momentum plan ($219/month). A free trial is available — [start yours here](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate).
 
 **Does ServiceM8 integrate with Xero?**
 

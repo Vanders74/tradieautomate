@@ -43,7 +43,7 @@ Xero has become the dominant accounting platform for Australian small and medium
 
 ### Xero + ServiceM8 Integration
 
-This is the key differentiator. The [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) and Xero integration is the deepest and most actively maintained of any accounting platform integration ServiceM8 offers.
+This is the key differentiator. The [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) and Xero integration is the deepest and most actively maintained of any accounting platform integration ServiceM8 offers.
 
 What the integration does:
 - Invoices created and sent in ServiceM8 automatically push to Xero

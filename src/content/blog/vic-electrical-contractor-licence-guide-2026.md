@@ -225,7 +225,7 @@ Victoria's layered compliance framework — ESV registration, CES lodgement, CEC
 
 The most effective approach is to build compliance milestones into your job management workflow. For every solar job: quote approval → job scheduled → DNSP notification sent → installation complete → CES lodged within 28 days → STC claim submitted. Each step should be a trackable task, not a remembered obligation.
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — manage REC renewal reminders, CES lodgement tracking, DNSP notification steps, and compliance deadlines alongside your job workflow.
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — manage REC renewal reminders, CES lodgement tracking, DNSP notification steps, and compliance deadlines alongside your job workflow.
 
 > **Have a compliance question right now?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CES lodgement, ESV audit requirements, AS/NZS 5033 & 5139 compliance, VEU program requirements, and Victorian electrical safety rules — no login required.

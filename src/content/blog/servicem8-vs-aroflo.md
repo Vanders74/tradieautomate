@@ -193,7 +193,7 @@ AroFlo is a serious enterprise platform for larger, more complex field service o
 
 Start with ServiceM8's 14-day free trial. Full features, no credit card, operational within a week.
 
-[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

@@ -248,4 +248,4 @@ The [Solar Quote Profitability Calculator](/tools/solar-quote-calculator) works 
 
 ---
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — manage commercial solar job records, compliance documentation, progress billing, and subcontractor coordination in one platform.
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — manage commercial solar job records, compliance documentation, progress billing, and subcontractor coordination in one platform.

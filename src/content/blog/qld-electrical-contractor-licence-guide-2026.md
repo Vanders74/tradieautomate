@@ -136,7 +136,7 @@ Both the Electrical Safety Queensland contractor licence and the QBCC licence re
 
 **Key risk:** Letting either licence lapse — even for a short period — means you cannot legally carry out or quote electrical or solar work in Queensland. Build your renewal calendar into your job management system so nothing slips.
 
-If you use [ServiceM8](https://www.servicem8.com/?ref=tradieautomate), you can set recurring reminders on licence expiry dates directly in the app — many Queensland contractors use this to track ESQ, QBCC, and CEC renewal dates in one place.
+If you use [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate), you can set recurring reminders on licence expiry dates directly in the app — many Queensland contractors use this to track ESQ, QBCC, and CEC renewal dates in one place.
 
 ---
 
@@ -194,7 +194,7 @@ Staying compliant in Queensland isn't complicated, but it does require active ma
 
 ---
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — manage licence renewal reminders, compliance calendar, and job paperwork in one place.
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — manage licence renewal reminders, compliance calendar, and job paperwork in one place.
 
 > **Have a compliance question right now?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on QBCC obligations, QLeave requirements, CEC accreditation, STC claims, and solar compliance — no login required.

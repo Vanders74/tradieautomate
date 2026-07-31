@@ -230,7 +230,7 @@ Jobber is excellent software, genuinely well-built, and the right choice for spe
 
 No credit card required. Set up your first compliance form and test the full workflow in under an hour.
 
-**[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)**
+**[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)**
 
 ---
 

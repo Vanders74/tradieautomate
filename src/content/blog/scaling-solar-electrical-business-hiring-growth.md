@@ -38,7 +38,7 @@ Before hiring your first additional technician or apprentice, the operational sy
 
 ### 1. Centralised Job Management
 
-Every job in your business needs to be tracked in a single system — not a spreadsheet, not a calendar app, not your memory. A job management platform like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) creates the operational backbone that a second person can plug into.
+Every job in your business needs to be tracked in a single system — not a spreadsheet, not a calendar app, not your memory. A job management platform like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) creates the operational backbone that a second person can plug into.
 
 When you add a technician to ServiceM8:
 - They see their assigned jobs, with all customer details and install specifications, on their phone
@@ -184,7 +184,7 @@ Solar and electrical businesses that successfully double their job volume withou
 
 If you're at the point where you know you need to scale but aren't sure where to start, the answer is almost always the same: build the operational system before adding the headcount.
 
-**[Start your free 14-day ServiceM8 trial](https://www.servicem8.com/?ref=tradieautomate)** — get your compliance workflows built into the platform, configure your automated communication sequences, and then hire from a position of strength rather than chaos.
+**[Start your free 14-day ServiceM8 trial](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)** — get your compliance workflows built into the platform, configure your automated communication sequences, and then hire from a position of strength rather than chaos.
 
 ---
 

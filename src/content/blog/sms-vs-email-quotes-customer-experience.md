@@ -46,7 +46,7 @@ Email is not dead. For solar and battery installation quotes, it has genuine adv
 
 **Easy forwarding and sharing.** Homeowners often need to share a solar quote with their partner, a family member, or their accountant. Email makes this easy. An SMS with a quote link is harder to forward and review collaboratively.
 
-**Integration with quote software.** Most job management and quoting platforms (including [ServiceM8](https://www.servicem8.com/?ref=tradieautomate)) send quotes by email by default. The email arrives with a "Accept Quote" or "Approve Proposal" button, and the signed acceptance is logged automatically against the job.
+**Integration with quote software.** Most job management and quoting platforms (including [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)) send quotes by email by default. The email arrives with a "Accept Quote" or "Approve Proposal" button, and the signed acceptance is logged automatically against the job.
 
 ### SMS: Strengths for Quote Delivery
 
@@ -90,7 +90,7 @@ The single biggest determinant of solar quote conversion rate is how quickly you
 
 Research in the home services sector consistently shows that businesses that send quotes within 24 hours convert at significantly higher rates than those who take 3–5 days. The homeowner's intent is highest immediately after the conversation. Every day that passes, that intent fades and competing options multiply.
 
-With a job management platform like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate), you can generate and send a quote from the job record on your phone within minutes of leaving the site. You don't need to be back at a computer. You don't need to wait for the office to process the information.
+With a job management platform like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate), you can generate and send a quote from the job record on your phone within minutes of leaving the site. You don't need to be back at a computer. You don't need to wait for the office to process the information.
 
 For more on how digital job management enables faster quoting, see our [guide to operational efficiency for solar businesses](/blog/paperless-trade-roadmap-operational-efficiency).
 
@@ -128,7 +128,7 @@ For Australian solar installers and electricians, the optimal quote strategy is:
 
 **SMS for follow-up touchpoints.** Day 3 SMS if no response. Day 7 email with a case study or testimonial. Day 10 SMS checking if they have questions.
 
-**Configure this in your job management system.** The best solar and electrical businesses aren't manually managing this sequence. [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) handles automated quote follow-up — you set the sequence once, and it runs for every quote, every time, without a team member doing anything.
+**Configure this in your job management system.** The best solar and electrical businesses aren't manually managing this sequence. [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) handles automated quote follow-up — you set the sequence once, and it runs for every quote, every time, without a team member doing anything.
 
 ---
 
@@ -150,7 +150,7 @@ SMS gets opened. Email gets read in detail. The businesses converting the most s
 
 But the channel matters less than the speed, the follow-up discipline, and the social proof you bring to the table.
 
-**[Start your free ServiceM8 trial](https://www.servicem8.com/?ref=tradieautomate)** — set up quote automation, configure your follow-up sequence, and start collecting Google reviews automatically from completed jobs.
+**[Start your free ServiceM8 trial](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)** — set up quote automation, configure your follow-up sequence, and start collecting Google reviews automatically from completed jobs.
 
 ---
 

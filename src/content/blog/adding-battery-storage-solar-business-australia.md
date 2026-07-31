@@ -167,7 +167,7 @@ Customers who bought from you before already trust you. This campaign costs almo
 
 ### Tracking battery jobs separately
 
-In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate), set up battery installation as a distinct job type with its own compliance workflow — AS/NZS 5139 checklist, commissioning record, battery-specific CES details, and clearance photos. This ensures every battery job is documented to the same standard. See our guide to [digital job management for solar installers](/blog/digital-job-management-solar-installers) for the full workflow setup.
+In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate), set up battery installation as a distinct job type with its own compliance workflow — AS/NZS 5139 checklist, commissioning record, battery-specific CES details, and clearance photos. This ensures every battery job is documented to the same standard. See our guide to [digital job management for solar installers](/blog/digital-job-management-solar-installers) for the full workflow setup.
 
 ---
 

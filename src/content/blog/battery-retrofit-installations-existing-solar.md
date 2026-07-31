@@ -167,7 +167,7 @@ Your existing solar customer base is your most valuable source of battery retrof
 
 This campaign costs almost nothing to run and can generate strong lead flow during a slow installation period.
 
-You can automate this follow-up in [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) by tagging past solar jobs and creating follow-up tasks timed from the installation date. Set a 3-year follow-up task on every new solar install job — when that task fires, it's your prompt to reach out with a battery offer.
+You can automate this follow-up in [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) by tagging past solar jobs and creating follow-up tasks timed from the installation date. Set a 3-year follow-up task on every new solar install job — when that task fires, it's your prompt to reach out with a battery offer.
 
 ---
 

@@ -156,7 +156,7 @@ Tradie automation doesn't require an all-at-once overhaul. Here's a practical st
 
 **Week 1–2: Get your job management in order**
 
-If you're still using spreadsheets, paper, or a generic CRM, the first step is implementing a purpose-built trade platform. [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) is the right starting point for most Australian solar and electrical businesses. The 14-day free trial is enough time to see immediate value.
+If you're still using spreadsheets, paper, or a generic CRM, the first step is implementing a purpose-built trade platform. [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) is the right starting point for most Australian solar and electrical businesses. The 14-day free trial is enough time to see immediate value.
 
 **Week 3–4: Automate customer communications**
 
@@ -172,7 +172,7 @@ Once your core workflows are automated, explore AI tools for quoting, proposal w
 
 The businesses winning in the Australian trades market in 2026 are those that treat technology as a competitive advantage — not a cost centre. The tools are here. The question is whether you'll implement them before your competitors do.
 
-[Start with ServiceM8 — 14-day free trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start with ServiceM8 — 14-day free trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 
@@ -192,7 +192,7 @@ The entry point is low. ServiceM8's Starter plan (which includes the bulk of the
 
 ### Which ServiceM8 plan do I need to access automation features?
 
-Most automation features — including SMS reminders, automated follow-ups, and digital forms — are available from the Starter plan upward. The Lite plan (15 jobs/month) has more limited automation. For compliance-heavy businesses, the Growing or Premium plan is recommended. [Compare plans and start your trial](https://www.servicem8.com/?ref=tradieautomate).
+Most automation features — including SMS reminders, automated follow-ups, and digital forms — are available from the Starter plan upward. The Lite plan (15 jobs/month) has more limited automation. For compliance-heavy businesses, the Growing or Premium plan is recommended. [Compare plans and start your trial](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate).
 
 ### How do I use AI for compliance documentation specifically?
 

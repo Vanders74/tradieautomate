@@ -174,7 +174,7 @@ For solar and electrical contractors looking to build a commercial EV charging p
 
 2. **Choose your CPMS partner.** The charge point management system is often the commercial customer's key concern — uptime, reporting, billing, and support. Align with one or two reputable CPMS providers and become a competent installer of their systems.
 
-3. **Build a commercial estimating template.** Commercial EV charging quotes are complex. A structured estimating template that covers all cost components prevents margin leakage. Track your jobs using [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) so job costs, time, and compliance documentation are all in one place.
+3. **Build a commercial estimating template.** Commercial EV charging quotes are complex. A structured estimating template that covers all cost components prevents margin leakage. Track your jobs using [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) so job costs, time, and compliance documentation are all in one place.
 
 4. **Start with 4–10 charger jobs.** Develop your workflow and commissioning competency on manageable commercial jobs before tendering for 50+ charger sites.
 
@@ -190,7 +190,7 @@ This is a genuine integrated offering that larger commercial customers are activ
 
 ---
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — track EV charging project milestones, DNSP applications, CPMS commissioning steps, and certificate lodgement in one place.
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — track EV charging project milestones, DNSP applications, CPMS commissioning steps, and certificate lodgement in one place.
 
 > **Got a compliance question on commercial EV charging, load management, or network connection requirements?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on AS/NZS 3000, CCEW, CES, and more — no login required.

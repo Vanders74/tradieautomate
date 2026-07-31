@@ -190,7 +190,7 @@ This is a genuine competitive differentiator against non-accredited competitors 
 
 ### Documentation workflows
 
-The biggest time cost in VEU participation is evidence management. Set up a consistent photo capture and documentation workflow for every eligible job — the same way you'd set up a CCEW or Certificate of Electrical Safety workflow. Using a job management platform like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) lets technicians capture evidence photos directly against the job record on-site, with timestamp and geolocation data that satisfies most ESC evidence requirements. See our [digital job management guide for solar installers](/blog/digital-job-management-solar-installers) for the broader compliance documentation workflow.
+The biggest time cost in VEU participation is evidence management. Set up a consistent photo capture and documentation workflow for every eligible job — the same way you'd set up a CCEW or Certificate of Electrical Safety workflow. Using a job management platform like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) lets technicians capture evidence photos directly against the job record on-site, with timestamp and geolocation data that satisfies most ESC evidence requirements. See our [digital job management guide for solar installers](/blog/digital-job-management-solar-installers) for the broader compliance documentation workflow.
 
 ### Volume requirements for direct accreditation
 
@@ -252,4 +252,4 @@ No — VEU covers both residential and commercial activities. Commercial lightin
 
 ---
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — manage VEU evidence capture, job records, and compliance photos in one platform.
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — manage VEU evidence capture, job records, and compliance photos in one platform.

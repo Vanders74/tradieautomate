@@ -100,7 +100,7 @@ Registration requirements include:
 
 Register via the SA Government's Home Battery Scheme installer portal. Processing time varies — allow at least 2–3 weeks before you need to quote HBS-eligible jobs.
 
-Build HBS registration renewal into your compliance calendar alongside your CEC accreditation renewal. If you're using [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) for job management, create a recurring reminder for both — they're easy to miss in a busy pipeline.
+Build HBS registration renewal into your compliance calendar alongside your CEC accreditation renewal. If you're using [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) for job management, create a recurring reminder for both — they're easy to miss in a busy pipeline.
 
 ---
 
@@ -172,7 +172,7 @@ Both can apply to the same installation. Make sure your quotes and customer comm
 
 ---
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — track HBS jobs, quotes, installer registration status, and compliance docs in one system.
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — track HBS jobs, quotes, installer registration status, and compliance docs in one system.
 
 > **Got questions on SA battery rebate eligibility, CEC accreditation, or AS/NZS 5139 compliance?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers, no login required.

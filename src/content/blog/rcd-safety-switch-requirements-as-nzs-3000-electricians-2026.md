@@ -181,7 +181,7 @@ Maintaining RCD test records, linking them to job files, and retrieving them for
 - Set automatic reminders for periodic RCD testing on recurring maintenance contracts
 - Build CCEW and Form 4 compliance into your standard job close-out workflow
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

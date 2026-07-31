@@ -163,7 +163,7 @@ Commercial solar compliance involves multiple documentation streams running in p
 - AS/NZS 5033 design compliance
 - State-specific electrical compliance certificates
 
-Using a systematic job management approach is essential. Track each compliance step as a milestone in your project management workflow. [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) with custom job templates for commercial solar allows you to track DNSP approval status, metering coordination, and compliance documentation against each job without relying on spreadsheets or memory.
+Using a systematic job management approach is essential. Track each compliance step as a milestone in your project management workflow. [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) with custom job templates for commercial solar allows you to track DNSP approval status, metering coordination, and compliance documentation against each job without relying on spreadsheets or memory.
 
 See the [digital job management guide for solar installers](/blog/digital-job-management-solar-installers) for how to build these workflows in practice.
 
@@ -183,7 +183,7 @@ See the [digital job management guide for solar installers](/blog/digital-job-ma
 
 ---
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate) — manage commercial solar project milestones, DNSP application tracking, and compliance documentation from one platform.
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — manage commercial solar project milestones, DNSP application tracking, and compliance documentation from one platform.
 
 > **Have a compliance question on commercial solar design, DNSP approvals, or CEC accreditation requirements?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers, no login required.

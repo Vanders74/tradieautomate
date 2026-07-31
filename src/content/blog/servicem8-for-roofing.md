@@ -147,14 +147,14 @@ Roofing invoicing involves some complexity that ServiceM8 handles well:
 
 For a roofing business handling 30–60 jobs per month across 2 crews, the Starter or Growing plan handles the volume. The per-job pricing model means adding crew members doesn't add to your monthly software cost.
 
-[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 
 ## Getting Started for Roofing Businesses
 
 **Week 1: Foundation setup**
-- Start your free trial at [servicem8.com](https://www.servicem8.com/?ref=tradieautomate)
+- Start your free trial at [servicem8.com](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 - Configure service types (storm damage inspection, tile replacement, re-roof, gutter replacement, insurance repair, maintenance)
 - Build labour rate schedule and common repair price items
 - Connect Xero or MYOB
@@ -180,7 +180,7 @@ ServiceM8 gives Australian roofing businesses the operational infrastructure the
 
 The 14-day free trial is full-feature, no credit card required.
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

@@ -312,7 +312,7 @@ The groundwork for a high-value sale is laid well in advance. If you start prepa
 - Normalise salaries if you're paying yourself above or below market
 - Get a clear picture of true EBIT that you can present to buyers
 
-[A well-run ServiceM8 business is fundamentally more sellable. Start your trial →](https://www.servicem8.com/?ref=tradieautomate)
+[A well-run ServiceM8 business is fundamentally more sellable. Start your trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

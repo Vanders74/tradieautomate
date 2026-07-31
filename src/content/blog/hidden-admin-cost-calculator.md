@@ -245,7 +245,7 @@ Fixing the admin leak doesn't require hiring staff. Moving to cloud-based job ma
 
 If your current admin overhead is $60,000/year and software cuts it by 60%, you're saving **$36,000 annually**. The software costs $1,548/year. Net saving: **~$34,452/year.**
 
-**[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)**
+**[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)**
 
 Sign up through this link and receive our pre-built Australian trade compliance checklists — NSW CCEW, VIC CES, and AS/NZS 5139 battery storage — for free.
 

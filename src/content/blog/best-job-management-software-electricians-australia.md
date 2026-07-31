@@ -48,7 +48,7 @@ Generic business software doesn't cut it for electrical contractors. Here's what
 
 ServiceM8 was built in Australia and has become the dominant platform for small-to-mid-sized trade businesses, including electricians. Its combination of compliance tooling, mobile-first design, and job-based (not per-user) pricing makes it the strongest overall package for most Australian electrical contractors.
 
-[Start a free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start a free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 
@@ -186,7 +186,7 @@ This state-aware compliance management is one of the areas where ServiceM8 genui
 If you've decided ServiceM8 is the right platform for your electrical business, here's a practical getting-started path:
 
 **Step 1 (Day 1–3): Set up your core account**
-- Start your free 14-day trial at [servicem8.com](https://www.servicem8.com/?ref=tradieautomate)
+- Start your free 14-day trial at [servicem8.com](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 - Configure your business profile, service types, and pricing
 - Set up your Xero or MYOB integration
 - Add your technicians and staff
@@ -224,7 +224,7 @@ Consider **Tradify** if you're a sole trader just starting out and want the simp
 
 Whatever platform you choose, the most important thing is to choose one and use it consistently. The businesses that win in the Australian electrical market over the next five years will be the ones running tight digital operations — not the ones still on spreadsheets.
 
-[Start your free ServiceM8 trial — no credit card required →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free ServiceM8 trial — no credit card required →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 

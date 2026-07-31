@@ -133,14 +133,14 @@ ServiceM8 is priced per-job, not per-user:
 
 For a landscaping business with 3 crews doing 60 jobs per month (including maintenance), the Starter plan (~$65) easily handles the volume. Crew members can all access the system without additional per-user costs.
 
-[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
+[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 
 ## Getting Started for Landscaping Businesses
 
 **Week 1:**
-- Start your free trial at [servicem8.com](https://www.servicem8.com/?ref=tradieautomate)
+- Start your free trial at [servicem8.com](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 - Create service types (lawn maintenance, garden maintenance, design and construct, irrigation, tree work)
 - Set up your labour rates and a standard materials/plants price list
 - Connect Xero or MYOB

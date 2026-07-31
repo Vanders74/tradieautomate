@@ -159,7 +159,7 @@ EV charger installations are clean, straightforward, and profitable — and they
 
 ### Track EV Installations Properly
 
-Use [ServiceM8](https://www.servicem8.com/?ref=tradieautomate) to create a specific job type for EV charger installations with its own workflow — site assessment checklist, switchboard assessment, charger compatibility check, cable sizing calculation, compliance certificate follow-up. This ensures every job is done to the same standard, the paperwork is complete, and your certificate is issued and stored correctly.
+Use [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) to create a specific job type for EV charger installations with its own workflow — site assessment checklist, switchboard assessment, charger compatibility check, cable sizing calculation, compliance certificate follow-up. This ensures every job is done to the same standard, the paperwork is complete, and your certificate is issued and stored correctly.
 
 See our [guide to digital job management for solar installers](/blog/digital-job-management-solar-installers) for how to set up these workflows efficiently.
 
