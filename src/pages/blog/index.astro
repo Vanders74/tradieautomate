@@ -233,14 +233,22 @@ const CATEGORIES = ['All', 'ServiceM8', 'Solar & Battery', 'Compliance', 'Busine
 			<section>
 				<ul id="post-grid">
 					{
-						posts.map((post) => (
+						posts.map((post, idx) => (
 							<li data-category={post.data.category ?? 'Uncategorised'}>
 								<a href={`/blog/${post.id}/`}>
 									{post.data.heroImage ? (
-										<img
-											src={post.data.heroImage}
-											alt={post.data.title}
-										/>
+										<picture>
+											<source srcset={post.data.heroImage.replace(/\.(jpg|jpeg|png)$/i, '.webp')} type="image/webp" />
+											<img
+												src={post.data.heroImage}
+												alt={post.data.title}
+												loading={idx === 0 ? 'eager' : 'lazy'}
+												fetchpriority={idx === 0 ? 'high' : 'auto'}
+												decoding={idx === 0 ? 'sync' : 'async'}
+												width="662"
+												height="441"
+											/>
+										</picture>
 									) : (
 										<div class="no-image-card">
 											<p class="title">{post.data.title}</p>
