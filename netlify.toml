@@ -30,18 +30,3 @@
   to = "/blog/best-job-management-software-electricians-australia/"
   status = 301
   force = true
-
-# Global trailing-slash enforcement for all blog posts
-# Prevents duplicate indexing: /blog/slug and /blog/slug/ treated as separate pages
-[[redirects]]
-  from = "/blog/:slug"
-  to = "/blog/:slug/"
-  status = 301
-  force = true
-
-# Also apply to guides
-[[redirects]]
-  from = "/guides/:slug"
-  to = "/guides/:slug/"
-  status = 301
-  force = true
