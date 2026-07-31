@@ -54,7 +54,7 @@ The general principle: if you touched the wiring or changed what's connected to 
 
 ## The CCEW 7-Day Rule (2026): When the Clock Starts
 
-This is where most compliance failures happen.
+The CCEW 7-day rule is where most compliance failures happen.
 
 Under the NSW Electricity (Consumer Safety) Regulation, a CCEW must be issued **within 7 days of the electrical work being completed** — or, in the case of work involving a distributor connection, **within 7 days of testing and inspection completion**.
 
@@ -80,6 +80,7 @@ The penalties under NSW law for CCEW failures are significant and apply per offe
 
 **Individual electrician (unlicensed or improperly licensed work):** Up to $22,000
 **Licensed contractor (failure to issue CCEW):** Up to $22,000 per offence, plus the risk of licence suspension
+**Corporation (failure to issue CCEW):** Up to $110,000 per offence
 **Failure to provide customer copy:** Separate offence — additional penalties
 
 In practice, Fair Trading NSW actively investigates complaints, and electrical work disputes between homeowners and contractors frequently trigger CCEW audits. If the CCEW wasn't issued, wasn't issued on time, or doesn't accurately reflect the work performed, the contractor carries the liability.

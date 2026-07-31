@@ -17,6 +17,7 @@ This checklist covers everything you need to have in order **before, during, and
 
 ### CER Accreditation
 - ✅ Current CEC accreditation (check expiry date — accreditation lapses mid-year for many installers)
+- ✅ CEC accreditation renewal fee paid — approximately **$770/year** as of 2026. A lapsed accreditation costs far more: lost STC revenue of ~$35–$40 per system, which for a business installing 10+ systems monthly means $4,200–$5,600 in forgone revenue per month
 - ✅ Correct endorsement categories for the work being performed (solar PV, battery storage, or both)
 - ✅ Professional indemnity insurance up to date and valid for the installation type
 - ✅ Electrical licence valid in your state/territory (check for any state-specific endorsements required)
@@ -83,6 +84,8 @@ This checklist covers everything you need to have in order **before, during, and
 - ✅ Metering order lodged with electricity retailer (if new metering required)
 - ✅ Customer handover pack provided (system manual, warranty documents, monitoring app guide, emergency isolation guide)
 
+**Audit preparation cost:** A CER audit that finds documentation gaps costs more than the audit itself. Accredited installers who fail a CER audit face accreditation suspension, which means lost STC revenue of approximately **$35–$40 per system** — and for a mid-sized solar business installing 50+ systems per year, that's $1,750–$2,000 in lost STC income per month of suspension. The 2026 CER audit cycle has been the most active on record, with over 900 installer audits projected for the calendar year.
+
 ### STC (Small-scale Technology Certificate) Documentation
 - ✅ System details on STC claim match installed equipment exactly (brand, model, serial numbers, rated output)
 - ✅ Installation date recorded accurately — STCs must be claimed within 12 months of installation
@@ -127,6 +130,8 @@ After reviewing CER audit findings data and speaking with installers who've been
 3. **Missing compliance checklists** — jobs where no formal pre/during/post checklist was completed and stored
 4. **Expired accreditation** — installers whose CEC accreditation lapsed and wasn't renewed before the install date
 5. **Battery jobs missing AS/NZS 5139 documentation** — the additional battery requirements are often overlooked when photovoltaic compliance is otherwise solid
+
+**Penalty reality:** CER audit failures in 2026 carry escalating consequences. A first-time minor documentation failure typically results in a rectification notice and compliance monitoring — but a second failure or a serious breach (such as claiming STCs for a non-compliant installation) can trigger accreditation suspension. The financial impact is immediate: lost STC revenue of ~$35–$40 per system, plus the cost of rectifying any non-compliant installations at the installer's own expense. For a business installing 30 systems per month, a 60-day suspension represents approximately $2,100–$2,400 in lost STC income alone — not counting the reputational damage and lost new business during the suspension period.
 
 The best protection against all five is a [digital job management platform](/blog/digital-job-management-solar-installers) that enforces checklist completion before job close-off, timestamps every photo, and stores all documentation against the job record permanently.
 

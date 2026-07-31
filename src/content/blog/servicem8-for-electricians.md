@@ -24,6 +24,8 @@ Most electricians manage this across a mix of paper forms, WhatsApp, and a sprea
 
 **ServiceM8 is how smart Australian electrical businesses are fixing this problem.**
 
+ServiceM8 is a cloud-based job management platform built in Australia, designed for trade and field service businesses. For electricians, it replaces paper forms with digital compliance checklists, auto-generates invoices from completed jobs, and attaches compliance documentation to every job record — turning audit preparation from a multi-day scramble into a 10-minute export.
+
 ---
 
 ## What Is ServiceM8?

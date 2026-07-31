@@ -50,6 +50,8 @@ To hold an electrical contractor's licence in WA, you or your nominated Responsi
 | Business registration | ABN and relevant business entity registration |
 | Licence term | Can be granted for 1–3 year terms |
 
+**Application fee:** The WA electrical contractor licence application fee is approximately **$384 for a 3-year term** as of 2026. Check the current fee schedule on the EnergySafety (DEMIRS) website — fees are updated annually and may vary with licence term length. Processing typically takes 4–6 weeks from submission of a complete application.
+
 ### Responsible Supervisor obligations
 
 The Responsible Supervisor (RS) is the licensed person who is genuinely responsible for supervising the electrical work carried out by the business. This is not a paper role — EnergySafety audits supervisory arrangements and has pursued businesses where the RS is not genuinely involved in the work.
@@ -93,6 +95,8 @@ Clean Energy Council accreditation is required to design and install solar PV sy
 
 CEC accreditation must be renewed annually. Lapses mean you cannot install STC-eligible systems — which means most residential installs.
 
+**CEC accreditation renewal cost:** CEC accreditation renewal costs approximately **$770 per year** as of 2026. The cost of letting it lapse is far higher: without accreditation, you cannot claim STCs for any installation, which means losing approximately **$35–$40 per system** in STC revenue. For a WA solar business installing 15–20 systems per month, a single month of lapsed accreditation represents $525–$800 in lost STC income alone.
+
 ### Western Power Connection Process
 For grid-tied solar in the Western Power network area (most of Perth metro and southwest WA), network connection approval is required before installation. Key steps:
 
@@ -115,6 +119,8 @@ WA electrical contractor licences are issued for 1–3 year terms. Renewal requi
 - Confirm Responsible Supervisor details are current
 - Confirm insurance remains in place (minimum $5M public liability)
 - Pay renewal fee (confirm current fee on EnergySafety website)
+
+**Renewal costs in 2026:** The annual renewal fee is approximately **$128/year** (or approximately $384 for the full 3-year term). Late renewal — where the licence has already lapsed — incurs an additional late fee of typically **$50–$100** and may require a new application rather than a simple renewal. Operating on a lapsed licence is unlicensed electrical contracting, which carries penalties and potential insurance invalidation for any work performed during the lapse period.
 
 **Don't let it lapse.** A lapsed contractor's licence means no legal authority to carry out electrical work for profit. Any work done during a lapse period is unlicensed — with significant penalty exposure.
 

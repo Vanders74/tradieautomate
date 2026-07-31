@@ -109,6 +109,8 @@ For solar installers managing CER audit requirements, this isn't a nice-to-have.
 
 **Sophisticated scheduling:** The dispatch board handles multiple technicians, geographic routing, and job priority management well.
 
+**Switching platforms — what it actually costs in 2026:** Migrating from one job management platform to another involves more than subscription fees. For a typical electrical or solar business with 3–10 staff, the real switching cost ranges from **$1,200–$3,500** in data migration, template recreation, staff retraining time, and workflow disruption during the transition period. ServiceM8 offers migration support, and most businesses complete the transition within 5–10 business days. Tradify's simpler data model means importing records is faster, but exporting historical compliance documentation is more manual.
+
 ### Tradify's Differentiators
 
 **Simplicity:** Tradify's workflow has fewer steps and less configuration. For a sole trader or very small team doing repetitive, simple jobs, this is genuinely valuable.
@@ -136,6 +138,8 @@ This is why solar and electrical businesses disproportionately use ServiceM8 —
 Tradify supports file attachments and basic job notes, but it doesn't have the custom forms capability that makes ServiceM8 so useful for compliance-heavy trades. You can attach photos and documents, but there's no way to build enforced compliance checklists or structured form capture.
 
 For a plumber doing drainage maintenance, this is fine. For a solar installer who needs to demonstrate to the CER that every install was documented to AS/NZS 5033 and 5139 standards, it's a gap.
+
+**The cost of documentation failure in 2026:** If a CER audit finds insufficient installation documentation, the consequences cascade quickly. A failed audit can trigger CEC accreditation suspension, costing approximately **$35–$40 per system** in lost STC revenue. For a solar business installing 20+ systems monthly, that's $700–$800 in lost STC income per month — and the suspension typically lasts 30–90 days while rectification is completed. By 2026, CER audit activity has reached record levels, making documentation compliance a balance-sheet issue, not just a paperwork checkbox.
 
 **Verdict:** ServiceM8 wins clearly on compliance documentation — it's not close.
 

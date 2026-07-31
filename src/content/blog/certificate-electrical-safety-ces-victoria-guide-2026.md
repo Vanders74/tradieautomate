@@ -124,7 +124,7 @@ The network notification must be made using the relevant DNSP's process. In Vict
 
 ---
 
-## How to Issue a CES in Victoria
+## How to Issue a CES in Victoria (2026 ESV Connect Fees)
 
 Energy Safe Victoria has an online portal — **ESV Connect** — where CES must be lodged. The process:
 
@@ -136,6 +136,8 @@ Energy Safe Victoria has an online portal — **ESV Connect** — where CES must
 6. Submit — the certificate is lodged electronically
 
 **Keep a copy.** After lodging, download and store a copy against the job record. If ESV or a property owner queries the certificate later, you need to be able to retrieve it immediately.
+
+**CES lodgement fees in 2026:** ESV Connect charges a lodgement fee of approximately **$7–$10 per CES** submitted (check the current ESV fee schedule — fees are updated annually). Late submission — lodging a CES after the 28-day deadline — incurs an additional penalty of approximately **$150–$300 per certificate** under the Electricity Safety Act 1998. For a business issuing 50+ certificates per month, late lodgement penalties can quickly exceed $1,500 in a single month if compliance processes slip.
 
 ---
 
@@ -154,9 +156,11 @@ For businesses doing 20+ installations per month, this kind of system discipline
 
 ---
 
-## Common CES Audit Failures — What Triggers ESV Action
+## Common CES Audit Failures — What Triggers ESV Action in 2026
 
 Energy Safe Victoria has intensified audit activity in recent years, particularly targeting solar installations. These are the failure patterns that most commonly result in ESV compliance action:
+
+**Audit penalty exposure in 2026:** ESV infringement notices for CES failures carry fines of up to approximately **$2,000–$5,000 per breach** for individuals, with higher penalties for corporations. For a contractor with multiple CES failures — particularly in the solar sector where ESV has focused enforcement — the total penalty exposure from a single audit sweep can reach **$15,000–$30,000**. Beyond fines, a suspended REC licence costs a typical electrical contracting business **$15,000–$25,000** in lost revenue per month of suspension — and the 2026 audit cycle has been the most active in ESV's history.
 
 **1. Missing or late CES lodgement**
 The most common failure — and the most easily avoided. The 28-day window runs from job completion, not from invoice, customer sign-off, or grid connection approval. Set a task in your job management system at the moment of completion. Contractors who rely on memory or end-of-month batching consistently miss deadlines when jobs cluster around month-end.
@@ -184,12 +188,12 @@ ESV Connect records the lodgement but you must also retain your own copy and pro
 
 ---
 
-## Consequences of Non-Compliance
+## Consequences of Non-Compliance (2026 Penalties)
 
 Failure to issue a required CES, or issuing an incorrect CES, carries serious consequences:
 
-- **Infringement notices:** ESV can issue infringement notices for compliance failures
-- **Licence suspension:** Repeated or serious CES failures can result in REC licence suspension
+- **Infringement notices:** ESV can issue infringement notices for compliance failures — fines of up to approximately **$2,000–$5,000 per breach** for individuals, with higher maximums for corporations under the Electricity Safety Act 1998
+- **Licence suspension:** Repeated or serious CES failures can result in REC licence suspension. A suspended licence costs a typical electrical contracting business **$15,000–$25,000** per month in lost revenue — and suspension periods typically range from 30–90 days in 2026
 - **Insurance implications:** Work not covered by a CES may create gaps in your professional indemnity coverage
 - **Homeowner liability:** If a non-notified or incorrectly certified installation causes a fire or injury, the liability exposure for the contractor is severe
 

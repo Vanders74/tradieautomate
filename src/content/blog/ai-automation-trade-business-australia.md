@@ -26,9 +26,9 @@ This guide cuts through the noise and shows you exactly where AI automation is m
 
 ## Why Tradies Are Turning to AI Automation (2026)
 
-The Australian trades industry is experiencing a staffing crunch. Skilled labour is expensive and hard to find. Fuel, materials, and insurance costs are up. And customers now expect real-time communication, fast quotes, and digital documentation as standard.
+AI automation is reshaping the Australian trades industry in 2026 because of a persistent staffing crunch. Skilled labour is expensive and hard to find. Fuel, materials, and insurance costs are up. And customers now expect real-time communication, fast quotes, and digital documentation as standard.
 
-AI automation doesn't replace tradies — it replaces the repetitive admin work that sits around the actual trade work. For a solar installation business doing 20–40 jobs a month, that admin can easily consume 15–20 hours a week across the team.
+AI automation doesn't replace tradies — it replaces the repetitive admin work that sits around the actual trade work. For a solar installation business doing 20–40 jobs a month, that admin can easily consume 15–20 hours a week across the team, costing $20,000–$40,000 a year in lost billable time at standard charge-out rates.
 
 > 📊 **Find out exactly what that's costing you.** Use the free [Tradie Admin Cost Calculator](/tools/admin-cost-calculator) to get your personalised annual admin leak estimate — most businesses are shocked by the number.
 
@@ -38,7 +38,7 @@ Here's where the time goes — and where AI is winning it back.
 
 ## Job Scheduling & Dispatch Automation
 
-Manual scheduling is one of the biggest time sinks in trade businesses. Matching available technicians to jobs based on location, skills, certifications, and equipment requires constant juggling — especially when cancellations and emergency callouts disrupt the day.
+Manual scheduling is one of the biggest time sinks in trade businesses, and tradie automation tools are solving it first. Matching available technicians to jobs based on location, skills, certifications, and equipment requires constant juggling — especially when cancellations and emergency callouts disrupt the day.
 
 **How AI helps:**
 
@@ -94,13 +94,13 @@ Tools like ChatGPT, Claude, or purpose-built trade business AI tools can draft t
 
 ## Compliance Documentation AI (2026 CER & CCEW)
 
-For solar installers and electricians, compliance documentation isn't optional — it's the difference between keeping your accreditation and losing it.
+For solar installers and electricians, AI automation for compliance documentation isn't optional — it's the difference between keeping your accreditation and losing it.
 
 The paperwork burden is real: AS/NZS 5139 compliance for battery systems, CEC design and installation requirements, grid connection documentation, and SafeWork requirements across different states all create a complex documentation environment.
 
-**Where AI automation helps:**
+Where AI automation helps:
 
-- **Digital form completion:** ServiceM8's compliance forms guide technicians through required fields with built-in validation — reducing incomplete forms and missed steps
+- **Digital form completion:** ServiceM8's compliance forms guide technicians through required fields with built-in validation — reducing incomplete forms and missed steps. For a business doing 30+ installs a month, this alone saves 3–5 hours of office admin time weekly, worth $15,000–$25,000 annually in recovered productivity.
 - **Automated document generation:** Certificate of Compliance templates, test records, and commissioning checklists auto-populate from job data (client details, system specs, installation date)
 - **Photo documentation:** AI-assisted photo capture prompts technicians to photograph specific elements (labelling, disconnect switches, installation angles) before a job can be marked complete
 - **Audit trail creation:** Every action is timestamped with the technician's identity — creating an automatic audit trail without extra effort
@@ -108,6 +108,8 @@ The paperwork burden is real: AS/NZS 5139 compliance for battery systems, CEC de
 ServiceM8 handles all of this natively, with the ability to build custom digital forms that mirror your specific compliance requirements. See our full breakdown in [ServiceM8 for Solar Installers](/blog/servicem8-for-solar-installers) and our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance).
 
 **The result:** Near-zero compliance paperwork burden for field staff, complete and auditable records for every job, and dramatically reduced risk of CER audit failures.
+
+**Payroll compliance under the Electrical Award (MA000025):** Beyond CER and CCEW documentation, trade businesses running automated payroll must also satisfy Fair Work Ombudsman requirements under the Electrical, Electronic and Communications Contracting Award 2020 (MA000025). This Award specifies minimum rates, overtime provisions, and allowances that apply to electrical workers at every classification level. Automated time tracking integrated with payroll — capturing start times, break durations, and job-specific allowances from the field — eliminates manual timesheet errors that trigger Fair Work underpayment investigations. The same ServiceM8 job data that drives compliance documentation can also feed accurate award-compliant payroll through Xero or MYOB integration, closing a compliance gap that most trade businesses don't know they have.
 
 ---
 
@@ -150,7 +152,7 @@ The businesses that will win in the Australian trades market over the next decad
 
 ## Getting Started with AI Automation (2026 Roadmap)
 
-You don't need to implement everything at once. Here's a practical starting sequence:
+Tradie automation doesn't require an all-at-once overhaul. Here's a practical starting sequence:
 
 **Week 1–2: Get your job management in order**
 

@@ -15,7 +15,7 @@ This article breaks down what the standard actually requires, where installers c
 
 ## What Is AS/NZS 5139? (2026 Requirements)
 
-AS/NZS 5139:2019 is the Australian and New Zealand standard for battery energy storage systems (BESS) used with renewable energy generation. It covers design, installation, maintenance, and safety requirements for battery systems connected to solar arrays.
+AS/NZS 5139 is the governing electrical safety standard for battery energy storage systems connected to renewable generation in Australia. AS/NZS 5139:2019 specifically covers design, installation, maintenance, and safety requirements for battery systems connected to solar arrays.
 
 It replaced and significantly updated the previous guidance that applied to battery installations, and it applies to:
 
@@ -23,7 +23,9 @@ It replaced and significantly updated the previous guidance that applied to batt
 - Lead-acid and flow battery systems
 - Any battery storage connected to a PV array or grid-connected inverter
 
-The standard is referenced in CER accreditation requirements and is the benchmark used during CEC audits. For a broader compliance picture that covers your full solar install (not just battery), see our [complete solar compliance checklist for Australian installers](/blog/solar-compliance-checklist-2026).
+The standard is referenced in CER accreditation requirements — Clean Energy Council (CEC) accreditation requirements reference AS/NZS 5139 Clause 4.3 for battery system installation competence — and is the benchmark used during CEC audits. For a broader compliance picture that covers your full solar install (not just battery), see our [complete solar compliance checklist for Australian installers](/blog/solar-compliance-checklist-2026).
+
+A typical battery installation incurs $800–$1,200 in compliance documentation and testing costs per job when done properly. This includes the compliance checklist, test records, handover documentation, and CEC reporting. The alternative — a non-compliant installation flagged in a CER audit — can trigger STC clawback of $3,000–$6,000 per system plus accreditation suspension. The cost of compliance is a fraction of the cost of non-compliance.
 
 ## The 4 Areas Where Installers Most Often Fail (2026 Audit Data)
 

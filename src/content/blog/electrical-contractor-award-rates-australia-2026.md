@@ -8,7 +8,7 @@ heroImage: '/hero-electrical-award-rates-2026.jpg'
 tags: ['hiring', 'award rates', 'electrician', 'solar', 'employment', 'payroll']
 ---
 
-If you're employing electricians or apprentices in your solar or electrical installation business, getting the pay rates right is not optional. Underpaying staff — even accidentally — creates significant legal and financial exposure, and the Fair Work Ombudsman has been actively auditing the trades sector in 2025 and 2026.
+If you're employing electricians or apprentices in your solar or electrical installation business, getting the pay rates right is not optional. Underpaying staff — even accidentally — creates significant legal and financial exposure, and the **Fair Work Ombudsman** has been actively auditing the trades sector in 2025 and 2026.
 
 The award that covers most electricians working in installation and maintenance roles in Australia is the **Electrical, Electronic and Communications Contracting Award 2020** (MA000025). This award sets minimum pay rates, allowances, overtime rules, and conditions for electricians, electronic tradespeople, and their apprentices.
 
@@ -303,7 +303,7 @@ When you hire an apprentice, you take on supervision obligations:
 
 ## Modern Awards vs Enterprise Agreements
 
-The Electrical Award sets minimum conditions. If you have an enterprise agreement with your employees, the agreement applies instead of the award — but it must pass the Better Off Overall Test (BOOT) against the award. Employees cannot be worse off under an enterprise agreement than they would be under the award.
+The Electrical Award sets minimum conditions. If you have an enterprise agreement with your employees, the agreement applies instead of the award — but it must pass the **Better Off Overall Test (BOOT)** against the award. Employees cannot be worse off under an enterprise agreement than they would be under the award.
 
 If you're considering a Greenfields Agreement or a single-enterprise agreement, consult a workplace relations professional. Getting enterprise agreements wrong creates significant back-pay liability.
 
@@ -490,11 +490,9 @@ Use the calculator below to work out the exact minimum pay for an electrical emp
 
 ## Staying Compliant With Fair Work Obligations
 
-**Record-keeping:** You must keep employment records for 7 years. Records must include hours worked, rates paid, leave taken, super paid. Using a payroll system (Xero Payroll, MYOB, QuickBooks) helps ensure records are complete and compliant.
-
-**Pay slips:** Every pay period, employees must receive an itemised pay slip showing hours worked, rate paid, allowances paid, and super contributions.
-
-**Fair Work Act compliance:** Familiarise yourself with the National Employment Standards (NES) — the minimum entitlements that apply to all national system employers regardless of award.
+- **Record-keeping:** You must keep employment records for 7 years. Records must include hours worked, rates paid, leave taken, super paid. Using a payroll system (Xero Payroll, MYOB, QuickBooks) helps ensure records are complete and compliant.
+- **Pay slips:** Every pay period, employees must receive an itemised pay slip showing hours worked, rate paid, allowances paid, and super contributions.
+- **Fair Work Act compliance:** Familiarise yourself with the **National Employment Standards (NES)** — the minimum entitlements that apply to all national system employers regardless of award.
 
 ---
 

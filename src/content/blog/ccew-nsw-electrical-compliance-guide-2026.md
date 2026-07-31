@@ -78,6 +78,8 @@ Under NSW requirements, a CCEW must be issued **within 7 days** of completing th
 
 Best practice is to issue within 24–48 hours of completion — while the installation details are fresh, photos are uploaded, and documentation is complete. Waiting until day 6 creates unnecessary risk.
 
+**Penalties for missing the 7-day deadline:** NSW Fair Trading can issue penalty infringement notices of up to $22,000 for individuals and $110,000 for corporations under the Home Building Act 1989. In 2026, Fair Trading has signalled increased enforcement of CCEW deadline compliance, and repeat offenders face mandatory licence review with potential conditions or suspension.
+
 **Two separate obligations for solar installations:**
 1. **CCEW** — must be issued to NSW Fair Trading within **7 days** of completing the electrical installation work
 2. **Network notification** — must be submitted to the relevant DNSP (Ausgrid, Endeavour Energy, or Essential Energy) **before connection** to the grid
@@ -185,6 +187,8 @@ For businesses working across both NSW and VIC (or other states), your job manag
 
 SafeWork NSW and NSW Fair Trading receive complaints and conduct audits. These are the failure patterns that consistently appear in compliance outcomes:
 
+**Audit cost reality:** A SafeWork NSW or Fair Trading audit triggered by a complaint or random selection costs a typical electrical contracting business $3,000–$8,000 in management time, legal advice, and compliance rectification — even when no penalty is ultimately issued. For audits that uncover systemic failures, the combined cost of penalties, rectification, and operational disruption frequently exceeds $25,000. In 2026, the audit rate for electrical contractors in the solar and battery sector has increased significantly compared to 2024 levels.
+
 **1. Missing the 7-day deadline**
 The most common breach — and the easiest to prevent. The 7-day clock starts at job completion, not when you send the invoice. Set a job management system reminder at the point of sign-off. Contractors who batch CCEW issuance at the end of the week regularly miss the window when jobs complete on a Friday or public holiday eve.
 
@@ -215,9 +219,9 @@ While photos aren't part of the CCEW itself, NSW Fair Trading and DNSPs increasi
 
 ## Consequences of Non-Compliance (2026 Penalties)
 
-**Fair Trading penalties:** NSW Fair Trading can issue penalty infringement notices for CCEW failures and refer serious cases for prosecution.
+**Fair Trading penalties:** NSW Fair Trading can issue penalty infringement notices for CCEW failures and refer serious cases for prosecution. Under the Home Building Act 1989, maximum penalties reach **$22,000 for individuals** and **$110,000 for corporations** per offence. In 2026, Fair Trading has indicated it will pursue maximum penalties for systematic non-compliance rather than defaulting to the lower end of the range.
 
-**Licence risk:** Repeated or serious non-compliance can result in contractor licence suspension or conditions.
+**Licence risk:** Repeated or serious non-compliance can result in contractor licence suspension or conditions. The administrative cost of a suspended licence — even for 30 days — typically exceeds $15,000–$25,000 in lost revenue for a mid-sized electrical contracting business operating in 2026.
 
 **Insurance exposure:** Work performed without a CCEW may create issues with professional indemnity insurance coverage in the event of an incident.
 

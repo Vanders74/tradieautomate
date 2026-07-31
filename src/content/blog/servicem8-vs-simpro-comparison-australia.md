@@ -18,7 +18,7 @@ faq:
     answer: "Yes. ServiceM8 has native integrations with both Xero and MYOB AccountRight. Invoices raised in ServiceM8 push directly to your accounting software, and customers sync both ways. This eliminates double entry and ensures your accounts accurately reflect completed work."
 ---
 
-If you're running a trade business in Australia in 2026, job management software isn't a luxury — it's infrastructure. The question isn't *whether* to use it. It's *which one*.
+If you're running a trade business in Australia in 2026, job management software isn't a luxury — it's infrastructure. The question isn't *whether* to use it. It's *which one*: ServiceM8 or simPRO.
 
 For solar and electrical contractors specifically, the stakes are higher than most software comparisons acknowledge. Under the **Renewable Energy (Electricity) Act 2000**, the **Clean Energy Regulator (CER)** can audit any solar installation going back 5 years. The **Clean Energy Council** requires installers to retain documentation demonstrating compliance with **AS/NZS 5033** (PV arrays) and **AS/NZS 5139** (battery storage). Your job management software is either your compliance backbone — or your single point of failure in an audit.
 
@@ -80,7 +80,7 @@ Key points:
 
 ## Ease of Use: Mobile-First vs Feature-Heavy
 
-This is where the platforms diverge most dramatically.
+This is where ServiceM8 and simPRO diverge most dramatically.
 
 ### ServiceM8: Built for the Field
 
@@ -131,7 +131,7 @@ If you're running commercial solar projects worth $500K+, with multiple subcontr
 
 ## Compliance and Documentation
 
-For Australian solar installers, compliance documentation isn't optional — it's the difference between passing a CER audit and losing your accreditation. See our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026) for a full breakdown of what's required.
+For Australian solar installers evaluating ServiceM8 vs simPRO, compliance documentation isn't optional — it's the difference between passing a CER audit and losing your accreditation. See our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026) for a full breakdown of what's required.
 
 ### ServiceM8
 

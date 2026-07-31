@@ -20,7 +20,7 @@ This comparison is written specifically for solar installers, electricians, and 
 Before comparing the platforms, it's worth being explicit about what compliance documentation actually means for solar installers and electricians:
 
 **Solar installation compliance (every job):**
-- AS/NZS 5033 installation checklist
+- AS/NZS 5033:2021 installation checklist (Clause 4.2 covers PV array installation requirements including mounting, wiring, and labelling)
 - AS/NZS 5139 battery storage documentation (where batteries are included)
 - CEC Small-scale Technology Certificate (STC) documentation
 - Customer handover documentation with system specs and instructions
@@ -34,7 +34,7 @@ Before comparing the platforms, it's worth being explicit about what compliance 
 - Network distributor notification (for relevant work types)
 
 **For CER audits:**
-The Clean Energy Regulator can request documentation for any installation within the 5-year retention period. When they do, you need to produce complete installation records — not "I think we took photos, let me check Jake's phone."
+The Clean Energy Regulator (CER), established under the *Renewable Energy Act 2000*, can request documentation for any installation within the 5-year retention period. When they do, you need to produce complete installation records — not "I think we took photos, let me check Jake's phone."
 
 The platform you choose needs to make this documentation systematic, enforced, and retrievable.
 
@@ -51,11 +51,13 @@ The platform you choose needs to make this documentation systematic, enforced, a
 | **STC documentation support** | ✅ Build STC form templates | ⚠️ Manual documentation only |
 | **CER audit readiness** | ✅ Exportable job records with all documentation | ⚠️ Limited export capability |
 | **Solar-specific job templates** | ✅ Configurable per job type | ⚠️ Basic job templates |
-| **AS/NZS 5033/5139 checklists** | ✅ Build to specification | ❌ No native support |
+| **AS/NZS 5033:2021/5139 checklists** | ✅ Build to specification | ❌ No native support |
 
 ---
 
 ## Compliance Documentation (2026): The Critical Difference
+
+In 2026, the compliance documentation gap between these platforms has widened significantly. Here's how each handles the requirements that matter most for solar and electrical businesses.
 
 ### ServiceM8
 
@@ -170,7 +172,7 @@ For Australian solar installers and electricians, **ServiceM8 is the clear recom
 
 The compliance documentation tools — custom form builder, enforced completion, GPS-tagged photos, certificate generation, 5-year retrievable records — are not nice-to-haves in this industry. They're the difference between CER audit readiness and compliance risk.
 
-Tradify is a credible general tradie platform. But "general" is exactly its limitation for compliance-heavy licensed trades. The gap in compliance tooling is meaningful and, for solar and electrical businesses facing CER oversight and licensing authority scrutiny, potentially costly.
+Tradify is a credible general tradie platform. But "general" is exactly its limitation for compliance-heavy licensed trades. The gap in compliance tooling is meaningful and, for solar and electrical businesses facing CER oversight and licensing authority scrutiny, potentially costly — a single CER audit finding can trigger STC clawback of $3,000–$6,000 per system, making the platform choice a direct financial risk decision.
 
 [Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate)
 
