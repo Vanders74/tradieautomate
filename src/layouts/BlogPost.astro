@@ -211,5 +211,67 @@ const softwareSchema = isServiceM8Page ? {
 			<p><em>TradieAutomate is an authorised ServiceM8 affiliate. We earn a small commission if you sign up through our links — at no extra cost to you. We only recommend tools we'd use ourselves.</em></p>
 		</div>
 		<Footer />
+		{isServiceM8Page && (
+			<>
+			<div id="sticky-affiliate-bar" class="mobile-sticky" style="display:none">
+				<div class="sticky-inner">
+					<span>Ready to automate your trade biz?</span>
+					<a href="https://www.servicem8.com/au/free-trial/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=sticky_mobile" target="_blank" rel="nofollow sponsored" class="sticky-cta-btn">Start Free Trial</a>
+				</div>
+			</div>
+			<script>
+				(function() {
+					var bar = document.getElementById('sticky-affiliate-bar');
+					if (!bar || window.innerWidth >= 768) return;
+					var shown = false;
+					window.addEventListener('scroll', function() {
+						if (shown) return;
+						var pct = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
+						if (pct > 0.30) {
+							bar.style.display = 'block';
+							shown = true;
+						}
+					});
+				})();
+			</script>
+			</>
+		)}
+		<style>
+			.mobile-sticky {
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				background: #0f172a;
+				color: #fff;
+				padding: 12px 16px;
+				z-index: 9999;
+				box-shadow: 0 -4px 12px rgba(0,0,0,0.2);
+			}
+			@media (min-width: 768px) { .mobile-sticky { display: none !important; } }
+			.sticky-inner {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				gap: 12px;
+				max-width: 720px;
+				margin: 0 auto;
+			}
+			.sticky-inner span {
+				font-size: 0.85rem;
+				font-weight: 600;
+			}
+			.sticky-cta-btn {
+				background: #f97316;
+				color: #fff !important;
+				padding: 8px 16px;
+				border-radius: 6px;
+				font-weight: 700;
+				font-size: 0.85rem;
+				text-decoration: none !important;
+				white-space: nowrap;
+				flex-shrink: 0;
+			}
+		</style>
 	</body>
 </html>
