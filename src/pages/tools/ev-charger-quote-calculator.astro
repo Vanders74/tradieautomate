@@ -6,12 +6,43 @@ import { SITE_TITLE } from '../../consts';
 
 const title = "EV Charger Installation Cost Calculator Australia 2026 | Free Estimator";
 const description = "Free EV charger installation cost calculator for Australian homeowners. Get an instant cost estimate for your property — house, townhouse or apartment — with breakdown by switchboard, cable run, hardware and compliance cert.";
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does EV charger installation cost in Australia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In 2026, a standard residential EV charger installation in Australia typically costs between $900 and $2,500, depending on switchboard condition, cable run distance, and whether a switchboard upgrade is required. Use the free calculator above for an instant estimate based on your specific property."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a compliance certificate for EV charger installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every EV charger installation in Australia must comply with AS/NZS 3000:2018 (Wiring Rules) and requires a state-specific compliance certificate — CCEW in NSW, CES in Victoria, and equivalent certificates in other states. This must be issued by a licensed electrical contractor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the EV charger cost calculator free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The TradieAutomate EV charger installation cost calculator is completely free. Answer 7 questions about your property and get an instant itemised cost estimate — no email or sign-up required. Estimates are based on 2026 Australian market rates."
+      }
+    }
+  ]
+};
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <BaseHead title={title} description={description} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
     <style>
       .tool-hero {
         background: linear-gradient(135deg, #0f172a 0%, #1a2744 100%);
@@ -299,6 +330,13 @@ const description = "Free EV charger installation cost calculator for Australian
         <!-- What the calculator covers -->
         <div class="context-block">
           <h2>What This Calculator Accounts For</h2>
+          <p>
+            Every EV charger installation in Australia must comply with <strong>AS/NZS 3000:2018</strong> (Wiring Rules).
+            This calculator factors in the key variables a licensed electrician assesses on site: circuit capacity,
+            switchboard condition, cable run distance, and state-specific compliance documentation including
+            <strong>CCEW in NSW</strong>, <strong>CES in Victoria</strong>, and equivalent certificates in other states.
+            All cost estimates are based on 2026 Australian market rates.
+          </p>
           <div class="what-grid">
             <div class="what-card">
               <span class="icon">🔌</span>
