@@ -23,6 +23,12 @@ An **electrical contractor's licence** is a business authorisation issued by Ene
 
 This guide covers the WA licensing requirements for 2026: who needs what, the Contractor Certificate of Electrical Inspection (CCEI) obligation, solar-specific requirements, and how to stay compliant without letting administrative tasks overwhelm your operations.
 
+Key takeaways:
+- WA electrical contractor licences are issued by **EnergySafety** under DEMIRS — not by a building commission
+- Every grid-connected solar install requires a **CCEI** before energisation
+- Minimum **$5 million public liability insurance** is mandatory
+- Licences are renewable every **1–3 years** at approximately **$384 per term**
+
 ---
 
 ## The WA Licensing Framework
