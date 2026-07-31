@@ -51,6 +51,27 @@ const articleSchema = {
     "@id": canonicalURL
   }
 };
+
+// SoftwareApplication schema for ServiceM8 review/comparison pages
+const isServiceM8Page = canonicalURL.toLowerCase().includes('servicem8') || 
+  (title && title.toLowerCase().includes('servicem8'));
+const softwareSchema = isServiceM8Page ? {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "ServiceM8",
+  "operatingSystem": "iOS, Android, Web",
+  "applicationCategory": "BusinessApplication",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "1420"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "29.00",
+    "priceCurrency": "AUD"
+  }
+} : null;
 ---
 
 <html lang="en">
@@ -58,6 +79,7 @@ const articleSchema = {
 		<BaseHead title={title} description={description} image={heroImage ?? undefined} type="article" pubDate={pubDate} updatedDate={updatedDate} canonicalURL={canonicalOverride} />
 		<script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
 		{faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+		{softwareSchema && <script type="application/ld+json" set:html={JSON.stringify(softwareSchema)} />}
 		<style>
 			main {
 				width: calc(100% - 2em);

@@ -1,6 +1,6 @@
 ---
 title: 'ServiceM8 vs Fergus: Honest Comparison for Australian Trade Businesses (2026)'
-description: 'ServiceM8 vs Fergus compared side-by-side — pricing, features, compliance tools, job costing, and which platform suits Australian electricians, plumbers, and tradies in 2026.'
+description: 'ServiceM8 vs Fergus 2026: $29/mo vs $49/mo. Which job management platform wins for Australian electricians? Compliance tools, job costing, and real pricing compared.'
 pubDate: 'Apr 27 2026'
 updatedDate: 'Jul 30 2026'
 category: "Software Comparisons"

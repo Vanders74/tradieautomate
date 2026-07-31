@@ -1,6 +1,6 @@
 ---
 title: "ServiceM8 Pricing 2026: Plans, Real Costs & What You Actually Get"
-description: "ServiceM8 pricing breakdown for 2026 — all plans from Starter to Unlimited, real monthly costs for Australian electrical and solar businesses, plus what's included and what's not."
+description: "ServiceM8 pricing 2026: Starter $29/mo, Growing $149/mo, Premium $349/mo. Real costs for Australian electrical & solar businesses — what's included, hidden fees, and which plan fits your crew."
 pubDate: 2026-07-20
 updatedDate: 2026-07-20
 heroImage: "/hero-servicem8.jpg"

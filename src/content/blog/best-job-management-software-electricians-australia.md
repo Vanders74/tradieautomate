@@ -1,6 +1,6 @@
 ---
 title: 'Best Job Management Software for Electricians Australia 2026: ServiceM8 vs simPRO vs Tradify Compared'
-description: 'ServiceM8 starts at $29/month with CCEW compliance forms built in. Compare real 2026 pricing, compliance features, and mobile workflow across ServiceM8, simPRO, Tradify, Fergus, and AroFlo for Australian electricians.'
+description: 'Best job management software for electricians 2026: ServiceM8 ($29/mo), simPRO, Tradify compared. Real pricing, CCEW compliance forms, and mobile workflow for Australian sparkies.'
 updatedDate: 'Jul 02 2026'
 pubDate: 'Apr 14 2026'
 category: "Software Comparisons"

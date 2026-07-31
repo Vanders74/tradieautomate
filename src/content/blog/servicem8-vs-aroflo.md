@@ -1,6 +1,6 @@
 ---
 title: 'ServiceM8 vs AroFlo: Which Field Service Platform Is Right for Your Australian Trade Business?'
-description: 'ServiceM8 vs AroFlo compared — pricing, features, compliance tools, and which platform fits Australian trade businesses from sole traders to 50+ staff in 2026.'
+description: 'ServiceM8 vs AroFlo 2026: $29/mo simple pricing vs quote-based enterprise. Which platform fits your Australian trade business — sole trader or 50+ staff? Pricing, features, compliance tools compared.'
 pubDate: 'Apr 27 2026'
 updatedDate: 'Jul 30 2026'
 category: "Software Comparisons"
