@@ -23,6 +23,8 @@ faq:
 
 Insurance is the cost of operating a solar or electrical installation business that most owners understand the least and think about the least often — until something goes wrong.
 
+**Electrical contractor insurance** in Australia is a bundle of policies — public liability (minimum $5M–$20M depending on state), workers' compensation, and optionally professional indemnity and tool cover — that protects your licence, your business assets, and your personal finances when an installation causes property damage, injury, or financial loss.
+
 An electrical fire traced to your installation. A personal injury claim from a homeowner who slipped on scaffolding during your solar install. An inverter failure that damages other electrical equipment. These scenarios aren't theoretical — they happen to electrical contractors and solar installers in Australia every year.
 
 The right insurance doesn't just protect you financially. It protects your licence, your business, and your ability to keep operating. This guide covers what you need, what it costs in the current market, and the traps to watch for.

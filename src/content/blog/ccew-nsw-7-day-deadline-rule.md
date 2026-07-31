@@ -1,6 +1,6 @@
 ---
 title: 'When Is a CCEW Legally Required in NSW? The 7-Day Deadline Rule Explained'
-description: "NSW electricians have 7 days to lodge a CCEW or face $22,000 in penalties. Here's exactly when the clock starts, what triggers the deadline, and how ServiceM8 automates lodgement to eliminate audit risk."
+description: 'CCEW NSW 7-day deadline: $22,000 penalty for late lodgement. When the clock starts, who gets copies, mandatory eCert portal, and ServiceM8 automation for compliance.'
 pubDate: 'May 20 2026'
 updatedDate: 'Jul 20 2026'
 category: "Compliance"

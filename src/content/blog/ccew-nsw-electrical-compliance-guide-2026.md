@@ -27,7 +27,7 @@ Getting your CCEW obligations right is not complex, but it is non-negotiable. Th
 
 ---
 
-## What Is the CCEW?
+## What Is the CCEW? (2026 Requirements)
 
 The Certificate of Compliance — Electrical Work (CCEW) is a document that certifies:
 1. That specific electrical installation work was performed by a licensed contractor

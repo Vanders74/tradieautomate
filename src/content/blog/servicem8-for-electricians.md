@@ -5,6 +5,15 @@ pubDate: 'Apr 27 2026'
 updatedDate: 'Jul 20 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-for-electricians.jpg'
+faq:
+  - question: "What is ServiceM8 and how does it help Australian electricians?"
+    answer: "ServiceM8 is a cloud-based job management platform built in Australia for trade businesses. For electricians, it replaces paper forms with digital compliance checklists, auto-generates invoices from completed jobs for same-day payment, tracks technician locations via GPS, and stores CCEW/CES documentation against every job record — making audit preparation a 5-minute exercise instead of a 2-day scramble."
+  - question: "How much does ServiceM8 cost for an electrical business in Australia?"
+    answer: "ServiceM8 starts at $29/month for the Lite plan (15 jobs), $65/month for Starter (50 jobs), $149/month for Growing (150 jobs), and $349/month for Premium (unlimited jobs). All plans include unlimited staff. Most 1-5 person electrical businesses land on the Starter or Growing plan."
+  - question: "Does ServiceM8 handle CCEW and electrical compliance certificates?"
+    answer: "Yes. ServiceM8's custom form builder lets you create CCEW templates, CES checklists, and test record forms that technicians complete on-site. Forms can be set as mandatory — a job cannot be marked complete without the compliance documentation filled in and attached."
+  - question: "Can ServiceM8 integrate with Xero or MYOB for my electrical business?"
+    answer: "Yes. ServiceM8 has native two-way integrations with both Xero and MYOB AccountRight. Invoices generated in ServiceM8 push directly to your accounting software, eliminating double entry and keeping your accounts current with completed work."
 ---
 
 Running an electrical business in Australia means carrying a lot: your tools, your licence, your insurance, and an ever-growing pile of compliance obligations that have nothing to do with the actual electrical work.

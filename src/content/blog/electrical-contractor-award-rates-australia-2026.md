@@ -196,15 +196,15 @@ The Electrical Award classifies workers across several grades. The key classific
 
 ### Electrical Tradesperson — Grade 1 to Grade 5
 
-**Electrical Tradesperson Grade 1 (ET1):** A licensed electrical tradesperson without further trade experience or who has only recently completed their apprenticeship.
+**Electrical Tradesperson Grade 1 (ET1):** A licensed electrical tradesperson working under general supervision — **$38.43/hr**. This is the entry-level tradesperson classification for most qualified electricians in installation roles.
 
-**Electrical Tradesperson Grade 2 (ET2):** A licensed electrical tradesperson with additional training or experience — typically working with some independence in complex installations.
+**Electrical Tradesperson Grade 2 (ET2):** A licensed electrical tradesperson with additional training or experience — **$39.36/hr**. Typically working with some independence in complex installations.
 
-**Electrical Tradesperson Grade 3 (ET3):** An electrical tradesperson with further experience and/or specific technical skills, working with significant autonomy.
+**Electrical Tradesperson Grade 3 (ET3):** An electrical tradesperson with further experience and/or specific technical skills — **$40.26/hr**. Working with significant autonomy.
 
-**Electrical Tradesperson Grade 4 (ET4):** An experienced tradesperson capable of complex, non-standard electrical work with limited supervision.
+**Electrical Tradesperson Grade 4 (ET4):** An experienced tradesperson — **$41.20/hr**. Capable of complex, non-standard electrical work with limited supervision.
 
-**Electrical Tradesperson Grade 5 (ET5):** Senior tradesperson — also responsible for supervising, planning, and coordinating the work of others.
+**Electrical Tradesperson Grade 5 (ET5):** Senior tradesperson — **$42.15/hr**. Also responsible for supervising, planning, and coordinating the work of others.
 
 ### Weekly Pay Rates (2025-26, 38-hour week)
 

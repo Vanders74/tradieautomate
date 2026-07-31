@@ -9,7 +9,7 @@ heroImage: '/hero-compliance-checklist.jpg'
 
 If you're installing solar panels in Australia, compliance isn't optional — it's the foundation of your business.
 
-The Clean Energy Regulator (CER) has been tightening enforcement. In recent years, installer accreditation reviews have increased significantly, and the penalties for non-compliance are getting steeper. In 2023–24 alone, the CER completed over 800 installer audits and took action against dozens of businesses for documentation failures — not substandard physical work.
+The Clean Energy Regulator (CER) has been tightening enforcement through 2026. Installer accreditation reviews have increased significantly, and the penalties for non-compliance are getting steeper. In 2023–24 alone, the CER completed over 800 installer audits and took action against dozens of businesses for documentation failures — not substandard physical work. The 2026 audit cycle is expected to exceed that number.
 
 This checklist covers everything you need to have in order **before, during, and after** every solar installation job.
 

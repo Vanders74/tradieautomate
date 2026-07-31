@@ -18,7 +18,9 @@ faq:
 
 When you're researching job management software for your trade business, **ServiceM8 and [Tradify](/blog/tradify-review-2026-australia)** come up together constantly. They're both designed for small trade businesses, they're both cloud-based, and they're both priced for the sub-enterprise market.
 
-So what's actually different? And which one should you use?
+But for Australian electricians and solar installers, the decision hinges on more than price. Under the **Home Building Act 1989** administered by **NSW Fair Trading**, electrical contractors must lodge a Certificate of Compliance for Electrical Work (CCEW) within 7 days of completing prescribed work. The **Clean Energy Regulator (CER)** requires installers to retain compliance documentation demonstrating adherence to **AS/NZS 5033** (PV array installation) and **AS/NZS 5139** (battery storage) for up to five years post-installation.
+
+Your job management software either supports this compliance workflow — or it doesn't.
 
 This comparison breaks it down honestly — pricing, features, compliance tools, and the specific use cases where each platform shines. If you're an Australian solar installer, electrician, plumber, or HVAC technician, this is the comparison you need.
 
@@ -43,7 +45,7 @@ This comparison breaks it down honestly — pricing, features, compliance tools,
 
 ---
 
-## Pricing: Closer Than You'd Think, But Not Equal
+## Pricing (2026): Closer Than You'd Think, But Not Equal
 
 ### ServiceM8
 

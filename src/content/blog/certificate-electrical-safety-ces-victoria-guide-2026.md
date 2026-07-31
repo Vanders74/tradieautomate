@@ -1,6 +1,6 @@
 ---
 title: 'Certificate of Electrical Safety Victoria: Avoid ESV Audit Failures in 2026'
-description: "ESV is auditing Victorian electrical contractors in 2026. Miss your CES lodgement and risk licence suspension. Step-by-step ESV Connect guide plus the updated fee structure."
+description: 'ESV is auditing Victorian electrical contractors through 2026. Miss your CES lodgement and risk licence suspension. Step-by-step ESV Connect guide, updated fee structure, and 28-day deadline.'
 pubDate: 'May 15 2026'
 updatedDate: 'Jun 27 2026'
 category: "Compliance"
