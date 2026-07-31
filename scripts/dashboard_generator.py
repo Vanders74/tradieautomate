@@ -650,15 +650,15 @@ def compute_insights(data):
     content_posts = {p["slug"]: p for p in data["content"]["posts"]}
     today = date.today()
 
-    # Position buckets
-    buckets = {"top_3": 0, "top_10": 0, "top_20": 0, "top_50": 0, "top_100": 0}
+    # Position buckets (non-overlapping tiers)
+    buckets = {"pos_1_3": 0, "pos_4_10": 0, "pos_11_20": 0, "pos_21_50": 0, "pos_51_100": 0}
     for p in pages:
         pos = p["position"]
-        if pos <= 3: buckets["top_3"] += 1
-        if pos <= 10: buckets["top_10"] += 1
-        if pos <= 20: buckets["top_20"] += 1
-        if pos <= 50: buckets["top_50"] += 1
-        if pos <= 100: buckets["top_100"] += 1
+        if pos <= 3: buckets["pos_1_3"] += 1
+        elif pos <= 10: buckets["pos_4_10"] += 1
+        elif pos <= 20: buckets["pos_11_20"] += 1
+        elif pos <= 50: buckets["pos_21_50"] += 1
+        elif pos <= 100: buckets["pos_51_100"] += 1
 
     # CTR opportunity & leverage score per page
     # Expected CTR by position (rough industry benchmarks)
@@ -1375,13 +1375,13 @@ tr:hover td {{ background: rgba(255,255,255,0.02); }}
 
 <!-- Position Buckets -->
 <div class="section">
-    <h2>📍 Position Distribution <span style="font-size:11px;color:var(--text-muted);font-weight:400">(Page 1 = positions 1–10)</span></h2>
+    <h2>📍 Position Distribution <span style="font-size:11px;color:var(--text-muted);font-weight:400">({gsc['totals']['pages_with_data']} pages with data — tiers don't overlap)</span></h2>
     <div class="pos-buckets">
-        <div class="pos-bucket"><div class="pos-bucket-num">{buckets.get('top_3', 0)}</div><div class="pos-bucket-label">Top 3</div></div>
-        <div class="pos-bucket" style="border-color:var(--green)"><div class="pos-bucket-num">{buckets.get('top_10', 0)}</div><div class="pos-bucket-label">Page 1</div></div>
-        <div class="pos-bucket"><div class="pos-bucket-num">{buckets.get('top_20', 0)}</div><div class="pos-bucket-label">Page 2</div></div>
-        <div class="pos-bucket"><div class="pos-bucket-num">{buckets.get('top_50', 0)}</div><div class="pos-bucket-label">Page 5</div></div>
-        <div class="pos-bucket"><div class="pos-bucket-num">{buckets.get('top_100', 0)}</div><div class="pos-bucket-label">Page 10</div></div>
+        <div class="pos-bucket"><div class="pos-bucket-num">{buckets.get('pos_1_3', 0)}</div><div class="pos-bucket-label">Pos 1–3</div></div>
+        <div class="pos-bucket" style="border-color:var(--green)"><div class="pos-bucket-num">{buckets.get('pos_4_10', 0)}</div><div class="pos-bucket-label">Pos 4–10</div></div>
+        <div class="pos-bucket"><div class="pos-bucket-num">{buckets.get('pos_11_20', 0)}</div><div class="pos-bucket-label">Pos 11–20</div></div>
+        <div class="pos-bucket"><div class="pos-bucket-num">{buckets.get('pos_21_50', 0)}</div><div class="pos-bucket-label">Pos 21–50</div></div>
+        <div class="pos-bucket"><div class="pos-bucket-num">{buckets.get('pos_51_100', 0)}</div><div class="pos-bucket-label">Pos 51–100</div></div>
     </div>
 </div>
 
