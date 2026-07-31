@@ -123,8 +123,34 @@ const websiteSchema = {
         var el = e.target.closest('a[href]');
         if (!el) return;
         var href = el.getAttribute('href');
-        if (href && href.indexOf('servicem8.com') > -1 && href.indexOf('ref=tradieautomate') > -1) {
+        // ServiceM8 trial clicks (free trial CTAs — highest intent)
+        if (href && href.indexOf('servicem8.com') > -1 && (href.indexOf('free-trial') > -1 || href.indexOf('trial') > -1)) {
+          gtag('event', 'trial_click', {
+            link_url: href,
+            link_text: (el.textContent || '').trim().slice(0, 80),
+            page_location: window.location.pathname
+          });
+        }
+        // ServiceM8 affiliate clicks (all other ?ref=tradieautomate links)
+        else if (href && href.indexOf('servicem8.com') > -1 && href.indexOf('ref=tradieautomate') > -1) {
           gtag('event', 'affiliate_click', {
+            link_url: href,
+            link_text: (el.textContent || '').trim().slice(0, 80),
+            page_location: window.location.pathname
+          });
+        }
+        // Lead magnet downloads (gated content behind email capture)
+        else if (href && (href.indexOf('/compliance-checklist') > -1 || href.indexOf('/award-rates-card') > -1)) {
+          gtag('event', 'lead_magnet_download', {
+            link_url: href,
+            link_text: (el.textContent || '').trim().slice(0, 80),
+            lead_magnet: href.indexOf('compliance') > -1 ? 'compliance_checklist' : 'award_rates_card',
+            page_location: window.location.pathname
+          });
+        }
+        // Playbook signups (12-chapter guide)
+        else if (href && href.indexOf('/playbook') > -1) {
+          gtag('event', 'playbook_signup', {
             link_url: href,
             link_text: (el.textContent || '').trim().slice(0, 80),
             page_location: window.location.pathname
