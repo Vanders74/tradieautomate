@@ -1,6 +1,6 @@
 ---
-title: 'CCEW NSW 2026: $22,000 Penalty If You Miss the 7-Day Deadline — Complete Compliance Guide'
-description: "Miss the 7-day CCEW deadline in NSW and you're facing $22,000 in individual penalties. Step-by-step guide to issuing certificates correctly — who can sign, solar-specific rules, and the audit triggers SafeWork NSW is using in 2026."
+title: 'CCEW NSW: Electrical Certificate of Compliance — $22K Penalty, 7-Day Deadline, Who Issues It'
+description: "NSW electrical certificate of compliance (CCEW): who issues it, 7-day deadline, $22K penalty, solar-specific rules, eCert lodgement. 2026 SafeWork NSW requirements."
 pubDate: 'May 09 2026'
 updatedDate: 'Jul 02 2026'
 category: "Compliance"
