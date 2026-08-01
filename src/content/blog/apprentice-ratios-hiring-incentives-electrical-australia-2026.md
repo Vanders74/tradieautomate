@@ -1,6 +1,6 @@
 ---
 title: "Apprentice Ratios & Hiring Incentives for Electricians Australia 2026"
-description: "Wrong apprentice ratios risk Fair Work action and training contract cancellation. State-by-state ratio table, federal incentive payments up to $5,000, and the real net cost of hiring an apprentice in 2026."
+description: "State-by-state apprentice ratios for electrical contractors — plus federal hiring incentives up to $5,000 and the real net cost of hiring an apprentice in 2026."
 pubDate: 'Jul 20 2026'
 updatedDate: 'Jul 20 2026'
 category: "Compliance"

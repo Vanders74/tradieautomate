@@ -179,6 +179,8 @@ At $99/month, recovering one extra invoice per month more than covers the cost.
 - [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)
 - [Best Accounting Software for Solar & Electrical Australia 2026](/blog/best-accounting-software-solar-electrical-australia-2026)
 
+[Start your free 14-day ServiceM8 trial — no credit card required →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
+
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)
 

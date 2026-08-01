@@ -168,6 +168,8 @@ This granularity is useful for tracking margin by job type and benchmarking agai
 - [Xero vs MYOB for Australian Tradies — Which Is Better?](/blog/xero-vs-myob-accounting-software-australian-tradies-2026)
 - [The Sparky's Playbook — Chapter 8: The Trade Tech Stack](/blog/sparkys-playbook-chapter-8-trade-tech-stack-job-management-accounting)
 
+[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
+
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)
 

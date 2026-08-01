@@ -165,6 +165,8 @@ For electrical businesses growing from 5 to 15+ staff and starting to take on la
 - [ServiceM8 vs simPRO Australia — General Comparison 2026](/blog/servicem8-vs-simpro-comparison-australia)
 - [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)
 
+[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
+
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)
 
