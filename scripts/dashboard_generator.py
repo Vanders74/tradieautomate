@@ -937,6 +937,34 @@ def generate_html(data):
     conv_lead = conv.get("lead_magnet_download", 0)
     conv_playbook = conv.get("playbook_signup", 0)
 
+    # Engagement data — top pages by engagement rate
+    eng_pages = ga4.get("top_pages", [])
+    engagement_rows = ""
+    if eng_pages:
+        # Sort by engagement rate (engaged_sessions / sessions)
+        eng_sorted = sorted(eng_pages, key=lambda p: -(p.get("engaged_sessions",0) / max(p.get("sessions",1), 1)))
+        for p in eng_sorted[:10]:
+            sess = p.get("sessions", 0)
+            eng_sess = p.get("engaged_sessions", 0)
+            eng_rate = round((eng_sess / max(sess, 1)) * 100)
+            dur = p.get("avg_duration_sec", 0)
+            dur_str = f"{dur}s" if dur < 60 else f"{dur//60}m{dur%60}s"
+            path_display = p.get("path", "/")[:50]
+            rate_color = "var(--green)" if eng_rate >= 50 else ("var(--amber)" if eng_rate >= 30 else "var(--text-secondary)")
+            engagement_rows += f"""
+            <tr>
+                <td class="slug-cell" style="max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="{p.get('path','')}">{path_display}</td>
+                <td>{sess}</td>
+                <td style="color:{rate_color};font-weight:600">{eng_rate}%</td>
+                <td style="color:var(--text-muted)">{dur_str}</td>
+            </tr>"""
+    engagement_html = f"""<div class="table-wrap">
+        <table>
+            <thead><tr><th>Page</th><th>Sessions</th><th>Engaged %</th><th>Avg Time</th></tr></thead>
+            <tbody>{engagement_rows if engagement_rows else '<tr><td colspan="4" style="color:var(--text-muted)">No engagement data available.</td></tr>'}</tbody>
+        </table>
+    </div>""" if engagement_rows else '<p style="color:var(--text-muted);font-size:13px">No engagement data available yet.</p>'
+
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1209,6 +1237,27 @@ tr:hover td {{ background: rgba(255,255,255,0.02); }}
     margin-top: 12px;
 }}
 
+/* Helper tooltips */
+.section-help {{
+    font-size: 11px;
+    color: var(--text-muted);
+    font-weight: 400;
+    margin-left: 8px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}}
+.section h2:hover .section-help,
+.section:hover .section-help {{
+    opacity: 1;
+}}
+.kpi-help {{
+    font-size: 10px;
+    color: var(--text-muted);
+    margin-top: 2px;
+    line-height: 1.4;
+    opacity: 0.7;
+}}
+
 /* Priority actions */
 .priority-row {{
     display: flex;
@@ -1332,22 +1381,31 @@ tr:hover td {{ background: rgba(255,255,255,0.02); }}
         <div class="kpi-label">Indexed Posts</div>
         <div class="kpi-value">{kpi['posts']}</div>
         <div class="kpi-delta flat">Last: {content['last_updated'] or '—'}</div>
+        <div class="kpi-help">Total published blog articles. Last updated date shown.</div>
     </div>
     <div class="kpi-card">
         <div class="kpi-label">Engagement Rate</div>
         <div class="kpi-value">{round(kpi['engagement'] * 100)}%</div>
         <div class="kpi-delta flat">GA4: {'✅ tracking active' if conv_total > 0 else '✅ active — 0 conversions yet'}</div>
+        <div class="kpi-help">% of sessions that lasted 10+ sec or had 2+ pageviews. Higher = readers are actually reading.</div>
     </div>
     <div class="kpi-card">
         <div class="kpi-label">Conversions (28d)</div>
         <div class="kpi-value" style="color:{'var(--green)' if conv_total > 0 else 'var(--text-muted)'}">{conv_total}</div>
         <div class="kpi-delta flat">Trial: {conv_trial} | Lead: {conv_lead} | Playbook: {conv_playbook}</div>
+        <div class="kpi-help">ServiceM8 trial clicks, lead magnet downloads, playbook signups.</div>
     </div>
+</div>
+
+<!-- Engagement -->
+<div class="section">
+    <h2>👀 What People Are Engaging With <span class="section-help">— Pages visitors actually spend time on. Engaged = 10+ seconds or 2+ pageviews. High engagement = content that works.</span></h2>
+    {engagement_html}
 </div>
 
 <!-- Trend Chart -->
 <div class="section">
-    <h2>📈 3-Month Impression & Click Trend</h2>
+    <h2>📈 3-Month Impression & Click Trend <span class="section-help">— 28-day windows showing search visibility growth. Each card is one month.</span></h2>
     <div class="trend-cards">
         {''.join(f'''
         <div class="trend-card">
@@ -1362,13 +1420,13 @@ tr:hover td {{ background: rgba(255,255,255,0.02); }}
 
 <!-- Anomalies -->
 <div class="section">
-    <h2>⚠️ Anomalies & Action Items</h2>
+    <h2>⚠️ Anomalies & Action Items <span class="section-help">— Pages behaving unexpectedly. Zero clicks despite visibility, sudden position drops, CTR cliffs. Each has a suggested fix.</span></h2>
     {anomaly_html}
 </div>
 
 <!-- Priority Actions -->
 <div class="section">
-    <h2>🎯 Priority Actions (ranked by leverage)</h2>
+    <h2>🎯 Priority Actions (ranked by leverage) <span class="section-help">— Highest impact fixes. Leverage = impression volume × CTR gap ÷ position. Fix these first.</span></h2>
     <p style="font-size:11px;color:var(--text-muted);margin-bottom:12px">Pages with the highest impression × CTR-gap opportunity. Fix these first.</p>
     {priority_html}
 </div>
@@ -1393,7 +1451,7 @@ tr:hover td {{ background: rgba(255,255,255,0.02); }}
 
 <!-- Page Performance -->
 <div class="section">
-    <h2>📊 Top Pages by Impressions (28d)</h2>
+    <h2>📊 Top Pages by Impressions (28d) <span class="section-help">— Your highest-traffic pages by Google Search impressions. CTR Opp = additional clicks you'd get at the expected CTR for that position.</span></h2>
     <div class="table-wrap">
         <table>
             <thead><tr><th>Page</th><th>Impressions</th><th>Position</th><th>CTR</th><th>Clicks</th><th>CTR Opp</th></tr></thead>
@@ -1417,14 +1475,14 @@ tr:hover td {{ background: rgba(255,255,255,0.02); }}
 <div class="grid-2" style="grid-template-columns:1fr 1fr 1fr\">
     <!-- Traffic Mix -->
     <div class="section">
-        <h2>🌐 Traffic Sources</h2>
+        <h2>🌐 Traffic Sources <span class="section-help">— Where your visitors come from. Organic Search = Google. Direct = typed URL or bookmark. Referral = links from other sites.</span></h2>
         {channel_html}
         {'<div class="tracking-warning">📊 GA4 event tracking is active (trial_click_1, lead_magnet_download, playbook_signup). Zero conversions recorded — Data API has 24-48h latency and these are high-intent actions.</div>' if conv_total == 0 else ''}
     </div>
 
     <!-- Top Queries -->
     <div class="section">
-        <h2>🔍 Top Search Queries</h2>
+        <h2>🔍 Top Search Queries <span class="section-help">— What people type into Google to find your site. Queries with zero clicks mean they see you but don't choose you.</span></h2>
         {query_html if query_html else '<p style="color:var(--text-muted);font-size:13px">No query data available.</p>'}
     </div>
 
