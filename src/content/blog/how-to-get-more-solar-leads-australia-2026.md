@@ -31,7 +31,7 @@ Understanding what's changed helps you allocate budget intelligently:
 
 **What's declining:** Solar lead aggregators (high volume but low quality, shared with 5–10 competitors), cold outbound at scale, generic Facebook ads without strong local targeting.
 
-**The core shift:** Homeowners in 2026 are more educated. They've seen cheap solar fail. They research before they contact. They read reviews. They check **Clean Energy Council (CEC)** accreditation. The businesses that win are the ones that appear authoritative and trustworthy before the first conversation — not the ones with the lowest price in a comparison table. CEC accreditation is governed by the CEC Installer Code of Conduct and is a prerequisite for claiming STCs under the Small-scale Renewable Energy Scheme.
+**The core shift:** Homeowners in 2026 are more educated. They've seen cheap solar fail. They research before they contact. They read reviews. They check **Clean Energy Council (CEC)** accreditation — governed by the CEC Installer Code of Conduct, which is a prerequisite for claiming STCs under the federal Small-scale Renewable Energy Scheme administered by the **Clean Energy Regulator (CER)**. The businesses that win are the ones that appear authoritative and trustworthy before the first conversation — not the ones with the lowest price in a comparison table.
 
 ---
 
@@ -126,7 +126,8 @@ A homeowner who finds you through Google, a referral, or a Facebook ad will then
 
 **The social proof assets that matter most:**
 1. **Google reviews:** 50+ reviews at 4.8+ stars is the benchmark to aim for. See our [complete Google reviews guide](/blog/google-reviews-five-star-tradie-guide).
-2. **CEC accreditation badge:** Prominently displayed on your website and GBP. It's an immediate trust signal for educated solar buyers.
+2. **CEC accreditation badge:** Prominently displayed on your website and GBP. It's an immediate trust signal for educated solar buyers. Ensure your CEC accreditation number is current — the CEC publishes a public register of accredited installers, and customers increasingly verify accreditation before contacting a business.
+3. **State electrical contractor licence:** Display your licence number in your website footer. Homeowners are learning to check state regulator databases — NSW Fair Trading, Energy Safe Victoria (ESV), the Electrical Safety Office (QLD), and Building and Energy (WA) all maintain public licence registers. A verifiable licence is a trust signal that competitors without one can't match.
 3. **Before/after installation photos:** Real jobs, real results. Post them on Google, your website, and social media.
 4. **Case studies:** One detailed case study ("We installed a 13.2kW system on a dual-roof home in [suburb] — here's what we designed and why") is worth more than a generic testimonial.
 
