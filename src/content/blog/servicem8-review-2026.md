@@ -1,6 +1,6 @@
 ---
 title: 'ServiceM8 Review 2026: Real Pricing, Features & Who It Actually Suits'
-description: '$29/mo ServiceM8 review 2026 — best for 1-5 person electrical crews, CCEW compliance, and same-day invoicing. Where it fails at scale and when simPRO or AroFlo is the better call.'
+description: "$29/mo ServiceM8 review 2026: best for 1-5 person crews, same-day invoicing & CCEW compliance. Where it fails at scale vs simPRO or AroFlo."
 updatedDate: 'Jul 20 2026'
 pubDate: 'Apr 03 2026'
 category: "ServiceM8"

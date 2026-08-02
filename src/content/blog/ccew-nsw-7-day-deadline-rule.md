@@ -156,7 +156,7 @@ For the complete solar compliance documentation workflow including CER requireme
 
 ---
 
-## BCNSW eCert Portal — What Changed on 1 July 2026
+## BCNSW eCert Portal — NSW Fair Trading Electrical Compliance & What Changed on 1 July 2026
 
 As of 1 July 2026, all CCEWs must be submitted through the **BCNSW eCert portal**. This was previously the "NSW Fair Trading portal" — the system has been rebranded and centralised under Building Commission NSW, and the PDF form, Essential Energy portal, and paper NECA book submission methods are no longer accepted — **mandatory digital lodgement** through BCNSW eCert is the only valid pathway.
 

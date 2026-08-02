@@ -30,7 +30,7 @@ For residential solar PV in 2026:
 
 ---
 
-## STC Calculation
+## STC Calculation & Solar Rebate Estimator
 
 The number of STCs a system creates is calculated as:
 
