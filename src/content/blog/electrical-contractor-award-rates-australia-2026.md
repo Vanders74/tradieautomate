@@ -1,6 +1,6 @@
 ---
 title: 'Electrical Contractor Award Rates Australia 2026: ET Grades, Apprentice Pay, Overtime & Allowances'
-description: 'Electrical Award 2026 pay rates: $38.43–$42.15/hr (Grade 1–5), apprentice rates, overtime, and tool allowances. Free interactive calculator.'
+description: 'Electrical Award 2026-27 pay rates: $40.26–$44.15/hr (Grade 1–5), apprentice rates, overtime, and tool allowances. Free interactive calculator. Updated for 4.75% July 2026 increase.'
 pubDate: 'May 20 2026'
 updatedDate: 'Jul 20 2026'
 category: "Business Growth"
@@ -28,27 +28,27 @@ This guide covers the current rates, the classification structure, key allowance
 
 <div class="award-calc-wrapper" style="background:#0f172a;border-radius:16px;padding:32px 24px;margin:24px 0;color:#e2e8f0;font-family:system-ui,-apple-system,sans-serif;">
   <h3 style="margin:0 0 4px;font-size:1.15rem;color:#f97316;">Enter Your Crew</h3>
-  <p style="margin:0 0 24px;font-size:0.85rem;color:#94a3b8;">Rates effective from first full pay period on or after 1 July 2025.</p>
+  <p style="margin:0 0 24px;font-size:0.85rem;color:#94a3b8;">Rates effective from first full pay period on or after 1 July 2026.</p>
 
   <div class="calc-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:24px;">
     <div>
-      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">ET Grade 1 ($38.43/hr)</label>
+      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">ET Grade 1 ($40.26/hr)</label>
       <input type="number" id="et1" value="0" min="0" max="50" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
     </div>
     <div>
-      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">ET Grade 2 ($39.36/hr)</label>
+      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">ET Grade 2 ($41.23/hr)</label>
       <input type="number" id="et2" value="0" min="0" max="50" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
     </div>
     <div>
-      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">ET Grade 3 ($40.26/hr)</label>
+      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">ET Grade 3 ($42.17/hr)</label>
       <input type="number" id="et3" value="0" min="0" max="50" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
     </div>
     <div>
-      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">ET Grade 4 ($41.20/hr)</label>
+      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">ET Grade 4 ($43.16/hr)</label>
       <input type="number" id="et4" value="0" min="0" max="50" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
     </div>
     <div>
-      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">ET Grade 5 ($42.15/hr)</label>
+      <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">ET Grade 5 ($44.15/hr)</label>
       <input type="number" id="et5" value="0" min="0" max="50" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
     </div>
   </div>
@@ -107,7 +107,7 @@ This guide covers the current rates, the classification structure, key allowance
         <div style="font-size:1.5rem;font-weight:800;color:#fbbf24;" id="res-overtime">$0</div>
       </div>
       <div>
-        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;color:#64748b;margin-bottom:4px;">Super/wk (11.5%)</div>
+        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;color:#64748b;margin-bottom:4px;">Super/wk (12%)</div>
         <div style="font-size:1.5rem;font-weight:800;color:#4ade80;" id="res-super">$0</div>
       </div>
       <div>
@@ -127,8 +127,8 @@ This guide covers the current rates, the classification structure, key allowance
 
 <script>
 function calcAwardRates() {
-  const rates = [38.43, 39.36, 40.26, 41.20, 42.15];
-  const appRates = [613/38, 803/38, 1095/38, 1285/38]; // approximate hourly from weekly ÷ 38
+  const rates = [40.26, 41.23, 42.17, 43.16, 44.15];
+  const appRates = [643/38, 841/38, 1147/38, 1346/38]; // approximate hourly from weekly ÷ 38
   const hours = 38;
 
   let baseWeekly = 0;
@@ -144,9 +144,9 @@ function calcAwardRates() {
   const totalTradies = [1,2,3,4,5].reduce((s,i) => s + (parseInt(document.getElementById('et'+i).value)||0), 0);
 
   // Allowances
-  const industryAllowance = totalTradies * 104.12; // per week per tradesperson
+  const industryAllowance = totalTradies * 109.07; // per week per tradesperson
   const toolsSupplied = document.getElementById('tools').value === 'employer';
-  const toolAllowance = toolsSupplied ? 0 : totalTradies * 26.56;
+  const toolAllowance = toolsSupplied ? 0 : totalTradies * 27.82;
 
   const allowancesWeekly = industryAllowance + toolAllowance;
 
@@ -156,7 +156,7 @@ function calcAwardRates() {
   const avgRate = totalTradies > 0 ? rates.slice(0, Math.min(totalTradies, 5)).reduce((a,b)=>a+b,0)/Math.min(totalTradies,5) : rates[1];
   const overtimeWeekly = (ot15h * avgRate * 1.5) + (ot20h * avgRate * 2.0);
 
-  const superRate = 0.115;
+  const superRate = 0.12;
   const superWeekly = (baseWeekly + allowancesWeekly) * superRate;
   const totalWeekly = baseWeekly + allowancesWeekly + overtimeWeekly + superWeekly;
   const totalAnnual = totalWeekly * 52;
@@ -173,11 +173,11 @@ function calcAwardRates() {
   let breakdown = totalTradies + ' tradespeople × 38hrs + ';
   const appCount = [1,2,3,4].reduce((s,i) => s + (parseInt(document.getElementById('app'+i).value)||0), 0);
   if (appCount > 0) breakdown += appCount + ' apprentices + ';
-  breakdown += 'industry allowance ($104.12/person)';
-  if (!toolsSupplied) breakdown += ' + tool allowance ($26.56/person)';
+  breakdown += 'industry allowance ($109.07/person)';
+  if (!toolsSupplied) breakdown += ' + tool allowance ($27.82/person)';
   if (ot15h > 0) breakdown += ' + ' + ot15h + 'hrs OT @ 1.5x';
   if (ot20h > 0) breakdown += ' + ' + ot20h + 'hrs OT @ 2x';
-  breakdown += ' + 11.5% super';
+  breakdown += ' + 12% super';
   document.getElementById('res-breakdown').textContent = 'Calculation: ' + breakdown;
 
   document.getElementById('calc-results').style.display = 'block';
@@ -188,7 +188,7 @@ function calcAwardRates() {
 
 ## Important Disclaimer
 
-Award rates are updated annually by the Fair Work Commission. The rates in this guide reflect the July 2025 determination (effective from the first full pay period on or after 1 July 2025). Always verify current rates on the Fair Work Commission website or via your industry association before setting pay — rates change annually and this guide may not reflect the most recent determination.
+Award rates are updated annually by the Fair Work Commission. The rates in this guide reflect the July 2026 determination (effective from the first full pay period on or after 1 July 2026). Always verify current rates on the Fair Work Commission website or via your industry association before setting pay — rates change annually and this guide may not reflect the most recent determination.
 
 ---
 
@@ -198,25 +198,25 @@ The Electrical Award classifies workers across several grades. The key classific
 
 ### Electrical Tradesperson — Grade 1 to Grade 5
 
-**Electrical Tradesperson Grade 1 (ET1):** A licensed electrical tradesperson working under general supervision — **$38.43/hr**. This is the entry-level tradesperson classification for most qualified electricians in installation roles.
+**Electrical Tradesperson Grade 1 (ET1):** A licensed electrical tradesperson working under general supervision — **$40.26/hr**. This is the entry-level tradesperson classification for most qualified electricians in installation roles.
 
-**Electrical Tradesperson Grade 2 (ET2):** A licensed electrical tradesperson with additional training or experience — **$39.36/hr**. Typically working with some independence in complex installations.
+**Electrical Tradesperson Grade 2 (ET2):** A licensed electrical tradesperson with additional training or experience — **$41.23/hr**. Typically working with some independence in complex installations.
 
-**Electrical Tradesperson Grade 3 (ET3):** An electrical tradesperson with further experience and/or specific technical skills — **$40.26/hr**. Working with significant autonomy.
+**Electrical Tradesperson Grade 3 (ET3):** An electrical tradesperson with further experience and/or specific technical skills — **$42.17/hr**. Working with significant autonomy.
 
-**Electrical Tradesperson Grade 4 (ET4):** An experienced tradesperson — **$41.20/hr**. Capable of complex, non-standard electrical work with limited supervision.
+**Electrical Tradesperson Grade 4 (ET4):** An experienced tradesperson — **$43.16/hr**. Capable of complex, non-standard electrical work with limited supervision.
 
-**Electrical Tradesperson Grade 5 (ET5):** Senior tradesperson — **$42.15/hr**. Also responsible for supervising, planning, and coordinating the work of others.
+**Electrical Tradesperson Grade 5 (ET5):** Senior tradesperson — **$44.15/hr**. Also responsible for supervising, planning, and coordinating the work of others.
 
 ### Weekly Pay Rates (2025-26, 38-hour week)
 
-| Classification | Weekly Rate (2025-26) | Hourly Rate |
+| Classification | Weekly Rate (2026-27) | Hourly Rate |
 |---|---|---|
-| ET Grade 1 | $1,460.50 | $38.43 |
-| ET Grade 2 | $1,495.60 | $39.36 |
-| ET Grade 3 | $1,529.80 | $40.26 |
-| ET Grade 4 | $1,565.40 | $41.20 |
-| ET Grade 5 | $1,601.60 | $42.15 |
+| ET Grade 1 | $1,530 | $40.26 |
+| ET Grade 2 | $1,567 | $41.23 |
+| ET Grade 3 | $1,603 | $42.17 |
+| ET Grade 4 | $1,640 | $43.16 |
+| ET Grade 5 | $1,678 | $44.15 |
 
 *Note: These are minimum award rates. Verify with Fair Work Commission for the current determination.*
 
@@ -226,7 +226,7 @@ The Electrical Award classifies workers across several grades. The key classific
 
 Apprentices are paid as a percentage of the ET Grade 1 rate, based on their year of apprenticeship:
 
-| Year of Apprenticeship | % of ET Grade 1 | Approximate Weekly Rate (2025-26) |
+| Year of Apprenticeship | % of ET Grade 1 | Approximate Weekly Rate (2026-27) |
 |---|---|---|
 | 1st year | 42% | ~$613 |
 | 2nd year | 55% | ~$803 |
@@ -243,30 +243,30 @@ Allowances are mandatory additional payments on top of the base rate when certai
 
 ### Industry Allowance
 
-A general industry allowance applies to all employees covered by the Electrical Award: **$2.74 per hour** (or $104.12 per week). This is paid to all electrical tradespeople, not just when specific conditions apply — it's part of the effective hourly cost for every employee.
+A general industry allowance applies to all employees covered by the Electrical Award: **$2.87 per hour** (or $109.07 per week). This is paid to all electrical tradespeople, not just when specific conditions apply — it's part of the effective hourly cost for every employee.
 
 ### Tool Allowance
 
-An allowance for the supply and maintenance of tools: **$26.56 per week** for a licensed tradesperson who supplies their own tools. If the employer supplies tools, the tool allowance doesn't apply.
+An allowance for the supply and maintenance of tools: **$27.82 per week** for a licensed tradesperson who supplies their own tools. If the employer supplies tools, the tool allowance doesn't apply.
 
 ### Boilermaker's Licence Allowance (where applicable)
-For employees holding a boilermaker's licence and working within that licence — **$2.09 per hour**.
+For employees holding a boilermaker's licence and working within that licence — **$2.19 per hour**.
 
 ### Height Allowance
 
 Where an employee is working at heights that trigger a height allowance:
-- Over 7.6m but not exceeding 15.25m: **$0.57 per hour**
-- Over 15.25m: **$0.76 per hour**
+- Over 7.6m but not exceeding 15.25m: **$0.60 per hour**
+- Over 15.25m: **$0.80 per hour**
 
 For solar installation work on rooftops below 7.6m (most residential installations), the height allowance generally doesn't apply. For some commercial work, it may.
 
 ### Confined Space Allowance
 
-**$3.69 per hour** where an employee is required to work in a confined space as defined by the award.
+**$3.87 per hour** where an employee is required to work in a confined space as defined by the award.
 
 ### First Aid Allowance
 
-Where an employee holds a recognised first aid qualification and is required to perform first aid duties: **$14.60 per week** (full first aid), **$11.39 per week** (basic emergency life support).
+Where an employee holds a recognised first aid qualification and is required to perform first aid duties: **$15.30 per week** (full first aid), **$11.93 per week** (basic emergency life support).
 
 ---
 
@@ -288,7 +288,7 @@ For a solar installation business doing peak-season work with long days, overtim
 
 ## Superannuation
 
-The current superannuation guarantee rate is **11.5%** of ordinary time earnings. From 1 July 2025, this rate applies — check for any further scheduled increases.
+The current superannuation guarantee rate is **12%** of ordinary time earnings. From 1 July 2025, the rate increased to 12% — check for any further scheduled increases.
 
 Super is calculated on ordinary time earnings (not overtime for most employees). It's a significant cost component that must be factored into your total employment cost calculations.
 
@@ -317,16 +317,16 @@ Adding up all the mandatory components for a Grade 2 electrical tradesperson (a 
 
 | Component | Annual Cost |
 |---|---|
-| Base wage (ET Grade 2, 38 hrs/wk) | ~$77,800 |
-| Industry allowance ($104.12/wk) | ~$5,415 |
-| Tool allowance ($26.56/wk) | ~$1,382 |
-| Superannuation (11.5%) | ~$9,727 |
+| Base wage (ET Grade 2, 38 hrs/wk) | ~$81,500 |
+| Industry allowance ($109.07/wk) | ~$5,672 |
+| Tool allowance ($27.82/wk) | ~$1,447 |
+| Superannuation (12%) | ~$10,461 |
 | Workers compensation (electrical, ~$5/hr) | ~$9,880 |
 | Annual leave loading | ~$2,300 |
 | Payroll tax (if over state threshold — VIC $900k, NSW $1.2m) | Varies |
-| **Total annual employment cost** | **~$106,500–$115,000** |
+| **Total annual employment cost** | **~$111,000–$119,000** |
 
-At 1,820 billable hours per year (38 hrs/wk at 95% utilisation), that's **$58–$63 per billable hour** minimum cost before overhead allocation and margin.
+At 1,820 billable hours per year (38 hrs/wk at 95% utilisation), that's **$61–$65 per billable hour** minimum cost before overhead allocation and margin.
 
 This is why pricing discipline matters. Every solar job that doesn't fully recover labour at this rate is unprofitable — even if it looks like you charged a reasonable price.
 
@@ -349,11 +349,11 @@ Use the calculator below to work out the exact minimum pay for an electrical emp
           <option value="app2">2nd Year Apprentice</option>
           <option value="app3">3rd Year Apprentice</option>
           <option value="app4">4th Year Apprentice</option>
-          <option value="et1" selected>ET Grade 1 — $38.43/hr</option>
-          <option value="et2">ET Grade 2 — $39.36/hr</option>
-          <option value="et3">ET Grade 3 — $40.26/hr</option>
-          <option value="et4">ET Grade 4 — $41.20/hr</option>
-          <option value="et5">ET Grade 5 — $42.15/hr</option>
+          <option value="et1" selected>ET Grade 1 — $40.26/hr</option>
+          <option value="et2">ET Grade 2 — $41.23/hr</option>
+          <option value="et3">ET Grade 3 — $42.17/hr</option>
+          <option value="et4">ET Grade 4 — $43.16/hr</option>
+          <option value="et5">ET Grade 5 — $44.15/hr</option>
         </select>
       </div>
       <div style="margin-bottom:12px;display:grid;grid-template-columns:1fr 1fr;gap:10px">
@@ -379,13 +379,13 @@ Use the calculator below to work out the exact minimum pay for an electrical emp
       <div style="margin-bottom:8px">
         <label style="font-size:13px;color:#94a3b8;display:block;margin-bottom:6px">Allowances</label>
         <label style="display:flex;align-items:center;gap:8px;font-size:13px;color:#cbd5e1;margin-bottom:6px;cursor:pointer">
-          <input type="checkbox" id="ac-ind-allow" checked> Industry allowance ($2.74/hr) — applies to all
+          <input type="checkbox" id="ac-ind-allow" checked> Industry allowance ($2.87/hr) — applies to all
         </label>
         <label style="display:flex;align-items:center;gap:8px;font-size:13px;color:#cbd5e1;margin-bottom:6px;cursor:pointer">
-          <input type="checkbox" id="ac-tool-allow"> Tool allowance ($26.56/wk) — employee provides tools
+          <input type="checkbox" id="ac-tool-allow"> Tool allowance ($27.82/wk) — employee provides tools
         </label>
         <label style="display:flex;align-items:center;gap:8px;font-size:13px;color:#cbd5e1;margin-bottom:6px;cursor:pointer">
-          <input type="checkbox" id="ac-height-allow"> Height work (over 15.25m — $0.76/hr)
+          <input type="checkbox" id="ac-height-allow"> Height work (over 15.25m — $0.80/hr)
         </label>
       </div>
     </div>
@@ -395,11 +395,11 @@ Use the calculator below to work out the exact minimum pay for an electrical emp
       <div id="ac-results" style="font-size:14px;line-height:1.8">
         <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(30,41,59,0.5)">
           <span>Ordinary wage</span>
-          <span id="ac-r-ordinary" style="font-weight:600">$1,460.34</span>
+          <span id="ac-r-ordinary" style="font-weight:600">$1,530</span>
         </div>
         <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(30,41,59,0.5)">
           <span>Industry allowance</span>
-          <span id="ac-r-industry" style="font-weight:600">$104.12</span>
+          <span id="ac-r-industry" style="font-weight:600">$109.07</span>
         </div>
         <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(30,41,59,0.5)">
           <span>Overtime 1.5x</span>
@@ -423,15 +423,15 @@ Use the calculator below to work out the exact minimum pay for an electrical emp
         </div>
         <div style="display:flex;justify-content:space-between;padding:10px 0 6px;border-top:2px solid #22c55e;margin-top:4px">
           <span style="font-weight:700;color:#f8fafc">Total weekly pay</span>
-          <span id="ac-r-total" style="font-weight:700;color:#22c55e;font-size:18px">$1,564.46</span>
+          <span id="ac-r-total" style="font-weight:700;color:#22c55e;font-size:18px">$1,639</span>
         </div>
         <div style="display:flex;justify-content:space-between;padding:6px 0">
-          <span>Superannuation (11.5%)</span>
-          <span id="ac-r-super" style="font-weight:600;color:#94a3b8">$179.91</span>
+          <span>Superannuation (12%)</span>
+          <span id="ac-r-super" style="font-weight:600;color:#94a3b8">$184</span>
         </div>
         <div style="display:flex;justify-content:space-between;padding:6px 0;border-top:1px solid #334155">
           <span style="font-weight:700;color:#f8fafc">Total cost to employer</span>
-          <span id="ac-r-employer" style="font-weight:700;color:#f97316;font-size:18px">$1,744.37</span>
+          <span id="ac-r-employer" style="font-weight:700;color:#f97316;font-size:18px">$1,823</span>
         </div>
       </div>
     </div>
@@ -441,9 +441,9 @@ Use the calculator below to work out the exact minimum pay for an electrical emp
 
 <script>
 (function() {
-  const RATES = { app1: 613/38, app2: 803/38, app3: 1095/38, app4: 1285/38, et1: 38.43, et2: 39.36, et3: 40.26, et4: 41.20, et5: 42.15 };
+  const RATES = { app1: 643/38, app2: 841/38, app3: 1147/38, app4: 1346/38, et1: 40.26, et2: 41.23, et3: 42.17, et4: 43.16, et5: 44.15 };
   const APP_PCT = { app1: 0.42, app2: 0.55, app3: 0.75, app4: 0.88 };
-  const BASE_ET = 38.43;
+  const BASE_ET = 40.26;
   function calc() {
     var cls = document.getElementById('ac-class').value;
     var ord = parseFloat(document.getElementById('ac-ordinary').value) || 0;
@@ -458,13 +458,13 @@ Use the calculator below to work out the exact minimum pay for an electrical emp
     var baseOT15 = rate * 1.5 * ot15;
     var baseOT20 = rate * 2.0 * ot20;
     var basePH = rate * 2.5 * ph;
-    var indAmt = ind ? (2.74 * ord) : 0;
-    var toolAmt = tool ? 26.56 : 0;
-    var heightAmt = height ? (0.76 * ord) : 0;
-    var subTotal = baseOrd + indAmt + baseOT15 + baseOT20 + basePH + toolAmt + (height ? 0.76 * ord : 0);
+    var indAmt = ind ? (2.87 * ord) : 0;
+    var toolAmt = tool ? 27.82 : 0;
+    var heightAmt = height ? (0.80 * ord) : 0;
+    var subTotal = baseOrd + indAmt + baseOT15 + baseOT20 + basePH + toolAmt + (height ? 0.80 * ord : 0);
     // Height already added above
     var total = baseOrd + baseOT15 + baseOT20 + basePH + indAmt + toolAmt + heightAmt;
-    var superAmt = baseOrd * 0.115;
+    var superAmt = baseOrd * 0.12;
     var employerTotal = total + superAmt;
     document.getElementById('ac-r-ordinary').textContent = '$' + (baseOrd).toFixed(2);
     document.getElementById('ac-r-industry').textContent = '$' + (indAmt).toFixed(2);
