@@ -3,6 +3,7 @@ title: 'Commercial Solar ROI and Pricing for Electricians: The 2026 Business Cas
 description: 'The business case for Australian electricians entering commercial solar — how to price 30–500kW systems, real ROI numbers, revenue per install vs residential, and what the transition actually costs.'
 pubDate: 'Jul 19 2026'
 updatedDate: 'Jul 19 2026'
+accuracyReviewed: '2026-08-02'
 category: 'Business Growth'
 heroImage: '/hero-commercial-solar-contracts.jpg'
 tags: ['commercial solar', 'solar pricing', 'business growth', 'electrician', 'ROI', 'job costing', 'solar business', 'Australia']
@@ -79,13 +80,13 @@ Commercial solar labour pricing must account for:
 - Longer install duration (larger systems, often more complex roof or switchboard configuration)
 - Commissioning and DNSP inspection time
 
-**Loaded cost for licensed electrician (commercial site):** $55–$70/hour
+**Loaded cost for licensed electrician (commercial site):** $55–$72/hour
 **Utilisation (commercial projects):** 80–85% (better than residential due to fewer small moves)
-**Effective cost per billable hour:** $65–$85/hour
+**Effective cost per billable hour:** $68–$88/hour
 
 For a 100kW install with a 4-person crew over 5 days (160 crew-hours):
-- Labour cost: 160 × $70 = $11,200
-- Labour charge-out at $110/hour: 160 × $110 = **$17,600** (labour component of quote)
+- Labour cost: 160 × $72 = $11,520
+- Labour charge-out at $115/hour: 160 × $115 = **$18,400** (labour component of quote)
 
 ### 3. Compliance and Approvals
 

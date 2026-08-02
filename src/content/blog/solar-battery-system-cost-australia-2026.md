@@ -3,6 +3,7 @@ title: "Solar Battery System Cost Australia 2026: Prices & Payback"
 description: "Real solar battery system costs in Australia 2026 — hardware prices by brand, installation costs, state rebates, payback periods, and how to price profitably."
 pubDate: 'Jun 9 2026'
 updatedDate: 'Jul 30 2026'
+accuracyReviewed: '2026-08-02'
 category: "Solar & Battery"
 heroImage: '/hero-solar-battery-system-cost-australia-2026.jpg'
 tags: ['solar battery cost', 'battery storage', 'pricing', 'rebates', 'payback period', 'solar installer', 'Australia']
@@ -39,7 +40,7 @@ Key brands and approximate hardware costs (ex-GST, installer pricing — subject
 
 | Brand / Product | Usable Capacity | Approx. Hardware Cost |
 |---|---|---|
-| Tesla Powerwall 3 | 13.5 kWh | $10,500–$12,500 |
+| Tesla Powerwall 3 | 13.5 kWh | $11,200–$12,500 |
 | Enphase IQ Battery 5P | 5 kWh (per unit) | $4,500–$5,500 per unit |
 | BYD Battery-Box Premium HV | 8–22 kWh | $7,000–$18,000 |
 | Sungrow SBR Series | 9.6–25.6 kWh | $6,500–$16,000 |

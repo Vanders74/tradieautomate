@@ -3,6 +3,7 @@ title: 'How to Price Solar Installations in Australia 2026: The Complete Guide f
 description: 'How to price solar installations in Australia — labour rates, equipment costs, overhead recovery, profit margins, and a real-world pricing model for solar businesses in 2026.'
 pubDate: 'May 12 2026'
 updatedDate: 'Jul 30 2026'
+accuracyReviewed: '2026-08-02'
 category: "Solar & Battery"
 heroImage: '/hero-how-to-price-solar.jpg'
 tags: ['solar', 'pricing', 'job costing', 'business', 'electrician', 'profitability']
@@ -36,19 +37,19 @@ Your labour cost is not your installer's hourly wage. It's the full cost of havi
 
 ### Calculating loaded labour cost
 
-**Base wage (e.g., licensed electrician, Electrical Award 2025-26):** ~$38–$45/hour depending on level
+**Base wage (e.g., licensed electrician, Electrical Award 2026-27):** ~$40–$44/hour depending on level (4.75% increase from 1 July 2026)
 
 **Add on-costs:**
-- Superannuation (11.5%): ~$4.50–$5.20/hr
+- Superannuation (12%): ~$4.80–$5.30/hr
 - Workers compensation insurance (electrical trade): ~$3–$5/hr (varies by state and claims history)
 - Annual leave loading: ~$1.50–$2/hr
 - Training, licensing, CPD: ~$1–$2/hr
 
-**Loaded hourly cost:** ~$48–$60/hour for a licensed electrician
+**Loaded hourly cost:** ~$50–$62/hour for a licensed electrician
 
 **Now account for non-billable time.** Your installer spends time on training, travel between jobs, equipment maintenance, admin, sick leave. In a typical solar business, utilisation (the proportion of paid hours that produce billable work) runs at 70–80%.
 
-If your loaded cost is $55/hr and utilisation is 75%, your effective cost per billable hour is **$55 ÷ 0.75 = $73/hr**.
+If your loaded cost is $56/hr and utilisation is 75%, your effective cost per billable hour is **$56 ÷ 0.75 = $75/hr**.
 
 This is your minimum labour recovery rate — the rate at which you break even on labour before overheads and margin. It's not your charge-out rate. Add overhead and margin on top.
 
@@ -87,7 +88,7 @@ This is the most consistently underestimated cost category.
 
 **Compliance cost per job:** 1.5–3 hours admin/documentation time + certificate fees
 
-At your loaded admin rate ($50–$70/hr equivalent), compliance adds $75–$200+ per job that many installers absorb into their margin without tracking.
+At your loaded admin rate ($55–$75/hr equivalent), compliance adds $75–$200+ per job that many installers absorb into their margin without tracking.
 
 If you're using [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) with a compliance workflow built in, this time drops significantly — but it still needs to be recovered in pricing. Never treat compliance admin as a cost of doing business that doesn't count.
 
