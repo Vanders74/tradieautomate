@@ -16,6 +16,8 @@ The challenge: commercial solar is a different game from residential. Different 
 
 ---
 
+For the numbers behind commercial solar — pricing, labour costs, and per-install ROI — see the [commercial solar ROI pricing guide](/blog/commercial-solar-roi-pricing-electricians-australia-2026).
+
 ## Understanding the Commercial Solar Market
 
 Commercial solar in Australia covers a broad range:

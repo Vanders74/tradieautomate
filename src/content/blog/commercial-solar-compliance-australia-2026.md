@@ -93,7 +93,9 @@ The network authority application typically requires:
 - Proposed connection point details
 - For larger systems: a power quality or load flow study
 
-Allow 4–12 weeks for DNSP application processing on commercial systems. For major connection applications (100kW+), allow longer and engage with the DNSP early. Build the DNSP approval timeline into your project plan and communicate it clearly to the commercial client — it's one of the most common causes of commercial solar project delays.
+Allow 4–12 weeks for DNSP application processing on commercial systems. For major connection applications (100kW+), allow longer and engage with the DNSP early. For the full business case on commercial solar — including real revenue numbers and pricing models — see our [commercial solar ROI guide](/blog/commercial-solar-roi-pricing-electricians-australia-2026).
+
+Build the DNSP approval timeline into your project plan and communicate it clearly to the commercial client — it's one of the most common causes of commercial solar project delays.
 
 ---
 

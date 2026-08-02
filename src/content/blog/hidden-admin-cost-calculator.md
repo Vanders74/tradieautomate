@@ -6,6 +6,13 @@ updatedDate: 'Jul 30 2026'
 category: "Business Growth"
 heroImage: '/hero-admin-cost-calculator.jpg'
 tags: ['admin costs', 'job management software', 'ROI', 'tradie tools', 'ServiceM8']
+faq:
+  - question: "How much does admin really cost an Australian trade business?"
+    answer: "Admin time costs Australian trade businesses significantly — a typical electrician or plumber losing 10-15 hours per week to quoting, invoicing, scheduling and compliance paperwork at a loaded labour rate of $50-$75/hour is leaking $26,000-$58,000 per year in unbillable time, based on 2026 award rates and market data."
+  - question: "How can job management software reduce admin costs?"
+    answer: "Job management software like ServiceM8 reduces admin time by automating quoting templates, invoicing from completed jobs, scheduling via a centralised dispatch board, and compliance documentation. Australian trade businesses using job management software report 50-60% reductions in weekly admin hours based on case studies."
+  - question: "What's the ROI of ServiceM8 for trade businesses?"
+    answer: "At $99-$129/month for a typical small team, ServiceM8 typically pays for itself in the first week of use — if it saves 2 hours of admin time per week at $55/hour loaded cost, the annual saving is approximately $5,720 versus a software cost of $1,188-$1,548/year, delivering a 370-480% ROI."
 ---
 
 Competition is tough. Materials are expensive. Fuel isn't getting cheaper. But the quiet killer of Australian trade profit margins is none of those things — it's the hours vanishing into unbillable evening paperwork.

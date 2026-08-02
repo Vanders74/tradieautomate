@@ -33,6 +33,8 @@ This chapter covers the areas of the Wiring Rules that generate the most complia
 
 ---
 
+For the business side of electrical work — see [Chapter 5: Commercial Solar Systems](/blog/sparkys-playbook-chapter-5-commercial-solar-systems-australia) for the revenue opportunity in commercial installations.
+
 ## What AS/NZS 3000 Actually Is
 
 AS/NZS 3000 is a joint Australian and New Zealand standard, maintained by Standards Australia. It's not legislation — it's a technical standard that sets minimum requirements for the design, installation, inspection, testing, and verification of electrical installations.

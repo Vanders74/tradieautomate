@@ -5,6 +5,15 @@ pubDate: 'Apr 27 2026'
 updatedDate: 'Jul 18 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-for-solar-businesses.jpg'
+faq:
+  - question: "How does ServiceM8 help with solar compliance documentation?"
+    answer: "ServiceM8 helps solar installers manage compliance by storing site photos, generating CCEW/CES certificates from job data, tracking STC documentation, and maintaining an auditable job record. All compliance documents are linked to the job and accessible during CER or state regulator audits."
+  - question: "Can ServiceM8 handle STC paperwork for solar installations?"
+    answer: "ServiceM8 can store and track STC documentation against each job, including system design specs, installer accreditation details, and CER lodgement records. While it doesn't submit STCs directly, it ensures all required documentation is captured and organised for your STC trader or in-house processing."
+  - question: "Is ServiceM8 suitable for large commercial solar projects?"
+    answer: "ServiceM8 scales well for commercial solar with multi-crew scheduling, custom compliance forms (including protection relay documentation and DNSP connection applications), and project-based job tracking. It's suitable for businesses managing 50-200+ installations per month."
+  - question: "What solar-specific integrations does ServiceM8 offer?"
+    answer: "ServiceM8 integrates with Xero and MYOB for solar job profitability tracking, and its API allows integration with solar design tools and monitoring platforms. The custom form builder supports solar-specific documentation including AS/NZS 5033 compliance checklists and STC lodgement forms."
 ---
 
 The Australian solar industry is at an inflection point. Residential installation volumes remain elevated. Commercial and C&I solar is accelerating. Battery storage is increasingly part of every job. And behind all that growth, the compliance and documentation requirements have never been more demanding.
@@ -16,6 +25,8 @@ Running a solar business in 2026 without a systematic approach to compliance doc
 **ServiceM8 is the job management platform that serious Australian solar businesses are using to solve this problem.**
 
 ---
+
+Looking for a broader comparison? See our [solar job management software guide](/blog/solar-job-management-software-australia-2026) which compares ServiceM8, simPRO, and other solar-specific platforms.
 
 ## The Compliance Stack for Australian Solar Installers
 

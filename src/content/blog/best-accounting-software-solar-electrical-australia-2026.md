@@ -12,6 +12,8 @@ Most solar installers and electricians start out with someone doing the books â€
 
 The three dominant players in the Australian small business accounting market are Xero, MYOB, and QuickBooks Online. All three handle the basics: invoicing, expenses, GST, payroll (in some tiers), bank reconciliation, and financial reporting. The differences are in depth, ease of use, integration with trade software like ServiceM8, and price.
 
+If you're already using ServiceM8, see our [ServiceM8-Xero integration guide](/blog/servicem8-xero-integration-guide-australia) for the specific setup steps.
+
 This guide cuts through the marketing to tell you what matters for a solar or electrical trade business in 2026.
 
 ---

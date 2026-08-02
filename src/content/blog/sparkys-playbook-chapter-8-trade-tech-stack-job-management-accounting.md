@@ -35,6 +35,8 @@ This chapter covers the core software tools that run a modern electrical busines
 
 ---
 
+Once you have your tech stack in place, learn how to apply it to commercial work — [Chapter 5: Commercial Solar Systems](/blog/sparkys-playbook-chapter-5-commercial-solar-systems-australia) covers the revenue and pricing models.
+
 ## The Core Stack
 
 An electrical business needs three software layers:
