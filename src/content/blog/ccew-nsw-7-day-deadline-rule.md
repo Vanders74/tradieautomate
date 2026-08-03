@@ -1,6 +1,6 @@
 ---
 title: 'When Is a CCEW Legally Required in NSW? The 7-Day Deadline Rule Explained'
-description: 'CCEW NSW 7-day deadline: $22,000 penalty for late lodgement. When the clock starts, who gets copies, mandatory eCert portal, and ServiceM8 automation for compliance.'
+description: 'CCEW NSW 7-day rule: when the clock starts after completion, which work triggers lodgement, who gets copies, and the $22,000 penalty under Home Building Act.'
 pubDate: 'May 20 2026'
 updatedDate: 'Jul 20 2026'
 category: "Compliance"

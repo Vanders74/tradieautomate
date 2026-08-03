@@ -1,6 +1,6 @@
 ---
 title: "NSW Electrical Contractor Licence 2026: Fair Trading, Home Building Act & Application Guide"
-description: "Unlicensed electrical contracting in NSW carries fines up to $22,000 for individuals and $110,000 for corporations. Here's every requirement, fee, and gotcha for 2026."
+description: "NSW electrical contractor licence: $22K/$110K fines for unlicensed work under Home Building Act 1989. Fair Trading classes, insurance, and application steps."
 pubDate: 'Jul 20 2026'
 updatedDate: 'Jul 20 2026'
 category: "Compliance"
