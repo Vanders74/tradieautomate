@@ -41,6 +41,8 @@ Getting your CCEW obligations right is not complex, but it is non-negotiable. Th
   </div>
 </div>
 
+![CCEW NSW 7-Day Compliance Process — step-by-step lodgement guide](/hero-ccew-nsw-compliance-infographic.png)
+
 ---
 
 ## What Is the CCEW? (2026 Requirements)
