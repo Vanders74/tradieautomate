@@ -303,4 +303,6 @@ Yes. Any solar PV installation that involves electrical connection work requires
 ### What information must be included on a NSW CCEW?
 A valid NSW CCEW must include: the contractor's licence number, the property address, a description of the electrical work performed, the date of completion, confirmation that the work complies with AS/NZS 3000 Wiring Rules and relevant standards, and the contractor's signature. For solar installations, it should also reference the grid connection type and inverter specifications. Incomplete CCEWs are one of the most common triggers for NSW Fair Trading compliance audits.
 
+> **Related:** If you're preparing for a SafeWork or ESV safety audit, download our free [Electrical Safety Audit Prep Checklist](/blog/safety-audit-prep-checklist-electricians-2026) — 6 categories of documentation auditors check, state-by-state deadlines, and a printable one-pager.
+>
 > Got a compliance question? [Ask Tradie Brain AI](/tools/tradie-brain) — free, no login. Instant answers on CCEW, CER audits, and AS/NZS standards.

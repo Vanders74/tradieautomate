@@ -205,6 +205,7 @@ Yes. [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance) has specific re
 
 - [AS/NZS 5139 Battery Storage Compliance: What Australian Installers Need to Know](/blog/as-nzs-5139-battery-storage-compliance)
 - [CER Audit Prep for Solar Installers: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)
+- [Electrical Safety Audit Prep Checklist 2026: SafeWork, ESV & State-by-State Requirements](/blog/safety-audit-prep-checklist-electricians-2026)
 - [Commercial Solar System Compliance Australia: CEC, DNSP & Metering](/blog/commercial-solar-system-compliance-australia)
 - [Commercial EV Charging Australia 2026: Compliance, AS/NZS 3000 & Pricing](/blog/ev-charging-commercial-premises-australia-2026)
 - [Why Solar Installers Are Switching to Digital Job Management in 2026](/blog/digital-job-management-solar-installers)
