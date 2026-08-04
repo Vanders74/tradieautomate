@@ -1,6 +1,6 @@
 ---
 title: 'Victorian Energy Upgrades (VEU) Program Guide for Electricians 2026'
-description: 'Victorian electricians guide to the VEU program — VEEC creation, accreditation, eligible activities, and how to turn heat pump and lighting jobs into certificate revenue in 2026.'
+description: "Earn $250–$1,650 per heat pump job through the VEU program (VEECs $25–$55 each). Accreditation, eligible activities, and certificate trading explained."
 pubDate: 'Jul 19 2026'
 updatedDate: 'Jul 19 2026'
 category: 'Compliance'
