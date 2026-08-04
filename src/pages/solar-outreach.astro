@@ -1,0 +1,208 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+
+const title = "NSW Solar Compliance Checklist — Free Download for Electrical Contractors";
+const description = "Every CCEW, CER, and Fair Trading compliance requirement mapped to the exact form you need. Free 2-page PDF checklist for NSW solar installers and electrical contractors.";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; line-height: 1.6; }
+      .page { max-width: 680px; margin: 0 auto; padding: 2rem 1.5rem 3rem; }
+
+      .logo { font-size: 0.85rem; font-weight: 700; letter-spacing: 0.06em; color: #f97316; margin-bottom: 2.5rem; }
+      .logo .bolt { color: #f97316; margin-right: 0.25rem; }
+
+      .badge { display: inline-block; background: #f97316; color: #fff; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.3em 0.8em; border-radius: 99px; margin-bottom: 1.2rem; }
+
+      h1 { font-size: 2rem; line-height: 1.2; color: #ffffff; margin-bottom: 0.8rem; }
+      h1 span { color: #f97316; }
+
+      .sub { font-size: 1.05rem; color: #94a3b8; margin-bottom: 2rem; }
+
+      .problem-list { margin-bottom: 2rem; padding: 0; list-style: none; }
+      .problem-list li { padding: 0.3rem 0 0.3rem 1.5rem; position: relative; color: #cbd5e1; font-size: 0.95rem; }
+      .problem-list li::before { content: '✗'; position: absolute; left: 0; color: #ef4444; font-weight: 700; }
+
+      .solution-list { margin-bottom: 2rem; padding: 0; list-style: none; }
+      .solution-list li { padding: 0.3rem 0 0.3rem 1.5rem; position: relative; color: #cbd5e1; font-size: 0.95rem; }
+      .solution-list li::before { content: '✓'; position: absolute; left: 0; color: #22c55e; font-weight: 700; }
+
+      .form-box {
+        background: #1e293b;
+        border: 1.5px solid #334155;
+        border-radius: 12px;
+        padding: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .form-box h2 { font-size: 1.2rem; color: #ffffff; margin-bottom: 0.5rem; }
+      .form-box .form-desc { font-size: 0.9rem; color: #94a3b8; margin-bottom: 1.5rem; }
+
+      .form-field { margin-bottom: 1rem; }
+      .form-field label { display: block; font-size: 0.78rem; font-weight: 600; color: #94a3b8; margin-bottom: 0.3rem; text-transform: uppercase; letter-spacing: 0.05em; }
+      .form-field input {
+        width: 100%;
+        padding: 0.7rem 0.9rem;
+        border: 1.5px solid #334155;
+        border-radius: 6px;
+        background: #0f172a;
+        color: #e2e8f0;
+        font-size: 0.95rem;
+      }
+      .form-field input:focus { outline: none; border-color: #f97316; }
+
+      .btn-primary {
+        display: inline-block;
+        width: 100%;
+        padding: 0.8rem 1.5rem;
+        background: #f97316;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 1rem;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+      }
+      .btn-primary:hover { background: #ea6b0e; }
+      .btn-primary:disabled { opacity: 0.6; cursor: not-allowed; }
+
+      .success-box {
+        display: none;
+        background: #1e293b;
+        border: 1.5px solid #22c55e;
+        border-radius: 12px;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+      .success-box h2 { color: #22c55e; font-size: 1.2rem; margin-bottom: 0.5rem; }
+      .success-box p { color: #94a3b8; font-size: 0.95rem; margin-bottom: 1rem; }
+
+      .error-msg { color: #ef4444; font-size: 0.85rem; margin-top: 0.5rem; display: none; }
+
+      .checklist-preview {
+        background: linear-gradient(135deg, #f97316 0%, #ea6b0e 100%);
+        border-radius: 10px;
+        padding: 1.5rem;
+        margin-bottom: 2.5rem;
+        color: #ffffff;
+      }
+      .checklist-preview h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
+      .checklist-preview .preview-items { font-size: 0.88rem; opacity: 0.9; list-style: none; padding: 0; }
+      .checklist-preview .preview-items li { padding: 0.15rem 0; }
+
+      .privacy { font-size: 0.78rem; color: #64748b; margin-top: 1rem; text-align: center; }
+      .privacy a { color: #94a3b8; }
+
+      @media (max-width: 480px) {
+        .page { padding: 1.5rem 1rem 2rem; }
+        h1 { font-size: 1.6rem; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="logo">⚡ TradieAutomate</div>
+
+      <div class="badge">Free Download</div>
+
+      <h1>NSW Solar Compliance Checklist:<br><span>Every requirement. One page.</span></h1>
+      <p class="sub">CCEW lodgement, CER documentation, AS/NZS 3000 test records, Fair Trading audit triggers — mapped to the exact form you need. No fluff. Just what NSW inspectors actually check.</p>
+
+      <div class="checklist-preview">
+        <h3>📋 What's Inside</h3>
+        <ul class="preview-items">
+          <li>→ CCEW 7-day lodgement triggers (with clock-start rules)</li>
+          <li>→ CER STC documentation requirements by system size</li>
+          <li>→ AS/NZS 3000 mandatory test sequence checklist</li>
+          <li>→ Fair Trading audit triggers — the 5 things that get you flagged</li>
+          <li>→ State-specific: NSW vs VIC vs QLD compliance differences</li>
+          <li>→ ServiceM8 form mapping — which fields auto-populate from site photos</li>
+        </ul>
+      </div>
+
+      <!-- Gated form -->
+      <div class="form-box" id="formBox">
+        <h2>Get the free checklist</h2>
+        <p class="form-desc">Enter your details. We'll email the PDF instantly — no spam, no catch.</p>
+        <form id="leadForm">
+          <div class="form-field">
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Dave" autocomplete="given-name" required />
+          </div>
+          <div class="form-field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="dave@yourelectrical.com.au" autocomplete="email" required />
+          </div>
+          <button type="submit" class="btn-primary" id="submitBtn">Send Me the Checklist →</button>
+          <div class="error-msg" id="errorMsg"></div>
+        </form>
+        <p class="privacy">Your email is only used to send the checklist. <a href="/privacy">Privacy</a></p>
+      </div>
+
+      <!-- Success state (hidden initially) -->
+      <div class="success-box" id="successBox">
+        <h2>✅ Checklist on its way</h2>
+        <p>Check your inbox in the next 2-3 minutes. If you don't see it, check your spam folder and add us to your contacts.</p>
+        <p style="font-size:0.85rem;color:#94a3b8">Want to see how ServiceM8 auto-generates these compliance forms from your site photos? <br><a href="https://www.servicem8.com/au/free-trial/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=email&utm_campaign=email_outreach_solar&utm_content=download_ty" target="_blank" rel="nofollow sponsored" style="color:#f97316;font-weight:600">Try ServiceM8 free for 14 days →</a></p>
+      </div>
+
+      <Footer />
+    </div>
+
+    <script>
+      const form = document.getElementById('leadForm');
+      const formBox = document.getElementById('formBox');
+      const successBox = document.getElementById('successBox');
+      const errorMsg = document.getElementById('errorMsg');
+      const submitBtn = document.getElementById('submitBtn');
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Sending...';
+        errorMsg.style.display = 'none';
+
+        const firstName = document.getElementById('firstName').value.trim();
+        const email = document.getElementById('email').value.trim();
+
+        try {
+          const resp = await fetch('/.netlify/functions/solar-outreach-lead', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ firstName, email }),
+          });
+
+          if (resp.ok) {
+            // Fire GA4 event
+            if (typeof gtag !== 'undefined') {
+              gtag('event', 'lead_magnet_download', {
+                event_category: 'email_outreach',
+                event_label: 'solar_compliance_checklist',
+                campaign: 'email_outreach_solar',
+              });
+            }
+            formBox.style.display = 'none';
+            successBox.style.display = 'block';
+          } else {
+            const data = await resp.json().catch(() => ({}));
+            throw new Error(data.error || 'Something went wrong');
+          }
+        } catch (err) {
+          errorMsg.textContent = err.message || 'Something went wrong. Please try again.';
+          errorMsg.style.display = 'block';
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Send Me the Checklist →';
+        }
+      });
+    </script>
+  </body>
+</html>
