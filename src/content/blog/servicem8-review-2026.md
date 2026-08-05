@@ -1,6 +1,6 @@
 ---
 title: 'ServiceM8 Review 2026: Real Pricing, Features & Who It Actually Suits'
-description: "$29/mo ServiceM8 review 2026: best for 1-5 person crews, same-day invoicing & CCEW compliance. Where it fails at scale vs simPRO or AroFlo."
+description: "Is ServiceM8 worth it? Real 2026 review: what it nails, where it fails, who should skip it. Honest verdict from Australian trade businesses."
 updatedDate: 'Jul 20 2026'
 pubDate: 'Apr 03 2026'
 category: "ServiceM8"

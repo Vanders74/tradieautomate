@@ -123,7 +123,7 @@ The single biggest reason installers fail CER audits is not bad work — it is p
 
 The [ServiceM8 review](/blog/servicem8-review) covers the platform in depth if you want the full picture, but the compliance documentation use case alone makes it worth evaluating for any solar installer with more than a handful of jobs per month.
 
-If you are not using a digital system yet, [ServiceM8](https://servicem8.com) offers a free trial — worth setting up before your next CER lodgement cycle rather than after an audit request.
+If you are not using a digital system yet, [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) offers a free trial — worth setting up before your next CER lodgement cycle rather than after an audit request.
 
 ---
 

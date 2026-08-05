@@ -92,7 +92,7 @@ Some features require an additional monthly subscription on top of your base pla
 | ServiceM8 Pay | Transaction fee | Accept card payments via Stripe integration |
 | AI Receptionist | ~$49–$99/month | Auto-answer calls, create jobs from phone enquiries |
 
-Verify current add-on pricing directly at servicem8.com — these change periodically.
+Verify current add-on pricing directly at <a href="https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate">servicem8.com</a> — these change periodically.
 
 ---
 

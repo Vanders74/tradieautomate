@@ -231,7 +231,7 @@ The entry point is low. ServiceM8's Starter plan (which includes the bulk of the
 
 ### Which ServiceM8 plan do I need to access automation features?
 
-Most automation features — including SMS reminders, automated follow-ups, and digital forms — are available from the Starter plan upward. The Lite plan (15 jobs/month) has more limited automation. For compliance-heavy businesses, the Growing or Premium plan is recommended. [Compare plans and start your trial](https://www.servicem8.com/?ref=tradieautomate).
+Most automation features — including SMS reminders, automated follow-ups, and digital forms — are available from the Starter plan upward. The Lite plan (15 jobs/month) has more limited automation. For compliance-heavy businesses, the Growing or Premium plan is recommended. [Compare plans and start your trial](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate).
 
 ### How do I use AI for compliance documentation specifically?
 
