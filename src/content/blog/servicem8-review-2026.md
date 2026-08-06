@@ -1,6 +1,6 @@
 ---
-title: 'ServiceM8 Review 2026: Real Pricing, Features & Who It Actually Suits'
-description: "$29/mo ServiceM8 review 2026: best for 1-5 person crews, same-day invoicing & CCEW compliance. Where it fails at scale vs simPRO or AroFlo."
+title: 'ServiceM8 Review 2026: Best Job Management for Small Aussie Crews — Where It Fails at Scale'
+description: "$29/mo, unlimited staff, same-day invoices. Honest ServiceM8 review: who it's perfect for, where it breaks, and how it compares to simPRO, Tradify & AroFlo."
 updatedDate: 'Jul 20 2026'
 pubDate: 'Apr 03 2026'
 category: "ServiceM8"
@@ -109,13 +109,13 @@ There are some add-ons that push costs higher — advanced scheduling, job costi
 
 For solar installers and electricians operating under strict regulatory requirements, ServiceM8's digital forms are exceptional. You can build custom compliance checklists, inspection reports, and certificate of compliance templates that field staff complete on-site via the app.
 
-The regulatory landscape for Australian electricians is demanding: under **NSW Fair Trading's CCEW framework** (*Home Building Act 1989* and *Electricity (Consumer Safety) Act 2004*), a Certificate of Compliance Electrical Work must be lodged within 7 days of job completion — with penalties up to $22,000 per offence for non-compliance. In Victoria, **Energy Safe Victoria requires CES lodgement within 30 days** under the *Electricity Safety Act 1998 (Vic)*. Nationally, Clean Energy Regulator audits under the *Renewable Energy (Electricity) Act 2000* require complete installation records including geo-tagged photos and test results.
+The regulatory landscape for Australian electricians is demanding: under **NSW Fair Trading's CCEW framework** (*Home Building Act 1989* and *Electricity (Consumer Safety) Act 2004*), a Certificate of Compliance Electrical Work must be lodged within 7 days of job completion — with penalties up to $22,000 per offence for non-compliance. In Victoria, **Energy Safe Victoria requires CES lodgement within 30 days** under the *Electricity Safety Act 1998 (Vic)*. Nationally, Clean Energy Regulator audits under the *Renewable Energy (Electricity) Act 2000* require complete installation records including geo-tagged photos and test results. For installers, our [solar compliance checklist](/blog/solar-compliance-checklist-2026) maps every CER documentation requirement against what ServiceM8's forms capture automatically.
 
 ServiceM8's digital job forms are built to capture all of this at the point of work — not in a Friday afternoon paperwork scramble.
 
 Photos attach directly to job records — not floating in someone's camera roll. Every site visit is timestamped and auditable. When Fair Trading NSW, Energy Safe Victoria, or the Clean Energy Regulator comes knocking, your documentation is already organised.
 
-Working with trades businesses preparing for CER audits, I've seen this shift firsthand: companies that previously spent two days pulling together paper records for a spot audit now do it in under two hours — because everything is tied to the job record automatically.
+Working with trades businesses preparing for CER audits, I've seen this shift firsthand: companies that previously spent two days pulling together paper records for a spot audit now do it in under two hours — because everything is tied to the job record automatically. See our [CER audit preparation guide](/blog/cer-audit-prep-solar-installers) for the full compliance workflow.
 
 ### 2. Automatic Invoice Generation
 
@@ -194,7 +194,7 @@ ServiceM8 is the strongest fit for:
 - **Owner-operators** who want to stop losing time to admin without hiring a dedicated admin person
 
 > 📊 **Not sure if job management software is worth it for your business?**
-> Use our free [Tradie Admin Cost Calculator](/tools/admin-cost-calculator) to see exactly how much your current admin overhead is costing you per year — takes 60 seconds.
+> Use our free [Tradie Admin Cost Calculator](/tools/admin-cost-calculator) to see exactly how much your current admin overhead is costing you per year — takes 60 seconds. Already running ServiceM8? See [how digital job management cuts admin costs](/blog/hidden-admin-cost-calculator) with real numbers.
 
 It's less suitable for:
 - Large commercial or civil contractors with complex project accounting needs
@@ -304,18 +304,9 @@ Yes — ServiceM8 offers a 14-day free trial with no credit card required. You g
 
 *Related reading:*
 - *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
-- *[Why Solar Installers Are Switching to Digital Job Management](/blog/digital-job-management-solar-installers)*
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
 - *[ServiceM8 for Plumbers: Run a Tighter Plumbing Business With Less Admin](/blog/servicem8-for-plumbers)*
-- *[ServiceM8 for HVAC Technicians](/blog/servicem8-for-hvac)*
-- *[ServiceM8 for Painters: Quote Faster, Invoice Sooner, Chase Less](/blog/servicem8-for-painters)*
-- *[ServiceM8 for Roofing Contractors: Manage Jobs, Quotes, and Compliance From the Field](/blog/servicem8-for-roofing)*
-- *[simPRO vs ServiceM8: Which Fits a 3-Man HVAC Business Better?](/blog/simpro-vs-servicem8-hvac-small-business)*
 - *[ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia)*
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
-- *[ServiceM8 vs Fergus: Honest Comparison for Australian Trades](/blog/servicem8-vs-fergus)*
-- *[ServiceM8 vs AroFlo: Which Field Service Platform Is Right for You?](/blog/servicem8-vs-aroflo)*
-- *[ServiceM8 vs TradiePad: Which Job Management App Wins?](/blog/servicem8-vs-tradie-pad)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[How to Sell Your ServiceM8-Based Trade Business for Maximum Value](/blog/sell-servicem8-trade-business-value)*
-- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
