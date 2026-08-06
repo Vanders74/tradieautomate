@@ -1,6 +1,6 @@
 ---
-title: 'AS/NZS 5139 Battery Storage Compliance: What Solar Installers Need to Know'
-description: 'AS/NZS 5139 battery compliance in 2026: installation clearances, fire-rated enclosures, BMS labeling. Avoid CER audit failures with this plain-English installer guide.'
+title: 'AS/NZS 5139 Battery Storage: Installation Clearances, Enclosures & BMS Rules'
+description: 'AS/NZS 5139 battery compliance in 2026: 600mm side clearances, 900mm front, fire-rated non-combustible enclosures, and BMS labeling requirements. Plain-English installer reference with clause-by-clause breakdown.'
 updatedDate: 'Apr 18 2026'
 pubDate: 'Feb 22 2026'
 category: "Compliance"
