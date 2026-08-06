@@ -1,6 +1,6 @@
 ---
-title: 'Electrical Contractor Insurance Australia 2026: What You Need, What It Costs, and What Gets You Covered'
-description: "$1,200-$5,000/yr — what Australian electrical contractors actually pay for insurance in 2026. Public liability, PI, and solar-specific policies by state."
+title: 'Electrical Contractor Insurance: Costs & Coverage 2026'
+description: "$1,200-$5,000/yr is what Australian electrical contractors pay for insurance in 2026. Public liability, professional indemnity, and solar-specific policies — state-by-state minimums and real quotes."
 pubDate: 'May 10 2026'
 updatedDate: 'Jul 20 2026'
 category: "Business Growth"
