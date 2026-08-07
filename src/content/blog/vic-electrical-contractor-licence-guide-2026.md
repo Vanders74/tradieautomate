@@ -1,6 +1,6 @@
 ---
-title: "VIC Electrical Contractor Licence (REC) 2026 — ESV Registration Guide"
-description: "REC registration with Energy Safe Victoria is mandatory — illegal to operate without it. VIC contractor requirements, REC course, technical nominee, and insurance for 2026."
+title: "VIC Electrical Contractor Licence (REC): How to Register With Energy Safe Victoria in 2026"
+description: "How to get your VIC electrical contractor licence (REC): Certificate III + 2 years experience → ESV registration → $5M public liability insurance. Step-by-step 2026 guide with fees, forms, and technical nominee requirements."
 pubDate: 'Jul 19 2026'
 updatedDate: 'Jul 19 2026'
 category: "Compliance"
