@@ -1,7 +1,7 @@
 ---
-title: 'ServiceM8 Review 2026: Best Job Management for Small Aussie Crews — Where It Fails at Scale'
-description: "$29/mo, unlimited staff, same-day invoices. Honest ServiceM8 review: who it's perfect for, where it breaks, and how it compares to simPRO, Tradify & AroFlo."
-updatedDate: 'Jul 20 2026'
+title: 'ServiceM8 Review 2026 — Honest Verdict vs simPRO, Tradify & More'
+description: "$29/mo, unlimited staff, best compliance forms in the game — but ServiceM8 isn't for everyone. Where it beats simPRO & Tradify, and where it falls short for Australian tradies in 2026."
+updatedDate: 'Aug 07 2026'
 pubDate: 'Apr 03 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-review.jpg'
