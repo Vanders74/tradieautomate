@@ -116,7 +116,7 @@ See our full guide to [AS/NZS 5139 battery storage compliance](/blog/as-nzs-5139
 Compliance in Australia isn't fully uniform — each state and territory has its own electrical licensing requirements, Certificate of Electrical Safety (CES) lodgement processes, and in some cases specific rules around metering and grid connection:
 
 - **NSW** — Fair Trading requires CES lodgement within 3 business days of inspection. The Inspector of Electrical Work must be notified for certain system sizes. See our full [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026).
-- **VIC** — Energy Safe Victoria has specific requirements around solar design documentation and export limiting. The [VIC Solar Homes battery rebate program](/blog/vic-solar-homes-program-rebate-2026) adds registration and reporting obligations for participating installers.
+- **VIC** — Energy Safe Victoria has specific requirements around solar design documentation and export limiting. The [VIC Solar Homes battery rebate program](/blog/vic-solar-homes-program-rebate-2026) adds registration and reporting obligations for participating installers. Victorian electricians installing heat pump hot water systems should also understand the [VEU program](/blog/victorian-energy-upgrades-veu-electricians-guide-2026) — VEECs operate alongside STCs with their own accreditation and documentation requirements.
 - **QLD** — Electrical Safety Office requires licensed electrical contractors to complete and issue an ESREQ for new connections and major work. See the full [QLD electrical contractor licence guide](/blog/qld-electrical-contractor-licence-guide-2026) for QBCC, ESQ, and QLeave requirements.
 - **SA** — Consumer and Business Services has specific requirements for Certificate of Compliance (COC) documentation. If you're participating in the [SA Home Battery Scheme](/blog/sa-solar-battery-rebate-2026), there are additional installer registration and rebate documentation obligations.
 - **WA** — EnergySafety WA requirements differ from eastern states. See our [WA electrical contractor licence guide](/blog/wa-electrical-contractor-licence-guide-2026) for the EnergySafety framework and CCEI requirements.
@@ -211,6 +211,7 @@ Yes. [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance) has specific re
 - [Why Solar Installers Are Switching to Digital Job Management in 2026](/blog/digital-job-management-solar-installers)
 - [ServiceM8 for Solar Installers: The Job Management Platform Built for Compliance](/blog/servicem8-for-solar-installers)
 - [Electrical Job Management Software Australia 2026: Buyer's Guide](/blog/electrical-job-management-software-buyers-guide-australia)
+- [Victorian Energy Upgrades (VEU) Guide: $250–$1,650 per heat pump job via VEECs](/blog/victorian-energy-upgrades-veu-electricians-guide-2026)
 
 ---
 

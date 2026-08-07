@@ -1,6 +1,6 @@
 ---
 title: 'Victorian Energy Upgrades (VEU): How Electricians Earn $250–$1,650 Per Heat Pump Job in 2026'
-description: "VEU pays electricians $250–$1,650 per heat pump installation through VEEC certificates ($25–$55 each). Step-by-step accreditation, eligible activities, and how to trade certificates for cash."
+description: "VEU pays electricians $250–$1,650 per heat pump job via VEECs ($25–$55 each). Step-by-step accreditation, eligible activities, and how to trade certificates for cash."
 pubDate: 'Jul 19 2026'
 updatedDate: 'Jul 19 2026'
 category: 'Compliance'
@@ -21,17 +21,19 @@ faq:
 
 > **Victorian Energy Efficiency Certificate (VEEC):** A tradeable certificate created under the Victorian Energy Upgrades (VEU) program when an accredited party completes an eligible energy efficiency upgrade. Each VEEC represents one tonne of greenhouse gas abatement. Certificates are traded on the open market and purchased by obligated retailers to meet their annual scheme targets.
 
-Victorian electricians doing heat pump hot water installations, lighting upgrades, and gas-to-electric space heating replacements are sitting on a revenue stream most aren't claiming. The Victorian Energy Upgrades (VEU) program — administered by the **Essential Services Commission (ESC)** — lets accredited persons create **Victorian Energy Efficiency Certificates (VEECs)** after completing eligible upgrades. Those certificates are then sold on the open market.
+Victorian electricians doing heat pump hot water installations, lighting upgrades, and gas-to-electric space heating replacements are sitting on a revenue stream most aren't claiming. The Victorian Energy Upgrades (VEU) program — established under the **Victorian Energy Efficiency Target Act 2007 (VEET Act)** and administered by the **Essential Services Commission (ESC)** — lets accredited persons create **Victorian Energy Efficiency Certificates (VEECs)** after completing eligible upgrades. Those certificates are then sold on the open market.
 
 The arithmetic is straightforward: a 315L heat pump hot water installation in a house with an old electric storage system can generate 20+ VEECs. At $35 per certificate, that's $700 in additional revenue on a job you're already doing — revenue that non-accredited competitors aren't capturing. Multiply that across 30 eligible installs per year and you're looking at $21,000+ in unclaimed certificate income.
 
 This guide explains how the VEU program works for electricians — who can participate, what activities qualify, how to create certificates, and how VEU interacts with federal STCs on the same property.
 
+**What is a VEEC?** A Victorian Energy Efficiency Certificate is a tradeable certificate representing one tonne of greenhouse gas abatement, created by an accredited person after completing an eligible activity under the VEET Regulations 2018. Certificates are sold to energy retailers to meet annual scheme targets — generating revenue on top of installation fees.
+
 ---
 
 ## How the VEU Program Works
 
-The VEU program creates a market-based mechanism for reducing energy consumption across Victoria. Obligated parties — primarily electricity and gas retailers above certain supply thresholds — must surrender VEECs each year to meet scheme targets set by the ESC. They buy VEECs from scheme participants who have completed eligible activities.
+The VEU program creates a market-based mechanism for reducing energy consumption across Victoria. Established under the **Victorian Energy Efficiency Target Act 2007**, with eligible activities defined in the **Victorian Energy Efficiency Target Regulations 2018**, the scheme obligates electricity and gas retailers above certain supply thresholds to surrender VEECs each year to meet targets set by the ESC. They buy VEECs from scheme participants who have completed eligible activities.
 
 The flow looks like this:
 
@@ -118,7 +120,7 @@ Obtain written consent from the customer to assign VEECs to you (or your scheme 
 
 ### Step 3: Installation
 
-Complete the installation to the relevant standard. For electrical work, all installations must comply with **AS/NZS 3000:2018 (Wiring Rules)** and any applicable product-specific standard. For heat pump hot water, follow manufacturer specifications and state plumbing codes where applicable.
+Complete the installation to the relevant standard. For electrical work, all installations must comply with **AS/NZS 3000:2018 (Wiring Rules)** — specifically **Clause 1.4** (fundamental safety principles), **Clause 1.7** (testing and verification), and any applicable product-specific standard. For heat pump hot water, follow manufacturer specifications and state plumbing codes where applicable.
 
 ### Step 4: Evidence Collection
 
@@ -230,23 +232,23 @@ The ESC's accreditation process requires ongoing compliance — including audits
 
 ## FAQ
 
-**What is the difference between a VEEC and an STC?**
+### What is the difference between a VEEC and an STC?
 
 A Victorian Energy Efficiency Certificate (VEEC) is created under Victoria's VEU program for energy efficiency upgrades (heat pump hot water, lighting, heating). A Small-scale Technology Certificate (STC) is created under the federal Small-scale Renewable Energy Scheme for renewable energy installations (solar PV, solar water heaters). Different regulators, different markets, different activities — but potentially claimable from the same site if different activities are involved.
 
-**How long does ESC accreditation take?**
+### How long does ESC accreditation take?
 
 The ESC typically processes new scheme participant applications within 20–40 business days. Complex applications or those with missing information take longer. Build this into your planning timeline — start the application before you need to create your first VEECs.
 
-**Can I create VEECs for jobs already completed before accreditation?**
+### Can I create VEECs for jobs already completed before accreditation?
 
 No. VEECs can only be created for installations completed after your accreditation is active and you have a valid customer assignment agreement. There is no retrospective VEEC creation for pre-accreditation work.
 
-**Do I need separate accreditation for each activity type?**
+### Do I need separate accreditation for each activity type?
 
 Yes. VEU accreditation is activity-specific. Approval for heat pump hot water installations does not extend to lighting upgrades or space heating replacements. Apply for each activity type you intend to undertake, and ensure you understand the relevant Activity Definition for each.
 
-**Is VEU only for residential properties?**
+### Is VEU only for residential properties?
 
 No — VEU covers both residential and commercial activities. Commercial lighting upgrades and commercial heat pump installations can generate VEECs. Commercial activities often carry more stringent evidence requirements and larger certificate volumes.
 

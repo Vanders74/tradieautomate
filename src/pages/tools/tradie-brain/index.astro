@@ -98,6 +98,18 @@ const faqSchema = {
     }
   ]
 };
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tradie Brain AI — Free Solar & Electrical Compliance Advisor",
+  "description": "Free AI advisor for Australian solar and electrical contractors. Instant answers on CER audits, AS/NZS 5033 and 5139, ServiceM8, STC claims, CCEW lodgement, EV charger approvals, and trade business growth.",
+  "url": "https://tradieautomate.com/tools/tradie-brain/",
+  "dateModified": "2026-08-08",
+  "publisher": {
+    "@type": "Organization",
+    "name": "TradieAutomate"
+  }
+};
 ---
 
 <!doctype html>
@@ -109,6 +121,7 @@ const faqSchema = {
     />
     <script type="application/ld+json" set:html={JSON.stringify(softwareSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)} />
     <style>
       /* ── Hero (compact) ── */
       .tb-hero {
@@ -535,8 +548,10 @@ const faqSchema = {
         <span class="badge">⚡ Free AI Tool</span>
         <h1>Tradie Brain AI</h1>
         <p class="tagline">
-          Instant compliance answers for Australian solar installers &amp; electricians.
-          No login. No fluff.
+          Instant compliance answers for Australian solar installers &amp; electricians —
+          trained on CER audit requirements, AS/NZS 5033, AS/NZS 5139, and state
+          electrical safety regulations. No login. No fluff.
+          <span style="color:#94a3b8;font-size:0.82rem;">Updated 8 August 2026</span>
         </p>
         <div class="tb-trust">
           <span><span class="dot"></span> Free &amp; no login required</span>

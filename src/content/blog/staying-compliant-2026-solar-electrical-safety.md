@@ -135,6 +135,7 @@ Electrical licensing and compliance requirements vary by state. The key obligati
 - **Certificate of Electrical Safety (CES):** Required for electrical installation work, including solar and battery. Must be issued within 30 days of completing the work.
 - **Notification requirements:** Certain work types require notification to your network distributor. Know which jobs trigger this obligation.
 - **Licensed electrical inspection:** Some work types require inspection by a licensed electrical inspector before connection. Confirm requirements for your jurisdiction before scheduling connection.
+- **Victorian Energy Upgrades (VEU):** If you're installing heat pump hot water systems, the state VEU program generates VEECs on top of STCs — with its own ESC accreditation and documentation requirements. See our [VEU guide for electricians](/blog/victorian-energy-upgrades-veu-electricians-guide-2026).
 
 ### New South Wales — SafeWork NSW
 
@@ -230,6 +231,7 @@ Build your compliance workflows, embed your SWMS checklist, and create the docum
 - *[solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)*
 - *[The 2026 Solar Playbook: How to Win the Battery Upgrade Wave](/blog/solar-playbook-2026-battery-upgrade)*
 - *[The 1.5kW Export Limit Explained for Solar Installers (CSIP-Aus)](/blog/csip-aus-export-limit-1-5kw-solar)*
+- [Victorian Energy Upgrades (VEU) Guide: $250–$1,650 per heat pump job via VEECs](/blog/victorian-energy-upgrades-veu-electricians-guide-2026)
 
 
 **See also:** [QLD Electrical Contractor Licence 2026: QBCC, ESQ & QLeave Requirements](/blog/qld-electrical-contractor-licence-guide-2026)

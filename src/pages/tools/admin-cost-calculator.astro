@@ -6,12 +6,72 @@ import { SITE_TITLE } from '../../consts';
 
 const title = "Tradie Admin Cost Calculator | How Much Is Admin Costing Your Business?";
 const description = "Free calculator for Australian trade businesses. Enter your team size, trade type, and hours — see exactly how much admin is costing you per week, month, and year. Takes 60 seconds.";
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tradie Admin Cost Calculator Australia 2026",
+  "description": description,
+  "url": "https://tradieautomate.com/tools/admin-cost-calculator/",
+  "dateModified": "2026-08-08",
+  "publisher": {
+    "@type": "Organization",
+    "name": "TradieAutomate"
+  }
+};
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does admin actually cost Australian trade businesses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Based on 2026 benchmarking across 57+ Australian trade businesses, the average annual admin leak is $78,000. Electricians lose $55,000–$78,000 per year, solar installers $95,000–$124,000, plumbers $50,000–$73,000, and HVAC businesses $60,000–$81,000. This is time lost to quoting, invoicing, scheduling, and customer follow-up that could have been spent on billable work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the admin cost calculator work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Enter your hourly charge-out rate and estimate how many hours per week you spend on quoting, invoicing, scheduling, and customer follow-up. The calculator multiplies those hours by your rate (your opportunity cost) to produce weekly and annual admin leak figures. It then projects the savings from switching to an automated job management platform, based on real efficiency gains from Australian trade businesses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which trades waste the most time on admin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Solar and electrical installation businesses carry the heaviest admin burden due to compliance documentation — STC lodgements, CCEW certificates, CER audit records, and customer handover packs. A typical solar installer spends 8–14 hours per week on unbillable admin. General trades (plumbers, landscapers) spend less because their compliance burden is lighter. The calculator benchmarks your trade against industry averages."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly does ServiceM8 pay for itself in admin savings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ServiceM8 starts at $65/month (Solo) and ranges to $349/month (Unlimited). At the median admin leak of $78,000/year — or $1,500/week — the platform pays for itself within the first week by eliminating manual quoting, invoicing, and scheduling overhead. Australian trade businesses using ServiceM8 report 60–80% reduction in admin hours within the first month."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the admin cost calculator free to use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — completely free, no sign-up required. Takes 60 seconds. Enter your trade type and estimated admin hours to get an instant annual admin leak estimate benchmarked against 57+ real Australian trade businesses."
+      }
+    }
+  ]
+};
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <BaseHead title={title} description={description} />
+    <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
     <style>
       .tool-hero {
         background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
@@ -194,7 +254,7 @@ const description = "Free calculator for Australian trade businesses. Enter your
       <div class="tool-hero">
         <div class="badge">Free Tool</div>
         <h1>How Much Is Admin Costing Your Trade Business?</h1>
-        <p>Australian tradies lose an average of $55,000–$120,000 per year to unbillable admin. Find your number in 60 seconds.</p>
+        <p>Australian tradies lose an average of $55,000–$120,000 per year to unbillable admin — quoting, invoicing, scheduling, and follow-up that could be billable work. Find your number in 60 seconds. Updated 8 August 2026.</p>
         <div class="tool-stats">
           <div class="stat">
             <span class="stat-number">57+</span>

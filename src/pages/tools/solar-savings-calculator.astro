@@ -5,12 +5,64 @@ import Footer from '../../components/Footer.astro';
 
 const title = "Solar Savings & Break-Even Calculator | Know Your Payback Before You Buy";
 const description = "Free homeowner calculator for Australian solar. Enter your usage, tariff, system specs and rebates — instantly see Year 1 savings, break-even year, and a 25-year forecast. Generates copy-paste quote text for solar installers.";
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Solar Savings & Break-Even Calculator Australia 2026",
+  "description": description,
+  "url": "https://tradieautomate.com/tools/solar-savings-calculator/",
+  "dateModified": "2026-08-08",
+  "publisher": {
+    "@type": "Organization",
+    "name": "TradieAutomate"
+  }
+};
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How are Solar STC rebates calculated for my system?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Small-scale Technology Certificates (STCs) are calculated based on your system size (kW), your Clean Energy Regulator deeming zone (1–4), and the years remaining until the SRES scheme ends in 2030. The calculator auto-detects your zone from your postcode and applies the current $35/STC spot price. STCs are typically assigned to your installer at point of sale as an upfront discount."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the calculator include battery storage rebates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. When you toggle battery storage on, the calculator applies your state's available battery scheme — up to $2,950 in VIC via the Solar Homes Program, up to $2,000 in SA via the Home Battery Scheme, and the federal $372/kWh incentive where applicable. Battery degradation (80% retention at 10 years) and round-trip efficiency are factored into the 25-year forecast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What feeds into the solar payback calculation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The payback model incorporates: your household daily kWh usage and load profile (flat, day-heavy, or evening peak), your electricity tariff including time-of-use rates, your solar feed-in tariff rate, panel degradation at 0.5% per year, and electricity price inflation at 3% per year. STC rebate is auto-calculated from your system size and deeming zone."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the solar savings calculator free to use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — completely free, no sign-up required. Enter your postcode, daily usage, tariff type, system size and any battery preference to get an instant Year 1 savings estimate, break-even year, and 25-year cumulative forecast. Solar installers can use the quote output block to generate copy-paste text for customer proposals."
+      }
+    }
+  ]
+};
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <BaseHead title={title} description={description} />
+    <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
     <style>
       .tool-hero {
         background: linear-gradient(135deg, #0f172a 0%, #1a2744 100%);
@@ -185,7 +237,7 @@ const description = "Free homeowner calculator for Australian solar. Enter your 
       <div class="tool-hero">
         <div class="badge">☀️ Free Tool — Homeowners &amp; Solar Installers</div>
         <h1>Solar Savings &amp; Break-Even Calculator</h1>
-        <p>Enter your household usage, tariff structure, system size, and rebates — see exactly when solar pays back and what it earns you over 25 years.</p>
+        <p>Enter your household usage, tariff structure, system size, and rebates — see exactly when solar pays back and what it earns you over 25 years. All estimates use your state's Clean Energy Regulator deeming zone for STC calculations, actual feed-in tariff rates, and 2026 battery rebate schemes. Updated 8 August 2026.</p>
         <div class="tool-stats">
           <div class="stat">
             <span class="stat-number">25-yr model</span>

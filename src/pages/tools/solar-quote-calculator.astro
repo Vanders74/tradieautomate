@@ -6,12 +6,64 @@ import { SITE_TITLE } from '../../consts';
 
 const title = "Solar Quote Profitability Calculator | Know Your Margin Before You Send the Quote";
 const description = "Free tool for Australian solar installers. Enter your system size, costs and labour — instantly see net profit, margin %, effective hourly rate, and the exact breakeven price for any job.";
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Solar Quote Profitability Calculator Australia 2026",
+  "description": description,
+  "url": "https://tradieautomate.com/tools/solar-quote-calculator/",
+  "dateModified": "2026-08-08",
+  "publisher": {
+    "@type": "Organization",
+    "name": "TradieAutomate"
+  }
+};
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does the solar quote calculator calculate my profit margin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The calculator subtracts your full material cost (panels, inverter, mounting, cabling), true labour cost (field + admin hours at your rate), overhead allocation, and warranty reserve from your quote price. It then adds the auto-calculated STC rebate value based on your state's Clean Energy Regulator deeming zone. The result is your net profit, margin percentage, effective hourly rate, and breakeven price at 10%, 15%, and 20% margin targets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are STC rebates automatically calculated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Select your state and system size and the calculator estimates your STC value using the Clean Energy Regulator deeming zone (1–4), current deeming period through 2030, and a $35/STC spot price. You can override the STC value if your certificate agent offers a different rate. STCs are administered by the CER under the Renewable Energy (Electricity) Act 2000."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the calculator account for battery storage jobs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — toggle battery on to add battery material cost, installation labour, and any applicable state battery rebate to your job economics. The calculator shows how adding storage changes your total job margin and breakeven price. Battery installations in Australia must comply with AS/NZS 5139:2019 clearance and documentation requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this solar quote calculator free for Australian installers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — completely free for all Australian solar, battery, and electrical installers. No sign-up, no email required. Bookmark it and run every quote through it before sending. Pair it with the TradieAutomate Solar Savings Calculator for the customer-facing side of the quote."
+      }
+    }
+  ]
+};
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <BaseHead title={title} description={description} />
+    <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
     <style>
       .tool-hero {
         background: linear-gradient(135deg, #0f172a 0%, #1a2744 100%);
@@ -239,7 +291,7 @@ const description = "Free tool for Australian solar installers. Enter your syste
       <div class="tool-hero">
         <div class="badge">☀️ Free Tool — Solar Installers</div>
         <h1>Know Your Margin Before You Send the Quote</h1>
-        <p>Enter your system size, materials, labour, and STC zone — instantly see net profit, margin %, effective hourly rate, and exact breakeven prices.</p>
+        <p>Enter your system size, materials, labour, and STC zone — instantly see net profit, margin %, effective hourly rate, and exact breakeven prices. STC rebates are auto-calculated using your state's Clean Energy Regulator deeming zone (1–4) at the current $35 spot price. Updated 8 August 2026.</p>
         <div class="tool-stats">
           <div class="stat">
             <span class="stat-number">STC auto-calc</span>

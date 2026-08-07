@@ -6,6 +6,18 @@ import { SITE_TITLE } from '../../consts';
 
 const title = "EV Charger Installation Cost Calculator Australia 2026 | Free Estimator";
 const description = "Free EV charger installation cost calculator for Australian homeowners. Get an instant cost estimate for your property — house, townhouse or apartment — with breakdown by switchboard, cable run, hardware and compliance cert.";
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "EV Charger Installation Cost Calculator Australia 2026",
+  "description": description,
+  "url": "https://tradieautomate.com/tools/ev-charger-quote-calculator/",
+  "dateModified": "2026-08-08",
+  "publisher": {
+    "@type": "Organization",
+    "name": "TradieAutomate"
+  }
+};
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -42,6 +54,7 @@ const faqSchema = {
 <html lang="en">
   <head>
     <BaseHead title={title} description={description} />
+    <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
     <style>
       .tool-hero {
@@ -268,7 +281,7 @@ const faqSchema = {
       <div class="tool-hero">
         <div class="badge">⚡ Free Tool — EV Owners &amp; Electricians</div>
         <h1>How Much Does EV Charger Installation Cost in Australia?</h1>
-        <p>Answer 7 quick questions about your property and get an instant, itemised cost estimate — based on real 2026 Australian installation data.</p>
+        <p>Answer 7 quick questions about your property and get an instant, itemised cost estimate — based on real 2026 Australian installation data. Every EV charger installation must comply with <strong>AS/NZS 3000:2018</strong> (Wiring Rules) and requires a state-specific compliance certificate — <strong>CCEW in NSW</strong>, <strong>CES in Victoria</strong>, or equivalent — issued by a licensed electrical contractor under state electrical safety legislation. Updated 8 August 2026.</p>
         <div class="tool-stats">
           <div class="stat">
             <span class="stat-number">7 questions</span>
