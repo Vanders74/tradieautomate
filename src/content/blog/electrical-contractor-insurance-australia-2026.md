@@ -1,5 +1,5 @@
 ---
-title: "Electrical Contractor Insurance Cost Guide 2026 — What You'll Actually Pay"
+title: "Electrical Contractor Insurance Cost: $600–$2,500/Year — What You'll Actually Pay (2026)"
 description: "$600–$2,500/year — what Australian electrical contractors actually pay for insurance in 2026. Public liability, PI, workers comp costs by state and turnover."
 pubDate: "May 10 2026"
 updatedDate: "Aug 08 2026"
