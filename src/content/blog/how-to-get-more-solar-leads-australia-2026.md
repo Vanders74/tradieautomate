@@ -1,6 +1,6 @@
 ---
 title: 'How to Get More Solar Leads in Australia: The 2026 Marketing Guide for Solar Installation Businesses'
-description: 'A practical guide for Australian solar installers on generating consistent, high-quality leads in 2026 — Google Business Profile, SEO, referrals, social proof, and the channels that actually work.'
+description: 'Australian solar installers: proven lead generation channels for 2026 — GBP, SEO, referrals, Google Ads, and which ones convert at $0 per lead once set up right.'
 pubDate: 'May 16 2026'
 category: "Business Growth"
 heroImage: '/hero-solar-leads-australia.jpg'
@@ -17,7 +17,7 @@ faq:
 
 Getting consistent solar installation leads is the number one challenge for most solar businesses in Australia in 2026. The market is large — hundreds of thousands of homeowners are still considering solar — but so is the competition. Every suburb has three to ten installation businesses competing for the same enquiries.
 
-The installers who are growing in this market aren't necessarily spending more on marketing. They're spending smarter — on channels that generate high-quality, high-intent leads at a sustainable cost, and on the reputation infrastructure that converts those leads into signed jobs.
+The installers who are growing in this market aren't necessarily spending more on marketing. They're spending smarter — on channels that generate high-quality, high-intent leads at a sustainable cost, and on the reputation infrastructure that converts those leads into signed jobs. Critically, they also understand the regulatory framework: the **Clean Energy Regulator (CER)** administers the Small-scale Renewable Energy Scheme under the **Renewable Energy (Electricity) Act 2000**, which governs STC eligibility — and only **Clean Energy Council (CEC)** accredited installers can create STCs. Displaying that accreditation isn't just a trust signal; it's a legal prerequisite for customers to access the federal solar rebate.
 
 This guide covers the proven lead generation channels for Australian solar businesses in 2026, with a practical implementation guide for each.
 

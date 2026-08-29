@@ -1,6 +1,6 @@
 ---
 title: 'Best Accounting Software for Solar & Electrical Businesses in Australia: Xero vs MYOB vs QuickBooks'
-description: 'An honest comparison of Xero, MYOB, and QuickBooks for Australian solar installation and electrical businesses — GST handling, payroll, ServiceM8 integration, pricing, and which one is right for your trade business.'
+description: 'Xero vs MYOB vs QuickBooks for Australian solar & electrical: ServiceM8 integration, Fair Work Act payroll, CER/STC compliance — which fits your trade business.'
 pubDate: 'May 08 2026'
 updatedDate: 'Jul 30 2026'
 category: "Business Growth"
@@ -8,7 +8,7 @@ heroImage: '/hero-accounting-software-solar.jpg'
 tags: ['accounting software', 'Xero', 'MYOB', 'QuickBooks', 'solar', 'electrician', 'business']
 ---
 
-Most solar installers and electricians start out with someone doing the books — a spouse, a bookkeeper, or just themselves with a spreadsheet. At some point, the business grows beyond what that can handle, and a cloud accounting platform becomes necessary.
+Most solar installers and electricians start out with someone doing the books — a spouse, a bookkeeper, or just themselves with a spreadsheet. At some point, the business grows beyond what that can handle, and a cloud accounting platform becomes necessary. But before comparing platforms, understand the regulatory context: the **Fair Work Act 2009** (enforced by the **Fair Work Ombudsman**) governs how you pay staff under the **Electrical, Electronic and Communications Contracting Award 2020 (MA000025)**, and solar installers must comply with **Clean Energy Regulator** STC lodgement requirements under the **Renewable Energy (Electricity) Act 2000**. Your accounting software needs to support both.
 
 The three dominant players in the Australian small business accounting market are Xero, MYOB, and QuickBooks Online. All three handle the basics: invoicing, expenses, GST, payroll (in some tiers), bank reconciliation, and financial reporting. The differences are in depth, ease of use, integration with trade software like ServiceM8, and price.
 

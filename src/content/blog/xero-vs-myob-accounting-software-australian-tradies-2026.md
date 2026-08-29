@@ -1,6 +1,6 @@
 ---
 title: "Xero vs MYOB for Australian Trade Businesses 2026: Honest Head-to-Head"
-description: "Xero wins on integrations and mobile; MYOB wins on payroll depth for trade awards. For an electrician or solar installer in 2026, here's which one to buy — with Australian pricing, ServiceM8 integration depth, and BAS handling compared."
+description: "Xero vs MYOB for tradie businesses 2026: Xero wins on ServiceM8 integration ($65/mo); MYOB fights back on Electrical Award payroll. Fair Work Act 2009 compliance compared."
 pubDate: 'Jul 20 2026'
 updatedDate: 'Jul 20 2026'
 category: "Software Comparisons"
@@ -24,7 +24,7 @@ faq:
 
 **Buy MYOB AccountRight if:** You have 5+ employees on the Electrical Contracting Award (MA000025) with complex allowance structures, you're already embedded in the MYOB ecosystem, or your accountant specifically prefers MYOB for your file type.
 
-For the majority of Australian electricians and solar installers — particularly those using ServiceM8 — **Xero is the right call in 2026.** The API is wider, the mobile app is better, and the interface is easier to hand to a bookkeeper or spouse doing the admin.
+For the majority of Australian electricians and solar installers — particularly those using ServiceM8 — **Xero is the right call in 2026.** The API is wider, the mobile app is better, and the interface is easier to hand to a bookkeeper or spouse doing the admin. Whichever platform you choose, your payroll setup must comply with the **Fair Work Act 2009** — the **Fair Work Ombudsman** enforces award compliance, and underpayment of the **Electrical, Electronic and Communications Contracting Award 2020 (MA000025)** carries back-pay exposure of up to 6 years.
 
 The rest of this article explains exactly why, and where MYOB is the better answer.
 

@@ -1,6 +1,6 @@
 ---
 title: 'How to Set Up Electrical Award Allowances in Xero Payroll (Without the Manual Math)'
-description: "Xero does NOT automatically calculate Electrical Award (MA000025) allowances — tool money, height allowance, dirt money all require manual pay item setup. Step-by-step: create ATO-compliant pay items once, then apply per-payrun. Includes STP Phase 2 reporting categories, super treatment, and Fair Work Commission rate update process."
+description: "Xero does NOT auto-calculate Electrical Award allowances. Step-by-step pay item setup with STP2 categories, super treatment, and Fair Work Act 2009 rate updates."
 pubDate: 'May 19 2026'
 updatedDate: 'Jul 19 2026'
 category: "Business Growth"
@@ -22,7 +22,7 @@ Every Monday morning, the same problem. The bookkeeper opens Xero, looks at the 
 
 It takes 90 minutes. It creates errors. And it's entirely avoidable.
 
-Here's the thing Xero doesn't advertise: the platform's Standard Payroll tier does not natively calculate the variable allowances under the Electrical Contracting Award 2020 (MA000025), administered by the Fair Work Commission. The Fair Work Ombudsman has been actively auditing the trades sector in 2025 and 2026 — underpayment, even accidental, creates back-pay exposure that can extend 6 years. The allowances have to be entered manually — unless you build the right pay items and templates upfront.
+Here's the thing Xero doesn't advertise: the platform's Standard Payroll tier does not natively calculate the variable allowances under the **Electrical, Electronic and Communications Contracting Award 2020 (MA000025)**, administered by the **Fair Work Commission** under the **Fair Work Act 2009**. The **Fair Work Ombudsman** has been actively auditing the trades sector in 2025 and 2026 — underpayment, even accidental, creates back-pay exposure that can extend 6 years. The allowances have to be entered manually — unless you build the right pay items and templates upfront.
 
 This guide shows you exactly how.
 

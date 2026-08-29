@@ -18,7 +18,7 @@ faq:
     answer: "The five most important features for Australian electricians are: (1) mobile-first design that works on-site without reliable internet, (2) CCEW and compliance form support, (3) Xero or MYOB integration for seamless invoicing, (4) quote-to-invoice workflow with digital approval, and (5) customer communication automation (SMS updates, review requests). State-specific compliance support — particularly for NSW, VIC, and QLD — is a significant differentiator between platforms."
 ---
 
-Running an electrical business in Australia in 2026 means navigating licensing requirements, compliance documentation, quote-to-invoice workflows, and a customer base that expects real-time communication. The right job management software doesn't just help you stay organised — it's the operational backbone that lets you scale without drowning in paperwork.
+Running an electrical business in Australia in 2026 means navigating licensing requirements under state-based legislation such as the **Home Building Act 1989** (administered by **NSW Fair Trading**), compliance documentation, quote-to-invoice workflows, and a customer base that expects real-time communication. The right job management software doesn't just help you stay organised — it's the operational backbone that lets you scale without drowning in paperwork.
 
 This guide compares the five most widely used platforms for Australian electricians, cuts through the marketing, and gives you a clear recommendation based on your business size and needs.
 
@@ -133,7 +133,7 @@ For Australian electricians, compliance documentation is non-negotiable. Here's 
 
 **Audit-ready records.** Every job in ServiceM8 has a complete, timestamped audit trail — who did what, when, using which forms, with what photos. When a licensing authority requests records for a random audit, they're available in minutes.
 
-This is particularly valuable for electricians doing solar and battery work, where AS/NZS 5139 compliance requirements add another layer of documentation. See our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance) for specifics.
+This is particularly valuable for electricians doing solar and battery work, where AS/NZS 5139 compliance requirements add another layer of documentation. Solar installers also need to manage STC creation and lodgement — the **Clean Energy Regulator** administers the Small-scale Renewable Energy Scheme under the **Renewable Energy (Electricity) Act 2000**, and STC compliance documentation must be retained for audit purposes. See our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance) for specifics.
 
 ---
 

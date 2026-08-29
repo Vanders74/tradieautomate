@@ -9,7 +9,7 @@ heroImage: '/hero-solar-battery-system-cost-australia-2026.jpg'
 tags: ['solar battery cost', 'battery storage', 'pricing', 'rebates', 'payback period', 'solar installer', 'Australia']
 ---
 
-"How much does a solar battery cost?" is one of the most searched questions in the Australian solar market — and one of the most frequently answered badly. Vague figures ("somewhere between $8,000 and $20,000") or oversimplified numbers ("a Powerwall is $14,000") don't help customers make decisions, and they don't help installers have confident pricing conversations.
+"How much does a solar battery cost?" is one of the most searched questions in the Australian solar market — and one of the most frequently answered badly. Vague figures ("somewhere between $8,000 and $20,000") or oversimplified numbers ("a Powerwall is $14,000") don't help customers make decisions, and they don't help installers have confident pricing conversations. Installers also need to factor in compliance: battery installations must meet **AS/NZS 5139** (electrical installation safety requirements for battery systems), and STC eligibility for the solar component is governed by the **Clean Energy Regulator** under the **Renewable Energy (Electricity) Act 2000**.
 
 This guide gives a clear breakdown of real solar battery system costs in Australia in 2026: the hardware, the installation, the rebates that reduce upfront cost, what drives price variation, and how to think about the economics of adding a battery to a solar system.
 

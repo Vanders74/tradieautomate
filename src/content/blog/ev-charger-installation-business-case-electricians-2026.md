@@ -20,7 +20,7 @@ faq:
 
 Australia added more electric vehicles in the first half of 2026 than in all of 2023 combined. The EV fleet is doubling every 18 months. Every one of those vehicles needs a charging solution — and most of those solutions are installed by electricians.
 
-**EV charger installation is the most accessible high-margin revenue expansion available to Australian electrical businesses in 2026.** It requires a limited equipment investment, uses existing licence credentials, and delivers ticket sizes well above standard residential electrical work — without the regulatory complexity of solar.
+**EV charger installation is the most accessible high-margin revenue expansion available to Australian electrical businesses in 2026.** It requires a limited equipment investment, uses existing licence credentials, and delivers ticket sizes well above standard residential electrical work — without the regulatory complexity of solar. However, EV charger circuits must still comply with **AS/NZS 3000 (Wiring Rules)** for dedicated circuit sizing and Type B RCD requirements, and state electrical safety regulators — **NSW Fair Trading** under the **Home Building Act 1989**, **Energy Safe Victoria** under the **Electricity Safety Act 1998**, and the **Electrical Safety Office (QLD)** under the **Electrical Safety Act 2002** — require compliance documentation for every installation.
 
 This is the business case.
 

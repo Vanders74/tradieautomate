@@ -1,6 +1,6 @@
 ---
 title: 'The Hidden Admin Cost Calculator: What Aussie Tradies Really Lose Each Week'
-description: 'Free calculator reveals exactly how much your trade business loses to admin every week. Includes real benchmarks for electricians, solar, plumbers, HVAC, and landscapers — the numbers are shocking.'
+description: 'How much admin is really costing your trade business? Free calculator with real trade-by-trade benchmarks — electricians lose up to $77K/yr to unbillable paperwork.'
 pubDate: 'May 08 2026'
 updatedDate: 'Jul 30 2026'
 category: "Business Growth"
@@ -15,7 +15,7 @@ faq:
     answer: "At $99-$129/month for a typical small team, ServiceM8 typically pays for itself in the first week of use — if it saves 2 hours of admin time per week at $55/hour loaded cost, the annual saving is approximately $5,720 versus a software cost of $1,188-$1,548/year, delivering a 370-480% ROI."
 ---
 
-Competition is tough. Materials are expensive. Fuel isn't getting cheaper. But the quiet killer of Australian trade profit margins is none of those things — it's the hours vanishing into unbillable evening paperwork.
+Competition is tough. Materials are expensive. Fuel isn't getting cheaper. But the quiet killer of Australian trade profit margins is none of those things — it's the hours vanishing into unbillable evening paperwork. For electrical contractors, the compliance burden is especially acute: the **Fair Work Act 2009** (enforced by the **Fair Work Ombudsman**) governs award wages, allowances, and record-keeping obligations, while state-based regulators like **NSW Fair Trading** and **Energy Safe Victoria** require CCEW and CES documentation for every job — each certificate adding 20–45 minutes of unbillable admin per job if managed manually.
 
 If you're quoting at 10pm or chasing invoices on Friday afternoons, your business is leaking pure profit. The worst part? Most owners dramatically *underestimate* how much.
 
