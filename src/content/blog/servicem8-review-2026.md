@@ -1,6 +1,6 @@
 ---
-title: 'ServiceM8 Review 2026 — Honest Verdict vs simPRO, Tradify & More'
-description: "$29/mo, unlimited staff, best compliance forms in the game — but ServiceM8 isn't for everyone. Where it beats simPRO & Tradify, and where it falls short for Australian tradies in 2026."
+title: 'ServiceM8 Review 2026: $29/mo, Unlimited Staff — Worth It?'
+description: "ServiceM8 at $29/mo beats Tradify on compliance forms but trails simPRO on reporting. Honest verdict for Australian tradies in 2026."
 updatedDate: 'Aug 07 2026'
 pubDate: 'Apr 03 2026'
 category: "ServiceM8"
