@@ -1,6 +1,6 @@
 ---
 title: "SA Home Battery Scheme 2026: Eligibility, Loan & Installer Guide"
-description: "SA Home Battery Scheme 2026 — subsidised loan eligibility, approved installer registration, application steps, and how to offer HBS-eligible battery installs."
+description: "SA Home Battery Scheme 2026: up to $10,000 subsidised loan — eligibility, approved installer steps, and how to offer HBS battery installs."
 pubDate: 'Jun 9 2026'
 updatedDate: 'Jul 30 2026'
 category: "Solar & Battery"

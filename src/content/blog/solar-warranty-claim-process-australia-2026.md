@@ -1,6 +1,6 @@
 ---
-title: "Solar Warranty Claims Australia 2026: What's Covered and How to Actually Get Paid"
-description: "Solar warranty claims in Australia 2026 — what panel, inverter, and workmanship warranties actually cover, how to lodge a claim that gets approved, and what to do when manufacturers stall or refuse."
+title: "Solar Warranty Claims Australia 2026: 25-Year Coverage Guide"
+description: "Solar warranty claims in Australia 2026 — what the 25-year performance & 5-year workmanship warranties cover, plus how to lodge a claim that gets approved."
 pubDate: 'Jul 13 2026'
 category: "Solar & Battery"
 heroImage: '/hero-compliance-checklist.jpg'
