@@ -1,6 +1,6 @@
 ---
-title: 'Victorian Energy Upgrades (VEU): How Electricians Earn $250–$1,650 Per Heat Pump Job in 2026'
-description: "VEU pays electricians $250–$1,650 per heat pump job via VEECs ($25–$55 each). Step-by-step accreditation, eligible activities, and how to trade certificates for cash."
+title: 'VEU Scheme 2026: Electricians Earn $250–$1,650 Per Heat Pump Job'
+description: "Victorian Energy Upgrades: earn $250–$1,650 per heat pump install via VEECs ($25–$55 each). Step-by-step accreditation, eligible activities, and how to cash out certificates."
 pubDate: 'Jul 19 2026'
 updatedDate: 'Jul 19 2026'
 category: 'Compliance'

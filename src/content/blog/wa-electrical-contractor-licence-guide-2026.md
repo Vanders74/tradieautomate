@@ -1,6 +1,6 @@
 ---
-title: "WA Electrical Contractor Licence 2026: EnergySafety Application, CCEI, Renewals & Solar Compliance"
-description: "Trading without a WA electrical contractor licence is illegal. EnergySafety application guide — fees, $5M insurance minimums, CCEI obligations, and 1-3 year terms."
+title: 'WA Electrical Contractor Licence 2026: EnergySafety Fees & CCEI Rules'
+description: "WA electrical contractor licence via EnergySafety: application steps, current fees, $5M insurance minimums, CCEI obligations, and 1–3 year licence term options — 2026."
 pubDate: 'Jun 9 2026'
 updatedDate: 'Jul 20 2026'
 category: "Compliance"

@@ -1,6 +1,6 @@
 ---
-title: "ServiceM8 Pricing Deep-Dive 2026 — Real Costs, Add-Ons & Hidden Fees"
-description: "$29/mo (unlimited staff) vs simPRO's per-user pricing. ServiceM8 pricing compared across all 5 tiers with add-on costs, hidden fees, and real-world total cost of ownership for Australian electrical & solar businesses."
+title: 'ServiceM8 Pricing Australia 2026: All 5 Tiers, Add-Ons & True Cost'
+description: "ServiceM8 Australia 2026: all 5 plan prices, add-on costs, and hidden fees — compared to simPRO's per-user model. Flat $29/mo unlimited staff vs paying per head."
 pubDate: 2026-07-20
 updatedDate: 2026-08-07
 heroImage: "/hero-servicem8-pricing-plans-australia-2026.jpg"

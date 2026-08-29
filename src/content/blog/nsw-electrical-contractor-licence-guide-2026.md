@@ -1,6 +1,6 @@
 ---
-title: "NSW Electrical Contractor Licence 2026: Fair Trading, Home Building Act & Application Guide"
-description: "NSW electrical contractor licence: $22K/$110K fines for unlicensed work under Home Building Act 1989. Fair Trading classes, insurance, and application steps."
+title: 'NSW Electrical Contractor Licence 2026: Classes, Fees & Steps'
+description: "NSW electrical contractor licence: Fair Trading licence classes, insurance requirements, application fees, and exact steps — plus $22K/$110K penalties for unlicensed work."
 pubDate: 'Jul 20 2026'
 updatedDate: 'Jul 20 2026'
 category: "Compliance"
