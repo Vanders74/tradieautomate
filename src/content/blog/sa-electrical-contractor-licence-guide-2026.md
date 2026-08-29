@@ -1,6 +1,6 @@
 ---
 title: "SA Electrical Contractor Licence 2026: CBS, OTR & COC Requirements"
-description: "South Australia electrical contractor licensing explained — CBS PGE licence, OTR technical oversight, Certificate of Compliance requirements, insurance, and solar compliance for SA electricians in 2026."
+description: "Apply for your SA electrical contractor PGE licence — issued by CBS, renews annually at ~$310, plus OTR Certificate of Compliance rules in 2026."
 pubDate: 'Jul 19 2026'
 updatedDate: 'Jul 19 2026'
 category: "Compliance"
