@@ -3,13 +3,14 @@ title: 'NSW Electricity Distributors: Ausgrid, Endeavour & Essential Energy — 
 description: "Which NSW distributor covers your site — Ausgrid, Endeavour Energy or Essential Energy — and their different solar export limits (5–10kW per phase), application portals, and CCEW requirements."
 pubDate: 'Aug 29 2026'
 updatedDate: 'Aug 29 2026'
+accuracyReviewed: '2026-08-29'
 category: "Solar"
 heroImage: '/hero-nsw-electricity-distributors-solar-connection-guide-2026.jpg'
 faq:
   - question: "Which electricity distributors cover New South Wales?"
     answer: "NSW has three electricity distributors: Ausgrid (northern Sydney, Central Coast, Hunter/Newcastle), Endeavour Energy (western Sydney, Blue Mountains, Southern Highlands, Illawarra), and Essential Energy (regional and rural NSW). Transgrid operates the high-voltage transmission network above them. You must identify the correct distributor before lodging a solar or battery connection application."
   - question: "What are the solar export limits in NSW?"
-    answer: "They differ by distributor. Ausgrid allows up to 10kW export per phase on single-phase (10kW inverter limit) and up to 30kW on three-phase. Endeavour Energy applies a 5kW export limit per phase on single-phase (10kW inverter limit) and 30kW on three-phase. Essential Energy applies a 5kW export limit per phase, with a 10kW inverter limit on single-phase and 15kW on three-phase — rural areas drop to 3kW per phase. Always confirm the current limit in the distributor's portal."
+    answer: "They differ by distributor and are set per phase. Ausgrid allows up to 10kW export per phase. Endeavour Energy applies a 5kW per-phase export limit by default. Essential Energy applies 5kW per phase, dropping to 3kW per phase in rural areas. On a three-phase connection the limit applies to each phase — so a three-phase Essential Energy home can export 15kW total (5kW × 3 phases). Always confirm the current limit in the distributor's portal before quoting."
   - question: "Are flexible exports available in NSW?"
     answer: "Not yet as a standard offer. NSW is phasing in flexible exports from late 2026, starting with Endeavour Energy making it the default connection offer for new and upgraded systems. The NSW Government's CER Installer Portal will require new and upgraded rooftop solar systems up to 200kW to use CSIP-AUS compliant inverters as part of this rollout. Until then, fixed export limits apply."
   - question: "How long does a NSW solar connection take?"
@@ -60,13 +61,15 @@ NSW's grid is a three-tier structure, and the distributor layer is where your co
 
 ## Export Limits: The NSW Differentiator
 
-This is the section that matters most for quoting, because **NSW export limits are not uniform** — they change by distributor and by phase.
+This is the section that matters most for quoting, because **NSW export limits are not uniform** — they change by distributor, and they're set **per phase**.
 
-| Distributor | Single-phase inverter / export | Three-phase inverter / export | Notes |
-|---|---|---|---|
-| **Ausgrid** | 10kW / **10kW** | 30kW / **30kW** | May allow battery inverters to exceed the overall inverter limit |
-| **Endeavour Energy** | 10kW / **5kW** | 30kW / **30kW** | Battery inverters do **not** count toward the phase limit |
-| **Essential Energy** | 10kW / **5kW** | 15kW / **5kW** | Rural areas drop to **3kW** per phase |
+| Distributor | Export limit (per phase) | Typical inverter size limit |
+|---|---|---|
+| **Ausgrid** | **10kW** | 10kW single-phase / 30kW three-phase |
+| **Endeavour Energy** | **5kW** (default) | 10kW single-phase / 30kW three-phase |
+| **Essential Energy** | **5kW** (3kW rural) | 10kW single-phase / 15kW three-phase |
+
+**The per-phase distinction matters.** On a three-phase connection, the export limit applies to *each* phase — so a three-phase Essential Energy home can export 15kW total (5kW × 3 phases), while a single-phase Endeavour home is capped at 5kW regardless of system size. Battery inverters may or may not count toward the phase inverter limit depending on the distributor, so check that too.
 
 **The practical upshot:** a 10kW solar system on a single-phase Endeavour Energy or Essential Energy connection exports only 5kW — half its capacity — while the same system on Ausgrid exports the full 10kW. Getting this right at the quote stage prevents an expensive re-quote and an unhappy customer who was promised export they can't actually send.
 
