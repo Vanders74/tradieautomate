@@ -38,7 +38,7 @@ For solar and electrical installation businesses, you typically need *both*.
 
 ## Electrical Contractor Licence (Electrical Safety Queensland)
 
-The electrical contractor licence is issued by Electrical Safety Queensland under the *Electrical Safety Act 2002*. It authorises a business entity (individual, partnership, or company) to carry out electrical work for profit.
+The electrical contractor licence is issued by Electrical Safety Queensland under the *Electrical Safety Act 2002* and the *Electrical Safety Regulation 2013* (the ES Regulation). It authorises a business entity (individual, partnership, or company) to carry out electrical work for profit.
 
 ### Who needs it?
 
@@ -47,7 +47,7 @@ You need an electrical contractor licence if you:
 - Employ or engage electricians to do electrical work on your behalf
 - Operate a solar installation business where electrical connection work is involved
 
-A sole trader who is also a licensed electrical worker can hold the contractor licence themselves. Companies must nominate a licensed electrical worker as their "responsible person."
+A sole trader who is also a licensed electrical worker can hold the contractor licence themselves. Companies and partnerships must nominate a **Qualified Technical Person (QTP)** — the licensed electrician who performs or supervises the electrical work — and a **Qualified Business Person (QBP)** — who satisfies the business-eligibility requirements under Section 48 of the ES Regulation. One person can hold both roles.
 
 ### Contractor Licence Classes
 
@@ -65,7 +65,7 @@ To apply for an electrical contractor licence in Queensland:
 
 1. **Hold a valid electrical worker licence** — You (or your nominated responsible person) must hold a current Queensland electrical worker licence (A-grade or relevant restricted licence).
 2. **Meet the financial requirements** — Electrical Safety Queensland assesses whether you have adequate financial resources to operate as a contractor.
-3. **Public liability insurance** — Minimum $5 million public liability cover is required.
+3. **Public liability insurance** — Minimum $5 million public liability cover is required, meeting the insurance requirements of Section 51 of the ES Regulation.
 4. **Complete the application** — Via the Electrical Safety Queensland online portal. Fees apply (check the current fee schedule on the ESQ website as these are updated annually).
 
 ---

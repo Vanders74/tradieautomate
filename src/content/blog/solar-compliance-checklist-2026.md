@@ -18,8 +18,9 @@ This checklist covers everything you need to have in order **before, during, and
 ## Before the Job (2026 Pre-Installation)
 
 ### CER Accreditation
-- ✅ Current CEC accreditation (check expiry date — accreditation lapses mid-year for many installers)
-- ✅ CEC accreditation renewal fee paid — approximately **$770/year** as of 2026. A lapsed accreditation costs far more: lost STC revenue of ~$35–$40 per system, which for a business installing 10+ systems monthly means $4,200–$5,600 in forgone revenue per month
+> **Accreditation body note (2026):** Installer and designer accreditation is now issued by **Solar Accreditation Australia (SAA)** — it took over from the Clean Energy Council (CEC) on 29 February 2024. For STC eligibility you need current SAA accreditation. (The CEC *approved product lists* for inverters and modules are unchanged.)
+- ✅ Current SAA accreditation (check expiry date — accreditation lapses mid-year for many installers)
+- ✅ SAA accreditation renewal fee paid — approximately **$770/year** as of 2026. A lapsed accreditation costs far more: lost STC revenue of ~$35–$40 per system, which for a business installing 10+ systems monthly means $4,200–$5,600 in forgone revenue per month
 - ✅ Correct endorsement categories for the work being performed (solar PV, battery storage, or both)
 - ✅ Professional indemnity insurance up to date and valid for the installation type
 - ✅ Electrical licence valid in your state/territory (check for any state-specific endorsements required)
@@ -130,7 +131,7 @@ After reviewing CER audit findings data and speaking with installers who've been
 1. **STC forms with errors** — wrong serial numbers, incorrect installation date, missing customer signature
 2. **Photos that can't be verified** — images in camera rolls without timestamps, or photos that can't be definitively linked to the specific job
 3. **Missing compliance checklists** — jobs where no formal pre/during/post checklist was completed and stored
-4. **Expired accreditation** — installers whose CEC accreditation lapsed and wasn't renewed before the install date
+4. **Expired accreditation** — installers whose SAA accreditation lapsed and wasn't renewed before the install date
 5. **Battery jobs missing AS/NZS 5139 documentation** — the additional battery requirements are often overlooked when photovoltaic compliance is otherwise solid
 
 **Penalty reality:** CER audit failures in 2026 carry escalating consequences. A first-time minor documentation failure typically results in a rectification notice and compliance monitoring — but a second failure or a serious breach (such as claiming STCs for a non-compliant installation) can trigger accreditation suspension. The financial impact is immediate: lost STC revenue of ~$35–$40 per system, plus the cost of rectifying any non-compliant installations at the installer's own expense. For a business installing 30 systems per month, a 60-day suspension represents approximately $2,100–$2,400 in lost STC income alone — not counting the reputational damage and lost new business during the suspension period.
@@ -160,7 +161,7 @@ Not sure which platform is right for your business? See our [Electrical Job Mana
 Australian solar compliance standards are not static. The CEC updates its installation guidelines periodically. AS/NZS standards are reviewed on a rolling cycle. DNSP requirements for export limiting and metering continue to evolve as grid penetration of solar increases.
 
 The most reliable way to stay current:
-- Subscribe to CEC installer communications (free as part of your accreditation)
+- Subscribe to SAA installer communications (free as part of your accreditation)
 - Follow your state electrical safety regulator for local rule changes
 - Monitor AEMC and AER publications for grid connection policy changes
 - Use a job management platform that your installation network uses — when standards change, the platforms update their template forms, which prompts you to review your own checklists
@@ -181,11 +182,11 @@ The installers who treat compliance as a feature (not a burden) are the ones win
 
 **What compliance standards apply to solar installations in Australia in 2026?**
 
-The primary standards are AS/NZS 5033 (PV arrays), AS/NZS 3000 (Wiring Rules), and CEC installation guidelines. Battery storage adds AS/NZS 5139:2019. Installers must hold current CEC accreditation and valid state/territory electrical licences.
+The primary standards are AS/NZS 5033 (PV arrays), AS/NZS 3000 (Wiring Rules), and CEC installation guidelines. Battery storage adds AS/NZS 5139:2019. Installers must hold current SAA accreditation and valid state/territory electrical licences.
 
 **What documentation does the CER require?**
 
-The CER requires a completed STC assignment form signed by the customer, proof of CEC accreditation, Certificate of Electrical Safety (CES), installation photos at key milestones, serial numbers for all components, and documentation confirming installed equipment matches the approved design.
+The CER requires a completed STC assignment form signed by the customer, proof of SAA accreditation, Certificate of Electrical Safety (CES), installation photos at key milestones, serial numbers for all components, and documentation confirming installed equipment matches the approved design.
 
 **How long do I need to keep solar installation records?**
 
@@ -241,13 +242,13 @@ Yes. [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance) has specific re
 A standard residential solar installation in Australia requires: (1) a Certificate of Compliance for Electrical Work (CCEW in NSW) or equivalent state certificate (CES in VIC, CCEW in QLD), issued within 7 days of completion; (2) STC lodgement with the Clean Energy Regulator (CER) for the applicable zone and system size; (3) geo-tagged installation photos meeting CER requirements for audit purposes; (4) customer STC assignment declaration; and (5) DNSP network notification where required. Battery installs additionally require AS/NZS 5139 documentation.
 
 ### What does the Clean Energy Regulator audit during a solar inspection?
-CER audits assess whether installations comply with the requirements of the Renewable Energy (Electricity) Act 2000 and the Small-scale Renewable Energy Scheme. Auditors check: CEC accreditation currency for the installing electrician, STC lodgement accuracy (system size, location, STC quantity), geo-tagged photo documentation showing panel layout and labelling, inverter and panel model compliance with the approved product list, AS/NZS 5033 adherence for DC wiring, and proper labelling of AC/DC isolators. The most common audit failure points are inaccurate STC calculations and missing or low-quality geo-tagged photos.
+CER audits assess whether installations comply with the requirements of the Renewable Energy (Electricity) Act 2000 and the Small-scale Renewable Energy Scheme. Auditors check: SAA accreditation currency for the installing electrician, STC lodgement accuracy (system size, location, STC quantity), geo-tagged photo documentation showing panel layout and labelling, inverter and panel model compliance with the approved product list, AS/NZS 5033 adherence for DC wiring, and proper labelling of AC/DC isolators. The most common audit failure points are inaccurate STC calculations and missing or low-quality geo-tagged photos.
 
 ### What are the AS/NZS standards that solar installers must comply with?
 The primary standards for Australian solar installations are: AS/NZS 5033 (Installation and Safety Requirements for PV Arrays — DC wiring, isolators, labelling), AS/NZS 4777.1 and 4777.2 (Grid Connection of Energy Systems — inverter requirements and installation), and for battery storage, AS/NZS 5139 (Electrical Installations — Safety of Battery Systems). Compliance with AS/NZS 3000 Wiring Rules is also required for all AC electrical work. These standards are referenced in CER audit assessments and in state compliance certificates.
 
 ### How do I prepare for a CER audit as a solar installer?
-The best preparation is maintaining a complete job file for every installation. This should include: a copy of the signed customer STC assignment form, CEC accreditation certificate (current), geo-tagged photos of the installation (roof layout, inverter, meter board, labelling), the compliance certificate (CCEW/CES), the DNSP notification (if applicable), the inverter and panel data sheets confirming they're on the approved product list, and your AS/NZS 5033 site assessment notes. Using a digital job management system like ServiceM8 to capture and store all of this per-job means you can produce the full audit file in minutes if contacted by the CER.
+The best preparation is maintaining a complete job file for every installation. This should include: a copy of the signed customer STC assignment form, SAA accreditation certificate (current), geo-tagged photos of the installation (roof layout, inverter, meter board, labelling), the compliance certificate (CCEW/CES), the DNSP notification (if applicable), the inverter and panel data sheets confirming they're on the approved product list, and your AS/NZS 5033 site assessment notes. Using a digital job management system like ServiceM8 to capture and store all of this per-job means you can produce the full audit file in minutes if contacted by the CER.
 
 ### What happens if my solar installation fails a CER audit?
-CER audit failures can result in: revocation of STC certificates (meaning you or your customer loses the rebate), requirement to rectify the installation at your cost, suspension or revocation of your CEC accreditation (preventing future STC claims), and referral to state electrical safety regulators. Serious or repeated breaches can result in criminal penalties under the Renewable Energy (Electricity) Act 2000. The most common outcome of a minor first-time audit failure is a rectification notice — but accreditation suspension is a real risk for documentation or installation deficiencies.
+CER audit failures can result in: revocation of STC certificates (meaning you or your customer loses the rebate), requirement to rectify the installation at your cost, suspension or revocation of your SAA accreditation (preventing future STC claims), and referral to state electrical safety regulators. Serious or repeated breaches can result in criminal penalties under the Renewable Energy (Electricity) Act 2000. The most common outcome of a minor first-time audit failure is a rectification notice — but accreditation suspension is a real risk for documentation or installation deficiencies.
