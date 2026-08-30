@@ -1,0 +1,174 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE, SITE_URL } from '../consts';
+
+const pageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": `${SITE_URL}/terms/#webpage`,
+  "name": "Terms of Service — TradieAutomate",
+  "url": `${SITE_URL}/terms/`,
+  "description": "Terms governing your use of TradieAutomate, including content disclaimers, affiliate disclosure, and intellectual property rights.",
+  "publisher": {
+    "@type": "Organization",
+    "@id": `${SITE_URL}/#organization`,
+    "name": "TradieAutomate"
+  }
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title={`Terms of Service — ${SITE_TITLE}`}
+      description="Terms governing your use of TradieAutomate — content disclaimers, affiliate disclosure, intellectual property rights, and limitation of liability."
+    />
+    <script type="application/ld+json" set:html={JSON.stringify(pageSchema)} />
+  </head>
+  <body>
+    <Header />
+    <main class="terms-page">
+
+      <section class="terms-hero" aria-labelledby="terms-heading">
+        <p class="terms-eyebrow">Legal</p>
+        <h1 id="terms-heading">Terms of Service</h1>
+        <p class="terms-date">Last updated: 30 August 2026</p>
+      </section>
+
+      <section class="terms-content">
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>By accessing and using TradieAutomate (<a href="https://tradieautomate.com">tradieautomate.com</a>), you accept and agree to be bound by these Terms of Service. If you do not agree, please do not use the site.</p>
+
+        <h2>2. Content Disclaimer</h2>
+        <p>TradieAutomate publishes informational content about trade business operations, compliance, software, and industry practices. While we make every effort to ensure accuracy:</p>
+        <ul>
+          <li>Compliance content is based on publicly available Australian standards, Clean Energy Regulator guidelines, and state regulator publications. It is for <strong>general information purposes only</strong> and does not constitute professional legal, financial, or safety advice.</li>
+          <li>Standards and regulations change. Always verify requirements with the relevant authority (Clean Energy Regulator, state electrical safety regulator, Fair Work Ombudsman, etc.) before relying on any information.</li>
+          <li>Pricing and feature comparisons are accurate at time of publication but may change. Check the software provider's website for current pricing.</li>
+        </ul>
+
+        <h2>3. Affiliate Disclosure</h2>
+        <p>Some links on TradieAutomate are affiliate links. This means we may earn a commission if you click through and make a purchase or sign up — at <strong>no extra cost to you</strong>.</p>
+        <p>Our primary affiliate relationship is with <strong>ServiceM8</strong>, a job management platform we genuinely recommend for Australian trade businesses. Affiliate relationships never influence our recommendations — we only endorse products and services we believe provide real value to our audience.</p>
+        <p>All affiliate content is clearly identified. If you have questions about a specific link or relationship, contact us at <a href="mailto:shane@tradieautomate.com">shane@tradieautomate.com</a>.</p>
+
+        <h2>4. Intellectual Property</h2>
+        <p>All content on TradieAutomate — including articles, guides, calculators, graphics, logos, and downloadable resources — is owned by TradieAutomate unless otherwise stated. You may:</p>
+        <ul>
+          <li>Share links to our content freely</li>
+          <li>Quote short excerpts with attribution and a link back to the original</li>
+        </ul>
+        <p>You may <strong>not</strong> reproduce, republish, or redistribute substantial portions of our content without prior written permission.</p>
+
+        <h2>5. Free Tools & Downloadable Resources</h2>
+        <p>Our interactive calculators provide estimates only — not quotes, financial advice, or guarantees. Results depend on the accuracy of inputs provided by the user. Always verify with a qualified professional before making business decisions based on calculator outputs.</p>
+        <p>Downloadable resources (checklists, playbooks, reference cards) are provided for informational purposes. They do not replace professional advice or official regulatory guidance.</p>
+
+        <h2>6. Third-Party Links</h2>
+        <p>Our site contains links to third-party websites and services. We are not responsible for the content, accuracy, or practices of any linked site. Following external links is at your own risk.</p>
+
+        <h2>7. Limitation of Liability</h2>
+        <p>To the fullest extent permitted by Australian law, TradieAutomate and its owner(s) shall not be liable for any loss or damage arising from your use of, or reliance on, information published on this site. This includes but is not limited to business decisions, compliance outcomes, financial losses, or regulatory penalties.</p>
+
+        <h2>8. Privacy</h2>
+        <p>We use Google Analytics to understand site usage. This collects anonymised data including pages visited, time on site, and general geographic location. We do not collect or sell personal information through the site unless you voluntarily provide it (e.g., via email signup for lead magnets).</p>
+        <p>For questions about data handling, contact <a href="mailto:shane@tradieautomate.com">shane@tradieautomate.com</a>.</p>
+
+        <h2>9. Changes to Terms</h2>
+        <p>We may update these terms from time to time. Changes are effective immediately upon posting. Continued use of the site after changes constitutes acceptance of the revised terms.</p>
+
+        <h2>10. Contact</h2>
+        <p>For questions about these Terms of Service, contact:</p>
+        <p><strong>Email:</strong> <a href="mailto:shane@tradieautomate.com">shane@tradieautomate.com</a></p>
+        <p><strong>Website:</strong> <a href="https://tradieautomate.com">tradieautomate.com</a></p>
+
+      </section>
+
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  :global(main.terms-page) {
+    width: 100%;
+    max-width: 780px;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  .terms-page {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding-bottom: 4em;
+  }
+
+  /* ── Hero ── */
+  .terms-hero {
+    padding: 3em 0 1.5em;
+    border-bottom: 1px solid rgb(var(--gray-light));
+    margin-bottom: 2.5em;
+  }
+  .terms-eyebrow {
+    font-size: 0.78em;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--accent, #f97316);
+    margin: 0 0 0.75em;
+  }
+  .terms-hero h1 {
+    font-size: 2.4em;
+    line-height: 1.2;
+    color: var(--navy, #0f172a);
+    margin: 0 0 0.5em;
+  }
+  .terms-date {
+    font-size: 0.9em;
+    color: rgb(var(--gray));
+    margin: 0;
+  }
+
+  /* ── Content ── */
+  .terms-content h2 {
+    font-size: 1.3em;
+    color: var(--navy, #0f172a);
+    margin: 2em 0 0.75em;
+    padding-top: 0;
+  }
+  .terms-content h2:first-child { margin-top: 0; }
+  .terms-content p {
+    font-size: 0.95em;
+    color: rgb(var(--gray-dark));
+    line-height: 1.75;
+    margin: 0 0 1em;
+  }
+  .terms-content ul {
+    margin: 0 0 1em;
+    padding-left: 1.5em;
+  }
+  .terms-content li {
+    font-size: 0.95em;
+    color: rgb(var(--gray-dark));
+    line-height: 1.7;
+    margin-bottom: 0.5em;
+  }
+  .terms-content a {
+    color: var(--accent-dark, #c2410c);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .terms-content a:hover { text-decoration: underline; }
+
+  /* ── Mobile ── */
+  @media (max-width: 640px) {
+    :global(main.terms-page) { padding: 0 0.875rem; }
+    .terms-hero { padding: 2em 0 1.25em; }
+    .terms-hero h1 { font-size: 1.55em; }
+    .terms-content h2 { font-size: 1.15em; }
+  }
+</style>
