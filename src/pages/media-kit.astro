@@ -1,0 +1,487 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE, SITE_URL } from '../consts';
+
+const pageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": `${SITE_URL}/media-kit/#webpage`,
+  "name": "TradieAutomate Media Kit — Partner & Advertiser Information",
+  "url": `${SITE_URL}/media-kit/`,
+  "description": "Audience demographics, traffic stats, content categories, and partnership opportunities for TradieAutomate — Australia's go-to resource for electrical and solar trade businesses.",
+  "publisher": {
+    "@type": "Organization",
+    "@id": `${SITE_URL}/#organization`,
+    "name": "TradieAutomate"
+  }
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title={`Media Kit — ${SITE_TITLE} | Partner & Advertiser Information`}
+      description="TradieAutomate audience demographics, traffic statistics, content categories, and partnership opportunities. Reach Australian electrical contractors and solar installers actively evaluating job management software."
+    />
+    <script type="application/ld+json" set:html={JSON.stringify(pageSchema)} />
+  </head>
+  <body>
+    <Header />
+    <main class="media-kit-page">
+
+      <!-- ── HERO ── -->
+      <section class="mk-hero" aria-labelledby="mk-heading">
+        <div class="mk-hero-inner">
+          <p class="mk-eyebrow">Media Kit</p>
+          <h1 id="mk-heading">
+            Reach Australian Electricians<br />
+            <span class="highlight">Ready to Buy</span>
+          </h1>
+          <p class="mk-lead">
+            TradieAutomate is Australia's most practical resource for electrical contractors, solar installers, and trade business owners. Our audience comes to us with purchase intent — not casual browsing.
+          </p>
+        </div>
+      </section>
+
+      <!-- ── KEY STATS ── -->
+      <section class="mk-stats" aria-label="Key statistics">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-num">108+</span>
+            <span class="stat-label">In-depth articles</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">10K–50K</span>
+            <span class="stat-label">Monthly visitors</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Australian audience</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">🇦🇺</span>
+            <span class="stat-label">Trade & SaaS niche</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── AUDIENCE ── -->
+      <section class="mk-section" aria-labelledby="audience-heading">
+        <h2 id="audience-heading">Who Reads TradieAutomate</h2>
+        <div class="audience-grid">
+          <div class="audience-card">
+            <h3>👨‍🔧 Electrical Contractors</h3>
+            <p>Licensed electricians running 1–20 person crews. They're evaluating job management software, compliance tools, and automation to reduce after-hours admin.</p>
+          </div>
+          <div class="audience-card">
+            <h3>☀️ Solar & Battery Installers</h3>
+            <p>CEC-accredited installers navigating CER compliance, STC paperwork, and grid connections. High-intent buyers of field service software.</p>
+          </div>
+          <div class="audience-card">
+            <h3>💼 Trade Business Owners</h3>
+            <p>Owner-operators scaling from sole trader to small business. Looking for quoting, invoicing, scheduling, and growth systems.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── WHAT WE COVER ── -->
+      <section class="mk-section" aria-labelledby="coverage-heading">
+        <h2 id="coverage-heading">Content Categories</h2>
+        <div class="coverage-grid">
+          <div class="coverage-item">
+            <span class="coverage-icon">📋</span>
+            <div>
+              <strong>Compliance & Licensing</strong>
+              <p>State licences, CCEW, AS/NZS standards, CER audits, safety regulations</p>
+            </div>
+          </div>
+          <div class="coverage-item">
+            <span class="coverage-icon">⚡</span>
+            <div>
+              <strong>Software Comparisons</strong>
+              <p>ServiceM8 vs simPRO, Tradify, Fergus, AroFlo — honest reviews with real pricing</p>
+            </div>
+          </div>
+          <div class="coverage-item">
+            <span class="coverage-icon">☀️</span>
+            <div>
+              <strong>Solar & Battery</strong>
+              <p>STC claims, commercial solar compliance, battery storage, grid connections</p>
+            </div>
+          </div>
+          <div class="coverage-item">
+            <span class="coverage-icon">🔌</span>
+            <div>
+              <strong>EV Charging & Heat Pumps</strong>
+              <p>Installation standards, commercial EV business opportunities, hot water compliance</p>
+            </div>
+          </div>
+          <div class="coverage-item">
+            <span class="coverage-icon">📈</span>
+            <div>
+              <strong>Business Growth</strong>
+              <p>Quoting, cash flow, hiring, scaling, exit strategy, email automation</p>
+            </div>
+          </div>
+          <div class="coverage-item">
+            <span class="coverage-icon">🧮</span>
+            <div>
+              <strong>Free Tools & Calculators</strong>
+              <p>Solar savings, admin cost, EV charger quote, solar quote calculators</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── PARTNERSHIP OPPORTUNITIES ── -->
+      <section class="mk-section" aria-labelledby="partners-heading">
+        <h2 id="partners-heading">Partnership Opportunities</h2>
+        <div class="opps-grid">
+          <div class="opp-card">
+            <h3>Affiliate Partnerships</h3>
+            <p>We promote tools our audience actually needs — job management software, trade CRMs, accounting integrations, and compliance platforms. Our readers are mid-funnel: they've researched the problem and are evaluating solutions. We integrate affiliate links naturally into comparison reviews, setup guides, and workflow articles.</p>
+            <p><strong>Ideal for:</strong> SaaS companies serving Australian trades — job management, scheduling, invoicing, compliance, safety, or training.</p>
+          </div>
+          <div class="opp-card">
+            <h3>Sponsored Content</h3>
+            <p>Deep-dive articles, product spotlights, or case studies that showcase your solution to an engaged trade audience. All sponsored content is clearly labelled and aligns with our editorial standards.</p>
+            <p><strong>Ideal for:</strong> Product launches, category education, or reaching electricians evaluating a specific tool type.</p>
+          </div>
+          <div class="opp-card">
+            <h3>Lead Magnet Collaboration</h3>
+            <p>Co-branded downloadable resources — checklist, templates, calculators — that generate qualified leads for both parties. Our existing lead magnets (Sparky's Playbook, Compliance Checklist, Award Rates Card) have proven conversion rates.</p>
+            <p><strong>Ideal for:</strong> Insurance providers, tool manufacturers, training organisations, or software companies with a lead-gen motion.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── TRUST & TRANSPARENCY ── -->
+      <section class="mk-section" aria-labelledby="trust-heading">
+        <h2 id="trust-heading">Why Partner With Us</h2>
+        <div class="trust-list">
+          <div class="trust-item">
+            <span class="trust-check">✓</span>
+            <div>
+              <strong>Laser-focused niche</strong>
+              <p>We don't dilute — every article serves Australian electrical and solar trade businesses. Your message reaches exactly the right audience.</p>
+            </div>
+          </div>
+          <div class="trust-item">
+            <span class="trust-check">✓</span>
+            <div>
+              <strong>Purchase-intent traffic</strong>
+              <p>Our top articles rank for "ServiceM8 pricing," "best job management software for electricians," and "solar compliance checklist" — queries from buyers, not browsers.</p>
+            </div>
+          </div>
+          <div class="trust-item">
+            <span class="trust-check">✓</span>
+            <div>
+              <strong>Honest recommendations</strong>
+              <p>We only endorse tools we'd use ourselves. Our reviews compare real pricing, real features, and real trade-offs. This builds trust — and trust converts.</p>
+            </div>
+          </div>
+          <div class="trust-item">
+            <span class="trust-check">✓</span>
+            <div>
+              <strong>Full transparency</strong>
+              <p>All affiliate relationships are disclosed. All compliance content cites Australian standards. We're building a long-term resource, not a quick-revenue play.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── CONTACT ── -->
+      <section class="mk-cta" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Let's Talk</h2>
+        <p>Interested in partnering with TradieAutomate? Reach out and we'll discuss how your product or service fits our audience.</p>
+        <p class="contact-email">
+          <strong>Email:</strong> <a href="mailto:shane@tradieautomate.com">shane@tradieautomate.com</a>
+        </p>
+        <p class="contact-links">
+          <a href="https://www.instagram.com/tradieautomate/">Instagram</a> ·
+          <a href="https://www.facebook.com/profile.php?id=61585208957817">Facebook</a> ·
+          <a href="https://www.linkedin.com/in/shane-vandenborn-01b171400/">LinkedIn</a>
+        </p>
+      </section>
+
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  :global(main.media-kit-page) {
+    width: 100%;
+    max-width: 900px;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .media-kit-page {
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  /* ── Hero ── */
+  .mk-hero {
+    padding: 3em 0 2.5em;
+    border-bottom: 1px solid rgb(var(--gray-light));
+    margin-bottom: 2.5em;
+  }
+  .mk-eyebrow {
+    font-size: 0.78em;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--accent, #f97316);
+    margin: 0 0 0.75em;
+  }
+  .mk-hero h1 {
+    font-size: 2.4em;
+    line-height: 1.2;
+    color: var(--navy, #0f172a);
+    margin: 0 0 0.75em;
+  }
+  .highlight {
+    color: var(--accent, #f97316);
+  }
+  .mk-lead {
+    font-size: 1.05em;
+    color: rgb(var(--gray-dark));
+    line-height: 1.75;
+    margin: 0 0 1em;
+    max-width: 720px;
+  }
+
+  /* ── Stats Grid ── */
+  .mk-stats {
+    margin-bottom: 3em;
+  }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background: var(--navy, #0f172a);
+    border-radius: 16px;
+    overflow: hidden;
+    width: 100%;
+  }
+  .stat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.75em 1em;
+    border-right: 1px solid rgba(255,255,255,0.08);
+    gap: 0.3em;
+  }
+  .stat-card:last-child { border-right: none; }
+  .stat-num {
+    font-size: 2em;
+    font-weight: 800;
+    color: var(--accent, #f97316);
+    line-height: 1;
+  }
+  .stat-label {
+    font-size: 0.78em;
+    color: rgba(255,255,255,0.6);
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  /* ── Sections ── */
+  .mk-section {
+    margin-bottom: 3em;
+  }
+  .mk-section h2 {
+    font-size: 1.9em;
+    color: var(--navy, #0f172a);
+    margin: 0 0 1em;
+  }
+
+  /* ── Audience Grid ── */
+  .audience-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25em;
+  }
+  .audience-card {
+    background: white;
+    border: 1px solid rgb(var(--gray-light));
+    border-radius: 14px;
+    padding: 1.5em;
+  }
+  .audience-card h3 {
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--navy, #0f172a);
+    margin: 0 0 0.6em;
+  }
+  .audience-card p {
+    font-size: 0.88em;
+    color: rgb(var(--gray-dark));
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* ── Coverage ── */
+  .coverage-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+  .coverage-item {
+    display: flex;
+    gap: 1em;
+    align-items: flex-start;
+    background: rgb(var(--gray-light), 0.3);
+    border-radius: 10px;
+    padding: 1.25em;
+  }
+  .coverage-icon {
+    font-size: 1.5em;
+    flex-shrink: 0;
+    margin-top: 0.1em;
+  }
+  .coverage-item strong {
+    display: block;
+    font-size: 0.95em;
+    color: var(--navy, #0f172a);
+    margin-bottom: 0.3em;
+  }
+  .coverage-item p {
+    font-size: 0.84em;
+    color: rgb(var(--gray-dark));
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  /* ── Opps ── */
+  .opps-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.25em;
+  }
+  .opp-card {
+    background: white;
+    border: 1px solid rgb(var(--gray-light));
+    border-radius: 14px;
+    padding: 1.75em;
+    border-top: 3px solid var(--accent, #f97316);
+  }
+  .opp-card h3 {
+    font-size: 1.05em;
+    font-weight: 700;
+    color: var(--navy, #0f172a);
+    margin: 0 0 0.75em;
+  }
+  .opp-card p {
+    font-size: 0.86em;
+    color: rgb(var(--gray-dark));
+    line-height: 1.6;
+    margin: 0 0 0.75em;
+  }
+  .opp-card p:last-child { margin: 0; }
+  .opp-card strong {
+    color: var(--navy, #0f172a);
+  }
+
+  /* ── Trust ── */
+  .trust-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .trust-item {
+    display: flex;
+    gap: 1.25em;
+    align-items: flex-start;
+    background: white;
+    border: 1px solid rgb(var(--gray-light));
+    border-radius: 12px;
+    padding: 1.5em;
+  }
+  .trust-check {
+    font-size: 1.3em;
+    color: #16a34a;
+    font-weight: 800;
+    flex-shrink: 0;
+    margin-top: 0.1em;
+  }
+  .trust-item strong {
+    display: block;
+    font-size: 0.95em;
+    color: var(--navy, #0f172a);
+    margin-bottom: 0.3em;
+  }
+  .trust-item p {
+    font-size: 0.86em;
+    color: rgb(var(--gray-dark));
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  /* ── CTA ── */
+  .mk-cta {
+    text-align: center;
+    padding: 3em 0 4em;
+    border-top: 1px solid rgb(var(--gray-light));
+  }
+  .mk-cta h2 {
+    font-size: 1.8em;
+    color: var(--navy, #0f172a);
+    margin: 0 0 0.5em;
+  }
+  .mk-cta > p {
+    color: rgb(var(--gray-dark));
+    font-size: 1em;
+    margin: 0 0 1em;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-email a {
+    color: var(--accent-dark, #c2410c);
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .contact-email a:hover { text-decoration: underline; }
+  .contact-links {
+    font-size: 0.9em;
+    color: rgb(var(--gray));
+  }
+  .contact-links a {
+    color: var(--accent-dark, #c2410c);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .contact-links a:hover { text-decoration: underline; }
+
+  /* ── Mobile ── */
+  @media (max-width: 900px) {
+    :global(main.media-kit-page) { padding: 0 1rem; }
+    .stats-grid, .audience-grid, .opps-grid {
+      grid-template-columns: repeat(2,1fr);
+    }
+    .coverage-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 640px) {
+    :global(main.media-kit-page) { padding: 0 0.875rem; }
+    .mk-hero { padding: 2em 0 1.75em; }
+    .mk-hero h1 { font-size: 1.55em; }
+    .mk-lead { font-size: 0.95em; }
+    .stats-grid, .audience-grid, .opps-grid {
+      grid-template-columns: 1fr;
+    }
+    .stat-card { padding: 1.25em 0.75em; }
+    .stat-num { font-size: 1.6em; }
+    .mk-cta { padding: 2em 0 3em; }
+    .mk-cta h2 { font-size: 1.35em; }
+  }
+</style>
