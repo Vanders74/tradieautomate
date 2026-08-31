@@ -239,9 +239,9 @@ Allocate a full day to setup. Watch the ServiceM8 tutorial library (it's good). 
 ## Related Reading
 
 - [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026)
-- [ServiceM8 vs simPRO — Which Is Right for Your Electrical Business?](/blog/servicem8-vs-simpro-electrical-contractors)
+- ServiceM8 vs simPRO — Which Is Right for Your Electrical Business?](/blog/servicem8-vs-simpro-electricians-australia-2026)
 - [Xero vs MYOB for Australian Tradies 2026](/blog/xero-vs-myob-accounting-software-australian-tradies-2026)
-- [Best Electrical Job Management Software Australia 2026](/blog/best-electrical-job-management-software-australia-2026)
+- Best Electrical Job Management Software Australia 2026](/blog/best-job-management-software-electricians-australia)
 - [The Sparky's Playbook — Chapter 7: Cash Flow Management](/blog/sparkys-playbook-chapter-7-cash-flow-electrical-contractors-australia)
 
 ---

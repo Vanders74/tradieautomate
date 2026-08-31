@@ -200,7 +200,7 @@ Register on VendorPanel and AusTender — both free and required for procurement
 
 *Related reading:*
 
-- *[Commercial Solar System Compliance Australia 2026](/blog/commercial-solar-system-compliance-australia-2026) — commercial-scale compliance requirements that overlap with data centre electrical environments*
+- *Commercial Solar System Compliance Australia 2026](/blog/commercial-solar-compliance-australia-2026) — commercial-scale compliance requirements that overlap with data centre electrical environments*
 - *[EV Charging at Commercial Premises Australia 2026](/blog/ev-charging-commercial-premises-australia-2026) — another major commercial infrastructure opportunity for electrical contractors*
 - *[How to Win Commercial Solar Contracts Australia](/blog/how-to-win-commercial-solar-contracts-australia) — commercial bidding strategy applicable to data centre tender processes*
 - *[Scaling a Solar & Electrical Business: Hiring, Systems & Growth](/blog/scaling-solar-electrical-business-hiring-growth) — building the team and systems to take on large commercial work*

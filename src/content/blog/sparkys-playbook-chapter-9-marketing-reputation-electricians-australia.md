@@ -189,11 +189,11 @@ Building referrals isn't accidental. It requires:
 
 ## Related Reading
 
-- [How to Handle Negative Google Reviews — Tradie Guide](/blog/how-to-handle-negative-google-reviews-tradies-australia)
+- How to Handle Negative Google Reviews — Tradie Guide](/blog/how-to-handle-negative-google-reviews-tradie)
 - [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026)
 - [The Sparky's Playbook — Chapter 10: Hiring & Managing Electricians](/blog/sparkys-playbook-chapter-10-hiring-managing-electricians-australia)
 - [Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia)
-- [Best Electrical Job Management Software Australia 2026](/blog/best-electrical-job-management-software-australia-2026)
+- Best Electrical Job Management Software Australia 2026](/blog/best-job-management-software-electricians-australia)
 
 ---
 

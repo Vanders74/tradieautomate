@@ -144,7 +144,7 @@ Solar Victoria processes the claim and pays the rebate to the installer. The cus
 
 **Integrate Solar Victoria claims into your job management workflow.** Chasing CES certificates and claim documentation after the fact creates cash flow delays. Use your job management software to trigger post-installation documentation steps automatically. The [digital job management guide for solar installers](/blog/digital-job-management-solar-installers) shows how to set this up.
 
-**Track your cash flow on Solar Victoria jobs.** The rebate payment comes from Solar Victoria after you've completed the job, not before. If you're running a high volume of Solar Victoria installations, this can create a working capital gap. See the [solar installer cash flow guide](/blog/solar-installer-cash-flow-management) for strategies to manage this.
+**Track your cash flow on Solar Victoria jobs.** The rebate payment comes from Solar Victoria after you've completed the job, not before. If you're running a high volume of Solar Victoria installations, this can create a working capital gap. See the solar installer cash flow guide](/blog/solar-installer-cash-flow-management-australia) for strategies to manage this.
 
 ---
 
@@ -223,7 +223,7 @@ After a Solar Victoria battery installation, the installing electrician must iss
 - *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance)*
 - *[Certificate of Electrical Safety (CES) Victoria: Full Guide for Installers](/blog/certificate-electrical-safety-ces-victoria-guide-2026)*
 - *[Battery Retrofit Installations: Adding Storage to Existing Solar Systems](/blog/battery-retrofit-installations-existing-solar)*
-- *[Solar Installer Cash Flow Management](/blog/solar-installer-cash-flow-management)*
+- *Solar Installer Cash Flow Management](/blog/solar-installer-cash-flow-management-australia)*
 - *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
 - *[Solar Battery System Cost Australia 2026](/blog/solar-battery-system-cost-australia-2026)*
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)

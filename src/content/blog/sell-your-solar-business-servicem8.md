@@ -128,7 +128,7 @@ Better compliance documentation means fewer audit issues. Cleaner job records me
 
 ServiceM8 isn't a pre-sale project. It's a business operating system that happens to also build a highly attractive exit package — as a by-product of running things well.
 
-If you're not yet across what [ServiceM8 actually does for solar businesses day-to-day](/blog/servicem8-for-solar-installers), that's the place to start. And if you're weighing it up against other platforms, see how it stacks up in our [ServiceM8 vs simPRO comparison](/blog/servicem8-vs-simpro-comparison-australia) and [ServiceM8 vs Tradify breakdown](/blog/servicem8-vs-[tradify](/blog/tradify-review-2026-australia)-comparison-australia).
+If you're not yet across what [ServiceM8 actually does for solar businesses day-to-day](/blog/servicem8-for-solar-installers), that's the place to start. And if you're weighing it up against other platforms, see how it stacks up in our [ServiceM8 vs simPRO comparison](/blog/servicem8-vs-simpro-comparison-australia) and [ServiceM8 vs Tradify breakdown](/blog/servicem8-vs-tradify-comparison-australia).
 
 ---
 
