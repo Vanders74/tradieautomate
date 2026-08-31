@@ -1,6 +1,6 @@
 ---
 title: "Commercial EV Charging Australia 2026: Compliance & Pricing"
-description: "Australian electricians guide to commercial EV charging — AS/NZS 3000, dynamic load management, DNSP approvals, sub-metering, CPMS, and 2026 pricing."
+description: "Commercial EV charging for Australian electricians: AS/NZS 3000, DNSP approvals, and install costs from $12,000 (4-charger workplace) to $60,000+ (car parks)."
 pubDate: 'Jun 9 2026'
 updatedDate: 'Jul 30 2026'
 category: "Solar & Battery"
