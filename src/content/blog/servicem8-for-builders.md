@@ -125,10 +125,11 @@ This communication happens without anyone in the office making manual calls. For
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
-| Lite | ~$29 | 15 |
-| Starter | ~$65 | 50 |
-| Growing | ~$149 | 150 |
-| Premium | ~$349 | Unlimited |
+| Free | $0 | 30 |
+| Starter | $29 | 50 |
+| Growing | $79 | 150 |
+| Premium | $149 | 500 |
+| Premium Plus | $349 | 1,500+ |
 
 For a builder running 10–20 active renovation projects at any time, the Starter or Growing plan handles the volume. The per-job pricing model means costs don't scale with headcount.
 
@@ -206,7 +207,7 @@ ServiceM8 supports custom digital forms that can be used to capture job-related 
 ServiceM8 allows you to assign jobs or tasks to subcontractors who can access job details, complete forms, and submit timesheets via the mobile app with a subcontractor account. This is useful for coordinating trades on a residential build — sharing job access, tracking what's been done on site, and getting signoff documentation back without chasing phone calls. However, it doesn't manage subcontractor purchase orders, retention amounts, or compliance certificates (e.g. subcontractor SWMS) at the depth that dedicated construction platforms like Buildxact or Procore offer.
 
 ### What is the cost of ServiceM8 for a building business?
-ServiceM8 costs AUD $29/month (Starter, 2 staff), $109/month (Growing, up to 15 staff), $189/month (Established, up to 30 staff), or $349/month (Unlimited). For a small building business with an office coordinator and 3–5 on-site workers, the Growing plan at $109/month is typically sufficient. This is significantly cheaper than dedicated construction management platforms (Buildxact, CoConstruct) which often cost $200–$500/month and require more implementation time. ServiceM8 is best positioned for builders who primarily need workflow management, client communication, and integrated accounting — not complex project cost control.
+ServiceM8 costs AUD $0/month (Free, 30 jobs), $29/month (Starter, 50 jobs), $79/month (Growing, 150 jobs), $149/month (Premium, 500 jobs), or $349/month (Premium Plus, 1,500+ jobs). For a small building business with an office coordinator and 3–5 on-site workers, the Growing plan at $79/month is typically sufficient. This is significantly cheaper than dedicated construction management platforms (Buildxact, CoConstruct) which often cost $200–$500/month and require more implementation time. ServiceM8 is best positioned for builders who primarily need workflow management, client communication, and integrated accounting — not complex project cost control.
 
 ### What alternatives to ServiceM8 should builders consider?
 Tradify is worth comparing — it's simpler to onboard and better suited to sole traders or very small building businesses. Buildxact is the leading purpose-built platform for residential builders, with stronger estimating, scheduling, and job costing features at a higher price point ($150–$500/month). For larger residential or commercial builders, Procore or Hammertech offer enterprise-grade construction management but at enterprise pricing. ServiceM8 sits in the "simple but effective" category — the right choice for building businesses that don't need the full complexity of a dedicated construction platform.

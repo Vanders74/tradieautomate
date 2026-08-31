@@ -13,7 +13,7 @@ faq:
   - question: "Can AI handle compliance documentation for solar and electrical work?"
     answer: "AI tools streamline compliance documentation significantly but can't replace licensed sign-off. What AI does well: automating data capture for CCEW and CER documentation, pre-populating forms with job data, triggering documentation workflows, and alerting when compliance steps are incomplete."
   - question: "Is AI automation expensive to implement for a small trade business?"
-    answer: "The most effective tools are affordable. ServiceM8's automation features start at $109/month. Sophiie AI costs $300–$600/month for 24/7 phone coverage. Quote follow-up automation through HubSpot or ActiveCampaign costs $50–$200/month. Most trade businesses can achieve the core stack for under $700/month, with payback within 2–3 months."
+    answer: "The most effective tools are affordable. ServiceM8's automation features start at $29/month. Sophiie AI costs $300–$600/month for 24/7 phone coverage. Quote follow-up automation through HubSpot or ActiveCampaign costs $50–$200/month. Most trade businesses can achieve the core stack for under $700/month, with payback within 2–3 months."
 ---
 
 There's a lot of hype around AI automation. But for Australian tradies running solar, electrical, or plumbing businesses, the question isn't whether AI is impressive — it's whether it can save you time, win you more jobs, and keep you compliant without adding another system to manage.
@@ -188,11 +188,11 @@ No — AI replaces the admin work that surrounds trade work, not the skilled tra
 
 ### How much does AI automation cost for a trade business?
 
-The entry point is low. ServiceM8's Starter plan (which includes the bulk of the automation features discussed here) is ~$65/month. Adding AI writing tools like ChatGPT Plus is ~$30/month. For most businesses, the first month of time savings more than covers the subscription costs.
+The entry point is low. ServiceM8's Starter plan (which includes the bulk of the automation features discussed here) is $29/month. Adding AI writing tools like ChatGPT Plus is ~$30/month. For most businesses, the first month of time savings more than covers the subscription costs.
 
 ### Which ServiceM8 plan do I need to access automation features?
 
-Most automation features — including SMS reminders, automated follow-ups, and digital forms — are available from the Starter plan upward. The Lite plan (15 jobs/month) has more limited automation. For compliance-heavy businesses, the Growing or Premium plan is recommended. [Compare plans and start your trial](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate).
+Most automation features — including SMS reminders, automated follow-ups, and digital forms — are available from the Starter plan upward. The Free plan (30 jobs/month) has more limited automation. For compliance-heavy businesses, the Growing or Premium plan is recommended. [Compare plans and start your trial](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate).
 
 ### How do I use AI for compliance documentation specifically?
 
@@ -227,11 +227,11 @@ No — AI replaces the admin work that surrounds trade work, not the skilled tra
 
 ### How much does AI automation cost for a trade business?
 
-The entry point is low. ServiceM8's Starter plan (which includes the bulk of the automation features discussed here) is ~$65/month. Adding AI writing tools like ChatGPT Plus is ~$30/month. For most businesses, the first month of time savings more than covers the subscription costs.
+The entry point is low. ServiceM8's Starter plan (which includes the bulk of the automation features discussed here) is $29/month. Adding AI writing tools like ChatGPT Plus is ~$30/month. For most businesses, the first month of time savings more than covers the subscription costs.
 
 ### Which ServiceM8 plan do I need to access automation features?
 
-Most automation features — including SMS reminders, automated follow-ups, and digital forms — are available from the Starter plan upward. The Lite plan (15 jobs/month) has more limited automation. For compliance-heavy businesses, the Growing or Premium plan is recommended. [Compare plans and start your trial](https://www.servicem8.com/?ref=tradieautomate).
+Most automation features — including SMS reminders, automated follow-ups, and digital forms — are available from the Starter plan upward. The Free plan (30 jobs/month) has more limited automation. For compliance-heavy businesses, the Growing or Premium plan is recommended. [Compare plans and start your trial](https://www.servicem8.com/?ref=tradieautomate).
 
 ### How do I use AI for compliance documentation specifically?
 
@@ -251,7 +251,7 @@ AI tools can streamline compliance documentation significantly — but they can'
 
 ### Is AI automation expensive to implement for a small trade business?
 
-The most effective tools are surprisingly affordable. ServiceM8's automation features are included in plans starting at $109/month. Sophiie AI typically costs $300–$600/month for 24/7 phone coverage — less than a part-time receptionist. Quote follow-up automation through platforms like HubSpot or ActiveCampaign costs $50–$200/month. The implementation investment is primarily time, not software cost. Most trade businesses can achieve the core automation stack for under $700/month total, with payback typically within 2–3 months through improved lead conversion and invoice collection alone.
+The most effective tools are surprisingly affordable. ServiceM8's automation features are included in plans starting at $29/month. Sophiie AI typically costs $300–$600/month for 24/7 phone coverage — less than a part-time receptionist. Quote follow-up automation through platforms like HubSpot or ActiveCampaign costs $50–$200/month. The implementation investment is primarily time, not software cost. Most trade businesses can achieve the core automation stack for under $700/month total, with payback typically within 2–3 months through improved lead conversion and invoice collection alone.
 
 ### What should a tradie automate first?
 

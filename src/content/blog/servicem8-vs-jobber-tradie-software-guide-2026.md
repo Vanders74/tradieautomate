@@ -49,12 +49,13 @@ Here's the honest breakdown.
 
 ServiceM8 pricing is based on active staff and jobs per month:
 
-- **Starter:** ~$29/month — 1 staff member, 20 jobs/month
-- **Growing:** ~$65/month — 5 staff members, 50 jobs/month
-- **Established:** ~$130/month — 15 staff members, 150 jobs/month
-- **Premium:** ~$200/month — Unlimited staff, unlimited jobs
+- **Free:** $0/month — 1 user, 30 jobs/month
+- **Starter:** $29/month — unlimited staff, 50 jobs/month
+- **Growing:** $79/month — unlimited staff, 150 jobs/month
+- **Premium:** $149/month — unlimited staff, 500 jobs/month
+- **Premium Plus:** $349/month — unlimited staff, 1,500+ jobs/month
 
-For a solar installation business doing 20–40 jobs per month with 2–4 technicians, the Growing or Established plan is the likely fit — $65–$130/month.
+For a solar installation business doing 20–40 jobs per month with 2–4 technicians, the Starter or Growing plan is the likely fit — $29–$79/month.
 
 No lock-in contracts on most plans. 14-day free trial with full feature access, no credit card required.
 
@@ -66,7 +67,7 @@ Jobber prices in USD and the AUD conversion varies, but approximate:
 - **Connect:** ~$189/month — up to 5 users
 - **Grow:** ~$299/month — up to 15 users
 
-The price gap is significant. For a 3-technician solar business, Jobber's Connect plan at ~$189/month compares to ServiceM8's Growing plan at ~$65/month. Both platforms offer similar core functionality at this tier.
+The price gap is significant. For a 3-technician solar business, Jobber's Connect plan at ~$189/month compares to ServiceM8's Growing plan at $79/month. Both platforms offer similar core functionality at this tier.
 
 **Verdict:** ServiceM8 is materially cheaper for most Australian trade business configurations. The pricing gap is harder to justify when the compliance and local integration advantages also favour ServiceM8.
 
@@ -256,7 +257,7 @@ ServiceM8 is the stronger choice for Australian electricians in almost all cases
 Yes — Jobber is available in Australia and some Australian trade businesses use it, particularly those in trades that don't have strong compliance documentation requirements (cleaning, landscaping, general maintenance). However, for licensed electrical contractors and solar installers who need to manage CCEW documentation, CER compliance workflows, and integrate with Xero or MYOB, Jobber's Australian-specific support is limited. Most Australian electricians who evaluate both platforms choose ServiceM8 for these reasons.
 
 ### How does ServiceM8 pricing compare to Jobber in Australia?
-ServiceM8 is priced in AUD and ranges from $29–$349/month. Jobber is priced in USD and ranges from approximately $49–$249/month USD (roughly $75–$380 AUD at current exchange rates). At similar feature tiers, pricing is broadly comparable, but ServiceM8 offers better value for Australian businesses because its feature set is more directly suited to local compliance and accounting workflows. Jobber's higher tiers include features (like two-way texting and advanced reporting) that ServiceM8 offers at lower price points.
+ServiceM8 is priced in AUD and ranges from $0–$349/month (Free to Premium Plus). Jobber is priced in USD and ranges from approximately $49–$249/month USD (roughly $75–$380 AUD at current exchange rates). At similar feature tiers, pricing is broadly comparable, but ServiceM8 offers better value for Australian businesses because its feature set is more directly suited to local compliance and accounting workflows. Jobber's higher tiers include features (like two-way texting and advanced reporting) that ServiceM8 offers at lower price points.
 
 ### What are the main reasons to choose Jobber over ServiceM8?
 Jobber is worth considering if: your business is primarily client-facing with a focus on customer experience features (Jobber's client hub and self-serve booking portal are strong); you do significant quoting volume with complex multi-option proposals; or your business doesn't involve licensed compliance documentation (e.g. residential cleaning, landscaping, or property maintenance). For electrical and solar businesses with compliance documentation needs and Australian accounting systems, the case for Jobber over ServiceM8 is weak.

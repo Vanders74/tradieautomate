@@ -124,7 +124,7 @@ Fergus sits between Tradify and simPRO in sophistication. It handles quoting, sc
 
 | Feature | ServiceM8 | simPRO |
 |---|---|---|
-| Monthly cost (3 staff) | ~$99–$199 | ~$450–$750 |
+| Monthly cost (3 staff) | ~$29–$79 | ~$450–$750 |
 | CEC documentation forms | Custom form builder | Dedicated solar module |
 | Multi-day project management | Basic (works for most residential) | Advanced |
 | Mobile app quality | Excellent (iOS-first) | Good but less polished |

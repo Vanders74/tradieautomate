@@ -42,10 +42,11 @@ ServiceM8 charges per-job, not per-user. The number of staff using the platform 
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
-| Lite | ~$29 | 15 |
-| Starter | ~$65 | 50 |
-| Growing | ~$149 | 150 |
-| Premium | ~$349 | Unlimited |
+| Free | $0 | 30 |
+| Starter | $29 | 50 |
+| Growing | $79 | 150 |
+| Premium | $149 | 500 |
+| Premium Plus | $349 | 1,500+ |
 
 All staff — field technicians, office administrators, managers — can access the platform on all plans. As you hire, your software cost stays flat (until you hit the next job tier).
 
@@ -57,10 +58,10 @@ For businesses with growing teams, this difference compounds:
 
 | Team size | ServiceM8 (Growing, 100 jobs/mo) | TradiePad (~$39/user) |
 |---|---|---|
-| 2 staff | $149 | ~$78 |
-| 5 staff | $149 | ~$195 |
-| 8 staff | $149 | ~$312 |
-| 10 staff | $149 | ~$390 |
+| 2 staff | $79 | ~$78 |
+| 5 staff | $79 | ~$195 |
+| 8 staff | $79 | ~$312 |
+| 10 staff | $79 | ~$390 |
 
 At smaller team sizes, TradiePad may be price-competitive or cheaper. At 4+ staff doing consistent job volume, ServiceM8's pricing model becomes significantly more economical.
 
@@ -221,7 +222,7 @@ Yes. ServiceM8's onboarding support can help with data migration from other plat
 
 ### Does ServiceM8 work for sole traders?
 
-Yes. The Lite plan (~$29/month, 15 jobs) is designed for sole traders and works well for lower-volume businesses. As you grow, you step up plans. The per-job pricing model means sole traders pay less than larger teams automatically.
+Yes. The Free plan ($0/month, 30 jobs) is designed for sole traders and works well for lower-volume businesses. As you grow, you step up plans. The per-job pricing model means sole traders pay less than larger teams automatically.
 
 ---
 

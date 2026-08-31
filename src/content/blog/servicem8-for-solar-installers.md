@@ -140,13 +140,13 @@ For businesses that do solar servicing and maintenance as well as new installs, 
 
 | Plan | Monthly Price | Best For |
 |------|--------------|----------|
-| Lite | $29/month | Solo operators, very small volume |
-| Starter | $89/month | Small teams, up to 3 staff |
-| Growing | $149/month | Growing businesses, up to 10 staff |
-| Momentum | $219/month | Unlimited staff, full feature set |
-| Premium | $349/month | High-volume, advanced features |
+| Free | $0/month | Solo operators, very small volume |
+| Starter | $29/month | Small teams, up to 50 jobs/month |
+| Growing | $79/month | Growing businesses, up to 150 jobs/month |
+| Premium | $149/month | Larger teams, up to 500 jobs/month |
+| Premium Plus | $349/month | High-volume, 1,500+ jobs/month |
 
-Most solar installation businesses land on the Growing or Momentum tier. Unlimited staff logins (on Momentum and above) mean you're not penalised as you add technicians.
+Most solar installation businesses land on the Growing or Premium tier. Unlimited staff logins on every paid plan mean you're not penalised as you add technicians.
 
 The ROI calculation is usually straightforward: if ServiceM8 saves your business 5 hours per week in admin — a conservative estimate for a business doing 15+ jobs/month — that's 260 hours per year. At an average admin wage of $35/hr, that's $9,100 in direct cost savings before you even count the compliance risk reduction.
 
@@ -200,7 +200,7 @@ Yes. ServiceM8's form builder lets you create custom checklists for different jo
 
 **How much does ServiceM8 cost?**
 
-Plans start at $29/month for solo operators and scale to $349/month for larger teams. Unlimited staff logins are available from the Momentum plan ($219/month). A free trial is available — [start yours here](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate).
+Plans start at $0/month (Free) and $29/month for solo operators, scaling to $349/month for larger teams. Unlimited staff logins are included on every paid plan. A free trial is available — [start yours here](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate).
 
 **Does ServiceM8 integrate with Xero?**
 

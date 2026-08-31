@@ -12,7 +12,7 @@ faq:
   - question: "How can job management software reduce admin costs?"
     answer: "Job management software like ServiceM8 reduces admin time by automating quoting templates, invoicing from completed jobs, scheduling via a centralised dispatch board, and compliance documentation. Australian trade businesses using job management software report 50-60% reductions in weekly admin hours based on case studies."
   - question: "What's the ROI of ServiceM8 for trade businesses?"
-    answer: "At $99-$129/month for a typical small team, ServiceM8 typically pays for itself in the first week of use — if it saves 2 hours of admin time per week at $55/hour loaded cost, the annual saving is approximately $5,720 versus a software cost of $1,188-$1,548/year, delivering a 370-480% ROI."
+    answer: "At $79/month (Growing plan) for a typical small team, ServiceM8 typically pays for itself in the first week of use — if it saves 2 hours of admin time per week at $55/hour loaded cost, the annual saving is approximately $5,720 versus a software cost of $948/year, delivering roughly 500% ROI."
 ---
 
 Competition is tough. Materials are expensive. Fuel isn't getting cheaper. But the quiet killer of Australian trade profit margins is none of those things — it's the hours vanishing into unbillable evening paperwork. For electrical contractors, the compliance burden is especially acute: the **Fair Work Act 2009** (enforced by the **Fair Work Ombudsman**) governs award wages, allowances, and record-keeping obligations, while state-based regulators like **NSW Fair Trading** and **Energy Safe Victoria** require CCEW and CES documentation for every job — each certificate adding 20–45 minutes of unbillable admin per job if managed manually.
@@ -55,7 +55,7 @@ The reason trade business owners consistently underestimate their admin overhead
 
 Here's the mechanism. A field technician earns $45–$65/hour as a labour cost to your business. Your charge-out rate to customers is $100–$160/hour. That spread — the margin between cost and revenue — is where your business makes its money. Every hour of that technician's time that goes into admin, compliance paperwork, or waiting around for instructions from the office is an hour of that margin that disappears entirely. You've paid the labour cost. You've collected zero revenue.
 
-At the owner level it's worse. Owner time is the most expensive labour in the business. When you're the one doing the quoting, chasing invoices, or sorting out the schedule at 9pm, you're using the highest-cost resource in the company to perform tasks that a $25/hour admin could do — or that software could do for $129/month.
+At the owner level it's worse. Owner time is the most expensive labour in the business. When you're the one doing the quoting, chasing invoices, or sorting out the schedule at 9pm, you're using the highest-cost resource in the company to perform tasks that a $25/hour admin could do — or that software could do for $79/month.
 
 This isn't a philosophical point. It's a maths problem. The numbers are large.
 
@@ -195,10 +195,10 @@ Here's the financial model for a mid-sized electrical business: owner plus three
 | Weekly admin hours (combined) | 18 hrs | ~7 hrs |
 | Weekly admin cost | $2,340 | $910 |
 | Annual admin overhead | $121,680 | $47,320 |
-| ServiceM8 software cost | — | $1,548/yr (Growing plan) |
-| **Net annual saving** | — | **$72,812/yr** |
+| ServiceM8 software cost | — | $948/yr (Growing plan) |
+| **Net annual saving** | — | **$73,412/yr** |
 
-**Return on software investment: 4,700%.**
+**Return on software investment: 7,700%.**
 
 The software pays for itself in the first week. The ongoing value is reclaimed margin, faster cash, and a business that runs whether the owner is on site or not.
 
@@ -248,9 +248,9 @@ No. Sole traders are often proportionally more affected than multi-person busine
 
 Fixing the admin leak doesn't require hiring staff. Moving to cloud-based job management bridges the field-to-office gap without adding headcount.
 
-[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026) starts at **$65–$149/month AUD** for a small trade business.
+[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026) starts at **$29/month AUD** for a small trade business.
 
-If your current admin overhead is $60,000/year and software cuts it by 60%, you're saving **$36,000 annually**. The software costs $1,548/year. Net saving: **~$34,452/year.**
+If your current admin overhead is $60,000/year and software cuts it by 60%, you're saving **$36,000 annually**. The software costs $948/year. Net saving: **~$35,052/year.**
 
 **[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)**
 

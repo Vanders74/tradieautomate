@@ -126,12 +126,13 @@ ServiceM8 is priced per-job, not per-user:
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
-| Lite | ~$29 | 15 |
-| Starter | ~$65 | 50 |
-| Growing | ~$149 | 150 |
-| Premium | ~$349 | Unlimited |
+| Free | $0 | 30 |
+| Starter | $29 | 50 |
+| Growing | $79 | 150 |
+| Premium | $149 | 500 |
+| Premium Plus | $349 | 1,500+ |
 
-For a landscaping business with 3 crews doing 60 jobs per month (including maintenance), the Starter plan (~$65) easily handles the volume. Crew members can all access the system without additional per-user costs.
+For a landscaping business with 3 crews doing 60 jobs per month (including maintenance), the Growing plan ($79) easily handles the volume. Crew members can all access the system without additional per-user costs.
 
 [Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 

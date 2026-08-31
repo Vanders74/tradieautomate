@@ -41,10 +41,11 @@ ServiceM8 prices by jobs per month, not by users. Every staff member on your tea
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
-| Lite | ~$29 | 15 |
-| Starter | ~$65 | 50 |
-| Growing | ~$149 | 150 |
-| Premium | ~$349 | Unlimited |
+| Free | $0 | 30 |
+| Starter | $29 | 50 |
+| Growing | $79 | 150 |
+| Premium | $149 | 500 |
+| Premium Plus | $349 | 1,500+ |
 
 ### Fergus
 
@@ -52,13 +53,13 @@ Fergus prices per user per month — typically around $49/user in the Australian
 
 ### The Cost Comparison Over Time
 
-| Team size (100 jobs/mo) | ServiceM8 Growing ($149) | Fergus ($49/user) |
+| Team size (100 jobs/mo) | ServiceM8 Growing ($79) | Fergus ($49/user) |
 |---|---|---|
-| 2 staff | $149 | $98 |
-| 4 staff | $149 | $196 |
-| 6 staff | $149 | $294 |
-| 8 staff | $149 | $392 |
-| 10 staff | $149 | $490 |
+| 2 staff | $79 | $98 |
+| 4 staff | $79 | $196 |
+| 6 staff | $79 | $294 |
+| 8 staff | $79 | $392 |
+| 10 staff | $79 | $490 |
 
 At 4 or more staff doing consistent job volume, ServiceM8 is more economical. At 2–3 staff, Fergus may cost less. As businesses grow, the economics shift increasingly in ServiceM8's favour — and they continue to shift as the team grows.
 

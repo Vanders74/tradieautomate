@@ -182,12 +182,13 @@ This is the operational infrastructure that lets a solar installation business g
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
-| Lite | ~$29 | 15 |
-| Starter | ~$65 | 50 |
-| Growing | ~$149 | 150 |
-| Premium | ~$349 | Unlimited |
+| Free | $0 | 30 |
+| Starter | $29 | 50 |
+| Growing | $79 | 150 |
+| Premium | $149 | 500 |
+| Premium Plus | $349 | 1,500+ |
 
-For a solar business doing 40 installations per month, the Starter plan (~$65) handles the volume. As you grow, you step up plans without the per-user cost blowout that other platforms create as you add staff.
+For a solar business doing 40 installations per month, the Starter plan ($29) handles the volume. As you grow, you step up plans without the per-user cost blowout that other platforms create as you add staff.
 
 [Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 

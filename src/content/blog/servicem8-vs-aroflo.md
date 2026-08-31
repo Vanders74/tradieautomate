@@ -43,10 +43,11 @@ Per-job pricing, all staff included:
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
-| Lite | ~$29 | 15 |
-| Starter | ~$65 | 50 |
-| Growing | ~$149 | 150 |
-| Premium | ~$349 | Unlimited |
+| Free | $0 | 30 |
+| Starter | $29 | 50 |
+| Growing | $79 | 150 |
+| Premium | $149 | 500 |
+| Premium Plus | $349 | 1,500+ |
 
 ### AroFlo
 
@@ -55,7 +56,7 @@ AroFlo's pricing is per-user, typically from ~$65/user/month, potentially higher
 ### The Cost Reality
 
 For a 10-person trade business doing 100 jobs per month:
-- **ServiceM8 Growing:** ~$149/month
+- **ServiceM8 Growing:** $79/month
 - **AroFlo:** ~$650+/month (10 users × $65) plus setup
 
 That's a $500+/month cost differential — before considering implementation time and the steeper learning curve that comes with AroFlo's complexity.
@@ -228,7 +229,7 @@ Most trade businesses are fully operational on ServiceM8 within a week. The 14-d
 
 ### Can ServiceM8 handle businesses with 30+ staff?
 
-Yes. ServiceM8's Growing and Premium plans handle businesses with 30+ staff comfortably. The per-job pricing model is particularly economical for larger teams — a 30-person business on ServiceM8 Premium (~$349) pays dramatically less than an equivalent team on AroFlo's per-user pricing.
+Yes. ServiceM8's Growing and Premium plans handle businesses with 30+ staff comfortably. The per-job pricing model is particularly economical for larger teams — a 30-person business on ServiceM8 Premium Plus ($349) pays dramatically less than an equivalent team on AroFlo's per-user pricing.
 
 ---
 

@@ -7,7 +7,7 @@ category: "Software Comparisons"
 heroImage: '/hero-tradify-comparison.jpg'
 faq:
   - question: "Is ServiceM8 or Tradify cheaper for Australian tradies?"
-    answer: "ServiceM8 starts at $29/month (Starter plan), while Tradify starts at $35/month. At the growth tier, ServiceM8's Grow plan is $99/month vs Tradify's $69/month. For sole traders doing simple work, Tradify is cheaper. For electrical or solar businesses needing CCEW compliance and custom forms, ServiceM8 delivers more value per dollar."
+    answer: "ServiceM8 starts at $29/month (Starter plan), while Tradify starts at $35/month. At the growth tier, ServiceM8's Growing plan is $79/month vs Tradify's $69/month. For sole traders doing simple work, Tradify is cheaper. For electrical or solar businesses needing CCEW compliance and custom forms, ServiceM8 delivers more value per dollar."
   - question: "Does Tradify handle CCEW compliance for NSW electricians?"
     answer: "Tradify does not have built-in CCEW-specific compliance forms or automated lodgement workflows. ServiceM8 supports custom digital forms that match NSW CCEW requirements, with the ability to send copies to customers and homeowners directly from the field."
   - question: "Which is better for solar installers — ServiceM8 or Tradify?"
@@ -49,7 +49,7 @@ This comparison breaks it down honestly — pricing, features, compliance tools,
 
 ### ServiceM8
 
-ServiceM8 starts at around **$29/month AUD** and scales with your team size and plan features. For most small solar or electrical businesses (1–10 technicians), you'll typically land in the $59–$129/month range.
+ServiceM8 starts at around **$29/month AUD** and scales with your team size and plan features. For most small solar or electrical businesses (1–10 technicians), you'll typically land in the $29–$149/month range.
 
 Key pricing points:
 - 14-day free trial — full feature access, no credit card required
@@ -227,7 +227,7 @@ Set up your first job today. No credit card required.
 
 ### Is ServiceM8 or Tradify cheaper for Australian tradies?
 
-ServiceM8 starts at $29/month (Starter plan), while Tradify starts at $35/month (Starter). At the growth tier, ServiceM8's Grow plan is $99/month vs Tradify's $69/month. For small sole traders doing simple work, Tradify is cheaper. For electrical or solar businesses needing CCEW compliance and custom forms, ServiceM8 delivers more value per dollar.
+ServiceM8 starts at $29/month (Starter plan), while Tradify starts at $35/month (Starter). At the growth tier, ServiceM8's Growing plan is $79/month vs Tradify's $69/month. For small sole traders doing simple work, Tradify is cheaper. For electrical or solar businesses needing CCEW compliance and custom forms, ServiceM8 delivers more value per dollar.
 
 ### Does Tradify handle CCEW compliance for NSW electricians?
 

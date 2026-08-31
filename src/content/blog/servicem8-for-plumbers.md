@@ -147,12 +147,13 @@ For Victorian plumbers, the VBA regulates both plumbing and gas work. The compli
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
-| Lite | ~$29 | 15 |
-| Starter | ~$65 | 50 |
-| Growing | ~$149 | 150 |
-| Premium | ~$349 | Unlimited |
+| Free | $0 | 30 |
+| Starter | $29 | 50 |
+| Growing | $79 | 150 |
+| Premium | $149 | 500 |
+| Premium Plus | $349 | 1,500+ |
 
-For a plumbing business with 4 field plumbers doing 80 jobs a month, ServiceM8 Growing at ~$149 compares to [Tradify](/blog/tradify-review-2026-australia) at ~$140 (4 × $35) for less functionality, or Fergus at ~$196 (4 × $49) with comparable capability but less Australian-specific compliance tooling.
+For a plumbing business with 4 field plumbers doing 80 jobs a month, ServiceM8 Growing at $79 compares to [Tradify](/blog/tradify-review-2026-australia) at ~$140 (4 × $35) for less functionality, or Fergus at ~$196 (4 × $49) with comparable capability but less Australian-specific compliance tooling.
 
 14-day free trial, full features, no credit card required.
 
@@ -218,7 +219,7 @@ Yes. ServiceM8 supports recurring jobs that auto-generate on a schedule you defi
 
 ### Does ServiceM8 work for sole trader plumbers?
 
-Absolutely. The Lite plan (~$29/month, 15 jobs) is designed for sole traders and works well for plumbers doing up to 15 jobs per month. The mobile app is the primary interface, so it suits field-first operators who want minimal office administration.
+Absolutely. The Free plan ($0/month, 30 jobs) is designed for sole traders and works well for plumbers doing up to 30 jobs per month. The mobile app is the primary interface, so it suits field-first operators who want minimal office administration.
 
 ### How does ServiceM8 handle materials and parts tracking?
 

@@ -124,12 +124,13 @@ For commercial HVAC businesses where the technician is often the sole point of c
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
-| Lite | ~$29 | 15 |
-| Starter | ~$65 | 50 |
-| Growing | ~$149 | 150 |
-| Premium | ~$349 | Unlimited |
+| Free | $0 | 30 |
+| Starter | $29 | 50 |
+| Growing | $79 | 150 |
+| Premium | $149 | 500 |
+| Premium Plus | $349 | 1,500+ |
 
-For an HVAC business with 5 technicians doing 100 jobs a month, ServiceM8 Growing at ~$149 compares favourably to per-user pricing models where the same team would cost $175–$250+ per month at similar platforms.
+For an HVAC business with 5 technicians doing 100 jobs a month, ServiceM8 Growing at $79 compares favourably to per-user pricing models where the same team would cost $175–$250+ per month at similar platforms.
 
 ---
 

@@ -11,7 +11,7 @@ faq:
   - question: "Does job management software help with electrical compliance in Australia?"
     answer: "Yes — the right platform significantly reduces compliance risk and admin time. ServiceM8 lets technicians complete Certificate of Compliance for Electrical Work (CCEW) documentation on-site via the mobile app, attach geo-tagged photos, and send the certificate to the customer and relevant authority without returning to the office. This eliminates the end-of-day paperwork burden and creates a timestamped audit trail."
   - question: "How much does job management software cost for an electrical business?"
-    answer: "ServiceM8 starts at around $29/month for the Starter plan and scales to $349/month for unlimited staff. simPRO and AroFlo typically start at $150–$250/month per user, making them significantly more expensive for small teams. For a 2-person electrical business, ServiceM8's mid-tier plan at $109/month typically delivers a positive ROI within the first month through faster invoicing and reduced admin hours."
+    answer: "ServiceM8 starts at around $29/month for the Starter plan and scales to $349/month for unlimited staff. simPRO and AroFlo typically start at $150–$250/month per user, making them significantly more expensive for small teams. For a 2-person electrical business, ServiceM8's mid-tier plan at $79/month typically delivers a positive ROI within the first month through faster invoicing and reduced admin hours."
   - question: "Can I use job management software to issue CCEWs in NSW?"
     answer: "ServiceM8 supports custom digital forms that mirror your CCEW requirements — including all mandatory fields under NSW Fair Trading regulations. The platform streamlines data capture and documentation workflow rather than replacing the legal issuing process. You can attach the completed CCEW PDF to the job record for full audit traceability."
   - question: "What should electricians look for in job management software?"
@@ -143,7 +143,7 @@ This is particularly valuable for electricians doing solar and battery work, whe
 
 | Platform | Starting price (AUD/mo) | Per-user pricing? | Free trial |
 |---|---|---|---|
-| **ServiceM8** | ~$29 (Lite, 15 jobs/mo) | No — job-based | 14 days |
+| **ServiceM8** | $29 (Starter, 50 jobs/mo) | No — job-based | 14 days |
 | **simPRO** | ~$149+ | Yes | Demo only |
 | **Tradify** | ~$35/user | Yes | 14 days |
 | **Fergus** | ~$49/user | Yes | 14 days |
@@ -152,7 +152,7 @@ This is particularly valuable for electricians doing solar and battery work, whe
 **Key insight:** ServiceM8's per-job (not per-user) pricing model is a significant advantage for growing businesses. When you hire your 5th or 10th technician, your software cost doesn't scale linearly — it stays flat until you hit the next job tier.
 
 For a business doing 100 jobs/month with 8 field technicians:
-- **ServiceM8 Growing:** ~$149/mo
+- **ServiceM8 Growing:** $79/mo
 - **Tradify:** ~$280/mo (8 × $35)
 - **Fergus:** ~$392/mo (8 × $49)
 
@@ -234,7 +234,7 @@ Whatever platform you choose, the most important thing is to choose one and use 
 
 ### What's the best job management software for a sole trader electrician in Australia?
 
-For a sole trader, **Tradify** or **ServiceM8 Lite** are the most accessible starting points. ServiceM8 Lite (~$29/mo, 15 jobs) is ideal if you need compliance documentation features. Tradify is slightly simpler to set up for basic job management.
+For a sole trader, **Tradify** or **ServiceM8 Starter** are the most accessible starting points. ServiceM8 Starter ($29/mo, 50 jobs) is ideal if you need compliance documentation features. Tradify is slightly simpler to set up for basic job management.
 
 ### Does ServiceM8 handle electrical compliance certificates (CES)?
 
@@ -289,7 +289,7 @@ ServiceM8 is the leading choice for small-to-medium Australian electrical busine
 Yes — the right platform significantly reduces compliance risk and admin time. ServiceM8, for example, lets technicians complete Certificate of Compliance for Electrical Work (CCEW) documentation on-site via the mobile app, attach geo-tagged photos, and send the certificate to the customer and relevant authority without returning to the office. This eliminates the end-of-day paperwork burden and creates a timestamped audit trail.
 
 ### How much does job management software cost for an electrical business?
-ServiceM8 starts at around $29/month for the Starter plan (2 staff members) and scales to $349/month for unlimited staff. simPRO and AroFlo typically start at $150–$250/month per user, making them significantly more expensive for small teams. Most platforms offer a free trial. For a 2-person electrical business, ServiceM8's mid-tier plan at $109/month typically delivers a positive ROI within the first month through faster invoicing and reduced admin hours.
+ServiceM8 starts at around $29/month for the Starter plan (50 jobs) and scales to $349/month for unlimited staff. simPRO and AroFlo typically start at $150–$250/month per user, making them significantly more expensive for small teams. Most platforms offer a free trial. For a 2-person electrical business, ServiceM8's mid-tier plan at $79/month typically delivers a positive ROI within the first month through faster invoicing and reduced admin hours.
 
 ### Can I use job management software to issue CCEWs in NSW?
 ServiceM8 supports custom digital forms that can mirror your CCEW requirements — including all mandatory fields under NSW Fair Trading regulations. However, the formal CCEW must still be issued through the licensed electrician's own process. The platform streamlines the data capture and documentation workflow rather than replacing the legal issuing process. You can also attach the completed CCEW PDF to the job record for full audit traceability.

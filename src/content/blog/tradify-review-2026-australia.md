@@ -43,7 +43,7 @@ Jobs are easy to create, assign to staff, and track through completion. The dash
 
 ### Pricing
 
-At $35/user/month, Tradify is cheaper than ServiceM8 for solo operators ($35 vs $99 on ServiceM8's Grow plan). For 1–2 users, the cost case is clear. The gap narrows at 3 users ($105 vs $99 on ServiceM8 Grow) and Tradify becomes more expensive at 4+ users.
+At $35/user/month, Tradify costs $35/month for a solo operator — slightly more than ServiceM8's Starter plan at $29/month (50 jobs). Because ServiceM8 prices by job volume rather than per user, the gap widens as teams grow: at 3 users Tradify costs $105/month versus ServiceM8 Growing at $79/month, and Tradify becomes progressively more expensive from there.
 
 ---
 
@@ -73,15 +73,15 @@ ServiceM8 includes real-time GPS tracking for field staff and the "On My Way" no
 
 | Team size | Tradify | ServiceM8 |
 |---|---|---|
-| 1 user | $35/month | $99/month (Grow) |
-| 2 users | $70/month | $99/month |
-| 3 users | $105/month | $99/month |
-| 5 users | $175/month | $199/month (Manage) |
-| 8 users | $280/month | $199/month |
-| 12 users | $420/month | $349/month (Unlimited) |
+| 1 user | $35/month | $29/month (Starter) |
+| 2 users | $70/month | $29/month (Starter) |
+| 3 users | $105/month | $79/month (Growing) |
+| 5 users | $175/month | $79/month (Growing) |
+| 8 users | $280/month | $149/month (Premium) |
+| 12 users | $420/month | $349/month (Premium Plus) |
 
-**At 1 user:** Tradify is $64/month cheaper.
-**At 3 users:** ServiceM8 is $6/month cheaper — essentially the same cost.
+**At 1 user:** ServiceM8 Starter ($29) is $6/month cheaper than Tradify ($35).
+**At 3 users:** ServiceM8 Growing ($79) is $26/month cheaper than Tradify ($105).
 **At 5+ users:** ServiceM8 is meaningfully cheaper and includes more features.
 
 ---
@@ -95,8 +95,8 @@ ServiceM8 includes real-time GPS tracking for field staff and the "On My Way" no
 | Client portal | ❌ Not standard | ✅ Included |
 | "On My Way" customer SMS | ❌ Limited | ✅ Full |
 | Per-user pricing | ✅ Yes | ❌ No (job volume) |
-| Cost for 3 staff | ~$105/month | ~$99/month |
-| Cost for 8 staff | ~$280/month | ~$199/month |
+| Cost for 3 staff | ~$105/month | ~$79/month |
+| Cost for 8 staff | ~$280/month | ~$149/month |
 | Mobile app quality | Good | Excellent |
 | Setup time | Very fast (hours) | Fast (1–2 days) |
 | Learning curve | Very low | Low |
