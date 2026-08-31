@@ -1,6 +1,6 @@
 ---
-title: 'ServiceM8 Review 2026: $29/mo, Unlimited Staff — Worth It?'
-description: "ServiceM8 at $29/mo beats Tradify on compliance forms but trails simPRO on reporting. Honest verdict for Australian tradies in 2026."
+title: 'ServiceM8 Review 2026: Worth $29/mo? Honest Verdict + Real Costs'
+description: "ServiceM8 review 2026: worth it at $29/mo for compliance-heavy trades, but simPRO wins on reporting. Full pros, cons and real costs."
 updatedDate: 'Aug 07 2026'
 pubDate: 'Apr 03 2026'
 category: "ServiceM8"
@@ -13,7 +13,7 @@ faq:
   - question: "What are the main limitations of ServiceM8?"
     answer: "ServiceM8 is not well-suited for large businesses (20+ field staff) with complex project management, multi-stage billing, or detailed cost tracking at a project level. It lacks native gantt-chart scheduling, doesn't handle retention billing natively, and its reporting suite is less powerful than simPRO or AroFlo. For large commercial solar projects with multiple milestones and subcontractor management, a platform like simPRO may be worth evaluating."
   - question: "How much does ServiceM8 cost in Australia in 2026?"
-    answer: "ServiceM8 plans start at $29/month (Lite, up to 15 jobs/month) with unlimited staff on all plans. The Growing plan at approximately $149/month covers 150 jobs/month and suits most small electrical and solar businesses. There is a free 14-day trial with no credit card required."
+    answer: "ServiceM8 plans in 2026: Free ($0/mo, 30 jobs, 1 user), Starter ($29/mo, 50 jobs), Growing ($79/mo, 150 jobs), Premium ($149/mo, 500 jobs) and Premium Plus ($349/mo, 1,500+ jobs). All paid plans include unlimited staff — ServiceM8 charges per job volume, not per user. A free 14-day trial is available with no credit card required."
   - question: "Does ServiceM8 work for solar compliance documentation?"
     answer: "Yes — ServiceM8 supports custom digital forms that capture all required solar compliance data: CER documentation requirements, geo-tagged site photos, AS/NZS 5033 and 5139 checklist items, customer declarations for STC assignment, and CCEW data fields. Forms are completed on-site and synced automatically, creating a timestamped digital audit trail."
   - question: "Can ServiceM8 integrate with Xero and MYOB?"
@@ -71,13 +71,13 @@ ServiceM8 operates on a monthly subscription with pricing based on the number of
 
 | Plan | Jobs/month | Price (AUD) |
 |---|---|---|
-| Lite | 15 | ~$29/mo |
-| Starter | 50 | ~$65/mo |
-| Growing | 150 | ~$149/mo |
-| Premium | 500 | ~$299/mo |
-| Premium+ | Unlimited | Custom |
+| Free | 30 | $0/mo |
+| Starter | 50 | $29/mo |
+| Growing | 150 | $79/mo |
+| Premium | 500 | $149/mo |
+| Premium Plus | 1,500+ | $349/mo |
 
-**All plans include unlimited staff logins** — so you're not paying per head as you hire. This makes ServiceM8 significantly more cost-effective than platforms like simPRO or AroFlo at the growth stage.
+**All paid plans include unlimited staff logins** — so you're not paying per head as you hire. This makes ServiceM8 significantly more cost-effective than platforms like simPRO or AroFlo at the growth stage.
 
 There are some add-ons that push costs higher — advanced scheduling, job costing modules, and some third-party integrations carry extra monthly fees. Factor these in when comparing total cost of ownership.
 
@@ -276,7 +276,7 @@ Yes — all of these refer to the same platform. The official brand name is *Ser
 ServiceM8 is not well-suited for large businesses (20+ field staff) with complex project management, multi-stage billing, or detailed cost tracking at a project level. It lacks native gantt-chart scheduling, doesn't handle retention billing natively, and its reporting suite is less powerful than simPRO or AroFlo. For a business doing large commercial solar projects with multiple milestones and subcontractor management, a platform like simPRO is worth evaluating despite the higher cost and complexity.
 
 ### [How much does ServiceM8 cost](/blog/servicem8-pricing-plans-australia-2026) in Australia in 2026?
-ServiceM8 is priced in AUD for Australian businesses. Plans start at $29/month (Lite, up to 15 jobs/month) and go up to custom pricing on the Premium+ unlimited plan. The most popular plan for small electrical and solar businesses is the Growing plan at ~$149/month, covering 150 jobs/month with unlimited staff. There is a free 14-day trial with no credit card required.
+ServiceM8 is priced in AUD for Australian businesses. Plans start at $29/month (Starter, 50 jobs/month) and scale to Premium Plus at $349/month for 1,500+ jobs. The most popular plan for small electrical and solar businesses is Growing at $79/month, covering 150 jobs/month with unlimited staff. There is a free 14-day trial with no credit card required.
 
 ### Does ServiceM8 work for solar compliance documentation?
 Yes — ServiceM8 supports custom digital forms that can capture all the data required for solar compliance workflows: CER documentation requirements, geo-tagged site photos (attached directly in the app), AS/NZS 5033 and 5139 checklist items, customer declarations for STC assignment, and CCEW data fields. These forms can be completed on-site and synced automatically, eliminating end-of-day paperwork and creating a timestamped digital audit trail.
