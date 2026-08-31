@@ -130,6 +130,8 @@ exports.handler = async (event) => {
         score,
         tier,
         emailSent,
+        // Fallback download link — only surfaced to the user if the email fails.
+        downloadUrl: planUrl,
       }),
     };
   } catch (err) {

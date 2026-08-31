@@ -296,7 +296,11 @@
       });
       const data = await resp.json();
       if (data.success) {
-        status.innerHTML = '<span style="color:#22c55e;">✅ Plan sent! Check your inbox for your custom action plan.</span>';
+        if (data.emailSent === false && data.downloadUrl) {
+          status.innerHTML = '<span style="color:#fbbf24;">⚠️ We couldn\'t email your plan just now. <a href="' + data.downloadUrl + '" style="color:#f97316;font-weight:700;">Download it here →</a></span>';
+        } else {
+          status.innerHTML = '<span style="color:#22c55e;">✅ Plan sent! Check your inbox for your custom action plan.</span>';
+        }
       } else {
         status.innerHTML = '<span style="color:#ef4444;">' + (data.error || 'Something went wrong. Try again.') + '</span>';
       }
