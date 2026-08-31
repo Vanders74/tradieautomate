@@ -46,33 +46,47 @@
 
     <!-- Options -->
     <div id="quiz-options" style="display:flex;flex-direction:column;gap:10px;"></div>
+    <!-- Back button (shown from question 2) -->
+    <div id="quiz-back" style="text-align:left;"></div>
   </div>
 
   <!-- Results (hidden until complete) -->
   <div id="quiz-results" style="display:none;"></div>
 </div>
 
-<style>
+<style is:global>
   #exit-quiz .quiz-option {
-    display:block;width:100%;padding:14px 16px;text-align:left;
+    display:flex;align-items:center;gap:14px;width:100%;padding:14px 16px;text-align:left;
     background:#1e293b;border:1.5px solid #334155;border-radius:10px;
     color:#cbd5e1;font-size:0.9rem;line-height:1.5;cursor:pointer;
-    transition:all 0.15s;
+    transition:border-color 0.15s, background 0.15s, transform 0.15s;
   }
   #exit-quiz .quiz-option:hover {
-    border-color:#f97316;background:#1e293b;color:#f1f5f9;
-    transform:translateX(4px);
+    border-color:#f97316;background:#26334a;color:#f1f5f9;
+    transform:translateX(3px);
   }
   #exit-quiz .quiz-option.selected {
     border-color:#f97316;background:#1e3a5f;color:#fff;
   }
   #exit-quiz .quiz-option .opt-label {
-    display:inline-block;width:22px;height:22px;line-height:22px;
-    text-align:center;border-radius:50%;background:#334155;
-    color:#94a3b8;font-weight:700;font-size:0.75rem;margin-right:10px;
+    display:inline-flex;align-items:center;justify-content:center;
+    width:28px;height:28px;flex-shrink:0;
+    border-radius:50%;background:#334155;
+    color:#94a3b8;font-weight:700;font-size:0.8rem;
+  }
+  #exit-quiz .quiz-option:hover .opt-label {
+    background:#475569;color:#fff;
   }
   #exit-quiz .quiz-option.selected .opt-label {
     background:#f97316;color:#fff;
+  }
+  #exit-quiz .quiz-back-btn {
+    display:inline-block;margin-top:14px;padding:8px 18px;
+    background:transparent;border:1px solid #334155;border-radius:8px;
+    color:#94a3b8;font-size:0.82rem;cursor:pointer;transition:all 0.15s;
+  }
+  #exit-quiz .quiz-back-btn:hover {
+    border-color:#64748b;color:#cbd5e1;
   }
 </style>
 
@@ -182,9 +196,13 @@
     let opts = '';
     ['a','b','c'].forEach(function(opt) {
       opts += '<button class="quiz-option" onclick="selectAnswer(\'' + opt + '\')">' +
-        '<span class="opt-label">' + opt.toUpperCase() + '</span>' + q[opt] + '</button>';
+        '<span class="opt-label">' + opt.toUpperCase() + '</span><span>' + q[opt] + '</span></button>';
     });
     document.getElementById('quiz-options').innerHTML = opts;
+
+    document.getElementById('quiz-back').innerHTML = currentQ > 0
+      ? '<button class="quiz-back-btn" onclick="goBack()">← Back</button>'
+      : '';
   }
 
   window.selectAnswer = function(opt) {
@@ -192,6 +210,14 @@
     scores.push(score);
     answers[currentQ + 1] = opt.toUpperCase();
     currentQ++;
+    showQuestion();
+  };
+
+  window.goBack = function() {
+    if (currentQ === 0) return;
+    currentQ--;
+    scores.pop();
+    delete answers[currentQ + 1];
     showQuestion();
   };
 
