@@ -140,10 +140,11 @@ Roofing invoicing involves some complexity that ServiceM8 handles well:
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
-| Lite | ~$29 | 15 |
-| Starter | ~$65 | 50 |
-| Growing | ~$149 | 150 |
-| Premium | ~$349 | Unlimited |
+| Free | $0 | 30 |
+| Starter | $29 | 50 |
+| Growing | $79 | 150 |
+| Premium | $149 | 500 |
+| Premium Plus | $349 | 1,500+ |
 
 For a roofing business handling 30–60 jobs per month across 2 crews, the Starter or Growing plan handles the volume. The per-job pricing model means adding crew members doesn't add to your monthly software cost.
 

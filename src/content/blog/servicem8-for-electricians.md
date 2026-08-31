@@ -9,7 +9,7 @@ faq:
   - question: "What is ServiceM8 and how does it help Australian electricians?"
     answer: "ServiceM8 is a cloud-based job management platform built in Australia for trade businesses. For electricians, it replaces paper forms with digital compliance checklists, auto-generates invoices from completed jobs for same-day payment, tracks technician locations via GPS, and stores CCEW/CES documentation against every job record — making audit preparation a 5-minute exercise instead of a 2-day scramble."
   - question: "How much does ServiceM8 cost for an electrical business in Australia?"
-    answer: "ServiceM8 starts at $29/month for the Lite plan (15 jobs), $65/month for Starter (50 jobs), $149/month for Growing (150 jobs), and $349/month for Premium (unlimited jobs). All plans include unlimited staff. Most 1-5 person electrical businesses land on the Starter or Growing plan."
+    answer: "ServiceM8 starts with a Free plan ($0/month, 30 jobs), then Starter at $29/month (50 jobs), Growing at $79/month (150 jobs), Premium at $149/month (500 jobs), and Premium Plus at $349/month (1,500+ jobs). All paid plans include unlimited staff. Most 1-5 person electrical businesses land on the Starter or Growing plan."
   - question: "Does ServiceM8 handle CCEW and electrical compliance certificates?"
     answer: "Yes. ServiceM8's custom form builder lets you create CCEW templates, CES checklists, and test record forms that technicians complete on-site. Forms can be set as mandatory — a job cannot be marked complete without the compliance documentation filled in and attached."
   - question: "Can ServiceM8 integrate with Xero or MYOB for my electrical business?"
@@ -202,12 +202,13 @@ For the majority of Australian electrical businesses — residential, solar, and
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
-| Lite | ~$29 | 15 |
-| Starter | ~$65 | 50 |
-| Growing | ~$149 | 150 |
-| Premium | ~$349 | Unlimited |
+| Free | $0 | 30 |
+| Starter | $29 | 50 |
+| Growing | $79 | 150 |
+| Premium | $149 | 500 |
+| Premium Plus | $349 | 1,500+ |
 
-All plans include unlimited staff — only the job volume changes. For a 5-person electrical team doing 80 jobs a month, ServiceM8 Growing at ~$149 significantly undercuts Tradify (~$175 for 5 users) and Fergus (~$245 for 5 users), while providing more compliance functionality.
+All plans include unlimited staff — only the job volume changes. For a 5-person electrical team doing 80 jobs a month, ServiceM8 Growing at $79 significantly undercuts Tradify (~$175 for 5 users) and Fergus (~$245 for 5 users), while providing more compliance functionality.
 
 A 14-day free trial with full feature access is available. No credit card required.
 
@@ -304,7 +305,7 @@ Yes — ServiceM8 is purpose-built for the way Australian trade businesses work 
 ServiceM8 supports custom digital forms that can capture all the data required for CCEW and equivalent compliance certificates in other states (CES in VIC, etc.). Technicians complete the form on-site via the mobile app, attach geo-tagged photos, and the completed record syncs to the job file automatically. While ServiceM8 doesn't formally "issue" the CCEW in the legal sense (the licensed contractor must do that), it provides the workflow infrastructure to ensure the right data is captured at the right time and stored in a searchable, audit-ready format.
 
 ### How much does ServiceM8 cost for an electrical business?
-ServiceM8 costs AUD $29/month (Starter, 2 staff), $109/month (Growing, 15 staff), $189/month (Established, 30 staff), or $349/month (Premium, unlimited staff). Most 2–5 person electrical businesses find the Growing plan at $109/month sufficient. This compares favourably to alternatives like simPRO ($150–$250/month per user) or AroFlo (similar per-user pricing). ServiceM8 offers a free 14-day trial. For a business currently managing scheduling via whiteboard and invoicing via spreadsheet, the typical payback period is under 30 days through invoicing speed improvement alone.
+ServiceM8 costs AUD $0/month (Free, 30 jobs), $29/month (Starter, 50 jobs), $79/month (Growing, 150 jobs), $149/month (Premium, 500 jobs), or $349/month (Premium Plus, 1,500+ jobs). Most 2–5 person electrical businesses find the Growing plan at $79/month sufficient. This compares favourably to alternatives like simPRO ($150–$250/month per user) or AroFlo (similar per-user pricing). ServiceM8 offers a free 14-day trial. For a business currently managing scheduling via whiteboard and invoicing via spreadsheet, the typical payback period is under 30 days through invoicing speed improvement alone.
 
 ### Can ServiceM8 manage solar and battery compliance documentation?
 Yes. ServiceM8 can capture CER-required documentation fields, geo-tagged installation photos, customer STC assignment details, AS/NZS 5033 and 5139 checklist items, and DNSP notification records — all within the job workflow on the mobile app. This creates a complete per-job audit file that can be produced immediately if contacted by the CER or a state electrical safety regulator. For solar businesses doing 10+ installations per month, this centralised compliance documentation is one of the most significant operational improvements ServiceM8 delivers.

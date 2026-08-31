@@ -150,12 +150,13 @@ Building a client record for each property manager with their properties, prefer
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
-| Lite | ~$29 | 15 |
-| Starter | ~$65 | 50 |
-| Growing | ~$149 | 150 |
-| Premium | ~$349 | Unlimited |
+| Free | $0 | 30 |
+| Starter | $29 | 50 |
+| Growing | $79 | 150 |
+| Premium | $149 | 500 |
+| Premium Plus | $349 | 1,500+ |
 
-For a painting business doing 40 jobs a month across 3 crews, the Growing plan (~$149) provides full capability without per-user cost blowout. As you add crew members, the software cost stays flat.
+For a painting business doing 40 jobs a month across 3 crews, the Growing plan ($79) provides full capability without per-user cost blowout. As you add crew members, the software cost stays flat.
 
 [Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 

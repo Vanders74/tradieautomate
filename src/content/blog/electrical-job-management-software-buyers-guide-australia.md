@@ -130,7 +130,7 @@ For electricians specifically: limited native compliance documentation tools. Th
 | Multi-day project management | Basic | ✅ Advanced | Basic | ✅ Advanced | Basic |
 | GPS tracking | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
 | Client portal | ✅ Yes | ✅ Yes | Limited | ✅ Yes | ✅ Yes |
-| Entry cost (3 staff) | $99–$199/mo | ~$450–$750/mo | ~$105/mo | Custom | ~$147/mo |
+| Entry cost (3 staff) | $29–$79/mo | ~$450–$750/mo | ~$105/mo | Custom | ~$147/mo |
 | Implementation time | 1–3 days | 2–4 weeks | 1–2 days | 3–6 weeks | 1–2 weeks |
 
 ---

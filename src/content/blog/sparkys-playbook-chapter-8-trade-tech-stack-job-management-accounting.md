@@ -75,14 +75,15 @@ ServiceM8 is the most widely used job management platform among small-to-medium 
 
 **ServiceM8 pricing (approximate, check current pricing):**
 
-| Plan | Staff | Price/month |
+| Plan | Jobs/month | Price/month |
 |---|---|---|
-| Starter | Up to 15 jobs/month | ~$29 |
-| Growing | Unlimited jobs | ~$109 |
-| Established | Unlimited + advanced features | ~$199 |
-| Premium | Unlimited + all features | ~$349 |
+| Free | 30 | $0 |
+| Starter | 50 | $29 |
+| Growing | 150 | $79 |
+| Premium | 500 | $149 |
+| Premium Plus | 1,500+ | $349 |
 
-For most electrical businesses, the Growing or Established plan covers what's needed.
+For most electrical businesses, the Growing or Premium plan covers what's needed.
 
 **[Try ServiceM8 free for 14 days](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)**
 

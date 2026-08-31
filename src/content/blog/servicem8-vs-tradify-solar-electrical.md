@@ -98,12 +98,13 @@ Priced per-job, all staff included:
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
-| Lite | ~$29 | 15 |
-| Starter | ~$65 | 50 |
-| Growing | ~$149 | 150 |
-| Premium | ~$349 | Unlimited |
+| Free | $0 | 30 |
+| Starter | $29 | 50 |
+| Growing | $79 | 150 |
+| Premium | $149 | 500 |
+| Premium Plus | $349 | 1,500+ |
 
-A solar business doing 40 installations per month with 4 staff costs around **$65/month** on ServiceM8 Starter.
+A solar business doing 40 installations per month with 4 staff costs around **$29/month** on ServiceM8 Starter.
 
 ### Tradify
 
