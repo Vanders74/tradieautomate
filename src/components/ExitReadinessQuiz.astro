@@ -261,10 +261,10 @@
       '</div>' +
       '<div style="background:linear-gradient(135deg,#1e293b,#0f172a);border:1px solid #334155;border-radius:10px;padding:20px;text-align:center;">' +
         '<h3 style="margin:0 0 6px;font-size:1rem;color:#f97316;">📋 Get Your Custom Action Plan</h3>' +
-        '<p style="margin:0 0 16px;font-size:0.82rem;color:#94a3b8;">A personalised 1-page PDF with your score breakdown and exact next steps based on YOUR answers. Free. Instant.</p>' +
+        '<p style="margin:0 0 16px;font-size:0.82rem;color:#94a3b8;">A personalised 1-page PDF with your score breakdown and exact next steps based on YOUR answers. Free. Delivered straight to your inbox.</p>' +
         '<form onsubmit="requestPlan(event)" style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">' +
           '<input type="email" id="quiz-email" placeholder="Your email" required style="flex:1;min-width:200px;padding:12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:0.9rem;">' +
-          '<button type="submit" style="padding:12px 24px;background:linear-gradient(135deg,#f97316,#ea580c);color:#fff;border:none;border-radius:8px;font-size:0.9rem;font-weight:700;cursor:pointer;white-space:nowrap;">Send My Plan →</button>' +
+          '<button type="submit" style="padding:12px 24px;background:linear-gradient(135deg,#f97316,#ea580c);color:#fff;border:none;border-radius:8px;font-size:0.9rem;font-weight:700;cursor:pointer;white-space:nowrap;">Email My Plan →</button>' +
         '</form>' +
         '<div id="plan-status" style="margin-top:12px;font-size:0.85rem;"></div>' +
       '</div>';
@@ -296,7 +296,7 @@
       });
       const data = await resp.json();
       if (data.success) {
-        status.innerHTML = '<span style="color:#22c55e;">✅ Plan sent! Check your inbox.<br><a href="' + data.downloadUrl + '" style="color:#f97316;">Download your custom action plan →</a></span>';
+        status.innerHTML = '<span style="color:#22c55e;">✅ Plan sent! Check your inbox for your custom action plan.</span>';
       } else {
         status.innerHTML = '<span style="color:#ef4444;">' + (data.error || 'Something went wrong. Try again.') + '</span>';
       }
