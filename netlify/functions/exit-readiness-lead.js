@@ -93,6 +93,7 @@ exports.handler = async (event) => {
 
     // 2. Send transactional email with the action-plan link
     let emailSent = false;
+    let emailError = null;
     if (BREVO_API_KEY) {
       const html = buildEmailHtml({ firstName, email, score: scoreLabel, tier: t, planUrl });
       const text = buildEmailText({ firstName, score: scoreLabel, tier: t, planUrl });
@@ -106,7 +107,7 @@ exports.handler = async (event) => {
             Accept: 'application/json',
           },
           body: JSON.stringify({
-            sender: { name: 'TradieAutomate', email: 'info@tradieautomate.com' },
+            sender: { name: 'Shane | TradieAutomate', email: 'info@tradieautomate.com' },
             to: [{ email, name: firstName || '' }],
             subject: `Your Exit-Readiness Action Plan ${scoreLabel ? `(${scoreLabel})` : ''}`,
             htmlContent: html,
@@ -115,11 +116,16 @@ exports.handler = async (event) => {
         });
         emailSent = res.ok || res.status === 201 || res.status === 202;
         if (!emailSent) {
-          console.error('Brevo email error:', res.status, await res.text());
+          const errBody = await res.text();
+          emailError = `Brevo SMTP ${res.status}: ${errBody}`;
+          console.error('Brevo email error:', res.status, errBody);
         }
       } catch (emailErr) {
+        emailError = `Request failed: ${emailErr.message || emailErr}`;
         console.error('Brevo email request failed:', emailErr);
       }
+    } else {
+      emailError = 'BREVO_API_KEY not configured';
     }
 
     return {
@@ -130,6 +136,7 @@ exports.handler = async (event) => {
         score,
         tier,
         emailSent,
+        emailError,
         // Fallback download link — only surfaced to the user if the email fails.
         downloadUrl: planUrl,
       }),
