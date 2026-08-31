@@ -1,0 +1,210 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+
+const title = 'Free Downloads for Australian Tradies — Checklists, Cards & Guides';
+const description = 'Free downloadable checklists, quick-reference cards and guides for Australian electricians, solar installers and trade business owners. No credit card required.';
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Free Tradie Downloads",
+  "description": description,
+  "url": "https://tradieautomate.com/resources/",
+  "publisher": { "@type": "Organization", "name": "TradieAutomate" }
+};
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are TradieAutomate downloads really free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every checklist, card and guide is free. You enter your email to get instant access — that's it. No credit card, no trial. We email you when the content is updated (for example, when the Clean Energy Regulator changes STC rules or Fair Work updates award rates)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What downloads are available for Australian tradies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three right now: the Solar Compliance Checklist (CER, AS/NZS 5033 and 5139, STC documentation), the Electrical Award Rates Quick Reference Card (MA000025 July 2026 rates), and the 12-chapter Sparky's Playbook. Each is a printable PDF built for Australian compliance requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do the free tools differ from the downloads?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The downloads are printable PDFs — checklists, cards and guides you keep on the job. The tools are interactive calculators (solar savings, quote profitability, admin cost, EV charger cost) that give you an instant answer in the browser. Both are free; the tools don't require an email at all."
+      }
+    }
+  ]
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+    <style>
+      .res-hero {
+        text-align: center;
+        padding: 48px 24px 32px;
+      }
+      .res-hero h1 {
+        font-size: clamp(1.8rem, 4vw, 2.6rem);
+        font-weight: 800;
+        color: #0f172a;
+        margin-bottom: 12px;
+      }
+      .res-hero p {
+        color: #64748b;
+        max-width: 560px;
+        margin: 0 auto;
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+      .res-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        margin-top: 40px;
+      }
+      .res-card {
+        background: white;
+        border: 1px solid #e2e8f0;
+        border-radius: 14px;
+        padding: 28px;
+        text-decoration: none;
+        color: inherit;
+        transition: box-shadow 0.2s, transform 0.15s;
+        display: flex;
+        flex-direction: column;
+      }
+      .res-card:hover {
+        box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        transform: translateY(-2px);
+      }
+      .res-card .res-icon { font-size: 2rem; margin-bottom: 12px; display: block; }
+      .res-card .res-badge {
+        display: inline-block;
+        background: #fff7ed;
+        color: #ea580c;
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+        padding: 3px 8px;
+        border-radius: 100px;
+        margin-bottom: 10px;
+        align-self: flex-start;
+      }
+      .res-card h2 {
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: #0f172a;
+        margin-bottom: 8px;
+        line-height: 1.3;
+      }
+      .res-card p {
+        font-size: 0.88rem;
+        color: #64748b;
+        line-height: 1.55;
+        margin-bottom: 16px;
+        flex: 1;
+      }
+      .res-card .res-cta {
+        font-size: 0.85rem;
+        font-weight: 700;
+        color: #f97316;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+      .section-title {
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: #0f172a;
+        margin: 48px 0 4px;
+      }
+      .section-sub {
+        color: #64748b;
+        font-size: 0.9rem;
+        margin: 0 0 20px;
+      }
+      .tools-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: #f1f5f9;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        padding: 10px 16px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: #475569;
+        text-decoration: none;
+        transition: background 0.15s;
+      }
+      .tools-link:hover { background: #e2e8f0; color: #1e293b; }
+      .res-wrap {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 24px 56px;
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <div class="res-hero">
+        <h1>Free Downloads for Australian Tradies</h1>
+        <p>Printable checklists, quick-reference cards and guides — built for Australian compliance requirements. Free, no credit card, updated when the rules change.</p>
+      </div>
+
+      <div class="res-wrap">
+        <div class="res-grid">
+          <a href="/compliance-checklist" class="res-card">
+            <span class="res-icon">☀️</span>
+            <span class="res-badge">Free PDF</span>
+            <h2>Solar Compliance Checklist 2026</h2>
+            <p>Every requirement for solar and battery installs — CER accreditation, AS/NZS 5033 &amp; 5139, STC documentation and audit prep. One printable page.</p>
+            <span class="res-cta">Get it free →</span>
+          </a>
+          <a href="/award-rates-card" class="res-card">
+            <span class="res-icon">💰</span>
+            <span class="res-badge">Free PDF</span>
+            <h2>Electrical Award Rates Card 2026</h2>
+            <p>MA000025 rates at a glance — grades 1–5, apprentice Year 1–4, overtime and allowances. Updated for the Fair Work July 2026 determination.</p>
+            <span class="res-cta">Get it free →</span>
+          </a>
+          <a href="/playbook" class="res-card">
+            <span class="res-icon">📘</span>
+            <span class="res-badge">Free Guide</span>
+            <h2>The Sparky's Playbook</h2>
+            <p>12 chapters on licensing, EV charging, commercial solar, cash flow, job management and building an electrical business worth selling.</p>
+            <span class="res-cta">Get it free →</span>
+          </a>
+          <a href="/exit-readiness" class="res-card">
+            <span class="res-icon">🚀</span>
+            <span class="res-badge">Free Assessment</span>
+            <h2>Exit-Readiness Quiz</h2>
+            <p>Is your trade business a sellable asset or a job that runs on you? A 3-minute score and a custom action plan PDF based on your answers.</p>
+            <span class="res-cta">Take the quiz →</span>
+          </a>
+        </div>
+
+        <h2 class="section-title">Free Tools</h2>
+        <p class="section-sub">Interactive calculators — instant answers in the browser, no email required.</p>
+        <a href="/tools" class="tools-link">🧮 Browse all free tools →</a>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>

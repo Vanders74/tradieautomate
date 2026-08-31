@@ -220,6 +220,9 @@ Yes. [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance) has specific re
 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)
+>
+> **Free Solar Compliance Checklist PDF** — the printable 1-page version of this checklist, covering CER accreditation, AS/NZS 5033 & 5139, STC documentation and audit prep.
+> [Download the checklist →](/compliance-checklist)
 
 ## Related Reading
 
