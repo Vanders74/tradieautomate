@@ -142,11 +142,14 @@ The question isn't whether you'll ever want to exit your business. Every busines
 
 **Start building that proof now.**
 
+*Not sure where your business actually stands? [Take the 3-minute Exit-Readiness Quiz](/exit-readiness) to find out if you're building a sellable asset — or just a bigger job for yourself.*
+
 ---
 
 ## Related Articles
 
 - [How to Sell Your ServiceM8-Based Trade Business for Maximum Value](/blog/sell-servicem8-trade-business-value)
+- [Take the Exit-Readiness Quiz — is your business built to sell?](/exit-readiness)
 - [ServiceM8 for Solar Installers](/blog/servicem8-for-solar-installers)
 - [ServiceM8 Review 2026 — Honest Assessment for Australian Tradies](/blog/servicem8-review-2026)
 - [ServiceM8 vs simPRO: Which Job Management Software Is Right for Australian Tradies?](/blog/servicem8-vs-simpro-comparison-australia)
