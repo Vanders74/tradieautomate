@@ -168,6 +168,9 @@ For a full rundown of what you need on every solar job, start with the [Solar Co
 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)
+>
+> **Free Solar Compliance Checklist PDF** — the printable 1-page audit-readiness checklist so every CER inspection is a formality, not a scramble.
+> [Download the checklist →](/compliance-checklist)
 
 ## Related Reading
 

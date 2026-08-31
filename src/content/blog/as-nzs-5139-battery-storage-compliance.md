@@ -223,6 +223,9 @@ Yes — from May 2026, new battery installations using inverters that aren't CSI
 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)
+>
+> **Free Solar Compliance Checklist PDF** — the printable 1-page checklist for every solar and battery job, including the AS/NZS 5139 requirements covered here.
+> [Download the checklist →](/compliance-checklist)
 
 ## Related Reading
 

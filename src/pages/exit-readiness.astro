@@ -1,0 +1,134 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import ExitReadinessQuiz from '../components/ExitReadinessQuiz.astro';
+
+const title = 'Exit-Readiness Quiz for Trade Businesses — Is Your Business Built to Sell?';
+const description = 'Free 3-minute self-assessment. Find out if your electrical, solar or trade business is a sellable asset or a job that runs on you — and get a custom action plan PDF.';
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the Exit-Readiness Quiz?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A free 12-question self-assessment that scores how sellable your trade business is. It measures key-person risk, systems and documentation, pricing and quoting, recurring revenue, compliance automation, and your transition plan — then delivers a custom one-page action plan PDF based on your answers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does the exit-readiness assessment take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About 3 minutes. Each question has three answers. At the end you get an instant score and one of three diagnoses: High Key-Person Risk, The Scaling Trap, or Exit-Ready Asset — each with a custom action plan."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the exit-readiness action plan really free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Enter your email at the end and your custom one-page action plan PDF is delivered instantly. No credit card, no trial. You'll get your score breakdown and your top 3 priorities based on your specific answers."
+      }
+    }
+  ]
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+    <style>
+      .lead-page {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem 4rem;
+      }
+      .badge {
+        display: inline-block;
+        background: #f97316;
+        color: #1a2744;
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        padding: 0.35em 0.9em;
+        border-radius: 99px;
+        margin-bottom: 1.2rem;
+      }
+      h1 {
+        font-size: 2.1rem;
+        line-height: 1.15;
+        color: #1a2744;
+        margin: 0 0 1rem;
+      }
+      h1 span { color: #f97316; }
+      .sub {
+        font-size: 1.1rem;
+        color: #4b5563;
+        margin-bottom: 2rem;
+        line-height: 1.6;
+      }
+      .content-section {
+        margin-top: 3rem;
+        border-top: 2px solid #e5e7eb;
+        padding-top: 2rem;
+      }
+      .content-section h2 {
+        font-size: 1.4rem;
+        color: #1a2744;
+        margin-bottom: 0.75rem;
+      }
+      .content-section p {
+        color: #374151;
+        line-height: 1.7;
+        margin-bottom: 1rem;
+      }
+      @media (max-width: 600px) {
+        h1 { font-size: 1.7rem; }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <div class="lead-page">
+        <div class="badge">Free Self-Assessment</div>
+        <h1>Is Your Trade Business<br /><span>Built to Sell — or Stuck on You?</span></h1>
+        <p class="sub">
+          A buyer isn't buying your client list — they're buying a business that runs without you.
+          This 3-minute quiz scores your business on the six things that determine its sale value,
+          then gives you a custom action plan.
+        </p>
+
+        <ExitReadinessQuiz />
+
+        <div class="content-section">
+          <h2>What the Quiz Measures</h2>
+          <p>
+            The assessment covers the six factors that determine whether a trade business is a
+            sellable asset or a high-risk job: key-person dependency, documented systems and
+            standards, quoting and pricing discipline, recurring revenue, compliance automation,
+            and your transition plan for leadership and key accounts.
+          </p>
+          <p>
+            At the end you'll land in one of three tiers — <strong>High Key-Person Risk</strong>,
+            <strong>The Scaling Trap</strong>, or <strong>Exit-Ready Asset</strong> — with a
+            one-page action plan built around your specific answers.
+          </p>
+          <p>
+            For the full playbook on building a business worth selling, see
+            <a href="/blog/sell-servicem8-trade-business-value">Sell Your Trade Business: A Guide to Building Value</a>
+            and the <a href="/playbook">Sparky's Playbook</a>.
+          </p>
+        </div>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>

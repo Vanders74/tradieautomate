@@ -447,5 +447,6 @@ For businesses valued under $300K, private sale (via platforms like Seek Busines
 - *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance)*
+- *[Browse all free tools, checklists and guides](/resources)*
 - *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
 - *[solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)*
