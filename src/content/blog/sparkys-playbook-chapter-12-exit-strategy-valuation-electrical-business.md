@@ -197,6 +197,8 @@ Selling to an external buyer is not the only exit. Other paths:
 > 2. **Document your three most critical processes** — quoting, job completion, invoicing — so they can run without you.
 > 3. **Ask your accountant whether your current business structure is CGT-concession eligible** — the answer affects how you should structure ownership from now.
 
+*Want a benchmark of where you stand? [Take the free Exit-Readiness Quiz](/exit-readiness) — 12 questions, 3 minutes, and a custom action plan based on your answers.*
+
 ---
 
 ## Related Reading
@@ -205,6 +207,7 @@ Selling to an external buyer is not the only exit. Other paths:
 - [The Sparky's Playbook — Chapter 7: Cash Flow Management](/blog/sparkys-playbook-chapter-7-cash-flow-electrical-contractors-australia)
 - [Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia)
 - [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026)
+- [Exit-Readiness Quiz — is your business built to sell?](/exit-readiness)
 - [The Sparky's Playbook — Download All 12 Chapters Free](/playbook)
 
 ---
