@@ -121,9 +121,9 @@ The single biggest reason installers fail CER audits is not bad work — it is p
 
 [ServiceM8 for solar installers](/blog/servicem8-for-solar-installers) is the platform we see most commonly adopted by Australian solar businesses for exactly this reason. Job notes, on-site photos (automatically date and location stamped), digital forms, and client sign-offs are all captured in one place and tied to the specific job record. When an auditor requests documentation for a job from 14 months ago, you can pull it in under a minute rather than hunting through inboxes and phone galleries.
 
-The ServiceM8 review](/blog/servicem8-review-2026) covers the platform in depth if you want the full picture, but the compliance documentation use case alone makes it worth evaluating for any solar installer with more than a handful of jobs per month.
+[The ServiceM8 review](/blog/servicem8-review-2026) covers the platform in depth if you want the full picture, but the compliance documentation use case alone makes it worth evaluating for any solar installer with more than a handful of jobs per month.
 
-If you are not using a digital system yet, [ServiceM8](https://servicem8.com) offers a free trial — worth setting up before your next CER lodgement cycle rather than after an audit request.
+If you are not using a digital system yet, [ServiceM8](https://www.servicem8.com/au/register/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) offers a free trial — worth setting up before your next CER lodgement cycle rather than after an audit request.
 
 ---
 

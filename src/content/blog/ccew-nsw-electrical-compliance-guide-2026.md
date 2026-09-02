@@ -35,7 +35,7 @@ Getting your CCEW obligations right is not complex, but it is non-negotiable. Th
         ServiceM8 auto-populates CCEW compliance forms directly from site photos on your phone — and reminds you before the 7-day deadline.
       </p>
     </div>
-    <a href="https://www.servicem8.com/au/free-trial/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=ccew_bridge" target="_blank" rel="nofollow sponsored" style="background:#f97316;color:#fff;padding:12px 20px;border-radius:8px;font-weight:700;text-decoration:none;white-space:nowrap;flex-shrink:0">
+    <a href="https://www.servicem8.com/au/register/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=ccew_bridge" target="_blank" rel="nofollow sponsored" style="background:#f97316;color:#fff;padding:12px 20px;border-radius:8px;font-weight:700;text-decoration:none;white-space:nowrap;flex-shrink:0">
       Try Free 14 Days →
     </a>
   </div>
