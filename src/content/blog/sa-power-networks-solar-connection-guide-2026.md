@@ -3,7 +3,7 @@ title: 'SA Power Networks Solar Connection: Process, Export Limits & Flexible Ex
 description: "How to get solar connected and approved through SA Power Networks — the SEG application (up to 30kVA), 1.5–10kW flexible export limits, CSIP-AUS rules, and timeframes."
 pubDate: 'Aug 29 2026'
 updatedDate: 'Aug 29 2026'
-category: "Solar"
+category: "Grid Connection"
 heroImage: '/hero-sa-power-networks-solar-connection-guide-2026.jpg'
 faq:
   - question: "Who is the electricity distributor in South Australia?"
