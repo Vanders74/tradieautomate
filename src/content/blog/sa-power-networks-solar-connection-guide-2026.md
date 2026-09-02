@@ -171,3 +171,12 @@ ServiceM8 lets you attach the SAPN approval, track the application status agains
 - **Flexible Exports is mandatory for new installs (since 1 July 2023):** up to 10kW per phase, but it needs a CSIP-AUS, internet-connected inverter with correct commissioning.
 - **Know the edge cases before quoting:** SWER (0kW lower bound) and Low Hosting Capacity sites (0kW, review queue).
 - **The eCoC and STC compliance are separate obligations** — the SAPN approval doesn't cover them.
+
+## Other State Grid Connection Guides
+
+Installing across the border? Each state has its own distributor framework, export limits and compliance certificate:
+
+- [NSW distributors guide](/blog/nsw-electricity-distributors-solar-connection-guide-2026) — three networks (Ausgrid, Endeavour, Essential), three export limits
+- [QLD Energex & Ergon guide](/blog/qld-energex-ergon-solar-connection-guide-2026) — dynamic connections on IEEE 2030.5 SEP2
+- [WA Western Power guide](/blog/wa-western-power-solar-connection-guide-2026) — isolated SWIS grid, 30kVA aggregate inverter rule
+- [VIC distributors guide](/blog/vic-solar-connection-guide-2026) — five networks, uniform 5kW limit

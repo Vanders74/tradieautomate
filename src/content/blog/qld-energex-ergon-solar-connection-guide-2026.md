@@ -198,3 +198,12 @@ ServiceM8 lets you attach the distributor offer, track the application against t
 - **Single-phase dynamic allows up to 20kVA** (10kW solar + 10kW battery) without a three-phase upgrade.
 - **Check the Network Capacity Map before quoting** — saturated areas can be capped at 1.5kVA or zero on a basic connection.
 - **The eCoC under the Electrical Safety Act 2002 (Qld) is separate** from the distributor connection approval.
+
+## Other State Grid Connection Guides
+
+Installing across the border? Each state has its own distributor framework, export limits and compliance certificate:
+
+- [SA Power Networks guide](/blog/sa-power-networks-solar-connection-guide-2026) — flexible exports mandatory since 1 Jul 2023
+- [NSW distributors guide](/blog/nsw-electricity-distributors-solar-connection-guide-2026) — three networks (Ausgrid, Endeavour, Essential), three export limits
+- [WA Western Power guide](/blog/wa-western-power-solar-connection-guide-2026) — isolated SWIS grid, 30kVA aggregate inverter rule
+- [VIC distributors guide](/blog/vic-solar-connection-guide-2026) — five networks, uniform 5kW limit

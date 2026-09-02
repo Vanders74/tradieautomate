@@ -183,3 +183,12 @@ ServiceM8 lets you attach the distributor approval, track the application agains
 - **Small systems auto-approve** (Essential ≤3kW rural / ≤5kW urban); larger ones need review and take 4–8 weeks.
 - **The CCEW is mandatory and separate** from the connection approval (Home Building Act 1989, NSW Fair Trading).
 - **Inverters must meet AS/NZS 4777:2024** and be on the CEC approved list.
+
+## Other State Grid Connection Guides
+
+Installing across the border? Each state has its own distributor framework, export limits and compliance certificate:
+
+- [SA Power Networks guide](/blog/sa-power-networks-solar-connection-guide-2026) — flexible exports mandatory since 1 Jul 2023
+- [QLD Energex & Ergon guide](/blog/qld-energex-ergon-solar-connection-guide-2026) — dynamic connections on IEEE 2030.5 SEP2
+- [WA Western Power guide](/blog/wa-western-power-solar-connection-guide-2026) — isolated SWIS grid, 30kVA aggregate inverter rule
+- [VIC distributors guide](/blog/vic-solar-connection-guide-2026) — five networks, uniform 5kW limit

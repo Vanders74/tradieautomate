@@ -191,3 +191,12 @@ ServiceM8 lets you attach the Western Power approval, track the application agai
 - **CSIP-AUS, not SEP2:** WA commissions with CSIP-AUS (like SA), unlike QLD's SEP2.
 - **AS/NZS 4777.2:2020 "Australia Region B"** — WA's grid code, differing from the NEM states' 2024 standard.
 - **The compliance certificate under the Electricity (Licensing) Regulations 1991 (WA) is separate** from the Western Power connection approval.
+
+## Other State Grid Connection Guides
+
+Installing across the border? Each state has its own distributor framework, export limits and compliance certificate:
+
+- [SA Power Networks guide](/blog/sa-power-networks-solar-connection-guide-2026) — flexible exports mandatory since 1 Jul 2023
+- [NSW distributors guide](/blog/nsw-electricity-distributors-solar-connection-guide-2026) — three networks (Ausgrid, Endeavour, Essential), three export limits
+- [QLD Energex & Ergon guide](/blog/qld-energex-ergon-solar-connection-guide-2026) — dynamic connections on IEEE 2030.5 SEP2
+- [VIC distributors guide](/blog/vic-solar-connection-guide-2026) — five networks, uniform 5kW limit
