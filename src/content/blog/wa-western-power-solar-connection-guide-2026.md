@@ -3,7 +3,7 @@ title: 'WA Solar Connection: Western Power Export Limits, 30kVA Rule & CSIP-AUS 
 description: "Connect solar in WA via Western Power — 5kW max export (1.5kW static fallback), 30kVA inverter limit from 1 May 2026, CSIP-AUS and emergency solar management."
 pubDate: 'Aug 31 2026'
 updatedDate: 'Aug 31 2026'
-category: "Solar"
+category: "Grid Connection"
 heroImage: '/hero-wa-western-power-solar-connection-guide-2026.jpg'
 faq:
   - question: "Who is the electricity distributor in Western Australia?"

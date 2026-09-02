@@ -3,7 +3,7 @@ title: 'QLD Solar Connection: Energex & Ergon Energy Export Limits, Dynamic Conn
 description: "Connect solar in QLD via Energex or Ergon Energy — 5kW fixed export vs up to 10kW per phase dynamic, application steps, fees and timeframes."
 pubDate: 'Aug 31 2026'
 updatedDate: 'Aug 31 2026'
-category: "Solar"
+category: "Grid Connection"
 heroImage: '/hero-qld-energex-ergon-solar-connection-guide-2026.jpg'
 faq:
   - question: "Which electricity distributors cover Queensland?"

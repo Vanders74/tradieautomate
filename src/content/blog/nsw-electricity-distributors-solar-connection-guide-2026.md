@@ -4,7 +4,7 @@ description: "Which NSW distributor covers your site — Ausgrid, Endeavour Ener
 pubDate: 'Aug 29 2026'
 updatedDate: 'Aug 29 2026'
 accuracyReviewed: '2026-08-29'
-category: "Solar"
+category: "Grid Connection"
 heroImage: '/hero-nsw-electricity-distributors-solar-connection-guide-2026.jpg'
 faq:
   - question: "Which electricity distributors cover New South Wales?"
