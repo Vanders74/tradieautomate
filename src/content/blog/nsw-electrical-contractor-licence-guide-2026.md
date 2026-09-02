@@ -151,7 +151,7 @@ Failing to use the prescribed contract form does not void the licence — but it
 
 This is the most common confusion among NSW electricians and even some accountants.
 
-**The CCEW (Certificate of Compliance for Electrical Work)** is a safety compliance document, not a licence. It certifies that a specific piece of electrical work has been tested and is safe. It is completed per job by the licensed electrician who performed the work and submitted to Ausgrid, Endeavour Energy, or Essential Energy (depending on the network area).
+**The [CCEW (Certificate of Compliance for Electrical Work)](/blog/ccew-nsw-electrical-compliance-guide-2026)** is a safety compliance document, not a licence. It certifies that a specific piece of electrical work has been tested and is safe. It is completed per job by the licensed electrician who performed the work and submitted to Ausgrid, Endeavour Energy, or Essential Energy (depending on the network area).
 
 **The Electrical Contractor Licence** is the business authorisation to enter contracts for electrical work.
 
