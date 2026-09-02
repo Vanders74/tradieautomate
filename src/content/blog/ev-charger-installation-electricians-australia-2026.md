@@ -191,7 +191,7 @@ That conversation is worth $1,500–$3,000 in additional revenue — and it's a 
 ## Related Reading
 
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
-- *[Adding Battery Storage to Your Solar Business](/blog/adding-battery-storage-solar-business)*
+- *Adding Battery Storage to Your Solar Business](/blog/adding-battery-storage-solar-business-australia)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*

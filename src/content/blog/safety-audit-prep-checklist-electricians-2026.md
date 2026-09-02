@@ -281,7 +281,7 @@ The single most effective audit preparation strategy is having every document an
 
 **The audit scenario:** An inspector walks onto your site and asks for the last 3 months of CCEW certificates for solar installations. Without a job management system, you're searching through filing cabinets, email attachments, and maybe the BCNSW portal — 20 minutes minimum. With ServiceM8: View → Completed Jobs → Filter by "Solar" → tap any job → scroll to Documents. Certificates, test records, SWMS, and site photos for that job are all there. Total time: under 30 seconds.
 
-> **⚡ Start your free trial:** [ServiceM8 14-day free trial](https://www.servicem8.com/au/free-trial/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=safety_audit_checklist) — no credit card required.
+> **⚡ Start your free trial:** [ServiceM8 14-day free trial](https://www.servicem8.com/au/register/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=safety_audit_checklist) — no credit card required.
 
 ---
 

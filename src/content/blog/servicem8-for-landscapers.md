@@ -157,7 +157,7 @@ For a landscaping business with 3 crews doing 60 jobs per month (including maint
 - Train crew leaders on the mobile app (typically 1–2 hours)
 - Refine your templates based on real-world use
 
-For a broader view of job management platform options, see our [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026) and our comparison with [Tradify](/blog/servicem8-vs-[tradify](/blog/tradify-review-2026-australia)-comparison-australia).
+For a broader view of job management platform options, see our [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026) and our comparison with [Tradify](/blog/servicem8-vs-tradify-comparison-australia).
 
 ---
 
