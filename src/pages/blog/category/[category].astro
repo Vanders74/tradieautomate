@@ -1,0 +1,215 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../../components/BaseHead.astro';
+import Footer from '../../../components/Footer.astro';
+import FormattedDate from '../../../components/FormattedDate.astro';
+import Header from '../../../components/Header.astro';
+import { SITE_TITLE, SITE_URL } from '../../../consts';
+
+const CATEGORY_DESCRIPTIONS: Record<string, string> = {
+	'Compliance': 'State licences, CCEW and CES certificates, AS/NZS standards, CER audits and safety compliance guides for Australian electricians.',
+	'Software Comparisons': 'Honest ServiceM8 vs simPRO, Tradify, Fergus, AroFlo and Jobber comparisons for Australian trade businesses.',
+	'Solar & Battery': 'STC claims, commercial solar, battery storage compliance and solar installation guides for Australian installers.',
+	'Business Growth': 'Quoting, cash flow, hiring, scaling and exit strategy guides for Australian electrical and solar businesses.',
+	'ServiceM8': 'ServiceM8 setup, pricing, integration and workflow guides for Australian trade businesses.',
+	'Solar': 'Solar installation, compliance and rebate guides for Australian installers.',
+	'Software & Tools': 'Software and tool recommendations for Australian trade businesses.',
+};
+
+export async function getStaticPaths() {
+	const allPosts = await getCollection('blog');
+	const slugify = (name: string) =>
+		name.toLowerCase().replace(/&/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+	const categories = [...new Set(allPosts.map((p) => p.data.category).filter((c): c is string => !!c))];
+	return categories.map((name) => ({
+		params: { category: slugify(name) },
+		props: {
+			name,
+			slug: slugify(name),
+			posts: allPosts
+				.filter((p) => p.data.category === name)
+				.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()),
+		},
+	}));
+}
+
+const { name, slug, posts } = Astro.props;
+const description = CATEGORY_DESCRIPTIONS[name] ?? `${name} guides for Australian electricians, solar installers and trade businesses.`;
+const canonicalURL = new URL(`/blog/category/${slug}/`, SITE_URL).toString();
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead
+			title={`${name} Guides — ${SITE_TITLE}`}
+			description={description}
+			canonicalURL={canonicalURL}
+		/>
+		<style>
+			main {
+				width: 960px;
+			}
+			.blog-header {
+				margin-bottom: 2rem;
+			}
+			.blog-header h1 {
+				font-size: 2em;
+				margin-bottom: 0.25em;
+			}
+			.blog-header p {
+				color: rgb(var(--gray));
+				margin: 0 0 0.5rem 0;
+			}
+			.blog-header .count {
+				color: rgb(var(--gray));
+				font-size: 0.9rem;
+			}
+			.breadcrumb {
+				margin-bottom: 1.25rem;
+				font-size: 0.9rem;
+				color: rgb(var(--gray));
+			}
+			.breadcrumb a {
+				color: var(--accent);
+				text-decoration: none;
+			}
+
+			ul {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 2rem;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+			ul li {
+				width: calc(50% - 1rem);
+			}
+			ul li:first-child {
+				width: 100%;
+				margin-bottom: 1rem;
+			}
+			ul li:first-child img {
+				width: 100%;
+				height: 360px;
+			}
+			ul li:first-child .title {
+				font-size: 1.8rem;
+			}
+			ul li img {
+				width: 100%;
+				height: 200px;
+				object-fit: cover;
+				object-position: center;
+				margin-bottom: 0.75rem;
+				border-radius: 10px;
+				display: block;
+			}
+			ul li a {
+				display: block;
+				text-decoration: none;
+			}
+			.title {
+				margin: 0 0 0.25em 0;
+				color: rgb(var(--black));
+				line-height: 1.2;
+				font-size: 1.1rem;
+				font-weight: 700;
+			}
+			.date {
+				margin: 0;
+				color: rgb(var(--gray));
+				font-size: 0.85em;
+			}
+			ul li a:hover .title {
+				color: var(--accent);
+			}
+			ul li a:hover img {
+				box-shadow: var(--box-shadow);
+				opacity: 0.92;
+			}
+			.no-image-card {
+				background: white;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 10px;
+				padding: 1.25em;
+				height: 100%;
+				box-sizing: border-box;
+			}
+			ul li a:hover .no-image-card {
+				border-color: var(--accent);
+			}
+
+			@media (max-width: 720px) {
+				ul {
+					gap: 1em;
+				}
+				ul li,
+				ul li:first-child {
+					width: 100% !important;
+					margin-bottom: 0;
+				}
+				ul li:first-child .title {
+					font-size: 1.4rem !important;
+				}
+				ul li:first-child img {
+					height: 220px !important;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<nav class="breadcrumb" aria-label="Breadcrumb">
+				<a href="/blog/">Blog</a> / {name}
+			</nav>
+			<div class="blog-header">
+				<h1>{name}</h1>
+				<p>{description}</p>
+				<span class="count">{posts.length} article{posts.length === 1 ? '' : 's'}</span>
+			</div>
+
+			<section>
+				<ul>
+					{posts.map((post) => (
+						<li>
+							<a href={`/blog/${post.id}/`}>
+								{post.data.heroImage ? (
+									<picture>
+										<source srcset={post.data.heroImage.replace(/\.(jpg|jpeg|png)$/i, '.webp')} type="image/webp" />
+										<img
+											src={post.data.heroImage}
+											alt={post.data.title}
+											loading="lazy"
+											decoding="async"
+											width="662"
+											height="441"
+										/>
+									</picture>
+								) : (
+									<div class="no-image-card">
+										<p class="title">{post.data.title}</p>
+										<p class="date">
+											<FormattedDate date={post.data.pubDate} />
+										</p>
+									</div>
+								)}
+								{post.data.heroImage && (
+									<>
+										<p class="title">{post.data.title}</p>
+										<p class="date">
+											<FormattedDate date={post.data.pubDate} />
+										</p>
+									</>
+								)}
+							</a>
+						</li>
+					))}
+				</ul>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>
