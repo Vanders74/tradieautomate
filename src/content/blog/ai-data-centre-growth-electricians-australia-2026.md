@@ -104,7 +104,7 @@ Data centre clients and Tier 1 main contractors will expect your documentation t
 
 ## How to Position Your Business — Starting This Week
 
-### Step 1: Audit Your HV Position
+### Step 1: Audit Your HV Switching Capability
 
 If your business does not hold HV licence endorsements, you cannot touch 11kV or 33kV equipment. That locks you out of the highest-value scope but does not lock you out of data centre work entirely — the fitout and specialist paths described above do not require HV endorsements.
 

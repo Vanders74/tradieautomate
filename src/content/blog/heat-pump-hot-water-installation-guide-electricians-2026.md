@@ -56,7 +56,7 @@ AS/NZS 4234 (Heated Water Systems — Calculation of Energy Consumption) is the 
 
 ### Plumbing and Gasfitting
 
-Heat pump hot water installation involves both electrical and plumbing work. The plumbing connection — tank connections, pressure relief valve, expansion vessel, cold inlet, hot outlet — is plumbing work and requires a licensed plumber (or a combined electrical/plumbing licence if you hold both).
+Heat pump hot water installation involves both electrical and plumbing work. The plumbing connection — tank connections, pressure relief valve, expansion vessel, cold inlet, hot outlet — is plumbing work and requires a licensed plumber (or a combined electrical/plumbing licence if you hold both). Plumbing work must comply with **AS/NZS 3500.4 (Heated Water Services)** — the plumbing counterpart to AS/NZS 4234 — which governs heated water services installation.
 
 Most electrical contractors partner with a plumber for HPHW installations. If you're building HPHW as a product line, establish a reliable plumbing partner now — the scheduling coordination between electrical and plumbing trades is the most common bottleneck in HPHW jobs.
 

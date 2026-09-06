@@ -105,6 +105,14 @@ The risk is asymmetric. The fine for non-compliance far exceeds the administrati
 
 ---
 
+## How Much Does a CCEW Cost?
+
+There is **no government lodgement fee** for a CCEW — it is submitted free through the BCNSW eCert portal. The cost most electricians associate with CCEWs is the time spent preparing and submitting the form, which is why many bill it as a separate line item (commonly **$50–$95 plus GST**) rather than absorbing it into the job.
+
+The real cost is the penalty for not lodging one: **up to $22,000 per offence for an individual and $110,000 for a corporation**. The fine for a missing or late CCEW is orders of magnitude higher than any documentation charge — see our [full CCEW compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026) for the complete penalty schedule and lodgement workflow.
+
+---
+
 ## Where Businesses Fall Short
 
 The pattern we see most commonly in electrical contracting businesses:
