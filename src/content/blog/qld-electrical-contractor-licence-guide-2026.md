@@ -4,6 +4,23 @@ description: "QLD electrical contractor requirements in one place: QBCC licence 
 pubDate: 'Jun 9 2026'
 updatedDate: 'Jul 19 2026'
 category: "Compliance"
+breakdown:
+  - title: "Hold the worker licence"
+    summary: "An A-grade QLD electrical worker licence is the baseline."
+    href: "/blog/how-to-become-electrician-australia-2026"
+    hrefLabel: "How to become an electrician →"
+  - title: "Get the ESQ contractor licence"
+    summary: "Electrical Safety Office licence under the Electrical Safety Act 2002."
+  - title: "Get the QBCC licence"
+    summary: "Required for building work over $3,300 — solar counts."
+  - title: "Meet the MFR"
+    summary: "Net tangible assets scale from $12k (up to $200k revenue) upward."
+  - title: "Register with QLeave"
+    summary: "2.5% levy on ordinary time earnings, paid quarterly."
+  - title: "Sort insurance + renew"
+    summary: "$5M public liability; annual renewal for both licences."
+    href: "/blog/electrical-contractor-insurance-australia-2026"
+    hrefLabel: "Insurance guide →"
 heroImage: '/hero-qld-electrical-contractor-licence-2026.jpg'
 tags: ['Queensland', 'electrical contractor', 'QBCC', 'ESQ', 'compliance', 'solar', 'QLeave']
 faq:

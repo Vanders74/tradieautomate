@@ -4,6 +4,25 @@ description: "Get your VIC REC: Certificate III + 2 years experience, ESV regist
 pubDate: 'Jul 19 2026'
 updatedDate: 'Jul 19 2026'
 category: "Compliance"
+breakdown:
+  - title: "Hold the A-Class licence"
+    summary: "Personal Victorian electrician's licence, with LEA/LEM assessment completed."
+    href: "/blog/how-to-become-electrician-australia-2026"
+    hrefLabel: "How to become an electrician →"
+  - title: "Nominate supervisors"
+    summary: "Technical nominee needs A-Class; business nominee needs the REC course (~$929)."
+  - title: "Sort insurance"
+    summary: "$5M civil liability, in the exact trading name."
+    href: "/blog/electrical-contractor-insurance-australia-2026"
+    hrefLabel: "Insurance guide →"
+  - title: "Apply to ESV"
+    summary: "Submit the REC application with all nominee forms and certificates."
+  - title: "Issue a CES per job"
+    summary: "Within 28 days via ESV Connect — every install, no exceptions."
+    href: "/blog/certificate-electrical-safety-ces-victoria-guide-2026"
+    hrefLabel: "CES Victoria guide →"
+  - title: "Renew + manage solar layers"
+    summary: "Annual REC renewal, plus CEC and VEU accreditation for solar."
 heroImage: '/hero-wa-electrical-contractor-licence-guide-2026.jpg'
 tags: ['Victoria', 'electrical contractor', 'REC', 'Energy Safe Victoria', 'ESV', 'compliance', 'solar']
 faq:

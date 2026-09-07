@@ -4,6 +4,27 @@ description: "NSW electrical contractor licence: Fair Trading licence classes, i
 pubDate: 'Jul 20 2026'
 updatedDate: 'Jul 20 2026'
 category: "Compliance"
+breakdown:
+  - title: "Qualify"
+    summary: "Certificate III in Electrotechnology plus a current trade licence is the baseline."
+    href: "/blog/how-to-become-electrician-australia-2026"
+    hrefLabel: "How to become an electrician →"
+  - title: "Choose the licence class"
+    summary: "QSC (individual), ECL (business) or Endorsed Contractor (both)."
+  - title: "Nominate a supervisor"
+    summary: "Businesses must nominate a QSC holder to supervise the work."
+  - title: "Sort insurance"
+    summary: "$5M public liability (general) or $20M (specialist), in the exact entity name."
+    href: "/blog/electrical-contractor-insurance-australia-2026"
+    hrefLabel: "Insurance guide →"
+  - title: "Apply via Service NSW"
+    summary: "ECL ~$280 (1 yr) / ~$700 (3 yr); 10–20 business days processing."
+  - title: "Issue a CCEW per job"
+    summary: "Separate from the licence — required for every installation."
+    href: "/blog/ccew-nsw-electrical-compliance-guide-2026"
+    hrefLabel: "CCEW guide →"
+  - title: "Renew"
+    summary: "1- or 3-year term; a lapse means you're unlicensed."
 heroImage: '/hero-qld-electrical-contractor-licence-2026.jpg'
 tags: ['NSW', 'electrical contractor', 'NSW Fair Trading', 'Home Building Act', 'licence', 'compliance', '2026']
 faq:

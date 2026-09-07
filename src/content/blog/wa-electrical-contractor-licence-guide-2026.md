@@ -4,6 +4,23 @@ description: "WA electrical contractor licence via EnergySafety: application ste
 pubDate: 'Jun 9 2026'
 updatedDate: 'Jul 20 2026'
 category: "Compliance"
+breakdown:
+  - title: "Hold the worker licence"
+    summary: "An A-grade WA electrical worker licence is the baseline."
+    href: "/blog/how-to-become-electrician-australia-2026"
+    hrefLabel: "How to become an electrician →"
+  - title: "Nominate a responsible supervisor"
+    summary: "Must genuinely supervise — not a paper role."
+  - title: "Sort insurance"
+    summary: "$5M public liability, plus workers comp for employees."
+    href: "/blog/electrical-contractor-insurance-australia-2026"
+    hrefLabel: "Insurance guide →"
+  - title: "Apply via EnergySafety"
+    summary: "~$384 for a 3-year term; 4–6 weeks processing."
+  - title: "Issue a CCEI per job"
+    summary: "Before energisation — WA's key compliance document."
+  - title: "Add CEC for solar"
+    summary: "Separate accreditation, ~$770/year renewal."
 heroImage: '/hero-wa-electrical-contractor-licence-guide-2026.jpg'
 tags: ['Western Australia', 'electrical contractor', 'EnergySafety', 'CCEI', 'licence', 'compliance', 'solar']
 faq:
