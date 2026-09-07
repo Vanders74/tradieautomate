@@ -4,6 +4,23 @@ description: "Apply for your SA electrical contractor PGE licence — issued by 
 pubDate: 'Jul 19 2026'
 updatedDate: 'Jul 19 2026'
 category: "Compliance"
+breakdown:
+  - title: "Hold the worker licence"
+    summary: "Certificate III + completed apprenticeship; ~$310 per year."
+    href: "/blog/how-to-become-electrician-australia-2026"
+    hrefLabel: "How to become an electrician →"
+  - title: "Apply for the PGE contractor licence"
+    summary: "CBS issues it; needs $10k net assets plus a police check."
+  - title: "Sort insurance"
+    summary: "$5M public liability, current at all times."
+    href: "/blog/electrical-contractor-insurance-australia-2026"
+    hrefLabel: "Insurance guide →"
+  - title: "Lodge a COC per job"
+    summary: "Via the OTR under the Electricity Act 1996 (SA)."
+  - title: "Renew annually"
+    summary: "Both worker and contractor licences renew yearly through CBS."
+  - title: "Add CEC for solar"
+    summary: "Separate accreditation for STC-eligible installs."
 heroImage: '/hero-qld-electrical-contractor-licence-2026.jpg'
 tags: ['South Australia', 'electrical contractor', 'CBS', 'OTR', 'compliance', 'solar', 'PGE licence']
 faq:
