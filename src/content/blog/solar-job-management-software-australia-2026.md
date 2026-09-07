@@ -5,6 +5,7 @@ pubDate: 2026-07-20
 updatedDate: 2026-07-20
 heroImage: "/hero-servicem8-for-solar-installers.jpg"
 category: "Software Comparisons"
+diagram: "servicem8-workflow"
 tags: ["solar job management software", "solar installer software", "solar business software australia", "CEC compliance software", "solar quoting software", "servicem8 solar", "job management solar"]
 faq:
   - question: "What is the best job management software for solar installers in Australia?"
@@ -159,6 +160,7 @@ For **solo operators starting out** who want simplicity above all — **Tradify*
 
 ## Related Reading
 
+- [ServiceM8 Workflow Exploded View — Interactive Visual Guide](/visual-guides/servicem8-workflow)
 - [ServiceM8 for Solar Businesses — Full Guide](/blog/servicem8-for-solar-businesses)
 - [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026)
 - [ServiceM8 Pricing 2026 — Plans and Real Costs](/blog/servicem8-pricing-plans-australia-2026)

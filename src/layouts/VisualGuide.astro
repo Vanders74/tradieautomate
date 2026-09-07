@@ -1,0 +1,204 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+import Header from '../components/Header.astro';
+import ExplodedDiagram from '../components/ExplodedDiagram.astro';
+import { SITE_URL } from '../consts';
+
+type Props = CollectionEntry<'visualGuides'>['data'];
+
+const {
+	title, description, pubDate, updatedDate,
+	image, imageAlt, poster, aspectRatio, caption, hotspots, cta, faq,
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+const ogImage = poster || image;
+const imageUrl = ogImage ? new URL(ogImage, Astro.site).toString() : null;
+
+const faqSchema = faq && faq.length > 0 ? {
+	"@context": "https://schema.org",
+	"@type": "FAQPage",
+	"mainEntity": faq.map((item: { question: string; answer: string }) => ({
+		"@type": "Question",
+		"name": item.question,
+		"acceptedAnswer": {
+			"@type": "Answer",
+			"text": item.answer
+		}
+	}))
+} : null;
+
+// ImageObject schema so the diagram can surface in Google Images
+const imageObjectSchema = imageUrl ? {
+	"@context": "https://schema.org",
+	"@type": "ImageObject",
+	"name": title,
+	"description": description,
+	"contentUrl": imageUrl,
+	"url": canonicalURL,
+	"datePublished": pubDate.toISOString(),
+	"dateModified": (updatedDate || pubDate).toISOString(),
+	"publisher": { "@type": "Organization", "name": "TradieAutomate", "@id": `${SITE_URL}/#organization` }
+} : null;
+---
+
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} image={ogImage ?? undefined} type="article" pubDate={pubDate} updatedDate={updatedDate} />
+		{faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+		{imageObjectSchema && <script type="application/ld+json" set:html={JSON.stringify(imageObjectSchema)} />}
+		<style>
+			main {
+				width: calc(100% - 2em);
+				max-width: 100%;
+				margin: 0;
+			}
+			.hero {
+				padding: 2.5em 1em 1.5em;
+				text-align: center;
+			}
+			.hero .kicker {
+				display: inline-block;
+				font-size: 0.72rem;
+				font-weight: 700;
+				text-transform: uppercase;
+				letter-spacing: 0.08em;
+				color: #f97316;
+				background: #fff7ed;
+				border: 1px solid #fed7aa;
+				border-radius: 100px;
+				padding: 4px 12px;
+				margin-bottom: 14px;
+			}
+			.hero h1 {
+				font-size: clamp(1.6rem, 4vw, 2.4rem);
+				font-weight: 800;
+				color: #0f172a;
+				line-height: 1.2;
+				margin: 0 auto 12px;
+				max-width: 720px;
+			}
+			.hero p {
+				color: #64748b;
+				max-width: 620px;
+				margin: 0 auto;
+				font-size: 1rem;
+				line-height: 1.6;
+			}
+			.hero .date {
+				margin-top: 12px;
+				color: #94a3b8;
+				font-size: 0.85rem;
+			}
+			.content {
+				width: 860px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 1em 1em 2em;
+				color: #334155;
+			}
+			.content :global(.prose-block) {
+				margin-top: 2em;
+				font-size: 0.98rem;
+				line-height: 1.7;
+			}
+			.content :global(h2) {
+				font-size: 1.3rem;
+				font-weight: 800;
+				color: #0f172a;
+				margin: 1.5em 0 0.6em;
+			}
+			.content :global(p) { margin: 0 0 1em; }
+			.content :global(ul), .content :global(ol) { padding-left: 1.4em; margin: 0 0 1em; }
+			.content :global(li) { margin-bottom: 0.4em; }
+			.content :global(a) { color: #f97316; font-weight: 600; }
+			.faq-block {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: 1em auto 3em;
+				padding: 1em;
+			}
+			.faq-block h2 {
+				font-size: 1.3rem;
+				font-weight: 800;
+				color: #0f172a;
+				margin-bottom: 1em;
+				text-align: center;
+			}
+			.faq-item {
+				border: 1px solid #e2e8f0;
+				border-radius: 10px;
+				margin-bottom: 10px;
+				overflow: hidden;
+			}
+			.faq-item summary {
+				cursor: pointer;
+				padding: 14px 16px;
+				font-weight: 700;
+				color: #0f172a;
+				list-style: none;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				gap: 12px;
+			}
+			.faq-item summary::-webkit-details-marker { display: none; }
+			.faq-item summary::after { content: '+'; font-size: 1.4rem; color: #f97316; }
+			.faq-item[open] summary::after { content: '–'; }
+			.faq-item .faq-answer {
+				padding: 0 16px 14px;
+				font-size: 0.92rem;
+				line-height: 1.65;
+				color: #475569;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<div class="hero">
+				<span class="kicker">Interactive Visual Guide</span>
+				<h1>{title}</h1>
+				<p>{description}</p>
+				<div class="date">
+					<FormattedDate date={pubDate} />
+					{updatedDate && (
+						<span> · Last updated <FormattedDate date={updatedDate} /></span>
+					)}
+				</div>
+			</div>
+
+			<div class="content">
+				<ExplodedDiagram
+					image={image}
+					imageAlt={imageAlt}
+					aspectRatio={aspectRatio}
+					hotspots={hotspots}
+					caption={caption}
+					cta={cta}
+					mode="standalone"
+				/>
+				<slot />
+			</div>
+
+			{faq && faq.length > 0 && (
+				<div class="faq-block">
+					<h2>Frequently Asked Questions</h2>
+					{faq.map((item: { question: string; answer: string }) => (
+						<details class="faq-item">
+							<summary>{item.question}</summary>
+							<div class="faq-answer">{item.answer}</div>
+						</details>
+					))}
+				</div>
+			)}
+		</main>
+		<div class="content">
+			<p><em>TradieAutomate is an authorised ServiceM8 affiliate. We earn a small commission if you sign up through our links — at no extra cost to you.</em></p>
+		</div>
+		<Footer />
+	</body>
+</html>
