@@ -1,7 +1,7 @@
 ---
-import { getCollection, type CollectionEntry } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
-import ExplodedDiagram from '../components/ExplodedDiagram.astro';
+import Breakdown from '../components/Breakdown.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
@@ -9,12 +9,7 @@ import { SITE_URL } from '../consts';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage, canonicalURL: canonicalOverride, faq, diagram } = Astro.props;
-
-// Resolve an embedded visual guide by slug (rendered as an interactive diagram after the hero)
-const diagramGuide = diagram
-	? ((await getCollection('visualGuides')).find((g) => g.id === diagram) || null)
-	: null;
+const { title, description, pubDate, updatedDate, heroImage, canonicalURL: canonicalOverride, faq, breakdown } = Astro.props;
 const canonicalURL = canonicalOverride ?? new URL(Astro.url.pathname, Astro.site).toString();
 const imageUrl = heroImage ? new URL(heroImage, Astro.site).toString() : null;
 // Derive WebP path: /hero-foo.jpg → /hero-foo.webp (pre-converted at build time)
@@ -211,16 +206,8 @@ const softwareSchema = isServiceM8Page ? {
 						<h1>{title}</h1>
 						<hr />
 					</div>
-					{diagramGuide && (
-						<ExplodedDiagram
-							image={diagramGuide.data.image}
-							imageAlt={diagramGuide.data.imageAlt}
-							aspectRatio={diagramGuide.data.aspectRatio}
-							hotspots={diagramGuide.data.hotspots}
-							caption={diagramGuide.data.caption}
-							cta={diagramGuide.data.cta}
-							mode="embed"
-						/>
+					{breakdown && breakdown.length > 0 && (
+						<Breakdown items={breakdown} />
 					)}
 					<slot />
 				</div>

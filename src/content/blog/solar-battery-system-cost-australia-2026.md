@@ -5,7 +5,31 @@ pubDate: 'Jun 9 2026'
 updatedDate: 'Jul 30 2026'
 accuracyReviewed: '2026-08-02'
 category: "Solar & Battery"
-diagram: "solar-battery-system"
+breakdown:
+  - title: "Solar array"
+    summary: "Panels generating DC power, governed by AS/NZS 5033."
+    href: "/blog/staying-compliant-2026-solar-electrical-safety"
+    hrefLabel: "Solar safety compliance →"
+  - title: "DC isolator"
+    summary: "Load-break switch cutting DC between the array and inverter."
+    href: "/blog/solar-compliance-checklist-2026"
+    hrefLabel: "Compliance checklist →"
+  - title: "Inverter"
+    summary: "Converts DC to AC and manages the battery (AS/NZS 4777.2)."
+    href: "/blog/solar-warranty-claim-process-australia-2026"
+    hrefLabel: "Inverter warranty →"
+  - title: "Battery"
+    summary: "Stores energy; 600mm clearance rules apply (AS/NZS 5139)."
+    href: "/blog/sparkys-playbook-chapter-6-battery-storage-systems-australia"
+    hrefLabel: "Battery systems →"
+  - title: "AC isolator"
+    summary: "AC-side switch, lockable and labelled (AS/NZS 4777.1)."
+  - title: "Switchboard"
+    summary: "Solar breaker + RCD protection + label (AS/NZS 3000)."
+    href: "/blog/sparkys-playbook-chapter-2-safety-standards-as-nzs-3000-electricians-australia"
+    hrefLabel: "AS/NZS 3000 wiring rules →"
+  - title: "Meter"
+    summary: "Grid connection and export limit, set by your DNSP."
 heroImage: '/hero-solar-battery-system-cost-australia-2026.jpg'
 tags: ['solar battery cost', 'battery storage', 'pricing', 'rebates', 'payback period', 'solar installer', 'Australia']
 ---
@@ -187,7 +211,6 @@ As of 2026, Queensland, NSW (outside of some low-income programs), and WA do not
 
 ## Related Reading
 
-- [Solar & Battery System Components: Exploded View (Visual Guide)](/visual-guides/solar-battery-system)
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
 - *[SA Solar Battery Rebate 2026: Home Battery Scheme Eligibility & Application Guide](/blog/sa-solar-battery-rebate-2026)*
 - *[VIC Solar Homes Program Battery Rebate 2026: Eligibility, Registration & Process](/blog/vic-solar-homes-program-rebate-2026)*

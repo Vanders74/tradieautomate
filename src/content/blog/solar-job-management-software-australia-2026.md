@@ -5,7 +5,33 @@ pubDate: 2026-07-20
 updatedDate: 2026-07-20
 heroImage: "/hero-servicem8-for-solar-installers.jpg"
 category: "Software Comparisons"
-diagram: "servicem8-workflow"
+breakdown:
+  - title: "Quote"
+    summary: "Turn a site survey into a line-item quote with your margin already applied."
+    href: "/blog/sms-vs-email-quotes-customer-experience"
+    hrefLabel: "SMS vs email quotes →"
+  - title: "Schedule"
+    summary: "Accepted quotes drop onto the calendar and push a job card to the tech's phone."
+  - title: "On-site (CCEW)"
+    summary: "Digital job forms, CCEW compliance certs and photos, GPS- and time-stamped."
+    href: "/blog/solar-compliance-checklist-2026"
+    hrefLabel: "Compliance checklist →"
+  - title: "Invoice"
+    summary: "Line items become the invoice automatically; send on-site with a payment link."
+    href: "/blog/solar-installer-cash-flow-management-australia"
+    hrefLabel: "Cash flow guide →"
+  - title: "Xero sync"
+    summary: "Invoices, contacts and payments sync to Xero in real time."
+    href: "/blog/servicem8-xero-integration-guide-australia"
+    hrefLabel: "Xero setup →"
+  - title: "Reviews"
+    summary: "Automatic review request with a Google link after job completion."
+    href: "/blog/sparkys-playbook-chapter-9-marketing-reputation-electricians-australia"
+    hrefLabel: "Marketing & reviews →"
+  - title: "Follow-up"
+    summary: "Service reminders and recurring jobs turn one job into repeat work."
+    href: "/blog/solar-monitoring-after-sales-revenue-australia"
+    hrefLabel: "After-sales revenue →"
 tags: ["solar job management software", "solar installer software", "solar business software australia", "CEC compliance software", "solar quoting software", "servicem8 solar", "job management solar"]
 faq:
   - question: "What is the best job management software for solar installers in Australia?"
@@ -160,7 +186,6 @@ For **solo operators starting out** who want simplicity above all — **Tradify*
 
 ## Related Reading
 
-- [ServiceM8 Workflow Exploded View — Interactive Visual Guide](/visual-guides/servicem8-workflow)
 - [ServiceM8 for Solar Businesses — Full Guide](/blog/servicem8-for-solar-businesses)
 - [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026)
 - [ServiceM8 Pricing 2026 — Plans and Real Costs](/blog/servicem8-pricing-plans-australia-2026)
