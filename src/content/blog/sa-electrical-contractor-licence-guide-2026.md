@@ -21,7 +21,7 @@ breakdown:
     summary: "Both worker and contractor licences renew yearly through CBS."
   - title: "Add CEC for solar"
     summary: "Separate accreditation for STC-eligible installs."
-heroImage: '/hero-qld-electrical-contractor-licence-2026.jpg'
+heroImage: '/hero-sa-electrical-contractor-licence-guide-2026.jpg'
 tags: ['South Australia', 'electrical contractor', 'CBS', 'OTR', 'compliance', 'solar', 'PGE licence']
 faq:
   - question: "What licence do I need to operate as an electrical contractor in South Australia?"

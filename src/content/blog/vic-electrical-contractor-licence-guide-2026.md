@@ -23,7 +23,7 @@ breakdown:
     hrefLabel: "CES Victoria guide →"
   - title: "Renew + manage solar layers"
     summary: "Annual REC renewal, plus CEC and VEU accreditation for solar."
-heroImage: '/hero-wa-electrical-contractor-licence-guide-2026.jpg'
+heroImage: '/hero-vic-electrical-contractor-licence-guide-2026.jpg'
 tags: ['Victoria', 'electrical contractor', 'REC', 'Energy Safe Victoria', 'ESV', 'compliance', 'solar']
 faq:
   - question: "What licence is required to operate as an electrical contractor in Victoria?"

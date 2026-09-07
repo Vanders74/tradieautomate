@@ -25,7 +25,7 @@ breakdown:
     hrefLabel: "CCEW guide →"
   - title: "Renew"
     summary: "1- or 3-year term; a lapse means you're unlicensed."
-heroImage: '/hero-qld-electrical-contractor-licence-2026.jpg'
+heroImage: '/hero-nsw-electrical-contractor-licence-guide-2026.jpg'
 tags: ['NSW', 'electrical contractor', 'NSW Fair Trading', 'Home Building Act', 'licence', 'compliance', '2026']
 faq:
   - question: "What is the difference between an Electrical Contractor Licence and a Qualified Supervisor Certificate in NSW?"
