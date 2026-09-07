@@ -7,7 +7,7 @@ image: "/diagrams/solar-battery-system.svg"
 imageAlt: "Exploded view of the seven components of a residential solar and battery system, from panels to meter, each tagged with its governing AS/NZS standard"
 poster: "/diagrams/solar-battery-system.png"
 aspectRatio: 1.7895
-caption: "The seven components of a residential solar and battery system, pulled apart from the power flow. The tag in each header shows the AS/NZS standard that governs it. Tap any number to see what the component does and where installs commonly slip up."
+caption: "The seven components of a solar and battery system, pulled apart from the power flow. Tap any stage to see how it works and the standard that governs it."
 hotspots:
   - id: solar-array
     label: "Solar array"
