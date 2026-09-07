@@ -190,7 +190,7 @@ ServiceM8 is the strongest fit for:
 - **Solar and battery installers** — compliance documentation, CER audit readiness (under the *Renewable Energy (Electricity) Act 2000*), and certificate generation are built-in
 - **Electricians and plumbers** running residential and light commercial work — particularly those managing CCEW obligations under *Home Building Act 1989 (NSW)* or Certificate of Electrical Safety requirements under *Electricity Safety Act 1998 (Vic)*
 - **Growing trade businesses** (2–30 staff) that want to replace paper-based workflows
-- **Businesses chasing faster payments** — the invoicing and payment processing workflow is best-in-class
+- **Businesses chasing faster payments** — the [invoicing and payment processing workflow](/blog/servicem8-quoting-invoicing-workflow) is best-in-class
 - **Owner-operators** who want to stop losing time to admin without hiring a dedicated admin person
 
 > 📊 **Not sure if job management software is worth it for your business?**

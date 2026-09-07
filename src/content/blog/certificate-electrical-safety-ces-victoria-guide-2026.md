@@ -245,6 +245,8 @@ For electricians working in NSW, the equivalent document is the **Certificate of
 ## Related Reading
 
 - *[VIC Electrical Contractor Licence Guide 2026: REC Registration with Energy Safe Victoria](/blog/vic-electrical-contractor-licence-guide-2026)*
+- *[VEU Scheme 2026: Electricians Earn $250–$1,650 Per Heat Pump Job](/blog/victorian-energy-upgrades-veu-electricians-guide-2026)*
+- *[RCD Safety Switch Requirements AS/NZS 3000: Which Type for Each Circuit](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026)*
 - *[Electrical Safety Audit Prep Checklist 2026: SafeWork, ESV & State-by-State Requirements](/blog/safety-audit-prep-checklist-electricians-2026)*
 - *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*

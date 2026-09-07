@@ -553,6 +553,7 @@ Yes. Apprentices must have a formal training contract (apprenticeship agreement)
 ## Related Reading
 
 - *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
+- *[Electrical Contractor Insurance Cost 2026: $600–$2,500/yr](/blog/electrical-contractor-insurance-australia-2026)*
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
 - *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
 - *[The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)*

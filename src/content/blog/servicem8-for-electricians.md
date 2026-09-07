@@ -283,6 +283,7 @@ ServiceM8 integrates natively with **Xero** and **MYOB** — the two dominant ac
 - *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)*
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
 - *[CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers)*
+- *[ServiceM8 Quoting & Invoicing: Step-by-Step Workflow](/blog/servicem8-quoting-invoicing-workflow)*
 - *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
 - *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
 
