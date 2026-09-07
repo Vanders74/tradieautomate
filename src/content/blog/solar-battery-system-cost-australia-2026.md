@@ -5,6 +5,7 @@ pubDate: 'Jun 9 2026'
 updatedDate: 'Jul 30 2026'
 accuracyReviewed: '2026-08-02'
 category: "Solar & Battery"
+diagram: "solar-battery-system"
 heroImage: '/hero-solar-battery-system-cost-australia-2026.jpg'
 tags: ['solar battery cost', 'battery storage', 'pricing', 'rebates', 'payback period', 'solar installer', 'Australia']
 ---
@@ -186,6 +187,7 @@ As of 2026, Queensland, NSW (outside of some low-income programs), and WA do not
 
 ## Related Reading
 
+- [Solar & Battery System Components: Exploded View (Visual Guide)](/visual-guides/solar-battery-system)
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
 - *[SA Solar Battery Rebate 2026: Home Battery Scheme Eligibility & Application Guide](/blog/sa-solar-battery-rebate-2026)*
 - *[VIC Solar Homes Program Battery Rebate 2026: Eligibility, Registration & Process](/blog/vic-solar-homes-program-rebate-2026)*
