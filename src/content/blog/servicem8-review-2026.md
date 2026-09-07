@@ -46,6 +46,14 @@ At its core, ServiceM8 handles:
 
 It runs as an iOS and Android app for field staff, with a web-based admin dashboard for office management.
 
+<div class="yt-facade" data-vid="VDq0WBZU1Fs" data-title="How ServiceM8 Works" style="position:relative;padding-top:56.25%;max-width:640px;margin:24px auto;border-radius:12px;overflow:hidden;cursor:pointer;background:#0f172a;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+  <img src="https://i.ytimg.com/vi/VDq0WBZU1Fs/hqdefault.jpg" alt="How ServiceM8 Works — official ServiceM8 demo video" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+  <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:68px;height:48px;background:rgba(15,23,42,0.85);border-radius:12px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.4);">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="#f97316"><path d="M8 5v14l11-7z"/></svg>
+  </div>
+  <div style="position:absolute;bottom:0;left:0;right:0;padding:12px 16px;background:linear-gradient(transparent,rgba(0,0,0,0.85));color:#fff;font-size:0.85rem;font-weight:600;text-align:left;">▶ How ServiceM8 Works — official demo</div>
+</div>
+
 ---
 
 ## Is ServiceM8 the Same as "Service M8", "ServiceMate", or "Service Mate"?
@@ -181,6 +189,14 @@ Talk to Australian tradies who've switched to ServiceM8, and a few themes come u
 
 **Onboarding new staff.** When every job type has a standard workflow, checklist, and compliance form built in, new technicians can get up to speed faster. The process is documented in the system — not locked in the head of the most experienced person.
 
+<div class="yt-facade" data-vid="ENLw5OgoCFg" data-title="DNC Electrical & Air-Conditioning — ServiceM8 Customer Story" style="position:relative;padding-top:56.25%;max-width:640px;margin:24px auto;border-radius:12px;overflow:hidden;cursor:pointer;background:#0f172a;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+  <img src="https://i.ytimg.com/vi/ENLw5OgoCFg/hqdefault.jpg" alt="DNC Electrical & Air-Conditioning — ServiceM8 customer story" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+  <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:68px;height:48px;background:rgba(15,23,42,0.85);border-radius:12px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.4);">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="#f97316"><path d="M8 5v14l11-7z"/></svg>
+  </div>
+  <div style="position:absolute;bottom:0;left:0;right:0;padding:12px 16px;background:linear-gradient(transparent,rgba(0,0,0,0.85));color:#fff;font-size:0.85rem;font-weight:600;text-align:left;">▶ Customer story: DNC Electrical & Air-Conditioning</div>
+</div>
+
 ---
 
 ## Who It's Best For
@@ -226,6 +242,14 @@ ServiceM8 connects with the tools Australian trade businesses already use:
 - **Wufoo / Gravity Forms** — Web form integrations for capturing new enquiries directly into ServiceM8 jobs.
 
 The integration ecosystem is not as extensive as larger enterprise platforms, but it covers the essential workflows that most Australian trade businesses need.
+
+<div class="yt-facade" data-vid="MJvE2SaY42A" data-title="Ruby Electrical — ServiceM8 & Xero Customer Story" style="position:relative;padding-top:56.25%;max-width:640px;margin:24px auto;border-radius:12px;overflow:hidden;cursor:pointer;background:#0f172a;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+  <img src="https://i.ytimg.com/vi/MJvE2SaY42A/hqdefault.jpg" alt="Ruby Electrical — ServiceM8 and Xero customer story" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+  <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:68px;height:48px;background:rgba(15,23,42,0.85);border-radius:12px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.4);">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="#f97316"><path d="M8 5v14l11-7z"/></svg>
+  </div>
+  <div style="position:absolute;bottom:0;left:0;right:0;padding:12px 16px;background:linear-gradient(transparent,rgba(0,0,0,0.85));color:#fff;font-size:0.85rem;font-weight:600;text-align:left;">▶ Customer story: Ruby Electrical (ServiceM8 + Xero)</div>
+</div>
 
 ---
 
@@ -310,3 +334,25 @@ Yes — ServiceM8 offers a 14-day free trial with no credit card required. You g
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[How to Sell Your ServiceM8-Based Trade Business for Maximum Value](/blog/sell-servicem8-trade-business-value)*
+
+<script>
+(function(){
+  var f = document.querySelectorAll('.yt-facade');
+  for (var i = 0; i < f.length; i++) {
+    f[i].addEventListener('click', function(){
+      var vid = this.getAttribute('data-vid');
+      var title = this.getAttribute('data-title') || 'Video';
+      var ifr = document.createElement('iframe');
+      ifr.src = 'https://www.youtube-nocookie.com/embed/' + vid + '?autoplay=1&rel=0';
+      ifr.title = title;
+      ifr.setAttribute('frameborder','0');
+      ifr.setAttribute('allow','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+      ifr.setAttribute('allowfullscreen','');
+      ifr.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:100%;border:0;';
+      this.innerHTML = '';
+      this.style.cursor = 'default';
+      this.appendChild(ifr);
+    });
+  }
+})();
+</script>
