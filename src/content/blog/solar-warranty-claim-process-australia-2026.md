@@ -3,6 +3,21 @@ title: "Solar Warranty Claims Australia 2026: 25-Year Coverage Guide"
 description: "Solar warranty claims in Australia 2026 — what the 25-year performance & 5-year workmanship warranties cover, plus how to lodge a claim that gets approved."
 pubDate: 'Jul 13 2026'
 category: "Solar & Battery"
+breakdown:
+  - title: "Know the 3 warranty types"
+    summary: "Panel (25-yr performance), inverter (5–12 yr), workmanship (yours, 1–5 yr)."
+  - title: "Document the failure"
+    summary: "Photos, serial numbers, monitoring data showing the drop."
+  - title: "Rule out external causes"
+    summary: "No hail/impact or installer damage — else it's rejected."
+  - title: "Submit to the importer"
+    summary: "Most brands route claims through an Australian distributor."
+  - title: "Push back under ACL"
+    summary: "Consumer guarantees apply regardless of the warranty clause."
+    href: "/blog/solar-compliance-checklist-2026"
+    hrefLabel: "Compliance checklist →"
+  - title: "Set expectations at handover"
+    summary: "Written warranty summary; 2–4 week claim timeframes."
 heroImage: '/hero-compliance-checklist.jpg'
 tags: ['solar warranty', 'CEC', 'solar compliance', 'solar business', 'warranty claim', 'panel warranty', 'inverter warranty']
 ---

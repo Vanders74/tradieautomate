@@ -5,6 +5,21 @@ pubDate: 2026-07-21
 updatedDate: 2026-07-21
 heroImage: "/hero-xero-payroll-electrical.jpg"
 category: "ServiceM8"
+breakdown:
+  - title: "Connect ServiceM8 to Xero"
+    summary: "Settings → Integrations → Xero; 15–30 min, no extra cost."
+  - title: "Map tax + account codes"
+    summary: "Separate labour vs materials codes for cleaner P&L."
+  - title: "Confirm client sync"
+    summary: "Match existing contacts, auto-create new ones."
+  - title: "Invoice on-site"
+    summary: "Cuts billing lag by 2–7 days."
+    href: "/blog/servicem8-quoting-invoicing-workflow"
+    hrefLabel: "Quoting-to-payment workflow →"
+  - title: "Reconcile via bank feed"
+    summary: "Payment status flows back to ServiceM8 automatically."
+  - title: "Fix common sync issues"
+    summary: "Re-auth tokens, check tax codes, merge duplicates."
 tags: ["servicem8 xero integration", "servicem8 xero setup", "xero servicem8", "servicem8 accounting integration", "servicem8 xero sync", "electrical business xero", "xero trade business australia"]
 faq:
   - question: "Does ServiceM8 integrate with Xero?"

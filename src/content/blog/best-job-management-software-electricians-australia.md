@@ -52,7 +52,7 @@ ServiceM8 was built in Australia and has become the dominant platform for small-
 
 ---
 
-### 2. simPRO — Best for Larger Electrical Contractors and Project Work
+### 2. [simPRO](/blog/simpro-review-2026-australia) — Best for Larger Electrical Contractors and Project Work
 
 **Best for:** Electrical businesses with 20+ staff; commercial project management; complex quoting with detailed job costing.
 
@@ -70,7 +70,7 @@ Tradify is a simpler, more affordable platform that works well for electricians 
 
 ---
 
-### 4. Fergus — Strong Contender, New Zealand-Origin
+### 4. [Fergus](/blog/fergus-review-2026-australia) — Strong Contender, New Zealand-Origin
 
 **Best for:** Electricians who want strong job costing and margin tracking; businesses with heavy focus on profitability analytics.
 
@@ -78,7 +78,7 @@ Fergus originated in New Zealand and has a strong following among trade business
 
 ---
 
-### 5. AroFlo — Best for Field Service Management at Enterprise Scale
+### 5. [AroFlo](/blog/aroflo-review-2026-australia) — Best for Field Service Management at Enterprise Scale
 
 **Best for:** Larger electrical contractors with complex field service operations; businesses needing deep customisation.
 
@@ -263,6 +263,8 @@ Most electricians are up and running with basic job management within a few hour
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
 - *[ServiceM8 for Painters: Quote Faster, Invoice Sooner, Chase Less](/blog/servicem8-for-painters)*
 - *[ServiceM8 for Roofing Contractors: Manage Jobs, Quotes, and Compliance From the Field](/blog/servicem8-for-roofing)*
+- *[ServiceM8 for Builders: Job Management for Australian Residential Construction](/blog/servicem8-for-builders)*
+- *[ServiceM8 for Landscapers: Run Your Landscaping Business Without the Admin Chaos](/blog/servicem8-for-landscapers)*
 - *[ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia)*
 - *[simPRO vs ServiceM8: Which Fits a 3-Man HVAC Business Better?](/blog/simpro-vs-servicem8-hvac-small-business)*
 - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
