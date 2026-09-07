@@ -5,6 +5,25 @@ pubDate: 'Sep 03 2026'
 updatedDate: 'Sep 03 2026'
 accuracyReviewed: '2026-09-03'
 category: "Grid Connection"
+breakdown:
+  - title: "Identify the distributor"
+    summary: "Five networks, one rule: 5kW export per phase (10kW inverter single-phase, 30kW three-phase)."
+  - title: "Lodge the application"
+    summary: "Each network has its own portal — confirm which one before you start."
+  - title: "Get approval"
+    summary: "Small systems auto-approve; constrained areas go to technical review."
+  - title: "Install to the approved SLD"
+    summary: "The Single Line Diagram is binding — deviations need a new application."
+  - title: "Commission + register"
+    summary: "CSIP-AUS-ready inverter so the customer can unlock flexible exports later."
+    href: "/blog/csip-aus-export-limit-1-5kw-solar"
+    hrefLabel: "CSIP-AUS explainer →"
+  - title: "Submit the CES"
+    summary: "Victoria's Certificate of Electrical Safety, separate from connection approval."
+    href: "/blog/certificate-electrical-safety-ces-victoria-guide-2026"
+    hrefLabel: "CES Victoria guide →"
+  - title: "Close out"
+    summary: "Complete the connection in the portal."
 heroImage: '/hero-vic-solar-connection-guide-2026.jpg'
 faq:
   - question: "Which electricity distributors cover Victoria?"
@@ -124,7 +143,7 @@ Battery connections follow the same distributor framework as solar, plus the bat
 - Battery installations must meet **AS/NZS 5139** — see the [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance).
 - Whether the battery inverter counts toward the phase inverter limit depends on the distributor — **United Energy excludes it; CitiPower, Powercor and Jemena include it** (see the table above — a real quoting difference).
 - STC eligibility for the solar component is governed by the **Clean Energy Regulator** under the **Renewable Energy (Electricity) Act 2000** — see the [STC claim process](/blog/stc-claim-process-solar-installers-australia).
-- Victoria also runs the **Solar Homes program**, which offers battery rebates for eligible customers — see the [VIC Solar Homes rebate guide](/blog/vic-solar-homes-program-rebate-2026).
+- Victoria also runs the **Solar Homes program**, which offers battery rebates for eligible customers — see the [VIC Solar Homes rebate guide](/blog/vic-solar-homes-program-rebate-2026) and the [state-by-state solar rebates guide](/blog/solar-rebates-australia-state-guide-2026).
 
 ---
 

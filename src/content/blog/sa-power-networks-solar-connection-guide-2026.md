@@ -4,6 +4,21 @@ description: "How to get solar connected and approved through SA Power Networks 
 pubDate: 'Aug 29 2026'
 updatedDate: 'Aug 29 2026'
 category: "Grid Connection"
+breakdown:
+  - title: "Apply in the SAPN Portal"
+    summary: "NMI + meter number; total inverter capacity up to 30kVA is the fast lane."
+  - title: "Get instant approval"
+    summary: "Auto-approved if compliant and no network constraints."
+  - title: "Install + commission"
+    summary: "CSIP-AUS, internet-connected inverter — mandatory for new systems since 1 July 2023."
+    href: "/blog/csip-aus-export-limit-1-5kw-solar"
+    hrefLabel: "CSIP-AUS explainer →"
+  - title: "Register the device"
+    summary: "Complete commissioning and device registration via the manufacturer's app."
+  - title: "Close out"
+    summary: "Finish the installation in the Portal; the eCoC is a separate obligation."
+    href: "/blog/solar-compliance-checklist-2026"
+    hrefLabel: "Compliance checklist →"
 heroImage: '/hero-sa-power-networks-solar-connection-guide-2026.jpg'
 faq:
   - question: "Who is the electricity distributor in South Australia?"
@@ -97,7 +112,7 @@ Adding a battery to a South Australian solar job brings its own connection and c
 - Battery installations must meet **AS/NZS 5139** (electrical installation safety requirements for battery systems) — see our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance).
 - The battery is commissioned alongside the solar inverter to SAPN's requirements.
 - STC eligibility for the solar component is governed by the **Clean Energy Regulator** under the **Renewable Energy (Electricity) Act 2000**.
-- South Australia also has a state battery rebate — see [SA solar battery rebate 2026](/blog/sa-solar-battery-rebate-2026) and [what a battery really costs](/blog/solar-battery-system-cost-australia-2026).
+- South Australia also has a state battery rebate — see [SA solar battery rebate 2026](/blog/sa-solar-battery-rebate-2026), [what a battery really costs](/blog/solar-battery-system-cost-australia-2026) and the [state-by-state solar rebates guide](/blog/solar-rebates-australia-state-guide-2026).
 
 ---
 

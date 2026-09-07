@@ -4,6 +4,23 @@ description: "Connect solar in WA via Western Power — 5kW max export (1.5kW st
 pubDate: 'Aug 31 2026'
 updatedDate: 'Aug 31 2026'
 category: "Grid Connection"
+breakdown:
+  - title: "Confirm the network"
+    summary: "Western Power (SWIS) for Perth and the south-west; Horizon Power for regional/remote."
+  - title: "Check the export rules"
+    summary: "5kW nett site total with an offtake agreement — otherwise a 1.5kW static fallback."
+  - title: "Lodge the application"
+    summary: "Through Western Power's connection process."
+  - title: "Install + commission"
+    summary: "Set AS/NZS 4777.2:2020 'Australia Region B' and commission via CSIP-AUS."
+    href: "/blog/csip-aus-export-limit-1-5kw-solar"
+    hrefLabel: "CSIP-AUS explainer →"
+  - title: "Set up emergency solar management"
+    summary: "Remote disconnect/reconnect capability, or elect the 1.5kW export cap."
+  - title: "Lodge the compliance cert"
+    summary: "Separate from approval, under the Electricity (Licensing) Regulations 1991 (WA)."
+    href: "/blog/wa-electrical-contractor-licence-guide-2026"
+    hrefLabel: "WA licence guide →"
 heroImage: '/hero-wa-western-power-solar-connection-guide-2026.jpg'
 faq:
   - question: "Who is the electricity distributor in Western Australia?"
