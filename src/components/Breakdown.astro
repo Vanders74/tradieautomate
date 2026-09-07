@@ -1,0 +1,125 @@
+---
+// Breakdown — a mobile-first key-concepts summary block.
+// 5–7 named stages, each a one-liner + optional link. Everything visible at a glance
+// (no accordion, no diagram) so a busy tradie can scan it without tapping.
+interface BreakdownItem {
+	title: string;
+	summary: string;
+	href?: string;
+	hrefLabel?: string;
+	external?: boolean;
+}
+interface Props {
+	heading?: string;
+	items: BreakdownItem[];
+}
+const { heading = 'The Breakdown', items } = Astro.props;
+---
+
+<div class="breakdown">
+	<h2 class="breakdown-heading">{heading}</h2>
+	<ol class="breakdown-list">
+		{items.map((item, i) => (
+			<li class="breakdown-item">
+				<span class="breakdown-num" aria-hidden="true">{i + 1}</span>
+				<div class="breakdown-body">
+					<span class="breakdown-label">{item.title}</span>
+					<span class="breakdown-summary">{item.summary}</span>
+					{item.href && (
+						<a
+							class="breakdown-link"
+							href={item.href}
+							{...(item.external ? { target: '_blank', rel: 'nofollow sponsored noopener' } : {})}
+						>
+							{item.hrefLabel || 'Read more →'}
+						</a>
+					)}
+				</div>
+			</li>
+		))}
+	</ol>
+</div>
+
+<style>
+	.breakdown {
+		margin: 2em 0;
+		padding: 20px 18px 16px;
+		background: #f8fafc;
+		border: 1px solid #e2e8f0;
+		border-left: 4px solid #f97316;
+		border-radius: 12px;
+	}
+	.breakdown-heading {
+		margin: 0 0 14px;
+		font-size: 1.05rem;
+		font-weight: 800;
+		color: #0f172a;
+		line-height: 1.3;
+	}
+	.breakdown-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	.breakdown-item {
+		position: relative;
+		display: flex;
+		gap: 12px;
+		padding: 0 0 14px 0;
+		margin: 0;
+	}
+	/* connecting vertical line between the number badges */
+	.breakdown-item::before {
+		content: '';
+		position: absolute;
+		left: 13px;
+		top: 28px;
+		bottom: 0;
+		width: 2px;
+		background: #e2e8f0;
+	}
+	.breakdown-item:last-child { padding-bottom: 0; }
+	.breakdown-item:last-child::before { display: none; }
+
+	.breakdown-num {
+		flex-shrink: 0;
+		width: 28px;
+		height: 28px;
+		border-radius: 50%;
+		background: #f97316;
+		color: #fff;
+		font-size: 0.85rem;
+		font-weight: 800;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		box-shadow: 0 0 0 3px #fff;
+	}
+	.breakdown-body {
+		flex: 1;
+		min-width: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 3px;
+		padding-top: 3px;
+	}
+	.breakdown-label {
+		font-size: 0.95rem;
+		font-weight: 700;
+		color: #0f172a;
+		line-height: 1.35;
+	}
+	.breakdown-summary {
+		font-size: 0.88rem;
+		color: #475569;
+		line-height: 1.5;
+	}
+	.breakdown-link {
+		font-size: 0.84rem;
+		font-weight: 700;
+		color: #f97316;
+		text-decoration: none;
+		margin-top: 2px;
+	}
+	.breakdown-link:hover { text-decoration: underline; }
+</style>
