@@ -7,7 +7,7 @@ image: "/diagrams/servicem8-workflow.svg"
 imageAlt: "Exploded view of the seven stages of a ServiceM8 job workflow, from quote through to follow-up"
 poster: "/diagrams/servicem8-workflow.png"
 aspectRatio: 1.7895
-caption: "The seven stages of a ServiceM8 job, pulled apart from the central job flow. Tap any number to see how the stage works, what to automate, and where most businesses slip up."
+caption: "The seven stages of a ServiceM8 job, pulled apart from the central flow. Tap any stage to see how it works."
 hotspots:
   - id: quote
     label: "Quote"
