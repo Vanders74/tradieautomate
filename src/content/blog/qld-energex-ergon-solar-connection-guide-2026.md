@@ -4,6 +4,21 @@ description: "Connect solar in QLD via Energex or Ergon Energy — 5kW fixed exp
 pubDate: 'Aug 31 2026'
 updatedDate: 'Aug 31 2026'
 category: "Grid Connection"
+breakdown:
+  - title: "Check the site first"
+    summary: "Use the Network Capacity Map — saturated areas can be capped at 1.5kVA or zero on a basic connection."
+  - title: "Choose fixed or dynamic"
+    summary: "5kW per phase fixed, or up to 10kW per phase on a dynamic connection."
+  - title: "Lodge the application"
+    summary: "Electrical Partners Portal; dynamic connection application fee $286.62 (excl GST)."
+  - title: "Get and accept the offer"
+    summary: "Dynamic offers aimed at within 65 business days; you have 20 days to accept."
+  - title: "Install + commission"
+    summary: "SEP2/CSIP-AUS-capable inverter; register the SEP2 device details."
+    href: "/blog/csip-aus-export-limit-1-5kw-solar"
+    hrefLabel: "CSIP-AUS vs SEP2 →"
+  - title: "Lodge the eCoC"
+    summary: "Separate from connection approval, under the Electrical Safety Act 2002 (Qld)."
 heroImage: '/hero-qld-energex-ergon-solar-connection-guide-2026.jpg'
 faq:
   - question: "Which electricity distributors cover Queensland?"

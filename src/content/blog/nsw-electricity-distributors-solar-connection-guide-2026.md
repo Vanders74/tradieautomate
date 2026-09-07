@@ -5,6 +5,25 @@ pubDate: 'Aug 29 2026'
 updatedDate: 'Aug 29 2026'
 accuracyReviewed: '2026-08-29'
 category: "Grid Connection"
+breakdown:
+  - title: "Identify the distributor"
+    summary: "Ausgrid (10kW), Endeavour (5kW) or Essential (5kW, 3kW rural) — export limits are per phase and differ by network."
+  - title: "Lodge the application"
+    summary: "Portal application with NMI, meter number and system details."
+  - title: "Get approval"
+    summary: "Small systems auto-approve; larger ones take 4–8 weeks in technical review."
+  - title: "Install to the approved SLD"
+    summary: "The Voltage Rise Calculation and Single Line Diagram are binding — no deviations without a new application."
+  - title: "Commission + register"
+    summary: "Inverter commissioning, plus device registration where flexible exports apply."
+    href: "/blog/csip-aus-export-limit-1-5kw-solar"
+    hrefLabel: "CSIP-AUS explainer →"
+  - title: "Submit the CCEW"
+    summary: "NSW's separate compliance cert under the Home Building Act 1989."
+    href: "/blog/ccew-nsw-electrical-compliance-guide-2026"
+    hrefLabel: "CCEW guide →"
+  - title: "Close out"
+    summary: "Complete the connection in the portal to finish the approval."
 heroImage: '/hero-nsw-electricity-distributors-solar-connection-guide-2026.jpg'
 faq:
   - question: "Which electricity distributors cover New South Wales?"
