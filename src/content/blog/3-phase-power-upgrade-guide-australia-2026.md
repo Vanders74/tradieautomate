@@ -4,6 +4,23 @@ description: "3-phase power upgrade in Australia: $3K–$10K cost range, step-by
 pubDate: "Aug 2026"
 updatedDate: "Aug 2026"
 category: "Compliance"
+breakdown:
+  - title: "Assess the load"
+    summary: "Maximum demand calc per AS/NZS 3000 Appendix C."
+  - title: "Lodge the DNSP application"
+    summary: "Before ordering anything — 10–20 business days for most networks."
+  - title: "Upgrade the switchboard"
+    summary: "AS/NZS 3000 Clauses 2.5 + 2.6: RCD on every ≤32A sub-circuit."
+    href: "/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026"
+    hrefLabel: "RCD requirements →"
+  - title: "Level 2 ASP connection"
+    summary: "Network-side work needs an authorised provider."
+  - title: "Coordinate the meter"
+    summary: "Avoid unmetered 3-phase — book the meter near the connection."
+  - title: "Test + issue the cert"
+    summary: "Section 8 testing, then CCEW/CES within 7 days."
+    href: "/blog/electrical-switchboard-upgrade-cost-australia-2026"
+    hrefLabel: "Switchboard cost guide →"
 heroImage: "/hero-3-phase-power-upgrade-guide.jpg"
 tags: ["3-phase", "switchboard upgrade", "AS/NZS 3000", "electrical compliance", "power upgrade"]
 faq:

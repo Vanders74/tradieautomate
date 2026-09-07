@@ -4,6 +4,23 @@ description: 'How to lodge STC claims as an Australian solar installer — eligi
 pubDate: 'May 13 2026'
 updatedDate: 'Jul 30 2026'
 category: "Solar & Battery"
+breakdown:
+  - title: "Confirm eligibility"
+    summary: "CEC accreditation with the matching endorsement (grid-connect, battery, off-grid)."
+  - title: "Check the equipment"
+    summary: "Only CEC-approved panels and inverters qualify."
+  - title: "Get the customer declaration"
+    summary: "Signed before lodgement — tenant can't sign for the owner."
+  - title: "Calculate the STCs"
+    summary: "kW × zone rating × deeming period (to 2030). Use the CER calculator, not manual math."
+  - title: "Lodge within 12 months"
+    summary: "Direct via REC Registry, or assign to a registered trader."
+    href: "/blog/cer-audit-prep-solar-installers"
+    hrefLabel: "CER audit prep →"
+  - title: "Keep the records"
+    summary: "Declarations and specs stored per job — audit retrievable."
+    href: "/blog/solar-compliance-checklist-2026"
+    hrefLabel: "Compliance checklist →"
 heroImage: '/hero-stc-claim-process.jpg'
 tags: ['STC', 'CER', 'compliance', 'solar', 'electrician', 'SRES']
 ---
