@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="950" viewBox="0 0 1700 950" role="img" aria-labelledby="title desc">
+<title id="title">Solar and Battery System Exploded View</title>
+<desc id="desc">The seven components of a residential solar and battery system, from panels to meter, pulled apart from the power flow, each tagged with its governing AS/NZS standard.</desc>
+<rect width="1700" height="950" fill="#f8fafc"/>
+<text x="850.0" y="66.0" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="800" fill="#0f172a" text-anchor="middle">Solar + Battery System — Exploded View</text>
+<text x="850.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#64748b" text-anchor="middle">Every component of a residential solar and battery system, pulled apart from the power flow.</text>
+<text x="850.0" y="122.0" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#64748b" text-anchor="middle">Tap any number to see what the component does and which AS/NZS standard governs it.</text>
+<line x1="65.0" y1="465.0" x2="1635.0" y2="465.0" stroke="#0f172a" stroke-width="3"/>
+<text x="410.4" y="489.0" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#64748b" text-anchor="middle">DC</text>
+<text x="1289.6" y="489.0" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#64748b" text-anchor="middle">AC</text>
+<line x1="160.0" y1="445.0" x2="160.0" y2="465.0" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="5,5"/>
+<rect x="65.0" y="300.0" width="190.0" height="145.0" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<path d="M 75.0 300.0 H 245.0 Q 255.0 300.0 255.0 310.0 V 338.0 H 65.0 V 310.0 Q 65.0 300.0 75.0 300.0 Z" fill="#0f172a"/>
+<circle cx="87.0" cy="319.0" r="13" fill="#f97316"/>
+<text x="87.0" y="323.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="109.0" y="323.5" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="start">Solar array</text>
+<rect x="201.0" y="309.0" width="46.0" height="20.0" rx="4" fill="#f97316" stroke="#f97316" stroke-width="1.5"/>
+<text x="224.0" y="323.5" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">5033</text>
+<circle cx="85.0" cy="356.5" r="3" fill="#f97316"/>
+<text x="95.0" y="360.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">AS/NZS 5033 array rules</text>
+<circle cx="85.0" cy="384.5" r="3" fill="#f97316"/>
+<text x="95.0" y="388.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">DC cable ceiling zones</text>
+<circle cx="85.0" cy="412.5" r="3" fill="#f97316"/>
+<text x="95.0" y="416.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Isolation-type signage</text>
+<line x1="390.0" y1="485.0" x2="390.0" y2="465.0" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="5,5"/>
+<rect x="295.0" y="485.0" width="190.0" height="145.0" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<path d="M 305.0 485.0 H 475.0 Q 485.0 485.0 485.0 495.0 V 523.0 H 295.0 V 495.0 Q 295.0 485.0 305.0 485.0 Z" fill="#0f172a"/>
+<circle cx="317.0" cy="504.0" r="13" fill="#f97316"/>
+<text x="317.0" y="508.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<text x="339.0" y="508.5" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="start">DC isolator</text>
+<rect x="431.0" y="494.0" width="46.0" height="20.0" rx="4" fill="#f97316" stroke="#f97316" stroke-width="1.5"/>
+<text x="454.0" y="508.5" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">5033</text>
+<circle cx="315.0" cy="541.5" r="3" fill="#f97316"/>
+<text x="325.0" y="545.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Load-break, DCPV-2 rated</text>
+<circle cx="315.0" cy="569.5" r="3" fill="#f97316"/>
+<text x="325.0" y="573.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Adjacent to inverter</text>
+<circle cx="315.0" cy="597.5" r="3" fill="#f97316"/>
+<text x="325.0" y="601.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Rooftop type optional</text>
+<line x1="620.0" y1="445.0" x2="620.0" y2="465.0" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="5,5"/>
+<rect x="525.0" y="300.0" width="190.0" height="145.0" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<path d="M 535.0 300.0 H 705.0 Q 715.0 300.0 715.0 310.0 V 338.0 H 525.0 V 310.0 Q 525.0 300.0 535.0 300.0 Z" fill="#0f172a"/>
+<circle cx="547.0" cy="319.0" r="13" fill="#f97316"/>
+<text x="547.0" y="323.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<text x="569.0" y="323.5" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="start">Inverter</text>
+<rect x="661.0" y="309.0" width="46.0" height="20.0" rx="4" fill="#f97316" stroke="#f97316" stroke-width="1.5"/>
+<text x="684.0" y="323.5" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">4777.2</text>
+<circle cx="545.0" cy="356.5" r="3" fill="#f97316"/>
+<text x="555.0" y="360.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">AS/NZS 4777.2 grid link</text>
+<circle cx="545.0" cy="384.5" r="3" fill="#f97316"/>
+<text x="555.0" y="388.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">DC to AC + battery</text>
+<circle cx="545.0" cy="412.5" r="3" fill="#f97316"/>
+<text x="555.0" y="416.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">CSIP-AUS export settings</text>
+<line x1="850.0" y1="485.0" x2="850.0" y2="465.0" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="5,5"/>
+<rect x="755.0" y="485.0" width="190.0" height="145.0" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<path d="M 765.0 485.0 H 935.0 Q 945.0 485.0 945.0 495.0 V 523.0 H 755.0 V 495.0 Q 755.0 485.0 765.0 485.0 Z" fill="#0f172a"/>
+<circle cx="777.0" cy="504.0" r="13" fill="#f97316"/>
+<text x="777.0" y="508.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="799.0" y="508.5" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="start">Battery</text>
+<rect x="891.0" y="494.0" width="46.0" height="20.0" rx="4" fill="#f97316" stroke="#f97316" stroke-width="1.5"/>
+<text x="914.0" y="508.5" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">5139</text>
+<circle cx="775.0" cy="541.5" r="3" fill="#f97316"/>
+<text x="785.0" y="545.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">AS/NZS 5139 location</text>
+<circle cx="775.0" cy="569.5" r="3" fill="#f97316"/>
+<text x="785.0" y="573.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">600mm from exits</text>
+<circle cx="775.0" cy="597.5" r="3" fill="#f97316"/>
+<text x="785.0" y="601.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Fire separation + signage</text>
+<line x1="1080.0" y1="445.0" x2="1080.0" y2="465.0" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="5,5"/>
+<rect x="985.0" y="300.0" width="190.0" height="145.0" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<path d="M 995.0 300.0 H 1165.0 Q 1175.0 300.0 1175.0 310.0 V 338.0 H 985.0 V 310.0 Q 985.0 300.0 995.0 300.0 Z" fill="#0f172a"/>
+<circle cx="1007.0" cy="319.0" r="13" fill="#f97316"/>
+<text x="1007.0" y="323.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="1029.0" y="323.5" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="start">AC isolator</text>
+<rect x="1121.0" y="309.0" width="46.0" height="20.0" rx="4" fill="#f97316" stroke="#f97316" stroke-width="1.5"/>
+<text x="1144.0" y="323.5" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">4777.1</text>
+<circle cx="1005.0" cy="356.5" r="3" fill="#f97316"/>
+<text x="1015.0" y="360.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">AS/NZS 4777.1</text>
+<circle cx="1005.0" cy="384.5" r="3" fill="#f97316"/>
+<text x="1015.0" y="388.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Adjacent to inverter</text>
+<circle cx="1005.0" cy="412.5" r="3" fill="#f97316"/>
+<text x="1015.0" y="416.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Lockable and labelled</text>
+<line x1="1310.0" y1="485.0" x2="1310.0" y2="465.0" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="5,5"/>
+<rect x="1215.0" y="485.0" width="190.0" height="145.0" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<path d="M 1225.0 485.0 H 1395.0 Q 1405.0 485.0 1405.0 495.0 V 523.0 H 1215.0 V 495.0 Q 1215.0 485.0 1225.0 485.0 Z" fill="#0f172a"/>
+<circle cx="1237.0" cy="504.0" r="13" fill="#f97316"/>
+<text x="1237.0" y="508.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">6</text>
+<text x="1259.0" y="508.5" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="start">Switchboard</text>
+<rect x="1351.0" y="494.0" width="46.0" height="20.0" rx="4" fill="#f97316" stroke="#f97316" stroke-width="1.5"/>
+<text x="1374.0" y="508.5" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">3000</text>
+<circle cx="1235.0" cy="541.5" r="3" fill="#f97316"/>
+<text x="1245.0" y="545.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">AS/NZS 3000 rules</text>
+<circle cx="1235.0" cy="569.5" r="3" fill="#f97316"/>
+<text x="1245.0" y="573.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Solar breaker + RCD</text>
+<circle cx="1235.0" cy="597.5" r="3" fill="#f97316"/>
+<text x="1245.0" y="601.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Solar-supply label</text>
+<line x1="1540.0" y1="445.0" x2="1540.0" y2="465.0" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="5,5"/>
+<rect x="1445.0" y="300.0" width="190.0" height="145.0" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<path d="M 1455.0 300.0 H 1625.0 Q 1635.0 300.0 1635.0 310.0 V 338.0 H 1445.0 V 310.0 Q 1445.0 300.0 1455.0 300.0 Z" fill="#0f172a"/>
+<circle cx="1467.0" cy="319.0" r="13" fill="#f97316"/>
+<text x="1467.0" y="323.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">7</text>
+<text x="1489.0" y="323.5" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="start">Meter</text>
+<rect x="1581.0" y="309.0" width="46.0" height="20.0" rx="4" fill="#f97316" stroke="#f97316" stroke-width="1.5"/>
+<text x="1604.0" y="323.5" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">DNSP</text>
+<circle cx="1465.0" cy="356.5" r="3" fill="#f97316"/>
+<text x="1475.0" y="360.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Export limit per DNSP</text>
+<circle cx="1465.0" cy="384.5" r="3" fill="#f97316"/>
+<text x="1475.0" y="388.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Net vs gross metering</text>
+<circle cx="1465.0" cy="412.5" r="3" fill="#f97316"/>
+<text x="1475.0" y="416.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Zero-export if needed</text>
+<circle cx="160.0" cy="465.0" r="7" fill="#0f172a"/>
+<circle cx="390.0" cy="465.0" r="7" fill="#0f172a"/>
+<circle cx="620.0" cy="465.0" r="7" fill="#0f172a"/>
+<circle cx="850.0" cy="465.0" r="7" fill="#0f172a"/>
+<circle cx="1080.0" cy="465.0" r="7" fill="#0f172a"/>
+<circle cx="1310.0" cy="465.0" r="7" fill="#0f172a"/>
+<circle cx="1540.0" cy="465.0" r="7" fill="#0f172a"/>
+<polygon points="269.0,459.0 281.0,465.0 269.0,471.0" fill="#0f172a"/>
+<polygon points="499.0,459.0 511.0,465.0 499.0,471.0" fill="#0f172a"/>
+<polygon points="729.0,459.0 741.0,465.0 729.0,471.0" fill="#0f172a"/>
+<polygon points="959.0,459.0 971.0,465.0 959.0,471.0" fill="#0f172a"/>
+<polygon points="1189.0,459.0 1201.0,465.0 1189.0,471.0" fill="#0f172a"/>
+<polygon points="1419.0,459.0 1431.0,465.0 1419.0,471.0" fill="#0f172a"/>
+<circle cx="65.0" cy="766.5" r="4" fill="#0f172a"/>
+<text x="79.0" y="770.0" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#64748b" text-anchor="start">Central power flow (spine)</text>
+<text x="385.0" y="770.0" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#64748b" text-anchor="start">— dashed leader lines show each component pulled out from the flow</text>
+<rect x="65.0" y="796.0" width="46.0" height="20.0" rx="4" fill="#f97316" stroke="#f97316" stroke-width="1.5"/>
+<text x="88.0" y="810.5" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">5033</text>
+<text x="125.0" y="810.5" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#64748b" text-anchor="start">header tag = the governing AS/NZS standard</text>
+<text x="850.0" y="918.0" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#0f172a" text-anchor="middle">TradieAutomate</text>
+<text x="850.0" y="940.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748b" text-anchor="middle">tradieautomate.com</text>
+</svg>
