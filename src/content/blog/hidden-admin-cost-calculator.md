@@ -184,6 +184,8 @@ Reducing admin overhead doesn't require hiring staff. It requires removing the m
 
 **Reviews:** A follow-up SMS goes to every completed customer, automatically, asking for a Google review. Not when someone remembers — every time, without exception.
 
+**Email follow-ups:** Automated quote follow-ups, payment reminders, and win-back sequences fire without a human touching them — see the [email automation playbook for tradies](/blog/email-automation-for-tradies-2026).
+
 ---
 
 ## Real Numbers: What the Transition Actually Costs vs Saves

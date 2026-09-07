@@ -4,6 +4,23 @@ description: "From on-site quote to paid invoice in under 10 days — how Servic
 pubDate: 'Aug 08 2026'
 updatedDate: 'Aug 08 2026'
 category: 'ServiceM8'
+breakdown:
+  - title: "Quote on-site"
+    summary: "Build the quote with line items + photos in under 2 minutes."
+  - title: "Client approves one-tap"
+    summary: "Quote converts to a scheduled job — no phone tag."
+  - title: "Work completes with compliance docs"
+    summary: "CCEW/CES forms completed before the job can close."
+    href: "/blog/solar-compliance-checklist-2026"
+    hrefLabel: "Compliance checklist →"
+  - title: "Invoice auto-generates"
+    summary: "Same-day invoicing, not 3–5 days later."
+  - title: "Client pays via Stripe"
+    summary: "Pay Now button + on-site Tap to Pay."
+  - title: "Sync to Xero"
+    summary: "Real-time, no double entry."
+    href: "/blog/servicem8-xero-integration-guide-australia"
+    hrefLabel: "Xero setup guide →"
 heroImage: '/hero-servicem8-quoting-invoicing-workflow.jpg'
 tags: ['ServiceM8', 'quoting', 'invoicing', 'payments', 'workflow', 'job management', 'Xero', 'cash flow']
 faq:
