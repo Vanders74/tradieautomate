@@ -4,6 +4,23 @@ description: "STC claims can be suspended after a failed CER audit — and audit
 updatedDate: 'Jul 18 2026'
 pubDate: "Apr 05 2026"
 category: "Compliance"
+breakdown:
+  - title: "Know the audit types"
+    summary: "Desktop (most common), site, or accreditation review."
+  - title: "Keep STC records accurate"
+    summary: "Lodged specs must match the job file — discrepancies are the #1 flag."
+  - title: "Capture job photos properly"
+    summary: "Date-stamped, tied to the specific job — not a generic folder."
+  - title: "Retain everything 5 years"
+    summary: "Renewable Energy (Electricity) Act 2000 mandates it."
+    href: "/blog/solar-compliance-checklist-2026"
+    hrefLabel: "Compliance checklist →"
+  - title: "Keep accreditation current"
+    summary: "Right endorsement, valid at installation date."
+  - title: "Fix the common gaps"
+    summary: "Battery labelling (AS/NZS 5139) and missing handovers are the usual findings."
+    href: "/blog/as-nzs-5139-battery-storage-compliance"
+    hrefLabel: "AS/NZS 5139 guide →"
 heroImage: '/hero-cer-audit-prep-solar-installers.jpg'
 faq:
   - question: "What triggers a CER audit for a solar installer in Australia?"

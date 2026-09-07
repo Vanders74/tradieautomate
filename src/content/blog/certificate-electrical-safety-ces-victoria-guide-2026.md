@@ -4,6 +4,21 @@ description: "CES Victoria: current lodgement fees, the 28-day deadline, step-by
 pubDate: 'May 15 2026'
 updatedDate: 'Jun 27 2026'
 category: "Compliance"
+breakdown:
+  - title: "Know when it's required"
+    summary: "Every notifiable install — solar, switchboard, EV charger, new circuits."
+  - title: "Issue within 28 days"
+    summary: "From completion, via ESV Connect (~$7–$10 per CES)."
+  - title: "Describe the work properly"
+    summary: "Brand, model, capacity — not 'solar installation'."
+  - title: "Notify the DNSP separately"
+    summary: "The CES doesn't cover network notification — both are required."
+    href: "/blog/vic-solar-connection-guide-2026"
+    hrefLabel: "VIC connection guide →"
+  - title: "Mind the penalties"
+    summary: "$150–$300 late fee per cert; $2k–$5k infringement per breach."
+    href: "/blog/vic-electrical-contractor-licence-guide-2026"
+    hrefLabel: "VIC REC licence →"
 heroImage: '/hero-ces-victoria-guide.jpg'
 tags: ['CES', 'Victoria', 'compliance', 'electrician', 'electrical certificate', 'Energy Safe Victoria']
 faq:

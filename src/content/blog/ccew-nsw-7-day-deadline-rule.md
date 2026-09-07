@@ -4,6 +4,19 @@ description: 'CCEW NSW 7-day rule: when the clock starts after completion, which
 pubDate: 'May 20 2026'
 updatedDate: 'Jul 20 2026'
 category: "Compliance"
+breakdown:
+  - title: "Know the triggers"
+    summary: "Switchboard changes, new circuits, solar/battery, or load increases."
+  - title: "Start the clock right"
+    summary: "7 days from completion — not from payment or invoice."
+  - title: "Distribute to three parties"
+    summary: "Customer, network distributor, and Fair Trading NSW."
+  - title: "Lodge via BCNSW eCert"
+    summary: "Digital-only since 1 July 2026 — paper forms are non-compliant."
+    href: "/blog/ccew-nsw-electrical-compliance-guide-2026"
+    hrefLabel: "Full CCEW guide →"
+  - title: "Mind the penalties"
+    summary: "Up to $22,000 individual / $110,000 corporation, per offence."
 heroImage: '/hero-ccew-nsw-compliance.jpg'
 tags: ['CCEW', 'NSW', 'electrical compliance', 'electrician', 'Fair Trading', 'certificate of compliance']
 faq:

@@ -55,7 +55,7 @@ Circuit breaker boards built in the 1990s and 2000s may be retainable but often 
 
 Three-phase switchboard upgrades are more expensive because the board is physically larger, the protection devices cover three conductors, and the work takes longer. Homes with three-phase supply — common in Queensland and parts of WA and SA for older properties — will see costs at the higher end of the range.
 
-A single-phase home that wants to support a large EV charger or a 15+ kW solar system may need a supply upgrade to three-phase as a separate process, coordinated with the DNSP (Distribution Network Service Provider). This can add weeks and $1,500–$4,000 to the project.
+A single-phase home that wants to support a large EV charger or a 15+ kW solar system may need a supply upgrade to three-phase as a separate process, coordinated with the DNSP (Distribution Network Service Provider). This can add weeks and $1,500–$4,000 to the project. See the [3-phase power upgrade guide](/blog/3-phase-power-upgrade-guide-australia-2026) for the full process, DNSP application, and AS/NZS 3000 requirements.
 
 ### 3. Metering Position and Switchboard Location
 
