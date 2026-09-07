@@ -1,0 +1,311 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE } from '../../consts';
+
+const title = "Tradie Business Value Calculator | What's Your Trade Business Worth?";
+const description = "Free calculator for Australian trade business owners. Enter revenue, team size, systems maturity and recurring revenue — get an instant valuation range using the SDE multiple method. 60 seconds, no sign-up.";
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tradie Business Value Calculator Australia 2026",
+  "description": description,
+  "url": "https://tradieautomate.com/tools/business-value-calculator/",
+  "dateModified": "2026-09-07",
+  "publisher": { "@type": "Organization", "name": "TradieAutomate" }
+};
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How are Australian trade businesses valued?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Trade businesses are usually valued on Seller's Discretionary Earnings (SDE) — the owner's true financial benefit from the business — multiplied by a factor. SDE is roughly revenue times net margin (trades typically run 12–18%). The multiple scales with systems maturity: a paper-based, owner-dependent business might sell for 1.2–1.8x SDE, while an integrated, systemised business with recurring revenue can command 2.0–3.0x SDE."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a Seller's Discretionary Earnings (SDE) multiple?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SDE is the annual earnings available to the owner: net profit plus owner's salary, perks and one-off non-recurring expenses. A 'multiple' is the number applied to SDE to estimate sale value — for example, 2x SDE of $150,000 suggests a $300,000 value. Trade businesses commonly sell for 1.2x to 3x SDE depending on how systemised and transferable they are."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does recurring revenue increase my business value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, significantly. Buyers pay a premium for predictable income. A trade business with 25% or more of revenue from maintenance contracts, monitoring or service agreements can command a 0.2x or higher multiple premium over one that relies entirely on one-off project work. Building recurring revenue is one of the highest-leverage ways to lift your sale price."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this calculator a professional valuation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. This calculator provides an estimate for planning purposes only, based on the standard SDE multiple method. It is not financial, legal or tax advice. Before any transaction, you should obtain a professional valuation from a licensed business valuer or an M&A broker who can account for your specific buyer pool, market conditions and due diligence findings."
+      }
+    }
+  ]
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+    <style>
+      .tool-hero { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: white; padding: 56px 24px 48px; text-align: center; }
+      .tool-hero .badge { display: inline-block; background: rgba(249,115,22,0.15); border: 1px solid rgba(249,115,22,0.4); color: #fb923c; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; padding: 4px 12px; border-radius: 100px; margin-bottom: 16px; }
+      .tool-hero h1 { font-size: clamp(1.6rem, 4vw, 2.5rem); font-weight: 800; line-height: 1.2; margin: 0 auto 16px; max-width: 700px; color: #ffffff !important; text-shadow: 0 1px 4px rgba(0,0,0,0.4); }
+      .tool-hero p { font-size: 1.05rem; color: #cbd5e1; max-width: 560px; margin: 0 auto; }
+      .tool-stats { display: flex; justify-content: center; gap: 32px; margin-top: 32px; flex-wrap: wrap; }
+      .stat { text-align: center; }
+      .stat-number { font-size: 1.75rem; font-weight: 800; color: #f97316; display: block; }
+      .stat-label { font-size: 0.8rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.06em; }
+      .tool-container { max-width: 800px; margin: 0 auto; padding: 48px 24px; }
+      .context-block { margin-top: 40px; background: #f8fafc; border-radius: 12px; padding: 32px; border: 1px solid #e2e8f0; }
+      .context-block h2 { font-size: 1.2rem; font-weight: 700; color: #0f172a; margin-bottom: 16px; }
+      .context-block p { color: #475569; font-size: 0.95rem; line-height: 1.6; margin-bottom: 12px; }
+      .context-block p:last-child { margin-bottom: 0; }
+      .back-links { margin-top: 32px; padding-top: 24px; border-top: 1px solid #e2e8f0; }
+      .back-links h4 { font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #94a3b8; margin-bottom: 12px; }
+      .back-links ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 12px; }
+      .back-links ul li a { color: #f97316; text-decoration: none; font-size: 0.9rem; font-weight: 600; }
+      .back-links ul li a:hover { text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <div class="tool-hero">
+        <div class="badge">Free Tool</div>
+        <h1>What's Your Trade Business Worth?</h1>
+        <p>Australian trade businesses sell on a multiple of what they earn for their owner — not just revenue. Enter four things and get an instant valuation range. 60 seconds, no sign-up. Updated 7 September 2026.</p>
+        <div class="tool-stats">
+          <div class="stat"><span class="stat-number">1.2–3.0×</span><span class="stat-label">typical SDE multiple</span></div>
+          <div class="stat"><span class="stat-number">4</span><span class="stat-label">inputs needed</span></div>
+          <div class="stat"><span class="stat-number">60s</span><span class="stat-label">to get your range</span></div>
+        </div>
+      </div>
+
+      <div class="tool-container">
+        <div id="bv-calc" style="background:#0f172a;border-radius:16px;padding:36px 28px;color:#e2e8f0;font-family:system-ui,-apple-system,sans-serif;">
+          <h2 style="margin:0 0 6px;font-size:1.4rem;color:#f1f5f9;">📊 Business Value Calculator</h2>
+          <p style="margin:0 0 24px;font-size:0.9rem;color:#94a3b8;">Four quick inputs. Your valuation range appears instantly — no email required.</p>
+
+          <div class="bv-field">
+            <label class="bv-label" for="bv-revenue">Annual revenue (AUD)</label>
+            <input type="number" id="bv-revenue" placeholder="e.g. 800000" min="0" step="10000" style="width:100%;box-sizing:border-box;padding:14px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
+          </div>
+
+          <div class="bv-field">
+            <label class="bv-label">Team size</label>
+            <div class="bv-options" id="bv-staff">
+              <button class="bv-opt" data-value="solo" type="button">Solo / 1 person</button>
+              <button class="bv-opt" data-value="small" type="button">2–5 staff</button>
+              <button class="bv-opt" data-value="team" type="button">6–20 staff</button>
+            </div>
+          </div>
+
+          <div class="bv-field">
+            <label class="bv-label">How systemised is the business?</label>
+            <div class="bv-options" id="bv-systems">
+              <button class="bv-opt" data-value="paper" type="button">Paper / whiteboard</button>
+              <button class="bv-opt" data-value="basic" type="button">Basic digital</button>
+              <button class="bv-opt" data-value="integrated" type="button">Integrated (ServiceM8 / simPRO)</button>
+            </div>
+          </div>
+
+          <div class="bv-field">
+            <label class="bv-label">Recurring revenue share</label>
+            <div class="bv-options" id="bv-recurring">
+              <button class="bv-opt" data-value="low" type="button">Under 10%</button>
+              <button class="bv-opt" data-value="mid" type="button">10–25%</button>
+              <button class="bv-opt" data-value="high" type="button">Over 25%</button>
+            </div>
+          </div>
+
+          <button id="bv-calc-btn" type="button" style="width:100%;padding:16px;margin-top:8px;background:linear-gradient(135deg,#f97316,#ea580c);color:#fff;border:none;border-radius:10px;font-size:1.05rem;font-weight:700;cursor:pointer;">Calculate My Value →</button>
+          <p id="bv-error" style="display:none;margin:12px 0 0;font-size:0.85rem;color:#ef4444;"></p>
+
+          <div id="bv-result" style="display:none;margin-top:28px;background:#1e293b;border-radius:12px;padding:28px;text-align:center;">
+            <div style="font-size:0.8rem;text-transform:uppercase;letter-spacing:0.08em;color:#94a3b8;">Your estimated valuation range</div>
+            <div id="bv-range" style="font-size:2.2rem;font-weight:800;color:#f97316;margin:8px 0;"></div>
+            <div id="bv-breakdown" style="font-size:0.9rem;color:#cbd5e1;line-height:1.7;"></div>
+            <p style="margin:16px 0 0;font-size:0.75rem;color:#64748b;">Estimate for planning only — not a professional valuation or financial advice.</p>
+          </div>
+
+          <div id="bv-capture" style="display:none;margin-top:24px;background:linear-gradient(135deg,#1e293b,#0f172a);border:1px solid #334155;border-radius:12px;padding:24px;text-align:center;">
+            <h3 style="margin:0 0 6px;font-size:1.05rem;color:#f97316;">📥 Save your number + get the free summary</h3>
+            <p style="margin:0 0 18px;font-size:0.85rem;color:#94a3b8;">A free one-page summary of the method and your next steps, emailed instantly.</p>
+            <form id="bv-form" style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+              <input type="text" id="bv-name" placeholder="First name" style="flex:1;min-width:150px;padding:12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:0.9rem;">
+              <input type="email" id="bv-email" placeholder="Your email" required style="flex:1;min-width:200px;padding:12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:0.9rem;">
+              <button type="submit" style="padding:12px 22px;background:linear-gradient(135deg,#f97316,#ea580c);color:#fff;border:none;border-radius:8px;font-size:0.9rem;font-weight:700;cursor:pointer;white-space:nowrap;">Send My Summary →</button>
+            </form>
+            <div id="bv-status" style="margin-top:14px;font-size:0.85rem;"></div>
+          </div>
+
+          <div id="bv-upsell" style="display:none;margin-top:20px;background:#fff7ed;border:1px solid #fed7aa;border-radius:12px;padding:24px;text-align:center;">
+            <h3 style="margin:0 0 6px;font-size:1.05rem;color:#0f172a;">Want the full picture?</h3>
+            <p style="margin:0 0 16px;font-size:0.9rem;color:#475569;line-height:1.6;">The <strong>Full Valuation Report</strong> breaks down the SDE method, 2026 trade-business multiples, comparable-sale benchmarks, a buyer-readiness scorecard and a 90-day value-building plan.</p>
+            <a id="bv-upsell-link" href="https://payhip.com/tradieautomate" target="_blank" rel="noopener" style="display:inline-block;background:linear-gradient(135deg,#f97316,#ea580c);color:#fff;padding:13px 26px;border-radius:8px;font-weight:700;font-size:0.95rem;text-decoration:none;">Upgrade to the Full Valuation Report →</a>
+            <p style="margin:10px 0 0;font-size:0.75rem;color:#94a3b8;">$49 — one-time. Delivered instantly by email.</p>
+          </div>
+        </div>
+
+        <div class="context-block">
+          <h2>How the Calculator Works</h2>
+          <p>Trade businesses aren't valued on revenue — they're valued on <strong>Seller's Discretionary Earnings (SDE)</strong>, which is roughly revenue × net margin (trades run 12–18%). A buyer then applies a <strong>multiple</strong> to that SDE.</p>
+          <p>The multiple is where systemisation pays off. A paper-based, owner-dependent business sells for <strong>1.2–1.8×</strong> SDE. A business running on integrated software with predictable recurring revenue can command <strong>2.0–3.0×</strong>. That's the difference between selling for $250K and selling for $600K — on the same revenue.</p>
+          <p><strong>Tip:</strong> your "recurring revenue" input matters more than most owners think. A business with 25%+ recurring revenue attracts a genuine multiple premium, because buyers pay for predictable income.</p>
+        </div>
+
+        <div class="back-links">
+          <h4>Learn More</h4>
+          <ul>
+            <li><a href="/blog/sell-servicem8-trade-business-value">How to Sell Your ServiceM8-Based Trade Business</a></li>
+            <li><a href="/blog/sell-your-solar-business-servicem8">How to Sell Your Solar Business</a></li>
+            <li><a href="/exit-readiness">Exit-Readiness Quiz</a></li>
+            <li><a href="/blog/scaling-solar-electrical-business-hiring-growth">Scaling a Trade Business</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <Footer />
+
+    <style is:global>
+      #bv-calc .bv-field { margin-bottom: 20px; }
+      #bv-calc .bv-label { display: block; margin-bottom: 8px; font-size: 0.85rem; font-weight: 600; color: #cbd5e1; }
+      #bv-calc .bv-options { display: flex; flex-wrap: wrap; gap: 8px; }
+      #bv-calc .bv-opt {
+        flex: 1; min-width: 120px; padding: 12px 14px; text-align: center;
+        background: #1e293b; border: 1.5px solid #334155; border-radius: 8px;
+        color: #cbd5e1; font-size: 0.85rem; cursor: pointer; transition: all 0.15s;
+      }
+      #bv-calc .bv-opt:hover { border-color: #f97316; }
+      #bv-calc .bv-opt.selected { border-color: #f97316; background: #1e3a5f; color: #ffffff; }
+    </style>
+
+    <script>
+      (function() {
+        var MARGINS = { paper: 0.12, basic: 0.15, integrated: 0.18 };
+        var BASES = {
+          paper: { low: 1.2, high: 1.8 },
+          basic: { low: 1.6, high: 2.2 },
+          integrated: { low: 2.0, high: 3.0 }
+        };
+        var REC_MOD = { low: -0.2, mid: 0, high: 0.2 };
+        var STAFF_MOD = { solo: -0.2, small: 0, team: 0.1 };
+
+        function fmtAUD(n) {
+          if (n == null || isNaN(n)) return '';
+          var v = Math.round(n);
+          if (v >= 1000000) return '$' + (v / 1000000).toFixed(2).replace(/\.?0+$/, '') + 'M';
+          if (v >= 1000) return '$' + (v / 1000).toFixed(0) + 'K';
+          return '$' + v;
+        }
+
+        function getSelected(groupId) {
+          var el = document.querySelector('#' + groupId + ' .bv-opt.selected');
+          return el ? el.getAttribute('data-value') : null;
+        }
+
+        // Wire option buttons
+        ['bv-staff', 'bv-systems', 'bv-recurring'].forEach(function(id) {
+          var group = document.getElementById(id);
+          group.addEventListener('click', function(e) {
+            var btn = e.target.closest('.bv-opt');
+            if (!btn) return;
+            group.querySelectorAll('.bv-opt').forEach(function(b) { b.classList.remove('selected'); });
+            btn.classList.add('selected');
+          });
+        });
+
+        var lastResult = null;
+
+        document.getElementById('bv-calc-btn').addEventListener('click', function() {
+          var revenue = parseFloat(document.getElementById('bv-revenue').value);
+          var staff = getSelected('bv-staff');
+          var systems = getSelected('bv-systems');
+          var recurring = getSelected('bv-recurring');
+          var err = document.getElementById('bv-error');
+
+          err.style.display = 'none';
+          if (!revenue || revenue <= 0) { err.textContent = 'Please enter your annual revenue.'; err.style.display = 'block'; return; }
+          if (!staff) { err.textContent = 'Please select your team size.'; err.style.display = 'block'; return; }
+          if (!systems) { err.textContent = 'Please select how systemised the business is.'; err.style.display = 'block'; return; }
+          if (!recurring) { err.textContent = 'Please select your recurring revenue share.'; err.style.display = 'block'; return; }
+
+          var margin = MARGINS[systems];
+          var base = BASES[systems];
+          var recMod = REC_MOD[recurring];
+          var staffMod = STAFF_MOD[staff];
+
+          var lowMult = Math.max(1.0, base.low + recMod + staffMod);
+          var highMult = base.high + recMod + staffMod;
+
+          var sde = revenue * margin;
+          var low = sde * lowMult;
+          var high = sde * highMult;
+
+          lastResult = { revenue: revenue, staff: staff, systems: systems, recurring: recurring, low: low, high: high };
+
+          document.getElementById('bv-range').textContent = fmtAUD(low) + ' – ' + fmtAUD(high);
+          document.getElementById('bv-breakdown').innerHTML =
+            'Estimated SDE: <strong>' + fmtAUD(sde) + '</strong>/yr &nbsp;·&nbsp; Multiple: <strong>' + lowMult.toFixed(1) + '–' + highMult.toFixed(1) + '×</strong>';
+
+          document.getElementById('bv-result').style.display = 'block';
+          document.getElementById('bv-capture').style.display = 'block';
+          document.getElementById('bv-upsell').style.display = 'block';
+        });
+
+        document.getElementById('bv-form').addEventListener('submit', async function(e) {
+          e.preventDefault();
+          var email = document.getElementById('bv-email').value;
+          var name = document.getElementById('bv-name').value;
+          var status = document.getElementById('bv-status');
+          if (!lastResult) return;
+          status.innerHTML = '<span style="color:#fbbf24;">Sending your summary...</span>';
+
+          try {
+            var resp = await fetch('/.netlify/functions/business-value-lead', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                firstName: name,
+                email: email,
+                revenue: lastResult.revenue,
+                staff: lastResult.staff,
+                systems: lastResult.systems,
+                recurring: lastResult.recurring,
+                low: Math.round(lastResult.low),
+                high: Math.round(lastResult.high)
+              })
+            });
+            var data = await resp.json();
+            if (data.success) {
+              if (data.emailSent === false && data.downloadUrl) {
+                status.innerHTML = '<span style="color:#fbbf24;">⚠️ We couldn\'t email just now. <a href="' + data.downloadUrl + '" style="color:#f97316;">Download your summary here →</a></span>';
+              } else {
+                status.innerHTML = '<span style="color:#22c55e;">✅ Summary sent! Check your inbox.</span>';
+              }
+            } else {
+              status.innerHTML = '<span style="color:#ef4444;">' + (data.error || 'Something went wrong. Try again.') + '</span>';
+            }
+          } catch (err) {
+            status.innerHTML = '<span style="color:#ef4444;">Connection error. Please try again.</span>';
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>

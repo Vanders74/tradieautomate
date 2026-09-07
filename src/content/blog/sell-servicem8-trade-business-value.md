@@ -13,6 +13,8 @@ The smartest operators think differently. They build their business *as if they'
 
 ServiceM8 is one of the most powerful tools available to Australian trade business owners who want to build genuine, transferable business value. Here's how to use it strategically.
 
+> 💰 **Curious what your business is worth right now?** Try our free [Business Value Calculator](/tools/business-value-calculator) — four quick inputs, instant valuation range. No sign-up.
+
 ---
 
 ## ⚡ Is Your Business Built to Sell?

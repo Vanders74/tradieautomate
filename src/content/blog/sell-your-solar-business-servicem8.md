@@ -18,6 +18,8 @@ Not revenue. Not years in business. Not how many installs you've done.
 
 That's what a serious buyer wants. And that's exactly what ServiceM8 helps you build.
 
+> 💰 **Want a dollar figure on your solar business?** Try our free [Business Value Calculator](/tools/business-value-calculator) — four inputs, instant SDE valuation range. No sign-up.
+
 ---
 
 ## The Uncomfortable Truth About Selling a Trade Business
