@@ -1,0 +1,320 @@
+---
+// ExplodedDiagram — interactive exploded-view illustration with clickable hotspots.
+// Renders an image (SVG preferred) + positioned hotspot buttons that open matching
+// explanation cards below. All labels/notes live in real DOM text (indexable + accessible).
+interface Hotspot {
+	id: string;
+	label: string;
+	note: string;
+	x: number;            // % of diagram width (0–100)
+	y: number;            // % of diagram height (0–100)
+	href?: string;
+	hrefLabel?: string;
+	external?: boolean;
+}
+interface Props {
+	title?: string;
+	image: string;
+	imageAlt: string;
+	aspectRatio: number;  // width / height — reserves space, zero CLS
+	hotspots: Hotspot[];
+	caption?: string;
+	cta?: { text: string; href: string; label: string; external?: boolean };
+	mode?: 'standalone' | 'embed';
+}
+const { title, image, imageAlt, aspectRatio, hotspots, caption, cta, mode = 'standalone' } = Astro.props;
+const showTitle = mode === 'standalone' && title;
+---
+
+<div class="exploded" data-exploded>
+	{showTitle && <h2 class="exploded-title">{title}</h2>}
+
+	<figure class="exploded-figure" style={`aspect-ratio: ${aspectRatio};`}>
+		<img
+			src={image}
+			alt={imageAlt}
+			loading={mode === 'standalone' ? 'eager' : 'lazy'}
+			decoding="async"
+			fetchpriority={mode === 'standalone' ? 'high' : undefined}
+		/>
+		{hotspots.map((h, i) => (
+			<button
+				class="hotspot"
+				type="button"
+				style={`left: ${h.x}%; top: ${h.y}%;`}
+				data-hotspot={i}
+				aria-label={`${i + 1}. ${h.label}`}
+				aria-controls={`part-${h.id}`}
+				aria-expanded="false"
+			>
+				<span class="hotspot-pulse" aria-hidden="true"></span>
+				<span class="hotspot-dot" aria-hidden="true"></span>
+			</button>
+		))}
+	</figure>
+
+	{caption && <figcaption class="exploded-caption">{caption}</figcaption>}
+
+	<ol class="parts">
+		{hotspots.map((h, i) => (
+			<li>
+				<details class="part" id={`part-${h.id}`} data-part={i}>
+					<summary>
+						<span class="part-num" aria-hidden="true">{i + 1}</span>
+						<span class="part-label">{h.label}</span>
+					</summary>
+					<div class="part-body">
+						<p>{h.note}</p>
+						{h.href && (
+							<a
+								class="part-link"
+								href={h.href}
+								{...(h.external ? { target: '_blank', rel: 'nofollow sponsored noopener' } : {})}
+							>
+								{h.hrefLabel || 'Read more →'}
+							</a>
+						)}
+					</div>
+				</details>
+			</li>
+		))}
+	</ol>
+
+	{cta && (
+		<div class="exploded-cta">
+			<p>{cta.text}</p>
+			<a
+				href={cta.href}
+				class="exploded-cta-btn"
+				{...(cta.external ? { target: '_blank', rel: 'nofollow sponsored noopener' } : {})}
+			>{cta.label}</a>
+		</div>
+	)}
+</div>
+
+<script>
+	// Wire hotspots → matching details cards. No framework, progressive enhancement:
+	// <details>/<summary> already works without JS; this adds the click-to-open mapping.
+	(function () {
+		const roots = document.querySelectorAll('[data-exploded]');
+		roots.forEach((root) => {
+			const hotspots = Array.from(root.querySelectorAll('[data-hotspot]'));
+			const parts = Array.from(root.querySelectorAll('[data-part]'));
+			if (!hotspots.length || !parts.length) return;
+
+			const setActive = (index) => {
+				parts.forEach((p, j) => {
+					const isTarget = j === index;
+					if (isTarget) p.setAttribute('open', '');
+					else p.removeAttribute('open');
+				});
+				hotspots.forEach((hs, j) => {
+					hs.classList.toggle('is-active', j === index);
+					hs.setAttribute('aria-expanded', String(j === index));
+				});
+			};
+
+			hotspots.forEach((hs, i) => {
+				hs.addEventListener('click', () => {
+					setActive(i);
+					// Bring the matching card into view without jumping the page too hard.
+					parts[i]?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+				});
+			});
+
+			// Keep hotspot active-state in sync when a card is toggled by hand.
+			parts.forEach((p, i) => {
+				p.addEventListener('toggle', () => {
+					if (p.open) {
+						hotspots.forEach((hs, j) => {
+							hs.classList.toggle('is-active', j === i);
+							hs.setAttribute('aria-expanded', String(j === i));
+						});
+					}
+				});
+			});
+		});
+	})();
+</script>
+
+<style>
+	.exploded { margin: 2em 0; }
+
+	.exploded-title {
+		font-size: 1.4rem;
+		font-weight: 800;
+		color: #0f172a;
+		margin: 0 0 1em;
+		line-height: 1.3;
+	}
+
+	.exploded-figure {
+		position: relative;
+		width: 100%;
+		margin: 0;
+		background: #f8fafc;
+		border: 1px solid #e2e8f0;
+		border-radius: 12px;
+		overflow: hidden;
+	}
+	.exploded-figure img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+
+	/* Hotspots */
+	.hotspot {
+		position: absolute;
+		width: 44px;
+		height: 44px;
+		margin: -22px 0 0 -22px; /* centre on the (x%, y%) point */
+		padding: 0;
+		background: transparent;
+		border: none;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.hotspot-dot {
+		width: 16px;
+		height: 16px;
+		border-radius: 50%;
+		background: #f97316;
+		border: 3px solid #fff;
+		box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.45);
+	}
+	.hotspot-pulse {
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		border-radius: 50%;
+		background: rgba(249, 115, 22, 0.5);
+		animation: hotspot-pulse 2.2s ease-out infinite;
+	}
+	.hotspot:hover .hotspot-dot,
+	.hotspot:focus-visible .hotspot-dot,
+	.hotspot.is-active .hotspot-dot {
+		background: #c2410c;
+		transform: scale(1.25);
+	}
+	.hotspot.is-active .hotspot-pulse { display: none; }
+
+	@keyframes hotspot-pulse {
+		0%   { transform: scale(1); opacity: 0.7; }
+		70%  { transform: scale(2.4); opacity: 0; }
+		100% { transform: scale(2.4); opacity: 0; }
+	}
+
+	.exploded-caption {
+		margin: 0.6em 0 0;
+		font-size: 0.85rem;
+		color: #64748b;
+		text-align: center;
+	}
+
+	/* Parts list (the indexable/accessible explanation layer) */
+	.parts {
+		list-style: none;
+		margin: 1.25em 0 0;
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 12px;
+	}
+	.parts > li { margin: 0; }
+	.part {
+		background: #fff;
+		border: 1px solid #e2e8f0;
+		border-radius: 10px;
+		overflow: hidden;
+		transition: border-color 0.15s, box-shadow 0.15s;
+	}
+	.part[open] {
+		border-color: #f97316;
+		box-shadow: 0 4px 16px rgba(249, 115, 22, 0.12);
+	}
+	.part summary {
+		list-style: none;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		padding: 12px 14px;
+		font-weight: 700;
+		color: #0f172a;
+		user-select: none;
+	}
+	.part summary::-webkit-details-marker { display: none; }
+	.part-num {
+		flex-shrink: 0;
+		width: 24px;
+		height: 24px;
+		border-radius: 50%;
+		background: #f97316;
+		color: #fff;
+		font-size: 0.8rem;
+		font-weight: 800;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.part-label { flex: 1; font-size: 0.98rem; }
+	.part summary::after {
+		content: '+';
+		font-size: 1.3rem;
+		line-height: 1;
+		color: #94a3b8;
+		transition: transform 0.15s;
+	}
+	.part[open] summary::after { transform: rotate(45deg); }
+	.part-body {
+		padding: 0 14px 14px 48px;
+	}
+	.part-body p {
+		margin: 0 0 10px;
+		font-size: 0.9rem;
+		line-height: 1.6;
+		color: #475569;
+	}
+	.part-link {
+		font-size: 0.88rem;
+		font-weight: 700;
+		color: #f97316;
+		text-decoration: none;
+	}
+	.part-link:hover { text-decoration: underline; }
+
+	/* CTA strip */
+	.exploded-cta {
+		margin-top: 1.5em;
+		background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+		border-radius: 12px;
+		padding: 24px;
+		text-align: center;
+		color: #fff;
+	}
+	.exploded-cta p {
+		margin: 0 0 16px;
+		font-size: 0.92rem;
+		opacity: 0.95;
+		line-height: 1.5;
+	}
+	.exploded-cta-btn {
+		display: inline-block;
+		background: #fff;
+		color: #ea580c;
+		font-weight: 800;
+		font-size: 0.95rem;
+		padding: 11px 26px;
+		border-radius: 8px;
+		text-decoration: none;
+		transition: transform 0.1s, box-shadow 0.1s;
+	}
+	.exploded-cta-btn:hover {
+		transform: translateY(-1px);
+		box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+	}
+</style>

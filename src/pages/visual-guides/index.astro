@@ -1,0 +1,138 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE } from '../../consts';
+
+const guides = (await getCollection('visualGuides'))
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`Interactive Visual Guides for Australian Tradies — ${SITE_TITLE}`} description="Exploded-view diagrams that break down solar systems, ServiceM8 workflows, and compliance processes into clickable, plain-English explanations for Australian trade businesses." />
+		<style>
+			.guides-hero {
+				text-align: center;
+				padding: 48px 24px 32px;
+			}
+			.guides-hero h1 {
+				font-size: clamp(1.8rem, 4vw, 2.6rem);
+				font-weight: 800;
+				color: #0f172a;
+				margin-bottom: 12px;
+			}
+			.guides-hero p {
+				color: #64748b;
+				max-width: 560px;
+				margin: 0 auto;
+				font-size: 1rem;
+				line-height: 1.6;
+			}
+			.guides-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+				gap: 20px;
+				max-width: 1100px;
+				margin: 40px auto 60px;
+				padding: 0 24px;
+			}
+			.guide-card {
+				background: white;
+				border: 1px solid #e2e8f0;
+				border-radius: 14px;
+				overflow: hidden;
+				text-decoration: none;
+				color: inherit;
+				transition: box-shadow 0.2s, transform 0.15s;
+				display: flex;
+				flex-direction: column;
+			}
+			.guide-card:hover {
+				box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+				transform: translateY(-2px);
+			}
+			.guide-thumb {
+				aspect-ratio: 16 / 9;
+				background: #f8fafc;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				overflow: hidden;
+			}
+			.guide-thumb img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+			.guide-body {
+				padding: 20px;
+				display: flex;
+				flex-direction: column;
+				gap: 8px;
+				flex: 1;
+			}
+			.guide-badge {
+				display: inline-block;
+				align-self: flex-start;
+				background: #fff7ed;
+				color: #ea580c;
+				font-size: 0.7rem;
+				font-weight: 700;
+				text-transform: uppercase;
+				letter-spacing: 0.07em;
+				padding: 3px 8px;
+				border-radius: 100px;
+			}
+			.guide-body h2 {
+				font-size: 1.15rem;
+				font-weight: 700;
+				color: #0f172a;
+				margin: 0;
+				line-height: 1.3;
+			}
+			.guide-body p {
+				font-size: 0.88rem;
+				color: #64748b;
+				line-height: 1.55;
+				margin: 0;
+				flex: 1;
+			}
+			.guide-cta {
+				font-size: 0.85rem;
+				font-weight: 700;
+				color: #f97316;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<div class="guides-hero">
+				<h1>Interactive Visual Guides</h1>
+				<p>Exploded-view diagrams that break down complex systems and processes into clickable, plain-English parts. Built for Australian tradies — no fluff.</p>
+			</div>
+			<div class="guides-grid">
+				{guides.map((guide) => {
+					const thumb = guide.data.poster || guide.data.image;
+					return (
+						<a href={`/visual-guides/${guide.id}`} class="guide-card">
+							<div class="guide-thumb">
+								<img src={thumb} alt={guide.data.imageAlt} loading="lazy" decoding="async" />
+							</div>
+							<div class="guide-body">
+								<span class="guide-badge">Exploded View</span>
+								<h2>{guide.data.title}</h2>
+								<p>{guide.data.description}</p>
+								<span class="guide-cta">Explore →</span>
+							</div>
+						</a>
+					);
+				})}
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>
