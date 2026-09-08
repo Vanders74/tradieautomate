@@ -160,7 +160,7 @@ ServiceM8 isn't the only option, and the right choice depends on your business s
 
 **ServiceM8 vs [Tradify](/blog/tradify-review-2026-australia):** Tradify is simpler and cheaper, but has less depth in compliance documentation and asset tracking. Good for very small operations; ServiceM8 pulls ahead as volume grows. Full comparison: [ServiceM8 vs Tradify](/blog/servicem8-vs-tradify-comparison-australia).
 
-For a broader ranked view covering all major platforms — including AroFlo, Fergus, and others — see our [Best Job Management Software for Solar Installers Australia 2026](/guides/best-job-management-software-solar-installers-australia-2026) guide.
+For a broader ranked view covering all major platforms — including AroFlo, Fergus, and others — see our [Best Job Management Software for Solar Installers Australia 2026](/blog/solar-job-management-software-australia-2026) guide.
 
 ## Is ServiceM8 Right for Your Solar Business?
 

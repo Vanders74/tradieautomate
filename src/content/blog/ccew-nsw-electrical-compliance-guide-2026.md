@@ -1,6 +1,6 @@
 ---
-title: 'CCEW NSW: Certificate of Compliance — $22K Penalty & 7-Day Rule'
-description: "NSW electrical compliance certificate (CCEW): who must issue it, the 7-day lodgement deadline, $22K individual/$110K corporate penalties, and how to lodge via eCert."
+title: 'CCEW NSW: Certificate of Compliance Electrical Work — What It Is & Who Issues It'
+description: "A CCEW (Certificate of Compliance Electrical Work) is the legal cert NSW electricians issue after notifiable work. Who issues it, the 7-day rule, how to lodge."
 pubDate: 'May 09 2026'
 updatedDate: 'Jul 02 2026'
 category: "Compliance"

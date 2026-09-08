@@ -107,7 +107,7 @@ Of the platforms available to Australian solar businesses, [ServiceM8](/blog/ser
 
 If you want to go deeper on ServiceM8's capabilities and how it compares to alternatives, our [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026) covers pricing, features, and real-world use cases in detail. For head-to-head comparisons, see [ServiceM8 vs simPRO](/blog/servicem8-vs-simpro-comparison-australia) and [ServiceM8 vs Tradify](/blog/servicem8-vs-tradify-comparison-australia).
 
-For a full side-by-side comparison of every major platform — including pricing, compliance features, and which businesses each suits best — see our [Best Job Management Software for Solar Installers Australia 2026](/guides/best-job-management-software-solar-installers-australia-2026) guide.
+For a full side-by-side comparison of every major platform — including pricing, compliance features, and which businesses each suits best — see our [Best Job Management Software for Solar Installers Australia 2026](/blog/solar-job-management-software-australia-2026) guide.
 
 **Ready to try ServiceM8?** [Start your free trial through TradieAutomate](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — we'll help you get configured for solar compliance workflows from day one.
 
@@ -155,7 +155,7 @@ Yes, even for sole traders doing 5+ jobs per month. The admin savings typically 
 
 **What's the best job management software for Australian solar installers?**
 
-ServiceM8 is the most widely used platform among Australian solar and electrical installers, largely due to its strong mobile experience, custom forms, and Xero integration. See our [Best Job Management Software for Solar Installers 2026](/guides/best-job-management-software-solar-installers-australia-2026) for a full comparison.
+ServiceM8 is the most widely used platform among Australian solar and electrical installers, largely due to its strong mobile experience, custom forms, and Xero integration. See our [Best Job Management Software for Solar Installers 2026](/blog/solar-job-management-software-australia-2026) for a full comparison.
 
 **How does digital job management help with CER audits?**
 
@@ -172,7 +172,7 @@ Absolutely. Platforms like ServiceM8 support fully custom forms, so you can buil
 - [ServiceM8 for Solar Installers: The Job Management Platform Built for Compliance](/blog/servicem8-for-solar-installers)
 - [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
 - [CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers)
-- [Best Job Management Software for Solar Installers Australia 2026](/guides/best-job-management-software-solar-installers-australia-2026)
+- [Best Job Management Software for Solar Installers Australia 2026](/blog/solar-job-management-software-australia-2026)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 
 
