@@ -214,7 +214,7 @@ No credit card required. Set up your first job in under 30 minutes.
 - [ServiceM8 vs Fergus: Honest Comparison for Australian Trades](/blog/servicem8-vs-fergus)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
 - [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)
-- [Best Job Management Software for Solar Installers Australia 2026](/guides/best-job-management-software-solar-installers-australia-2026)
+- [Best Job Management Software for Solar Installers Australia 2026](/blog/solar-job-management-software-australia-2026)
 - [simPRO vs ServiceM8: Which Fits a 3-Man HVAC Business Better?](/blog/simpro-vs-servicem8-hvac-small-business)
 - [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
 - [ServiceM8 vs Tradify for Solar and Electrical Contractors](/blog/servicem8-vs-tradify-solar-electrical)

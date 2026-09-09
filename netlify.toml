@@ -30,3 +30,17 @@
   to = "/blog/best-job-management-software-electricians-australia/"
   status = 301
   force = true
+
+# Consolidate stale duplicate guide into canonical blog article (solar job mgmt cannibalisation)
+[[redirects]]
+  from = "/guides/best-job-management-software-solar-installers-australia-2026"
+  to = "/blog/solar-job-management-software-australia-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guides/best-job-management-software-solar-installers-australia-2026/"
+  to = "/blog/solar-job-management-software-australia-2026/"
+  status = 301
+  force = true
+
