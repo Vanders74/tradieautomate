@@ -35,7 +35,7 @@ The Australian government designated data centres as critical infrastructure und
 
 Globally, projections suggest more than 300,000 additional electricians will be needed over the next decade to meet AI-driven infrastructure demand. In Australia, the bottleneck is already visible: CBRE Data Centre Solutions is actively recruiting electricians in Melbourne, and major contractors are advertising HV-specialist roles at rates that push above the published ranges.
 
-**And it is not just electricians.** The same boom is pulling HVAC, plumbing and fire-protection trades into a new premium tier — see our companion guides on [data centre cooling for HVAC contractors](/blog/ai-data-centre-cooling-hvac-contractors-australia-2026), [liquid cooling plumbing](#) and [data centre fire protection](#) as this pillar grows.
+**And it is not just electricians.** The same boom is pulling HVAC, plumbing and fire-protection trades into a new premium tier — see our companion guides on [data centre cooling for HVAC contractors](/blog/ai-data-centre-cooling-hvac-contractors-australia-2026), [liquid cooling plumbing](/blog/data-centre-plumbing-liquid-cooling-australia-2026) and [data centre fire protection](#) as this pillar grows.
 
 ---
 
@@ -210,9 +210,9 @@ Register on VendorPanel and AusTender — both free and required for procurement
 - *[Scaling a Solar & Electrical Business: Hiring, Systems & Growth](/blog/scaling-solar-electrical-business-hiring-growth) — building the team and systems to take on large commercial work*
 - *[Electrical Contractor Insurance Australia 2026](/blog/electrical-contractor-insurance-australia-2026) — insurance requirements for commercial electrical contracting, including the $20 million public liability threshold*
 
-<!-- PILLAR LINKS — activate when the spoke articles are published:
 - [AI Data Centres: The Cooling Opportunity for HVAC Contractors](/blog/ai-data-centre-cooling-hvac-contractors-australia-2026)
 - [Data Centre Plumbing & Pipefitting: Liquid Cooling Loops](/blog/data-centre-plumbing-liquid-cooling-australia-2026)
+<!-- PILLAR LINKS — activate when the spoke articles are published:
 - [Data Centre Fire Protection: Critical Infrastructure Compliance](/blog/data-centre-fire-protection-australia-2026)
 -->
 
