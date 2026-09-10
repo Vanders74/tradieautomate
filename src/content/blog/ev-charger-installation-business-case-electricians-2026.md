@@ -4,7 +4,7 @@ description: "Australia's EV fleet is doubling every 18 months. Here's the inves
 pubDate: 'Jul 20 2026'
 updatedDate: 'Jul 20 2026'
 category: "Business Growth"
-heroImage: '/hero-ev-charger-installation.jpg'
+heroImage: '/hero-ev-charger-installation-business-case-electricians-2026.jpg'
 tags: ['EV charger', 'electrician', 'business', 'revenue', 'investment', 'electric vehicle', 'commercial', '2026']
 faq:
   - question: "How much does an electrician earn per EV charger installation?"
