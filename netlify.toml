@@ -44,3 +44,30 @@
   status = 301
   force = true
 
+# Consolidate duplicate heat-pump hot water articles (Jun 9 2026, same-day near-duplicates)
+# "Installation Guide" -> canonical "for Electricians: Circuits, Rebates & Sales"
+[[redirects]]
+  from = "/blog/heat-pump-hot-water-installation-guide-electricians-2026"
+  to = "/blog/heat-pump-hot-water-installation-electricians-australia/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/heat-pump-hot-water-installation-guide-electricians-2026/"
+  to = "/blog/heat-pump-hot-water-installation-electricians-australia/"
+  status = 301
+  force = true
+
+# "Installer's Guide" (year-qualified) -> canonical "Complete Guide Australia"
+[[redirects]]
+  from = "/blog/replacing-gas-hot-water-electric-heat-pump-australia-2026"
+  to = "/blog/replacing-gas-hot-water-electric-heat-pump/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/replacing-gas-hot-water-electric-heat-pump-australia-2026/"
+  to = "/blog/replacing-gas-hot-water-electric-heat-pump/"
+  status = 301
+  force = true
+

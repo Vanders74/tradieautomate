@@ -5,7 +5,7 @@ pubDate: 'Jun 9 2026'
 category: "Business Growth"
 heroImage: '/hero-heat-pump-hot-water-installation-electricians.jpg'
 tags: ['heat pump hot water', 'electrician', 'VEU', 'rebates', 'STC', 'solar integration', 'electrification', 'business growth']
-updatedDate: 'Jul 18 2026'
+updatedDate: 'Sep 10 2026'
 faq:
   - question: "What rebates are available for heat pump hot water installation in Australia?"
     answer: "Victorian electricians can claim rebates through the Victorian Energy Upgrades (VEU) program administered by Energy Safe Victoria, reducing customer cost by $300–$1,000+. The federal Small-scale Renewable Energy Scheme (SRES) also provides STCs for eligible heat pump systems, assessed by the Clean Energy Regulator (CER)."
@@ -40,6 +40,8 @@ The job values are solid: a heat pump hot water installation typically runs $2,5
 
 A heat pump hot water unit works like a reverse air conditioner — it extracts heat energy from the ambient air and transfers it to the water in the tank. This makes it 3–4 times more efficient than a conventional resistance electric water heater: for every 1kW of electricity consumed, a heat pump delivers 3–4kW of heat energy to the water.
 
+The efficiency metric is the **Coefficient of Performance (COP)** — the ratio of heat energy delivered to electrical energy consumed. A standard electric resistance hot water system has a COP of 1.0; a quality heat pump achieves a COP of 3.0–4.5+. For a household with a 200L–315L system, that's the difference between 2,000–4,000 kWh/year (resistance) and 500–1,200 kWh/year (heat pump) — a 60–80% reduction in hot water energy use.
+
 The implications for installation:
 - **Lower running cost** — Lower energy consumption per litre heated compared to resistance electric
 - **Slower heating rate** — Heat pumps take longer to heat a full tank than resistance elements; sizing matters more
@@ -62,6 +64,8 @@ Most residential heat pump hot water units require compliance with **AS/NZS 3000
 | Cable sizing | 2.5mm² TPS minimum (check current draw and cable run length) |
 | RCD protection | Required on the dedicated circuit |
 | Timer/control | Many units include integrated timers; some customers want separate ripple control or smart relay for tariff control |
+
+**Energy performance standard:** Heat pump systems are also rated under **AS/NZS 4234** (Heated Water Systems — Calculation of Energy Consumption). In practice this is demonstrated through product certification — systems on state rebate approved lists are already certified. Plumbing connections must comply with **AS/NZS 3500.4** (Heated Water Services), the plumbing counterpart to AS/NZS 4234.
 
 ### Switchboard assessment
 
@@ -125,6 +129,10 @@ The Australian heat pump hot water market in 2026 includes several reliable bran
 
 **Daikin / Panasonic** — Japanese brands with heat pump hot water ranges. Strong brand recognition with some customers; typically higher price point.
 
+**Stiebel Eltron** — European brand with a strong commercial range and proven cold-climate performance.
+
+**Midea / Evo** — value-segment options with a good performance-to-cost ratio for budget-conscious customers.
+
 When selecting a product to stock and install:
 - Confirm VEU/ESS eligibility if operating in VIC or NSW (not all products are on approved lists)
 - Confirm STC eligibility (products must have a valid WELS/energy rating)
@@ -153,6 +161,19 @@ Post-installation compliance documentation:
 - Any rebate-program-specific documentation (VEU activity statement, ESS certificate, etc.)
 
 Build these documentation steps into your job completion checklist so they're not skipped.
+
+---
+
+## Heat Pump Hot Water at a Glance
+
+| Item | Detail |
+|---|---|
+| Circuit requirement | Dedicated 10A–20A single-phase circuit |
+| Key standards | AS/NZS 3000, AS/NZS 4234 (product certification), AS/NZS 3500.4 (plumbing) |
+| Plumbing required? | Yes — partner with a licensed plumber |
+| STC eligible? | Yes — "solar water heater" category under SRES |
+| Solar integration | Timer, solar diverter, or inverter integration |
+| Average install value | $2,500–$5,500 installed (before rebates) |
 
 ---
 
