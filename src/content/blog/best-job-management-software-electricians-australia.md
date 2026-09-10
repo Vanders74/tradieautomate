@@ -1,7 +1,7 @@
 ---
-title: 'Best Job Management Software for Electricians Australia 2026: ServiceM8 vs simPRO vs Tradify Compared'
-description: 'Best job management software for electricians 2026: ServiceM8 ($29/mo), simPRO, Tradify compared. Real pricing, CCEW compliance forms, and mobile workflow for Australian sparkies.'
-updatedDate: 'Jul 02 2026'
+title: 'Best Job Management Software for Electricians Australia 2026'
+description: 'ServiceM8 wins for small-to-mid electrical crews ($29/mo job-based, no per-user fees); simPRO for 20+ staff. 2026 pricing, CCEW compliance and Xero compared.'
+updatedDate: 'Sep 10 2026'
 pubDate: 'Apr 14 2026'
 category: "Software Comparisons"
 heroImage: '/hero-best-job-management-electricians.jpg'
