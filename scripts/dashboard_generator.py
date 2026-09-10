@@ -978,26 +978,36 @@ def _cron_health_html(cron_status):
 
     rows = ""
     for j in jobs:
-        status_icon = {"ok": "✅", "error": "🔴", None: "⏳"}.get(j["last_status"], "❓")
-        status_color = {"ok": "var(--green)", "error": "var(--red)","" : "var(--text-muted)"}.get(j.get("last_status",""), "var(--text-muted)")
+        status_icon = {"ok": "✅", "error": "🔴", None: "⏳"}.get(j.get("last_status"), "❓")
+        status_color = {"ok": "var(--green)", "error": "var(--red)", "": "var(--text-muted)"}.get(j.get("last_status", ""), "var(--text-muted)")
         last_run = j.get("last_run", "never") or "never"
         if last_run != "never" and len(last_run) > 16:
             last_run = last_run[:16]
+        next_run = j.get("next_run", "—") or "—"
+        if next_run != "—" and len(next_run) > 16:
+            next_run = next_run[:16]
+        # Show error age so stale failures are obviously not current
         error_text = ""
         if j.get("last_error"):
             error_text = f' <span style="color:var(--red);font-size:10px" title="{j["last_error"]}">⚠</span>'
+        if j.get("last_status") == "error":
+            err_when = j.get("last_run", "") or ""
+            if err_when:
+                err_when = err_when[:16]
+                error_text += f' <span style="color:var(--red);font-size:10px">(failed {err_when})</span>'
         rows += f"""
             <tr>
                 <td style="font-size:12px;color:var(--text)">{j['name']}</td>
                 <td style="text-align:center;font-size:11px">{j['schedule']}</td>
                 <td style="text-align:center;color:{status_color}">{status_icon}</td>
                 <td style="font-size:11px;color:var(--text-muted)">{last_run}{error_text}</td>
+                <td style="font-size:11px;color:var(--text-muted)">{next_run}</td>
             </tr>"""
 
     return f"""{summary}
     <div class="table-wrap">
         <table>
-            <thead><tr><th>Job</th><th>Schedule</th><th>Status</th><th>Last Run</th></tr></thead>
+            <thead><tr><th>Job</th><th>Schedule</th><th>Status</th><th>Last Run</th><th>Next Run</th></tr></thead>
             <tbody>{rows}</tbody>
         </table>
     </div>"""
