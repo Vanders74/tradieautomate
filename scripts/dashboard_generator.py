@@ -1169,10 +1169,27 @@ def generate_html(data):
     if anomalies:
         for a in anomalies[:6]:
             sev_color = {"high": "var(--red)", "medium": "var(--amber)", "low": "var(--blue)"}.get(a["severity"], "var(--text-secondary)")
+            slug = a.get("slug", "")
+            # Friendly title from frontmatter, fallback to slug
+            title_label = slug.replace("-", " ").title()
+            md_path = os.path.join(CONTENT_DIR, f"{slug}.md")
+            if os.path.exists(md_path):
+                try:
+                    txt = open(md_path, errors="ignore").read()
+                    fm = txt.split("---", 2)[1] if txt.startswith("---") else ""
+                    import re as _re
+                    tm = _re.search(r"^title:\s*['\"]?(.+?)['\"]?\s*$", fm, _re.M)
+                    if tm:
+                        title_label = tm.group(1)
+                except Exception:
+                    pass
+            link = f'<a href="https://tradieautomate.com/blog/{slug}/" target="_blank" style="color:var(--text);text-decoration:none" title="/blog/{slug}/">{title_label}</a>'
+            slug_line = f'<div style="font-size:13px;font-weight:700;color:var(--text);margin-top:6px">{link} <span style="font-size:10px;color:var(--text-muted);font-weight:400">/blog/{slug}/</span></div>'
             anomaly_html += f"""
                 <div class="anomaly-card">
                     <span class="anomaly-badge" style="background:{sev_color}">{a['type'].upper()}</span>
                     <span class="anomaly-severity">{a['severity'].upper()}</span>
+                    {slug_line}
                     <p class="anomaly-detail">{a['detail']}</p>
                     <p class="anomaly-action">→ {a['action']}</p>
                 </div>"""
