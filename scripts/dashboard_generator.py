@@ -415,8 +415,65 @@ def analyze_content():
 
 # ── Delta / Anomaly Detection ───────────────────────────────────────────────
 
-def compute_deltas(today_data, yesterday_data):
-    """Compare today's data to yesterday's. Return delta dict + anomalies list."""
+def _load_site_map():
+    """Build live-slug set + 301-redirect map so anomaly detection never
+    recommends fixes for pages that no longer exist (or that 301 elsewhere).
+
+    Returns (live_slugs:set[str], redirect_map:dict[str,str]) where
+    redirect_map keys are the last path segment of the 'from' URL and values
+    are the 'to' URL.
+    """
+    live_slugs = set()
+    if os.path.isdir(CONTENT_DIR):
+        for f in Path(CONTENT_DIR).glob("*.md"):
+            live_slugs.add(f.stem)
+
+    redirect_map = {}
+    netlify_path = os.path.join(PROJECT_DIR, "netlify.toml")
+    try:
+        import re as _re
+        text = open(netlify_path).read()
+        for block in _re.findall(r"\[\[redirects\]\](.*?)(?=\n\[\[redirects\]\]|\Z)", text, _re.S):
+            m_from = _re.search(r'from\s*=\s*"([^"]+)"', block)
+            m_to = _re.search(r'to\s*=\s*"([^"]+)"', block)
+            m_status = _re.search(r"status\s*=\s*(\d+)", block)
+            if m_from and m_to and m_status and m_status.group(1) == "301":
+                src = m_from.group(1).strip("/")
+                dst = m_to.group(1).strip("/")
+                redirect_map[src.split("/")[-1]] = dst
+    except Exception:
+        pass
+    return live_slugs, redirect_map
+
+
+def _recently_updated(slug, days=14):
+    """True if the article's source file was modified within `days` days.
+    Used to annotate anomalies whose data may predate a fix already applied.
+    """
+    md_path = os.path.join(CONTENT_DIR, f"{slug}.md")
+    if not os.path.exists(md_path):
+        return False
+    try:
+        mtime = datetime.fromtimestamp(os.path.getmtime(md_path))
+        return (datetime.now() - mtime).days <= days
+    except Exception:
+        return False
+
+
+def compute_deltas(today_data, yesterday_data, live_slugs=None, redirect_map=None):
+    """Compare today's data to yesterday's. Return delta dict + anomalies list.
+
+    Guardrails (added Sep 2026 after 3 false-positive anomalies):
+      1. Dead/redirected slugs are never flagged for meta fixes.
+      2. Zero-click pages need position <= 20 to be 'high' priority (pos 31+
+         captures ~0.5% CTR — a meta rewrite there is not the top action).
+      3. Boiling-Frog: impressions falling AND zero clicks = authority problem,
+         not a snippet problem — never recommend a meta rewrite.
+      4. CTR cliffs need >= 100 impressions in BOTH windows or they're noise.
+    """
+    if live_slugs is None or redirect_map is None:
+        live_slugs, redirect_map = _load_site_map()
+
     deltas = {
         "gsc_clicks": today_data["gsc"]["totals"]["clicks"] - yesterday_data.get("gsc", {}).get("totals", {}).get("clicks", 0) if yesterday_data else 0,
         "gsc_impressions": today_data["gsc"]["totals"]["impressions"] - yesterday_data.get("gsc", {}).get("totals", {}).get("impressions", 0) if yesterday_data else 0,
@@ -428,15 +485,70 @@ def compute_deltas(today_data, yesterday_data):
     anomalies = []
     today_pages = {p["slug"]: p for p in today_data["gsc"]["pages"]}
 
+    def _slug_status(slug):
+        if slug in live_slugs:
+            return "live"
+        if slug in redirect_map:
+            return "redirect"
+        return "unknown"
+
     # Always-on anomalies: zero-click pages (data issue, not comparison issue)
     for slug, tp in today_pages.items():
         if tp["impressions"] >= 500 and tp["clicks"] == 0:
+            status = _slug_status(slug)
+            # Guardrail 1: page gone or redirected — flag as consolidation, not meta
+            if status == "redirect":
+                anomalies.append({
+                    "type": "consolidation_pending",
+                    "severity": "low",
+                    "slug": slug,
+                    "detail": f"{tp['impressions']:,} impressions still flowing to a 301 → {redirect_map.get(slug)}. Page was consolidated.",
+                    "action": f"Wait ~2 weeks for re-crawl to move equity to the canonical. Verify the canonical reclaimed the position before any further action.",
+                })
+                continue
+            if status == "unknown":
+                anomalies.append({
+                    "type": "orphan_page",
+                    "severity": "low",
+                    "slug": slug,
+                    "detail": f"{tp['impressions']:,} impressions, zero clicks, position {tp['position']}. No source article and no redirect found.",
+                    "action": "Page appears in GSC but has no live article or redirect — check for a stale build artifact or 404. Clean dist and rebuild if the source was deleted.",
+                })
+                continue
+
+            # Guardrail 3: Boiling Frog — impressions also falling = authority problem
+            prev_impr = tp.get("prev_impressions")
+            if prev_impr and prev_impr > 0 and tp["impressions"] < prev_impr * 0.8:
+                anomalies.append({
+                    "type": "authority_slip",
+                    "severity": "medium",
+                    "slug": slug,
+                    "detail": f"{tp['impressions']:,} impressions (down from {prev_impr:,}), zero clicks, position {tp['position']}. Impressions declining = visibility problem, not snippet problem.",
+                    "action": "Deepen content, add internal links from high-authority pages, refresh key sections. A meta rewrite will not capture clicks if the page keeps losing visibility.",
+                })
+                continue
+
+            # Guardrail 2: position gate — meta only pays at striking distance
+            if tp["position"] > 20:
+                anomalies.append({
+                    "type": "visibility_gap",
+                    "severity": "low",
+                    "slug": slug,
+                    "detail": f"{tp['impressions']:,} impressions, zero clicks, position {tp['position']}. Too deep for a meta rewrite to capture meaningful clicks.",
+                    "action": f"Position {tp['position']} captures ~0.5% CTR — a meta rewrite yields ~2-3 clicks. Priority is authority: internal links, cluster support, content depth to move position first.",
+                })
+                continue
+
+            # Genuine high-value zero-click: visible position (<= 20) with volume
+            note = ""
+            if _recently_updated(slug):
+                note = " Article was recently updated — data may predate the fix; monitor 2-4 weeks before further action."
             anomalies.append({
                 "type": "zero_click",
                 "severity": "high",
                 "slug": slug,
-                "detail": f"{tp['impressions']:,} impressions, zero clicks. Position {tp['position']}.",
-                "action": f"Meta description rewrite is highest priority. Page has visibility but zero capture at position {tp['position']}.",
+                "detail": f"{tp['impressions']:,} impressions, zero clicks. Position {tp['position']}.{note}",
+                "action": f"Meta description rewrite is highest priority. Page has visibility at a clickable position with zero capture. Check SERP competitors.",
             })
 
     # Comparison-based deltas and anomalies (require yesterday's data)
@@ -471,15 +583,28 @@ def compute_deltas(today_data, yesterday_data):
                         "action": f"Review content freshness and backlinks for {slug}. Consider updating publish date and adding recent regulatory references.",
                     })
 
-                # Anomalies: CTR cliffs
+                # Anomalies: CTR cliffs — Guardrail 4: statistical floor
                 if ctr_change < -0.3 and abs(pos_change) < 1:
-                    anomalies.append({
-                        "type": "ctr_cliff",
-                        "severity": "medium",
-                        "slug": slug,
-                        "detail": f"CTR dropped {abs(ctr_change)}% to {tp['ctr']}% with position unchanged. Someone wrote a better meta description.",
-                        "action": f"Rewrite meta description for {slug}. Check SERP for competing snippets.",
-                    })
+                    min_impr = min(tp["impressions"], yp["impressions"])
+                    if min_impr < 100:
+                        anomalies.append({
+                            "type": "low_data",
+                            "severity": "low",
+                            "slug": slug,
+                            "detail": f"CTR {yp['ctr']}% -> {tp['ctr']}% with position stable, but only {min_impr} impressions in the window.",
+                            "action": "Sample too small to be a real CTR cliff (1 click rolling out of a 28-day window looks like 9% -> 0%). Wait for volume before acting.",
+                        })
+                    else:
+                        note = ""
+                        if _recently_updated(slug):
+                            note = " Article recently updated — data may predate the fix."
+                        anomalies.append({
+                            "type": "ctr_cliff",
+                            "severity": "medium",
+                            "slug": slug,
+                            "detail": f"CTR dropped {abs(ctr_change)}% to {tp['ctr']}% with position unchanged.{note}",
+                            "action": "CTR fell while position held — likely a SERP/competitor change or intent mismatch. Check the live SERP for competing snippets and verify title/meta still matches search intent.",
+                        })
 
         # Anomalies: new top-20 queries
         yesterday_queries = {q["query"]: q for q in yesterday_data.get("gsc", {}).get("queries", [])}
