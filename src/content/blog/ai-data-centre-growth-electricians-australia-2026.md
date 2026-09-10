@@ -35,7 +35,7 @@ The Australian government designated data centres as critical infrastructure und
 
 Globally, projections suggest more than 300,000 additional electricians will be needed over the next decade to meet AI-driven infrastructure demand. In Australia, the bottleneck is already visible: CBRE Data Centre Solutions is actively recruiting electricians in Melbourne, and major contractors are advertising HV-specialist roles at rates that push above the published ranges.
 
-**And it is not just electricians.** The same boom is pulling HVAC, plumbing and fire-protection trades into a new premium tier — see our companion guides on [data centre cooling for HVAC contractors](#), [liquid cooling plumbing](#) and [data centre fire protection](#) as this pillar grows.
+**And it is not just electricians.** The same boom is pulling HVAC, plumbing and fire-protection trades into a new premium tier — see our companion guides on [data centre cooling for HVAC contractors](/blog/ai-data-centre-cooling-hvac-contractors-australia-2026), [liquid cooling plumbing](#) and [data centre fire protection](#) as this pillar grows.
 
 ---
 
