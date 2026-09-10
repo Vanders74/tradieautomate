@@ -1146,19 +1146,19 @@ def generate_html(data):
                 flags.append(("🟢 strong CTR", "var(--green)", f"CTR {ctr}% meets benchmark for pos {pos}. This query is healthy — protect it."))
             if flags:
                 flag_html = "".join(
-                    f'<div style="margin-top:4px"><span style="color:{c};font-size:11px;font-weight:600">{label}</span> <span style="color:var(--text-muted);font-size:11px">— {why}</span></div>'
+                    f'<div class="query-flag"><span class="query-flag-label" style="color:{c}">{label}</span> <span class="query-flag-why">{why}</span></div>'
                     for label, c, why in flags
                 )
             else:
                 flag_html = ""
             query_html += f"""
-                <div class="query-row" style="padding:8px 0;border-bottom:1px solid rgba(30,37,51,0.2)">
-                    <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:baseline">
-                        <span class="query-text" style="font-weight:600">{q['query'][:60]}</span>
+                <div class="query-row">
+                    <div class="query-head">
+                        <span class="query-text">{q['query'][:60]}</span>
                         <span class="query-stat">{impr:,} impr</span>
                         <span class="query-stat">{clicks} clicks</span>
                         <span class="query-stat">pos {pos}</span>
-                        <span class="query-stat" style="color:var(--text-muted)">{ctr}% CTR</span>
+                        <span class="query-stat ctr">{ctr}% CTR</span>
                     </div>
                     {flag_html}
                 </div>"""
@@ -1672,16 +1672,21 @@ tr:hover td {{ background: rgba(255,255,255,0.02); }}
 
 /* Query rows */
 .query-row {{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 6px 0;
+    padding: 10px 0;
     border-bottom: 1px solid rgba(30, 37, 51, 0.2);
 }}
+.query-head {{
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    flex-wrap: wrap;
+}}
 .query-text {{
-    font-size: 12px;
-    color: var(--text-secondary);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
     flex: 1;
+    min-width: 140px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -1690,8 +1695,26 @@ tr:hover td {{ background: rgba(255,255,255,0.02); }}
     font-size: 11px;
     color: var(--text-muted);
     flex-shrink: 0;
-    width: 70px;
     text-align: right;
+}}
+.query-stat.ctr {{
+    color: var(--text-secondary);
+}}
+.query-flag {{
+    margin-top: 5px;
+    padding: 4px 8px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 4px;
+    line-height: 1.4;
+}}
+.query-flag-label {{
+    font-size: 11px;
+    font-weight: 700;
+    margin-right: 6px;
+}}
+.query-flag-why {{
+    font-size: 11px;
+    color: var(--text-muted);
 }}
 
 /* Position buckets */
