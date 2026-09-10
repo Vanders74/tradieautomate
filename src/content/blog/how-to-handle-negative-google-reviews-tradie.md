@@ -3,7 +3,7 @@ title: "Negative Google Reviews: The Tradie's Exact Response Playbook"
 description: "How to handle negative Google reviews as a tradie — exact response scripts, when to flag for removal, how to bury a bad review with real volume, and how to stop them happening again."
 pubDate: 'Jul 13 2026'
 category: "Business Growth"
-heroImage: '/hero-google-reviews-tradie.jpg'
+heroImage: '/hero-how-to-handle-negative-google-reviews-tradie.jpg'
 tags: ['Google reviews', 'reputation', 'customer experience', 'solar', 'electrician', 'business growth', 'tradie marketing']
 ---
 

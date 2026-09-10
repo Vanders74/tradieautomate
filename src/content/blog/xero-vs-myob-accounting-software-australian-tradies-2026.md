@@ -4,7 +4,7 @@ description: "Xero vs MYOB for tradie businesses 2026: Xero wins on ServiceM8 in
 pubDate: 'Jul 20 2026'
 updatedDate: 'Jul 20 2026'
 category: "Software Comparisons"
-heroImage: '/hero-accounting-software-solar.jpg'
+heroImage: '/hero-xero-vs-myob-accounting-software-australian-tradies-2026.jpg'
 tags: ['Xero', 'MYOB', 'accounting software', 'tradie', 'electrician', 'solar', 'ServiceM8', 'payroll', '2026']
 faq:
   - question: "Is Xero or MYOB better for electricians and solar installers in Australia?"
