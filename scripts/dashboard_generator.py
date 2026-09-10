@@ -1123,18 +1123,47 @@ def generate_html(data):
                 <td style="font-size:10px;color:var(--text-muted)">{sc['weakest_pillar']} ({sc['weakest_score']})</td>
             </tr>"""
 
-    # Top queries section
+    # Top queries section with diagnosis
     query_html = ""
     top_queries = gsc.get("queries", [])[:10]
     if top_queries:
         for q in top_queries:
+            pos = q.get("position", 99)
+            clicks = q.get("clicks", 0)
+            impr = q.get("impressions", 0)
+            ctr = q.get("ctr", 0.0)
+            # Expected CTR by position (same benchmarks as pages)
+            exp = 15.0 if pos <= 3 else 8.0 if pos <= 5 else 5.0 if pos <= 10 else 3.0 if pos <= 15 else 2.0 if pos <= 20 else 1.0 if pos <= 30 else 0.5
+            # Diagnosis flags
+            flags = []
+            if impr >= 100 and clicks == 0 and pos <= 20:
+                flags.append(("🔴 zero-click at clickable position", "var(--red)", "High impressions, zero clicks at a position that normally converts. Likely a title/meta intent mismatch — rewrite to match the searcher's query."))
+            elif impr >= 100 and ctr < exp * 0.3:
+                flags.append(("🟡 CTR below benchmark", "var(--amber)", f"CTR {ctr}% vs ~{exp}% expected at pos {pos}. Check SERP competitors / snippet quality."))
+            elif impr >= 300 and pos > 30:
+                flags.append(("🔵 deep position", "var(--blue)", "Visible but too deep to capture clicks. Authority problem — needs content depth + internal links, not meta."))
+            if impr >= 100 and clicks >= 1 and ctr >= exp * 0.8:
+                flags.append(("🟢 strong CTR", "var(--green)", f"CTR {ctr}% meets benchmark for pos {pos}. This query is healthy — protect it."))
+            if flags:
+                flag_html = "".join(
+                    f'<div style="margin-top:4px"><span style="color:{c};font-size:11px;font-weight:600">{label}</span> <span style="color:var(--text-muted);font-size:11px">— {why}</span></div>'
+                    for label, c, why in flags
+                )
+            else:
+                flag_html = ""
             query_html += f"""
-                <div class="query-row">
-                    <span class="query-text">{q['query'][:55]}</span>
-                    <span class="query-stat">{q['impressions']:,} impr</span>
-                    <span class="query-stat">{q['clicks']} clicks</span>
-                    <span class="query-stat">pos {q['position']}</span>
+                <div class="query-row" style="padding:8px 0;border-bottom:1px solid rgba(30,37,51,0.2)">
+                    <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:baseline">
+                        <span class="query-text" style="font-weight:600">{q['query'][:60]}</span>
+                        <span class="query-stat">{impr:,} impr</span>
+                        <span class="query-stat">{clicks} clicks</span>
+                        <span class="query-stat">pos {pos}</span>
+                        <span class="query-stat" style="color:var(--text-muted)">{ctr}% CTR</span>
+                    </div>
+                    {flag_html}
                 </div>"""
+    else:
+        query_html = '<p style="color:var(--text-muted);font-size:13px">No query data available.</p>'
 
     anomaly_html = ""
     if anomalies:
@@ -1768,7 +1797,7 @@ tr:hover td {{ background: rgba(255,255,255,0.02); }}
 
     <!-- Top Queries -->
     <div class="section">
-        <h2>🔍 Top Search Queries <span class="section-help">— What people type into Google to find your site. Queries with zero clicks mean they see you but don't choose you.</span></h2>
+        <h2>🔍 Top Search Queries <span class="section-help">— What people type into Google to find your site. Flagged by diagnosis: zero-click at clickable position, CTR below benchmark, deep position (authority), or healthy.</span></h2>
         {query_html if query_html else '<p style="color:var(--text-muted);font-size:13px">No query data available.</p>'}
     </div>
 
