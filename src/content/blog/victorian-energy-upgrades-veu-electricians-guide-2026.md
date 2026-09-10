@@ -219,7 +219,7 @@ The ESC's accreditation process requires ongoing compliance — including audits
 
 ## Related Reading
 
-- [Replacing Gas Hot Water with Electric Heat Pump — Electrician's Guide](/blog/replacing-gas-hot-water-electric-heat-pump-australia-2026)
+- [Replacing Gas Hot Water with Heat Pump: Complete Guide Australia](/blog/replacing-gas-hot-water-electric-heat-pump)
 - [Heat Pump Hot Water Installation for Electricians](/blog/heat-pump-hot-water-installation-electricians-australia)
 - [VIC Solar Homes Battery Rebate 2026](/blog/vic-solar-homes-program-rebate-2026)
 - [STC Claim Process for Solar Installers](/blog/stc-claim-process-solar-installers-australia)

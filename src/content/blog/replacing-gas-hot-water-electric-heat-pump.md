@@ -2,7 +2,7 @@
 title: "Replacing Gas Hot Water with Heat Pump: Complete Guide Australia"
 description: "Complete guide replacing gas hot water with a heat pump in Australia — cost, circuits, rebates, gas decommissioning process, and solar integration."
 pubDate: 'Jun 9 2026'
-updatedDate: 'Jul 30 2026'
+updatedDate: 'Sep 10 2026'
 category: "Solar & Battery"
 heroImage: '/hero-replacing-gas-hot-water-electric-heat-pump.jpg'
 tags: ['heat pump hot water', 'gas replacement', 'electrification', 'rebates', 'solar', 'electrician', 'VEU', 'STCs']
@@ -178,6 +178,40 @@ Post-installation:
 - Operating instructions left with customer
 
 Build these into your job completion checklist. The customer documentation step is important: a customer who doesn't understand how to set the timer or check the system status will call you more often than necessary.
+
+---
+
+## Pricing a Gas-to-Heat-Pump Replacement
+
+| Component | Typical Range |
+|---|---|
+| Heat pump system (supply) | $1,200–$3,500 |
+| Electrical installation (circuit, switchboard work) | $400–$1,500 |
+| Plumbing installation (partner) | $400–$900 |
+| Cable run (variable by property) | $200–$1,500+ |
+| STC discount (applied at sale) | ($400)–($1,200) |
+| State rebate (where applicable) | ($300)–($1,000+) |
+| **Typical customer out-of-pocket** | **$1,500–$4,500** |
+
+Site-visit pricing is strongly recommended. The cable run variability alone can swing a job by $800–$1,500 — and gas-to-electric conversions frequently surface switchboard work that wasn't visible in the initial phone enquiry.
+
+---
+
+## How to Sell the Gas-to-Electric Switch
+
+The most effective approach depends on whether the customer already has solar:
+
+### For existing solar customers
+
+*"Your solar system is generating clean energy every day that you're currently not using to heat your hot water. Your gas hot water is costing you [estimate based on typical usage] per year and that cost is going up. A heat pump running on your solar generation would bring that to almost nothing. With the STC rebate and the [state rebate if applicable], the typical out-of-pocket is around $[X]. Most customers see a payback in 3–5 years even without factoring in gas price increases. Worth looking at the numbers for your property?"*
+
+### For non-solar customers
+
+The conversation works differently — HPHW becomes the entry point for the broader whole-home energy conversation, and adding solar to power the heat pump is a natural next step. See our guide on [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026) for how to use HPHW as a lead-in to solar sales.
+
+### For customers with failing gas units
+
+An ageing gas hot water system that's failing is a replacement decision, not a discretionary one. These customers are in a decision window and are the most responsive to a gas-to-electric conversion conversation. Build a systematic follow-up process for customers whose gas systems are approaching end-of-life — your job management system can flag this based on the install date recorded at a previous job.
 
 ---
 
