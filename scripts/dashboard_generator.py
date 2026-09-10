@@ -353,6 +353,39 @@ def pull_ga4_conversions():
     return conversions
 
 
+def pull_ga4_conversion_sources():
+    """Attribute the 4 tracked conversion events to the pages that triggered them.
+
+    Answers 'which article earned the affiliate click / lead / playbook signup'
+    — the revenue-attribution view missing from the dashboard.
+    """
+    from google.analytics.data_v1beta.types import RunReportRequest, DateRange, Dimension, Metric
+
+    client = _ga4_client()
+    prop = f"properties/{GA4_PROPERTY_ID}"
+    tracked = ["affiliate_click", "trial_click_1", "lead_magnet_download", "playbook_signup"]
+
+    req = RunReportRequest(
+        property=prop,
+        dimensions=[Dimension(name="pagePath"), Dimension(name="eventName")],
+        metrics=[Metric(name="eventCount")],
+        date_ranges=[DateRange(start_date="28daysAgo", end_date="today")],
+        dimension_filter={"filter": {"field_name": "eventName", "in_list_filter": {"values": tracked}}},
+        limit=50,
+    )
+    resp = client.run_report(req)
+
+    rows = []
+    for r in resp.rows:
+        rows.append({
+            "page": r.dimension_values[0].value,
+            "event": r.dimension_values[1].value,
+            "count": int(r.metric_values[0].value),
+        })
+    rows.sort(key=lambda x: -x["count"])
+    return rows
+
+
 # ── Cron Status ─────────────────────────────────────────────────────────────
 
 CRON_STATUS_JSON = os.path.expanduser("~/tradieautomate/cron_status.json")
@@ -563,12 +596,20 @@ def compute_deltas(today_data, yesterday_data, live_slugs=None, redirect_map=Non
             # Guardrail 3: Boiling Frog — impressions also falling = authority problem
             prev_impr = tp.get("prev_impressions")
             if prev_impr and prev_impr > 0 and tp["impressions"] < prev_impr * 0.8:
+                pct_drop = round((1 - tp["impressions"] / prev_impr) * 100)
+                note = ""
+                if _recently_updated(slug):
+                    note = " Article was modified recently — this data may predate the fix; monitor 2-4 weeks before acting."
+                q_hint = ""
+                top_q = tp.get("top_queries") or []
+                if top_q:
+                    q_hint = f" Main query: '{top_q[0].get('query', '')}'. Check whether a sibling page now ranks for it (cannibalisation)."
                 anomalies.append({
                     "type": "authority_slip",
                     "severity": "medium",
                     "slug": slug,
-                    "detail": f"{tp['impressions']:,} impressions (down from {prev_impr:,}), zero clicks, position {tp['position']}. Impressions declining = visibility problem, not snippet problem.",
-                    "action": "Deepen content, add internal links from high-authority pages, refresh key sections. A meta rewrite will not capture clicks if the page keeps losing visibility.",
+                    "detail": f"{tp['impressions']:,} impressions (down {pct_drop}% from {prev_impr:,}), zero clicks, position {tp['position']}. Impressions declining = visibility problem, not snippet problem.{note}{q_hint}",
+                    "action": "Deepen content, add internal links from high-authority cluster pages (e.g. servicem8-review-2026), refresh key sections. A meta rewrite will not capture clicks if the page keeps losing visibility.",
                 })
                 continue
 
@@ -1004,6 +1045,28 @@ def generate_html(data):
             fresh_html = f' <span style="color:var(--red);font-size:10px" title="Last updated {freshness["age_days"]} days ago">⚠{freshness["age_days"]}d</span>'
         elif freshness and freshness["status"] == "aging":
             fresh_html = f' <span style="color:var(--amber);font-size:10px">{freshness["age_days"]}d</span>'
+        # 28d trend column: impression + CTR change vs prior window
+        trend_parts = []
+        prev_imp = p.get("prev_impressions")
+        prev_ctr = p.get("prev_ctr")
+        if prev_imp:
+            delta = p["impressions"] - prev_imp
+            pct = round(delta / max(prev_imp, 1) * 100)
+            arrow = "📈" if delta > 0 else ("📉" if delta < 0 else "➡️")
+            tcol = "var(--green)" if delta > 0 else ("var(--red)" if delta < 0 else "var(--text-muted)")
+            trend_parts.append(
+                f'<span style="color:{tcol}">{arrow} {pct:+,}%</span>'
+                f'<span style="font-size:10px;color:var(--text-muted)" title="impressions {prev_imp:,} → {p["impressions"]:,}">{prev_imp:,}→{p["impressions"]:,}</span>'
+            )
+        if prev_ctr is not None:
+            dctr = round(p["ctr"] - prev_ctr, 2)
+            arrow = "📈" if dctr > 0.05 else ("📉" if dctr < -0.05 else "➡️")
+            tcol = "var(--green)" if dctr > 0.05 else ("var(--red)" if dctr < -0.05 else "var(--text-muted)")
+            trend_parts.append(
+                f'<span style="color:{tcol}">{arrow} {dctr:+.2f}% CTR</span>'
+                f'<span style="font-size:10px;color:var(--text-muted)" title="CTR {prev_ctr}% → {p["ctr"]}%">{prev_ctr}%→{p["ctr"]}%</span>'
+            )
+        trend_html = "<br>".join(trend_parts) if trend_parts else "—"
         page_rows_html += f"""
             <tr>
                 <td class="slug-cell" title="{p['url']}">{p['slug'][:45]}{fresh_html}</td>
@@ -1012,6 +1075,7 @@ def generate_html(data):
                 <td style="color:{ctr_color}">{p['ctr']}%</td>
                 <td>{p['clicks']:,}</td>
                 <td style="color:{opp_color}">{opportunity}</td>
+                <td style="font-size:11px;white-space:nowrap">{trend_html}</td>
             </tr>"""
 
     # Priority actions section
@@ -1119,6 +1183,31 @@ def generate_html(data):
     conv_trial = conv.get("trial_click", 0)
     conv_lead = conv.get("lead_magnet_download", 0)
     conv_playbook = conv.get("playbook_signup", 0)
+
+    # Per-page conversion attribution
+    conv_sources = ga4.get("conversion_sources", [])
+    conv_source_rows = ""
+    event_labels = {
+        "affiliate_click": "Affiliate",
+        "trial_click_1": "Trial",
+        "lead_magnet_download": "Lead",
+        "playbook_signup": "Playbook",
+    }
+    for cs in conv_sources[:15]:
+        ev = event_labels.get(cs["event"], cs["event"])
+        ev_color = {"Affiliate": "var(--green)", "Trial": "var(--blue)", "Lead": "var(--amber)", "Playbook": "var(--purple)"}.get(ev, "var(--text-secondary)")
+        conv_source_rows += f"""
+            <tr>
+                <td class="slug-cell" style="max-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="{cs['page']}">{cs['page']}</td>
+                <td><span style="color:{ev_color};font-weight:600">{ev}</span></td>
+                <td>{cs['count']}</td>
+            </tr>"""
+    conv_source_html = f"""<div class="table-wrap">
+        <table>
+            <thead><tr><th>Page</th><th>Event</th><th>Count</th></tr></thead>
+            <tbody>{conv_source_rows if conv_source_rows else '<tr><td colspan="3" style="color:var(--text-muted)">No conversions attributed to pages yet.</td></tr>'}</tbody>
+        </table>
+    </div>"""
 
     # Engagement data — top pages by engagement rate
     eng_pages = ga4.get("top_pages", [])
@@ -1586,6 +1675,12 @@ tr:hover td {{ background: rgba(255,255,255,0.02); }}
     {engagement_html}
 </div>
 
+<!-- Conversion Sources -->
+<div class="section">
+    <h2>💸 Conversion Sources (28d) <span class="section-help">— Which pages earn the money-actions: affiliate clicks, trial starts, lead magnet downloads, playbook signups. The revenue-attribution view.</span></h2>
+    {conv_source_html}
+</div>
+
 <!-- Trend Chart -->
 <div class="section">
     <h2>📈 3-Month Impression & Click Trend <span class="section-help">— 28-day windows showing search visibility growth. Each card is one month.</span></h2>
@@ -1637,7 +1732,7 @@ tr:hover td {{ background: rgba(255,255,255,0.02); }}
     <h2>📊 Top Pages by Impressions (28d) <span class="section-help">— Your highest-traffic pages by Google Search impressions. CTR Opp = additional clicks you'd get at the expected CTR for that position.</span></h2>
     <div class="table-wrap">
         <table>
-            <thead><tr><th>Page</th><th>Impressions</th><th>Position</th><th>CTR</th><th>Clicks</th><th>CTR Opp</th></tr></thead>
+            <thead><tr><th>Page</th><th>Impressions</th><th>Position</th><th>CTR</th><th>Clicks</th><th>CTR Opp</th><th>28d Trend</th></tr></thead>
             <tbody>{page_rows_html}</tbody>
         </table>
     </div>
@@ -1719,6 +1814,15 @@ def main():
     except Exception as e:
         print(f"   ⚠️ GA4 conversions pull failed: {e}")
         ga4_data["conversions"] = {"affiliate_click": 0, "trial_click": 0, "lead_magnet_download": 0, "playbook_signup": 0, "total": 0}
+
+    # 2c. Pull per-page conversion attribution
+    print("💸 Pulling GA4 conversion sources (per-page)...")
+    try:
+        ga4_data["conversion_sources"] = pull_ga4_conversion_sources()
+        print(f"   {len(ga4_data['conversion_sources'])} page-event rows")
+    except Exception as e:
+        print(f"   ⚠️ GA4 conversion sources pull failed: {e}")
+        ga4_data["conversion_sources"] = []
 
     # 3. Analyze content
     print("📝 Analyzing content...")
