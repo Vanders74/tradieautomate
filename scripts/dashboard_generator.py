@@ -1221,7 +1221,7 @@ def generate_html(data):
     conv_lead = conv.get("lead_magnet_download", 0)
     conv_playbook = conv.get("playbook_signup", 0)
 
-    # Per-page conversion attribution
+    # Per-page conversion attribution — grouped by page with friendly labels
     conv_sources = ga4.get("conversion_sources", [])
     conv_source_rows = ""
     event_labels = {
@@ -1230,18 +1230,67 @@ def generate_html(data):
         "lead_magnet_download": "Lead",
         "playbook_signup": "Playbook",
     }
-    for cs in conv_sources[:15]:
-        ev = event_labels.get(cs["event"], cs["event"])
-        ev_color = {"Affiliate": "var(--green)", "Trial": "var(--blue)", "Lead": "var(--amber)", "Playbook": "var(--purple)"}.get(ev, "var(--text-secondary)")
+    # Friendly page labels: known site pages get names, blog articles get their title
+    site_page_labels = {
+        "/": "Homepage",
+        "/services/": "Services",
+        "/compliance-checklist/": "Compliance Checklist",
+        "/playbook/": "Playbook Landing",
+        "/resources/": "Resources",
+        "/tools/": "Tools",
+        "/blog/": "Blog Index",
+    }
+    def _page_label(path):
+        if path in site_page_labels:
+            return site_page_labels[path]
+        if path.startswith("/blog/"):
+            slug = path.strip("/").split("/")[-1]
+            # try to get the article title for a readable label
+            md = os.path.join(CONTENT_DIR, f"{slug}.md")
+            if os.path.exists(md):
+                try:
+                    txt = open(md, errors="ignore").read()
+                    m = txt.split("---", 2)[1] if txt.startswith("---") else ""
+                    import re as _re
+                    tm = _re.search(r"^title:\s*['\"]?(.+?)['\"]?\s*$", m, _re.M)
+                    if tm:
+                        return tm.group(1)[:60]
+                except Exception:
+                    pass
+            return slug.replace("-", " ").title()
+        return path or "(unknown)"
+    # sessions per path for conversion rate
+    sessions_by_path = {p.get("path"): p.get("sessions", 0) for p in ga4.get("top_pages", [])}
+    # Group by page (ordered by total count desc)
+    from collections import OrderedDict
+    grouped = OrderedDict()
+    for cs in conv_sources:
+        grouped.setdefault(cs["page"], []).append(cs)
+    for page, items in grouped.items():
+        label = _page_label(page)
+        total = sum(i["count"] for i in items)
+        sessions = sessions_by_path.get(page)
+        rate_html = ""
+        if sessions:
+            rate = round(total / max(sessions, 1) * 100, 1)
+            rate_html = f'<span style="font-size:11px;color:var(--text-muted)">({total}/{sessions:,} sess · {rate}%)</span>'
+        is_article = page.startswith("/blog/")
+        type_badge = '<span style="font-size:10px;color:var(--blue);border:1px solid var(--blue);border-radius:3px;padding:0 4px;margin-left:6px">Article</span>' if is_article else \
+                     '<span style="font-size:10px;color:var(--text-muted);border:1px solid var(--text-muted);border-radius:3px;padding:0 4px;margin-left:6px">Site page</span>'
+        events_html = "".join(
+            f'<span style="color:{ {"Affiliate": "var(--green)", "Trial": "var(--blue)", "Lead": "var(--amber)", "Playbook": "var(--purple)"}.get(event_labels.get(i["event"], i["event"]), "var(--text-secondary)") };font-weight:600;font-size:12px;margin-right:10px">{event_labels.get(i["event"], i["event"])} ×{i["count"]}</span>'
+            for i in items
+        )
+        link = f'<a href="https://tradieautomate.com{page}" target="_blank" style="color:var(--accent);text-decoration:none" title="{page}">{label}</a>' if page != "/" else f'<span title="/">{label}</span>'
         conv_source_rows += f"""
             <tr>
-                <td class="slug-cell" style="max-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="{cs['page']}">{cs['page']}</td>
-                <td><span style="color:{ev_color};font-weight:600">{ev}</span></td>
-                <td>{cs['count']}</td>
+                <td style="font-size:12px;color:var(--text)">{link}{type_badge}</td>
+                <td style="font-size:12px">{events_html}</td>
+                <td style="text-align:center;font-size:12px;color:var(--text-secondary)">{rate_html}</td>
             </tr>"""
     conv_source_html = f"""<div class="table-wrap">
         <table>
-            <thead><tr><th>Page</th><th>Event</th><th>Count</th></tr></thead>
+            <thead><tr><th>Page</th><th>Events</th><th>Rate</th></tr></thead>
             <tbody>{conv_source_rows if conv_source_rows else '<tr><td colspan="3" style="color:var(--text-muted)">No conversions attributed to pages yet.</td></tr>'}</tbody>
         </table>
     </div>"""
