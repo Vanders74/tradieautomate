@@ -259,6 +259,7 @@ Most electricians are up and running with basic job management within a few hour
 > [Download free →](/playbook)
 
 *Related reading:*
+- *[How to Choose Electrical Job Management Software (2026 Buyer's Guide)](/blog/electrical-job-management-software-buyers-guide-australia) — the step-by-step decision framework, if you'd rather pick by criteria than a ranked list*
 - *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
 - *[ServiceM8 for Painters: Quote Faster, Invoice Sooner, Chase Less](/blog/servicem8-for-painters)*
