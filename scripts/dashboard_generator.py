@@ -101,15 +101,31 @@ def pull_gsc_data():
             "pages_with_data": pages_with_data,
         })
         # Capture per-page metrics from Window 1 (prior 28-day) for trend comparison
+        # NOTE: dedup by slug like the main loop — GSC splits trailing-slash variants,
+        # and a naive overwrite loses impressions/clicks (was corrupting prev_* fields).
         if i == 1:
             for r in rows:
                 slug = r["keys"][0].replace(SITE_URL, "").strip("/").split("/")[-1] or "index"
-                prior_page_data[slug] = {
-                    "prev_clicks": r["clicks"],
-                    "prev_impressions": r["impressions"],
-                    "prev_ctr": round(r["ctr"] * 100, 2),
-                    "prev_position": round(r["position"], 1),
-                }
+                if slug in prior_page_data:
+                    pr = prior_page_data[slug]
+                    pr["prev_clicks"] += r["clicks"]
+                    pr["prev_impressions"] += r["impressions"]
+                    pr["prev_position"] = round(
+                        (pr["prev_position"] * pr["_pos_impr"] + r["position"] * r["impressions"])
+                        / max(pr["_pos_impr"] + r["impressions"], 1), 1
+                    )
+                    pr["_pos_impr"] += r["impressions"]
+                else:
+                    prior_page_data[slug] = {
+                        "prev_clicks": r["clicks"],
+                        "prev_impressions": r["impressions"],
+                        "prev_position": round(r["position"], 1),
+                        "_pos_impr": r["impressions"],
+                    }
+            # Recompute prev_ctr after dedup, then strip internal field
+            for pr in prior_page_data.values():
+                pr["prev_ctr"] = round(pr["prev_clicks"] / max(pr["prev_impressions"], 1) * 100, 2)
+                pr.pop("_pos_impr", None)
 
     # Totals from last window
     totals = {
@@ -171,10 +187,10 @@ def pull_gsc_data():
         # Merge prior-period metrics (from Window 1 trend data)
         prior = prior_page_data.get(slug)
         if prior:
-            v["prev_clicks"] = prior["prev_clicks"]
-            v["prev_impressions"] = prior["prev_impressions"]
-            v["prev_ctr"] = prior["prev_ctr"]
-            v["prev_position"] = prior["prev_position"]
+            v["prev_clicks"] = prior.get("prev_clicks", 0)
+            v["prev_impressions"] = prior.get("prev_impressions", 0)
+            v["prev_ctr"] = prior.get("prev_ctr", 0.0)
+            v["prev_position"] = prior.get("prev_position", 0.0)
         # Merge per-page top queries
         v["top_queries"] = page_queries.get(slug, [])
         pages.append(v)
@@ -282,6 +298,9 @@ def pull_ga4_data():
         {"name": k, "sessions": v, "share": round(v / max(total_sessions, 1) * 100, 1)}
         for k, v in sorted(channels.items(), key=lambda x: -x[1])
     ]
+    # AEO/LLM-citation signal: AI Assistant channel is a live indicator that
+    # answer engines are citing the site even before formal AEO work ships.
+    ai_sessions = channels.get("AI Assistant", 0)
 
     return {
         "totals": totals,
@@ -289,6 +308,7 @@ def pull_ga4_data():
         "top_pages": top_pages,
         "channels": channel_list,
         "total_sessions": total_sessions,
+        "ai_assistant_sessions": ai_sessions,
     }
 
 
@@ -299,12 +319,21 @@ def pull_ga4_conversions():
     client = _ga4_client()
     prop = f"properties/{GA4_PROPERTY_ID}"
 
+    # Query our 4 tracked events EXPLICITLY — the old top-20-by-count approach
+    # silently read 0 for any tracked event that fell outside the top 20 (wrong
+    # "0 conversions" on the dashboard).
+    tracked = ["affiliate_click", "trial_click_1", "lead_magnet_download", "playbook_signup"]
     req = RunReportRequest(
         property=prop,
         dimensions=[Dimension(name="eventName")],
         metrics=[Metric(name="eventCount")],
         date_ranges=[DateRange(start_date="28daysAgo", end_date="today")],
-        order_bys=[{"metric": {"metric_name": "eventCount"}, "desc": True}],
+        dimension_filter={
+            "filter": {
+                "field_name": "eventName",
+                "in_list_filter": {"values": tracked},
+            }
+        },
         limit=20,
     )
     resp = client.run_report(req)
@@ -312,10 +341,8 @@ def pull_ga4_conversions():
     events = {}
     for row in resp.rows:
         name = row.dimension_values[0].value
-        count = int(row.metric_values[0].value)
-        events[name] = count
+        events[name] = int(row.metric_values[0].value)
 
-    # Extract our tracked conversion events
     conversions = {
         "affiliate_click": events.get("affiliate_click", 0),
         "trial_click": events.get("trial_click_1", 0),
@@ -323,8 +350,6 @@ def pull_ga4_conversions():
         "playbook_signup": events.get("playbook_signup", 0),
     }
     conversions["total"] = sum(conversions.values())
-
-    # Conversion rate: total conversions / total sessions
     return conversions
 
 
@@ -382,13 +407,32 @@ def analyze_content():
         "stc-claim": "Solar Compliance & Installer Guides",
     }
 
+    import re as _re
+
     by_cluster = {}
     most_recent = None
 
     for f in sorted(Path(CONTENT_DIR).glob("*.md")):
-        stat = f.stat()
         slug = f.stem
-        mtime = datetime.fromtimestamp(stat.st_mtime).strftime("%Y-%m-%d")
+        mtime = datetime.fromtimestamp(f.stat().st_mtime).strftime("%Y-%m-%d")
+
+        # Use frontmatter updatedDate (or pubDate) when present — file mtime is
+        # a git-checkout artifact, not content freshness. The dashboard was
+        # flagging articles as stale that we'd actually refreshed.
+        fm_date = None
+        try:
+            txt = f.read_text(errors="ignore")
+            fm_block = txt.split("---", 2)[1] if txt.startswith("---") else ""
+            m_ud = _re.search(r"^updatedDate:\s*['\"]?([0-9]{4}-[0-9]{2}-[0-9]{2})", fm_block, _re.M)
+            m_pd = _re.search(r"^pubDate:\s*['\"]?([0-9]{4}-[0-9]{2}-[0-9]{2})", fm_block, _re.M)
+            if m_ud:
+                fm_date = m_ud.group(1)
+            elif m_pd:
+                fm_date = m_pd.group(1)
+        except Exception:
+            pass
+        if fm_date:
+            mtime = fm_date
 
         # Determine cluster
         cluster = "General"
@@ -573,15 +617,24 @@ def compute_deltas(today_data, yesterday_data, live_slugs=None, redirect_map=Non
                         "current_impressions": tp["impressions"],
                     })
 
-                # Anomalies: dropped positions
+                # Anomalies: dropped positions — volume floor so noise isn't "high severity"
                 if pos_change < -3:
-                    anomalies.append({
-                        "type": "position_drop",
-                        "severity": "high",
-                        "slug": slug,
-                        "detail": f"Dropped {abs(pos_change)} positions to {tp['position']}. Was {yp['position']}.",
-                        "action": f"Review content freshness and backlinks for {slug}. Consider updating publish date and adding recent regulatory references.",
-                    })
+                    if tp["impressions"] < 100:
+                        anomalies.append({
+                            "type": "low_data",
+                            "severity": "low",
+                            "slug": slug,
+                            "detail": f"Position dropped {abs(pos_change)} to {tp['position']} (was {yp['position']}) but only {tp['impressions']} impressions.",
+                            "action": "Sample too small to act on. Wait for volume before changing anything.",
+                        })
+                    else:
+                        anomalies.append({
+                            "type": "position_drop",
+                            "severity": "high",
+                            "slug": slug,
+                            "detail": f"Dropped {abs(pos_change)} positions to {tp['position']}. Was {yp['position']}.",
+                            "action": f"Review content freshness and backlinks for {slug}. Consider updating publish date and adding recent regulatory references.",
+                        })
 
                 # Anomalies: CTR cliffs — Guardrail 4: statistical floor
                 if ctr_change < -0.3 and abs(pos_change) < 1:
@@ -1028,6 +1081,10 @@ def generate_html(data):
     # Channel mix bars
     channel_html = ""
     colors_list = ["var(--blue)", "var(--green)", "var(--purple)", "var(--amber)", "var(--red)", "var(--text-secondary)", "var(--pink)"]
+    ai_note = ""
+    ai_sessions = ga4.get("ai_assistant_sessions", 0)
+    if ai_sessions > 0:
+        ai_note = f'<div class="tracking-warning" style="margin-top:10px">🤖 <strong>AI Assistant referrals: {ai_sessions} sessions</strong> — answer engines (ChatGPT, Perplexity, etc.) are citing TradieAutomate. Live AEO signal. Expand AI-extractable content (FAQ schema, Q&A blocks, definition blocks) to grow this channel.</div>'
     for i, ch in enumerate(ga4["channels"]):
         color = colors_list[i % len(colors_list)]
         channel_html += f"""
@@ -1038,6 +1095,7 @@ def generate_html(data):
                 </div>
                 <span class="channel-val">{ch['sessions']} ({ch['share']}%)</span>
             </div>"""
+    channel_html += ai_note
 
     # Cluster coverage
     cluster_html = ""
