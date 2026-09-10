@@ -199,3 +199,4 @@ Client records in ServiceM8 maintain a complete job history with all associated 
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
 - *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
 - *[simPRO vs ServiceM8: Which Fits a 3-Man HVAC Business Better?](/blog/simpro-vs-servicem8-hvac-small-business)*
+- *[AI Data Centres Australia 2026: The Cooling Opportunity for HVAC Contractors](/blog/ai-data-centre-cooling-hvac-contractors-australia-2026) — data-centre cooling demand grew 67% in four years; here's how HVAC crews win the premium work*
