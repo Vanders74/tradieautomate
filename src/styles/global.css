@@ -143,6 +143,70 @@ hr {
   letter-spacing: 0.05em;
 }
 
+/* Compliance bridge callout (used in blog markdown) */
+.compliance-bridge-box {
+  border-left: 4px solid #f97316;
+  background: #0f172a;
+  padding: 20px 24px;
+  border-radius: 8px;
+  margin: 32px 0;
+  color: #e2e8f0;
+}
+.compliance-bridge-box .cb-inner {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.compliance-bridge-box .cb-text { flex: 1; min-width: 220px; }
+.compliance-bridge-box .cb-title {
+  display: block;
+  font-size: 1.05rem;
+  margin-bottom: 4px;
+}
+.compliance-bridge-box .cb-body {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+.compliance-bridge-box .cb-link {
+  background: #f97316;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Tradie Brain CTA (used in blog markdown) */
+.tradie-brain-cta {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin: 32px 0;
+  background: var(--bg-card);
+}
+.tradie-brain-cta .tb-cta-inner {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tradie-brain-cta .tb-cta-icon { font-size: 2rem; }
+.tradie-brain-cta .tb-cta-content { flex: 1; min-width: 220px; }
+.tradie-brain-cta .tb-cta-btn {
+  background: var(--accent);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
 @media (max-width: 720px) {
   body { font-size: 17px; }
   main { padding: 1em; }

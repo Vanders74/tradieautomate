@@ -2,7 +2,7 @@
 title: 'CCEW NSW: Certificate of Compliance Electrical Work — What It Is & Who Issues It'
 description: "A CCEW (Certificate of Compliance Electrical Work) is the legal cert NSW electricians issue after notifiable work. Who issues it, the 7-day rule, how to lodge."
 pubDate: 'May 09 2026'
-updatedDate: 'Jul 02 2026'
+updatedDate: 'Sep 12 2026'
 category: "Compliance"
 heroImage: '/hero-ccew-nsw-guide.jpg'
 tags: ['CCEW', 'NSW', 'compliance', 'electrician', 'electrical certificate', 'SafeWork NSW']
@@ -27,15 +27,15 @@ Getting your CCEW obligations right is not complex, but it is non-negotiable. Th
 
 > **⚡ Using ServiceM8?** Its custom form builder auto-generates CCEW templates from your job data — [see how it works for NSW electricians](/blog/servicem8-for-electricians).
 
-<div class="compliance-bridge-box" style="border-left:4px solid #f97316;background:#0f172a;padding:20px 24px;border-radius:8px;margin:32px 0;color:#e2e8f0">
-  <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
-    <div style="flex:1;min-width:220px">
-      <strong style="display:block;font-size:1.05rem;margin-bottom:4px">Tired of manually generating CCEW forms after hours?</strong>
-      <p style="margin:0;font-size:0.9rem;color:#94a3b8">
+<div class="compliance-bridge-box">
+  <div class="cb-inner">
+    <div class="cb-text">
+      <strong class="cb-title">Tired of manually generating CCEW forms after hours?</strong>
+      <p class="cb-body">
         ServiceM8 auto-populates CCEW compliance forms directly from site photos on your phone — and reminds you before the 7-day deadline.
       </p>
     </div>
-    <a href="https://www.servicem8.com/au/register/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=ccew_bridge" target="_blank" rel="nofollow sponsored" style="background:#f97316;color:#fff;padding:12px 20px;border-radius:8px;font-weight:700;text-decoration:none;white-space:nowrap;flex-shrink:0">
+    <a href="https://www.servicem8.com/au/register/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=ccew_bridge" target="_blank" rel="nofollow sponsored" class="cb-link">
       Try Free 14 Days →
     </a>
   </div>

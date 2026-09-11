@@ -1,7 +1,7 @@
 ---
 title: 'ServiceM8 Review 2026: Worth $29/mo? Honest Verdict + Real Costs'
 description: "ServiceM8 review 2026: worth it at $29/mo for compliance-heavy trades, but simPRO wins on reporting. Full pros, cons and real costs."
-updatedDate: 'Aug 07 2026'
+updatedDate: 'Sep 12 2026'
 pubDate: 'Apr 03 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-review.jpg'
@@ -18,6 +18,10 @@ faq:
     answer: "Yes — ServiceM8 supports custom digital forms that capture all required solar compliance data: CER documentation requirements, geo-tagged site photos, AS/NZS 5033 and 5139 checklist items, customer declarations for STC assignment, and CCEW data fields. Forms are completed on-site and synced automatically, creating a timestamped digital audit trail."
   - question: "Can ServiceM8 integrate with Xero and MYOB?"
     answer: "Yes. ServiceM8 has native integrations with both Xero and MYOB AccountRight. Invoices, client records, and payments sync automatically, eliminating double-entry between your job management and accounting platforms."
+  - question: "What new features does ServiceM8 have in 2026?"
+    answer: "ServiceM8's biggest recent release was the ServiceM8 14 update (Sep 2025), led by AI agents: the Phone Agent answers and qualifies calls for you, and the Office Agent handles routine admin tasks. Smart Report Helper builds custom reports from plain-English prompts, and Powerful Reports introduced a new reporting engine. On-site, Tap to Pay on iPhone accepts contactless payments, Auto Routing optimises a technician's day, and SMS Photos & Files lets you send photos to clients by text. The n8n integration adds workflow automation, and ServiceM8 Lite for Android brings scheduling and invoicing to more users."
+  - question: "How much revenue does ServiceM8 generate?"
+    answer: "ServiceM8's estimated annual revenue is around $2.6M (GetLatka estimate, 2025) with a team of roughly 24 staff. The platform has managed over 50 million jobs worth more than $50 billion across 40+ countries since launching in 2010, and was ranked in Deloitte's Technology Fast 50 in 2020."
   - question: "Is there a free trial for ServiceM8?"
     answer: "Yes — ServiceM8 offers a 14-day free trial with no credit card required. You get full access to explore the platform before committing."
   - question: "Does ServiceM8 help with NSW CCEW compliance requirements?"
@@ -307,6 +311,12 @@ Yes — ServiceM8 supports custom digital forms that can capture all the data re
 
 ### Can ServiceM8 integrate with Xero and MYOB?
 Yes. ServiceM8 has native integrations with both Xero and MYOB AccountRight. Invoices, client records, and payments sync automatically, eliminating double-entry between your job management and accounting platforms.
+
+### What new features does ServiceM8 have in 2026?
+ServiceM8's biggest recent release was the ServiceM8 14 update (Sep 2025), led by AI agents: the **Phone Agent** answers and qualifies calls for you, and the **Office Agent** handles routine admin tasks. **Smart Report Helper** builds custom reports from plain-English prompts, and **Powerful Reports** introduced a new reporting engine. On-site, **Tap to Pay on iPhone** accepts contactless payments, **Auto Routing** optimises a technician's day, and **SMS Photos & Files** lets you send photos to clients by text. The n8n integration adds workflow automation, and ServiceM8 Lite for Android brings scheduling and invoicing to more users.
+
+### How much revenue does ServiceM8 generate?
+ServiceM8's estimated annual revenue is around $2.6M (GetLatka estimate, 2025) with a team of roughly 24 staff. The platform has managed over 50 million jobs worth more than $50 billion across 40+ countries since launching in 2010, and was ranked in Deloitte's Technology Fast 50 in 2020.
 
 ### How does ServiceM8 compare to Tradify for Australian electricians?
 Both are strong mobile-first platforms for Australian trade businesses. ServiceM8 has more mature compliance form support and a larger ecosystem of integrations, which makes it the preferred choice for solar installers who need CER-compatible workflows. Tradify has a simpler interface and is often preferred by newer businesses or sole traders who want faster onboarding. For a 1–3 person electrical business new to job management software, Tradify is a legitimate alternative worth trialling alongside ServiceM8.
