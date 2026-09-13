@@ -1,6 +1,6 @@
 ---
 title: "Solar Warranty Claims Australia 2026: 25-Year Coverage Guide"
-description: "Solar warranty claims in Australia 2026 — what the 25-year performance & 5-year workmanship warranties cover, plus how to lodge a claim that gets approved."
+description: "Solar warranty claims: 25-yr panel & 5-yr inverter cover, but claims go through the importer. How to lodge a claim that gets approved in 2–4 weeks."
 pubDate: 'Jul 13 2026'
 category: "Solar & Battery"
 breakdown:
