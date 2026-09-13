@@ -930,6 +930,13 @@ def compute_insights(data):
         key=lambda p: -p["leverage"]
     )[:5]
 
+    # Guard: demote pages fixed in the last 14 days — their GSC data predates
+    # the fix, so surfacing them as a top action re-fixes what was just fixed.
+    # Annotate instead of silently dropping so the brief can say "monitor".
+    for p in priority:
+        p["recently_updated"] = _recently_updated(p["slug"])
+    priority.sort(key=lambda p: (p["recently_updated"], -p["leverage"]))
+
     return {
         "position_buckets": buckets,
         "enhanced_pages": enhanced_pages,
@@ -1091,12 +1098,13 @@ def generate_html(data):
     priority_html = ""
     if priority_actions:
         for i, pa in enumerate(priority_actions):
+            recent_badge = ' <span class="recent-fix" title="Data may predate the fix — monitor 2-4 weeks">🔁 fixed &lt;14d</span>' if pa.get("recently_updated") else ""
             priority_html += f"""
                 <div class="priority-row">
                     <span class="priority-rank">#{i + 1}</span>
                     <span class="priority-slug">{pa['slug'][:40]}</span>
                     <span class="priority-stat">{pa['impressions']:,} impr — {pa['clicks']} clicks → ~{pa['potential_clicks']} potential</span>
-                    <span class="priority-leverage">Leverage: {pa['leverage']:,}</span>
+                    <span class="priority-leverage">Leverage: {pa['leverage']:,}</span>{recent_badge}
                 </div>"""
     else:
         priority_html = '<p style="color:var(--text-muted);font-size:13px">No high-leverage opportunities detected.</p>'
