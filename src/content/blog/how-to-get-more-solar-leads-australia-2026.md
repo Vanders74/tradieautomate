@@ -1,6 +1,6 @@
 ---
-title: 'How to Get More Solar Leads in Australia: The 2026 Marketing Guide for Solar Installation Businesses'
-description: 'Australian solar installers: proven lead generation channels for 2026 — GBP, SEO, referrals, Google Ads, and which ones convert at $0 per lead once set up right.'
+title: 'How to Get More Solar Leads in Australia in 2026'
+description: 'Solar lead costs in Australia: aggregators $30-$120, Google Ads $60-$200, referrals $0. 2026 breakdown of GBP, SEO, and Google Ads channels that convert.'
 pubDate: 'May 16 2026'
 category: "Business Growth"
 heroImage: '/hero-solar-leads-australia.jpg'
