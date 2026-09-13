@@ -15,6 +15,7 @@ Config is loaded from scripts/ relative to this file, or overridden by env vars.
 import json
 import os
 import sys
+import time
 import warnings
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -930,6 +931,13 @@ def compute_insights(data):
         key=lambda p: -p["leverage"]
     )[:5]
 
+    # Guard: demote pages fixed in the last 14 days — their GSC data predates
+    # the fix, so surfacing them as a top action re-fixes what was just fixed.
+    # Annotate instead of silently dropping so the brief can say "monitor".
+    for p in priority:
+        p["recently_updated"] = _recently_updated(p["slug"])
+    priority.sort(key=lambda p: (p["recently_updated"], -p["leverage"]))
+
     return {
         "position_buckets": buckets,
         "enhanced_pages": enhanced_pages,
@@ -1032,9 +1040,9 @@ def generate_html(data):
         "clicks": gsc["totals"]["clicks"],
         "impressions": gsc["totals"]["impressions"],
         "ctr": gsc["totals"]["ctr"],
-        "sessions": ga4["totals"]["current"]["sessions"],
+        "sessions": ga4["totals"]["current"].get("sessions", 0),
         "posts": content["total"],
-        "engagement": ga4["totals"]["current"]["engagement_rate"],
+        "engagement": ga4["totals"]["current"].get("engagement_rate", 0),
     }
 
     # Trend data
@@ -1091,12 +1099,13 @@ def generate_html(data):
     priority_html = ""
     if priority_actions:
         for i, pa in enumerate(priority_actions):
+            recent_badge = ' <span class="recent-fix" title="Data may predate the fix — monitor 2-4 weeks">🔁 fixed &lt;14d</span>' if pa.get("recently_updated") else ""
             priority_html += f"""
                 <div class="priority-row">
                     <span class="priority-rank">#{i + 1}</span>
                     <span class="priority-slug">{pa['slug'][:40]}</span>
                     <span class="priority-stat">{pa['impressions']:,} impr — {pa['clicks']} clicks → ~{pa['potential_clicks']} potential</span>
-                    <span class="priority-leverage">Leverage: {pa['leverage']:,}</span>
+                    <span class="priority-leverage">Leverage: {pa['leverage']:,}</span>{recent_badge}
                 </div>"""
     else:
         priority_html = '<p style="color:var(--text-muted);font-size:13px">No high-leverage opportunities detected.</p>'
@@ -1896,14 +1905,20 @@ def main():
         print(f"   ❌ GSC pull failed: {e}")
         gsc_data = {"pages": [], "queries": [], "trend_windows": [], "totals": {"clicks": 0, "impressions": 0, "ctr": 0, "avg_position": 0, "pages_with_data": 0}}
 
-    # 2. Pull GA4
+    # 2. Pull GA4 — retry on transient Google backend errors (400 SYSTEM_SERVER_BUSY / POOL_NOT_FOUND)
     print("📈 Pulling GA4 data...")
-    try:
-        ga4_data = pull_ga4_data()
-        print(f"   {ga4_data['total_sessions']} sessions, {len(ga4_data['channels'])} channels, "
-              f"tracking_gap={ga4_data['tracking_gap']}")
-    except Exception as e:
-        print(f"   ❌ GA4 pull failed: {e}")
+    ga4_data = None
+    for attempt in range(3):
+        try:
+            ga4_data = pull_ga4_data()
+            print(f"   {ga4_data['total_sessions']} sessions, {len(ga4_data['channels'])} channels, "
+                  f"tracking_gap={ga4_data['tracking_gap']}")
+            break
+        except Exception as e:
+            print(f"   ❌ GA4 pull failed (attempt {attempt + 1}/3): {e}")
+            if attempt < 2:
+                time.sleep(20)
+    if ga4_data is None:
         ga4_data = {"totals": {"current": {}, "prior": {}}, "tracking_gap": True, "top_pages": [], "channels": [], "total_sessions": 0}
 
     # 2b. Pull GA4 conversion events

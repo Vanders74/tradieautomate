@@ -1,6 +1,6 @@
 ---
 title: "3-Phase Power Upgrade Australia 2026: Cost, Process, AS/NZS 3000 Requirements"
-description: "3-phase power upgrade in Australia: $3K–$10K cost range, step-by-step process, AS/NZS 3000 switchboard requirements, DNSP application, and when solar/EV chargers make it essential. 2026 guide."
+description: "3-phase power upgrade cost in Australia: $3K–$10K installed, AS/NZS 3000 switchboard rules, DNSP process, and when solar/EV charging makes it essential."
 pubDate: "Aug 2026"
 updatedDate: "Aug 2026"
 category: "Compliance"
