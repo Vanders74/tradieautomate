@@ -525,17 +525,44 @@ def _load_site_map():
 
 
 def _recently_updated(slug, days=14):
-    """True if the article's source file was modified within `days` days.
-    Used to annotate anomalies whose data may predate a fix already applied.
+    """True if the article's CONTENT was actually edited within `days` days.
+
+    Reads frontmatter `updatedDate` (then `pubDate`) — NOT file mtime, which
+    git checkouts rewrite (a branch switch touches every file's mtime and
+    would falsely flag untouched articles as recently fixed).
     """
     md_path = os.path.join(CONTENT_DIR, f"{slug}.md")
     if not os.path.exists(md_path):
         return False
     try:
+        import re as _re
+        with open(md_path) as f:
+            head = f.read(4000)
+        fm_block = head.split("---", 2)[1] if head.startswith("---") else ""
+        for field in ("updatedDate", "pubDate"):
+            m = _re.search(rf"^{field}:\s*['\"]?([^'\"]+?)['\"]?\s*$", fm_block, _re.M)
+            if m:
+                d = _parse_fm_date(m.group(1).strip())
+                if d:
+                    return (datetime.now() - d).days <= days
+        # No frontmatter date — fall back to mtime
         mtime = datetime.fromtimestamp(os.path.getmtime(md_path))
         return (datetime.now() - mtime).days <= days
     except Exception:
         return False
+
+
+def _parse_fm_date(raw):
+    """Parse a frontmatter date in either 'Sep 12 2026' or 2026-09-12 form."""
+    import re as _re
+    raw = raw.strip().strip("'\"")
+    m = _re.match(r"^(\d{4})-(\d{2})-(\d{2})$", raw)
+    if m:
+        return datetime.strptime(raw, "%Y-%m-%d")
+    m = _re.match(r"^([A-Za-z]{3})[a-z]*\.?\s+(\d{1,2}),?\s+(\d{4})$", raw)
+    if m:
+        return datetime.strptime(f"{m.group(1)} {m.group(2)} {m.group(3)}", "%b %d %Y")
+    return None
 
 
 def compute_deltas(today_data, yesterday_data, live_slugs=None, redirect_map=None):
