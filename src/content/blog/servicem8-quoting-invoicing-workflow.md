@@ -1,8 +1,8 @@
 ---
-title: "ServiceM8 Quoting & Invoicing: Step-by-Step Workflow"
-description: "From on-site quote to paid invoice in under 10 days — how ServiceM8's quoting-to-payment workflow eliminates admin lag for Australian tradies."
+title: "How ServiceM8 Handles Quoting, Invoicing & Payment Collection (Step-by-Step)"
+description: "How ServiceM8 handles quoting, invoicing & payment collection end-to-end: on-site quote to paid invoice, step by step, for electrical, plumbing & HVAC tradies."
 pubDate: 'Aug 08 2026'
-updatedDate: 'Aug 08 2026'
+updatedDate: 'Sep 14 2026'
 category: 'ServiceM8'
 breakdown:
   - title: "Quote on-site"
