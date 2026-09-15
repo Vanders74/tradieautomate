@@ -1,10 +1,21 @@
 ---
 title: 'How to Sell Your ServiceM8-Based Trade Business for Maximum Value'
 description: 'Learn how Australian tradies use ServiceM8 to build a more sellable business — documented systems, recurring revenue, and audit-ready records that buyers pay a premium for.'
-updatedDate: 'Apr 18 2026'
+updatedDate: 'Sep 15 2026'
 pubDate: 'Apr 10 2026'
 category: "ServiceM8"
 heroImage: '/hero-sell-servicem8-trade-business-value.jpg'
+faq:
+  - question: "How much is my trade business worth?"
+    answer: "Trade businesses in Australia typically sell for 1.5–4x EBIT or SDE, depending on size, systems quality, customer concentration, and growth trajectory. Businesses with documented systems (like those running ServiceM8) and recurring revenue command the higher end of that range."
+  - question: "Does ServiceM8 data transfer to a new owner?"
+    answer: "Yes. ServiceM8 is a cloud-based subscription. The account — including all job history, customer records, compliance forms, and templates — transfers to a new owner by changing the account holder and payment details."
+  - question: "How do I make my business less dependent on me personally?"
+    answer: "Document every process using ServiceM8's job templates, checklists, and workflows, then train a senior staff member to run day-to-day operations. Step back progressively. This process typically takes 6–18 months."
+  - question: "Do I pay capital gains tax when I sell my trade business?"
+    answer: "Potentially — but the ATO's small business CGT concessions (15-year exemption, retirement exemption, 50% active asset reduction, and rollover) can significantly reduce or eliminate CGT when you sell an active trade business. Conditions apply, so engage a tax advisor before signing anything."
+  - question: "What's the biggest mistake trade business owners make when selling?"
+    answer: "Starting the preparation too late. The preparation — systemising operations, cleaning up financials, building recurring revenue — needs to happen 12–24 months before the planned sale."
 ---
 
 Most trade business owners think about selling their business as something that happens later — maybe when they're tired, when a good offer comes along, or when they're approaching retirement.
@@ -240,6 +251,10 @@ Start by documenting every process you currently carry in your head using Servic
 ### What's the biggest mistake trade business owners make when selling?
 
 Starting the preparation too late. Owners who decide to sell and then try to clean everything up in a few months almost always leave significant money on the table. The preparation — systemising operations, cleaning up financials, building recurring revenue — needs to happen 12–24 months before the planned sale.
+
+### Do I pay capital gains tax when I sell my trade business?
+
+Potentially — but the ATO's small business CGT concessions can significantly reduce or eliminate it. The **15-year exemption** removes CGT entirely if you've held the business 15+ years and are 55+ or retiring; the **retirement exemption** allows up to $500,000 of capital gains to be disregarded (life-time cap); the **50% active asset reduction** halves the gain on an active business asset held 12+ months; and a **rollover** defers CGT when you reinvest in another active asset. Conditions apply around the $6 million net asset value threshold (or $2 million turnover), so the standard advice applies: engage a tax advisor and check the current ATO rules (ato.gov.au, "small business CGT concessions") before signing anything.
 
 ### Should I use a business broker or sell privately?
 

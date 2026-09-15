@@ -71,3 +71,54 @@
   status = 301
   force = true
 
+# Renamed articles left 404s behind (Sep 15 Index Coverage Monitor) — old URLs
+# still serve GSC impressions and clicked links hit dead pages. 301 old -> new,
+# both slash variants. No internal links point at these — pure redirect/backlink salvage.
+[[redirects]]
+  from = "/blog/apprentice-ratios-hiring-electrical-australia-2026"
+  to = "/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/apprentice-ratios-hiring-electrical-australia-2026/"
+  to = "/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/as-nzs-5139-battery-storage-clearances-enclosures-bms-rules"
+  to = "/blog/as-nzs-5139-battery-storage-compliance/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/as-nzs-5139-battery-storage-clearances-enclosures-bms-rules/"
+  to = "/blog/as-nzs-5139-battery-storage-compliance/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/qld-electrical-contractor-license-guide-2026"
+  to = "/blog/qld-electrical-contractor-licence-guide-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/qld-electrical-contractor-license-guide-2026/"
+  to = "/blog/qld-electrical-contractor-licence-guide-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/rcd-requirements-as-nzs-3000-2026-which-type-for-each-circuit"
+  to = "/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/rcd-requirements-as-nzs-3000-2026-which-type-for-each-circuit/"
+  to = "/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026/"
+  status = 301
+  force = true
+
