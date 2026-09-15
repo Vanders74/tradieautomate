@@ -1,0 +1,17 @@
+#!/bin/bash
+# Pre-push hook: run the slug-hygiene gate before any push.
+# Catches renamed-without-301, dead internal links, and stale sources
+# BEFORE they reach main. Install: ln -s ../../scripts/slug_hygiene_check.py .git/hooks/pre-push  (or copy).
+# Exit 1 blocks the push.
+
+# Only run when content files changed in the pushed commits
+if git diff --cached --name-only 2>/dev/null | grep -qE "src/content/blog/|netlify.toml|src/pages/"; then
+    echo "🔍 Running slug-hygiene gate..."
+    python3 "$(git rev-parse --show-toplevel)/scripts/slug_hygiene_check.py"
+    if [ $? -ne 0 ]; then
+        echo "❌ Push blocked: fix the issues above, then push again."
+        exit 1
+    fi
+    echo "✅ Slug hygiene OK."
+fi
+exit 0
