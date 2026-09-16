@@ -2,10 +2,19 @@
 title: 'How to Get 5-Star Google Reviews as a Solar Installer or Electrician (The Complete Guide)'
 description: 'A practical, step-by-step guide for Australian solar installers and electricians to systematically collect 5-star Google reviews — and convert that social proof into more signed quotes.'
 pubDate: 'May 14 2026'
-updatedDate: 'Jul 30 2026'
+updatedDate: 'Sep 16 2026'
 category: "Business Growth"
 heroImage: '/hero-google-reviews-tradie.jpg'
 tags: ['customer experience', 'Google reviews', 'solar', 'electrician', 'reputation', 'marketing']
+faq:
+  - question: "How do I get more 5-star Google reviews as a solar installer or electrician?"
+    answer: "Ask every customer within 48 hours of a positive experience, personalise the request, and make it direct — don't hint. Use your Google review link and automate the ask through your job management system (ServiceM8 supports automated review requests on job completion). Channel matters: SMS outperforms email."
+  - question: "When is the best time to ask for a Google review?"
+    answer: "Within 48 hours of the positive experience — not at the moment of payment, when customers are thinking about money leaving their account. For residential solar, the ideal trigger is 1–3 days after installation, ideally the first day they see generation numbers in their monitoring app, when enthusiasm is highest."
+  - question: "Is it legal to offer customers an incentive for a Google review?"
+    answer: "No. The ACCC and Australian Consumer Law prohibit businesses from offering rewards or incentives for reviews, including fake or misleading reviews. Review platforms also ban incentivised reviews — offering discounts for 5-star reviews can get reviews removed and attract regulatory attention. Never buy, incentivise, or fake reviews."
+  - question: "How many Google reviews does a solar or electrical business need to be competitive?"
+    answer: "Consistency beats raw volume. A business with 30 recent, authentic reviews and a steady flow of new ones outperforms one with 200 old reviews. The review flywheel — asking systematically after every job — compounds: more reviews build trust, trust converts more quotes, more jobs generate more review opportunities."
 ---
 
 Your Google Business Profile is the first thing a prospective solar customer sees when they search for an installer in their suburb. Before they visit your website. Before they read your quote. Before they call.
@@ -114,6 +123,19 @@ One follow-up only. Beyond that, you're risking the relationship.
 Template:
 
 > "Hi [First Name] — just following up on my message from last week. If you had a moment to leave a quick Google review, the link is here: [link]. No worries if not — appreciate your business either way. — [Name]"
+
+---
+
+## The Ethics Line: What You Can't Do (ACCC & Australian Consumer Law)
+
+Before going further: there are hard legal limits on review solicitation in Australia. Under the **Australian Consumer Law (Schedule 2 of the Competition and Consumer Act 2010)**, administered by the **ACCC**, it is illegal to:
+- Offer or provide rewards, discounts, or incentives in exchange for reviews
+- Publish or solicit **fake or misleading reviews** — including reviews written by staff, friends, or paid third parties presented as genuine customer feedback
+- Suppress or manipulate reviews to mislead consumers (e.g. deleting negative reviews while keeping positives, or publishing only filtered reviews)
+
+The ACCC has explicitly stated that fake reviews and undisclosed incentivised reviews can breach the misleading-conduct provisions, and has taken enforcement action in the broader consumer-review space. Google's own policies independently prohibit incentivised reviews — offering discounts for 5-star reviews can get reviews removed and your profile flagged.
+
+**The practical takeaway:** build your review system on genuine customer experience and systematic asking — not incentives. Everything in this guide stays within that line: timing, personalisation, automation of the *request* (never the *content*), and follow-up. An authentic 4.8 with 60 reviews outperforms a manipulated 5.0 with 60 reviews — because consumers, and increasingly Google itself, can tell the difference.
 
 ---
 

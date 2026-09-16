@@ -2,9 +2,18 @@
 title: 'ServiceM8 for Plumbers: Run a Tighter Plumbing Business With Less Admin'
 description: 'ServiceM8 for plumbers 2026: compliance certificates, same-day invoicing, and job scheduling. How Australian plumbing businesses cut 10+ hrs/week of admin with smart job management.'
 pubDate: 'Apr 27 2026'
-updatedDate: 'Jul 30 2026'
+updatedDate: 'Sep 16 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-for-plumbers.jpg'
+faq:
+  - question: "What compliance certificates does ServiceM8 support for plumbers?"
+    answer: "ServiceM8's form builder supports any compliance certificate format — you build the templates to match your state's requirements. Victorian plumbers can create VBA-format compliance certificates; NSW plumbers create forms matching NSW Fair Trading requirements. The forms auto-populate from job data and store with the job record permanently."
+  - question: "Can ServiceM8 handle recurring maintenance jobs like annual backflow testing?"
+    answer: "Yes. ServiceM8 supports recurring jobs that auto-generate on a schedule you define. Annual backflow testing, hot water service maintenance, and other periodic work can be set up to create automatically, assigned to the right tech and client, without manual intervention."
+  - question: "Does ServiceM8 work for sole trader plumbers?"
+    answer: "Absolutely. The Free plan ($0/month, 30 jobs) is designed for sole traders and works well for plumbers doing up to 30 jobs per month. The mobile app is the primary interface, so it suits field-first operators who want minimal office administration."
+  - question: "Does ServiceM8 integrate with MYOB?"
+    answer: "Yes — ServiceM8 integrates natively with both MYOB and Xero. Invoices created in ServiceM8 sync automatically to your accounting software, with client records matched and payment status flowing both ways."
 ---
 
 Plumbing is one of the most heavily licensed trades in Australia. Between your licence, your insurance, your compliance certificates, and the documentation requirements that vary state by state — there's a mountain of admin sitting between a completed job and a clear conscience.
