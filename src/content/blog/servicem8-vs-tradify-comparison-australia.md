@@ -1,6 +1,6 @@
 ---
-title: 'ServiceM8 vs Tradify: Which Is Better for Australian Trade Businesses in 2026?'
-description: 'ServiceM8 vs Tradify: $29/mo vs $35/mo — which handles CCEW compliance better? 2026 comparison for Australian electricians and solar installers.'
+title: 'Tradify vs ServiceM8: Which Wins for Australian Tradies in 2026?'
+description: "Tradify vs ServiceM8: $35/mo vs $29/mo. ServiceM8 wins for CCEW compliance; Tradify for simpler jobs. 2026 verdict for Aussie tradies."
 updatedDate: 'Jul 20 2026'
 pubDate: 'Mar 28 2026'
 category: "Software Comparisons"

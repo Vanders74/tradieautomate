@@ -1,6 +1,6 @@
 ---
 title: 'How to Become an Electrician in Australia: 2026 Guide'
-description: "How to become an electrician in Australia: 4-year apprenticeship → Cert III → A-grade licence. TAFE costs $2,000–$6,000; apprentice wages $16–$68/hr."
+description: "How to become an electrician in Australia: the 4-year apprenticeship pathway → Cert III → A-grade licence. TAFE costs $2,000–$6,000; wages $16–$68/hr."
 pubDate: 'Jul 2026'
 updatedDate: 'Jul 2026'
 category: 'Business Growth'
