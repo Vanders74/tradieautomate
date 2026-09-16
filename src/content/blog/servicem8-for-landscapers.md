@@ -2,9 +2,18 @@
 title: 'ServiceM8 for Landscapers: Run Your Landscaping Business Without the Admin Chaos'
 description: 'How Australian landscaping and garden maintenance businesses use ServiceM8 to quote faster, schedule efficiently, invoice on completion, and grow beyond the sole trader ceiling.'
 pubDate: 'Apr 27 2026'
-updatedDate: 'Jul 30 2026'
+updatedDate: 'Sep 16 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-for-landscapers.jpg'
+faq:
+  - question: "Can ServiceM8 handle large landscape design and construction projects?"
+    answer: "Yes, with appropriate job structuring. For projects running multiple weeks with multiple stages, you can break the project into a sequence of scheduled jobs or use a single job with multi-stage tasks. Materials, labour, and subcontractors are all tracked against the project record."
+  - question: "Does ServiceM8 support quoting in $/m² for turf and garden areas?"
+    answer: "Yes. ServiceM8's quote builder supports quantity-based line items. You can set up a \"turf supply and installation\" line item priced per square metre, so quoting a specific area is a matter of entering the measurement and the system calculates the cost."
+  - question: "How does ServiceM8 handle plant procurement for a project?"
+    answer: "ServiceM8 has a materials module where you can log the plants and materials sourced for a job, with your cost and the markup charged to the client. This creates a job-level cost record so you can assess actual versus estimated margin at completion."
+  - question: "Can I use ServiceM8 for irrigation installation and service work?"
+    answer: "Absolutely. Irrigation installation and maintenance work fits perfectly within ServiceM8's job management workflow — quoting, scheduling, photo documentation of installation, and invoicing all work the same way as other landscaping work types."
 ---
 
 Landscaping sits in an interesting operational position: the work is largely unregulated compared to electrical or plumbing trades, but the business complexity is surprisingly high. Seasonal demand swings. Multiple concurrent jobs. Materials and plant sourcing. Subcontracted equipment hire. Recurrent maintenance contracts sitting alongside one-off project installs. Clients who want photos and updates throughout.

@@ -2,9 +2,18 @@
 title: 'AI Automation for Solar Installers: What Actually Works in 2026'
 description: 'A practical guide to AI automation for Australian solar installation businesses — quoting, compliance, scheduling, customer follow-up, and where to start. No hype, just real-world application.'
 pubDate: 'Apr 27 2026'
-updatedDate: 'Jul 30 2026'
+updatedDate: 'Sep 16 2026'
 category: "Solar & Battery"
 heroImage: '/hero-ai-automation-solar-installers.jpg'
+faq:
+  - question: "What AI automation actually works for solar installers in 2026?"
+    answer: "The applications delivering real ROI for Australian solar installers are: AI-powered lead response and qualification (instant replies while the lead is hot), automated quote follow-up sequences, compliance documentation automation (auto-populating CER documentation from job data), AI-assisted system sizing and quoting, and automated customer onboarding. These cut quote turnaround time and improve follow-up rates without replacing human judgement."
+  - question: "Can AI handle solar compliance documentation?"
+    answer: "AI automates the documentation workflow — capturing CER-required data, geo-tagged photos, and checklist items in a digital audit trail — but the CEC-accredited installer who signs off the installation remains legally responsible. No AI tool changes that accountability."
+  - question: "How much admin time can AI automation save a solar business?"
+    answer: "For a typical solar installation business, automation of lead response, quote follow-up, and documentation reduces admin hours substantially — most businesses recover multiple hours per week, with the biggest wins in quote follow-up (where most solar businesses leak revenue) and post-installation onboarding."
+  - question: "What should a solar installer never automate?"
+    answer: "Site assessments, compliance sign-off, relationship building, and complex problem-solving. The CEC-accredited installer remains legally accountable for sign-off; AI systematises the repeatable parts while the recovered time goes into the human-critical parts."
 ---
 
 The AI hype cycle has hit the trades. Every software vendor is promising AI-powered everything. Most of it is marketing.
