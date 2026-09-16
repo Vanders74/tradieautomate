@@ -288,7 +288,7 @@ With 3-phase in place, your customer can install up to 15kW of inverter capacity
 Pull the cable now while the switchboard is open. A 32A single-phase (7.4kW) or 32A 3-phase (22kW) circuit to the garage adds $200–$500 in materials during the upgrade vs $1,500–$3,000 if trenched separately later. Even if the customer doesn't have an EV yet, the circuit is there.
 
 ### ServiceM8 Job Management
-A 3-phase upgrade is a multi-day, multi-trade job — you, a Level 2 ASP, the meter provider, and potentially a builder for trenching. Running it through [ServiceM8 for Electricians](/blog/servicem8-for-electricians) keeps the DNSP application deadline, compliance certificate expiry, and subcontractor coordination in one place. [Try ServiceM8 free →](https://servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
+A 3-phase upgrade is a multi-day, multi-trade job — you, a Level 2 ASP, the meter provider, and potentially a builder for trenching. Running it through [ServiceM8 for Electricians](/blog/servicem8-for-electricians) keeps the DNSP application deadline, compliance certificate expiry, and subcontractor coordination in one place. [Try ServiceM8 free →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 ---
 
