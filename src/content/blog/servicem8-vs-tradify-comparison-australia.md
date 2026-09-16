@@ -16,7 +16,7 @@ faq:
     answer: "Yes. ServiceM8 offers a 14-day free trial with onboarding support. Most businesses migrate client details, job history templates, and pricing within a week. ServiceM8 has Australian-based support for the transition."
 ---
 
-When you're researching job management software for your trade business, **ServiceM8 and [Tradify](/blog/tradify-review-2026-australia)** come up together constantly. They're both designed for small trade businesses, they're both cloud-based, and they're both priced for the sub-enterprise market.
+When you're researching job management software for your trade business, **ServiceM8 and [Tradify](/blog/tradify-review-2026-australia/)** come up together constantly. They're both designed for small trade businesses, they're both cloud-based, and they're both priced for the sub-enterprise market.
 
 But for Australian electricians and solar installers, the decision hinges on more than price. Under the **Home Building Act 1989** administered by **NSW Fair Trading**, electrical contractors must lodge a Certificate of Compliance for Electrical Work (CCEW) within 7 days of completing prescribed work. The **Clean Energy Regulator (CER)** requires installers to retain compliance documentation demonstrating adherence to **AS/NZS 5033** (PV array installation) and **AS/NZS 5139** (battery storage) for up to five years post-installation.
 
@@ -101,11 +101,11 @@ For a plumber doing straightforward maintenance and repair work, Tradify's simpl
 
 **Custom form builder:** This is the feature that sets ServiceM8 apart for compliance-heavy trades. You can build pre-installation checklists, mid-job photo capture workflows, post-installation handover documents, and customer sign-off forms — all attached directly to job records and accessible from the app.
 
-For solar installers managing CER audit requirements, this isn't a nice-to-have. It's core infrastructure. We cover the full compliance picture in our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026).
+For solar installers managing CER audit requirements, this isn't a nice-to-have. It's core infrastructure. We cover the full compliance picture in our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/).
 
 **Review automation:** ServiceM8 has built-in tools to automatically send review requests after job completion. For trade businesses where Google reviews drive lead flow, this feature alone can pay for the software many times over.
 
-**Compliance document storage:** All photos, signatures, checklists, and forms are stored against the job record in the cloud. When the Clean Energy Regulator asks for installation documentation from 18 months ago, you pull it up in seconds. See why this matters in our guide to [ServiceM8 for Solar Installers](/blog/servicem8-for-solar-installers).
+**Compliance document storage:** All photos, signatures, checklists, and forms are stored against the job record in the cloud. When the Clean Energy Regulator asks for installation documentation from 18 months ago, you pull it up in seconds. See why this matters in our guide to [ServiceM8 for Solar Installers](/blog/servicem8-for-solar-installers/).
 
 **Sophisticated scheduling:** The dispatch board handles multiple technicians, geographic routing, and job priority management well.
 
@@ -131,7 +131,7 @@ For Australian solar installers and electricians, compliance is the whole game. 
 
 ServiceM8 is purpose-designed for this kind of compliance-heavy work. Custom forms mean you can build your entire CER compliance workflow directly into the job process — technicians can't close a job without completing the required documentation. Photos are automatically attached to the job record. Customer signatures are stored digitally.
 
-This is why solar and electrical businesses disproportionately use ServiceM8 — it's not just job management, it's compliance infrastructure. Read more about the specific AS/NZS standards in our [AS/NZS 5139 Battery Storage Compliance guide](/blog/as-nzs-5139-battery-storage-compliance).
+This is why solar and electrical businesses disproportionately use ServiceM8 — it's not just job management, it's compliance infrastructure. Read more about the specific AS/NZS standards in our [AS/NZS 5139 Battery Storage Compliance guide](/blog/as-nzs-5139-battery-storage-compliance/).
 
 ### Tradify
 
@@ -167,7 +167,7 @@ For most solar installers, the ServiceM8 app is simply better suited to on-site 
 - Looking for **review automation** to build your Google profile and drive organic referrals
 - Wanting a platform that grows with you — from 2 technicians to 20 without a software migration
 
-Understanding why the industry is moving this direction is worth reading: [Why Solar Installers Are Switching to Digital Job Management](/blog/digital-job-management-solar-installers).
+Understanding why the industry is moving this direction is worth reading: [Why Solar Installers Are Switching to Digital Job Management](/blog/digital-job-management-solar-installers/).
 
 ### Choose Tradify If You're:
 
@@ -211,13 +211,13 @@ Set up your first job today. No credit card required.
 
 ## Related Articles
 
-- [ServiceM8 vs simPRO: Which Job Management Software Is Right for Australian Tradies?](/blog/servicem8-vs-simpro-comparison-australia)
-- [ServiceM8 vs Fergus: Honest Comparison for Australian Trades](/blog/servicem8-vs-fergus)
-- [ServiceM8 vs AroFlo: Which Field Service Platform Is Right for You?](/blog/servicem8-vs-aroflo)
-- [ServiceM8 vs TradiePad: Which Job Management App Wins?](/blog/servicem8-vs-tradie-pad)
-- [ServiceM8 vs Tradify for Solar and Electrical Businesses](/blog/servicem8-vs-tradify-solar-electrical)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)
+- [ServiceM8 vs simPRO: Which Job Management Software Is Right for Australian Tradies?](/blog/servicem8-vs-simpro-comparison-australia/)
+- [ServiceM8 vs Fergus: Honest Comparison for Australian Trades](/blog/servicem8-vs-fergus/)
+- [ServiceM8 vs AroFlo: Which Field Service Platform Is Right for You?](/blog/servicem8-vs-aroflo/)
+- [ServiceM8 vs TradiePad: Which Job Management App Wins?](/blog/servicem8-vs-tradie-pad/)
+- [ServiceM8 vs Tradify for Solar and Electrical Businesses](/blog/servicem8-vs-tradify-solar-electrical/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/)
 
 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
@@ -245,4 +245,4 @@ Yes. ServiceM8 offers a 14-day free trial with onboarding support. Most business
 
 ## Related Reading
 
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)

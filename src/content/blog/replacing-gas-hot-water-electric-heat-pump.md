@@ -118,7 +118,7 @@ Heat pump hot water systems are eligible for federal STCs. The number of STCs an
 
 STCs are typically deducted from the purchase price by the retailer or installer who claims them. As an accredited STC agent, you can claim these yourself. As a sub-agent, you work through a registered agent who handles the paperwork. Either way, the benefit flows to the customer as a point-of-sale discount.
 
-See the [STC claim process guide](/blog/stc-claim-process-solar-installers-australia) for how STCs work in practice.
+See the [STC claim process guide](/blog/stc-claim-process-solar-installers-australia/) for how STCs work in practice.
 
 ### Victoria: Victorian Energy Upgrades (VEU)
 
@@ -207,7 +207,7 @@ The most effective approach depends on whether the customer already has solar:
 
 ### For non-solar customers
 
-The conversation works differently — HPHW becomes the entry point for the broader whole-home energy conversation, and adding solar to power the heat pump is a natural next step. See our guide on [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026) for how to use HPHW as a lead-in to solar sales.
+The conversation works differently — HPHW becomes the entry point for the broader whole-home energy conversation, and adding solar to power the heat pump is a natural next step. See our guide on [how to get more solar leads in Australia](/blog/how-to-get-more-solar-leads-australia-2026/) for how to use HPHW as a lead-in to solar sales.
 
 ### For customers with failing gas units
 
@@ -258,14 +258,14 @@ Yes — and this is one of the strongest selling points for solar-owning custome
 
 ## Related Reading
 
-- *[Heat Pump Hot Water Installation for Electricians Australia: Load, Rebates & Workflow](/blog/heat-pump-hot-water-installation-electricians-australia)*
-- *[Adding Battery Storage to Your Solar Business: The Complete Guide](/blog/adding-battery-storage-solar-business-australia)*
-- *[Solar Battery System Cost Australia 2026](/blog/solar-battery-system-cost-australia-2026)*
-- *[STC Claim Process for Solar Installers Australia](/blog/stc-claim-process-solar-installers-australia)*
-- *[EV Charger Installation for Electricians Australia 2026](/blog/ev-charger-installation-electricians-australia-2026)*
-- *[Solar Monitoring and After-Sales Revenue for Australian Installers](/blog/solar-monitoring-after-sales-revenue-australia)*
-- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
-- *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses)*
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+- *[Heat Pump Hot Water Installation for Electricians Australia: Load, Rebates & Workflow](/blog/heat-pump-hot-water-installation-electricians-australia/)*
+- *[Adding Battery Storage to Your Solar Business: The Complete Guide](/blog/adding-battery-storage-solar-business-australia/)*
+- *[Solar Battery System Cost Australia 2026](/blog/solar-battery-system-cost-australia-2026/)*
+- *[STC Claim Process for Solar Installers Australia](/blog/stc-claim-process-solar-installers-australia/)*
+- *[EV Charger Installation for Electricians Australia 2026](/blog/ev-charger-installation-electricians-australia-2026/)*
+- *[Solar Monitoring and After-Sales Revenue for Australian Installers](/blog/solar-monitoring-after-sales-revenue-australia/)*
+- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers/)*
+- *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses/)*
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)

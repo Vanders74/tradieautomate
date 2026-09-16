@@ -211,12 +211,12 @@ Yes, provided the sole trader holds a current electrical licence and can demonst
 
 ## Related Reading
 
-- *[Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026)*
-- *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
-- *[Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)*
-- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
-- *[Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia)*
-- *[QLD Electrical Contractor Licence 2026](/blog/qld-electrical-contractor-licence-guide-2026)*
+- *[Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026/)*
+- *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth/)*
+- *[Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia/)*
+- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)*
+- *[Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia/)*
+- *[QLD Electrical Contractor Licence 2026](/blog/qld-electrical-contractor-licence-guide-2026/)*
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many apprentices can one qualified electrician supervise in Australia?","acceptedAnswer":{"@type":"Answer","text":"The standard ratio across most states is 1:1 — one apprentice per qualified tradesperson actively supervising. With two qualified tradespeople employed, you can generally take on two apprentices. Confirm with your state training authority."}},{"@type":"Question","name":"What federal incentives are available for hiring an electrical apprentice in 2026?","acceptedAnswer":{"@type":"Answer","text":"The Australian Apprenticeships Incentive System (AAIS) provides a Hiring Incentive of up to $3,500 for priority apprentices, a Recommencement Incentive of up to $1,500, and a mature-age wage subsidy of up to $4,000 for apprentices aged 25 or older."}},{"@type":"Question","name":"What does it cost to employ an electrical apprentice in Year 1?","acceptedAnswer":{"@type":"Answer","text":"Approximately $38,000–$44,000 all-in before federal incentive payments. After the AAIS Hiring Incentive, net cost is roughly $34,500–$40,500."}},{"@type":"Question","name":"Can a sole trader employ an electrical apprentice?","acceptedAnswer":{"@type":"Answer","text":"Yes, provided the sole trader holds a current electrical licence and can demonstrate direct supervision of the apprentice. The 1:1 ratio means a sole trader can employ one apprentice."}}]}

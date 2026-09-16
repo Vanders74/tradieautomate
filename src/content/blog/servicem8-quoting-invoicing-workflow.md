@@ -112,7 +112,7 @@ ServiceM8 syncs to Xero in real time (MYOB via periodic sync). When a quote is a
 
 The accounting integration eliminates the most common source of admin error in trade businesses: manual data re-entry from one system to another. An office manager no longer needs to take the technician's job sheet, type it into Xero, cross-reference the quote, and manually match the payment when it arrives. The entire chain is automated.
 
-For businesses using the ServiceM8-Xero integration, see our full [ServiceM8 Xero setup guide](/blog/servicem8-xero-integration-guide-australia) for the step-by-step configuration.
+For businesses using the ServiceM8-Xero integration, see our full [ServiceM8 Xero setup guide](/blog/servicem8-xero-integration-guide-australia/) for the step-by-step configuration.
 
 ---
 
@@ -172,7 +172,7 @@ If you're setting up the ServiceM8 quoting-to-payment workflow for the first tim
 
 3. **Connect Stripe** — Activate Stripe integration in Settings → Payments. This enables the "Pay Now" button on all invoices and Tap to Pay for on-site collection.
 
-4. **Connect Xero** — Link your Xero account for real-time invoice sync and automatic payment reconciliation. See the [ServiceM8 Xero integration guide](/blog/servicem8-xero-integration-guide-australia) for the full setup.
+4. **Connect Xero** — Link your Xero account for real-time invoice sync and automatic payment reconciliation. See the [ServiceM8 Xero integration guide](/blog/servicem8-xero-integration-guide-australia/) for the full setup.
 
 5. **Configure automated reminders** — Set your reminder cadence (7/14/21 days recommended) and choose SMS or email based on client preference.
 
@@ -185,11 +185,11 @@ If you're setting up the ServiceM8 quoting-to-payment workflow for the first tim
 
 ## Related Reading
 
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [ServiceM8 Pricing Plans 2026: Real Costs, Add-Ons & What You Actually Pay](/blog/servicem8-pricing-plans-australia-2026)
-- [ServiceM8 Xero Integration — Setup Guide for Australian Trades](/blog/servicem8-xero-integration-guide-australia)
-- [ServiceM8 for Electricians: The Platform Australian Sparkies Use](/blog/servicem8-for-electricians)
-- [The Paperless Trade Roadmap: Eliminating Admin Chaos](/blog/paperless-trade-roadmap-operational-efficiency)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [ServiceM8 Pricing Plans 2026: Real Costs, Add-Ons & What You Actually Pay](/blog/servicem8-pricing-plans-australia-2026/)
+- [ServiceM8 Xero Integration — Setup Guide for Australian Trades](/blog/servicem8-xero-integration-guide-australia/)
+- [ServiceM8 for Electricians: The Platform Australian Sparkies Use](/blog/servicem8-for-electricians/)
+- [The Paperless Trade Roadmap: Eliminating Admin Chaos](/blog/paperless-trade-roadmap-operational-efficiency/)
 - [Tradie Admin Cost Calculator: How Much is Admin Costing Your Business?](/tools/admin-cost-calculator)
 
 ---

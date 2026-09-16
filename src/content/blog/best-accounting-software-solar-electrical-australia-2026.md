@@ -12,7 +12,7 @@ Most solar installers and electricians start out with someone doing the books â€
 
 The three dominant players in the Australian small business accounting market are Xero, MYOB, and QuickBooks Online. All three handle the basics: invoicing, expenses, GST, payroll (in some tiers), bank reconciliation, and financial reporting. The differences are in depth, ease of use, integration with trade software like ServiceM8, and price.
 
-If you're already using ServiceM8, see our [ServiceM8-Xero integration guide](/blog/servicem8-xero-integration-guide-australia) for the specific setup steps.
+If you're already using ServiceM8, see our [ServiceM8-Xero integration guide](/blog/servicem8-xero-integration-guide-australia/) for the specific setup steps.
 
 This guide cuts through the marketing to tell you what matters for a solar or electrical trade business in 2026.
 
@@ -60,7 +60,7 @@ For a business using ServiceM8 as its job management system and Xero as its acco
 
 Xero's Australian payroll module handles the Electrical Award rate structure â€” it's not a perfect automated solution for complex award rates, but with correct setup it handles most scenarios well. Leave management, superannuation lodgement (SuperStream), and Single Touch Payroll reporting are all native.
 
-**Key limitation:** Xero Payroll doesn't automatically calculate award allowances (industry allowance, tool allowance, height allowance). These need to be set up as payroll items and applied manually or through pay templates. This is a known limitation; an experienced payroll bookkeeper can set it up correctly. See our [complete guide to Xero Payroll for electrical award allowances](/blog/xero-payroll-electrical-award-allowances) for step-by-step setup instructions.
+**Key limitation:** Xero Payroll doesn't automatically calculate award allowances (industry allowance, tool allowance, height allowance). These need to be set up as payroll items and applied manually or through pay templates. This is a known limitation; an experienced payroll bookkeeper can set it up correctly. See our [complete guide to Xero Payroll for electrical award allowances](/blog/xero-payroll-electrical-award-allowances/) for step-by-step setup instructions.
 
 ### Xero Pricing (2026)
 
@@ -213,9 +213,9 @@ For businesses doing significant construction work (not just electrical installa
 
 ## Related Reading
 
-- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
-- *[Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026)*
-- *[The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)*
-- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
-- *[ServiceM8 vs Jobber: The 2026 Tradie Software Guide](/blog/servicem8-vs-jobber-tradie-software-guide-2026)*
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)*
+- *[Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026/)*
+- *[The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency/)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)*
+- *[ServiceM8 vs Jobber: The 2026 Tradie Software Guide](/blog/servicem8-vs-jobber-tradie-software-guide-2026/)*
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)

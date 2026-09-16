@@ -105,7 +105,7 @@ Where AI automation helps:
 - **Photo documentation:** AI-assisted photo capture prompts technicians to photograph specific elements (labelling, disconnect switches, installation angles) before a job can be marked complete
 - **Audit trail creation:** Every action is timestamped with the technician's identity — creating an automatic audit trail without extra effort
 
-ServiceM8 handles all of this natively, with the ability to build custom digital forms that mirror your specific compliance requirements. See our full breakdown in [ServiceM8 for Solar Installers](/blog/servicem8-for-solar-installers) and our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance).
+ServiceM8 handles all of this natively, with the ability to build custom digital forms that mirror your specific compliance requirements. See our full breakdown in [ServiceM8 for Solar Installers](/blog/servicem8-for-solar-installers/) and our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance/).
 
 **The result:** Near-zero compliance paperwork burden for field staff, complete and auditable records for every job, and dramatically reduced risk of CER audit failures.
 
@@ -196,20 +196,20 @@ Most automation features — including SMS reminders, automated follow-ups, and 
 
 ### How do I use AI for compliance documentation specifically?
 
-The most practical approach is using ServiceM8's digital form builder to create compliance checklists and certificate templates that auto-populate from job data. Combined with required photo capture steps, this creates audit-ready compliance documentation without extra effort from field staff. See our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026) for a detailed walkthrough.
+The most practical approach is using ServiceM8's digital form builder to create compliance checklists and certificate templates that auto-populate from job data. Combined with required photo capture steps, this creates audit-ready compliance documentation without extra effort from field staff. See our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/) for a detailed walkthrough.
 
 ---
 
 ## Related Articles
 
-- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)
-- [AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance)
-- [AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)
-- [AI Automation for Electricians and Plumbers](/blog/ai-automation-electrical-plumbing)
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
-- [Tap to Pay on iPhone for Australian Tradies: Get Paid on the Spot](/blog/tap-to-pay-iphone-tradies-australia)
+- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers/)
+- [AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance/)
+- [AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers/)
+- [AI Automation for Electricians and Plumbers](/blog/ai-automation-electrical-plumbing/)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)
+- [Tap to Pay on iPhone for Australian Tradies: Get Paid on the Spot](/blog/tap-to-pay-iphone-tradies-australia/)
 
 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
@@ -235,7 +235,7 @@ Most automation features — including SMS reminders, automated follow-ups, and 
 
 ### How do I use AI for compliance documentation specifically?
 
-The most practical approach is using ServiceM8's digital form builder to create compliance checklists and certificate templates that auto-populate from job data. Combined with required photo capture steps, this creates audit-ready compliance documentation without extra effort from field staff. See our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026) for a detailed walkthrough.
+The most practical approach is using ServiceM8's digital form builder to create compliance checklists and certificate templates that auto-populate from job data. Combined with required photo capture steps, this creates audit-ready compliance documentation without extra effort from field staff. See our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/) for a detailed walkthrough.
 
 ### What AI automation tools actually work for Australian trade businesses?
 

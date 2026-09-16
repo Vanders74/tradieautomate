@@ -199,11 +199,11 @@ Breaking into commercial EV work requires demonstrating capability before most c
 
 ## Related Reading
 
-- [EV Charging at Commercial Premises Australia 2026](/blog/ev-charging-commercial-premises-australia-2026)
-- [EV Charger Installation Cost Australia 2026](/blog/ev-charger-installation-cost-australia-2026)
-- [EV Charger Network Installation — Business Opportunity](/blog/ev-charger-network-installation-business-opportunity)
-- [Commercial Solar System Compliance Australia](/blog/commercial-solar-system-compliance-australia)
-- [ServiceM8 for Electrical Businesses — Review 2026](/blog/servicem8-review-2026)
+- [EV Charging at Commercial Premises Australia 2026](/blog/ev-charging-commercial-premises-australia-2026/)
+- [EV Charger Installation Cost Australia 2026](/blog/ev-charger-installation-cost-australia-2026/)
+- [EV Charger Network Installation — Business Opportunity](/blog/ev-charger-network-installation-business-opportunity/)
+- [Commercial Solar System Compliance Australia](/blog/commercial-solar-system-compliance-australia/)
+- [ServiceM8 for Electrical Businesses — Review 2026](/blog/servicem8-review-2026/)
 
 ---
 

@@ -155,11 +155,11 @@ ServiceM8's custom form builder handles all of this — the STC assignment, stat
 
 ## Related Reading
 
-- [SA Solar Battery Rebate 2026 — Application Guide for Installers](/blog/sa-solar-battery-rebate-2026)
-- [VIC Solar Homes Program 2026 — Battery Rebate Guide](/blog/vic-solar-homes-program-rebate-2026)
-- [STC Claim Process for Solar Installers Australia](/blog/stc-claim-process-solar-installers-australia)
-- [CER Audit Prep for Solar Installers — What to Have Ready](/blog/cer-audit-prep-solar-installers)
-- [Solar Compliance Checklist 2026 — What Installers Must Document](/blog/solar-compliance-checklist-2026)
+- [SA Solar Battery Rebate 2026 — Application Guide for Installers](/blog/sa-solar-battery-rebate-2026/)
+- [VIC Solar Homes Program 2026 — Battery Rebate Guide](/blog/vic-solar-homes-program-rebate-2026/)
+- [STC Claim Process for Solar Installers Australia](/blog/stc-claim-process-solar-installers-australia/)
+- [CER Audit Prep for Solar Installers — What to Have Ready](/blog/cer-audit-prep-solar-installers/)
+- [Solar Compliance Checklist 2026 — What Installers Must Document](/blog/solar-compliance-checklist-2026/)
 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)

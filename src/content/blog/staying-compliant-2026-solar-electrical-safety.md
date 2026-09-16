@@ -76,9 +76,9 @@ Based on CER enforcement communications and industry feedback, the highest-scrut
 
 **Customer declaration compliance.** The customer's signed declaration (that the system was installed as described) is a required component of an STC claim. Missing or unsigned customer declarations are a common audit failure point.
 
-**Post-installation compliance documentation.** For battery installations, the updated [AS/NZS 5139:2019 standard](/blog/as-nzs-5139-battery-storage-compliance) requirements — clearances, installation documentation, commissioning records — are increasingly verified during CER audits.
+**Post-installation compliance documentation.** For battery installations, the updated [AS/NZS 5139:2019 standard](/blog/as-nzs-5139-battery-storage-compliance/) requirements — clearances, installation documentation, commissioning records — are increasingly verified during CER audits.
 
-For a complete picture of CER audit preparation, see our [CER audit prep guide for solar installers](/blog/cer-audit-prep-solar-installers).
+For a complete picture of CER audit preparation, see our [CER audit prep guide for solar installers](/blog/cer-audit-prep-solar-installers/).
 
 ### Accreditation Renewal and CPD
 
@@ -106,7 +106,7 @@ AS/NZS 5033:2021 is the current version governing design and installation of PV 
 
 **DC cabling compliance.** Solar DC cabling is a specific product category with specific installation requirements. Non-compliant cabling — including the use of general electrical cable in DC solar applications — is a compliance failure.
 
-**Labelling requirements.** AS/NZS 5033 specifies labelling for isolators, combiner boxes, and cabling. Missing or incorrect labels are among the most common audit failure points. See our [solar compliance checklist](/blog/solar-compliance-checklist-2026) for the full labelling requirements.
+**Labelling requirements.** AS/NZS 5033 specifies labelling for isolators, combiner boxes, and cabling. Missing or incorrect labels are among the most common audit failure points. See our [solar compliance checklist](/blog/solar-compliance-checklist-2026/) for the full labelling requirements.
 
 **Array earthing.** The earthing requirements for PV arrays are specific and frequently generate non-compliance in audits.
 
@@ -122,7 +122,7 @@ For battery installers — increasingly the majority of solar businesses as batt
 
 **Commissioning documentation.** Battery systems must be commissioned per AS/NZS 5139 requirements, and the commissioning process must be documented.
 
-Our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance) covers every requirement in plain English — read it before your next battery installation if you haven't already.
+Our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance/) covers every requirement in plain English — read it before your next battery installation if you haven't already.
 
 ---
 
@@ -135,11 +135,11 @@ Electrical licensing and compliance requirements vary by state. The key obligati
 - **Certificate of Electrical Safety (CES):** Required for electrical installation work, including solar and battery. Must be issued within 30 days of completing the work.
 - **Notification requirements:** Certain work types require notification to your network distributor. Know which jobs trigger this obligation.
 - **Licensed electrical inspection:** Some work types require inspection by a licensed electrical inspector before connection. Confirm requirements for your jurisdiction before scheduling connection.
-- **Victorian Energy Upgrades (VEU):** If you're installing heat pump hot water systems, the state VEU program generates VEECs on top of STCs — with its own ESC accreditation and documentation requirements. See our [VEU guide for electricians](/blog/victorian-energy-upgrades-veu-electricians-guide-2026).
+- **Victorian Energy Upgrades (VEU):** If you're installing heat pump hot water systems, the state VEU program generates VEECs on top of STCs — with its own ESC accreditation and documentation requirements. See our [VEU guide for electricians](/blog/victorian-energy-upgrades-veu-electricians-guide-2026/).
 
 ### New South Wales — SafeWork NSW
 
-- **Certificate of Compliance — Electrical Work (CCEW):** The NSW equivalent of the Victorian CES. Must be issued for most electrical installation work. For full detail on timeframes, categories, and digital workflows, see our [complete CCEW guide for NSW electricians](/blog/ccew-nsw-electrical-compliance-guide-2026).
+- **Certificate of Compliance — Electrical Work (CCEW):** The NSW equivalent of the Victorian CES. Must be issued for most electrical installation work. For full detail on timeframes, categories, and digital workflows, see our [complete CCEW guide for NSW electricians](/blog/ccew-nsw-electrical-compliance-guide-2026/).
 - **Accredited Service Provider (ASP) requirements:** Work on the network — including solar connection — often requires involvement of an Accredited Service Provider. Know whether your work type requires ASP involvement.
 
 ### Queensland — Electrical Safety Office
@@ -209,7 +209,7 @@ With [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradie
 
 Every item on the checklist above becomes a digital step in your job workflow — enforced automatically, documented against the job record, retrievable in seconds when an auditor asks.
 
-This is what [digital job management for solar businesses](/blog/digital-job-management-solar-installers) actually means in practice. Not just a nicer way to schedule jobs — a compliance infrastructure that protects your accreditation and your business as you scale.
+This is what [digital job management for solar businesses](/blog/digital-job-management-solar-installers/) actually means in practice. Not just a nicer way to schedule jobs — a compliance infrastructure that protects your accreditation and your business as you scale.
 
 ---
 
@@ -222,25 +222,25 @@ Build your compliance workflows, embed your SWMS checklist, and create the docum
 ---
 
 *Related reading:*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance)*
-- *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
-- *[The Paperless Trade Roadmap: Eliminating Admin Chaos](/blog/paperless-trade-roadmap-operational-efficiency)*
-- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
-- *[ServiceM8 for Electricians: The Platform Australian Sparkies Use](/blog/servicem8-for-electricians)*
-- *[solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)*
-- *[The 2026 Solar Playbook: How to Win the Battery Upgrade Wave](/blog/solar-playbook-2026-battery-upgrade)*
-- *[The 1.5kW Export Limit Explained for Solar Installers (CSIP-Aus)](/blog/csip-aus-export-limit-1-5kw-solar)*
-- [Victorian Energy Upgrades (VEU) Guide: $250–$1,650 per heat pump job via VEECs](/blog/victorian-energy-upgrades-veu-electricians-guide-2026)
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance/)*
+- *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)*
+- *[The Paperless Trade Roadmap: Eliminating Admin Chaos](/blog/paperless-trade-roadmap-operational-efficiency/)*
+- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers/)*
+- *[ServiceM8 for Electricians: The Platform Australian Sparkies Use](/blog/servicem8-for-electricians/)*
+- *[solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia/)*
+- *[The 2026 Solar Playbook: How to Win the Battery Upgrade Wave](/blog/solar-playbook-2026-battery-upgrade/)*
+- *[The 1.5kW Export Limit Explained for Solar Installers (CSIP-Aus)](/blog/csip-aus-export-limit-1-5kw-solar/)*
+- [Victorian Energy Upgrades (VEU) Guide: $250–$1,650 per heat pump job via VEECs](/blog/victorian-energy-upgrades-veu-electricians-guide-2026/)
 
 
-**See also:** [QLD Electrical Contractor Licence 2026: QBCC, ESQ & QLeave Requirements](/blog/qld-electrical-contractor-licence-guide-2026)
+**See also:** [QLD Electrical Contractor Licence 2026: QBCC, ESQ & QLeave Requirements](/blog/qld-electrical-contractor-licence-guide-2026/)
 
 
-**See also:** [WA Electrical Contractor Licence 2026: EnergySafety, CCEI & Compliance Guide](/blog/wa-electrical-contractor-licence-guide-2026)
+**See also:** [WA Electrical Contractor Licence 2026: EnergySafety, CCEI & Compliance Guide](/blog/wa-electrical-contractor-licence-guide-2026/)
 
 
-**See also:** [Commercial Solar System Compliance Australia: CEC, DNSP & Metering](/blog/commercial-solar-system-compliance-australia)
+**See also:** [Commercial Solar System Compliance Australia: CEC, DNSP & Metering](/blog/commercial-solar-system-compliance-australia/)
 
 ---
 

@@ -177,7 +177,7 @@ Make it easy to say yes. Include a "how to accept this quote" instruction: click
 
 **Follow-up sequence:** Don't send and wait. A 3-touch follow-up sequence (Day 1: confirmation SMS "I've sent the quote — happy to walk through it with you", Day 3: check-in call, Day 7: final follow-up) can convert 30–40% more quotes. Most of your competitors don't follow up — this alone is a competitive advantage.
 
-See our detailed guide on [SMS vs email for solar quote conversion](/blog/sms-vs-email-quotes-customer-experience).
+See our detailed guide on [SMS vs email for solar quote conversion](/blog/sms-vs-email-quotes-customer-experience/).
 
 ---
 
@@ -226,11 +226,11 @@ Many customers don't spontaneously ask for battery in the quote request but woul
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- *[SMS vs Email: Which Gets More Solar Quotes Signed?](/blog/sms-vs-email-quotes-customer-experience)*
-- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
-- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
-- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
-- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
-- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- *[SMS vs Email: Which Gets More Solar Quotes Signed?](/blog/sms-vs-email-quotes-customer-experience/)*
+- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026/)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)*
+- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers/)*
+- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)*
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)

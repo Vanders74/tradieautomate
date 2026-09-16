@@ -138,7 +138,7 @@ Victorian RECs must hold current civil liability insurance (equivalent to public
 
 **Insurance exemption:** If you hold a REC registration but are not actively trading (e.g. maintaining registration while transitioning between business structures), you can apply for an insurance exemption from ESV by submitting the Insurance Exemption Form along with your application. This allows you to hold an inactive REC without maintaining the insurance.
 
-See our [electrical contractor insurance guide](/blog/electrical-contractor-insurance-australia-2026) for a detailed breakdown of coverage types, minimum amounts, and how to structure your policy correctly for Victorian REC requirements.
+See our [electrical contractor insurance guide](/blog/electrical-contractor-insurance-australia-2026/) for a detailed breakdown of coverage types, minimum amounts, and how to structure your policy correctly for Victorian REC requirements.
 
 ---
 
@@ -162,7 +162,7 @@ The Certificate of Electrical Safety (CES) is a mandatory compliance document th
 
 Failing to issue a CES within 28 days is a breach of the *Electricity Safety Act 1998* and can result in fines, licence suspension, or revocation. With ESV's increased audit activity for solar installations, timely CES lodgement is not optional — it's a minimum standard that ESV actively monitors.
 
-For a complete guide to CES requirements — including what the document must contain for solar jobs and how to lodge through ESV Connect — see our [Certificate of Electrical Safety Victoria guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026).
+For a complete guide to CES requirements — including what the document must contain for solar jobs and how to lodge through ESV Connect — see our [Certificate of Electrical Safety Victoria guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/).
 
 ---
 
@@ -302,16 +302,16 @@ Submitting incomplete documentation. The most common rejection reasons are: insu
 
 ## Related Reading
 
-- *[Certificate of Electrical Safety Victoria: Avoid ESV Audit Failures in 2026](/blog/certificate-electrical-safety-ces-victoria-guide-2026)*
-- *[QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026)*
-- *[SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026)*
-- *[Electrical Contractor Insurance Australia 2026: What You Need and Why](/blog/electrical-contractor-insurance-australia-2026)*
-- *[Solar Compliance Checklist for Australian Installers 2026](/blog/solar-compliance-checklist-2026)*
-- *[CER Audit Prep for Solar Installers: Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
-- *[Staying Compliant in 2026: The Complete Solar & Electrical Safety Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
-- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
-- *[NSW Electrical Contractor Licence 2026: Fair Trading, Home Building Act & Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026)*
-- *[Apprentice Ratios & Hiring Incentives for Electricians Australia 2026](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026)*
-- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
-- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
+- *[Certificate of Electrical Safety Victoria: Avoid ESV Audit Failures in 2026](/blog/certificate-electrical-safety-ces-victoria-guide-2026/)*
+- *[QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026/)*
+- *[SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026/)*
+- *[Electrical Contractor Insurance Australia 2026: What You Need and Why](/blog/electrical-contractor-insurance-australia-2026/)*
+- *[Solar Compliance Checklist for Australian Installers 2026](/blog/solar-compliance-checklist-2026/)*
+- *[CER Audit Prep for Solar Installers: Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)*
+- *[Staying Compliant in 2026: The Complete Solar & Electrical Safety Guide](/blog/staying-compliant-2026-solar-electrical-safety/)*
+- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians/)*
+- *[NSW Electrical Contractor Licence 2026: Fair Trading, Home Building Act & Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026/)*
+- *[Apprentice Ratios & Hiring Incentives for Electricians Australia 2026](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026/)*
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)
+- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity/)

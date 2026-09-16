@@ -94,13 +94,13 @@ Cable run complexity is the second most common source of under-quoted EV charger
 
 **Smart EVSE (OCPP-compatible):** App control, scheduling, solar integration, load management, energy monitoring. Hardware cost $600–$1,400. The difference in customer experience is significant — and smart chargers generate far fewer support calls about unexpected power bills.
 
-For customers with solar PV, a smart charger is a genuine recommendation, not an upsell. The ability to schedule EV charging during peak solar generation hours can offset the entire cost of the charger within 12–18 months for high-mileage EV users. See our [EV charger installation guide for electricians](/blog/ev-charger-installation-electricians-australia-2026) for a full breakdown of smart charger options and solar integration.
+For customers with solar PV, a smart charger is a genuine recommendation, not an upsell. The ability to schedule EV charging during peak solar generation hours can offset the entire cost of the charger within 12–18 months for high-mileage EV users. See our [EV charger installation guide for electricians](/blog/ev-charger-installation-electricians-australia-2026/) for a full breakdown of smart charger options and solar integration.
 
 ---
 
 ## Commercial EV Charger Installation Costs
 
-Commercial EV charging is materially more complex than residential installation, and the pricing reflects that complexity. See our [EV charging at commercial premises guide](/blog/ev-charging-commercial-premises-australia-2026) for a detailed breakdown — the summary figures are:
+Commercial EV charging is materially more complex than residential installation, and the pricing reflects that complexity. See our [EV charging at commercial premises guide](/blog/ev-charging-commercial-premises-australia-2026/) for a detailed breakdown — the summary figures are:
 
 | Job Type | Typical Price Range |
 |---|---|
@@ -139,7 +139,7 @@ Many electricians are reluctant to charge for quotes. But a site assessment for 
 
 EV charger installations appear straightforward but contain real cost traps — time-consuming cable runs, switchboard surprises, and commissioning time that expands if the customer has a non-standard solar setup. Your charge-out rate must recover your actual employment cost, overhead allocation, and target margin — not just the labour time that goes smoothly.
 
-Use the [hidden admin cost calculator](/blog/hidden-admin-cost-calculator) to understand what your business is really spending on admin, quoting, and compliance across all jobs — and how that affects the margin you need to build into your EV charger pricing.
+Use the [hidden admin cost calculator](/blog/hidden-admin-cost-calculator/) to understand what your business is really spending on admin, quoting, and compliance across all jobs — and how that affects the margin you need to build into your EV charger pricing.
 
 ### Track EV Charger Jobs Separately
 
@@ -153,7 +153,7 @@ EV charger installation is one of the strongest referral generators in the elect
 
 Build a systematic referral request into your EV charger job completion workflow. A brief message to the customer 2–3 weeks after installation — "Hope you're enjoying the new charger — if any of your neighbours or friends are looking for someone to install theirs, we'd love to hear from them" — is low-cost and generates genuine results.
 
-For building a broader lead generation system for your solar and electrical business, see our [how to get more solar leads in Australia guide](/blog/how-to-get-more-solar-leads-australia-2026).
+For building a broader lead generation system for your solar and electrical business, see our [how to get more solar leads in Australia guide](/blog/how-to-get-more-solar-leads-australia-2026/).
 
 ---
 
@@ -168,16 +168,16 @@ For building a broader lead generation system for your solar and electrical busi
 
 ## Related Reading
 
-- *[EV Charger Installation for Electricians: Certification, Compliance and Workflow in Australia](/blog/ev-charger-installation-electricians-australia-2026)*
-- *[EV Charging at Commercial Premises Australia 2026: What Electricians Need to Know](/blog/ev-charging-commercial-premises-australia-2026)*
-- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
-- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
-- *[The Hidden Admin Cost Calculator: What Aussie Tradies Really Lose Each Week](/blog/hidden-admin-cost-calculator)*
-- *[How to Get More Solar Leads in Australia 2026](/blog/how-to-get-more-solar-leads-australia-2026)*
-- *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
-- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- *[Electrical Switchboard Upgrade Cost Australia 2026: What to Expect and Why](/blog/electrical-switchboard-upgrade-cost-australia-2026)*
-- *[Commercial EV Charging Installation: The Electrician's Business Guide for 2026](/blog/commercial-ev-charging-installation-guide-electricians)*
-- *[EV Charger Installation Business Case for Electricians 2026](/blog/ev-charger-installation-business-case-electricians-2026)*
-- *[RCD Safety Switch Requirements Under AS/NZS 3000](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026)*
+- *[EV Charger Installation for Electricians: Certification, Compliance and Workflow in Australia](/blog/ev-charger-installation-electricians-australia-2026/)*
+- *[EV Charging at Commercial Premises Australia 2026: What Electricians Need to Know](/blog/ev-charging-commercial-premises-australia-2026/)*
+- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026/)*
+- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)*
+- *[The Hidden Admin Cost Calculator: What Aussie Tradies Really Lose Each Week](/blog/hidden-admin-cost-calculator/)*
+- *[How to Get More Solar Leads in Australia 2026](/blog/how-to-get-more-solar-leads-australia-2026/)*
+- *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth/)*
+- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians/)*
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- *[Electrical Switchboard Upgrade Cost Australia 2026: What to Expect and Why](/blog/electrical-switchboard-upgrade-cost-australia-2026/)*
+- *[Commercial EV Charging Installation: The Electrician's Business Guide for 2026](/blog/commercial-ev-charging-installation-guide-electricians/)*
+- *[EV Charger Installation Business Case for Electricians 2026](/blog/ev-charger-installation-business-case-electricians-2026/)*
+- *[RCD Safety Switch Requirements Under AS/NZS 3000](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026/)*

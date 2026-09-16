@@ -55,7 +55,7 @@ Circuit breaker boards built in the 1990s and 2000s may be retainable but often 
 
 Three-phase switchboard upgrades are more expensive because the board is physically larger, the protection devices cover three conductors, and the work takes longer. Homes with three-phase supply — common in Queensland and parts of WA and SA for older properties — will see costs at the higher end of the range.
 
-A single-phase home that wants to support a large EV charger or a 15+ kW solar system may need a supply upgrade to three-phase as a separate process, coordinated with the DNSP (Distribution Network Service Provider). This can add weeks and $1,500–$4,000 to the project. See the [3-phase power upgrade guide](/blog/3-phase-power-upgrade-guide-australia-2026) for the full process, DNSP application, and AS/NZS 3000 requirements.
+A single-phase home that wants to support a large EV charger or a 15+ kW solar system may need a supply upgrade to three-phase as a separate process, coordinated with the DNSP (Distribution Network Service Provider). This can add weeks and $1,500–$4,000 to the project. See the [3-phase power upgrade guide](/blog/3-phase-power-upgrade-guide-australia-2026/) for the full process, DNSP application, and AS/NZS 3000 requirements.
 
 ### 3. Metering Position and Switchboard Location
 
@@ -176,8 +176,8 @@ No — switchboard upgrades are a maintenance and compliance cost, not an insure
 - [Staying Compliant in 2026: Solar and Electrical Safety](/blog/staying-compliant-2026-solar-electrical-safety/)
 - [CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers/)
 - [Best Job Management Software for Electricians Australia](/blog/best-job-management-software-electricians-australia/)
-- *[RCD Safety Switch Requirements Under AS/NZS 3000 — Electricians' 2026 Guide](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026)*
-- *[EV Charger Installation Business Case for Electricians 2026](/blog/ev-charger-installation-business-case-electricians-2026)*
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+- *[RCD Safety Switch Requirements Under AS/NZS 3000 — Electricians' 2026 Guide](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026/)*
+- *[EV Charger Installation Business Case for Electricians 2026](/blog/ev-charger-installation-business-case-electricians-2026/)*
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)

@@ -95,7 +95,7 @@ For Victorian electricians, this means your Certificate of Electrical Safety wor
 
 For NSW plumbers, your Certificate of Compliance (Plumbing Work) follows the same pattern — built as a template, enforced in the workflow, stored with the job.
 
-See our detailed guides on [ServiceM8 for electricians](/blog/servicem8-for-electricians) and [ServiceM8 for plumbers](/blog/servicem8-for-plumbers) for the full compliance workflow.
+See our detailed guides on [ServiceM8 for electricians](/blog/servicem8-for-electricians/) and [ServiceM8 for plumbers](/blog/servicem8-for-plumbers/) for the full compliance workflow.
 
 **Beyond ServiceM8 — AI-enhanced compliance:**
 
@@ -184,7 +184,7 @@ The licensing authorities in every Australian state are active. SafeWork NSW, En
 
 A well-automated compliance documentation workflow doesn't just save time. It creates the audit-ready records that protect your licence when scrutiny arrives. And given increasing enforcement activity across the sector, the businesses that have systematised their compliance documentation are in a categorically different risk position than those still running on paper.
 
-For the full picture on AI automation across all trade types, see our broader [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia).
+For the full picture on AI automation across all trade types, see our broader [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/).
 
 ---
 
@@ -209,13 +209,13 @@ Use AI to systematise everything that's systematisable. Invest the recovered tim
 > [Download free →](/playbook)
 
 *Related reading:*
-- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
-- *[ServiceM8 for Electricians: Compliance-Ready Job Management](/blog/servicem8-for-electricians)*
-- *[ServiceM8 for Plumbers: Run a Tighter Plumbing Business](/blog/servicem8-for-plumbers)*
-- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)*
-- *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
+- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)*
+- *[ServiceM8 for Electricians: Compliance-Ready Job Management](/blog/servicem8-for-electricians/)*
+- *[ServiceM8 for Plumbers: Run a Tighter Plumbing Business](/blog/servicem8-for-plumbers/)*
+- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/)*
+- *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)*
 ---
 
 ## FAQ

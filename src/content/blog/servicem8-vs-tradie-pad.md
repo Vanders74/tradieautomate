@@ -36,7 +36,7 @@ But they're built differently, target different business sizes, and have meaning
 
 This is the most important structural difference between the two platforms.
 
-### [ServiceM8 Pricing](/blog/servicem8-pricing-plans-australia-2026)
+### [ServiceM8 Pricing](/blog/servicem8-pricing-plans-australia-2026/)
 
 ServiceM8 charges per-job, not per-user. The number of staff using the platform doesn't change your bill — only your job volume does.
 
@@ -194,15 +194,15 @@ The honest recommendation: start with ServiceM8's 14-day free trial and evaluate
 
 ## Related Comparisons
 
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)
 
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
-- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)
 
-- [ServiceM8 vs Tradify: Australian Tradie Comparison 2026](/blog/servicem8-vs-tradify-comparison-australia)
-- [ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)
+- [ServiceM8 vs Tradify: Australian Tradie Comparison 2026](/blog/servicem8-vs-tradify-comparison-australia/)
+- [ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/)
 
 ---
 
@@ -231,6 +231,6 @@ Yes. The Free plan ($0/month, 30 jobs) is designed for sole traders and works we
 > [Download free →](/playbook)
 
 *Related reading:*
-- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
-- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
-- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)*
+- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians/)*
+- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia/)*

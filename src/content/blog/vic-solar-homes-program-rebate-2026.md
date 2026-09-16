@@ -120,7 +120,7 @@ The customer provides you with their reservation number. This number must be quo
 Install the approved battery system alongside the qualifying solar system. Ensure the installation meets AS/NZS 5139 and all applicable safety standards.
 
 ### Step 4: Certificate of Electrical Safety (CES)
-In Victoria, a Certificate of Electrical Safety must be issued for battery installations. This is issued by the Licensed Electrical Inspector (LEI) or — in some circumstances — by the installing contractor using VSA-approved processes. Ensure this is correctly handled. See the [VIC Certificate of Electrical Safety guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026) for the full process.
+In Victoria, a Certificate of Electrical Safety must be issued for battery installations. This is issued by the Licensed Electrical Inspector (LEI) or — in some circumstances — by the installing contractor using VSA-approved processes. Ensure this is correctly handled. See the [VIC Certificate of Electrical Safety guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) for the full process.
 
 ### Step 5: Claim submission to Solar Victoria
 After installation, submit your claim through the Solar Victoria portal. Documentation required typically includes:
@@ -142,9 +142,9 @@ Solar Victoria processes the claim and pays the rebate to the installer. The cus
 
 **Keep your Code of Conduct compliance watertight.** Solar Victoria conducts installer audits. Record-keeping, accurate quoting, and proper use of the rebate aren't just ethical requirements — they're contractual obligations that protect your registration.
 
-**Integrate Solar Victoria claims into your job management workflow.** Chasing CES certificates and claim documentation after the fact creates cash flow delays. Use your job management software to trigger post-installation documentation steps automatically. The [digital job management guide for solar installers](/blog/digital-job-management-solar-installers) shows how to set this up.
+**Integrate Solar Victoria claims into your job management workflow.** Chasing CES certificates and claim documentation after the fact creates cash flow delays. Use your job management software to trigger post-installation documentation steps automatically. The [digital job management guide for solar installers](/blog/digital-job-management-solar-installers/) shows how to set this up.
 
-**Track your cash flow on Solar Victoria jobs.** The rebate payment comes from Solar Victoria after you've completed the job, not before. If you're running a high volume of Solar Victoria installations, this can create a working capital gap. See the solar installer cash flow guide](/blog/solar-installer-cash-flow-management-australia) for strategies to manage this.
+**Track your cash flow on Solar Victoria jobs.** The rebate payment comes from Solar Victoria after you've completed the job, not before. If you're running a high volume of Solar Victoria installations, this can create a working capital gap. See the solar installer cash flow guide](/blog/solar-installer-cash-flow-management-australia/) for strategies to manage this.
 
 ---
 
@@ -218,14 +218,14 @@ After a Solar Victoria battery installation, the installing electrician must iss
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- *[SA Solar Battery Rebate 2026: Home Battery Scheme Guide](/blog/sa-solar-battery-rebate-2026)*
-- *[Adding Battery Storage to Your Solar Business: The Complete Guide](/blog/adding-battery-storage-solar-business-australia)*
-- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance)*
-- *[Certificate of Electrical Safety (CES) Victoria: Full Guide for Installers](/blog/certificate-electrical-safety-ces-victoria-guide-2026)*
-- *[Battery Retrofit Installations: Adding Storage to Existing Solar Systems](/blog/battery-retrofit-installations-existing-solar)*
-- *Solar Installer Cash Flow Management](/blog/solar-installer-cash-flow-management-australia)*
-- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
-- *[Solar Battery System Cost Australia 2026](/blog/solar-battery-system-cost-australia-2026)*
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+- *[SA Solar Battery Rebate 2026: Home Battery Scheme Guide](/blog/sa-solar-battery-rebate-2026/)*
+- *[Adding Battery Storage to Your Solar Business: The Complete Guide](/blog/adding-battery-storage-solar-business-australia/)*
+- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance/)*
+- *[Certificate of Electrical Safety (CES) Victoria: Full Guide for Installers](/blog/certificate-electrical-safety-ces-victoria-guide-2026/)*
+- *[Battery Retrofit Installations: Adding Storage to Existing Solar Systems](/blog/battery-retrofit-installations-existing-solar/)*
+- *Solar Installer Cash Flow Management](/blog/solar-installer-cash-flow-management-australia/)*
+- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers/)*
+- *[Solar Battery System Cost Australia 2026](/blog/solar-battery-system-cost-australia-2026/)*
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia/)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)

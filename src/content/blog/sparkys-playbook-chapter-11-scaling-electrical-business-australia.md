@@ -178,11 +178,11 @@ Each phase requires different skills and different structures. Many owners stall
 
 ## Related Reading
 
-- [Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia)
-- [The Sparky's Playbook — Chapter 7: Cash Flow Management](/blog/sparkys-playbook-chapter-7-cash-flow-electrical-contractors-australia)
-- [The Sparky's Playbook — Chapter 10: Hiring & Managing Electricians](/blog/sparkys-playbook-chapter-10-hiring-managing-electricians-australia)
-- [The Sparky's Playbook — Chapter 12: Exit Strategy & Business Valuation](/blog/sparkys-playbook-chapter-12-exit-strategy-valuation-electrical-business)
-- [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026)
+- [Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia/)
+- [The Sparky's Playbook — Chapter 7: Cash Flow Management](/blog/sparkys-playbook-chapter-7-cash-flow-electrical-contractors-australia/)
+- [The Sparky's Playbook — Chapter 10: Hiring & Managing Electricians](/blog/sparkys-playbook-chapter-10-hiring-managing-electricians-australia/)
+- [The Sparky's Playbook — Chapter 12: Exit Strategy & Business Valuation](/blog/sparkys-playbook-chapter-12-exit-strategy-valuation-electrical-business/)
+- [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026/)
 
 ---
 

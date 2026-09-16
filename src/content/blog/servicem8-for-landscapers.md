@@ -157,7 +157,7 @@ For a landscaping business with 3 crews doing 60 jobs per month (including maint
 - Train crew leaders on the mobile app (typically 1–2 hours)
 - Refine your templates based on real-world use
 
-For a broader view of job management platform options, see our [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026) and our comparison with [Tradify](/blog/servicem8-vs-tradify-comparison-australia).
+For a broader view of job management platform options, see our [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/) and our comparison with [Tradify](/blog/servicem8-vs-tradify-comparison-australia/).
 
 ---
 
@@ -186,8 +186,8 @@ Absolutely. Irrigation installation and maintenance work fits perfectly within S
 > [Download free →](/playbook)
 
 *Related reading:*
-- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
-- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
-- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)*
+- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)*
+- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)*

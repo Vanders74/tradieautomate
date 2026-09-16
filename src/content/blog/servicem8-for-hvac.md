@@ -120,7 +120,7 @@ For commercial HVAC businesses where the technician is often the sole point of c
 
 ## Pricing
 
-[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026) is per-job, not per-user:
+[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026/) is per-job, not per-user:
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
@@ -153,7 +153,7 @@ For an HVAC business with 5 technicians doing 100 jobs a month, ServiceM8 Growin
 - Refine your templates based on real-world technician feedback
 - Enable automated invoicing and payment reminders
 
-For a broader view of how ServiceM8 compares to alternatives, see our [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026). For insights into using AI to further automate HVAC business operations, see our [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia).
+For a broader view of how ServiceM8 compares to alternatives, see our [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/). For insights into using AI to further automate HVAC business operations, see our [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/).
 
 ---
 
@@ -192,11 +192,11 @@ Client records in ServiceM8 maintain a complete job history with all associated 
 > [Download free →](/playbook)
 
 *Related reading:*
-- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
-- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
-- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
-- *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
-- *[simPRO vs ServiceM8: Which Fits a 3-Man HVAC Business Better?](/blog/simpro-vs-servicem8-hvac-small-business)*
-- *[AI Data Centres Australia 2026: The Cooling Opportunity for HVAC Contractors](/blog/ai-data-centre-cooling-hvac-contractors-australia-2026) — data-centre cooling demand grew 67% in four years; here's how HVAC crews win the premium work*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)*
+- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)*
+- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia/)*
+- *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)*
+- *[simPRO vs ServiceM8: Which Fits a 3-Man HVAC Business Better?](/blog/simpro-vs-servicem8-hvac-small-business/)*
+- *[AI Data Centres Australia 2026: The Cooling Opportunity for HVAC Contractors](/blog/ai-data-centre-cooling-hvac-contractors-australia-2026/) — data-centre cooling demand grew 67% in four years; here's how HVAC crews win the premium work*

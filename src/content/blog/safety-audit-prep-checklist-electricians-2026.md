@@ -25,7 +25,7 @@ This article breaks down exactly what you need to have ready before an inspector
 
 **An electrical safety audit** is an inspection by a state regulator (SafeWork, ESV, ESO, or equivalent) that verifies your electrical contracting business complies with the Work Health and Safety Act 2011, applicable state electrical safety legislation, AS/NZS 3000:2018 Wiring Rules, and licence conditions. Auditors check documentation first, then inspect on-site work. 80% of audit failures are paperwork problems — not technical defects.
 
-> **⚡ Using ServiceM8?** The job diary and document storage features auto-organise compliance certificates, SWMS, and test records by job — so when an auditor asks, you can pull any document in seconds. [See how it works for electrical contractors](/blog/servicem8-review-2026).
+> **⚡ Using ServiceM8?** The job diary and document storage features auto-organise compliance certificates, SWMS, and test records by job — so when an auditor asks, you can pull any document in seconds. [See how it works for electrical contractors](/blog/servicem8-review-2026/).
 
 <div class="compliance-bridge-box" style="border-left:4px solid #f97316;background:#0f172a;padding:20px 24px;border-radius:8px;margin:32px 0;color:#e2e8f0">
   <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
@@ -106,7 +106,7 @@ Every electrical safety audit — regardless of the state regulator — follows 
 - Use the regulator's portal to download your lodgement history and cross-check against your own records
 - For NSW: all CCEWs from 1 July 2026 must be submitted through BCNSW eCert — handwritten forms and PDFs are no longer accepted
 
-> **Related:** [CCEW NSW Electrical Compliance Guide 2026](/blog/ccew-nsw-electrical-compliance-guide-2026) — full details on who can issue, 7-day deadline, and $22K penalty. Also see [CES Victoria Compliance Guide 2026](/blog/certificate-electrical-safety-ces-victoria-guide-2026) for VIC-specific certificate rules.
+> **Related:** [CCEW NSW Electrical Compliance Guide 2026](/blog/ccew-nsw-electrical-compliance-guide-2026/) — full details on who can issue, 7-day deadline, and $22K penalty. Also see [CES Victoria Compliance Guide 2026](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) for VIC-specific certificate rules.
 
 ### Category 3: Test Records & AS/NZS 3000 Documentation
 
@@ -155,7 +155,7 @@ Every electrical safety audit — regardless of the state regulator — follows 
 - Keep digital copies of all insurance certificates in a single folder accessible from your phone
 - Check the insurance requirements for any state you work in — minimums differ between NSW, VIC, QLD, and WA
 
-> **Related:** [Electrical Contractor Insurance Guide Australia 2026](/blog/electrical-contractor-insurance-australia-2026) — coverage minimums by state, policy types you need, and typical costs.
+> **Related:** [Electrical Contractor Insurance Guide Australia 2026](/blog/electrical-contractor-insurance-australia-2026/) — coverage minimums by state, policy types you need, and typical costs.
 
 ### Category 6: On-Site Safety (Switchboard Labelling, Cable Management, PPE)
 
@@ -326,7 +326,7 @@ This article covers the core audit framework. But for your van, your office wall
 ---
 
 > **Related articles:**
-> - [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026) — solar-specific audit requirements, CEC accreditation, and AS/NZS 5033 compliance
-> - [CCEW NSW Electrical Compliance Guide 2026](/blog/ccew-nsw-electrical-compliance-guide-2026) — NSW CCEW rules, deadlines, and penalty details
-> - [CES Victoria Electrical Safety Certificate Guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026) — VIC CES lodgement requirements and audit process
-> - [Electrical Contractor Insurance Australia 2026](/blog/electrical-contractor-insurance-australia-2026) — coverage minimums and compliance cost breakdown by state
+> - [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026/) — solar-specific audit requirements, CEC accreditation, and AS/NZS 5033 compliance
+> - [CCEW NSW Electrical Compliance Guide 2026](/blog/ccew-nsw-electrical-compliance-guide-2026/) — NSW CCEW rules, deadlines, and penalty details
+> - [CES Victoria Electrical Safety Certificate Guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) — VIC CES lodgement requirements and audit process
+> - [Electrical Contractor Insurance Australia 2026](/blog/electrical-contractor-insurance-australia-2026/) — coverage minimums and compliance cost breakdown by state

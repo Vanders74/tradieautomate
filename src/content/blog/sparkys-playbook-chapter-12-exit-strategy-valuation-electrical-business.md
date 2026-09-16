@@ -203,11 +203,11 @@ Selling to an external buyer is not the only exit. Other paths:
 
 ## Related Reading
 
-- [The Sparky's Playbook — Chapter 11: Scaling Your Electrical Business](/blog/sparkys-playbook-chapter-11-scaling-electrical-business-australia)
-- [The Sparky's Playbook — Chapter 7: Cash Flow Management](/blog/sparkys-playbook-chapter-7-cash-flow-electrical-contractors-australia)
-- [Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia)
-- [How to Use ServiceM8 to Make Your Solar Business More Valuable — and More Sellable](/blog/sell-servicem8-trade-business-value)
-- [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026)
+- [The Sparky's Playbook — Chapter 11: Scaling Your Electrical Business](/blog/sparkys-playbook-chapter-11-scaling-electrical-business-australia/)
+- [The Sparky's Playbook — Chapter 7: Cash Flow Management](/blog/sparkys-playbook-chapter-7-cash-flow-electrical-contractors-australia/)
+- [Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia/)
+- [How to Use ServiceM8 to Make Your Solar Business More Valuable — and More Sellable](/blog/sell-servicem8-trade-business-value/)
+- [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026/)
 - [Exit-Readiness Quiz — is your business built to sell?](/exit-readiness)
 - [The Sparky's Playbook — Download All 12 Chapters Free](/playbook)
 

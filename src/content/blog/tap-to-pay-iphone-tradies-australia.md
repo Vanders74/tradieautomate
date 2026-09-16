@@ -187,10 +187,10 @@ The combination of these approaches can reduce your average debtor days from 25�
 
 Tap to Pay is one part of a complete mobile workflow. For the full picture of how ServiceM8 turns your iPhone into a job management system — quoting, scheduling, photos, compliance checklists, and payment collection — read:
 
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [ServiceM8 for Electricians](/blog/servicem8-for-electricians)
-- [The Hidden Admin Cost Calculator](/blog/hidden-admin-cost-calculator) — see what manual payment collection is actually costing your business
-- [The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [ServiceM8 for Electricians](/blog/servicem8-for-electricians/)
+- [The Hidden Admin Cost Calculator](/blog/hidden-admin-cost-calculator/) — see what manual payment collection is actually costing your business
+- [The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency/)
 
 **[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)**
 
@@ -226,8 +226,8 @@ Stripe's standard settlement in Australia is T+2 business days (two business day
 
 ## Related Reading
 
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
-- [5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)
-- [Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency/)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)
+- [5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)
+- [Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth/)

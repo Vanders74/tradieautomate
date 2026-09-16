@@ -172,11 +172,11 @@ The hardest transition for owner-operators: letting go of being on every job wit
 
 ## Related Reading
 
-- [QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026)
-- [WA Electrical Contractor Licence Guide 2026](/blog/wa-electrical-contractor-licence-guide-2026)
-- [The Sparky's Playbook — Chapter 7: Cash Flow Management](/blog/sparkys-playbook-chapter-7-cash-flow-electrical-contractors-australia)
-- [The Sparky's Playbook — Chapter 11: Scaling Your Electrical Business](/blog/sparkys-playbook-chapter-11-scaling-electrical-business-australia)
-- [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026)
+- [QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026/)
+- [WA Electrical Contractor Licence Guide 2026](/blog/wa-electrical-contractor-licence-guide-2026/)
+- [The Sparky's Playbook — Chapter 7: Cash Flow Management](/blog/sparkys-playbook-chapter-7-cash-flow-electrical-contractors-australia/)
+- [The Sparky's Playbook — Chapter 11: Scaling Your Electrical Business](/blog/sparkys-playbook-chapter-11-scaling-electrical-business-australia/)
+- [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026/)
 
 ---
 

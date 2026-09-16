@@ -35,7 +35,7 @@ The Australian government designated data centres as critical infrastructure und
 
 Globally, projections suggest more than 300,000 additional electricians will be needed over the next decade to meet AI-driven infrastructure demand. In Australia, the bottleneck is already visible: CBRE Data Centre Solutions is actively recruiting electricians in Melbourne, and major contractors are advertising HV-specialist roles at rates that push above the published ranges.
 
-**And it is not just electricians.** The same boom is pulling HVAC, plumbing and fire-protection trades into a new premium tier — see our companion guides on [data centre cooling for HVAC contractors](/blog/ai-data-centre-cooling-hvac-contractors-australia-2026), [liquid cooling plumbing](/blog/data-centre-plumbing-liquid-cooling-australia-2026) and [data centre fire protection](/blog/data-centre-fire-protection-australia-2026) as this pillar grows.
+**And it is not just electricians.** The same boom is pulling HVAC, plumbing and fire-protection trades into a new premium tier — see our companion guides on [data centre cooling for HVAC contractors](/blog/ai-data-centre-cooling-hvac-contractors-australia-2026/), [liquid cooling plumbing](/blog/data-centre-plumbing-liquid-cooling-australia-2026/) and [data centre fire protection](/blog/data-centre-fire-protection-australia-2026/) as this pillar grows.
 
 ---
 
@@ -204,14 +204,14 @@ Register on VendorPanel and AusTender — both free and required for procurement
 
 *Related reading:*
 
-- *[Commercial Solar System Compliance Australia 2026](/blog/commercial-solar-compliance-australia-2026) — commercial-scale compliance requirements that overlap with data centre electrical environments*
-- *[EV Charging at Commercial Premises Australia 2026](/blog/ev-charging-commercial-premises-australia-2026) — another major commercial infrastructure opportunity for electrical contractors*
-- *[How to Win Commercial Solar Contracts Australia](/blog/how-to-win-commercial-solar-contracts-australia) — commercial bidding strategy applicable to data centre tender processes*
-- *[Scaling a Solar & Electrical Business: Hiring, Systems & Growth](/blog/scaling-solar-electrical-business-hiring-growth) — building the team and systems to take on large commercial work*
-- *[Electrical Contractor Insurance Australia 2026](/blog/electrical-contractor-insurance-australia-2026) — insurance requirements for commercial electrical contracting, including the $20 million public liability threshold*
+- *[Commercial Solar System Compliance Australia 2026](/blog/commercial-solar-compliance-australia-2026/) — commercial-scale compliance requirements that overlap with data centre electrical environments*
+- *[EV Charging at Commercial Premises Australia 2026](/blog/ev-charging-commercial-premises-australia-2026/) — another major commercial infrastructure opportunity for electrical contractors*
+- *[How to Win Commercial Solar Contracts Australia](/blog/how-to-win-commercial-solar-contracts-australia/) — commercial bidding strategy applicable to data centre tender processes*
+- *[Scaling a Solar & Electrical Business: Hiring, Systems & Growth](/blog/scaling-solar-electrical-business-hiring-growth/) — building the team and systems to take on large commercial work*
+- *[Electrical Contractor Insurance Australia 2026](/blog/electrical-contractor-insurance-australia-2026/) — insurance requirements for commercial electrical contracting, including the $20 million public liability threshold*
 
-- [AI Data Centres: The Cooling Opportunity for HVAC Contractors](/blog/ai-data-centre-cooling-hvac-contractors-australia-2026)
-- [Data Centre Plumbing & Pipefitting: Liquid Cooling Loops](/blog/data-centre-plumbing-liquid-cooling-australia-2026)
-- [Data Centre Fire Protection: Critical Infrastructure Compliance](/blog/data-centre-fire-protection-australia-2026)
+- [AI Data Centres: The Cooling Opportunity for HVAC Contractors](/blog/ai-data-centre-cooling-hvac-contractors-australia-2026/)
+- [Data Centre Plumbing & Pipefitting: Liquid Cooling Loops](/blog/data-centre-plumbing-liquid-cooling-australia-2026/)
+- [Data Centre Fire Protection: Critical Infrastructure Compliance](/blog/data-centre-fire-protection-australia-2026/)
 
 > **Running a data centre project?** [ServiceM8](/tools/) helps electrical contractors track sub-contract packages, manage SWMS documentation, and schedule preventative maintenance across multiple sites. [Start your free trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)

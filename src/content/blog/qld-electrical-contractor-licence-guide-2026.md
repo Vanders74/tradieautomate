@@ -172,7 +172,7 @@ Many electrical sole traders and small businesses don't realise QLeave applies t
 If your nominated QS leaves or their licence lapses, your QBCC licence may be immediately at risk. You have a limited window to nominate a replacement.
 
 **5. Inadequate insurance**
-Both agencies have minimum insurance requirements. If your policy lapses or coverage drops below the required level, your licence becomes non-compliant. See our [electrical contractor insurance guide](/blog/electrical-contractor-insurance-australia-2026) for what coverage levels are required.
+Both agencies have minimum insurance requirements. If your policy lapses or coverage drops below the required level, your licence becomes non-compliant. See our [electrical contractor insurance guide](/blog/electrical-contractor-insurance-australia-2026/) for what coverage levels are required.
 
 ---
 
@@ -192,7 +192,7 @@ If you're operating across state borders (e.g., running installs in northern NSW
 
 The licence renewal calendar is where most Queensland electrical businesses drop the ball — not because the obligations are complex, but because they're easy to forget in a busy workflow.
 
-The most reliable approach: create recurring job entries or calendar reminders for every licence renewal and QLeave quarterly filing. Many operators use their job management platform for this. The [digital job management guide for solar installers](/blog/digital-job-management-solar-installers) covers how to set up compliance reminder workflows that keep these dates front of mind.
+The most reliable approach: create recurring job entries or calendar reminders for every licence renewal and QLeave quarterly filing. Many operators use their job management platform for this. The [digital job management guide for solar installers](/blog/digital-job-management-solar-installers/) covers how to set up compliance reminder workflows that keep these dates front of mind.
 
 ---
 
@@ -260,17 +260,17 @@ No — each state has its own licensing framework. To carry out electrical work 
 
 ## Related Reading
 
-- *[CER Audit Prep for Solar Installers: Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
-- *[Electrical Contractor Insurance Australia 2026: What You Need and Why](/blog/electrical-contractor-insurance-australia-2026)*
-- *[Staying Compliant in 2026: The Complete Solar & Electrical Safety Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
-- *[SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026)*
-- *[VIC Electrical Contractor Licence Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026)*
-- *[WA Electrical Contractor Licence Guide 2026](/blog/wa-electrical-contractor-licence-guide-2026)*
-- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
-- *[Solar Compliance Checklist for Australian Installers 2026](/blog/solar-compliance-checklist-2026)*
-- *[Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026)*
-- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
-- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
-- *[NSW Electrical Contractor Licence 2026: Fair Trading, Home Building Act & Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026)*
-- *[Apprentice Ratios & Hiring Incentives for Electricians Australia 2026](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026)*
+- *[CER Audit Prep for Solar Installers: Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)*
+- *[Electrical Contractor Insurance Australia 2026: What You Need and Why](/blog/electrical-contractor-insurance-australia-2026/)*
+- *[Staying Compliant in 2026: The Complete Solar & Electrical Safety Guide](/blog/staying-compliant-2026-solar-electrical-safety/)*
+- *[SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026/)*
+- *[VIC Electrical Contractor Licence Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026/)*
+- *[WA Electrical Contractor Licence Guide 2026](/blog/wa-electrical-contractor-licence-guide-2026/)*
+- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers/)*
+- *[Solar Compliance Checklist for Australian Installers 2026](/blog/solar-compliance-checklist-2026/)*
+- *[Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026/)*
+- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians/)*
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)
+- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity/)
+- *[NSW Electrical Contractor Licence 2026: Fair Trading, Home Building Act & Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026/)*
+- *[Apprentice Ratios & Hiring Incentives for Electricians Australia 2026](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026/)*

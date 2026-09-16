@@ -177,11 +177,11 @@ This granularity is useful for tracking margin by job type and benchmarking agai
 
 ## Related Reading
 
-- [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026)
-- [ServiceM8 Pricing 2026 — Plans and Real Costs](/blog/servicem8-pricing-plans-australia-2026)
-- [Best Accounting Software for Solar & Electrical Australia 2026](/blog/best-accounting-software-solar-electrical-australia-2026)
-- [Xero vs MYOB for Australian Tradies — Which Is Better?](/blog/xero-vs-myob-accounting-software-australian-tradies-2026)
-- [The Sparky's Playbook — Chapter 8: The Trade Tech Stack](/blog/sparkys-playbook-chapter-8-trade-tech-stack-job-management-accounting)
+- [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026/)
+- [ServiceM8 Pricing 2026 — Plans and Real Costs](/blog/servicem8-pricing-plans-australia-2026/)
+- [Best Accounting Software for Solar & Electrical Australia 2026](/blog/best-accounting-software-solar-electrical-australia-2026/)
+- [Xero vs MYOB for Australian Tradies — Which Is Better?](/blog/xero-vs-myob-accounting-software-australian-tradies-2026/)
+- [The Sparky's Playbook — Chapter 8: The Trade Tech Stack](/blog/sparkys-playbook-chapter-8-trade-tech-stack-job-management-accounting/)
 
 [Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 

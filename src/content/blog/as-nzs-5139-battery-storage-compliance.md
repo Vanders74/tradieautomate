@@ -23,7 +23,7 @@ It replaced and significantly updated the previous guidance that applied to batt
 - Lead-acid and flow battery systems
 - Any battery storage connected to a PV array or grid-connected inverter
 
-The standard is referenced in CER accreditation requirements — Clean Energy Council (CEC) accreditation requirements reference AS/NZS 5139 Clause 4.3 for battery system installation competence — and is the benchmark used during CEC audits. For a broader compliance picture that covers your full solar install (not just battery), see our [complete solar compliance checklist for Australian installers](/blog/solar-compliance-checklist-2026).
+The standard is referenced in CER accreditation requirements — Clean Energy Council (CEC) accreditation requirements reference AS/NZS 5139 Clause 4.3 for battery system installation competence — and is the benchmark used during CEC audits. For a broader compliance picture that covers your full solar install (not just battery), see our [complete solar compliance checklist for Australian installers](/blog/solar-compliance-checklist-2026/).
 
 A typical battery installation incurs $800–$1,200 in compliance documentation and testing costs per job when done properly. This includes the compliance checklist, test records, handover documentation, and CEC reporting. The alternative — a non-compliant installation flagged in a CER audit — can trigger STC clawback of $3,000–$6,000 per system plus accreditation suspension. The cost of compliance is a fraction of the cost of non-compliance.
 
@@ -70,7 +70,7 @@ Every battery installation must be accompanied by a handover package that includ
 
 Missing or incomplete handover documentation is the single most common reason for audit failures. The CER has made clear that documentation failures will be treated as compliance failures — regardless of whether the physical installation is correct.
 
-**The fix:** Never mark a job complete until the documentation is done. [Digital job management systems like ServiceM8](/blog/servicem8-for-solar-installers) allow you to make documentation completion a required step before the job status can be updated — removing the possibility of driving away without completing the paperwork.
+**The fix:** Never mark a job complete until the documentation is done. [Digital job management systems like ServiceM8](/blog/servicem8-for-solar-installers/) allow you to make documentation completion a required step before the job status can be updated — removing the possibility of driving away without completing the paperwork.
 
 ### 4. Thermal Management and Ventilation
 
@@ -113,9 +113,9 @@ The customer interview element surprises many installers. A technically perfect 
 
 The standard is a national framework, but state jurisdictions add their own regulatory layers:
 
-**Victoria:** Battery installations require a Certificate of Electrical Safety (CES). This is issued by a Licensed Electrical Inspector or via approved VSA processes. The CES is also required for Solar Victoria battery rebate claims. See our [full CES guide for Victoria](/blog/certificate-electrical-safety-ces-victoria-guide-2026) for the complete process.
+**Victoria:** Battery installations require a Certificate of Electrical Safety (CES). This is issued by a Licensed Electrical Inspector or via approved VSA processes. The CES is also required for Solar Victoria battery rebate claims. See our [full CES guide for Victoria](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) for the complete process.
 
-**NSW:** A Certificate of Compliance Electrical Work (CCEW) is required for battery installations under NSW Fair Trading rules — issued within 7 days of job completion. See the [NSW CCEW guide](/blog/ccew-nsw-7-day-deadline-rule) for the deadline and submission requirements.
+**NSW:** A Certificate of Compliance Electrical Work (CCEW) is required for battery installations under NSW Fair Trading rules — issued within 7 days of job completion. See the [NSW CCEW guide](/blog/ccew-nsw-7-day-deadline-rule/) for the deadline and submission requirements.
 
 **Queensland:** Electrical Safety Certificate requirements apply via Electrical Safety Queensland. Battery installations typically trigger additional compliance documentation beyond the CEC installer certificate.
 
@@ -135,7 +135,7 @@ Both requirements apply simultaneously. CEC accreditation gets you in the door; 
 
 ## Building a Compliant Process
 
-The installers who consistently pass audits aren't necessarily the most technically skilled — they're the most systematically compliant. If you're evaluating which job management platform to build your compliance process on, our [ranked guide to the best job management software for Australian solar installers](/blog/solar-job-management-software-australia-2026) covers the top options side by side.
+The installers who consistently pass audits aren't necessarily the most technically skilled — they're the most systematically compliant. If you're evaluating which job management platform to build your compliance process on, our [ranked guide to the best job management software for Australian solar installers](/blog/solar-job-management-software-australia-2026/) covers the top options side by side.
 
 The difference is process:
 
@@ -150,7 +150,7 @@ When every install follows the same process — captured digitally, tied to the 
 
 Paper checklists get lost. Photos in camera rolls can't be tied to a specific job or date. Handover forms left in the van create liability.
 
-[Digital job management](/blog/digital-job-management-solar-installers) solves this by making documentation a built-in part of the workflow rather than an afterthought. Platforms like [ServiceM8](/blog/servicem8-for-solar-installers) let you build AS/NZS 5139 requirements directly into your job workflow:
+[Digital job management](/blog/digital-job-management-solar-installers/) solves this by making documentation a built-in part of the workflow rather than an afterthought. Platforms like [ServiceM8](/blog/servicem8-for-solar-installers/) let you build AS/NZS 5139 requirements directly into your job workflow:
 
 - Custom forms built for AS/NZS 5139 requirements
 - Photo capture tied to job records with timestamp and GPS
@@ -180,14 +180,14 @@ If every box is ticked before you leave the site, you're audit-ready.
 
 ## Related Articles
 
-- [CER Audit Prep for Solar Installers: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)
-- [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026)
-- [ServiceM8 for Solar Installers](/blog/servicem8-for-solar-installers)
-- [Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)
+- [CER Audit Prep for Solar Installers: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)
+- [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026/)
+- [ServiceM8 for Solar Installers](/blog/servicem8-for-solar-installers/)
+- [Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers/)
 
 ---
 
-*TradieAutomate helps Australian solar and battery installers build compliant, efficient businesses. Learn how [ServiceM8 can make AS/NZS 5139 compliance a built-in part of your workflow](/blog/servicem8-for-solar-installers).*
+*TradieAutomate helps Australian solar and battery installers build compliant, efficient businesses. Learn how [ServiceM8 can make AS/NZS 5139 compliance a built-in part of your workflow](/blog/servicem8-for-solar-installers/).*
 
 ---
 
@@ -216,7 +216,7 @@ CER audit outcomes for non-compliant past installations can include: installer r
 
 ### Does the CSIP-Aus mandate interact with AS/NZS 5139?
 
-Yes — from May 2026, new battery installations using inverters that aren't CSIP-Aus compliant (AS4777.2:2024) are subject to the 1.5kW static export limit. AS/NZS 5139 handles the physical installation safety requirements; CSIP-Aus handles the network communication requirements. Both standards must be satisfied for a new installation to be fully compliant and to avoid the export limit penalty. See our [CSIP-Aus export clamp guide](/blog/csip-aus-export-limit-1-5kw-solar) for the full story.
+Yes — from May 2026, new battery installations using inverters that aren't CSIP-Aus compliant (AS4777.2:2024) are subject to the 1.5kW static export limit. AS/NZS 5139 handles the physical installation safety requirements; CSIP-Aus handles the network communication requirements. Both standards must be satisfied for a new installation to be fully compliant and to avoid the export limit penalty. See our [CSIP-Aus export clamp guide](/blog/csip-aus-export-limit-1-5kw-solar/) for the full story.
 
 ---
 
@@ -229,9 +229,9 @@ Yes — from May 2026, new battery installations using inverters that aren't CSI
 
 ## Related Reading
 
-- [how ServiceM8 adds value to your trade business](/blog/sell-servicem8-trade-business-value)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
-- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)
-- *[VIC Solar Homes Battery Rebate 2026: Eligibility, Registration & Process](/blog/vic-solar-homes-program-rebate-2026)*
-- *[Solar Battery System Cost Australia 2026: Prices, Rebates & Payback Periods](/blog/solar-battery-system-cost-australia-2026)*
+- [how ServiceM8 adds value to your trade business](/blog/sell-servicem8-trade-business-value/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/)
+- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia/)
+- *[VIC Solar Homes Battery Rebate 2026: Eligibility, Registration & Process](/blog/vic-solar-homes-program-rebate-2026/)*
+- *[Solar Battery System Cost Australia 2026: Prices, Rebates & Payback Periods](/blog/solar-battery-system-cost-australia-2026/)*

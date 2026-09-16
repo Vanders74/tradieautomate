@@ -84,7 +84,7 @@ For customers with an existing solar system, heat pump hot water can be set up t
 - **Ripple control compatibility:** Some heat pump units accept ripple control signals from the network (for off-peak tariffs). Check compatibility before quoting if the customer is on an off-peak hot water tariff.
 - **Smart relay connection:** A simple smart relay (e.g., a timer or signal from an energy management system) can instruct the heat pump to operate during solar generation periods — providing solar optimisation without a dedicated solar diverter.
 
-The [adding battery storage guide](/blog/adding-battery-storage-solar-business-australia) covers how the solar + battery + heat pump + EV charging ecosystem fits together for whole-home electrification.
+The [adding battery storage guide](/blog/adding-battery-storage-solar-business-australia/) covers how the solar + battery + heat pump + EV charging ecosystem fits together for whole-home electrification.
 
 ---
 
@@ -220,14 +220,14 @@ In most Australian states, heat pump hot water installation involves both plumbi
 
 ## Related Reading
 
-- *[Replacing Gas Hot Water with Electric Heat Pump: The Complete Switchover Guide](/blog/replacing-gas-hot-water-electric-heat-pump)*
-- *[Adding Battery Storage to Your Solar Business: The Complete Guide](/blog/adding-battery-storage-solar-business-australia)*
-- *[EV Charger Installation for Electricians Australia 2026](/blog/ev-charger-installation-electricians-australia-2026)*
-- *[Solar Battery System Cost Australia 2026](/blog/solar-battery-system-cost-australia-2026)*
-- *[STC Claim Process for Solar Installers Australia](/blog/stc-claim-process-solar-installers-australia)*
-- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
-- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
-- *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses)*
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+- *[Replacing Gas Hot Water with Electric Heat Pump: The Complete Switchover Guide](/blog/replacing-gas-hot-water-electric-heat-pump/)*
+- *[Adding Battery Storage to Your Solar Business: The Complete Guide](/blog/adding-battery-storage-solar-business-australia/)*
+- *[EV Charger Installation for Electricians Australia 2026](/blog/ev-charger-installation-electricians-australia-2026/)*
+- *[Solar Battery System Cost Australia 2026](/blog/solar-battery-system-cost-australia-2026/)*
+- *[STC Claim Process for Solar Installers Australia](/blog/stc-claim-process-solar-installers-australia/)*
+- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers/)*
+- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)*
+- *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses/)*
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)

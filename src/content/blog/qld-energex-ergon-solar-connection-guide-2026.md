@@ -106,7 +106,7 @@ Export limits move — always confirm the current figure in the distributor's po
 Queensland uses a different communication protocol from South Australia, and it's worth understanding the distinction.
 
 - Queensland's dynamic connections run on **IEEE 2030.5 Smart Energy Profile 2.0 (SEP2)**, chosen by Energex and Ergon Energy Network after industry consultation in 2020–21.
-- This is closely related to **CSIP-AUS** (SA HB 218 Common Smart Inverter Profile — Australia), which formalises a nationally consistent interpretation of the same standard. A CSIP-AUS-compliant inverter should be listable for the Queensland implementation — see our [CSIP-AUS and the 1.5kW export limit explainer](/blog/csip-aus-export-limit-1-5kw-solar).
+- This is closely related to **CSIP-AUS** (SA HB 218 Common Smart Inverter Profile — Australia), which formalises a nationally consistent interpretation of the same standard. A CSIP-AUS-compliant inverter should be listable for the Queensland implementation — see our [CSIP-AUS and the 1.5kW export limit explainer](/blog/csip-aus-export-limit-1-5kw-solar/).
 - Unlike South Australia, dynamic connections are **not mandatory** in Queensland — they're a negotiated connection you opt into.
 
 **The commercial hook:** dynamic connections are Queensland's answer to solar saturation. Instead of rejecting applications in full suburbs (zero export), the network lets you connect a *larger* system and export *more* — just not at full tilt every minute of every day. For an installer, that means you can still sell a 13kW system in a saturated area, whereas a basic connection might cap the customer at 1.5kW or nothing.
@@ -138,10 +138,10 @@ The process runs through Energy Queensland's **Electrical Partners Portal**, whi
 
 Adding a battery brings its own connection and compliance layer — and pairs naturally with a dynamic connection, since surplus energy that can't be exported can charge the battery instead.
 
-- Battery installations must meet **AS/NZS 5139** (electrical installation safety for battery systems) — see our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance).
+- Battery installations must meet **AS/NZS 5139** (electrical installation safety for battery systems) — see our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance/).
 - Under a dynamic connection, a **DC-coupled battery only** (or upgrading by only adding a DC battery) does not impact your export capacity.
-- STC eligibility for the solar component is governed by the **Clean Energy Regulator** under the **Renewable Energy (Electricity) Act 2000** — see the [STC claim process](/blog/stc-claim-process-solar-installers-australia).
-- For what a battery really costs the customer, see [what a battery really costs in Australia](/blog/solar-battery-system-cost-australia-2026).
+- STC eligibility for the solar component is governed by the **Clean Energy Regulator** under the **Renewable Energy (Electricity) Act 2000** — see the [STC claim process](/blog/stc-claim-process-solar-installers-australia/).
+- For what a battery really costs the customer, see [what a battery really costs in Australia](/blog/solar-battery-system-cost-australia-2026/).
 
 ---
 
@@ -150,7 +150,7 @@ Adding a battery brings its own connection and compliance layer — and pairs na
 EV chargers pull meaningful load and increasingly trigger distributor sign-off:
 
 - **Residential:** confirm the existing supply and switchboard can handle the additional load; smart chargers are generally preferred for network visibility.
-- **Commercial:** load assessments and capacity upgrades usually apply — see the [commercial EV charging guide](/blog/commercial-ev-charging-installation-guide-electricians) and the [EV charger business case](/blog/ev-charger-installation-electricians-australia-2026).
+- **Commercial:** load assessments and capacity upgrades usually apply — see the [commercial EV charging guide](/blog/commercial-ev-charging-installation-guide-electricians/) and the [EV charger business case](/blog/ev-charger-installation-electricians-australia-2026/).
 - Dynamic connections support EV chargers as part of a compliant DER system, and certified AC EV chargers may be added as dynamic loads in future.
 
 ---
@@ -201,7 +201,7 @@ A typical solar connection in ServiceM8 runs:
 
 **Lead → Site visit → Quote → Network capacity check → Distributor application → Approval tracking → Install → Commission & SEP2 registration → eCoC → Invoice**
 
-ServiceM8 lets you attach the distributor offer, track the application against the job, store the eCoC and compliance photos, and fire the invoice the moment the job closes — so the paperwork doesn't lag the installation. See [ServiceM8 for solar installers](/blog/servicem8-for-solar-installers), and keep the [solar compliance checklist](/blog/solar-compliance-checklist-2026) and [QLD electrical contractor licence guide](/blog/qld-electrical-contractor-licence-guide-2026) close to hand.
+ServiceM8 lets you attach the distributor offer, track the application against the job, store the eCoC and compliance photos, and fire the invoice the moment the job closes — so the paperwork doesn't lag the installation. See [ServiceM8 for solar installers](/blog/servicem8-for-solar-installers/), and keep the [solar compliance checklist](/blog/solar-compliance-checklist-2026/) and [QLD electrical contractor licence guide](/blog/qld-electrical-contractor-licence-guide-2026/) close to hand.
 
 ---
 
@@ -218,7 +218,7 @@ ServiceM8 lets you attach the distributor offer, track the application against t
 
 Installing across the border? Each state has its own distributor framework, export limits and compliance certificate:
 
-- [SA Power Networks guide](/blog/sa-power-networks-solar-connection-guide-2026) — flexible exports mandatory since 1 Jul 2023
-- [NSW distributors guide](/blog/nsw-electricity-distributors-solar-connection-guide-2026) — three networks (Ausgrid, Endeavour, Essential), three export limits
-- [WA Western Power guide](/blog/wa-western-power-solar-connection-guide-2026) — isolated SWIS grid, 30kVA aggregate inverter rule
-- [VIC distributors guide](/blog/vic-solar-connection-guide-2026) — five networks, uniform 5kW limit
+- [SA Power Networks guide](/blog/sa-power-networks-solar-connection-guide-2026/) — flexible exports mandatory since 1 Jul 2023
+- [NSW distributors guide](/blog/nsw-electricity-distributors-solar-connection-guide-2026/) — three networks (Ausgrid, Endeavour, Essential), three export limits
+- [WA Western Power guide](/blog/wa-western-power-solar-connection-guide-2026/) — isolated SWIS grid, 30kVA aggregate inverter rule
+- [VIC distributors guide](/blog/vic-solar-connection-guide-2026/) — five networks, uniform 5kW limit

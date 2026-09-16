@@ -27,7 +27,7 @@ An **electrical contractor insurance package** is a set of policies — public l
 
 Whether you're a sole trader sparky doing domestic work in Sydney, a mid-size solar installer in Brisbane, or a commercial electrical contractor in Perth, your insurance costs depend on turnover, work type, claims history, and which state licences you. This guide gives you the actual numbers, state-by-state requirements, and the traps that turn small claims into uninsured losses.
 
-> **🛡️ Compliance + insurance together:** [ServiceM8 stores licence docs, insurance certificates, and job records in one place](/blog/servicem8-review-2026) — ready for any audit.
+> **🛡️ Compliance + insurance together:** [ServiceM8 stores licence docs, insurance certificates, and job records in one place](/blog/servicem8-review-2026/) — ready for any audit.
 
 ---
 
@@ -124,11 +124,11 @@ Licensing bodies in every state require minimum public liability coverage. Home 
 **Key takeaway:** $5M public liability is the universal minimum. In practice, most brokers recommend $10M–$20M for any contractor doing commercial, solar, or battery work — the premium difference between $5M and $10M cover is typically $200–$400/year, while the exposure difference in a serious claim can be millions.
 
 Detailed state licensing requirements:
-- [NSW Electrical Contractor Licence Guide 2026](/blog/nsw-electrical-contractor-licence-guide-2026)
-- [QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026)
-- [VIC Registered Electrical Contractor Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026)
-- [SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026)
-- [WA Electrical Contractor Licence Guide 2026](/blog/wa-electrical-contractor-licence-guide-2026)
+- [NSW Electrical Contractor Licence Guide 2026](/blog/nsw-electrical-contractor-licence-guide-2026/)
+- [QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026/)
+- [VIC Registered Electrical Contractor Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026/)
+- [SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026/)
+- [WA Electrical Contractor Licence Guide 2026](/blog/wa-electrical-contractor-licence-guide-2026/)
 
 ---
 
@@ -325,7 +325,7 @@ Every state licensing authority requires specific insurance documentation at ren
 
 ## Solar Compliance + Insurance: Why They're Connected
 
-Your insurance coverage and your solar compliance practices are linked. The [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026) — covering AS/NZS 3000, AS/NZS 5033, AS/NZS 4777, and CEC installation guidelines — is your first line of defence against insurance claims. Here's why:
+Your insurance coverage and your solar compliance practices are linked. The [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/) — covering AS/NZS 3000, AS/NZS 5033, AS/NZS 4777, and CEC installation guidelines — is your first line of defence against insurance claims. Here's why:
 
 - **Documented compliance reduces premiums:** Insurers ask about your compliance processes during underwriting. A documented compliance system (checklists, photographic records, test results filed by job) signals lower risk and can reduce your premium by 5–10%.
 - **Compliance records are your claim defence:** If an installation is alleged to have caused damage, your compliance documentation — commissioning sheets, test results, installation photographs — is evidence that you followed Australian Standards. Without it, a claim becomes your word against the loss adjuster's.
@@ -386,14 +386,14 @@ Yes. For sole traders and small electrical businesses with standard risk profile
 
 ## Related Reading
 
-- [5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)
-- [Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
-- [NSW Electrical Contractor Licence Guide 2026](/blog/nsw-electrical-contractor-licence-guide-2026)
-- [QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026)
-- [VIC Registered Electrical Contractor Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026)
-- [SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026)
-- [WA Electrical Contractor Licence Guide 2026](/blog/wa-electrical-contractor-licence-guide-2026)
-- [Electrical Safety Audit Prep Checklist 2026](/blog/safety-audit-prep-checklist-electricians-2026)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)
+- [5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)
+- [Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026/)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)
+- [NSW Electrical Contractor Licence Guide 2026](/blog/nsw-electrical-contractor-licence-guide-2026/)
+- [QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026/)
+- [VIC Registered Electrical Contractor Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026/)
+- [SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026/)
+- [WA Electrical Contractor Licence Guide 2026](/blog/wa-electrical-contractor-licence-guide-2026/)
+- [Electrical Safety Audit Prep Checklist 2026](/blog/safety-audit-prep-checklist-electricians-2026/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026/)

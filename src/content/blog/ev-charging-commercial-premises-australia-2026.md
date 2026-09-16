@@ -233,13 +233,13 @@ A licensed electrician must issue an electrical compliance certificate for the i
 
 ## Related Reading
 
-- *[EV Charger Installation for Electricians Australia 2026: Certification, Compliance and Workflow](/blog/ev-charger-installation-electricians-australia-2026)*
-- *[EV Charger Network Installation — Business Opportunity for Electricians](/blog/ev-charger-network-installation-business-opportunity)*
-- *[EV Charger Installation Cost Australia 2026](/blog/ev-charger-installation-cost-australia-2026)*
-- *[How to Win Commercial Solar Contracts Australia](/blog/how-to-win-commercial-solar-contracts-australia)*
-- *[Commercial Solar System Compliance Australia](/blog/commercial-solar-system-compliance-australia)*
-- *[Scaling Your Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
-- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
-- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+- *[EV Charger Installation for Electricians Australia 2026: Certification, Compliance and Workflow](/blog/ev-charger-installation-electricians-australia-2026/)*
+- *[EV Charger Network Installation — Business Opportunity for Electricians](/blog/ev-charger-network-installation-business-opportunity/)*
+- *[EV Charger Installation Cost Australia 2026](/blog/ev-charger-installation-cost-australia-2026/)*
+- *[How to Win Commercial Solar Contracts Australia](/blog/how-to-win-commercial-solar-contracts-australia/)*
+- *[Commercial Solar System Compliance Australia](/blog/commercial-solar-system-compliance-australia/)*
+- *[Scaling Your Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth/)*
+- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers/)*
+- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians/)*
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)

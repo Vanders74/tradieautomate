@@ -74,7 +74,7 @@ Each email or SMS is personalised to the specific quote — system size, estimat
 
 For solar businesses processing 20–50 installations per month, automating the STC documentation workflow alone can save hours of administrative time weekly.
 
-For a detailed look at how ServiceM8 enables this compliance workflow, see our [ServiceM8 for Solar Businesses guide](/blog/servicem8-for-solar-businesses) and our [CER audit preparation guide](/blog/cer-audit-prep-solar-installers).
+For a detailed look at how ServiceM8 enables this compliance workflow, see our [ServiceM8 for Solar Businesses guide](/blog/servicem8-for-solar-businesses/) and our [CER audit preparation guide](/blog/cer-audit-prep-solar-installers/).
 
 ### 4. AI-Assisted System Sizing and Quoting
 
@@ -136,7 +136,7 @@ Connect your web enquiry forms to an AI-powered response system. The response ti
 Create the automated customer journey for the first 90 days post-installation. This improves customer satisfaction, reduces support calls, and times your referral request optimally.
 
 **Quarter 2: Compliance documentation automation**
-If you're not already running ServiceM8 or equivalent, this is when to implement a proper compliance documentation system. See our [digital job management guide for solar installers](/blog/digital-job-management-solar-installers) for the full breakdown.
+If you're not already running ServiceM8 or equivalent, this is when to implement a proper compliance documentation system. See our [digital job management guide for solar installers](/blog/digital-job-management-solar-installers/) for the full breakdown.
 
 **Quarter 3–4: AI quoting integration**
 Evaluate solar-specific AI quoting tools and integrate them into your sales workflow. Measure quote volume, time-to-quote, and conversion rate change.
@@ -145,7 +145,7 @@ Evaluate solar-specific AI quoting tools and integrate them into your sales work
 
 ## The Broader AI Automation Picture
 
-The automation applications above are solar-specific, but they sit within a broader AI automation trend across all trade businesses. For a comprehensive view of AI automation across different trade types, see our [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia), which covers scheduling, quoting, client communication, and operational workflow automation applicable to all trades.
+The automation applications above are solar-specific, but they sit within a broader AI automation trend across all trade businesses. For a comprehensive view of AI automation across different trade types, see our [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/), which covers scheduling, quoting, client communication, and operational workflow automation applicable to all trades.
 
 ---
 
@@ -185,11 +185,11 @@ These three audits will tell you where AI automation investment will deliver the
 
 *Related reading:*
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
-- *[ServiceM8 for Solar Businesses: Scale Without the Admin Overload](/blog/servicem8-for-solar-businesses)*
-- *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
-- *[CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers)*
-- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
-- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)*
-- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
-- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
+- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)*
+- *[ServiceM8 for Solar Businesses: Scale Without the Admin Overload](/blog/servicem8-for-solar-businesses/)*
+- *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers/)*
+- *[CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers/)*
+- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers/)*
+- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)*

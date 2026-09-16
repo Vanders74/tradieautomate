@@ -144,7 +144,7 @@ A new solar + battery installation in SA can access:
 - **Federal STCs** for the solar PV component (calculated based on system size and zone)
 - **SA HBS subsidised loan** for the battery storage component
 
-Both can apply to the same installation. Make sure your quotes and customer communications are clear about which rebate applies to which component. See our [STC claim process guide](/blog/stc-claim-process-solar-installers-australia) for the full federal rebate workflow.
+Both can apply to the same installation. Make sure your quotes and customer communications are clear about which rebate applies to which component. See our [STC claim process guide](/blog/stc-claim-process-solar-installers-australia/) for the full federal rebate workflow.
 
 ---
 
@@ -216,14 +216,14 @@ Yes — the federal Small-scale Technology Certificate (STC) scheme and the SA H
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- *[Adding Battery Storage to Your Solar Business: The Complete Guide](/blog/adding-battery-storage-solar-business-australia)*
-- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance)*
-- *[VIC Solar Homes Program Battery Rebate 2026](/blog/vic-solar-homes-program-rebate-2026)*
-- *[Battery Retrofit Installations: Adding Storage to Existing Solar Systems](/blog/battery-retrofit-installations-existing-solar)*
-- *[STC Claim Process for Solar Installers Australia](/blog/stc-claim-process-solar-installers-australia)*
-- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
-- *[Solar Battery System Cost Australia 2026](/blog/solar-battery-system-cost-australia-2026)*
-- *[CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers)*
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
-- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
+- *[Adding Battery Storage to Your Solar Business: The Complete Guide](/blog/adding-battery-storage-solar-business-australia/)*
+- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance/)*
+- *[VIC Solar Homes Program Battery Rebate 2026](/blog/vic-solar-homes-program-rebate-2026/)*
+- *[Battery Retrofit Installations: Adding Storage to Existing Solar Systems](/blog/battery-retrofit-installations-existing-solar/)*
+- *[STC Claim Process for Solar Installers Australia](/blog/stc-claim-process-solar-installers-australia/)*
+- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026/)*
+- *[Solar Battery System Cost Australia 2026](/blog/solar-battery-system-cost-australia-2026/)*
+- *[CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers/)*
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)
+- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/)

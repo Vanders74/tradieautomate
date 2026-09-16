@@ -111,7 +111,7 @@ When they answer:
 
 ## Step 3: The Site Assessment Pitch
 
-At the site assessment, the three-play structure from the [2026 Solar Playbook](/blog/solar-playbook-2026-battery-upgrade) gives you a clear framework:
+At the site assessment, the three-play structure from the [2026 Solar Playbook](/blog/solar-playbook-2026-battery-upgrade/) gives you a clear framework:
 
 1. **Compliance upgrade**: CSIP-compliant hybrid inverter — protects the system from the 1.5kW export clamp on any future modification
 2. **Battery storage**: LFP battery — converts excess generation from 5-cent export to 30-cent displacement
@@ -148,7 +148,7 @@ For this to be a systematic lead generation process rather than a one-time exerc
 
 ServiceM8's job records and client history support all of this. The effort to set it up correctly once is recovered on the first retrofit campaign you run.
 
-For the complete job management setup for solar businesses, including job templates and client communication automation: [ServiceM8 for Solar Businesses](/blog/servicem8-for-solar-businesses).
+For the complete job management setup for solar businesses, including job templates and client communication automation: [ServiceM8 for Solar Businesses](/blog/servicem8-for-solar-businesses/).
 
 ---
 
@@ -167,9 +167,9 @@ The customers who bought solar from you once already trust you. Use that trust b
 **[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)**
 
 Related reading:
-- [The 2026 Solar Playbook](/blog/solar-playbook-2026-battery-upgrade) — the full commercial framework
-- [The 1.5kW Export Clamp Explained](/blog/csip-aus-export-limit-1-5kw-solar) — why the CSIP mandate creates upgrade urgency
-- [Battery Storage AS/NZS 5139 Compliance](/blog/as-nzs-5139-battery-storage-compliance) — the compliance requirements for battery installations
+- [The 2026 Solar Playbook](/blog/solar-playbook-2026-battery-upgrade/) — the full commercial framework
+- [The 1.5kW Export Clamp Explained](/blog/csip-aus-export-limit-1-5kw-solar/) — why the CSIP mandate creates upgrade urgency
+- [Battery Storage AS/NZS 5139 Compliance](/blog/as-nzs-5139-battery-storage-compliance/) — the compliance requirements for battery installations
 
 ---
 
@@ -178,8 +178,8 @@ Related reading:
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
-- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
-- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)
+- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/)
+- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)

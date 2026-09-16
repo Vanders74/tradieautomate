@@ -52,7 +52,7 @@ ServiceM8 was built in Australia and has become the dominant platform for small-
 
 ---
 
-### 2. [simPRO](/blog/simpro-review-2026-australia) — Best for Larger Electrical Contractors and Project Work
+### 2. [simPRO](/blog/simpro-review-2026-australia/) — Best for Larger Electrical Contractors and Project Work
 
 **Best for:** Electrical businesses with 20+ staff; commercial project management; complex quoting with detailed job costing.
 
@@ -60,9 +60,9 @@ simPRO is a more enterprise-grade platform designed for larger trade businesses 
 
 ---
 
-> **☀️ Solar-focused?** See our dedicated [solar job management software guide](/blog/solar-job-management-software-australia-2026) for platforms built specifically for solar installers.
+> **☀️ Solar-focused?** See our dedicated [solar job management software guide](/blog/solar-job-management-software-australia-2026/) for platforms built specifically for solar installers.
 
-### 3. [Tradify](/blog/tradify-review-2026-australia) — Best for Sole Traders and Small Teams
+### 3. [Tradify](/blog/tradify-review-2026-australia/) — Best for Sole Traders and Small Teams
 
 **Best for:** Sole traders and businesses with 2–5 staff; simple job management without complexity.
 
@@ -70,7 +70,7 @@ Tradify is a simpler, more affordable platform that works well for electricians 
 
 ---
 
-### 4. [Fergus](/blog/fergus-review-2026-australia) — Strong Contender, New Zealand-Origin
+### 4. [Fergus](/blog/fergus-review-2026-australia/) — Strong Contender, New Zealand-Origin
 
 **Best for:** Electricians who want strong job costing and margin tracking; businesses with heavy focus on profitability analytics.
 
@@ -78,7 +78,7 @@ Fergus originated in New Zealand and has a strong following among trade business
 
 ---
 
-### 5. [AroFlo](/blog/aroflo-review-2026-australia) — Best for Field Service Management at Enterprise Scale
+### 5. [AroFlo](/blog/aroflo-review-2026-australia/) — Best for Field Service Management at Enterprise Scale
 
 **Best for:** Larger electrical contractors with complex field service operations; businesses needing deep customisation.
 
@@ -133,7 +133,7 @@ For Australian electricians, compliance documentation is non-negotiable. Here's 
 
 **Audit-ready records.** Every job in ServiceM8 has a complete, timestamped audit trail — who did what, when, using which forms, with what photos. When a licensing authority requests records for a random audit, they're available in minutes.
 
-This is particularly valuable for electricians doing solar and battery work, where AS/NZS 5139 compliance requirements add another layer of documentation. Solar installers also need to manage STC creation and lodgement — the **Clean Energy Regulator** administers the Small-scale Renewable Energy Scheme under the **Renewable Energy (Electricity) Act 2000**, and STC compliance documentation must be retained for audit purposes. See our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance) for specifics.
+This is particularly valuable for electricians doing solar and battery work, where AS/NZS 5139 compliance requirements add another layer of documentation. Solar installers also need to manage STC creation and lodgement — the **Clean Energy Regulator** administers the Small-scale Renewable Energy Scheme under the **Renewable Energy (Electricity) Act 2000**, and STC compliance documentation must be retained for audit purposes. See our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance/) for specifics.
 
 ---
 
@@ -242,11 +242,11 @@ Yes. ServiceM8's digital form builder lets you create Certificate of Electrical 
 
 ### Can I use ServiceM8 for both electrical and solar installation work?
 
-Absolutely — and it's arguably the best platform for businesses that do both. You can configure separate job templates, compliance forms, and workflows for electrical and solar work within the same account. See our [ServiceM8 for Solar Installers guide](/blog/servicem8-for-solar-installers) for specifics on the solar compliance workflow.
+Absolutely — and it's arguably the best platform for businesses that do both. You can configure separate job templates, compliance forms, and workflows for electrical and solar work within the same account. See our [ServiceM8 for Solar Installers guide](/blog/servicem8-for-solar-installers/) for specifics on the solar compliance workflow.
 
 ### Is simPRO worth the extra cost for electricians?
 
-simPRO's higher cost is justified for electrical businesses with 20+ staff doing complex commercial project work with sophisticated job costing requirements. For most residential and light commercial electricians, ServiceM8 provides better value. See our [ServiceM8 vs simPRO comparison](/blog/servicem8-vs-simpro-comparison-australia) for a detailed breakdown.
+simPRO's higher cost is justified for electrical businesses with 20+ staff doing complex commercial project work with sophisticated job costing requirements. For most residential and light commercial electricians, ServiceM8 provides better value. See our [ServiceM8 vs simPRO comparison](/blog/servicem8-vs-simpro-comparison-australia/) for a detailed breakdown.
 
 ### How long does it take to set up ServiceM8 for an electrical business?
 
@@ -259,27 +259,27 @@ Most electricians are up and running with basic job management within a few hour
 > [Download free →](/playbook)
 
 *Related reading:*
-- *[How to Choose Electrical Job Management Software (2026 Buyer's Guide)](/blog/electrical-job-management-software-buyers-guide-australia) — the step-by-step decision framework, if you'd rather pick by criteria than a ranked list*
-- *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
-- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
-- *[ServiceM8 for Painters: Quote Faster, Invoice Sooner, Chase Less](/blog/servicem8-for-painters)*
-- *[ServiceM8 for Roofing Contractors: Manage Jobs, Quotes, and Compliance From the Field](/blog/servicem8-for-roofing)*
-- *[ServiceM8 for Builders: Job Management for Australian Residential Construction](/blog/servicem8-for-builders)*
-- *[ServiceM8 for Landscapers: Run Your Landscaping Business Without the Admin Chaos](/blog/servicem8-for-landscapers)*
-- *[ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia)*
-- *[simPRO vs ServiceM8: Which Fits a 3-Man HVAC Business Better?](/blog/simpro-vs-servicem8-hvac-small-business)*
-- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
-- *[ServiceM8 vs Fergus: Honest Comparison for Australian Trades](/blog/servicem8-vs-fergus)*
-- *[ServiceM8 vs AroFlo: Which Field Service Platform Is Right for You?](/blog/servicem8-vs-aroflo)*
-- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
-- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
-- *[AI Automation for Electricians and Plumbers](/blog/ai-automation-electrical-plumbing)*
-- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
+- *[How to Choose Electrical Job Management Software (2026 Buyer's Guide)](/blog/electrical-job-management-software-buyers-guide-australia/) — the step-by-step decision framework, if you'd rather pick by criteria than a ranked list*
+- *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers/)*
+- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians/)*
+- *[ServiceM8 for Painters: Quote Faster, Invoice Sooner, Chase Less](/blog/servicem8-for-painters/)*
+- *[ServiceM8 for Roofing Contractors: Manage Jobs, Quotes, and Compliance From the Field](/blog/servicem8-for-roofing/)*
+- *[ServiceM8 for Builders: Job Management for Australian Residential Construction](/blog/servicem8-for-builders/)*
+- *[ServiceM8 for Landscapers: Run Your Landscaping Business Without the Admin Chaos](/blog/servicem8-for-landscapers/)*
+- *[ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia/)*
+- *[simPRO vs ServiceM8: Which Fits a 3-Man HVAC Business Better?](/blog/simpro-vs-servicem8-hvac-small-business/)*
+- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia/)*
+- *[ServiceM8 vs Fergus: Honest Comparison for Australian Trades](/blog/servicem8-vs-fergus/)*
+- *[ServiceM8 vs AroFlo: Which Field Service Platform Is Right for You?](/blog/servicem8-vs-aroflo/)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)*
+- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)*
+- *[AI Automation for Electricians and Plumbers](/blog/ai-automation-electrical-plumbing/)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)*
 
-**See also:** [Commercial EV Charging at Premises Australia 2026: Compliance & Pricing Guide](/blog/ev-charging-commercial-premises-australia-2026)
+**See also:** [Commercial EV Charging at Premises Australia 2026: Compliance & Pricing Guide](/blog/ev-charging-commercial-premises-australia-2026/)
 
 
-**See also:** [EV Charger Network Installation: Business Opportunity for Australian Electricians](/blog/ev-charger-network-installation-business-opportunity)
+**See also:** [EV Charger Network Installation: Business Opportunity for Australian Electricians](/blog/ev-charger-network-installation-business-opportunity/)
 
 ---
 

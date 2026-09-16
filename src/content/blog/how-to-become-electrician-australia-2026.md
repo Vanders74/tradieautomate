@@ -45,31 +45,31 @@ Australia has no single national electrical licence. Each state and territory ru
 
 **Regulator:** NSW Fair Trading under the **Home Building Act 1989** and the **Electricity (Consumer Safety) Act 2004**.
 
-**Pathway:** Complete Certificate III in Electrotechnology → apply for an **Electrical Contractor Licence** (if planning to contract) or **Qualified Supervisor Certificate** (if working under a contractor's licence). NSW has a two-track system: one for the licence holder (the contractor) and one for the qualified supervisor who oversees the technical work. Many electricians hold both. For full details, see the [NSW Electrical Contractor Licence Guide 2026](/blog/nsw-electrical-contractor-licence-guide-2026).
+**Pathway:** Complete Certificate III in Electrotechnology → apply for an **Electrical Contractor Licence** (if planning to contract) or **Qualified Supervisor Certificate** (if working under a contractor's licence). NSW has a two-track system: one for the licence holder (the contractor) and one for the qualified supervisor who oversees the technical work. Many electricians hold both. For full details, see the [NSW Electrical Contractor Licence Guide 2026](/blog/nsw-electrical-contractor-licence-guide-2026/).
 
 ### Victoria
 
 **Regulator:** Energy Safe Victoria (ESV) under the **Electricity Safety Act 1998**.
 
-**Pathway:** Complete Certificate III → apply for an **A Grade Electrician's Licence** through ESV. To operate a contracting business, you also need **Registered Electrical Contractor (REC)** status. ESV requires completion of a specific business registration process separate from the individual licence. For detail, see the [VIC Electrical Contractor Licence Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026).
+**Pathway:** Complete Certificate III → apply for an **A Grade Electrician's Licence** through ESV. To operate a contracting business, you also need **Registered Electrical Contractor (REC)** status. ESV requires completion of a specific business registration process separate from the individual licence. For detail, see the [VIC Electrical Contractor Licence Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026/).
 
 ### Queensland
 
 **Regulator:** Electrical Safety Office Queensland (ESO) under the **Electrical Safety Act 2002**, plus the **Queensland Building and Construction Commission (QBCC)** for contractor licensing.
 
-**Pathway:** Complete Certificate III → apply for an **Electrical Work Licence** through ESO. If contracting, you need a separate **QBCC Electrical Contractor Licence**. Queensland is one of two states that splits the individual work licence from the contractor licence across two different government bodies — both must be obtained and maintained separately. For detail, see the [QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026).
+**Pathway:** Complete Certificate III → apply for an **Electrical Work Licence** through ESO. If contracting, you need a separate **QBCC Electrical Contractor Licence**. Queensland is one of two states that splits the individual work licence from the contractor licence across two different government bodies — both must be obtained and maintained separately. For detail, see the [QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026/).
 
 ### South Australia
 
 **Regulator:** Consumer and Business Services (CBS) and the Office of the Technical Regulator (OTR).
 
-**Pathway:** Complete Certificate III → apply for an **Electrical Worker's Registration** through CBS. Contractor licensing is handled through OTR. SA requires registration of both the individual and the contracting entity. For detail, see the [SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026).
+**Pathway:** Complete Certificate III → apply for an **Electrical Worker's Registration** through CBS. Contractor licensing is handled through OTR. SA requires registration of both the individual and the contracting entity. For detail, see the [SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026/).
 
 ### Western Australia
 
 **Regulator:** Building and Energy (formerly EnergySafety) under the **Electricity Act 1945**.
 
-**Pathway:** Complete Certificate III → apply for an **Electrician's Licence** through Building and Energy. WA also issues a **Competency Card for Electrical Installation (CCEI)** which is required for installation work. Contractor licensing requires a separate **Electrical Contractor's Licence**. For detail, see the [WA Electrical Contractor Licence Guide 2026](/blog/wa-electrical-contractor-licence-guide-2026).
+**Pathway:** Complete Certificate III → apply for an **Electrician's Licence** through Building and Energy. WA also issues a **Competency Card for Electrical Installation (CCEI)** which is required for installation work. Contractor licensing requires a separate **Electrical Contractor's Licence**. For detail, see the [WA Electrical Contractor Licence Guide 2026](/blog/wa-electrical-contractor-licence-guide-2026/).
 
 ### Tasmania, ACT, and Northern Territory
 
@@ -165,7 +165,7 @@ These are minimum award rates. Many employers pay above-award rates, particularl
 
 **After licensing**, an A-grade electrician earns **$38.43 to $42.15 per hour base** under the Electrical Award depending on classification (Grade 1 through Grade 5). Experience, specialisation, and the type of work significantly lift earnings above the award minimum. Data centre electricians currently advertise at **$55 to $68 per hour** with annual packages of **$120,000 to $190,000 plus superannuation**. Electrical contractors who run their own business can earn substantially more — but carry the overhead, risk, and compliance obligations that come with self-employment.
 
-For the full breakdown of electrical award classifications, overtime rates, tool allowances, and industry allowances, download the [Award Rates Quick Reference Card](/award-rates-card) or see the [Electrical Contractor Award Rates guide](/blog/electrical-contractor-award-rates-australia-2026).
+For the full breakdown of electrical award classifications, overtime rates, tool allowances, and industry allowances, download the [Award Rates Quick Reference Card](/award-rates-card) or see the [Electrical Contractor Award Rates guide](/blog/electrical-contractor-award-rates-australia-2026/).
 
 ---
 
@@ -179,7 +179,7 @@ Australia has **over 500 megawatts of data centre projects under construction**,
 
 Global projections suggest **more than 300,000 additional electricians are needed over the next decade** to meet AI-driven infrastructure demand. The Australian government has designated data centres as **critical infrastructure under the SOCI Act 2018**, which means the construction pipeline is policy-backed, not speculative. These projects are being built.
 
-For electricians, data centre work represents a step-change in earning potential: HV-specialist electricians, UPS commissioning technicians, and data centre maintenance contractors earn well above standard commercial electrical rates. The full opportunity is covered in the [AI Data Centre Growth guide for Australian electricians](/blog/ai-data-centre-growth-electricians-australia-2026).
+For electricians, data centre work represents a step-change in earning potential: HV-specialist electricians, UPS commissioning technicians, and data centre maintenance contractors earn well above standard commercial electrical rates. The full opportunity is covered in the [AI Data Centre Growth guide for Australian electricians](/blog/ai-data-centre-growth-electricians-australia-2026/).
 
 ### The Electrification Wave
 
@@ -247,13 +247,13 @@ Each state and territory has its own electrical licensing body. NSW uses NSW Fai
 
 *Related reading:*
 
-- *[AI Data Centre Growth Australia 2026: The $50B Infrastructure Opportunity for Electricians](/blog/ai-data-centre-growth-electricians-australia-2026) — why 861 data centre electrician jobs are listed right now and how the infrastructure wave is changing career earnings*
-- *[Apprentice Ratios & Hiring Incentives — Electrical Australia 2026](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026) — state-by-state supervision ratios, AAIS payments, and how much it costs to employ an apprentice*
-- *[Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026) — full MA000025 classifications, overtime rules, allowances, and payroll obligations*
+- *[AI Data Centre Growth Australia 2026: The $50B Infrastructure Opportunity for Electricians](/blog/ai-data-centre-growth-electricians-australia-2026/) — why 861 data centre electrician jobs are listed right now and how the infrastructure wave is changing career earnings*
+- *[Apprentice Ratios & Hiring Incentives — Electrical Australia 2026](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026/) — state-by-state supervision ratios, AAIS payments, and how much it costs to employ an apprentice*
+- *[Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026/) — full MA000025 classifications, overtime rules, allowances, and payroll obligations*
 - *[Award Rates Quick Reference Card — Free Download](/award-rates-card) — one-page printable reference with ET grades, apprentice percentages, and top 5 misclassification risks*
-- *[NSW Electrical Contractor Licence Guide 2026](/blog/nsw-electrical-contractor-licence-guide-2026)*
-- *[VIC Electrical Contractor Licence Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026)*
-- *[QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026)*
-- *[SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026)*
-- *[WA Electrical Contractor Licence Guide 2026](/blog/wa-electrical-contractor-licence-guide-2026)*
-- *[How to Handle Negative Google Reviews — Tradie Guide](/blog/how-to-handle-negative-google-reviews-tradie) — reputation management for your future electrical contracting business*
+- *[NSW Electrical Contractor Licence Guide 2026](/blog/nsw-electrical-contractor-licence-guide-2026/)*
+- *[VIC Electrical Contractor Licence Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026/)*
+- *[QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026/)*
+- *[SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026/)*
+- *[WA Electrical Contractor Licence Guide 2026](/blog/wa-electrical-contractor-licence-guide-2026/)*
+- *[How to Handle Negative Google Reviews — Tradie Guide](/blog/how-to-handle-negative-google-reviews-tradie/) — reputation management for your future electrical contracting business*

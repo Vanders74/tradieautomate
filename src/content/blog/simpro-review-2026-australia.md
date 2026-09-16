@@ -141,11 +141,11 @@ Evaluate simPRO seriously when: you're consistently running commercial projects 
 
 ## Related Reading
 
-- [ServiceM8 vs simPRO Australia — Full Comparison 2026](/blog/servicem8-vs-simpro-comparison-australia)
-- [ServiceM8 vs simPRO for Electricians Australia 2026](/blog/servicem8-vs-simpro-electricians-australia-2026)
-- [Electrical Job Management Software Australia 2026 — Buyer's Guide](/blog/electrical-job-management-software-buyers-guide-australia)
-- [ServiceM8 Pricing 2026 — Plans and Real Costs](/blog/servicem8-pricing-plans-australia-2026)
-- [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)
+- [ServiceM8 vs simPRO Australia — Full Comparison 2026](/blog/servicem8-vs-simpro-comparison-australia/)
+- [ServiceM8 vs simPRO for Electricians Australia 2026](/blog/servicem8-vs-simpro-electricians-australia-2026/)
+- [Electrical Job Management Software Australia 2026 — Buyer's Guide](/blog/electrical-job-management-software-buyers-guide-australia/)
+- [ServiceM8 Pricing 2026 — Plans and Real Costs](/blog/servicem8-pricing-plans-australia-2026/)
+- [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia/)
 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)

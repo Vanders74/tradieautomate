@@ -88,7 +88,7 @@ The biggest shift in WA solar in years took effect **1 May 2026**, under the WEM
 - **30kVA aggregate inverter capacity** — you can now install up to 30kVA of combined solar and battery inverter capacity on a standard connection, up from the previous single-phase 5kVA / three-phase 15kVA limits.
 - **Remote disconnect/reconnect required** — every new or upgraded system must be capable of emergency solar management (set up by the installer at installation), unless the customer opts for a fixed 1.5kW export limit instead.
 - **AS/NZS 4777.2:2020 with "Australia Region B"** — WA references the 2020 standard with the Australia Region B grid code, which differs from the AS/NZS 4777:2024 editions used in the NEM states. Set the grid code correctly at commissioning.
-- **CSIP-AUS commissioning** — Synergy customers are commissioned using the CSIP-AUS protocol (see our [CSIP-AUS and the 1.5kW export limit explainer](/blog/csip-aus-export-limit-1-5kw-solar)).
+- **CSIP-AUS commissioning** — Synergy customers are commissioned using the CSIP-AUS protocol (see our [CSIP-AUS and the 1.5kW export limit explainer](/blog/csip-aus-export-limit-1-5kw-solar/)).
 
 **What this means in practice:** you can now sell a much larger solar-plus-battery system on a standard connection than you could before May 2026 — but only if it's remotely manageable. The fixed 1.5kW option remains for sites with poor connectivity or customers who don't want to participate in export products.
 
@@ -134,9 +134,9 @@ The 30kVA headline needs translating into per-inverter limits installers actuall
 
 Adding a battery brings its own connection and compliance layer — and pairs naturally with WA's emerging VPP programs, since a battery gives the system somewhere useful to send surplus energy when export is limited.
 
-- Battery installations must meet **AS/NZS 5139** (electrical installation safety for battery systems) — see our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance).
-- The WA **Residential Battery Scheme** offers rebates for eligible battery installs and requires specific battery storage capabilities — see [what a battery really costs](/blog/solar-battery-system-cost-australia-2026).
-- STC eligibility for the solar component is governed by the **Clean Energy Regulator** under the **Renewable Energy (Electricity) Act 2000** — see the [STC claim process](/blog/stc-claim-process-solar-installers-australia).
+- Battery installations must meet **AS/NZS 5139** (electrical installation safety for battery systems) — see our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance/).
+- The WA **Residential Battery Scheme** offers rebates for eligible battery installs and requires specific battery storage capabilities — see [what a battery really costs](/blog/solar-battery-system-cost-australia-2026/).
+- STC eligibility for the solar component is governed by the **Clean Energy Regulator** under the **Renewable Energy (Electricity) Act 2000** — see the [STC claim process](/blog/stc-claim-process-solar-installers-australia/).
 - A battery is also the gateway to joining a **virtual power plant** — Western Power is building VPP capability through Project Jupiter, with real fleet coordination targeted for 2026–2027.
 
 ---
@@ -146,7 +146,7 @@ Adding a battery brings its own connection and compliance layer — and pairs na
 EV chargers pull meaningful load and increasingly trigger distributor sign-off:
 
 - **Residential:** confirm the existing supply and switchboard can handle the additional load; smart chargers are generally preferred for network visibility.
-- **Commercial:** load assessments and capacity upgrades usually apply — see the [commercial EV charging guide](/blog/commercial-ev-charging-installation-guide-electricians) and the [EV charger business case](/blog/ev-charger-installation-electricians-australia-2026).
+- **Commercial:** load assessments and capacity upgrades usually apply — see the [commercial EV charging guide](/blog/commercial-ev-charging-installation-guide-electricians/) and the [EV charger business case](/blog/ev-charger-installation-electricians-australia-2026/).
 - The same Western Power connection framework manages new loads and capacity enquiries.
 
 ---
@@ -196,7 +196,7 @@ A typical solar connection in ServiceM8 runs:
 
 **Lead → Site visit → Quote → Network check → Western Power application → Approval tracking → Install → Commission & CSIP-AUS setup → Compliance certificate → Invoice**
 
-ServiceM8 lets you attach the Western Power approval, track the application against the job, store the compliance certificate and photos, and fire the invoice the moment the job closes — so the paperwork doesn't lag the installation. See [ServiceM8 for solar installers](/blog/servicem8-for-solar-installers), and keep the [solar compliance checklist](/blog/solar-compliance-checklist-2026) and [WA electrical contractor licence guide](/blog/wa-electrical-contractor-licence-guide-2026) close to hand.
+ServiceM8 lets you attach the Western Power approval, track the application against the job, store the compliance certificate and photos, and fire the invoice the moment the job closes — so the paperwork doesn't lag the installation. See [ServiceM8 for solar installers](/blog/servicem8-for-solar-installers/), and keep the [solar compliance checklist](/blog/solar-compliance-checklist-2026/) and [WA electrical contractor licence guide](/blog/wa-electrical-contractor-licence-guide-2026/) close to hand.
 
 ---
 
@@ -213,7 +213,7 @@ ServiceM8 lets you attach the Western Power approval, track the application agai
 
 Installing across the border? Each state has its own distributor framework, export limits and compliance certificate:
 
-- [SA Power Networks guide](/blog/sa-power-networks-solar-connection-guide-2026) — flexible exports mandatory since 1 Jul 2023
-- [NSW distributors guide](/blog/nsw-electricity-distributors-solar-connection-guide-2026) — three networks (Ausgrid, Endeavour, Essential), three export limits
-- [QLD Energex & Ergon guide](/blog/qld-energex-ergon-solar-connection-guide-2026) — dynamic connections on IEEE 2030.5 SEP2
-- [VIC distributors guide](/blog/vic-solar-connection-guide-2026) — five networks, uniform 5kW limit
+- [SA Power Networks guide](/blog/sa-power-networks-solar-connection-guide-2026/) — flexible exports mandatory since 1 Jul 2023
+- [NSW distributors guide](/blog/nsw-electricity-distributors-solar-connection-guide-2026/) — three networks (Ausgrid, Endeavour, Essential), three export limits
+- [QLD Energex & Ergon guide](/blog/qld-energex-ergon-solar-connection-guide-2026/) — dynamic connections on IEEE 2030.5 SEP2
+- [VIC distributors guide](/blog/vic-solar-connection-guide-2026/) — five networks, uniform 5kW limit

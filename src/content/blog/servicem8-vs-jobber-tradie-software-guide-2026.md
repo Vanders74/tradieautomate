@@ -45,7 +45,7 @@ Here's the honest breakdown.
 
 ## Pricing: What You'll Actually Pay
 
-### [ServiceM8 Pricing](/blog/servicem8-pricing-plans-australia-2026) (AUD)
+### [ServiceM8 Pricing](/blog/servicem8-pricing-plans-australia-2026/) (AUD)
 
 ServiceM8 pricing is based on active staff and jobs per month:
 
@@ -83,9 +83,9 @@ ServiceM8's custom form builder is a first-class feature. You can build any comp
 
 Field technicians complete these forms on their phone before they can mark the job done. Every completed form is timestamped and attached to the job record. Photos captured through the app are automatically linked to the job with GPS location and timestamp.
 
-For CER audits and state licensing authority reviews, this creates a complete, retrievable documentation record for every job. Our [CER audit preparation guide](/blog/cer-audit-prep-solar-installers) explains exactly what documentation auditors look for — and how ServiceM8's job records satisfy these requirements.
+For CER audits and state licensing authority reviews, this creates a complete, retrievable documentation record for every job. Our [CER audit preparation guide](/blog/cer-audit-prep-solar-installers/) explains exactly what documentation auditors look for — and how ServiceM8's job records satisfy these requirements.
 
-The compliance documentation workflow also aligns with the [AS/NZS 5139 battery storage standard](/blog/as-nzs-5139-battery-storage-compliance) requirements — battery installers can build the specific clearance, installation, and commissioning documentation requirements directly into their job workflows.
+The compliance documentation workflow also aligns with the [AS/NZS 5139 battery storage standard](/blog/as-nzs-5139-battery-storage-compliance/) requirements — battery installers can build the specific clearance, installation, and commissioning documentation requirements directly into their job workflows.
 
 ### Jobber: Limited Custom Forms
 
@@ -170,7 +170,7 @@ Both platforms handle automated customer communication — confirmations, remind
 
 The difference is in how naturally these workflows integrate with Australian customer experience expectations.
 
-ServiceM8's automated follow-up for Google reviews is widely used across the Australian solar and electrical industry. Businesses using the system consistently report high Google review accumulation rates — the kind of 4.8+ star profiles that convert more quotes at higher prices. Our [guide to SMS vs email for solar quotes](/blog/sms-vs-email-quotes-customer-experience) covers how review velocity compounds over time into a meaningful competitive advantage.
+ServiceM8's automated follow-up for Google reviews is widely used across the Australian solar and electrical industry. Businesses using the system consistently report high Google review accumulation rates — the kind of 4.8+ star profiles that convert more quotes at higher prices. Our [guide to SMS vs email for solar quotes](/blog/sms-vs-email-quotes-customer-experience/) covers how review velocity compounds over time into a meaningful competitive advantage.
 
 **Verdict:** Tie on features; slight edge to ServiceM8 on review automation adoption in the Australian market.
 
@@ -187,7 +187,7 @@ ServiceM8 is the right choice if you're:
 - Looking for a platform with **strong compliance documentation** built into the job workflow
 - Wanting to get set up quickly without a lengthy onboarding process
 
-Read our in-depth guide on [ServiceM8 for solar installers](/blog/servicem8-for-solar-installers) and [ServiceM8 for electricians](/blog/servicem8-for-electricians) to see exactly how the platform handles the specific workflows for each trade.
+Read our in-depth guide on [ServiceM8 for solar installers](/blog/servicem8-for-solar-installers/) and [ServiceM8 for electricians](/blog/servicem8-for-electricians/) to see exactly how the platform handles the specific workflows for each trade.
 
 ---
 
@@ -207,11 +207,11 @@ Jobber is worth considering if you're:
 
 ServiceM8 and Jobber are two options in a broader field. We've published detailed comparisons with other major platforms:
 
-- [ServiceM8 vs simPRO](/blog/servicem8-vs-simpro-comparison-australia) — for businesses evaluating enterprise-grade project management
-- [ServiceM8 vs Tradify](/blog/servicem8-vs-tradify-comparison-australia) — for businesses comparing the most affordable options
-- [ServiceM8 vs Fergus](/blog/servicem8-vs-fergus) — for the Kiwi-built alternative
-- [ServiceM8 vs AroFlo](/blog/servicem8-vs-aroflo) — for businesses with complex quoting and project management needs
-- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia) — the full ranked comparison for electrical businesses
+- [ServiceM8 vs simPRO](/blog/servicem8-vs-simpro-comparison-australia/) — for businesses evaluating enterprise-grade project management
+- [ServiceM8 vs Tradify](/blog/servicem8-vs-tradify-comparison-australia/) — for businesses comparing the most affordable options
+- [ServiceM8 vs Fergus](/blog/servicem8-vs-fergus/) — for the Kiwi-built alternative
+- [ServiceM8 vs AroFlo](/blog/servicem8-vs-aroflo/) — for businesses with complex quoting and project management needs
+- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/) — the full ranked comparison for electrical businesses
 
 ---
 
@@ -240,12 +240,12 @@ No credit card required. Set up your first compliance form and test the full wor
 > [Download free →](/playbook)
 
 *Related reading:*
-- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
-- *[ServiceM8 for Electricians: The Platform Australian Sparkies Use](/blog/servicem8-for-electricians)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[The Paperless Trade Roadmap](/blog/paperless-trade-roadmap-operational-efficiency)*
-- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
-- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
+- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers/)*
+- *[ServiceM8 for Electricians: The Platform Australian Sparkies Use](/blog/servicem8-for-electricians/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[The Paperless Trade Roadmap](/blog/paperless-trade-roadmap-operational-efficiency/)*
+- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)*
 ---
 
 ## FAQ

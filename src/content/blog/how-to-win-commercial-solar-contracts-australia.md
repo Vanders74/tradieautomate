@@ -16,7 +16,7 @@ The challenge: commercial solar is a different game from residential. Different 
 
 ---
 
-For the numbers behind commercial solar — pricing, labour costs, and per-install ROI — see the [commercial solar ROI pricing guide](/blog/commercial-solar-roi-pricing-electricians-australia-2026).
+For the numbers behind commercial solar — pricing, labour costs, and per-install ROI — see the [commercial solar ROI pricing guide](/blog/commercial-solar-roi-pricing-electricians-australia-2026/).
 
 ## Understanding the Commercial Solar Market
 
@@ -149,7 +149,7 @@ In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieau
 - Progress billing for staged payment commercial contracts
 - Client communication history tracked against the job
 
-See our guide to [digital job management for solar installers](/blog/digital-job-management-solar-installers) for the full operational workflow.
+See our guide to [digital job management for solar installers](/blog/digital-job-management-solar-installers/) for the full operational workflow.
 
 ---
 
@@ -173,8 +173,8 @@ Commercial jobs have higher absolute margin potential but also higher complexity
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
-- *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)*
-- *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses)*
+- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026/)*
+- *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/)*
+- *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses/)*

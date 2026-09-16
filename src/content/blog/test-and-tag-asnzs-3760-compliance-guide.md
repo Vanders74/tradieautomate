@@ -117,7 +117,7 @@ You do not need an electrical licence to perform test and tag. AS/NZS 3760:2022 
 | **Queensland** | If testing for other businesses, need a Restricted Electrical Contractor's Licence from the Electrical Safety Office + Nationally Recognised course |
 | **All other states** | Competent person as defined by the standard — training strongly recommended but no mandatory licence for in-house testing |
 
-If you're an electrical contractor employing your own test and tag technician, that person needs documented training and demonstrated competence. If your business provides test and tag as a service to other companies, check state-specific licensing requirements — Queensland and WA have stricter rules than other states. See our [state-by-state electrical compliance guide](/blog/electrical-defect-notice-guide-state-by-state-australia-2026) for regulator contacts in your jurisdiction.
+If you're an electrical contractor employing your own test and tag technician, that person needs documented training and demonstrated competence. If your business provides test and tag as a service to other companies, check state-specific licensing requirements — Queensland and WA have stricter rules than other states. See our [state-by-state electrical compliance guide](/blog/electrical-defect-notice-guide-state-by-state-australia-2026/) for regulator contacts in your jurisdiction.
 
 ---
 
@@ -146,7 +146,7 @@ This is where job management software pays for itself. In ServiceM8, you can cre
 - Auto-assign to your competent person so nothing falls through the cracks
 - Generate compliance certificates directly from completed job records
 
-The result: your test and tag schedule runs on autopilot rather than someone remembering to check a calendar. See our [ServiceM8 for electricians guide](/blog/servicem8-for-electricians) for setting up recurring compliance job templates.
+The result: your test and tag schedule runs on autopilot rather than someone remembering to check a calendar. See our [ServiceM8 for electricians guide](/blog/servicem8-for-electricians/) for setting up recurring compliance job templates.
 
 ### Failed Equipment Process
 
@@ -176,7 +176,7 @@ Records must include:
 
 Digital records through a platform like ServiceM8 ensure records are complete, searchable, and don't disappear when a technician leaves. Paper logbooks and spreadsheets stored on someone's laptop are not considered robust record-keeping in a regulatory investigation.
 
-For broader electrical safety compliance beyond test and tag, see our [2026 electrical safety compliance guide](/blog/staying-compliant-2026-solar-electrical-safety) and [solar compliance checklist](/blog/solar-compliance-checklist-2026).
+For broader electrical safety compliance beyond test and tag, see our [2026 electrical safety compliance guide](/blog/staying-compliant-2026-solar-electrical-safety/) and [solar compliance checklist](/blog/solar-compliance-checklist-2026/).
 
 ---
 
@@ -210,8 +210,8 @@ AS/NZS 3760:2022 requires you to retain records of all testing, including asset 
 
 ## Related Reading
 
-- [ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)
-- [Staying Compliant: 2026 Solar and Electrical Safety Guide](/blog/staying-compliant-2026-solar-electrical-safety)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
-- [Electrical Defect Notice Guide: State-by-State (2026)](/blog/electrical-defect-notice-guide-state-by-state-australia-2026)
-- [RCD Safety Switch Requirements: AS/NZS 3000 for Electricians (2026)](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026)
+- [ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians/)
+- [Staying Compliant: 2026 Solar and Electrical Safety Guide](/blog/staying-compliant-2026-solar-electrical-safety/)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)
+- [Electrical Defect Notice Guide: State-by-State (2026)](/blog/electrical-defect-notice-guide-state-by-state-australia-2026/)
+- [RCD Safety Switch Requirements: AS/NZS 3000 for Electricians (2026)](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026/)

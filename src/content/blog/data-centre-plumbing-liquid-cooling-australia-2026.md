@@ -115,7 +115,7 @@ This is learnable — TAFE water-treatment short courses and supplier training (
 
 Finally, the protocols that separate data centre work from every other job site: N+1 redundancy means you never take a whole system down for service; change control means every intervention is logged, approved and reversible; and documentation means every reading, dose and test is recorded and archived for the life of the facility.
 
-Plant-room work also falls under state WHS regulators — in New South Wales, **SafeWork NSW** enforces the **Work Health and Safety Act 2011 (NSW)**, which covers confined-space entry, working at height and permit-to-work systems in plant rooms. Data centre operators audit licences, logbooks and insurances before you set foot on site — public liability of **$20 million** is the standard expectation on critical infrastructure. Crews that already run disciplined service paperwork — see [ServiceM8 for Plumbers](/blog/servicem8-for-plumbers) — are ahead of most competitors before they even quote.
+Plant-room work also falls under state WHS regulators — in New South Wales, **SafeWork NSW** enforces the **Work Health and Safety Act 2011 (NSW)**, which covers confined-space entry, working at height and permit-to-work systems in plant rooms. Data centre operators audit licences, logbooks and insurances before you set foot on site — public liability of **$20 million** is the standard expectation on critical infrastructure. Crews that already run disciplined service paperwork — see [ServiceM8 for Plumbers](/blog/servicem8-for-plumbers/) — are ahead of most competitors before they even quote.
 
 ---
 
@@ -163,7 +163,7 @@ Data centre clients buy capability, not goodwill. Package what you offer before 
 
 ### Step 3: Partner With Electrical and HVAC Contractors
 
-The fastest entry into data centre work is piggybacking on relationships that already exist. Electrical contractors already sub-contracting on data centre campuses need plumbing sub-contractors on the same packages — the fitout work is interleaved, and Tier 1 main contractors prefer packages that move together. Reach out to the electrical firms doing [data centre electrical work](/blog/ai-data-centre-growth-electricians-australia-2026), and the HVAC contractors doing [data centre cooling](/blog/ai-data-centre-cooling-hvac-contractors-australia-2026) — offer complementary plumbing and water-treatment capability on their next campus package, and register on the procurement portals (VendorPanel, AusTender) they already use. Three crews quoting complementary scope is a stronger bid than any one alone.
+The fastest entry into data centre work is piggybacking on relationships that already exist. Electrical contractors already sub-contracting on data centre campuses need plumbing sub-contractors on the same packages — the fitout work is interleaved, and Tier 1 main contractors prefer packages that move together. Reach out to the electrical firms doing [data centre electrical work](/blog/ai-data-centre-growth-electricians-australia-2026/), and the HVAC contractors doing [data centre cooling](/blog/ai-data-centre-cooling-hvac-contractors-australia-2026/) — offer complementary plumbing and water-treatment capability on their next campus package, and register on the procurement portals (VendorPanel, AusTender) they already use. Three crews quoting complementary scope is a stronger bid than any one alone.
 
 ### Step 4: Quote the Maintenance Before the Build Ends
 
@@ -179,7 +179,7 @@ The number one failure: quoting a data centre like a house. The tolerance is tig
 
 ### Missing the Licensing and Insurance Gate
 
-One unlicensed technician, or a public liability certificate below the **$20 million** threshold data centre operators expect, is enough to disqualify a sub-contractor from a panel permanently. Check your certificates against the [Electrical Contractor Insurance Australia 2026](/blog/electrical-contractor-insurance-australia-2026) thresholds before you bid — the same critical-infrastructure expectations apply to plumbing — and verify every tech's licence with your state regulator before they set foot on site.
+One unlicensed technician, or a public liability certificate below the **$20 million** threshold data centre operators expect, is enough to disqualify a sub-contractor from a panel permanently. Check your certificates against the [Electrical Contractor Insurance Australia 2026](/blog/electrical-contractor-insurance-australia-2026/) thresholds before you bid — the same critical-infrastructure expectations apply to plumbing — and verify every tech's licence with your state regulator before they set foot on site.
 
 ### Treating Water Treatment as a Chore
 
@@ -227,8 +227,8 @@ AS/NZS 3500 (Plumbing and drainage) is the baseline, adopted through NCC Volume 
 
 *Related reading:*
 
-- *[AI Data Centres Australia 2026: The $50B Infrastructure Opportunity for Electricians](/blog/ai-data-centre-growth-electricians-australia-2026) — the pillar hub covering where the projects are, the electrical packages involved, and how to get on Tier 1 sub-contractor panels*
-- *[AI Data Centres Australia 2026: The Cooling Opportunity for HVAC Contractors](/blog/ai-data-centre-cooling-hvac-contractors-australia-2026) — the sibling spoke on chilled water plant, CRAC/CRAH units and the precision-cooling trade*
-- *[ServiceM8 for Plumbers: Run a Tighter Plumbing Business With Less Admin](/blog/servicem8-for-plumbers) — running compliance certificates, maintenance schedules and field service for plumbing crews*
+- *[AI Data Centres Australia 2026: The $50B Infrastructure Opportunity for Electricians](/blog/ai-data-centre-growth-electricians-australia-2026/) — the pillar hub covering where the projects are, the electrical packages involved, and how to get on Tier 1 sub-contractor panels*
+- *[AI Data Centres Australia 2026: The Cooling Opportunity for HVAC Contractors](/blog/ai-data-centre-cooling-hvac-contractors-australia-2026/) — the sibling spoke on chilled water plant, CRAC/CRAH units and the precision-cooling trade*
+- *[ServiceM8 for Plumbers: Run a Tighter Plumbing Business With Less Admin](/blog/servicem8-for-plumbers/) — running compliance certificates, maintenance schedules and field service for plumbing crews*
 
-> **Running a data-centre plumbing crew?** [ServiceM8](/blog/servicem8-for-plumbers) keeps multi-trade schedules on track — recurring water-treatment visits, condensate checks, leak-detection rounds and compliance docs attached to every job, with everything archived for critical-environment audits. [Start your free trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
+> **Running a data-centre plumbing crew?** [ServiceM8](/blog/servicem8-for-plumbers/) keeps multi-trade schedules on track — recurring water-treatment visits, condensate checks, leak-detection rounds and compliance docs attached to every job, with everything archived for critical-environment audits. [Start your free trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)

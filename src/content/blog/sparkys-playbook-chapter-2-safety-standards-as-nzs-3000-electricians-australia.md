@@ -33,7 +33,7 @@ This chapter covers the areas of the Wiring Rules that generate the most complia
 
 ---
 
-For the business side of electrical work — see [Chapter 5: Commercial Solar Systems](/blog/sparkys-playbook-chapter-5-commercial-solar-systems-australia) for the revenue opportunity in commercial installations.
+For the business side of electrical work — see [Chapter 5: Commercial Solar Systems](/blog/sparkys-playbook-chapter-5-commercial-solar-systems-australia/) for the revenue opportunity in commercial installations.
 
 ## What AS/NZS 3000 Actually Is
 
@@ -226,11 +226,11 @@ If an auditor finds a non-compliance, you'll typically receive a direction to re
 
 ## Related Reading
 
-- [Electrical Switchboard Upgrade Cost Guide Australia 2026](/blog/electrical-switchboard-upgrade-cost-australia-2026)
-- [RCD Safety Switch Requirements AS/NZS 3000 for Electricians 2026](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026)
-- [NSW Electrical Contractor Licence Guide 2026](/blog/nsw-electrical-contractor-licence-guide-2026)
-- [QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026)
-- [The Sparky's Playbook — Chapter 1: State Licensing & Compliance](/blog/sparkys-playbook-chapter-1-state-licensing-compliance-australia-2026)
+- [Electrical Switchboard Upgrade Cost Guide Australia 2026](/blog/electrical-switchboard-upgrade-cost-australia-2026/)
+- [RCD Safety Switch Requirements AS/NZS 3000 for Electricians 2026](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026/)
+- [NSW Electrical Contractor Licence Guide 2026](/blog/nsw-electrical-contractor-licence-guide-2026/)
+- [QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026/)
+- [The Sparky's Playbook — Chapter 1: State Licensing & Compliance](/blog/sparkys-playbook-chapter-1-state-licensing-compliance-australia-2026/)
 
 ---
 

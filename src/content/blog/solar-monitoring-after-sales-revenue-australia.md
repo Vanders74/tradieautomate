@@ -103,7 +103,7 @@ For solar businesses that have been operating for 8+ years, inverter replacement
 
 ## System Expansion and Battery Retrofits
 
-As covered in our [battery storage guide](/blog/adding-battery-storage-solar-business-australia), battery retrofits are the highest-value after-sales opportunity for most solar businesses in 2026.
+As covered in our [battery storage guide](/blog/adding-battery-storage-solar-business-australia/), battery retrofits are the highest-value after-sales opportunity for most solar businesses in 2026.
 
 The pitch is simple for customers who installed solar 2–5 years ago:
 - Battery prices have dropped significantly since their install
@@ -124,7 +124,7 @@ In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieau
 - Set up recurring job templates for maintenance plan customers — annual inspection jobs created automatically
 - Track maintenance plan status per client
 
-This turns your customer base from a historical record into an active revenue pipeline. See our [AI automation for solar installers](/blog/ai-automation-solar-installers) guide for how to automate some of these follow-up sequences.
+This turns your customer base from a historical record into an active revenue pipeline. See our [AI automation for solar installers](/blog/ai-automation-solar-installers/) guide for how to automate some of these follow-up sequences.
 
 ---
 
@@ -153,10 +153,10 @@ This is what a mature solar installation business looks like — and it starts w
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- *[Adding Battery Storage to Your Solar Business: The Complete Guide](/blog/adding-battery-storage-solar-business-australia)*
-- *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)*
-- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
-- *[How to Get 5-Star Google Reviews as a Solar Installer or Electrician](/blog/google-reviews-five-star-tradie-guide)*
-- *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
-- *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses)*
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- *[Adding Battery Storage to Your Solar Business: The Complete Guide](/blog/adding-battery-storage-solar-business-australia/)*
+- *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers/)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)*
+- *[How to Get 5-Star Google Reviews as a Solar Installer or Electrician](/blog/google-reviews-five-star-tradie-guide/)*
+- *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth/)*
+- *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses/)*
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)

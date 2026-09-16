@@ -172,7 +172,7 @@ Failing to use the prescribed contract form does not void the licence — but it
 
 This is the most common confusion among NSW electricians and even some accountants.
 
-**The [CCEW (Certificate of Compliance for Electrical Work)](/blog/ccew-nsw-electrical-compliance-guide-2026)** is a safety compliance document, not a licence. It certifies that a specific piece of electrical work has been tested and is safe. It is completed per job by the licensed electrician who performed the work and submitted to Ausgrid, Endeavour Energy, or Essential Energy (depending on the network area).
+**The [CCEW (Certificate of Compliance for Electrical Work)](/blog/ccew-nsw-electrical-compliance-guide-2026/)** is a safety compliance document, not a licence. It certifies that a specific piece of electrical work has been tested and is safe. It is completed per job by the licensed electrician who performed the work and submitted to Ausgrid, Endeavour Energy, or Essential Energy (depending on the network area).
 
 **The Electrical Contractor Licence** is the business authorisation to enter contracts for electrical work.
 
@@ -225,7 +225,7 @@ Licence expiry, insurance renewal, and CCEW submission deadlines are easy to mis
 - Track insurance expiry dates for your business and subcontractors
 - Auto-generate compliant job cards with contractor licence numbers included in client-facing paperwork
 
-ServiceM8 is one option among several — we've compared the leading platforms head-to-head in our guide to the [best job management software for electricians](/blog/best-job-management-software-electricians-australia).
+ServiceM8 is one option among several — we've compared the leading platforms head-to-head in our guide to the [best job management software for electricians](/blog/best-job-management-software-electricians-australia/).
 
 [Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
@@ -267,14 +267,14 @@ $5,000,000 for general electrical work. $20,000,000 for specialist work includin
 
 ## Related Reading
 
-- *[QLD Electrical Contractor Licence 2026: QBCC, ESQ & QLeave Requirements](/blog/qld-electrical-contractor-licence-guide-2026)*
-- *[VIC Electrical Contractor Licence Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026)*
-- *[WA Electrical Contractor Licence Guide 2026](/blog/wa-electrical-contractor-licence-guide-2026)*
-- *[SA Electrical Contractor Licence 2026](/blog/sa-electrical-contractor-licence-guide-2026)*
-- *[Electrical Contractor Insurance Australia 2026: What You Actually Need](/blog/electrical-contractor-insurance-australia-2026)*
-- *[NSW CCEW: The 7-Day Deadline Rule Electricians Keep Missing](/blog/ccew-nsw-7-day-deadline-rule)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)*
+- *[QLD Electrical Contractor Licence 2026: QBCC, ESQ & QLeave Requirements](/blog/qld-electrical-contractor-licence-guide-2026/)*
+- *[VIC Electrical Contractor Licence Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026/)*
+- *[WA Electrical Contractor Licence Guide 2026](/blog/wa-electrical-contractor-licence-guide-2026/)*
+- *[SA Electrical Contractor Licence 2026](/blog/sa-electrical-contractor-licence-guide-2026/)*
+- *[Electrical Contractor Insurance Australia 2026: What You Actually Need](/blog/electrical-contractor-insurance-australia-2026/)*
+- *[NSW CCEW: The 7-Day Deadline Rule Electricians Keep Missing](/blog/ccew-nsw-7-day-deadline-rule/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia/)*
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between an Electrical Contractor Licence and a Qualified Supervisor Certificate in NSW?","acceptedAnswer":{"@type":"Answer","text":"A Qualified Supervisor Certificate (QSC) authorises an individual to personally perform and supervise electrical work. An Electrical Contractor Licence (ECL) authorises a business entity to contract electrical work to clients. A sole trader typically holds both via an Endorsed Contractor Licence."}},{"@type":"Question","name":"Do I need an Electrical Contractor Licence to do solar installation in NSW?","acceptedAnswer":{"@type":"Answer","text":"Yes. Solar PV installation in NSW involves electrical work under the Home Building Act 1989, which requires an Electrical Contractor Licence from NSW Fair Trading. You also need CEC accreditation and must issue a CCEW for each installation."}},{"@type":"Question","name":"How long does a NSW Fair Trading electrical contractor licence last?","acceptedAnswer":{"@type":"Answer","text":"Licences are available for 1-year or 3-year terms. Renewal notices are sent approximately 60 days before expiry."}},{"@type":"Question","name":"What is the minimum public liability insurance for a NSW electrical contractor?","acceptedAnswer":{"@type":"Answer","text":"$5,000,000 for general electrical work. $20,000,000 for specialist work including high voltage and major infrastructure projects. The policy must name the exact entity holding the licence."}}]}
