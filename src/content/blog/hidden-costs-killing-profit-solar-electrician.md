@@ -57,9 +57,9 @@ Step one is measurement. Run a time audit across a typical week — track every 
 
 Step two is pricing correction. If compliance admin takes 30 minutes per install and you're doing 20 installs a month, that's 10 hours of time that needs to be in your cost model. Either price it in, or eliminate it through automation.
 
-Using a platform like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) with automated compliance form completion significantly reduces the post-install admin burden — technicians complete forms on-site as part of the job, rather than in the van or back at the office afterward. Our [paperless trade roadmap](/blog/paperless-trade-roadmap-operational-efficiency) covers this in detail.
+Using a platform like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) with automated compliance form completion significantly reduces the post-install admin burden — technicians complete forms on-site as part of the job, rather than in the van or back at the office afterward. Our [paperless trade roadmap](/blog/paperless-trade-roadmap-operational-efficiency/) covers this in detail.
 
-The right software pays for itself fast — our [best job management software comparison for electricians](/blog/best-job-management-software-electricians-australia) breaks down real 2026 pricing across 5 platforms.
+The right software pays for itself fast — our [best job management software comparison for electricians](/blog/best-job-management-software-electricians-australia/) breaks down real 2026 pricing across 5 platforms.
 
 ---
 
@@ -84,7 +84,7 @@ A proper quote follow-up sequence for a solar business looks something like this
 
 This sequence converts 15–30% of quotes that would otherwise go silent. At $8,000 average job value, converting even two additional jobs per month from a systematic follow-up sequence is $16,000 in additional revenue with no additional quoting cost.
 
-The best job management platforms integrate with CRM or automation tools that can trigger this kind of sequence automatically. Our [AI automation guide for solar businesses](/blog/ai-automation-solar-installers) covers the specific tools and implementations that are working right now.
+The best job management platforms integrate with CRM or automation tools that can trigger this kind of sequence automatically. Our [AI automation guide for solar businesses](/blog/ai-automation-solar-installers/) covers the specific tools and implementations that are working right now.
 
 ---
 
@@ -123,7 +123,7 @@ Not which type of job generates the most revenue. Which type generates the highe
 
 For solar businesses, the answer often surprises people:
 - Standard residential 6.6kW solar-only installations look profitable in theory, but the compliance documentation overhead and high competition driving price compression can squeeze margins to 15–20%
-- Add a battery system (particularly AS/NZS 5139-compliant installs with full SoC documentation and CT clamp metering), and installation complexity increases — but so does the margin opportunity, particularly for businesses with strong [battery compliance documentation workflows](/blog/as-nzs-5139-battery-storage-compliance)
+- Add a battery system (particularly AS/NZS 5139-compliant installs with full SoC documentation and CT clamp metering), and installation complexity increases — but so does the margin opportunity, particularly for businesses with strong [battery compliance documentation workflows](/blog/as-nzs-5139-battery-storage-compliance/)
 - Small commercial installations (30–100kW) carry higher project complexity but less price competition and stronger margins for businesses set up to manage them
 
 Without job costing data, you're pricing based on instinct rather than evidence. You might be winning lots of jobs that are quietly unprofitable, while turning down work that would actually drive your business forward.
@@ -140,7 +140,7 @@ Track cost at the job level, not just the business level. This means:
 
 When you can see margin at the job level, patterns emerge. You'll see which suburbs cost you more in travel. You'll see which equipment configurations have higher rework rates. You'll see whether small commercial work is actually more profitable than residential, or just more complex.
 
-Job management platforms that integrate with Xero or MYOB give you the data infrastructure to do this analysis. The [digital job management guide for solar installers](/blog/digital-job-management-solar-installers) explains how to set this up.
+Job management platforms that integrate with Xero or MYOB give you the data infrastructure to do this analysis. The [digital job management guide for solar installers](/blog/digital-job-management-solar-installers/) explains how to set this up.
 
 ---
 
@@ -167,7 +167,7 @@ The solution isn't to work faster. It's to automate the work that shouldn't requ
 
 When you remove this overhead, your technicians go home on time, your admin person focuses on work that requires judgment rather than data entry, and you get evenings back from chasing invoices.
 
-For a full breakdown of how to set up these automations, read our [ServiceM8 for Solar Installers guide](/blog/servicem8-for-solar-installers) — it walks through each workflow in the context of a solar installation business.
+For a full breakdown of how to set up these automations, read our [ServiceM8 for Solar Installers guide](/blog/servicem8-for-solar-installers/) — it walks through each workflow in the context of a solar installation business.
 
 > 📊 **Want to quantify your admin leak exactly?**
 > Our free [Tradie Admin Cost Calculator](/tools/admin-cost-calculator) gives you a personalised annual estimate in 60 seconds — enter your charge-out rate, team size, and hours lost.
@@ -233,10 +233,10 @@ For a two-technician solar business, end-of-day paperwork and manual admin typic
 
 *Related reading:*
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- *[The Paperless Trade Roadmap: Eliminating Admin Chaos](/blog/paperless-trade-roadmap-operational-efficiency)*
-- *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)*
-- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
-- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)*
-- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
-- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
-- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
+- *[The Paperless Trade Roadmap: Eliminating Admin Chaos](/blog/paperless-trade-roadmap-operational-efficiency/)*
+- *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers/)*
+- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers/)*
+- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/)*
+- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers/)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)*

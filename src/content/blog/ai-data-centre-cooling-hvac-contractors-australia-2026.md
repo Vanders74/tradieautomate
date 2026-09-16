@@ -109,7 +109,7 @@ A data centre BMS (Building Management System) is the nervous system of the cool
 
 ### Precision-Environment Protocols
 
-Finally, the protocols: N+1 redundancy on cooling means you never take a whole system down for service; change control means every intervention is logged, approved and reversible; and documentation means every reading, filter change and refrigerant recovery is recorded and archived for the life of the facility. Crews that already run disciplined service paperwork (see [ServiceM8 for HVAC](/blog/servicem8-for-hvac)) are ahead of most competitors before they even quote — and a current [safety audit preparation checklist](/blog/safety-audit-prep-checklist-electricians-2026) is the kind of WHS documentation Tier 1 panels ask to see before shortlisting sub-contractors.
+Finally, the protocols: N+1 redundancy on cooling means you never take a whole system down for service; change control means every intervention is logged, approved and reversible; and documentation means every reading, filter change and refrigerant recovery is recorded and archived for the life of the facility. Crews that already run disciplined service paperwork (see [ServiceM8 for HVAC](/blog/servicem8-for-hvac/)) are ahead of most competitors before they even quote — and a current [safety audit preparation checklist](/blog/safety-audit-prep-checklist-electricians-2026/) is the kind of WHS documentation Tier 1 panels ask to see before shortlisting sub-contractors.
 
 ---
 
@@ -147,11 +147,11 @@ The numbers vary with plant size and scope, but the structure does not: **30–4
 
 ### Step 2: Hire for Precision Environments
 
-Data centre clients pay for documentation discipline, not just spanner work. When you hire, look for technicians with commercial chiller experience, BMS exposure, and a track record of completing service paperwork properly. One commissioning-savvy senior tech who can write a data centre-grade report is worth more than three general service techs on this work — and [Scaling a Solar & Electrical Business: Hiring, Systems & Growth](/blog/scaling-solar-electrical-business-hiring-growth) covers the hiring and systems structure that holds a growing crew together.
+Data centre clients pay for documentation discipline, not just spanner work. When you hire, look for technicians with commercial chiller experience, BMS exposure, and a track record of completing service paperwork properly. One commissioning-savvy senior tech who can write a data centre-grade report is worth more than three general service techs on this work — and [Scaling a Solar & Electrical Business: Hiring, Systems & Growth](/blog/scaling-solar-electrical-business-hiring-growth/) covers the hiring and systems structure that holds a growing crew together.
 
 ### Step 3: Partner With Electrical Contractors Already Inside the Fence
 
-The fastest entry into data centre work is piggybacking on a relationship that already exists. Electrical contractors already sub-contracting on data centre campuses need HVAC sub-contractors on the same packages — the fitout work is interleaved, and Tier 1 main contractors prefer packages that move together. Reach out to the electrical firms doing [data centre electrical work](/blog/ai-data-centre-growth-electricians-australia-2026), offer a complementary HVAC capability on their next campus package, and register on the procurement portals (VendorPanel, AusTender) they already use. Two crews quoting complementary scope is a stronger bid than either alone.
+The fastest entry into data centre work is piggybacking on a relationship that already exists. Electrical contractors already sub-contracting on data centre campuses need HVAC sub-contractors on the same packages — the fitout work is interleaved, and Tier 1 main contractors prefer packages that move together. Reach out to the electrical firms doing [data centre electrical work](/blog/ai-data-centre-growth-electricians-australia-2026/), offer a complementary HVAC capability on their next campus package, and register on the procurement portals (VendorPanel, AusTender) they already use. Two crews quoting complementary scope is a stronger bid than either alone.
 
 ### Step 4: Quote the Maintenance Before the Build Ends
 
@@ -175,7 +175,7 @@ The number one failure: quoting a data centre like a shopping centre. The tolera
 
 ### Missing the Licensing Gate
 
-One technician without an ARCtick licence, or a plant room install that does not meet AS/NZS 5149 charge limits, is enough to disqualify a sub-contractor from a data centre panel permanently. Data centre operators audit licences, logbooks and insurances before you set foot on site — public liability of **$20 million** is the standard expectation on critical infrastructure, so check your certificates against the [Electrical Contractor Insurance Australia 2026](/blog/electrical-contractor-insurance-australia-2026) thresholds before you bid, not after you're caught.
+One technician without an ARCtick licence, or a plant room install that does not meet AS/NZS 5149 charge limits, is enough to disqualify a sub-contractor from a data centre panel permanently. Data centre operators audit licences, logbooks and insurances before you set foot on site — public liability of **$20 million** is the standard expectation on critical infrastructure, so check your certificates against the [Electrical Contractor Insurance Australia 2026](/blog/electrical-contractor-insurance-australia-2026/) thresholds before you bid, not after you're caught.
 
 ### Ignoring the Recurring Revenue Tail
 
@@ -223,7 +223,7 @@ AS/NZS 5149 (refrigerating systems safety), AS/NZS 3666 (air-handling and water 
 
 *Related reading:*
 
-- *[AI Data Centres Australia 2026: The $50B Infrastructure Opportunity for Electricians](/blog/ai-data-centre-growth-electricians-australia-2026) — the pillar hub covering where the projects are, what the electrical packages involve, and how to get on Tier 1 sub-contractor panels*
-- *[ServiceM8 for HVAC Technicians: Job Management for Australian Air Con Businesses](/blog/servicem8-for-hvac) — running ARCtick-compliant refrigerant records, maintenance schedules and field service for HVAC crews*
+- *[AI Data Centres Australia 2026: The $50B Infrastructure Opportunity for Electricians](/blog/ai-data-centre-growth-electricians-australia-2026/) — the pillar hub covering where the projects are, what the electrical packages involve, and how to get on Tier 1 sub-contractor panels*
+- *[ServiceM8 for HVAC Technicians: Job Management for Australian Air Con Businesses](/blog/servicem8-for-hvac/) — running ARCtick-compliant refrigerant records, maintenance schedules and field service for HVAC crews*
 
-> **Running a data-centre HVAC book?** [ServiceM8](/blog/servicem8-for-hvac) keeps your crew on schedule — recurring chiller maintenance, CRAC filter changeouts, condensate checks and ARCtick-compliant refrigerant records, all on the tech's phone with the compliance docs attached to every job. [Start your free trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
+> **Running a data-centre HVAC book?** [ServiceM8](/blog/servicem8-for-hvac/) keeps your crew on schedule — recurring chiller maintenance, CRAC filter changeouts, condensate checks and ARCtick-compliant refrigerant records, all on the tech's phone with the compliance docs attached to every job. [Start your free trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)

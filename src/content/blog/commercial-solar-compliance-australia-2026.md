@@ -66,7 +66,7 @@ AS 4777 governs how inverters connect to the grid. All grid-tied inverters must 
 - **Voltage and frequency response** — Inverters must respond to grid voltage and frequency variations within the parameters defined by AS 4777
 - **CSIP-Aus export management** — For systems subject to the distributed energy resource management framework, inverters must be capable of receiving and responding to export curtailment signals from the network
 
-For commercial systems connected to networks that have implemented CSIP-Aus, inverter selection must account for CSIP-Aus compatibility. See our [CSIP-Aus export limit guide](/blog/csip-aus-export-limit-1-5kw-solar) for a breakdown of how the export management framework operates.
+For commercial systems connected to networks that have implemented CSIP-Aus, inverter selection must account for CSIP-Aus compatibility. See our [CSIP-Aus export limit guide](/blog/csip-aus-export-limit-1-5kw-solar/) for a breakdown of how the export management framework operates.
 
 ### IEC 62109 — Inverter Safety Standards
 
@@ -93,7 +93,7 @@ The network authority application typically requires:
 - Proposed connection point details
 - For larger systems: a power quality or load flow study
 
-Allow 4–12 weeks for DNSP application processing on commercial systems. For major connection applications (100kW+), allow longer and engage with the DNSP early. For the full business case on commercial solar — including real revenue numbers and pricing models — see our [commercial solar ROI guide](/blog/commercial-solar-roi-pricing-electricians-australia-2026).
+Allow 4–12 weeks for DNSP application processing on commercial systems. For major connection applications (100kW+), allow longer and engage with the DNSP early. For the full business case on commercial solar — including real revenue numbers and pricing models — see our [commercial solar ROI guide](/blog/commercial-solar-roi-pricing-electricians-australia-2026/).
 
 Build the DNSP approval timeline into your project plan and communicate it clearly to the commercial client — it's one of the most common causes of commercial solar project delays.
 
@@ -140,7 +140,7 @@ Commercial solar inspections are more thorough than residential. Inspectors comm
 
 **Keep a complete installation dossier for every commercial job.** This should include: the network authority approval, single-line diagram, all compliance certificates, inverter commissioning records, protection relay commissioning records (where applicable), and photo records of the installation at key stages.
 
-Using [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) or a comparable job management system to capture photos during installation — array layout, isolator placement, switchboard connection, labelling — creates an audit-ready record that can be produced instantly if an inspector requests it. See our [CER audit prep guide](/blog/cer-audit-prep-solar-installers) for the documentation standard that the CER expects from solar installers across all system sizes.
+Using [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) or a comparable job management system to capture photos during installation — array layout, isolator placement, switchboard connection, labelling — creates an audit-ready record that can be produced instantly if an inspector requests it. See our [CER audit prep guide](/blog/cer-audit-prep-solar-installers/) for the documentation standard that the CER expects from solar installers across all system sizes.
 
 ---
 
@@ -151,7 +151,7 @@ Commercial systems that meet the eligibility requirements can still generate Sma
 - **Systems under 100kW:** Eligible for STCs if installed by a CEC-accredited installer, using approved products, and the system meets all eligibility criteria
 - **Systems 100kW and above:** Eligible for Large-scale Generation Certificates (LGCs) under the LRET, not STCs. LGCs operate on a different mechanism — they're created monthly based on actual generation rather than deeming
 
-For commercial clients, the shift from STCs to LGCs changes the cash flow structure of the incentive. Your job as the installer is to quote accordingly and ensure the system design maximises LGC eligibility. For a full breakdown of the STC claim process for eligible commercial systems, see our [STC claim process guide](/blog/stc-claim-process-solar-installers-australia).
+For commercial clients, the shift from STCs to LGCs changes the cash flow structure of the incentive. Your job as the installer is to quote accordingly and ensure the system design maximises LGC eligibility. For a full breakdown of the STC claim process for eligible commercial systems, see our [STC claim process guide](/blog/stc-claim-process-solar-installers-australia/).
 
 ---
 
@@ -159,9 +159,9 @@ For commercial clients, the shift from STCs to LGCs changes the cash flow struct
 
 The compliance and technical complexity of commercial solar is a barrier to entry that works in your favour — once you've built the capability. Competitors who haven't invested in commercial compliance knowledge can't credibly win the work.
 
-For a full guide to developing and winning commercial solar contracts — proposal structure, stakeholder management, pricing, and relationship building — see our [how to win commercial solar contracts guide](/blog/how-to-win-commercial-solar-contracts-australia).
+For a full guide to developing and winning commercial solar contracts — proposal structure, stakeholder management, pricing, and relationship building — see our [how to win commercial solar contracts guide](/blog/how-to-win-commercial-solar-contracts-australia/).
 
-And if you're wondering what the administrative cost of running commercial solar compliance documentation manually looks like in dollar terms, the [hidden admin cost calculator](/blog/hidden-admin-cost-calculator) puts real numbers against the time your team is spending on documentation.
+And if you're wondering what the administrative cost of running commercial solar compliance documentation manually looks like in dollar terms, the [hidden admin cost calculator](/blog/hidden-admin-cost-calculator/) puts real numbers against the time your team is spending on documentation.
 
 ---
 
@@ -180,13 +180,13 @@ And if you're wondering what the administrative cost of running commercial solar
 
 ## Related Reading
 
-- *[How to Win Commercial Solar Contracts in Australia](/blog/how-to-win-commercial-solar-contracts-australia)*
-- *[CER Audit Prep for Solar Installers: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
-- *[STC Claim Process for Solar Installers Australia 2026](/blog/stc-claim-process-solar-installers-australia)*
-- *[CSIP-Aus Export Limit: What the 1.5kW Rule Means for Solar Installers](/blog/csip-aus-export-limit-1-5kw-solar)*
-- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance)*
-- *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
+- *[How to Win Commercial Solar Contracts in Australia](/blog/how-to-win-commercial-solar-contracts-australia/)*
+- *[CER Audit Prep for Solar Installers: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)*
+- *[STC Claim Process for Solar Installers Australia 2026](/blog/stc-claim-process-solar-installers-australia/)*
+- *[CSIP-Aus Export Limit: What the 1.5kW Rule Means for Solar Installers](/blog/csip-aus-export-limit-1-5kw-solar/)*
+- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance/)*
+- *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth/)*
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/)

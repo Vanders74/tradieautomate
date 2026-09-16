@@ -102,7 +102,7 @@ Common legacy inverters that are typically non-compliant with CSIP-Aus:
 - Older Fronius Primo without active CSIP firmware
 - Generic Chinese brands without Australian certification
 
-This is your retrofit pipeline. More on how to mine it efficiently in [How to Find Battery Retrofit Leads in Your Job Database](/blog/solar-battery-retrofit-database-mining).
+This is your retrofit pipeline. More on how to mine it efficiently in [How to Find Battery Retrofit Leads in Your Job Database](/blog/solar-battery-retrofit-database-mining/).
 
 ---
 
@@ -116,7 +116,7 @@ For solar businesses offering battery storage, CSIP-Aus creates a compelling dou
 
 For solar businesses that haven't yet built battery storage into their core offering, CSIP-Aus is the external pressure that makes battery conversations unavoidable. Customers will ask about it. Be the contractor who can explain it clearly and present the solution.
 
-See our [battery retrofit guide](/blog/adding-battery-storage-solar-business-australia) for how to build battery storage into your service offering from a business operations perspective.
+See our [battery retrofit guide](/blog/adding-battery-storage-solar-business-australia/) for how to build battery storage into your service offering from a business operations perspective.
 
 ---
 
@@ -148,7 +148,7 @@ The compliance conversation above works one customer at a time. To run it at sca
 2. **Job templates in your field management software** — pre-built CSIP-compliant system specifications for the most common upgrade scenarios, so quoting is fast and consistent
 3. **Compliance documentation workflows** — digital capture of AS4777.2:2024 sign-off and CSIP registration before the technician leaves the job
 
-[ServiceM8 for Solar Businesses](/blog/servicem8-for-solar-businesses) covers how the right job management platform enables this kind of systematic, documentation-grade operation at volume.
+[ServiceM8 for Solar Businesses](/blog/servicem8-for-solar-businesses/) covers how the right job management platform enables this kind of systematic, documentation-grade operation at volume.
 
 ---
 
@@ -163,7 +163,7 @@ Your competitive advantage is knowing this before they do. Use it.
 - **Present** the CSIP-compliant hybrid upgrade as the solution to a problem they didn't know they had
 - **Systemise** the install process to handle the volume that follows
 
-For the full commercial framework, read the [2026 Solar Playbook](/blog/solar-playbook-2026-battery-upgrade).
+For the full commercial framework, read the [2026 Solar Playbook](/blog/solar-playbook-2026-battery-upgrade/).
 
 ---
 
@@ -202,8 +202,8 @@ The 1.5kW static export limit is a technical operating condition imposed by the 
 
 ## Related Reading
 
-- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
-- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
-- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)
+- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/)
+- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)

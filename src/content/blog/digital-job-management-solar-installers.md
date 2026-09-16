@@ -44,7 +44,7 @@ A good job management platform doesn't just replace paper — it creates a **sin
 No more copying job details between 4 different tools. One entry flows through the entire job lifecycle. Quote accepted? It converts to a job automatically. Job completed? Invoice goes out immediately. Every stage tracked, timestamped, and visible to the whole team.
 
 ### 2. Compliance Documentation Built In
-Digital forms, photo capture, checklists — all attached to the job record. When the Clean Energy Regulator (CER) auditor calls, you pull up the job in 10 seconds. This matters even more for battery storage jobs, which carry specific documentation obligations under [AS/NZS 5139:2019](/blog/as-nzs-5139-battery-storage-compliance) and CEC accreditation conditions. The platform enforces compliance at the point of work — a technician literally cannot mark a job complete without filling in the required checklist items.
+Digital forms, photo capture, checklists — all attached to the job record. When the Clean Energy Regulator (CER) auditor calls, you pull up the job in 10 seconds. This matters even more for battery storage jobs, which carry specific documentation obligations under [AS/NZS 5139:2019](/blog/as-nzs-5139-battery-storage-compliance/) and CEC accreditation conditions. The platform enforces compliance at the point of work — a technician literally cannot mark a job complete without filling in the required checklist items.
 
 ### 3. Real-Time Job Tracking
 Know which jobs are scheduled, in progress, or complete. From your phone. If a job runs long and is going to impact the afternoon booking, you know before the customer does — and you can send an automated update without anyone making a call.
@@ -68,7 +68,7 @@ The Clean Energy Regulator (CER) conducted **over 800 installer audits** in the 
 
 For battery storage jobs, the requirements under AS/NZS 5139 add another layer — specific labelling, ventilation clearance documentation, and emergency response signage requirements that are easy to miss on a hectic job day.
 
-A [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026) helps you know what's required. A digital job management platform makes sure it actually gets done on every single job, not just when someone remembers.
+A [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/) helps you know what's required. A digital job management platform makes sure it actually gets done on every single job, not just when someone remembers.
 
 ## What to Look For
 
@@ -103,11 +103,11 @@ Compare this to the paper-based version of the same day. End-of-day admin. Photo
 
 ## The Leading Platform for Australian Solar Installers
 
-Of the platforms available to Australian solar businesses, [ServiceM8](/blog/servicem8-for-solar-installers) stands out for its compliance-first design, mobile experience, and the depth of its job record capabilities. We've written a detailed breakdown of how it solves the specific challenges solar installers face.
+Of the platforms available to Australian solar businesses, [ServiceM8](/blog/servicem8-for-solar-installers/) stands out for its compliance-first design, mobile experience, and the depth of its job record capabilities. We've written a detailed breakdown of how it solves the specific challenges solar installers face.
 
-If you want to go deeper on ServiceM8's capabilities and how it compares to alternatives, our [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026) covers pricing, features, and real-world use cases in detail. For head-to-head comparisons, see [ServiceM8 vs simPRO](/blog/servicem8-vs-simpro-comparison-australia) and [ServiceM8 vs Tradify](/blog/servicem8-vs-tradify-comparison-australia).
+If you want to go deeper on ServiceM8's capabilities and how it compares to alternatives, our [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/) covers pricing, features, and real-world use cases in detail. For head-to-head comparisons, see [ServiceM8 vs simPRO](/blog/servicem8-vs-simpro-comparison-australia/) and [ServiceM8 vs Tradify](/blog/servicem8-vs-tradify-comparison-australia/).
 
-For a full side-by-side comparison of every major platform — including pricing, compliance features, and which businesses each suits best — see our [Best Job Management Software for Solar Installers Australia 2026](/blog/solar-job-management-software-australia-2026) guide.
+For a full side-by-side comparison of every major platform — including pricing, compliance features, and which businesses each suits best — see our [Best Job Management Software for Solar Installers Australia 2026](/blog/solar-job-management-software-australia-2026/) guide.
 
 **Ready to try ServiceM8?** [Start your free trial through TradieAutomate](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — we'll help you get configured for solar compliance workflows from day one.
 
@@ -131,7 +131,7 @@ The right time to switch is:
 - **Before** a CER audit — not after you've already had a compliance finding
 - **Before** your fastest-growing period — Q3 and Q4 are typically peak installation seasons in Australia. Being on a digital system going into peak is far easier than migrating during it.
 
-If you want to know exactly how to prepare for a CER audit — including what records they ask for and how to structure your documentation — read our [CER audit prep guide for solar installers](/blog/cer-audit-prep-solar-installers).
+If you want to know exactly how to prepare for a CER audit — including what records they ask for and how to structure your documentation — read our [CER audit prep guide for solar installers](/blog/cer-audit-prep-solar-installers/).
 
 ## The Bottom Line
 
@@ -155,7 +155,7 @@ Yes, even for sole traders doing 5+ jobs per month. The admin savings typically 
 
 **What's the best job management software for Australian solar installers?**
 
-ServiceM8 is the most widely used platform among Australian solar and electrical installers, largely due to its strong mobile experience, custom forms, and Xero integration. See our [Best Job Management Software for Solar Installers 2026](/blog/solar-job-management-software-australia-2026) for a full comparison.
+ServiceM8 is the most widely used platform among Australian solar and electrical installers, largely due to its strong mobile experience, custom forms, and Xero integration. See our [Best Job Management Software for Solar Installers 2026](/blog/solar-job-management-software-australia-2026/) for a full comparison.
 
 **How does digital job management help with CER audits?**
 
@@ -163,17 +163,17 @@ When every compliance checklist, photo, serial number, and signed form is attach
 
 **Can I use it for battery storage jobs as well as solar PV?**
 
-Absolutely. Platforms like ServiceM8 support fully custom forms, so you can build separate checklists for solar PV and battery storage ([AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance)) installations. The platform enforces the right checklist for each job type before a technician can mark it complete.
+Absolutely. Platforms like ServiceM8 support fully custom forms, so you can build separate checklists for solar PV and battery storage ([AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance/)) installations. The platform enforces the right checklist for each job type before a technician can mark it complete.
 
 ---
 
 ## Related Articles
 
-- [ServiceM8 for Solar Installers: The Job Management Platform Built for Compliance](/blog/servicem8-for-solar-installers)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
-- [CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers)
-- [Best Job Management Software for Solar Installers Australia 2026](/blog/solar-job-management-software-australia-2026)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [ServiceM8 for Solar Installers: The Job Management Platform Built for Compliance](/blog/servicem8-for-solar-installers/)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)
+- [CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers/)
+- [Best Job Management Software for Solar Installers Australia 2026](/blog/solar-job-management-software-australia-2026/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
 
 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
@@ -182,4 +182,4 @@ Absolutely. Platforms like ServiceM8 support fully custom forms, so you can buil
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)

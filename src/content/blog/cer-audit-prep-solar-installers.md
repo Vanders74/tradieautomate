@@ -81,11 +81,11 @@ Photos need to be specific, date-stamped, and tied to the exact job. Auditors lo
 
 ### Customer Declarations and Handover Documentation
 
-You are required to provide customers with a handover pack that includes system documentation, grid connection approvals, and a declaration signed by the customer confirming the system was installed as described. Missing or incomplete handover docs are a common audit failure — see our [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026) for exactly what must be included.
+You are required to provide customers with a handover pack that includes system documentation, grid connection approvals, and a declaration signed by the customer confirming the system was installed as described. Missing or incomplete handover docs are a common audit failure — see our [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026/) for exactly what must be included.
 
 ### CEC Accreditation Currency
 
-Your CEC accreditation must be current and your endorsement categories must cover the work you are doing. If you are installing battery systems under [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance) but your accreditation does not include battery storage, you have got a problem. The same applies to design endorsements if you are lodging your own STCs.
+Your CEC accreditation must be current and your endorsement categories must cover the work you are doing. If you are installing battery systems under [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance/) but your accreditation does not include battery storage, you have got a problem. The same applies to design endorsements if you are lodging your own STCs.
 
 ### Compliance with AS/NZS 5033 and AS/NZS 5139
 
@@ -101,9 +101,9 @@ Based on CER compliance outcomes and industry patterns, these are the areas wher
 
 **Photos not tied to specific jobs or dates.** Uploading a generic photo of an isolator or inverter without metadata linking it to a specific installation is not sufficient. Each job needs its own documented photo set.
 
-**Incomplete customer handover.** Forgetting to get a signed declaration, not providing the Certificate of Electrical Safety, or failing to document the grid connection approval are among the most common compliance failures. Our [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026) walks through every required handover document in detail.
+**Incomplete customer handover.** Forgetting to get a signed declaration, not providing the Certificate of Electrical Safety, or failing to document the grid connection approval are among the most common compliance failures. Our [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026/) walks through every required handover document in detail.
 
-**AS/NZS 5139 battery storage labelling gaps.** Battery storage compliance requirements are more complex than PV-only installations. Labelling requirements under AS/NZS 5139 are specific and mandatory — missing battery system labels, incorrect warning signage, or non-compliant documentation for energy management systems are increasingly common audit findings. More on this in our [AS/NZS 5139 Battery Storage Compliance guide](/blog/as-nzs-5139-battery-storage-compliance).
+**AS/NZS 5139 battery storage labelling gaps.** Battery storage compliance requirements are more complex than PV-only installations. Labelling requirements under AS/NZS 5139 are specific and mandatory — missing battery system labels, incorrect warning signage, or non-compliant documentation for energy management systems are increasingly common audit findings. More on this in our [AS/NZS 5139 Battery Storage Compliance guide](/blog/as-nzs-5139-battery-storage-compliance/).
 
 **Expired accreditation or wrong endorsement category.** CEC accreditation must be renewed annually. If you lodge STCs during a period when your accreditation had lapsed — even briefly — those claims are invalid.
 
@@ -126,7 +126,7 @@ Use this before every job, and definitely before any audit request arrives:
 11. AS/NZS 5033 compliance documented for all PV installations
 12. All records retained and retrievable for a minimum of 5 years
 
-For the full expanded version of this checklist including document templates, see our [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026).
+For the full expanded version of this checklist including document templates, see our [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026/).
 
 ---
 
@@ -134,11 +134,11 @@ For the full expanded version of this checklist including document templates, se
 
 The single biggest reason installers fail CER audits is not bad work — it is poor documentation systems. Jobs get finished, photos sit in someone's phone, paperwork gets delayed, and then six months later when an audit request arrives, the scrambling starts.
 
-[Digital job management for solar installers](/blog/digital-job-management-solar-installers) changes this at the process level. When your job management system captures photos, signatures, checklists, and client sign-offs as part of the job workflow — not as an afterthought — audit readiness becomes a byproduct of normal operations.
+[Digital job management for solar installers](/blog/digital-job-management-solar-installers/) changes this at the process level. When your job management system captures photos, signatures, checklists, and client sign-offs as part of the job workflow — not as an afterthought — audit readiness becomes a byproduct of normal operations.
 
-[ServiceM8 for solar installers](/blog/servicem8-for-solar-installers) is the platform we see most commonly adopted by Australian solar businesses for exactly this reason. Job notes, on-site photos (automatically date and location stamped), digital forms, and client sign-offs are all captured in one place and tied to the specific job record. When an auditor requests documentation for a job from 14 months ago, you can pull it in under a minute rather than hunting through inboxes and phone galleries.
+[ServiceM8 for solar installers](/blog/servicem8-for-solar-installers/) is the platform we see most commonly adopted by Australian solar businesses for exactly this reason. Job notes, on-site photos (automatically date and location stamped), digital forms, and client sign-offs are all captured in one place and tied to the specific job record. When an auditor requests documentation for a job from 14 months ago, you can pull it in under a minute rather than hunting through inboxes and phone galleries.
 
-[The ServiceM8 review](/blog/servicem8-review-2026) covers the platform in depth if you want the full picture, but the compliance documentation use case alone makes it worth evaluating for any solar installer with more than a handful of jobs per month.
+[The ServiceM8 review](/blog/servicem8-review-2026/) covers the platform in depth if you want the full picture, but the compliance documentation use case alone makes it worth evaluating for any solar installer with more than a handful of jobs per month.
 
 If you are not using a digital system yet, [ServiceM8](https://www.servicem8.com/au/register/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) offers a free trial — worth setting up before your next CER lodgement cycle rather than after an audit request.
 
@@ -162,18 +162,18 @@ The consequences of a failed CER audit range from inconvenient to business-endin
 
 CER audits are not a worst-case scenario you prepare for in a panic. They are a normal part of operating in the solar industry in 2026, and the installers who sail through them are the ones who treat documentation as part of the job — not as something to sort out later.
 
-Get your checklist in order. Build your documentation workflow around digital job management. Make sure your accreditation is current and your endorsement categories cover your work. And if you are doing battery storage, get across [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance) now — that is where most gaps are showing up.
+Get your checklist in order. Build your documentation workflow around digital job management. Make sure your accreditation is current and your endorsement categories cover your work. And if you are doing battery storage, get across [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance/) now — that is where most gaps are showing up.
 
-For a full rundown of what you need on every solar job, start with the [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026). It covers every document, every photo, and every sign-off you need to stay audit-ready year-round.
+For a full rundown of what you need on every solar job, start with the [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026/). It covers every document, every photo, and every sign-off you need to stay audit-ready year-round.
 
 ---
 
 ## Related Articles
 
-- [AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know in 2026](/blog/as-nzs-5139-battery-storage-compliance)
-- [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026)
-- [ServiceM8 for Solar Installers](/blog/servicem8-for-solar-installers)
-- [Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)
+- [AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know in 2026](/blog/as-nzs-5139-battery-storage-compliance/)
+- [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026/)
+- [ServiceM8 for Solar Installers](/blog/servicem8-for-solar-installers/)
+- [Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers/)
 
 ---
 
@@ -192,9 +192,9 @@ For a full rundown of what you need on every solar job, start with the [Solar Co
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- [how ServiceM8 adds value to your trade business](/blog/sell-servicem8-trade-business-value)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
-- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)
-- *[WA Electrical Contractor Licence 2026: EnergySafety, CCEI & Compliance Guide](/blog/wa-electrical-contractor-licence-guide-2026)*
-- *[Commercial Solar System Compliance Australia: CEC, DNSP & Metering](/blog/commercial-solar-system-compliance-australia)*
+- [how ServiceM8 adds value to your trade business](/blog/sell-servicem8-trade-business-value/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/)
+- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia/)
+- *[WA Electrical Contractor Licence 2026: EnergySafety, CCEI & Compliance Guide](/blog/wa-electrical-contractor-licence-guide-2026/)*
+- *[Commercial Solar System Compliance Australia: CEC, DNSP & Metering](/blog/commercial-solar-system-compliance-australia/)*

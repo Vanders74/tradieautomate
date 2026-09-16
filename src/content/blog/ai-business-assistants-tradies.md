@@ -65,7 +65,7 @@ The system can be trained on your business — your pricing, your service area, 
 
 ## ServiceM8: The Operational Backbone That Makes AI Work
 
-If Sophiie AI handles the front-end customer communication, [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026) is the operational platform that processes and manages what comes in.
+If Sophiie AI handles the front-end customer communication, [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/) is the operational platform that processes and manages what comes in.
 
 ServiceM8 is a job management platform built specifically for Australian trade businesses. It's the tool most commonly running under the hood of efficient solar and electrical businesses — and it has its own layer of automation that complements AI assistants effectively.
 
@@ -95,7 +95,7 @@ This is where ServiceM8 becomes particularly valuable for solar installers and e
 
 For businesses managing CER audits or Victorian electrical compliance requirements, having every job's documentation digitally stored and searchable is a significant risk management benefit.
 
-**Read more:** [ServiceM8 for Solar Businesses](/blog/servicem8-for-solar-businesses) | [ServiceM8 for Electricians](/blog/servicem8-for-electricians)
+**Read more:** [ServiceM8 for Solar Businesses](/blog/servicem8-for-solar-businesses/) | [ServiceM8 for Electricians](/blog/servicem8-for-electricians/)
 
 ---
 
@@ -134,8 +134,8 @@ AI phone assistants eliminate this gap entirely. Sophiie AI answers within secon
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)
 
-**Related reading:** [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
-- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)*
+**Related reading:** [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)
+- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/)*
 
 ---
 
@@ -153,7 +153,7 @@ The message is personal and professional: it thanks the customer, notes the spec
 
 Businesses implementing this consistently can add 20–40 new reviews per month without any manual effort.
 
-**Related reading:** [How to Get 5-Star Google Reviews as a Solar Installer or Electrician](/blog/google-reviews-five-star-tradie-guide)
+**Related reading:** [How to Get 5-Star Google Reviews as a Solar Installer or Electrician](/blog/google-reviews-five-star-tradie-guide/)
 
 ---
 
@@ -163,7 +163,7 @@ The businesses that see the best results from AI automation don't try to impleme
 
 **Step 1: Get ServiceM8 properly set up (Weeks 1–4)**
 
-If you're not already using ServiceM8, start there. Get your job types, pricing, and staff set up properly. Build out your automated communication templates. Connect your Xero account for invoicing. [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026) and most businesses are fully operational within a week.
+If you're not already using ServiceM8, start there. Get your job types, pricing, and staff set up properly. Build out your automated communication templates. Connect your Xero account for invoicing. [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/) and most businesses are fully operational within a week.
 
 **Step 2: Activate automated follow-up sequences (Week 2)**
 
@@ -191,11 +191,11 @@ This isn't about technology for its own sake. It's about running a sustainable b
 
 We've put together a practical guide covering the specific automation workflows that work for Australian solar and electrical businesses — including setup checklists for ServiceM8, recommended Sophiie AI configurations, and the exact SMS templates that generate the most Google reviews.
 
-📥 **[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)** — covers the key automations, recommended tools, and a step-by-step implementation sequence for solar and electrical businesses.
+📥 **[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)** — covers the key automations, recommended tools, and a step-by-step implementation sequence for solar and electrical businesses.
 
 ---
 
-*Running a solar installation or electrical business in Australia? The admin automation landscape has changed significantly in 2026. [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia) to reclaim their time and grow without adding overhead.*
+*Running a solar installation or electrical business in Australia? The admin automation landscape has changed significantly in 2026. [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/) to reclaim their time and grow without adding overhead.*
 ---
 
 ## FAQ

@@ -40,7 +40,7 @@ Energy Safe Victoria (ESV) has been increasing its compliance activity in 2025 a
 
 This guide covers the CES requirements comprehensively — when it applies, what it must include, how to issue it, and how to build CES compliance into your job workflow so nothing slips through the cracks.
 
-> **⚡ Still doing CES forms manually?** ServiceM8 pre-fills certificates from job data — [how Victorian electricians are automating ESV compliance](/blog/servicem8-for-electricians).
+> **⚡ Still doing CES forms manually?** ServiceM8 pre-fills certificates from job data — [how Victorian electricians are automating ESV compliance](/blog/servicem8-for-electricians/).
 
 <div class="compliance-bridge-box" style="border-left:4px solid #f97316;background:#0f172a;padding:20px 24px;border-radius:8px;margin:32px 0;color:#e2e8f0">
   <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
@@ -209,7 +209,7 @@ The CES must be issued by the Registered Electrical Contractor (REC) who contrac
 Lodging the CES in ESV Connect satisfies your ESV obligation. It does not notify your DNSP (AusNet, Jemena, CitiPower, Powercor, or United Energy) of the grid connection — that is a separate requirement. Both obligations must be met independently. DNSPs who discover unnotified solar connections report them to ESV.
 
 **6. Battery storage labelling gaps**
-Solar + battery systems require more documentation than PV-only work. The CES must cover the battery system electrical installation, and labelling requirements under AS/NZS 5139 must be completed and documented. Missing battery warning labels, non-compliant signage, or absent energy management system documentation are consistently flagged in ESV audits of battery installations. See our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance) for full labelling requirements.
+Solar + battery systems require more documentation than PV-only work. The CES must cover the battery system electrical installation, and labelling requirements under AS/NZS 5139 must be completed and documented. Missing battery warning labels, non-compliant signage, or absent energy management system documentation are consistently flagged in ESV audits of battery installations. See our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance/) for full labelling requirements.
 
 **7. No copy retained and no copy given to owner**
 ESV Connect records the lodgement but you must also retain your own copy and provide a copy to the property owner. Owners who sell or refinance without a CES on record will pursue the installing contractor — often years after the job.
@@ -259,18 +259,18 @@ For electricians working in NSW, the equivalent document is the **Certificate of
 
 ## Related Reading
 
-- *[VIC Electrical Contractor Licence Guide 2026: REC Registration with Energy Safe Victoria](/blog/vic-electrical-contractor-licence-guide-2026)*
-- *[VEU Scheme 2026: Electricians Earn $250–$1,650 Per Heat Pump Job](/blog/victorian-energy-upgrades-veu-electricians-guide-2026)*
-- *[RCD Safety Switch Requirements AS/NZS 3000: Which Type for Each Circuit](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026)*
-- *[Electrical Safety Audit Prep Checklist 2026: SafeWork, ESV & State-by-State Requirements](/blog/safety-audit-prep-checklist-electricians-2026)*
-- *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance)*
-- *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
-- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
-- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
-- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
+- *[VIC Electrical Contractor Licence Guide 2026: REC Registration with Energy Safe Victoria](/blog/vic-electrical-contractor-licence-guide-2026/)*
+- *[VEU Scheme 2026: Electricians Earn $250–$1,650 Per Heat Pump Job](/blog/victorian-energy-upgrades-veu-electricians-guide-2026/)*
+- *[RCD Safety Switch Requirements AS/NZS 3000: Which Type for Each Circuit](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026/)*
+- *[Electrical Safety Audit Prep Checklist 2026: SafeWork, ESV & State-by-State Requirements](/blog/safety-audit-prep-checklist-electricians-2026/)*
+- *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance/)*
+- *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)*
+- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians/)*
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)
+- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity/)
 
 ---
 

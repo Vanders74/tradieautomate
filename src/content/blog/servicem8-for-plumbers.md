@@ -143,7 +143,7 @@ For Victorian plumbers, the VBA regulates both plumbing and gas work. The compli
 
 ## Pricing for Plumbing Businesses
 
-[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026) is per-job, not per-user — a significant advantage as your team grows:
+[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026/) is per-job, not per-user — a significant advantage as your team grows:
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
@@ -153,7 +153,7 @@ For Victorian plumbers, the VBA regulates both plumbing and gas work. The compli
 | Premium | $149 | 500 |
 | Premium Plus | $349 | 1,500+ |
 
-For a plumbing business with 4 field plumbers doing 80 jobs a month, ServiceM8 Growing at $79 compares to [Tradify](/blog/tradify-review-2026-australia) at ~$140 (4 × $35) for less functionality, or Fergus at ~$196 (4 × $49) with comparable capability but less Australian-specific compliance tooling.
+For a plumbing business with 4 field plumbers doing 80 jobs a month, ServiceM8 Growing at $79 compares to [Tradify](/blog/tradify-review-2026-australia/) at ~$140 (4 × $35) for less functionality, or Fergus at ~$196 (4 × $49) with comparable capability but less Australian-specific compliance tooling.
 
 14-day free trial, full features, no credit card required.
 
@@ -193,7 +193,7 @@ The setup process for a plumbing business is straightforward:
 - Run the first full job cycles through the system
 - Refine templates based on real-world feedback
 
-For a comparison of how ServiceM8 stacks up against other platforms before you commit, see our guide to [ServiceM8 vs Tradify](/blog/servicem8-vs-tradify-comparison-australia) and our broader [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026).
+For a comparison of how ServiceM8 stacks up against other platforms before you commit, see our guide to [ServiceM8 vs Tradify](/blog/servicem8-vs-tradify-comparison-australia/) and our broader [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/).
 
 ---
 
@@ -236,9 +236,9 @@ Yes — ServiceM8 integrates natively with both MYOB and Xero. Invoices created 
 > [Download free →](/playbook)
 
 *Related reading:*
-- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
-- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
-- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
-- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)*
+- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia/)*
+- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)*
+- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)*

@@ -7,7 +7,7 @@ category: "Software Comparisons"
 heroImage: '/hero-servicem8-vs-tradify-solar-electrical.jpg'
 ---
 
-When Australian solar installers and electricians compare job management platforms, **ServiceM8 and [Tradify](/blog/tradify-review-2026-australia)** are the two names that come up most often. Both are cloud-based, both are mobile-first, and both are priced for small to mid-size trade businesses.
+When Australian solar installers and electricians compare job management platforms, **ServiceM8 and [Tradify](/blog/tradify-review-2026-australia/)** are the two names that come up most often. Both are cloud-based, both are mobile-first, and both are priced for small to mid-size trade businesses.
 
 But for solar and electrical businesses specifically — where compliance documentation isn't optional and where the Clean Energy Regulator or a licensing authority can request your records at any time — the difference between these platforms matters more than in a general tradie context.
 
@@ -181,17 +181,17 @@ Tradify is a credible general tradie platform. But "general" is exactly its limi
 
 ## Related Resources
 
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
-- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
-- [ServiceM8 for Solar Installers — full compliance workflow guide](/blog/servicem8-for-solar-installers)
-- [ServiceM8 for Electricians — compliance certificates and workflows](/blog/servicem8-for-electricians)
-- [CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
-- [ServiceM8 vs Tradify (General Comparison)](/blog/servicem8-vs-tradify-comparison-australia)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [ServiceM8 for Solar Businesses: Scale Without Admin Overload](/blog/servicem8-for-solar-businesses)
-- [AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance)
-- [ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)
+- [ServiceM8 for Solar Installers — full compliance workflow guide](/blog/servicem8-for-solar-installers/)
+- [ServiceM8 for Electricians — compliance certificates and workflows](/blog/servicem8-for-electricians/)
+- [CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers/)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)
+- [ServiceM8 vs Tradify (General Comparison)](/blog/servicem8-vs-tradify-comparison-australia/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [ServiceM8 for Solar Businesses: Scale Without Admin Overload](/blog/servicem8-for-solar-businesses/)
+- [AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance/)
+- [ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia/)
 
 ---
 

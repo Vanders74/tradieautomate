@@ -184,11 +184,11 @@ The commercial solar market is competitive. Winning work on technical capability
 
 ## Related Reading
 
-- [Commercial Solar System Compliance Australia](/blog/commercial-solar-system-compliance-australia)
-- [SA Solar Battery Rebate 2026 — Home Battery Scheme Guide](/blog/sa-solar-battery-rebate-2026)
-- [VIC Solar Homes Program Rebate 2026](/blog/vic-solar-homes-program-rebate-2026)
-- [Solar + Battery System Cost Australia 2026](/blog/solar-battery-system-cost-australia-2026)
-- [Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia)
+- [Commercial Solar System Compliance Australia](/blog/commercial-solar-system-compliance-australia/)
+- [SA Solar Battery Rebate 2026 — Home Battery Scheme Guide](/blog/sa-solar-battery-rebate-2026/)
+- [VIC Solar Homes Program Rebate 2026](/blog/vic-solar-homes-program-rebate-2026/)
+- [Solar + Battery System Cost Australia 2026](/blog/solar-battery-system-cost-australia-2026/)
+- [Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia/)
 
 ---
 

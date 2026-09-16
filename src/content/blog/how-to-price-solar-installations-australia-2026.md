@@ -192,16 +192,16 @@ After 20–30 jobs with accurate tracking, your pricing model will be calibrated
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
-- *[The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)*
-- *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
-- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
-- *How to Write a Solar Quote That Wins](/blog/how-to-write-solar-quote-wins-jobs-australia)*
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- *[Replacing Gas Hot Water with Heat Pump: Complete Guide Australia](/blog/replacing-gas-hot-water-electric-heat-pump)*
-- *[Solar Battery System Cost Australia 2026: Prices, Rebates & Payback Periods](/blog/solar-battery-system-cost-australia-2026)*
-- *[Solar Installer Cash Flow Management Australia: Getting Paid Faster](/blog/solar-installer-cash-flow-management-australia)*
+- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)*
+- *[The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency/)*
+- *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)*
+- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers/)*
+- *How to Write a Solar Quote That Wins](/blog/how-to-write-solar-quote-wins-jobs-australia/)*
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- *[Replacing Gas Hot Water with Heat Pump: Complete Guide Australia](/blog/replacing-gas-hot-water-electric-heat-pump/)*
+- *[Solar Battery System Cost Australia 2026: Prices, Rebates & Payback Periods](/blog/solar-battery-system-cost-australia-2026/)*
+- *[Solar Installer Cash Flow Management Australia: Getting Paid Faster](/blog/solar-installer-cash-flow-management-australia/)*
 
 ---
 

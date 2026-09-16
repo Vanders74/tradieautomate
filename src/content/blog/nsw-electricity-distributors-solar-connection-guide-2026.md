@@ -104,7 +104,7 @@ Unlike South Australia (where flexible exports have been mandatory since 1 July 
 - The **NSW Government's CER Installer Portal** will require new and upgraded rooftop solar systems up to **200kW** to use **CSIP-AUS** compliant inverters as part of this staged rollout.
 - Until then, fixed export limits apply across all three networks.
 
-**What this means for installers:** for now, quote to the fixed limits above. But design systems that are *flexible-exports-ready* — a **CSIP-AUS compliant, internet-connected inverter** (see our [CSIP-AUS explainer](/blog/csip-aus-export-limit-1-5kw-solar)) — so the customer can take advantage of higher exports when the rollout reaches their area. That's a genuine differentiator in your quote.
+**What this means for installers:** for now, quote to the fixed limits above. But design systems that are *flexible-exports-ready* — a **CSIP-AUS compliant, internet-connected inverter** (see our [CSIP-AUS explainer](/blog/csip-aus-export-limit-1-5kw-solar/)) — so the customer can take advantage of higher exports when the rollout reaches their area. That's a genuine differentiator in your quote.
 
 Inverters must also meet **AS/NZS 4777.1:2024** (installation) and **AS/NZS 4777.2:2024** (inverter product requirements), and be on the Clean Energy Council's approved products list.
 
@@ -130,9 +130,9 @@ The documents matter more in NSW than in some states: Essential Energy explicitl
 
 Battery connections follow the same distributor framework as solar, plus the battery-specific compliance layer:
 
-- Battery installations must meet **AS/NZS 5139** — see the [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance).
+- Battery installations must meet **AS/NZS 5139** — see the [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance/).
 - Whether the battery inverter counts toward the phase inverter limit depends on the distributor (see the table above — it's a real quoting difference).
-- STC eligibility for the solar component is governed by the **Clean Energy Regulator** under the **Renewable Energy (Electricity) Act 2000** — see the [STC claim process](/blog/stc-claim-process-solar-installers-australia).
+- STC eligibility for the solar component is governed by the **Clean Energy Regulator** under the **Renewable Energy (Electricity) Act 2000** — see the [STC claim process](/blog/stc-claim-process-solar-installers-australia/).
 
 ---
 
@@ -141,7 +141,7 @@ Battery connections follow the same distributor framework as solar, plus the bat
 EV chargers pull meaningful load and increasingly trigger distributor sign-off:
 
 - **Residential:** confirm the existing supply and switchboard can handle the additional load; smart chargers are generally preferred.
-- **Commercial:** load assessments and capacity upgrades usually apply — see the [commercial EV charging guide](/blog/commercial-ev-charging-installation-guide-electricians) and the [EV charger business case](/blog/ev-charger-installation-electricians-australia-2026).
+- **Commercial:** load assessments and capacity upgrades usually apply — see the [commercial EV charging guide](/blog/commercial-ev-charging-installation-guide-electricians/) and the [EV charger business case](/blog/ev-charger-installation-electricians-australia-2026/).
 - The same distributor portal manages new-load and connection enquiries.
 
 ---
@@ -191,7 +191,7 @@ A typical solar connection in ServiceM8 runs:
 
 **Lead → Site visit → Quote → Distributor application → Approval tracking → Install → Commission & register → CCEW → Invoice**
 
-ServiceM8 lets you attach the distributor approval, track the application against the job, store the CCEW and compliance photos, and fire the invoice the moment the job closes — so the paperwork doesn't lag the installation. See [ServiceM8 for solar installers](/blog/servicem8-for-solar-installers), and keep the [solar compliance checklist](/blog/solar-compliance-checklist-2026) and [CCEW NSW guide](/blog/ccew-nsw-electrical-compliance-guide-2026) close to hand.
+ServiceM8 lets you attach the distributor approval, track the application against the job, store the CCEW and compliance photos, and fire the invoice the moment the job closes — so the paperwork doesn't lag the installation. See [ServiceM8 for solar installers](/blog/servicem8-for-solar-installers/), and keep the [solar compliance checklist](/blog/solar-compliance-checklist-2026/) and [CCEW NSW guide](/blog/ccew-nsw-electrical-compliance-guide-2026/) close to hand.
 
 ---
 
@@ -207,7 +207,7 @@ ServiceM8 lets you attach the distributor approval, track the application agains
 
 Installing across the border? Each state has its own distributor framework, export limits and compliance certificate:
 
-- [SA Power Networks guide](/blog/sa-power-networks-solar-connection-guide-2026) — flexible exports mandatory since 1 Jul 2023
-- [QLD Energex & Ergon guide](/blog/qld-energex-ergon-solar-connection-guide-2026) — dynamic connections on IEEE 2030.5 SEP2
-- [WA Western Power guide](/blog/wa-western-power-solar-connection-guide-2026) — isolated SWIS grid, 30kVA aggregate inverter rule
-- [VIC distributors guide](/blog/vic-solar-connection-guide-2026) — five networks, uniform 5kW limit
+- [SA Power Networks guide](/blog/sa-power-networks-solar-connection-guide-2026/) — flexible exports mandatory since 1 Jul 2023
+- [QLD Energex & Ergon guide](/blog/qld-energex-ergon-solar-connection-guide-2026/) — dynamic connections on IEEE 2030.5 SEP2
+- [WA Western Power guide](/blog/wa-western-power-solar-connection-guide-2026/) — isolated SWIS grid, 30kVA aggregate inverter rule
+- [VIC distributors guide](/blog/vic-solar-connection-guide-2026/) — five networks, uniform 5kW limit

@@ -160,7 +160,7 @@ For systems above certain thresholds — typically 30kW on a residential-class c
 - Price the protection relay as a likely scope item, not a contingency — most commercial systems above 50kW on LV connections will need one
 - Budget 10–15 weeks from contract signing to energisation for a 100kW commercial project
 
-See our full [commercial solar compliance guide](/blog/commercial-solar-compliance-australia-2026) for the detailed DNSP engagement process and standard documentation requirements.
+See our full [commercial solar compliance guide](/blog/commercial-solar-compliance-australia-2026/) for the detailed DNSP engagement process and standard documentation requirements.
 
 ---
 
@@ -187,7 +187,7 @@ Moving from primarily residential to commercial solar requires investment in sev
 
 Commercial quotes are more complex — materials lists are longer, DNSP fee schedules need to be incorporated, engineering costs need to be estimated. A structured quoting workflow and job management system is more important at commercial scale.
 
-For the job management comparison across platforms that support commercial solar workflows, see our [best job management software for electricians guide](/blog/best-job-management-software-electricians-australia).
+For the job management comparison across platforms that support commercial solar workflows, see our [best job management software for electricians guide](/blog/best-job-management-software-electricians-australia/).
 
 ### Cashflow management
 
@@ -218,14 +218,14 @@ Building a commercial pipeline takes 6–12 months to develop. The lead times ar
 
 ## Related Reading
 
-- [Commercial Solar Compliance Australia 2026: What Installers Need to Know](/blog/commercial-solar-compliance-australia-2026)
-- [Commercial Solar System Compliance: CEC, DNSP & Metering](/blog/commercial-solar-system-compliance-australia)
-- [How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)
-- [Hidden Costs Killing Your Solar and Electrical Business Profit](/blog/hidden-costs-killing-profit-solar-electrician)
-- [CER Audit Preparation for Solar Installers](/blog/cer-audit-prep-solar-installers)
-- [Scaling a Solar and Electrical Business: Hiring and Growth](/blog/scaling-solar-electrical-business-hiring-growth)
-- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [Commercial Solar Compliance Australia 2026: What Installers Need to Know](/blog/commercial-solar-compliance-australia-2026/)
+- [Commercial Solar System Compliance: CEC, DNSP & Metering](/blog/commercial-solar-system-compliance-australia/)
+- [How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026/)
+- [Hidden Costs Killing Your Solar and Electrical Business Profit](/blog/hidden-costs-killing-profit-solar-electrician/)
+- [CER Audit Preparation for Solar Installers](/blog/cer-audit-prep-solar-installers/)
+- [Scaling a Solar and Electrical Business: Hiring and Growth](/blog/scaling-solar-electrical-business-hiring-growth/)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
 
 ---
 

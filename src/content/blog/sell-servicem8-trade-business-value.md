@@ -105,7 +105,7 @@ Can the business run without you for 2 weeks? 2 months? This is the key question
 A business where the top 3 customers represent 70% of revenue is a risk. A business with 150 active residential solar clients, diversified maintenance contracts, and strong repeat business is a far safer acquisition.
 
 **4. Compliance documentation**
-For solar and electrical businesses, buyers want to see CER compliance, accreditation records, and a clean history of AS/NZS 5139 compliance documentation. ServiceM8's digital records make this demonstrable in an afternoon. See our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026) for what's typically required.
+For solar and electrical businesses, buyers want to see CER compliance, accreditation records, and a clean history of AS/NZS 5139 compliance documentation. ServiceM8's digital records make this demonstrable in an afternoon. See our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/) for what's typically required.
 
 **5. Staff retention and handover capability**
 Are your staff trained on ServiceM8's systems? Is there a management layer below the owner? The closer the business is to running itself, the higher the achievable multiple.
@@ -273,10 +273,10 @@ For businesses valued under $300K, private sale (via platforms like Seek Busines
 ---
 
 *Related reading:*
-- *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
-- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance)*
+- *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers/)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance/)*
 - *[Browse all free tools, checklists and guides](/resources)*
-- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
-- *[solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)*
+- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)*
+- *[solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia/)*

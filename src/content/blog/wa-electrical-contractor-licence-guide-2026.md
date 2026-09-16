@@ -40,7 +40,7 @@ An **electrical contractor's licence** is a business authorisation issued by Ene
 
 This guide covers the WA licensing requirements for 2026: who needs what, the Contractor Certificate of Electrical Inspection (CCEI) obligation, solar-specific requirements, and how to stay compliant without letting administrative tasks overwhelm your operations.
 
-> **🔌 Running a WA electrical business?** [ServiceM8 handles CCEI documentation, licence renewal reminders, and job scheduling](/blog/servicem8-review-2026) — built for Australian sparkies.
+> **🔌 Running a WA electrical business?** [ServiceM8 handles CCEI documentation, licence renewal reminders, and job scheduling](/blog/servicem8-review-2026/) — built for Australian sparkies.
 
 Key takeaways:
 - WA electrical contractor licences are issued by **EnergySafety** under DEMIRS — not by a building commission
@@ -170,7 +170,7 @@ A solar business whose CEC accreditation lapses cannot legally install STC-eligi
 **5. No workers compensation for part-time or casual workers**
 If you engage anyone who is legally an employee (not a genuine independent contractor), workers compensation is mandatory. Subcontracting arrangements that the law deems to be employment — common in the solar industry — can create unexpected workers comp exposure.
 
-See the [electrical contractor insurance guide](/blog/electrical-contractor-insurance-australia-2026) for a full breakdown of required coverage types.
+See the [electrical contractor insurance guide](/blog/electrical-contractor-insurance-australia-2026/) for a full breakdown of required coverage types.
 
 ---
 
@@ -183,7 +183,7 @@ The best-practice approach:
 - Create a standard job completion checklist that includes CCEI issuance as a non-optional step
 - Use your job management software to track Western Power application and approval status for each solar job
 
-The [digital job management guide for solar installers](/blog/digital-job-management-solar-installers) covers how to set up these compliance workflows in practice.
+The [digital job management guide for solar installers](/blog/digital-job-management-solar-installers/) covers how to set up these compliance workflows in practice.
 
 ---
 
@@ -245,16 +245,16 @@ WA electrical contractor licences are renewed annually through the EnergySafety 
 
 ## Related Reading
 
-- *[CER Audit Prep for Solar Installers: Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
-- *[Electrical Contractor Insurance Australia 2026: Coverage Types and Minimums](/blog/electrical-contractor-insurance-australia-2026)*
-- *[QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026)*
-- *[SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026)*
-- *[VIC Electrical Contractor Licence Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026)*
-- *[Solar Compliance Checklist for Australian Installers 2026](/blog/solar-compliance-checklist-2026)*
-- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
-- *[Staying Compliant in 2026: The Complete Solar & Electrical Safety Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
-- *[STC Claim Process for Solar Installers Australia](/blog/stc-claim-process-solar-installers-australia)*
-- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
-- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
-- *[NSW Electrical Contractor Licence 2026: Fair Trading, Home Building Act & Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026)*
+- *[CER Audit Prep for Solar Installers: Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)*
+- *[Electrical Contractor Insurance Australia 2026: Coverage Types and Minimums](/blog/electrical-contractor-insurance-australia-2026/)*
+- *[QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026/)*
+- *[SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026/)*
+- *[VIC Electrical Contractor Licence Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026/)*
+- *[Solar Compliance Checklist for Australian Installers 2026](/blog/solar-compliance-checklist-2026/)*
+- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers/)*
+- *[Staying Compliant in 2026: The Complete Solar & Electrical Safety Guide](/blog/staying-compliant-2026-solar-electrical-safety/)*
+- *[STC Claim Process for Solar Installers Australia](/blog/stc-claim-process-solar-installers-australia/)*
+- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians/)*
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)
+- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity/)
+- *[NSW Electrical Contractor Licence 2026: Fair Trading, Home Building Act & Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026/)*

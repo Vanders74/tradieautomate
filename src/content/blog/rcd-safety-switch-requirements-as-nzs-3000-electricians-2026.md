@@ -221,12 +221,12 @@ The standard does not precisely define this term. In practice, it encompasses sw
 
 ## Related Reading
 
-- *[Electrical Switchboard Upgrade Cost Australia 2026](/blog/electrical-switchboard-upgrade-cost-australia-2026)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
-- *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
-- *[Commercial EV Charging Installation: The Electrician's Business Guide for 2026](/blog/commercial-ev-charging-installation-guide-electricians)*
-- *[EV Charger Installation Business Case for Electricians 2026](/blog/ev-charger-installation-business-case-electricians-2026)*
+- *[Electrical Switchboard Upgrade Cost Australia 2026](/blog/electrical-switchboard-upgrade-cost-australia-2026/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety/)*
+- *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)*
+- *[Commercial EV Charging Installation: The Electrician's Business Guide for 2026](/blog/commercial-ev-charging-installation-guide-electricians/)*
+- *[EV Charger Installation Business Case for Electricians 2026](/blog/ev-charger-installation-business-case-electricians-2026/)*
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which circuits require RCD protection under AS/NZS 3000:2018?","acceptedAnswer":{"@type":"Answer","text":"All socket outlet circuits, all lighting circuits in residential dwellings (Amendment 2 change), and circuits serving outdoor areas, bathrooms, laundries, and kitchens."}},{"@type":"Question","name":"What RCD type do I need for a solar inverter installation?","acceptedAnswer":{"@type":"Answer","text":"Minimum Type A for single-phase inverters. Type B for three-phase inverters and any inverter with DC injection risk. Always check the inverter manufacturer's installation manual."}},{"@type":"Question","name":"What RCD type is required for an EV charger?","acceptedAnswer":{"@type":"Answer","text":"Type B is required for most EV chargers (Mode 3 AC charging equipment). This covers DC leakage currents that Type AC, A, and F devices cannot detect."}},{"@type":"Question","name":"Does replacing a switchboard trigger full RCD compliance on all circuits?","acceptedAnswer":{"@type":"Answer","text":"Yes. A full switchboard replacement triggers compliance with AS/NZS 3000:2018 on all circuits connected to that board."}},{"@type":"Question","name":"What is the difference between Type AC, A, F, and B RCDs?","acceptedAnswer":{"@type":"Answer","text":"Type AC: AC fault currents only. Type A: AC and pulsating DC — minimum for solar inverters. Type F: AC, pulsating DC, and high-frequency VFD leakage. Type B: all types including smooth DC — required for EV chargers and three-phase solar."}}]}

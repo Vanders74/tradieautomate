@@ -157,7 +157,7 @@ Google reviews are the single most impactful GBP ranking factor in the local pac
 - 100+ reviews: strong local pack presence
 - 4.8+ stars: conversion-optimised
 
-For the complete system to collect 5-star reviews automatically from every completed job, see our [Google Reviews guide for solar installers and electricians](/blog/google-reviews-five-star-tradie-guide).
+For the complete system to collect 5-star reviews automatically from every completed job, see our [Google Reviews guide for solar installers and electricians](/blog/google-reviews-five-star-tradie-guide/).
 
 **Responding to reviews:** Respond to every review — positive and negative. For positive reviews, mention the job type and suburb (local SEO signal): *"Thanks [name] — loved getting that 6.6kW system up in [suburb] for you. Hope you're seeing great generation numbers!"* For negative reviews, respond professionally and invite offline resolution.
 
@@ -204,7 +204,7 @@ GBP provides a free insights dashboard showing:
 
 Review this data monthly. If you're getting views but few calls, your conversion (photos, reviews, description) needs work. If you're getting calls but few from the right suburbs, refine your service area.
 
-For systematic tracking of your website's SEO performance across both GBP and organic search, see our [GSC Rankings reporting](/blog/ai-automation-solar-installers) for how to monitor keyword progress.
+For systematic tracking of your website's SEO performance across both GBP and organic search, see our [GSC Rankings reporting](/blog/ai-automation-solar-installers/) for how to monitor keyword progress.
 
 ---
 
@@ -219,7 +219,7 @@ Getting the enquiry through GBP is only the first step. Converting it into a boo
 - Job completed → automatic review request SMS
 - New review on GBP → stronger ranking → more leads
 
-Each review you collect makes the next lead easier to win. Over 12 months, this compounding effect is significant. See our [SMS vs email guide](/blog/sms-vs-email-quotes-customer-experience) for converting enquiries into signed quotes quickly.
+Each review you collect makes the next lead easier to win. Over 12 months, this compounding effect is significant. See our [SMS vs email guide](/blog/sms-vs-email-quotes-customer-experience/) for converting enquiries into signed quotes quickly.
 
 ---
 
@@ -230,14 +230,14 @@ Each review you collect makes the next lead easier to win. Over 12 months, this 
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- *[How to Get 5-Star Google Reviews as a Solar Installer or Electrician](/blog/google-reviews-five-star-tradie-guide)*
-- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
-- *[SMS vs Email: Which Gets More Solar Quotes Signed?](/blog/sms-vs-email-quotes-customer-experience)*
-- *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)*
-- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
-- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- *[How to Get 5-Star Google Reviews as a Solar Installer or Electrician](/blog/google-reviews-five-star-tradie-guide/)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)*
+- *[SMS vs Email: Which Gets More Solar Quotes Signed?](/blog/sms-vs-email-quotes-customer-experience/)*
+- *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers/)*
+- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers/)*
+- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia/)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
 
 ---
 

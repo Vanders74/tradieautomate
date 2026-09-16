@@ -211,11 +211,11 @@ The sales approach: offer it at installation, not later. "We include 12 months o
 
 ## Related Reading
 
-- [SA Solar Battery Rebate 2026 — Home Battery Scheme Guide](/blog/sa-solar-battery-rebate-2026)
-- [VIC Solar Homes Program Rebate 2026](/blog/vic-solar-homes-program-rebate-2026)
-- [Solar + Battery System Cost Australia 2026](/blog/solar-battery-system-cost-australia-2026)
-- [Commercial Solar System Compliance Australia](/blog/commercial-solar-system-compliance-australia)
-- [Solar Warranty Claim Process Australia 2026](/blog/solar-warranty-claim-process-australia-2026)
+- [SA Solar Battery Rebate 2026 — Home Battery Scheme Guide](/blog/sa-solar-battery-rebate-2026/)
+- [VIC Solar Homes Program Rebate 2026](/blog/vic-solar-homes-program-rebate-2026/)
+- [Solar + Battery System Cost Australia 2026](/blog/solar-battery-system-cost-australia-2026/)
+- [Commercial Solar System Compliance Australia](/blog/commercial-solar-system-compliance-australia/)
+- [Solar Warranty Claim Process Australia 2026](/blog/solar-warranty-claim-process-australia-2026/)
 
 ---
 

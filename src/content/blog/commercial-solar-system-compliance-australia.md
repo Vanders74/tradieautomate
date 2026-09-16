@@ -165,7 +165,7 @@ Commercial solar compliance involves multiple documentation streams running in p
 
 Using a systematic job management approach is essential. Track each compliance step as a milestone in your project management workflow. [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) with custom job templates for commercial solar allows you to track DNSP approval status, metering coordination, and compliance documentation against each job without relying on spreadsheets or memory.
 
-See the [digital job management guide for solar installers](/blog/digital-job-management-solar-installers) for how to build these workflows in practice.
+See the [digital job management guide for solar installers](/blog/digital-job-management-solar-installers/) for how to build these workflows in practice.
 
 ---
 
@@ -227,13 +227,13 @@ DNSP connection application timeframes vary significantly by network operator an
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- *[EV Charging at Commercial Premises Australia 2026: Compliance & Load Management](/blog/ev-charging-commercial-premises-australia-2026)*
-- *[How to Win Commercial Solar Contracts Australia](/blog/how-to-win-commercial-solar-contracts-australia)*
-- *[Solar Compliance Checklist for Australian Installers 2026](/blog/solar-compliance-checklist-2026)*
-- *[AS/NZS 5033 Solar Installation Compliance — What Every Installer Needs to Know](/blog/solar-compliance-checklist-2026)*
-- *[CER Audit Prep for Solar Installers: Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
-- *[STC Claim Process for Solar Installers Australia](/blog/stc-claim-process-solar-installers-australia)*
-- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
-- *[Scaling Your Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
+- *[EV Charging at Commercial Premises Australia 2026: Compliance & Load Management](/blog/ev-charging-commercial-premises-australia-2026/)*
+- *[How to Win Commercial Solar Contracts Australia](/blog/how-to-win-commercial-solar-contracts-australia/)*
+- *[Solar Compliance Checklist for Australian Installers 2026](/blog/solar-compliance-checklist-2026/)*
+- *[AS/NZS 5033 Solar Installation Compliance — What Every Installer Needs to Know](/blog/solar-compliance-checklist-2026/)*
+- *[CER Audit Prep for Solar Installers: Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)*
+- *[STC Claim Process for Solar Installers Australia](/blog/stc-claim-process-solar-installers-australia/)*
+- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers/)*
+- *[Scaling Your Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth/)*
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/)

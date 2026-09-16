@@ -126,7 +126,7 @@ ServiceM8's job diary allows technicians to add structured notes and tags to eac
 
 The bookkeeper opens the ServiceM8 job record, reads the diary notes, and enters the correct hours into Xero. The calculation is already done. There's no estimation involved.
 
-For a [full walkthrough of ServiceM8 for electrical businesses](/blog/servicem8-for-electricians), including how job diary templates reduce back-office admin by 50–70%, read our detailed review.
+For a [full walkthrough of ServiceM8 for electrical businesses](/blog/servicem8-for-electricians/), including how job diary templates reduce back-office admin by 50–70%, read our detailed review.
 
 ---
 
@@ -195,10 +195,10 @@ A payroll bookkeeper who specialises in trade businesses will typically charge $
 
 Payroll compliance is one piece of a larger operational picture for electrical contracting businesses. Related articles that address the broader system:
 
-- [Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026) — full breakdown of current grade rates and entitlements
-- [ServiceM8 for Electricians](/blog/servicem8-for-electricians) — how job management software closes the gap between on-site work and back-office admin
-- [The Hidden Admin Cost Calculator](/blog/hidden-admin-cost-calculator) — quantify exactly what the manual payroll process is costing your business
-- [Best Accounting Software for Solar & Electrical Businesses](/blog/best-accounting-software-solar-electrical-australia-2026) — Xero vs MYOB vs QuickBooks compared
+- [Electrical Contractor Award Rates Australia 2026](/blog/electrical-contractor-award-rates-australia-2026/) — full breakdown of current grade rates and entitlements
+- [ServiceM8 for Electricians](/blog/servicem8-for-electricians/) — how job management software closes the gap between on-site work and back-office admin
+- [The Hidden Admin Cost Calculator](/blog/hidden-admin-cost-calculator/) — quantify exactly what the manual payroll process is costing your business
+- [Best Accounting Software for Solar & Electrical Businesses](/blog/best-accounting-software-solar-electrical-australia-2026/) — Xero vs MYOB vs QuickBooks compared
 
 ---
 
@@ -236,9 +236,9 @@ Yes — Xero's Auto Superannuation calculates and submits super contributions au
 
 ## Related Reading
 
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
-- *[Xero vs MYOB for Australian Trade Businesses 2026](/blog/xero-vs-myob-accounting-software-australian-tradies-2026)*
-- *[Apprentice Ratios & Hiring Incentives for Electricians Australia 2026](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026)*
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity/)
+- *[Xero vs MYOB for Australian Trade Businesses 2026](/blog/xero-vs-myob-accounting-software-australian-tradies-2026/)*
+- *[Apprentice Ratios & Hiring Incentives for Electricians Australia 2026](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026/)*

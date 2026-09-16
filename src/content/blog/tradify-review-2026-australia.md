@@ -120,11 +120,11 @@ ServiceM8 includes real-time GPS tracking for field staff and the "On My Way" no
 
 ## Related Reading
 
-- [ServiceM8 vs Tradify 2026 — Which Is Better for Australian Trades?](/blog/servicem8-vs-tradify-comparison-australia)
-- [ServiceM8 Pricing 2026 — Plans and Real Costs](/blog/servicem8-pricing-plans-australia-2026)
-- [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026)
-- [Electrical Job Management Software Australia 2026 — Buyer's Guide](/blog/electrical-job-management-software-buyers-guide-australia)
-- [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)
+- [ServiceM8 vs Tradify 2026 — Which Is Better for Australian Trades?](/blog/servicem8-vs-tradify-comparison-australia/)
+- [ServiceM8 Pricing 2026 — Plans and Real Costs](/blog/servicem8-pricing-plans-australia-2026/)
+- [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026/)
+- [Electrical Job Management Software Australia 2026 — Buyer's Guide](/blog/electrical-job-management-software-buyers-guide-australia/)
+- [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia/)
 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)

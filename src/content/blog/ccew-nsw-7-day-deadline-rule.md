@@ -34,7 +34,7 @@ The Certificate of Compliance Electrical Work is a legal obligation with real fi
 
 This article cuts through the confusion. Here is exactly when a CCEW is legally required, the 7-day rule that most electricians underestimate, who you have to submit it to, and the compliance gap that field software closes.
 
-> **⚡ Deadline stress?** ServiceM8 auto-generates CCEW forms and sends 7-day reminders — [how NSW electricians are automating compliance](/blog/servicem8-for-electricians).
+> **⚡ Deadline stress?** ServiceM8 auto-generates CCEW forms and sends 7-day reminders — [how NSW electricians are automating compliance](/blog/servicem8-for-electricians/).
 
 <div class="compliance-bridge-box" style="border-left:4px solid #f97316;background:#0f172a;padding:20px 24px;border-radius:8px;margin:32px 0;color:#e2e8f0">
   <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
@@ -56,7 +56,7 @@ This article cuts through the confusion. Here is exactly when a CCEW is legally 
 
 A Certificate of Compliance Electrical Work (CCEW) is a legal document under the *Home Building Act 1989 (NSW)* and the *Electricity (Consumer Safety) Act 2004 (NSW)*. It certifies that electrical work was carried out in accordance with the applicable wiring rules (AS/NZS 3000), the Electricity (Consumer Safety) Regulation, and any relevant Australian Standards.
 
-**As of 1 July 2026, all CCEWs must be submitted digitally through the mandatory BCNSW eCert portal** — paper forms and old submission methods are no longer accepted. See our [full CCEW compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026) for the complete lodgement workflow and portal registration steps.
+**As of 1 July 2026, all CCEWs must be submitted digitally through the mandatory BCNSW eCert portal** — paper forms and old submission methods are no longer accepted. See our [full CCEW compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/) for the complete lodgement workflow and portal registration steps.
 
 The document must be signed by a licensed electrical contractor (not just a licensed electrician — the contractor of record takes legal responsibility with their signature).
 
@@ -64,7 +64,7 @@ The document must be signed by a licensed electrical contractor (not just a lice
 
 ## What Triggers the CCEW Requirement? When Is a CCEW Legally Required?
 
-A CCEW is required for any electrical installation work that results in one or more of the following (see our [full CCEW compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026) for the complete regulatory framework):
+A CCEW is required for any electrical installation work that results in one or more of the following (see our [full CCEW compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/) for the complete regulatory framework):
 
 1. **A change to the main switchboard** — adding circuits, replacing the switchboard, upgrading protection devices (MCBs, RCDs), or modifying the main switch
 2. **An increase in connected load** — any addition of new circuits, high-load appliances, EV chargers, air conditioning units, or solar inverters that increase the total connected demand on the supply
@@ -122,7 +122,7 @@ The risk is asymmetric. The fine for non-compliance far exceeds the administrati
 
 There is **no government lodgement fee** for a CCEW — it is submitted free through the BCNSW eCert portal. The cost most electricians associate with CCEWs is the time spent preparing and submitting the form, which is why many bill it as a separate line item (commonly **$50–$95 plus GST**) rather than absorbing it into the job.
 
-The real cost is the penalty for not lodging one: **up to $22,000 per offence for an individual and $110,000 for a corporation**. The fine for a missing or late CCEW is orders of magnitude higher than any documentation charge — see our [full CCEW compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026) for the complete penalty schedule and lodgement workflow.
+The real cost is the penalty for not lodging one: **up to $22,000 per offence for an individual and $110,000 for a corporation**. The fine for a missing or late CCEW is orders of magnitude higher than any documentation charge — see our [full CCEW compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/) for the complete penalty schedule and lodgement workflow.
 
 ---
 
@@ -173,7 +173,7 @@ Solar installations deserve specific attention because the paperwork chain is lo
 
 Missing any step in this chain creates both regulatory and commercial problems — STC claims can't be lodged without the installation certificate, and the distributor won't approve export if the connection notification hasn't been received.
 
-For the complete solar compliance documentation workflow including CER requirements and audit preparation, see our [solar compliance checklist](/blog/solar-compliance-checklist-2026).
+For the complete solar compliance documentation workflow including CER requirements and audit preparation, see our [solar compliance checklist](/blog/solar-compliance-checklist-2026/).
 
 ---
 
@@ -186,7 +186,7 @@ As of 1 July 2026, all CCEWs must be submitted through the **BCNSW eCert portal*
 **What to do now:**
 - Register at [ecert.buildingcommission.nsw.gov.au](https://ecert.buildingcommission.nsw.gov.au/) (free — you need your contractor licence and Service NSW account)
 - BCNSW eCert auto-distributes copies to the customer, the DNSP, and Building Commission NSW
-- See our [complete CCEW NSW compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026) for the full step-by-step lodgement workflow, solar-specific requirements, and common audit triggers
+- See our [complete CCEW NSW compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/) for the full step-by-step lodgement workflow, solar-specific requirements, and common audit triggers
 
 The compliance gap is a data-capture problem. If testing data is captured digitally on-site, at the time of work, the CCEW can be generated and issued the same day — without a Friday afternoon scramble.
 
@@ -202,7 +202,7 @@ When the technician completes the checklist before leaving the driveway, the off
 
 The additional benefit: if Fair Trading NSW requests your records for an audit — and they do — you can produce the complete documentation for any job in seconds rather than spending days reconstructing paper files.
 
-Read the full overview of [how ServiceM8 supports electrical compliance work](/blog/servicem8-for-electricians) and [the CCEW compliance guide for NSW](/blog/ccew-nsw-electrical-compliance-guide-2026) for a deeper dive into the specific requirements.
+Read the full overview of [how ServiceM8 supports electrical compliance work](/blog/servicem8-for-electricians/) and [the CCEW compliance guide for NSW](/blog/ccew-nsw-electrical-compliance-guide-2026/) for a deeper dive into the specific requirements.
 
 ---
 
@@ -281,9 +281,9 @@ Yes. Battery storage systems are classified as electrical installation work unde
 
 ## Related Reading
 
-- [NSW Electrical Contractor Licence 2026: Fair Trading, Home Building Act & Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026)
-- [CCEW NSW Compliance Guide: Full Requirements & Lodgement Walkthrough](/blog/ccew-nsw-electrical-compliance-guide-2026)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
-- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
+- [NSW Electrical Contractor Licence 2026: Fair Trading, Home Building Act & Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026/)
+- [CCEW NSW Compliance Guide: Full Requirements & Lodgement Walkthrough](/blog/ccew-nsw-electrical-compliance-guide-2026/)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity/)

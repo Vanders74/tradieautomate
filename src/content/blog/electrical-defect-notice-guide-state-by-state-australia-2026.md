@@ -278,7 +278,7 @@ Before completing any solar job:
 - Issue compliance certificates (CCEW, CES) the same day as job completion, not at end of week
 - Never estimate or transpose test results — if you can't read a figure, retest it
 
-For appliance-level testing and tagging obligations, see our [Test & Tag AS/NZS 3760 compliance guide](/blog/test-and-tag-asnzs-3760-compliance-guide).
+For appliance-level testing and tagging obligations, see our [Test & Tag AS/NZS 3760 compliance guide](/blog/test-and-tag-asnzs-3760-compliance-guide/).
 
 ServiceM8's job diary templates can be configured to require all of these steps before a job can be marked complete — making compliance a workflow outcome rather than a memory exercise.
 
@@ -306,13 +306,13 @@ The consequence is not just regulatory. Property owners and insurers can pursue 
 
 ## Related Reading
 
-- *[RCD Safety Switch Requirements Under AS/NZS 3000 — Electricians' 2026 Guide](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026)*
-- *[NSW Electrical Contractor Licence 2026: Fair Trading, Home Building Act & Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026)*
-- *[VIC Electrical Contractor Licence 2026](/blog/vic-electrical-contractor-licence-guide-2026)*
-- *[CCEW NSW: The 7-Day Deadline Rule Electricians Keep Missing](/blog/ccew-nsw-7-day-deadline-rule)*
-- *[Solar Compliance Checklist for Australian Installers 2026](/blog/solar-compliance-checklist-2026)*
-- *[EV Charger Installation Business Case for Electricians 2026](/blog/ev-charger-installation-business-case-electricians-2026)*
-- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
+- *[RCD Safety Switch Requirements Under AS/NZS 3000 — Electricians' 2026 Guide](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026/)*
+- *[NSW Electrical Contractor Licence 2026: Fair Trading, Home Building Act & Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026/)*
+- *[VIC Electrical Contractor Licence 2026](/blog/vic-electrical-contractor-licence-guide-2026/)*
+- *[CCEW NSW: The 7-Day Deadline Rule Electricians Keep Missing](/blog/ccew-nsw-7-day-deadline-rule/)*
+- *[Solar Compliance Checklist for Australian Installers 2026](/blog/solar-compliance-checklist-2026/)*
+- *[EV Charger Installation Business Case for Electricians 2026](/blog/ev-charger-installation-business-case-electricians-2026/)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)*
 
 ---
 

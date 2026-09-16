@@ -99,7 +99,7 @@ For retail sites, the install complexity can be high — running cable through a
 Building a commercial EV charging practice requires competency beyond standard residential installation. All electrical work must comply with AS/NZS 3000:2018 (the Australian Wiring Rules). State licensing requirements are enforced by the Electrical Safety Office (QLD), Energy Safe Victoria (ESV), and SafeWork NSW — ensure your contractor licence is current in every state where you operate:
 
 ### Dynamic Load Management (DLM)
-On any site with more than 4 chargers, DLM is essential. Understand how to spec, configure, and commission DLM systems for your chosen charger brands. See the [commercial EV charging compliance guide](/blog/ev-charging-commercial-premises-australia-2026) for a full DLM explainer.
+On any site with more than 4 chargers, DLM is essential. Understand how to spec, configure, and commission DLM systems for your chosen charger brands. See the [commercial EV charging compliance guide](/blog/ev-charging-commercial-premises-australia-2026/) for a full DLM explainer.
 
 ### Charge Point Management Systems (CPMS)
 The CPMS is the software that manages charger operations: access control, usage reporting, billing, and DLM coordination. Key CPMS platforms used in Australia include OCPP-compatible systems (Monta, Ampeco, ChargeHQ commercial) as well as proprietary platforms from hardware brands.
@@ -110,7 +110,7 @@ Align with 1–2 CPMS platforms and become a competent installer of their system
 Billing individual users for their energy consumption requires sub-metering. Understand how to specify and install revenue-grade sub-meters for EV charging applications.
 
 ### Network Authority Engagement
-For commercial EV charging jobs above ~30kW, DNSP engagement is required. Understand the connection application process for your state's network operators. See the [commercial EV charging compliance guide](/blog/ev-charging-commercial-premises-australia-2026) for the full process.
+For commercial EV charging jobs above ~30kW, DNSP engagement is required. Understand the connection application process for your state's network operators. See the [commercial EV charging compliance guide](/blog/ev-charging-commercial-premises-australia-2026/) for the full process.
 
 ---
 
@@ -213,13 +213,13 @@ A licensed electrical contractor's licence in the relevant state is required for
 
 ## Related Reading
 
-- *[EV Charging at Commercial Premises Australia 2026: Compliance, Load Management & Pricing](/blog/ev-charging-commercial-premises-australia-2026)*
-- *[EV Charger Installation for Electricians Australia 2026: Certification, Compliance and Workflow](/blog/ev-charger-installation-electricians-australia-2026)*
-- *[EV Charger Installation Cost Australia 2026](/blog/ev-charger-installation-cost-australia-2026)*
-- *[Commercial Solar System Compliance Australia](/blog/commercial-solar-system-compliance-australia)*
-- *[How to Win Commercial Solar Contracts Australia](/blog/how-to-win-commercial-solar-contracts-australia)*
-- *[Scaling Your Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
-- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)*
-- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+- *[EV Charging at Commercial Premises Australia 2026: Compliance, Load Management & Pricing](/blog/ev-charging-commercial-premises-australia-2026/)*
+- *[EV Charger Installation for Electricians Australia 2026: Certification, Compliance and Workflow](/blog/ev-charger-installation-electricians-australia-2026/)*
+- *[EV Charger Installation Cost Australia 2026](/blog/ev-charger-installation-cost-australia-2026/)*
+- *[Commercial Solar System Compliance Australia](/blog/commercial-solar-system-compliance-australia/)*
+- *[How to Win Commercial Solar Contracts Australia](/blog/how-to-win-commercial-solar-contracts-australia/)*
+- *[Scaling Your Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth/)*
+- *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers/)*
+- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)*
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)

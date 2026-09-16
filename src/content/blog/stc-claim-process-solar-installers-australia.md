@@ -29,7 +29,7 @@ Small-scale Technology Certificates (STCs) are the financial backbone of Austral
 
 The Clean Energy Regulator runs one of Australia's most active small business audit programs. In 2025 and into 2026, STC compliance has been a primary enforcement focus — with audits triggered by documentation errors, system size discrepancies, and installer scope violations that businesses didn't even know they'd committed.
 
-For Victorian electricians, the state-level **Victorian Energy Upgrades (VEU) program** runs parallel to the STC scheme — heat pump hot water installations can generate VEECs worth $250–$1,650 per job on top of standard installation fees. See our [complete VEU guide for electricians](/blog/victorian-energy-upgrades-veu-electricians-guide-2026) for accreditation, eligible activities, and how VEECs and STCs interact on the same property.
+For Victorian electricians, the state-level **Victorian Energy Upgrades (VEU) program** runs parallel to the STC scheme — heat pump hot water installations can generate VEECs worth $250–$1,650 per job on top of standard installation fees. See our [complete VEU guide for electricians](/blog/victorian-energy-upgrades-veu-electricians-guide-2026/) for accreditation, eligible activities, and how VEECs and STCs interact on the same property.
 
 This guide walks through the complete STC process: eligibility, calculation, customer declarations, lodgement, and the errors that most commonly trigger CER attention.
 
@@ -194,7 +194,7 @@ The minimum viable system:
 
 Build this into your job management workflow, not a separate spreadsheet. Spreadsheets get out of sync; a job management system with the right workflow built in stays current automatically.
 
-For the complete CER audit preparation framework — including what auditors look for and how to pass — see our [CER Audit Prep guide for solar installers](/blog/cer-audit-prep-solar-installers).
+For the complete CER audit preparation framework — including what auditors look for and how to pass — see our [CER Audit Prep guide for solar installers](/blog/cer-audit-prep-solar-installers/).
 
 ---
 
@@ -205,18 +205,18 @@ For the complete CER audit preparation framework — including what auditors loo
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance)*
-- *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
-- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
-- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
-- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
-- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
-- *[SA Home Battery Scheme 2026: Eligibility, Loan & Installer Registration](/blog/sa-solar-battery-rebate-2026)*
-- [Heat Pump Hot Water for Electricians Australia: Circuits, Rebates & Sales Workflow](/blog/heat-pump-hot-water-installation-electricians-australia)
-- [Replacing Gas Hot Water with Heat Pump: Complete Guide Australia](/blog/replacing-gas-hot-water-electric-heat-pump)
-- [Victorian Energy Upgrades (VEU) Guide: $250–$1,650 per heat pump job via VEECs](/blog/victorian-energy-upgrades-veu-electricians-guide-2026)
+- *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance/)*
+- *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety/)*
+- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026/)*
+- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers/)*
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)
+- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/)
+- *[SA Home Battery Scheme 2026: Eligibility, Loan & Installer Registration](/blog/sa-solar-battery-rebate-2026/)*
+- [Heat Pump Hot Water for Electricians Australia: Circuits, Rebates & Sales Workflow](/blog/heat-pump-hot-water-installation-electricians-australia/)
+- [Replacing Gas Hot Water with Heat Pump: Complete Guide Australia](/blog/replacing-gas-hot-water-electric-heat-pump/)
+- [Victorian Energy Upgrades (VEU) Guide: $250–$1,650 per heat pump job via VEECs](/blog/victorian-energy-upgrades-veu-electricians-guide-2026/)
 
 ---
 

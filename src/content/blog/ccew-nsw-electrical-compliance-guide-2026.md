@@ -25,7 +25,7 @@ In 2025 and 2026, SafeWork NSW and Fair Trading NSW have increased their complia
 
 Getting your CCEW obligations right is not complex, but it is non-negotiable. This guide covers everything you need to know.
 
-> **⚡ Using ServiceM8?** Its custom form builder auto-generates CCEW templates from your job data — [see how it works for NSW electricians](/blog/servicem8-for-electricians).
+> **⚡ Using ServiceM8?** Its custom form builder auto-generates CCEW templates from your job data — [see how it works for NSW electricians](/blog/servicem8-for-electricians/).
 
 <div class="compliance-bridge-box">
   <div class="cb-inner">
@@ -86,13 +86,13 @@ An employee electrician — regardless of their individual licence level — can
 
 For solar businesses using subcontractors, this creates an important consideration: if you engage a subcontractor (another electrical contractor) to perform installation work, that subcontractor should issue their own CCEW for their work, not you. If you're the head contractor responsible for the overall installation, understand what compliance documentation your subcontractors are required to provide.
 
-> **Running a crew?** Misclassifying workers (employee vs subcontractor) or getting award rates wrong creates significant back-pay liability alongside your CCEW obligations. See our [Electrical Contractor Award Rates 2026 guide](/blog/electrical-contractor-award-rates-australia-2026) for the full pay calculator and compliance breakdown.
+> **Running a crew?** Misclassifying workers (employee vs subcontractor) or getting award rates wrong creates significant back-pay liability alongside your CCEW obligations. See our [Electrical Contractor Award Rates 2026 guide](/blog/electrical-contractor-award-rates-australia-2026/) for the full pay calculator and compliance breakdown.
 
 ---
 
 ## NSW Fair Trading CCEW Requirements & Timeframe (2026)
 
-Under NSW requirements, a CCEW must be issued **within 7 days** of completing the notifiable electrical installation work. For a detailed breakdown of exactly when the 7-day clock starts and what triggers the requirement, see our [CCEW 7-day deadline rule guide](/blog/ccew-nsw-7-day-deadline-rule).
+Under NSW requirements, a CCEW must be issued **within 7 days** of completing the notifiable electrical installation work. For a detailed breakdown of exactly when the 7-day clock starts and what triggers the requirement, see our [CCEW 7-day deadline rule guide](/blog/ccew-nsw-7-day-deadline-rule/).
 
 Best practice is to issue within 24–48 hours of completion — while the installation details are fresh, photos are uploaded, and documentation is complete. Waiting until day 6 creates unnecessary risk.
 
@@ -149,7 +149,7 @@ Registration is free. The portal is at [ecert.buildingcommission.nsw.gov.au](htt
 
 **For compliance-heavy electrical businesses:** If you submit 10+ CCEWs per month, the portal's batch-upload and pre-fill features will save hours over the old manual methods. The mandatory transition is actually a workflow improvement — but only if you register and learn the system before you need it for a live job.
 
-> **Working across NSW and VIC?** Victoria's equivalent system is ESV Connect for CES lodgement. See our [CES Victoria complete guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026) for the side-by-side comparison of both state portals.
+> **Working across NSW and VIC?** Victoria's equivalent system is ESV Connect for CES lodgement. See our [CES Victoria complete guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) for the side-by-side comparison of both state portals.
 
 ### How to Issue a CCEW via BCNSW eCert
 
@@ -182,7 +182,7 @@ Your installation must comply with AS/NZS 5033:2021 (the solar PV installation s
 
 Battery installations require compliance with AS/NZS 5139:2019. The battery clearance compliance, ventilation assessment, and commissioning records should be documented and retained alongside the CCEW.
 
-See our [solar compliance checklist](/blog/solar-compliance-checklist-2026) and [AS/NZS 5139 guide](/blog/as-nzs-5139-battery-storage-compliance) for the complete compliance picture.
+See our [solar compliance checklist](/blog/solar-compliance-checklist-2026/) and [AS/NZS 5139 guide](/blog/as-nzs-5139-battery-storage-compliance/) for the complete compliance picture.
 
 ---
 
@@ -197,7 +197,7 @@ In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieau
 
 For businesses working across both NSW and VIC (or other states), your job management system should prompt the appropriate certificate type based on the job's state — CES for VIC, CCEW for NSW, CoTC for QLD.
 
-> **Choosing your platform?** ServiceM8 is the strongest option for compliance-heavy electrical work — see our [ServiceM8 for Electricians deep-dive](/blog/servicem8-for-electricians) and the full [job management software comparison for Australian sparkies](/blog/best-job-management-software-electricians-australia).
+> **Choosing your platform?** ServiceM8 is the strongest option for compliance-heavy electrical work — see our [ServiceM8 for Electricians deep-dive](/blog/servicem8-for-electricians/) and the full [job management software comparison for Australian sparkies](/blog/best-job-management-software-electricians-australia/).
 
 ---
 
@@ -228,7 +228,7 @@ A CCEW certifies that work has been completed and is compliant. Issuing one befo
 **7. Poor photo documentation for solar**
 While photos aren't part of the CCEW itself, NSW Fair Trading and DNSPs increasingly cross-reference CCEW records against installation photos during solar audits. A CCEW with no corresponding job documentation is a red flag. Geo-tagged, timestamped photos should be stored against every job.
 
-> **Working across state lines?** Victoria's CES system has different deadlines (30 days), different regulator (Energy Safe Victoria), and different audit triggers. See our [CES Victoria complete guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026) for the side-by-side comparison — getting this wrong when your crews cross the Murray is a material compliance risk.
+> **Working across state lines?** Victoria's CES system has different deadlines (30 days), different regulator (Energy Safe Victoria), and different audit triggers. See our [CES Victoria complete guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) for the side-by-side comparison — getting this wrong when your crews cross the Murray is a material compliance risk.
 
 > **Need to check a CCEW requirement right now?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CCEW lodgement, network notification rules, solar documentation requirements, and more. No login required.
@@ -272,18 +272,18 @@ While photos aren't part of the CCEW itself, NSW Fair Trading and DNSPs increasi
 
 ## Related Reading
 
-- *[Certificate of Electrical Safety (CES) — Complete Guide for Victorian Electricians](/blog/certificate-electrical-safety-ces-victoria-guide-2026)*
-- *[RCD Safety Switch Requirements AS/NZS 3000: Which Type for Each Circuit](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026)*
-- *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance)*
-- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
-- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [ServiceM8 vs simPRO 2026: Australia's Honest Comparison](/blog/servicem8-vs-simpro-comparison-australia)
-- [The Paperless Trade Business Roadmap: From Paper Forms to Digital Ops](/blog/paperless-trade-roadmap-operational-efficiency)
-- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
+- *[Certificate of Electrical Safety (CES) — Complete Guide for Victorian Electricians](/blog/certificate-electrical-safety-ces-victoria-guide-2026/)*
+- *[RCD Safety Switch Requirements AS/NZS 3000: Which Type for Each Circuit](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026/)*
+- *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance/)*
+- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians/)*
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [ServiceM8 vs simPRO 2026: Australia's Honest Comparison](/blog/servicem8-vs-simpro-comparison-australia/)
+- [The Paperless Trade Business Roadmap: From Paper Forms to Digital Ops](/blog/paperless-trade-roadmap-operational-efficiency/)
+- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity/)
 
 ---
 
@@ -304,6 +304,6 @@ Yes. Any solar PV installation that involves electrical connection work requires
 ### What information must be included on a NSW CCEW?
 A valid NSW CCEW must include: the contractor's licence number, the property address, a description of the electrical work performed, the date of completion, confirmation that the work complies with AS/NZS 3000 Wiring Rules and relevant standards, and the contractor's signature. For solar installations, it should also reference the grid connection type and inverter specifications. Incomplete CCEWs are one of the most common triggers for NSW Fair Trading compliance audits.
 
-> **Related:** If you're preparing for a SafeWork or ESV safety audit, download our free [Electrical Safety Audit Prep Checklist](/blog/safety-audit-prep-checklist-electricians-2026) — 6 categories of documentation auditors check, state-by-state deadlines, and a printable one-pager.
+> **Related:** If you're preparing for a SafeWork or ESV safety audit, download our free [Electrical Safety Audit Prep Checklist](/blog/safety-audit-prep-checklist-electricians-2026/) — 6 categories of documentation auditors check, state-by-state deadlines, and a printable one-pager.
 >
 > Got a compliance question? [Ask Tradie Brain AI](/tools/tradie-brain) — free, no login. Instant answers on CCEW, CER audits, and AS/NZS standards.

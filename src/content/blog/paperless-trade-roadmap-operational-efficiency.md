@@ -33,7 +33,7 @@ This is the roadmap.
 Among Australian trade verticals, solar, battery, and electrical installation businesses carry the heaviest compliance documentation burden. Every installation involves:
 
 - CEC accreditation requirements and scope-of-work verification
-- AS/NZS standards compliance (AS/NZS 5033 for PV arrays, [AS/NZS 5139 for battery storage systems](/blog/as-nzs-5139-battery-storage-compliance))
+- AS/NZS standards compliance (AS/NZS 5033 for PV arrays, [AS/NZS 5139 for battery storage systems](/blog/as-nzs-5139-battery-storage-compliance/))
 - STC lodgement documentation for the Small-scale Renewable Energy Scheme
 - State-based Certificates of Electrical Safety or Compliance
 - Customer handover documentation
@@ -58,7 +58,7 @@ When a job is created in ServiceM8:
 - Nothing lives in isolation
 - The complete history is retrievable in seconds
 
-For a detailed look at how this works for solar specifically, see our [guide to digital job management for solar installers](/blog/digital-job-management-solar-installers).
+For a detailed look at how this works for solar specifically, see our [guide to digital job management for solar installers](/blog/digital-job-management-solar-installers/).
 
 **What to do at Stage 1:**
 - Choose your job management platform
@@ -82,7 +82,7 @@ For electricians, the equivalent forms include the CES template for your state, 
 
 In ServiceM8, you build these forms once. From that point on, every technician in your business uses the same form, in the same sequence, on every job. The system won't let them mark a job complete until the required forms are done.
 
-This is what [CER audit preparation](/blog/cer-audit-prep-solar-installers) looks like when done proactively rather than reactively.
+This is what [CER audit preparation](/blog/cer-audit-prep-solar-installers/) looks like when done proactively rather than reactively.
 
 **What to do at Stage 2:**
 - Map out every paper form you currently use for compliance
@@ -178,7 +178,7 @@ If the answers to these questions reveal gaps — and they almost always do — 
 
 **Not training the techs.** The platform is only as good as its adoption in the field. Techs who are used to paper need hands-on training, not just a link to a help article.
 
-**Choosing generic software.** Platforms built for general business use often lack the compliance document features that solar and electrical businesses need. The form builder, photo capture, and digital signature capabilities matter more than a slick UI. We've compared the leading options in our [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia).
+**Choosing generic software.** Platforms built for general business use often lack the compliance document features that solar and electrical businesses need. The form builder, photo capture, and digital signature capabilities matter more than a slick UI. We've compared the leading options in our [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/).
 
 ---
 
@@ -210,10 +210,10 @@ Not sure where your business stands? The first step is an honest assessment of y
 > [Download free →](/playbook)
 
 *Related reading:*
-- *[Why Solar Installers Are Switching to Digital Job Management](/blog/digital-job-management-solar-installers)*
-- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
-- *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
-- *[AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
-- *[Tap to Pay on iPhone for Australian Tradies: Get Paid on the Spot](/blog/tap-to-pay-iphone-tradies-australia)*
+- *[Why Solar Installers Are Switching to Digital Job Management](/blog/digital-job-management-solar-installers/)*
+- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers/)*
+- *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)*
+- *[AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)*
+- *[Tap to Pay on iPhone for Australian Tradies: Get Paid on the Spot](/blog/tap-to-pay-iphone-tradies-australia/)*

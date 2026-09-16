@@ -102,7 +102,7 @@ Victoria is rolling out flexible exports across its networks, and the timeline i
 - **AusNet** already offers flexible exports where the grid is constrained, with a **1.5–5kW per phase** range on single-phase (and **4.5–15kW** on three-phase) that varies with grid conditions.
 - The broader rollout spans the **2026–2031 regulatory period** across all networks.
 
-**What this means for installers:** for now, quote to the fixed 5kW limit. But design systems that are *flexible-exports-ready* — a **CSIP-AUS compliant, internet-connected inverter** (see our [CSIP-AUS explainer](/blog/csip-aus-export-limit-1-5kw-solar)) — so the customer can unlock the higher dynamic limit when their network flips it on. That's a genuine differentiator in your quote, especially for United Energy customers who can opt in today.
+**What this means for installers:** for now, quote to the fixed 5kW limit. But design systems that are *flexible-exports-ready* — a **CSIP-AUS compliant, internet-connected inverter** (see our [CSIP-AUS explainer](/blog/csip-aus-export-limit-1-5kw-solar/)) — so the customer can unlock the higher dynamic limit when their network flips it on. That's a genuine differentiator in your quote, especially for United Energy customers who can opt in today.
 
 Inverters must also meet **AS/NZS 4777.1:2024** (installation) and **AS/NZS 4777.2:2024** (inverter product requirements), and be on the Clean Energy Council's approved products list.
 
@@ -132,7 +132,7 @@ Victoria's compliance certificate is **not** the CCEW (that's NSW). It's the **C
 - ESV also governs **licensing and prescribed electrical work** for solar installers in Victoria.
 - Solar-specific work triggers prescribed electrical work requirements, including inverter and battery installations.
 
-See the full [CES Victoria guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026) for the lodgement process, and the [solar compliance checklist](/blog/solar-compliance-checklist-2026) for the complete documentation set.
+See the full [CES Victoria guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) for the lodgement process, and the [solar compliance checklist](/blog/solar-compliance-checklist-2026/) for the complete documentation set.
 
 ---
 
@@ -140,10 +140,10 @@ See the full [CES Victoria guide](/blog/certificate-electrical-safety-ces-victor
 
 Battery connections follow the same distributor framework as solar, plus the battery-specific compliance layer:
 
-- Battery installations must meet **AS/NZS 5139** — see the [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance).
+- Battery installations must meet **AS/NZS 5139** — see the [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance/).
 - Whether the battery inverter counts toward the phase inverter limit depends on the distributor — **United Energy excludes it; CitiPower, Powercor and Jemena include it** (see the table above — a real quoting difference).
-- STC eligibility for the solar component is governed by the **Clean Energy Regulator** under the **Renewable Energy (Electricity) Act 2000** — see the [STC claim process](/blog/stc-claim-process-solar-installers-australia).
-- Victoria also runs the **Solar Homes program**, which offers battery rebates for eligible customers — see the [VIC Solar Homes rebate guide](/blog/vic-solar-homes-program-rebate-2026) and the [state-by-state solar rebates guide](/blog/solar-rebates-australia-state-guide-2026).
+- STC eligibility for the solar component is governed by the **Clean Energy Regulator** under the **Renewable Energy (Electricity) Act 2000** — see the [STC claim process](/blog/stc-claim-process-solar-installers-australia/).
+- Victoria also runs the **Solar Homes program**, which offers battery rebates for eligible customers — see the [VIC Solar Homes rebate guide](/blog/vic-solar-homes-program-rebate-2026/) and the [state-by-state solar rebates guide](/blog/solar-rebates-australia-state-guide-2026/).
 
 ---
 
@@ -152,7 +152,7 @@ Battery connections follow the same distributor framework as solar, plus the bat
 EV chargers pull meaningful load and increasingly trigger distributor sign-off:
 
 - **Residential:** confirm the existing supply and switchboard can handle the additional load; smart chargers are generally preferred.
-- **Commercial:** load assessments and capacity upgrades usually apply — see the [commercial EV charging guide](/blog/commercial-ev-charging-installation-guide-electricians) and the [EV charger business case](/blog/ev-charger-installation-electricians-australia-2026).
+- **Commercial:** load assessments and capacity upgrades usually apply — see the [commercial EV charging guide](/blog/commercial-ev-charging-installation-guide-electricians/) and the [EV charger business case](/blog/ev-charger-installation-electricians-australia-2026/).
 - The same distributor portal manages new-load and connection enquiries.
 
 ---
@@ -201,7 +201,7 @@ A typical solar connection in ServiceM8 runs:
 
 **Lead → Site visit → Quote → Distributor application → Approval tracking → Install → Commission & register → CES → Invoice**
 
-ServiceM8 lets you attach the distributor approval, track the application against the job, store the CES and compliance photos, and fire the invoice the moment the job closes — so the paperwork doesn't lag the installation. See [ServiceM8 for solar installers](/blog/servicem8-for-solar-installers), and keep the [solar compliance checklist](/blog/solar-compliance-checklist-2026) and [CES Victoria guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026) close to hand.
+ServiceM8 lets you attach the distributor approval, track the application against the job, store the CES and compliance photos, and fire the invoice the moment the job closes — so the paperwork doesn't lag the installation. See [ServiceM8 for solar installers](/blog/servicem8-for-solar-installers/), and keep the [solar compliance checklist](/blog/solar-compliance-checklist-2026/) and [CES Victoria guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) close to hand.
 
 ---
 
@@ -217,7 +217,7 @@ ServiceM8 lets you attach the distributor approval, track the application agains
 
 Installing across the border? Each state has its own distributor framework, export limits and compliance certificate:
 
-- [SA Power Networks guide](/blog/sa-power-networks-solar-connection-guide-2026) — flexible exports mandatory since 1 Jul 2023
-- [NSW distributors guide](/blog/nsw-electricity-distributors-solar-connection-guide-2026) — three networks (Ausgrid, Endeavour, Essential), three export limits
-- [QLD Energex & Ergon guide](/blog/qld-energex-ergon-solar-connection-guide-2026) — dynamic connections on IEEE 2030.5 SEP2
-- [WA Western Power guide](/blog/wa-western-power-solar-connection-guide-2026) — isolated SWIS grid, 30kVA aggregate inverter rule
+- [SA Power Networks guide](/blog/sa-power-networks-solar-connection-guide-2026/) — flexible exports mandatory since 1 Jul 2023
+- [NSW distributors guide](/blog/nsw-electricity-distributors-solar-connection-guide-2026/) — three networks (Ausgrid, Endeavour, Essential), three export limits
+- [QLD Energex & Ergon guide](/blog/qld-energex-ergon-solar-connection-guide-2026/) — dynamic connections on IEEE 2030.5 SEP2
+- [WA Western Power guide](/blog/wa-western-power-solar-connection-guide-2026/) — isolated SWIS grid, 30kVA aggregate inverter rule

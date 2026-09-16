@@ -60,7 +60,7 @@ Cost: Training courses typically range from $500–$1,200. CEC application fees 
 
 Every battery installation in Australia must comply with AS/NZS 5139:2019 — Battery Energy Storage Systems. This is the standard that governs installation requirements, clearances, safety systems, and commissioning for residential and commercial battery systems.
 
-Our [complete AS/NZS 5139 guide](/blog/as-nzs-5139-battery-storage-compliance) covers every requirement in detail. The key compliance areas for residential installations:
+Our [complete AS/NZS 5139 guide](/blog/as-nzs-5139-battery-storage-compliance/) covers every requirement in detail. The key compliance areas for residential installations:
 
 ### Location and clearances
 
@@ -167,7 +167,7 @@ Customers who bought from you before already trust you. This campaign costs almo
 
 ### Tracking battery jobs separately
 
-In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate), set up battery installation as a distinct job type with its own compliance workflow — AS/NZS 5139 checklist, commissioning record, battery-specific CES details, and clearance photos. This ensures every battery job is documented to the same standard. See our guide to [digital job management for solar installers](/blog/digital-job-management-solar-installers) for the full workflow setup.
+In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate), set up battery installation as a distinct job type with its own compliance workflow — AS/NZS 5139 checklist, commissioning record, battery-specific CES details, and clearance photos. This ensures every battery job is documented to the same standard. See our guide to [digital job management for solar installers](/blog/digital-job-management-solar-installers/) for the full workflow setup.
 
 ---
 
@@ -199,19 +199,19 @@ Battery storage incentives vary by state and change frequently. Current relevant
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance)*
-- *[Battery Retrofit Installations: Adding Storage to Existing Solar Systems](/blog/battery-retrofit-installations-existing-solar)*
-- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
-- *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety)*
-- *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
-- *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses)*
-- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- *[SA Home Battery Scheme 2026: Eligibility, Loan & Installer Registration](/blog/sa-solar-battery-rebate-2026)*
-- *[VIC Solar Homes Battery Rebate 2026: Eligibility, Registration & Process](/blog/vic-solar-homes-program-rebate-2026)*
-- *[Heat Pump Hot Water for Electricians Australia: Circuits, Rebates & Sales Workflow](/blog/heat-pump-hot-water-installation-electricians-australia)*
-- *[Replacing Gas Hot Water with Heat Pump: Complete Guide Australia](/blog/replacing-gas-hot-water-electric-heat-pump)*
-- *[Solar Battery System Cost Australia 2026: Prices, Rebates & Payback Periods](/blog/solar-battery-system-cost-australia-2026)*
+- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance/)*
+- *[Battery Retrofit Installations: Adding Storage to Existing Solar Systems](/blog/battery-retrofit-installations-existing-solar/)*
+- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026/)*
+- *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety/)*
+- *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)*
+- *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses/)*
+- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- *[SA Home Battery Scheme 2026: Eligibility, Loan & Installer Registration](/blog/sa-solar-battery-rebate-2026/)*
+- *[VIC Solar Homes Battery Rebate 2026: Eligibility, Registration & Process](/blog/vic-solar-homes-program-rebate-2026/)*
+- *[Heat Pump Hot Water for Electricians Australia: Circuits, Rebates & Sales Workflow](/blog/heat-pump-hot-water-installation-electricians-australia/)*
+- *[Replacing Gas Hot Water with Heat Pump: Complete Guide Australia](/blog/replacing-gas-hot-water-electric-heat-pump/)*
+- *[Solar Battery System Cost Australia 2026: Prices, Rebates & Payback Periods](/blog/solar-battery-system-cost-australia-2026/)*
 
 ---
 

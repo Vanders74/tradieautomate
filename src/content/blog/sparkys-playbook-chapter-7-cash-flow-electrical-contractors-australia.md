@@ -254,11 +254,11 @@ Three actions that will have an immediate impact on your cash position:
 
 ## Related Reading
 
-- [Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia)
-- [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026)
-- [Xero vs MYOB for Australian Tradies 2026](/blog/xero-vs-myob-accounting-software-australian-tradies-2026)
-- [5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)
-- [How to Handle Negative Google Reviews — Tradie Guide](/blog/how-to-handle-negative-google-reviews-tradie)
+- [Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia/)
+- [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026/)
+- [Xero vs MYOB for Australian Tradies 2026](/blog/xero-vs-myob-accounting-software-australian-tradies-2026/)
+- [5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)
+- [How to Handle Negative Google Reviews — Tradie Guide](/blog/how-to-handle-negative-google-reviews-tradie/)
 
 ---
 

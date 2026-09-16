@@ -114,13 +114,13 @@ The out-of-pocket cost to the customer is significantly lower than the gross ins
 
 ### Victoria: Solar Homes Program battery rebate
 
-Up to $2,950 rebate applied at point of sale + optional interest-free loan up to $8,800. Solar Victoria-registered installers only. See the [VIC Solar Homes Program guide](/blog/vic-solar-homes-program-rebate-2026) for full detail.
+Up to $2,950 rebate applied at point of sale + optional interest-free loan up to $8,800. Solar Victoria-registered installers only. See the [VIC Solar Homes Program guide](/blog/vic-solar-homes-program-rebate-2026/) for full detail.
 
 **Effective customer cost after rebate (mid-range system):** $11,000–$17,000
 
 ### South Australia: Home Battery Scheme (HBS)
 
-Subsidised low-interest loan up to $10,000 for eligible SA homeowners. SA Home Battery Scheme-registered installers only. See the [SA solar battery rebate guide](/blog/sa-solar-battery-rebate-2026) for full detail.
+Subsidised low-interest loan up to $10,000 for eligible SA homeowners. SA Home Battery Scheme-registered installers only. See the [SA solar battery rebate guide](/blog/sa-solar-battery-rebate-2026/) for full detail.
 
 **Effective customer cost after loan subsidy:** Reduces interest cost over 5-year loan term — not an upfront rebate.
 
@@ -212,15 +212,15 @@ As of 2026, Queensland, NSW (outside of some low-income programs), and WA do not
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- *[SA Solar Battery Rebate 2026: Home Battery Scheme Eligibility & Application Guide](/blog/sa-solar-battery-rebate-2026)*
-- *[VIC Solar Homes Program Battery Rebate 2026: Eligibility, Registration & Process](/blog/vic-solar-homes-program-rebate-2026)*
-- *[Adding Battery Storage to Your Solar Business: The Complete Guide](/blog/adding-battery-storage-solar-business-australia)*
-- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance)*
-- *[Battery Retrofit Installations: Adding Storage to Existing Solar Systems](/blog/battery-retrofit-installations-existing-solar)*
-- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
-- *[EV Charger Installation Cost Australia 2026](/blog/ev-charger-installation-cost-australia-2026)*
-- *[Solar Installer Cash Flow Management Australia: Getting Paid Faster](/blog/solar-installer-cash-flow-management-australia)*
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
-- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+- *[SA Solar Battery Rebate 2026: Home Battery Scheme Eligibility & Application Guide](/blog/sa-solar-battery-rebate-2026/)*
+- *[VIC Solar Homes Program Battery Rebate 2026: Eligibility, Registration & Process](/blog/vic-solar-homes-program-rebate-2026/)*
+- *[Adding Battery Storage to Your Solar Business: The Complete Guide](/blog/adding-battery-storage-solar-business-australia/)*
+- *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance/)*
+- *[Battery Retrofit Installations: Adding Storage to Existing Solar Systems](/blog/battery-retrofit-installations-existing-solar/)*
+- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026/)*
+- *[EV Charger Installation Cost Australia 2026](/blog/ev-charger-installation-cost-australia-2026/)*
+- *[Solar Installer Cash Flow Management Australia: Getting Paid Faster](/blog/solar-installer-cash-flow-management-australia/)*
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)
+- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)

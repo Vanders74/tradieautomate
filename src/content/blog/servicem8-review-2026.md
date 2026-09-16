@@ -121,13 +121,13 @@ There are some add-ons that push costs higher — advanced scheduling, job costi
 
 For solar installers and electricians operating under strict regulatory requirements, ServiceM8's digital forms are exceptional. You can build custom compliance checklists, inspection reports, and certificate of compliance templates that field staff complete on-site via the app.
 
-The regulatory landscape for Australian electricians is demanding: under **NSW Fair Trading's CCEW framework** (*Home Building Act 1989* and *Electricity (Consumer Safety) Act 2004*), a Certificate of Compliance Electrical Work must be lodged within 7 days of job completion — with penalties up to $22,000 per offence for non-compliance. In Victoria, **Energy Safe Victoria requires CES lodgement within 30 days** under the *Electricity Safety Act 1998 (Vic)*. Nationally, Clean Energy Regulator audits under the *Renewable Energy (Electricity) Act 2000* require complete installation records including geo-tagged photos and test results. For installers, our [solar compliance checklist](/blog/solar-compliance-checklist-2026) maps every CER documentation requirement against what ServiceM8's forms capture automatically.
+The regulatory landscape for Australian electricians is demanding: under **NSW Fair Trading's CCEW framework** (*Home Building Act 1989* and *Electricity (Consumer Safety) Act 2004*), a Certificate of Compliance Electrical Work must be lodged within 7 days of job completion — with penalties up to $22,000 per offence for non-compliance. In Victoria, **Energy Safe Victoria requires CES lodgement within 30 days** under the *Electricity Safety Act 1998 (Vic)*. Nationally, Clean Energy Regulator audits under the *Renewable Energy (Electricity) Act 2000* require complete installation records including geo-tagged photos and test results. For installers, our [solar compliance checklist](/blog/solar-compliance-checklist-2026/) maps every CER documentation requirement against what ServiceM8's forms capture automatically.
 
 ServiceM8's digital job forms are built to capture all of this at the point of work — not in a Friday afternoon paperwork scramble.
 
 Photos attach directly to job records — not floating in someone's camera roll. Every site visit is timestamped and auditable. When Fair Trading NSW, Energy Safe Victoria, or the Clean Energy Regulator comes knocking, your documentation is already organised.
 
-Working with trades businesses preparing for CER audits, I've seen this shift firsthand: companies that previously spent two days pulling together paper records for a spot audit now do it in under two hours — because everything is tied to the job record automatically. See our [CER audit preparation guide](/blog/cer-audit-prep-solar-installers) for the full compliance workflow.
+Working with trades businesses preparing for CER audits, I've seen this shift firsthand: companies that previously spent two days pulling together paper records for a spot audit now do it in under two hours — because everything is tied to the job record automatically. See our [CER audit preparation guide](/blog/cer-audit-prep-solar-installers/) for the full compliance workflow.
 
 ### 2. Automatic Invoice Generation
 
@@ -167,7 +167,7 @@ The mobile apps are genuinely polished — one of the strongest in the category.
 
 How does ServiceM8 stack up against the other main players in the Australian market?
 
-| Feature | ServiceM8 | simPRO | [Tradify](/blog/tradify-review-2026-australia) | Fergus |
+| Feature | ServiceM8 | simPRO | [Tradify](/blog/tradify-review-2026-australia/) | Fergus |
 |---|---|---|---|---|
 | Starting price (AUD/mo) | ~$29 | ~$149 | ~$35/user | ~$49/user |
 | Per-user pricing | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes |
@@ -177,7 +177,7 @@ How does ServiceM8 stack up against the other main players in the Australian mar
 | Free trial | ✅ 14 days | ❌ Demo only | ✅ 14 days | ✅ 14 days |
 | Best for | SMB tradies | Enterprise | Sole traders | Job costing |
 
-For a deeper comparison, see our [ServiceM8 vs simPRO breakdown](/blog/servicem8-vs-simpro-comparison-australia) and [ServiceM8 vs Tradify comparison](/blog/servicem8-vs-tradify-comparison-australia).
+For a deeper comparison, see our [ServiceM8 vs simPRO breakdown](/blog/servicem8-vs-simpro-comparison-australia/) and [ServiceM8 vs Tradify comparison](/blog/servicem8-vs-tradify-comparison-australia/).
 
 ---
 
@@ -210,12 +210,12 @@ ServiceM8 is the strongest fit for:
 - **Solar and battery installers** — compliance documentation, CER audit readiness (under the *Renewable Energy (Electricity) Act 2000*), and certificate generation are built-in
 - **Electricians and plumbers** running residential and light commercial work — particularly those managing CCEW obligations under *Home Building Act 1989 (NSW)* or Certificate of Electrical Safety requirements under *Electricity Safety Act 1998 (Vic)*
 - **Growing trade businesses** (2–30 staff) that want to replace paper-based workflows
-- **HVAC and air-conditioning contractors** — [ServiceM8 for HVAC businesses](/blog/servicem8-for-hvac) covers job templates, maintenance schedules, and the AS/NZS 5149 refrigerant-compliance workflows specific to the trade
-- **Businesses chasing faster payments** — the [invoicing and payment processing workflow](/blog/servicem8-quoting-invoicing-workflow) is best-in-class
+- **HVAC and air-conditioning contractors** — [ServiceM8 for HVAC businesses](/blog/servicem8-for-hvac/) covers job templates, maintenance schedules, and the AS/NZS 5149 refrigerant-compliance workflows specific to the trade
+- **Businesses chasing faster payments** — the [invoicing and payment processing workflow](/blog/servicem8-quoting-invoicing-workflow/) is best-in-class
 - **Owner-operators** who want to stop losing time to admin without hiring a dedicated admin person
 
 > 📊 **Not sure if job management software is worth it for your business?**
-> Use our free [Tradie Admin Cost Calculator](/tools/admin-cost-calculator) to see exactly how much your current admin overhead is costing you per year — takes 60 seconds. Already running ServiceM8? See [how digital job management cuts admin costs](/blog/hidden-admin-cost-calculator) with real numbers.
+> Use our free [Tradie Admin Cost Calculator](/tools/admin-cost-calculator) to see exactly how much your current admin overhead is costing you per year — takes 60 seconds. Already running ServiceM8? See [how digital job management cuts admin costs](/blog/hidden-admin-cost-calculator/) with real numbers.
 
 It's less suitable for:
 - Large commercial or civil contractors with complex project accounting needs
@@ -304,7 +304,7 @@ Yes — all of these refer to the same platform. The official brand name is *Ser
 ### What are the main limitations of ServiceM8?
 ServiceM8 is not well-suited for large businesses (20+ field staff) with complex project management, multi-stage billing, or detailed cost tracking at a project level. It lacks native gantt-chart scheduling, doesn't handle retention billing natively, and its reporting suite is less powerful than simPRO or AroFlo. For a business doing large commercial solar projects with multiple milestones and subcontractor management, a platform like simPRO is worth evaluating despite the higher cost and complexity.
 
-### [How much does ServiceM8 cost](/blog/servicem8-pricing-plans-australia-2026) in Australia in 2026?
+### [How much does ServiceM8 cost](/blog/servicem8-pricing-plans-australia-2026/) in Australia in 2026?
 ServiceM8 is priced in AUD for Australian businesses. Plans start at $29/month (Starter, 50 jobs/month) and scale to Premium Plus at $349/month for 1,500+ jobs. The most popular plan for small electrical and solar businesses is Growing at $79/month, covering 150 jobs/month with unlimited staff. There is a free 14-day trial with no credit card required.
 
 ### Does ServiceM8 work for solar compliance documentation?
@@ -338,13 +338,13 @@ Yes — ServiceM8 offers a 14-day free trial with no credit card required. You g
 ---
 
 *Related reading:*
-- *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers)*
-- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
-- *[ServiceM8 for Plumbers: Run a Tighter Plumbing Business With Less Admin](/blog/servicem8-for-plumbers)*
-- *[ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia)*
-- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[How to Sell Your ServiceM8-Based Trade Business for Maximum Value](/blog/sell-servicem8-trade-business-value)*
+- *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers/)*
+- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians/)*
+- *[ServiceM8 for Plumbers: Run a Tighter Plumbing Business With Less Admin](/blog/servicem8-for-plumbers/)*
+- *[ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia/)*
+- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[How to Sell Your ServiceM8-Based Trade Business for Maximum Value](/blog/sell-servicem8-trade-business-value/)*
 
 <script>
 (function(){

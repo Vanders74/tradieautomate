@@ -92,7 +92,7 @@ Research in the home services sector consistently shows that businesses that sen
 
 With a job management platform like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate), you can generate and send a quote from the job record on your phone within minutes of leaving the site. You don't need to be back at a computer. You don't need to wait for the office to process the information.
 
-For more on how digital job management enables faster quoting, see our [guide to operational efficiency for solar businesses](/blog/paperless-trade-roadmap-operational-efficiency).
+For more on how digital job management enables faster quoting, see our [guide to operational efficiency for solar businesses](/blog/paperless-trade-roadmap-operational-efficiency/).
 
 ### 2. Follow-Up Frequency and Quality
 
@@ -100,7 +100,7 @@ A quote without a follow-up strategy is a quote without a conversion strategy.
 
 Most Australian solar businesses follow up once — usually a week after the quote is sent. This is not enough. Research in solar sales shows that the majority of conversions happen after the third or fourth meaningful contact.
 
-A systematic follow-up sequence — email at day 2, SMS at day 4, educational email at day 7, case study at day 10, final check-in at day 14 — converts significantly more quotes than a single follow-up. We've covered this framework in detail in our piece on [hidden profit costs for solar installers](/blog/hidden-costs-killing-profit-solar-electrician).
+A systematic follow-up sequence — email at day 2, SMS at day 4, educational email at day 7, case study at day 10, final check-in at day 14 — converts significantly more quotes than a single follow-up. We've covered this framework in detail in our piece on [hidden profit costs for solar installers](/blog/hidden-costs-killing-profit-solar-electrician/).
 
 ### 3. Social Proof and Trust Signals
 
@@ -108,7 +108,7 @@ For a residential solar customer making a $12,000 decision, trust is a significa
 
 Including Google review scores, testimonials from similar customers, and CEC accreditation documentation in your quote builds trust in a way that price alone cannot. Solar businesses with 4.8+ star Google profiles and a clear social proof strategy consistently out-convert competitors on similar pricing.
 
-Automated review collection — asking every completed customer for a review through your job management platform — is how you build this social proof at scale rather than relying on the occasional voluntary reviewer. Our full guide to [getting 5-star Google reviews as a tradie](/blog/google-reviews-five-star-tradie-guide) covers the strategy and implementation.
+Automated review collection — asking every completed customer for a review through your job management platform — is how you build this social proof at scale rather than relying on the occasional voluntary reviewer. Our full guide to [getting 5-star Google reviews as a tradie](/blog/google-reviews-five-star-tradie-guide/) covers the strategy and implementation.
 
 ### 4. Clarity of the Proposal
 
@@ -140,7 +140,7 @@ The businesses that win the most quotes aren't always the cheapest. They're the 
 
 A solar installer with 200 Google reviews at 4.9 stars closes more quotes at the same price than a competitor with 12 reviews at 4.2 stars. Every completed customer represents a review opportunity. The businesses that ask systematically — through an automated post-job review request — build this advantage faster than anyone who relies on manual asking.
 
-Our full guide to [getting 5-star Google reviews as a solar or electrical tradie](/blog/google-reviews-five-star-tradie-guide) covers exactly how to set this up.
+Our full guide to [getting 5-star Google reviews as a solar or electrical tradie](/blog/google-reviews-five-star-tradie-guide/) covers exactly how to set this up.
 
 ---
 
@@ -159,9 +159,9 @@ But the channel matters less than the speed, the follow-up discipline, and the s
 > [Download free →](/playbook)
 
 *Related reading:*
-- *[The Paperless Trade Roadmap: Eliminating Admin Chaos](/blog/paperless-trade-roadmap-operational-efficiency)*
-- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
-- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
-- *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)*
-- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
+- *[The Paperless Trade Roadmap: Eliminating Admin Chaos](/blog/paperless-trade-roadmap-operational-efficiency/)*
+- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)*
+- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers/)*
+- *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers/)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*

@@ -159,11 +159,11 @@ If you're evaluating AroFlo, ask yourself: do you currently have 20+ assets unde
 
 ## Related Reading
 
-- [ServiceM8 vs AroFlo — Which Is Better for Australian Trades?](/blog/servicem8-vs-aroflo)
-- [Electrical Job Management Software Australia 2026 — Buyer's Guide](/blog/electrical-job-management-software-buyers-guide-australia)
-- [simPRO Review 2026 — Is It Worth It for Australian Trades?](/blog/simpro-review-2026-australia)
-- [ServiceM8 Pricing 2026 — Plans and Real Costs](/blog/servicem8-pricing-plans-australia-2026)
-- [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)
+- [ServiceM8 vs AroFlo — Which Is Better for Australian Trades?](/blog/servicem8-vs-aroflo/)
+- [Electrical Job Management Software Australia 2026 — Buyer's Guide](/blog/electrical-job-management-software-buyers-guide-australia/)
+- [simPRO Review 2026 — Is It Worth It for Australian Trades?](/blog/simpro-review-2026-australia/)
+- [ServiceM8 Pricing 2026 — Plans and Real Costs](/blog/servicem8-pricing-plans-australia-2026/)
+- [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia/)
 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)

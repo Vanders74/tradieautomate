@@ -14,7 +14,7 @@ The award that covers most electricians working in installation and maintenance 
 
 This guide covers the current rates, the classification structure, key allowances, and what you need to know about employing electricians in a solar or electrical business in 2026.
 
-> **💰 Getting payroll right:** [ServiceM8 syncs job data to Xero — see the full review for electrical contractors](/blog/servicem8-review-2026).
+> **💰 Getting payroll right:** [ServiceM8 syncs job data to Xero — see the full review for electrical contractors](/blog/servicem8-review-2026/).
 
 ---
 
@@ -282,7 +282,7 @@ Overtime applies when an employee works outside their ordinary hours (generally 
 
 **Public holidays:** Double time and a half (2.5x) for all hours worked
 
-For a solar installation business doing peak-season work with long days, overtime costs can add substantially to labour costs. Factor this into your pricing model — see our [solar installation pricing guide](/blog/how-to-price-solar-installations-australia-2026) for a full cost model.
+For a solar installation business doing peak-season work with long days, overtime costs can add substantially to labour costs. Factor this into your pricing model — see our [solar installation pricing guide](/blog/how-to-price-solar-installations-australia-2026/) for a full cost model.
 
 ---
 
@@ -330,7 +330,7 @@ At 1,820 billable hours per year (38 hrs/wk at 95% utilisation), that's **$61–
 
 This is why pricing discipline matters. Every solar job that doesn't fully recover labour at this rate is unprofitable — even if it looks like you charged a reasonable price.
 
-For building the full pricing model, see our [hidden costs guide](/blog/hidden-costs-killing-profit-solar-electrician) and [solar installation pricing guide](/blog/how-to-price-solar-installations-australia-2026).
+For building the full pricing model, see our [hidden costs guide](/blog/hidden-costs-killing-profit-solar-electrician/) and [solar installation pricing guide](/blog/how-to-price-solar-installations-australia-2026/).
 
 ---
 
@@ -500,7 +500,7 @@ Use the calculator below to work out the exact minimum pay for an electrical emp
 
 ## Setting Up Payroll Correctly in Xero
 
-If you're using Xero Payroll, the Electrical Award allowances don't calculate automatically — they must be set up as custom pay items. This includes the industry allowance, tool allowance, height allowance, and confined space allowance. See our step-by-step guide to [setting up Electrical Award allowances in Xero Payroll](/blog/xero-payroll-electrical-award-allowances) for the complete setup process.
+If you're using Xero Payroll, the Electrical Award allowances don't calculate automatically — they must be set up as custom pay items. This includes the industry allowance, tool allowance, height allowance, and confined space allowance. See our step-by-step guide to [setting up Electrical Award allowances in Xero Payroll](/blog/xero-payroll-electrical-award-allowances/) for the complete setup process.
 
 Key steps:
 - Create separate pay items for each allowance type with correct PAYG and super treatment
@@ -552,15 +552,15 @@ Yes. Apprentices must have a formal training contract (apprenticeship agreement)
 
 ## Related Reading
 
-- *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
-- *[Electrical Contractor Insurance Cost 2026: $600–$2,500/yr](/blog/electrical-contractor-insurance-australia-2026)*
-- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
-- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
-- *[The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)*
-- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity)
-- *[Apprentice Ratios & Hiring Incentives for Electricians Australia 2026](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026)*
-- *[Xero vs MYOB for Australian Trade Businesses 2026](/blog/xero-vs-myob-accounting-software-australian-tradies-2026)*
+- *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth/)*
+- *[Electrical Contractor Insurance Cost 2026: $600–$2,500/yr](/blog/electrical-contractor-insurance-australia-2026/)*
+- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)*
+- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026/)*
+- *[The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency/)*
+- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians/)*
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity/)
+- *[Apprentice Ratios & Hiring Incentives for Electricians Australia 2026](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026/)*
+- *[Xero vs MYOB for Australian Trade Businesses 2026](/blog/xero-vs-myob-accounting-software-australian-tradies-2026/)*
 - *Got a pay question? [Ask Tradie Brain AI](/tools/tradie-brain) — free, no login. Instant answers on award rates, hiring, and payroll.*

@@ -121,7 +121,7 @@ This communication happens without anyone in the office making manual calls. For
 
 ## Pricing
 
-[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026) is per-job:
+[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026/) is per-job:
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
@@ -146,7 +146,7 @@ Builders who are already running digital operations on platforms like ServiceM8 
 - Predictive scheduling based on job history
 - Automated subcontractor coordination messaging
 
-See our [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia) for a full breakdown of what's practical today versus what's still emerging for trade businesses.
+See our [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/) for a full breakdown of what's practical today versus what's still emerging for trade businesses.
 
 ---
 
@@ -186,13 +186,13 @@ For larger, more complex construction project management, you may need additiona
 > [Download free →](/playbook)
 
 *Related reading:*
-- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
-- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
-- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
-- *[ServiceM8 for Painters: Quote Faster, Invoice Sooner, Chase Less](/blog/servicem8-for-painters)*
-- *[ServiceM8 for Roofing Contractors: Manage Jobs, Quotes, and Compliance From the Field](/blog/servicem8-for-roofing)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)*
+- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)*
+- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)*
+- *[ServiceM8 for Painters: Quote Faster, Invoice Sooner, Chase Less](/blog/servicem8-for-painters/)*
+- *[ServiceM8 for Roofing Contractors: Manage Jobs, Quotes, and Compliance From the Field](/blog/servicem8-for-roofing/)*
 ---
 
 ## FAQ

@@ -192,7 +192,7 @@ This is a genuine competitive differentiator against non-accredited competitors 
 
 ### Documentation workflows
 
-The biggest time cost in VEU participation is evidence management. Set up a consistent photo capture and documentation workflow for every eligible job — the same way you'd set up a CCEW or Certificate of Electrical Safety workflow. Using a job management platform like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) lets technicians capture evidence photos directly against the job record on-site, with timestamp and geolocation data that satisfies most ESC evidence requirements. See our [digital job management guide for solar installers](/blog/digital-job-management-solar-installers) for the broader compliance documentation workflow.
+The biggest time cost in VEU participation is evidence management. Set up a consistent photo capture and documentation workflow for every eligible job — the same way you'd set up a CCEW or Certificate of Electrical Safety workflow. Using a job management platform like [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) lets technicians capture evidence photos directly against the job record on-site, with timestamp and geolocation data that satisfies most ESC evidence requirements. See our [digital job management guide for solar installers](/blog/digital-job-management-solar-installers/) for the broader compliance documentation workflow.
 
 ### Volume requirements for direct accreditation
 
@@ -219,14 +219,14 @@ The ESC's accreditation process requires ongoing compliance — including audits
 
 ## Related Reading
 
-- [Replacing Gas Hot Water with Heat Pump: Complete Guide Australia](/blog/replacing-gas-hot-water-electric-heat-pump)
-- [Heat Pump Hot Water Installation for Electricians](/blog/heat-pump-hot-water-installation-electricians-australia)
-- [VIC Solar Homes Battery Rebate 2026](/blog/vic-solar-homes-program-rebate-2026)
-- [STC Claim Process for Solar Installers](/blog/stc-claim-process-solar-installers-australia)
-- [Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers)
-- [CER Audit Preparation for Solar Installers](/blog/cer-audit-prep-solar-installers)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+- [Replacing Gas Hot Water with Heat Pump: Complete Guide Australia](/blog/replacing-gas-hot-water-electric-heat-pump/)
+- [Heat Pump Hot Water Installation for Electricians](/blog/heat-pump-hot-water-installation-electricians-australia/)
+- [VIC Solar Homes Battery Rebate 2026](/blog/vic-solar-homes-program-rebate-2026/)
+- [STC Claim Process for Solar Installers](/blog/stc-claim-process-solar-installers-australia/)
+- [Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers/)
+- [CER Audit Preparation for Solar Installers](/blog/cer-audit-prep-solar-installers/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)
 
 ---
 

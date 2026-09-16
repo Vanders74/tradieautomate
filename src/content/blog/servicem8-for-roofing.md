@@ -136,7 +136,7 @@ Roofing invoicing involves some complexity that ServiceM8 handles well:
 
 ## Pricing
 
-[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026) is per-job, not per-user:
+[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026/) is per-job, not per-user:
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|
@@ -171,7 +171,7 @@ For a roofing business handling 30–60 jobs per month across 2 crews, the Start
 - Train crew leaders on mobile app (typically 1–2 hours)
 - Refine templates based on real-world feedback
 
-For a broader view of job management options for Australian trades, see our [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026). For guidance on using AI automation to further streamline your roofing business, see our [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia).
+For a broader view of job management options for Australian trades, see our [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/). For guidance on using AI automation to further streamline your roofing business, see our [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/).
 
 ---
 
@@ -210,9 +210,9 @@ The ServiceM8 mobile app has offline functionality. Roofers can create job recor
 > [Download free →](/playbook)
 
 *Related reading:*
-- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
-- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia)*
-- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)*
-- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)*
+- *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia/)*
+- *[AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)*
+- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)*

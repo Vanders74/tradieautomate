@@ -296,11 +296,11 @@ These numbers are based on a 5-person electrical contracting business doing 20�
 
 ## What to Do Next
 
-Once your email automation workflows are running, the next leverage point is broader business automation — AI-powered phone answering, automated scheduling, and compliance documentation workflows. See our guide on [AI Automation for Australian Trade Businesses](/blog/ai-automation-trade-business-australia) for the full 2026 playbook.
+Once your email automation workflows are running, the next leverage point is broader business automation — AI-powered phone answering, automated scheduling, and compliance documentation workflows. See our guide on [AI Automation for Australian Trade Businesses](/blog/ai-automation-trade-business-australia/) for the full 2026 playbook.
 
-If you haven't quantified your current admin drain yet, run the numbers through the [Hidden Admin Cost Calculator](/blog/hidden-admin-cost-calculator) — most trade business owners are shocked by what their paperwork is actually costing them.
+If you haven't quantified your current admin drain yet, run the numbers through the [Hidden Admin Cost Calculator](/blog/hidden-admin-cost-calculator/) — most trade business owners are shocked by what their paperwork is actually costing them.
 
-And if you're evaluating whether ServiceM8 is the right platform to underpin your automated workflows, read our [ServiceM8 Review 2026](/blog/servicem8-review-2026) for a detailed breakdown of what the platform handles natively versus what needs third-party tools.
+And if you're evaluating whether ServiceM8 is the right platform to underpin your automated workflows, read our [ServiceM8 Review 2026](/blog/servicem8-review-2026/) for a detailed breakdown of what the platform handles natively versus what needs third-party tools.
 
 ---
 

@@ -172,19 +172,19 @@ On a $500,000 EBITDA business, that's the difference between a $750,000 sale and
 
 ## What "Automated" Actually Looks Like
 
-Reducing admin overhead doesn't require hiring staff. It requires removing the manual handoffs from your workflow. Here's what the key transitions look like in practice on a platform like [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026):
+Reducing admin overhead doesn't require hiring staff. It requires removing the manual handoffs from your workflow. Here's what the key transitions look like in practice on a platform like [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/):
 
 **Quoting:** Technicians build quotes on-site from a pre-configured parts and labour library on their phone. The quote is sent to the customer as a PDF within minutes of the site assessment. No typing up notes at 9pm. No quote that gets delayed because the office was busy.
 
-**Compliance documentation:** Forms, photos, checklists, and compliance certificates are completed at the job site on a tablet before the technician leaves. The compliance record is attached to the job automatically. [CCEW lodgement in NSW](/blog/ccew-nsw-electrical-compliance-guide-2026), CES certificates in Victoria, AS/NZS 5139 battery sign-offs — all captured as part of the job closeout workflow.
+**Compliance documentation:** Forms, photos, checklists, and compliance certificates are completed at the job site on a tablet before the technician leaves. The compliance record is attached to the job automatically. [CCEW lodgement in NSW](/blog/ccew-nsw-electrical-compliance-guide-2026/), CES certificates in Victoria, AS/NZS 5139 battery sign-offs — all captured as part of the job closeout workflow.
 
 **Invoicing:** Invoices are generated from the job record — materials logged on-site, labour time tracked automatically, variations added during the job. The invoice is sent when the job is closed, not when someone remembers to type it up.
 
-**Payments:** With [Tap to Pay on iPhone](/blog/tap-to-pay-iphone-tradies-australia), technicians collect payment on-site via their phone before leaving the driveway. No invoice cycle, no 19-day average wait, no Friday afternoon phone calls.
+**Payments:** With [Tap to Pay on iPhone](/blog/tap-to-pay-iphone-tradies-australia/), technicians collect payment on-site via their phone before leaving the driveway. No invoice cycle, no 19-day average wait, no Friday afternoon phone calls.
 
 **Reviews:** A follow-up SMS goes to every completed customer, automatically, asking for a Google review. Not when someone remembers — every time, without exception.
 
-**Email follow-ups:** Automated quote follow-ups, payment reminders, and win-back sequences fire without a human touching them — see the [email automation playbook for tradies](/blog/email-automation-for-tradies-2026).
+**Email follow-ups:** Automated quote follow-ups, payment reminders, and win-back sequences fire without a human touching them — see the [email automation playbook for tradies](/blog/email-automation-for-tradies-2026/).
 
 ---
 
@@ -238,7 +238,7 @@ Possibly, or you may already have some level of automation in place. The most co
 
 **What's the best way to reduce admin in a solar or electrical business?**
 
-A dedicated field service management platform (ServiceM8, [Tradify](/blog/tradify-review-2026-australia), Fergus, or similar) is the highest-leverage starting point. The goal is to move every admin step — quoting, invoicing, compliance docs, scheduling, customer comms — into the same system, so data flows automatically from field to office without manual re-entry. See our [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia) for a detailed breakdown.
+A dedicated field service management platform (ServiceM8, [Tradify](/blog/tradify-review-2026-australia/), Fergus, or similar) is the highest-leverage starting point. The goal is to move every admin step — quoting, invoicing, compliance docs, scheduling, customer comms — into the same system, so data flows automatically from field to office without manual re-entry. See our [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/) for a detailed breakdown.
 
 **Is this only relevant for businesses with employees?**
 
@@ -250,7 +250,7 @@ No. Sole traders are often proportionally more affected than multi-person busine
 
 Fixing the admin leak doesn't require hiring staff. Moving to cloud-based job management bridges the field-to-office gap without adding headcount.
 
-[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026) starts at **$29/month AUD** for a small trade business.
+[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026/) starts at **$29/month AUD** for a small trade business.
 
 If your current admin overhead is $60,000/year and software cuts it by 60%, you're saving **$36,000 annually**. The software costs $948/year. Net saving: **~$35,052/year.**
 
@@ -276,12 +276,12 @@ If the calculator above surprised you, the free trial is the fastest way to see 
 
 ## Related Guides
 
-- [The Paperless Trade Roadmap: Step-by-Step Automation for Solar and Electrical](/blog/paperless-trade-roadmap-operational-efficiency)
-- [5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)
-- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [Tap to Pay on iPhone for Tradies](/blog/tap-to-pay-iphone-tradies-australia)
-- [How to Scale a Solar or Electrical Business Without Burning Out](/blog/scaling-solar-electrical-business-hiring-growth)
+- [The Paperless Trade Roadmap: Step-by-Step Automation for Solar and Electrical](/blog/paperless-trade-roadmap-operational-efficiency/)
+- [5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)
+- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [Tap to Pay on iPhone for Tradies](/blog/tap-to-pay-iphone-tradies-australia/)
+- [How to Scale a Solar or Electrical Business Without Burning Out](/blog/scaling-solar-electrical-business-hiring-growth/)
 
 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
@@ -289,4 +289,4 @@ If the calculator above surprised you, the free trial is the fastest way to see 
 
 ## Related Reading
 
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)

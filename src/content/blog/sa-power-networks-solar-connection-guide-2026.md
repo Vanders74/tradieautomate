@@ -92,7 +92,7 @@ Inverters must also meet the grid-connection standards: **AS/NZS 4777.1:2024** (
 
 **Flexible Exports has been mandatory for new installs since 1 July 2023.** Under the South Australian Government's Dynamic Export Requirements, every new exporting system must be capable of receiving and responding to remote export-limit commands. In practical terms that means:
 
-- A **CSIP-AUS-compliant, internet-connected inverter** (see our [CSIP-AUS and the 1.5kW export limit explainer](/blog/csip-aus-export-limit-1-5kw-solar))
+- A **CSIP-AUS-compliant, internet-connected inverter** (see our [CSIP-AUS and the 1.5kW export limit explainer](/blog/csip-aus-export-limit-1-5kw-solar/))
 - Correct commissioning and device registration through the inverter manufacturer's app
 - Site-wide export control, so any legacy inverters are also brought under the limit
 
@@ -109,10 +109,10 @@ If the inverter loses its internet connection, the system keeps generating but r
 
 Adding a battery to a South Australian solar job brings its own connection and compliance layer — but it also makes flexible exports more valuable, because surplus energy that can't be exported can charge the battery instead of being curtailed.
 
-- Battery installations must meet **AS/NZS 5139** (electrical installation safety requirements for battery systems) — see our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance).
+- Battery installations must meet **AS/NZS 5139** (electrical installation safety requirements for battery systems) — see our [AS/NZS 5139 compliance guide](/blog/as-nzs-5139-battery-storage-compliance/).
 - The battery is commissioned alongside the solar inverter to SAPN's requirements.
 - STC eligibility for the solar component is governed by the **Clean Energy Regulator** under the **Renewable Energy (Electricity) Act 2000**.
-- South Australia also has a state battery rebate — see [SA solar battery rebate 2026](/blog/sa-solar-battery-rebate-2026), [what a battery really costs](/blog/solar-battery-system-cost-australia-2026) and the [state-by-state solar rebates guide](/blog/solar-rebates-australia-state-guide-2026).
+- South Australia also has a state battery rebate — see [SA solar battery rebate 2026](/blog/sa-solar-battery-rebate-2026/), [what a battery really costs](/blog/solar-battery-system-cost-australia-2026/) and the [state-by-state solar rebates guide](/blog/solar-rebates-australia-state-guide-2026/).
 
 ---
 
@@ -121,7 +121,7 @@ Adding a battery to a South Australian solar job brings its own connection and c
 EV chargers increasingly trigger their own network considerations, especially as larger home and commercial chargers pull meaningful load.
 
 - **Residential chargers:** confirm the existing supply and switchboard can handle the additional load; smart (internet-connected) chargers are generally preferred for network visibility.
-- **Commercial charging:** load assessments and capacity upgrades often apply — see our [commercial EV charging guide](/blog/commercial-ev-charging-installation-guide-electricians) and the [EV charger business case](/blog/ev-charger-installation-electricians-australia-2026).
+- **Commercial charging:** load assessments and capacity upgrades often apply — see our [commercial EV charging guide](/blog/commercial-ev-charging-installation-guide-electricians/) and the [EV charger business case](/blog/ev-charger-installation-electricians-australia-2026/).
 - The same SAPN Portal is used to manage new loads and connection enquiries.
 
 ---
@@ -175,7 +175,7 @@ A typical solar connection in ServiceM8 runs:
 
 **Lead → Site visit → Quote → SAPN application → Approval tracking → Install → Commission & device registration → eCoC → Invoice**
 
-ServiceM8 lets you attach the SAPN approval, track the application status against the job, store the eCoC and compliance photos, and fire the invoice the moment the job closes out — so the paperwork doesn't lag the installation. See [ServiceM8 for solar installers](/blog/servicem8-for-solar-installers) for the full workflow, and keep the [solar compliance checklist](/blog/solar-compliance-checklist-2026) and [STC claim process](/blog/stc-claim-process-solar-installers-australia) close to hand.
+ServiceM8 lets you attach the SAPN approval, track the application status against the job, store the eCoC and compliance photos, and fire the invoice the moment the job closes out — so the paperwork doesn't lag the installation. See [ServiceM8 for solar installers](/blog/servicem8-for-solar-installers/) for the full workflow, and keep the [solar compliance checklist](/blog/solar-compliance-checklist-2026/) and [STC claim process](/blog/stc-claim-process-solar-installers-australia/) close to hand.
 
 ---
 
@@ -191,7 +191,7 @@ ServiceM8 lets you attach the SAPN approval, track the application status agains
 
 Installing across the border? Each state has its own distributor framework, export limits and compliance certificate:
 
-- [NSW distributors guide](/blog/nsw-electricity-distributors-solar-connection-guide-2026) — three networks (Ausgrid, Endeavour, Essential), three export limits
-- [QLD Energex & Ergon guide](/blog/qld-energex-ergon-solar-connection-guide-2026) — dynamic connections on IEEE 2030.5 SEP2
-- [WA Western Power guide](/blog/wa-western-power-solar-connection-guide-2026) — isolated SWIS grid, 30kVA aggregate inverter rule
-- [VIC distributors guide](/blog/vic-solar-connection-guide-2026) — five networks, uniform 5kW limit
+- [NSW distributors guide](/blog/nsw-electricity-distributors-solar-connection-guide-2026/) — three networks (Ausgrid, Endeavour, Essential), three export limits
+- [QLD Energex & Ergon guide](/blog/qld-energex-ergon-solar-connection-guide-2026/) — dynamic connections on IEEE 2030.5 SEP2
+- [WA Western Power guide](/blog/wa-western-power-solar-connection-guide-2026/) — isolated SWIS grid, 30kVA aggregate inverter rule
+- [VIC distributors guide](/blog/vic-solar-connection-guide-2026/) — five networks, uniform 5kW limit

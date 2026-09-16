@@ -61,7 +61,7 @@ When a breakdown call comes in for a client you serviced last year, the technici
 
 **Refrigerant compliance.** Australia's refrigerant handling regulations require documentation of refrigerant recovered, added, and disposed of for each applicable job. ServiceM8 allows this to be captured as part of the job record, creating an auditable trail without additional paperwork.
 
-**Pricing for a 3-man team.** [ServiceM8's pricing](/blog/servicem8-pricing-plans-australia-2026) is based on a monthly subscription with per-staff pricing. For a 3-technician operation, the all-in cost including Asset Management typically runs $150–$250/month AUD. Simpro enterprise pricing for the same team size is typically $350–$600/month, plus the significant implementation cost upfront.
+**Pricing for a 3-man team.** [ServiceM8's pricing](/blog/servicem8-pricing-plans-australia-2026/) is based on a monthly subscription with per-staff pricing. For a 3-technician operation, the all-in cost including Asset Management typically runs $150–$250/month AUD. Simpro enterprise pricing for the same team size is typically $350–$600/month, plus the significant implementation cost upfront.
 
 ---
 
@@ -168,10 +168,10 @@ For a 3-technician operation doing residential and light commercial HVAC, the Se
 
 ## Related Reading
 
-- [ServiceM8 vs Simpro (Full Comparison)](/blog/servicem8-vs-simpro-comparison-australia)
-- [ServiceM8 for HVAC Businesses](/blog/servicem8-for-hvac)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)
-- [The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+- [ServiceM8 vs Simpro (Full Comparison)](/blog/servicem8-vs-simpro-comparison-australia/)
+- [ServiceM8 for HVAC Businesses](/blog/servicem8-for-hvac/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/)
+- [The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency/)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)

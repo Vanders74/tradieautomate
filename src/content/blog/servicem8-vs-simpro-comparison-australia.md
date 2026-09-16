@@ -56,7 +56,7 @@ Quick note before we dive in: if you searched for "Service M 8 vs simPRO" or "Se
 
 ### ServiceM8
 
-[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026) starts at around **$29/month AUD** for the Starter plan and scales with the number of staff and features. Their pricing model is transparent and designed for businesses that don't want a surprise invoice from their software vendor.
+[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026/) starts at around **$29/month AUD** for the Starter plan and scales with the number of staff and features. Their pricing model is transparent and designed for businesses that don't want a surprise invoice from their software vendor.
 
 Key points:
 - No lock-in contracts on most plans
@@ -111,7 +111,7 @@ ServiceM8 has built-in features that directly address the compliance and workflo
 - **Automated follow-ups** — Post-job review requests and maintenance reminders
 - **Xero and MYOB integration** — Clean two-way sync so your accounts stay current
 
-For solar installers managing CER audits, having photos, checklists, and signed documentation attached to every job record is invaluable. We've covered this in depth in our guide to [ServiceM8 for Solar Installers](/blog/servicem8-for-solar-installers).
+For solar installers managing CER audits, having photos, checklists, and signed documentation attached to every job record is invaluable. We've covered this in depth in our guide to [ServiceM8 for Solar Installers](/blog/servicem8-for-solar-installers/).
 
 ### simPRO
 
@@ -131,7 +131,7 @@ If you're running commercial solar projects worth $500K+, with multiple subcontr
 
 ## Compliance and Documentation
 
-For Australian solar installers evaluating ServiceM8 vs simPRO, compliance documentation isn't optional — it's the difference between passing a CER audit and losing your accreditation. See our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026) for a full breakdown of what's required.
+For Australian solar installers evaluating ServiceM8 vs simPRO, compliance documentation isn't optional — it's the difference between passing a CER audit and losing your accreditation. See our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/) for a full breakdown of what's required.
 
 ### ServiceM8
 
@@ -139,7 +139,7 @@ ServiceM8's custom forms are purpose-built for this kind of work. You can create
 
 When the Clean Energy Regulator asks for installation documentation from 18 months ago, you pull it up in seconds. That's the ServiceM8 advantage for compliance-heavy trades.
 
-The platform also integrates well with the [AS/NZS 5139 battery storage compliance](/blog/as-nzs-5139-battery-storage-compliance) requirements — technicians can complete battery storage documentation on-site using custom forms.
+The platform also integrates well with the [AS/NZS 5139 battery storage compliance](/blog/as-nzs-5139-battery-storage-compliance/) requirements — technicians can complete battery storage documentation on-site using custom forms.
 
 Working with solar installation businesses preparing for CER spot audits, I've seen the difference firsthand. A business with properly configured ServiceM8 job templates can produce a full audit package — photos, checklists, signed handover forms — in under two hours. Without it, the same exercise takes two days minimum.
 
@@ -172,7 +172,7 @@ ServiceM8 is the right choice if you're:
 - Looking for a **quick setup** — you need to be operational in days, not months
 - **Budget-conscious** — you want premium features without enterprise pricing
 
-Read our full guide on [why solar installers are switching to digital job management](/blog/digital-job-management-solar-installers) to understand the broader shift happening across the industry.
+Read our full guide on [why solar installers are switching to digital job management](/blog/digital-job-management-solar-installers/) to understand the broader shift happening across the industry.
 
 ---
 
@@ -210,14 +210,14 @@ No credit card required. Set up your first job in under 30 minutes.
 
 ## Related Articles
 
-- [ServiceM8 vs Tradify: Which Is Better for Australian Trade Businesses in 2026?](/blog/servicem8-vs-tradify-comparison-australia)
-- [ServiceM8 vs Fergus: Honest Comparison for Australian Trades](/blog/servicem8-vs-fergus)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)
-- [Best Job Management Software for Solar Installers Australia 2026](/blog/solar-job-management-software-australia-2026)
-- [simPRO vs ServiceM8: Which Fits a 3-Man HVAC Business Better?](/blog/simpro-vs-servicem8-hvac-small-business)
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
-- [ServiceM8 vs Tradify for Solar and Electrical Contractors](/blog/servicem8-vs-tradify-solar-electrical)
+- [ServiceM8 vs Tradify: Which Is Better for Australian Trade Businesses in 2026?](/blog/servicem8-vs-tradify-comparison-australia/)
+- [ServiceM8 vs Fergus: Honest Comparison for Australian Trades](/blog/servicem8-vs-fergus/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/)
+- [Best Job Management Software for Solar Installers Australia 2026](/blog/solar-job-management-software-australia-2026/)
+- [simPRO vs ServiceM8: Which Fits a 3-Man HVAC Business Better?](/blog/simpro-vs-servicem8-hvac-small-business/)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)
+- [ServiceM8 vs Tradify for Solar and Electrical Contractors](/blog/servicem8-vs-tradify-solar-electrical/)
 
 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.

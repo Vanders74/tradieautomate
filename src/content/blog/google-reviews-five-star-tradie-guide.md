@@ -70,7 +70,7 @@ Tell them exactly what you want, why it matters, and how to do it. Include a dir
 
 ### Channel: SMS Outperforms Email
 
-As covered in our [SMS vs email comparison for solar businesses](/blog/sms-vs-email-quotes-customer-experience), SMS has dramatically higher open and response rates than email for this type of communication.
+As covered in our [SMS vs email comparison for solar businesses](/blog/sms-vs-email-quotes-customer-experience/), SMS has dramatically higher open and response rates than email for this type of communication.
 
 An SMS review request with a direct Google review link gets opened and clicked at significantly higher rates than the equivalent email. For review requests specifically, SMS is the recommended primary channel — with email as a backup for the cases where SMS fails or is not available.
 
@@ -172,7 +172,7 @@ This is the compounding advantage of systematic review collection. It starts slo
 Reviews are not the only customer experience touchpoint that matters. They're the downstream result of a well-executed installation experience — and they're most powerful when your overall customer journey is consistent.
 
 For a solar or electrical business to have a genuine competitive advantage in customer experience, the full journey needs to work:
-- Fast quote delivery (covered in our [SMS vs email guide](/blog/sms-vs-email-quotes-customer-experience))
+- Fast quote delivery (covered in our [SMS vs email guide](/blog/sms-vs-email-quotes-customer-experience/))
 - Automated confirmations and reminders (via ServiceM8)
 - Clean, professional installation experience
 - Same-day invoicing (via automated ServiceM8 invoicing)
@@ -202,11 +202,11 @@ If you're not currently asking every customer for a review, you're leaving a sig
 ---
 
 *Related reading:*
-- *[SMS vs Email: Which Gets More Solar Quotes Signed?](/blog/sms-vs-email-quotes-customer-experience)*
-- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
-- *[AI Automation for Solar Installers: What Actually Works](/blog/ai-automation-solar-installers)*
-- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
-- *[The Paperless Trade Roadmap](/blog/paperless-trade-roadmap-operational-efficiency)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
-- *[Negative Google Reviews: The Tradie's Exact Response Playbook](/blog/how-to-handle-negative-google-reviews-tradie)*
+- *[SMS vs Email: Which Gets More Solar Quotes Signed?](/blog/sms-vs-email-quotes-customer-experience/)*
+- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers/)*
+- *[AI Automation for Solar Installers: What Actually Works](/blog/ai-automation-solar-installers/)*
+- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)*
+- *[The Paperless Trade Roadmap](/blog/paperless-trade-roadmap-operational-efficiency/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)*
+- *[Negative Google Reviews: The Tradie's Exact Response Playbook](/blog/how-to-handle-negative-google-reviews-tradie/)*

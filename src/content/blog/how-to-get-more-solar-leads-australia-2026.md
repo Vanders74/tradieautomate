@@ -56,7 +56,7 @@ When someone searches "solar installation [suburb]" or "solar panels near me", G
 1. **Claim and verify your GBP if you haven't** — business.google.com
 2. **Complete every field:** business name, category (use "Solar Energy Contractor" and "Electrician"), service areas (list suburbs you actually service), website, phone, hours
 3. **Add photos:** team photos, vehicle, installation photos (before/after), team working on a job. Businesses with 10+ photos get significantly more engagement than those with none.
-4. **Set up a systematic review request** — see our [complete guide to 5-star Google reviews](/blog/google-reviews-five-star-tradie-guide) for the exact process
+4. **Set up a systematic review request** — see our [complete guide to 5-star Google reviews](/blog/google-reviews-five-star-tradie-guide/) for the exact process
 
 ---
 
@@ -125,7 +125,7 @@ Social proof isn't a channel — it's the foundation that makes every other chan
 A homeowner who finds you through Google, a referral, or a Facebook ad will then Google your business name. What they find on that Google search — your review rating, your website, your social presence — determines whether they contact you.
 
 **The social proof assets that matter most:**
-1. **Google reviews:** 50+ reviews at 4.8+ stars is the benchmark to aim for. See our [complete Google reviews guide](/blog/google-reviews-five-star-tradie-guide).
+1. **Google reviews:** 50+ reviews at 4.8+ stars is the benchmark to aim for. See our [complete Google reviews guide](/blog/google-reviews-five-star-tradie-guide/).
 2. **CEC accreditation badge:** Prominently displayed on your website and GBP. It's an immediate trust signal for educated solar buyers. Ensure your CEC accreditation number is current — the CEC publishes a public register of accredited installers, and customers increasingly verify accreditation before contacting a business.
 3. **State electrical contractor licence:** Display your licence number in your website footer. Homeowners are learning to check state regulator databases — NSW Fair Trading, Energy Safe Victoria (ESV), the Electrical Safety Office (QLD), and Building and Energy (WA) all maintain public licence registers. A verifiable licence is a trust signal that competitors without one can't match.
 3. **Before/after installation photos:** Real jobs, real results. Post them on Google, your website, and social media.
@@ -156,7 +156,7 @@ Getting leads is only half the equation. Converting them into signed jobs is whe
 
 [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) automates the follow-up process — set up an automatic SMS to new enquiries within 15 minutes, automatic quote delivery, and a follow-up sequence after the quote is sent. This happens without you thinking about it.
 
-For a deeper dive into quote conversion, see our [SMS vs email guide](/blog/sms-vs-email-quotes-customer-experience).
+For a deeper dive into quote conversion, see our [SMS vs email guide](/blog/sms-vs-email-quotes-customer-experience/).
 
 ---
 
@@ -189,14 +189,14 @@ By month 3, a consistent lead flow from Google organic + GBP + referrals should 
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- *[How to Get 5-Star Google Reviews as a Solar Installer or Electrician](/blog/google-reviews-five-star-tradie-guide)*
-- *[SMS vs Email: Which Gets More Solar Quotes Signed?](/blog/sms-vs-email-quotes-customer-experience)*
-- *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
-- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026)*
-- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers)*
-- *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)*
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- *[How to Get 5-Star Google Reviews as a Solar Installer or Electrician](/blog/google-reviews-five-star-tradie-guide/)*
+- *[SMS vs Email: Which Gets More Solar Quotes Signed?](/blog/sms-vs-email-quotes-customer-experience/)*
+- *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth/)*
+- *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026/)*
+- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers/)*
+- *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers/)*
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
 
 ---
 

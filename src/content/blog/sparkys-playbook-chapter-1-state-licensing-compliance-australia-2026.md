@@ -62,7 +62,7 @@ This is issued under the *Home Building Act 1989* by NSW Fair Trading. It author
 **Track 2: The Contractor Licence with Electrical Work (CCEW)**
 The CCEW — sometimes called the Certificate of Compliance for Electrical Work — is the compliance document you lodge after completing each job. It's issued by you as the licensed contractor. What most electricians miss is that the obligation to lodge the CCEW has a strict 7-day deadline from completion of work. Missing that deadline is the most common compliance breach in NSW — and it carries serious consequences.
 
-> **Important:** The CCEW 7-day rule is one of the most commonly missed obligations in NSW. [Read the full breakdown of what triggers the clock and what happens if you miss it →](/blog/ccew-nsw-7-day-deadline-rule)
+> **Important:** The CCEW 7-day rule is one of the most commonly missed obligations in NSW. [Read the full breakdown of what triggers the clock and what happens if you miss it →](/blog/ccew-nsw-7-day-deadline-rule/)
 
 **Licence categories in NSW:**
 - Qualified Supervisor Certificate (QSC) — authorises an individual to perform and supervise electrical work
@@ -87,7 +87,7 @@ The CES is Victoria's version of NSW's CCEW — the compliance document you must
 - The 30-day CES lodgement window — most contractors know about it, but multi-job periods in summer and late year mean lodgements accumulate and get missed
 - Solar installations require a separate CES for the electrical installation component, even when a Certificates of Compliance for Electrical Work is already being issued through the CEC process
 
-> **Read more:** [VIC Electrical Contractor Licence Guide 2026 — REC registration, CES lodgement and Energy Safe Victoria](/blog/vic-electrical-contractor-licence-guide-2026)
+> **Read more:** [VIC Electrical Contractor Licence Guide 2026 — REC registration, CES lodgement and Energy Safe Victoria](/blog/vic-electrical-contractor-licence-guide-2026/)
 
 ---
 
@@ -104,7 +104,7 @@ ESQ issues the electrical work licence — the individual licence that authorise
 **QLeave**
 QLD also has a portable long service leave scheme — QLeave — that applies to electrical contractors. Contributions are based on the value of building and construction work performed. This is a payroll-adjacent obligation that many interstate contractors setting up in QLD miss entirely in their first year.
 
-> **Read more:** [QLD Electrical Contractor Licence Guide 2026 — QBCC, ESQ and QLeave requirements](/blog/qld-electrical-contractor-licence-guide-2026)
+> **Read more:** [QLD Electrical Contractor Licence Guide 2026 — QBCC, ESQ and QLeave requirements](/blog/qld-electrical-contractor-licence-guide-2026/)
 
 ---
 
@@ -119,7 +119,7 @@ South Australia's licensing is split between two bodies:
 - SA has stricter random audit rates than most other states — contractors are selected for inspection of completed work without prior notice
 - The OTR has been particularly active on solar and battery storage inspections in recent years as the state's penetration of household solar has grown
 
-> **Read more:** [SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026)
+> **Read more:** [SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026/)
 
 ---
 
@@ -134,7 +134,7 @@ WA's electrical contractor licensing is administered by EnergySafety under the E
 **Responsible Supervisor requirement:**
 Every licensed electrical contractor in WA must nominate a Responsible Supervisor who holds a valid individual licence (REL or CCEI). If your Responsible Supervisor leaves the business, you have a limited window to appoint a replacement before your contractor licence becomes non-compliant.
 
-> **Read more:** [WA Electrical Contractor Licence Guide 2026 — EnergySafety, CCEI and contractor licence requirements](/blog/wa-electrical-contractor-licence-guide-2026)
+> **Read more:** [WA Electrical Contractor Licence Guide 2026 — EnergySafety, CCEI and contractor licence requirements](/blog/wa-electrical-contractor-licence-guide-2026/)
 
 ---
 
@@ -246,12 +246,12 @@ These three actions won't take more than two hours. They'll eliminate the most c
 
 ## Read More on TradieAutomate.com
 
-- [NSW Electrical Contractor Licence Guide 2026](/blog/nsw-electrical-contractor-licence-guide-2026)
-- [QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026)
-- [VIC Electrical Contractor Licence Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026)
-- [WA Electrical Contractor Licence Guide 2026](/blog/wa-electrical-contractor-licence-guide-2026)
-- [SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026)
-- [NSW CCEW 7-Day Deadline Rule — The Compliance Trap Most Electricians Miss](/blog/ccew-nsw-7-day-deadline-rule)
+- [NSW Electrical Contractor Licence Guide 2026](/blog/nsw-electrical-contractor-licence-guide-2026/)
+- [QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026/)
+- [VIC Electrical Contractor Licence Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026/)
+- [WA Electrical Contractor Licence Guide 2026](/blog/wa-electrical-contractor-licence-guide-2026/)
+- [SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026/)
+- [NSW CCEW 7-Day Deadline Rule — The Compliance Trap Most Electricians Miss](/blog/ccew-nsw-7-day-deadline-rule/)
 
 ---
 

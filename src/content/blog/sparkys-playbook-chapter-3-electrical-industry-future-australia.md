@@ -159,11 +159,11 @@ The honest summary: most of the opportunities described in this chapter require 
 
 ## Related Reading
 
-- [Commercial Solar System Compliance Australia](/blog/commercial-solar-system-compliance-australia)
-- [EV Charger Network Installation — Business Opportunity for Electricians](/blog/ev-charger-network-installation-business-opportunity)
-- [Heat Pump Hot Water Installation Guide for Electricians Australia](/blog/heat-pump-hot-water-installation-electricians-australia)
-- [SA Solar Battery Rebate 2026 — Home Battery Scheme Guide](/blog/sa-solar-battery-rebate-2026)
-- [VIC Solar Homes Program Rebate 2026](/blog/vic-solar-homes-program-rebate-2026)
+- [Commercial Solar System Compliance Australia](/blog/commercial-solar-system-compliance-australia/)
+- [EV Charger Network Installation — Business Opportunity for Electricians](/blog/ev-charger-network-installation-business-opportunity/)
+- [Heat Pump Hot Water Installation Guide for Electricians Australia](/blog/heat-pump-hot-water-installation-electricians-australia/)
+- [SA Solar Battery Rebate 2026 — Home Battery Scheme Guide](/blog/sa-solar-battery-rebate-2026/)
+- [VIC Solar Homes Program Rebate 2026](/blog/vic-solar-homes-program-rebate-2026/)
 
 ---
 

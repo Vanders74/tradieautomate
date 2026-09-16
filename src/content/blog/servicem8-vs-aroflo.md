@@ -200,16 +200,16 @@ Start with ServiceM8's 14-day free trial. Full features, no credit card, operati
 
 ## Related Comparisons
 
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)
 
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
-- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)
+- [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)
 
-- [ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia)
-- [ServiceM8 vs Tradify: Australian Tradie Comparison 2026](/blog/servicem8-vs-tradify-comparison-australia)
-- [ServiceM8 vs Fergus: Honest Comparison for Australian Trades](/blog/servicem8-vs-fergus)
-- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
+- [ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia/)
+- [ServiceM8 vs Tradify: Australian Tradie Comparison 2026](/blog/servicem8-vs-tradify-comparison-australia/)
+- [ServiceM8 vs Fergus: Honest Comparison for Australian Trades](/blog/servicem8-vs-fergus/)
+- [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
 
 ---
 
@@ -238,6 +238,6 @@ Yes. ServiceM8's Growing and Premium plans handle businesses with 30+ staff comf
 > [Download free →](/playbook)
 
 *Related reading:*
-- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
-- *[ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia)*
-- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)*
+- *[ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia/)*
+- *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/)*

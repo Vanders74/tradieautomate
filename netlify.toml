@@ -121,3 +121,17 @@
   status = 301
   force = true
 
+# Typo'd slug Google indexed (1 impression) — 'ai-ai-' doubled prefix, never in source.
+# 301 to the real AI data-centre hub article.
+[[redirects]]
+  from = "/blog/ai-ai-data-centre-growth-electricians-australia-2026"
+  to = "/blog/ai-data-centre-growth-electricians-australia-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/ai-ai-data-centre-growth-electricians-australia-2026/"
+  to = "/blog/ai-data-centre-growth-electricians-australia-2026/"
+  status = 301
+  force = true
+

@@ -42,7 +42,7 @@ The installers who get caught out aren't cutting corners on the physical install
 
 Missing compliance checklists. Incorrect inverter labels. No signed customer handover forms. Photos that can't be tied to a specific job and date.
 
-If you're not across the full requirements of [AS/NZS 5139 for battery storage installations](/blog/as-nzs-5139-battery-storage-compliance), that's the place to start — then come back here to see how ServiceM8 makes hitting those requirements automatic.
+If you're not across the full requirements of [AS/NZS 5139 for battery storage installations](/blog/as-nzs-5139-battery-storage-compliance/), that's the place to start — then come back here to see how ServiceM8 makes hitting those requirements automatic.
 
 ServiceM8 addresses this directly:
 
@@ -56,7 +56,7 @@ Every job in ServiceM8 can include a custom form or checklist that must be compl
 
 You can build separate checklists for different job types: residential solar PV, commercial solar, battery-only retrofit, solar + battery combo. Each checklist enforces the specific requirements for that job category.
 
-Need a starting point for what your checklists should cover? Our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026) maps out every requirement before, during, and after installation.
+Need a starting point for what your checklists should cover? Our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/) maps out every requirement before, during, and after installation.
 
 ### Photo Capture Tied to Jobs
 
@@ -136,7 +136,7 @@ For businesses that do solar servicing and maintenance as well as new installs, 
 
 > 🧮 **Know your margin before you commit to any platform.** Our free [Solar Quote Profitability Calculator](/tools/solar-quote-calculator) shows exactly how much admin and compliance time is eating into your per-job profit — making the software ROI case obvious.
 
-[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026) in Australia (as of 2026):
+[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026/) in Australia (as of 2026):
 
 | Plan | Monthly Price | Best For |
 |------|--------------|----------|
@@ -156,11 +156,11 @@ The ROI calculation is usually straightforward: if ServiceM8 saves your business
 
 ServiceM8 isn't the only option, and the right choice depends on your business size and needs.
 
-**ServiceM8 vs simPRO:** simPRO is a more complex platform suited to larger commercial and multi-trade businesses. For pure solar installation businesses under ~$3M revenue, simPRO's complexity is usually more burden than benefit. Full comparison: [ServiceM8 vs simPRO for Australian Solar Installers](/blog/servicem8-vs-simpro-comparison-australia).
+**ServiceM8 vs simPRO:** simPRO is a more complex platform suited to larger commercial and multi-trade businesses. For pure solar installation businesses under ~$3M revenue, simPRO's complexity is usually more burden than benefit. Full comparison: [ServiceM8 vs simPRO for Australian Solar Installers](/blog/servicem8-vs-simpro-comparison-australia/).
 
-**ServiceM8 vs [Tradify](/blog/tradify-review-2026-australia):** Tradify is simpler and cheaper, but has less depth in compliance documentation and asset tracking. Good for very small operations; ServiceM8 pulls ahead as volume grows. Full comparison: [ServiceM8 vs Tradify](/blog/servicem8-vs-tradify-comparison-australia).
+**ServiceM8 vs [Tradify](/blog/tradify-review-2026-australia/):** Tradify is simpler and cheaper, but has less depth in compliance documentation and asset tracking. Good for very small operations; ServiceM8 pulls ahead as volume grows. Full comparison: [ServiceM8 vs Tradify](/blog/servicem8-vs-tradify-comparison-australia/).
 
-For a broader ranked view covering all major platforms — including AroFlo, Fergus, and others — see our [Best Job Management Software for Solar Installers Australia 2026](/blog/solar-job-management-software-australia-2026) guide.
+For a broader ranked view covering all major platforms — including AroFlo, Fergus, and others — see our [Best Job Management Software for Solar Installers Australia 2026](/blog/solar-job-management-software-australia-2026/) guide.
 
 ## Is ServiceM8 Right for Your Solar Business?
 
@@ -172,7 +172,7 @@ ServiceM8 is best suited for solar installation businesses that:
 - Are ready to professionalise their customer communication (confirmations, ETAs, invoices, reviews)
 - Need a platform that integrates cleanly with Xero for accounting
 
-If you're a sole trader doing a handful of jobs per month, a simpler setup might be enough for now. But if you're still unsure whether [digital job management is the right move for your business](/blog/digital-job-management-solar-installers), that article walks through the full case for switching — and the maths behind it.
+If you're a sole trader doing a handful of jobs per month, a simpler setup might be enough for now. But if you're still unsure whether [digital job management is the right move for your business](/blog/digital-job-management-solar-installers/), that article walks through the full case for switching — and the maths behind it.
 
 ## Getting Started
 
@@ -196,7 +196,7 @@ ServiceM8 attaches every compliance photo, completed checklist, customer signatu
 
 **Can I build custom solar compliance checklists in ServiceM8?**
 
-Yes. ServiceM8's form builder lets you create custom checklists for different job types — solar PV (AS/NZS 5033), battery storage ([AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance)), and solar + battery combos. Forms can be set as mandatory before a job can be marked complete.
+Yes. ServiceM8's form builder lets you create custom checklists for different job types — solar PV (AS/NZS 5033), battery storage ([AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance/)), and solar + battery combos. Forms can be set as mandatory before a job can be marked complete.
 
 **How much does ServiceM8 cost?**
 
@@ -210,13 +210,13 @@ Yes. ServiceM8 has a direct Xero integration (and MYOB). Completed, invoiced job
 
 ## Related Articles
 
-- [Why Solar Installers Are Switching to Digital Job Management in 2026](/blog/digital-job-management-solar-installers)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
-- [CER Audit Prep for Solar Installers: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses)
-- [AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers)
-- [ServiceM8 vs Tradify for Solar and Electrical Businesses](/blog/servicem8-vs-tradify-solar-electrical)
+- [Why Solar Installers Are Switching to Digital Job Management in 2026](/blog/digital-job-management-solar-installers/)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)
+- [CER Audit Prep for Solar Installers: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses/)
+- [AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers/)
+- [ServiceM8 vs Tradify for Solar and Electrical Businesses](/blog/servicem8-vs-tradify-solar-electrical/)
 
 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
@@ -225,4 +225,4 @@ Yes. ServiceM8 has a direct Xero integration (and MYOB). Completed, invoiced job
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026)
+- [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)

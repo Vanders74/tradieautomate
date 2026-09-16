@@ -49,16 +49,16 @@ When you add a technician to ServiceM8:
 
 The second person doesn't need to know what's in your head. The system tells them what to do, when to do it, and enforces the compliance steps that protect your accreditation.
 
-For solar businesses where [CER audit preparation](/blog/cer-audit-prep-solar-installers) is a live concern, having every technician completing the same structured compliance workflows is not optional — it's how you maintain accreditation as you scale.
+For solar businesses where [CER audit preparation](/blog/cer-audit-prep-solar-installers/) is a live concern, having every technician completing the same structured compliance workflows is not optional — it's how you maintain accreditation as you scale.
 
-If you haven't already gone through this process, our [paperless trade roadmap](/blog/paperless-trade-roadmap-operational-efficiency) walks through the four stages of building this operational foundation.
+If you haven't already gone through this process, our [paperless trade roadmap](/blog/paperless-trade-roadmap-operational-efficiency/) walks through the four stages of building this operational foundation.
 
 ### 2. Documented Compliance Workflows
 
 Your compliance workflows need to be documented before they can be delegated.
 
 For a solar installer, this means:
-- A written (or digital form-based) pre-installation checklist that covers all AS/NZS 5033 and [AS/NZS 5139 battery storage requirements](/blog/as-nzs-5139-battery-storage-compliance)
+- A written (or digital form-based) pre-installation checklist that covers all AS/NZS 5033 and [AS/NZS 5139 battery storage requirements](/blog/as-nzs-5139-battery-storage-compliance/)
 - A photo capture protocol — what photos are required, at which stage, in what format
 - A post-installation checklist covering system commissioning, STC verification, and customer handover
 - Clear guidance on what to do when something doesn't meet compliance requirements on-site
@@ -75,7 +75,7 @@ Booking confirmation. 24-hour reminder. On-route notification. Job completion me
 
 Every one of these can be templated and automated in ServiceM8. When a second technician is doing jobs independently, the customer experience remains consistent — they get the same professional communication regardless of which team member handled their job.
 
-This matters for your Google review accumulation. The automated review request that goes out after every completed job is what builds the 200+ review Google Business Profile that [converts more quotes without additional ad spend](/blog/sms-vs-email-quotes-customer-experience).
+This matters for your Google review accumulation. The automated review request that goes out after every completed job is what builds the 200+ review Google Business Profile that [converts more quotes without additional ad spend](/blog/sms-vs-email-quotes-customer-experience/).
 
 ---
 
@@ -138,7 +138,7 @@ This means:
 - Business development and referral relationships
 - Compliance oversight and quality control
 - Team performance management
-- Financial tracking and profit margin analysis (see our [guide to hidden costs killing your profit](/blog/hidden-costs-killing-profit-solar-electrician))
+- Financial tracking and profit margin analysis (see our [guide to hidden costs killing your profit](/blog/hidden-costs-killing-profit-solar-electrician/))
 
 The business owner who stays on the tools while running a team is the bottleneck in their own business. The tools work needs to be delegated so you can be working *on* the business.
 
@@ -152,7 +152,7 @@ Adding a second or third technician only creates profit if you have enough work 
 
 If you're turning away more than 10–15% of qualified enquiries, you have the demand to support additional headcount. If you're booking out more than 6 weeks, customers are starting to look elsewhere.
 
-The AI automation strategies in our [guide for solar businesses](/blog/ai-automation-solar-installers) cover how automated lead response and quote follow-up can improve both the volume and conversion of your lead flow as you scale.
+The AI automation strategies in our [guide for solar businesses](/blog/ai-automation-solar-installers/) cover how automated lead response and quote follow-up can improve both the volume and conversion of your lead flow as you scale.
 
 ### 3. Financial Infrastructure
 
@@ -176,7 +176,7 @@ Solar and electrical businesses that successfully double their job volume withou
 
 **They tracked margin by job type.** Doubling jobs only doubles profit if the jobs you're scaling are actually profitable. Businesses that grow volume without tracking margin sometimes find they've made the unprofitable parts of their business bigger.
 
-**They used the [right job management software](/blog/servicem8-vs-jobber-tradie-software-guide-2026).** The platform you start with as a sole trader needs to scale with you. Platforms that work fine for one person sometimes break down at 3–5 technicians. Choose infrastructure that grows with the business.
+**They used the [right job management software](/blog/servicem8-vs-jobber-tradie-software-guide-2026/).** The platform you start with as a sole trader needs to scale with you. Platforms that work fine for one person sometimes break down at 3–5 technicians. Choose infrastructure that grows with the business.
 
 ---
 
@@ -193,23 +193,23 @@ If you're at the point where you know you need to scale but aren't sure where to
 > [Download free →](/playbook)
 
 *Related reading:*
-- *[The Paperless Trade Roadmap: Eliminating Admin Chaos](/blog/paperless-trade-roadmap-operational-efficiency)*
-- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
-- *[AI Automation for Solar Installers: What Actually Works](/blog/ai-automation-solar-installers)*
-- *[ServiceM8 for Electricians: The Platform Australian Sparkies Use](/blog/servicem8-for-electricians)*
-- *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers)*
-- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)*
-- *[How to Set Up Electrical Award Allowances in Xero Payroll (Without the Manual Math)](/blog/xero-payroll-electrical-award-allowances)*
-- *[Tap to Pay on iPhone for Australian Tradies: Get Paid on the Spot](/blog/tap-to-pay-iphone-tradies-australia)*
+- *[The Paperless Trade Roadmap: Eliminating Admin Chaos](/blog/paperless-trade-roadmap-operational-efficiency/)*
+- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)*
+- *[AI Automation for Solar Installers: What Actually Works](/blog/ai-automation-solar-installers/)*
+- *[ServiceM8 for Electricians: The Platform Australian Sparkies Use](/blog/servicem8-for-electricians/)*
+- *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)*
+- *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)*
+- *[How to Set Up Electrical Award Allowances in Xero Payroll (Without the Manual Math)](/blog/xero-payroll-electrical-award-allowances/)*
+- *[Tap to Pay on iPhone for Australian Tradies: Get Paid on the Spot](/blog/tap-to-pay-iphone-tradies-australia/)*
 
 
-**See also:** [Commercial EV Charging at Premises Australia 2026: Compliance & Pricing Guide](/blog/ev-charging-commercial-premises-australia-2026)
+**See also:** [Commercial EV Charging at Premises Australia 2026: Compliance & Pricing Guide](/blog/ev-charging-commercial-premises-australia-2026/)
 
 ---
 
 > **Got a compliance question right now?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CER audits, AS/NZS 5033 & 5139, CCEW lodgement, STC claims, EV charger approvals, and more. No login required.
 
-Commercial EV charging networks are a high-value expansion opportunity — see the [EV Charger Network Installation guide](/blog/ev-charger-network-installation-business-opportunity) for fleet, strata, and council market strategies.
+Commercial EV charging networks are a high-value expansion opportunity — see the [EV Charger Network Installation guide](/blog/ev-charger-network-installation-business-opportunity/) for fleet, strata, and council market strategies.
 
 ---

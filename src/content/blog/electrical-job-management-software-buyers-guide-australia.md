@@ -173,12 +173,12 @@ For electricians specifically: limited native compliance documentation tools. Th
 
 ## Related Reading
 
-- [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia) — the ranked list, if you'd rather see our top pick upfront
-- [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026)
-- [ServiceM8 Pricing 2026 — Plans and Real Costs](/blog/servicem8-pricing-plans-australia-2026)
-- [ServiceM8 vs simPRO — Which Is Better for Electricians?](/blog/servicem8-vs-simpro-comparison-australia)
-- [Best Accounting Software for Solar & Electrical Australia 2026](/blog/best-accounting-software-solar-electrical-australia-2026)
-- [The Sparky's Playbook — Chapter 8: The Trade Tech Stack](/blog/sparkys-playbook-chapter-8-trade-tech-stack-job-management-accounting)
+- [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia/) — the ranked list, if you'd rather see our top pick upfront
+- [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026/)
+- [ServiceM8 Pricing 2026 — Plans and Real Costs](/blog/servicem8-pricing-plans-australia-2026/)
+- [ServiceM8 vs simPRO — Which Is Better for Electricians?](/blog/servicem8-vs-simpro-comparison-australia/)
+- [Best Accounting Software for Solar & Electrical Australia 2026](/blog/best-accounting-software-solar-electrical-australia-2026/)
+- [The Sparky's Playbook — Chapter 8: The Trade Tech Stack](/blog/sparkys-playbook-chapter-8-trade-tech-stack-job-management-accounting/)
 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)

@@ -93,7 +93,7 @@ The HEMS is where the customer's ROI is actually generated. It's also where your
 
 The shortage isn't just in technicians — it's in the certification pipeline for HEMS-enabled installations. Complex dynamic installations require sign-off from a CEC-accredited installer with experience in the specific platform.
 
-The businesses that are scaling right now are the ones that have systemised the install process. Structured SOPs for each system type, job templates in platforms like [ServiceM8](/blog/servicem8-for-solar-businesses), and standardised pre-install checklists that keep every technician working at full velocity regardless of experience level.
+The businesses that are scaling right now are the ones that have systemised the install process. Structured SOPs for each system type, job templates in platforms like [ServiceM8](/blog/servicem8-for-solar-businesses/), and standardised pre-install checklists that keep every technician working at full velocity regardless of experience level.
 
 ---
 
@@ -157,7 +157,7 @@ That requires:
 3. **Customer data systems** — knowing which of your past customers has a legacy system that's now eligible for upgrade (more on this below)
 4. **Recurring revenue infrastructure** — HEMS monitoring contracts, maintenance schedules, and VPP management agreements that build annuity revenue alongside install revenue
 
-The [Hidden Admin Cost Calculator](/blog/hidden-admin-cost-calculator) shows what unbilled admin time costs a two-tech business over a year. For a 10-tech solar business deploying complex systems, the multiplier is severe.
+The [Hidden Admin Cost Calculator](/blog/hidden-admin-cost-calculator/) shows what unbilled admin time costs a two-tech business over a year. For a 10-tech solar business deploying complex systems, the multiplier is severe.
 
 ---
 
@@ -165,9 +165,9 @@ The [Hidden Admin Cost Calculator](/blog/hidden-admin-cost-calculator) shows wha
 
 This pillar is your commercial framework. The linked articles below go deeper on specific execution areas:
 
-- **[The 1.5kW Export Clamp Explained](/blog/csip-aus-export-limit-1-5kw-solar)** — exactly what triggers the clamp, how to check if a system is affected, and the sales conversation to have with legacy customers
-- **[How to Mine Your Old Job Database for Battery Retrofits](/blog/solar-battery-retrofit-database-mining)** — the exact parameters for an ideal retrofit lead and how to run the campaign in ServiceM8
-- [ServiceM8 for Solar Businesses](/blog/servicem8-for-solar-businesses) — how the right job management platform enables a high-volume, systemised install operation
+- **[The 1.5kW Export Clamp Explained](/blog/csip-aus-export-limit-1-5kw-solar/)** — exactly what triggers the clamp, how to check if a system is affected, and the sales conversation to have with legacy customers
+- **[How to Mine Your Old Job Database for Battery Retrofits](/blog/solar-battery-retrofit-database-mining/)** — the exact parameters for an ideal retrofit lead and how to run the campaign in ServiceM8
+- [ServiceM8 for Solar Businesses](/blog/servicem8-for-solar-businesses/) — how the right job management platform enables a high-volume, systemised install operation
 
 ---
 
@@ -190,9 +190,9 @@ Systemise your install operation before the volume kicks in.
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026)
-- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)
-- *[Solar Warranty Claims Australia 2026: What's Covered and How to Actually Get Paid](/blog/solar-warranty-claim-process-australia-2026)*
-- *[Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia)*
+- [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/)
+- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia/)
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)
+- *[Solar Warranty Claims Australia 2026: What's Covered and How to Actually Get Paid](/blog/solar-warranty-claim-process-australia-2026/)*
+- *[Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia/)*

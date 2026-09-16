@@ -159,11 +159,11 @@ For electrical businesses growing from 5 to 15+ staff and starting to take on la
 
 ## Related Reading
 
-- [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026)
-- [ServiceM8 Pricing 2026 — Plans and Real Costs](/blog/servicem8-pricing-plans-australia-2026)
-- [Electrical Job Management Software Australia 2026 — Buyer's Guide](/blog/electrical-job-management-software-buyers-guide-australia)
-- [ServiceM8 vs simPRO Australia — General Comparison 2026](/blog/servicem8-vs-simpro-comparison-australia)
-- [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia)
+- [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026/)
+- [ServiceM8 Pricing 2026 — Plans and Real Costs](/blog/servicem8-pricing-plans-australia-2026/)
+- [Electrical Job Management Software Australia 2026 — Buyer's Guide](/blog/electrical-job-management-software-buyers-guide-australia/)
+- [ServiceM8 vs simPRO Australia — General Comparison 2026](/blog/servicem8-vs-simpro-comparison-australia/)
+- [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia/)
 
 [Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 

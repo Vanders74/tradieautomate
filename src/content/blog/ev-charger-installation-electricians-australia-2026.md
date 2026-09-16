@@ -161,7 +161,7 @@ EV charger installations are clean, straightforward, and profitable — and they
 
 Use [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) to create a specific job type for EV charger installations with its own workflow — site assessment checklist, switchboard assessment, charger compatibility check, cable sizing calculation, compliance certificate follow-up. This ensures every job is done to the same standard, the paperwork is complete, and your certificate is issued and stored correctly.
 
-See our [guide to digital job management for solar installers](/blog/digital-job-management-solar-installers) for how to set up these workflows efficiently.
+See our [guide to digital job management for solar installers](/blog/digital-job-management-solar-installers/) for how to set up these workflows efficiently.
 
 ---
 
@@ -190,16 +190,16 @@ That conversation is worth $1,500–$3,000 in additional revenue — and it's a 
 
 ## Related Reading
 
-- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians)*
-- *Adding Battery Storage to Your Solar Business](/blog/adding-battery-storage-solar-business-australia)*
-- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026)*
-- *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth)*
-- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician)*
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026)
-- *[Commercial EV Charging Installation Australia 2026: Compliance, Load Management & Pricing](/blog/ev-charging-commercial-premises-australia-2026)*
-- *[EV Charger Network Installation: Business Opportunity for Australian Electricians](/blog/ev-charger-network-installation-business-opportunity)*
-- *[Commercial EV Charging Installation: The Electrician's Business Guide for 2026](/blog/commercial-ev-charging-installation-guide-electricians)*
-- *[Electrical Switchboard Upgrade Cost Australia 2026](/blog/electrical-switchboard-upgrade-cost-australia-2026)*
+- *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians/)*
+- *Adding Battery Storage to Your Solar Business](/blog/adding-battery-storage-solar-business-australia/)*
+- *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
+- *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth/)*
+- *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)*
+- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- *[Commercial EV Charging Installation Australia 2026: Compliance, Load Management & Pricing](/blog/ev-charging-commercial-premises-australia-2026/)*
+- *[EV Charger Network Installation: Business Opportunity for Australian Electricians](/blog/ev-charger-network-installation-business-opportunity/)*
+- *[Commercial EV Charging Installation: The Electrician's Business Guide for 2026](/blog/commercial-ev-charging-installation-guide-electricians/)*
+- *[Electrical Switchboard Upgrade Cost Australia 2026](/blog/electrical-switchboard-upgrade-cost-australia-2026/)*
 
 ---
 
