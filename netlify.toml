@@ -25,11 +25,10 @@
 
 # Fix trailing-slash cannibalisation: consolidate ranking power into canonical (trailing slash) URL
 # GSC was surfacing both versions separately, splitting ~2,800 impressions at position ~26
-[[redirects]]
-  from = "/blog/best-job-management-software-electricians-australia"
-  to = "/blog/best-job-management-software-electricians-australia/"
-  status = 301
-  force = true
+# REMOVED Sep 2026: the manual /slug -> /slug/ rule created a SELF-REDIRECT LOOP — Netlify
+# applied it to the slashed URL too, 301ing the canonical page to itself (GSC "redirect issue").
+# Astro trailingSlash:'always' generates the slashed canonical; Netlify auto-301s no-slash -> slash.
+# (Verified: ccew-nsw + servicem8-review redirect correctly with no manual rule.)
 
 # Consolidate stale duplicate guide into canonical blog article (solar job mgmt cannibalisation)
 [[redirects]]
