@@ -1,6 +1,6 @@
 ---
 title: 'QLD Electrical Contractor Licence 2026: QBCC, ESQ, QLeave & Solar'
-description: "QLD electrical contractor requirements in one place: QBCC licence classes, ESQ electrical licence, 2.5% QLeave levy, $5M insurance minimums, and CEC solar accreditation steps."
+description: "QLD electrical contractor licence 6-step process: QBCC classes, ESQ licence, 2.5% QLeave levy, $5M insurance minimums, MFR requirements, and CEC solar accreditation — all in one guide."
 pubDate: 'Jun 9 2026'
 updatedDate: 'Jul 19 2026'
 category: "Compliance"

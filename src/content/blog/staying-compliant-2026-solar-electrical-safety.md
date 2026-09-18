@@ -1,6 +1,6 @@
 ---
-title: 'Australian Solar & Electrical Safety Compliance Guide 2026'
-description: 'SWMS requirements, CER compliance, AS/NZS standards, and the safety audit checklist every Australian solar installer and electrician needs to stay compliant and protected in 2026.'
+title: 'Solar Safety Compliance Guide 2026: SWMS, CER & Audit Checklist'
+description: 'SWMS requirements, CER audit obligations, AS/NZS 5033 & 5139 standards, and the compliance checklist every solar installer needs. From SafeWork to Energy Safe Victoria — all in one guide.'
 pubDate: 'May 24 2026'
 updatedDate: 'Jul 30 2026'
 category: "Compliance"
