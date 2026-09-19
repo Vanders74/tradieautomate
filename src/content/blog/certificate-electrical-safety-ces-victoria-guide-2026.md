@@ -1,6 +1,6 @@
 ---
-title: 'CES Victoria: Certificate of Electrical Safety — What It Is & Who Issues It'
-description: 'A Certificate of Electrical Safety (CES) is VIC mandatory compliance cert for prescribed work — sparkies issue via ESV Connect within 28 days. Fees from $39.04.'
+title: 'Certificate of Electrical Safety VIC 2026: Fees, 28-Day Rule & Guide'
+description: 'Certificate of Electrical Safety VIC 2026: mandatory for prescribed work — issue via ESV Connect in 28 days. $39.04 fee and compliance guide.'
 pubDate: 'May 15 2026'
 updatedDate: 'Sep 11 2026'
 category: "Compliance"

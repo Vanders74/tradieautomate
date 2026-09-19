@@ -952,6 +952,121 @@ def compute_insights(data):
             "seo_score": _score_article(p["slug"]),
         })
 
+    # ── JEV Enrichment ──────────────────────────────────────────────────────
+    # Use free Jev tier (ends Sep 26) to pre-classify all pages.
+    # Results persist in dashboard.json; crons read the stored data afterward.
+    try:
+        from jev_classify import jev_classify
+        _jev_key = None  # loaded inside the loop if needed
+        
+        for pg in enhanced_pages:
+            if pg.get("jev"):
+                continue  # already classified
+            slug = pg["slug"]
+            md_path = os.path.join(CONTENT_DIR, f"{slug}.md")
+            if not os.path.exists(md_path):
+                continue
+            
+            with open(md_path) as _f:
+                _c = _f.read()
+            
+            # Parse title + description from frontmatter
+            _title = ""
+            _desc = ""
+            if _c.startswith("---"):
+                _end = _c.find("---", 3)
+                _fm = _c[3:_end] if _end > 0 else ""
+                for _line in _fm.split("\n"):
+                    if _line.startswith("title:"):
+                        _title = _line.split(":", 1)[1].strip().strip("\"'")
+                    elif _line.startswith("description:"):
+                        _desc = _line.split(":", 1)[1].strip().strip("\"'")
+            
+            if not _title:
+                continue
+            
+            _state = f"Page title: {_title}. Page meta description: {_desc}"
+            _result = jev_classify(_state, {
+                "intent": {
+                    "type": "choice",
+                    "instructions": "What search intent does this page target?",
+                    "criteria": {
+                        "lookup": "Reader wants specific data, rates, steps, or how-to instructions",
+                        "compliance": "Reader needs to understand a legal requirement, deadline, or penalty",
+                        "comparison": "Reader is choosing between products, tools, or services",
+                        "strategy": "Reader wants business growth advice or operational tips",
+                    }
+                },
+                "meta_quality": {
+                    "type": "score",
+                    "instructions": "How well does the meta lead with the answer, differentiator or deliverable?",
+                    "criteria": ["Poor", "Below average", "Average", "Good", "Excellent"]
+                },
+                "has_stakes": {
+                    "type": "boolean",
+                    "instructions": "Does the description include a dollar figure, deadline, or specific number?"
+                }
+            }, timeout=15)
+            
+            if "_error" in _result:
+                # Rate limit or transient error — stop enrichment, keep what we have
+                import logging
+                logging.warning(f"JEV enrichment stopped at {slug}: {_result['_error']}")
+                break
+            
+            pg["jev"] = {
+                "intent": _result.get("intent", {}).get("choice"),
+                "intent_confidence": max(_result.get("intent", {}).get("probabilities", {}).values(), default=0),
+                "meta_quality": round(_result.get("meta_quality", {}).get("score", 0), 1),
+                "has_stakes": _result.get("has_stakes", {}).get("choice", "boolean"),
+            }
+    except ImportError:
+        pass  # jev_classify not available — skip enrichment
+    except Exception as _ex:
+        import logging
+        logging.warning(f"JEV enrichment error: {_ex}")
+    # ── End JEV Enrichment ─────────────────────────────────────────────────
+
+    # ── Meta Pattern Classification ──────────────────────────────────────────
+    # Tag each page's current meta against the 7 frameworks in meta-pattern-library.md
+    import re as _re
+    _PATTERN_RULES = [
+        ("A", r"Pros, Cons|Honest.*Review|Honest.*Pricing"),
+        ("B", r"\bBest\b|Features|Top \d+"),
+        ("C", r"When You Need|How to|form$|Action|Guide|Step-by"),
+        ("D", r"^What|^Is |^Are |^Does|\?"),
+        ("E", r"Fee|Cost|Price|\$\d|Rules? \d{4}"),
+        ("F", r" vs | versus |Or "),
+    ]
+    for pg in enhanced_pages:
+        _t = pg.get("title", "") or ""
+        if not _t:
+            # Read title from frontmatter
+            _slug = pg["slug"]
+            _md = os.path.join(CONTENT_DIR, f"{_slug}.md")
+            if os.path.exists(_md):
+                with open(_md) as _f:
+                    _c = _f.read()
+                if _c.startswith("---"):
+                    _end2 = _c.find("---", 3)
+                    for _line in _c[3:_end2].split("\n"):
+                        if _line.startswith("title:"):
+                            _t = _line.split(":", 1)[1].strip().strip("\"'")
+                            break
+        _pat = "G"  # default/other
+        for _code, _regex in _PATTERN_RULES:
+            if _re.search(_regex, _t, _re.I):
+                _pat = _code
+                break
+        pg["meta_pattern"] = _pat
+    
+    # Pattern distribution summary
+    _pattern_counts = {}
+    for pg in enhanced_pages:
+        p = pg.get("meta_pattern", "G")
+        _pattern_counts[p] = _pattern_counts.get(p, 0) + 1
+    # ── End Meta Pattern Classification ─────────────────────────────────────
+
     # Priority actions: top pages by leverage
     priority = sorted(
         [p for p in enhanced_pages if p["click_gap"] > 0 and p["impressions"] >= 100],
@@ -1061,6 +1176,106 @@ def generate_html(data):
     priority_actions = insights.get("priority_actions", [])
     buckets = insights.get("position_buckets", {})
     cron_status = data.get("cron_status", {"available": False})
+
+    # JEV Classification Script — injected as JS so Python f-strings don't clash with JS template syntax
+    jev_pages = [p for p in enhanced_pages if p.get("jev")]
+    jev_json = json.dumps(jev_pages)
+    JEV_SCRIPT_PLACEHOLDER = f"""<script>
+document.addEventListener('DOMContentLoaded', function() {{
+    const jevData = {jev_json};
+    const tb = document.getElementById('jev-tbody');
+    if (!jevData || jevData.length === 0) {{
+        tb.innerHTML = '<tr><td colspan="6" style="color:var(--text-muted)">No JEV classifications yet — dashboard generator enriches on rebuild.</td></tr>';
+        return;
+    }}
+    let r = '';
+    const icons = {{lookup:'🔍',compliance:'⚖️',comparison:'⚔️',strategy:'📋'}};
+    const icolors = {{lookup:'var(--blue)',compliance:'var(--amber)',comparison:'var(--purple)',strategy:'var(--green)'}};
+    for (const p of jevData) {{
+        const j = p.jev || {{}};
+        const icon = icons[j.intent] || '❓';
+        const conf = j.intent_confidence ? (j.intent_confidence*100).toFixed(0)+'%' : '—';
+        const mq = j.meta_quality || 0;
+        const mc = mq < 2 ? 'var(--red)' : mq < 3.5 ? 'var(--amber)' : 'var(--green)';
+        const ml = mq < 2 ? 'Poor' : mq < 3.5 ? 'Fair' : 'Good';
+        const sk = j.has_stakes === true ? '✅' : j.has_stakes === false ? '❌' : '—';
+        const fl = [];
+        if (p.click_gap > 20 && mq < 3) fl.push('🔴');
+        if (j.has_stakes === false && mq < 3) fl.push('💰');
+        if (p.impressions > 500 && (j.intent_confidence||0) < 0.7) fl.push('🤔');
+        r += '<tr><td class="slug-cell">'+p.slug.slice(0,40)+'</td>'+
+            '<td><span style=\"color:'+(icolors[j.intent]||'var(--text-secondary)')+'\">'+icon+' '+j.intent+'</span></td>'+
+            '<td>'+conf+'</td><td style=\"color:'+mc+'\">'+ml+' ('+mq+')</td>'+
+            '<td>'+sk+'</td><td>'+(fl.join(' ')||'—')+'</td></tr>';
+    }}
+    tb.innerHTML = r;
+}});
+</script>"""
+
+    # ── Meta Pattern Analysis ───────────────────────────────────────────────────
+    _pattern_names = {"A":"Honest Review","B":"Best/Top","C":"Action Guide","D":"Question Hook","E":"Cost/Deadline","F":"Comparison vs","G":"Other"}
+    _pattern_colors = {"A":"var(--green)","B":"var(--blue)","C":"var(--amber)","D":"var(--purple)","E":"var(--red)","F":"var(--teal)","G":"var(--text-muted)"}
+    _pattern_emojis = {"A":"🏆","B":"⭐","C":"📋","D":"❓","E":"💰","F":"⚔️","G":"📄"}
+    
+    # Compute per-pattern stats
+    _pat_stats = {}
+    for pg in enhanced_pages:
+        mp = pg.get("meta_pattern","G")
+        if mp not in _pat_stats:
+            _pat_stats[mp] = {"count":0,"total_imp":0,"total_clicks":0,"ctr_sum":0,"pages":[]}
+        _pat_stats[mp]["count"] += 1
+        _pat_stats[mp]["total_imp"] += pg.get("impressions",0)
+        _pat_stats[mp]["total_clicks"] += pg.get("clicks",0)
+        _pat_stats[mp]["pages"].append({"slug":pg["slug"],"ctr":pg.get("ctr",0),"imp":pg.get("impressions",0),"click_gap":pg.get("click_gap",0),"meta_pattern":mp,"pattern_name":_pattern_names.get(mp,"Other")})
+    
+    META_PATTERN_JSON = json.dumps({
+        "stats": _pat_stats,
+        "pattern_names": _pattern_names,
+        "pattern_colors": _pattern_colors,
+        "pattern_emojis": _pattern_emojis,
+        "library_path": "scripts/meta-pattern-library.md",
+        "competitor_db": "scripts/competitor_metas.json",
+        "last_pulled": "2026-09-20",
+    })
+    META_SCRIPT_PLACEHOLDER = f"""<script>
+document.addEventListener('DOMContentLoaded', function() {{
+    const md = {META_PATTERN_JSON};
+    const tb = document.getElementById('meta-tbody');
+    const sd = document.getElementById('meta-summary');
+    let sumHtml = '<div style="display:flex;flex-wrap:wrap;gap:8px;margin:8px 0;align-items:center">';
+    let allPages = [];
+    for (const [code, st] of Object.entries(md.stats)) {{
+        const avgCtr = st.total_imp > 0 ? (st.total_clicks / st.total_imp * 100).toFixed(2) + '%' : '—';
+        const col = md.pattern_colors[code] || 'var(--text-muted)';
+        const emj = md.pattern_emojis[code] || '📄';
+        sumHtml += '<div style="background:'+col+'22;border:1px solid '+col+';border-radius:8px;padding:6px 14px;min-width:120px;flex:1;text-align:center">'+
+            '<div style="font-size:18px;font-weight:700;color:'+col+'">'+emj+' '+md.pattern_names[code]+'</div>'+
+            '<div style="font-size:12px;color:var(--text)">'+st.count+' pages | avg CTR '+avgCtr+'</div></div>';
+        for (const pg of st.pages) {{
+            allPages.push({{...pg, pattern_code:code}});
+        }}
+    }}
+    sumHtml += '</div>';
+    sd.innerHTML = sumHtml;
+    
+    // Sort pages: high click-gap first
+    allPages.sort((a,b) => b.click_gap - a.click_gap);
+    let r = '';
+    const pcols = md.pattern_colors;
+    const pemjs = md.pattern_emojis;
+    for (const pg of allPages.slice(0,30)) {{
+        const col = pcols[pg.pattern_code] || 'var(--text-muted)';
+        const emj = pemjs[pg.pattern_code] || '📄';
+        const gapColor = pg.click_gap > 50 ? 'var(--red)' : pg.click_gap > 20 ? 'var(--amber)' : 'var(--text-secondary)';
+        r += '<tr><td class="slug-cell">'+pg.slug.slice(0,38)+'</td>'+
+            '<td style="color:'+col+'">'+emj+' '+pg.pattern_name+'</td>'+
+            '<td>'+pg.imp+'</td>'+
+            '<td>'+pg.ctr.toFixed(2)+'%</td>'+
+            '<td style="color:'+gapColor+';font-weight:700">'+pg.click_gap+'</td></tr>';
+    }}
+    tb.innerHTML = r || '<tr><td colspan="5" style="color:var(--text-muted)">No pattern data.</td></tr>';
+}});
+</script>"""
 
     # KPI extraction
     kpi = {
@@ -1912,7 +2127,32 @@ tr:hover td {{ background: rgba(255,255,255,0.02); }}
     </div>
 </div>
 
-<div class="grid-2" style="grid-template-columns:1fr 1fr 1fr\">
+<!-- JEV Classification (stored data — persists beyond Sep 26 free tier) -->
+<div class="section">
+    <h2>🧠 JEV Intent Classification <span class="section-help">— Pages classified by Jev (Typesafe AI) during the free-trial window. Data is cached in dashboard.json and persists. Shows intent mismatches, meta quality gaps, and missing stakes signals. Stays visible until all outstanding items are resolved. <span style="color:var(--amber)">Trial ends Sep 26 — after which this panel freezes with the last classification.</span></span></h2>
+    <div class="table-wrap">
+        <table>
+            <thead><tr><th>Page</th><th>Intent</th><th>Conf</th><th>Meta</th><th>Stakes</th><th>Flags</th></tr></thead>
+            <tbody id="jev-tbody"></tbody>
+        </table>
+    </div>
+</div>
+""" + JEV_SCRIPT_PLACEHOLDER + """
+
+<!-- Meta Pattern Analysis (from competitor database) -->
+<div class="section">
+    <h2>🧠 Meta Pattern Analysis <span class="section-help">— Which title formulas are we using and how are they performing? Pages highlighted by click gap urgency. <a href="scripts/meta-pattern-library.md" style="color:var(--green)">📚 Pattern Library</a> · <a href="scripts/competitor_metas.json" style="color:var(--blue)">📊 151 Competitor Entries</a> · <span style="color:var(--text-muted)">Data pulled: 2026-09-20</span></span></h2>
+    <div id="meta-summary"></div>
+    <p style="font-size:11px;color:var(--text-muted);margin:4px 0">Top 30 pages sorted by click gap. 🏆=Honest Review ⭐=Best/Top 📋=Action Guide ❓=Question 💰=Cost/Deadline ⚔️=Comparison 📄=Other</p>
+    <div class="table-wrap">
+        <table>
+            <thead><tr><th>Page</th><th>Pattern</th><th>Impressions</th><th>CTR</th><th>Click Gap</th></tr></thead>
+            <tbody id="meta-tbody"></tbody>
+        </table>
+    </div>
+</div>
+""" + META_SCRIPT_PLACEHOLDER + """
+<div class="grid-2" style="grid-template-columns:1fr 1fr 1fr">
     <!-- Traffic Mix -->
     <div class="section">
         <h2>🌐 Traffic Sources <span class="section-help">— Where your visitors come from. Organic Search = Google. Direct = typed URL or bookmark. Referral = links from other sites.</span></h2>

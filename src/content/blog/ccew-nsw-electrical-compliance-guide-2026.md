@@ -1,6 +1,6 @@
 ---
-title: 'CCEW NSW: Certificate of Compliance Electrical Work — What It Is & Who Issues It'
-description: "CCEW NSW: the legal cert sparkies must lodge with SafeWork NSW within 7 days for solar, switchboard, EV charger installs. No CCEW = unlicensed work."
+title: 'CCEW NSW 2026: eCert Deadline, Fees & When You Need One'
+description: "CCEW NSW 2026: eCert portal mandatory 1 July — sparkies lodge in 7 days for solar, switchboard, EV charger work. Fees, penalties & step-by-step filing guide."
 pubDate: 'May 09 2026'
 updatedDate: 'Sep 12 2026'
 category: "Compliance"
