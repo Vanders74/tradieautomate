@@ -1039,7 +1039,20 @@ def compute_insights(data):
         ("F", r" vs | versus |Or "),
     ]
     for pg in enhanced_pages:
-        _t = pg.get("title", "")
+        _t = pg.get("title", "") or ""
+        if not _t:
+            # Read title from frontmatter
+            _slug = pg["slug"]
+            _md = os.path.join(CONTENT_DIR, f"{_slug}.md")
+            if os.path.exists(_md):
+                with open(_md) as _f:
+                    _c = _f.read()
+                if _c.startswith("---"):
+                    _end2 = _c.find("---", 3)
+                    for _line in _c[3:_end2].split("\n"):
+                        if _line.startswith("title:"):
+                            _t = _line.split(":", 1)[1].strip().strip("\"'")
+                            break
         _pat = "G"  # default/other
         for _code, _regex in _PATTERN_RULES:
             if _re.search(_regex, _t, _re.I):
