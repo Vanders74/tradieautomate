@@ -1,6 +1,6 @@
 ---
 title: 'NSW Electrical Contractor Licence 2026: Classes, Fees & Steps'
-description: "NSW electrical contractor licence: Fair Trading licence classes, insurance requirements, application fees, and exact steps — plus $22K/$110K penalties for unlicensed work."
+description: "NSW electrical contractor licence: Fair Trading classes, exact application steps, insurance requirements ($5M PLI), fees, and renewal — complete process in one guide."
 pubDate: 'Jul 20 2026'
 updatedDate: 'Jul 20 2026'
 category: "Compliance"
