@@ -215,3 +215,5 @@ Register on VendorPanel and AusTender — both free and required for procurement
 - [Data Centre Fire Protection: Critical Infrastructure Compliance](/blog/data-centre-fire-protection-australia-2026/)
 
 > **Running a data centre project?** [ServiceM8](/tools/) helps electrical contractors track sub-contract packages, manage SWMS documentation, and schedule preventative maintenance across multiple sites. [Start your free trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
+
+> **The Sparky's Playbook** — the free 12-chapter guide covering licensing, EV charging, commercial solar, cash flow, and building an electrical business worth selling. [Download free →](/playbook)
