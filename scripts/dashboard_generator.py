@@ -2279,6 +2279,17 @@ def main():
     else:
         print(f"🤖 Cron status unavailable: {cron_status.get('error', 'unknown')}")
 
+    # 7c. Merge Jev query analysis (from standalone script) if available
+    _jev_qa_path = os.path.join(os.path.dirname(__file__), "jev_query_analysis.json")
+    if os.path.exists(_jev_qa_path):
+        try:
+            _jev_qa = json.load(open(_jev_qa_path))
+            insights["query_intents"] = _jev_qa.get("query_intents", {})
+            insights["intent_mismatches"] = _jev_qa.get("intent_mismatches", [])
+            insights["content_gaps"] = _jev_qa.get("content_gaps", [])
+        except Exception:
+            pass
+
     # 8. Write dashboard.json
     with open(DASHBOARD_JSON, "w") as f:
         json.dump(today, f, indent=2, default=str)

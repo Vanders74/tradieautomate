@@ -1,0 +1,209 @@
+{
+ "query_intents": {
+  "ccew": {
+   "intent": "lookup",
+   "confidence": 0.78
+  },
+  "automate tradie business": {
+   "intent": "strategy",
+   "confidence": 0.99
+  },
+  "job management software for electricians": {
+   "intent": "comparison",
+   "confidence": 0.92
+  },
+  "servicem8 update 2026": {
+   "intent": "lookup",
+   "confidence": 0.99
+  },
+  "business automation for tradies": {
+   "intent": "strategy",
+   "confidence": 0.52
+  },
+  "servicem8 new features": {
+   "intent": "lookup",
+   "confidence": 0.98
+  },
+  "electrical job management software": {
+   "intent": "comparison",
+   "confidence": 0.94
+  },
+  "job management software for electrical contractor": {
+   "intent": "comparison",
+   "confidence": 0.93
+  },
+  "servicem8": {
+   "intent": "lookup",
+   "confidence": 0.93
+  },
+  "job management software for electrical contractors": {
+   "intent": "comparison",
+   "confidence": 0.92
+  },
+  "tradify vs servicem8": {
+   "intent": "comparison",
+   "confidence": 1
+  },
+  "software for electricians": {
+   "intent": "comparison",
+   "confidence": 0.61
+  },
+  "electrician software": {
+   "intent": "comparison",
+   "confidence": 0.9
+  },
+  "electrical maintenance software": {
+   "intent": "comparison",
+   "confidence": 0.91
+  },
+  "electricians software": {
+   "intent": "comparison",
+   "confidence": 0.84
+  },
+  "licensed electrical contractor qld": {
+   "intent": "compliance",
+   "confidence": 0.67
+  },
+  "how does servicem8 handle quoting, invoicing, and payment collection for plumbing and hvac businesses?": {
+   "intent": "lookup",
+   "confidence": 0.99
+  },
+  "electrical business management software": {
+   "intent": "comparison",
+   "confidence": 0.95
+  },
+  "certificate of electrical safety victoria": {
+   "intent": "compliance",
+   "confidence": 0.9
+  },
+  "how much does insurance cost for electrical contractors": {
+   "intent": "lookup",
+   "confidence": 1
+  },
+  "electrician job management software": {
+   "intent": "comparison",
+   "confidence": 0.95
+  },
+  "ev charger installation commercial,electrification & heat pumps,, mof,non-brand": {
+   "intent": "lookup",
+   "confidence": 0.74
+  },
+  "servicem8 vs": {
+   "intent": "comparison",
+   "confidence": 1
+  },
+  "servicem8 vs tradify": {
+   "intent": "comparison",
+   "confidence": 1
+  },
+  "electrical contractor job management software": {
+   "intent": "comparison",
+   "confidence": 0.94
+  },
+  "electrical management software": {
+   "intent": "comparison",
+   "confidence": 0.85
+  },
+  "electrical defect notice": {
+   "intent": "compliance",
+   "confidence": 0.83
+  },
+  "servicem8 revenue": {
+   "intent": "lookup",
+   "confidence": 1
+  },
+  "electrician invoice software": {
+   "intent": "comparison",
+   "confidence": 0.96
+  },
+  "rcd installation": {
+   "intent": "lookup",
+   "confidence": 0.98
+  }
+ },
+ "intent_mismatches": [
+  {
+   "query": "ccew",
+   "query_intent": "lookup",
+   "page_slug": "ccew-nsw-electrical-compliance-guide-2026",
+   "page_intent": "compliance",
+   "impressions": 733,
+   "clicks": 0,
+   "position": 9.4
+  },
+  {
+   "query": "servicem8 update 2026",
+   "query_intent": "lookup",
+   "page_slug": "servicem8-review-2026",
+   "page_intent": "comparison",
+   "impressions": 208,
+   "clicks": 3,
+   "position": 5.7
+  },
+  {
+   "query": "servicem8",
+   "query_intent": "lookup",
+   "page_slug": "servicem8-review-2026",
+   "page_intent": "comparison",
+   "impressions": 118,
+   "clicks": 0,
+   "position": 25.8
+  },
+  {
+   "query": "licensed electrical contractor qld",
+   "query_intent": "compliance",
+   "page_slug": "qld-electrical-contractor-licence-guide-2026",
+   "page_intent": "lookup",
+   "impressions": 65,
+   "clicks": 0,
+   "position": 15.3
+  },
+  {
+   "query": "how does servicem8 handle quoting, invoicing, and payment collection for plumbing and hvac businesses?",
+   "query_intent": "lookup",
+   "page_slug": "servicem8-for-electricians",
+   "page_intent": "comparison",
+   "impressions": 57,
+   "clicks": 0,
+   "position": 7
+  }
+ ],
+ "content_gaps": [
+  {
+   "query": "automate tradie business",
+   "intent": "strategy",
+   "confidence": 0.99,
+   "impressions": 296,
+   "clicks": 0
+  },
+  {
+   "query": "servicem8 new features",
+   "intent": "lookup",
+   "confidence": 0.99,
+   "impressions": 126,
+   "clicks": 0
+  },
+  {
+   "query": "electrician software",
+   "intent": "comparison",
+   "confidence": 0.9,
+   "impressions": 76,
+   "clicks": 0
+  },
+  {
+   "query": "servicem8 revenue",
+   "intent": "other",
+   "confidence": 0,
+   "impressions": 36,
+   "clicks": 0
+  },
+  {
+   "query": "electrician invoice software",
+   "intent": "comparison",
+   "confidence": 0.96,
+   "impressions": 35,
+   "clicks": 0
+  }
+ ],
+ "generated_at": "2026-09-20T09:57:27.138628"
+}
