@@ -135,3 +135,16 @@
   status = 301
   force = true
 
+# Typo: 'as-3000' missing 'nzs' — GSC had 1 impression on misspelled URL
+[[redirects]]
+  from = "/blog/rcd-safety-switch-requirements-as-3000-electricians-2026"
+  to = "/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/rcd-safety-switch-requirements-as-3000-electricians-2026/"
+  to = "/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026/"
+  status = 301
+  force = true
+
