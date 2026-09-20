@@ -1233,8 +1233,8 @@ document.addEventListener('DOMContentLoaded', function() {{
         "pattern_names": _pattern_names,
         "pattern_colors": _pattern_colors,
         "pattern_emojis": _pattern_emojis,
-        "library_path": "scripts/meta-pattern-library.md",
-        "competitor_db": "scripts/competitor_metas.json",
+        "library_path": "repo/scripts/meta-pattern-library.md",
+        "competitor_db": "repo/scripts/competitor_metas.json",
         "last_pulled": "2026-09-20",
     })
     META_SCRIPT_PLACEHOLDER = f"""<script>
@@ -1869,7 +1869,7 @@ tr:hover td {{ background: rgba(255,255,255,0.02); }}
     color: var(--text-muted);
     font-weight: 400;
     margin-left: 8px;
-    opacity: 0;
+    opacity: 0.7;
     transition: opacity 0.2s;
 }}
 .section h2:hover .section-help,
@@ -2141,7 +2141,7 @@ tr:hover td {{ background: rgba(255,255,255,0.02); }}
 
 <!-- Meta Pattern Analysis (from competitor database) -->
 <div class="section">
-    <h2>🧠 Meta Pattern Analysis <span class="section-help">— Which title formulas are we using and how are they performing? Pages highlighted by click gap urgency. <a href="scripts/meta-pattern-library.md" style="color:var(--green)">📚 Pattern Library</a> · <a href="scripts/competitor_metas.json" style="color:var(--blue)">📊 151 Competitor Entries</a> · <span style="color:var(--text-muted)">Data pulled: 2026-09-20</span></span></h2>
+    <h2>🧠 Meta Pattern Analysis <span class="section-help">— Which title formulas are we using and how are they performing? Pages highlighted by click gap urgency. <a href="repo/scripts/meta-pattern-library.md" style="color:var(--green)">📚 Pattern Library</a> · <a href="repo/scripts/competitor_metas.json" style="color:var(--blue)">📊 151 Competitor Entries</a> · <span style="color:var(--text-muted)">Data pulled: 2026-09-20</span></span></h2>
     <div id="meta-summary"></div>
     <p style="font-size:11px;color:var(--text-muted);margin:4px 0">Top 30 pages sorted by click gap. 🏆=Honest Review ⭐=Best/Top 📋=Action Guide ❓=Question 💰=Cost/Deadline ⚔️=Comparison 📄=Other</p>
     <div class="table-wrap">
