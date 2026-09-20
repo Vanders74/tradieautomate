@@ -1036,7 +1036,7 @@ def compute_insights(data):
         ("C", r"When You Need|How to|form$|Action|Guide|Step-by"),
         ("D", r"^What|^Is |^Are |^Does|\?"),
         ("E", r"Fee|Cost|Price|\$\d|Rules? \d{4}"),
-        ("F", r" vs | versus |Or "),
+        ("F", r"\bvs\.?\b|\bversus\b"),
     ]
     for pg in enhanced_pages:
         _t = pg.get("title", "") or ""
