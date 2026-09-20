@@ -2251,11 +2251,6 @@ def main():
         try:
             with open(DASHBOARD_JSON) as f:
                 yesterday = json.load(f)
-            # Only use yesterday if it's from a different calendar day
-            yesterday_date = yesterday.get("generated_at", "")[:10]
-            today_date = today["generated_at"][:10]
-            if yesterday_date == today_date:
-                yesterday = None  # Same day, don't compare against ourselves
         except Exception:
             yesterday = None
 
