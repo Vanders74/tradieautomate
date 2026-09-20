@@ -2137,7 +2137,7 @@ tr:hover td {{ background: rgba(255,255,255,0.02); }}
         </table>
     </div>
 </div>
-""" + JEV_SCRIPT_PLACEHOLDER + """
+""" + JEV_SCRIPT_PLACEHOLDER + f"""
 
 <!-- Meta Pattern Analysis (from competitor database) -->
 <div class="section">
@@ -2151,7 +2151,7 @@ tr:hover td {{ background: rgba(255,255,255,0.02); }}
         </table>
     </div>
 </div>
-""" + META_SCRIPT_PLACEHOLDER + """
+""" + META_SCRIPT_PLACEHOLDER + f"""
 <div class="grid-2" style="grid-template-columns:1fr 1fr 1fr">
     <!-- Traffic Mix -->
     <div class="section">
