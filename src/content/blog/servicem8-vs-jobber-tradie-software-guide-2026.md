@@ -1,6 +1,6 @@
 ---
-title: 'ServiceM8 vs Jobber: Job Management Software for Australian Solar and Electrical Businesses'
-description: 'ServiceM8 vs Jobber 2026: which job management software wins for Australian solar and electrical businesses? Pricing, CCEW compliance, and mobile workflow compared side-by-side.'
+title: 'ServiceM8 vs Jobber 2026: Honest Review for Aussie Solar & Electrical Tradies'
+description: 'ServiceM8 from $29/mo beats Jobber for compliance-heavy Aussie trades; Jobber wins on client experience. Full pricing & feature breakdown.'
 pubDate: 'May 22 2026'
 updatedDate: 'Jul 30 2026'
 category: "Software Comparisons"
