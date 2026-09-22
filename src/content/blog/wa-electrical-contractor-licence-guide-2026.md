@@ -1,6 +1,6 @@
 ---
-title: 'WA Electrical Contractor Licence 2026: EnergySafety Fees & CCEI Rules'
-description: "WA electrical contractor licence via EnergySafety: application steps, current fees, $5M insurance minimums, CCEI obligations, and 1–3 year licence term options — 2026."
+title: 'WA Electrical Contractor Licence 2026: Fees, Insurance & CCEI Rules'
+description: "WA Electrical Contractor Licence 2026: $795 for 1-year or $2,101 for 3 years. EnergySafety application steps, $5M insurance, CCEI obligations & 1-3 year term options. Compare your options."
 pubDate: 'Jun 9 2026'
 updatedDate: 'Jul 20 2026'
 category: "Compliance"
