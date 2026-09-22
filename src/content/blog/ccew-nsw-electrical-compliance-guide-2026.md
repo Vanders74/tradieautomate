@@ -1,8 +1,8 @@
 ---
 title: 'CCEW NSW 2026: eCert Deadline, Fees & When You Need One'
-description: "CCEW NSW 2026: eCert portal mandatory 1 July — sparkies lodge in 7 days for solar, switchboard, EV charger work. Fees, penalties & step-by-step filing guide."
+description: "CCEW electrical compliance certificate NSW: lodge the eCert portal within 7 days — $2,200 late penalty, step-by-step guide. Discover how to file yours."
 pubDate: 'May 09 2026'
-updatedDate: 'Sep 12 2026'
+updatedDate: 'Sep 23 2026'
 category: "Compliance"
 heroImage: '/hero-ccew-nsw-guide.jpg'
 tags: ['CCEW', 'NSW', 'compliance', 'electrician', 'electrical certificate', 'SafeWork NSW']
@@ -46,6 +46,18 @@ Getting your CCEW obligations right is not complex, but it is non-negotiable. Th
 ---
 
 ## What Is the CCEW? (2026 Requirements)
+
+A Certificate of Compliance — Electrical Work (CCEW) is a legal document issued by a licensed electrical contractor after completing notifiable electrical work in NSW. Since 1 July 2026, all CCEWs must be lodged through the BCNSW eCert portal.
+
+**Key CCEW concepts at a glance:**
+
+1. **When CCEW is required** — After notifiable work: solar, switchboard upgrades, EV chargers, air conditioning wiring, and any new electrical installation
+2. **eCert portal** — Mandatory from 1 July 2026 — PDF and paper CCEWs are no longer accepted
+3. **7-day deadline** — The CCEW must be issued within 7 calendar days of completing the work
+4. **Fees & penalties** — Late/non-lodgement penalties up to $22,000 for individuals, $110,000 for corporations
+5. **What the CCEW must include** — Contractor details, site address, work description, AS/NZS 3000 compliance statement, and the work completion date
+
+For a step-by-step breakdown of each requirement, see the sections below.
 
 The Certificate of Compliance — Electrical Work (CCEW) is a document that certifies:
 1. That specific electrical installation work was performed by a licensed contractor
