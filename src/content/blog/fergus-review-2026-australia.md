@@ -130,7 +130,7 @@ At minimum, use both free trials and test the actual workflow for your business 
 
 - [ServiceM8 vs Fergus — Which Is Better for Australian Trades?](/blog/servicem8-vs-fergus/)
 - [Tradify Review 2026 — Is It Worth It for Australian Trades?](/blog/tradify-review-2026-australia/)
-- [Electrical Job Management Software Australia 2026 — Buyer's Guide](/blog/electrical-job-management-software-buyers-guide-australia/)
+For a comparison of all platforms, see [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia/).
 - [ServiceM8 Pricing 2026 — Plans and Real Costs](/blog/servicem8-pricing-plans-australia-2026/)
 - [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia/)
 

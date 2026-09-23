@@ -64,10 +64,12 @@ Do NOT use this pattern on tradieautomate.com — it only works for government d
 
 ## Meta description rules (universal):
 1. Lead with the KEY ACTION — not "[Topic] is a..."
-2. Every description must have a dollar figure, deadline, or specific number
-3. 120-160 chars. Below 120 = thin. Above 160 = truncated.
-4. No fear framing. "Penalties" is factual. "Avoid $22K fines" on a process query kills CTR.
-5. End with a "guide" or "step-by-step" signal if the page is structured that way.
-6. For comparison reviews: mention the specific differentiator ($29/mo, for crew size X)
-7. For compliance: mention the fee/deadline (from $X, within Y days)
-8. For lookup: mention the specific data point (X% rate, $X per hour)
+2. **Slippery Lead-In** — first 10 words must drop the reader into the verdict/stat/deadline. Never start with "This article covers..." or "In this guide we...". The first word of every meta should be a name, number, or verb — never a setup phrase.
+3. Every description must have a dollar figure, deadline, or specific number
+4. 120-160 chars. Below 120 = thin. Above 160 = truncated.
+5. No fear framing. "Penalties" is factual. "Avoid $22K fines" on a process query kills CTR.
+6. End with a "guide" or "step-by-step" signal if the page is structured that way.
+7. For comparison reviews: mention the specific differentiator ($29/mo, for crew size X)
+8. For compliance: mention the fee/deadline (from $X, within Y days)
+9. For lookup: mention the specific data point (X% rate, $X per hour)
+10. **Velvet CTA** — use soft verbs in the closing signal: "discover how to", "see the full breakdown", "find out why", "compare your options". Avoid hard/transactional verbs: "buy", "sign up", "download now". The searcher is in info-seeking mode, not buying mode.
