@@ -148,3 +148,16 @@
   status = 301
   force = true
 
+
+# Consolidation: buyers-guide merged into best-job-management-software (Sep 23)
+[[redirects]]
+  from = "/blog/electrical-job-management-software-buyers-guide-australia"
+  to = "/blog/best-job-management-software-electricians-australia/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/electrical-job-management-software-buyers-guide-australia/"
+  to = "/blog/best-job-management-software-electricians-australia/"
+  status = 301
+  force = true

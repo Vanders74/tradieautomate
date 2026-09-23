@@ -153,7 +153,7 @@ Paper checklists and photos buried in camera rolls won't cut it when the CER aud
 
 Want to know exactly what CER auditors ask for and how to prepare? Read our dedicated [CER audit prep guide for solar installers](/blog/cer-audit-prep-solar-installers/) — it covers the audit process step by step, including what auditors specifically look for and how to respond to an audit notice.
 
-Not sure which platform is right for your business? See our [Electrical Job Management Software Buyer's Guide](/blog/electrical-job-management-software-buyers-guide-australia/) or our comparison of [ServiceM8 pricing plans and what you actually get](/blog/servicem8-pricing-plans-australia-2026/).
+Not sure which platform is right for your business? See our [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia/) guide.
 
 ## Staying Current as Standards Change
 
@@ -210,7 +210,7 @@ Yes. [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance/) has specific r
 - [Commercial EV Charging Australia 2026: Compliance, AS/NZS 3000 & Pricing](/blog/ev-charging-commercial-premises-australia-2026/)
 - [Why Solar Installers Are Switching to Digital Job Management in 2026](/blog/digital-job-management-solar-installers/)
 - [ServiceM8 for Solar Installers: The Job Management Platform Built for Compliance](/blog/servicem8-for-solar-installers/)
-- [Electrical Job Management Software Australia 2026: Buyer's Guide](/blog/electrical-job-management-software-buyers-guide-australia/)
+- *[Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia/) — the step-by-step decision framework, if you'd rather pick by criteria than a ranked list*
 - [Victorian Energy Upgrades (VEU) Guide: $250–$1,650 per heat pump job via VEECs](/blog/victorian-energy-upgrades-veu-electricians-guide-2026/)
 
 ---
