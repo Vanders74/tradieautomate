@@ -1,14 +1,15 @@
 ---
 title: 'Certificate of Electrical Safety VIC 2026: Fees, 28-Day Rule & Guide'
 description: 'Certificate of Electrical Safety VIC 2026: mandatory for prescribed work — issue via ESV Connect in 28 days. $39.04 fee and compliance guide.'
+shortDescription: 'Certificate of Electrical Safety Victoria — what sparkies need to know. Issue via ESV Connect, 28-day deadline, $39.04 fee, penalties for late compliance.'
 pubDate: 'May 15 2026'
-updatedDate: 'Sep 11 2026'
+updatedDate: 'Sep 25 2026'
 category: "Compliance"
 breakdown:
   - title: "Know when it's required"
     summary: "Every notifiable install — solar, switchboard, EV charger, new circuits."
   - title: "Issue within 28 days"
-    summary: "From completion, via ESV Connect (~$7–$10 per CES)."
+    summary: "From completion, via ESV Connect (~$7-$10 per CES)."
   - title: "Describe the work properly"
     summary: "Brand, model, capacity — not 'solar installation'."
   - title: "Notify the DNSP separately"
@@ -16,7 +17,7 @@ breakdown:
     href: "/blog/vic-solar-connection-guide-2026"
     hrefLabel: "VIC connection guide →"
   - title: "Mind the penalties"
-    summary: "$150–$300 late fee per cert; $2k–$5k infringement per breach."
+    summary: "$150-$300 late fee per cert; $2k-$5k infringement per breach."
     href: "/blog/vic-electrical-contractor-licence-guide-2026"
     hrefLabel: "VIC REC licence →"
 heroImage: '/hero-ces-victoria-guide.jpg'
@@ -32,6 +33,16 @@ faq:
     answer: "Yes. Every solar PV installation in Victoria that involves electrical connection work requires a CES. This includes the connection from the inverter to the switchboard, any switchboard modifications, and the grid connection. The contractor must also notify the relevant electricity distributor (DNSP) separately — the CES alone does not satisfy the network notification obligation."
   - question: "What happens if an electrician doesn't issue a CES in Victoria?"
     answer: "Failure to issue a CES within 28 days is a breach of the Electricity Safety Act 1998 and can result in fines, licence suspension, or revocation. Energy Safe Victoria has increased its audit activity in recent years, particularly for solar installations. Businesses repeatedly failing to issue timely certificates risk losing their contractor's licence."
+---
+
+**Certificate of Electrical Safety Victoria: the essentials**
+- **What:** Legal document for all prescribed electrical work in Victoria
+- **Deadline:** Issue via ESV Connect within 28 days of completion
+- **Fee:** $39.04 per CES
+- **Who issues:** Licensed electrical contractor (REC holder)
+- **State regulator:** Energy Safe Victoria (ESV)
+- **Penalties:** $150–$300 late fee per certificate; infringement notices up to $5,000
+
 ---
 
 The Certificate of Electrical Safety (CES) is one of the most important compliance obligations for electrical contractors working in Victoria. Yet it's also one of the most commonly misunderstood — particularly around when it's required, who can issue it, and the consequences of getting it wrong.
