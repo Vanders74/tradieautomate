@@ -37,6 +37,8 @@ ServiceM8 has become a household name in the Australian trades industry — and 
 > - **Best for:** 1-15 person trade businesses — electrical contractors, solar installers, plumbers, HVAC crews
 > - **Key features:** CCEW compliance forms, Xero integration, same-day invoicing, GPS dispatch, digital forms
 > - **Verdict:** Market leader for Australian small-to-mid trade businesses. Strongest compliance documentation support, weakest for enterprise/commercial project management.
+>
+> [**Start your free 14-day ServiceM8 trial →**](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
 As someone who's spent years helping Australian trades businesses migrate from paper-based systems and whiteboards to digital job management, I've seen ServiceM8 running live across solar installation companies, electrical contractors, and plumbing businesses of all sizes. This review gives you an honest breakdown from that vantage point — what the platform does well, where it falls short, and who it's really built for.
 
