@@ -26,6 +26,8 @@ tags: ['Queensland', 'electrical contractor', 'QBCC', 'ESQ', 'compliance', 'sola
 faq:
   - question: "What licences do I need to operate as an electrical contractor in Queensland?"
     answer: "In Queensland, electrical contractors require both a Queensland Building and Construction Commission (QBCC) contractor licence and an Electrical Contractor Licence issued by the Electrical Safety Office (QLD). The QBCC licence covers financial requirements (Minimum Financial Requirements) and insurance, while the Electrical Safety Office licence covers electrical safety compliance under the Electrical Safety Act 2002 (QLD)."
+  - question: "What is a QBCC electrical licence and who needs one?"
+    answer: "The QBCC electrical contractor licence is issued by the Queensland Building and Construction Commission to electrical contractors performing building or construction work in Queensland. It covers financial accountability, insurance requirements, and compliance with the QBCC Act. Any electrical contractor doing residential or commercial building work — including solar mounting systems, switchboard upgrades, and new construction — must hold a QBCC contractor licence in addition to their Electrical Safety Office licence."
   - question: "What insurance is required for a QLD electrical contractor licence?"
     answer: "QBCC requires electrical contractors to maintain public liability insurance of at least $5 million and professional indemnity insurance where applicable. You must also meet the QBCC Minimum Financial Requirements (MFR) for your licence category. Insurance certificates must be current at all times and produced on QBCC request."
   - question: "Does a Queensland electrical contractor licence cover solar installation?"
