@@ -65,7 +65,7 @@ This is AroFlo's standout capability. The asset register links client sites, ind
 
 ### Compliance certificate management
 
-AroFlo's compliance module lets you attach test reports and compliance certificates to assets. For businesses generating significant compliance paperwork (test and tag, RCD testing, AS/NZS 3000 inspections), the ability to track certificate status by asset and client is useful.
+AroFlo's compliance module lets you attach test reports and compliance certificates to assets. For businesses generating significant compliance paperwork (test and tag per [AS/NZS 3760](/blog/test-and-tag-asnzs-3760-compliance-guide/), RCD testing, AS/NZS 3000 inspections), the ability to track certificate status by asset and client is useful.
 
 ### Job costing
 

@@ -152,6 +152,8 @@ Most residential solar businesses use registered STC traders who manage the lodg
 
 ## Common STC Errors That Trigger CER Audits
 
+> **Before the auditor knocks:** the free [Solar Compliance Checklist (PDF)](/compliance-checklist) is what CER-accredited businesses use to keep STC documentation, AS/NZS 5139 battery installs and labelling audit-ready. [Download the checklist →](/compliance-checklist)
+
 The CER's audit selection criteria include patterns and anomalies — businesses that consistently show certain error types end up in audit streams. Here's what to avoid:
 
 **1. System size discrepancy**
