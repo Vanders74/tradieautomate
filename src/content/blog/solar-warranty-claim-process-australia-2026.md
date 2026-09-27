@@ -85,7 +85,9 @@ This means you may need to deal with a customer complaint under ACL even when th
 
 ## How to Lodge a Solar Panel Warranty Claim
 
-Panel warranty claims are the most complex because you need to prove that the failure is a manufacturing defect, not physical damage or installation error.
+Panel warranty claims are the most complex because you need to prove that the failure is a manufacturing defect, not physical damage or installation error. A claim that sticks in the first pass comes down to documentation.
+
+> **Keep every claim's paperwork in one audit-ready file:** the [Solar Compliance Checklist (PDF)](/compliance-checklist) is the same documentation discipline — install records, STC paperwork, labelling — that proves your installation met code when the manufacturer starts looking for an out. [Download the checklist →](/compliance-checklist)
 
 **Step 1: Document the failure thoroughly.**
 - Photograph the panel in situ showing the defect (delamination, cracking, yellowing, cell discolouration)

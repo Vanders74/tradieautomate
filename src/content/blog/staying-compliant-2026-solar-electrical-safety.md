@@ -155,6 +155,8 @@ Each jurisdiction has equivalent certification and notification requirements. If
 
 ## The Solar Compliance Safety Audit Checklist
 
+> **Grab the printable version:** the downloadable [Solar Compliance Checklist (PDF)](/compliance-checklist) covers CER rules, AS/NZS 5139, and STC documentation in one audit-ready file. [Download the checklist →](/compliance-checklist)
+
 Use this checklist to assess your business's current compliance position across each key area.
 
 ### SWMS and WHS Compliance

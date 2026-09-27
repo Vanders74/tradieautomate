@@ -123,6 +123,7 @@ Every electrical safety audit — regardless of the state regulator — follows 
 - Use digital test equipment that logs results with timestamps (Megger, Fluke, or Metrel)
 - Never backfill test sheets — auditors check the date and time stamps against your job completion dates
 - Store test records by job number, not by date — this makes retrieval during an audit far faster
+- Keep portable-appliance testing on a documented schedule — see the [Test & Tag AS/NZS 3760 guide](/blog/test-and-tag-asnzs-3760-compliance-guide/) for the interval rules per environment
 
 ### Category 4: SWMS & WHS Documentation
 
