@@ -1,6 +1,6 @@
 ---
-title: "Apprentice Ratios & Hiring Incentives for Electricians Australia 2026"
-description: "State-by-state apprentice ratios for electrical contractors — plus federal hiring incentives up to $5,000 and the net cost of hiring an apprentice in 2026."
+title: "Apprentice Ratios for Electricians 2026: State Rules, Federal Incentives & Net Cost"
+description: "Hiring an electrical apprentice in 2026: 1:1 ratio in most states, AAIS incentives up to $5,000, and $33K–$39K net first-year cost. Full state-by-state breakdown."
 pubDate: 'Jul 20 2026'
 updatedDate: 'Jul 20 2026'
 category: "Compliance"
