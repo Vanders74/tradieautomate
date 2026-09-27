@@ -37,6 +37,19 @@
   status = 301
   force = true
 
+# GSC residual slug — old blog URL, no longer in sitemap
+[[redirects]]
+  from = "/blog/best-job-management-software-solar-installers-australia-2026"
+  to = "/blog/solar-job-management-software-australia-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/best-job-management-software-solar-installers-australia-2026/"
+  to = "/blog/solar-job-management-software-australia-2026/"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/guides/best-job-management-software-solar-installers-australia-2026/"
   to = "/blog/solar-job-management-software-australia-2026/"
