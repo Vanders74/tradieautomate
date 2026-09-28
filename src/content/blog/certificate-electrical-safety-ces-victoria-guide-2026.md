@@ -1,9 +1,9 @@
 ---
-title: 'Certificate of Electrical Safety VIC 2026: Fees, 28-Day Rule & Guide'
+title: 'CES Victoria 2026: Certificate of Electrical Safety Guide — Fees, 28-Day Rule & ESV Connect'
 description: "Certificate of Electrical Safety (CES) Victoria: issue via ESV Connect within 28 days — $39.04 fee, penalties for late lodgement. Discover the compliance timeline required for Victorian sparkies."
 shortDescription: 'Certificate of Electrical Safety Victoria — what sparkies need to know. Issue via ESV Connect, 28-day deadline, $39.04 fee, penalties for late compliance.'
 pubDate: 'May 15 2026'
-updatedDate: 'Sep 25 2026'
+updatedDate: 'Sep 29 2026'
 category: "Compliance"
 breakdown:
   - title: "Know when it's required"
