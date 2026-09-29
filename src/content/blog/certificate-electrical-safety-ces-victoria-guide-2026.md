@@ -53,20 +53,6 @@ This guide covers the CES requirements comprehensively — when it applies, what
 
 > **⚡ Still doing CES forms manually?** ServiceM8 pre-fills certificates from job data — [how Victorian electricians are automating ESV compliance](/blog/servicem8-for-electricians/).
 
-<div class="compliance-bridge-box" style="border-left:4px solid #f97316;background:#0f172a;padding:20px 24px;border-radius:8px;margin:32px 0;color:#e2e8f0">
-  <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
-    <div style="flex:1;min-width:220px">
-      <strong style="display:block;font-size:1.05rem;margin-bottom:4px">Still filling out CES forms manually at 8pm?</strong>
-      <p style="margin:0;font-size:0.9rem;color:#94a3b8">
-        ServiceM8 pre-fills your CES from job data, attaches compliance photos automatically, and lodges through ESV Connect — before you leave site.
-      </p>
-    </div>
-    <a href="https://www.servicem8.com/au/register/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=cesvic_bridge" target="_blank" rel="nofollow sponsored" style="background:#f97316;color:#fff;padding:12px 20px;border-radius:8px;font-weight:700;text-decoration:none;white-space:nowrap;flex-shrink:0">
-      Try Free 14 Days →
-    </a>
-  </div>
-</div>
-
 ---
 
 ## What Is a Certificate of Electrical Safety?
