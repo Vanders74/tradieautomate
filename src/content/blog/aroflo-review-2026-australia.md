@@ -2,7 +2,7 @@
 title: "AroFlo Review 2026: Is It Right for Australian Trade Businesses?"
 description: "Honest AroFlo review for Australian electrical, solar, and trade businesses in 2026 — pricing, features, compliance tools, mobile app, and how it stacks up against ServiceM8 and simPRO."
 pubDate: 2026-07-21
-updatedDate: 2026-07-21
+updatedDate: Oct 1 2026
 heroImage: '/hero-aroflo-review-2026-australia.jpg'
 category: "Software Comparisons"
 tags: ["aroflo review", "aroflo australia", "aroflo pricing 2026", "aroflo vs servicem8", "aroflo for electricians", "trade job management software", "aroflo review 2026"]
@@ -89,7 +89,7 @@ AroFlo doesn't have a pre-built CCEW (Certificate of Compliance for Electrical W
 
 ### Cost versus simpler alternatives
 
-For businesses that don't need the asset management depth, AroFlo's per-user pricing is hard to justify versus ServiceM8. A 5-person team at $400–$750/month vs ServiceM8 at $199/month is a $200–$550/month difference — $2,400–$6,600/year.
+For businesses that don't need the asset management depth, AroFlo's per-user pricing is hard to justify versus ServiceM8. A 5-person team at $400–$750/month vs ServiceM8 at $149/month (Premium plan, 500 jobs, unlimited users) is a $250–$601/month difference — $3,000–$7,212/year.
 
 ### Implementation time
 
@@ -106,7 +106,7 @@ AroFlo's mobile app handles the basics — job viewing, time entry, photos, form
 | Feature | AroFlo | ServiceM8 |
 |---|---|---|
 | Pricing model | Per user | Per job volume |
-| Cost (5 staff) | ~$400–$750/month | $199/month |
+| Cost (5 staff) | ~$400–$750/month | $149/month |
 | Asset management | ✅ Comprehensive | Limited |
 | Pre-built CCEW form | ❌ Not built-in | ✅ Yes |
 | Mobile app quality | Good | ✅ Excellent |

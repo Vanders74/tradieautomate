@@ -2,6 +2,7 @@
 title: "Electrical Switchboard Upgrade Cost Australia 2026: What to Expect and Why"
 description: "Electrical switchboard upgrade costs in Australia 2026 — what actually drives the price, what's included in a quality job, and when your solar or EV install makes an upgrade unavoidable."
 pubDate: 'Jul 13 2026'
+updatedDate: 'Oct 1 2026'
 category: "Compliance"
 heroImage: '/hero-compliance-safety-2026.jpg'
 tags: ['switchboard upgrade', 'electrical compliance', 'AS/NZS 3000', 'solar', 'EV charger', 'electrician', 'cost guide']

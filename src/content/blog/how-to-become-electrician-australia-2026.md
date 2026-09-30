@@ -2,7 +2,7 @@
 title: "How to Become an Electrician in Australia 2026: Apprenticeship, Licence & Wages"
 description: "Becoming an electrician in Australia takes 4 years — here's the full pathway. Apprenticeship, Cert III, A-grade licence, costs ($2K–$6K) and wages ($16–$68/hr)."
 pubDate: 'Jul 2026'
-updatedDate: 'Jul 2026'
+updatedDate: 'Oct 1 2026'
 category: 'Business Growth'
 heroImage: '/hero-how-to-become-electrician.jpg'
 tags: ['electrician', 'apprentice', 'career', 'licensing', 'business', 'training']

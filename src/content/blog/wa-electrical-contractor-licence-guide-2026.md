@@ -2,7 +2,7 @@
 title: 'WA Electrical Contractor Licence 2026: Fees, Insurance & CCEI Rules'
 description: "WA Electrical Contractor Licence 2026: $795 for 1-year or $2,101 for 3 years. EnergySafety application steps, $5M insurance, CCEI obligations & 1-3 year term options. Compare your options."
 pubDate: 'Jun 9 2026'
-updatedDate: 'Jul 20 2026'
+updatedDate: 'Oct 1 2026'
 category: "Compliance"
 breakdown:
   - title: "Hold the worker licence"
@@ -16,7 +16,7 @@ breakdown:
     href: "/blog/electrical-contractor-insurance-australia-2026"
     hrefLabel: "Insurance guide →"
   - title: "Apply via EnergySafety"
-    summary: "~$384 for a 3-year term; 4–6 weeks processing."
+    summary: "$795 for 1-year or $2,101 for 3-year term; 4–6 weeks processing."
   - title: "Issue a CCEI per job"
     summary: "Before energisation — WA's key compliance document."
   - title: "Add CEC for solar"
@@ -46,7 +46,7 @@ Key takeaways:
 - WA electrical contractor licences are issued by **EnergySafety** under DEMIRS — not by a building commission
 - Every grid-connected solar install requires a **CCEI** before energisation
 - Minimum **$5 million public liability insurance** is mandatory
-- Licences are renewable every **1–3 years** at approximately **$384 per term**
+- Licences are renewable every **1–3 years** ($795 for 1 year; $2,101 for 3 years)
 
 ---
 
@@ -75,7 +75,7 @@ To hold an electrical contractor's licence in WA, you or your nominated Responsi
 | Business registration | ABN and relevant business entity registration |
 | Licence term | Can be granted for 1–3 year terms |
 
-**Application fee:** The WA electrical contractor licence application fee is approximately **$384 for a 3-year term** as of 2026. Check the current fee schedule on the EnergySafety (DEMIRS) website — fees are updated annually and may vary with licence term length. Processing typically takes 4–6 weeks from submission of a complete application.
+**Application fee:** The WA electrical contractor licence application fee is **$795 for a 1-year term** or **$2,101 for a 3-year term** as of 2026 (includes a $142 non-refundable application fee plus the registration fee). Check the current fee schedule on the EnergySafety (DEMIRS) website — fees are updated annually and may vary with licence term length. Processing typically takes 4–6 weeks from submission of a complete application.
 
 ### Responsible Supervisor obligations
 
@@ -145,7 +145,7 @@ WA electrical contractor licences are issued for 1–3 year terms. Renewal requi
 - Confirm insurance remains in place (minimum $5M public liability)
 - Pay renewal fee (confirm current fee on EnergySafety website)
 
-**Renewal costs in 2026:** The annual renewal fee is approximately **$128/year** (or approximately $384 for the full 3-year term). Late renewal — where the licence has already lapsed — incurs an additional late fee of typically **$50–$100** and may require a new application rather than a simple renewal. Operating on a lapsed licence is unlicensed electrical contracting, which carries penalties and potential insurance invalidation for any work performed during the lapse period.
+**Renewal costs in 2026:** The annual renewal fee is approximately **$653/year** ($1,959 for a 3-year renewal). Late renewal — where the licence has already lapsed — incurs an additional late fee of typically **$50–$100** and may require a new application rather than a simple renewal. Operating on a lapsed licence is unlicensed electrical contracting, which carries penalties and potential insurance invalidation for any work performed during the lapse period.
 
 **Don't let it lapse.** A lapsed contractor's licence means no legal authority to carry out electrical work for profit. Any work done during a lapse period is unlicensed — with significant penalty exposure.
 

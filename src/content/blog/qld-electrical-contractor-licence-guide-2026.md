@@ -1,8 +1,8 @@
 ---
 title: 'QLD Electrical Contractor Licence 2026: QBCC, ESQ, QLeave & Solar'
-description: "QLD electrical contractor licence 6-step process: QBCC classes, ESQ licence, 2.5% QLeave levy, $5M insurance minimums, MFR requirements, and CEC solar accreditation — all in one guide."
+description: "QLD electrical contractor licence 6-step process: QBCC classes, ESQ licence, 1.35% QLeave levy, $5M insurance minimums, MFR requirements, and CEC solar accreditation — all in one guide."
 pubDate: 'Jun 9 2026'
-updatedDate: 'Jul 19 2026'
+updatedDate: 'Oct 1 2026'
 category: "Compliance"
 breakdown:
   - title: "Hold the worker licence"
@@ -16,7 +16,7 @@ breakdown:
   - title: "Meet the MFR"
     summary: "Net tangible assets scale from $12k (up to $200k revenue) upward."
   - title: "Register with QLeave"
-    summary: "2.5% levy on ordinary time earnings, paid quarterly."
+    summary: "1.35% levy on ordinary wages, paid quarterly."
   - title: "Sort insurance + renew"
     summary: "$5M public liability; annual renewal for both licences."
     href: "/blog/electrical-contractor-insurance-australia-2026"
@@ -33,7 +33,7 @@ faq:
   - question: "Does a Queensland electrical contractor licence cover solar installation?"
     answer: "Solar PV installation in Queensland requires both a current Electrical Safety Office (QLD) electrical licence and Clean Energy Council (CEC) accreditation as a solar installer. The QBCC licence is required if your solar work involves structural or building work (mounting systems, roof penetrations). The Electrical Safety Act 2002 (QLD) governs all electrical work including solar."
   - question: "What is QLeave and do Queensland electrical contractors have to pay it?"
-    answer: "QLeave is Queensland's portable long service leave scheme for the building and construction industry. Electrical contractors must register with QLeave and pay the levy (currently 2.5% of ordinary time earnings) for all workers covered by the scheme. Failure to register and pay is a compliance offence under QLD legislation."
+    answer: "QLeave is Queensland's portable long service leave scheme for the building and construction industry. Electrical contractors must register with QLeave and pay the levy (currently 1.35% of workers' ordinary wages) for all workers covered by the scheme. Failure to register and pay is a compliance offence under QLD legislation."
 
 ---
 
@@ -104,14 +104,13 @@ A solar electrical business will typically hold both categories, or the electric
 
 ### Financial Requirements (QBCC MFR)
 
-The QBCC applies a **Minimum Financial Requirements (MFR)** framework. Your required financial resources scale with your annual turnover:
+The QBCC applies a **Minimum Financial Requirements (MFR)** framework across nine financial categories (SC1, SC2, Cat 1–7). Your minimum net tangible assets (NTA) are determined by your maximum revenue category:
 
-| Annual Revenue | Net Tangible Assets Required |
-|---|---|
-| Up to $200,000 | $12,000 |
-| $200,001–$400,000 | $24,000 |
-| $400,001–$800,000 | $46,000 |
-| Over $800,000 | Calculated individually |
+|| Financial Category | Maximum Revenue | Minimum NTA Required |
+|---|---|---|---|
+|| SC1 | Up to $200,000 | $12,000 |
+|| SC2 | Up to $800,000 | $46,000 |
+|| Cat 1–7 | Over $800,000 | Calculated individually |
 
 You must submit annual financial reporting to the QBCC — either a self-declaration (for lower-turnover businesses) or a formal accountant's report. Missing your MFR filing is one of the most common reasons Queensland contractors have their licences suspended.
 
@@ -132,7 +131,7 @@ QLeave is a mandatory portable long service leave scheme for the Queensland buil
 ### Key obligations:
 
 - **Register as an employer** — Any business engaging workers on building work in Queensland must register.
-- **Quarterly levy payments** — The current levy rate is 2.5% of ordinary time earnings for all eligible workers. This is paid quarterly to QLeave.
+- **Quarterly levy payments** — The current levy rate is 1.35% of workers' ordinary wages for all eligible workers. This is paid quarterly to QLeave.
 - **Worker registration** — All eligible workers must be registered individually with QLeave. Workers accumulate entitlements that are portable — they keep their leave regardless of which employer they work for.
 
 The QLeave levy catches new electrical businesses off guard regularly. It's not optional, and failing to pay triggers penalties and interest.
@@ -232,7 +231,7 @@ QBCC licences are renewed annually. As part of renewal, you must submit updated 
 
 **What is the QLeave levy and who has to pay it?**
 
-QLeave is Queensland's portable long service leave scheme for the building and construction industry. Any business engaging workers on building work in Queensland must register as an employer and pay the quarterly levy — currently 2.5% of ordinary time earnings for eligible workers. Solar and electrical installation businesses are typically covered. Many small operators don't realise QLeave applies to them until they're audited.
+QLeave is Queensland's portable long service leave scheme for the building and construction industry. Any business engaging workers on building work in Queensland must register as an employer and pay the quarterly levy — currently 1.35% of workers' ordinary wages for eligible workers. Solar and electrical installation businesses are typically covered. Many small operators don't realise QLeave applies to them until they're audited.
 
 **What happens if my Electrical Safety Queensland contractor licence lapses?**
 
@@ -245,7 +244,7 @@ No — each state has its own licensing framework. To carry out electrical work 
 ---
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do I need both a QBCC licence and an Electrical Safety Queensland contractor licence?","acceptedAnswer":{"@type":"Answer","text":"Yes — for most electrical installation work over $3,300, both are required. The ESQ contractor licence authorises you to carry out electrical work for profit. The QBCC licence covers building work, and solar PV installation is classified as building work in Queensland."}},{"@type":"Question","name":"How often do I renew my QBCC contractor licence in Queensland?","acceptedAnswer":{"@type":"Answer","text":"QBCC licences are renewed annually. Renewal requires updated financial information meeting the Minimum Financial Requirements (MFR) framework. Missing the MFR filing deadline is a common cause of automatic licence suspension."}},{"@type":"Question","name":"What is the QLeave levy and who pays it?","acceptedAnswer":{"@type":"Answer","text":"QLeave is Queensland's portable long service leave scheme. Any business with workers on building work in Queensland must register and pay the quarterly levy — currently 2.5% of ordinary time earnings. Solar and electrical installation businesses are covered."}},{"@type":"Question","name":"What happens if my Queensland contractor licence lapses?","acceptedAnswer":{"@type":"Answer","text":"You cannot legally carry out or quote electrical work while unlicenced. You must cease trading and apply for reinstatement. Build renewal reminders at least 60 days before expiry."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do I need both a QBCC licence and an Electrical Safety Queensland contractor licence?","acceptedAnswer":{"@type":"Answer","text":"Yes — for most electrical installation work over $3,300, both are required. The ESQ contractor licence authorises you to carry out electrical work for profit. The QBCC licence covers building work, and solar PV installation is classified as building work in Queensland."}},{"@type":"Question","name":"How often do I renew my QBCC contractor licence in Queensland?","acceptedAnswer":{"@type":"Answer","text":"QBCC licences are renewed annually. Renewal requires updated financial information meeting the Minimum Financial Requirements (MFR) framework. Missing the MFR filing deadline is a common cause of automatic licence suspension."}},{"@type":"Question","name":"What is the QLeave levy and who pays it?","acceptedAnswer":{"@type":"Answer","text":"QLeave is Queensland's portable long service leave scheme. Any business with workers on building work in Queensland must register and pay the quarterly levy — currently 1.35% of workers' ordinary wages. Solar and electrical installation businesses are covered."}},{"@type":"Question","name":"What happens if my Queensland contractor licence lapses?","acceptedAnswer":{"@type":"Answer","text":"You cannot legally carry out or quote electrical work while unlicenced. You must cease trading and apply for reinstatement. Build renewal reminders at least 60 days before expiry."}}]}
 </script>
 
 ---

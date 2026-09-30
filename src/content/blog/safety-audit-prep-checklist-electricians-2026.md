@@ -2,7 +2,7 @@
 title: 'Electrical Safety Audit Prep Checklist 2026: SafeWork, ESV & State-by-State Requirements'
 description: "SafeWork NSW, ESV & ESO electrical safety audit prep: the 6 checklist categories, documentation you must have on-site, $22K penalty triggers, and how to pass first time. Free downloadable PDF checklist."
 pubDate: 'Aug 2026'
-updatedDate: 'Aug 2026'
+updatedDate: 'Oct 1 2026'
 category: 'Compliance'
 heroImage: '/hero-safety-audit-prep-checklist.jpg'
 tags: ['safety audit', 'SafeWork', 'ESV', 'compliance', 'electrical safety', 'checklist']

@@ -1,8 +1,8 @@
 ---
 title: 'NSW Electrical Contractor Licence 2026: Classes, Fees & Steps'
-description: "NSW electrical contractor licence: Fair Trading classes, exact application steps, insurance requirements ($5M PLI), fees, and renewal — complete process in one guide."
+description: "NSW electrical contractor licence: classes, exact application steps, insurance requirements ($5M PLI), fees, and renewal — complete process in one guide."
 pubDate: 'Jul 20 2026'
-updatedDate: 'Jul 20 2026'
+updatedDate: 'Oct 1 2026'
 category: "Compliance"
 breakdown:
   - title: "Qualify"
@@ -18,7 +18,7 @@ breakdown:
     href: "/blog/electrical-contractor-insurance-australia-2026"
     hrefLabel: "Insurance guide →"
   - title: "Apply via Service NSW"
-    summary: "ECL ~$280 (1 yr) / ~$700 (3 yr); 10–20 business days processing."
+    summary: "ECL ~$403 (1 yr) / ~$803 (3 yr) / ~$1,235 (5 yr); 10–20 business days processing."
   - title: "Issue a CCEW per job"
     summary: "Separate from the licence — required for every installation."
     href: "/blog/ccew-nsw-electrical-compliance-guide-2026"
@@ -31,33 +31,33 @@ faq:
   - question: "What is the difference between an Electrical Contractor Licence and a Qualified Supervisor Certificate in NSW?"
     answer: "A Qualified Supervisor Certificate (QSC) authorises an individual to personally perform and supervise electrical work. An Electrical Contractor Licence (ECL) authorises a business entity — sole trader, company, or partnership — to contract electrical work to clients. You need both: the business holds the ECL, and the person on the tools holds the QSC. A corporation cannot hold a QSC; individuals cannot hold an ECL unless they also have a QSC."
   - question: "Do I need an Electrical Contractor Licence to do solar installation in NSW?"
-    answer: "Yes. Solar PV installation in NSW involves electrical work as defined under the Home Building Act 1989, which requires an Electrical Contractor Licence from NSW Fair Trading. You also need CEC accreditation as a Solar Retailer or Installer to issue STCs and carry out grid-connected systems. The CCEW (Certificate of Compliance for Electrical Work) is required for each solar installation and is a separate obligation from the contractor licence."
+    answer: "Yes. Solar PV installation in NSW involves electrical work as defined under the Home Building Act 1989, which requires an Electrical Contractor Licence from Building Commission NSW. You also need CEC accreditation as a Solar Retailer or Installer to issue STCs and carry out grid-connected systems. The CCEW (Certificate of Compliance for Electrical Work) is required for each solar installation and is a separate obligation from the contractor licence."
   - question: "How long does it take to get an Electrical Contractor Licence in NSW?"
-    answer: "NSW Fair Trading processes straightforward applications within 10–20 business days when all documentation is provided correctly. Missing documents, incomplete insurance certificates, or incorrect insurance minimums are the most common causes of delays. Applications with deficiencies are returned, resetting the clock. Budget 4–6 weeks for a first application to be safe."
+    answer: "Building Commission NSW processes straightforward applications within 10–20 business days when all documentation is provided correctly. Missing documents, incomplete insurance certificates, or incorrect insurance minimums are the most common causes of delays. Applications with deficiencies are returned, resetting the clock. Budget 4–6 weeks for a first application to be safe."
   - question: "What happens if I operate as an electrical contractor in NSW without a licence?"
     answer: "Under the Home Building Act 1989, operating without a contractor licence is a criminal offence. NSW Fair Trading issues penalty notices of $1,100–$2,200 per offence on the spot. Court-imposed fines reach $22,000 for individuals and $110,000 for corporations per offence. Unlicensed contractors cannot enforce payment for completed work — clients can withhold payment without legal recourse. Work defects carry no statutory warranty protection."
   - question: "How does NSW's Electrical Contractor Licence differ from Victoria's CES system?"
-    answer: "Victoria uses the Consumer, Trader and Tenancy Tribunal (CTTT) via Consumer Affairs Victoria, and electrical contractor licensing sits under the Electricity Safety Act 1998 (Vic) through Energy Safe Victoria. NSW operates under the Home Building Act 1989 administered by NSW Fair Trading. The key difference: in VIC, a Registered Electrical Contractor (REC) number is the equivalent of NSW's Electrical Contractor Licence. NSW adds the Qualified Supervisor Certificate as an additional individual-level credential. Both states require public liability insurance but at different minimums."
+    answer: "Victoria uses the Consumer, Trader and Tenancy Tribunal (CTTT) via Consumer Affairs Victoria, and electrical contractor licensing sits under the Electricity Safety Act 1998 (Vic) through Energy Safe Victoria. NSW operates under the Home Building Act 1989 administered by Building Commission NSW. The key difference: in VIC, a Registered Electrical Contractor (REC) number is the equivalent of NSW's Electrical Contractor Licence. NSW adds the Qualified Supervisor Certificate as an additional individual-level credential. Both states require public liability insurance but at different minimums."
 
 ---
 
 Performing electrical contracting work in New South Wales without a licence exposes you to fines of **$22,000 for individuals** and **$110,000 for corporations** under the Home Building Act 1989 — per offence. The Act also strips you of the right to sue for payment on any work performed while unlicensed.
 
-This guide covers everything NSW electrical contractors need: licence classes, the application process through NSW Fair Trading, insurance minimums, the Home Building Act interaction, and the common confusion between CCEWs and contractor licences.
+This guide covers everything NSW electrical contractors need: licence classes, the application process through the Building Commission NSW, insurance minimums, the Home Building Act interaction, and the common confusion between CCEWs and contractor licences.
 
 ---
 
 ## What Is an Electrical Contractor Licence in NSW?
 
-**An Electrical Contractor Licence (ECL) is the authorisation issued by NSW Fair Trading that permits a business to enter contracts with clients to carry out electrical work.** Without it, no contract for electrical work is legally enforceable in NSW.
+**An Electrical Contractor Licence (ECL) is the authorisation issued by Building Commission NSW that permits a business to enter contracts with clients to carry out electrical work.** Without it, no contract for electrical work is legally enforceable in NSW.
 
 The ECL is a *business* licence — it attaches to the entity (sole trader ABN, company, or partnership) that enters the contract with the client. It is governed by:
 
 - **Home Building Act 1989 (NSW)** — the primary legislation
 - **Home Building Regulation 2014 (NSW)** — detailed licence requirements and fees
-- **Electricity (Consumer Safety) Act 2004 (NSW)** — safety obligations for electrical work
+- **Gas and Electricity (Consumer Safety) Act 2017 (NSW)** — safety obligations for electrical work (replaced the Electricity (Consumer Safety) Act 2004)
 
-NSW Fair Trading administers all licensing. SafeWork NSW has a separate jurisdiction over work health and safety on electrical worksites — the two bodies are distinct.
+Building Commission NSW administers all licensing (trade functions were transferred from NSW Fair Trading in December 2023). SafeWork NSW has a separate jurisdiction over work health and safety on electrical worksites — the two bodies are distinct.
 
 ---
 
@@ -106,9 +106,9 @@ A combined credential issued to individuals who hold both a QSC and an ECL in th
 
 ---
 
-## Application Process: NSW Fair Trading Portal
+## Application Process: Service NSW Portal
 
-All NSW Fair Trading licence applications are submitted through the **NSW Government Service NSW Online Portal** (service.nsw.gov.au), previously known as the NSW Fair Trading portal.
+All Building Commission NSW licence applications are submitted through the **NSW Government Service NSW Online Portal** (service.nsw.gov.au).
 
 ### Required Documents
 
@@ -122,28 +122,30 @@ Before starting the application, gather:
 
 ### Insurance Minimums
 
-NSW Fair Trading requires proof of current public liability insurance before issuing an ECL:
+Building Commission NSW requires proof of current public liability insurance before issuing an ECL:
 
 - **General electrical work:** $5,000,000 minimum cover
 - **Specialist work (high voltage, telecommunications infrastructure):** $20,000,000 minimum cover
 
 The insurance certificate must name the exact entity applying for the licence. A policy in a director's personal name does not satisfy a company ECL application.
 
-### Application Fees (2026)
+### Application Fees (2026–27)
 
-Fees are set under the Home Building Regulation 2014:
+Fees are set under the Home Building Regulation 2014 and indexed annually. Figures below are for **July 2026 – June 2027** and apply to individual (sole trader) applications:
 
-| Licence Type | 1 Year | 3 Years |
-|---|---|---|
-| Qualified Supervisor Certificate | ~$150 | ~$380 |
-| Electrical Contractor Licence | ~$280 | ~$700 |
-| Endorsed Contractor Licence | ~$380 | ~$950 |
+| Licence Type | 1 Year | 3 Years | 5 Years |
+|---|---|---|---|
+| Qualified Supervisor Certificate | ~$172 | ~$291 | ~$501 |
+| Electrical Contractor Licence (individual) | ~$403 | ~$803 | ~$1,235 |
+| Endorsed Contractor Licence | ~$403 | ~$803 | ~$1,235 |
 
-*Fees are indexed; confirm current amounts at fair.nsw.gov.au before applying.*
+Company and partnership ECL fees are higher — see the [official fee schedule](https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/assessment-process-and-time-frames/fees-for-licences-and-certificates) for exact amounts.
+
+*Fees are indexed annually; confirm current amounts at nsw.gov.au before applying. Online applications through MyServiceNSW attract a 10% discount on the processing component.*
 
 ### Processing Times
 
-NSW Fair Trading processes complete applications within **10–20 business days**. The most common cause of delays:
+Building Commission NSW processes complete applications within **10–20 business days**. The most common cause of delays:
 
 - Insurance certificate names don't match the applying entity exactly
 - Missing nominee supervisor QSC details
@@ -183,23 +185,23 @@ You need both: the ECL to legally contract the work, and the CCEW to comply with
 Victoria's **Consumer, Trader and Tenancy Tribunal (CTTT)** and Energy Safe Victoria (ESV) administer licensing under the Electricity Safety Act 1998 (Vic). The key differences:
 
 - **VIC uses a REC (Registered Electrical Contractor) number** as the business credential; NSW uses an ECL
-- **VIC licensing is administered by Energy Safe Victoria**, not a building regulator equivalent to NSW Fair Trading
+- **VIC licensing is administered by Energy Safe Victoria**, not a building regulator equivalent to Building Commission NSW
 - **VIC's insurance minimum is $10M**, compared to NSW's $5M (general) / $20M (specialist)
 - **NSW has the QSC as an individual layer** separate from the business licence — VIC achieves this through the REC framework differently
 
-Interstate electrical contractors working in NSW must apply for NSW Fair Trading licensing separately. Interstate recognition applies to trade qualifications (via the National VET Recognition system) but not to contractor licences.
+Interstate electrical contractors working in NSW must apply for NSW licensing separately. Interstate recognition applies to trade qualifications (via the National VET Recognition system) but not to contractor licences.
 
 ---
 
 ## Licence Renewal
 
-NSW electrical contractor licences are issued for **1-year or 3-year terms**. Renewal notices are sent by NSW Fair Trading approximately 60 days before expiry.
+NSW electrical contractor licences are issued for **1-year, 3-year or 5-year terms**. Renewal notices are sent by Building Commission NSW approximately 60 days before expiry.
 
 Renewal requirements:
 - Current public liability insurance certificate
 - Confirmation that the nominated supervisor's QSC remains current
 - Payment of renewal fee
-- Completion of any required continuing professional development (check current CPD requirements with NSW Fair Trading)
+- Completion of any required continuing professional development (check current CPD requirements with Building Commission NSW)
 
 A lapsed licence — even for one day — means you are technically unlicensed for that period. Any work contracted during a lapsed period is unenforceable and exposes you to the same penalties as never having held a licence.
 
@@ -241,9 +243,9 @@ A Qualified Supervisor Certificate (QSC) authorises an individual to personally 
 
 Yes. Solar PV installation is electrical work under the Home Building Act 1989 and requires an Electrical Contractor Licence. You also need CEC accreditation and must issue a CCEW for each installation.
 
-### How long does a NSW Fair Trading electrical contractor licence last?
+### How long does a NSW electrical contractor licence last?
 
-Licences are available for 1-year or 3-year terms. Renewal notices are sent approximately 60 days before expiry. Renewing on time is critical — a lapsed licence removes your legal right to contract work.
+Licences are available for 1-year, 3-year or 5-year terms. Renewal notices are sent approximately 60 days before expiry. Renewing on time is critical — a lapsed licence removes your legal right to contract work.
 
 ### Is a NSW electrical contractor licence valid in other states?
 
@@ -277,5 +279,5 @@ $5,000,000 for general electrical work. $20,000,000 for specialist work includin
 - *[Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia/)*
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between an Electrical Contractor Licence and a Qualified Supervisor Certificate in NSW?","acceptedAnswer":{"@type":"Answer","text":"A Qualified Supervisor Certificate (QSC) authorises an individual to personally perform and supervise electrical work. An Electrical Contractor Licence (ECL) authorises a business entity to contract electrical work to clients. A sole trader typically holds both via an Endorsed Contractor Licence."}},{"@type":"Question","name":"Do I need an Electrical Contractor Licence to do solar installation in NSW?","acceptedAnswer":{"@type":"Answer","text":"Yes. Solar PV installation in NSW involves electrical work under the Home Building Act 1989, which requires an Electrical Contractor Licence from NSW Fair Trading. You also need CEC accreditation and must issue a CCEW for each installation."}},{"@type":"Question","name":"How long does a NSW Fair Trading electrical contractor licence last?","acceptedAnswer":{"@type":"Answer","text":"Licences are available for 1-year or 3-year terms. Renewal notices are sent approximately 60 days before expiry."}},{"@type":"Question","name":"What is the minimum public liability insurance for a NSW electrical contractor?","acceptedAnswer":{"@type":"Answer","text":"$5,000,000 for general electrical work. $20,000,000 for specialist work including high voltage and major infrastructure projects. The policy must name the exact entity holding the licence."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between an Electrical Contractor Licence and a Qualified Supervisor Certificate in NSW?","acceptedAnswer":{"@type":"Answer","text":"A Qualified Supervisor Certificate (QSC) authorises an individual to personally perform and supervise electrical work. An Electrical Contractor Licence (ECL) authorises a business entity to contract electrical work to clients. A sole trader typically holds both via an Endorsed Contractor Licence."}},{"@type":"Question","name":"Do I need an Electrical Contractor Licence to do solar installation in NSW?","acceptedAnswer":{"@type":"Answer","text":"Yes. Solar PV installation in NSW involves electrical work under the Home Building Act 1989, which requires an Electrical Contractor Licence from Building Commission NSW. You also need CEC accreditation and must issue a CCEW for each installation."}},{"@type":"Question","name":"How long does a NSW electrical contractor licence last?","acceptedAnswer":{"@type":"Answer","text":"Licences are available for 1-year, 3-year or 5-year terms. Renewal notices are sent approximately 60 days before expiry."}},{"@type":"Question","name":"What is the minimum public liability insurance for a NSW electrical contractor?","acceptedAnswer":{"@type":"Answer","text":"$5,000,000 for general electrical work. $20,000,000 for specialist work including high voltage and major infrastructure projects. The policy must name the exact entity holding the licence."}}]}
 </script>

@@ -1,7 +1,7 @@
 ---
 title: 'Tradie Automation: Use AI to Run Your Business on Autopilot'
 description: 'Automate your tradie business: save 4–8 hrs/week with ServiceM8 scheduling, AI quoting & compliance workflows. Real ROI numbers for Australian tradies.'
-updatedDate: 'Apr 18 2026'
+updatedDate: 'Oct 1 2026'
 pubDate: 'Apr 07 2026'
 category: "Business Growth"
 heroImage: '/hero-digital-jobs.jpg'
