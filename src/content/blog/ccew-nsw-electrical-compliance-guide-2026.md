@@ -1,8 +1,8 @@
 ---
 title: 'CCEW NSW 2026: eCert Deadline, Fees & When You Need One'
-description: "CCEW electrical compliance certificate NSW: lodge the eCert portal within 7 days — $2,200 late penalty, step-by-step guide. Discover how to file yours."
+description: "CCEW NSW: Electrical Certificate of Compliance — rules, 7-day deadline, $39.04 fee, and penalties. Discover how to lodge via eCert and stay compliant as a NSW sparkie."
 pubDate: 'May 09 2026'
-updatedDate: 'Sep 23 2026'
+updatedDate: 'Oct 1 2026'
 category: "Compliance"
 heroImage: '/hero-ccew-nsw-guide.jpg'
 tags: ['CCEW', 'NSW', 'compliance', 'electrician', 'electrical certificate', 'SafeWork NSW']
