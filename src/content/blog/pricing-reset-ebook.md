@@ -4,7 +4,6 @@ description: "Download the free pricing reset e-book. How Australian electrician
 pubDate: 'Oct 1 2026'
 updatedDate: 'Oct 1 2026'
 category: "E-Book"
-heroImage: '/hero-pricing-reset-ebook.png'
 tags: ['pricing', 'electrician', 'business growth', 'value pricing', 'billing', 'switchboard', 'e-book', 'profit']
 breakdown:
   - title: "The hourly trap"

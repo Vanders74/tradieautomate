@@ -4,7 +4,6 @@ description: "Download the free STC audit shield e-book. How to claim every STC 
 pubDate: 'Oct 1 2026'
 updatedDate: 'Oct 1 2026'
 category: "E-Book"
-heroImage: '/hero-stc-audit-shield-ebook.png'
 tags: ['STC', 'solar', 'CEC', 'audit', 'renewable energy certificate', 'solar installer', 'e-book', 'compliance']
 breakdown:
   - title: "STC compliance landscape"

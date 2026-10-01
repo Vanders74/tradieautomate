@@ -4,7 +4,6 @@ description: "Download the free CES compliance audit e-book. Find the CES gaps i
 pubDate: 'Oct 1 2026'
 updatedDate: 'Oct 1 2026'
 category: "E-Book"
-heroImage: '/hero-ces-compliance-audit-ebook.png'
 tags: ['CES', 'Victoria', 'compliance', 'REC', 'Energy Safe Victoria', 'e-book', 'audit', 'penalties']
 breakdown:
   - title: "CES lodgement gaps"
