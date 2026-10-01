@@ -85,7 +85,7 @@ This cheat sheet is for electrical contractors who:
 
 ## Download the E-Book
 
-[**Download The State-by-State Licensing Cheat Sheet →**](/ebooks/licensing-cheat-sheet.pdf)
+**Download The State-by-State Licensing Cheat Sheet →** — coming shortly. Register your interest and we'll notify you when it's ready.
 
 The 14-page guide includes the at-a-glance reference table, mutual recognition forms, and the renewal calendar template. Free, no email required.
 

@@ -69,7 +69,7 @@ This e-book is for solar PV installers who:
 
 ## Download the E-Book
 
-[**Download The STC Audit Shield →**](/ebooks/stc-audit-shield.pdf)
+**Download The STC Audit Shield →** — coming shortly. Register your interest and we'll notify you when it's ready.
 
 The 14-page guide is free, no email required. Run the 10-point self-assessment against your last 5 claims and you'll know exactly where your audit exposure sits.
 

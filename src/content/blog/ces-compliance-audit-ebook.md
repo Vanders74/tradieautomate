@@ -71,7 +71,7 @@ This e-book is for Victorian REC holders who:
 
 ## Download the E-Book
 
-[**Download the 28-Day CES Compliance Audit →**](/ebooks/ces-compliance-audit.pdf)
+**Download the 28-Day CES Compliance Audit →** — coming shortly. Register your interest and we'll notify you when it's ready.
 
 The 12-page guide is free, no email required. Print the checklist, run through your current CES record, and either confirm you're clean or identify the gaps before ESV does.
 

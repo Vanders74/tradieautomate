@@ -72,7 +72,7 @@ This e-book is for trade business owners who:
 
 ## Download the E-Book
 
-[**Download The Software Decision Matrix →**](/ebooks/software-matrix.pdf)
+**Download The Software Decision Matrix →** — coming shortly. Register your interest and we'll notify you when it's ready.
 
 The 18-page guide includes the full comparison matrix, pricing table, compliance audit, and the 14-day trial plan. Free, no email required.
 

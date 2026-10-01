@@ -67,7 +67,7 @@ This e-book is for electrical contractors who:
 
 ## Download the E-Book
 
-[**Download The 6-Figure Pricing Reset →**](/ebooks/pricing-reset.pdf)
+**Download The 6-Figure Pricing Reset →** — coming shortly. Register your interest and we'll notify you when it's ready.
 
 The 16-page guide includes the 5-job pricing audit worksheet, three margin calculators, and the compliance premium framework. Free, no email required.
 
