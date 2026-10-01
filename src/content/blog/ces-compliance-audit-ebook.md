@@ -4,6 +4,7 @@ description: "Download the free CES compliance audit e-book. Find the CES gaps i
 pubDate: 'Oct 1 2026'
 updatedDate: 'Oct 1 2026'
 category: "E-Book"
+heroImage: '/hero-ces-compliance-audit-ebook.png'
 tags: ['CES', 'Victoria', 'compliance', 'REC', 'Energy Safe Victoria', 'e-book', 'audit', 'penalties']
 breakdown:
   - title: "CES lodgement gaps"
@@ -70,7 +71,7 @@ This e-book is for Victorian REC holders who:
 
 ## Download the E-Book
 
-**Download the 28-Day CES Compliance Audit →** — coming shortly. Register your interest and we'll notify you when it's ready.
+**Download the 28-Day CES Compliance Audit →** — [Coming soon — register your interest](/ebooks/ces-compliance-audit.html)
 
 The 12-page guide is free, no email required. Print the checklist, run through your current CES record, and either confirm you're clean or identify the gaps before ESV does.
 

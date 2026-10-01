@@ -4,6 +4,7 @@ description: "Download the free software decision matrix e-book. Compare Service
 pubDate: 'Oct 1 2026'
 updatedDate: 'Oct 1 2026'
 category: "E-Book"
+heroImage: '/hero-software-matrix-ebook.png'
 tags: ['ServiceM8', 'SimPRO', 'AroFlo', 'Jobber', 'software comparison', 'job management', 'tradie', 'e-book']
 breakdown:
   - title: "The 20-criteria matrix"
@@ -71,7 +72,7 @@ This e-book is for trade business owners who:
 
 ## Download the E-Book
 
-**Download The Software Decision Matrix →** — coming shortly. Register your interest and we'll notify you when it's ready.
+**Download The Software Decision Matrix →** — [Coming soon — register your interest](/ebooks/software-matrix.html)
 
 The 18-page guide includes the full comparison matrix, pricing table, compliance audit, and the 14-day trial plan. Free, no email required.
 

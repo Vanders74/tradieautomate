@@ -4,6 +4,7 @@ description: "Download the free pricing reset e-book. How Australian electrician
 pubDate: 'Oct 1 2026'
 updatedDate: 'Oct 1 2026'
 category: "E-Book"
+heroImage: '/hero-pricing-reset-ebook.png'
 tags: ['pricing', 'electrician', 'business growth', 'value pricing', 'billing', 'switchboard', 'e-book', 'profit']
 breakdown:
   - title: "The hourly trap"
@@ -66,7 +67,7 @@ This e-book is for electrical contractors who:
 
 ## Download the E-Book
 
-**Download The 6-Figure Pricing Reset →** — coming shortly. Register your interest and we'll notify you when it's ready.
+**Download The 6-Figure Pricing Reset →** — [Coming soon — register your interest](/ebooks/pricing-reset.html)
 
 The 16-page guide includes the 5-job pricing audit worksheet, three margin calculators, and the compliance premium framework. Free, no email required.
 
