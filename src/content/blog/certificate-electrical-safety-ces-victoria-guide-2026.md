@@ -8,8 +8,8 @@ category: "Compliance"
 breakdown:
   - title: "Know when it's required"
     summary: "Every notifiable install — solar, switchboard, EV charger, new circuits."
-  - title: "Issue within 28 days"
-    summary: "From completion, via ESV Connect (~$7-$10 per CES)."
+  - title: "Issue a CES per job"
+    summary: "28-day deadline via ESV Connect — every notifiable install, no exceptions. $38.70–$39.70 per prescribed CES."
   - title: "Describe the work properly"
     summary: "Brand, model, capacity — not 'solar installation'."
   - title: "Notify the DNSP separately"
@@ -36,10 +36,11 @@ faq:
 ---
 
 **Certificate of Electrical Safety Victoria: the essentials**
-- **What:** Legal document for all prescribed electrical work in Victoria
-- **Deadline:** Issue via ESV Connect within 28 days of completion
-- **Fee:** $39.04 per CES
-- **Who issues:** Licensed electrical contractor (REC holder)
+- **What:** Legal document for all prescribed + non-prescribed electrical work in Victoria
+- **Prescribed work (solar, switchboard, mains):** Needs an independent LEI inspection. Provide customer copy within 4 business days of inspection.
+- **Non-prescribed work (power points, lights, fans):** No inspection required. Provide customer copy within 30 days.
+- **Fee (FY2026-27):** $39.70 per prescribed CES, $9.00 per non-prescribed CES via ESVConnect
+- **Who issues:** Licensed electrical contractor (REC holder) or licensed electrical worker
 - **State regulator:** Energy Safe Victoria (ESV)
 - **Penalties:** $150–$300 late fee per certificate; infringement notices up to $5,000
 
@@ -167,7 +168,7 @@ Energy Safe Victoria has an online portal — **ESV Connect** — where CES must
 
 **Keep a copy.** After lodging, download and store a copy against the job record. If ESV or a property owner queries the certificate later, you need to be able to retrieve it immediately.
 
-**CES lodgement fees in 2026:** ESV Connect charges a lodgement fee of approximately **$7–$10 per CES** submitted (check the current ESV fee schedule — fees are updated annually). Late submission — lodging a CES after the 28-day deadline — incurs an additional penalty of approximately **$150–$300 per certificate** under the Electricity Safety Act 1998. For a business issuing 50+ certificates per month, late lodgement penalties can quickly exceed $1,500 in a single month if compliance processes slip.
+**CES purchase fees in 2026 (ESVConnect):** Energy Safe Victoria sets the purchase price of electronic COES certificates. For FY2026-27, a prescribed CES costs **$39.70** and a non-prescribed CES costs **$9.00**. Some contractors pass these costs through to customers as a line item, others bundle them into their job price. Late submission — lodging a CES after the 28-day deadline — incurs an additional penalty of approximately **$150–$300 per certificate** under the Electricity Safety Act 1998. For a business issuing 50+ certificates per month, late lodgement penalties can quickly exceed $1,500 in a single month if compliance processes slip.
 
 ---
 
