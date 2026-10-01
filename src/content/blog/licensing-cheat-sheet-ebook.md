@@ -4,7 +4,6 @@ description: "Download the free licensing cheat sheet e-book. NSW ECL vs Vic REC
 pubDate: 'Oct 1 2026'
 updatedDate: 'Oct 1 2026'
 category: "E-Book"
-heroImage: '/hero-licensing-cheat-sheet-ebook.jpg'
 tags: ['licensing', 'electrician', 'NSW', 'Victoria', 'Queensland', 'WA', 'South Australia', 'state-by-state', 'e-book']
 breakdown:
   - title: "What each state requires"
