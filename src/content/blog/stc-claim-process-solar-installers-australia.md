@@ -2,7 +2,7 @@
 title: 'STC Claim Process: Step-by-Step Guide for Australian Solar Installers (2026)'
 description: 'How to lodge STC claims as an Australian solar installer — eligibility, calculation, customer declarations, lodgement process, common errors that trigger audits, and how to manage it at scale.'
 pubDate: 'May 13 2026'
-updatedDate: 'Jul 30 2026'
+updatedDate: 'Oct 2 2026'
 category: "Solar & Battery"
 breakdown:
   - title: "Confirm eligibility"
@@ -56,17 +56,17 @@ The number of STCs a system creates is calculated as:
 **STCs = system size (kW) × zone rating × deeming period (years)**
 
 **Installation zones:** Australia is divided into four zones based on solar irradiance:
-- Zone 1 (highest irradiance): Darwin, north QLD — zone rating 1.536
-- Zone 2: Brisbane, Perth, north SA, much of WA — zone rating 1.382
-- Zone 3: Sydney, Adelaide, south QLD, most of VIC — zone rating 1.185
-- Zone 4 (lowest irradiance): Melbourne, Hobart, ACT — zone rating 1.044
+- Zone 1 (highest irradiance): Darwin, north QLD — zone rating 1.622
+- Zone 2: Brisbane, Perth, north SA, much of WA — zone rating 1.536
+- Zone 3: Sydney, Adelaide, south QLD, most of VIC — zone rating 1.382
+- Zone 4 (lowest irradiance): Melbourne, Hobart, ACT — zone rating 1.185
 
-**Deeming period:** As of 2026, the deeming period is the number of years remaining until 31 December 2030. If installation is in 2026, the deeming period is approximately 4 years (to end of 2030). From 2027, it will drop to 3 years — meaning STCs, and therefore STC discounts for customers, will reduce significantly.
+**Deeming period:** As of 2026, the deeming period is the number of years remaining until 31 December 2030. If installation is in 2026, the deeming period is 5 years (2026–2030 inclusive). From 2027, it will drop to 4 years — meaning STCs, and therefore STC discounts for customers, will reduce significantly.
 
 **Example calculation (2026 install, Zone 3, 6.6kW system):**
-6.6 × 1.185 × 4 = **31.28 STCs** (rounded down to **31 STCs**)
+6.6 × 1.382 × 5 = **45.6 STCs** (rounded down to **45 STCs**)
 
-At a market price of $36/STC: **$1,116 STC value**
+At a market price of $36/STC: **$1,620 STC value**
 
 **Important:** Always use the CER's STC calculator (available on their website) rather than manual calculation for lodgement. Manual calculation errors are a primary audit trigger.
 
@@ -228,7 +228,7 @@ For the complete CER audit preparation framework — including what auditors loo
 Small-scale Technology Certificates (STCs) are the federal solar rebate mechanism under the Small-scale Renewable Energy Scheme (SRES). When a solar system is installed, a number of STCs are created based on the system's expected electricity output over its deeming period (to 2030), the installation zone, and the system size. The installer or agent assigns the STCs (with the customer's consent) and sells them to liable entities (electricity retailers) via the STC clearing house or spot market. The value is typically passed to the customer as an upfront discount on the system price.
 
 ### How many STCs does a 6.6kW solar system get in Sydney?
-In Sydney (Zone 3), a 6.6kW system installed in 2026 generates approximately 80–85 STCs (the exact number depends on the calculation year and module type). At the clearing house price of $40/certificate, that's approximately $3,200–$3,400 in STC value, typically applied as a discount on the customer's invoice. The STC deeming period ends in 2030, so the number of certificates per kW has been declining each year as the end date approaches. STCs are calculated using the CER's STC Calculator.
+In Sydney (Zone 3), a 6.6kW system installed in 2026 generates approximately 45–50 STCs (exact number depends on the postcode zone rating and rounding). At the clearing house price of $40/certificate, that's approximately $1,800–$2,000 in STC value, typically applied as a discount on the customer's invoice. The STC deeming period ends in 2030, so the number of certificates per kW has been declining each year as the end date approaches. STCs are calculated using the CER's STC Calculator.
 
 ### What CEC accreditation do you need to claim STCs?
 To create STCs for a solar installation, the installing electrician must hold current Clean Energy Council (CEC) accreditation — specifically, the Solar (PV) Designer Accreditation or the combined Installer/Designer accreditation. The accreditation requires completion of a CEC-approved training course, evidence of practical installation experience, and annual continuing professional development (CPD). Accreditation must be current at the date of installation, not the date of STC lodgement. Accreditation that lapses before an installation date invalidates the STC claim for that job.
