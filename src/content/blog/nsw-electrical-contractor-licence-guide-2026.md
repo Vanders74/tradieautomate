@@ -1,6 +1,6 @@
 ---
-title: 'NSW Electrical Contractor Licence 2026: Classes, Fees & Steps'
-description: "NSW electrical contractor licence: classes, exact application steps, insurance requirements ($5M PLI), fees, and renewal — complete process in one guide."
+title: 'NSW Electrical Contractor Licence 2026: Step-by-Step Application Guide for Sparkies'
+description: "How to get your NSW electrical contractor licence in 2026. Licence classes, $5M PLI insurance, fees, application steps via Service NSW, and renewal — from a sparkie perspective."
 pubDate: 'Jul 20 2026'
 updatedDate: 'Oct 1 2026'
 category: "Compliance"

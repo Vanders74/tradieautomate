@@ -1,6 +1,6 @@
 ---
-title: "ServiceM8 Quoting to Payment: The 7-Step Workflow for Aussie Tradies"
-description: "ServiceM8 quoting to payment in 7–10 days — not 28. Step-by-step workflow for electrical, plumbing & HVAC tradies. Configuration checklist included."
+title: 'ServiceM8 Workflow: Quote to Paid in 7 Days — The Complete Process for Aussie Tradies'
+description: "How to set up your ServiceM8 quoting-to-payment workflow. AI quoting, auto-invoicing, on-site payment collection, and configuration checklist — the 7-step process tradies use to get paid in 7–10 days."
 pubDate: 'Aug 08 2026'
 updatedDate: 'Sep 14 2026'
 category: 'ServiceM8'
