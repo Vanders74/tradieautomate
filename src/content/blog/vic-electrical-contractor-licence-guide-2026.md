@@ -1,8 +1,8 @@
 ---
-title: 'VIC Electrical Contractor Licence (REC) 2026: ESV Registration Guide'
-description: 'Get your Victorian electrical contractor licence (REC): Certificate III + 2 years experience, ESV registration fees, $5M public liability insurance, nominee requirements, and CES obligations — complete guide.'
+title: 'VIC REC Licence 2026: $734 Fee, Nominee Requirements & Solar Compliance'
+description: '$734 apply / $353 renew. VIC REC guide: A-Class + REC course nominee requirements, $5M insurance, CES obligations, and solar compliance steps.'
 pubDate: 'Jul 19 2026'
-updatedDate: 'Jul 19 2026'
+updatedDate: 'Oct 4 2026'
 category: "Compliance"
 breakdown:
   - title: "Hold the A-Class licence"
