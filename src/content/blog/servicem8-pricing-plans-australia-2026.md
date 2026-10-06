@@ -1,6 +1,6 @@
 ---
-title: 'ServiceM8 Pricing Australia 2026: From $29/mo — All 5 Plans & True Cost'
-description: "ServiceM8 starts at $29/mo with unlimited staff — no per-user fees. All 5 plan prices, add-ons and hidden costs vs simPRO, Tradify & Fergus."
+title: 'ServiceM8 Pricing 2026: Which Plan Saves You the Most ($29–$349/mo)'
+description: "Compare ServiceM8 plans: $29 Starter (50 jobs) to $349 Premium Plus (1,500+ jobs). Which plan suits a 1-person crew vs a 10-person team vs high-volume. Real pricing, no per-user fees."
 pubDate: 2026-07-20
 updatedDate: 2026-09-21
 heroImage: "/hero-servicem8-pricing-plans-australia-2026.jpg"
