@@ -300,6 +300,87 @@ If you're a solar installer or electrician running more than 15 jobs a month, th
 
 [Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
+<div id="sm8-plan-finder">
+  <style>
+    #sm8-plan-finder{background:#0f172a;border:1px solid #1e293b;border-radius:12px;padding:24px;margin:32px 0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#e2e8f0}
+    #sm8-plan-finder .finder-step{display:none}
+    #sm8-plan-finder .finder-step.active{display:block}
+    #sm8-plan-finder .option-btn{display:block;width:100%;padding:14px 20px;margin:8px 0;background:#1e293b;border:1px solid #334155;border-radius:8px;color:#e2e8f0;font-size:16px;text-align:left;cursor:pointer;transition:all 0.15s}
+    #sm8-plan-finder .option-btn:hover{background:#334155;border-color:#f97316}
+    #sm8-plan-finder .option-btn.selected{background:#1a2d4a;border-color:#f97316;color:#f97316}
+    #sm8-plan-finder .nav-btn{padding:12px 24px;border-radius:8px;font-size:16px;cursor:pointer;border:none;margin:4px}
+    #sm8-plan-finder .back-btn{background:#334155;color:#e2e8f0}
+    #sm8-plan-finder .result-card{background:#1e293b;border-radius:12px;padding:24px;margin:16px 0;border-left:4px solid #f97316}
+    #sm8-plan-finder .result-price{font-size:32px;color:#f97316;font-weight:700}
+    #sm8-plan-finder .result-plan{font-size:20px;font-weight:600;margin:0 0 4px}
+    #sm8-plan-finder .result-details{color:#94a3b8;font-size:14px;line-height:1.6}
+    #sm8-plan-finder .cta-btn{display:inline-block;background:#f97316;color:#fff;padding:14px 28px;border-radius:8px;font-size:16px;font-weight:600;text-decoration:none;margin:16px 0 0}
+    #sm8-plan-finder .cta-btn:hover{background:#ea580c}
+    #sm8-plan-finder .progress-bar{height:4px;background:#1e293b;border-radius:2px;margin:0 0 20px}
+    #sm8-plan-finder .progress-fill{height:100%;background:#f97316;border-radius:2px;transition:width 0.3s}
+    #sm8-plan-finder .question-label{font-size:14px;color:#94a3b8;margin:0 0 12px}
+    #sm8-plan-finder h3{margin:0 0 16px;font-size:18px;color:#f1f5f9}
+    #sm8-plan-finder .alt-plans{margin:16px 0 0;padding:16px;background:#0f172a;border-radius:8px;font-size:14px;color:#94a3b8}
+    #sm8-plan-finder .alt-plans a{color:#60a5fa;text-decoration:none}
+    #sm8-plan-finder .finder-header{display:flex;align-items:center;margin:0 0 16px}
+    #sm8-plan-finder .finder-icon{font-size:24px;margin-right:10px}
+    #sm8-plan-finder .finder-title{font-size:18px;color:#f1f5f9}
+    #sm8-plan-finder .finder-subtitle{font-size:13px;color:#94a3b8}
+    #sm8-plan-finder .result-label{font-size:14px;color:#94a3b8}
+    #sm8-plan-finder .trial-note{font-size:12px;color:#64748b;margin:8px 0 0}
+    #sm8-plan-finder .price-suffix{font-size:16px;color:#94a3b8}
+  </style>
+  <div class="finder-header">
+    <span class="finder-icon">📋</span>
+    <div><strong class="finder-title">Find Your ServiceM8 Plan</strong><div class="finder-subtitle">3 quick questions — get your recommended plan + pricing</div></div>
+  </div>
+  <div class="progress-bar"><div class="progress-fill" id="pf-progress" style="width:0%"></div></div>
+  <div class="finder-step active" id="pf-step-1">
+    <h3>How many jobs do you do per month?</h3>
+    <div class="question-label">Plans are based on job volume. All paid plans include unlimited staff.</div>
+    <button class="option-btn" onclick="pfSelect(this,'<50')">≤50 jobs — Solo operator, part-time</button>
+    <button class="option-btn" onclick="pfSelect(this,'50-150')">50–150 jobs — Small crew (2–5 people)</button>
+    <button class="option-btn" onclick="pfSelect(this,'150-500')">150–500 jobs — Growing team (5–15 people)</button>
+    <button class="option-btn" onclick="pfSelect(this,'500+')">500+ jobs — High-volume operation</button>
+  </div>
+  <div class="finder-step" id="pf-step-2">
+    <h3>Do you send job updates via SMS?</h3>
+    <div class="question-label">Plans include 100–3,000 SMS per month.</div>
+    <button class="option-btn" onclick="pfSelect(this,'yes')">Yes — SMS is how I communicate</button>
+    <button class="option-btn" onclick="pfSelect(this,'no')">No — Email and phone are fine</button>
+  </div>
+  <div class="finder-step" id="pf-step-3">
+    <h3>Need card payments or Xero sync?</h3>
+    <div class="question-label">Built-in payments + accounting integrations available on every paid plan.</div>
+    <button class="option-btn" onclick="pfSelect(this,'full')">Yes — Payments + accounting sync</button>
+    <button class="option-btn" onclick="pfSelect(this,'basic')">Just the basics — quotes, invoices, jobs</button>
+  </div>
+  <div class="finder-step" id="pf-result">
+    <div class="result-card" id="pf-result-card">
+      <div class="result-label">Recommended plan</div>
+      <div class="result-plan" id="pf-plan-name">Growing</div>
+      <div class="result-price" id="pf-plan-price">$79<span class="price-suffix">/mo</span></div>
+      <div class="result-details" id="pf-plan-details">
+        <div>✓ Unlimited staff — no per-user fees</div>
+        <div>✓ 150 jobs per month</div>
+        <div>✓ 300 SMS included</div>
+        <div>✓ Xero, MYOB & QuickBooks sync</div>
+        <div>✓ On-site quoting, invoicing & payments</div>
+      </div>
+    </div>
+    <a class="cta-btn" id="pf-cta" href="https://servicem8.com/au/pricing?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=plan-finder" target="_blank" rel="noopener">Start Free Trial →</a>
+    <div class="trial-note">14-day free trial · No credit card required</div>
+    <div class="alt-plans"><strong>Not right?</strong> View <a href="https://servicem8.com/au/pricing" target="_blank" rel="noopener">all 5 plans</a> or <a href="/blog/servicem8-pricing-plans-australia-2026/">full pricing breakdown →</a><br><button class="nav-btn back-btn" style="margin:12px 0 0" onclick="pfReset()">↺ Start over</button></div>
+  </div>
+</div>
+<script>
+window.pfSelections = {};
+function pfSelect(btn,v){const step=[...btn.parentNode.parentNode.children].indexOf(btn.parentNode);btn.parentNode.querySelectorAll('.option-btn').forEach(b=>b.classList.remove('selected'));btn.classList.add('selected');window.pfSelections['s'+step]=v;if(step<3){document.getElementById('pf-step-'+step).classList.remove('active');document.getElementById('pf-step-'+(step+1)).classList.add('active');document.getElementById('pf-progress').style.width=(step*33)+'%'}else{pfResult()}}
+function pfResult(){document.getElementById('pf-step-3').classList.remove('active');document.getElementById('pf-result').classList.add('active');document.getElementById('pf-progress').style.width='100%';var jobs=window.pfSelections['s1']||'50-150';var name,price,details;if(jobs==='<50'){name='Starter';price='$29';details=['50 jobs per month','100 SMS included','Unlimited staff','Invoicing & quoting','Mobile app']}else if(jobs==='50-150'){name='Growing';price='$79';details=['150 jobs per month','300 SMS included','Unlimited staff','Xero, MYOB & QuickBooks sync','On-site quoting & payments','Card payments at 1.65%']}else if(jobs==='150-500'){name='Premium';price='$149';details=['500 jobs per month','1,000 SMS included','Unlimited staff','Advanced scheduling','Job costing modules','Priority support']}else{name='Premium Plus';price='$349';details=['1500+ jobs per month','3000+ SMS included','Unlimited staff','20c per extra job','Dedicated account manager','API access']}
+document.getElementById('pf-plan-name').textContent='ServiceM8 '+name;document.getElementById('pf-plan-price').innerHTML=price+'<span class="price-suffix">/mo</span>';document.getElementById('pf-plan-details').innerHTML=details.map(function(d){return '<div>✓ '+d+'</div>'}).join('')}
+function pfReset(){document.getElementById('pf-result').classList.remove('active');document.getElementById('pf-step-1').classList.add('active');document.getElementById('pf-progress').style.width='0%';document.querySelectorAll('#sm8-plan-finder .option-btn').forEach(function(b){b.classList.remove('selected')});window.pfSelections={}}
+</script>
+
 ---
 
 ## Frequently Asked Questions
