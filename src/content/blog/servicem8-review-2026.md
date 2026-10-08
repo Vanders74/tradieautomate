@@ -338,22 +338,22 @@ If you're a solar installer or electrician running more than 15 jobs a month, th
   <div class="finder-step active" id="pf-step-1">
     <h3>How many jobs do you do per month?</h3>
     <div class="question-label">Plans are based on job volume. All paid plans include unlimited staff.</div>
-    <button class="option-btn" onclick="pfSelect(this,'<50')">≤50 jobs — Solo operator, part-time</button>
-    <button class="option-btn" onclick="pfSelect(this,'50-150')">50–150 jobs — Small crew (2–5 people)</button>
-    <button class="option-btn" onclick="pfSelect(this,'150-500')">150–500 jobs — Growing team (5–15 people)</button>
-    <button class="option-btn" onclick="pfSelect(this,'500+')">500+ jobs — High-volume operation</button>
+    <button class="option-btn" data-step="1" onclick="pfSelect(this,'<50')">≤50 jobs — Solo operator, part-time</button>
+    <button class="option-btn" data-step="1" onclick="pfSelect(this,'50-150')">50–150 jobs — Small crew (2–5 people)</button>
+    <button class="option-btn" data-step="1" onclick="pfSelect(this,'150-500')">150–500 jobs — Growing team (5–15 people)</button>
+    <button class="option-btn" data-step="1" onclick="pfSelect(this,'500+')">500+ jobs — High-volume operation</button>
   </div>
   <div class="finder-step" id="pf-step-2">
     <h3>Do you send job updates via SMS?</h3>
     <div class="question-label">Plans include 100–3,000 SMS per month.</div>
-    <button class="option-btn" onclick="pfSelect(this,'yes')">Yes — SMS is how I communicate</button>
-    <button class="option-btn" onclick="pfSelect(this,'no')">No — Email and phone are fine</button>
+    <button class="option-btn" data-step="2" onclick="pfSelect(this,'yes')">Yes — SMS is how I communicate</button>
+    <button class="option-btn" data-step="2" onclick="pfSelect(this,'no')">No — Email and phone are fine</button>
   </div>
   <div class="finder-step" id="pf-step-3">
     <h3>Need card payments or Xero sync?</h3>
     <div class="question-label">Built-in payments + accounting integrations available on every paid plan.</div>
-    <button class="option-btn" onclick="pfSelect(this,'full')">Yes — Payments + accounting sync</button>
-    <button class="option-btn" onclick="pfSelect(this,'basic')">Just the basics — quotes, invoices, jobs</button>
+    <button class="option-btn" data-step="3" onclick="pfSelect(this,'full')">Yes — Payments + accounting sync</button>
+    <button class="option-btn" data-step="3" onclick="pfSelect(this,'basic')">Just the basics — quotes, invoices, jobs</button>
   </div>
   <div class="finder-step" id="pf-result">
     <div class="result-card" id="pf-result-card">
@@ -375,7 +375,7 @@ If you're a solar installer or electrician running more than 15 jobs a month, th
 </div>
 <script>
 window.pfSelections = {};
-function pfSelect(btn,v){const step=[...btn.parentNode.parentNode.children].indexOf(btn.parentNode);btn.parentNode.querySelectorAll('.option-btn').forEach(b=>b.classList.remove('selected'));btn.classList.add('selected');window.pfSelections['s'+step]=v;if(step<3){document.getElementById('pf-step-'+step).classList.remove('active');document.getElementById('pf-step-'+(step+1)).classList.add('active');document.getElementById('pf-progress').style.width=(step*33)+'%'}else{pfResult()}}
+function pfSelect(btn,v){var step=parseInt(btn.dataset.step);btn.parentNode.querySelectorAll('.option-btn').forEach(function(b){b.classList.remove('selected')});btn.classList.add('selected');window.pfSelections['s'+step]=v;if(step<3){document.getElementById('pf-step-'+step).classList.remove('active');document.getElementById('pf-step-'+(step+1)).classList.add('active');document.getElementById('pf-progress').style.width=(step*33)+'%'}else{pfResult()}}
 function pfResult(){document.getElementById('pf-step-3').classList.remove('active');document.getElementById('pf-result').classList.add('active');document.getElementById('pf-progress').style.width='100%';var jobs=window.pfSelections['s1']||'50-150';var name,price,details;if(jobs==='<50'){name='Starter';price='$29';details=['50 jobs per month','100 SMS included','Unlimited staff','Invoicing & quoting','Mobile app']}else if(jobs==='50-150'){name='Growing';price='$79';details=['150 jobs per month','300 SMS included','Unlimited staff','Xero, MYOB & QuickBooks sync','On-site quoting & payments','Card payments at 1.65%']}else if(jobs==='150-500'){name='Premium';price='$149';details=['500 jobs per month','1,000 SMS included','Unlimited staff','Advanced scheduling','Job costing modules','Priority support']}else{name='Premium Plus';price='$349';details=['1500+ jobs per month','3000+ SMS included','Unlimited staff','20c per extra job','Dedicated account manager','API access']}
 document.getElementById('pf-plan-name').textContent='ServiceM8 '+name;document.getElementById('pf-plan-price').innerHTML=price+'<span class="price-suffix">/mo</span>';document.getElementById('pf-plan-details').innerHTML=details.map(function(d){return '<div>✓ '+d+'</div>'}).join('')}
 function pfReset(){document.getElementById('pf-result').classList.remove('active');document.getElementById('pf-step-1').classList.add('active');document.getElementById('pf-progress').style.width='0%';document.querySelectorAll('#sm8-plan-finder .option-btn').forEach(function(b){b.classList.remove('selected')});window.pfSelections={}}
