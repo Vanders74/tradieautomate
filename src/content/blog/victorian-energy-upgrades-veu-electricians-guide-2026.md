@@ -1,8 +1,8 @@
 ---
-title: 'VEU Program 2026: How Electricians Cash Out VEECs for Heat Pump Installations ($250–$1,650/Job)'
-description: "Heat pump installs earn $250\u2013$1,650 per job with VEECs. Step-by-step VEU guide: accreditation steps, eligible activities, and cashing out via the ESC Registry."
+title: 'VEU Program for VIC Electricians 2026: Earn $250–$1,650 per Job in VEECs'
+description: '$250–$1,650 per job in VEECs. Complete VEU guide: accreditation steps, eligible activities, and ESC registry process for VIC electricians. Step-by-step.'
 pubDate: 'Jul 19 2026'
-updatedDate: 'Oct 7 2026'
+updatedDate: 'Oct 11 2026'
 category: 'Compliance'
 heroImage: '/hero-replacing-gas-hot-water-electric-heat-pump.jpg'
 tags: ['VEU', 'Victorian Energy Upgrades', 'VEEC', 'electrician', 'heat pump', 'Victoria', 'ESC', 'rebates', 'electrification']

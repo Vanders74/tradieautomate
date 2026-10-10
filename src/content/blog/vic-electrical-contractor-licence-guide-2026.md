@@ -1,8 +1,8 @@
 ---
-title: 'VIC REC Licence 2026: $734 Fee, Full Application Process & ESV Compliance Guide'
-description: '$734 new/$353 renewal. Complete VIC REC licence guide covering nominee rules, $5M insurance, CES obligations, and the compliance areas ESV is actively auditing right now.'
+title: 'VIC REC Licence 2026: $734 Fee, Nominee Rules & Solar Compliance Guide'
+description: 'Beyond basic REC requirements: $734 fee, nominee rules, $5M insurance, and solar compliance layers CEC/VEU/DNSP. Complete VIC step-by-step guide.'
 pubDate: 'Jul 19 2026'
-updatedDate: 'Oct 7 2026'
+updatedDate: 'Oct 11 2026'
 category: "Compliance"
 breakdown:
   - title: "Hold the A-Class licence"
