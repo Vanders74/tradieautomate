@@ -105,7 +105,7 @@ The STC value varies with the market price — check the current STC price befor
 
 ### State rebates and incentives (2026):
 
-**Victoria:** The Victorian Energy Upgrades (VEU) program provides point-of-sale discounts on eligible appliances including heat pump hot water systems. VEU-accredited installers can offer significant discounts directly at the time of installation. Accreditation is required — apply via the ESC (Essential Services Commission) website.
+**Victoria:** The Victorian Energy Upgrades (VEU) program provides point-of-sale discounts on eligible appliances including heat pump hot water systems. VEU-accredited installers can offer significant discounts directly at the time of installation. Accreditation is required — apply via the ESC (Essential Services Commission) website. Our [complete VEU guide for electricians](/blog/victorian-energy-upgrades-veu-electricians-guide-2026/) walks through the ESC accreditation process, the $3,000 application fee, annual renewal, and how to cash out the VEECs each heat pump install generates.
 
 **NSW:** The Energy Savings Scheme (ESS) provides energy savings certificates for eligible upgrades including heat pump hot water. Similar to VEU — installer accreditation required to access the scheme discount.
 

@@ -196,7 +196,7 @@ Without current CEC accreditation, STCs cannot be assigned for installations you
 
 ### Victorian Energy Upgrades (VEU) Program
 
-Victoria's VEU program allows accredited providers to create Victorian Energy Efficiency Certificates (VEECs) for eligible installations — including solar PV. To participate in the VEU program and create VEECs, businesses must be separately accredited by the Essential Services Commission (ESC). This is in addition to (not a replacement for) your REC registration and CEC accreditation.
+Victoria's VEU program allows accredited providers to create Victorian Energy Efficiency Certificates (VEECs) for eligible installations — including solar PV. To participate in the VEU program and create VEECs, businesses must be separately accredited by the Essential Services Commission (ESC). This is in addition to (not a replacement for) your REC registration and CEC accreditation. See our [full VEU guide for electricians](/blog/victorian-energy-upgrades-veu-electricians-guide-2026/) covering ESC accreditation costs, the 90-day renewal window, CPD timelines and the exact steps to cash out VEECs.
 
 For solar installers wanting to offer VEU incentives to Victorian commercial customers, check the current activity requirements with the ESC (esc.vic.gov.au) — the C&I solar activity requirements (Activity 47) include specific training and competency obligations beyond standard CEC accreditation.
 
