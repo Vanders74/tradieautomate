@@ -1,8 +1,8 @@
 ---
-title: 'ServiceM8 Workflow: Quote to Paid in 7 Days — The Complete Process for Aussie Tradies'
-description: "How to set up your ServiceM8 quoting-to-payment workflow. AI quoting, auto-invoicing, on-site payment collection, and configuration checklist — the 7-step process tradies use to get paid in 7–10 days."
+title: "ServiceM8 Quoting to Payment Workflow 2026: 7 Steps to Get Paid"
+description: "Quote to paid in 7–10 days: ServiceM8's 7-step quoting, invoicing and payment workflow with on-site quotes, auto-invoicing, Stripe and Xero sync."
 pubDate: 'Aug 08 2026'
-updatedDate: 'Sep 14 2026'
+updatedDate: 'Oct 12 2026'
 category: 'ServiceM8'
 breakdown:
   - title: "Quote on-site"
