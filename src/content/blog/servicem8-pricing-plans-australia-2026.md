@@ -1,6 +1,6 @@
 ---
-title: 'ServiceM8 Pricing 2026: Which Plan Saves You the Most ($29–$349/mo)'
-description: "Compare ServiceM8 plans: $29 Starter (50 jobs) to $349 Premium Plus (1,500+ jobs). Which plan suits a 1-person crew vs a 10-person team vs high-volume. Real pricing, no per-user fees."
+title: 'Pick the Right ServiceM8 Pricing Plan in Australia 2026'
+description: "Choosing a ServiceM8 plan in Australia? Compare $29 Starter to $349 Premium Plus — job limits, SMS, hidden costs — and pick the plan that fits your crew size."
 pubDate: 2026-07-20
 updatedDate: 2026-09-21
 heroImage: "/hero-servicem8-pricing-plans-australia-2026.jpg"
