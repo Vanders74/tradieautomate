@@ -7,6 +7,14 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://tradieautomate.com',
   trailingSlash: 'always',
+  markdown: {
+    // CRITICAL: smartypants (default ON) converts straight quotes to curly
+    // ones INSIDE raw HTML <script> blocks in markdown content. That turns
+    // valid JS into a SyntaxError — the Plan Finder widget and every
+    // yt-facade video script silently died because of this. Keep quotes
+    // untouched so inline scripts survive the build intact.
+    smartypants: false,
+  },
   integrations: [
     mdx(),
     sitemap({
