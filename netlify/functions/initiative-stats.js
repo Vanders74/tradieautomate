@@ -108,6 +108,7 @@ exports.handler = async () => {
       handoverBucket.crawl = contacts.meta;
       handoverBucket.crawled = contacts.length;
       handoverBucket.sample = contacts.slice(0, 2).map((c) => ({ email: c.email, listIds: c.listIds }));
+      handoverBucket.all = contacts.map((c) => ({ email: c.email, score: (c.attributes || {}).TV_SCORE, lists: c.listIds }));
       handoverBucket.masterId = hMaster;
       handoverBucket.membership = contacts.filter((c) => (c.listIds || []).includes(hMaster)).length;
     } catch (e) {
