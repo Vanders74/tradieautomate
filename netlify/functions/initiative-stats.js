@@ -64,8 +64,10 @@ async function fetchAllContacts(key, limit = 5000) {
   return out;
 }
 
-function findListId(lists, namePrefix) {
-  const m = lists.find((l) => l.name.startsWith(namePrefix));
+function findListId(lists, exactName) {
+  // EXACT name match — startsWith would catch "Trade Exit Leads - NT" (id 25)
+  // before the master "Trade Exit Leads" (id 17) depending on array order.
+  const m = lists.find((l) => l.name === exactName);
   return m ? m.id : null;
 }
 
