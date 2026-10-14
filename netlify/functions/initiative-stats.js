@@ -6,7 +6,7 @@
 // No secrets in repo.
 
 const API = 'https://api.brevo.com/v3';
-const PAGE = 500;
+const PAGE = 1000;
 
 // Bucket contacts (with attributes + listIds) into monetisation segments.
 function bucketJoule(contacts, masterId) {
@@ -44,7 +44,7 @@ async function fetchAllContacts(key, limit = 5000) {
   let offset = 0;
   let lastStatus = null;
   while (true) {
-    const res = await fetch(`${API}/contacts?limit=${limit}&offset=${offset}&modifiedSince=${encodeURIComponent(new Date(Date.now() - 30 * 864e5).toISOString())}`, {
+    const res = await fetch(`${API}/contacts?limit=${PAGE}&offset=${offset}&modifiedSince=${encodeURIComponent(new Date(Date.now() - 30 * 864e5).toISOString())}`, {
       headers: { 'api-key': key, Accept: 'application/json' },
     });
     lastStatus = res.status;
