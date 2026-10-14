@@ -61,6 +61,12 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
       .cta-ghost:hover { border-color:#f97316; }
       .disclaimer { font-size:.75rem; color:#94a3b8; margin-top:24px; line-height:1.5; }
       .sponsor-slot { border:1px dashed #cbd5e1; border-radius:10px; padding:16px; text-align:center; color:#94a3b8; font-size:.85rem; margin-top:24px; }
+      .sponsor-panel { border:1px solid #fed7aa; background:linear-gradient(135deg,#fff7ed,#fffbeb); border-radius:12px; padding:18px 20px; margin-top:24px; }
+      .sp-panel-head { display:flex; justify-content:space-between; align-items:center; font-size:.8rem; color:#9a3412; margin-bottom:6px; }
+      .sp-tag { background:#f97316; color:#fff; font-size:.65rem; font-weight:800; padding:2px 8px; border-radius:6px; letter-spacing:.05em; }
+      .sp-panel-title { margin:0 0 4px; font-size:.98rem; font-weight:700; color:#7c2d12; }
+      .sp-panel-sub { margin:0; font-size:.85rem; color:#c2410c; }
+      .sp-panel-sub a { color:#9a3412; font-weight:700; text-decoration:underline; }
       .related-links { margin-top:28px; border-top:1px solid #e2e8f0; padding-top:20px; }
       .related-links h3 { font-size:1rem; color:#0f172a; margin-bottom:10px; }
       .related-links a { display:block; color:#0284c7; text-decoration:none; font-size:.9rem; padding:4px 0; }
@@ -80,6 +86,12 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
     <main class="tool-body">
       <div id="tv-quiz" class="finder-card">
         <h2 style="margin-bottom:14px;font-size:1.15rem;">Sellability Scorecard</h2>
+        <div id="tv-live-estimate" style="display:none;background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:12px 16px;margin-bottom:18px;">
+          <p style="margin:0;font-size:.85rem;color:#9a3412;">
+            <strong id="tv-live-track">So far:</strong> <span id="tv-live-mult">—</span> multiple · sellability <span id="tv-live-score">—</span>/100 ·
+            indicative <span id="tv-live-range">—</span>
+          </p>
+        </div>
 
         <div class="pf-step active" data-q="0">
           <h3 style="margin-bottom:12px;font-size:1rem;">Business basics</h3>
@@ -224,7 +236,14 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
           </div>
         </div>
 
-        <div class="sponsor-slot" id="tv-sponsor-slot">💼 Sponsor slot — help trade owners prepare &amp; sell their business (contact info@tradieautomate.com)</div>
+        <div class="sponsor-panel" id="tv-sponsor-slot">
+          <div class="sp-panel-head">
+            <strong>💼 Sponsored partner</strong>
+            <span class="sp-tag">AD</span>
+          </div>
+          <p class="sp-panel-title" id="tv-sponsor-title">Help trade owners prepare &amp; sell their business</p>
+          <p class="sp-panel-sub" id="tv-sponsor-sub">This placement is reserved for a <span id="tv-sponsor-category">systems/accounting/coaching</span> partner matched to your results.</p>
+        </div>
 
         <div class="related-links">
           <h3>Related guides</h3>
@@ -294,6 +313,18 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
           if(k==='growth' && score<0.55) return DATA.action_map.low_growth;
           return null;
         }
+        function updateLive(){
+          var box = document.getElementById('tv-live-estimate');
+          var n = Object.keys(answers).length;
+          if(!box || n < 2){ return; }
+          var c = compute();
+          box.style.display = 'block';
+          document.getElementById('tv-live-mult').textContent = c.mult.toFixed(1) + 'x';
+          document.getElementById('tv-live-score').textContent = c.score;
+          document.getElementById('tv-live-range').textContent = money(c.profitMid*1000*c.low) + ' - ' + money(c.profitMid*1000*c.high);
+          if(n < 4){ document.getElementById('tv-live-track').textContent = 'So far (rough);'; }
+          else { document.getElementById('tv-live-track').textContent = 'Live estimate:'; }
+        }
         var labelMap = { recurring:'Recurring revenue', growth:'Growth momentum', digital:'Digital footprint', independence:'Owner independence', concentration:'Client concentration', systems:'Systems & processes', books:'Books & records', compliance:'Compliance & WHS' };
         var sponsorMap = { systems:'systems', books:'books', digital:'systems', recurring:'coaching', growth:'coaching', independence:'coaching', concentration:'coaching', compliance:'systems', horizon:'coaching' };
         var sponsorLabel = { systems:'Software & systems partner', books:'Accounting & bookkeeping', coaching:'Business coaching & advisory' };
@@ -304,14 +335,24 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
           for(var k in scores){ if(scores[k]!==null && scores[k]<worst){ worst = scores[k]; key = k; } }
           var list = key ? (window.__TV_SPONSORS[sponsorMap[key]] || []) : [];
           var sp = list.length ? list[0] : null;
+          var catLabel = sponsorLabel[key ? sponsorMap[key] : 'coaching'] || 'Systems & software partner';
+          var catEl = document.getElementById('tv-sponsor-category');
+          if(catEl){ catEl.textContent = catLabel.toLowerCase(); }
+          var title = document.getElementById('tv-sponsor-title');
+          var sub = document.getElementById('tv-sponsor-sub');
           if(sp && sp.name){
-            slot.innerHTML = '💼 <strong>' + sp.name + '</strong> — ' + sp.offer + (sp.url ? ' <a href="' + sp.url + '" style="color:#0284c7;" rel="sponsored nofollow">Learn more →</a>' : '');
+            if(title){ title.textContent = sp.name + ' — ' + (sp.offer || 'partner'); }
+            if(sub){ sub.innerHTML = sp.url ? 'This sponsor helps trade owners like you. <a href="' + sp.url + '" rel="sponsored nofollow">Learn more →</a>' : 'This sponsor helps trade owners like you.'; }
           } else {
-            slot.innerHTML = '💼 Sponsor slot — help trade owners prepare &amp; sell their business (contact info@tradieautomate.com)';
+            if(title){ title.textContent = 'Help trade owners prepare &amp; sell their business'; title.innerHTML = 'Help trade owners prepare &amp; sell their business'; }
+            if(sub){ sub.innerHTML = 'This placement is reserved for a <span id="tv-sponsor-category">' + catLabel.toLowerCase() + '</span> partner matched to your results. Contact <a href="mailto:info@tradieautomate.com">info@tradieautomate.com</a>.'; }
           }
         }
+        var lastResult = null;
+        var lastActions = [];
         function render(){
           var c = compute();
+          lastResult = c;
           document.getElementById('tv-score').textContent = c.score + '/100';
           document.getElementById('tv-band').textContent = c.band.label;
           document.getElementById('tv-band').style.color = c.band.color;
@@ -328,6 +369,7 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
           document.getElementById('tv-scores').innerHTML = rows;
           var actions = [];
           for(var j=0;j<actionKeys.length;j++){ var a = actionFor(actionKeys[j], scores[actionKeys[j]]); if(a && actions.indexOf(a)<0) actions.push(a); }
+          lastActions = actions.slice(0,3);
           document.getElementById('tv-action-list').innerHTML = actions.length ? actions.map(function(a){return '<li>'+a+'</li>';}).join('') : '<li>Strong setup — focus on maintaining your systems and documenting processes for the buyer.</li>';
           document.getElementById('tv-summary').textContent = 'Based on AU broker multiples for ' + (opt('trade',answers.trade) ? opt('trade',answers.trade).label.replace(/^[^:]+:\s*/,'') : 'trade businesses') + ' (indicative only).';
           renderSponsor(scores);
@@ -353,6 +395,7 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
           for(var i=0;i<siblings.length;i++){ siblings[i].classList.remove('selected'); }
           b.classList.add('selected');
           answers[field] = v;
+          updateLive();
           var stepDone = true;
           var qs = QUIZ.querySelectorAll('.tv-q[data-q="' + field + '"]');
           if(st === 0){
@@ -389,7 +432,16 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
           }
           fetch('/.netlify/functions/trade-exit-lead', {
             method:'POST', headers:{'Content-Type':'application/json'},
-            body: JSON.stringify({ email: email, score: compute().score, trade: answers.trade||'', horizon: answers.horizon||'' })
+            body: JSON.stringify({
+              email: email,
+              score: (lastResult||compute()).score,
+              trade: answers.trade||'',
+              horizon: answers.horizon||'',
+              low: Math.round((lastResult||compute()).profitMid*1000*(lastResult||compute()).low),
+              high: Math.round((lastResult||compute()).profitMid*1000*(lastResult||compute()).high),
+              band: (lastResult||compute()).band.label,
+              actions: lastActions.join('|')
+            })
           }).then(function(r){return r.json();}).then(function(d){ done(d && d.success); }).catch(function(){ done(false); });
         }); }
       })();
