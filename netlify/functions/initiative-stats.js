@@ -93,15 +93,24 @@ async function resolveListMembers(key, contacts, masterId, cap = 150) {
   return resolved;
 }
 
-// Outreach effectiveness: pull recent transactional events, bucket by the
-// initiative-* tag, score each recipient as sent/delivered/opened/clicked.
+// Outreach effectiveness: pull recent transactional events, classify by
+// recipient email (the reliable key — Brevo event records omit tags), score
+// each recipient as sent/delivered/opened/clicked.
+const JOULE_RECIPIENTS = [
+  'hello@reclaimenergy.com.au', 'info@qis.com.au', 'sg.info@solargain.com.au',
+  'info@renewlec.com.au', 'support@voltxenergy.com.au', 'enquiries@fusionsunsolar.com.au',
+];
+const HANDOVER_RECIPIENTS = [
+  'info@fippet.com.au', 'support@workm8consulting.com', 'info@ibsgc.com.au',
+  'ask@simplifi.com.au', 'hello@aigain.com.au', 'hello@cotchy.com.au', 'hello@tbateam.com.au',
+];
+
 async function fetchOutreachStats(key) {
-  const out = { joule: {}, handover: {} };
+  const out = { joule: { recipients: 0, delivered: 0, opened: 0, clicked: 0 }, handover: { recipients: 0, delivered: 0, opened: 0, clicked: 0 } };
   try {
     const q = new URLSearchParams({
       limit: '500', offset: '0',
       startDate: '2026-09-01', endDate: new Date().toISOString().slice(0, 10),
-      tag: 'sponsor-outreach',
     });
     const res = await fetch(`${API}/smtp/statistics/events?${q}`, {
       headers: { 'api-key': key, Accept: 'application/json' },
@@ -109,43 +118,34 @@ async function fetchOutreachStats(key) {
     if (!res.ok) return out;
     const data = await res.json();
     const events = data.events || [];
-    const byInitiative = { joule: {}, handover: {} };
-    const byTemplate = { joule: {}, handover: {} };
-    for (const e of events) {
-      const tags = ((e.tags || []).join(',') + ',' + (e.tag || '') + ',');
-      let init = tags.includes('initiative-handover') ? 'handover' : tags.includes('initiative-joule') ? 'joule' : null;
-      if (!init) continue;
-      const email = (e.email || '').toLowerCase();
-      const ev = e.event || '';
-      const per = (byInitiative[init][email] = byInitiative[init][email] || { sent: false, delivered: false, opened: false, clicked: false, first: e.date, last: e.date });
-      if (ev === 'requests' || ev === 'delivered') per.sent = true;
-      if (ev === 'delivered') { per.delivered = true; per.sent = true; }
-      if (ev === 'opened') per.opened = true;
-      if (ev === 'clicks' || ev === 'click') per.clicked = true;
-      if (e.date) { if (per.first === e.date) per.first = e.date; per.last = e.date; }
-      // template breakdown (tpl-N tag)
-      const tm = String(e.tag || '').split(',').map((t) => t.trim()).find((t) => /^tpl-\d/.test(t));
-      if (tm) {
-        const key2 = tm.replace('tpl-', '');
-        const k = (byTemplate[init][key2] = byTemplate[init][key2] || { sent: 0, delivered: 0, opened: 0, clicked: 0 });
-        if (ev === 'requests' || ev === 'delivered') k.sent++;
-        if (ev === 'delivered') k.delivered++;
-        if (ev === 'opened') k.opened++;
-        if (ev === 'clicks' || ev === 'click') k.clicked++;
-      }
+    const seen = { joule: {}, handover: {} };
+
+    function classify(email) {
+      const e = String(email || '').toLowerCase();
+      if (JOULE_RECIPIENTS.includes(e)) return 'joule';
+      if (HANDOVER_RECIPIENTS.includes(e)) return 'handover';
+      return null;
     }
-    const summarize = (map) => {
-      const recips = Object.values(map);
-      return {
+    for (const e of events) {
+      const init = classify(e.email);
+      if (!init) continue;
+      const email = String(e.email || '').toLowerCase();
+      const ev = e.event || '';
+      const per = (seen[init][email] = seen[init][email] || { delivered: false, opened: false, clicked: false, opens: 0 });
+      if (ev === 'delivered') per.delivered = true;
+      if (ev === 'opened') { per.opened = true; per.opens++; }
+      if (ev === 'clicks' || ev === 'click') per.clicked = true;
+    }
+    for (const init of ['joule', 'handover']) {
+      const recips = Object.values(seen[init]);
+      out[init] = {
         recipients: recips.length,
         delivered: recips.filter((r) => r.delivered).length,
         opened: recips.filter((r) => r.opened).length,
         clicked: recips.filter((r) => r.clicked).length,
-        total_opens: recips.reduce((s, r) => s + (r.opened ? 1 : 0), 0),
+        total_opens: recips.reduce((s, r) => s + r.opens, 0),
       };
-    };
-    out.joule = summarize(byInitiative.joule).recipients ? { ...summarize(byInitiative.joule), by_template: byTemplate.joule } : summarize(byInitiative.joule);
-    out.handover = summarize(byInitiative.handover).recipients ? { ...summarize(byInitiative.handover), by_template: byTemplate.handover } : summarize(byInitiative.handover);
+    }
     out.raw_events = events.length;
   } catch (e) {
     out.error = e.message;
