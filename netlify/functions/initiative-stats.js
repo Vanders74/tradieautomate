@@ -105,6 +105,7 @@ exports.handler = async () => {
       jouleBucket.crawl = contacts.meta;
       handoverBucket.crawl = contacts.meta;
       handoverBucket.crawled = contacts.length;
+      handoverBucket.sample = contacts.slice(0, 2).map((c) => ({ email: c.email, listIds: c.listIds }));
     } catch (e) {
       jouleBucket = { by_upgrade: {}, segments: 0, listed: 0, error: e.message };
       handoverBucket = { ready: 0, building: 0, early: 0, unscored: 0, listed: 0, error: e.message };
