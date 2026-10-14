@@ -9,6 +9,21 @@
   directory = "netlify/functions"
   node_bundler = "esbuild"
 
+# Consolidation: legacy 4-question calculator superseded by the 12-question
+# Sellability Scorecard (Oct 14 2026). Old page deleted; blog/quiz links and
+# any bookmarks flow to the full tool.
+[[redirects]]
+  from = "/tools/business-value-calculator"
+  to = "/tools/trade-business-valuation/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tools/business-value-calculator/*"
+  to = "/tools/trade-business-valuation/:splat"
+  status = 301
+  force = true
+
 # 301 redirects for duplicate content consolidation
 # Old "sell solar business" -> canonical "sell trade business value"
 [[redirects]]
