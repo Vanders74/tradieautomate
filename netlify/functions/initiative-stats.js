@@ -42,10 +42,12 @@ async function fetchAllContacts(key, limit = 5000) {
   // attributes + listIds, so bucketing can filter by master-list membership.
   const out = [];
   let offset = 0;
+  let lastStatus = null;
   while (true) {
     const res = await fetch(`${API}/contacts?limit=${limit}&offset=${offset}`, {
       headers: { 'api-key': key, Accept: 'application/json' },
     });
+    lastStatus = res.status;
     if (!res.ok) break;
     const data = await res.json();
     const batch = (data.contacts || []).map((c) => ({
@@ -58,6 +60,7 @@ async function fetchAllContacts(key, limit = 5000) {
     offset += limit;
     if (offset > 20000) break; // safety cap
   }
+  out.meta = { lastStatus, pages: Math.ceil(offset / limit) + 1 };
   return out;
 }
 
@@ -99,6 +102,9 @@ exports.handler = async () => {
       const hMaster = findListId(all, 'Trade Exit Leads');
       if (jMaster) jouleBucket = bucketJoule(contacts, jMaster);
       if (hMaster) handoverBucket = bucketHandover(contacts, hMaster);
+      jouleBucket.crawl = contacts.meta;
+      handoverBucket.crawl = contacts.meta;
+      handoverBucket.crawled = contacts.length;
     } catch (e) {
       jouleBucket = { by_upgrade: {}, segments: 0, listed: 0, error: e.message };
       handoverBucket = { ready: 0, building: 0, early: 0, unscored: 0, listed: 0, error: e.message };
