@@ -8,41 +8,53 @@
 const API = 'https://api.brevo.com/v3';
 const PAGE = 1000;
 
-// Bucket contacts (with attributes + listIds) into monetisation segments.
-function bucketJoule(contacts, masterId) {
+// Bucket contact attribute objects into monetisation segments.
+function bucketJoule(attrsList, masterId) {
   const seg = {};
-  let inList = 0;
-  for (const c of contacts) {
+  let listed = 0;
+  for (const c of attrsList) {
     if (!(c.listIds || []).includes(masterId)) continue;
-    inList++;
-    const a = (c && c.attributes) || {};
-    const u = String(a.UPGRADE_TYPE || a.upgrade_type || 'unknown').trim() || 'unknown';
+    listed++;
+    const u = String(c.attributes.UPGRADE_TYPE || 'unknown').trim() || 'unknown';
     seg[u] = (seg[u] || 0) + 1;
   }
-  return { by_upgrade: seg, segments: Object.keys(seg).filter((k) => k !== 'unknown').length, listed: inList };
+  return { by_upgrade: seg, segments: Object.keys(seg).filter((k) => k !== 'unknown').length, listed };
 }
 
-function bucketHandover(contacts, masterId) {
-  let ready = 0, building = 0, early = 0, unscored = 0, inList = 0;
-  for (const c of contacts) {
+function bucketHandover(attrsList, masterId) {
+  let ready = 0, building = 0, early = 0, unscored = 0, listed = 0;
+  for (const c of attrsList) {
     if (!(c.listIds || []).includes(masterId)) continue;
-    inList++;
-    const a = (c && c.attributes) || {};
-    const s = a.TV_SCORE != null ? Number(a.TV_SCORE) : NaN;
+    listed++;
+    const s = c.attributes.TV_SCORE != null ? Number(c.attributes.TV_SCORE) : NaN;
     if (Number.isNaN(s)) { unscored++; continue; }
     if (s >= 80) ready++;
     else if (s >= 55) building++;
     else early++;
   }
-  return { ready, building, early, unscored, listed: inList };
+  return { ready, building, early, unscored, listed };
 }
 
-async function fetchAllContacts(key, limit = 5000) {
-  // Paginated crawl of ALL contacts (volume is small right now); each returns
-  // attributes + listIds, so bucketing can filter by master-list membership.
+async function getContactDetail(key, email) {
+  // Per-contact lookup returns full attributes (the search endpoint omits them).
+  try {
+    const res = await fetch(`${API}/contacts/${encodeURIComponent(email)}`, {
+      headers: { 'api-key': key, Accept: 'application/json' },
+    });
+    if (!res.ok) return null;
+    const d = await res.json();
+    return { email, attributes: d.attributes || {}, listIds: d.listIds || [] };
+  } catch (e) {
+    return null;
+  }
+}
+
+async function fetchAllContacts(key) {
+  // Paginated crawl of ALL contacts (email + listIds only). Volume is small.
   const out = [];
   let offset = 0;
   let lastStatus = null;
+  let pages = 0;
   while (true) {
     const res = await fetch(`${API}/contacts?limit=${PAGE}&offset=${offset}&modifiedSince=${encodeURIComponent(new Date(Date.now() - 30 * 864e5).toISOString())}`, {
       headers: { 'api-key': key, Accept: 'application/json' },
@@ -50,17 +62,14 @@ async function fetchAllContacts(key, limit = 5000) {
     lastStatus = res.status;
     if (!res.ok) break;
     const data = await res.json();
-    const batch = (data.contacts || []).map((c) => ({
-      email: c.email,
-      attributes: c.attributes || {},
-      listIds: c.listIds || [],
-    }));
+    pages++;
+    const batch = (data.contacts || []).map((c) => ({ email: c.email, listIds: c.listIds || [] }));
     out.push(...batch);
-    if (batch.length < limit) break;
-    offset += limit;
+    if (batch.length < PAGE) break;
+    offset += PAGE;
     if (offset > 20000) break; // safety cap
   }
-  out.meta = { lastStatus, pages: Math.ceil(offset / limit) + 1 };
+  out.meta = { lastStatus, pages };
   return out;
 }
 
@@ -69,6 +78,19 @@ function findListId(lists, exactName) {
   // before the master "Trade Exit Leads" (id 17) depending on array order.
   const m = lists.find((l) => l.name === exactName);
   return m ? m.id : null;
+}
+
+// Resolve full attribute objects for members of a list (parallel lookups).
+async function resolveListMembers(key, contacts, masterId, cap = 150) {
+  const members = contacts.filter((c) => (c.listIds || []).includes(masterId)).slice(0, cap);
+  const chunks = [];
+  for (let i = 0; i < members.length; i += 10) chunks.push(members.slice(i, i + 10));
+  const resolved = [];
+  for (const chunk of chunks) {
+    const rs = await Promise.all(chunk.map((c) => getContactDetail(key, c.email)));
+    resolved.push(...rs.filter(Boolean));
+  }
+  return resolved;
 }
 
 exports.handler = async () => {
@@ -94,23 +116,23 @@ exports.handler = async () => {
     const handover = names.filter((n) => n.startsWith('Trade Exit Leads'));
     const total = (arr) => arr.reduce((s, n) => s + (lists[n].count || 0), 0);
 
-    // Crawl contacts once; bucket by master-list membership (authoritative,
-    // not dependent on Brevo's lagging totalRecipients).
     let jouleBucket = { by_upgrade: {}, segments: 0, listed: 0 };
     let handoverBucket = { ready: 0, building: 0, early: 0, unscored: 0, listed: 0 };
     try {
       const contacts = await fetchAllContacts(key);
       const jMaster = findListId(all, 'Rebate Leads');
       const hMaster = findListId(all, 'Trade Exit Leads');
-      if (jMaster) jouleBucket = bucketJoule(contacts, jMaster);
-      if (hMaster) handoverBucket = bucketHandover(contacts, hMaster);
+      const [jMembers, hMembers] = await Promise.all([
+        jMaster ? resolveListMembers(key, contacts, jMaster) : Promise.resolve([]),
+        hMaster ? resolveListMembers(key, contacts, hMaster) : Promise.resolve([]),
+      ]);
+      if (jMaster) jouleBucket = bucketJoule(jMembers, jMaster);
+      if (hMaster) handoverBucket = bucketHandover(hMembers, hMaster);
       jouleBucket.crawl = contacts.meta;
       handoverBucket.crawl = contacts.meta;
       handoverBucket.crawled = contacts.length;
-      handoverBucket.sample = contacts.slice(0, 2).map((c) => ({ email: c.email, listIds: c.listIds }));
-      handoverBucket.all = contacts.map((c) => ({ email: c.email, score: (c.attributes || {}).TV_SCORE, lists: c.listIds }));
       handoverBucket.masterId = hMaster;
-      handoverBucket.membership = contacts.filter((c) => (c.listIds || []).includes(hMaster)).length;
+      handoverBucket.jouleMaster = jMaster;
     } catch (e) {
       jouleBucket = { by_upgrade: {}, segments: 0, listed: 0, error: e.message };
       handoverBucket = { ready: 0, building: 0, early: 0, unscored: 0, listed: 0, error: e.message };
