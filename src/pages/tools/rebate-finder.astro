@@ -164,6 +164,25 @@ const faqSchema = {
           <a class="cta-ghost" href="/blog/heat-pump-hot-water-installation-electricians-australia/">Heat pump installation guide →</a>
         </div>
 
+        <div id="rf-lead-form" class="lead-form" style="display:none;margin-top:18px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:18px;">
+          <h3 style="font-size:1rem;color:#0f172a;margin-bottom:6px;">Get matched with a <span id="rf-lead-state-label"></span> installer</h3>
+          <p style="font-size:.85rem;color:#64748b;margin-bottom:12px;">Free, no obligation. We'll send your details to one vetted installer in your area.</p>
+          <form id="rf-lead-form-el">
+            <input type="hidden" id="rf-lead-state" />
+            <input type="hidden" id="rf-lead-upgrade" />
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px;">
+              <input type="text" id="rf-lead-name" placeholder="Your name" required style="padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:.9rem;width:100%;box-sizing:border-box;" />
+              <input type="email" id="rf-lead-email" placeholder="Email" required style="padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:.9rem;width:100%;box-sizing:border-box;" />
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px;">
+              <input type="text" id="rf-lead-postcode" placeholder="Postcode" pattern="[0-9]{4}" style="padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:.9rem;width:100%;box-sizing:border-box;" />
+              <button type="submit" class="cta-primary" style="border:none;cursor:pointer;">Get matched — it's free →</button>
+            </div>
+            <p id="rf-lead-msg" style="display:none;font-size:.9rem;color:#16a34a;margin-top:8px;">✓ Request sent — we'll be in touch within 24 hours.</p>
+            <p style="display:none;font-size:.85rem;color:#dc2626;" id="rf-lead-err"></p>
+          </form>
+        </div>
+
         <div class="sponsor-slot">📢 Sponsor slot — your rebate-eligible product or installer service could appear here (contact info@tradieautomate.com)</div>
 
         <div class="related-links">
@@ -305,8 +324,47 @@ const faqSchema = {
         if(resultsReset){ resultsReset.addEventListener('click', resetQuiz); }
 
         var tradieCta = document.getElementById('rf-tradie-cta');
-        if(tradieCta){ tradieCta.addEventListener('click', function(){
+        if(tradieCta){ tradieCta.addEventListener('click', function(e){
           if(window.gtag){ gtag('event', 'rebate_finder_lead', { event_category: 'engagement', event_label: 'installer_cta' }); }
+          var form = document.getElementById('rf-lead-form');
+          var label = document.getElementById('rf-lead-state-label');
+          var stateInput = document.getElementById('rf-lead-state');
+          var upgradeInput = document.getElementById('rf-lead-upgrade');
+          if(form){
+            form.style.display = 'block';
+            if(label) label.textContent = (answers.state === 'ALL' || !answers.state) ? 'local' : answers.state;
+            if(stateInput) stateInput.value = answers.state === 'ALL' || !answers.state ? '' : answers.state;
+            if(upgradeInput) upgradeInput.value = answers.category || '';
+            e.preventDefault();
+            e.stopPropagation();
+            if(window.gtag){ gtag('event','rebate_finder_lead_form_shown', { event_category:'engagement', event_label: answers.state || 'ALL' }); }
+          }
+        }); }
+
+        var leadForm = document.getElementById('rf-lead-form-el');
+        if(leadForm){ leadForm.addEventListener('submit', function(e){
+          e.preventDefault();
+          var name = document.getElementById('rf-lead-name').value.trim();
+          var email = document.getElementById('rf-lead-email').value.trim();
+          var postcode = (document.getElementById('rf-lead-postcode').value || '').trim();
+          var state = document.getElementById('rf-lead-state').value;
+          var upgrade = document.getElementById('rf-lead-upgrade').value;
+          var msg = document.getElementById('rf-lead-msg');
+          var err = document.getElementById('rf-lead-err');
+          if(err) err.style.display = 'none';
+          function done(ok){
+            if(ok){
+              if(msg) msg.style.display = 'block';
+              if(window.gtag){ gtag('event','rebate_finder_lead_submit', { event_category:'conversion', event_label: state + ':' + upgrade }); }
+            } else {
+              if(err){ err.textContent = 'Something went wrong — email us at info@tradieautomate.com instead.'; err.style.display = 'block'; }
+            }
+          }
+          fetch('/.netlify/functions/rebate-lead', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ name: name, email: email, postcode: postcode, state: state, upgrade: upgrade })
+          }).then(function(r){ return r.json(); }).then(function(d){ done(d && d.success); }).catch(function(){ done(false); });
         }); }
       })();
     </script>
