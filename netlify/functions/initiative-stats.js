@@ -133,7 +133,7 @@ exports.handler = async () => {
       handoverBucket.crawled = contacts.length;
       handoverBucket.masterId = hMaster;
       handoverBucket.jouleMaster = jMaster;
-      handoverBucket.attrSample = hMembers.slice(0, 2).map((c) => ({ email: c.email, attrs: c.attributes }));
+      handoverBucket.attrSample = hMembers.map((c) => ({ email: c.email, attrs: c.attributes }));
     } catch (e) {
       jouleBucket = { by_upgrade: {}, segments: 0, listed: 0, error: e.message };
       handoverBucket = { ready: 0, building: 0, early: 0, unscored: 0, listed: 0, error: e.message };
