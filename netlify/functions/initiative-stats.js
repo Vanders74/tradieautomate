@@ -93,6 +93,66 @@ async function resolveListMembers(key, contacts, masterId, cap = 150) {
   return resolved;
 }
 
+// Outreach effectiveness: pull recent transactional events, bucket by the
+// initiative-* tag, score each recipient as sent/delivered/opened/clicked.
+async function fetchOutreachStats(key) {
+  const out = { joule: {}, handover: {} };
+  try {
+    const q = new URLSearchParams({
+      limit: '500', offset: '0',
+      startDate: '2026-09-01', endDate: new Date().toISOString().slice(0, 10),
+      tag: 'sponsor-outreach',
+    });
+    const res = await fetch(`${API}/smtp/statistics/events?${q}`, {
+      headers: { 'api-key': key, Accept: 'application/json' },
+    });
+    if (!res.ok) return out;
+    const data = await res.json();
+    const events = data.events || [];
+    const byInitiative = { joule: {}, handover: {} };
+    const byTemplate = { joule: {}, handover: {} };
+    for (const e of events) {
+      const tags = ((e.tags || []).join(',') + ',' + (e.tag || '') + ',');
+      let init = tags.includes('initiative-handover') ? 'handover' : tags.includes('initiative-joule') ? 'joule' : null;
+      if (!init) continue;
+      const email = (e.email || '').toLowerCase();
+      const ev = e.event || '';
+      const per = (byInitiative[init][email] = byInitiative[init][email] || { sent: false, delivered: false, opened: false, clicked: false, first: e.date, last: e.date });
+      if (ev === 'requests' || ev === 'delivered') per.sent = true;
+      if (ev === 'delivered') { per.delivered = true; per.sent = true; }
+      if (ev === 'opened') per.opened = true;
+      if (ev === 'clicks' || ev === 'click') per.clicked = true;
+      if (e.date) { if (per.first === e.date) per.first = e.date; per.last = e.date; }
+      // template breakdown (tpl-N tag)
+      const tm = String(e.tag || '').split(',').map((t) => t.trim()).find((t) => /^tpl-\d/.test(t));
+      if (tm) {
+        const key2 = tm.replace('tpl-', '');
+        const k = (byTemplate[init][key2] = byTemplate[init][key2] || { sent: 0, delivered: 0, opened: 0, clicked: 0 });
+        if (ev === 'requests' || ev === 'delivered') k.sent++;
+        if (ev === 'delivered') k.delivered++;
+        if (ev === 'opened') k.opened++;
+        if (ev === 'clicks' || ev === 'click') k.clicked++;
+      }
+    }
+    const summarize = (map) => {
+      const recips = Object.values(map);
+      return {
+        recipients: recips.length,
+        delivered: recips.filter((r) => r.delivered).length,
+        opened: recips.filter((r) => r.opened).length,
+        clicked: recips.filter((r) => r.clicked).length,
+        total_opens: recips.reduce((s, r) => s + (r.opened ? 1 : 0), 0),
+      };
+    };
+    out.joule = summarize(byInitiative.joule).recipients ? { ...summarize(byInitiative.joule), by_template: byTemplate.joule } : summarize(byInitiative.joule);
+    out.handover = summarize(byInitiative.handover).recipients ? { ...summarize(byInitiative.handover), by_template: byTemplate.handover } : summarize(byInitiative.handover);
+    out.raw_events = events.length;
+  } catch (e) {
+    out.error = e.message;
+  }
+  return out;
+}
+
 exports.handler = async () => {
   const key = process.env.BREVO_API_KEY;
   if (!key) {
@@ -118,6 +178,7 @@ exports.handler = async () => {
 
     let jouleBucket = { by_upgrade: {}, segments: 0, listed: 0 };
     let handoverBucket = { ready: 0, building: 0, early: 0, unscored: 0, listed: 0 };
+    let effectiveness = { joule: { recipients: 0, delivered: 0, opened: 0, clicked: 0 }, handover: { recipients: 0, delivered: 0, opened: 0, clicked: 0 } };
     try {
       const contacts = await fetchAllContacts(key);
       const jMaster = findListId(all, 'Rebate Leads');
@@ -133,7 +194,7 @@ exports.handler = async () => {
       handoverBucket.crawled = contacts.length;
       handoverBucket.masterId = hMaster;
       handoverBucket.jouleMaster = jMaster;
-      handoverBucket.attrSample = hMembers.map((c) => ({ email: c.email, attrs: c.attributes }));
+      effectiveness = await fetchOutreachStats(key);
     } catch (e) {
       jouleBucket = { by_upgrade: {}, segments: 0, listed: 0, error: e.message };
       handoverBucket = { ready: 0, building: 0, early: 0, unscored: 0, listed: 0, error: e.message };
@@ -146,8 +207,8 @@ exports.handler = async () => {
         available: true,
         fetched_at: new Date().toISOString(),
         lists,
-        joule: { lists: joule.map((n) => ({ name: n, count: lists[n].count })), total: total(joule), segments: jouleBucket },
-        handover: { lists: handover.map((n) => ({ name: n, count: lists[n].count })), total: total(handover), tiers: handoverBucket },
+        joule: { lists: joule.map((n) => ({ name: n, count: lists[n].count })), total: total(joule), segments: jouleBucket, effectiveness: effectiveness.joule },
+        handover: { lists: handover.map((n) => ({ name: n, count: lists[n].count })), total: total(handover), tiers: handoverBucket, effectiveness: effectiveness.handover },
       }),
     };
   } catch (e) {
