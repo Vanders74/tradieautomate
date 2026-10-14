@@ -37,9 +37,8 @@ function bucketHandover(contacts) {
 }
 
 async function fetchListContacts(key, listId, limit = 300) {
-  // Brevo list-contacts returns id/email only by default; use the contacts
-  // endpoint via the list id and read attributes when present.
-  const res = await fetch(`${API}/contacts/lists/${listId}/contacts?limit=${limit}&offset=0&sort=desc`, {
+  // Use the contact-search endpoint (returns full attributes), filtered by list.
+  const res = await fetch(`${API}/contacts?listIds=${listId}&limit=${limit}&offset=0`, {
     headers: { 'api-key': key, Accept: 'application/json' },
   });
   if (!res.ok) return [];
