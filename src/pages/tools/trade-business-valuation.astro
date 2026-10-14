@@ -1,0 +1,397 @@
+---
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import sellability from '../../data/sellability.json';
+
+const title = "Trade Business Valuation Calculator: How Much Is Your Business Worth?";
+const description = "Free sellability scorecard for Australian electricians, plumbers and trade businesses — get your SDE/EBITDA multiple, price range, report card and actionable improvements to sell at a top price.";
+const tvDataJson = JSON.stringify(sellability).replace(/</g, '\\u003c');
+const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).replace(/</g, '\\u003c');
+---
+
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href="https://tradieautomate.com/tools/trade-business-valuation/" />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Trade Business Valuation Calculator",
+      "url": "https://tradieautomate.com/tools/trade-business-valuation/",
+      "description": description,
+      "applicationCategory": "BusinessApplication",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "AUD" }
+    })} />
+    <style is:global>
+      .tool-hero { background: linear-gradient(135deg,#0f172a 0%,#1e293b 100%); color:#f8fafc; padding:48px 24px; text-align:center; }
+      .tool-hero h1 { font-size:1.8rem; margin-bottom:10px; }
+      .tool-hero p { color:#cbd5e1; max-width:680px; margin:0 auto; font-size:1rem; }
+      .verified-badge { display:inline-block; margin-top:14px; background:#16a34a22; border:1px solid #16a34a55; color:#86efac; padding:4px 12px; border-radius:999px; font-size:.8rem; }
+      .tool-body { max-width:760px; margin:0 auto; padding:32px 20px 60px; }
+      .finder-card { background:#fff; border:1px solid #e2e8f0; border-radius:14px; padding:24px; box-shadow:0 1px 3px #0000000a; }
+      .pf-step { display:none; }
+      .pf-step.active { display:block; }
+      .opt-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin-bottom:4px; }
+      .pf-btn { background:#f8fafc; border:1px solid #cbd5e1; border-radius:10px; padding:14px 10px; font-size:.9rem; font-weight:600; color:#0f172a; cursor:pointer; transition:all .15s; text-align:left; }
+      .pf-btn:hover { border-color:#f97316; color:#f97316; }
+      .pf-btn.selected { border-color:#f97316; color:#f97316; background:#fff7ed; }
+      .pf-nav { display:flex; gap:10px; margin-top:18px; }
+      .pf-back { background:#f1f5f9; border:1px solid #cbd5e1; color:#334155; padding:10px 18px; border-radius:10px; font-weight:600; cursor:pointer; font-size:.85rem; }
+      .pf-back:hover { border-color:#f97316; }
+      .result-card { border:1px solid #e2e8f0; border-radius:12px; padding:18px; margin-bottom:14px; }
+      .rc-top { display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:6px; }
+      .rc-top h3 { font-size:1.02rem; color:#0f172a; margin:0; }
+      .amt { background:#0f172a; color:#f8fafc; font-weight:700; padding:4px 12px; border-radius:8px; font-size:.9rem; white-space:nowrap; }
+      .note { color:#64748b; font-size:.86rem; line-height:1.55; margin:6px 0; }
+      .score-bar { height:10px; border-radius:999px; background:#e2e8f0; overflow:hidden; margin:6px 0 14px; }
+      .score-bar span { display:block; height:100%; border-radius:999px; }
+      .score-rows { margin:10px 0 16px; }
+      .score-row { display:flex; justify-content:space-between; align-items:center; padding:8px 0; border-bottom:1px dashed #e2e8f0; font-size:.86rem; }
+      .score-row b { color:#0f172a; }
+      .actions-box { background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:14px 16px; margin-top:12px; }
+      .actions-box h4 { margin:0 0 8px; font-size:.92rem; color:#0f172a; }
+      .actions-box ul { margin:0; padding-left:18px; color:#475569; font-size:.86rem; line-height:1.6; }
+      .cta-row { display:flex; gap:12px; flex-wrap:wrap; margin-top:22px; }
+      .cta-primary { background:#f97316; color:#fff; padding:13px 24px; border-radius:10px; font-weight:700; text-decoration:none; font-size:.95rem; display:inline-block; }
+      .cta-primary:hover { background:#ea580c; }
+      .cta-ghost { border:1px solid #cbd5e1; color:#0f172a; padding:13px 24px; border-radius:10px; font-weight:600; text-decoration:none; font-size:.95rem; display:inline-block; }
+      .cta-ghost:hover { border-color:#f97316; }
+      .disclaimer { font-size:.75rem; color:#94a3b8; margin-top:24px; line-height:1.5; }
+      .sponsor-slot { border:1px dashed #cbd5e1; border-radius:10px; padding:16px; text-align:center; color:#94a3b8; font-size:.85rem; margin-top:24px; }
+      .related-links { margin-top:28px; border-top:1px solid #e2e8f0; padding-top:20px; }
+      .related-links h3 { font-size:1rem; color:#0f172a; margin-bottom:10px; }
+      .related-links a { display:block; color:#0284c7; text-decoration:none; font-size:.9rem; padding:4px 0; }
+      .related-links a:hover { text-decoration:underline; }
+      .lead-form input { padding:10px; border:1px solid #cbd5e1; border-radius:8px; font-size:.9rem; width:100%; box-sizing:border-box; }
+      @media (max-width:480px) { .opt-grid { grid-template-columns:1fr; } .result-card .rc-top { flex-direction:column; gap:4px; align-items:flex-start; } }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <section class="tool-hero">
+      <h1>⚡ How Much Is Your Trade Business Worth?</h1>
+      <p>12 questions, 90 seconds. Get your indicative sale price range, a sellability report card, and the exact improvements that lift your multiple.</p>
+      <span class="verified-badge">✓ Based on current Australian broker multiples (SDE &amp; EBITDA)</span>
+    </section>
+
+    <main class="tool-body">
+      <div id="tv-quiz" class="finder-card">
+        <h2 style="margin-bottom:14px;font-size:1.15rem;">Sellability Scorecard</h2>
+
+        <div class="pf-step active" data-q="0">
+          <h3 style="margin-bottom:12px;font-size:1rem;">Business basics</h3>
+          <p class="tv-q" data-q="trade" style="font-weight:600;color:#0f172a;margin-bottom:10px;">What trade is the business in?</p>
+          <div class="opt-grid" data-q="trade">
+            <button class="pf-btn" data-step="0" data-field="trade" data-value="electrician">⚡ Electrician</button>
+            <button class="pf-btn" data-step="0" data-field="trade" data-value="plumber">🔧 Plumber</button>
+            <button class="pf-btn" data-step="0" data-field="trade" data-value="hvac">❄️ HVAC / Aircon</button>
+            <button class="pf-btn" data-step="0" data-field="trade" data-value="solar">☀️ Solar / EV</button>
+            <button class="pf-btn" data-step="0" data-field="trade" data-value="builder">🏗️ Builder</button>
+            <button class="pf-btn" data-step="0" data-field="trade" data-value="multi">🧰 Mixed / Other</button>
+          </div>
+          <p class="tv-q" data-q="revenue" style="font-weight:600;color:#0f172a;margin:18px 0 10px;">Rough annual revenue?</p>
+          <div class="opt-grid" data-q="revenue">
+            <button class="pf-btn" data-step="0" data-field="revenue" data-value="500">Under $500K</button>
+            <button class="pf-btn" data-step="0" data-field="revenue" data-value="1m">$500K - $1M</button>
+            <button class="pf-btn" data-step="0" data-field="revenue" data-value="2m">$1M - $2M</button>
+            <button class="pf-btn" data-step="0" data-field="revenue" data-value="5m">$2M - $5M</button>
+            <button class="pf-btn" data-step="0" data-field="revenue" data-value="5p">$5M+</button>
+          </div>
+          <p class="tv-q" data-q="profit" style="font-weight:600;color:#0f172a;margin:18px 0 10px;">Annual profit before tax, after your own wage?</p>
+          <div class="opt-grid" data-q="profit">
+            <button class="pf-btn" data-step="0" data-field="profit" data-value="50">$50K - $100K</button>
+            <button class="pf-btn" data-step="0" data-field="profit" data-value="100">$100K - $200K</button>
+            <button class="pf-btn" data-step="0" data-field="profit" data-value="200">$200K - $350K</button>
+            <button class="pf-btn" data-step="0" data-field="profit" data-value="350">$350K - $500K</button>
+            <button class="pf-btn" data-step="0" data-field="profit" data-value="500">$500K+</button>
+          </div>
+        </div>
+
+        <div class="pf-step" data-q="1">
+          <h3 style="margin-bottom:12px;font-size:1rem;">Your market position</h3>
+          <p class="tv-q" data-q="recurring" style="font-weight:600;color:#0f172a;margin-bottom:10px;">How much revenue is recurring (service plans, maintenance contracts)?</p>
+          <div class="opt-grid" data-q="recurring">
+            <button class="pf-btn" data-step="1" data-field="recurring" data-value="high">Mostly recurring (60%+)</button>
+            <button class="pf-btn" data-step="1" data-field="recurring" data-value="some">Some (20-60%)</button>
+            <button class="pf-btn" data-step="1" data-field="recurring" data-value="low">Mostly one-off jobs (&lt;20%)</button>
+          </div>
+          <p class="tv-q" data-q="growth" style="font-weight:600;color:#0f172a;margin:18px 0 10px;">Revenue trend over the last 2 years?</p>
+          <div class="opt-grid" data-q="growth">
+            <button class="pf-btn" data-step="1" data-field="growth" data-value="up">Growing</button>
+            <button class="pf-btn" data-step="1" data-field="growth" data-value="flat">Flat</button>
+            <button class="pf-btn" data-step="1" data-field="growth" data-value="down">Declining</button>
+          </div>
+          <p class="tv-q" data-q="digital" style="font-weight:600;color:#0f172a;margin:18px 0 10px;">How strong is your digital footprint?</p>
+          <div class="opt-grid" data-q="digital">
+            <button class="pf-btn" data-step="1" data-field="digital" data-value="strong">Strong — website + reviews</button>
+            <button class="pf-btn" data-step="1" data-field="digital" data-value="basic">Basic — one or the other</button>
+            <button class="pf-btn" data-step="1" data-field="digital" data-value="none">Minimal — word of mouth</button>
+          </div>
+        </div>
+
+        <div class="pf-step" data-q="2">
+          <h3 style="margin-bottom:12px;font-size:1rem;">How the business runs</h3>
+          <p class="tv-q" data-q="independence" style="font-weight:600;color:#0f172a;margin-bottom:10px;">How long could it run without you?</p>
+          <div class="opt-grid" data-q="independence">
+            <button class="pf-btn" data-step="2" data-field="independence" data-value="weeks">Indefinitely / months</button>
+            <button class="pf-btn" data-step="2" data-field="independence" data-value="month">A few weeks</button>
+            <button class="pf-btn" data-step="2" data-field="independence" data-value="week">Days to a week</button>
+            <button class="pf-btn" data-step="2" data-field="independence" data-value="never">I do most of the work</button>
+          </div>
+          <p class="tv-q" data-q="concentration" style="font-weight:600;color:#0f172a;margin:18px 0 10px;">Revenue from your top 3 clients?</p>
+          <div class="opt-grid" data-q="concentration">
+            <button class="pf-btn" data-step="2" data-field="concentration" data-value="low">Under 30%</button>
+            <button class="pf-btn" data-step="2" data-field="concentration" data-value="mid">30-60%</button>
+            <button class="pf-btn" data-step="2" data-field="concentration" data-value="high">Over 60%</button>
+          </div>
+          <p class="tv-q" data-q="systems" style="font-weight:600;color:#0f172a;margin:18px 0 10px;">What systems run the business?</p>
+          <div class="opt-grid" data-q="systems">
+            <button class="pf-btn" data-step="2" data-field="systems" data-value="full">Job software + processes + manager</button>
+            <button class="pf-btn" data-step="2" data-field="systems" data-value="some">Job software (ServiceM8 etc.)</button>
+            <button class="pf-btn" data-step="2" data-field="systems" data-value="none">Spreadsheets / memory / paper</button>
+          </div>
+        </div>
+
+        <div class="pf-step" data-q="3">
+          <h3 style="margin-bottom:12px;font-size:1rem;">Records &amp; exit plan</h3>
+          <p class="tv-q" data-q="books" style="font-weight:600;color:#0f172a;margin-bottom:10px;">How clean are the books?</p>
+          <div class="opt-grid" data-q="books">
+            <button class="pf-btn" data-step="3" data-field="books" data-value="clean">Great — reconciled monthly</button>
+            <button class="pf-btn" data-step="3" data-field="books" data-value="ok">OK — up to date, basic</button>
+            <button class="pf-btn" data-step="3" data-field="books" data-value="messy">Behind — a struggle</button>
+          </div>
+          <p class="tv-q" data-q="compliance" style="font-weight:600;color:#0f172a;margin:18px 0 10px;">Licences, WHS and compliance?</p>
+          <div class="opt-grid" data-q="compliance">
+            <button class="pf-btn" data-step="3" data-field="compliance" data-value="clean">All current, WHS documented</button>
+            <button class="pf-btn" data-step="3" data-field="compliance" data-value="ok">Licences current, WHS informal</button>
+            <button class="pf-btn" data-step="3" data-field="compliance" data-value="gaps">Gaps or expiry issues</button>
+          </div>
+          <p class="tv-q" data-q="horizon" style="font-weight:600;color:#0f172a;margin:18px 0 10px;">When do you want to exit or sell?</p>
+          <div class="opt-grid" data-q="horizon">
+            <button class="pf-btn" data-step="3" data-field="horizon" data-value="soon">Within 1-2 years</button>
+            <button class="pf-btn" data-step="3" data-field="horizon" data-value="medium">3-5 years</button>
+            <button class="pf-btn" data-step="3" data-field="horizon" data-value="exploring">Just exploring</button>
+            <button class="pf-btn" data-step="3" data-field="horizon" data-value="later">5+ years / not sure</button>
+          </div>
+        </div>
+
+        <div class="pf-nav">
+          <button class="pf-back" id="tv-back">← Back</button>
+          <button class="pf-back" id="tv-reset">↺ Start over</button>
+        </div>
+      </div>
+
+      <div id="tv-results" style="display:none;">
+        <div class="finder-card">
+          <h2 style="font-size:1.3rem;color:#0f172a;margin-bottom:4px;">Your Sellability Report</h2>
+          <p class="sub" id="tv-summary" style="color:#64748b;font-size:.9rem;margin-bottom:14px;"></p>
+
+          <div style="text-align:center;padding:10px 0 4px;">
+            <p style="font-size:.8rem;color:#64748b;margin:0 0 6px;">SELLABILITY SCORE</p>
+            <div id="tv-score" style="font-size:2.8rem;font-weight:800;line-height:1;">--</div>
+            <div id="tv-band" style="font-weight:700;font-size:1rem;margin-top:2px;"></div>
+            <div class="score-bar" style="max-width:420px;margin:12px auto 0;"><span id="tv-score-bar"></span></div>
+            <p id="tv-blurb" style="color:#64748b;font-size:.85rem;max-width:520px;margin:10px auto 0;"></p>
+          </div>
+
+          <div id="tv-price" style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:16px 18px;margin:18px 0;text-align:center;">
+            <p style="font-size:.8rem;color:#64748b;margin:0 0 4px;">INDICATIVE SALE RANGE</p>
+            <p id="tv-price-range" style="font-size:1.9rem;font-weight:800;color:#0f172a;margin:0;">—</p>
+            <p id="tv-multiple" style="font-size:.82rem;color:#64748b;margin:6px 0 0;"></p>
+          </div>
+
+          <div class="score-rows" id="tv-scores"></div>
+
+          <div class="actions-box" id="tv-actions">
+            <h4>🎯 Priority actions to lift your multiple</h4>
+            <ul id="tv-action-list"></ul>
+          </div>
+
+          <div style="margin-top:18px;">
+            <button class="cta-primary" id="tv-cta" style="border:none;cursor:pointer;width:100%;text-align:center;">📥 Email me the full report + action plan (free)</button>
+          </div>
+
+          <div id="tv-lead-form" style="display:none;margin-top:14px;background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:16px;">
+            <form id="tv-lead-form-el">
+              <input type="email" id="tv-lead-email" placeholder="Your email for the report" required style="width:100%;box-sizing:border-box;" />
+              <button type="submit" class="cta-primary" style="border:none;cursor:pointer;width:100%;margin-top:10px;">Send me the report →</button>
+            </form>
+            <p id="tv-lead-msg" style="display:none;font-size:.9rem;color:#16a34a;margin-top:10px;">✓ Sent — check your inbox. Your report and action plan are on the way.</p>
+            <p id="tv-lead-err" style="display:none;font-size:.85rem;color:#dc2626;margin-top:8px;"></p>
+          </div>
+        </div>
+
+        <div class="sponsor-slot" id="tv-sponsor-slot">💼 Sponsor slot — help trade owners prepare &amp; sell their business (contact info@tradieautomate.com)</div>
+
+        <div class="related-links">
+          <h3>Related guides</h3>
+          <a href="/playbook/">The Sparky's Playbook — free 12-chapter guide for building a business worth selling →</a>
+          <a href="/blog/servicem8-review-2026/">ServiceM8 Review 2026 — job management systems that build buyer confidence →</a>
+          <a href="/tools/rebate-finder/">Rebate Finder 2026 — heat pump, solar &amp; battery rebates →</a>
+        </div>
+      </div>
+    </main>
+
+    <Footer />
+    <script is:inline set:html={`window.__TV_DATA = ${tvDataJson};\nwindow.__TV_SPONSORS = ${tvSponsors};`}></script>
+    <script is:inline>
+      (function(){
+        var QUIZ = document.getElementById('tv-quiz');
+        var RESULTS = document.getElementById('tv-results');
+        var DATA = window.__TV_DATA;
+        if(!QUIZ || !DATA) return;
+        var steps = Array.prototype.slice.call(QUIZ.querySelectorAll('.pf-step'));
+        var answers = {};
+        var current = 0;
+        function showStep(n){
+          current = n;
+          steps.forEach(function(s){ s.classList.toggle('active', parseInt(s.getAttribute('data-q'),10) === n); });
+        }
+        function val(id){ var v = DATA.questions.filter(function(q){return q.id===id}); return v.length ? v[0] : null; }
+        function opt(id, value){ var q = val(id); if(!q) return null; for(var i=0;i<q.options.length;i++){ if(q.options[i].value===value) return q.options[i]; } return null; }
+        function scoreQ(id){
+          var q = val(id); var o = opt(id, answers[id]);
+          if(!q || !o || q.options.length<2) return null;
+          for(var i=0;i<q.options.length;i++){ if(q.options[i]===o) return (q.options.length-1-i)/(q.options.length-1); }
+          return null;
+        }
+        function compute(){
+          var tt = DATA.trade_types[answers.trade] || DATA.trade_types.multi;
+          var t = { base_sde: tt.base_sde, base_ebitda: tt.base_ebitda };
+          var adjKeys = ['recurring','growth','digital','independence','concentration','systems','books','compliance','horizon'];
+          var adj = 0;
+          for(var i=0;i<adjKeys.length;i++){ var o=opt(adjKeys[i], answers[adjKeys[i]]); if(o && typeof o.adj==='number') adj += o.adj; }
+          if(adj > DATA.adjustment_cap) adj = DATA.adjustment_cap;
+          if(adj < -DATA.adjustment_cap) adj = -DATA.adjustment_cap;
+          var profitMid = 150; var pb = DATA.profit_bands.filter(function(b){return b.id===answers.profit}); if(pb.length) profitMid = pb[0].mid;
+          var revMid = 750; var rb = DATA.revenue_bands.filter(function(b){return b.id===answers.revenue}); if(rb.length) revMid = rb[0].mid;
+          var useEbitda = revMid >= 2000;
+          var base = useEbitda ? t.base_ebitda : t.base_sde;
+          var mult = base + adj;
+          var low = Math.max(1.0, mult - 0.5); var high = mult + 0.5;
+          var w = DATA.score_weights;
+          var weights = { recurring: w.recurring, growth: w.financial, digital: w.digital, independence: w.independence, concentration: w.customers, systems: w.systems, books: w.books, compliance: w.compliance };
+          var totalScore = 0; var totalWeight = 0;
+          for(var k in weights){ var s = scoreQ(k); if(s!==null){ totalScore += s*weights[k]; totalWeight += weights[k]; } }
+          var score = totalWeight ? Math.round(100*totalScore/totalWeight) : 50;
+          var band = DATA.bands[0];
+          for(var b=0;b<DATA.bands.length;b++){ if(score >= DATA.bands[b].min){ band = DATA.bands[b]; break; } }
+          return { mult: mult, low: low, high: high, profitMid: profitMid, useEbitda: useEbitda, score: score, band: band, adj: adj };
+        }
+        function money(n){ if(n>=1000000){ return '$' + (n/1000000).toFixed(n>=10000000?1:2) + 'M'; } if(n>=1000){ return '$' + (n/1000).toFixed(n>=100000?0:1) + 'K'; } return '$' + Math.round(n).toLocaleString(); }
+        function actionFor(k, score){
+          if(k==='recurring' && score<0.55) return DATA.action_map.low_recurring;
+          if(k==='independence' && score<0.55) return DATA.action_map.low_independence;
+          if(k==='concentration' && score<0.55) return DATA.action_map.low_concentration;
+          if(k==='systems' && score<0.55) return DATA.action_map.low_systems;
+          if(k==='books' && score<0.55) return DATA.action_map.low_books;
+          if(k==='digital' && score<0.55) return DATA.action_map.low_digital;
+          if(k==='compliance' && score<0.55) return DATA.action_map.low_compliance;
+          if(k==='growth' && score<0.55) return DATA.action_map.low_growth;
+          return null;
+        }
+        var labelMap = { recurring:'Recurring revenue', growth:'Growth momentum', digital:'Digital footprint', independence:'Owner independence', concentration:'Client concentration', systems:'Systems & processes', books:'Books & records', compliance:'Compliance & WHS' };
+        var sponsorMap = { systems:'systems', books:'books', digital:'systems', recurring:'coaching', growth:'coaching', independence:'coaching', concentration:'coaching', compliance:'systems', horizon:'coaching' };
+        var sponsorLabel = { systems:'Software & systems partner', books:'Accounting & bookkeeping', coaching:'Business coaching & advisory' };
+        function renderSponsor(scores){
+          var slot = document.getElementById('tv-sponsor-slot');
+          if(!slot || !window.__TV_SPONSORS) return;
+          var key = null; var worst = 1.1;
+          for(var k in scores){ if(scores[k]!==null && scores[k]<worst){ worst = scores[k]; key = k; } }
+          var list = key ? (window.__TV_SPONSORS[sponsorMap[key]] || []) : [];
+          var sp = list.length ? list[0] : null;
+          if(sp && sp.name){
+            slot.innerHTML = '💼 <strong>' + sp.name + '</strong> — ' + sp.offer + (sp.url ? ' <a href="' + sp.url + '" style="color:#0284c7;" rel="sponsored nofollow">Learn more →</a>' : '');
+          } else {
+            slot.innerHTML = '💼 Sponsor slot — help trade owners prepare &amp; sell their business (contact info@tradieautomate.com)';
+          }
+        }
+        function render(){
+          var c = compute();
+          document.getElementById('tv-score').textContent = c.score + '/100';
+          document.getElementById('tv-band').textContent = c.band.label;
+          document.getElementById('tv-band').style.color = c.band.color;
+          document.getElementById('tv-blurb').textContent = c.band.blurb;
+          document.getElementById('tv-score-bar').style.width = c.score + '%';
+          document.getElementById('tv-score-bar').style.background = c.band.color;
+          var unit = c.useEbitda ? 'EBITDA' : 'SDE';
+          document.getElementById('tv-multiple').textContent = c.useEbitda ? c.mult.toFixed(1) + 'x ' + unit + ' (adjusted multiple)' : c.mult.toFixed(1) + 'x ' + unit + ' (adjusted multiple)';
+          document.getElementById('tv-price-range').textContent = money(c.profitMid*1000*c.low) + ' - ' + money(c.profitMid*1000*c.high);
+          var rows = '';
+          var actionKeys = ['recurring','independence','systems','books','digital','compliance','growth','concentration'];
+          var scores = {};
+          for(var i=0;i<actionKeys.length;i++){ var s = scoreQ(actionKeys[i]); scores[actionKeys[i]]=s; if(s!==null){ rows += '<div class="score-row"><span>' + labelMap[actionKeys[i]] + '</span><b>' + Math.round(s*100) + '</b></div>'; } }
+          document.getElementById('tv-scores').innerHTML = rows;
+          var actions = [];
+          for(var j=0;j<actionKeys.length;j++){ var a = actionFor(actionKeys[j], scores[actionKeys[j]]); if(a && actions.indexOf(a)<0) actions.push(a); }
+          document.getElementById('tv-action-list').innerHTML = actions.length ? actions.map(function(a){return '<li>'+a+'</li>';}).join('') : '<li>Strong setup — focus on maintaining your systems and documenting processes for the buyer.</li>';
+          document.getElementById('tv-summary').textContent = 'Based on AU broker multiples for ' + (opt('trade',answers.trade) ? opt('trade',answers.trade).label.replace(/^[^:]+:\s*/,'') : 'trade businesses') + ' (indicative only).';
+          renderSponsor(scores);
+          QUIZ.style.display = 'none';
+          RESULTS.style.display = 'block';
+          if(window.gtag){ gtag('event','sellability_report',{score:c.score, trade:answers.trade||'none', horizon:answers.horizon||'none'}); }
+        }
+        function resetQuiz(){
+          answers = {}; current = 0;
+          QUIZ.style.display = 'block'; RESULTS.style.display = 'none';
+          steps.forEach(function(s){ s.classList.remove('active'); });
+          showStep(0);
+          var sel = QUIZ.querySelectorAll('.pf-btn.selected');
+          for(var i=0;i<sel.length;i++){ sel[i].classList.remove('selected'); }
+        }
+        QUIZ.addEventListener('click', function(e){
+          var b = e.target.closest ? e.target.closest('.pf-btn') : null;
+          if(!b) return;
+          var st = parseInt(b.getAttribute('data-step'), 10);
+          var field = b.getAttribute('data-field');
+          var v = b.getAttribute('data-value');
+          var siblings = b.parentElement.querySelectorAll('.pf-btn');
+          for(var i=0;i<siblings.length;i++){ siblings[i].classList.remove('selected'); }
+          b.classList.add('selected');
+          answers[field] = v;
+          var stepDone = true;
+          var qs = QUIZ.querySelectorAll('.tv-q[data-q="' + field + '"]');
+          if(st === 0){
+            if(!answers.trade || !answers.revenue || !answers.profit) stepDone = false;
+          } else if(st === 1){
+            if(!answers.recurring || !answers.growth || !answers.digital) stepDone = false;
+          } else if(st === 2){
+            if(!answers.independence || !answers.concentration || !answers.systems) stepDone = false;
+          } else if(st === 3){
+            if(!answers.books || !answers.compliance || !answers.horizon) stepDone = false;
+          }
+          if(stepDone){
+            if(st < 3){ showStep(st+1); }
+            else { render(); }
+          }
+        });
+        var backBtn = document.getElementById('tv-back');
+        if(backBtn){ backBtn.addEventListener('click', function(){ if(current>0) showStep(current-1); }); }
+        var resetBtn = document.getElementById('tv-reset');
+        if(resetBtn){ resetBtn.addEventListener('click', resetQuiz); }
+        var cta = document.getElementById('tv-cta');
+        if(cta){ cta.addEventListener('click', function(){ var f=document.getElementById('tv-lead-form'); if(f) f.style.display='block'; }); }
+        var leadForm = document.getElementById('tv-lead-form-el');
+        if(leadForm){ leadForm.addEventListener('submit', function(e){
+          e.preventDefault();
+          var email = document.getElementById('tv-lead-email').value.trim();
+          var err = document.getElementById('tv-lead-err');
+          var msg = document.getElementById('tv-lead-msg');
+          if(!email || email.indexOf('@')<0){ if(err){ err.textContent='Enter a valid email.'; err.style.display='block'; } return; }
+          if(err) err.style.display='none';
+          function done(ok){
+            if(ok){ if(msg) msg.style.display='block'; if(window.gtag){ gtag('event','sellability_report_download',{email_provided:1}); } }
+            else { if(err){ err.textContent='Something went wrong — email us at info@tradieautomate.com instead.'; err.style.display='block'; } }
+          }
+          fetch('/.netlify/functions/trade-exit-lead', {
+            method:'POST', headers:{'Content-Type':'application/json'},
+            body: JSON.stringify({ email: email, score: compute().score, trade: answers.trade||'', horizon: answers.horizon||'' })
+          }).then(function(r){return r.json();}).then(function(d){ done(d && d.success); }).catch(function(){ done(false); });
+        }); }
+      })();
+    </script>
+  </body>
+</html>

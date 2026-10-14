@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "tool": "trade-business-valuation",
+    "description": "Sellability Scorecard engine — SDE/EBITDA multiple valuation for AU trade businesses. Indicative only; based on published AU broker multi-range data (Miro Capital, Future Business Brokers, OneBookPlus, iaindarroch 2025-26).",
+    "disclaimer": "This is an indicative estimate, not a formal valuation. A professional valuer or broker sets final pricing.",
+    "version": "1.0.0"
+  },
+  "trade_types": {
+    "electrician": { "label": "Electrician / Electrical", "base_sde": 2.5, "base_ebitda": 3.0 },
+    "plumber": { "label": "Plumber / Plumbing", "base_sde": 2.5, "base_ebitda": 3.0 },
+    "hvac": { "label": "HVAC / Refrigeration / Aircon", "base_sde": 2.8, "base_ebitda": 3.5 },
+    "solar": { "label": "Solar / EV / Renewables", "base_sde": 2.2, "base_ebitda": 2.6 },
+    "builder": { "label": "Builder / Construction", "base_sde": 2.2, "base_ebitda": 2.8 },
+    "multi": { "label": "Mixed trade / Other", "base_sde": 2.4, "base_ebitda": 2.9 }
+  },
+  "profit_bands": [
+    { "id": "50", "label": "$50K - $100K", "mid": 75 },
+    { "id": "100", "label": "$100K - $200K", "mid": 150 },
+    { "id": "200", "label": "$200K - $350K", "mid": 275 },
+    { "id": "350", "label": "$350K - $500K", "mid": 425 },
+    { "id": "500", "label": "$500K+", "mid": 575 }
+  ],
+  "revenue_bands": [
+    { "id": "500", "label": "Under $500K", "mid": 400 },
+    { "id": "1m", "label": "$500K - $1M", "mid": 750 },
+    { "id": "2m", "label": "$1M - $2M", "mid": 1500 },
+    { "id": "5m", "label": "$2M - $5M", "mid": 3500 },
+    { "id": "5p", "label": "$5M+", "mid": 6500 }
+  ],
+  "questions": [
+    {
+      "id": "trade",
+      "step": 0,
+      "field": "trade",
+      "prompt": "What trade is the business in?",
+      "options": [
+        { "value": "electrician", "label": "Electrician / Electrical" },
+        { "value": "plumber", "label": "Plumber / Plumbing" },
+        { "value": "hvac", "label": "HVAC / Refrigeration / Aircon" },
+        { "value": "solar", "label": "Solar / EV / Renewables" },
+        { "value": "builder", "label": "Builder / Construction" },
+        { "value": "multi", "label": "Mixed trade / Other" }
+      ]
+    },
+    {
+      "id": "revenue",
+      "step": 0,
+      "field": "revenue",
+      "prompt": "Rough annual revenue?",
+      "options": [
+        { "value": "500", "label": "Under $500K" },
+        { "value": "1m", "label": "$500K - $1M" },
+        { "value": "2m", "label": "$1M - $2M" },
+        { "value": "5m", "label": "$2M - $5M" },
+        { "value": "5p", "label": "$5M+" }
+      ]
+    },
+    {
+      "id": "profit",
+      "step": 0,
+      "field": "profit",
+      "prompt": "Annual profit BEFORE tax, after your own wage? (Owner's Benefits / SDE-like)",
+      "options": [
+        { "value": "50", "label": "$50K - $100K" },
+        { "value": "100", "label": "$100K - $200K" },
+        { "value": "200", "label": "$200K - $350K" },
+        { "value": "350", "label": "$350K - $500K" },
+        { "value": "500", "label": "$500K+" }
+      ]
+    },
+    {
+      "id": "recurring",
+      "step": 1,
+      "field": "recurring",
+      "prompt": "How much revenue is recurring (service plans, maintenance contracts, retainers)?",
+      "options": [
+        { "value": "high", "label": "Mostly recurring (60%+)", "adj": 0.5 },
+        { "value": "some", "label": "Some (20-60%)", "adj": 0.2 },
+        { "value": "low", "label": "Mostly one-off jobs (<20%)", "adj": 0 }
+      ]
+    },
+    {
+      "id": "growth",
+      "step": 1,
+      "field": "growth",
+      "prompt": "Revenue trend over the last 2 years?",
+      "options": [
+        { "value": "up", "label": "Growing", "adj": 0.3 },
+        { "value": "flat", "label": "Flat", "adj": 0 },
+        { "value": "down", "label": "Declining", "adj": -0.4 }
+      ]
+    },
+    {
+      "id": "digital",
+      "step": 1,
+      "field": "digital",
+      "prompt": "How strong is the digital footprint? (website, Google reviews, online presence)",
+      "options": [
+        { "value": "strong", "label": "Strong — website + lots of reviews", "adj": 0.2 },
+        { "value": "basic", "label": "Basic — website or reviews only", "adj": 0 },
+        { "value": "none", "label": "Minimal — word of mouth only", "adj": -0.3 }
+      ]
+    },
+    {
+      "id": "independence",
+      "step": 2,
+      "field": "independence",
+      "prompt": "How long could the business run WITHOUT you?",
+      "options": [
+        { "value": "weeks", "label": "Indefinitely / several months", "adj": 0.5 },
+        { "value": "month", "label": "A few weeks", "adj": 0.2 },
+        { "value": "week", "label": "Days to a week", "adj": -0.3 },
+        { "value": "never", "label": "I do most of the work myself", "adj": -0.6 }
+      ]
+    },
+    {
+      "id": "concentration",
+      "step": 2,
+      "field": "concentration",
+      "prompt": "What share of revenue comes from your top 3 clients?",
+      "options": [
+        { "value": "low", "label": "Under 30%", "adj": 0.3 },
+        { "value": "mid", "label": "30-60%", "adj": 0 },
+        { "value": "high", "label": "Over 60%", "adj": -0.4 }
+      ]
+    },
+    {
+      "id": "systems",
+      "step": 2,
+      "field": "systems",
+      "prompt": "What systems run the business?",
+      "options": [
+        { "value": "full", "label": "Job software + documented processes + manager", "adj": 0.5 },
+        { "value": "some", "label": "Job software (ServiceM8, Tradify etc.)", "adj": 0.3 },
+        { "value": "none", "label": "Spreadsheets / memory / paper", "adj": -0.3 }
+      ]
+    },
+    {
+      "id": "books",
+      "step": 3,
+      "field": "books",
+      "prompt": "How clean are the books?",
+      "options": [
+        { "value": "clean", "label": "Great — fully reconciled, monthly", "adj": 0.3 },
+        { "value": "ok", "label": "OK — up to date but basic", "adj": 0 },
+        { "value": "messy", "label": "Behind — bookkeeping is a struggle", "adj": -0.4 }
+      ]
+    },
+    {
+      "id": "compliance",
+      "step": 3,
+      "field": "compliance",
+      "prompt": "Licences, WHS and compliance?",
+      "options": [
+        { "value": "clean", "label": "All current, WHS documented", "adj": 0.3 },
+        { "value": "ok", "label": "Licences current, WHS informal", "adj": 0 },
+        { "value": "gaps", "label": "Gaps or expiry issues", "adj": -0.4 }
+      ]
+    },
+    {
+      "id": "horizon",
+      "step": 3,
+      "field": "horizon",
+      "prompt": "When do you want to exit or sell?",
+      "options": [
+        { "value": "soon", "label": "Within 1-2 years", "adj": 0 },
+        { "value": "medium", "label": "3-5 years", "adj": 0.1 },
+        { "value": "exploring", "label": "Just exploring / preparing", "adj": 0.1 },
+        { "value": "later", "label": "5+ years / not sure yet", "adj": 0 }
+      ]
+    }
+  ],
+  "score_weights": {
+    "financial": 20,
+    "recurring": 15,
+    "independence": 15,
+    "systems": 15,
+    "customers": 12,
+    "digital": 8,
+    "compliance": 10,
+    "books": 5
+  },
+  "adjustment_cap": 1.5,
+  "bands": [
+    { "min": 70, "label": "Acquisition-Ready", "color": "#16a34a", "blurb": "Well set up to sell at a top multiple. Strong systems, low owner-dependence and clean books mean buyers can see the value." },
+    { "min": 45, "label": "Improve to Sell Well", "color": "#d97706", "blurb": "Solid business, but fixing key gaps could lift your multiple by 0.5-1.0x — often worth $50K-$200K+ at sale time." },
+    { "min": 0, "label": "Build Value First", "color": "#dc2626", "blurb": "Most value is tied to you and your day-to-day. Prepare now and you set up a far stronger sale or succession later." }
+  ],
+  "action_map": {
+    "low_independence": "Reduce owner-dependence: hire or promote a second-in-charge, document job processes, move yourself out of quoting and dispatching.",
+    "low_concentration": "Diversify the client base — top-3 concentration over 60% scares buyers. Target new segments or territories.",
+    "low_recurring": "Add service plans / maintenance agreements. Recurring revenue is the single strongest multiple lift available.",
+    "low_systems": "Adopt proper job management software (ServiceM8, Tradify, Simpro) and document how the business runs day to day.",
+    "low_books": "Get bookkeeping current and reconciled monthly. Clean books are what let a sale settle quickly (and at a better price).",
+    "low_digital": "Build the digital footprint: website, Google Business Profile, review flow. Brand value beats reputation-in-head.",
+    "low_compliance": "Get every licence current and WHS documented. Compliance gaps are the #1 reason deals stall in diligence.",
+    "low_growth": "Show 12-24 months of pipeline and growth evidence — buyers pay more for momentum.",
+    "low_profit": "Improve job-costing and pricing discipline — profit normalisation is where most sale value is created or lost."
+  }
+}

@@ -15,6 +15,15 @@ const LISTS = [
   'Rebate Leads - TAS',
   'Rebate Leads - ACT',
   'Rebate Leads - NT',
+  'Trade Exit Leads',
+  'Trade Exit Leads - VIC',
+  'Trade Exit Leads - NSW',
+  'Trade Exit Leads - QLD',
+  'Trade Exit Leads - SA',
+  'Trade Exit Leads - WA',
+  'Trade Exit Leads - TAS',
+  'Trade Exit Leads - ACT',
+  'Trade Exit Leads - NT',
 ];
 
 exports.handler = async (event) => {
