@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "Australian energy rebate & incentive dataset for the TradieAutomate Rebate Finder. Maintained by the Bonsai maintenance cron — diff against source pages listed per program, update amounts/eligibility/status, bump last_verified. NEVER invent figures; when a source page contradicts this file, the source wins.",
-    "last_verified": "2026-10-13",
+    "last_verified": "2026-10-14",
     "verify_frequency_days": 7,
     "sources": [
       "https://www.solar.vic.gov.au/hot-water-rebate",
@@ -10,14 +10,19 @@
       "https://www.energy.nsw.gov.au/households/grants-rebates/household-energy-saving-upgrades",
       "https://www.service.nsw.gov.au/referral/energy-efficient-savings",
       "https://pumpswap.com.au/heat-pump-hot-water/rebates/qld",
-      "https://www.energymatters.com.au/renewable-news/every-solar-battery-and-ev-incentive-change-from-1-july-2026/"
+      "https://www.energymatters.com.au/renewable-news/every-solar-battery-and-ev-incentive-change-from-1-july-2026/",
+      "https://www.wa.gov.au/organisation/energy-policy-wa/wa-residential-battery-scheme",
+      "https://missiongreen.com.au/rebate-data"
     ]
   },
   "programs": {
     "vic_solar_homes_hot_water": {
       "state": "VIC",
       "name": "Solar Homes Hot Water Rebate",
-      "category": ["heat_pump", "solar_hot_water"],
+      "category": [
+        "heat_pump",
+        "solar_hot_water"
+      ],
       "amount_range": "$1,000 (up to $1,400 with local content)",
       "amount_note": "50% of purchase price after STCs and VEECs, capped at $1,000; $1,400 cap for eligible locally-made systems (from 1 July 2025).",
       "eligibility": [
@@ -32,12 +37,16 @@
       "expiry": "Ongoing — 27,000 additional rebates allocated for 2026-27",
       "how_to_claim": "Apply via an authorised hot water retailer; rebate applied after STCs and VEECs.",
       "source_url": "https://www.solar.vic.gov.au/hot-water-rebate",
-      "source_name": "Solar Victoria"
+      "source_name": "Solar Victoria",
+      "last_verified": "2026-10-14"
     },
     "vic_veu_hot_water": {
       "state": "VIC",
       "name": "Victorian Energy Upgrades — Hot Water Discount",
-      "category": ["heat_pump", "solar_hot_water"],
+      "category": [
+        "heat_pump",
+        "solar_hot_water"
+      ],
       "amount_range": "Up to $560 (heat pump) / up to $700 (efficient upgrade)",
       "amount_note": "VEU discount on approved heat pump or solar hot water systems via an accredited provider. Works alongside the Solar Homes rebate.",
       "eligibility": [
@@ -54,7 +63,9 @@
     "vic_solar_pv": {
       "state": "VIC",
       "name": "Solar Homes Solar Panel Rebate",
-      "category": ["solar"],
+      "category": [
+        "solar"
+      ],
       "amount_range": "Up to $1,400",
       "amount_note": "Plus optional interest-free loan. Rebate amounts held steady from 1 July 2026; households earning $150K-$210K no longer eligible from 1 July 2026.",
       "eligibility": [
@@ -71,7 +82,9 @@
     "vic_battery_loan": {
       "state": "VIC",
       "name": "Solar Homes Battery Loan (closed to new applications)",
-      "category": ["battery"],
+      "category": [
+        "battery"
+      ],
       "amount_range": "Interest-free loan — no longer accepting applications",
       "amount_note": "Solar Victoria no longer takes applications for interest-free solar battery loans. Battery buyers fall back to federal programs.",
       "eligibility": [],
@@ -84,7 +97,10 @@
     "nsw_ess_hot_water": {
       "state": "NSW",
       "name": "Energy Savings Scheme — Hot Water Upgrade Incentive",
-      "category": ["heat_pump", "solar_hot_water"],
+      "category": [
+        "heat_pump",
+        "solar_hot_water"
+      ],
       "amount_range": "Up to $640 (electric to heat pump) / up to $330 (gas to heat pump)",
       "amount_note": "Upfront discount applied in the quote by participating installers. Actual discount varies by system size ($200-$800 typical).",
       "eligibility": [
@@ -102,7 +118,10 @@
     "nsw_home_energy_saver": {
       "state": "NSW",
       "name": "Home Energy Saver",
-      "category": ["battery", "insulation"],
+      "category": [
+        "battery",
+        "insulation"
+      ],
       "amount_range": "Up to $4,000 discount or $15,000 zero-interest loan",
       "amount_note": "Successor to Empowering Homes (closed 2024). Covers home batteries, insulation and other efficiency upgrades.",
       "eligibility": [
@@ -118,7 +137,9 @@
     "nsw_vpp": {
       "state": "NSW",
       "name": "Virtual Power Plant (VPP) Battery Incentive",
-      "category": ["battery"],
+      "category": [
+        "battery"
+      ],
       "amount_range": "Varies by VPP operator",
       "amount_note": "Sign your battery up to a demand-response contract; paid for making stored energy available at peak times.",
       "eligibility": [
@@ -131,27 +152,12 @@
       "source_url": "https://www.service.nsw.gov.au/referral/energy-efficient-savings",
       "source_name": "Service NSW"
     },
-    "qld_stc_hot_water": {
-      "state": "QLD",
-      "name": "Federal STC Discount — Heat Pump Hot Water",
-      "category": ["heat_pump", "solar_hot_water"],
-      "amount_range": "$500 - $800",
-      "amount_note": "No Queensland state heat pump rebate exists in 2026 (Climate Smart Energy Savers closed December 2023). The STC discount is the only heat pump incentive, taken off the installer's quote.",
-      "eligibility": [
-        "Queensland residents",
-        "Registered heat pump/solar hot water model",
-        "STCs created within 12 months of install"
-      ],
-      "status": "open",
-      "expiry": "Ongoing",
-      "how_to_claim": "Ask the installer to show the STC discount as a separate line on the quote.",
-      "source_url": "https://pumpswap.com.au/heat-pump-hot-water/rebates/qld",
-      "source_name": "Clean Energy Regulator (via retailer)"
-    },
     "qld_battery_booster": {
       "state": "QLD",
       "name": "Battery Booster (closed)",
-      "category": ["battery"],
+      "category": [
+        "battery"
+      ],
       "amount_range": "Closed — fully subscribed May 2024",
       "amount_note": "Offered up to $4,000 to households under income caps. No replacement announced as of August 2026.",
       "eligibility": [],
@@ -164,7 +170,9 @@
     "fed_cheaper_home_batteries": {
       "state": "ALL",
       "name": "Cheaper Home Batteries Program (federal)",
-      "category": ["battery"],
+      "category": [
+        "battery"
+      ],
       "amount_range": "~30% upfront discount",
       "amount_note": "Administered by the Clean Energy Regulator. Point-of-sale reduction on eligible 5-100 kWh battery systems; battery must be VPP-capable and on the approved list.",
       "eligibility": [
@@ -184,7 +192,9 @@
     "fed_stc_solar": {
       "state": "ALL",
       "name": "Small-scale Technology Certificates (STCs) — Solar Panel Discount",
-      "category": ["solar"],
+      "category": [
+        "solar"
+      ],
       "amount_range": "Typically $500 - $1,000+ depending on system & zone",
       "amount_note": "Federal discount on solar PV and hot water; STCs assigned to the installer in exchange for an upfront price reduction. QLD earns slightly more due to sunnier zone.",
       "eligibility": [
@@ -197,6 +207,138 @@
       "how_to_claim": "Ask for STC discount as a separate line on the quote.",
       "source_url": "https://pumpswap.com.au/heat-pump-hot-water/rebates/qld",
       "source_name": "Clean Energy Regulator"
+    },
+    "fed_stc_hot_water": {
+      "state": "ALL",
+      "name": "Federal STC Discount — Heat Pump & Solar Hot Water",
+      "category": [
+        "heat_pump",
+        "solar_hot_water"
+      ],
+      "amount_range": "$500 - $800",
+      "amount_note": "The federal STC discount is the main hot water incentive in QLD, WA, SA, TAS and NT — none of these states has its own state heat pump rebate in 2026 (QLD's Climate Smart Energy Savers closed December 2023, TAS's Energy Saver Loan Scheme closed September 2025). Taken off the installer's quote.",
+      "eligibility": [
+        "Australian residents",
+        "Registered heat pump/solar hot water model",
+        "STCs created within 12 months of install"
+      ],
+      "status": "open",
+      "expiry": "Ongoing",
+      "how_to_claim": "Ask the installer to show the STC discount as a separate line on the quote.",
+      "source_url": "https://pumpswap.com.au/heat-pump-hot-water/rebates/qld",
+      "source_name": "Clean Energy Regulator (via retailer)"
+    },
+    "sa_reps_vpp": {
+      "state": "SA",
+      "name": "REPS Virtual Power Plant Incentive",
+      "category": [
+        "battery"
+      ],
+      "amount_range": "Up to ~$2,050",
+      "amount_note": "South Australia's Home Battery Scheme closed in September 2022. The Retailer Energy Productivity Scheme (REPS) still offers a VPP incentive worth up to about $2,050 (2026 reporting) — delivered through participating energy retailers as part of a VPP deal, not a government application. Stacks with the federal program.",
+      "eligibility": [
+        "South Australian household or business",
+        "Eligible battery connected to an approved demand-response aggregator or VPP",
+        "Join through a participating energy retailer"
+      ],
+      "status": "open",
+      "expiry": "Ongoing — value and terms set by retailer",
+      "how_to_claim": "Contact participating SA energy retailers for a VPP battery deal.",
+      "source_url": "https://missiongreen.com.au/rebate-data",
+      "source_name": "Retailer Energy Productivity Scheme (SA)"
+    },
+    "wa_residential_battery": {
+      "state": "WA",
+      "name": "WA Residential Battery Scheme",
+      "category": [
+        "battery"
+      ],
+      "amount_range": "Up to $1,300 (Synergy) / $3,800 (Horizon Power)",
+      "amount_note": "One of Australia's strongest battery schemes: rebates up to $1,300 for Synergy customers and up to $3,800 for Horizon Power customers (based on 10 kWh usable capacity; larger batteries still get the max), plus no-interest loans up to $10,000 for households earning under $210,000 (up to 10-year terms). Stacks with the federal Cheaper Home Batteries Program. VPP participation required.",
+      "eligibility": [
+        "WA household (Synergy or Horizon Power network)",
+        "New, VPP-capable battery on the Supported Solutions List",
+        "Installed by an accredited installer (Plenti Vendor Directory)",
+        "Commit to a VPP product from your retailer",
+        "Loan requires combined household income under $210,000"
+      ],
+      "status": "open",
+      "expiry": "Until all 100,000 rebates distributed — expected to 2027",
+      "how_to_claim": "Get quotes from approved battery retailers; rebate applied as upfront discount.",
+      "source_url": "https://www.wa.gov.au/organisation/energy-policy-wa/wa-residential-battery-scheme",
+      "source_name": "Energy Policy WA"
+    },
+    "act_sustainable_household": {
+      "state": "ACT",
+      "name": "Sustainable Household Scheme",
+      "category": [
+        "battery",
+        "heat_pump",
+        "solar"
+      ],
+      "amount_range": "Loans $2,000 - $20,000 at ~3%",
+      "amount_note": "The ACT has no battery or hot water rebate — it offers cheap money instead. Low-interest loans for batteries, heat pumps, efficient appliances and EV chargers: $2,000-$20,000 (ceiling rising from $15,000 to $20,000 from 1 July 2026), repaid over up to 10 years, at 3% for general applicants since 1 July 2025. Finance, not a rebate — stacks with federal programs.",
+      "eligibility": [
+        "ACT homeowner",
+        "Eligible upgrade (battery, heat pump, solar, EV charger, appliances)",
+        "Attend scheme energy-efficiency requirements"
+      ],
+      "status": "open",
+      "expiry": "Ongoing",
+      "how_to_claim": "Apply through the ACT Government — loans repaid via your electricity bill.",
+      "source_url": "https://www.energy.gov.au/rebate-type/loan",
+      "source_name": "ACT Government"
+    },
+    "act_hot_water_rebate": {
+      "state": "ACT",
+      "name": "ACT Hot Water Rebate (concession holders)",
+      "category": [
+        "heat_pump",
+        "solar_hot_water"
+      ],
+      "amount_range": "50% of cost, up to $2,500",
+      "amount_note": "ACT homeowners with an eligible concession card can get 50% of the cost (up to $2,500) of a heat pump or evacuated-tube solar hot water system, within a total of up to $5,000 in rebates. Everyone else uses the Sustainable Household Scheme loan.",
+      "eligibility": [
+        "ACT homeowner with eligible concession card",
+        "Heat pump or evacuated-tube solar hot water system"
+      ],
+      "status": "open",
+      "expiry": "Ongoing",
+      "how_to_claim": "Apply via the ACT Home Energy Support program.",
+      "source_url": "https://whatsthedamage.com.au/hot-water-rebate/",
+      "source_name": "ACT Government"
+    },
+    "tas_energy_saver": {
+      "state": "TAS",
+      "name": "Energy Saver Loan Scheme (closed)",
+      "category": [
+        "battery",
+        "heat_pump",
+        "solar"
+      ],
+      "amount_range": "Closed — interest-free loans up to $10,000",
+      "amount_note": "Tasmania's Energy Saver Loan Scheme (interest-free finance up to $10,000 for energy-efficient products) closed to new applications on 1 September 2025, earlier than planned. Tasmanian households now rely on the federal STC discount and Cheaper Home Batteries Program.",
+      "eligibility": [],
+      "status": "closed",
+      "expiry": "Closed 1 September 2025",
+      "how_to_claim": "N/A — federal programs apply instead.",
+      "source_url": "https://www.solarcobber.com/blog/solar-battery-rebates-by-state-2026",
+      "source_name": "Tasmanian Government (historical)"
+    },
+    "nt_battery_scheme": {
+      "state": "NT",
+      "name": "Home and Business Battery Scheme (closed)",
+      "category": [
+        "battery"
+      ],
+      "amount_range": "Closed — funding fully allocated",
+      "amount_note": "The NT Home and Business Battery Scheme reached its $6 million funding cap and is no longer taking applications. NT residents fall back to federal STCs and the (more limited) federal battery program rollout.",
+      "eligibility": [],
+      "status": "closed",
+      "expiry": "Closed",
+      "how_to_claim": "N/A — check with local installers for current NT eligibility under federal programs.",
+      "source_url": "https://www.solarcobber.com/blog/solar-battery-rebates-by-state-2026",
+      "source_name": "NT Government (historical)"
     }
   }
 }

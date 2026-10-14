@@ -119,7 +119,12 @@ const faqSchema = {
             <button class="pf-btn" data-step="0" data-field="state" data-value="VIC">VIC</button>
             <button class="pf-btn" data-step="0" data-field="state" data-value="NSW">NSW</button>
             <button class="pf-btn" data-step="0" data-field="state" data-value="QLD">QLD</button>
-            <button class="pf-btn" data-step="0" data-field="state" data-value="ALL">Any (show federal)</button>
+            <button class="pf-btn" data-step="0" data-field="state" data-value="SA">SA</button>
+            <button class="pf-btn" data-step="0" data-field="state" data-value="WA">WA</button>
+            <button class="pf-btn" data-step="0" data-field="state" data-value="TAS">TAS</button>
+            <button class="pf-btn" data-step="0" data-field="state" data-value="ACT">ACT</button>
+            <button class="pf-btn" data-step="0" data-field="state" data-value="NT">NT</button>
+            <button class="pf-btn" data-step="0" data-field="state" data-value="ALL">🌏 All states + federal</button>
           </div>
         </div>
 
@@ -142,14 +147,16 @@ const faqSchema = {
           </div>
         </div>
 
-        <div class="pf-nav" style="display:none;">
+        <div class="pf-nav">
           <button class="pf-back" id="rf-back">← Back</button>
+          <button class="pf-back" id="rf-reset">↺ Start over</button>
         </div>
       </div>
 
       <div id="rf-results" style="display:none;">
         <h2 style="font-size:1.3rem;color:#0f172a;margin-bottom:6px;">Your rebates</h2>
         <p class="sub" id="rf-summary" style="color:#64748b;font-size:.9rem;margin-bottom:18px;"></p>
+        <div style="margin-bottom:14px;"><button class="pf-back" id="rf-results-reset" style="padding:8px 16px;">↺ Start over — change state or upgrade</button></div>
         <div id="rf-result-list"></div>
 
         <div class="cta-row">
@@ -278,6 +285,24 @@ const faqSchema = {
 
         var backBtn = document.getElementById('rf-back');
         if(backBtn){ backBtn.addEventListener('click', function(){ if(current>0){ showStep(current-1); } }); }
+
+        function resetQuiz(){
+          answers = {state:'', category:'', owner:''};
+          current = 0;
+          QUIZ.style.display = 'block';
+          RESULTS.style.display = 'none';
+          steps.forEach(function(s){ s.classList.remove('active'); });
+          showStep(0);
+          var sel = QUIZ.querySelectorAll('.pf-btn.selected');
+          for(var i=0;i<sel.length;i++){ sel[i].classList.remove('selected'); }
+          if(window.gtag){ gtag('event','rebate_finder_reset'); }
+        }
+
+        var resetBtn = document.getElementById('rf-reset');
+        if(resetBtn){ resetBtn.addEventListener('click', resetQuiz); }
+
+        var resultsReset = document.getElementById('rf-results-reset');
+        if(resultsReset){ resultsReset.addEventListener('click', resetQuiz); }
       })();
     </script>
   </body>
