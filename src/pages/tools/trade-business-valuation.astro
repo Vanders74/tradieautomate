@@ -57,8 +57,23 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
       .score-bar { height:10px; border-radius:999px; background:#e2e8f0; overflow:hidden; margin:6px 0 14px; }
       .score-bar span { display:block; height:100%; border-radius:999px; }
       .score-rows { margin:10px 0 16px; }
-      .score-row { display:flex; justify-content:space-between; align-items:center; padding:8px 0; border-bottom:1px dashed #e2e8f0; font-size:.86rem; }
-      .score-row b { color:#0f172a; }
+      .score-row { padding:13px 0; border-bottom:1px solid #eef2f7; }
+      .score-row:last-child { border-bottom:none; }
+      .score-row-head { display:flex; justify-content:space-between; align-items:center; margin-bottom:7px; }
+      .score-label { font-size:.9rem; font-weight:700; color:#0f172a; }
+      .score-val { font-size:.8rem; font-weight:800; color:#0f172a; background:#f1f5f9; border-radius:999px; padding:2px 12px; min-width:44px; text-align:center; }
+      .score-track { height:7px; background:#eef2f7; border-radius:999px; overflow:hidden; }
+      .score-fill { display:block; height:100%; border-radius:999px; background:linear-gradient(90deg,#f97316,#fb923c); }
+      .score-desc { margin:7px 0 0; font-size:.82rem; color:#64748b; line-height:1.5; }
+      .tv-gauge-wrap { position:relative; width:160px; height:160px; margin:0 auto; }
+      .tv-gauge-num { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; pointer-events:none; }
+      .tv-gauge-score { font-size:2.4rem; font-weight:800; color:#0f172a; line-height:1; }
+      .tv-gauge-sub { font-size:.72rem; color:#94a3b8; letter-spacing:.1em; margin-top:5px; }
+      .tv-band-chip { display:inline-block; margin-top:12px; padding:6px 16px; border-radius:999px; font-weight:800; font-size:.9rem; }
+      .tv-price-card { background:linear-gradient(135deg,#0f172a,#1e293b); border-radius:14px; padding:20px 22px; margin:20px 0; text-align:center; }
+      .tv-price-label { font-size:.72rem; letter-spacing:.12em; color:#94a3b8; margin:0 0 6px; text-transform:uppercase; }
+      .tv-price-range { font-size:2rem; font-weight:800; color:#ffffff; margin:0; line-height:1.15; }
+      .tv-price-mult { font-size:.84rem; color:#cbd5e1; margin:8px 0 0; }
       .actions-box { background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:14px 16px; margin-top:12px; }
       .actions-box h4 { margin:0 0 8px; font-size:.92rem; color:#0f172a; }
       .actions-box ul { margin:0; padding-left:18px; color:#475569; font-size:.86rem; line-height:1.6; }
@@ -217,21 +232,30 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
           <h2 style="font-size:1.3rem;color:#0f172a;margin-bottom:4px;">Your Sellability Report</h2>
           <p class="sub" id="tv-summary" style="color:#64748b;font-size:.9rem;margin-bottom:14px;"></p>
 
-          <div style="text-align:center;padding:10px 0 4px;">
-            <p style="font-size:.8rem;color:#64748b;margin:0 0 6px;">SELLABILITY SCORE</p>
-            <div id="tv-score" style="font-size:2.8rem;font-weight:800;line-height:1;">--</div>
-            <div id="tv-band" style="font-weight:700;font-size:1rem;margin-top:2px;"></div>
-            <div class="score-bar" style="max-width:420px;margin:12px auto 0;"><span id="tv-score-bar"></span></div>
-            <p id="tv-blurb" style="color:#64748b;font-size:.85rem;max-width:520px;margin:10px auto 0;"></p>
+          <div style="text-align:center;padding:10px 0 2px;">
+            <div class="tv-gauge-wrap">
+              <svg viewBox="0 0 120 120" width="160" height="160" aria-hidden="true">
+                <circle cx="60" cy="60" r="52" fill="none" stroke="#eef2f7" stroke-width="11" />
+                <circle id="tv-score-ring" cx="60" cy="60" r="52" fill="none" stroke="#f97316" stroke-width="11" stroke-linecap="round"
+                  stroke-dasharray="326.7" stroke-dashoffset="326.7" transform="rotate(-90 60 60)" style="transition:stroke-dashoffset .8s ease, stroke .8s ease;" />
+              </svg>
+              <div class="tv-gauge-num">
+                <span class="tv-gauge-score" id="tv-score">--</span>
+                <span class="tv-gauge-sub">SELLABILITY SCORE</span>
+              </div>
+            </div>
+            <div><span class="tv-band-chip" id="tv-band" style="background:#f1f5f9;color:#0f172a;"></span></div>
+            <p id="tv-blurb" style="color:#64748b;font-size:.86rem;max-width:540px;margin:12px auto 0;line-height:1.55;"></p>
           </div>
 
-          <div id="tv-price" style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:16px 18px;margin:18px 0;text-align:center;">
-            <p style="font-size:.8rem;color:#64748b;margin:0 0 4px;">INDICATIVE SALE RANGE</p>
-            <p id="tv-price-range" style="font-size:1.9rem;font-weight:800;color:#0f172a;margin:0;">—</p>
-            <p id="tv-multiple" style="font-size:.82rem;color:#64748b;margin:6px 0 0;"></p>
+          <div class="tv-price-card">
+            <p class="tv-price-label">Indicative sale range</p>
+            <p class="tv-price-range" id="tv-price-range">—</p>
+            <p class="tv-price-mult" id="tv-multiple"></p>
           </div>
 
           <div class="score-rows" id="tv-scores"></div>
+          <p style="font-size:.74rem;color:#94a3b8;margin:-6px 0 14px;">Each score is out of 100 and compared against what Australian buyers actually pay for.</p>
 
           <div class="actions-box" id="tv-actions">
             <h4>🎯 Priority actions to lift your multiple</h4>
@@ -239,16 +263,17 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
           </div>
 
           <div style="margin-top:18px;">
-            <button class="cta-primary" id="tv-cta" style="border:none;cursor:pointer;width:100%;text-align:center;">📥 Email me the full report + action plan (free)</button>
-            <p style="margin:8px 0 0;font-size:.78rem;color:#94a3b8;text-align:center;">Your personalised PDF-style summary: score, range, report card and your ranked action plan — delivered to your inbox so you can act on it later. We never spam; unsubscribe anytime.</p>
+            <button class="cta-primary" id="tv-cta" style="border:none;cursor:pointer;width:100%;text-align:center;">📥 Email me my report + action plan (free)</button>
+            <p style="margin:8px 0 0;font-size:.78rem;color:#94a3b8;text-align:center;">We'll send your personalised summary — score, range, report card and your ranked action plan — to your inbox. No spam, unsubscribe anytime.</p>
           </div>
 
           <div id="tv-lead-form" style="display:none;margin-top:14px;background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:16px;">
             <form id="tv-lead-form-el">
-              <input type="email" id="tv-lead-email" placeholder="Your email for the report" required style="width:100%;box-sizing:border-box;" />
-              <button type="submit" class="cta-primary" style="border:none;cursor:pointer;width:100%;margin-top:10px;">Send me the report →</button>
+              <label for="tv-lead-email" style="font-size:.85rem;font-weight:600;color:#0f172a;display:block;margin-bottom:6px;">Where should we send your report?</label>
+              <input type="email" id="tv-lead-email" placeholder="you@example.com" required style="width:100%;box-sizing:border-box;" />
+              <button type="submit" class="cta-primary" style="border:none;cursor:pointer;width:100%;margin-top:10px;">Send my report →</button>
             </form>
-            <p id="tv-lead-msg" style="display:none;font-size:.9rem;color:#16a34a;margin-top:10px;">✓ Sent — check your inbox. Your report and action plan are on the way.</p>
+            <p id="tv-lead-msg" style="display:none;font-size:.9rem;color:#16a34a;margin-top:10px;">✓ Sent — check your inbox (and spam if it's not there in a few minutes).</p>
             <p id="tv-lead-err" style="display:none;font-size:.85rem;color:#dc2626;margin-top:8px;"></p>
           </div>
         </div>
@@ -342,6 +367,16 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
           else { document.getElementById('tv-live-track').textContent = 'Live estimate:'; }
         }
         var labelMap = { recurring:'Recurring revenue', growth:'Growth momentum', digital:'Digital footprint', independence:'Owner independence', concentration:'Client concentration', systems:'Systems & processes', books:'Books & records', compliance:'Compliance & WHS' };
+        var descMap = {
+          recurring: 'Regular income from service plans and maintenance contracts. Buyers pay more for money they can count on.',
+          growth: 'Your revenue trend over the past 2 years — steady growth signals a business that keeps winning.',
+          digital: 'Your website and online reviews. Buyers (and their lenders) check this first — it sets the first impression of value.',
+          independence: 'Can the business run without you? The more it runs on its own, the more a buyer can own it — and the more they pay.',
+          concentration: 'How much revenue comes from your top few clients. Heavy reliance on one or two customers is a big risk for buyers.',
+          systems: 'Job software, documented processes and a manager running day-to-day. This is the core of a sellable business.',
+          books: 'Clean, reconciled records. Buyers discount or walk away from messy books — it is the deal killer we hear most.',
+          compliance: 'Licences, WHS and paperwork current and documented. Gaps here block sales entirely or force heavy discounts.'
+        };
         var sponsorMap = { systems:'systems', books:'books', digital:'systems', recurring:'coaching', growth:'coaching', independence:'coaching', concentration:'coaching', compliance:'systems', horizon:'coaching' };
         var sponsorLabel = { systems:'Software & systems partner', books:'Accounting & bookkeeping', coaching:'Business coaching & advisory' };
         function renderSponsor(scores){
@@ -361,7 +396,7 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
             if(sub){ sub.innerHTML = sp.url ? 'This sponsor helps trade owners like you. <a href="' + sp.url + '" rel="sponsored nofollow">Learn more →</a>' : 'This sponsor helps trade owners like you.'; }
           } else {
             if(title){ title.textContent = 'Help trade owners prepare &amp; sell their business'; title.innerHTML = 'Help trade owners prepare &amp; sell their business'; }
-            if(sub){ sub.innerHTML = 'This placement is reserved for a <span id="tv-sponsor-category">' + catLabel.toLowerCase() + '</span> partner matched to your results. Contact <a href="mailto:info@tradieautomate.com">info@tradieautomate.com</a>.'; }
+            if(sub){ sub.innerHTML = 'Looking for a <span id="tv-sponsor-category">' + catLabel.toLowerCase() + '</span> partner matched to your results? This placement is reserved for a sponsor. <a href="mailto:info@tradieautomate.com">Partner with us →</a>'; }
           }
         }
         var lastResult = null;
@@ -369,19 +404,30 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
         function render(){
           var c = compute();
           lastResult = c;
-          document.getElementById('tv-score').textContent = c.score + '/100';
-          document.getElementById('tv-band').textContent = c.band.label;
-          document.getElementById('tv-band').style.color = c.band.color;
+          var ring = document.getElementById('tv-score-ring');
+          var scoreEl = document.getElementById('tv-score');
+          if(ring){ ring.style.strokeDashoffset = (326.7 * (1 - c.score/100)).toFixed(1); ring.style.stroke = c.band.color; }
+          if(scoreEl){ scoreEl.textContent = c.score; }
+          var bandEl = document.getElementById('tv-band');
+          if(bandEl){
+            bandEl.textContent = c.band.label;
+            bandEl.style.background = c.band.color + '22';
+            bandEl.style.color = c.band.color;
+            bandEl.style.border = '1px solid ' + c.band.color + '66';
+          }
           document.getElementById('tv-blurb').textContent = c.band.blurb;
-          document.getElementById('tv-score-bar').style.width = c.score + '%';
-          document.getElementById('tv-score-bar').style.background = c.band.color;
           var unit = c.useEbitda ? 'EBITDA' : 'SDE';
-          document.getElementById('tv-multiple').textContent = c.useEbitda ? c.mult.toFixed(1) + 'x ' + unit + ' (adjusted multiple)' : c.mult.toFixed(1) + 'x ' + unit + ' (adjusted multiple)';
+          document.getElementById('tv-multiple').textContent = 'Adjusted ' + unit + ' multiple: ' + c.mult.toFixed(1) + 'x';
           document.getElementById('tv-price-range').textContent = money(c.profitMid*1000*c.low) + ' - ' + money(c.profitMid*1000*c.high);
           var rows = '';
           var actionKeys = ['recurring','independence','systems','books','digital','compliance','growth','concentration'];
           var scores = {};
-          for(var i=0;i<actionKeys.length;i++){ var s = scoreQ(actionKeys[i]); scores[actionKeys[i]]=s; if(s!==null){ rows += '<div class="score-row"><span>' + labelMap[actionKeys[i]] + '</span><b>' + Math.round(s*100) + '</b></div>'; } }
+          for(var i=0;i<actionKeys.length;i++){ var s = scoreQ(actionKeys[i]); scores[actionKeys[i]]=s; if(s!==null){
+            var pct = Math.round(s*100);
+            rows += '<div class="score-row"><div class="score-row-head"><span class="score-label">' + labelMap[actionKeys[i]] + '</span><span class="score-val">' + pct + '</span></div>'
+              + '<div class="score-track"><span class="score-fill" style="width:' + pct + '%"></span></div>'
+              + '<p class="score-desc">' + (descMap[actionKeys[i]] || '') + '</p></div>';
+          } }
           document.getElementById('tv-scores').innerHTML = rows;
           var actions = [];
           for(var j=0;j<actionKeys.length;j++){ var a = actionFor(actionKeys[j], scores[actionKeys[j]]); if(a && actions.indexOf(a)<0) actions.push(a); }
@@ -444,7 +490,7 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
           if(err) err.style.display='none';
           function done(ok){
             if(ok){ if(msg) msg.style.display='block'; if(window.gtag){ gtag('event','sellability_report_download',{email_provided:1}); } }
-            else { if(err){ err.textContent='Something went wrong — email us at info@tradieautomate.com instead.'; err.style.display='block'; } }
+            else { if(err){ err.textContent='We couldn\u2019t send your report just now — the email service may be lagging. Try again in a minute, or email us at info@tradieautomate.com and we\u2019ll send it right over.'; err.style.display='block'; } }
           }
           fetch('/.netlify/functions/trade-exit-lead', {
             method:'POST', headers:{'Content-Type':'application/json'},
@@ -458,7 +504,10 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
               band: (lastResult||compute()).band.label,
               actions: lastActions.join('|')
             })
-          }).then(function(r){return r.json();}).then(function(d){ done(d && d.success); }).catch(function(){ done(false); });
+          }).then(function(r){return r.json();}).then(function(d){
+            /* Only claim delivery when Brevo actually accepted the email. */
+            done(d && d.success && d.emailSent === true);
+          }).catch(function(){ done(false); });
         }); }
       })();
     </script>
