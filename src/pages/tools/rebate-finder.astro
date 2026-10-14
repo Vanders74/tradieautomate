@@ -172,6 +172,7 @@ const faqSchema = {
     </main>
 
     <Footer />
+    <script is:inline set:html={`window.__RF_DATA = ${rfDataJson};`}></script>
     <script is:inline>
       (function(){
         var QUIZ = document.getElementById('rf-quiz');
@@ -279,6 +280,5 @@ const faqSchema = {
         if(backBtn){ backBtn.addEventListener('click', function(){ if(current>0){ showStep(current-1); } }); }
       })();
     </script>
-    <script is:inline set:html={`window.__RF_DATA = ${rfDataJson};`}></script>
   </body>
 </html>
