@@ -1,6 +1,7 @@
 ---
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
+import BaseHead from '../../components/BaseHead.astro';
 import sellability from '../../data/sellability.json';
 
 const title = "Trade Business Valuation Calculator: How Much Is Your Business Worth?";
@@ -11,6 +12,7 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
 
 <html lang="en-AU">
   <head>
+    <BaseHead title={title} description={description} />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
@@ -31,6 +33,12 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
       .tool-hero p { color:#cbd5e1; max-width:680px; margin:0 auto; font-size:1rem; }
       .verified-badge { display:inline-block; margin-top:14px; background:#16a34a22; border:1px solid #16a34a55; color:#86efac; padding:4px 12px; border-radius:999px; font-size:.8rem; }
       .tool-body { max-width:760px; margin:0 auto; padding:32px 20px 60px; }
+      .value-strip { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin-bottom:14px; }
+      .vs-item { background:#fff; border:1px solid #e2e8f0; border-radius:10px; padding:12px 14px; }
+      .vs-item strong { display:block; font-size:.88rem; color:#0f172a; margin-bottom:3px; }
+      .vs-item span { font-size:.78rem; color:#64748b; line-height:1.4; display:block; }
+      .why-line { background:#fff7ed; border-left:3px solid #f97316; border-radius:0 10px 10px 0; padding:12px 16px; font-size:.88rem; color:#7c2d12; line-height:1.6; margin:0 0 18px; }
+      .why-line strong { color:#9a3412; }
       .finder-card { background:#fff; border:1px solid #e2e8f0; border-radius:14px; padding:24px; box-shadow:0 1px 3px #0000000a; }
       .pf-step { display:none; }
       .pf-step.active { display:block; }
@@ -84,6 +92,14 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
     </section>
 
     <main class="tool-body">
+      <div class="value-strip">
+        <div class="vs-item"><strong>📈 Your price range</strong><span>Broker-style SDE/EBITDA multiple, in plain dollars</span></div>
+        <div class="vs-item"><strong>📋 Sellability report card</strong><span>Scores across 8 value drivers — where you're strong, where you leak value</span></div>
+        <div class="vs-item"><strong>🎯 Your action plan</strong><span>The 3 highest-leverage fixes, ranked by how much they lift your sale price</span></div>
+        <div class="vs-item"><strong>⏱️ 90 seconds · 12 questions · free</strong><span>Estimate updates live as you answer. No sign-up until the end.</span></div>
+      </div>
+      <p class="why-line"><strong>Why it matters:</strong> Australian trade owners retire in record numbers — most sell for less than they should simply because the business runs on them, not on systems. Every point of multiple you add is real money: a $150K-profit business at 2.0x sells for <strong>$300K</strong>; at 3.0x it's <strong>$450K</strong>. This scorecard shows you which side of that gap you're on — and exactly what closes it.</p>
+
       <div id="tv-quiz" class="finder-card">
         <h2 style="margin-bottom:14px;font-size:1.15rem;">Sellability Scorecard</h2>
         <div id="tv-live-estimate" style="display:none;background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:12px 16px;margin-bottom:18px;">
@@ -224,6 +240,7 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
 
           <div style="margin-top:18px;">
             <button class="cta-primary" id="tv-cta" style="border:none;cursor:pointer;width:100%;text-align:center;">📥 Email me the full report + action plan (free)</button>
+            <p style="margin:8px 0 0;font-size:.78rem;color:#94a3b8;text-align:center;">Your personalised PDF-style summary: score, range, report card and your ranked action plan — delivered to your inbox so you can act on it later. We never spam; unsubscribe anytime.</p>
           </div>
 
           <div id="tv-lead-form" style="display:none;margin-top:14px;background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:16px;">
