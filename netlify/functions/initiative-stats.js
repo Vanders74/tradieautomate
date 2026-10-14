@@ -6,26 +6,27 @@
 // No secrets in repo.
 
 const API = 'https://api.brevo.com/v3';
+const PAGE = 500;
 
-// Bucket a list of contact objects (with attributes) into monetisation segments.
-function bucketJoule(contacts) {
-  // JOULE segments = upgrade type (installers pay per lead by product category).
+// Bucket contacts (with attributes + listIds) into monetisation segments.
+function bucketJoule(contacts, masterId) {
   const seg = {};
+  let inList = 0;
   for (const c of contacts) {
+    if (!(c.listIds || []).includes(masterId)) continue;
+    inList++;
     const a = (c && c.attributes) || {};
-    const u = String(a.UPGRADE_TYPE || a.upgrade_type || 'unknown').trim();
+    const u = String(a.UPGRADE_TYPE || a.upgrade_type || 'unknown').trim() || 'unknown';
     seg[u] = (seg[u] || 0) + 1;
   }
-  const order = ['heat pump', 'solar', 'battery', 'ev charger', 'heatpump', 'unknown'];
-  const keys = Object.keys(seg).sort();
-  return { by_upgrade: seg, segments: keys.filter((k) => k !== 'unknown').length, listed: contacts.length };
+  return { by_upgrade: seg, segments: Object.keys(seg).filter((k) => k !== 'unknown').length, listed: inList };
 }
 
-function bucketHandover(contacts) {
-  // HANDOVER segments = readiness tiers (what sponsors pay for).
-  // Ready: score >=80 (Acquisition-Ready band). Building: 55-79. Early: <55.
-  let ready = 0, building = 0, early = 0, unscored = 0;
+function bucketHandover(contacts, masterId) {
+  let ready = 0, building = 0, early = 0, unscored = 0, inList = 0;
   for (const c of contacts) {
+    if (!(c.listIds || []).includes(masterId)) continue;
+    inList++;
     const a = (c && c.attributes) || {};
     const s = a.TV_SCORE != null ? Number(a.TV_SCORE) : NaN;
     if (Number.isNaN(s)) { unscored++; continue; }
@@ -33,20 +34,34 @@ function bucketHandover(contacts) {
     else if (s >= 55) building++;
     else early++;
   }
-  return { ready, building, early, unscored, listed: contacts.length };
+  return { ready, building, early, unscored, listed: inList };
 }
 
-async function fetchListContacts(key, listId, limit = 300) {
-  // Use the contact-search endpoint (returns full attributes), filtered by list.
-  const res = await fetch(`${API}/contacts?listIds=${listId}&limit=${limit}&offset=0`, {
-    headers: { 'api-key': key, Accept: 'application/json' },
-  });
-  if (!res.ok) return [];
-  const data = await res.json();
-  return (data.contacts || []).map((c) => ({ email: c.email, attributes: c.attributes || {} }));
+async function fetchAllContacts(key, limit = 5000) {
+  // Paginated crawl of ALL contacts (volume is small right now); each returns
+  // attributes + listIds, so bucketing can filter by master-list membership.
+  const out = [];
+  let offset = 0;
+  while (true) {
+    const res = await fetch(`${API}/contacts?limit=${limit}&offset=${offset}`, {
+      headers: { 'api-key': key, Accept: 'application/json' },
+    });
+    if (!res.ok) break;
+    const data = await res.json();
+    const batch = (data.contacts || []).map((c) => ({
+      email: c.email,
+      attributes: c.attributes || {},
+      listIds: c.listIds || [],
+    }));
+    out.push(...batch);
+    if (batch.length < limit) break;
+    offset += limit;
+    if (offset > 20000) break; // safety cap
+  }
+  return out;
 }
 
-async function findListId(lists, namePrefix) {
+function findListId(lists, namePrefix) {
   const m = lists.find((l) => l.name.startsWith(namePrefix));
   return m ? m.id : null;
 }
@@ -74,17 +89,17 @@ exports.handler = async () => {
     const handover = names.filter((n) => n.startsWith('Trade Exit Leads'));
     const total = (arr) => arr.reduce((s, n) => s + (lists[n].count || 0), 0);
 
-    // Fetch master-list contacts for segment bucketing (joule master = first
-    // "Rebate Leads" list, handover master = first "Trade Exit Leads" list).
+    // Crawl contacts once; bucket by master-list membership (authoritative,
+    // not dependent on Brevo's lagging totalRecipients).
     let jouleBucket = { by_upgrade: {}, segments: 0, listed: 0 };
     let handoverBucket = { ready: 0, building: 0, early: 0, unscored: 0, listed: 0 };
     try {
-      const jMaster = await findListId(all, 'Rebate Leads');
-      const hMaster = await findListId(all, 'Trade Exit Leads');
-      if (jMaster) jouleBucket = bucketJoule(await fetchListContacts(key, jMaster));
-      if (hMaster) handoverBucket = bucketHandover(await fetchListContacts(key, hMaster));
+      const contacts = await fetchAllContacts(key);
+      const jMaster = findListId(all, 'Rebate Leads');
+      const hMaster = findListId(all, 'Trade Exit Leads');
+      if (jMaster) jouleBucket = bucketJoule(contacts, jMaster);
+      if (hMaster) handoverBucket = bucketHandover(contacts, hMaster);
     } catch (e) {
-      // Segment bucketing is best-effort; list counts remain authoritative.
       jouleBucket = { by_upgrade: {}, segments: 0, listed: 0, error: e.message };
       handoverBucket = { ready: 0, building: 0, early: 0, unscored: 0, listed: 0, error: e.message };
     }
