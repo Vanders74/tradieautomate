@@ -44,7 +44,7 @@ async function fetchAllContacts(key, limit = 5000) {
   let offset = 0;
   let lastStatus = null;
   while (true) {
-    const res = await fetch(`${API}/contacts?limit=${limit}&offset=${offset}`, {
+    const res = await fetch(`${API}/contacts?limit=${limit}&offset=${offset}&modifiedSince=1970-01-01T00:00:00Z`, {
       headers: { 'api-key': key, Accept: 'application/json' },
     });
     lastStatus = res.status;
