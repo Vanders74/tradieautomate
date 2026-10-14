@@ -78,7 +78,7 @@ exports.handler = async (event) => {
         body: JSON.stringify({
           sender: { name: 'Shane | TradieAutomate', email: 'info@tradieautomate.com' },
           to: [{ email }],
-          subject: `Your Trade Business Valuation: ${band || 'Sellability'} report`,
+          subject: `Your Tradie Business Valuation Estimate`,
           htmlContent: html,
           textContent: text,
         }),
@@ -108,9 +108,9 @@ function fmtAUD(n) {
 }
 
 function buildEmailHtml({ score, low, high, band, actions }) {
-  const range = low != null && high != null ? `${fmtAUD(low)} - ${fmtAUD(high)}` : '';
+  const range = low != null && high != null ? `${fmtAUD(low)} – ${fmtAUD(high)}` : '';
   const actionList = actions
-    ? actions.split('|').filter(Boolean).map((a) => `<li style="margin-bottom:8px;">${a}</li>`).join('')
+    ? actions.split('|').filter(Boolean).map((a) => `<li style="margin-bottom:6px;">${a}</li>`).join('')
     : '';
   return `<!DOCTYPE html>
 <html lang="en">
@@ -121,20 +121,18 @@ function buildEmailHtml({ score, low, high, band, actions }) {
       <div style="font-size:22px;font-weight:800;color:#ffffff;">⚡ TradieAutomate</div>
     </div>
     <div style="background:#ffffff;border-radius:0 0 12px 12px;padding:32px 28px;">
-      <h1 style="margin:0 0 6px;font-size:22px;line-height:1.3;color:#0f172a;">Your sellability report is ready</h1>
+      <h1 style="margin:0 0 6px;font-size:22px;line-height:1.3;color:#0f172a;">Your business valuation estimate is here.</h1>
       <p style="margin:14px 0;font-size:15px;line-height:1.6;color:#334155;">
-        Your sellability score: <strong style="font-size:22px;color:#0f172a;">${score != null ? score + '/100' : '—'}</strong>
-        ${band ? ` &middot; <strong>${band}</strong>` : ''}
+        Sellability score: <strong style="font-size:20px;color:#0f172a;">${score != null ? score + '/100' : '—'}</strong>
+        ${band ? ` &middot; ${band}` : ''}
       </p>
-      ${range ? `<p style="margin:16px 0;font-size:26px;font-weight:800;color:#ea580c;">Indicative range: ${range}</p>` : ''}
-      ${actionList ? `<p style="margin:0 0 10px;font-size:14px;font-weight:700;color:#0f172a;">Top ways to lift your multiple:</p><ul style="margin:0 0 24px;padding-left:20px;font-size:14px;line-height:1.6;color:#334155;">${actionList}</ul>` : ''}
-      <a href="https://tradieautomate.com/tools/trade-business-valuation/" style="display:inline-block;background:#f97316;color:#ffffff;padding:14px 28px;border-radius:8px;font-weight:700;font-size:16px;text-decoration:none;">View my full report &rarr;</a>
-      <p style="margin:14px 0 0;font-size:12px;color:#64748b;">Free 12-question scorecard &mdash; estimate for planning only, not a professional valuation.</p>
-      <hr style="border:none;border-top:1px solid #e2e8f0;margin:28px 0;">
-      <p style="margin:0;font-size:13px;color:#64748b;line-height:1.6;">
-        Want the complete method, 2026 multiples and a 90-day value-building plan?
-        <a href="https://payhip.com/tradieautomate" style="color:#1a56db;text-decoration:underline;">Upgrade to the Full Valuation Report</a>.
+      ${range ? `<p style="margin:16px 0;font-size:26px;font-weight:800;color:#ea580c;">${range}</p>` : ''}
+      ${actionList ? `<p style="margin:0 0 8px;font-size:14px;font-weight:700;color:#0f172a;">Ways to lift your sale price:</p><ul style="margin:0 0 24px;padding-left:20px;font-size:14px;line-height:1.6;color:#334155;">${actionList}</ul>` : ''}
+      <p style="margin:0 0 24px;font-size:14px;line-height:1.6;color:#334155;">
+        This range is based on a Seller's Discretionary Earnings (SDE) multiple — the standard method for valuing
+        Australian trade businesses. It's an estimate for planning, not a professional valuation.
       </p>
+      <a href="https://tradieautomate.com/tools/trade-business-valuation/" style="display:inline-block;background:#f97316;color:#ffffff;padding:14px 28px;border-radius:8px;font-weight:700;font-size:16px;text-decoration:none;">View my results &rarr;</a>
     </div>
     <p style="text-align:center;font-size:12px;color:#94a3b8;margin:20px 0 0;">
       TradieAutomate &middot; Australian trade business systems &middot;
@@ -148,7 +146,7 @@ function buildEmailHtml({ score, low, high, band, actions }) {
 function buildEmailText({ score, low, high, band, actions }) {
   const range = low != null && high != null ? `${fmtAUD(low)} - ${fmtAUD(high)}` : '';
   const lines = [
-    'Your sellability report is ready.',
+    'Your business valuation estimate is here.',
     '',
     `Sellability score: ${score != null ? score + '/100' : '—'}${band ? ' (' + band + ')' : ''}`,
   ];
@@ -156,10 +154,10 @@ function buildEmailText({ score, low, high, band, actions }) {
   if (actions) {
     const list = actions.split('|').filter(Boolean);
     if (list.length) {
-      lines.push('', 'Top ways to lift your multiple:');
+      lines.push('', 'Ways to lift your sale price:');
       list.forEach((a) => lines.push(' - ' + a));
     }
   }
-  lines.push('', 'View your full report:', 'https://tradieautomate.com/tools/trade-business-valuation/', '', '— TradieAutomate');
+  lines.push('', 'This is an estimate for planning, not a professional valuation.', '', 'View your results:', 'https://tradieautomate.com/tools/trade-business-valuation/', '', '— TradieAutomate');
   return lines.join('\n');
 }
