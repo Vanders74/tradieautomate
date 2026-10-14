@@ -50,9 +50,13 @@ exports.handler = async (event) => {
       } catch { out.contact = 'lookup failed'; }
     }
 
-    // 5. Recent transactional events (last sends through this sender)
+    // 5. Transactional events — recent sends, optionally filtered by recipient email
     try {
-      const events = await fetch(`${API}/smtp/statistics/events?limit=30&offset=0&startDate=2026-10-13&endDate=2026-10-14`, { headers }).then((r) => r.json());
+      const evLimit = Math.min(Number((event.queryStringParameters || {}).limit || 100), 500);
+      const evEmail = ((event.queryStringParameters || {}).email || '').trim().toLowerCase();
+      const q = new URLSearchParams({ limit: String(evLimit), offset: '0', startDate: '2026-09-01', endDate: '2026-10-14' });
+      if (evEmail) q.set('email', evEmail);
+      const events = await fetch(`${API}/smtp/statistics/events?${q}`, { headers }).then((r) => r.json());
       out.events = (events.events || []).map((e) => ({
         email: e.email, event: e.event, date: e.date, subject: (e.subject || '').slice(0, 60), messageId: e.messageId,
         reason: e.reason || '', tag: (e.tags || []).join(','),
