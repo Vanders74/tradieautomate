@@ -183,7 +183,7 @@ const faqSchema = {
           </form>
         </div>
 
-        <div class="sponsor-slot">📢 Sponsor slot — your rebate-eligible product or installer service could appear here (contact info@tradieautomate.com)</div>
+        <div class="sponsor-slot" id="rf-sponsor-slot">📢 Sponsor slot — your rebate-eligible product or installer service could appear here (contact info@tradieautomate.com)</div>
 
         <div class="related-links">
           <h3>Related guides</h3>
@@ -198,7 +198,10 @@ const faqSchema = {
     </main>
 
     <Footer />
-    <script is:inline set:html={`window.__RF_DATA = ${rfDataJson};`}></script>
+    <script is:inline set:html={`window.__RF_DATA = ${rfDataJson};
+window.__RF_SPONSORS = ${JSON.stringify({
+  VIC: null, NSW: null, QLD: null, SA: null, WA: null, TAS: null, ACT: null, NT: null
+}).replace(/</g, '\\u003c')};`}></script>
     <script is:inline>
       (function(){
         var QUIZ = document.getElementById('rf-quiz');
@@ -261,6 +264,7 @@ const faqSchema = {
           }
           el.innerHTML = html;
           renderFederal();
+          renderSponsor();
           if(window.gtag){ gtag('event','rebate_finder_results',{state:answers.state||'none',category:answers.category||'none'}); }
         }
 
@@ -322,6 +326,17 @@ const faqSchema = {
 
         var resultsReset = document.getElementById('rf-results-reset');
         if(resultsReset){ resultsReset.addEventListener('click', resetQuiz); }
+
+        var sponsorSlot = document.getElementById('rf-sponsor-slot');
+        function renderSponsor(){
+          if(!sponsorSlot || !window.__RF_SPONSORS) return;
+          var sp = window.__RF_SPONSORS[answers.state];
+          if(sp && sp.name){
+            sponsorSlot.innerHTML = '🏆 <strong>' + sp.name + '</strong> — ' + sp.offer + (sp.url ? ' <a href="' + sp.url + '" style="color:#0284c7;" rel="sponsored nofollow">Learn more →</a>' : '');
+          } else {
+            sponsorSlot.innerHTML = '📢 Sponsor slot — your rebate-eligible product or installer service could appear here (contact info@tradieautomate.com)';
+          }
+        }
 
         var tradieCta = document.getElementById('rf-tradie-cta');
         if(tradieCta){ tradieCta.addEventListener('click', function(e){
