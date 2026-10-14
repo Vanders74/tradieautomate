@@ -412,6 +412,11 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
         }
         var lastResult = null;
         var lastActions = [];
+        var MAINTAIN_PLAN = [
+          'Maintain your service plans and systems — recurring income keeps your multiple at its peak.',
+          'Keep books reconciled monthly and document processes — buyers pay more for proven, steady operations.',
+          'Retain your key staff and document their roles — a business that runs without you is worth more at sale.'
+        ];
         function render(){
           var c = compute();
           lastResult = c;
@@ -442,6 +447,8 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
           document.getElementById('tv-scores').innerHTML = rows;
           var actions = [];
           for(var j=0;j<actionKeys.length;j++){ var a = actionFor(actionKeys[j], scores[actionKeys[j]]); if(a && actions.indexOf(a)<0) actions.push(a); }
+          /* Strong business with no fix-actions still gets a protect-and-maintain plan. */
+          if(!actions.length){ actions = MAINTAIN_PLAN.slice(); }
           lastActions = actions.slice(0,3);
           document.getElementById('tv-action-list').innerHTML = actions.length ? actions.map(function(a){return '<li>'+a+'</li>';}).join('') : '<li>Strong setup — focus on maintaining your systems and documenting processes for the buyer.</li>';
           document.getElementById('tv-summary').textContent = 'Based on AU broker multiples for ' + (opt('trade',answers.trade) ? opt('trade',answers.trade).label.replace(/^[^:]+:\s*/,'') : 'trade businesses') + ' (indicative only).';
