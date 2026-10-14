@@ -355,15 +355,11 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
         }
         function money(n){ if(n>=1000000){ return '$' + (n/1000000).toFixed(n>=10000000?1:2) + 'M'; } if(n>=1000){ return '$' + (n/1000).toFixed(n>=100000?0:1) + 'K'; } return '$' + Math.round(n).toLocaleString(); }
         function actionFor(k, score){
-          if(k==='recurring' && score<0.55) return DATA.action_map.low_recurring;
-          if(k==='independence' && score<0.55) return DATA.action_map.low_independence;
-          if(k==='concentration' && score<0.55) return DATA.action_map.low_concentration;
-          if(k==='systems' && score<0.55) return DATA.action_map.low_systems;
-          if(k==='books' && score<0.55) return DATA.action_map.low_books;
-          if(k==='digital' && score<0.55) return DATA.action_map.low_digital;
-          if(k==='compliance' && score<0.55) return DATA.action_map.low_compliance;
-          if(k==='growth' && score<0.55) return DATA.action_map.low_growth;
-          return null;
+          /* Whole-range planner: below 0.55 = fix, 0.55-0.8 = improve, above = protect.
+             Every area returns a tiered action so no score range is left empty. */
+          if(score == null) return null;
+          var tier = score < 0.55 ? 'low' : (score < 0.8 ? 'mid' : 'high');
+          return DATA.action_map[tier + '_' + k] || null;
         }
         function updateLive(){
           var box = document.getElementById('tv-live-estimate');
@@ -446,8 +442,10 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
           } }
           document.getElementById('tv-scores').innerHTML = rows;
           var actions = [];
-          for(var j=0;j<actionKeys.length;j++){ var a = actionFor(actionKeys[j], scores[actionKeys[j]]); if(a && actions.indexOf(a)<0) actions.push(a); }
-          /* Strong business with no fix-actions still gets a protect-and-maintain plan. */
+          /* Collect the 3 WEAKEST areas' actions (all tiers now produce one). */
+          var weakest = actionKeys.slice().sort(function(a,b){ return (scores[a]==null?1.1:scores[a]) - (scores[b]==null?1.1:scores[b]); });
+          for(var w=0; w<weakest.length && actions.length<3; w++){ var wa = actionFor(weakest[w], scores[weakest[w]]); if(wa && actions.indexOf(wa)<0) actions.push(wa); }
+          /* Absolute fallback if nothing qualifies (shouldn't happen — tiered planner covers all). */
           if(!actions.length){ actions = MAINTAIN_PLAN.slice(); }
           lastActions = actions.slice(0,3);
           document.getElementById('tv-action-list').innerHTML = actions.length ? actions.map(function(a){return '<li>'+a+'</li>';}).join('') : '<li>Strong setup — focus on maintaining your systems and documenting processes for the buyer.</li>';

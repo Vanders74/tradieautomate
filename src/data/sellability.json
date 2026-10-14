@@ -195,6 +195,22 @@
     "low_digital": "Build the digital footprint: website, Google Business Profile, review flow. Brand value beats reputation-in-head.",
     "low_compliance": "Get every licence current and WHS documented. Compliance gaps are the #1 reason deals stall in diligence.",
     "low_growth": "Show 12-24 months of pipeline and growth evidence — buyers pay more for momentum.",
-    "low_profit": "Improve job-costing and pricing discipline — profit normalisation is where most sale value is created or lost."
+    "low_profit": "Improve job-costing and pricing discipline — profit normalisation is where most sale value is created or lost.",
+    "mid_independence": "Deepen owner-independence: delegate quoting and dispatching, document key processes, and prove the business runs without you.",
+    "mid_concentration": "Reduce top-3 client reliance further — new segments or territories cut buyer risk and support a firmer price.",
+    "mid_recurring": "Strengthen recurring revenue: formalise service plans and contract renewals so a larger share of income is locked in.",
+    "mid_systems": "Document and systematise the day-to-day: SOPs, checklists and manager-run operations build buyer confidence.",
+    "mid_books": "Upgrade record-keeping: monthly reconciliations and a tidy ledger speed diligence and protect your price.",
+    "mid_digital": "Push the digital footprint further: more reviews, a polished website and a visible Google profile lift brand value.",
+    "mid_compliance": "Formalise compliance: documented WHS, a licence register and insurance evidence remove diligence roadblocks.",
+    "mid_growth": "Package proof of momentum: a 12-24 month pipeline and growth data — buyers pay more for a business that's winning.",
+    "high_independence": "Keep the business running without you: continue delegating and documenting so value is never owner-locked.",
+    "high_concentration": "Keep client spread wide: watch top-3 concentration so no single client becomes a buyer risk.",
+    "high_recurring": "Protect recurring revenue: keep plans full and contracts renewed — steady income is what anchors your multiple.",
+    "high_systems": "Keep documentation current: updated SOPs and processes make the business easy to hand over at full value.",
+    "high_books": "Keep the ledger clean: stay on top of monthly reconciliations so a sale can settle quickly at full price.",
+    "high_digital": "Maintain the digital moat: keep reviews flowing and the website fresh — brand value compounds.",
+    "high_compliance": "Keep compliance current: licences and WHS up to date — this removes the most common deal-staller.",
+    "high_growth": "Sustain the growth record: keep pipeline and momentum evidence current for prospective buyers."
   }
 }
