@@ -220,6 +220,8 @@ In most Australian states, heat pump hot water installation involves both plumbi
 
 ## Related Reading
 
+- *[🇦🇺 Rebate Finder 2026: Heat Pump, Solar & Battery Rebates By State](/tools/rebate-finder/)*
+
 - *[Replacing Gas Hot Water with Electric Heat Pump: The Complete Switchover Guide](/blog/replacing-gas-hot-water-electric-heat-pump/)*
 - *[Adding Battery Storage to Your Solar Business: The Complete Guide](/blog/adding-battery-storage-solar-business-australia/)*
 - *[EV Charger Installation for Electricians Australia 2026](/blog/ev-charger-installation-electricians-australia-2026/)*

@@ -303,6 +303,11 @@ const faqSchema = {
 
         var resultsReset = document.getElementById('rf-results-reset');
         if(resultsReset){ resultsReset.addEventListener('click', resetQuiz); }
+
+        var tradieCta = document.getElementById('rf-tradie-cta');
+        if(tradieCta){ tradieCta.addEventListener('click', function(){
+          if(window.gtag){ gtag('event', 'rebate_finder_lead', { event_category: 'engagement', event_label: 'installer_cta' }); }
+        }); }
       })();
     </script>
   </body>

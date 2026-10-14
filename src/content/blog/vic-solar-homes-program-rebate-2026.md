@@ -217,6 +217,7 @@ After a Solar Victoria battery installation, the installing electrician must iss
 
 ## Related Reading
 
+- *[🇦🇺 Rebate Finder 2026: Heat Pump, Solar & Battery Rebates By State](/tools/rebate-finder/)*
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
 - *[SA Solar Battery Rebate 2026: Home Battery Scheme Guide](/blog/sa-solar-battery-rebate-2026/)*
 - *[Adding Battery Storage to Your Solar Business: The Complete Guide](/blog/adding-battery-storage-solar-business-australia/)*
