@@ -1,0 +1,284 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE } from '../../consts';
+import rebatesJson from '../../data/rebates.json';
+
+const programs = rebatesJson.programs;
+const meta = rebatesJson.meta;
+// Serialize safely for inline JS injection (escape < to avoid HTML parsing issues)
+const rfDataJson = JSON.stringify(rebatesJson).replace(/</g, '\\u003c');
+
+const title = "Rebate Finder Australia 2026 | Heat Pump, Solar & Battery Rebates by State";
+const description = "Free rebate finder for Australian homeowners and tradies. Enter your state and upgrade type — heat pump hot water, solar or battery — and get ranked rebates with exact amounts, eligibility and expiry dates, verified weekly.";
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rebate Finder Australia 2026",
+  "description": description,
+  "url": "https://tradieautomate.com/tools/rebate-finder/",
+  "dateModified": meta.last_verified,
+  "publisher": { "@type": "Organization", "name": "TradieAutomate" }
+};
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best heat pump hot water rebate in Australia in 2026?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Victoria offers the largest state rebate: up to $1,000 via Solar Homes (up to $1,400 for locally-made systems) stacking with VEU discounts of up to $560. NSW offers up to $640 via the Energy Savings Scheme. Queensland has no state rebate — households get the federal STC discount of $500-$800 off the quote." }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there solar and battery rebates in my state in 2026?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Victoria still offers the Solar Homes panel rebate (up to $1,400), but its battery interest-free loan is closed to new applications. NSW battery buyers use the Home Energy Saver program (up to $4,000 discount or $15,000 zero-interest loan). Queensland's Battery Booster closed in May 2024 — the federal Cheaper Home Batteries Program (~30% off) is the main battery incentive nationally." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the TradieAutomate rebate finder free?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. The rebate finder is completely free — no email or sign-up. Rebate data is verified against official sources (Solar Victoria, NSW Climate and Energy Action, Service NSW, Clean Energy Regulator) on a weekly cycle." }
+    }
+  ]
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+    <style>
+      .tool-hero { text-align:center; padding:48px 24px 24px; background:linear-gradient(180deg,#0f172a 0%,#1e293b 100%); color:#e2e8f0; }
+      .tool-hero h1 { font-size:clamp(1.8rem,4vw,2.6rem); font-weight:800; margin-bottom:12px; color:#fff; }
+      .tool-hero p { color:#94a3b8; max-width:560px; margin:0 auto; font-size:1rem; line-height:1.6; }
+      .verified-badge { display:inline-block; margin-top:14px; background:#0f766e; color:#fff; font-size:.8rem; padding:4px 12px; border-radius:20px; }
+      .tool-body { max-width:760px; margin:0 auto; padding:28px 20px 60px; }
+      .finder-card { background:#fff; border:1px solid #e2e8f0; border-radius:14px; padding:24px; margin-bottom:20px; box-shadow:0 2px 12px rgba(0,0,0,.04); }
+      .finder-card h2 { font-size:1.25rem; color:#0f172a; margin-bottom:4px; }
+      .finder-card .sub { color:#64748b; font-size:.9rem; margin-bottom:18px; }
+      .opt-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; }
+      .pf-btn { background:#f8fafc; border:1px solid #cbd5e1; border-radius:10px; padding:14px 16px; font-size:.95rem; font-weight:600; color:#0f172a; cursor:pointer; text-align:left; transition:all .15s; }
+      .pf-btn:hover { border-color:#f97316; }
+      .pf-btn.selected { border-color:#f97316; background:#fff7ed; color:#c2410c; }
+      .pf-step { display:none; }
+      .pf-step.active { display:block; }
+      .pf-nav { margin-top:18px; display:flex; gap:10px; }
+      .pf-back { background:#f1f5f9; border:1px solid #e2e8f0; color:#475569; padding:10px 20px; border-radius:8px; cursor:pointer; font-size:.9rem; }
+      .pf-back:hover { background:#e2e8f0; }
+      .results-loading { text-align:center; padding:32px; color:#64748b; }
+      .result-card { border:1px solid #e2e8f0; border-left:4px solid #f97316; border-radius:12px; padding:20px; margin-bottom:16px; background:#fff; }
+      .result-card.closed { opacity:.6; border-left-color:#94a3b8; }
+      .result-card .rc-top { display:flex; justify-content:space-between; align-items:baseline; gap:12px; }
+      .result-card h3 { font-size:1.05rem; color:#0f172a; margin:0 0 4px; }
+      .result-card .amt { font-size:1.3rem; font-weight:700; color:#c2410c; white-space:nowrap; }
+      .result-card .status-tag { font-size:.75rem; font-weight:700; padding:3px 10px; border-radius:20px; }
+      .status-open { background:#dcfce7; color:#166534; }
+      .status-closed { background:#f1f5f9; color:#64748b; }
+      .result-card .note { font-size:.88rem; color:#475569; margin-top:10px; line-height:1.55; }
+      .elig-list { margin:10px 0 0; padding-left:0; list-style:none; font-size:.85rem; color:#475569; }
+      .elig-list li { padding:3px 0 3px 20px; position:relative; }
+      .elig-list li::before { content:'✓'; position:absolute; left:0; color:#16a34a; font-weight:700; }
+      .elig-list li.miss::before { content:'✗'; color:#dc2626; }
+      .src-line { font-size:.8rem; color:#94a3b8; margin-top:12px; }
+      .src-line a { color:#0284c7; text-decoration:none; }
+      .src-line a:hover { text-decoration:underline; }
+      .claim-box { margin-top:14px; background:#fff7ed; border-radius:8px; padding:12px 14px; font-size:.88rem; color:#7c2d12; }
+      .cta-row { display:flex; gap:12px; flex-wrap:wrap; margin-top:22px; }
+      .cta-primary { background:#f97316; color:#fff; padding:13px 24px; border-radius:10px; font-weight:700; text-decoration:none; font-size:.95rem; display:inline-block; }
+      .cta-primary:hover { background:#ea580c; }
+      .cta-ghost { border:1px solid #cbd5e1; color:#0f172a; padding:13px 24px; border-radius:10px; font-weight:600; text-decoration:none; font-size:.95rem; display:inline-block; }
+      .cta-ghost:hover { border-color:#f97316; }
+      .disclaimer { font-size:.75rem; color:#94a3b8; margin-top:24px; line-height:1.5; }
+      .sponsor-slot { border:1px dashed #cbd5e1; border-radius:10px; padding:16px; text-align:center; color:#94a3b8; font-size:.85rem; margin-top:24px; }
+      .related-links { margin-top:28px; border-top:1px solid #e2e8f0; padding-top:20px; }
+      .related-links h3 { font-size:1rem; color:#0f172a; margin-bottom:10px; }
+      .related-links a { display:block; color:#0284c7; text-decoration:none; font-size:.9rem; padding:4px 0; }
+      .related-links a:hover { text-decoration:underline; }
+      @media (max-width:480px) { .opt-grid { grid-template-columns:1fr; } .result-card .rc-top { flex-direction:column; gap:4px; } }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <section class="tool-hero">
+      <h1>🇦🇺 Rebate Finder 2026</h1>
+      <p>Heat pump, solar &amp; battery rebates in your state — exact amounts, eligibility and expiry dates. Verified against official sources weekly.</p>
+      <span class="verified-badge">✓ Last verified {meta.last_verified}</span>
+    </section>
+
+    <main class="tool-body">
+      <div id="rf-quiz" class="finder-card">
+        <h2>Find your rebates</h2>
+        <p class="sub">Answer 3 quick questions — ranked results in seconds.</p>
+
+        <div class="pf-step active" data-q="0">
+          <h3 style="margin-bottom:14px;font-size:1.05rem;">1. Which state are you in?</h3>
+          <div class="opt-grid">
+            <button class="pf-btn" data-step="0" data-field="state" data-value="VIC">VIC</button>
+            <button class="pf-btn" data-step="0" data-field="state" data-value="NSW">NSW</button>
+            <button class="pf-btn" data-step="0" data-field="state" data-value="QLD">QLD</button>
+            <button class="pf-btn" data-step="0" data-field="state" data-value="ALL">Any (show federal)</button>
+          </div>
+        </div>
+
+        <div class="pf-step" data-q="1">
+          <h3 style="margin-bottom:14px;font-size:1.05rem;">2. What upgrade are you planning?</h3>
+          <div class="opt-grid">
+            <button class="pf-btn" data-step="1" data-field="category" data-value="heat_pump">♨️ Heat pump hot water</button>
+            <button class="pf-btn" data-step="1" data-field="category" data-value="solar_hot_water">☀️ Solar hot water</button>
+            <button class="pf-btn" data-step="1" data-field="category" data-value="solar">⚡ Solar panels</button>
+            <button class="pf-btn" data-step="1" data-field="category" data-value="battery">🔋 Home battery</button>
+          </div>
+        </div>
+
+        <div class="pf-step" data-q="2">
+          <h3 style="margin-bottom:14px;font-size:1.05rem;">3. Who owns the property?</h3>
+          <div class="opt-grid">
+            <button class="pf-btn" data-step="2" data-field="owner" data-value="owner">🏠 Owner-occupier</button>
+            <button class="pf-btn" data-step="2" data-field="owner" data-value="business">🏢 Business / tradie</button>
+            <button class="pf-btn" data-step="2" data-field="owner" data-value="other">🏘️ Rental / other</button>
+          </div>
+        </div>
+
+        <div class="pf-nav" style="display:none;">
+          <button class="pf-back" id="rf-back">← Back</button>
+        </div>
+      </div>
+
+      <div id="rf-results" style="display:none;">
+        <h2 style="font-size:1.3rem;color:#0f172a;margin-bottom:6px;">Your rebates</h2>
+        <p class="sub" id="rf-summary" style="color:#64748b;font-size:.9rem;margin-bottom:18px;"></p>
+        <div id="rf-result-list"></div>
+
+        <div class="cta-row">
+          <a class="cta-primary" id="rf-tradie-cta" href="/services/">Need a tradie? Get matched with an installer →</a>
+          <a class="cta-ghost" href="/blog/heat-pump-hot-water-installation-electricians-australia/">Heat pump installation guide →</a>
+        </div>
+
+        <div class="sponsor-slot">📢 Sponsor slot — your rebate-eligible product or installer service could appear here (contact info@tradieautomate.com)</div>
+
+        <div class="related-links">
+          <h3>Related guides</h3>
+          <a href="/blog/victorian-energy-upgrades-veu-electricians-guide-2026/">VEU Guide for Electricians 2026</a>
+          <a href="/blog/heat-pump-hot-water-installation-electricians-australia/">Heat Pump Hot Water Installation Guide</a>
+          <a href="/blog/solar-playbook-2026-battery-upgrade/">Solar + Battery Upgrade Playbook 2026</a>
+          <a href="/tools/solar-savings-calculator/">Solar Savings Calculator</a>
+        </div>
+
+        <p class="disclaimer">Rebate data verified against official government and regulator sources on {meta.last_verified}. Schemes change frequently — always confirm with the linked official source before committing to a purchase. TradieAutomate may earn a commission from some linked installers.</p>
+      </div>
+    </main>
+
+    <Footer />
+    <script is:inline>
+      (function(){
+        var QUIZ = document.getElementById('rf-quiz');
+        var RESULTS = document.getElementById('rf-results');
+        if(!QUIZ || !window.__RF_DATA) return;
+        var PROGRAMS = window.__RF_DATA.programs;
+        var steps = QUIZ.querySelectorAll('.pf-step');
+        var answers = {state:'', category:'', owner:''};
+        var current = 0;
+
+        function showStep(n){
+          steps.forEach(function(s,i){ s.classList.toggle('active', i===n); });
+          current = n;
+          var nav = QUIZ.querySelector('.pf-nav');
+          if(nav) nav.style.display = (n>0) ? 'flex' : 'none';
+        }
+
+        function getMatches(){
+          var list = [];
+          var keys = Object.keys(PROGRAMS);
+          for(var i=0;i<keys.length;i++){
+            var p = PROGRAMS[keys[i]];
+            if(p.status !== 'open') continue;
+            // State match: state-specific programs match their state; ALL programs always match.
+            var okState = (p.state==='ALL') ? true : (answers.state==='ALL' || p.state===answers.state);
+            if(!okState) continue;
+            var okCat = p.category.indexOf(answers.category) >= 0;
+            if(!okCat) continue;
+            list.push(p);
+          }
+          return list;
+        }
+
+        function render(){
+          var matches = getMatches();
+          var el = document.getElementById('rf-result-list');
+          if(matches.length===0){
+            el.innerHTML = '<div class="result-card"><h3>No open rebates found</h3><p class="note">No state rebate currently matches your selection. Federal programs still apply — check the list below, or try another upgrade type.</p></div>';
+            renderFederal();
+            return;
+          }
+          var html = '';
+          for(var i=0;i<matches.length;i++){
+            var p = matches[i];
+            html += '<div class="result-card">';
+            html += '<div class="rc-top"><h3>'+p.name+'</h3><div><span class="amt">'+p.amount_range.split('(')[0].trim()+'</span></div></div>';
+            html += '<p class="note">'+p.amount_note+'</p>';
+            if(p.eligibility && p.eligibility.length){
+              html += '<ul class="elig-list">';
+              for(var j=0;j<p.eligibility.length;j++){
+                var miss = (answers.owner==='business' || answers.owner==='other') && p.eligibility[j].toLowerCase().indexOf('owner-occupier')>=0;
+                html += '<li'+(miss?' class="miss"':'')+'>'+p.eligibility[j]+'</li>';
+              }
+              html += '</ul>';
+            }
+            if(p.expiry) html += '<p class="note" style="margin-top:10px;"><strong>⏳ Expiry:</strong> '+p.expiry+'</p>';
+            if(p.how_to_claim) html += '<div class="claim-box">🗺️ '+p.how_to_claim+'</div>';
+            html += '<p class="src-line">Source: <a href="'+p.source_url+'" target="_blank" rel="noopener">'+p.source_name+'</a></p>';
+            html += '</div>';
+          }
+          el.innerHTML = html;
+          renderFederal();
+          if(window.gtag){ gtag('event','rebate_finder_results',{state:answers.state||'none',category:answers.category||'none'}); }
+        }
+
+        function renderFederal(){
+          var fedEl = document.getElementById('rf-federal') || document.querySelector('#rf-result-list .federal-block');
+          var keys = Object.keys(PROGRAMS);
+          var list = [];
+          for(var i=0;i<keys.length;i++){ var p=PROGRAMS[keys[i]]; if(p.state==='ALL' && p.status==='open' && p.category.indexOf(answers.category)>=0) list.push(p); }
+          if(list.length===0) return;
+          var html = '<div class="federal-block" style="margin-top:18px;padding-top:16px;border-top:1px solid #e2e8f0;">';
+          html += '<h3 style="font-size:1rem;color:#0f172a;margin-bottom:12px;">🇦🇺 Federal programs that also apply</h3>';
+          for(var j=0;j<list.length;j++){
+            var p=list[j];
+            html += '<div class="result-card"><h3>'+p.name+'</h3><div class="amt">'+p.amount_range.split('(')[0].trim()+'</div><p class="note">'+p.amount_note+'</p><p class="src-line">Source: <a href="'+p.source_url+'" target="_blank" rel="noopener">'+p.source_name+'</a></p></div>';
+          }
+          html += '</div>';
+          var mainEl = document.getElementById('rf-result-list');
+          mainEl.insertAdjacentHTML('beforeend', html);
+        }
+
+        QUIZ.addEventListener('click', function(e){
+          var b = e.target.closest('.pf-btn');
+          if(!b) return;
+          steps.forEach(function(s){ if(s.classList.contains('active')){} });
+          var field = b.getAttribute('data-field');
+          var val = b.getAttribute('data-value');
+          var q = parseInt(b.getAttribute('data-step'), 10);
+          answers[field] = val;
+          b.classList.add('selected');
+          if(q < 2){
+            showStep(q+1);
+          } else {
+            showStep(2);
+            QUIZ.style.display='none';
+            RESULTS.style.display='block';
+            var sum = document.getElementById('rf-summary');
+            sum.textContent = 'Showing open '+answers.category.replace(/_/g,' ')+' rebates for '+(answers.state==='ALL'?'all states':answers.state)+' — plus federal programs.';
+            render();
+          }
+        });
+
+        var backBtn = document.getElementById('rf-back');
+        if(backBtn){ backBtn.addEventListener('click', function(){ if(current>0){ showStep(current-1); } }); }
+      })();
+    </script>
+    <script is:inline set:html={`window.__RF_DATA = ${rfDataJson};`}></script>
+  </body>
+</html>
