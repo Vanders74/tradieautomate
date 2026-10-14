@@ -306,6 +306,17 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
         if(!QUIZ || !DATA) return;
         var steps = Array.prototype.slice.call(QUIZ.querySelectorAll('.pf-step'));
         var answers = {};
+        /* Deep-link support: the emailed "View my results" link carries your
+           answers as a ?r= token — decode it so the report renders directly. */
+        try {
+          var rp = new URLSearchParams(window.location.search).get('r');
+          if (rp) {
+            rp = rp.replace(/-/g, '+').replace(/_/g, '/');
+            rp += '='.repeat((4 - (rp.length % 4)) % 4);
+            var tok = JSON.parse(atob(rp));
+            if (tok && tok.a && typeof tok.a === 'object') answers = tok.a;
+          }
+        } catch (e) { /* invalid token — fall back to the normal quiz */ }
         var current = 0;
         function showStep(n){
           current = n;
@@ -502,13 +513,19 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
               low: Math.round((lastResult||compute()).profitMid*1000*(lastResult||compute()).low),
               high: Math.round((lastResult||compute()).profitMid*1000*(lastResult||compute()).high),
               band: (lastResult||compute()).band.label,
-              actions: lastActions.join('|')
+              actions: lastActions.join('|'),
+              token: (function(){ try { return btoa(JSON.stringify({a: answers})).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,''); } catch(e){ return ''; } })()
             })
           }).then(function(r){return r.json();}).then(function(d){
             /* Only claim delivery when Brevo actually accepted the email. */
             done(d && d.success && d.emailSent === true);
           }).catch(function(){ done(false); });
         }); }
+
+        /* Deep-link: if answers arrived via ?r= token, render the report immediately. */
+        if (Object.keys(answers).length) {
+          try { render(); } catch(e) { /* fall back to quiz on any error */ }
+        }
       })();
     </script>
   </body>

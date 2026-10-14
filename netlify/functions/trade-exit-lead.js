@@ -12,10 +12,15 @@ exports.handler = async (event) => {
   }
 
   try {
-    const { email, score, trade, horizon, state, low, high, band, actions } = JSON.parse(event.body || '{}');
+    const { email, score, trade, horizon, state, low, high, band, actions, token } = JSON.parse(event.body || '{}');
     if (!email || !email.includes('@')) {
       return { statusCode: 400, body: JSON.stringify({ error: 'Invalid email' }) };
     }
+
+    // Deep-link: the emailed "View my results" button must land on the user's
+    // actual report, not a blank quiz. Token = base64url({a: answers}).
+    const reportUrl = 'https://tradieautomate.com/tools/trade-business-valuation/'
+      + (token && /^[A-Za-z0-9_-]+$/.test(token) ? '?r=' + token : '');
 
     const key = process.env.BREVO_API_KEY;
     if (!key) {
@@ -70,8 +75,8 @@ exports.handler = async (event) => {
     // Send personalised summary email (same pattern as the legacy business-value-lead summary)
     let emailSent = false;
     try {
-      const html = buildEmailHtml({ score, low, high, band, actions });
-      const text = buildEmailText({ score, low, high, band, actions });
+      const html = buildEmailHtml({ score, low, high, band, actions, reportUrl });
+      const text = buildEmailText({ score, low, high, band, actions, reportUrl });
       const res = await fetch(`${API}/smtp/email`, {
         method: 'POST',
         headers,
@@ -107,8 +112,9 @@ function fmtAUD(n) {
   return '$' + v;
 }
 
-function buildEmailHtml({ score, low, high, band, actions }) {
+function buildEmailHtml({ score, low, high, band, actions, reportUrl }) {
   const range = low != null && high != null ? `${fmtAUD(low)} – ${fmtAUD(high)}` : '';
+  const link = reportUrl || 'https://tradieautomate.com/tools/trade-business-valuation/';
   const actionList = actions
     ? actions.split('|').filter(Boolean).map((a) => `<li style="margin-bottom:6px;">${a}</li>`).join('')
     : '';
@@ -132,7 +138,7 @@ function buildEmailHtml({ score, low, high, band, actions }) {
         This range is based on a Seller's Discretionary Earnings (SDE) multiple — the standard method for valuing
         Australian trade businesses. It's an estimate for planning, not a professional valuation.
       </p>
-      <a href="https://tradieautomate.com/tools/trade-business-valuation/" style="display:inline-block;background:#f97316;color:#ffffff;padding:14px 28px;border-radius:8px;font-weight:700;font-size:16px;text-decoration:none;">View my results &rarr;</a>
+      <a href="${link}" style="display:inline-block;background:#f97316;color:#ffffff;padding:14px 28px;border-radius:8px;font-weight:700;font-size:16px;text-decoration:none;">View my results &rarr;</a>
     </div>
     <p style="text-align:center;font-size:12px;color:#94a3b8;margin:20px 0 0;">
       TradieAutomate &middot; Australian trade business systems &middot;
@@ -143,8 +149,9 @@ function buildEmailHtml({ score, low, high, band, actions }) {
 </html>`;
 }
 
-function buildEmailText({ score, low, high, band, actions }) {
+function buildEmailText({ score, low, high, band, actions, reportUrl }) {
   const range = low != null && high != null ? `${fmtAUD(low)} - ${fmtAUD(high)}` : '';
+  const link = reportUrl || 'https://tradieautomate.com/tools/trade-business-valuation/';
   const lines = [
     'Your business valuation estimate is here.',
     '',
@@ -158,6 +165,6 @@ function buildEmailText({ score, low, high, band, actions }) {
       list.forEach((a) => lines.push(' - ' + a));
     }
   }
-  lines.push('', 'This is an estimate for planning, not a professional valuation.', '', 'View your results:', 'https://tradieautomate.com/tools/trade-business-valuation/', '', '— TradieAutomate');
+  lines.push('', 'This is an estimate for planning, not a professional valuation.', '', 'View your results:', link, '', '— TradieAutomate');
   return lines.join('\n');
 }
