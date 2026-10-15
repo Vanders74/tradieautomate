@@ -1,8 +1,8 @@
 ---
-title: 'RCD Safety Switch Requirements AS/NZS 3000: Which Type for Each Circuit'
-description: "AS/NZS 3000:2018 Amd 2 RCD rules: which circuits need protection, correct RCD type (AC, A, F, B) for solar and EV chargers, and what auditors check."
+title: 'RCD Types for Solar & EV: Type A vs B Installation Guide'
+description: "Choose the right RCD type for every circuit: Type A for solar, Type B for EV chargers, switchboard upgrade rules, and what auditors check under AS/NZS 3000:2018."
 pubDate: 'Jul 20 2026'
-updatedDate: 'Sep 14 2026'
+updatedDate: 'Oct 15 2026'
 category: "Compliance"
 heroImage: '/hero-compliance-safety-2026.jpg'
 tags: ['RCD', 'safety switch', 'AS/NZS 3000', 'switchboard', 'electrician', 'compliance', 'solar', 'EV charger']
