@@ -17,6 +17,8 @@ exports.handler = async (event) => {
       return { statusCode: 400, body: JSON.stringify({ error: 'Invalid email' }) };
     }
 
+    const diagnostics = {};
+
     // Deep-link: the emailed "View my results" button must land on the user's
     // actual report, not a blank quiz. Token = base64url({a: answers}).
     const reportUrl = 'https://tradieautomate.com/tools/trade-business-valuation/'
@@ -88,9 +90,13 @@ exports.handler = async (event) => {
 
       try {
         const res = await fetch(`${API}/contacts`, { method: 'POST', headers, body: JSON.stringify(payload) });
-        if (!res.ok) console.error('Brevo contact failed:', res.status, (await res.text()).slice(0, 200));
+        const rtxt = (await res.text()).slice(0, 300);
+        if (!res.ok) console.error('Brevo contact failed:', res.status, rtxt);
+        else diagnostics.contact_status = res.status;
+        diagnostics.contact_body = rtxt;
       } catch (e) {
         console.error('Brevo contact request failed:', e.message);
+        diagnostics.contact_error = e.message;
       }
     }
 
@@ -118,7 +124,7 @@ exports.handler = async (event) => {
 
     return {
       statusCode: 200,
-      body: JSON.stringify({ success: true, emailSent }),
+      body: JSON.stringify({ success: true, emailSent, diagnostics }),
     };
   } catch (e) {
     console.error('trade-exit-lead error:', e.message);
