@@ -37,8 +37,8 @@ exports.handler = async (event) => {
     };
     for (const [name, type] of Object.entries(ATTRS)) {
       try {
-        const ar = await fetch(`https://api.brevo.com/v3/contacts/attributes/${encodeURIComponent(name)}`, {
-          method: 'POST', headers, body: JSON.stringify({ type, calculated: false }),
+        const ar = await fetch(`https://api.brevo.com/v3/contacts/attributes/normal/${encodeURIComponent(name)}`, {
+          method: 'POST', headers, body: JSON.stringify({ type }),
         });
         if (!ar.ok && ar.status !== 400) {
           console.error(`Attribute declare ${name} failed:`, ar.status, (await ar.text()).slice(0, 120));

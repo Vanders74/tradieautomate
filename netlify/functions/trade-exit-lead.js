@@ -58,8 +58,8 @@ exports.handler = async (event) => {
     diagnostics.attr_declares = {};
     for (const [name, type] of Object.entries(ATTRS)) {
       try {
-        const ar = await fetch(`${API}/contacts/attributes/${encodeURIComponent(name)}`, {
-          method: 'POST', headers, body: JSON.stringify({ type, calculated: false }),
+        const ar = await fetch(`${API}/contacts/attributes/normal/${encodeURIComponent(name)}`, {
+          method: 'POST', headers, body: JSON.stringify({ type }),
         });
         diagnostics.attr_declares[name] = { status: ar.status, body: (await ar.text()).slice(0, 160) };
       } catch (e) {
