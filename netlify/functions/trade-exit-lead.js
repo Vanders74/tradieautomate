@@ -55,18 +55,24 @@ exports.handler = async (event) => {
       TV_SCORE: 'float', TV_TRADE: 'text', TV_HORIZON: 'text',
       TV_STATE: 'text', TV_BAND: 'text', LEAD_SOURCE: 'text',
     };
+    diagnostics.attr_declares = {};
     for (const [name, type] of Object.entries(ATTRS)) {
       try {
         const ar = await fetch(`${API}/contacts/attributes/${encodeURIComponent(name)}`, {
           method: 'POST', headers, body: JSON.stringify({ type, calculated: false }),
         });
-        // 201 = created, 400 = already exists (fine), anything else logged
-        if (!ar.ok && ar.status !== 400) {
-          console.error(`Attribute declare ${name} failed:`, ar.status, (await ar.text()).slice(0, 120));
-        }
+        diagnostics.attr_declares[name] = { status: ar.status, body: (await ar.text()).slice(0, 160) };
       } catch (e) {
-        console.error(`Attribute declare ${name} errored:`, e.message);
+        diagnostics.attr_declares[name] = { error: e.message };
       }
+    }
+    // Confirm what Brevo actually lists as known attributes
+    try {
+      const al = await fetch(`${API}/contacts/attributes`, { headers });
+      const ad = await al.json();
+      diagnostics.known_attrs = (ad.attributes || []).map((a) => a.name);
+    } catch (e) {
+      diagnostics.known_attrs_error = e.message;
     }
 
     if (listIds.length) {
