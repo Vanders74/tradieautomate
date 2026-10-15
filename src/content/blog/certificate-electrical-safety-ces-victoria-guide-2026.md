@@ -1,6 +1,6 @@
 ---
 title: 'Certificate of Electrical Safety (CES) Victoria Guide: When It''s Required, Cost & Penalties'
-description: "Certificate of Electrical Safety (CES) Victoria — when a CES is required, 28-day deadline via ESV Connect, $39.04 fee, $150–$300 late penalties. Complete compliance guide for Victorian sparkies."
+description: "Certificate of Electrical Safety Victoria — 28 days to lodge via ESV Connect, $39.04 fee. 2026 rules."
 shortDescription: 'Certificate of Electrical Safety (CES) Victoria — when it''s required, 28-day deadline, fees, and penalties. Compliance guide for Victorian electrical contractors.'
 pubDate: 'May 15 2026'
 updatedDate: 'Oct 1 2026'
