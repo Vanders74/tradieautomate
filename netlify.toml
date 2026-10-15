@@ -45,7 +45,44 @@
 # Astro trailingSlash:'always' generates the slashed canonical; Netlify auto-301s no-slash -> slash.
 # (Verified: ccew-nsw + servicem8-review redirect correctly with no manual rule.)
 
-# Consolidate stale duplicate guide into canonical blog article (solar job mgmt cannibalisation)
+# Root-to-tools redirects for backward compatibility (tools moved under /tools/ during Oct 14 restructure)
+[[redirects]]
+  from = "/rebate-finder"
+  to = "/tools/rebate-finder/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/rebate-finder/"
+  to = "/tools/rebate-finder/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/trade-business-valuation"
+  to = "/tools/trade-business-valuation/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/trade-business-valuation/"
+  to = "/tools/trade-business-valuation/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/business-value-calculator"
+  to = "/tools/business-value-calculator"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/business-value-calculator/"
+  to = "/tools/business-value-calculator"
+  status = 301
+  force = true
+
+# Consolidation: stale duplicate guide into canonical blog article (solar job mgmt cannibalisation)
 [[redirects]]
   from = "/guides/best-job-management-software-solar-installers-australia-2026"
   to = "/blog/solar-job-management-software-australia-2026/"

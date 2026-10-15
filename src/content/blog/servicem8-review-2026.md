@@ -439,6 +439,8 @@ Yes — ServiceM8 offers a 14-day free trial with no credit card required. You g
 
 ---
 
+> **Thinking about selling your trade business in the next 1-5 years?** The free [Trade Business Valuation](/tools/trade-business-valuation/) scores your sale-readiness across 8 value drivers and estimates your price range in under five minutes — no email required.
+
 > **This article is featured in Chapter 8 of The Sparky's Playbook.**
 > The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download the full book free →](/playbook)
