@@ -10,8 +10,30 @@ from jev_classify import jev_classify
 
 # ── Test case: worst-scoring high-volume meta ──────────────────────────────
 SLUG = "servicem8-vs-jobber-tradie-software-guide-2026"
+TARGET_PHRASE = "servicem8 vs jobber"   # primary phrase the page targets (front-loaded in meta)
 CURRENT_TITLE = "ServiceM8 vs Jobber: Job Management Software for Australian Solar and Electrical Businesses"
 CURRENT_META = "ServiceM8 vs Jobber 2026: which job management software wins for Australian solar and electrical businesses? Pricing, CCEW compliance, and mobile workflow compared side-by-side."
+
+# ── Page content fed to the judge (promise-meets-content check) ───────────
+def load_page_context(slug):
+    """Read the article's H1 + first paragraph so the judge can verify the
+    meta promises exactly what the page delivers."""
+    import re
+    from pathlib import Path
+    p = Path(os.path.expanduser("~/tradieautomate/repo/src/content/blog")) / f"{slug}.md"
+    if not p.exists():
+        return f"[content not found for {slug}]"
+    text = p.read_text(encoding="utf-8")
+    # frontmatter description (the current meta) + body intro
+    m = re.search(r"^description:\s*[\"']?(.*?)[\"']?\s*$", text, re.M)
+    fm_desc = m.group(1).strip() if m else ""
+    body = text.split("---", 2)[-1].strip() if text.count("---") >= 2 else text
+    # first heading + first ~240 chars of prose (strip markdown noise)
+    body_clean = re.sub(r"[#*`>\-#\[\]()!]", " ", body)
+    body_clean = re.sub(r"\s+", " ", body_clean).strip()
+    return f"H1/description: {fm_desc}\nPage intro: {body_clean[:240]}"
+
+PAGE_CONTEXT = load_page_context(SLUG)
 
 # ── Generate 20 variants: 10 titles × 10 metas, mixed patterns ────────────
 TITLE_VARIANTS = [
@@ -74,7 +96,17 @@ SCORE_Q = {
     },
     "meta_score": {
         "type": "score",
-        "instructions": "Rate the meta description 1-5: opens with the decision/differentiator, has a dollar figure or concrete fact, front-loaded hook, 120-160 chars, no fear-mongering",
+        "instructions": (
+            "Rate the meta description 1-5. Criteria: "
+            "(1) front-loads the target search phrase within the first 40 characters; "
+            "(2) opens with the decision/differentiator, not a generic label; "
+            "(3) has a dollar figure or concrete fact; "
+            "(4) carries the ENTIRE pitch inside the first ~110 characters (mobile SERP truncation — "
+            "anything after 110 chars is cut off for most searchers); "
+            "(5) no fear-mongering; "
+            "(6) promises EXACTLY what the linked page delivers (check against the provided page intro — "
+            "no over-promise, no bait)."
+        ),
         "criteria": ["Very poor", "Poor", "Average", "Good", "Excellent"],
     },
 }
@@ -88,7 +120,9 @@ def run():
     scores = []
     for ti, title in enumerate(TITLE_VARIANTS):
         for mi, meta in enumerate(META_VARIANTS):
-            state = f"Title: {title}\nMeta: {meta}"
+            state = (f"TARGET SEARCH PHRASE: {TARGET_PHRASE}\n\n"
+                     f"PAGE CONTENT (meta must promise exactly this):\n{PAGE_CONTEXT}\n\n"
+                     f"Candidate Title: {title}\nCandidate Meta: {meta}")
             q = dict(SCORE_Q)
             res = jev_classify(state, q, timeout=20)
             if "_error" in res:
@@ -119,15 +153,17 @@ def run():
     def jev_duel(a, b):
         """Head-to-head click preference. Returns a-or-b and probabilities."""
         state = (
+            f"TARGET SEARCH PHRASE: {TARGET_PHRASE}\n\n"
+            f"PAGE CONTENT (both options promise to deliver this):\n{PAGE_CONTEXT}\n\n"
             f"Which title+meta would an Australian solar or electrical tradie most likely CLICK "
-            f"in a search results page for 'servicem8 vs jobber'?\n\n"
+            f"in a search results page for '{TARGET_PHRASE}'?\n\n"
             f"Option A:\nTitle: {a[3]}\nMeta: {a[4]}\n\n"
             f"Option B:\nTitle: {b[3]}\nMeta: {b[4]}"
         )
         res = jev_classify(state, {
             "pick": {
                 "type": "choice",
-                "instructions": "Which option would get more clicks from an Aussie tradie searching 'servicem8 vs jobber'?",
+                "instructions": f"Which option would get more clicks from an Aussie tradie searching '{TARGET_PHRASE}'?",
                 "criteria": {"a": "Option A is stronger", "b": "Option B is stronger"},
             }
         }, timeout=20)
@@ -152,6 +188,25 @@ def run():
     print(f"\nCHAMPION ({'NEW' if beats_current else 'CURRENT'}):")
     print(f"  T: {champ[3]}")
     print(f"  M: {champ[4]}")
+
+    # ── Champion tracking: dashboard cron reads this for the 2-week CTR check ─
+    tracking = {
+        "slug": SLUG,
+        "target_phrase": TARGET_PHRASE,
+        "title": champ[3],
+        "meta": champ[4],
+        "champion_type": "new" if beats_current else "current-held",
+        "date": __import__("datetime").date.today().isoformat(),
+        "ctr_status": "pending",   # pending → the 10:00 cron marks in_progress after deploy
+        "ctr_before": None,        # GSC CTR % pre-swap (filled by cron from GSC API)
+        "ctr_after": None,         # GSC CTR % 2-4 weeks post-swap (filled by weekly SEO cron)
+        "verdict": None,           # "kept" / "reverted" once ctr_after compared
+    }
+    out_path = os.path.expanduser("~/tradieautomate/seo/meta-tournament-champion.json")
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    with open(out_path, "w") as f:
+        json.dump(tracking, f, indent=2)
+    print(f"\n📌 Champion tracked → {out_path} (ctr_status: pending)")
 
 
 if __name__ == "__main__":
