@@ -1,8 +1,8 @@
 ---
-title: 'VIC REC Licence 2026: $734 Fee, Full Application Process & ESV Compliance Guide'
-description: '$734 new/$353 renewal. Complete VIC REC licence guide covering nominee rules, $5M insurance, CES obligations, and the compliance areas ESV is actively auditing right now.'
+title: 'VIC REC Licence 2026: $734 Fee, Nominee Rules & Solar Compliance Guide'
+description: 'Beyond basic REC requirements: $734 fee, nominee rules, $5M insurance, and solar compliance layers CEC/VEU/DNSP. Complete VIC step-by-step guide.'
 pubDate: 'Jul 19 2026'
-updatedDate: 'Oct 7 2026'
+updatedDate: 'Oct 11 2026'
 category: "Compliance"
 breakdown:
   - title: "Hold the A-Class licence"
@@ -196,7 +196,7 @@ Without current CEC accreditation, STCs cannot be assigned for installations you
 
 ### Victorian Energy Upgrades (VEU) Program
 
-Victoria's VEU program allows accredited providers to create Victorian Energy Efficiency Certificates (VEECs) for eligible installations — including solar PV. To participate in the VEU program and create VEECs, businesses must be separately accredited by the Essential Services Commission (ESC). This is in addition to (not a replacement for) your REC registration and CEC accreditation. See our [full VEU guide for electricians](/blog/victorian-energy-upgrades-veu-electricians-guide-2026/) covering ESC accreditation costs, the 90-day renewal window, CPD timelines and the exact steps to cash out VEECs.
+Victoria's VEU program allows accredited providers to create Victorian Energy Efficiency Certificates (VEECs) for eligible installations — including solar PV. To participate in the VEU program and create VEECs, businesses must be separately accredited by the Essential Services Commission (ESC). This is in addition to (not a replacement for) your REC registration and CEC accreditation.
 
 For solar installers wanting to offer VEU incentives to Victorian commercial customers, check the current activity requirements with the ESC (esc.vic.gov.au) — the C&I solar activity requirements (Activity 47) include specific training and competency obligations beyond standard CEC accreditation.
 
@@ -301,8 +301,6 @@ Submitting incomplete documentation. The most common rejection reasons are: insu
 > [Download free →](/playbook)
 
 ## Related Reading
-
-> **Building a business worth selling.** If you're planning to exit or sell in the next few years, see what your VIC electrical business is worth — the free [Trade Business Valuation](/tools/trade-business-valuation/) scores your sale-readiness across 8 value drivers and estimates your sale range in under five minutes.
 
 - *[Certificate of Electrical Safety Victoria: Avoid ESV Audit Failures in 2026](/blog/certificate-electrical-safety-ces-victoria-guide-2026/)*
 - *[QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026/)*

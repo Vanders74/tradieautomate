@@ -1,8 +1,8 @@
 ---
-title: 'VEU Program 2026: How Electricians Cash Out VEECs for Heat Pump Installations ($250–$1,650/Job)'
-description: "Heat pump installs earn $250\u2013$1,650 per job with VEECs. Step-by-step VEU guide: accreditation steps, eligible activities, and cashing out via the ESC Registry."
+title: 'VEU Program for VIC Electricians 2026: Earn $250–$1,650 per Job in VEECs'
+description: '$250–$1,650 per job in VEECs. Complete VEU guide: accreditation steps, eligible activities, and ESC registry process for VIC electricians. Step-by-step.'
 pubDate: 'Jul 19 2026'
-updatedDate: 'Oct 7 2026'
+updatedDate: 'Oct 11 2026'
 category: 'Compliance'
 heroImage: '/hero-replacing-gas-hot-water-electric-heat-pump.jpg'
 tags: ['VEU', 'Victorian Energy Upgrades', 'VEEC', 'electrician', 'heat pump', 'Victoria', 'ESC', 'rebates', 'electrification']
@@ -64,70 +64,6 @@ To become an accredited person under the VEU program, you need:
 Note: the VEU program has activity-specific accreditation. Being approved for heat pump hot water doesn't automatically mean you're approved for lighting upgrades — each activity category requires separate registration with the ESC.
 
 Visit the **ESC's scheme participant portal** at [esc.vic.gov.au/victorian-energy-upgrades](https://www.esc.vic.gov.au/victorian-energy-upgrades) to access the current Activity Definitions, product eligibility lists, and registry access.
-
----
-
-## ESVConnect, CPD and the Accreditation Timeline
-
-Two separate regulators touch your VEU work: **Energy Safe Victoria (ESV)** for your electrical contractor licence, and the **Essential Services Commission (ESC)** for your VEU accreditation. The paperwork is different, the renewal cycles are different, and missing either one puts your certificate revenue at risk.
-
-### ESVConnect walkthrough (your licence runs through it now)
-
-Since the ESVConnect platform became the single portal for all Victorian electrical licences, it's where you:
-
-- **Renew your REC registration and electrical worker licences** — renewals happen there, not on paper
-- **Track your CPD (Continuing Professional Development) requirements** — your profile shows exactly what's outstanding
-- **Lodge Certificates of Electrical Safety** — if you're an LEW or REC nominee, electronic COES lodgement runs through ESVConnect; electrical workers can't lodge eCOES unless they've upgraded to ESVConnect
-- **Update contact details** — keeping these current is a legal requirement, and ESV uses the portal to send CPD reminders
-
-First-time setup is a one-time registration: create your account, complete the suitability questions, and if a licence course is required you'll be prompted to select it and a letter of authorisation is generated.
-
-### CPD timelines — don't let your licence lapse mid-VEU-contract
-
-CPD is now mandatory for licence renewal in Victoria. The two components:
-
-| Component | Hours | When required |
-|---|---|---|
-| **Skills Maintenance** | 8 hours per licence class | Must be completed in the **2 years before** your licence renewal; in force for renewals from 1 July 2023 |
-| **Skills Development** | 8 hours | Becomes a renewal requirement for licence renewals **from July 2028 onwards** |
-
-Key rules:
-
-- Electrical licences renew **every 5 years**; you must complete the CPD component before renewal
-- If you hold more than one licence class, Skills Maintenance is required **per licence class** (e.g. A-class + LEM = 16 hours). Skills Development applies **per person**, once per 5-year cycle, regardless of how many classes you hold
-- There is **no age exemption** — a renewal without completed CPD fails, and lapsed electricians must complete Skills Maintenance before reinstating a licence
-- ESV contacts registered ESVConnect users **2 years before** renewal with personalised course info; your ESVConnect profile records completion status
-
-**Practical tip for VEU businesses:** schedule CPD training in the same quarter you renew your REC. A lapsed REC doesn't just stop electrical work — it invalidates the licence basis of your VEU accreditation, and installations done in that window can't create valid VEECs.
-
-### ESC accreditation obligations — the part most electricians underestimate
-
-VEU accreditation is a **business-level** obligation on top of your licence, and it's stricter than most electricians expect:
-
-| Obligation | Detail |
-|---|---|
-| **Application fee** | **$3,000** for new applicants (2026) |
-| **Validity** | Accreditation runs **12 months** from approval — renew **annually** |
-| **Renewal window** | Apply for renewal at least **90 days before** expiry |
-| **Annual tests** | Fit-and-proper + competent-and-capable assessment **every year** |
-| **Independent assurance audit** | Required **at least once every 2 years** (from 1 July 2024), at your cost, against the ESC's audit schedule |
-| **Record keeping** | Substantiation records retained for **6 years** after certificates are created |
-| **Scheme participants** | Installers working under your accreditation must be **registered in the VEU Registry** before they submit activity |
-
-Two common failure points:
-
-1. **Renewal applications submitted late.** The 90-day renewal window is a hard requirement — if you submit at day 60 before expiry, the application may not be processed in time and your accreditation lapses, stopping VEEC creation.
-2. **Unregistered installers.** Every installer, assessor and lighting designer doing work under your accreditation must be registered as a scheme participant in the VEU Registry *before* submitting activity — including proof of their training qualifications and licence details.
-
-### Training requirements by activity
-
-The "no additional training" rule only applies where you're already licensed for the activity:
-
-- **Licensed electrician or plumber** doing work that falls inside your licence scope: **no additional VEU training required** — your licence covers the competency
-- **Roof work on solar or heat pump installs**: installers need one of the roof-safety units of competency — **VU23631** (Work safely on roofs with renewable energy systems) or **VU22744** (Work safely in the solar industry) — plus a **current White Card** under the OHS Regulations 2017 (Vic)
-- **New activities outside your licence scope**: you must gain the units of competency listed in the ESC's Activity Definition (Appendix A) before undertaking the activity — don't assume your REC extends to plumbing or gas work
-
-The structural mistake is treating VEU accreditation as a once-off registration. It's an **annual business cycle**: $3,000 entry, yearly fit-and-proper assessment, 90-day renewal lead time, and a 2-yearly assurance audit. Factor the administrative cost into your per-job VEEC economics — most accredited businesses amortise it across 60–100+ installs per year, which reinforces the "direct accreditation only pays off at volume" guidance below.
 
 ---
 

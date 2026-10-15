@@ -356,10 +356,12 @@ If you're a solar installer or electrician running more than 15 jobs a month, th
   var btns = finder.querySelectorAll('.pf-btn');
   var progress = document.getElementById('pf-progress');
   var vals = {};
+
   function go(n){
     steps.forEach(function(s,i){s.style.display = (i==n) ? 'block' : 'none'});
     if(progress) progress.style.width = Math.min(100, n*33) + '%';
   }
+
   function result(){
     var j = vals['1'] || '50-150';
     var n,p,d;
@@ -376,6 +378,7 @@ If you're a solar installer or electrician running more than 15 jobs a month, th
     go(3);
     if(progress) progress.style.width = '100%';
   }
+
   finder.addEventListener('click', function(e){
     var b = e.target.closest('.pf-btn');
     if(!b) return;
