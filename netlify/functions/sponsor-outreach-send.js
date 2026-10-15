@@ -6,7 +6,7 @@
 //  - Brevo daily limits + Netlify function rate limits bound abuse
 // Usage: POST /sponsor-outreach-send with JSON { to, company, state, initiative?, lastName?, template }
 // Templates (initiative=default 'joule'): 1=initial, 2=follow-up day3, 3=final day7 (rebates)
-// Templates (initiative='handover'): 4=initial, 5=follow-up day3, 6=final day7 (trade exit Pool A)
+// Templates (initiative='handover'): 4=initial, 5=follow-up day3, 6=final day7, 7=founder first-mover (warm opens)
 
 const ALLOW = [
   // JOULE — rebate sponsor pitches (wave 1, 2026-10-14)
@@ -75,9 +75,17 @@ function handoverTemplate(n, { company, state, hi, price }) {
       text: `${hi}\n\nQuick follow-up on the partnership slot on our Sellability Scorecard.\n\n- Owners get a sale-price range + report card across 8 value drivers (systems, books, independence, compliance...)\n- Your category is matched to the exact gap their results flag - a warm, self-qualified referral\n- Exclusive per state-category; we also run the site's trade-exit guides, so the placement compounds\n\nIf a monthly slot isn't the right shape, we can start with a 30-day pilot at $300 to see the quality of leads first.\n\nShane`,
     };
   }
+  if (n === 6) {
+    return {
+      subject: `Last chance - ${state || 'your'} category slot on the scorecard`,
+      text: `${hi}\n\nLast nudge on the scorecard sponsor slot for ${company}.\n\nOur 30-day pilot ($${Math.round(price / 2)}, exclusive placement, no lock-in) can start Monday. If the leads aren't right for you, you walk away - no obligation.\n\nLive tool: https://tradieautomate.com/tools/trade-business-valuation/\n\nShane`,
+    };
+  }
+  // 7 = founder-deal / first-mover: sent on warm engagement before the
+  // generic day-3 follow-up, so the warmest openers get the pilot offer first.
   return {
-    subject: `Last chance - ${state || 'your'} category slot on the scorecard`,
-    text: `${hi}\n\nLast nudge on the scorecard sponsor slot for ${company}.\n\nOur 30-day pilot ($${Math.round(price / 2)}, exclusive placement, no lock-in) can start Monday. If the leads aren't right for you, you walk away - no obligation.\n\nLive tool: https://tradieautomate.com/tools/trade-business-valuation/\n\nShane`,
+    subject: `${company} - first-mover rate for ${state || 'your state'} before the slot opens`,
+    text: `${hi}\n\nI see ${company} took a look at the Sellability Scorecard - so I'm writing to you before we open the ${state || ''} category slot to anyone else.\n\nFirst-mover deal: $${Math.round(price / 2)}/month for the first 30 days (normally $${price}), exclusive ${state || ''} placement on scorecard results pages. If the leads aren't right for you, walk away at day 30 - no lock-in.\n\nWhy move first: we push real traffic to the scorecard across our trade-exit guides and newsletter in the next two weeks. The first partner in ${state || 'your state'} takes the slot and the case study; we don't re-offer it while they're active.\n\n10 minutes on the calculator shows the lead shape: https://tradieautomate.com/tools/trade-business-valuation/\n\nShane`,
   };
 }
 
