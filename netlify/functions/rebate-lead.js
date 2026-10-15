@@ -28,6 +28,26 @@ exports.handler = async (event) => {
     }
 
     const headers = { 'api-key': BREVO_API_KEY, 'Content-Type': 'application/json', Accept: 'application/json' };
+
+    // Declare custom attributes first — Brevo silently drops undeclared ones,
+    // which would leave every rebate lead in the list but with no state/upgrade
+    // data (breaking JOULE's per-state + per-upgrade sponsor matching).
+    const ATTRS = {
+      POSTCODE: 'text', REBATE_STATE: 'text', UPGRADE_TYPE: 'text', LEAD_SOURCE: 'text',
+    };
+    for (const [name, type] of Object.entries(ATTRS)) {
+      try {
+        const ar = await fetch(`https://api.brevo.com/v3/contacts/attributes/${encodeURIComponent(name)}`, {
+          method: 'POST', headers, body: JSON.stringify({ type, calculated: false }),
+        });
+        if (!ar.ok && ar.status !== 400) {
+          console.error(`Attribute declare ${name} failed:`, ar.status, (await ar.text()).slice(0, 120));
+        }
+      } catch (e) {
+        console.error(`Attribute declare ${name} errored:`, e.message);
+      }
+    }
+
     const payload = {
       email,
       attributes: {

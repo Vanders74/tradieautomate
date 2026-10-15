@@ -45,6 +45,28 @@ exports.handler = async (event) => {
     const listIds = [masterId].filter((x) => x);
     if (stateListId) listIds.push(stateListId);
 
+    // Declare the TV_* contact attributes if Brevo doesn't know them yet.
+    // Brevo silently DROPS undeclared custom attributes on contact create, so
+    // without this the lead lands in the list but TV_SCORE/TV_BAND etc. are
+    // never stored — which breaks the entire tier-pricing model.
+    const ATTRS = {
+      TV_SCORE: 'float', TV_TRADE: 'text', TV_HORIZON: 'text',
+      TV_STATE: 'text', TV_BAND: 'text', LEAD_SOURCE: 'text',
+    };
+    for (const [name, type] of Object.entries(ATTRS)) {
+      try {
+        const ar = await fetch(`${API}/contacts/attributes/${encodeURIComponent(name)}`, {
+          method: 'POST', headers, body: JSON.stringify({ type, calculated: false }),
+        });
+        // 201 = created, 400 = already exists (fine), anything else logged
+        if (!ar.ok && ar.status !== 400) {
+          console.error(`Attribute declare ${name} failed:`, ar.status, (await ar.text()).slice(0, 120));
+        }
+      } catch (e) {
+        console.error(`Attribute declare ${name} errored:`, e.message);
+      }
+    }
+
     if (listIds.length) {
       const payload = {
         email,
