@@ -302,6 +302,8 @@ Submitting incomplete documentation. The most common rejection reasons are: insu
 
 ## Related Reading
 
+> **Building a business worth selling.** If you're planning to exit or sell in the next few years, see what your VIC electrical business is worth — the free [Trade Business Valuation](/tools/trade-business-valuation/) scores your sale-readiness across 8 value drivers and estimates your sale range in under five minutes.
+
 - *[Certificate of Electrical Safety Victoria: Avoid ESV Audit Failures in 2026](/blog/certificate-electrical-safety-ces-victoria-guide-2026/)*
 - *[QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026/)*
 - *[SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026/)*

@@ -284,6 +284,8 @@ While photos aren't part of the CCEW itself, NSW Fair Trading and DNSPs increasi
 
 ## Related Reading
 
+> **When you're ready to sell, the paperwork matters.** Buyers scrutinise compliance history before any trade-business acquisition — so do your CCEW records pass inspection? The free [Trade Business Valuation](/tools/trade-business-valuation/) scores your sale-readiness (compliance included) and estimates your sale range in under five minutes.
+
 - *[Certificate of Electrical Safety (CES) — Complete Guide for Victorian Electricians](/blog/certificate-electrical-safety-ces-victoria-guide-2026/)*
 - *[RCD Safety Switch Requirements AS/NZS 3000: Which Type for Each Circuit](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026/)*
 - *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety/)*

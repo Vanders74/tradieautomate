@@ -261,6 +261,8 @@ No — each state has its own licensing framework. To carry out electrical work 
 
 ## Related Reading
 
+> **Own the business, not just the licence.** An established QLD electrical contractor planning to sell should know the number first — the free [Trade Business Valuation](/tools/trade-business-valuation/) scores your sale-readiness across 8 value drivers and estimates your sale range in under five minutes.
+
 - *[CER Audit Prep for Solar Installers: Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)*
 - *[Electrical Contractor Insurance Australia 2026: What You Need and Why](/blog/electrical-contractor-insurance-australia-2026/)*
 - *[Staying Compliant in 2026: The Complete Solar & Electrical Safety Guide](/blog/staying-compliant-2026-solar-electrical-safety/)*

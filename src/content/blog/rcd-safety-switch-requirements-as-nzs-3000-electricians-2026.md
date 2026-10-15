@@ -221,6 +221,8 @@ The standard does not precisely define this term. In practice, it encompasses sw
 
 ## Related Reading
 
+> **Checking what your state pays for upgrades?** If you're an electrician doing switchboard, heat-pump or solar work, the [Rebate & Incentives Finder](/tools/rebate-finder/) shows the current state rebates your customers qualify for — verified weekly against the regulator sources.
+
 - *[Electrical Switchboard Upgrade Cost Australia 2026](/blog/electrical-switchboard-upgrade-cost-australia-2026/)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
 - *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety/)*
