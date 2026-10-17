@@ -83,16 +83,32 @@ reportDate: "{__import__('datetime').datetime.now().strftime('%Y-%m-%d')}"
     return path
 
 
-def process_keyword(keyword, competitor_url, ta_slug):
-    """Full 3-agent pipeline for one keyword."""
+def process_keyword(keyword, competitor_url, ta_slug, comp_text_path=None):
+    """Full 3-agent pipeline for one keyword.
+
+    comp_text_path: optional path to a pre-fetched competitor text file
+    (used when direct fetch is blocked, e.g. HTTP 403). Headings are
+    extracted from markdown-style '#'/'-' lines; whole text becomes the preview.
+    """
     print(f"\n{'='*60}")
     print(f"GAP: {ta_slug} ← {keyword} ({competitor_url})")
 
     # Fetch competitor page
-    comp = fetch_page(competitor_url)
-    if comp.get("error"):
-        print(f"  ERROR fetching competitor: {comp['error']}")
-        return
+    if comp_text_path and os.path.exists(comp_text_path):
+        import re
+        with open(comp_text_path) as f:
+            raw = f.read()
+        headings = re.findall(r'^#{1,4}\s+(.*)$', raw, re.MULTILINE)
+        comp = {
+            "headings": [h.strip() for h in headings if h.strip()],
+            "body_preview": re.sub(r'\s+', ' ', raw).strip()[:3000],
+        }
+        print(f"  Using pre-fetched competitor text: {comp_text_path} ({len(comp['headings'])} headings)")
+    else:
+        comp = fetch_page(competitor_url)
+        if comp.get("error"):
+            print(f"  ERROR fetching competitor: {comp['error']}")
+            return
 
     # Read TA article
     ta = read_ta_article(ta_slug)
@@ -175,7 +191,7 @@ TA Article: {ta_slug}
 ## Suggested Insertion
 Find the most natural insertion point in `src/content/blog/{ta_slug}.md` and add:
 
-{agent3}
+{a3}
 """
     path = write_gap_report(keyword, competitor_url, ta_slug, report)
     print(f"  ✅ Report written: {path}")
@@ -205,10 +221,11 @@ def queue_next():
 
 if __name__ == "__main__":
     if len(sys.argv) >= 4:
-        process_keyword(sys.argv[1], sys.argv[2], sys.argv[3])
+        comp_text = sys.argv[4] if len(sys.argv) > 4 else None
+        process_keyword(sys.argv[1], sys.argv[2], sys.argv[3], comp_text)
     elif len(sys.argv) == 2 and sys.argv[1] == "--queue-next":
         queue_next()
     else:
         print("Usage:")
-        print("  python3 gap_filler.py <keyword> <competitor_url> <ta_slug>")
+        print("  python3 gap_filler.py <keyword> <competitor_url> <ta_slug> [competitor_text_file]")
         print("  python3 gap_filler.py --queue-next")
