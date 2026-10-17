@@ -1,19 +1,21 @@
 ---
 title: "Job Management Software for Electricians 2026: ServiceM8 at $29/mo"
-description: "Job management software for electricians: ServiceM8 from $29/mo handles CCEW forms, Xero sync and same-day invoicing. Which plan fits a 1-5 person crew."
+description: "Job management software for electricians: ServiceM8 from $29/mo incl GST — CCEW/CES forms, Xero/MYOB/QuickBooks sync, same-day invoicing. Which plan fits a 1-5 person crew."
 pubDate: 'Apr 27 2026'
 updatedDate: 'Oct 18 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-for-electricians.jpg'
 faq:
-  - question: "What is ServiceM8 and how does it help Australian electricians?"
-    answer: "ServiceM8 is a cloud-based job management platform built in Australia for trade businesses. For electricians, it replaces paper forms with digital compliance checklists, auto-generates invoices from completed jobs for same-day payment, tracks technician locations via GPS, and stores CCEW/CES documentation against every job record — making audit preparation a 5-minute exercise instead of a 2-day scramble."
-  - question: "How much does ServiceM8 cost for an electrical business in Australia?"
-    answer: "ServiceM8 starts with a Free plan ($0/month, 30 jobs), then Starter at $29/month (50 jobs), Growing at $79/month (150 jobs), Premium at $149/month (500 jobs), and Premium Plus at $349/month (1,500+ jobs). All paid plans include unlimited staff. Most 1-5 person electrical businesses land on the Starter or Growing plan."
-  - question: "Does ServiceM8 handle CCEW and electrical compliance certificates?"
-    answer: "Yes. ServiceM8's custom form builder lets you create CCEW templates, CES checklists, and test record forms that technicians complete on-site. Forms can be set as mandatory — a job cannot be marked complete without the compliance documentation filled in and attached."
-  - question: "Can ServiceM8 integrate with Xero or MYOB for my electrical business?"
-    answer: "Yes. ServiceM8 has native two-way integrations with both Xero and MYOB AccountRight. Invoices generated in ServiceM8 push directly to your accounting software, eliminating double entry and keeping your accounts current with completed work."
+  - question: "Does ServiceM8 handle Certificates of Electrical Safety?"
+    answer: "It handles the paperwork around them, not the legal issue. ServiceM8's PDF forms and reports builder lets you build a template per jurisdiction — a Victorian Certificate of Electrical Safety, a NSW Certificate of Compliance for Electrical Work, a QLD certificate of testing and compliance — with fields auto-populated from job data (client, site address, licence number). The licensed contractor still issues the certificate; ServiceM8 stores a completed copy against the job record and emails it to the client."
+  - question: "Can ServiceM8 work offline?"
+    answer: "Yes. The mobile app caches job details and lets field staff complete forms and notes without coverage; data syncs when the connection returns. Photos captured offline upload on reconnect."
+  - question: "Is ServiceM8 better than Tradify for electricians?"
+    answer: "For compliance-heavy electrical work, usually yes — the PDF forms engine and job-level document storage are deeper than Tradify's, and Tradify is the simpler tool for a sole trader who only needs quotes, jobs and invoices. If you need per-job certificates, test records and asset history, ServiceM8 is the stronger fit; if you need the shortest possible setup, Tradify wins."
+  - question: "Does ServiceM8 work for solar and electrical combined businesses?"
+    answer: "Yes. You can run separate job templates and form sets for electrical and solar work in the same account, which is why it is common among CEC-accredited electricians doing PV and battery work alongside general electrical."
+  - question: "What accounting software does ServiceM8 connect to?"
+    answer: "Three packages: Xero, MYOB Business (Australia and New Zealand) and QuickBooks Online. Invoices are sent to the accounting file when you Approve them from the Invoicing page after the job is Completed — not when the job is merely marked complete. Payments received in ServiceM8 against an approved invoice sync immediately; client and item records entered in the accounting file sync back within about 30 minutes."
 ---
 
 Running an electrical business in Australia means carrying a lot: your tools, your licence, your insurance, and an ever-growing pile of compliance obligations that have nothing to do with the actual electrical work.
@@ -24,7 +26,7 @@ Most electricians manage this across a mix of paper forms, WhatsApp, and a sprea
 
 **ServiceM8 is how smart Australian electrical businesses are fixing this problem.**
 
-ServiceM8 is a cloud-based job management platform built in Australia, designed for trade and field service businesses. For electricians, it replaces paper forms with digital compliance checklists, auto-generates invoices from completed jobs, and attaches compliance documentation to every job record — turning audit preparation from a multi-day scramble into a 10-minute export.
+ServiceM8 is a cloud-based job management platform built in Australia, designed for trade and field service businesses. For electricians, it replaces paper forms with digital compliance checklists, produces an invoice from the job you just completed, and attaches compliance documentation to every job record — turning audit preparation from a multi-day scramble into a 10-minute export.
 
 ---
 
@@ -67,7 +69,7 @@ That means your techs can't drive away with paperwork undone. Every required fie
 
 ### State-Specific Certificate Templates
 
-Compliance requirements vary by state. Victorian electricians issue CES forms under Energy Safe Victoria's requirements. NSW electricians issue Certificates of Compliance under SafeWork NSW. Queensland electrical work requires certificates under the Electrical Safety Act 2002.
+Compliance requirements vary by state, and so do the documents. Victorian electricians issue a **Certificate of Electrical Safety (CES)** under Energy Safe Victoria's requirements. NSW electricians issue a **Certificate of Compliance for Electrical Work (CCEW)** under the Gas and Electricity (Consumer Safety) Act 2017 — it is administered by Building Commission NSW and lodged through eCert, not by SafeWork NSW. Queensland requires a **certificate of testing and compliance** under the Electrical Safety Regulation 2013, not a "Form 7". Getting the name and the regulator right matters, because it's also what your client is told to check.
 
 In ServiceM8, you build separate form templates for each jurisdiction. When a technician is doing work in Victoria, they get the CES template. The system enforces the right documentation for the right state — particularly valuable for businesses operating across borders.
 
@@ -108,20 +110,26 @@ With ServiceM8, your technician can build a quote on their phone while they're s
 
 Quotes convert to jobs in one tap. All the job details, client information, and pricing carry forward automatically — no re-entry, no errors.
 
-### Automatic Invoicing
+### Invoicing: What Actually Happens, and When
 
-When a job is marked complete in ServiceM8:
+The invoice is not fired off the moment a tech taps "complete". The real sequence in ServiceM8 is:
 
-1. The invoice is generated automatically from the job data
-2. It's emailed to the client immediately with a payment link
-3. Payment by credit card, bank transfer, or BPAY is captured online
-4. The payment syncs to Xero or MYOB automatically
+1. The job is marked **Completed** — this is a precondition, not the trigger.
+2. You **produce the invoice** from the job's billing data (labour, materials, call-out fee, GST), review it, and approve it.
+3. Approving is the action that sends the invoice to your accounting file and locks the line items — change the total afterwards and it re-syncs.
+4. Emailing or texting it to the client is a separate send, with a link to view the invoice online. If ServiceM8 Pay is active, that online page carries a **Pay Now** button.
 
-For electrical businesses chasing faster payment, this automated workflow is transformative. Many ServiceM8 users report cutting their average debtor days by more than half.
+That separation is deliberate — it's why an electrician can invoice a job with the customer still standing there, and why nothing goes out unreviewed.
 
-### Xero and MYOB Integration
+### Card and Bank Payments
 
-ServiceM8 integrates natively with both Xero and MYOB — Australia's two dominant accounting platforms. Invoices created in ServiceM8 sync automatically, clients are matched (or created), and payment status flows both ways.
+Payments run through **ServiceM8 Pay** (processed by Stripe, no separate merchant account): Tap to Pay or Scan & Pay on site, or the Pay Now button on an online invoice. In Australia, ServiceM8 Pay also offers **PayTo**, a bank-rail payment option alongside cards. Plain bank transfer and cash aren't captured by the software — you record them against the job manually and they still reconcile through to your accounting file.
+
+The old **Stripe Payments** add-on is closed to new accounts — ServiceM8 Pay is the product you'll be activating in 2026, and it's the one that carries the Pay Now button on every online invoice.
+
+### Xero, MYOB and QuickBooks
+
+ServiceM8 integrates with three accounting packages: **Xero**, **MYOB Business** (AU/NZ) and **QuickBooks Online**. Invoices sync on approval, payments sync with them, and clients and items entered in the accounting file come back to ServiceM8 within about 30 minutes. MYOB AccountRight, the old desktop-era product, is not the integration you're connecting to.
 
 If you're currently re-entering job data into your accounting software, that's several hours a week of admin that ServiceM8 eliminates immediately.
 
@@ -198,15 +206,15 @@ For the majority of Australian electrical businesses — residential, solar, and
 
 ## Pricing
 
-[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026/) is per-job (not per-user), which is a significant advantage for growing teams:
+[ServiceM8 pricing](/blog/servicem8-pricing-plans-australia-2026/) is per-job (not per-user), which is a significant advantage for growing teams. Prices are in AUD and include GST:
 
-| Plan | Monthly cost (AUD) | Jobs per month |
-|------|-------------------|----------------|
-| Free | $0 | 30 |
-| Starter | $29 | 50 |
-| Growing | $79 | 150 |
-| Premium | $149 | 500 |
-| Premium Plus | $349 | 1,500+ |
+| Plan | Monthly cost (AUD, incl. GST) | Jobs per month | SMS included |
+|------|-------------------|----------------|--------------|
+| Free | $0 | 30 | 10c per SMS |
+| Starter | $29 | 50 | 100+ |
+| Growing | $79 | 150 | 300+ |
+| Premium | $149 | 500 | 1,000+ |
+| Premium Plus | $349 | 1,500+ | 3,000+ |
 
 All plans include unlimited staff — only the job volume changes. For a 5-person electrical team doing 80 jobs a month, ServiceM8 Growing at $79 significantly undercuts Tradify (~$175 for 5 users) and Fergus (~$245 for 5 users), while providing more compliance functionality.
 
@@ -219,7 +227,7 @@ A 14-day free trial with full feature access is available. No credit card requir
 **Week 1: Core account setup**
 - Start your free 14-day trial at [servicem8.com](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 - Configure your business profile, service types, and labour rates
-- Set up Xero or MYOB integration
+- Set up your Xero, MYOB Business or QuickBooks Online integration
 - Add your technicians with their licence details and skill sets
 
 **Week 2: Build your compliance templates**
@@ -254,7 +262,7 @@ The 14-day trial is long enough to validate it for your business. Most electrici
 
 ### Does ServiceM8 handle Certificates of Electrical Safety?
 
-Yes. ServiceM8's digital form builder lets you create CES templates that auto-populate from job data — client details, property address, installation date, technician licence number. Completed certificates are stored with the job record and can be emailed to clients or relevant authorities. Victorian electricians commonly build their full CES workflow inside ServiceM8.
+It handles the paperwork around them, not the legal issue. ServiceM8's PDF forms and reports builder lets you build a template per jurisdiction — a Victorian CES, a NSW CCEW, a QLD certificate of testing and compliance — with fields auto-populated from job data: client details, property address, installation date, technician licence number. The licensed contractor still issues the certificate; ServiceM8 stores a completed, searchable copy against the job and emails it to the client, which is what makes an audit or a warranty dispute a 10-minute export instead of a filing-cabinet dig.
 
 ### Can ServiceM8 work offline?
 
@@ -266,11 +274,11 @@ For most Australian electricians — particularly those doing compliance-heavy w
 
 ### Does ServiceM8 work for solar and electrical combined businesses?
 
-Absolutely. You can configure separate job templates and compliance form sets for electrical and solar work within the same account. This is one of ServiceM8's strongest use cases in Australia — businesses running both electrical licensing work and CEC-accredited solar installations.
+Absolutely. You can configure separate job templates and compliance form sets for electrical and solar work within the same account — CER-required documentation fields, geo-tagged install photos, STC assignment details, AS/NZS 5033 and AS/NZS 5139 checklist items and DNSP notification records, all captured inside the job workflow. That produces a complete per-install audit file you can hand over if the CER or a state regulator comes asking. This is one of ServiceM8's strongest use cases in Australia — businesses running both electrical licensing work and CEC-accredited solar installations.
 
 ### What accounting software does ServiceM8 connect to?
 
-ServiceM8 integrates natively with **Xero** and **MYOB** — the two dominant accounting platforms for Australian trade businesses. The integration is bidirectional: invoices sync to your accounting software, client records are matched or created automatically, and payment status updates flow back to ServiceM8.
+ServiceM8 integrates with three accounting packages: **Xero**, **MYOB Business** (AU/NZ) and **QuickBooks Online**. The integration is bidirectional: invoices sync to your accounting file when approved, payment status flows back, and client and item records created in the accounting file sync into ServiceM8 within about 30 minutes.
 
 ---
 
@@ -295,21 +303,3 @@ ServiceM8 integrates natively with **Xero** and **MYOB** — the two dominant ac
 
 **See also:** [EV Charger Network Installation: Business Opportunity for Australian Electricians](/blog/ev-charger-network-installation-business-opportunity/)
 
----
-
-## FAQ
-
-### Is ServiceM8 good for electricians in Australia?
-Yes — ServiceM8 is purpose-built for the way Australian trade businesses work and is widely used by electricians across all states. Its strengths for electrical businesses are: mobile-first compliance form completion (CCEW, safety checklists), same-day invoicing with Xero/MYOB integration, scheduling and dispatch for multi-technician teams, and automated customer communication (booking confirmations, review requests). It is particularly strong for businesses doing residential and light commercial work, including solar and battery installations.
-
-### Does ServiceM8 handle CCEW and electrical compliance certificates?
-ServiceM8 supports custom digital forms that can capture all the data required for CCEW and equivalent compliance certificates in other states (CES in VIC, etc.). Technicians complete the form on-site via the mobile app, attach geo-tagged photos, and the completed record syncs to the job file automatically. While ServiceM8 doesn't formally "issue" the CCEW in the legal sense (the licensed contractor must do that), it provides the workflow infrastructure to ensure the right data is captured at the right time and stored in a searchable, audit-ready format.
-
-### How much does ServiceM8 cost for an electrical business?
-ServiceM8 costs AUD $0/month (Free, 30 jobs), $29/month (Starter, 50 jobs), $79/month (Growing, 150 jobs), $149/month (Premium, 500 jobs), or $349/month (Premium Plus, 1,500+ jobs). Most 2–5 person electrical businesses find the Growing plan at $79/month sufficient. This compares favourably to alternatives like simPRO ($150–$250/month per user) or AroFlo (similar per-user pricing). ServiceM8 offers a free 14-day trial. For a business currently managing scheduling via whiteboard and invoicing via spreadsheet, the typical payback period is under 30 days through invoicing speed improvement alone.
-
-### Can ServiceM8 manage solar and battery compliance documentation?
-Yes. ServiceM8 can capture CER-required documentation fields, geo-tagged installation photos, customer STC assignment details, AS/NZS 5033 and 5139 checklist items, and DNSP notification records — all within the job workflow on the mobile app. This creates a complete per-job audit file that can be produced immediately if contacted by the CER or a state electrical safety regulator. For solar businesses doing 10+ installations per month, this centralised compliance documentation is one of the most significant operational improvements ServiceM8 delivers.
-
-### What is the difference between ServiceM8 and Tradify for electricians?
-Both platforms are strong for small Australian electrical businesses. ServiceM8 has a more mature compliance form system, more integrations (Xero, Stripe, Mailchimp, and 40+ others), and handles higher volumes of work more efficiently as the business grows. Tradify is simpler and often preferred by sole traders or businesses new to job management software — the interface requires less training and onboarding time. Both offer free trials. For a business already established and looking to optimise compliance workflows, ServiceM8 is typically the stronger long-term choice.
