@@ -45,6 +45,17 @@ Getting your CCEW obligations right is not complex, but it is non-negotiable. Th
 
 ---
 
+
+<div class="tool-cta-box">
+  <div class="tc-inner">
+    <div class="tc-text">
+      <strong class="tc-title">💸 What rebates can you claim this job?</strong>
+      <p class="tc-body">Free Rebate Finder — current state and federal incentives for switchboard upgrades, solar, batteries and heat pumps, checked weekly against regulator sources.</p>
+    </div>
+    <a href="/tools/rebate-finder/" class="tc-link">Find Rebates →</a>
+  </div>
+</div>
+
 ## What Is the CCEW? (2026 Requirements)
 
 A Certificate of Compliance — Electrical Work (CCEW) is a legal document issued by a licensed electrical contractor after completing notifiable electrical work in NSW. Since 1 July 2026, all CCEWs must be lodged through the BCNSW eCert portal.

@@ -43,6 +43,17 @@ This guide covers what's required in 2026: licence categories, who needs what, h
 
 ---
 
+
+<div class="tool-cta-box">
+  <div class="tc-inner">
+    <div class="tc-text">
+      <strong class="tc-title">📈 What's your trade business actually worth?</strong>
+      <p class="tc-body">Free 12-question Sellability Scorecard — grade your exit readiness across 8 value drivers and get your sale range in under 5 minutes. No email required.</p>
+    </div>
+    <a href="/tools/trade-business-valuation/" class="tc-link">Value My Business →</a>
+  </div>
+</div>
+
 ## Who Regulates Electrical Contractors in Queensland?
 
 Electrical licensing in Queensland sits across two agencies:

@@ -47,6 +47,17 @@ This guide covers everything NSW electrical contractors need: licence classes, t
 
 ---
 
+
+<div class="tool-cta-box">
+  <div class="tc-inner">
+    <div class="tc-text">
+      <strong class="tc-title">📈 What's your trade business actually worth?</strong>
+      <p class="tc-body">Free 12-question Sellability Scorecard — grade your exit readiness across 8 value drivers and get your sale range in under 5 minutes. No email required.</p>
+    </div>
+    <a href="/tools/trade-business-valuation/" class="tc-link">Value My Business →</a>
+  </div>
+</div>
+
 ## What Is an Electrical Contractor Licence in NSW?
 
 **An Electrical Contractor Licence (ECL) is the authorisation issued by Building Commission NSW that permits a business to enter contracts with clients to carry out electrical work.** Without it, no contract for electrical work is legally enforceable in NSW.

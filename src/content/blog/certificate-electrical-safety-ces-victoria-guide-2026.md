@@ -58,6 +58,17 @@ This guide covers the CES requirements comprehensively — when it applies, what
 
 ---
 
+
+<div class="tool-cta-box">
+  <div class="tc-inner">
+    <div class="tc-text">
+      <strong class="tc-title">💸 What rebates can you claim this job?</strong>
+      <p class="tc-body">Free Rebate Finder — current state and federal incentives for switchboard upgrades, solar, batteries and heat pumps, checked weekly against regulator sources.</p>
+    </div>
+    <a href="/tools/rebate-finder/" class="tc-link">Find Rebates →</a>
+  </div>
+</div>
+
 ## What Is a Certificate of Electrical Safety?
 
 A Certificate of Electrical Safety is a document that:

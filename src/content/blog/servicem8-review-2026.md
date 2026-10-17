@@ -44,6 +44,17 @@ As someone who's spent years helping Australian trades businesses migrate from p
 
 ---
 
+
+<div class="tool-cta-box">
+  <div class="tc-inner">
+    <div class="tc-text">
+      <strong class="tc-title">📈 What's your trade business actually worth?</strong>
+      <p class="tc-body">Free 12-question Sellability Scorecard — grade your exit readiness across 8 value drivers and get your sale range in under 5 minutes. No email required.</p>
+    </div>
+    <a href="/tools/trade-business-valuation/" class="tc-link">Value My Business →</a>
+  </div>
+</div>
+
 ## What Is ServiceM8?
 
 In this ServiceM8 review, we break down exactly what the platform offers: ServiceM8 is a cloud-based job management platform built specifically for trade and field service businesses. Founded in Australia, it's designed around the way tradies actually work — mobile-first, compliance-aware, and tightly integrated with the tools Australian businesses rely on, like Xero and MYOB.

@@ -26,6 +26,17 @@ This guide covers what changed, which circuits need protection, which RCD type a
 
 ---
 
+
+<div class="tool-cta-box">
+  <div class="tc-inner">
+    <div class="tc-text">
+      <strong class="tc-title">💸 What rebates can you claim this job?</strong>
+      <p class="tc-body">Free Rebate Finder — current state and federal incentives for switchboard upgrades, solar, batteries and heat pumps, checked weekly against regulator sources.</p>
+    </div>
+    <a href="/tools/rebate-finder/" class="tc-link">Find Rebates →</a>
+  </div>
+</div>
+
 ## What Changed: AS/NZS 3000:2018 and Amendment 2
 
 **AS/NZS 3000** is Australia and New Zealand's Wiring Rules standard — the foundational document governing electrical installation compliance. The 2018 edition replaced the 2007 edition, and **Amendment 2** (released in 2022, progressively mandated across states from 2023) made substantive changes to RCD requirements.

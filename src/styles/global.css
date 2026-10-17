@@ -143,6 +143,48 @@ hr {
   letter-spacing: 0.05em;
 }
 
+/* Tool CTA box (used in blog markdown) — early, mobile-first funnel to
+   /tools/rebate-finder/ and /tools/trade-business-valuation/.
+   Flex-wrap so text and button stack cleanly on narrow screens. */
+.tool-cta-box {
+  border-left: 4px solid #38bdf8;
+  background: #0f172a;
+  padding: 18px 22px;
+  border-radius: 8px;
+  margin: 28px 0;
+  color: #e2e8f0;
+}
+.tool-cta-box .tc-inner {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tool-cta-box .tc-text { flex: 1; min-width: 220px; }
+.tool-cta-box .tc-title {
+  display: block;
+  font-size: 1.05rem;
+  margin-bottom: 4px;
+}
+.tool-cta-box .tc-body {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+.tool-cta-box .tc-link {
+  background: #38bdf8;
+  color: #0f172a;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+@media (max-width: 520px) {
+  .tool-cta-box .tc-link { width: 100%; text-align: center; }
+}
+
 /* Compliance bridge callout (used in blog markdown) */
 .compliance-bridge-box {
   border-left: 4px solid #f97316;
