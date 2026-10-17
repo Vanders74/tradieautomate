@@ -1,13 +1,13 @@
 ---
 title: "Honest ServiceM8 vs AroFlo 2026: Pros, Cons & Real Pricing"
-description: "ServiceM8 vs AroFlo decision guide: per-job vs per-user pricing, setup speed, compliance tools, and which platform fits crews of 1–50 vs larger ops. Includes real cost examples and a 7-point selection checklist."
+description: "ServiceM8 vs AroFlo decision guide: per-job vs per-user pricing, setup speed, compliance tools, and which platform fits crews of 1–40 vs larger ops. Includes current AUD pricing, real cost examples, and the scale where AroFlo actually earns its fee."
 pubDate: 'Apr 27 2026'
-updatedDate: 'Sep 12 2026'
+updatedDate: 'Oct 18 2026'
 category: "Software Comparisons"
 heroImage: '/hero-servicem8-vs-aroflo.jpg'
 faq:
   - question: "What's cheaper: ServiceM8 or AroFlo?"
-    answer: "ServiceM8 is significantly cheaper for most businesses. ServiceM8 starts at $29/mo (flat team pricing, unlimited users) while AroFlo starts around $65+/user/month. A 5-person crew on ServiceM8 Premium pays $149/mo total; the same crew on AroFlo would pay $325+/mo. The gap widens as team size grows."
+    answer: "ServiceM8 is significantly cheaper for most businesses. ServiceM8 starts at $29/mo (flat team pricing, unlimited users) while AroFlo starts at $80/user/month with a three-user minimum. A 5-person crew on ServiceM8 Premium pays $149/mo total; the same crew on AroFlo starts at $400/mo. The gap widens as team size grows."
   - question: "Which is better for a small trade business?"
     answer: "ServiceM8 is better for small to mid-size trade businesses (1–50 staff). It's fast to set up, mobile-first, and the per-job pricing model prevents cost blowout as you grow. AroFlo is designed for larger operations (20–200+ staff) with complex requirements like multi-division management, asset maintenance, and sophisticated job costing."
   - question: "Which has better compliance documentation features?"
@@ -28,15 +28,15 @@ This comparison gives you the honest breakdown.
 
 | Feature | ServiceM8 | AroFlo |
 |---|---|---|
-| **Starting price (AUD/mo)** | From ~$29 | From ~$65+/user |
-| **Pricing model** | Per-job (flat team cost) | Per-user |
+| **Starting price (AUD/mo)** | From ~$29 (incl. GST) | $80/user (incl. GST), 3-user minimum |
+| **Pricing model** | Per-job volume (flat team cost) | Per-user, sliding down as you add users |
 | **Complexity** | Low — most businesses operational within a week | High — typically requires dedicated setup time |
 | **Best for** | Small to mid-size trades, 1–50 staff | Larger field service operations, 20–200+ staff |
 | **Mobile app** | Excellent iOS, solid Android | Functional mobile app |
 | **Compliance documentation** | Custom forms, enforced completion, GPS photos | Comprehensive compliance tools |
 | **Job costing** | Functional | Detailed |
 | **Customisation** | Moderate | Extensive |
-| **Accounting integration** | Xero and MYOB (native) | Xero, MYOB, other integrations |
+| **Accounting integration** | Xero, MYOB and QuickBooks Online (native) | Xero, MYOB, other integrations |
 | **Support** | Australian-based | Australian-based |
 | **Free trial** | 14 days, no credit card | Demo-based (no self-serve trial) |
 
@@ -48,9 +48,9 @@ This comparison gives you the honest breakdown.
 
 ### ServiceM8
 
-Per-job pricing, all staff included:
+Per-job pricing, all staff included, prices in AUD and inclusive of GST:
 
-| Plan | Monthly cost (AUD) | Jobs per month |
+| Plan | Monthly cost (AUD inc. GST) | Jobs per month |
 |------|-------------------|----------------|
 | Free | $0 | 30 |
 | Starter | $29 | 50 |
@@ -60,15 +60,15 @@ Per-job pricing, all staff included:
 
 ### AroFlo
 
-AroFlo's pricing is per-user, typically from ~$65/user/month, potentially higher depending on the configuration and modules required. Implementation costs — which can be significant for complex setups — are additional.
+AroFlo publishes its starting rate: **$80 per user per month, inclusive of GST, with a minimum of three users** — a $240/month floor before add-ons. The per-user rate slides down as you add licences, so larger crews pay less per seat, and a setup/onboarding fee applies on top. AroFlo has been part of the Simpro Group since 2021, which is why its functionality increasingly overlaps simPRO's at the top end.
 
 ### The Cost Reality
 
 For a 10-person trade business doing 100 jobs per month:
 - **ServiceM8 Growing:** $79/month
-- **AroFlo:** ~$650+/month (10 users × $65) plus setup
+- **AroFlo:** $800/month at the published entry rate (10 users × $80), less whatever the sliding scale takes off, plus a setup fee
 
-That's a $500+/month cost differential — before considering implementation time and the steeper learning curve that comes with AroFlo's complexity.
+That's a $700+/month cost differential — roughly $8,400 a year — before considering implementation time and the steeper learning curve that comes with AroFlo's complexity.
 
 For most trade businesses in the sub-30-staff range, the additional cost of AroFlo is difficult to justify unless specific enterprise features are genuinely required.
 
