@@ -1,24 +1,26 @@
 ---
 title: 'Best Job Management Software for Electricians Australia 2026'
-description: "Best job management software for electricians Australia 2026: ServiceM8 wins for 1-15 staff ($29/mo, no per-user fees) — CCEW compliance, Xero integration, mobile quoting. Compare simPRO, AroFlo & Tradify in the decision matrix."
-updatedDate: 'Sep 23 2026'
+description: "Best job management software for electricians in Australia 2026: real AUD prices incl GST for ServiceM8, simPRO, AroFlo, Tradify and Fergus, plus the state CCEW/CES certificate rules."
+updatedDate: 'Oct 18 2026'
 pubDate: 'Apr 14 2026'
 category: "Software Comparisons"
 heroImage: '/hero-best-job-management-electricians.jpg'
 faq:
-  - question: "What is the best job management software for Australian electricians in 2026?"
-    answer: "ServiceM8 is the leading choice for small-to-medium Australian electrical businesses, particularly those doing residential and light commercial work. It handles CCEW paperwork, scheduling, quoting, Xero/MYOB integration, and same-day invoicing from a mobile app. For businesses with 10+ field staff or complex project management needs, simPRO or AroFlo are worth evaluating — but both carry a significantly higher cost and implementation overhead."
-  - question: "Does job management software help with electrical compliance in Australia?"
-    answer: "Yes — the right platform significantly reduces compliance risk and admin time. ServiceM8 lets technicians complete Certificate of Compliance for Electrical Work (CCEW) documentation on-site via the mobile app, attach geo-tagged photos, and send the certificate to the customer and relevant authority without returning to the office. This eliminates the end-of-day paperwork burden and creates a timestamped audit trail."
-  - question: "How much does job management software cost for an electrical business?"
-    answer: "ServiceM8 starts at around $29/month for the Starter plan and scales to $349/month for unlimited staff. simPRO and AroFlo typically start at $150–$250/month per user, making them significantly more expensive for small teams. For a 2-person electrical business, ServiceM8's mid-tier plan at $79/month typically delivers a positive ROI within the first month through faster invoicing and reduced admin hours."
-  - question: "Can I use job management software to issue CCEWs in NSW?"
-    answer: "ServiceM8 supports custom digital forms that mirror your CCEW requirements — including all mandatory fields under NSW Fair Trading regulations. The platform streamlines data capture and documentation workflow rather than replacing the legal issuing process. You can attach the completed CCEW PDF to the job record for full audit traceability."
-  - question: "What should electricians look for in job management software?"
-    answer: "The five most important features for Australian electricians are: (1) mobile-first design that works on-site without reliable internet, (2) CCEW and compliance form support, (3) Xero or MYOB integration for seamless invoicing, (4) quote-to-invoice workflow with digital approval, and (5) customer communication automation (SMS updates, review requests). State-specific compliance support — particularly for NSW, VIC, and QLD — is a significant differentiator between platforms."
+  - question: "What's the best job management software for a sole trader electrician in Australia?"
+    answer: "ServiceM8's Starter plan ($29/mo including GST, 50 jobs, unlimited users) is the cheapest paid entry point, and the Free tier (30 jobs, 1 user) costs nothing to test. It is not the compliance entry point though — custom digital forms need the $79 Growing plan. Tradify Lite ($48 per user per month, excluding GST) is simpler for pure quote-to-invoice work with accounting sync, and moves to Pro ($52 per user) if you want compliance certificates."
+  - question: "Does ServiceM8 handle electrical compliance certificates (CES)?"
+    answer: "Partly. ServiceM8's form builder (Growing plan and above) can produce a CES-style certificate populated from job data, store it on the job record and email it to the client. What it cannot do is lodge the certificate: in Victoria the CES is issued through Energy Safe Victoria's process, and in NSW the CCEW must be submitted to Building Commission NSW through the BCNSW eCert portal within seven days of the safety and compliance test. The ServiceM8 output is the job record and customer copy, not the statutory lodgement."
+  - question: "Can job management software issue a CCEW in NSW?"
+    answer: "No — software can prepare it, not issue it. A CCEW is a legal declaration by the licensed electrician who carried out or supervised the work, and it is only valid once submitted to Building Commission NSW through the BCNSW eCert portal (or an approved API) within seven days of the test. From 1 July 2026, eCert is the only accepted channel. Software captures the test data and produces a clean record; the lodgement stays with the licence holder."
+  - question: "Can I use ServiceM8 for both electrical and solar installation work?"
+    answer: "Yes. You can configure separate job templates, compliance forms and workflows for electrical and solar work within the same account. Note that solar and battery installations in NSW also require a CCEW lodged through the BCNSW eCert portal, and AS/NZS 5139 adds documentation requirements on top."
+  - question: "Is simPRO worth the extra cost for electricians?"
+    answer: "simPRO does not publish its pricing, so the cost question can only be answered with a written quote covering licence, implementation and add-ons. Its depth is aimed at electrical businesses with 20+ staff doing complex commercial project work with sophisticated job costing. For most residential and light commercial electricians, ServiceM8 provides better value."
+  - question: "How long does it take to set up ServiceM8 for an electrical business?"
+    answer: "Most electricians are running basic job management within a few hours. Building out compliance form templates, accounting integration and custom workflows typically takes one to two weeks of configuration, or a few days with hands-on onboarding support."
 ---
 
-Running an electrical business in Australia in 2026 means navigating licensing requirements under state-based legislation such as the **Home Building Act 1989** (administered by **NSW Fair Trading**), compliance documentation, quote-to-invoice workflows, and a customer base that expects real-time communication. The right job management software doesn't just help you stay organised — it's the operational backbone that lets you scale without drowning in paperwork.
+Running an electrical business in Australia in 2026 means navigating licensing requirements under state-based electricity safety legislation — in NSW, for example, the **Gas and Electricity (Consumer Safety) Act 2017**, administered by **Building Commission NSW** — along with compliance documentation, quote-to-invoice workflows, and a customer base that expects real-time communication. The right job management software doesn't just help you stay organised — it's the operational backbone that lets you scale without drowning in paperwork.
 
 This guide compares the five most widely used platforms for Australian electricians, cuts through the marketing, and gives you a clear recommendation based on your business size and needs.
 
@@ -28,7 +30,7 @@ This guide compares the five most widely used platforms for Australian electrici
 
 Generic business software doesn't cut it for electrical contractors. Here's what actually matters:
 
-**Compliance documentation built in.** Electrical work in Australia carries strict documentation requirements — Certificates of Electrical Safety (CES), test and inspection records, AS/NZS standards compliance, and state-by-state variation. Your software needs to handle this, not just store photos.
+**Compliance documentation built in.** Electrical work in Australia carries strict documentation requirements — a certificate of compliance for every job, named and lodged differently in each state (CCEW via eCert in NSW, CES in Victoria, a certificate of testing and compliance in Queensland, eCoC in SA), plus test and inspection records and AS/NZS standards compliance. Your software needs to handle this, not just store photos.
 
 **Mobile-first field experience.** Your team is on-site, not at a desk. The mobile app needs to be fast, reliable, and functional offline — because job sites don't always have reception.
 
@@ -44,9 +46,9 @@ Generic business software doesn't cut it for electrical contractors. Here's what
 
 ### 1. ServiceM8 — Best Overall for Small to Mid-Size Electrical Businesses
 
-**Best for:** Electrical businesses with 1–30 field staff; compliance-heavy work; businesses prioritising mobile experience and cash flow.
+**Best for:** Electrical businesses with 1–15 field staff; compliance-heavy work; businesses prioritising mobile experience and cash flow.
 
-ServiceM8 was built in Australia and has become the dominant platform for small-to-mid-sized trade businesses, including electricians. Its combination of compliance tooling, mobile-first design, and job-based (not per-user) pricing makes it the strongest overall package for most Australian electrical contractors.
+ServiceM8 was built in Australia and has become the dominant platform for small-to-mid-sized trade businesses, including electricians. Its combination of compliance tooling, mobile-first design, and job-based (not per-user) pricing makes it the strongest overall package for most Australian electrical contractors — **with one important catch: custom digital forms and certificates start on the Growing plan at $79/mo, not the $29 Starter plan.** If compliance paperwork is the reason you're buying, budget for $79.
 
 [Start a free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
@@ -56,7 +58,7 @@ ServiceM8 was built in Australia and has become the dominant platform for small-
 
 **Best for:** Electrical businesses with 20+ staff; commercial project management; complex quoting with detailed job costing.
 
-simPRO is a more enterprise-grade platform designed for larger trade businesses and complex project work. It has deeper job costing, multi-site project management, and more sophisticated inventory management than ServiceM8. The trade-off is cost (significantly higher) and complexity (steeper learning curve).
+simPRO is a more enterprise-grade platform designed for larger trade businesses and complex project work. It has deeper job costing, multi-site project management, and more sophisticated inventory management than ServiceM8. The trade-off is cost (significantly higher) and complexity (steeper learning curve). simPRO does not publish prices — every figure you see quoted online, including on this page previously, is either a reseller leak or an estimate. Ask for a written quote covering the licence, implementation and add-ons.
 
 ---
 
@@ -66,7 +68,7 @@ simPRO is a more enterprise-grade platform designed for larger trade businesses 
 
 **Best for:** Sole traders and businesses with 2–5 staff; simple job management without complexity.
 
-Tradify is a simpler, more affordable platform that works well for electricians who need basic job management without the full feature set of ServiceM8 or simPRO. It's less capable on compliance documentation but gets the job done for straightforward residential work.
+Tradify is a simpler platform that works well for electricians who need basic job management without the full feature set of ServiceM8 or simPRO. It is **not** the cheapest option for a one-person operation despite its reputation: Tradify Lite is $48 per user/month (ex GST), against ServiceM8's $29 Starter plan (incl GST) for the same single seat. Compliance certificates are available, but from the Pro tier ($52/user/mo, ex GST) — the Lite tier is quotes, jobs, invoices and accounting sync only.
 
 ---
 
@@ -74,7 +76,7 @@ Tradify is a simpler, more affordable platform that works well for electricians 
 
 **Best for:** Electricians who want strong job costing and margin tracking; businesses with heavy focus on profitability analytics.
 
-Fergus originated in New Zealand and has a strong following among trade businesses that want visibility into job-level margin and profitability. Its job costing is excellent. Its compliance documentation tools and mobile experience are less mature than ServiceM8.
+Fergus originated in New Zealand and has a strong following among trade businesses that want visibility into job-level margin and profitability. Its job costing is excellent. Its compliance documentation tools and mobile experience are less mature than ServiceM8. Australian pricing runs $53/mo per user on Essentials and $77/mo per user on Professional, with timesheet-only users at $26/mo (all ex GST, 14-day trial, no credit card).
 
 ---
 
@@ -82,7 +84,9 @@ Fergus originated in New Zealand and has a strong following among trade business
 
 **Best for:** Larger electrical contractors with complex field service operations; businesses needing deep customisation.
 
-AroFlo is a powerful, highly customisable platform for larger field service operations. It's more complex to set up and significantly more expensive than ServiceM8, but it handles sophisticated workflows that simpler platforms can't accommodate.
+AroFlo is a powerful, highly customisable platform for larger field service operations. It's more complex to set up and significantly more expensive than ServiceM8 — published entry is **AUD $80 per user/month with a three-user minimum** (a $240/mo floor, and a sole trader pays for three licences), plus a Smart Start setup fee from $1,450, or $2,900 with implementation.
+
+**Disclosure worth knowing before you compare the two:** AroFlo has been part of the Simpro Group since November 2021 — K1 Investment Management bought AroFlo, simPRO and ClockShark in the same deal. simPRO and AroFlo are sold as separate products by the same owner, so "simPRO vs AroFlo" is a product-fit question, not a choice between competing vendors.
 
 ---
 
@@ -110,12 +114,14 @@ Automated SMS notifications keep clients informed without manual effort — conf
 
 ### Invoicing and Payments
 
-This is where ServiceM8 genuinely stands out. When a job is marked complete:
+This is where ServiceM8 genuinely stands out — but the sequence is not fully automatic, and that catches people out. The actual workflow is:
 
-1. The invoice is auto-generated from job data and labour/materials
-2. It's emailed to the client instantly with a payment link
-3. Payment via credit card, BPAY, or bank transfer is captured
-4. The payment syncs to Xero or MYOB automatically
+1. Day-to-day job notes, labour and materials build up on the job; the invoice is produced from them when you choose to produce it, not the moment the job is marked complete.
+2. The job must be set to **Completed**, then the invoice is produced on the Invoicing page and reviewed.
+3. **Approving** the invoice is the step that pushes it to your connected accounting package — Xero, MYOB or QuickBooks Online. Nothing leaves ServiceM8 until that approval happens.
+4. Emailing the invoice to the client is a separate action from approval. ServiceM8 does not auto-send on completion; you send it, optionally with a payment link.
+
+On payment: card payments run through ServiceM8 Pay (Stripe-processed, no separate merchant account, and the rate improves as you move up plans — 1.89% + 30c on Free, 1.69% + 30c on Starter, 1.49% + 30c on Growing, 1.19% + 30c on Premium Plus). **There is no BPAY.** PayTo is the Australian bank-rail option, and plain bank transfer or cash is recorded against the invoice manually rather than captured automatically.
 
 For electrical businesses chasing faster payment cycles, this workflow alone is transformative. Average payment times for ServiceM8 users drop significantly compared to manual invoicing.
 
@@ -123,13 +129,15 @@ For electrical businesses chasing faster payment cycles, this workflow alone is 
 
 ## How Compliance Documentation Works
 
-For Australian electricians, compliance documentation is non-negotiable. Here's how ServiceM8 handles it:
+For Australian electricians, compliance documentation is non-negotiable. Here's how ServiceM8 handles it — and the tier limits that matter:
 
-**Custom digital forms.** You build compliance checklists, test record templates, and inspection forms once. Field staff complete them on-site via the app. Every field is required before the job can be marked complete — no more missing paperwork discovered days later.
+**Custom digital forms — Growing plan and above.** You build compliance checklists, test record templates, and inspection forms once. Field staff complete them on-site via the app. Every field is required before the job can be marked complete — no more missing paperwork discovered days later. This is a paid-tier feature: Free and Starter cannot build custom forms. On those plans your only option is buying a ready-made form from the ServiceM8 Form Store (which works on every plan), so if you're buying specifically for compliance paperwork, the real entry price is Growing at $79/mo.
 
 **Photo requirements.** Jobs can be configured to require specific photos before sign-off — switchboard labels, installation photos, meter readings, before/after comparisons. Photos attach to the job record with timestamp and GPS data.
 
-**Certificate generation.** Standard compliance certificates (CES templates) can be pre-built and auto-populated from job data — client details, property address, installation date, technician licence number. Generated PDFs are stored with the job record and emailed to the client automatically.
+**Certificate generation.** Certificate templates (including CES layouts) can be built as forms and auto-populated from job data — client details, property address, installation date, technician licence number. Generated PDFs are stored with the job record and can be emailed to the client automatically.
+
+**The limit nobody mentions: a PDF is not a lodgement.** In NSW, a CCEW is not valid because you emailed a PDF. It must be submitted to Building Commission NSW through the **BCNSW eCert portal** (or an approved API) within **7 days** of the safety and compliance test — and from **1 July 2026 that portal is the only accepted channel**, with handwritten and PDF forms rejected. Building Commission NSW publishes an API so software can lodge directly; a form-builder that only produces a PDF still leaves you keying the certificate into eCert by hand. Victoria's CES and the other states' certificates each have their own lodgement channel too (see the state table below). When you evaluate any platform, ask whether it lodges, or only prints.
 
 **Audit-ready records.** Every job in ServiceM8 has a complete, timestamped audit trail — who did what, when, using which forms, with what photos. When a licensing authority requests records for a random audit, they're available in minutes.
 
@@ -141,38 +149,40 @@ This is particularly valuable for electricians doing solar and battery work, whe
 
 > 📊 **Before comparing prices, know your current admin cost.** Our free [Tradie Admin Cost Calculator](/tools/admin-cost-calculator) shows you exactly how much your business is leaking to admin right now — so you can make an informed ROI comparison for any platform.
 
-| Platform | Starting price (AUD/mo) | Per-user pricing? | Free trial |
-|---|---|---|---|
-| **ServiceM8** | $29 (Starter, 50 jobs/mo) | No — job-based | 14 days |
-| **simPRO** | ~$149+ | Yes | Demo only |
-| **Tradify** | ~$35/user | Yes | 14 days |
-| **Fergus** | ~$49/user | Yes | 14 days |
-| **AroFlo** | ~$65+/user | Yes | Demo only |
+| Platform | Published starting price (AUD/mo) | GST | Per-user pricing? | Free trial |
+|---|---|---|---|---|
+| **ServiceM8** | $29 (Starter, 50 jobs/mo, unlimited users); $79 Growing (150 jobs); $149 Premium (500 jobs); $349 Premium Plus (1,500+ jobs); Free tier 30 jobs/1 user | **Included** | No — job-based | 14 days, no card |
+| **simPRO** | Not published — quote only | — | Yes | Demo only |
+| **Tradify** | $48/user (Lite); $52/user (Pro, adds compliance certificates); $62/user (Plus) | Excluded — add 10% | Yes | 14 days |
+| **Fergus** | $53/user (Essentials); $77/user (Professional); $26/mo timesheet-only users | Excluded — add 10% | Yes | 14 days, no card |
+| **AroFlo** | $80/user, **3-user minimum** ($240/mo floor), plus setup from $1,450 | Not stated by vendor | Yes | Demo only |
 
-**Key insight:** ServiceM8's per-job (not per-user) pricing model is a significant advantage for growing businesses. When you hire your 5th or 10th technician, your software cost doesn't scale linearly — it stays flat until you hit the next job tier.
+**Read the GST column before you compare anything.** ServiceM8 quotes its Australian prices inclusive of GST; Tradify and Fergus quote exclusive, so their headline numbers are 10% understated against ServiceM8's. AroFlo's pricing page states neither currency nor GST treatment, which is itself a reason to get a written quote.
 
-For a business doing 100 jobs/month with 8 field technicians:
-- **ServiceM8 Growing:** $79/mo
-- **Tradify:** ~$280/mo (8 × $35)
-- **Fergus:** ~$392/mo (8 × $49)
+**Key insight:** ServiceM8's per-job (not per-user) pricing model is a significant advantage for growing businesses. When you hire your 5th or 10th technician, your software cost doesn't scale linearly — it stays flat until you hit the next job tier. But it only stays cheaper if you stay inside your job band; a busy 5-person crew that does 200 jobs a month lands on Premium at $149, not Growing at $79.
 
-The savings compound as your team grows.
+For a business doing 100 jobs/month with 8 field technicians (comparing like with like, GST included):
+- **ServiceM8 Growing:** $79/mo (flat, any number of users)
+- **Tradify Lite:** $422/mo (8 × $48 + GST)
+- **Fergus Essentials:** $466/mo (8 × $53 + GST)
+
+The savings compound as your team grows — and that gap is the single strongest argument for job-based pricing in this category.
 
 ---
 
 ## Feature Comparison Matrix
 
 | Feature | ServiceM8 | simPRO | Tradify | AroFlo | Fergus |
-|---|---|---|---|---|---|---|
-| Pre-built CCEW form | ✅ Yes | ❌ No | ❌ No | ❌ No | ❌ No |
-| Custom compliance forms | ✅ Yes | ✅ Yes | Limited | ✅ Yes | Limited |
+|---|---|---|---|---|---|
+| Vendor-supplied CCEW form | ❌ None — you build the PDF | ❌ None | ❌ None | ❌ None | ❌ None |
+| Custom compliance forms | ✅ Growing plan+ ($79) | Digital Forms add-on | ✅ Pro plan+ ($52/user) | ✅ Yes | ✅ Professional plan ($77/user) |
 | Mobile-first design | ✅ Excellent | Good | ✅ Good | Good | Good |
 | Per-user fee | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
-| Xero integration | ✅ Real-time | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
+| Accounting sync | ✅ Xero, MYOB, QuickBooks Online | ✅ Yes | ✅ Xero, MYOB, QuickBooks Online | ✅ Yes | ✅ Xero, MYOB, QuickBooks Online |
 | Multi-day project management | Basic | ✅ Advanced | Basic | ✅ Advanced | Basic |
 | GPS tracking | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
-| Client portal | ✅ Yes | ✅ Yes | Limited | ✅ Yes | ✅ Yes |
-| Entry cost (3 staff) | $29-$79/mo | ~$450-$750/mo | ~$105/mo | Custom | ~$147/mo |
+| Online quote acceptance / customer portal | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
+| Entry cost (3 staff, incl GST) | $29–$79/mo flat | Quote only | ~$158/mo (3 × $48 + GST) | ~$240/mo + $1,450 setup | ~$175/mo (3 × $53 + GST) |
 | Implementation time | 1-3 days | 2-4 weeks | 1-2 days | 3-6 weeks | 1-2 weeks |
 
 ---
@@ -182,9 +192,9 @@ The savings compound as your team grows.
 **Choose ServiceM8 if:**
 - You're a 1-15 person electrical business
 - You do residential and light commercial work
-- CCEW compliance is a regular requirement
+- CCEW compliance paperwork is a regular requirement (budget the $79 Growing plan, since custom forms aren't on Starter)
 - You want fast setup and a mobile-first system
-- You're on Xero or MYOB and want seamless integration
+- You're on Xero, MYOB or QuickBooks Online and want seamless integration
 
 **Choose simPRO if:**
 - You have 10+ field staff
@@ -196,8 +206,8 @@ The savings compound as your team grows.
 **Choose Tradify if:**
 - You're a solo operator or have 1-2 staff
 - Simplicity is the priority over depth
-- CCEW is not a daily requirement (or you can manage it separately)
-- You're cost-sensitive at the early stage
+- You want quote-to-invoice plus accounting sync without paying for features you won't use (Lite covers this)
+- You need compliance certificates too — that's Pro at $52/user/mo
 
 **Choose AroFlo if:**
 - You need enterprise-grade field service management with deep customisation
@@ -229,20 +239,18 @@ One complexity that Australian electricians face — and that your job managemen
 
 | State/Territory | Regulator | Certificate Type | Key Notes |
 |---|---|---|---|
-| NSW | SafeWork NSW | Certificate of Compliance – Electrical Work (CCEW) | Required for all licensed electrical work |
-| VIC | Energy Safe Victoria | Certificate of Electrical Safety (CES) | Must be issued within 30 days of completion |
-| QLD | Electrical Safety Office | Electrical Safety Certificate | Required for all prescribed electrical work |
-| SA | Consumer and Business Services | Certificate of Compliance | Required for notifiable electrical work |
-| WA | EnergySafety | Certificate of Electrical Compliance | Required for Type A and B work |
-| TAS | WorkSafe Tasmania | Certificate of Compliance | Required for prescribed electrical work |
-| ACT | Access Canberra | Certificate of Compliance | Required for all notifiable electrical work |
-| NT | NT WorkSafe | Certificate of Compliance | Required for notifiable work |
+| NSW | Building Commission NSW | Certificate of Compliance for Electrical Work (CCEW) | Under the Gas and Electricity (Consumer Safety) Act 2017. Must be lodged via the BCNSW eCert portal within **7 days** of the safety and compliance test; from 1 July 2026 eCert (or an approved API) is the only accepted channel — no PDFs, no carbon books |
+| VIC | Energy Safe Victoria | Certificate of Electrical Safety (CES) | Must be issued within **30 days** of completion |
+| QLD | Electrical Safety Office (WorkSafe QLD) | Certificate of testing and compliance | Required for prescribed electrical work under the Electrical Safety Regulation 2013 — it is not a "Form 7" |
+| SA | Office of the Technical Regulator (within CBS) | electronic Certificate of Compliance (eCoC) | Required after **any** electrical work, not just notifiable work; prepared and lodged via ecoc.otr.sa.gov.au, with penalties up to $5,000 under s61 of the Electricity Act 1996 |
+| WA | Building and Energy (EnergySafety) | Electrical Safety Certificate | Under Electricity (Licensing) Regulations 1991 reg 52B, delivered within **28 days**, lodged via eNotice. Not required for maintenance work or like-for-like replacement |
+| TAS | CBOS (Consumer, Building and Occupational Services) | Certificate of Electrical Compliance (CEC) | Lodged with TechSafe Australia within **3 days** of the work being energised, for notifiable electrical work. WorkSafe Tasmania handles WHS and licensing, not certificates |
+| ACT | Access Canberra Electrical Inspectorate | Certificate of Electrical Safety (CES) | Lodged with Access Canberra; new installations cannot be energised until they pass an Access Canberra electrical audit |
+| NT | NT WorkSafe (Electrical Safety Regulator) | Certificate of Compliance (CoC) | Under the Electrical Safety Act 2022 and Regulations 2024. Required for all electrical work except maintenance; provided within **20 business days** |
 
-For electrical businesses operating across state lines — common for solar and battery installers following commercial contracts — managing these different requirements manually is a significant compliance risk.
+For electrical businesses operating across state lines — common for solar and battery installers following commercial contracts — managing these different requirements manually is a significant compliance risk. Note the deadlines alone: 3 days in Tasmania, 7 in NSW, 20 business days in the NT, 28 in WA, 30 in Victoria.
 
-**ServiceM8's advantage here:** You can build separate compliance form templates for each state, configured with the correct fields and certificate formats for that jurisdiction. When a technician is doing a job in Victoria, they get the CES template. In Queensland, they get the Electrical Safety Certificate template. The system enforces the right documentation for every job.
-
-This state-aware compliance management is one of the areas where ServiceM8 genuinely outperforms generic business software.
+**What software can and can't do here:** you can build separate form templates for each jurisdiction, configured with the correct fields and certificate layouts. When a technician is doing a job in Victoria, they get the CES template; in Queensland, the certificate of testing and compliance template. That removes the data re-entry. It does **not** remove the lodgement step, because each state has its own portal — eCert in NSW, TechSafe in Tasmania, eNotice in WA, the OTR's eCoC system in SA. The strongest platforms are the ones that either integrate with those portals or export in the shape they need.
 
 ---
 
@@ -253,7 +261,7 @@ If you've decided ServiceM8 is the right platform for your electrical business, 
 **Step 1 (Day 1–3): Set up your core account**
 - Start your free 14-day trial at [servicem8.com](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 - Configure your business profile, service types, and pricing
-- Set up your Xero or MYOB integration
+- Set up your Xero, MYOB or QuickBooks Online integration
 - Add your technicians and staff
 
 **Step 2 (Day 4–7): Build your compliance forms**
@@ -277,15 +285,15 @@ Most electrical businesses are fully operational on ServiceM8 within 2–3 weeks
 For the majority of Australian electricians — particularly those doing residential work, solar and battery installations, or light commercial electrical — **ServiceM8 is the clear choice in 2026**.
 
 It wins on:
-- Compliance documentation quality
+- Compliance documentation depth (custom forms from the $79 Growing plan — budget accordingly)
 - Mobile app experience
 - Pricing model (per-job, not per-user)
 - Australian-built, Australian support
-- Cash flow improvement via automated invoicing
+- Cash flow improvement via faster approval-to-invoice
 
 Consider **simPRO** if you're running a larger commercial electrical contracting business (20+ staff) with complex project management needs.
 
-Consider **Tradify** if you're a sole trader just starting out and want the simplest possible setup.
+Consider **Tradify** if you're a sole trader who wants the simplest possible quote-to-invoice workflow and is happy to pay per user for it — but compare against ServiceM8's Free tier and $29 Starter before assuming it's the cheaper route.
 
 Whatever platform you choose, the most important thing is to choose one and use it consistently. The businesses that win in the Australian electrical market over the next five years will be the ones running tight digital operations — not the ones still on spreadsheets.
 
@@ -297,11 +305,15 @@ Whatever platform you choose, the most important thing is to choose one and use 
 
 ### What's the best job management software for a sole trader electrician in Australia?
 
-For a sole trader, **Tradify** or **ServiceM8 Starter** are the most accessible starting points. ServiceM8 Starter ($29/mo, 50 jobs) is ideal if you need compliance documentation features. Tradify is slightly simpler to set up for basic job management.
+For a sole trader, **ServiceM8's Starter plan** ($29/mo incl GST, 50 jobs, unlimited users) is the cheapest paid entry point, and the Free tier (30 jobs, 1 user) costs nothing to test. It is not, however, the compliance entry point — custom forms need the $79 Growing plan. **Tradify Lite** ($48/user/mo ex GST) is simpler for pure quote-to-invoice work with accounting sync, and moves to Pro ($52/user) if you want compliance certificates.
 
 ### Does ServiceM8 handle electrical compliance certificates (CES)?
 
-Yes. ServiceM8's digital form builder lets you create Certificate of Electrical Safety templates that auto-populate from job data and can be emailed directly to clients or the relevant authority. Many Australian electricians have built their full compliance workflow inside ServiceM8.
+Partly — and the distinction matters. ServiceM8's form builder (Growing plan and above) can produce a CES-style certificate populated from job data, store it on the job record and email it to the client. What it cannot do is lodge the certificate for you: in Victoria the CES is issued through Energy Safe Victoria's own process, and in NSW the CCEW must be submitted to Building Commission NSW through the BCNSW eCert portal within seven days of the safety and compliance test. Treat the ServiceM8 output as the job record and the customer copy, not the statutory lodgement.
+
+### Can job management software issue a CCEW in NSW?
+
+No — software can prepare it, not issue it. A CCEW is a legal declaration made by the licensed electrician who carried out or supervised the work, and it is only valid once submitted to Building Commission NSW through the BCNSW eCert portal (or an approved API) within seven days of the test. From 1 July 2026 eCert is the only accepted channel. Software's job is to capture the test data and produce a clean record; the lodgement itself stays with the licence holder.
 
 ### Can I use ServiceM8 for both electrical and solar installation work?
 
@@ -309,7 +321,7 @@ Absolutely — and it's arguably the best platform for businesses that do both. 
 
 ### Is simPRO worth the extra cost for electricians?
 
-simPRO's higher cost is justified for electrical businesses with 20+ staff doing complex commercial project work with sophisticated job costing requirements. For most residential and light commercial electricians, ServiceM8 provides better value. See our [ServiceM8 vs simPRO comparison](/blog/servicem8-vs-simpro-comparison-australia/) for a detailed breakdown.
+simPRO doesn't publish its pricing, so "worth the extra cost" can't be answered from a website — you have to get a written quote covering licence, implementation and add-ons. What is clear is that its depth is aimed at electrical businesses with 20+ staff doing complex commercial project work with sophisticated job costing. For most residential and light commercial electricians, ServiceM8 provides better value. See our [ServiceM8 vs simPRO comparison](/blog/servicem8-vs-simpro-comparison-australia/) for a detailed breakdown.
 
 ### How long does it take to set up ServiceM8 for an electrical business?
 
@@ -343,22 +355,3 @@ Most electricians are up and running with basic job management within a few hour
 
 
 **See also:** [EV Charger Network Installation: Business Opportunity for Australian Electricians](/blog/ev-charger-network-installation-business-opportunity/)
-
----
-
-## FAQ
-
-### What is the best job management software for Australian electricians in 2026?
-ServiceM8 is the leading choice for small-to-medium Australian electrical businesses, particularly those doing residential and light commercial work. It handles CCEW paperwork, scheduling, quoting, Xero/MYOB integration, and same-day invoicing from a mobile app. For businesses with 10+ field staff or complex project management needs, simPRO or AroFlo are worth evaluating — but both carry a significantly higher cost and implementation overhead.
-
-### Does job management software help with electrical compliance in Australia?
-Yes — the right platform significantly reduces compliance risk and admin time. ServiceM8, for example, lets technicians complete Certificate of Compliance for Electrical Work (CCEW) documentation on-site via the mobile app, attach geo-tagged photos, and send the certificate to the customer and relevant authority without returning to the office. This eliminates the end-of-day paperwork burden and creates a timestamped audit trail.
-
-### How much does job management software cost for an electrical business?
-ServiceM8 starts at around $29/month for the Starter plan (50 jobs) and scales to $349/month for unlimited staff. simPRO and AroFlo typically start at $150–$250/month per user, making them significantly more expensive for small teams. Most platforms offer a free trial. For a 2-person electrical business, ServiceM8's mid-tier plan at $79/month typically delivers a positive ROI within the first month through faster invoicing and reduced admin hours.
-
-### Can I use job management software to issue CCEWs in NSW?
-ServiceM8 supports custom digital forms that can mirror your CCEW requirements — including all mandatory fields under NSW Fair Trading regulations. However, the formal CCEW must still be issued through the licensed electrician's own process. The platform streamlines the data capture and documentation workflow rather than replacing the legal issuing process. You can also attach the completed CCEW PDF to the job record for full audit traceability.
-
-### What should electricians look for in job management software?
-The five most important features for Australian electricians are: (1) mobile-first design that works on-site without reliable internet, (2) CCEW and compliance form support, (3) Xero or MYOB integration for seamless invoicing, (4) quote-to-invoice workflow with digital approval, and (5) customer communication automation (SMS updates, review requests). State-specific compliance support — particularly for NSW, VIC, and QLD — is a significant differentiator between platforms.
