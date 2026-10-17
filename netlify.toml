@@ -226,3 +226,17 @@
   to = "/blog/best-job-management-software-electricians-australia/"
   status = 301
   force = true
+
+# The live merged article was published under the "-aud" slug, which the
+# entries above never covered - it has been serving a 404 since the Sep 23 merge.
+[[redirects]]
+  from = "/blog/electrical-job-management-software-buyers-guide-aud"
+  to = "/blog/best-job-management-software-electricians-australia/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/electrical-job-management-software-buyers-guide-aud/"
+  to = "/blog/best-job-management-software-electricians-australia/"
+  status = 301
+  force = true
