@@ -1,8 +1,8 @@
 ---
-title: 'ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use'
-description: "Sparkies lose 10 hrs/week to admin. ServiceM8: invoice on-site, paid same-day. CCEW compliance, scheduling, and faster payments for Australian electricians."
+title: "Job Management Software for Electricians 2026: ServiceM8 at $29/mo"
+description: "Job management software for electricians: ServiceM8 from $29/mo handles CCEW forms, Xero sync and same-day invoicing. Which plan fits a 1-5 person crew."
 pubDate: 'Apr 27 2026'
-updatedDate: 'Jul 20 2026'
+updatedDate: 'Oct 18 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-for-electricians.jpg'
 faq:

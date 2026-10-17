@@ -1,8 +1,8 @@
 ---
-title: 'When Is a CCEW Legally Required in NSW? The 7-Day Deadline Rule Explained'
-description: 'CCEW NSW 7-day rule: when the clock starts after completion, which work triggers lodgement, who gets copies, and the $22,000 penalty under Home Building Act.'
+title: 'When Is a CCEW Required in NSW? 7-Day Rule & 2026 eCert Steps'
+description: 'When is a CCEW required in NSW? Within 7 days of notifiable work — the five triggers, who gets a copy, and the $22,000 penalty under the Home Building Act.'
 pubDate: 'May 20 2026'
-updatedDate: 'Jul 20 2026'
+updatedDate: 'Oct 18 2026'
 category: "Compliance"
 breakdown:
   - title: "Know the triggers"
