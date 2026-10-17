@@ -1,75 +1,82 @@
 ---
 title: "Apprentice Ratios for Electricians 2026: State Rules, Federal Incentives & Net Cost"
-description: "Hiring an electrical apprentice in 2026: 1:1 ratio in most states, AAIS incentives up to $5,000, and $33K–$39K net first-year cost. Full state-by-state breakdown."
+description: "Hiring an electrical apprentice in 2026: NSW/VIC caps at 1:1 direct, 1:3 general, 1:5 broad, $5,000 federal incentive, and $42K–$44K gross first-year cost. State-by-state breakdown."
 pubDate: 'Jul 20 2026'
-updatedDate: 'Jul 20 2026'
+updatedDate: 'Oct 18 2026'
 category: "Compliance"
 heroImage: '/hero-electrical-award-rates-2026.jpg'
 tags: ['apprentice', 'hiring', 'Fair Work', 'electrical award', 'apprentice ratio', 'incentives', 'electrician', '2026']
 faq:
   - question: "How many apprentices can one qualified electrician supervise in Australia?"
-    answer: "The standard ratio across most Australian states is 1 apprentice per 1 qualified tradesperson (1:1). When a business has multiple qualified tradespeople on staff, the ratio allowance increases proportionally — for example, 2 qualified tradespeople may supervise 2 apprentices. The exact rules vary by state training authority and may differ for Group Training Organisations. Always confirm with your state training authority: Training Services NSW, Victorian Skills Authority, Training Queensland, or equivalent."
+    answer: "It depends on the supervision level, not on how many tradespeople the business employs. In NSW and Victoria a licensed electrician may supervise one apprentice under direct supervision (1:1), three under general supervision (1:3) and five under broad supervision (1:5). Western Australia allows 1:2 under direct supervision and 1:4 at any level, Tasmania 1:1 adjustable to 1:2, the ACT 1:1 in years 1–2 and 1:5 from year 3, and the Northern Territory 1:1 direct, 1:3 general level 1 and 1:5 general level 2. Queensland prescribes no numeric ratio but still imposes a duty of effective supervision. Always confirm against your state electrical safety regulator's current supervision requirements."
   - question: "What federal incentive payments are available for hiring an electrical apprentice in 2026?"
-    answer: "Under the Australian Apprenticeships Incentive System (AAIS), employers can receive a Hiring Incentive payment of up to $3,500 for priority apprenticeships (electrical is on the priority list). A Recommencement Incentive of up to $1,500 is available for re-engaging apprentices who previously cancelled. Additional wage subsidies up to $4,000 apply for mature-age apprentices (25+). These are paid in instalments — not as a lump sum — over the first 12 months of the apprenticeship."
+    answer: "Under the Australian Apprenticeships Incentive System there are two employer payments. The Key Apprenticeship Program Employer Incentive pays up to $5,000 in year one ($2,000 at 6 months and $3,000 at 12 months, full-time) where the apprentice is in the New Energy or Housing Construction stream and the employer gives them genuine work in that sector — solar, battery and EV employers typically qualify. The Priority Hiring Incentive pays up to $2,500 ($1,000 at 6 months and $1,500 at 12 months) for other Certificate III or above priority-list occupations. Payments are claimed through the Apprenticeships Data Management System via your Apprentice Connect Australia Provider. Larger pre-1 July 2024 payments remain only for apprentices commenced under grandfathering."
   - question: "What is the first-year wage cost for an electrical apprentice in Australia in 2026?"
-    answer: "Under the Electrical Contracting Award (MA000025), a first-year electrical apprentice earns approximately 42% of the tradesperson rate. Based on the 2026 minimum wage and award rates, this is roughly $550–$620 per week. Add 11.5% superannuation, workers compensation insurance, and long service leave accrual, and the on-cost-inclusive first-year cost per apprentice is approximately $38,000–$44,000 annually before incentive payments. After receiving federal incentives, net cost in year one is typically $33,000–$39,000."
+    answer: "Under the Electrical, Electronic and Communications Contracting Award (MA000025), a first-year apprentice who started on or after 1 January 2014 and has not completed Year 12 is paid 50% of the Electrical worker grade 5 minimum rate (55% with Year 12). Grade 5 is $1,119.10 a week from 1 July 2026, so first-year base pay is about $622.72 a week, rising to roughly $686 once the tool allowance and the apprentice's share of the licence and industry allowances are added. With 12% superannuation, workers compensation, long service leave accrual and PPE, the all-in first-year cost is roughly $42,000–$44,000 before incentives — about $37,000–$39,000 net after the $5,000 Key Apprenticeship Program Employer Incentive."
   - question: "Does Queensland offer free apprenticeships for electrical trades?"
-    answer: "Yes. Queensland's Free Apprenticeships for Under 25s program covers TAFE and registered training organisation fees for apprentices aged under 25 in eligible priority trades, including electrical. This removes the training cost from the equation for most small electrical businesses. The program is administered by the Queensland Department of Youth Justice, Employment, Small Business and Training."
+    answer: "Yes. Queensland's Free Apprenticeships for Under 25s program covers TAFE and registered training organisation fees for apprentices aged under 25 in eligible priority qualifications, including the Certificate III in Electrotechnology Electrician (UEE30820). This removes the training cost from the equation for most young electrical apprentices. It is administered by the Queensland Government and delivered through TAFE Queensland and other RTOs."
 
 ---
 
-Getting the apprentice ratio wrong does not just create a compliance issue — it can result in a Fair Work complaint, cancellation of the apprentice's training contract, and personal liability for the business owner. Under the **Fair Work Act 2009**, underpaying or incorrectly supervising apprentices under a registered training contract creates enforceable obligations with real penalties.
+Getting the apprentice ratio wrong is not a paperwork problem. It is a breach of the supervision requirements made under your state's electrical safety legislation, it can void the training contract, and in a serious incident it exposes the business and the supervising electrician personally. Underpayment is a separate problem again, enforced under the **Fair Work Act 2009**.
 
-**An apprentice ratio is the number of apprentices a business is permitted to employ relative to the number of qualified tradespeople on staff.** Exceeding the ratio doesn't just risk regulatory action — it also affects your eligibility for federal incentive payments.
+**An apprentice ratio is the maximum number of apprentices one licensed electrician may supervise at the same time, at a given level of supervision.** It is a per-supervisor cap, not a headcount formula for the business — which is why the old "one apprentice per tradesperson, scaling 2:2 and 3:3" rule of thumb fails in most states. Exceeding the ratio is a safety breach, and it can also cost you incentive eligibility.
 
-This guide maps every state's ratio rules, the federal incentives available in 2026, state-specific bonuses, and the real net cost of hiring your first electrical apprentice.
+This guide maps each state's actual supervision ratios, the federal incentives available in 2026, state-specific training subsidies, and the real net cost of hiring your first electrical apprentice.
 
 ---
 
 ## Why Ratios Exist — and Who Enforces Them
 
-Apprentice supervision ratios were established to protect training quality. An apprentice who spends their trade learning without adequate supervision from qualified tradespeople produces deficient skills and creates safety risks, particularly in a licensed trade like electrical.
+Apprentice supervision ratios exist because an apprentice working without adequate supervision is a safety risk in a licensed trade — and the data backs that up. Energy Safe Victoria's review noted roughly 40% of electrical apprentices who start never finish, with the heaviest drop-off in year one, and apprentices reporting feeling unsupported and unsafe.
 
-**State training authorities set and enforce ratios** — not Fair Work directly. But the training contract registered with the state authority is an industrial instrument under state vocational education legislation. Breaching the ratio terms of that contract can void the contract and expose the employer to damages claims.
+There are two separate rulebooks, and conflating them is the most common mistake:
 
-Fair Work's jurisdiction intersects when:
-- Apprentice wages fall below Award minimums (MA000025)
-- Superannuation obligations aren't met
-- Employment classification is wrong (apprentice vs employee)
+1. **Electrical safety law** sets the ratios. In most states these are now tiered by supervision level — direct (constant attendance), general (supervisor on site and available) and broad (occasional face-to-face contact) — and the caps differ at each level. Enforced by the state electrical safety regulator, not a training authority.
+2. **Training contract law** requires the apprentice to be supervised in line with the training plan and the qualification's on-the-job requirements. Enforced by the state skills authority that registers the contract.
 
-The enforcers are the state training authorities:
-- **NSW:** Training Services NSW (Department of Education)
-- **VIC:** Victorian Skills Authority (VSA)
-- **QLD:** Department of Youth Justice, Employment, Small Business and Training
-- **SA:** Department for Education
-- **WA:** Department of Training and Workforce Development
-- **TAS:** TasTAFE / Tasmanian State Training Authority
-- **ACT:** ACT Skills Authority
+Fair Work's jurisdiction is narrower than most employers assume. The Fair Work Act and MA000025 govern wages, superannuation and employment classification — apprentice minimum rates, allowances, overtime. They do not set supervision ratios.
+
+The regulators that actually enforce ratios:
+
+- **NSW:** Building Commission NSW (Supervision Practice Standard)
+- **VIC:** Energy Safe Victoria (Apprentice Supervision Requirements, in force 1 September 2025)
+- **QLD:** Electrical Safety Office, WorkSafe Queensland (Electrical Safety Act 2002)
+- **SA:** SafeWork SA for electrical work; South Australian Skills Commission for the training contract supervision standard
+- **WA:** Building and Energy, Department of Energy, Mines, Industry Regulation and Safety
+- **TAS:** WorkSafe Tasmania
+- **ACT:** WorkSafe ACT
+- **NT:** NT WorkSafe (Electrical Safety Regulations 2024)
 
 ---
 
 ## State-by-State Apprentice Ratio Table
 
-| State | Base Ratio | With 2 Qualified Tradespeople | With 3+ Qualified |
-|---|---|---|---|
-| NSW | 1:1 | 2:2 | 3:3 (standard scaling) |
-| VIC | 1:1 | 2:2 | 3:3 (standard scaling) |
-| QLD | 1:1 | 2:2 | 3:3 (standard scaling) |
-| SA | 1:1 | 2:2 | Confirm with Dept for Education |
-| WA | 1:1 | 2:2 | Confirm with DTWD |
-| TAS | 1:1 | 2:2 | Confirm with TasTAFE |
-| ACT | 1:1 | 2:2 | Confirm with ACT Skills Authority |
-| NT | 1:1 | 2:2 | Confirm with NT Department of Industry |
+Ratios below are per supervisor, per supervision level. "Direct" means constant attendance; "general" means the supervisor is on site and available; "broad" means occasional face-to-face contact to check the work.
 
-**Key rule across all states:** The ratio counts **qualified tradespeople who are genuinely supervising** — not just anyone on payroll with a trade certificate. If a tradesperson is on a site that is too remote from the apprentice to provide supervision, they do not count toward the ratio.
+| State | Direct | General | Broad | Source |
+|---|---|---|---|---|
+| NSW | 1:1 | 1:3 | 1:5 | Supervision Practice Standard (Building Commission NSW) |
+| VIC | 1:1 | 1:3 | 1:5 | Apprentice Supervision Requirements, effective 1 Sep 2025 |
+| QLD | No numeric ratio — duty of effective supervision | — | — | Electrical Safety Act 2002 |
+| SA | 1:3 (high), 1:6 (medium), 1:10 (low) | | | SA Skills Commission supervision standard |
+| WA | 1:2 (only one under direct) | 1:4 at any level | 1:4 at any level | WA electrical licensing regulations |
+| TAS | 1:1 (may be adjusted to 1:2) | | | Tasmanian electrical safety requirements |
+| ACT | 1:1 (years 1–2) | 1:5 (years 3–4) | — | WorkSafe ACT apprentice supervision table |
+| NT | 1:1 | 1:3 (general level 1) | 1:5 (general level 2) | Electrical Safety Regulations 2024 |
 
-**What counts as a "qualified supervisor" for ratio purposes:** A person holding a current electrical licence (state-specific: QSC in NSW, Licensed Electrician in VIC, etc.) who is actively supervising the apprentice's work. A licensed subcontractor does not count toward an employer's ratio unless they are directly employed by that business.
+**Key rules that apply everywhere:**
+
+- **The cap is per supervisor, per moment** — not per business. Two licensed electricians on site do not double one supervisor's limit unless both are genuinely supervising.
+- **Supervision level tracks competence, not just year of apprenticeship.** In NSW and Victoria the move from direct to general to broad supervision depends on an assessment of the individual apprentice's competence for that task, and combination limits apply (for example, one apprentice under direct plus one under general).
+- **The ratio only bites on licensed electrical installation work.** In Victoria the requirements apply when the apprentice is doing electrical installation work as defined in the Electrical Safety Act 1998 — not to sweeping the van or stacking conduit.
+- **A licensed subcontractor does not count toward your ratio** unless they are directly engaged by your business and actually supervising.
 
 ---
 
 ## Group Training Organisations — The Alternative for Small Shops
 
-Small electrical businesses that cannot maintain the required number of qualified tradespeople to support additional apprentices can use a **Group Training Organisation (GTO)**.
+A sole trader is capped at what one supervisor can supervise — often a single apprentice under direct supervision. A **Group Training Organisation (GTO)** is the workaround: the GTO employs the apprentice and places them with you as host, carrying the employment, payroll and training-contract obligations. You pay a weekly rate covering wages, on-costs and the GTO margin.
 
 Under the GTO model:
 - The GTO is the legal employer of the apprentice
@@ -85,44 +92,42 @@ Find registered GTOs through the Australian Apprenticeships website (australiana
 
 ## Federal Incentive Payments — Australian Apprenticeships Incentive System (AAIS)
 
-The **Australian Apprenticeships Incentive System (AAIS)** is the federal government's framework for apprenticeship incentive payments, administered by Australian Apprenticeships Support Network (AASN) providers.
+The **Australian Apprenticeships Incentive System** is the federal framework for employer and apprentice payments. Its settings changed on 1 January 2026 and are now built around two employer payments plus the Key Apprenticeship Program. If you are working from older material quoting a $3,500 hiring incentive or a separate recommencement payment, that is the pre-2024 scheme — those amounts now apply only to apprentices who commenced or recommenced before 1 July 2024 under grandfathering.
 
-Electrical trades are classified as **priority occupations** under the AAIS, which means higher base incentives apply.
+### Employer Incentives (2026 settings)
 
-### Employer Incentives
+**Key Apprenticeship Program Employer Incentive — up to $5,000**
+- Available for: employers of apprentices in a Certificate III or higher qualification identified as **New Energy** or **Housing Construction** on the Australian Apprenticeships Priority List
+- Amount: up to **$5,000** in year one — $2,000 at 6 months and $3,000 at 12 months (full-time); $1,000 and $1,500 part-time
+- The catch: your business must give the apprentice genuine exposure and work in the clean energy or housing construction sector. An electrical contractor doing rooftop solar, battery installs or EV charging meets this. A general maintenance sparky whose apprentice only ever sees domestic fault-finding generally does not
+- You sign a declaration confirming the sector work, so this is not a box you can tick loosely
 
-**Hiring Incentive**
-- Available for: employers of priority apprentices
-- Amount: up to **$3,500** paid over the first 12 months
-- Payment schedule: $1,750 at the 6-month milestone, $1,750 at 12 months
-- Eligibility: apprentice must still be training, employer must be compliant with training contract
+**Priority Hiring Incentive — up to $2,500**
+- Available for: employers of apprentices training towards a Certificate III or above on the Priority List who are not in a Key Apprenticeship Program stream
+- Amount: up to **$2,500** in year one — $1,000 at 6 months and $1,500 at 12 months (full-time); $500 and $750 part-time
+- You cannot receive this and the Key Apprenticeship Program Employer Incentive for the same apprentice
 
-**Recommencement Incentive**
-- Available for: employers who take on an apprentice who previously cancelled or suspended their training
-- Amount: up to **$1,500**
-- Rationale: reduces the cost of re-engaging apprentices who left the system
+**Grandfathered payments (commenced before 1 July 2024)**
+- Hiring Incentive: $1,750 full-time, paid across the 6 and 12-month milestones
+- Support for Adult Australian Apprentices: $4,000 where the apprentice was 21 or over at commencement
+- These do not apply to new 2026 commencements
 
-**Mature-Age Apprentice Wage Subsidy**
-- Available for: employers hiring apprentices aged 25 or older
-- Amount: up to **$4,000** over the first year of training
-- This reflects the higher award wages paid to older apprentices under MA000025 (adult apprentice rates)
+### Claiming — and who your provider is now
 
-### AASN Providers
-
-To access federal incentives, your business must register with an **AASN provider** at the time of signing the training contract. AASN providers include MEGT, Australian Apprenticeships Pathways, and others. They process the incentive claims on your behalf.
+The Australian Apprenticeships Support Network (AASN) was replaced on 1 July 2024. Your provider is now an **Apprentice Connect Australia Provider**, and you must be registered with one when the training contract is signed. Claims are lodged through the **Apprenticeships Data Management System (ADMS)**. Your provider handles the paperwork, but the eligibility declarations are yours.
 
 ---
 
 ## State-Level Extras: What Each State Adds
 
 ### NSW — Fee-Free Training
-Training Services NSW provides **fee-free TAFE training** for electrical apprentices as part of the NSW Government's fee-free apprenticeship initiative. This removes the annual TAFE fees (typically $2,500–$4,000 per year) from the employer and/or apprentice.
+Training Services NSW provides **fee-free TAFE training** for electrical apprentices under the NSW fee-free apprenticeship initiative. Apprentice training fees in NSW (capped at roughly $2,000 a year under Smart and Skilled) sit with the employer or the apprentice, so this removes a real line item.
 
 ### VIC — Big Build Apprenticeships
 Victorian Skills Authority runs the **Big Build Apprenticeships** program, focused on construction and infrastructure trades. Electrical apprentices working on eligible infrastructure projects may access additional wage subsidies. Check current program eligibility at skills.vic.gov.au.
 
 ### QLD — Free Apprenticeships for Under 25s
-The Queensland Government provides **free TAFE and RTO training** for apprentices under 25 in priority trades. Electrical is an eligible trade. This eliminates training fees for the most common age demographic for new electrical apprentices.
+The Queensland Government provides **free TAFE and RTO training** for apprentices under 25 in priority trades, delivered through TAFE Queensland and other registered providers. Electrical (UEE30820) is on the priority list. This eliminates training fees for the most common age demographic for new electrical apprentices.
 
 ### SA — TAFE SA Subsidies
 South Australia provides subsidised training through TAFE SA for electrical apprentices. Confirm current subsidy rates with the SA Department for Education, as rates vary by apprenticeship year and qualification.
@@ -131,31 +136,32 @@ South Australia provides subsidised training through TAFE SA for electrical appr
 
 ## Real Cost Breakdown: What an Electrical Apprentice Actually Costs
 
-The gross cost of an electrical apprentice in 2026 under the Electrical Contracting Award MA000025:
+The gross cost of an electrical apprentice in 2026 under the Electrical, Electronic and Communications Contracting Award MA000025. The award sets apprentice pay as a percentage of the **Electrical worker grade 5** rate, which is $1,119.10 a week ($29.45 an hour) from 1 July 2026:
 
-**Wages by year (approximate 2026 rates):**
+| Year | % Grade 5 (no Year 12) | % Grade 5 (Year 12) | Weekly base (no Year 12) | Annual base |
+|---|---|---|---|---|
+| Year 1 | 50% | 55% | $622.72 | ~$32,400 |
+| Year 2 | 60% | 65% | $742.79 | ~$38,600 |
+| Year 3 | 70% | 70% | $862.87 | ~$44,900 |
+| Year 4 | 82% | 82% | $1,006.97 | ~$52,400 |
 
-| Year | % of Tradesperson Rate | Weekly Wage (approx) | Annual Gross |
-|---|---|---|---|
-| Year 1 | 42% | $570–$610 | $29,700–$31,800 |
-| Year 2 | 55% | $745–$800 | $38,800–$41,600 |
-| Year 3 | 75% | $1,015–$1,090 | $52,800–$56,700 |
-| Year 4 | 88% | $1,190–$1,280 | $61,900–$66,600 |
+*These are the post-1 January 2014 apprentice percentages. Apprentices who started before that date sit on the older 40%/52%/70%/82% scale. Rates rise each 1 July with Fair Work Commission determinations.*
 
-*Wages increase annually on 1 July following Fair Work Commission determinations.*
+**Allowances are stacked on top and count for all purposes:** the full tool allowance ($22.31/week), plus the apprentice's percentage of the electrician's licence allowance ($40.29) and industry allowance ($41.41). For a first-year that adds roughly $60–$70 a week before you get to on-costs. Adult apprentices (21 or over) are paid the separate adult apprentice scale, which is materially higher.
 
 **On-costs on top of wages:**
-- Superannuation (11.5% in 2026): $3,400–$7,700/year depending on year
+- Superannuation at 12% (the rate from 1 July 2025): ~$4,300 in year one
 - Workers compensation insurance: varies by state, typically 3–6% of wages for electrical
 - Long service leave accrual: roughly 1.67% of wages
-- Tool allowance (if applicable under MA000025): ~$20–$25/week
 - Uniforms and PPE: $500–$1,500/year
 
-**Total annual employment cost (Year 1):** approximately $38,000–$44,000
+**Total annual employment cost (Year 1, no Year 12):** approximately $42,000–$44,000. Add roughly $4,000 if the apprentice completed Year 12.
 
-**Less federal incentives (Year 1, priority trade):** -$3,500
+**Less Key Apprenticeship Program Employer Incentive (clean energy work):** -$5,000
 
-**Net Year 1 cost (before state subsidies):** approximately $34,500–$40,500
+**Net Year 1 cost (before state training subsidies):** approximately $37,000–$39,000
+
+*If you only qualify for the $2,500 Priority Hiring Incentive, net year-one cost is roughly $39,500–$41,500.*
 
 ---
 
@@ -189,19 +195,19 @@ Apprentice supervision requires documentation — site visits, sign-offs, traini
 
 ### How many apprentices can one qualified electrician supervise in Australia?
 
-The standard ratio across most states is 1:1 — one apprentice per qualified tradesperson actively supervising. With two qualified tradespeople employed, you can generally take on two apprentices. Confirm with your state training authority.
+It depends on the supervision level. In NSW and Victoria the cap is 1:1 under direct supervision, 1:3 under general and 1:5 under broad. WA allows 1:2 direct and 1:4 at any level, Tasmania 1:1 adjustable to 1:2, the ACT 1:1 in years 1–2 then 1:5, and the NT 1:1/1:3/1:5. Queensland sets no numeric ratio. The cap applies per supervisor, per moment.
 
 ### What federal incentives are available for hiring an electrical apprentice in 2026?
 
-The Australian Apprenticeships Incentive System (AAIS) provides a Hiring Incentive of up to $3,500 for priority apprentices, a Recommencement Incentive of up to $1,500, and a mature-age wage subsidy of up to $4,000 for apprentices aged 25 or older.
+Two employer payments. The Key Apprenticeship Program Employer Incentive pays up to $5,000 in year one for apprentices in the New Energy or Housing Construction stream — solar, battery and EV work typically qualifies. The Priority Hiring Incentive pays up to $2,500 for other priority-list Certificate III qualifications. Claims go through the Apprenticeships Data Management System via your Apprentice Connect Australia Provider.
 
 ### What does it cost to employ an electrical apprentice in Year 1?
 
-Approximately $38,000–$44,000 all-in (wages + super + workers comp + on-costs) before federal incentive payments. After the AAIS Hiring Incentive, net cost is roughly $34,500–$40,500.
+Roughly $42,000–$44,000 all-in for a school leaver without Year 12 (wages including allowances, 12% super, workers comp, long service leave accrual and PPE), about $4,000 more with Year 12. Net of the $5,000 Key Apprenticeship Program Employer Incentive, around $37,000–$39,000 before state training subsidies.
 
 ### Can a sole trader employ an electrical apprentice?
 
-Yes, provided the sole trader holds a current electrical licence and can demonstrate direct supervision of the apprentice. The 1:1 ratio means a sole trader can employ one apprentice. If the sole trader cannot provide continuous direct supervision, a Group Training Organisation arrangement may be required.
+Yes, provided the sole trader holds a current electrical licence and can provide the supervision level the apprentice's competence requires. A sole trader typically can't supervise more than one apprentice under direct supervision, so a second apprentice or a lot of unsupervised site time usually means a Group Training Organisation arrangement.
 
 ---
 
@@ -218,6 +224,3 @@ Yes, provided the sole trader holds a current electrical licence and can demonst
 - *[Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia/)*
 - *[QLD Electrical Contractor Licence 2026](/blog/qld-electrical-contractor-licence-guide-2026/)*
 
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many apprentices can one qualified electrician supervise in Australia?","acceptedAnswer":{"@type":"Answer","text":"The standard ratio across most states is 1:1 — one apprentice per qualified tradesperson actively supervising. With two qualified tradespeople employed, you can generally take on two apprentices. Confirm with your state training authority."}},{"@type":"Question","name":"What federal incentives are available for hiring an electrical apprentice in 2026?","acceptedAnswer":{"@type":"Answer","text":"The Australian Apprenticeships Incentive System (AAIS) provides a Hiring Incentive of up to $3,500 for priority apprentices, a Recommencement Incentive of up to $1,500, and a mature-age wage subsidy of up to $4,000 for apprentices aged 25 or older."}},{"@type":"Question","name":"What does it cost to employ an electrical apprentice in Year 1?","acceptedAnswer":{"@type":"Answer","text":"Approximately $38,000–$44,000 all-in before federal incentive payments. After the AAIS Hiring Incentive, net cost is roughly $34,500–$40,500."}},{"@type":"Question","name":"Can a sole trader employ an electrical apprentice?","acceptedAnswer":{"@type":"Answer","text":"Yes, provided the sole trader holds a current electrical licence and can demonstrate direct supervision of the apprentice. The 1:1 ratio means a sole trader can employ one apprentice."}}]}
-</script>
