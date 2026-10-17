@@ -2,7 +2,7 @@
 title: "3-Phase Power Upgrade Australia 2026: $3K–$10K — Cost, Process & AS/NZS 3000 Rules"
 description: "3-phase power upgrade costs $3K–$10K installed in Australia 2026. AS/NZS 3000 switchboard rules, DNSP application process, and when solar/EV charging makes it essential."
 pubDate: "Aug 2026"
-updatedDate: "Sep 21 2026"
+updatedDate: "Oct 18 2026"
 category: "Compliance"
 breakdown:
   - title: "Assess the load"
@@ -18,7 +18,7 @@ breakdown:
   - title: "Coordinate the meter"
     summary: "Avoid unmetered 3-phase — book the meter near the connection."
   - title: "Test + issue the cert"
-    summary: "Section 8 testing, then CCEW/CES within 7 days."
+    summary: "Section 8 testing, then the CCEW within 7 days (VIC CES: 30 days)."
     href: "/blog/electrical-switchboard-upgrade-cost-australia-2026"
     hrefLabel: "Switchboard cost guide →"
 heroImage: "/hero-3-phase-power-upgrade-guide.jpg"
@@ -42,7 +42,7 @@ A 3-phase power upgrade costs $3,000–$10,000 in Australia, and getting it wron
 
 ## What Is a 3-Phase Power Upgrade?
 
-A 3-phase power upgrade converts a property's electrical supply from single-phase (one 230V active conductor) to 3-phase (three 230V active conductors, 400V between phases). Under **AS/NZS 3000:2018**, this requires a new main switchboard rated for the maximum demand calculation, RCD protection on every final sub-circuit (Clause 2.6), and a compliance certificate — CCEW in NSW, CES in Victoria, Form 7 in Queensland — issued by a licensed electrical contractor. The upgrade enables 15kW+ solar inverter capacity, 7kW+ EV charger installation, and simultaneous operation of high-draw equipment without voltage drop.
+A 3-phase power upgrade converts a property's electrical supply from single-phase (one 230V active conductor) to 3-phase (three 230V active conductors, 400V between phases). Under **AS/NZS 3000:2018**, this requires a new main switchboard rated for the maximum demand calculation, RCD protection on every final sub-circuit (Clause 2.6), and a compliance certificate — CCEW in NSW, CES in Victoria, certificate of testing and compliance in Queensland — issued by a licensed electrical contractor. The upgrade enables 15kW+ solar inverter capacity, 7kW+ EV charger installation, and simultaneous operation of high-draw equipment without voltage drop.
 
 ---
 
@@ -110,7 +110,7 @@ Every DNSP requires a **connection application** before the upgrade. This is the
 DNSPs vary wildly:
 - **Ausgrid (NSW):** Connection application form + Level 2 ASP for the physical connection
 - **Endeavour Energy (NSW):** ASP Level 2 required; minimum 10 business days for a simple connection
-- **Energex (QLD):** Form A connection application + Form B for solar; Form 7 for compliance certificate
+- **Energex (QLD):** Form A connection application + Form B for solar; certificate of testing and compliance (ES Regulation 2013 s227) for the electrical work
 - **SA Power Networks:** Online portal application; service connection fee scales with demand
 - **Western Power (WA):** Residential Connection Application; Western Power does the meter install
 - **TasNetworks:** Connection application + Form 3 compliance certificate
@@ -121,7 +121,7 @@ Replace or upgrade the existing switchboard to comply with **Clause 2.5** (switc
 
 **Main switch:** Rated for the calculated maximum demand. A 3-phase 63A main switch is typical for residential. Commercial 3-phase may need 100A or 160A.
 
-**RCD protection (Clause 2.6):** Every final sub-circuit ≤32A must have RCD protection with a maximum tripping current of 30mA. This means individual RCBOs per circuit, not a single RCD protecting multiple circuits — discrimination between main switch and sub-circuit protection is a compliance requirement.
+**RCD protection (Clause 2.6):** Every final sub-circuit ≤32A must have RCD protection with a maximum tripping current of 30mA, installed at the switchboard where the sub-circuit originates (Clause 2.6.3.2.2 domestic/residential; 2.6.3.2.3 for other installations). Individual RCBOs per circuit aren't mandated by the standard, but they are industry best practice because a single shared RCD takes the whole board out on one fault — and you lose discrimination.
 
 **IP rating:** IP2X minimum for indoor switchboards, IP3X for outdoor. IP44 or higher if exposed to weather.
 
@@ -153,9 +153,9 @@ After installation, mandatory testing per **AS/NZS 3000:2018 Section 8**:
 - Prospective short-circuit current verification at the main switch
 
 Then, issue the state-specific compliance certificate:
-- **NSW:** CCEW (Certificate of Compliance Electrical Work) — mandatory under the Home Building Act 1989
-- **Victoria:** CES (Certificate of Electrical Safety) — mandatory under the Electricity Safety Act 1998, administered by Energy Safe Victoria
-- **Queensland:** Form 7 (Certificate of Testing and Compliance) — under the Electrical Safety Act 2002, administered by the Electrical Safety Office
+- **NSW:** CCEW (Certificate of Compliance Electrical Work) — required under the Gas and Electricity (Consumer Safety) Regulation 2018 (s37A) and lodged to Building Commission NSW via the eCert portal within 7 days of testing
+- **Victoria:** CES (Certificate of Electrical Safety) — mandatory under the Electricity Safety Act 1998, administered by Energy Safe Victoria, and must be issued within 30 calendar days of completing the work
+- **Queensland:** Certificate of testing and compliance (ES Regulation 2013 s227) — under the Electrical Safety Act 2002, administered by the Electrical Safety Office
 - **South Australia:** Certificate of Compliance — administered by Consumer and Business Services
 - **Western Australia:** Notice of Completion — administered by Building and Energy (formerly EnergySafety WA)
 - **Tasmania:** Form 3 — administered by Tasmanian Building and Construction (CBOS)
@@ -175,7 +175,7 @@ When a state electrical inspector audits a 3-phase upgrade, these are the clause
 **Clause 2.6 — RCD Protection:**
 - RCD on every final sub-circuit ≤32A
 - RCD trip time verified and recorded
-- RCD not shared across multiple circuits (individual RCBOs)
+- RCD not shared across multiple circuits where avoidable (individual RCBOs are best practice, not a clause requirement)
 - RCD test button functional and test date recorded
 
 **Clause 5.3 — Earthing:**
@@ -190,10 +190,10 @@ When a state electrical inspector audits a 3-phase upgrade, these are the clause
 
 **Clause 8 — Verification:**
 - All mandatory test results recorded and signed
-- Compliance certificate issued within 7 days of energisation (state-dependent)
+- Compliance certificate issued on time — 7 days from test in NSW, 30 calendar days from completion for a VIC CES (state-dependent)
 - Copy provided to the customer and filed with the regulator
 
-A **single missing RCD on one final sub-circuit** will fail an inspection in any state. The defect notice process costs the contractor time and reputation — and in NSW, repeat non-compliance can trigger Fair Trading licence review under the Home Building Act 1989.
+A **single missing RCD on one final sub-circuit** will fail an inspection in any state. The defect notice process costs the contractor time and reputation — and in NSW, repeat non-compliance can trigger a licence review by Building Commission NSW under the Gas and Electricity (Consumer Safety) Act 2017.
 
 ---
 
@@ -221,7 +221,7 @@ Five DNSPs cover different parts of Victoria. All require a CES from Energy Safe
 
 Energex covers South East Queensland. Ergon covers the rest.
 
-- **Application:** Form A (Connection Application) + Form 7 (Compliance Certificate) for the upgrade
+- **Application:** Form A (Connection Application) + certificate of testing and compliance for the electrical work
 - **Solar:** Form B required if solar is being installed concurrently
 - **Fee range:** $600–$1,500
 - **Timeline:** 10–20 business days; longer in regional Ergon areas
@@ -264,7 +264,7 @@ Some installers put RCDs on every sub-circuit but leave the main switch side unp
 
 ### 4. CCEW/CES Not Filed Within the Deadline
 
-NSW requires the CCEW to be lodged within 7 days of energisation (Home Building Act 1989, Electricity (Consumer Safety) Act 2004). Victoria requires the CES within 7 days (Electricity Safety Act 1998). Missing the deadline triggers an automatic audit flag in the regulator's system. The audit looks at the entire job — not just the late certificate.
+NSW requires the CCEW to be lodged within 7 days of the safety and compliance test (Gas and Electricity (Consumer Safety) Regulation 2018, s37A) via the Building Commission NSW eCert portal. Victoria requires the CES within 30 calendar days of completing the work (Electricity Safety Act 1998). Missing the deadline triggers an automatic audit flag in the regulator's system. The audit looks at the entire job — not just the late certificate.
 
 ### 5. No Future-Proofing
 
@@ -308,7 +308,7 @@ The upgrade itself doesn't change the tariff. But if the customer subsequently i
 
 ### Is an RCD on the main switch acceptable, or do I need individual RCBOs?
 
-AS/NZS 3000:2018 Clause 2.6 requires RCD protection on all final sub-circuits but does not mandate individual RCBOs. A single RCD protecting multiple circuits is technically compliant — but a fault on one circuit trips the entire board, which is a terrible customer experience. NSW Fair Trading and Energy Safe Victoria both encourage individual RCBOs as best practice, and many electrical inspectors will note a single-RCD configuration on the inspection report even if it's not a defect. Furthermore, Clause 2.5.5.2 requires discrimination between protection devices — a single upstream RCD provides no discrimination at all.
+AS/NZS 3000:2018 Clause 2.6 requires RCD protection on all final sub-circuits but does not mandate individual RCBOs. A single RCD protecting multiple circuits is technically compliant — but a fault on one circuit trips the entire board, which is a terrible customer experience. Building Commission NSW and Energy Safe Victoria both encourage individual RCBOs as best practice, and many electrical inspectors will note a single-RCD configuration on the inspection report even if it's not a defect. Furthermore, Clause 2.5.5.2 requires discrimination between protection devices — a single upstream RCD provides no discrimination at all.
 
 ---
 
