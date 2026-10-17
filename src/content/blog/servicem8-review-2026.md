@@ -1,7 +1,7 @@
 ---
-title: 'ServiceM8 Review 2026: Is It Worth $29/mo for Aussie Tradies?'
-description: "ServiceM8 review 2026: worth it for 1-5 person trade crews at $29/mo — same-day invoicing, CCEW & solar compliance forms built in. Verdict, costs inside."
-updatedDate: 'Sep 25 2026'
+title: 'ServiceM8 Review 2026: Honest Pros, Cons & Real Pricing for Aussie Tradies'
+description: "ServiceM8 review: what $29/mo gets an Aussie tradie — invoicing, CCEW forms, Xero sync and the limits."
+updatedDate: 'Oct 18 2026'
 pubDate: 'Apr 03 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-review.jpg'
