@@ -2,7 +2,7 @@
 title: "ServiceM8 Quoting to Payment Workflow 2026: 7 Steps to Get Paid"
 description: "Quote to paid in 7–10 days: ServiceM8's 7-step quoting, invoicing and payment workflow with on-site quotes, auto-invoicing, Stripe and Xero sync."
 pubDate: 'Aug 08 2026'
-updatedDate: 'Oct 12 2026'
+updatedDate: 'Oct 18 2026'
 category: 'ServiceM8'
 breakdown:
   - title: "Quote on-site"
@@ -64,7 +64,7 @@ The client receives the quote instantly — not hours or days later. They review
 
 No phone tag. No "did you get my quote?" follow-up. No "let me check with my partner" delay that stretches into a week.
 
-**Key detail:** If the client doesn't respond within a configurable window (typically 48 hours), ServiceM8 can send an automated follow-up. The content agent brief for this article came from GSC data showing 57 impressions at position 7.5 for exactly this query — "how does ServiceM8 handle quoting, invoicing, and payment co" — with zero clicks. Readers searching this query are evaluating the tool and want to understand the actual workflow.
+**Key detail:** If the client doesn't respond within a configurable window (typically 48 hours), ServiceM8 can send an automated follow-up quote reminder via the Automation add-on.
 
 ---
 
