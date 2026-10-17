@@ -2,7 +2,7 @@
 title: 'ServiceM8 Pricing 2026: Which Plan Saves You the Most ($29–$349/mo)'
 description: "Compare ServiceM8 plans: $29 Starter (50 jobs) to $349 Premium Plus (1,500+ jobs). Which plan suits a 1-person crew vs a 10-person team vs high-volume. Real pricing, no per-user fees."
 pubDate: 2026-07-20
-updatedDate: 2026-09-21
+updatedDate: 2026-10-18
 heroImage: "/hero-servicem8-pricing-plans-australia-2026.jpg"
 category: "ServiceM8"
 tags: ["servicem8 pricing", "servicem8 cost", "servicem8 plans", "servicem8 price australia", "how much does servicem8 cost", "servicem8 add-on costs", "job management software pricing"]
@@ -12,7 +12,7 @@ faq:
   - question: "Does ServiceM8 charge per user or per job?"
     answer: "ServiceM8 charges per job volume, not per user. All paid plans include unlimited staff members at no extra cost. The plan tiers are defined by monthly job caps (50/150/500/1,500+) and SMS allowances (100/300/1,000/3,000). A 10-person electrical business pays the same $149/mo Premium plan as a 2-person business on the same plan. This is ServiceM8's biggest pricing advantage over competitors — Tradify charges $47-$61/user/month, Fergus charges $48-$72/user/month, and simPRO charges per user with additional module fees."
   - question: "What are the hidden costs in ServiceM8?"
-    answer: "The main costs beyond your base plan: (1) ServiceM8 Phone add-on from $19/mo for a business phone system, (2) excess SMS at 10c per message once you exceed your monthly allowance, (3) excess jobs at 20c each on Premium Plus once past 1,500 jobs, (4) Stripe transaction fees (1.75% + 30c for domestic cards) when using ServiceM8 Pay, and (5) third-party integrations beyond the native Xero/MYOB/QuickBooks connectors may carry their own subscription costs. There are no setup fees, no contracts, and no per-user charges — all core features including scheduling, quoting, invoicing, compliance forms, and accounting integrations are included in every paid plan."
+    answer: "The main costs beyond your base plan: (1) ServiceM8 Phone add-on from $19/mo for a business phone system, (2) excess SMS at 10c per message once you exceed your monthly allowance, (3) excess jobs at 20c each on Premium Plus once past 1,500 jobs, (4) Stripe transaction fees (1.75% + 30c for domestic cards) when using ServiceM8 Pay, and (5) third-party integrations beyond the native Xero/MYOB/QuickBooks connectors may carry their own subscription costs. There are no setup fees, no contracts, and no per-user charges — all core job-management features are included in every paid plan, with higher tiers bundling the extras (forms, asset management, proposals, job costing)."
   - question: "Is ServiceM8 cheaper than simPRO, Tradify, Fergus, and AroFlo?"
     answer: "For teams of 2+ people, ServiceM8 is almost always cheaper. A 5-person crew on ServiceM8 Premium pays $149/mo total. The same crew on Tradify pays $235-$305 USD/mo (~$350-$460 AUD), on Fergus pays $240-$360 AUD/mo, and on AroFlo pays ~$335 AUD/mo. ServiceM8's unlimited-user model creates a widening cost gap as team size grows. The exception: solo operators on Tradify Lite ($47 USD/mo) pay slightly more than ServiceM8 Starter ($29/mo) but get 50 jobs vs Tradify's unlimited jobs on Lite. For anyone with 2+ staff, ServiceM8 wins on price."
   - question: "Does ServiceM8 have a free plan?"
@@ -21,7 +21,7 @@ faq:
     answer: "Sole traders doing ≤50 jobs/month: Starter at $29/mo. Small crews (2-5 staff, ≤150 jobs/month): Growing at $79/mo is the sweet spot. Mid-size teams (5-15 staff, ≤500 jobs/month): Premium at $149/mo. High-volume operations (15+ staff, 500-1,500+ jobs/month): Premium Plus at $349/mo with 20c/job after 1,500. The Growing plan at $79/mo is the most popular for Australian electrical businesses — it covers a typical 3-person crew doing 25-35 jobs per week."
 ---
 
-ServiceM8 is the most widely used job management platform among Australian trade businesses — it powers over 80,000 businesses globally, with the majority in Australia. For compliance-heavy trades, the platform's built-in digital forms directly support state regulatory requirements: the **Home Building Act 1989** (administered by **NSW Fair Trading**) mandates CCEW documentation for all notifiable electrical work, and solar installers creating STCs must comply with the **Clean Energy Regulator** under the **Renewable Energy (Electricity) Act 2000**. But the pricing page raises more questions than it answers. Five plan tiers. Job caps. SMS limits. Add-ons that live on separate pages. What you actually pay can be very different from the sticker price.
+ServiceM8 is the most widely used job management platform among Australian trade businesses — it powers over 80,000 businesses globally, with the majority in Australia. For compliance-heavy trades, the platform's built-in digital forms directly support state regulatory requirements: the **Gas and Electricity (Consumer Safety) Act 2017** (administered by **Building Commission NSW**) requires a CCEW for all notifiable electrical work, and solar installers creating STCs must comply with the **Clean Energy Regulator** under the **Renewable Energy (Electricity) Act 2000**. But the pricing page raises more questions than it answers. Five plan tiers. Job caps. SMS limits. Add-ons that live on separate pages. What you actually pay can be very different from the sticker price.
 
 This deep-dive breaks down every ServiceM8 plan, every add-on, every hidden cost, and what you'll actually pay for your specific business — compared dollar-for-dollar against simPRO, Tradify, Fergus, and AroFlo.
 
@@ -29,7 +29,7 @@ This deep-dive breaks down every ServiceM8 plan, every add-on, every hidden cost
 
 ## The 30-Second Verdict
 
-**Buy ServiceM8 if:** You run a team of 2+ field staff and want one flat monthly price with unlimited users. The plan price you see is the price you pay — no per-user multipliers, no module unlocks. For Australian compliance-heavy trades (electrical, solar, HVAC), ServiceM8's built-in digital forms for CCEW, CES, and safety checklists save 15-30 minutes per job compared to paper or generic software.
+**Buy ServiceM8 if:** You run a team of 2+ field staff and want one flat monthly price with unlimited users. The plan price you see is the price you pay — no per-user multipliers, no seat maths as you hire. For Australian compliance-heavy trades (electrical, solar, HVAC), ServiceM8's built-in digital forms for CCEW, CES, and safety checklists save 15-30 minutes per job compared to paper or generic software.
 
 **Buy ServiceM8 Starter ($29/mo) if:** You're a solo operator or side business doing fewer than 50 jobs per month. It's the cheapest way to get professional quoting, invoicing, and compliance forms on your phone.
 
@@ -41,7 +41,7 @@ This deep-dive breaks down every ServiceM8 plan, every add-on, every hidden cost
 
 ## ServiceM8 Pricing Plans — August 2026
 
-ServiceM8 uses a job-volume pricing model. Every paid plan includes unlimited staff, the full feature set, and all native integrations (Xero, MYOB, QuickBooks). The only difference between paid plans is how many jobs and SMS messages you get per month.
+ServiceM8 uses a job-volume pricing model. Every paid plan includes unlimited staff, the essential job features, and the native integrations (Xero, MYOB, QuickBooks). Job caps and SMS allowances rise with each tier, and so does the feature set: progress invoicing on Starter, then asset management, electronic forms, proposals, bundles and Inbox from Growing, and job costing plus markup billing at Premium.
 
 | Plan | Monthly Price (AUD) | Jobs/Month | Included SMS | Users | Best For |
 |---|---|---|---|---|---|
@@ -51,7 +51,7 @@ ServiceM8 uses a job-volume pricing model. Every paid plan includes unlimited st
 | **Premium** | $149 | 500 | 1,000 | Unlimited | 5-15 person teams, multi-crew |
 | **Premium Plus** | $349 | 1,500+ | 3,000 | Unlimited | High-volume operations, 15+ staff |
 
-All prices are in AUD, billed monthly, and exclude GST. There are no contracts, no setup fees, and you can upgrade or downgrade at any time. Annual billing may attract a discount — contact ServiceM8 directly.
+All prices are in AUD, billed monthly, and include GST. There are no contracts, no setup fees, and you can upgrade or downgrade at any time. Annual billing may attract a discount — contact ServiceM8 directly.
 
 **Additional usage costs:**
 - Extra SMS: 10c per message (all plans)
@@ -86,9 +86,9 @@ But the comparison isn't purely about price. simPRO offers deeper job costing an
 
 ---
 
-## What's Included in Every Paid Plan
+## What Every Paid Plan Includes
 
-Every ServiceM8 plan from Starter upward includes the identical feature set. There are no feature gates between plans — only job volume and SMS limits differ.
+Every ServiceM8 plan from Starter upward includes the same essential feature set: job cards, scheduling, quoting and invoicing, recurring jobs, online bookings, card payments, progress invoicing and the accounting integrations. What changes above Starter is the job and SMS allowance plus the add-on features bundled in — asset management, electronic forms, proposals, bundles and Inbox from Growing, then job costing, markup billing and Knowledge at Premium. Anything not bundled can be bought as a separate add-on.
 
 **Scheduling & Dispatch**
 - Drag-and-drop job calendar with staff assignment
@@ -356,7 +356,7 @@ ServiceM8 offers local setup partners (at additional cost) and 24/7 chat/email s
 
 ### Free ($0/mo) — Testing or Transitional
 
-30 jobs/month, 1 user, no SMS, self-serve support. This plan exists for businesses evaluating the platform. You get the full feature set — scheduling, quoting, invoicing, compliance forms, online bookings, and accounting integrations. Just limited to 30 jobs.
+30 jobs/month, 1 user, no included SMS, self-serve support. This plan exists for businesses evaluating the platform. You get the essential job features — scheduling, quoting, invoicing, job history, online bookings and accounting integrations — plus you can buy individual forms from the Form Store. Just limited to 30 jobs and one user.
 
 **Best for:** New businesses testing ServiceM8 before committing. Not viable as a permanent plan for anyone doing more than one job per day.
 
@@ -410,11 +410,11 @@ ServiceM8 offers local setup partners (at additional cost) and 24/7 chat/email s
 
 This is where ServiceM8 separates from international competitors. The platform includes pre-built digital forms for:
 
-- **CCEW (Certificate of Compliance for Electrical Work):** Required by state electrical safety regulators including Energy Safe Victoria and NSW Fair Trading. ServiceM8's CCEW form captures all required fields — installation details, circuit protection, testing results — and generates a compliant PDF.
-- **CES (Certificate of Electrical Safety):** The Western Australian equivalent, with WA-specific fields.
+- **CCEW (Certificate of Compliance for Electrical Work):** Required in NSW under the Gas and Electricity (Consumer Safety) Act 2017 (lodged to Building Commission NSW via eCert) and separately in Victoria under the Electricity Safety Act 1998. ServiceM8's CCEW form captures all required fields — installation details, circuit protection, testing results — and generates a compliant PDF.
+- **CES (Certificate of Electrical Safety):** The Victorian certificate, issued by the licensed electrician within 30 days of completing the work under the Electricity Safety (General) Regulations 2019. The WA equivalent is a different document — the electrical safety certificate required within 28 days under the Electricity (Licensing) Regulations 1991 and lodged through eNotice.
 - **Custom safety checklists:** SWMS, site induction forms, risk assessments — all with geo-tagged photo capture and digital signature.
 
-For electrical businesses regulated under state electrical safety acts (Electricity Safety Act 1998 in Victoria, Home Building Act 1989 in NSW, Electrical Safety Act 2002 in Queensland), having compliance documentation built into the job workflow is not just convenient — it's an audit defence. Missing or incomplete CCEW forms carry penalties up to $40,000 for corporations in some states.
+For electrical businesses regulated under state electrical safety laws (Electricity Safety Act 1998 in Victoria, Gas and Electricity (Consumer Safety) Act 2017 in NSW, Electrical Safety Act 2002 in Queensland), having compliance documentation built into the job workflow is not just convenient — it's an audit defence. Failing to issue the required certificate on time is an offence in every state, and regulators can issue penalty notices and prosecute.
 
 ### GST Handling
 
