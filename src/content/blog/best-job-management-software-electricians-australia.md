@@ -1,6 +1,6 @@
 ---
 title: 'Best Job Management Software for Electricians Australia 2026'
-description: "Best job management software for electricians in Australia 2026: AUD prices, GST treatment and plan limits for ServiceM8, simPRO, AroFlo, Tradify and Fergus, plus the state CCEW/CES certificate rules."
+description: "Best job management software for electricians in Australia 2026: what ServiceM8's $29 plan really covers, and what Tradify, simPRO, AroFlo and Fergus cost per user."
 updatedDate: 'Oct 18 2026'
 pubDate: 'Apr 14 2026'
 category: "Software Comparisons"
@@ -8,8 +8,8 @@ heroImage: '/hero-best-job-management-electricians.jpg'
 faq:
   - question: "What's the best job management software for a sole trader electrician in Australia?"
     answer: "For a sole trader, **ServiceM8's Starter plan** ($29/mo incl GST, 50 jobs, unlimited users) is the cheapest paid entry point, and the Free tier (30 jobs, 1 user) costs nothing to test. It is not, however, the compliance entry point — custom forms need the $79 Growing plan. **Tradify Lite** ($48/user/mo ex GST) is simpler for pure quote-to-invoice work with accounting sync, and moves to Pro ($52/user) if you want compliance certificates."
-  - question: "Does ServiceM8 handle electrical compliance certificates (CES)?"
-    answer: "Partly — and the distinction matters. ServiceM8's form builder (Growing plan and above) can produce a CES-style certificate populated from job data, store it on the job record and email it to the client. What it cannot do is lodge the certificate for you: in Victoria the CES is issued through Energy Safe Victoria's own process, and in NSW the CCEW must be submitted to Building Commission NSW through the BCNSW eCert portal within seven days of the safety and compliance test. Treat the ServiceM8 output as the job record and the customer copy, not the statutory lodgement."
+  - question: "Does ServiceM8 handle electrical compliance certificates (COES)?"
+    answer: "Partly — and the distinction matters. ServiceM8's form builder (Growing plan and above) can produce a COES-style certificate populated from job data, store it on the job record and email it to the client. What it cannot do is lodge the certificate for you: in Victoria the COES is registered with Energy Safe Victoria through its own system, and in NSW the CCEW must be submitted to Building Commission NSW through the BCNSW eCert portal within seven days of the safety and compliance test. Treat the ServiceM8 output as the job record and the customer copy, not the statutory lodgement."
   - question: "Can job management software issue a CCEW in NSW?"
     answer: "No — software can prepare it, not issue it. A CCEW is a legal declaration made by the licensed electrician who carried out or supervised the work, and it is only valid once submitted to Building Commission NSW through the BCNSW eCert portal (or an approved API) within seven days of the test. From 1 July 2026 eCert is the only accepted channel. Software's job is to capture the test data and produce a clean record; the lodgement itself stays with the licence holder."
   - question: "Can I use ServiceM8 for both electrical and solar installation work?"
@@ -104,7 +104,7 @@ The ServiceM8 iOS app is the best in class for trade businesses. Field electrici
 - Accept card payments via a card reader or payment link
 - Get real-time push notifications for new job assignments
 
-The Android app is functional but has historically lagged iOS in features and polish — worth noting if your team is Android-heavy.
+The Android app is now close to iOS parity for core work — jobs, schedules, client history, notes, photos, document scanning and billing all run on it. What it still lacks is add-on access (Advanced Photo Branding, WorkM8 Photo GPS, Track My Arrival), so any field workflow that depends on an add-on is iOS or dashboard only. Worth knowing before you standardise on Android handsets.
 
 ### Scheduling and Dispatch
 
@@ -133,11 +133,11 @@ For Australian electricians, compliance documentation is non-negotiable. Here's 
 
 **Custom digital forms — Growing plan and above.** You build compliance checklists, test record templates, and inspection forms once. Field staff complete them on-site via the app. Every field is required before the job can be marked complete — no more missing paperwork discovered days later. This is a paid-tier feature: Free and Starter cannot build custom forms. On those plans your only option is buying a ready-made form from the ServiceM8 Form Store (which works on every plan), so if you're buying specifically for compliance paperwork, the real entry price is Growing at $79/mo.
 
-**Photo requirements.** Jobs can be configured to require specific photos before sign-off — switchboard labels, installation photos, meter readings, before/after comparisons. Photos attach to the job record with timestamp and GPS data.
+**Photo requirements.** Jobs can be configured to require specific photos before sign-off — switchboard labels, installation photos, meter readings, before/after comparisons. Photos attach to the job record with a timestamp and the job association, which proves *when* — not *where*. Coordinates are a separate step: the free **Advanced Photo Branding** add-on can brand an emailed photo with GPS Location, and a marketplace add-on such as WorkM8 Photo GPS can embed coordinates back into the job diary, but both work only from the iOS app and the online dashboard — the Android Lite app has no add-on access.
 
-**Certificate generation.** Certificate templates (including CES layouts) can be built as forms and auto-populated from job data — client details, property address, installation date, technician licence number. Generated PDFs are stored with the job record and can be emailed to the client automatically.
+**Certificate generation.** Certificate templates (including the Victorian COES layout) can be built as forms and auto-populated from job data — client details, property address, installation date, technician licence number. Generated PDFs are stored with the job record and can be emailed to the client automatically.
 
-**The limit nobody mentions: a PDF is not a lodgement.** In NSW, a CCEW is not valid because you emailed a PDF. It must be submitted to Building Commission NSW through the **BCNSW eCert portal** (or an approved API) within **7 days** of the safety and compliance test — and from **1 July 2026 that portal is the only accepted channel**, with handwritten and PDF forms rejected. Building Commission NSW publishes an API so software can lodge directly; a form-builder that only produces a PDF still leaves you keying the certificate into eCert by hand. Victoria's CES and the other states' certificates each have their own lodgement channel too (see the state table below). When you evaluate any platform, ask whether it lodges, or only prints.
+**The limit nobody mentions: a PDF is not a lodgement.** In NSW, a CCEW is not valid because you emailed a PDF. It must be submitted to Building Commission NSW through the **BCNSW eCert portal** (or an approved API) within **7 days** of the safety and compliance test — and from **1 July 2026 that portal is the only accepted channel**, with handwritten and PDF forms rejected. Building Commission NSW publishes an API so software can lodge directly; a form-builder that only produces a PDF still leaves you keying the certificate into eCert by hand. Victoria's COES and the other states' certificates each have their own lodgement channel too (see the state table below). When you evaluate any platform, ask whether it lodges, or only prints.
 
 **Audit-ready records.** Every job in ServiceM8 has a complete, timestamped audit trail — who did what, when, using which forms, with what photos. When a licensing authority requests records for a random audit, they're available in minutes.
 
@@ -184,7 +184,7 @@ The savings compound as your team grows — and that gap is the single strongest
 | Multi-day project management | Basic | ✅ Advanced | Basic | ✅ Advanced | Basic |
 | GPS tracking | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Pro plan only |
 | Online quote acceptance / customer portal | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
-| Entry cost (3 staff) | $29–$79/mo flat, GST incl | Quote only | ~$158/mo (3 × $48 + GST) | ~$240/mo + $1,450 setup | ~$175/mo (3 × $53) + $30 certificates |
+| Entry cost (3 staff) | $29–$79/mo flat, GST incl | Quote only | ~$158/mo (3 × $48 + GST) | ~$240/mo + $1,450 setup | ~$189/mo (3 × $53 + $30 certificates) |
 | Implementation time | 1-3 days | 2-4 weeks | 1-2 days | 3-6 weeks | 1-2 weeks |
 
 ---
@@ -229,7 +229,7 @@ The savings compound as your team grows — and that gap is the single strongest
 >
 > 1. **Import your client database first** — this takes the most time and is foundational.
 > 2. **Set up your services and pricing** before the first job — avoid quoting from memory.
-> 3. **Build your compliance forms** (CCEW, CES, or state equivalent) in week one — this is the highest-value workflow change.
+> 3. **Build your compliance forms** (CCEW, COES, or state equivalent) in week one — this is the highest-value workflow change.
 > 4. **Connect accounting software** before the first invoice goes out.
 > 5. **Train field staff on mobile** before they go on their first job — 30 minutes of training is all most platforms need.
 
@@ -242,7 +242,7 @@ One complexity that Australian electricians face — and that your job managemen
 | State/Territory | Regulator | Certificate Type | Key Notes |
 |---|---|---|---|
 | NSW | Building Commission NSW | Certificate of Compliance for Electrical Work (CCEW) | Under the Gas and Electricity (Consumer Safety) Act 2017. Must be lodged via the BCNSW eCert portal within **7 days** of the safety and compliance test; from 1 July 2026 eCert (or an approved API) is the only accepted channel — no PDFs, no carbon books |
-| VIC | Energy Safe Victoria | Certificate of Electrical Safety (CES) | Must be issued within **30 days** of completion |
+| VIC | Energy Safe Victoria | Certificate of Electrical Safety (COES) | **Prescribed** work (switchboards, consumer mains, main earthing, solar and battery): certificate signed within **4 business days** of completing the work, electronic notification to ESV within **2 business days** of signing, independent Licensed Electrical Inspector inspection within **8 business days**, copies to the customer, ESV and the distribution business within **16 calendar days**. **Non-prescribed** work: copy to the customer within one month |
 | QLD | Electrical Safety Office (WorkSafe QLD) | Certificate of testing and compliance | Required for prescribed electrical work under the Electrical Safety Regulation 2013 — it is not a "Form 7" |
 | SA | Office of the Technical Regulator (within CBS) | electronic Certificate of Compliance (eCoC) | Required after **any** electrical work, not just notifiable work; prepared and lodged via ecoc.otr.sa.gov.au, with penalties up to $5,000 under s61 of the Electricity Act 1996 |
 | WA | Building and Energy (EnergySafety) | Electrical Safety Certificate | Under Electricity (Licensing) Regulations 1991 reg 52B, delivered within **28 days**, lodged via eNotice. Not required for maintenance work or like-for-like replacement |
@@ -250,9 +250,9 @@ One complexity that Australian electricians face — and that your job managemen
 | ACT | Access Canberra Electrical Inspectorate | Certificate of Electrical Safety (CES) | Lodged with Access Canberra; new installations cannot be energised until they pass an Access Canberra electrical audit |
 | NT | NT WorkSafe (Electrical Safety Regulator) | Certificate of Compliance (CoC) | Under the Electrical Safety Act 2022 and Regulations 2024. Required for all electrical work except maintenance; provided within **20 business days** |
 
-For electrical businesses operating across state lines — common for solar and battery installers following commercial contracts — managing these different requirements manually is a significant compliance risk. Note the deadlines alone: 3 days in Tasmania, 7 in NSW, 20 business days in the NT, 28 in WA, 30 in Victoria.
+For electrical businesses operating across state lines — common for solar and battery installers following commercial contracts — managing these different requirements manually is a significant compliance risk. Note the deadlines alone: 3 days in Tasmania, 7 in NSW, 20 business days in the NT, 28 in WA, and in Victoria four separate clocks on prescribed work — 4 business days to sign the COES, 2 to notify ESV, 8 to get the inspection, 16 calendar days to distribute copies.
 
-**What software can and can't do here:** you can build separate form templates for each jurisdiction, configured with the correct fields and certificate layouts. When a technician is doing a job in Victoria, they get the CES template; in Queensland, the certificate of testing and compliance template. That removes the data re-entry. It does **not** remove the lodgement step, because each state has its own portal — eCert in NSW, TechSafe in Tasmania, eNotice in WA, the OTR's eCoC system in SA. The strongest platforms are the ones that either integrate with those portals or export in the shape they need.
+**What software can and can't do here:** you can build separate form templates for each jurisdiction, configured with the correct fields and certificate layouts. When a technician is doing a job in Victoria, they get the COES template; in Queensland, the certificate of testing and compliance template. That removes the data re-entry. It does **not** remove the lodgement step, because each state has its own portal — eCert in NSW, TechSafe in Tasmania, eNotice in WA, the OTR's eCoC system in SA. The strongest platforms are the ones that either integrate with those portals or export in the shape they need.
 
 ---
 
@@ -309,9 +309,9 @@ Whatever platform you choose, the most important thing is to choose one and use 
 
 For a sole trader, **ServiceM8's Starter plan** ($29/mo incl GST, 50 jobs, unlimited users) is the cheapest paid entry point, and the Free tier (30 jobs, 1 user) costs nothing to test. It is not, however, the compliance entry point — custom forms need the $79 Growing plan. **Tradify Lite** ($48/user/mo ex GST) is simpler for pure quote-to-invoice work with accounting sync, and moves to Pro ($52/user) if you want compliance certificates.
 
-### Does ServiceM8 handle electrical compliance certificates (CES)?
+### Does ServiceM8 handle electrical compliance certificates (COES)?
 
-Partly — and the distinction matters. ServiceM8's form builder (Growing plan and above) can produce a CES-style certificate populated from job data, store it on the job record and email it to the client. What it cannot do is lodge the certificate for you: in Victoria the CES is issued through Energy Safe Victoria's own process, and in NSW the CCEW must be submitted to Building Commission NSW through the BCNSW eCert portal within seven days of the safety and compliance test. Treat the ServiceM8 output as the job record and the customer copy, not the statutory lodgement.
+Partly — and the distinction matters. ServiceM8's form builder (Growing plan and above) can produce a COES-style certificate populated from job data, store it on the job record and email it to the client. What it cannot do is lodge the certificate for you: in Victoria the COES is registered with Energy Safe Victoria through its own system, and in NSW the CCEW must be submitted to Building Commission NSW through the BCNSW eCert portal within seven days of the safety and compliance test. Treat the ServiceM8 output as the job record and the customer copy, not the statutory lodgement.
 
 ### Can job management software issue a CCEW in NSW?
 
