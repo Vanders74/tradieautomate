@@ -1,8 +1,8 @@
 ---
 title: 'RCD Safety Switch Requirements: AS/NZS 3000 Types A/B/F'
-description: "What AS/NZS 3000:2018 actually requires: 30mA RCDs on every residential final subcircuit, the Type AC ban since 30 April 2023, and which RCD type for solar and EV."
+description: "RCD safety switch requirements under AS/NZS 3000:2018 — the exact clauses auditors check, 30mA on every residential final subcircuit, and the Type AC ban."
 pubDate: 'Jul 20 2026'
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 19 2026'
 category: "Compliance"
 heroImage: '/hero-compliance-safety-2026.jpg'
 tags: ['RCD', 'safety switch', 'AS/NZS 3000', 'switchboard', 'electrician', 'compliance', 'solar', 'EV charger']
@@ -16,7 +16,7 @@ faq:
   - question: "Does replacing a switchboard trigger full RCD compliance on all circuits?"
     answer: "Yes. A full switchboard replacement triggers RCD protection under Clause 2.6.3.2.5 for all final subcircuits supplied by that board. Adding circuits to an existing board requires the new or altered circuits to comply; untouched circuits are not automatically upgraded."
   - question: "What does \"substantially altered\" mean under AS/NZS 3000?"
-    answer: "The standard does not use that phrase — it talks about alterations to an installation and replacement of switchboards (Clauses 2.6.3.2.5 and 1.4.8). What matters is whether a circuit has been altered or had its source of supply changed. When uncertain, apply the current standard to the whole board. > **This article is featured in Chapter 2 of The Sparky's Playbook.** > The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download the full book free →](/playbook)"
+    answer: "The standard does not use that phrase — it talks about alterations to an installation and replacement of switchboards (Clauses 2.6.3.2.5 and 1.4.8). What matters is whether a circuit has been altered or had its source of supply changed. When uncertain, apply the current standard to the whole board."
 ---
 
 Under **AS/NZS 3000:2018 Clause 2.6.3.2.2**, every final subcircuit in a domestic or residential installation — socket outlets, lighting and fixed equipment alike — requires RCD protection at 30mA or less, installed at the switchboard where the circuit originates. Amendment 2 later added a separate rule in **Clause 2.6.2.2.2** that bans Type AC RCDs outright, and the wrong RCD type on a solar inverter or EV charger is now a documented CER audit failure point.
@@ -67,18 +67,23 @@ Under AS/NZS 3000:2018 Clause 2.6.3.2.2, every final subcircuit in a domestic or
 | Garage/carport socket outlets | Yes | Treated as outdoor circuits |
 | Fixed equipment (ovens, hot water, air conditioning) | Yes | Covered as final subcircuits in a dwelling |
 
-**What does not require RCD protection in residential:**
-- Circuits protected by other safety measures meeting equivalent electrical safety outcomes (rare and requires specific engineering assessment)
-- Exempt circuits as specified in the standard (e.g. circuits where RCD operation would itself create a safety hazard — emergency lighting in some contexts)
+**What does not require RCD protection in residential:** narrower than most guides suggest. The 2018 residential rule is written as an all-final-subcircuit requirement, so there is no general exemption list to work from — only the specific cases the standard carves out where RCD operation would itself create a hazard greater than the shock risk (some safety-service and emergency-lighting arrangements), and those are a documented design decision, not a default. "It's hard-wired, so it doesn't need one" is not an exemption under the wiring rules; the only place that logic appears is the Victorian rental standard, which is a separate instrument and does not override AS/NZS 3000 on new work.
 
 ### Commercial and Industrial
 
-Commercial and industrial RCD requirements are occupancy-specific. Key triggers:
+The commercial rule is narrower than the residential one, and it is the one most often over-applied. **Clause 2.6.3.2.3.3** requires 30mA RCD protection on final subcircuits rated at 32A or less in a non-domestic installation where they supply:
 
-- **Class 2–4 buildings** (flats, boarding houses, hotels): treated similarly to residential for inhabited areas
-- **Construction sites (AS/NZS 3012):** all portable tools and temporary supplies require RCD protection — this is separate from AS/NZS 3000
-- **Healthcare facilities:** specific RCD and medical isolation transformer requirements under AS/NZS 3003
-- **Swimming pools and spas:** AS/NZS 3000 Section 7.3 — equipotential bonding and RCD requirements vary by pool type
+- socket outlets (single or three phase)
+- lighting
+- directly connected hand-held equipment
+- directly connected equipment that represents an increased risk of electric shock
+
+Everything above 32A, and fixed equipment not in one of those categories, is not caught by that clause — it is assessed by the designer against the nature of the load and the risk. Other triggers that sit alongside it:
+
+- **Construction and demolition sites (AS/NZS 3012):** every circuit supplying portable tools and temporary supplies needs RCD protection — a separate standard to AS/NZS 3000
+- **Healthcare facilities:** patient-area requirements, including medical isolation transformers, are in AS/NZS 3003
+- **Swimming pools and spas:** Clause 6.3 (damp situations) sets the zones, equipotential bonding and RCD requirements — and Amendment 2 changed the clause numbering and figures in this section, so older references no longer line up
+- **Marinas, generating systems, hazardous areas:** Section 7 (special electrical installations)
 
 ---
 
@@ -97,7 +102,7 @@ Detects sinusoidal AC and pulsating DC fault currents. This is the general type 
 - Most modern appliance circuits with switch-mode power supplies
 - General residential circuits where electronics are connected
 
-Type A is now the practical baseline for residential work, and it is the only permitted replacement for an existing Type AC device.
+Type A is now the practical baseline for residential work, and it is the sensible replacement for an existing Type AC device — but it is not the only lawful one. Type A, Type F and Type B may all be installed; the governing test is whether the type detects the fault waveform the load can produce. Replacing a Type AC device with a Type A is the usual answer; the answer changes where the equipment manual or the inverter's requirements call for something else.
 
 **Type F**
 Detects sinusoidal AC, pulsating DC, and high-frequency leakage currents from variable-frequency drives. Required for:
@@ -125,7 +130,7 @@ Detects all fault current types including smooth DC up to several kHz. Required 
 | EV charger without DC fault detection | Type B |
 | Variable frequency drives | Type F or Type B |
 
-**Practical rule:** When in doubt, specify Type B. The cost premium is modest compared to a failed audit or a warranty void from the equipment manufacturer.
+**Practical rule:** the equipment manual decides the type. Specifying a higher type than the manual requires adds cost without compliance benefit; specifying a lower one is a non-compliance and, on solar and battery work, the thing auditors look for first.
 
 ---
 
@@ -152,10 +157,12 @@ When uncertain, apply the current standard to the entire board. The cost of an R
 ## State Variations in Enforcement
 
 **Victoria (Energy Safe Victoria)**
-ESV is the most active enforcer of AS/NZS 3000 technical requirements in Australia. Amendment 2 requirements have been incorporated into ESV's compliance framework. CES audit teams check RCD type compliance specifically on solar and battery installations.
+ESV is the most active enforcer of AS/NZS 3000 technical requirements in Australia. Amendment 2 requirements have been incorporated into ESV's compliance framework, and its electrical inspection and audit teams check RCD type compliance specifically on solar and battery installations.
 
-**NSW (SafeWork NSW)**
-Building Commission NSW administers the CCEW (Certificate of Compliance for Electrical Work) through BCNSW eCert — the certificate must be lodged there, not held as a PDF. CCEWs that certify work not meeting AS/NZS 3000 requirements expose the certifying electrician to prosecution under the Gas and Electricity (Consumer Safety) Act 2017. NSW audits of unlicensed or defective electrical work have increased since 2024.
+Victoria also has the only rental-specific RCD mandate in the country. Under the rental minimum standards, the electrical safety standard commenced **29 March 2023**: every power outlet circuit and every lighting circuit in a rented premises must be protected by a switchboard-type circuit breaker and a switchboard-type RCD (or RCBO). The practical trap is the wording — where the board already has circuit breakers, the electrician can add RCD protection to the power and lighting circuits **without** touching fixed cooking, hot water or air-conditioning circuits; where it is an old fuse board, the whole switchboard must be replaced and every circuit, fixed equipment included, must have circuit breaker components. Rental providers must also have an AS/NZS 3019 electrical safety check every two years, which is recurring inspection work most electricians never quote for.
+
+**NSW (Building Commission NSW)**
+Building Commission NSW administers the CCEW (Certificate of Compliance for Electrical Work) through BCNSW eCert — the certificate must be lodged there, not held as a PDF. A CCEW is the certifying electrician's declaration that the work meets AS/NZS 3000, so a certificate issued on non-compliant work is the exposure under the Gas and Electricity (Consumer Safety) Act 2017. Audit is the mechanism: BCNSW audits certificated work against the standard and can require rectification by written direction notice.
 
 **Queensland (Electrical Safety Office)**
 ESO Queensland requires all electrical work to comply with the current edition of AS/NZS 3000. The ESO's audit program has specifically focused on solar installations with incorrect RCD types. Queensland does not use a "Form" for electrical compliance: the contractor must issue a **certificate of testing and compliance** for electrical installation work, and a certificate of testing and safety for work on electrical equipment, under the Electrical Safety Regulation — and keep a copy for five years.
@@ -168,7 +175,7 @@ Installed RCDs must be tested for correct operation — Clause 8.3.10 of AS/NZS 
 
 Required tests per RCD:
 
-1. **Trip time test:** Apply 1× rated residual current (e.g. 30mA for a 30mA RCD). Trip time must be ≤300ms for Type AC/A, with faster requirements for some Type F and B devices.
+1. **Trip time test:** Apply 1× rated residual current (30mA on a 30mA device) — it must operate within 300 ms — then at 5× rated current, where the limit is 40 ms. Time-delayed (S-type) RCDs and some Type F and Type B devices run on their own curves, so check the device data rather than assuming the generic limits.
 2. **Ramp test:** Apply increasing current until trip — confirms the trip threshold matches the rating.
 3. **Test button verification:** Manual test button must operate correctly.
 
@@ -186,10 +193,12 @@ CER auditors and state regulator inspectors increasingly check for RCD test reco
 
 Maintaining RCD test records, linking them to job files, and retrieving them for audits is where paper-based systems fall apart. ServiceM8 lets you:
 
-- Attach RCD test results directly to the job record
-- Generate structured electrical compliance job cards with test fields built in
-- Set automatic reminders for periodic RCD testing on recurring maintenance contracts
-- Build CCEW and certificate of testing and compliance into your standard job close-out workflow
+- Attach RCD test results, photos and certificates to the job record so the evidence sits with the work
+- Build a custom form for RCD testing with the fields you actually use — **on the Growing plan ($79/mo); the custom form builder is not on Free or Starter ($29), which only complete forms bought from the Form Store**
+- Set recurring jobs for periodic RCD testing and the two-yearly AS/NZS 3019 inspection on maintenance contracts
+- Attach the certificate number and issue date to the job so the paperwork is traceable at audit
+
+What it does not do: it does not generate or lodge a CCEW, a certificate of testing and compliance or any other statutory certificate. NSW lodgement goes through BCNSW eCert (or the approved API for eligible high-volume contractors), Queensland certificates are issued under the ES Regulation, and Victoria's COES is lodged with ESV — a form builder is a record, not a lodged certificate. Keep that distinction straight before promising a client a paperless close-out.
 
 [Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 

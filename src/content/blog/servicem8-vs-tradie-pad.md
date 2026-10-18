@@ -9,7 +9,7 @@ faq:
   - question: "Can I migrate from TradiePad to ServiceM8?"
     answer: "Yes. ServiceM8's onboarding support can help with data migration from other platforms. Client records and job history can be imported. The compliance form templates will need to be rebuilt within ServiceM8's form builder, but this is typically done as part of setup."
   - question: "Does ServiceM8 work for sole traders?"
-    answer: "Yes. The Free plan ($0/month, 30 jobs) is designed for sole traders and works well for lower-volume businesses. As you grow, you step up plans. The per-job pricing model means sole traders pay less than larger teams automatically. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download free →](/playbook) *Related reading:* - *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)* - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians/)* - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia/)*"
+    answer: "Yes. The Free plan ($0/month, 30 jobs) is designed for sole traders and works well for lower-volume businesses. As you grow, you step up plans. The per-job pricing model means sole traders pay less than larger teams automatically. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling."
 pubDate: 'Apr 27 2026'
 updatedDate: 'Jul 30 2026'
 category: "Software Comparisons"

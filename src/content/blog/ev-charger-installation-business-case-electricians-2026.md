@@ -14,7 +14,7 @@ faq:
   - question: "What equipment investment is required?"
     answer: "The key purchase is a Type B RCD tester ($2,500–$4,500). Standard installation tools are sufficient for residential work. Total new equipment investment: $3,000–$6,000."
   - question: "What is the most common quoting mistake on EV charger jobs?"
-    answer: "Not scoping the switchboard before quoting. EV charger installation requires a dedicated 32A circuit — if the switchboard can't support it, an upgrade is required before installation. Walk the board before every quote. > **This article is featured in Chapter 4 of The Sparky's Playbook.** > The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download the full book free →](/playbook)"
+    answer: "Not scoping the switchboard before quoting. EV charger installation requires a dedicated 32A circuit — if the switchboard can't support it, an upgrade is required before installation. Walk the board before every quote."
 ---
 
 Australia added more electric vehicles in the first half of 2026 than in all of 2023 combined. The EV fleet is doubling every 18 months. Every one of those vehicles needs a charging solution — and most of those solutions are installed by electricians.

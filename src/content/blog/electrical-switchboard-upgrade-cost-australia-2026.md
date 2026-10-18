@@ -11,7 +11,7 @@ faq:
   - question: "Who needs to know about my switchboard upgrade?"
     answer: "Your licensed electrician issues the compliance certificate. Depending on your state, the local council or state electrical regulator may receive notification. Your electricity retailer does not typically need to be notified unless the metering configuration changes."
   - question: "Is a switchboard upgrade covered by home insurance?"
-    answer: "No — switchboard upgrades are a maintenance and compliance cost, not an insured event. Some home warranty policies include electrical systems, but switchboard replacement due to age or non-compliance is typically excluded. Check your policy wording. > **This article is featured in Chapter 2 of The Sparky's Playbook.** > The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download the full book free →](/playbook)"
+    answer: "No — switchboard upgrades are a maintenance and compliance cost, not an insured event. Some home warranty policies include electrical systems, but switchboard replacement due to age or non-compliance is typically excluded. Check your policy wording."
 pubDate: 'Jul 13 2026'
 updatedDate: 'Oct 18 2026'
 category: "Compliance"

@@ -11,7 +11,7 @@ faq:
   - question: "What happens if my phone loses signal on-site?"
     answer: "Stripe requires an internet connection to process payments. If you're in a location with poor coverage, you won't be able to process a Tap to Pay transaction. In this scenario, ServiceM8 allows you to send the customer a payment link by SMS that they can pay once you've both left the site — not as immediate as on-site collection, but still faster than traditional invoicing."
   - question: "How quickly does Stripe settle funds to my bank account?"
-    answer: "Stripe's standard settlement in Australia is T+2 business days (two business days after the transaction). For example, a payment collected on Monday settles to your bank account by Wednesday. Stripe Instant Payouts (for an additional fee) can accelerate this to within minutes for eligible accounts. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download free →](/playbook)"
+    answer: "Stripe's standard settlement in Australia is T+2 business days (two business days after the transaction). For example, a payment collected on Monday settles to your bank account by Wednesday. Stripe Instant Payouts (for an additional fee) can accelerate this to within minutes for eligible accounts. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling."
 pubDate: 'May 20 2026'
 updatedDate: 'Jul 30 2026'
 category: "Business Growth"

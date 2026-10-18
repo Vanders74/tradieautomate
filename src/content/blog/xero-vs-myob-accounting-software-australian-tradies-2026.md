@@ -14,7 +14,7 @@ faq:
   - question: "What does Xero cost for a trade business in 2026?"
     answer: "Budget $65/month (Standard plan) for unlimited invoicing. The $32/month Starter plan's 20-invoice limit is not practical for active trade businesses."
   - question: "Can both handle Single Touch Payroll Phase 2?"
-    answer: "Yes. Both are STP2 compliant. MYOB's setup is more guided; Xero requires manual ATO category tagging on each pay item. Incorrect Xero setup creates ATO reporting errors — see the Electrical Award allowance guide for correct setup. > **This article is featured in Chapter 8 of The Sparky's Playbook.** > The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download the full book free →](/playbook)"
+    answer: "Yes. Both are STP2 compliant. MYOB's setup is more guided; Xero requires manual ATO category tagging on each pay item. Incorrect Xero setup creates ATO reporting errors — see the Electrical Award allowance guide for correct setup."
 ---
 
 **The 30-Second Verdict**

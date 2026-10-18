@@ -9,7 +9,7 @@ faq:
   - question: "Is the ServiceM8 Tradify difference worth the price premium?"
     answer: "For solar installers, yes — and ServiceM8 is often cheaper once you have 4+ staff (Tradify's per-user pricing escalates). For sole traders doing simple general trade work where compliance documentation is minimal, Tradify's simplicity might be adequate."
   - question: "How does ServiceM8 help with CER audits specifically?"
-    answer: "ServiceM8 creates a complete, timestamped, GPS-verified documentation record for every solar installation — forms, photos, client communications, invoices. When the CER requests documentation for an installation from 18 months ago, you pull up the job record and export the complete package. No scrambling, no missing documentation. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download free →](/playbook)"
+    answer: "ServiceM8 creates a complete, timestamped, GPS-verified documentation record for every solar installation — forms, photos, client communications, invoices. When the CER requests documentation for an installation from 18 months ago, you pull up the job record and export the complete package. No scrambling, no missing documentation. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling."
 pubDate: 'Apr 27 2026'
 updatedDate: 'Jul 30 2026'
 category: "Software Comparisons"
