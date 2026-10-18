@@ -2,7 +2,7 @@
 title: "ServiceM8 Quoting to Payment Workflow 2026: 7 Steps to Get Paid"
 description: "ServiceM8 quoting to payment in 7 steps: on-site quotes, one-tap approval, invoice approval, ServiceM8 Pay and Xero sync — with the real 2026 limits."
 pubDate: 'Aug 08 2026'
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 19 2026'
 category: 'ServiceM8'
 breakdown:
   - title: "Quote on-site"
