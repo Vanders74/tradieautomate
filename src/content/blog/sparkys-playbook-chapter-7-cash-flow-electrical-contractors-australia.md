@@ -286,6 +286,7 @@ This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF 
 - [Xero vs MYOB for Australian Tradies 2026](/blog/xero-vs-myob-accounting-software-australian-tradies-2026/)
 - [5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)
 - [How to Handle Negative Google Reviews — Tradie Guide](/blog/how-to-handle-negative-google-reviews-tradie/)
+- [How to Price Solar Installations in Australia (2026)](/blog/how-to-price-solar-installations-australia-2026/)
 
 ---
 

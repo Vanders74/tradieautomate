@@ -160,3 +160,4 @@ This is what a mature solar installation business looks like — and it starts w
 - *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth/)*
 - *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses/)*
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+- [How to Price Solar Installations in Australia (2026)](/blog/how-to-price-solar-installations-australia-2026/)

@@ -197,6 +197,14 @@ Once the water-treatment book is growing, the next move is **liquid cooling spec
 
 ---
 
+## Related Reading
+
+- [Data Centre Fire Protection for Australian Contractors](/blog/data-centre-fire-protection-australia-2026/)
+- [Data Centre Cooling: HVAC Contracts Guide](/blog/ai-data-centre-cooling-hvac-contractors-australia-2026/)
+- [AI Data Centre Growth: The Trades Opportunity](/blog/ai-data-centre-growth-electricians-australia-2026/)
+
+---
+
 ## FAQ
 
 ### What is data centre plumbing and why is demand growing?

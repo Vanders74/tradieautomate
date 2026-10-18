@@ -193,6 +193,14 @@ Once the maintenance book is growing, the next move is **liquid cooling capabili
 
 ---
 
+## Related Reading
+
+- [Data Centre Fire Protection for Australian Contractors](/blog/data-centre-fire-protection-australia-2026/)
+- [Data Centre Plumbing & Liquid Cooling Contracts](/blog/data-centre-plumbing-liquid-cooling-australia-2026/)
+- [AI Data Centre Growth: The Trades Opportunity](/blog/ai-data-centre-growth-electricians-australia-2026/)
+
+---
+
 ## FAQ
 
 ### What is data centre cooling and why is HVAC demand growing?

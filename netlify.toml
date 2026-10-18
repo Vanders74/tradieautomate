@@ -255,3 +255,17 @@
   to = "/blog/ccew-nsw-7-day-deadline-rule/"
   status = 301
   force = true
+
+# Category archive removed; GSC still has 1 impression on this URL.
+# Send it to the blog index rather than 404ing.
+[[redirects]]
+  from = "/blog/category/e-book/"
+  to = "/blog/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/category/e-book"
+  to = "/blog/"
+  status = 301
+  force = true

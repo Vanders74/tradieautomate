@@ -211,6 +211,13 @@ For most businesses we see, it's either unbilled time or late payment float. Bot
 
 ---
 
+## Related Reading
+
+- [How to Price Solar Installations in Australia (2026)](/blog/how-to-price-solar-installations-australia-2026/)
+- [Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia/)
+
+---
+
 ## FAQ
 
 ### What is a healthy profit margin for solar installers in Australia?
