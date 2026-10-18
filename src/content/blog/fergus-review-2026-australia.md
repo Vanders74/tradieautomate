@@ -1,8 +1,8 @@
 ---
-title: "Fergus Review 2026: Is It Worth It for Australian Tradies?"
-description: "Honest Fergus review for Australian electricians, solar installers, and tradies in 2026 — real pricing, features, compliance tools, and how it compares to ServiceM8 and Tradify."
+title: "Fergus Review 2026 for Aussie Tradies: $53/User, Pros & Cons"
+description: "$53–$77 a user a month in 2026. Job costing beats Tradify; no CCEW form hurts NSW sparkies. Full verdict inside."
 pubDate: 2026-07-21
-updatedDate: 2026-07-21
+updatedDate: 2026-10-19
 heroImage: '/hero-fergus-review-2026-australia.jpg'
 category: "Software Comparisons"
 tags: ["fergus review", "fergus australia", "fergus pricing 2026", "fergus vs servicem8", "fergus for electricians", "trade job management software", "fergus review 2026"]
@@ -10,7 +10,7 @@ faq:
   - question: "Is Fergus worth it for Australian electricians in 2026?"
     answer: "Fergus is worth considering for small trade businesses that want stronger job costing and margin visibility than Tradify offers, at a lower price point than simPRO. For Australian electricians specifically, Fergus lacks a pre-built CCEW compliance form — a limitation that makes ServiceM8 the better choice for NSW-based electrical businesses with regular compliance documentation requirements. For trades where compliance form depth isn't critical (plumbing, gasfitting, general maintenance), Fergus is a solid mid-tier option."
   - question: "How much does Fergus cost in Australia in 2026?"
-    answer: "Fergus pricing in Australia is approximately $49–$55 per user per month (AUD), billed monthly. A solo operator pays around $49–$55/month. A 3-person team pays approximately $147–$165/month. A 5-person team pays approximately $245–$275/month. Unlike ServiceM8, which doesn't charge per user, Fergus cost scales directly with team size. A 14-day free trial is available."
+    answer: "Fergus pricing in Australia in 2026 is $53 per user per month on Essentials and $77 per user per month on Professional, in AUD excluding GST. Timesheet-only users are an add-on from $26/month. A 3-person team pays $159 on Essentials or $231 on Professional; a 5-person team pays $265 or $385. Unlike ServiceM8, which uses job-volume pricing with no per-user fee, Fergus cost scales directly with team size. GPS, SWMS, purchase orders and phone support require Professional. A 14-day free trial is available."
   - question: "What does Fergus do well compared to Tradify?"
     answer: "Fergus is more sophisticated than Tradify in job costing and margin tracking — it tracks actual vs estimated costs at the job level, making it easier to see which jobs are profitable. Fergus also has a stronger purchasing and supplier integration. Both platforms lack pre-built CCEW forms for electricians. Tradify is cheaper and simpler; Fergus offers more financial visibility for businesses that want to track job-level profitability more carefully."
   - question: "Does Fergus have CCEW compliance support for NSW electricians?"
@@ -35,17 +35,23 @@ The other distinguishing feature is its supplier integration. Fergus integrates 
 
 ## Pricing
 
-| Team size | Monthly cost (AUD) |
-|---|---|
-| 1 user | ~$49–$55/month |
-| 3 users | ~$147–$165/month |
-| 5 users | ~$245–$275/month |
-| 8 users | ~$392–$440/month |
-| 10 users | ~$490–$550/month |
+Fergus has two paid plans, priced per user per month in AUD, excluding GST: **Essentials from $53** and **Professional from $77**. Timesheet-only seats are an add-on from $26/month; contractor users are $4/day.
 
-Fergus charges per user — cost scales linearly with team size.
+| Team size | Essentials ($53/user) | Professional ($77/user) |
+|---|---|---|
+| 1 user | $53/month | $77/month |
+| 3 users | $159/month | $231/month |
+| 5 users | $265/month | $385/month |
+| 8 users | $424/month | $616/month |
+| 10+ users | Enterprise quote | Enterprise quote |
 
-**Compare to ServiceM8:** A 5-person team on ServiceM8 Manage ($199/month) vs Fergus (~$245–$275/month). At small team sizes, Fergus is more expensive than ServiceM8 — a key consideration given ServiceM8 covers more compliance-specific features.
+Fergus charges per user — cost scales linearly with team size, with no discount for the second seat onward.
+
+**Compare to ServiceM8:** A 5-person team on ServiceM8 Manage (~$199/month, job-volume pricing with no per-user fee) versus Fergus at $265 on Essentials or $385 on Professional. At small team sizes Fergus is materially more expensive than ServiceM8 — a key consideration given ServiceM8 covers more compliance-specific features.
+
+**Plan trap:** GPS tracking, auto supplier integrations, purchase orders, SWMS and phone support are Professional-only. If those features are why you're choosing Fergus, budget at $77/user, not $53.
+
+Prices verified on fergus.com/au/pricing in October 2026. Fergus was also running a limited 90%-off-first-months promotion until December 2026 — treat promotional pricing as temporary and compare against the standard rate.
 
 ---
 
@@ -99,8 +105,8 @@ Fergus has stronger NZ roots and NZ user adoption. In Australia, ServiceM8 and T
 
 | Feature | Fergus | ServiceM8 | Tradify |
 |---|---|---|---|
-| Pricing | ~$49/user/month | Job volume (no per-user fee) | ~$35/user/month |
-| Cost (3 staff) | ~$147/month | $99/month | ~$105/month |
+| Pricing | $53 (Essentials) / $77 (Pro) per user/month | Job volume (no per-user fee) | ~$35/user/month |
+| Cost (3 staff) | $159 (Essentials) / $231 (Pro) | $99/month | ~$105/month |
 | CCEW form (NSW) | ❌ No | ✅ Pre-built | ❌ No |
 | Job costing | ✅ Strong | Basic | Basic |
 | Supplier integration | ✅ Yes | Manual catalog | Limited |
@@ -115,7 +121,7 @@ Fergus has stronger NZ roots and NZ user adoption. In Australia, ServiceM8 and T
 
 Fergus is a solid mid-tier platform with genuine strengths in job costing and supplier integration. For plumbing, gasfitting, and HVAC businesses where margin visibility is a priority and CCEW compliance isn't a daily requirement, it's worth a serious look.
 
-For Australian electricians specifically, the missing CCEW form is a real problem. And at $49/user/month, Fergus is often more expensive than ServiceM8 for comparable or smaller teams — while offering less on the compliance documentation front.
+For Australian electricians specifically, the missing CCEW form is a real problem. And at $53–$77/user/month, Fergus is usually more expensive than ServiceM8 for comparable or smaller teams — while offering less on the compliance documentation front.
 
 If you're choosing between Fergus and ServiceM8 as an electrician:
 - If CCEW is a regular part of your work → ServiceM8
@@ -135,7 +141,7 @@ Fergus is worth considering for small trade businesses that want stronger job co
 
 ### How much does Fergus cost in Australia in 2026?
 
-Fergus pricing in Australia is approximately $49–$55 per user per month (AUD), billed monthly. A solo operator pays around $49–$55/month. A 3-person team pays approximately $147–$165/month. A 5-person team pays approximately $245–$275/month. Unlike ServiceM8, which doesn't charge per user, Fergus cost scales directly with team size. A 14-day free trial is available.
+Fergus pricing in Australia in 2026 is $53 per user per month on Essentials and $77 per user per month on Professional, in AUD excluding GST. Timesheet-only users are an add-on from $26/month. A 3-person team pays $159 on Essentials or $231 on Professional; a 5-person team pays $265 or $385. Unlike ServiceM8, which uses job-volume pricing with no per-user fee, Fergus cost scales directly with team size. GPS, SWMS, purchase orders and phone support require Professional. A 14-day free trial is available.
 
 ### What does Fergus do well compared to Tradify?
 
