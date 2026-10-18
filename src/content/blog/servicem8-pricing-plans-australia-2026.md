@@ -2,7 +2,7 @@
 title: 'ServiceM8 Pricing Plans Australia 2026: $0–$349/mo Incl GST'
 description: "All five ServiceM8 AU plans with 2026 card fees by tier (1.19%–1.89% + 30c), the 1 October surcharge ban, which features are gated to Growing ($79) or Premium ($149), and what a 5-person crew really pays."
 pubDate: 2026-07-20
-updatedDate: 2026-10-18
+updatedDate: 2026-10-19
 heroImage: "/hero-servicem8-pricing-plans-australia-2026.jpg"
 category: "ServiceM8"
 tags: ["servicem8 pricing", "servicem8 cost", "servicem8 plans", "servicem8 price australia", "how much does servicem8 cost", "servicem8 add-on costs", "job management software pricing"]
@@ -21,7 +21,7 @@ faq:
     answer: "Sole traders doing 50 or fewer jobs a month: Starter at $29. Small crews (2-5 staff, 150 jobs): Growing at $79, which is also the first tier that includes electronic forms, asset management and proposals. Mid-size teams (5-15 staff, 500 jobs): Premium at $149, which adds job profitability, markup billing and Knowledge. High-volume operations: Premium Plus at $349 with 20c per job beyond 1,500. If your work needs digital compliance certificates, the entry price is $79, not $29."
 ---
 
-ServiceM8 is the most widely used job management platform among Australian trade businesses. Its Forms add-on is why compliance-heavy trades end up there: the CCEW required in NSW under the **Gas and Electricity (Consumer Safety) Act 2017** (administered by **Building Commission NSW**) and Victoria's Certificate of Electrical Safety can be captured as a ServiceM8 form and output as a PDF — but you either build that form or buy one from the Form Store, and building your own only works on Growing and above. But the pricing page raises more questions than it answers. Five plan tiers. Job caps. SMS limits. Card fees that differ by tier. Add-ons that live on separate pages. What you actually pay can be very different from the sticker price.
+ServiceM8 is the most widely used job management platform among Australian trade businesses. Its Forms add-on is why compliance-heavy trades end up there: the CCEW required in NSW under the **Gas and Electricity (Consumer Safety) Act 2017** (administered by **Building Commission NSW**) and Victoria's Certificate of Electrical Safety (COES) can be captured as a ServiceM8 form and output as a PDF — but you either build that form or buy one from the Form Store, and building your own only works on Growing and above. But the pricing page raises more questions than it answers. Five plan tiers. Job caps. SMS limits. Card fees that differ by tier. Add-ons that live on separate pages. What you actually pay can be very different from the sticker price.
 
 This deep-dive breaks down every ServiceM8 plan, every add-on, every hidden cost, and what you'll actually pay for your specific business — compared dollar-for-dollar against simPRO, Tradify, Fergus, and AroFlo.
 
@@ -231,7 +231,7 @@ The $29 plan is 12% of the bill. The card rail is the other 88%. Note that at 30
 
 ### Scenario 3: 15-Person Solar & Electrical Company (400 jobs/month)
 
-**Business profile:** 3 office staff + 12 field technicians. Residential solar and commercial electrical. 400 jobs/month. Heavy documentation (CCEW, CES, STC paperwork). Uses Xero and Deputy. Sits on Premium (1.39% + 30c).
+**Business profile:** 3 office staff + 12 field technicians. Residential solar and commercial electrical. 400 jobs/month. Heavy documentation (CCEW, COES, STC paperwork). Uses Xero and Deputy. Sits on Premium (1.39% + 30c).
 
 | Cost Item | Monthly Cost |
 |---|---|
@@ -376,10 +376,10 @@ ServiceM8 offers local setup partners (at additional cost) and 24/7 chat/email s
 
 ### Compliance Forms — What ServiceM8 Actually Gives You
 
-This is where the platform separates from international competitors, but the mechanism matters if you're choosing a plan on it. ServiceM8 does not ship a pre-built CCEW or CES. What it gives you is a **Forms engine**: either a form bought from the Form Store (250+ ready-made forms across electrical, solar and compliance categories, one-off cost, available on every plan including Free), or a custom form you build from a Word template (Growing and above).
+This is where the platform separates from international competitors, but the mechanism matters if you're choosing a plan on it. ServiceM8 does not ship a pre-built CCEW or COES. What it gives you is a **Forms engine**: either a form bought from the Form Store (250+ ready-made forms across electrical, solar and compliance categories, one-off cost, available on every plan including Free), or a custom form you build from a Word template (Growing and above).
 
 - **CCEW (Certificate of Compliance for Electrical Work):** required in NSW under the Gas and Electricity (Consumer Safety) Act 2017 and lodged with Building Commission NSW via eCert. ServiceM8 captures the data and produces the PDF; **the lodgement stays in eCert** — a PDF is not a valid lodgement on its own.
-- **CES (Certificate of Electrical Safety, Victoria):** issued under the Electricity Safety (General) Regulations 2019. The deadline that catches people is not the 30-calendar-day customer copy: for **prescribed work** — which includes replacing a switchboard — the certificate details must be notified to ESV electronically within **2 business days**, with inspection inside 8 business days and copies inside 16 calendar days. Non-prescribed work is where the 30-day customer copy applies.
+- **COES (Certificate of Electrical Safety, Victoria):** issued under the Electricity Safety (General) Regulations 2019. The deadline that catches people is not the 30-calendar-day customer copy: for **prescribed work** — which includes replacing a switchboard — the electrician completes and signs the COES within **4 business days** of finishing the work, the responsible person notifies ESV electronically within **2 business days** of the certificate being completed, an independent Licensed Electrical Inspector must inspect within **8 business days** of the work, the inspector returns the completed COES within 4 business days of the inspection, and copies then go to the customer, ESV and the distribution business within **4 business days** of receiving it. Non-prescribed work is where the one-month customer copy applies.
 - **WA:** a different instrument again — an Electrical Safety Certificate under the Electricity (Licensing) Regulations 1991, delivered within 28 days and lodged through eNotice.
 - **Custom safety checklists:** SWMS, site induction forms, risk assessments, with geo-tagged photo capture and digital signature.
 
