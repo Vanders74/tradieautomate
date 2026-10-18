@@ -13,7 +13,7 @@ faq:
   - question: "How do I stay compliant as solar and electrical standards change in 2026?"
     answer: "The most reliable approach is layered: (1) subscribe to CEC update emails and the relevant state electrical safety regulator's bulletins; (2) complete your annual CEC CPD units, which are updated to reflect standard changes; (3) review your compliance checklist and job documentation workflows at the start of each year; and (4) use job management software that supports custom form updates, so when a new documentation requirement is introduced (e.g. a new field on the CCEW, or a new CER photo requirement), you can update your digital form in minutes rather than reprinting paper checklists. Standards updates in 2024–2025 have primarily affected battery storage (AS/NZS 5139 tightening) and grid connection limits."
 pubDate: 'May 24 2026'
-updatedDate: 'Jul 30 2026'
+updatedDate: 'Oct 19 2026'
 category: "Compliance"
 heroImage: '/hero-compliance-safety-2026.jpg'
 tags: ['compliance', 'safety', 'SWMS', 'solar', 'electrician', 'CER', 'AS/NZS']
@@ -143,7 +143,7 @@ Electrical licensing and compliance requirements vary by state. The key obligati
 
 ### Victoria — Energy Safe Victoria
 
-- **Certificate of Electrical Safety (COES):** Required for electrical installation work, including solar and battery. For prescribed work (switchboards, consumer mains, main earthing, solar, battery) it is signed within 4 business days, ESV notified within 2 business days of that, inspected within 8 business days, and copies distributed within 16 calendar days. The 30-day window applies only to the customer copy on non-prescribed work.
+- **Certificate of Electrical Safety (COES):** Required for electrical installation work, including solar and battery. For prescribed work (switchboards, consumer mains, main earthing, solar, battery) it is signed within 4 business days, ESV notified within 2 business days of that, inspected within 8 business days, and copies distributed within 4 business days of the inspector returning the completed COES (the inspector has 4 business days after the inspection to return it). The 30-day window applies only to the customer copy on non-prescribed work.
 - **Notification requirements:** Certain work types require notification to your network distributor. Know which jobs trigger this obligation.
 - **Licensed electrical inspection:** Some work types require inspection by a licensed electrical inspector before connection. Confirm requirements for your jurisdiction before scheduling connection.
 - **Victorian Energy Upgrades (VEU):** If you're installing heat pump hot water systems, the state VEU program generates VEECs on top of STCs — with its own ESC accreditation and documentation requirements. See our [VEU guide for electricians](/blog/victorian-energy-upgrades-veu-electricians-guide-2026/).

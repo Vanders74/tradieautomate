@@ -2,7 +2,7 @@
 title: "ServiceM8 for Electricians 2026: What It Does & Costs"
 description: "ServiceM8 for electricians from $29/mo incl GST — but compliance forms need the $79 Growing plan. Real card fees, 5-user costs, offline limits, Xero/MYOB sync."
 pubDate: 'Apr 27 2026'
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 19 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-for-electricians.jpg'
 faq:
@@ -48,7 +48,7 @@ Electrical work in Australia is heavily regulated — and rightfully so. The con
 
 But the administrative burden is real. Consider what a single residential electrical job can require:
 
-- A **Certificate of Electrical Safety (COES)** in Victoria. If the job is *prescribed* work — changing a switchboard assembly counts — there is no 30-day window: the certificate is signed within 4 business days of completing the work, electronically notified to ESV within 2 business days of that, inspected by a Licensed Electrical Inspector within 8 business days of the work, and copies reach the customer, ESV and the distribution business within 16 calendar days. Only non-prescribed work gets the one-month window.
+- A **Certificate of Electrical Safety (COES)** in Victoria. If the job is *prescribed* work — changing a switchboard assembly counts — there is no 30-day window: the certificate is signed within 4 business days of completing the work, electronically notified to ESV within 2 business days of that, inspected by a Licensed Electrical Inspector within 8 business days of the work, and copies reach the customer, ESV and the distribution business within 4 business days of the inspector returning the completed COES (the inspector has 4 business days after the inspection to return it). Only non-prescribed work gets the one-month window.
 - Test records for the work performed
 - Compliance photos (switchboard label, installation work, meter)
 - Signed customer acceptance

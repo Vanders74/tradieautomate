@@ -165,7 +165,7 @@ The Certificate of Electrical Safety (COES) is a mandatory compliance document t
 - Electronic notification to ESV must follow within **2 business days** of completing the certificate — not 2 days from the job itself
 - A Licensed Electrical Inspector must inspect within **8 business days** of completion of the work
 - The inspector notifies ESV within **4 business days** of the inspection and returns the completed COES to the responsible person within the same 4 business days
-- Copies must reach the customer, the distribution business and ESV within **16 calendar days** of completion of the work, and the responsible person keeps their copy for **3 years**
+- Copies must reach the customer, the distribution business and ESV within **4 business days** of the inspector returning the completed COES, and the responsible person keeps their copy for **3 years**
 - For **non-prescribed** work (power points, lighting, air conditioning, hot water), the REC must give the customer a copy of the COES within **30 calendar days**
 - Lodged through the **ESVConnect** portal (paper certificates can only be lodged by phone on 1300 360 366)
 - Must include sufficient job description to identify the work — generic descriptions like "electrical installation" don't meet ESV's requirements

@@ -2,7 +2,7 @@
 title: "The Sparky's Playbook — Chapter 1: Mastering State Licensing & Compliance"
 description: "Excerpt from The Sparky's Playbook — Ch.1: electrical licensing across all Australian states. Renewals, insurance, multi-state work, and compliance traps."
 pubDate: 2026-07-20
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 19 2026'
 heroImage: "/hero-ccew-nsw-compliance.jpg"
 category: "Compliance"
 tags: ["electrical licence", "state licensing", "compliance", "QBCC", "Building Commission NSW", "Energy Safe Victoria", "EnergySafety WA", "CBS SA", "contractor licence"]
@@ -81,7 +81,7 @@ Victoria's system is administered by Energy Safe Victoria. The two key credentia
 This is your business registration — equivalent to NSW's ECL. It allows your business entity to contract electrical work. REC registration must be renewed every 3 years.
 
 **Certificate of Electrical Safety (COES)**
-The COES is Victoria's version of NSW's CCEW — the compliance document you must issue after completing electrical installation work. There is no blanket 30-day lodgement: for prescribed work (consumer mains, main switchboard, meter box, main earthing, solar, battery) the electrician signs within 4 business days, ESV is notified within 2 business days of that, an independent Licensed Electrical Inspector inspects within 8 business days, and copies go to the customer, the distribution business and ESV within 16 calendar days. The one-month window covers only the customer copy on non-prescribed work. COES are managed through ESVConnect, not "MyESV".
+The COES is Victoria's version of NSW's CCEW — the compliance document you must issue after completing electrical installation work. There is no blanket 30-day lodgement: for prescribed work (consumer mains, main switchboard, meter box, main earthing, solar, battery) the electrician signs within 4 business days, ESV is notified within 2 business days of that, an independent Licensed Electrical Inspector inspects within 8 business days, and copies go to the customer, the distribution business and ESV within 4 business days of the inspector returning the completed COES (the inspector has 4 business days after the inspection to return it). The one-month window covers only the customer copy on non-prescribed work. COES are managed through ESVConnect, not "MyESV".
 
 **What catches Victorian contractors out:**
 - The prescribed-work clock, not a 30-day one — the 4-business-day signature and 2-business-day notification are what most late lodgements actually miss

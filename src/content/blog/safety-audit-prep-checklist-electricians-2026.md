@@ -2,7 +2,7 @@
 title: 'Electrical Safety Audit Prep Checklist 2026: SafeWork, ESV & State-by-State Requirements'
 description: "SafeWork NSW, ESV & ESO electrical safety audit prep: the 6 checklist categories, documentation you must have on-site, $22K penalty triggers, and how to pass first time. Free downloadable PDF checklist."
 pubDate: 'Aug 2026'
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 19 2026'
 category: 'Compliance'
 heroImage: '/hero-safety-audit-prep-checklist.jpg'
 tags: ['safety audit', 'SafeWork', 'ESV', 'compliance', 'electrical safety', 'checklist']
@@ -14,7 +14,7 @@ faq:
   - question: "What are the most common electrical safety audit failures?"
     answer: "The top 5 audit failures are: (1) missing or incomplete CCEW certificates, (2) test records not matching AS/NZS 3000 requirements, (3) no SWMS for high-risk construction work, (4) expired or incorrect class of electrical licence, (5) poor cable management and labelling in switchboards. 80% of auditors check switchboard labelling first — it sets the tone for the entire audit."
   - question: "How do I prepare for an ESV (Victoria) electrical safety audit?"
-    answer: "Victoria issues a Certificate of Electrical Safety (COES), not a 30-day lodgement. For prescribed work — switchboards, consumer mains, main earthing, solar, battery — the certificate is signed within 4 business days of completing the work, the responsible person notifies ESV within 2 business days of that, an independent Licensed Electrical Inspector must inspect within 8 business days, and copies go to the customer, the distribution business and ESV within 16 calendar days. The one-month window applies only to the customer copy on non-prescribed work. Keep the COES and the inspection record against the job; ESV audits certificated work and can require rectification."
+    answer: "Victoria issues a Certificate of Electrical Safety (COES), not a 30-day lodgement. For prescribed work — switchboards, consumer mains, main earthing, solar, battery — the certificate is signed within 4 business days of completing the work, the responsible person notifies ESV within 2 business days of that, an independent Licensed Electrical Inspector must inspect within 8 business days, and copies go to the customer, the distribution business and ESV within 4 business days of the inspector returning the completed COES — the inspector has 4 business days after the inspection to return it. The one-month window applies only to the customer copy on non-prescribed work. Keep the COES and the inspection record against the job; ESV audits certificated work and can require rectification."
   - question: "Is there a downloadable electrical safety audit checklist?"
     answer: "Yes — this article includes a free downloadable PDF checklist covering all 6 audit categories: licensing, certificates, test records, SWMS, insurance, and on-site safety. Download it at the end of the article and keep a printed copy in your switchboard prep area."
 ---
@@ -96,7 +96,7 @@ Every electrical safety audit — regardless of the state regulator — follows 
 **What auditors check:**
 
 - CCEW (NSW), COES (VIC), or a Queensland certificate of testing and compliance for **all notifiable work** completed in the past 12 months. Auditors typically request the last 20 certificates.
-- That certificates were **lodged within the statutory timeframe** — 7 days in NSW (Gas and Electricity (Consumer Safety) Regulation 2018, s37A); in VIC prescribed work runs on business-day clocks (signed within 4, ESV notified within 2, inspected within 8, copies out within 16 calendar days) rather than a 30-day lodgement; in QLD there is no lodgement deadline at all — the certificate of testing and compliance is issued and kept for 5 years.
+- That certificates were **lodged within the statutory timeframe** — 7 days in NSW (Gas and Electricity (Consumer Safety) Regulation 2018, s37A); in VIC prescribed work runs on business-day clocks (signed within 4, ESV notified within 2, inspected within 8, copies out within 4 business days of the inspector returning the COES) rather than a 30-day lodgement; in QLD there is no lodgement deadline at all — the certificate of testing and compliance is issued and kept for 5 years.
 - That certificate details match the **job records in your system** — same address, same scope of work, same date.
 
 **Most common failure:** Certificates issued but **not lodged** with the regulator. The contractor has a copy on file but never submitted it through the eCert portal (NSW), ESV Connect (VIC), or the Electrical Safety Office portal (QLD). This is an automatic non-compliance finding.
@@ -201,7 +201,7 @@ While the six categories above apply everywhere, each state regulator has its ow
 - **Prescribed work without an inspection.** Prescribed work — consumer mains, main switchboard, meter box, main earthing, solar, battery — cannot be connected until an independent Licensed Electrical Inspector has inspected it. Work that is connected before inspection is the failure mode ESV finds.
 - **A COES that doesn't match the job.** ESV audits certificated work, and the certificate has to describe the work actually done, signed by the person who did it, with the inspection record attached. A certificate issued for work that doesn't match the installation is the audit finding — there is no published "auto-flag" from DNSP data, so treat any page claiming one as unverified.
 
-**Deadline:** for prescribed work (switchboards, consumer mains, main earthing, solar, battery) the COES is signed within **4 business days**, ESV notified within **2 business days** of that, inspection within **8 business days**, and copies to the customer, the distribution business and ESV within **16 calendar days** (Electricity Safety Act 1998 (Vic)). The one-month figure applies only to the customer copy on non-prescribed work.
+**Deadline:** for prescribed work (switchboards, consumer mains, main earthing, solar, battery) the COES is signed within **4 business days**, ESV notified within **2 business days** of that, inspection within **8 business days**, and copies to the customer, the distribution business and ESV within **4 business days** of the inspector returning the completed COES (the inspector has 4 business days after the inspection to return it) — Electricity Safety Act 1998 (Vic) s45A(6)(a). The one-month figure applies only to the customer copy on non-prescribed work.
 
 ### Queensland — Electrical Safety Office (ESO)
 
@@ -348,7 +348,7 @@ The top 5 audit failures are: (1) missing or incomplete CCEW certificates, (2) t
 
 ### How do I prepare for an ESV (Victoria) electrical safety audit?
 
-Victoria issues a Certificate of Electrical Safety (COES), not a 30-day lodgement. For prescribed work — switchboards, consumer mains, main earthing, solar, battery — the certificate is signed within 4 business days of completing the work, the responsible person notifies ESV within 2 business days of that, an independent Licensed Electrical Inspector must inspect within 8 business days, and copies go to the customer, the distribution business and ESV within 16 calendar days. The one-month window applies only to the customer copy on non-prescribed work. Keep the COES and the inspection record against the job; ESV audits certificated work and can require rectification.
+Victoria issues a Certificate of Electrical Safety (COES), not a 30-day lodgement. For prescribed work — switchboards, consumer mains, main earthing, solar, battery — the certificate is signed within 4 business days of completing the work, the responsible person notifies ESV within 2 business days of that, an independent Licensed Electrical Inspector must inspect within 8 business days, and copies go to the customer, the distribution business and ESV within 4 business days of the inspector returning the completed COES — the inspector has 4 business days after the inspection to return it. The one-month window applies only to the customer copy on non-prescribed work. Keep the COES and the inspection record against the job; ESV audits certificated work and can require rectification.
 
 ### Is there a downloadable electrical safety audit checklist?
 
