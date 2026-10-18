@@ -195,3 +195,37 @@ Installing across the border? Each state has its own distributor framework, expo
 - [QLD Energex & Ergon guide](/blog/qld-energex-ergon-solar-connection-guide-2026/) — dynamic connections on IEEE 2030.5 SEP2
 - [WA Western Power guide](/blog/wa-western-power-solar-connection-guide-2026/) — isolated SWIS grid, 30kVA aggregate inverter rule
 - [VIC distributors guide](/blog/vic-solar-connection-guide-2026/) — five networks, uniform 5kW limit
+
+## Frequently Asked Questions
+
+### Who is the electricity distributor in South Australia?
+
+SA Power Networks (SAPN) is the sole electricity distributor for all of South Australia. ElectraNet operates the high-voltage transmission network, but SAPN owns and operates the distribution network (poles, wires, substations) that every residential and business solar system connects to. Your electricity retailer (AGL, Origin, EnergyAustralia, etc.) is separate from the distributor.
+
+### What is the solar connection process with SA Power Networks?
+
+For inverters up to 30kVA total (small embedded generation), the process is: submit an application in the SAPN Portal with the NMI and meter number, receive approval (often instant if compliant and no network constraints), install and commission the system, then close out the installation in the Portal. A separate large-embedded-generation process applies above 30kVA.
+
+### Are flexible exports mandatory for new solar in South Australia?
+
+Yes — since 1 July 2023, all new exporting solar systems in SA must be capable of receiving dynamic export limit commands from SA Power Networks. This means the inverter must support the CSIP-AUS protocol, be internet-connected, and be correctly commissioned. Flexible Exports itself is the connection option that lets the export limit vary between 1.5kW and 10kW per phase.
+
+### How long does SAPN solar approval take?
+
+For compliant small embedded generation (≤30kVA) with no known network constraints, SAPN applications are auto-approved essentially instantly through the Portal. Sites flagged as Low Hosting Capacity (LHCS) or on SWER lines move to a review queue and may take longer, sometimes requiring a phone call from SAPN's team or a site assessment.
+
+### Do I still need an eCoC for a solar installation in SA?
+
+Yes. The electronic Certificate of Compliance (eCoC) is a separate, government-regulated document required by the South Australian Office of the Technical Regulator under the Electricity Act 1996 (SA). The SAPN connection approval does not replace the eCoC — both are required.
+
+### What happens if the inverter loses internet on Flexible Exports?
+
+The system keeps generating, but the export limit reverts to the lower bound (1.5kW per phase for most sites, 0kW for SWER or Low Hosting Capacity sites) until the internet connection is restored. This is why a reliable connection and correct commissioning matter for flexible-export customers.
+
+### Can I connect a battery with Flexible Exports?
+
+Yes, and it is generally the recommended setup. The battery must meet AS/NZS 5139 electrical installation safety requirements, and it is commissioned alongside the solar inverter. A battery gives the system somewhere useful to send surplus energy when the network temporarily reduces the flexible export limit.
+
+### What inverter capacity needs a more detailed SAPN assessment?
+
+Small embedded generation covers total inverter capacity up to 30kVA. Above 30kVA, the installation is treated as large embedded generation and goes through a more detailed assessment with additional technical requirements and network studies. Most residential and small-commercial solar sits well within the 30kVA small-embedded-generation band.

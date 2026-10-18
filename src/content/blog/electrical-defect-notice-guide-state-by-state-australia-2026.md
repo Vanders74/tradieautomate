@@ -304,6 +304,29 @@ The consequence is not just regulatory. Property owners and insurers can pursue 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)
 
+
+## Frequently Asked Questions
+
+### What is an electrical defect notice?
+
+An electrical defect notice is a formal legal document issued by a state electrical safety regulator, network distributor, or Clean Energy Regulator auditor directing a licensed electrical contractor to rectify a specified non-compliance in completed electrical work. Notices are classified by severity: minor (administrative or documentation), major (installation non-compliance), or immediate danger (safety-critical). Each classification carries different response deadlines and consequences for non-response.
+
+### Can an electrical defect notice suspend my contractor licence?
+
+Yes. An unresolved major defect notice or immediate-danger notice can trigger a licence suspension in all Australian states. In Victoria, Energy Safe Victoria (ESV) can issue a Compliance Notice under the Electricity Safety Act 1998, non-compliance with which is grounds for suspension or cancellation of an Electrical Contractor Licence. In NSW, Building Commission NSW can act on the contractor licence and on CCEW compliance — SafeWork NSW handles WHS notices in parallel. The risk compounds when multiple defect notices across different jobs remain unresolved.
+
+### How long do I have to respond to an electrical defect notice?
+
+Deadlines vary by state and notice classification. Immediate-danger notices typically require same-day or 24-hour response. Major defects generally require rectification within 7–30 days depending on the jurisdiction and issuing authority. Minor defects may allow 30–60 days. Always read the notice itself for the specific deadline — and contact your state regulator or industry body if you believe the deadline is unachievable.
+
+### What are the most common triggers for electrical defect notices?
+
+The most common triggers are: solar installations (incorrect inverter settings, missing required labelling, DC isolator non-compliance, wrong RCD type), switchboard work (RCD type and quantity non-compliance with AS/NZS 3000:2018 Amendment 2), general wiring (undersized cable, inadequate earthing, enclosure IP rating failures), and documentation failures (missing or late CCEW lodgement, incomplete test records). Solar-related defects account for a disproportionate share of CER audit findings nationally.
+
+### Can I appeal an electrical defect notice?
+
+Yes — all Australian states provide a formal appeal or review pathway. In Victoria, appeals against ESV Compliance Notices go to VCAT. In NSW, you can request an internal review by SafeWork NSW or appeal to the NSW Civil and Administrative Tribunal (NCAT). In Queensland, ESO decisions can be reviewed under the Queensland Electrical Safety Act 2002. Always request a review in writing before the rectification deadline passes — appealing does not automatically extend your deadline unless the regulator grants a stay.
+
 ## Related Reading
 
 - *[RCD Safety Switch Requirements Under AS/NZS 3000 — Electricians' 2026 Guide](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026/)*

@@ -157,6 +157,29 @@ If you're evaluating AroFlo, ask yourself: do you currently have 20+ assets unde
 
 ---
 
+
+## Frequently Asked Questions
+
+### Is AroFlo worth it for Australian trade businesses in 2026?
+
+AroFlo is worth it for Australian trade businesses that need comprehensive project management, asset management, and compliance documentation tools — typically 10+ field staff doing a mix of project work and ongoing maintenance contracts. For most small-to-medium electrical and solar businesses (1–10 staff), AroFlo's cost and complexity is hard to justify. ServiceM8 covers the workflow at significantly lower cost and with faster setup.
+
+### How much does AroFlo cost in Australia?
+
+AroFlo uses custom per-user pricing — you must contact them for a quote. Based on user-reported data, AroFlo typically costs $80–$150/user/month, with a minimum user count often applied. For a 5-person team, expect $400–$750/month. AroFlo also charges an implementation fee, which varies based on business complexity. Unlike ServiceM8's flat job-volume pricing, AroFlo's cost scales directly with team size.
+
+### What is AroFlo best used for?
+
+AroFlo is best suited for: trade businesses with ongoing maintenance contracts that need systematic asset tracking and scheduled service reminders; multi-stage commercial project management with detailed progress tracking; businesses needing compliance certificate management across multiple clients and assets; and medium-to-large operations (8–50+ staff) that have outgrown simpler platforms. AroFlo is particularly strong in HVAC, fire protection, and facilities management — trades with recurring maintenance obligations.
+
+### Does AroFlo work for electricians in Australia?
+
+AroFlo works for electricians and has compliance documentation tools that can be configured for CCEW and state electrical certificates. However, unlike ServiceM8, there's no pre-built CCEW form — compliance documentation requires configuration during implementation. For electrical businesses with significant ongoing maintenance contracts (switchboard maintenance, exit lighting testing, etc.), AroFlo's asset management adds genuine value. For project-and-installation focused electrical businesses, ServiceM8 is simpler and more cost-effective.
+
+### What are the main differences between AroFlo and ServiceM8?
+
+The key differences: AroFlo charges per user (ServiceM8 is per job volume); AroFlo has a stronger asset management and maintenance scheduling module; ServiceM8 has a pre-built CCEW form (AroFlo does not); ServiceM8's mobile app is generally considered more field-friendly; AroFlo's implementation typically takes 4–8 weeks vs 1–3 days for ServiceM8; and ServiceM8 is significantly cheaper for most team sizes. AroFlo wins for businesses with complex asset/maintenance needs; ServiceM8 wins for most project and installation-focused businesses.
+
 ## Related Reading
 
 - [ServiceM8 vs AroFlo — Which Is Better for Australian Trades?](/blog/servicem8-vs-aroflo/)

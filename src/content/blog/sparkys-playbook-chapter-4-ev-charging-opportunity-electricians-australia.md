@@ -197,6 +197,33 @@ Breaking into commercial EV work requires demonstrating capability before most c
 
 ---
 
+
+## Frequently Asked Questions
+
+### Do I need special certification to install EV chargers in Australia?
+
+Standard electrical contractor licensing is sufficient for most EV charger installations in Australia — you don't need a separate EV-specific licence. However, some manufacturers require their installer training before you can access warranty support and technical support, and CEC Solar Accreditation is increasingly relevant for solar-integrated EV systems. For DC fast chargers above 50kW, the switchboard and supply work may involve three-phase HV-adjacent work that requires more experience. Most residential and commercial AC charger installations (up to 22kW) are well within the scope of a competent licensed electrician.
+
+### What is the difference between Level 1, Level 2, and DC fast charging?
+
+Level 1 charging uses a standard 10A GPO — slow (typically 1.5-2.4kW), suitable for overnight charging at home if the vehicle isn't driven heavily. Level 2 (AC) is the category most electricians install — dedicated circuits from 7.4kW single phase to 22kW three phase, adding 30-100+ km of range per hour. DC fast charging bypasses the vehicle's onboard charger and delivers DC directly to the battery — 50kW to 350kW, adding hundreds of kilometres in 20-30 minutes. DC fast chargers require specialist installation and significant electrical infrastructure.
+
+### What does a typical residential EV charger installation involve?
+
+A typical residential Level 2 installation involves: assessing the existing switchboard for capacity, installing a dedicated 32A circuit from the switchboard to the garage or driveway, installing the EVSE (the charging unit) and commissioning it, testing per AS/NZS 3000, and issuing a Certificate of Compliance. If the existing switchboard lacks capacity, an upgrade is required first. Jobs typically take 3-6 hours depending on switchboard access and cable run complexity. Price range varies by location and complexity, but $800-$2,500 is common for a straightforward single-phase residential install.
+
+### What are the most profitable EV charging opportunities for electricians?
+
+Commercial and multi-site installations are the most profitable category. Apartment buildings (strata), commercial car parks, fleet depots, hotels, shopping centres, and workplaces all require multiple chargers with load management systems — the electrical work is substantial and the job values are high. Ongoing maintenance contracts for commercial charging infrastructure are also a growing revenue stream. The residential market is high volume but competitive on price; commercial is where the margin and complexity justify higher rates.
+
+### What is dynamic load management and why does it matter for commercial EV charging?
+
+Dynamic load management (DLM) is a system that monitors the total electrical load on a site and distributes available capacity across multiple EV chargers — reducing individual charger output when total site load is high, and increasing it when capacity is available. Without DLM, installing multiple high-powered chargers in a commercial setting could require expensive supply upgrades. With DLM, the same chargers can be installed on a smaller supply connection, making the project economically viable. Understanding DLM — and specifying and installing it correctly — is a core competency for commercial EV charging work.
+
+### Where can I get the full Sparky's Playbook?
+
+This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook).
+
 ## Related Reading
 
 - [EV Charging at Commercial Premises Australia 2026](/blog/ev-charging-commercial-premises-australia-2026/)

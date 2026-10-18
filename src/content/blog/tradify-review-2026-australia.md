@@ -118,6 +118,29 @@ ServiceM8 includes real-time GPS tracking for field staff and the "On My Way" no
 
 ---
 
+
+## Frequently Asked Questions
+
+### Is Tradify worth it for Australian electricians in 2026?
+
+Tradify is worth it for solo electricians or very small teams (1–3 staff) who want simple job management at a low cost. It handles quoting, scheduling, and invoicing cleanly. However, it lacks a pre-built CCEW compliance form — a significant limitation for NSW electrical businesses with regular compliance documentation requirements. For any electrical business where CCEW compliance is a daily workflow, ServiceM8 is the better choice despite the potentially higher cost for small teams.
+
+### How much does Tradify cost in 2026?
+
+Tradify pricing in 2026 is approximately $35 per user per month (AUD), billed monthly. For a solo operator that's $35/month, for a 3-person team $105/month, for a 5-person team $175/month. A 14-day free trial is available. Unlike ServiceM8, Tradify charges per user — this makes it cost-competitive for 1–3 users but less so as the team grows.
+
+### Does Tradify integrate with Xero?
+
+Yes. Tradify integrates with Xero, MYOB, and QuickBooks. The Xero integration syncs invoices and contacts. It's functional but less seamless than ServiceM8's Xero integration, which syncs in real-time including payments and is generally considered the more polished integration by users who have used both.
+
+### What are the main limitations of Tradify?
+
+The main limitations: no pre-built CCEW or state electrical compliance forms (document attachment only); per-user pricing that becomes expensive for larger teams; less sophisticated scheduling than ServiceM8 (no GPS 'On My Way' notifications, no client portal in the base product); and fewer compliance-specific workflow tools. It's a capable general-purpose trade platform that trades depth for simplicity.
+
+### Who is Tradify best suited for?
+
+Tradify is best suited for: solo trade operators who want simple job management; small teams (1–3 staff) in trades where compliance documentation is less critical (plumbing, painting, landscaping, general maintenance); businesses that find ServiceM8 complex and want a simpler learning curve; and operators who are starting out and want to get running with minimum setup. For electricians specifically, the CCEW limitation makes ServiceM8 the better long-term choice.
+
 ## Related Reading
 
 - [ServiceM8 vs Tradify 2026 — Which Is Better for Australian Trades?](/blog/servicem8-vs-tradify-comparison-australia/)

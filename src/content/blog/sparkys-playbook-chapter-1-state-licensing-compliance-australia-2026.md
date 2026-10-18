@@ -259,3 +259,28 @@ These three actions won't take more than two hours. They'll eliminate the most c
 > This is Chapter 1 of a free 12-chapter guide covering licensing, EV charging, commercial solar, cash flow, tech stack, marketing, and building a business worth selling. No fluff — just practical frameworks from the people behind TradieAutomate.com.
 > [Download The Sparky's Playbook free →](/playbook)
 
+## Frequently Asked Questions
+
+### Do I need a separate electrical contractor licence for each Australian state?
+
+Yes, each state issues its own electrical contractor licence through a different body. Mutual recognition provisions allow some portability but do not automatically allow you to contract work in another state — you typically need to apply separately or formally invoke mutual recognition in writing before starting work.
+
+### What happens if my electrical contractor licence expires?
+
+A lapsed licence means you cannot legally contract electrical work in that state until it is reinstated. Continuing to work on a lapsed licence can result in fines, disciplinary action, and in some states criminal prosecution. Reinstatement usually requires a fresh application and may require re-proof of insurance.
+
+### What insurance does an electrical contractor need in Australia?
+
+All states require minimum public liability cover — typically $5–20 million depending on the state and type of work. Some states also require professional indemnity. The insurance certificate must exactly name the entity holding the licence and match the cover type specified by the licensing body.
+
+### Can I use mutual recognition to work in another state without a separate licence?
+
+Mutual recognition is available under the Mutual Recognition Act 1992, but it must be formally invoked — you cannot simply work in another state assuming it applies. The process requires written notification to the receiving state's licensing body before commencing work, and some occupations and states have specific carve-outs.
+
+### What is the most common reason electrical contractor licence applications are delayed?
+
+Applying under the wrong licence category is the most common cause of delays, followed by insurance certificates that don't exactly match the licensing body's requirements — wrong issuer name, incorrect cover amount, or a general commercial policy that doesn't meet the specific trade requirements.
+
+### Where can I get the full Sparky's Playbook?
+
+This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook).

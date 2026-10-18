@@ -202,3 +202,21 @@ These three audits will tell you where AI automation investment will deliver the
 - *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/)*
 - *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)*
 - *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)*
+
+## Frequently Asked Questions
+
+### What AI automation actually works for solar installers in 2026?
+
+The applications delivering real ROI for Australian solar installers are: AI-powered lead response and qualification (instant replies while the lead is hot), automated quote follow-up sequences, compliance documentation automation (auto-populating CER documentation from job data), AI-assisted system sizing and quoting, and automated customer onboarding. These cut quote turnaround time and improve follow-up rates without replacing human judgement.
+
+### Can AI handle solar compliance documentation?
+
+AI automates the documentation workflow — capturing CER-required data, geo-tagged photos, and checklist items in a digital audit trail — but the CEC-accredited installer who signs off the installation remains legally responsible. No AI tool changes that accountability.
+
+### How much admin time can AI automation save a solar business?
+
+For a typical solar installation business, automation of lead response, quote follow-up, and documentation reduces admin hours substantially — most businesses recover multiple hours per week, with the biggest wins in quote follow-up (where most solar businesses leak revenue) and post-installation onboarding.
+
+### What should a solar installer never automate?
+
+Site assessments, compliance sign-off, relationship building, and complex problem-solving. The CEC-accredited installer remains legally accountable for sign-off; AI systematises the repeatable parts while the recovered time goes into the human-critical parts.

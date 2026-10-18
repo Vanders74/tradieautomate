@@ -7,18 +7,16 @@ category: "Business Growth"
 heroImage: '/hero-email-automation-for-tradies-2026.jpg'
 tags: ['email automation', 'business growth', 'ServiceM8', 'Brevo', 'Mailchimp', 'Australian tradies']
 faq:
-  - question: "How much money can email automation recover for a trade business?"
-    answer: "A 5-person electrical crew automating quote follow-ups can recover approximately $15,000 per year in forgotten leads. A typical trade business loses 30-40% of leads by failing to follow up more than once — email automation ensures every lead receives a timed sequence without manual intervention."
-  - question: "What's the best email automation tool for Australian tradies?"
-    answer: "Brevo's free tier (300 emails/day) is the best starting point for most small trade businesses. Mailchimp offers better templates but its free tier dropped marketing automation. ServiceM8 handles job notifications and invoices natively but doesn't do email marketing sequences — you'll want a dedicated email tool alongside it for lead nurture."
-  - question: "Is email marketing legal for Australian trade businesses under the Spam Act 2003?"
-    answer: "Yes, provided you follow the Spam Act 2003 rules: the recipient must have consented (express or inferred), every email must include a working unsubscribe link, and the sender must be clearly identified. Existing customers and people who enquired about your services qualify under inferred consent. Penalties for non-compliance can exceed $2.5 million for serious breaches."
-  - question: "Does ServiceM8 handle email automation?"
-    answer: "ServiceM8 automates job confirmations, SMS reminders, invoice delivery, and payment receipts natively. However, it does not offer marketing email automation — lead nurture sequences, newsletter campaigns, or automated quote follow-ups require a separate tool like Brevo or Mailchimp. The two work well together: ServiceM8 handles operational communication, your email platform handles growth."
-  - question: "How many automated emails should a trade business send per week?"
-    answer: "For most trade businesses, 2-3 automated emails per contact per sequence is the sweet spot. A quote follow-up sequence (immediate thank-you, 48-hour nudge, 7-day final) performs better than a single email. Avoid over-communicating — more than one email per week per contact typically increases unsubscribe rates among trades customers."
-  - question: "What's the difference between Brevo, Mailchimp, and ActiveCampaign for tradies?"
-    answer: "Brevo (formerly Sendinblue) offers the best free tier at 300 emails/day with unlimited contacts and basic automation. Mailchimp has better template designs but its free tier is now limited with no marketing automation. ActiveCampaign ($49+/month) offers advanced CRM-style pipelines suited to businesses running formal sales processes. Most tradies should start with Brevo's free tier."
+  - question: "How much does email automation cost for a trade business?"
+    answer: "Brevo's free tier covers 300 emails/day and basic automation — sufficient for most small trade businesses. Paid plans start at approximately $15/month when you need more volume or advanced features. Mailchimp's automation features require the Essentials plan from ~$20/month. Total cost for a fully automated email setup ranges from $0–$25/month for most trade businesses."
+  - question: "Can I automate SMS follow-ups instead of email?"
+    answer: "Yes — Brevo and Mailchimp both support SMS automation on paid tiers. However, SMS costs per message (typically $0.05–$0.12 per SMS in Australia) versus email's near-zero marginal cost. SMS works well for job reminders (higher open rate, more urgency), but email is more cost-effective for quote follow-ups and service reminders. ServiceM8's native SMS reminders handle job confirmations without additional cost."
+  - question: "What if a customer asks me to stop emailing them?"
+    answer: "Remove them from all automated sequences immediately. Under the Spam Act 2003, you must honour unsubscribe requests within 5 business days. Brevo and Mailchimp handle this automatically through their unsubscribe links — the contact is suppressed across all lists. If a customer asks verbally, manually unsubscribe them in your email platform."
+  - question: "Do I need a privacy policy for email automation?"
+    answer: "Yes. Australian businesses collecting personal information (names, email addresses, phone numbers) must have a privacy policy under the Privacy Act 1988. Your privacy policy should state what data you collect, how you use it, and that you won't share it with third parties. Most trade business websites link to a privacy policy in the footer — if you don't have one, the [OAIC](https://www.oaic.gov.au) provides templates for small businesses."
+  - question: "How long before I see results from email automation?"
+    answer: "Quote follow-up sequences typically show results within 2–4 weeks — the first time a previously-cold lead books from a follow-up email, the system has paid for itself. Review requests take 1–3 months to build momentum. Annual service reminders pay off at the 12-month mark when the first batch triggers. Invoice nudges show immediate cash flow improvement from the first cycle."
 ---
 
 A 5-person electrical crew that automates quote follow-ups recovers roughly $15,000 per year in forgotten leads — money already earned through marketing and reputation, left on the table because no one sent a second email.

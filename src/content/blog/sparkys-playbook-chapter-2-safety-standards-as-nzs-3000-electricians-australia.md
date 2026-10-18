@@ -224,6 +224,33 @@ If an auditor finds a non-compliance, you'll typically receive a direction to re
 
 ---
 
+
+## Frequently Asked Questions
+
+### What is AS/NZS 3000 and why does it matter for electricians?
+
+AS/NZS 3000, commonly called the Wiring Rules, is the Australian and New Zealand standard that governs the design, installation, and testing of electrical installations. It's not legislation itself — it becomes legally binding through state and territory regulations that adopt it. For electricians, it sets the minimum requirements for every installation: circuit protection, earthing, switchboard design, RCD protection, cable selection, and testing and verification. Compliance is non-negotiable; non-compliant work creates professional liability, insurance risk, and in serious cases criminal exposure.
+
+### When is an RCD required under AS/NZS 3000?
+
+AS/NZS 3000:2018 (Amendment 2) requires RCD protection for all final subcircuits in residential and domestic premises, including lighting circuits. In practice, this means every circuit in a new residential installation requires RCD protection. For non-domestic premises, the requirements vary by circuit type and installation context. State regulations may impose additional requirements — Queensland and the ACT have historically had broader RCD mandates. Always check the current state-specific regulations in addition to the standard itself.
+
+### What triggers a switchboard upgrade obligation?
+
+A switchboard upgrade is required when: (1) you're doing new work that makes the existing switchboard non-compliant — for example, adding circuits that push the total beyond the board's rated capacity; (2) the existing switchboard has no RCD protection and your state's regulations require it for the work being done; (3) the switchboard is a known hazard type (asbestos-backed boards, double-pole rewirable fuses); or (4) you identify a defect that creates an immediate safety risk. You are not automatically required to upgrade an existing board just because you attend the property, but if you identify a defect, you have obligations to notify.
+
+### What are my obligations when I find an electrical defect?
+
+When you identify an electrical defect, your obligations depend on severity. An immediate danger — a live exposed conductor, a fault that creates a shock or fire risk right now — requires you to make it safe before leaving the site (disconnect, isolate, or secure), notify the owner, and in most states issue a formal written defect notice. A non-immediate defect that still represents non-compliance requires written notification to the owner with a recommended rectification timeframe. Document everything. Your obligation is to notify and recommend; the owner's obligation is to rectify. But if you leave without documenting a known defect and an incident occurs, the liability exposure falls partly on you.
+
+### How long do electrical inspection records need to be kept?
+
+AS/NZS 3000 requires the installer to provide a Certificate of Compliance (or equivalent state documentation) on completion of an installation. State regulations govern retention periods, but the general standard is a minimum of 7 years for electrical installation records. In practice, keep them indefinitely — storage is cheap, and records are your primary defence in the event of a complaint, insurance claim, or prosecution. Digital records stored in your job management software are acceptable in all states.
+
+### Where can I get the full Sparky's Playbook?
+
+This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook).
+
 ## Related Reading
 
 - [Electrical Switchboard Upgrade Cost Guide Australia 2026](/blog/electrical-switchboard-upgrade-cost-australia-2026/)

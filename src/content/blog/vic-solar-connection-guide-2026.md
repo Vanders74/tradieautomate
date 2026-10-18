@@ -221,3 +221,29 @@ Installing across the border? Each state has its own distributor framework, expo
 - [NSW distributors guide](/blog/nsw-electricity-distributors-solar-connection-guide-2026/) — three networks (Ausgrid, Endeavour, Essential), three export limits
 - [QLD Energex & Ergon guide](/blog/qld-energex-ergon-solar-connection-guide-2026/) — dynamic connections on IEEE 2030.5 SEP2
 - [WA Western Power guide](/blog/wa-western-power-solar-connection-guide-2026/) — isolated SWIS grid, 30kVA aggregate inverter rule
+
+## Frequently Asked Questions
+
+### Which electricity distributors cover Victoria?
+
+Victoria has five electricity distributors, each covering a distinct region: AusNet Services (outer northern and eastern suburbs, eastern Victoria), Powercor (western suburbs, Geelong, western Victoria), Jemena (northern and north-western suburbs), CitiPower (Melbourne CBD and inner suburbs), and United Energy (southern suburbs and the Mornington Peninsula). You must identify the correct distributor before lodging a solar, battery, or EV charger connection application.
+
+### What is the solar export limit in Victoria?
+
+Victoria has a uniform 5kW per-phase export limit across all five distributors — unlike NSW where limits differ by network. On a single-phase connection the limit is a 10kW inverter with 5kW export. On a three-phase connection the limit is a 30kW inverter with 15kW export (5kW per phase). Battery inverters count toward the phase inverter limit on CitiPower, Powercor and Jemena networks, but not on United Energy.
+
+### Are flexible exports available in Victoria?
+
+Yes, and they are rolling out. United Energy launched the first phase of flexible exports from 1 July 2026, allowing dynamic export up to 10kW per phase most of the time. CitiPower and Powercor are rolling out flexible exports across their networks, and AusNet already offers flexible exports (1.5–5kW per phase single, 4.5–15kW three-phase) where the grid is constrained. The full rollout spans the 2026–2031 regulatory period.
+
+### Do I need a CES for a Victorian solar installation?
+
+Yes. Victoria requires a Certificate of Electrical Safety (CES), administered by Energy Safe Victoria (ESV) — not the CCEW used in NSW. The CES is a separate obligation from the distributor connection approval, and both are required. Solar installers must also meet ESV's licensing and prescribed electrical work requirements.
+
+### Do Victorian solar systems need to meet AS/NZS 4777?
+
+Yes. All grid-connected inverters in Victoria must meet AS/NZS 4777.1:2024 (installation) and AS/NZS 4777.2:2024 (inverter product requirements), and be on the Clean Energy Council's approved products list. Flexible-exports-ready systems must also use CSIP-AUS compliant, internet-connected inverters.
+
+### Which distributor covers my suburb?
+
+CitiPower covers Melbourne CBD and inner suburbs. Jemena covers the northern and north-western suburbs. Powercor covers the western suburbs, Geelong and western Victoria. AusNet covers the outer northern and eastern suburbs and eastern Victoria. United Energy covers the southern suburbs and Mornington Peninsula. Confirm via the customer's electricity bill or the distributor's online postcode lookup before applying.

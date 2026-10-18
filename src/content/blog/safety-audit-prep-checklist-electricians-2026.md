@@ -96,7 +96,7 @@ Every electrical safety audit — regardless of the state regulator — follows 
 **What auditors check:**
 
 - CCEW (NSW), CES (VIC), or CoTC (QLD) certificates for **all notifiable work** completed in the past 12 months. Auditors typically request the last 20 certificates.
-- That certificates were **lodged within the statutory timeframe** — 7 days in NSW (Home Building Act 1989), 30 days in VIC (Electricity Safety Act 1998), 30 days in QLD (Electrical Safety Act 2002).
+- That certificates were **lodged within the statutory timeframe** — 7 days in NSW (Gas and Electricity (Consumer Safety) Regulation 2018, s37A), 30 days in VIC (Electricity Safety Act 1998), 30 days in QLD (Electrical Safety Act 2002).
 - That certificate details match the **job records in your system** — same address, same scope of work, same date.
 
 **Most common failure:** Certificates issued but **not lodged** with the regulator. The contractor has a copy on file but never submitted it through the eCert portal (NSW), ESV Connect (VIC), or the Electrical Safety Office portal (QLD). This is an automatic non-compliance finding.
@@ -190,7 +190,7 @@ While the six categories above apply everywhere, each state regulator has its ow
 - **BCNSW eCert portal mandatory from 1 July 2026.** Paper CCEWs are no longer valid. If your audit period includes any work after this date without eCert lodgement, you will be found non-compliant.
 
 **Penalties:**
-- Failing to issue a CCEW: up to **$22,000** for individuals, **$110,000** for corporations (Home Building Act 1989)
+- Failing to issue a CCEW: on-the-spot fines up to **$1,000**, plus 20 penalty units for an individual (about $2,200) and 40 penalty units otherwise under s37A of the Gas and Electricity (Consumer Safety) Regulation 2018.
 - Working without a contractor licence: up to **$22,000** (individual) or **$110,000** (corporation)
 
 ### Victoria — Energy Safe Victoria (ESV)
@@ -331,3 +331,25 @@ This article covers the core audit framework. But for your van, your office wall
 > - [CCEW NSW Electrical Compliance Guide 2026](/blog/ccew-nsw-electrical-compliance-guide-2026/) — NSW CCEW rules, deadlines, and penalty details
 > - [CES Victoria Electrical Safety Certificate Guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) — VIC CES lodgement requirements and audit process
 > - [Electrical Contractor Insurance Australia 2026](/blog/electrical-contractor-insurance-australia-2026/) — coverage minimums and compliance cost breakdown by state
+
+## Frequently Asked Questions
+
+### What documents do I need for an electrical safety audit?
+
+You need: (1) current electrical contractor licence, (2) CCEW/CES certificates for all notifiable work from the past 12 months, (3) AS/NZS 3000 test records for completed installations, (4) safe work method statements (SWMS) for high-risk work, (5) insurance certificates ($5M+ public liability), and (6) worker induction and competency records. Missing any of these is the #1 audit failure trigger.
+
+### What triggers a SafeWork NSW electrical audit?
+
+SafeWork NSW audits are triggered by: (1) a notifiable incident or complaint, (2) random industry blitz targeting specific trades (solar installers were targeted in 2025/2026), (3) a previous non-compliance finding requiring follow-up, or (4) a cross-agency referral from Building Commission NSW or a DNSP. Audits can be announced (14 days notice) or unannounced.
+
+### What are the most common electrical safety audit failures?
+
+The top 5 audit failures are: (1) missing or incomplete CCEW certificates, (2) test records not matching AS/NZS 3000 requirements, (3) no SWMS for high-risk construction work, (4) expired or incorrect class of electrical licence, (5) poor cable management and labelling in switchboards. 80% of auditors check switchboard labelling first — it sets the tone for the entire audit.
+
+### How do I prepare for an ESV (Victoria) electrical safety audit?
+
+ESV audits require the CES (Certificate of Electrical Safety) to be lodged within 30 days (not 7 like NSW CCEW). ESV cross-references CES records against DNSP connection data — discrepancies trigger an automatic audit flag. Ensure your CES records match your job management system exactly, and that all solar installations have a separate CES for the AC and DC sides.
+
+### Is there a downloadable electrical safety audit checklist?
+
+Yes — this article includes a free downloadable PDF checklist covering all 6 audit categories: licensing, certificates, test records, SWMS, insurance, and on-site safety. Download it at the end of the article and keep a printed copy in your switchboard prep area.

@@ -176,6 +176,33 @@ Each phase requires different skills and different structures. Many owners stall
 
 ---
 
+
+## Frequently Asked Questions
+
+### How do I know if I'm pricing my electrical work correctly?
+
+The test is whether you're making a genuine profit after accounting for all your real costs. Many electricians price based on what competitors charge without calculating whether that rate covers their actual costs. Your hourly rate needs to cover: direct labour (your time or an employee's), overhead (vehicle, insurance, licences, software, phone, accounting), materials margin, and a profit margin above cost. If you're turning over $600,000 and paying yourself $80,000 with nothing left over, your pricing is wrong. A target net profit margin for a well-run electrical business is 15-25% — if you're below 10%, pricing and cost structure need attention.
+
+### What should I delegate first as my electrical business grows?
+
+Delegate in this order: administrative tasks first (invoicing, scheduling, supplier orders), then fieldwork you don't need to be personally present for (maintenance calls, straightforward installs), then sales and quoting (once you have reliable staff who understand your quality standards and pricing). Keep oversight of: quality control, pricing strategy, key customer relationships, and financial management. The mistake most owner-operators make is delegating quality-sensitive technical work before they have systems and standards to maintain quality without their presence.
+
+### What is the difference between turnover and profit, and why does it matter for scaling?
+
+Turnover (revenue) is the total money your business takes in. Profit is what's left after paying all costs — wages, materials, overhead, everything. A business turning over $1M but generating $50,000 profit (5% margin) is less healthy than one turning over $500,000 and keeping $100,000 (20% margin). Scaling turnover without improving margin just means more work for the same or lower return. Before scaling, fix your margin. A business with 15-20% net margin scales into more profit. A business with 5% margin scales into more complexity and risk.
+
+### When is the right time to hire another electrician?
+
+The right time is before you're desperate. Most owners wait until they're turning down work or burning out, then hire reactively — rushing the decision and making costly mistakes. The right indicators: you're consistently turning away work, your lead time has stretched beyond what customers tolerate, you're regularly working nights and weekends on admin and quotes, and your growth is constrained by your personal capacity rather than market demand. Hire when those indicators are consistently present, not when one busy week appears.
+
+### How do I stop being the bottleneck in my own electrical business?
+
+You become the bottleneck when everything requires your personal approval, presence, or knowledge. The solution is documented systems and trained people. Document your processes (how a job gets quoted, scheduled, completed, invoiced, and followed up). Train your team to those processes. Build quality checks that don't depend on you being present. The owner who can take a two-week holiday and return to a business that ran well in their absence has built a real business. The owner who can't take a day off has built a job for themselves.
+
+### Where can I get the full Sparky's Playbook?
+
+This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook).
+
 ## Related Reading
 
 - [Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia/)

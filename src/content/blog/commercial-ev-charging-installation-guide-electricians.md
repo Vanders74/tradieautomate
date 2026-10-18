@@ -1,6 +1,17 @@
 ---
 title: "Commercial EV Charging Installation: The Electrician's Business Guide for 2026"
 description: "Commercial EV charging installation guide for Australian electricians — DNSP approvals, load management design, OCPP, quoting multi-site jobs, and how to build a repeatable high-margin EV charging service."
+faq:
+  - question: "What size supply does a commercial EV charging site need?"
+    answer: "It depends on the number of chargers and the load management approach. For 10 × 7.2 kW chargers with static load limiting at 50% utilisation, you'd design for approximately 36 kW of EV load. Add this to the existing site peak demand and confirm the total against the DNSP supply capacity. A site with a 100 kW supply and 60 kW existing peak demand has 40 kW available for EV charging — enough for 5–6 chargers at full AC three-phase without augmentation."
+  - question: "Do I need a specific licence to install commercial EV chargers?"
+    answer: "A standard electrical contractor licence and CEC accreditation (for solar-integrated sites) are the primary requirements. Some states may have additional requirements for high-power DC charging infrastructure. Check with your state electrical safety regulator before tendering for DC fast charging work."
+  - question: "What is the typical project timeline for a commercial EV charging installation?"
+    answer: "Allow 8–14 weeks from confirmed order for most commercial jobs: 2 weeks for equipment procurement, 4–8 weeks for DNSP approval (the most variable element), and 1–3 days for installation and commissioning. Communicate this timeline explicitly in your proposal — commercial clients who expect a 2-week turnaround will be frustrated."
+  - question: "Can I install EV chargers in a strata car park?"
+    answer: "Yes, but strata installations require body corporate approval. The electrical infrastructure serving individual bays may be the owner corporation's responsibility (common property) or the individual owner's (if metered separately). A strata EV charging consultation should address: common property vs lot supply, metering/billing approach, future proofing the infrastructure for multiple residents, and the body corporate's formal approval process."
+  - question: "What's the difference between a dedicated EV charger and a heavy-duty power outlet?"
+    answer: "A dedicated EVSE (Electric Vehicle Supply Equipment) is purpose-designed for EV charging — it includes safety features such as pilot signal communication with the vehicle (which prevents charging unless the vehicle is properly connected), ground fault protection, and thermal management. A heavy-duty outlet (e.g. 32A single-phase industrial socket) lacks these safety features and is not recommended for EV charging. Most EV manufacturers void charging warranties for damage caused by non-EVSE charging sources. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download free →](/playbook)"
 pubDate: 'Jul 13 2026'
 category: "Solar & Battery"
 heroImage: '/hero-ev-charger-installation.jpg'

@@ -7,12 +7,16 @@ category: "Business Growth"
 heroImage: '/hero-admin-cost-calculator.jpg'
 tags: ['admin costs', 'job management software', 'ROI', 'tradie tools', 'ServiceM8']
 faq:
-  - question: "How much does admin really cost an Australian trade business?"
-    answer: "Admin time costs Australian trade businesses significantly — a typical electrician or plumber losing 10-15 hours per week to quoting, invoicing, scheduling and compliance paperwork at a loaded labour rate of $50-$75/hour is leaking $26,000-$58,000 per year in unbillable time, based on 2026 award rates and market data."
-  - question: "How can job management software reduce admin costs?"
-    answer: "Job management software like ServiceM8 reduces admin time by automating quoting templates, invoicing from completed jobs, scheduling via a centralised dispatch board, and compliance documentation. Australian trade businesses using job management software report 50-60% reductions in weekly admin hours based on case studies."
-  - question: "What's the ROI of ServiceM8 for trade businesses?"
-    answer: "At $79/month (Growing plan) for a typical small team, ServiceM8 typically pays for itself in the first week of use — if it saves 2 hours of admin time per week at $55/hour loaded cost, the annual saving is approximately $5,720 versus a software cost of $948/year, delivering roughly 500% ROI."
+  - question: "How accurate is the calculator?"
+    answer: "The calculator uses industry-standard inputs and the multiplier formula (technicians × admin hours × charge-out rate) to produce a directionally accurate estimate. Real-world results vary based on job type, trade, and how efficiently admin tasks are currently handled. The estimate tends to be *conservative* — most businesses find their actual admin overhead is higher once they track it task-by-task."
+  - question: "Why does the calculator use charge-out rate instead of labour cost?"
+    answer: "The relevant figure is the *opportunity cost* — what you could earn doing billable work in those hours. Admin time spent by a $130/hr tradesperson is costing the business $130/hr in opportunity cost, not $45/hr in wages. Both are real costs, but the opportunity cost is the relevant metric for business decision-making."
+  - question: "My admin hours seem low compared to the benchmarks. Am I doing something wrong?"
+    answer: "Possibly, or you may already have some level of automation in place. The most common source of underestimation is that people only count the time they're *at a desk* doing admin — they forget to count time on the phone rescheduling, waiting for customers to respond to quote follow-ups, sorting out a variation while on-site, or logging compliance forms from memory at the end of the day."
+  - question: "What's the best way to reduce admin in a solar or electrical business?"
+    answer: "A dedicated field service management platform (ServiceM8, [Tradify](/blog/tradify-review-2026-australia/), Fergus, or similar) is the highest-leverage starting point. The goal is to move every admin step — quoting, invoicing, compliance docs, scheduling, customer comms — into the same system, so data flows automatically from field to office without manual re-entry. See our [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/) for a detailed breakdown."
+  - question: "Is this only relevant for businesses with employees?"
+    answer: "No. Sole traders are often proportionally more affected than multi-person businesses, because there's no one to delegate admin to — it all falls on the owner. A sole trader electrician doing 3 hours of admin per evening is effectively working a 55-hour week for a 40-hour revenue base. The ROI on automation for a one-person business is typically among the highest."
 ---
 
 Competition is tough. Materials are expensive. Fuel isn't getting cheaper. But the quiet killer of Australian trade profit margins is none of those things — it's the hours vanishing into unbillable evening paperwork. For electrical contractors, the compliance burden is especially acute: the **Fair Work Act 2009** (enforced by the **Fair Work Ombudsman**) governs award wages, allowances, and record-keeping obligations, while state-based regulators like **Building Commission NSW** and **Energy Safe Victoria** require CCEW and CES documentation for every job — each certificate adding 20–45 minutes of unbillable admin per job if managed manually.

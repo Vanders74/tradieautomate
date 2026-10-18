@@ -153,6 +153,29 @@ ServiceM8's custom form builder handles all of this — the STC assignment, stat
 
 ---
 
+
+## Frequently Asked Questions
+
+### What solar rebates are available in Australia in 2026?
+
+Australia has both federal and state solar incentives in 2026. The federal Small-scale Technology Certificate (STC) scheme applies nationwide — most residential solar systems qualify for STCs worth $2,000–$6,000+ depending on system size and location. At state level: Victoria has the Solar Homes Program (battery rebates up to $8,800 and solar panel rebates); South Australia has the Home Battery Scheme (subsidised loans up to $3,000); Queensland, NSW, and WA have various retailer and network rebate programs. ACT has ongoing incentives under the Sustainable Household Scheme.
+
+### How do Small-scale Technology Certificates (STCs) work for solar installers?
+
+STCs are federal government incentives created when a CEC-accredited installer installs a qualifying solar system. The number of STCs depends on system size (kW), location (zone), and years remaining in the STC scheme (which ends in 2030). Installers typically assign STCs to a registered agent or retailer in exchange for an upfront discount on the system price — the customer sees this as a reduced purchase price, not a separate rebate payment. Installers must be CEC-accredited and the installation must use CEC-approved components to generate STCs.
+
+### Is the Victorian Solar Homes Program still running in 2026?
+
+Yes. The Victorian Solar Homes Program continues in 2026, offering battery rebates of up to $8,800 for eligible households. The solar panel rebate component has been scaled back in recent years and may have limited availability — check Solar Victoria's current round status at solar.vic.gov.au. Battery storage rebates are more consistently available. Homes must meet eligibility criteria including income thresholds and property value caps. CEC-accredited installers must be registered under the Solar Victoria Code of Conduct.
+
+### What is the SA Home Battery Scheme and how does it work?
+
+The South Australia Home Battery Scheme offers subsidised loans (not grants) to eligible SA households for battery storage installation. Loans are up to $3,000, interest-free for the first 3 years. The battery must be installed by an authorised Home Battery Scheme installer. As of 2026, the scheme continues with periodic new rounds opening for applications. Installers must register with the scheme and submit applications on behalf of customers. Check the SA government website for current round availability.
+
+### How should solar installers manage rebate paperwork efficiently?
+
+The most efficient rebate workflow uses job management software with compliance form integration. For STCs: use a registered STC agent and integrate the assignment process into your quote workflow — customers sign the STC assignment at the same time they accept the quote, and your agent handles the submission. For state rebates: use a job management platform where state-specific application forms can be completed digitally on-site and submitted with photos and compliance documentation attached. ServiceM8's custom form builder handles this — you build the rebate application checklist as a mobile form attached to the job.
+
 ## Related Reading
 
 - [SA Solar Battery Rebate 2026 — Application Guide for Installers](/blog/sa-solar-battery-rebate-2026/)

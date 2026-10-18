@@ -170,6 +170,33 @@ The hardest transition for owner-operators: letting go of being on every job wit
 
 ---
 
+
+## Frequently Asked Questions
+
+### What award rate applies to electricians in Australia?
+
+Most electricians in non-union private sector businesses are covered by the Electrical, Electronic and Communications Contracting Award 2020 (the Electrical Award). This award sets minimum pay rates for electricians at various levels (Electrician Grade 1 through Grade 5) and for apprentices. As of 2026, Electrician Grade 1 (base) starts at approximately $32-35 per hour plus superannuation, with higher grades for licensed electricians with additional qualifications or responsibilities. Always check the current rates on the Fair Work website — these are updated annually in July. The award also sets conditions around allowances, overtime, penalty rates, and leave.
+
+### What are my obligations when taking on an electrical apprentice?
+
+Taking on an apprentice involves: registering the training contract with your state training authority (e.g., AVETMISS in NSW, Training Queensland in QLD); signing a training agreement that defines the employer's and apprentice's obligations; providing on-the-job training and allowing time for off-the-job training (typically one day per week at TAFE); paying the applicable apprentice wage under the Electrical Award (increasing with each year of the apprenticeship); and completing the apprenticeship paperwork including competency sign-offs. The apprenticeship typically runs 4 years. Group Training Organisations (GTOs) can host apprentices on your behalf, removing some of the administrative burden.
+
+### How much should I pay an electrician above award rates?
+
+Award rates are a floor, not a market rate. In most Australian cities, the market rate for a licensed electrician is $35–$55 per hour depending on experience, specialty, and location. Electricians with CEC Solar Accreditation, EV charger installation experience, or commercial project experience command premiums. Paying above award reduces turnover — replacing an experienced electrician typically costs $15,000–$30,000 in recruitment, induction, and lost productivity. A $3/hour premium costs ~$6,000/year but retains someone you've invested in training.
+
+### How do I keep good electricians from leaving?
+
+The reasons good electricians leave: pay below market, no clear career progression, poor tools and equipment, being micromanaged, feeling like a number rather than a person. Retention strategies that work: pay market rates (see above), create clear progression paths (senior electrician, leading hand, project manager), invest in their tools and training, give them autonomy within clear quality standards, involve them in decisions that affect their work, and recognise performance. Regular one-on-ones (even informal ones) catch problems before they become resignations.
+
+### What is the difference between an employee and a subcontractor for electricians?
+
+The distinction matters for tax (PAYG vs ABN), superannuation, leave entitlements, and workers' compensation. The ATO and Fair Work use a multi-factor test — a subcontractor relationship is genuine if the worker has their own ABN, sets their own hours, provides their own tools, can subcontract work themselves, and bears commercial risk. A worker who works exclusively for you, uses your tools, works your hours, and is directed by you on how to do the work is likely an employee under the law even if they have an ABN. Misclassifying an employee as a subcontractor exposes you to significant back-payment liability. When in doubt, treat the person as an employee.
+
+### Where can I get the full Sparky's Playbook?
+
+This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook).
+
 ## Related Reading
 
 - [QLD Electrical Contractor Licence Guide 2026](/blog/qld-electrical-contractor-licence-guide-2026/)

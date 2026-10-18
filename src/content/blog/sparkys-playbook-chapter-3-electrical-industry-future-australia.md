@@ -157,6 +157,33 @@ The honest summary: most of the opportunities described in this chapter require 
 
 ---
 
+
+## Frequently Asked Questions
+
+### Is there really more work coming for electricians because of AI?
+
+Yes, but not in the way most coverage frames it. AI itself doesn't create electrical work — the data centres that run AI models do. Data centres are extremely power-intensive buildings that require large-scale HV distribution, extensive low-voltage fit-out, backup power systems, precision cooling infrastructure, and ongoing maintenance. Australia is seeing significant data centre construction activity, particularly in Sydney, Melbourne, and increasingly in regional areas with available land and power. This is structural demand — it doesn't disappear when AI hype cycles peak.
+
+### What is grid-scale battery storage and why does it matter for electricians?
+
+Grid-scale battery storage refers to large battery installations — typically lithium-ion or other electrochemical storage — connected directly to the electricity distribution network. They absorb excess renewable generation (solar and wind) and discharge during peak demand periods. Australia has significant grid-scale battery deployment underway, driven by state government energy policies and the economics of renewable integration. For electricians, this creates work in HV connection, site electrical fit-out, ongoing monitoring and maintenance, and the growing residential and commercial battery ecosystem that sits below grid scale.
+
+### Do I need different certifications to work on data centres or grid-scale projects?
+
+Typically yes. Data centre and grid-scale projects involve high voltage (HV) work above 1000V AC, which requires HV-specific licences or authorisations in most states (separate from the standard electrical contractor licence). Large commercial projects may also require specific accreditations from the principal contractor or head contractor. If you're positioning to work in this space, start by understanding your state's HV licensing pathway — the equipment and risk profile is genuinely different from residential and light commercial work.
+
+### What's the most realistic near-term opportunity for a small electrical business?
+
+The commercial and industrial solar, battery, and EV charging space. These projects don't require HV licensing (typically), are large enough to be worth winning, and are driven by private investment rather than government procurement timelines. A small electrical business that develops genuine expertise in commercial solar systems, large-scale battery installations, and EV charging infrastructure is well-positioned for the next 5-10 years of the energy transition. The technical skills are learnable; the market is real and growing.
+
+### Should I be worried about electricians being replaced by automation?
+
+No. Physical electrical installation — pulling cable, terminating connections, commissioning systems, problem-solving on-site — is one of the hardest categories of work to automate. The combination of physical dexterity, site variability, safety requirements, and regulatory oversight means electrical installation work is among the most automation-resistant trades. The risk is not automation; it's electricians who don't adapt their service offering to capture the growing demand for EV, solar, battery, and grid-connected work.
+
+### Where can I get the full Sparky's Playbook?
+
+This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook).
+
 ## Related Reading
 
 - [Commercial Solar System Compliance Australia](/blog/commercial-solar-system-compliance-australia/)

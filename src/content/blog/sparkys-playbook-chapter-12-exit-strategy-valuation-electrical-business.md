@@ -201,6 +201,33 @@ Selling to an external buyer is not the only exit. Other paths:
 
 ---
 
+
+## Frequently Asked Questions
+
+### How is an electrical business valued in Australia?
+
+Most small-to-medium Australian electrical businesses are valued on a multiple of EBITDA (Earnings Before Interest, Tax, Depreciation and Amortisation) — essentially, adjusted net profit. The multiple depends on business size, systems, customer concentration, and whether the business can operate without the owner. Typical multiples for small trades businesses range from 1.5x to 3.5x EBITDA. A business generating $200,000 EBITDA might sell for $300,000–$700,000. Businesses with recurring revenue (maintenance contracts, monitoring agreements), documented systems, and no owner dependency attract higher multiples.
+
+### What do buyers look for in an electrical business?
+
+Buyers value: recurring revenue (contracts, maintenance agreements), documented systems and processes, a capable team that can operate without the current owner, diversified customer base (no single customer representing more than 20% of revenue), clean financial records for at least 3 years, valid licences and accreditations transferable to the new owner, and growth potential. The biggest discount is applied for owner dependency — if the business can't run without the current owner present, buyers either won't buy it or will pay significantly less.
+
+### How long does it take to sell an electrical business in Australia?
+
+On average, 9–18 months from the decision to sell to settlement. The process includes: 3–6 months to prepare the business for sale (financial clean-up, documenting systems, addressing buyer objections), 2–4 months on the market finding the right buyer, 3–6 months of due diligence and negotiation, and settlement. Rushing the process almost always results in a lower price or a failed transaction. Start preparing at least 2 years before your target exit date.
+
+### Should I use a business broker to sell my electrical business?
+
+For most electrical businesses above $200,000 in value, a specialist business broker is worth the commission (typically 5–8% of sale price, with a minimum engagement fee). A good broker: knows where to find qualified buyers, manages the confidentiality of the sale process (keeping it from staff and competitors until the right time), handles due diligence management, and negotiates on your behalf. For smaller businesses or transitions to a family member or existing employee, a broker may not be necessary — an accountant and a commercial lawyer can manage the process.
+
+### What is an earnout and when is it used in business sales?
+
+An earnout is a component of the sale price paid based on the future performance of the business after the sale. For example, 70% of the agreed price on settlement, with the remaining 30% paid over 2 years if the business maintains or grows revenue. Buyers use earnouts when they're uncertain about whether the business's performance was driven by the owner personally rather than the business systems. Sellers generally prefer upfront payment — earnouts put you in a position of working to earn money you've technically 'sold'. If an earnout is proposed, negotiate hard on the terms and get legal advice.
+
+### Where can I get the full Sparky's Playbook?
+
+This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook).
+
 ## Related Reading
 
 - [The Sparky's Playbook — Chapter 11: Scaling Your Electrical Business](/blog/sparkys-playbook-chapter-11-scaling-electrical-business-australia/)

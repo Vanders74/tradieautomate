@@ -6,14 +6,14 @@ updatedDate: 'Jul 18 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-for-solar-businesses.jpg'
 faq:
-  - question: "How does ServiceM8 help with solar compliance documentation?"
-    answer: "ServiceM8 helps solar installers manage compliance by storing site photos, generating CCEW/CES certificates from job data, tracking STC documentation, and maintaining an auditable job record. All compliance documents are linked to the job and accessible during CER or state regulator audits."
-  - question: "Can ServiceM8 handle STC paperwork for solar installations?"
-    answer: "ServiceM8 can store and track STC documentation against each job, including system design specs, installer accreditation details, and CER lodgement records. While it doesn't submit STCs directly, it ensures all required documentation is captured and organised for your STC trader or in-house processing."
-  - question: "Is ServiceM8 suitable for large commercial solar projects?"
-    answer: "ServiceM8 scales well for commercial solar with multi-crew scheduling, custom compliance forms (including protection relay documentation and DNSP connection applications), and project-based job tracking. It's suitable for businesses managing 50-200+ installations per month."
-  - question: "What solar-specific integrations does ServiceM8 offer?"
-    answer: "ServiceM8 integrates with Xero and MYOB for solar job profitability tracking, and its API allows integration with solar design tools and monitoring platforms. The custom form builder supports solar-specific documentation including AS/NZS 5033 compliance checklists and STC lodgement forms."
+  - question: "Can ServiceM8 handle both solar PV and battery storage compliance?"
+    answer: "Yes. You can build separate compliance form templates for solar PV and battery storage, or combine them into a single installation template. When a job includes a battery, the battery compliance checklist is automatically included. Both documentation sets are stored with the job record."
+  - question: "Does ServiceM8 support multi-crew solar installation jobs?"
+    answer: "Yes. ServiceM8 allows you to assign multiple technicians to a single job, track their individual time, and manage crew-level scheduling. For solar installations requiring a lead installer and a support technician, this works natively."
+  - question: "How does ServiceM8 help with STC documentation?"
+    answer: "You can build STC documentation requirements into your solar installation job templates — system specifications, module and inverter details, CEC accreditation details, installation date. The template validates that all required fields are completed before the job is closed. This creates a complete, error-checked STC documentation set for every installation."
+  - question: "Is ServiceM8 suitable for commercial solar installations?"
+    answer: "ServiceM8 works well for commercial solar installations, though very large-scale commercial and industrial projects with complex project management requirements may benefit from a more enterprise-grade platform like simPRO. For C&I installations up to a few hundred kW, most businesses find ServiceM8 fully capable. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download free →](/playbook) *Related reading:* - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)* - *[ServiceM8 for Solar Installers: Compliance-Ready Job Management](/blog/servicem8-for-solar-installers/)* - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)* - *[CER Audit Prep for Solar Installers](/blog/cer-audit-prep-solar-installers/)* - *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers/)*"
 ---
 
 The Australian solar industry is at an inflection point. Residential installation volumes remain elevated. Commercial and C&I solar is accelerating. Battery storage is increasingly part of every job. And behind all that growth, the compliance and documentation requirements have never been more demanding.

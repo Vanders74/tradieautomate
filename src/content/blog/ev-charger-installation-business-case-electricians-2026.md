@@ -8,14 +8,13 @@ heroImage: '/hero-ev-charger-installation-business-case-electricians-2026.jpg'
 tags: ['EV charger', 'electrician', 'business', 'revenue', 'investment', 'electric vehicle', 'commercial', '2026']
 faq:
   - question: "How much does an electrician earn per EV charger installation?"
-    answer: "Residential EV charger installs (Mode 3 AC, single-phase) typically return $1,800–$2,800 in labour and materials, with margins of 35–45% after material costs. Commercial installations (three-phase, load management, DNSP approval) range from $8,000–$25,000 depending on scope, with margins of 30–40%. A business doing 3 residential installs per week adds $250,000–$400,000 in annual revenue at standard margins."
-  - question: "What training does an electrician need to install EV chargers in Australia?"
-    answer: "No specific national licence exists for EV charger installation — a current electrical contractor licence in your state is the legal requirement. Practically, you need competency in AS/NZS 3000 (Wiring Rules), understanding of Type B RCD requirements for EVSE, and DNSP application experience for commercial installs. Manufacturer-specific training is recommended (not legally required) for brand accreditation with Zappi, Tesla, Wallbox, or JuiceBox. The Electrical Vehicle Council and NECA offer EV charging system design short courses."
-  - question: "What equipment investment does an electrician need to start doing EV charger installs?"
-    answer: "The critical piece most electricians underestimate is a Type B RCD tester — standard RCD testers cannot verify Type B operation. A quality Type B RCD tester (Megger, Fluke, or equivalent) costs $2,500–$4,500. Beyond that, standard electrical installation tools are sufficient for residential. Commercial installs requiring load management commissioning may need DNSP-specific test equipment. Total new equipment investment: $3,000–$6,000."
-  - question: "What is the biggest mistake electricians make when pricing EV charger installations?"
-    answer: "Underquoting due to switchboard upgrade scope creep. EV charger installation requires a dedicated circuit, typically 32A. If the existing switchboard is full, has inadequate incomer capacity, or does not have RCD protection on the new circuit, the switchboard must be upgraded before the charger is installed. A job quoted as a $1,800 charger install becomes a $4,500 job. Always assess the switchboard before quoting."
-
+    answer: "Residential installs return $1,500–$2,700 per job at 35–45% margin. Commercial installs (three-phase, load management) return $8,000–$45,000 per job. Three residential installs per week generates $250,000–$400,000 annual revenue at scale."
+  - question: "What training do I need to install EV chargers in Australia?"
+    answer: "Your existing electrical contractor licence covers the legal requirement. Practical competency in AS/NZS 3000 (particularly RCD type requirements), DNSP application processes, and basic load management. Manufacturer-specific training is recommended, not legally required."
+  - question: "What equipment investment is required?"
+    answer: "The key purchase is a Type B RCD tester ($2,500–$4,500). Standard installation tools are sufficient for residential work. Total new equipment investment: $3,000–$6,000."
+  - question: "What is the most common quoting mistake on EV charger jobs?"
+    answer: "Not scoping the switchboard before quoting. EV charger installation requires a dedicated 32A circuit — if the switchboard can't support it, an upgrade is required before installation. Walk the board before every quote. > **This article is featured in Chapter 4 of The Sparky's Playbook.** > The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download the full book free →](/playbook)"
 ---
 
 Australia added more electric vehicles in the first half of 2026 than in all of 2023 combined. The EV fleet is doubling every 18 months. Every one of those vehicles needs a charging solution — and most of those solutions are installed by electricians.

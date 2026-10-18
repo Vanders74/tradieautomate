@@ -222,3 +222,37 @@ Installing across the border? Each state has its own distributor framework, expo
 - [NSW distributors guide](/blog/nsw-electricity-distributors-solar-connection-guide-2026/) — three networks (Ausgrid, Endeavour, Essential), three export limits
 - [WA Western Power guide](/blog/wa-western-power-solar-connection-guide-2026/) — isolated SWIS grid, 30kVA aggregate inverter rule
 - [VIC distributors guide](/blog/vic-solar-connection-guide-2026/) — five networks, uniform 5kW limit
+
+## Frequently Asked Questions
+
+### Which electricity distributors cover Queensland?
+
+Queensland has two electricity distributors, both owned by Energy Queensland: Energex covers South East Queensland (Brisbane, Gold Coast, Sunshine Coast, Ipswich, Toowoomba), and Ergon Energy Network covers regional and rural Queensland (Cairns, Townsville, Mackay, Rockhampton, Mount Isa, and the rest of the state). Powerlink operates the high-voltage transmission network above both.
+
+### What are the solar export limits in Queensland?
+
+On a basic (fixed) connection, the export limit is 5kW per phase, with an inverter limit of 10kVA per phase (single-phase) or 30kVA (three-phase). On a dynamic connection, you can export up to 10kW per phase. Premises on the regional single-wire (SWER) network are capped at 2kW per phase. In areas with high solar saturation, a basic connection may be limited to 1.5kVA or zero export.
+
+### What is a dynamic connection in Queensland?
+
+A dynamic connection (Queensland's term for flexible exports) lets your export limit vary with live network conditions instead of being fixed. The network communicates with your inverter every 5 minutes using the IEEE 2030.5 Smart Energy Profile 2.0 (SEP2) protocol, sending Dynamic Operating Envelopes that allow up to 10kW export per phase. You are always allowed to export at least 1.5kW unless there is a grid emergency.
+
+### Are dynamic connections mandatory for new solar in Queensland?
+
+No. Unlike South Australia (where flexible exports have been mandatory since 1 July 2023), dynamic connections in Queensland are optional and offered as a negotiated connection. You can still apply for a standard fixed-export connection. Dynamic connections are recommended where you want higher export limits or a larger system without upgrading to three-phase.
+
+### What protocol does Queensland use — CSIP-AUS or SEP2?
+
+Queensland uses IEEE 2030.5 Smart Energy Profile 2.0 (SEP2), chosen by Energex and Ergon Energy Network after industry consultation in 2020–21. This is closely related to CSIP-AUS (SA HB 218 Common Smart Inverter Profile — Australia), which formalises a nationally consistent interpretation of the same standard. A CSIP-AUS-compliant inverter should be able to be listed as compliant for the Queensland implementation.
+
+### How long does a QLD solar connection take?
+
+A basic fixed-export application for a small system is generally assessed quickly through the Electrical Partners Portal. A dynamic connection application is a negotiated connection — Energex and Ergon aim to issue a connection offer within 65 business days, and you have 20 business days to accept it. Larger systems and sites with network constraints take longer.
+
+### Can I install a larger system with a dynamic connection?
+
+Yes. On single-phase, a dynamic connection allows a combined solar and battery system up to 20kVA — up to 10kVA solar inverter plus 10kVA battery inverter capacity — without upgrading to three-phase. A fixed connection would require a three-phase upgrade to reach that size. Note a hybrid inverter on single-phase is capped at 10kVA total combined capacity.
+
+### Do I need a Certificate of Compliance for a QLD solar installation?
+
+Yes. Electrical work in Queensland is regulated under the Electrical Safety Act 2002 (Qld), administered by the Electrical Safety Office. The licensed electrical contractor must provide the required Certificate of Testing and Compliance (eCoC) for the installation. The distributor connection approval is separate from the electrical compliance certificate — both are required.

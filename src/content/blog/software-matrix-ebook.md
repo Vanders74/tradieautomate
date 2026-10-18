@@ -79,3 +79,21 @@ The 18-page guide includes the full comparison matrix, pricing table, compliance
 ---
 
 *Pricing and features are current as of October 2026. Platforms update their pricing and feature sets periodically — verify current pricing directly on each platform's website before making a final decision.*
+
+## Frequently Asked Questions
+
+### What is the best job management software for a 1-3 person electrical business?
+
+For small electrical businesses (1-3 staff), ServiceM8 offers the best value at $29–$99/month with unlimited users, CCEW/CES compliance forms, and Xero integration. AroFlo starts at $80/user/month (minimum 3 users = $240/month), making it more expensive at this size. Jobber charges per user ($49/user/month) and lacks Australian compliance form support. SimPRO is designed for 10+ staff businesses and is overkill at this size. The e-book includes a size-by-size recommendation table.
+
+### Does SimPRO support Australian compliance forms?
+
+SimPRO has a customisable form builder that can be configured for CCEW, CES, and other state-specific compliance forms, but there's no native pre-built template. Setting up compliance forms in SimPRO typically requires 4-8 hours of configuration work. ServiceM8 has native CCEW, CES, and Form 7 templates that work out of the box. The e-book includes a compliance feature comparison table across all four platforms.
+
+### How long does it take to switch from one job management platform to another?
+
+A full platform migration typically takes 4-8 weeks for an established trade business with historical data, customer records, and integrated workflows. The productivity dip during transition is 2-4 weeks. The e-book includes a migration timeline template and cost calculator that accounts for data transfer, staff training, dual-platform overlap, and the post-migration optimisation period.
+
+### Which platform has the best Xero integration for Australian tradies?
+
+ServiceM8 has the deepest two-way Xero integration of the four platforms, including automatic invoice sync, payment reconciliation, and job-cost tracking against Xero accounts. SimPRO also integrates with Xero. AroFlo has Xero integration but with less depth on inventory and job costing. Jobber's Xero integration is limited to invoice sync only. The e-book has a full integration depth comparison.

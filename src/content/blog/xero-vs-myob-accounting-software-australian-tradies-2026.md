@@ -7,15 +7,14 @@ category: "Software Comparisons"
 heroImage: '/hero-xero-vs-myob-accounting-software-australian-tradies-2026.jpg'
 tags: ['Xero', 'MYOB', 'accounting software', 'tradie', 'electrician', 'solar', 'ServiceM8', 'payroll', '2026']
 faq:
-  - question: "Is Xero or MYOB better for electricians and solar installers in Australia?"
-    answer: "Xero is the better choice for most electricians and solar installers running ServiceM8, because Xero's API integration with ServiceM8 is broader and more reliable — invoices, payments, contacts, and job data sync with minimal friction. MYOB's ServiceM8 integration is functional but narrower. The exception: if you have 5+ employees and need deep Electrical Contracting Award (MA000025) payroll handling, MYOB AccountRight's payroll module has more granular allowance configuration out of the box."
-  - question: "Which has better BAS and GST handling — Xero or MYOB?"
-    answer: "Both handle BAS and GST lodgement correctly for Australian trade businesses. Xero's BAS is cleaner and easier to review — activity statement preparation is straightforward. MYOB AccountRight has more granular tax code configuration, which matters if you're dealing with complex mixed-supply situations (partial GST, export invoices). For most residential electrical and solar businesses, Xero's GST handling is sufficient and significantly easier to use."
-  - question: "What does Xero cost for a trade business in Australia in 2026?"
-    answer: "Xero's plans in Australia (2026): Starter $32/month (20 invoices/5 bills per month limit), Standard $65/month (unlimited invoices and bills), Premium $85/month (multiple currencies, additional payroll). Most electrical and solar businesses need Standard or Premium for unlimited invoicing. Note that Xero Payroll is included in Standard and Premium plans but is limited to a set number of employees — confirm the current limits before signing up."
-  - question: "Can both Xero and MYOB handle Single Touch Payroll Phase 2?"
-    answer: "Yes. Both Xero Payroll and MYOB Payroll are STP Phase 2 compliant. STP Phase 2 requires disaggregated income type reporting — separating salary, allowances, and termination payments at the ATO reporting level. Both platforms handle this, but MYOB's STP2 setup requires more manual configuration for trade award allowances. Xero's STP2 implementation is more automated for standard award pay items."
-
+  - question: "Is Xero or MYOB better for electricians and solar installers?"
+    answer: "Xero is better for most — particularly ServiceM8 users. MYOB AccountRight edges ahead only for businesses with 5+ employees on the Electrical Contracting Award needing deep payroll configuration."
+  - question: "Which handles BAS and GST better?"
+    answer: "Both handle GST correctly. Xero's BAS preparation is cleaner and easier. MYOB is more configurable for complex GST situations. For standard residential electrical and solar, Xero's GST is sufficient."
+  - question: "What does Xero cost for a trade business in 2026?"
+    answer: "Budget $65/month (Standard plan) for unlimited invoicing. The $32/month Starter plan's 20-invoice limit is not practical for active trade businesses."
+  - question: "Can both handle Single Touch Payroll Phase 2?"
+    answer: "Yes. Both are STP2 compliant. MYOB's setup is more guided; Xero requires manual ATO category tagging on each pay item. Incorrect Xero setup creates ATO reporting errors — see the Electrical Award allowance guide for correct setup. > **This article is featured in Chapter 8 of The Sparky's Playbook.** > The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download the full book free →](/playbook)"
 ---
 
 **The 30-Second Verdict**

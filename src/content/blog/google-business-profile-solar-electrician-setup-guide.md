@@ -13,6 +13,16 @@ faq:
     answer: "The most effective approach is an automated SMS review request sent within 2 hours of job completion with a direct Google review link. This typically converts 15–30% of customers into reviewers. Consistency matters — 10 reviews per month beats 100 reviews once and nothing since."
   - question: "Which GBP categories should a solar installer and electrician use?"
     answer: "Use 'Solar Energy Contractor' as your primary category and 'Electrician' as a secondary. You can add up to 9 additional categories — but only use those that accurately describe your actual services. Over-categorising dilutes your relevance signal for your core searches."
+  - question: "How do I set up Google Business Profile for a solar installation business?"
+    answer: "Go to business.google.com and claim or create your listing. Use your exact legal trading name, your primary service address (or service area if you don't have a shopfront), and select \"Solar energy contractor\" or \"Electrician\" as your primary category (you can add both). Add your phone, website, business hours, and a detailed description that includes your service area, main services, and any certifications (CEC accreditation, licensed electrician). Verify via postcard or instant phone verification if eligible. A fully completed GBP listing with 10+ reviews typically ranks in the top 3 of Google Maps for local solar searches."
+  - question: "What is the most important factor for Google Business Profile local rankings?"
+    answer: "Reviews are the single most important ranking and conversion factor for GBP. The number of reviews, recency, and average rating all influence both where you appear in the local pack and whether searchers choose to contact you. A business with 50 reviews at 4.8 stars will consistently outperform a competitor with 10 reviews at 5.0 stars in both rankings and click-through rates. The fastest way to build reviews is an automated request system — SMS sent within 2 hours of job completion with a direct Google review link. This typically converts 15–30% of customers into reviewers."
+  - question: "How often should I post on Google Business Profile?"
+    answer: "Aim for at least one Google Post per week — more frequently during seasonal peaks (summer cooling, pre-winter heating, end-of-financial-year solar purchases). Effective post types for solar and electrical businesses include: completed project photos with a brief description, seasonal offers (e.g. STC rebate deadlines), educational content (e.g. \"How to check your solar system is performing\"), and staff or certification updates. Google Posts appear in your GBP listing for 7 days (offers last longer). Regular posting signals an active business and gives customers more confidence before contacting you."
+  - question: "Does my solar business need separate Google Business Profiles for different locations?"
+    answer: "If you operate from multiple physical locations (e.g. offices in Sydney and the Central Coast), yes — each location should have its own GBP listing with its own address, phone number, and reviews. If you operate from a single base but service a wide area, use the \"service area\" feature instead of listing multiple addresses. Creating fake location listings (for areas where you don't have a physical presence) violates Google's guidelines and can result in all your listings being suspended. For SEO in specific suburbs without a physical presence, suburb-specific landing pages on your website are the correct approach."
+  - question: "How do I handle negative reviews on Google Business Profile?"
+    answer: "Respond to every negative review promptly (within 24 hours) and professionally. Acknowledge the issue, apologise if appropriate, and offer to resolve it offline — include a phone number or email in your response. Never be defensive or dispute factual claims publicly. This approach serves two audiences: the reviewer (who may update their rating) and prospective customers reading your response (who judge your professionalism by how you handle complaints). After resolving the issue, you can politely ask the customer to update their review, but don't pressure them. A business with a thoughtful response to every negative review often converts better than one with a perfect rating and no responses."
 ---
 
 For an Australian solar installer or electrician, your Google Business Profile (GBP) is quite possibly your most valuable marketing asset — and it costs nothing to set up and maintain.
@@ -227,21 +237,20 @@ Each review you collect makes the next lead easier to win. Over 12 months, this 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)
 
-## Related Reading
 
-- *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
-- *[How to Get 5-Star Google Reviews as a Solar Installer or Electrician](/blog/google-reviews-five-star-tradie-guide/)*
-- *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)*
-- *[SMS vs Email: Which Gets More Solar Quotes Signed?](/blog/sms-vs-email-quotes-customer-experience/)*
-- *[AI Automation for Solar Installers: What Actually Works in 2026](/blog/ai-automation-solar-installers/)*
-- *[ServiceM8 for Solar Installers: The Platform Built for Compliance](/blog/servicem8-for-solar-installers/)*
-- [solar monitoring after-sales revenue](/blog/solar-monitoring-after-sales-revenue-australia/)
-- [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)
-- [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
+## Frequently Asked Questions
 
----
+### What does it take to rank in Google Maps local pack as a solar installer?
 
-## FAQ
+The three primary factors are proximity to the searcher, review count and recency, and profile completeness. A solar installer with 50+ reviews, a fully completed GBP with service areas listed, and consistent NAP across directories will consistently outrank competitors in the local pack.
+
+### How do I get more Google reviews as a solar installer or electrician?
+
+The most effective approach is an automated SMS review request sent within 2 hours of job completion with a direct Google review link. This typically converts 15–30% of customers into reviewers. Consistency matters — 10 reviews per month beats 100 reviews once and nothing since.
+
+### Which GBP categories should a solar installer and electrician use?
+
+Use 'Solar Energy Contractor' as your primary category and 'Electrician' as a secondary. You can add up to 9 additional categories — but only use those that accurately describe your actual services. Over-categorising dilutes your relevance signal for your core searches.
 
 ### How do I set up Google Business Profile for a solar installation business?
 Go to business.google.com and claim or create your listing. Use your exact legal trading name, your primary service address (or service area if you don't have a shopfront), and select "Solar energy contractor" or "Electrician" as your primary category (you can add both). Add your phone, website, business hours, and a detailed description that includes your service area, main services, and any certifications (CEC accreditation, licensed electrician). Verify via postcard or instant phone verification if eligible. A fully completed GBP listing with 10+ reviews typically ranks in the top 3 of Google Maps for local solar searches.

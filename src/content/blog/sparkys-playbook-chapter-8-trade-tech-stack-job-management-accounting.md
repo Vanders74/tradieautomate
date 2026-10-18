@@ -236,6 +236,33 @@ Allocate a full day to setup. Watch the ServiceM8 tutorial library (it's good). 
 
 ---
 
+
+## Frequently Asked Questions
+
+### What job management software do most Australian electricians use?
+
+ServiceM8 is the dominant job management platform for small-to-medium Australian electrical businesses. It's built specifically for trades and field service, runs on iPhone and iPad natively, and integrates with Xero and MYOB. Alternatives include Tradify (strong in NZ, growing in AU), simPRO (better for larger operations with complex project management needs), and AroFlo (enterprise-grade). The right choice depends on your business size, complexity, and workflow — but for most electrical businesses with 1–15 staff, ServiceM8 is the most common choice and has the deepest ecosystem.
+
+### What is the difference between ServiceM8 and simPRO?
+
+ServiceM8 is optimised for small-to-medium trades businesses doing high-volume, lower-complexity work — service calls, maintenance, smaller installs. It's mobile-first, fast to set up, and relatively simple to learn. simPRO is designed for larger operations doing complex project management — multi-stage jobs, subcontractor management, detailed job costing, and enterprise reporting. simPRO has a steeper learning curve and higher cost but is more capable for complex commercial project management. Most electrical businesses start with ServiceM8 and only need simPRO if they grow into large commercial project management.
+
+### Should I use Xero or MYOB for my electrical business?
+
+Xero is the default recommendation for most small-to-medium Australian electrical businesses. It has a cleaner interface, better bank feeds, stronger app ecosystem (including native ServiceM8 integration), and a larger accountant community. MYOB AccountRight is more powerful for payroll-heavy businesses and for businesses that need detailed inventory management, and MYOB has a long-established presence with Australian accountants. If your accountant uses MYOB and is familiar with it, staying in MYOB is reasonable — the accountant relationship matters more than the software brand. If starting fresh, Xero is the more modern choice.
+
+### What automation is worth setting up for an electrical business?
+
+The highest-value automations for electrical businesses are: automated invoice reminders (set in Xero or ServiceM8, runs without you, dramatically improves cash flow); automated job follow-up messages to customers after completion (requesting a Google review — a major driver of online reputation); automated quote follow-ups (ServiceM8 can send a reminder if a quote hasn't been accepted within a set timeframe); and automated compliance certificate delivery (triggering Certificate of Compliance delivery to the customer on job completion). These automations combined save 3–5 hours per week for most businesses.
+
+### How much does the right tech stack cost for an electrical business?
+
+A typical small-to-medium electrical business tech stack (ServiceM8 Starter or Growing plan + Xero Standard) runs $130–$220 per month. This covers job management, scheduling, invoicing, accounting, bank reconciliation, and payroll. For a business turning over $500,000+ per year, this represents well under 1% of revenue — the ROI from improved cash flow, reduced admin hours, and professional presentation is typically 10–20x the cost within the first year.
+
+### Where can I get the full Sparky's Playbook?
+
+This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook).
+
 ## Related Reading
 
 - [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026/)

@@ -1,6 +1,17 @@
 ---
 title: 'Best Accounting Software for Solar & Electrical Businesses in Australia: Xero vs MYOB vs QuickBooks'
 description: 'Xero vs MYOB vs QuickBooks for Australian solar & electrical: ServiceM8 integration, Fair Work Act payroll, CER/STC compliance — which fits your trade business.'
+faq:
+  - question: "Do I need accounting software if I'm just starting out?"
+    answer: "Yes — even from day one. The ATO requires you to maintain business records, and attempting to do this on spreadsheets creates significant work at BAS and tax time. Xero Starter at $32/month is designed for businesses with very few transactions — it's the right entry point for sole traders just starting out. Upgrade as your transaction volume grows."
+  - question: "Can I do my BAS through Xero without an accountant?"
+    answer: "Yes — Xero prepares your BAS automatically from your categorised transactions, and you can lodge it directly to the ATO through Xero's BAS lodgement feature. Many sole traders do this themselves for straightforward situations. For more complex situations (building and construction, PAYG withholding, complex GST) it's worth having an accountant review before lodgement, at least initially."
+  - question: "What's the best way to track solar job profitability in Xero?"
+    answer: "Xero Standard doesn't have native job-level profitability reporting. For true job profitability tracking — seeing whether each solar installation made or lost money — you need to either (a) use ServiceM8's job cost tracking and then reconcile with Xero, or (b) upgrade to Xero Projects (add-on, additional cost) which allows cost and revenue to be tracked against specific projects. ServiceM8 + Xero together give you a reasonable view of job profitability without the Projects add-on for most small businesses."
+  - question: "Does Xero integrate with solar-specific software like PVSell or Aurora Solar?"
+    answer: "Xero's integration ecosystem (Xero App Store) includes many business tools but doesn't have deep integrations with solar design tools like PVSell or Aurora Solar as of 2026. For solar design and quoting, these tools typically stand alone — you create proposals in the design tool, then enter the approved job into ServiceM8 as a quote or job. The financial data flows from ServiceM8 to Xero."
+  - question: "Is MYOB better than Xero for construction businesses?"
+    answer: "For businesses doing significant construction work (not just electrical installation), MYOB AccountRight's project tracking and WIP (work in progress) reporting is arguably stronger than Xero's built-in capability. However, for businesses primarily doing electrical installation, solar, or service work (rather than construction projects), Xero + ServiceM8 typically provides a better integrated workflow. The distinction is whether your business is closer to \"service business\" or \"construction business\" in how it manages projects. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download free →](/playbook)"
 pubDate: 'May 08 2026'
 updatedDate: 'Jul 30 2026'
 category: "Business Growth"

@@ -178,6 +178,29 @@ And if you're wondering what the administrative cost of running commercial solar
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)
 
+
+## Frequently Asked Questions
+
+### What compliance standards apply to commercial solar installations in Australia?
+
+Commercial solar systems must comply with AS/NZS 5033:2021 (PV array installation), AS 4777 (grid connection via inverters), and IEC 62109 for inverter safety. All grid-tied inverters must appear on the Clean Energy Council (CEC) approved products list.
+
+### Do I need Clean Energy Council accreditation to install commercial solar?
+
+Yes. To access the Small-scale Technology Certificate (STC) program administered by the Clean Energy Regulator (CER), the installation must be carried out by a CEC-accredited installer. Commercial systems above 100kW are assessed under the Large-scale Renewable Energy Target (LRET) instead of STCs.
+
+### What triggers a commercial solar compliance audit in Australia?
+
+The Clean Energy Regulator (CER) conducts random and targeted audits of STC claims. Common triggers include unusually high STC volumes, complaints, and spot-checks on newly accredited installers. Documentation failures — missing AS/NZS 5033:2021 labelling, incomplete commissioning records — are the most common findings.
+
+### Are commercial solar systems subject to network authority approval?
+
+Yes. Systems above certain thresholds (typically 30kW but varying by DNSP and state) require a formal network connection application and, in many cases, protection relay installation. Contact your state's Distribution Network Service Provider before quoting large commercial systems.
+
+### What is the difference between AS/NZS 5033 and AS 4777 for solar?
+
+AS/NZS 5033:2021 governs the physical installation and safety of the PV array — wiring, isolators, labelling, and string protection. AS 4777 governs how the inverter connects to the grid — anti-islanding, voltage and frequency response, and CSIP-Aus export management for systems subject to DER frameworks.
+
 ## Related Reading
 
 - *[How to Win Commercial Solar Contracts in Australia](/blog/how-to-win-commercial-solar-contracts-australia/)*

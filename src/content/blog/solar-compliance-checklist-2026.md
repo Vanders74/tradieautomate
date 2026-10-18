@@ -1,6 +1,17 @@
 ---
 title: '2026 Solar Compliance Checklist for Australian Installers: CER, AS/NZS 5033 & 5139, NSW/VIC/QLD/SA/WA'
 description: "800+ solar installers audited by CER last year. Free printable 2026 compliance checklist — AS/NZS 5033 & 5139, STC docs, and state-by-state regulator requirements."
+faq:
+  - question: "What compliance standards apply to solar installations in Australia in 2026?"
+    answer: "The primary standards are AS/NZS 5033 (PV arrays), AS/NZS 3000 (Wiring Rules), and CEC installation guidelines. Battery storage adds AS/NZS 5139:2019. Installers must hold current CEC accreditation and valid state/territory electrical licences."
+  - question: "What documentation does the CER require?"
+    answer: "The CER requires a completed STC assignment form signed by the customer, proof of CEC accreditation, Certificate of Electrical Safety (CES), installation photos at key milestones, serial numbers for all components, and documentation confirming installed equipment matches the approved design."
+  - question: "How long do I need to keep solar installation records?"
+    answer: "Minimum 5 years from the date of installation. This includes STC documentation, checklists, photos, certificates, and customer sign-off documents. Cloud-based [digital job management platforms](/blog/digital-job-management-solar-installers/) handle retention automatically."
+  - question: "What are the most common reasons for failing a CER audit?"
+    answer: "Incomplete compliance checklists, STC forms with errors or missing customer signatures, photos that can't be tied to a specific job and date, missing AS/NZS 5139 documentation for battery jobs, and expired accreditation at the time of installation."
+  - question: "Do I need a separate checklist for battery storage?"
+    answer: "Yes. [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance/) has specific requirements around labelling, ventilation, emergency isolation, and hazard signage that go beyond the standard solar PV checklist. A combined solar + battery job requires both sets of compliance documentation."
 pubDate: 'Feb 18 2026'
 category: "Compliance"
 updatedDate: 'Oct 18 2026'

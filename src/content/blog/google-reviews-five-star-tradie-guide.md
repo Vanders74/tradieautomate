@@ -232,3 +232,21 @@ If you're not currently asking every customer for a review, you're leaving a sig
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
 - *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)*
 - *[Negative Google Reviews: The Tradie's Exact Response Playbook](/blog/how-to-handle-negative-google-reviews-tradie/)*
+
+## Frequently Asked Questions
+
+### How do I get more 5-star Google reviews as a solar installer or electrician?
+
+Ask every customer within 48 hours of a positive experience, personalise the request, and make it direct — don't hint. Use your Google review link and automate the ask through your job management system (ServiceM8 supports automated review requests on job completion). Channel matters: SMS outperforms email.
+
+### When is the best time to ask for a Google review?
+
+Within 48 hours of the positive experience — not at the moment of payment, when customers are thinking about money leaving their account. For residential solar, the ideal trigger is 1–3 days after installation, ideally the first day they see generation numbers in their monitoring app, when enthusiasm is highest.
+
+### Is it legal to offer customers an incentive for a Google review?
+
+No. The ACCC and Australian Consumer Law prohibit businesses from offering rewards or incentives for reviews, including fake or misleading reviews. Review platforms also ban incentivised reviews — offering discounts for 5-star reviews can get reviews removed and attract regulatory attention. Never buy, incentivise, or fake reviews.
+
+### How many Google reviews does a solar or electrical business need to be competitive?
+
+Consistency beats raw volume. A business with 30 recent, authentic reviews and a steady flow of new ones outperforms one with 200 old reviews. The review flywheel — asking systematically after every job — compounds: more reviews build trust, trust converts more quotes, more jobs generate more review opportunities.

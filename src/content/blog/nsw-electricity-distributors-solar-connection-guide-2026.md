@@ -19,7 +19,7 @@ breakdown:
     href: "/blog/csip-aus-export-limit-1-5kw-solar"
     hrefLabel: "CSIP-AUS explainer →"
   - title: "Submit the CCEW"
-    summary: "NSW's separate compliance cert under the Home Building Act 1989."
+    summary: "NSW's separate compliance certificate under the Gas and Electricity (Consumer Safety) Act 2017."
     href: "/blog/ccew-nsw-electrical-compliance-guide-2026"
     hrefLabel: "CCEW guide →"
   - title: "Close out"
@@ -211,3 +211,37 @@ Installing across the border? Each state has its own distributor framework, expo
 - [QLD Energex & Ergon guide](/blog/qld-energex-ergon-solar-connection-guide-2026/) — dynamic connections on IEEE 2030.5 SEP2
 - [WA Western Power guide](/blog/wa-western-power-solar-connection-guide-2026/) — isolated SWIS grid, 30kVA aggregate inverter rule
 - [VIC distributors guide](/blog/vic-solar-connection-guide-2026/) — five networks, uniform 5kW limit
+
+## Frequently Asked Questions
+
+### Which electricity distributors cover New South Wales?
+
+NSW has three electricity distributors: Ausgrid (northern Sydney, Central Coast, Hunter/Newcastle), Endeavour Energy (western Sydney, Blue Mountains, Southern Highlands, Illawarra), and Essential Energy (regional and rural NSW). Transgrid operates the high-voltage transmission network above them. You must identify the correct distributor before lodging a solar or battery connection application.
+
+### What are the solar export limits in NSW?
+
+They differ by distributor and are set per phase. Ausgrid allows up to 10kW export per phase. Endeavour Energy applies a 5kW per-phase export limit by default. Essential Energy applies 5kW per phase, dropping to 3kW per phase in rural areas. On a three-phase connection the limit applies to each phase — so a three-phase Essential Energy home can export 15kW total (5kW × 3 phases). Always confirm the current limit in the distributor's portal before quoting.
+
+### Are flexible exports available in NSW?
+
+Not yet as a standard offer. NSW is phasing in flexible exports from late 2026, starting with Endeavour Energy making it the default connection offer for new and upgraded systems. The NSW Government's CER Installer Portal will require new and upgraded rooftop solar systems up to 200kW to use CSIP-AUS compliant inverters as part of this rollout. Until then, fixed export limits apply.
+
+### How long does a NSW solar connection take?
+
+It varies by distributor and system size. Essential Energy auto-approves small systems (≤3kW rural, ≤5kW urban) but larger systems need technical review and typically take 4–8 weeks. Ausgrid and Endeavour Energy processes differ by application complexity. Regional and larger systems almost always take longer than a simple metro rooftop job.
+
+### What is the NSW Emergency Backstop Mechanism?
+
+A NSW Government measure to remotely manage solar and battery exports during grid emergencies. Ausgrid and Endeavour Energy have advised that approved systems must be installed and commissioned by 31 December 2026 under the current arrangements. Installers should check the current backstop requirements before quoting a new system.
+
+### Do I need a CCEW for a NSW solar installation?
+
+Yes. NSW requires a Certificate of Compliance for Electrical Work (CCEW) for notifiable electrical work under the Gas and Electricity (Consumer Safety) Act 2017, administered by Building Commission NSW and lodged in BCNSW eCert. The distributor connection approval is separate from the CCEW — both are required. See the CCEW guides for the 7-day lodgement rule.
+
+### Do NSW solar systems need to meet AS/NZS 4777?
+
+Yes. All grid-connected inverters in NSW must meet AS/NZS 4777.1:2024 (installation) and AS/NZS 4777.2:2024 (inverter product requirements), published by Standards Australia in August 2024. The inverter must also be on the Clean Energy Council's approved products list.
+
+### Which distributor covers my suburb?
+
+Ausgrid covers northern Sydney, the Central Coast, and the Hunter. Endeavour Energy covers western Sydney, the Blue Mountains, the Southern Highlands, and the Illawarra. Essential Energy covers regional and rural NSW. Use the distributor's online lookup or the customer's electricity bill (which names the distributor) to confirm before applying.

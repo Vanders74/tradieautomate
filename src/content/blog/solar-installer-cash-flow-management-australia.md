@@ -1,6 +1,17 @@
 ---
 title: "Solar Installer Cash Flow: How to Stop Funding Your Customers' Systems"
 description: "Solar installer cash flow survival guide — why the math is stacked against you, the deposit and invoicing fixes that work, and how to stop your business bank account from funding your customers' solar systems."
+faq:
+  - question: "How much deposit should I take for a solar installation?"
+    answer: "30–50% is the standard range for residential solar. For a $20,000 job, a 30% deposit ($6,000) meaningfully reduces your working capital exposure. For large commercial jobs, 30% pre-installation and 30% on completion (with 40% on invoice) is a common structure."
+  - question: "What's the best way to collect solar deposits in Australia?"
+    answer: "Stripe integrated with ServiceM8 is the most efficient system for Australian solar businesses. You send a quote with a payment link embedded; the customer pays by credit or debit card online. Funds are processed to your account within 1–2 business days. No bank transfer delays, no cheque processing, no chasing."
+  - question: "Should I offer payment plans to solar customers?"
+    answer: "Only through a licensed finance provider — not through your own business. Offering instalment plans or deferred payment arrangements directly is regulated under the National Consumer Credit Protection Act. Instead, refer customers to CEC-registered solar finance products (e.g. through the government's Solar Finance programs) or the manufacturer's finance partner."
+  - question: "What invoice payment terms should solar installers use?"
+    answer: "7-day payment terms for residential. 14-day for commercial, where accounts payable processes may require slightly more time. 30-day terms for residential solar are industry habit rather than necessity — and they cost you money."
+  - question: "Can I charge interest on overdue solar invoices?"
+    answer: "Yes — if your terms of trade include an interest clause and the customer was given those terms before the work commenced. Your terms of trade document (which should be referenced in every quote) should specify the interest rate for overdue invoices. Most Australian electricians' terms reference the penalty interest rate set by the relevant state court. > **This article is featured in Chapter 7 of The Sparky's Playbook.** > The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download the full book free →](/playbook)"
 pubDate: 'Jul 13 2026'
 category: "Business Growth"
 heroImage: '/hero-hidden-costs-profit.jpg'

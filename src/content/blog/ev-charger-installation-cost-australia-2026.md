@@ -166,6 +166,25 @@ For building a broader lead generation system for your solar and electrical busi
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)
 
+
+## Frequently Asked Questions
+
+### How much does a residential EV charger installation cost in Australia in 2026?
+
+A standard residential EV charger installation in Australia typically costs $900–$2,500 including labour and materials, but not the charger hardware. Simple installs (modern home, switchboard capacity available, short cable run) sit at the lower end. Switchboard upgrades and long cable runs add $400–$2,500 to the total.
+
+### Do electricians need special certification to install EV chargers in Australia?
+
+A licensed electrical contractor's licence is required in all states. All EV charger wiring must comply with AS/NZS 3000:2018 (the Australian Wiring Rules). In Victoria, Energy Safe Victoria (ESV) governs compliance certificate requirements. In NSW, SafeWork NSW regulates electrical contractor licensing and compliance obligations.
+
+### When does an EV charger installation require a switchboard upgrade?
+
+A switchboard upgrade is required when there is insufficient spare capacity for the EV charger circuit, when the existing switchboard has rewireable fuses (pre-circuit breaker), or when the installation triggers compliance obligations under AS/NZS 3000:2018 requiring the existing board to be brought up to current standard. Switchboard upgrades typically add $1,200–$3,500 to the total job cost.
+
+### How long does an EV charger installation take?
+
+A straightforward residential EV charger installation takes 2–4 hours. Jobs requiring switchboard upgrades, long cable runs, or conduit through walls or under slabs typically take a full day (6–8 hours). Commercial multi-charger installations are scoped as multi-day projects.
+
 ## Related Reading
 
 - *[EV Charger Installation for Electricians: Certification, Compliance and Workflow in Australia](/blog/ev-charger-installation-electricians-australia-2026/)*

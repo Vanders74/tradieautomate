@@ -76,3 +76,21 @@ The 14-page guide is free, no email required. Run the 10-point self-assessment a
 ---
 
 *Disclaimer: This e-book is a practical compliance guide, not legal advice. For specific enforcement matters, consult a qualified legal professional or contact the Clean Energy Regulator directly.*
+
+## Frequently Asked Questions
+
+### What is an STC audit and who conducts it?
+
+An STC audit is a compliance review conducted by the Clean Energy Regulator (CER) or the Clean Energy Council (CEC) to verify that Small-scale Technology Certificates (STCs) were created for eligible solar PV installations. The audit checks installation documentation, system specifications, installer accreditation, and compliance with Australian Standards (AS/NZS 4777, AS/NZS 5033). If discrepancies are found, the CER can invalidate STCs, issue infringement notices, or suspend an installer's accreditation.
+
+### What percentage of STC claims get audited?
+
+The CER's audit rate varies by risk profile. Installers with a clean history may see audit rates below 5%, while installers flagged for specific patterns (high claim volume, frequent design variations, repeat compliance issues) can face audit rates exceeding 30%. In 2026 the CER has increased its real-time validation checks, meaning more claims are flagged before certificates are created rather than after.
+
+### Can I lose my CEC accreditation from a single STC audit failure?
+
+A single minor documentation error won't typically trigger accreditation loss, but a pattern of non-compliance — particularly missing geo-tagged photos, incorrect system sizing, or failure to meet AS/NZS 5033 string design requirements — can result in accreditation conditions, suspension, or revocation. The e-book covers the difference between a fixable documentation note and a compliance breach.
+
+### How do I check if my STC claims are audit-proof?
+
+The free e-book includes a 10-point self-assessment checklist that walks through your last 5 STC claims and identifies any documentation gaps. It covers the same verification steps the CER uses in a first-stage audit review.

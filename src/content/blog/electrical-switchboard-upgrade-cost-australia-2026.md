@@ -1,6 +1,17 @@
 ---
 title: "Electrical Switchboard Upgrade Cost Australia 2026: What to Expect and Why"
 description: "Electrical switchboard upgrade costs in Australia 2026 — what actually drives the price, what's included in a quality job, and when your solar or EV install makes an upgrade unavoidable."
+faq:
+  - question: "How long does a switchboard upgrade take?"
+    answer: "A standard single-phase residential switchboard upgrade takes 2–4 hours. A more complex upgrade — three-phase, larger board, difficult access, multiple new circuits — may take 4–8 hours. Allow additional time if the network distributor needs to isolate the meter."
+  - question: "Can I just add RCDs to my old board instead of replacing it?"
+    answer: "Sometimes. If the existing board is a circuit breaker type with space for additional devices, retrofitting RCDs to existing circuits is possible and less expensive than a full replacement. An older fuse board cannot be retrofitted — it must be replaced. Your electrician should advise which applies to your specific board."
+  - question: "Does a switchboard upgrade add value to my home?"
+    answer: "Independently verified home inspections commonly flag non-compliant switchboards as defects. A compliant, modern switchboard removes that flag and can improve the property's electrical safety rating. Most real estate agents advise vendors in older homes to upgrade boards before listing."
+  - question: "Who needs to know about my switchboard upgrade?"
+    answer: "Your licensed electrician issues the compliance certificate. Depending on your state, the local council or state electrical regulator may receive notification. Your electricity retailer does not typically need to be notified unless the metering configuration changes."
+  - question: "Is a switchboard upgrade covered by home insurance?"
+    answer: "No — switchboard upgrades are a maintenance and compliance cost, not an insured event. Some home warranty policies include electrical systems, but switchboard replacement due to age or non-compliance is typically excluded. Check your policy wording. > **This article is featured in Chapter 2 of The Sparky's Playbook.** > The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download the full book free →](/playbook)"
 pubDate: 'Jul 13 2026'
 updatedDate: 'Oct 18 2026'
 category: "Compliance"

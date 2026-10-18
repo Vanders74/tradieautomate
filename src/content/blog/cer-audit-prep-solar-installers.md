@@ -189,6 +189,21 @@ For a full rundown of what you need on every solar job, start with the [Solar Co
 > **Free Solar Compliance Checklist PDF** — the printable 1-page audit-readiness checklist so every CER inspection is a formality, not a scramble.
 > [Download the checklist →](/compliance-checklist)
 
+
+## Frequently Asked Questions
+
+### What triggers a CER audit for a solar installer in Australia?
+
+The Clean Energy Regulator selects installers via random compliance checks, data-matching on STC claim anomalies, consumer complaints, and agent-linked activity. New accreditations also attract early-stage checks. You don't need to do anything obviously wrong — being active in the SRES is sufficient to be in scope.
+
+### What documentation does the CER require during an audit?
+
+Auditors request STC lodgement records, job-specific installation photos (date-stamped and tied to each installation), customer declarations, grid connection approvals, and certificates of compliance. All records must be retained for a minimum of 5 years under the Renewable Energy (Electricity) Act 2000.
+
+### What happens if you fail a CER audit?
+
+Consequences range from a compliance notice requiring remediation, to STC claim suspension, financial penalties, and CEC accreditation cancellation. Without active CEC accreditation, you cannot lodge STCs and cannot legally install solar under the Small-scale Renewable Energy Scheme (SRES).
+
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*

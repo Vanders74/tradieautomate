@@ -175,6 +175,29 @@ This granularity is useful for tracking margin by job type and benchmarking agai
 
 ---
 
+
+## Frequently Asked Questions
+
+### Does ServiceM8 integrate with Xero?
+
+Yes. ServiceM8 has a native, real-time integration with Xero. Invoices created in ServiceM8 sync automatically to Xero, client records are shared between the two systems, and payments recorded in Xero flow back to ServiceM8. The integration is included at no extra cost in all ServiceM8 plans. Setup takes approximately 15–30 minutes for most electrical and solar businesses.
+
+### What data syncs between ServiceM8 and Xero?
+
+The ServiceM8-Xero integration syncs: invoices (created in ServiceM8, pushed to Xero automatically when sent); client records (contact details shared between systems); payment status (payments recorded in Xero reflect in ServiceM8); and items/services (tax codes and account codes from Xero apply to ServiceM8 line items). Quote documents stay in ServiceM8 — only invoices sync to Xero. Credit notes created in Xero can be applied to ServiceM8 invoices.
+
+### Can ServiceM8 and Xero sync in real time?
+
+Yes — the ServiceM8-Xero integration is real-time, not batch. When an invoice is sent from ServiceM8, it appears in Xero within seconds. When a payment is marked in Xero (via bank feed reconciliation), the payment status updates in ServiceM8 shortly after. There's no need to manually run a sync or export files between the two systems.
+
+### What should I do if ServiceM8 invoices aren't syncing to Xero?
+
+If ServiceM8 invoices aren't appearing in Xero: first check the integration is still connected (ServiceM8 Settings → Integrations → Xero — you should see a green connected status). If disconnected, re-authenticate by signing into Xero from ServiceM8. If connected but invoices aren't syncing, check that your Xero account has the correct tax rates configured and that the ServiceM8 tax code matches a valid Xero tax rate. Check the ServiceM8 error log in the integration settings for specific error messages.
+
+### Is ServiceM8 better than entering invoices directly in Xero?
+
+Yes, for trade businesses. Entering invoices directly in Xero requires separately tracking jobs, scheduling, time, and compliance documentation — Xero is an accounting tool, not a job management system. ServiceM8 manages the full job workflow (quoting, scheduling, compliance forms, mobile invoicing) and pushes the financial data to Xero automatically. The result is faster invoicing (done on site, not at an office days later), more complete job records, and cleaner accounts without duplicate data entry.
+
 ## Related Reading
 
 - [ServiceM8 Review 2026 — Is It Worth It for Electricians?](/blog/servicem8-review-2026/)

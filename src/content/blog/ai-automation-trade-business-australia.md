@@ -6,14 +6,16 @@ pubDate: 'Apr 07 2026'
 category: "Business Growth"
 heroImage: '/hero-digital-jobs.jpg'
 faq:
-  - question: "What AI automation tools actually work for Australian trade businesses?"
-    answer: "The most proven AI automation tools for Australian tradies in 2026 are: ServiceM8 for automated invoicing, job scheduling, and compliance form workflows; Sophiie AI for 24/7 phone answering without a receptionist; automated review request systems triggered by job completion; and CRM-integrated quote follow-up sequences. These deliver measurable ROI without requiring deep technical knowledge."
-  - question: "How much time can AI automation save a trade business each week?"
-    answer: "For a typical 2–5 person electrical or solar business, well-implemented automation saves 4–8 hours per week. The biggest time savers are automated invoicing, payment reminders, review requests, and 24/7 AI phone answering. At $100/hour for a business owner's time, that's $20,000–$40,000 in recovered hours annually."
-  - question: "Can AI handle compliance documentation for solar and electrical work?"
-    answer: "AI tools streamline compliance documentation significantly but can't replace licensed sign-off. What AI does well: automating data capture for CCEW and CER documentation, pre-populating forms with job data, triggering documentation workflows, and alerting when compliance steps are incomplete."
-  - question: "Is AI automation expensive to implement for a small trade business?"
-    answer: "The most effective tools are affordable. ServiceM8's automation features start at $29/month. Sophiie AI costs $300–$600/month for 24/7 phone coverage. Quote follow-up automation through HubSpot or ActiveCampaign costs $50–$200/month. Most trade businesses can achieve the core stack for under $700/month, with payback within 2–3 months."
+  - question: "Do I need to be tech-savvy to use AI automation in my trade business?"
+    answer: "No. The most impactful AI automation tools for tradies are built into platforms like ServiceM8 and are configured through simple dashboards — not code. If you can use a smartphone, you can set up automated job reminders and invoice follow-ups. The more advanced AI tools (proposal writing, data analysis) have a steeper learning curve but are still accessible without technical expertise."
+  - question: "Will AI replace trade jobs?"
+    answer: "No — AI replaces the admin work that surrounds trade work, not the skilled trade work itself. A solar installer still needs to physically install the panels, run the cabling, commission the system, and sign the compliance documentation. What AI removes is the hour spent writing up the job, chasing the invoice, and filing the paperwork."
+  - question: "How much does AI automation cost for a trade business?"
+    answer: "The entry point is low. ServiceM8's Starter plan (which includes the bulk of the automation features discussed here) is $29/month. Adding AI writing tools like ChatGPT Plus is ~$30/month. For most businesses, the first month of time savings more than covers the subscription costs."
+  - question: "Which ServiceM8 plan do I need to access automation features?"
+    answer: "Most automation features — including SMS reminders, automated follow-ups, and digital forms — are available from the Starter plan upward. The Free plan (30 jobs/month) has more limited automation. For compliance-heavy businesses, the Growing or Premium plan is recommended. [Compare plans and start your trial](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)."
+  - question: "How do I use AI for compliance documentation specifically?"
+    answer: "The most practical approach is using ServiceM8's digital form builder to create compliance checklists and certificate templates that auto-populate from job data. Combined with required photo capture steps, this creates audit-ready compliance documentation without extra effort from field staff. See our [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/) for a detailed walkthrough."
 ---
 
 There's a lot of hype around AI automation. But for Australian tradies running solar, electrical, or plumbing businesses, the question isn't whether AI is impressive — it's whether it can save you time, win you more jobs, and keep you compliant without adding another system to manage.

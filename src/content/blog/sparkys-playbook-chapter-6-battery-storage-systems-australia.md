@@ -209,6 +209,33 @@ The sales approach: offer it at installation, not later. "We include 12 months o
 
 ---
 
+
+## Frequently Asked Questions
+
+### What standard governs battery storage installations in Australia?
+
+AS/NZS 5139:2019 is the primary standard for battery energy storage systems (BESS) in Australia. It covers the design, installation, and commissioning of battery systems for residential and commercial applications. It works alongside AS/NZS 3000 (the Wiring Rules) and AS/NZS 4777 (grid connection). AS/NZS 5139 introduced significant requirements around installation location, separation distances, fire protection, ventilation, and safety systems that don't apply to solar-only installations.
+
+### Do I need CEC battery accreditation to install battery systems?
+
+Yes. The Clean Energy Council requires separate battery installation accreditation for electricians installing battery energy storage systems connected to the grid or to a solar system. If you hold CEC Solar Accreditation (Grid-connect PV), you'll need to complete the additional battery unit to add battery accreditation. Without it, you cannot install batteries under the STC scheme or access the installer rebates available in states like SA and VIC.
+
+### What are the main AS/NZS 5139 requirements for residential battery installations?
+
+Key requirements include: minimum separation distances from ignition sources, windows, doors, and air intakes (varies by battery chemistry and energy capacity); ventilation requirements where batteries can off-gas; fire separation requirements for batteries installed in enclosed spaces; prohibitions on installation in certain locations (occupied sleeping areas, escape routes); mandatory labelling and signage; and documentation requirements including a Battery Installation Certificate. Each battery manufacturer also has specific installation requirements that must be followed for the warranty to remain valid.
+
+### What is a VPP (Virtual Power Plant) and is it an opportunity for electricians?
+
+A Virtual Power Plant is a network of residential and commercial battery systems that are aggregated and dispatched by a central operator to provide grid services — balancing supply and demand, reducing peak grid load. VPP programs exist in SA, VIC, NSW, and QLD, offered by energy retailers and aggregators. For electricians, VPP programs create installation work (the customer gets a subsidised battery in exchange for joining the VPP), and in some cases the aggregator has preferred installer arrangements. It's worth being registered as a preferred installer with the major VPP operators in your state.
+
+### What ongoing maintenance do battery systems require?
+
+Battery systems require less active maintenance than mechanical systems but do benefit from periodic checks: annual inspection of connections and cabling for corrosion or looseness, software/firmware updates (many manufacturers push updates remotely, but some require onsite action), capacity testing to verify the battery is delivering rated performance, verification that safety systems (smoke detectors, ventilation) remain functional, and monitoring review to identify any anomalies in charging/discharging behaviour. Offering an annual service contract for battery customers creates a recurring revenue stream and keeps you connected to the customer for system expansions.
+
+### Where can I get the full Sparky's Playbook?
+
+This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook).
+
 ## Related Reading
 
 - [SA Solar Battery Rebate 2026 — Home Battery Scheme Guide](/blog/sa-solar-battery-rebate-2026/)

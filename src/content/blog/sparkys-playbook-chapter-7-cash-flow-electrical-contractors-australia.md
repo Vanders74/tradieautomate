@@ -252,6 +252,33 @@ Three actions that will have an immediate impact on your cash position:
 
 ---
 
+
+## Frequently Asked Questions
+
+### Why do profitable electrical businesses still run out of cash?
+
+Because profit is an accounting concept and cash is a physical reality. A business can be highly profitable on paper — invoices raised, margins healthy — while being cash-negative because clients are slow to pay, large material orders have been paid upfront, or retention is being held on commercial jobs. The gap between profit and cash is where trades businesses get into trouble.
+
+### What is progress billing and when should electrical contractors use it?
+
+Progress billing means invoicing in stages tied to project milestones rather than waiting until a job is complete. For any job that spans more than a week — particularly commercial fitouts, solar installations, or large switchboard upgrades — progress billing is standard practice. A typical structure is 30-40% deposit before mobilisation, 40-50% at rough-in or mid-point, and the balance on completion. This keeps your cash position positive throughout the job rather than funding the work yourself.
+
+### What retention clauses should electrical contractors watch out for?
+
+Retention is a contractual mechanism where the client withholds a percentage (commonly 5-10%) of each progress payment until practical completion and sometimes for a defects liability period after. On large commercial jobs, retention can tie up significant cash for 6-12 months. Before signing, review the retention percentage, the release conditions, and the defects liability period. Negotiate the defects liability period down where possible, and track retention receivables separately from your normal invoicing.
+
+### What payment terms should an electrical contractor use?
+
+Residential work: payment on completion or 7-day net maximum. Commercial work: 14-30 day net is standard, though many large clients push for 30-60 days — assess this against your cash position before agreeing. Always specify payment terms clearly in your quote and invoice, not just verbally. For repeat commercial clients with good payment history, 30-day net is reasonable. For new clients on large jobs, require a deposit before mobilisation regardless of what their standard terms say.
+
+### How do I chase overdue invoices without damaging client relationships?
+
+The key is making it process-driven, not personal. Send an automated reminder at 7 days overdue, a second at 14 days with a clear statement of your payment terms and any late payment clause, and make a direct phone call at 21 days. Frame every communication as administrative — 'our records show this invoice is outstanding' rather than 'you haven't paid.' Most overdue invoices are not disputed — they're just not being prioritised. A consistent, professional follow-up sequence resolves the majority without damaging the relationship.
+
+### Where can I get the full Sparky's Playbook?
+
+This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook).
+
 ## Related Reading
 
 - [Solar Installer Cash Flow Management Australia](/blog/solar-installer-cash-flow-management-australia/)

@@ -6,13 +6,16 @@ category: "ServiceM8"
 updatedDate: 'Jul 19 2026'
 heroImage: '/hero-digital-jobs.jpg'
 faq:
-  - question: "What documentation does the Clean Energy Regulator require for solar installations?"
-    answer: "The Clean Energy Regulator (CER) requires photographic evidence of the installation, a completed compliance checklist, signed customer declaration, and system specification records. Documentation must be retained for at least 5 years and produced on request during a CER audit."
-  - question: "How does digital job management help solar installers pass CER audits?"
-    answer: "Digital platforms capture GPS-stamped photos, timestamped compliance checklists, and customer sign-offs automatically at the point of work. This creates an audit-ready record that satisfies CER requirements without relying on paper documents that can be lost or completed retrospectively."
-  - question: "Do AS/NZS 5033 compliance requirements affect how solar jobs are documented?"
-    answer: "Yes. AS/NZS 5033:2021 requires specific labelling, isolator placement, and installation records that must be documented for each job. Digital forms built to match AS/NZS 5033 requirements ensure technicians capture every required item on-site, reducing the risk of incomplete documentation flagged in Clean Energy Council (CEC) accreditation audits."
-
+  - question: "What is digital job management for solar installers?"
+    answer: "Digital job management is software that replaces paper-based systems by managing the entire lifecycle of a solar installation job — quoting, scheduling, on-site forms, compliance photos, invoicing, and customer communication — in one connected platform."
+  - question: "Is digital job management software worth it for a small solar business?"
+    answer: "Yes, even for sole traders doing 5+ jobs per month. The admin savings typically cover the software cost within the first month, and the compliance risk reduction is significant regardless of business size. One CER audit finding can cost far more than years of software fees."
+  - question: "What's the best job management software for Australian solar installers?"
+    answer: "ServiceM8 is the most widely used platform among Australian solar and electrical installers, largely due to its strong mobile experience, custom forms, and Xero integration. See our [Best Job Management Software for Solar Installers 2026](/blog/solar-job-management-software-australia-2026/) for a full comparison."
+  - question: "How does digital job management help with CER audits?"
+    answer: "When every compliance checklist, photo, serial number, and signed form is attached to the digital job record — not scattered across phones, clipboards, and filing cabinets — audit preparation becomes a filtered export, not a multi-day paper hunt. Digital systems create a timestamped, GPS-tagged evidence trail that auditors can verify instantly."
+  - question: "Can I use it for battery storage jobs as well as solar PV?"
+    answer: "Absolutely. Platforms like ServiceM8 support fully custom forms, so you can build separate checklists for solar PV and battery storage ([AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance/)) installations. The platform enforces the right checklist for each job type before a technician can mark it complete."
 ---
 
 Here's a scenario most solar installers will recognise:

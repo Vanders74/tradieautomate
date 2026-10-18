@@ -6,13 +6,16 @@ category: "ServiceM8"
 updatedDate: 'Apr 18 2026'
 heroImage: '/hero-servicem8-for-solar-installers.jpg'
 faq:
-  - question: "How does ServiceM8 help solar installers with CER compliance documentation?"
-    answer: "ServiceM8 captures GPS-timestamped photos, digital compliance checklists, and customer sign-offs automatically for every job. When the Clean Energy Regulator (CER) requests installation records during an audit, installers can retrieve a complete job record in seconds — including AS/NZS 5033:2021 checklist completion, system specifications, and before/after photos."
-  - question: "Can ServiceM8 manage STC documentation for solar installations?"
-    answer: "Yes. ServiceM8 job records capture all the information needed for Small-scale Technology Certificate (STC) claims: system size, installation date, installer CEC accreditation number, and customer details. Custom forms can mirror your STC claim checklist, ensuring every required item is captured on-site before the claim is submitted to the Clean Energy Regulator."
-  - question: "Does ServiceM8 support AS/NZS 5139 battery storage compliance documentation?"
-    answer: "Yes. ServiceM8's custom form builder allows you to create battery storage job templates that capture AS/NZS 5139:2019 specific requirements — labelling verification, ventilation clearance measurements, emergency response signage, and customer safety handover documentation. These records are stored with the job and retrievable for CEC accreditation audits."
-
+  - question: "Is ServiceM8 suitable for solar installation businesses in Australia?"
+    answer: "Yes. ServiceM8 is purpose-built for trade businesses and is widely used across the Australian solar and electrical industry. Its custom form builder, GPS-stamped photo capture, and mobile-first design are particularly well suited to solar PV and battery storage compliance documentation."
+  - question: "How does ServiceM8 help with CER audits?"
+    answer: "ServiceM8 attaches every compliance photo, completed checklist, customer signature, and job detail to a permanent digital job record. When a CER audit is triggered, you export filtered job records in minutes — complete with timestamps and GPS data — rather than hunting through paper files and camera rolls."
+  - question: "Can I build custom solar compliance checklists in ServiceM8?"
+    answer: "Yes. ServiceM8's form builder lets you create custom checklists for different job types — solar PV (AS/NZS 5033), battery storage ([AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance/)), and solar + battery combos. Forms can be set as mandatory before a job can be marked complete."
+  - question: "How much does ServiceM8 cost?"
+    answer: "Plans start at $0/month (Free) and $29/month for solo operators, scaling to $349/month for larger teams. Unlimited staff logins are included on every paid plan. A free trial is available — [start yours here](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)."
+  - question: "Does ServiceM8 integrate with Xero?"
+    answer: "Yes. ServiceM8 has a direct Xero integration (and MYOB). Completed, invoiced jobs sync automatically — no double entry, real-time financials."
 ---
 
 Every solar installer eventually hits the same wall.

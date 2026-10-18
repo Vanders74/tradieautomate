@@ -187,6 +187,33 @@ Building referrals isn't accidental. It requires:
 
 ---
 
+
+## Frequently Asked Questions
+
+### How do I get more Google reviews for my electrical business?
+
+The most effective method is a direct, personal ask at the end of every job — 'If you're happy with the work, a Google review would mean a lot to us.' Follow this with an automated SMS or email sent 24–48 hours later with a direct link to your Google review page. The direct link removes friction — customers don't need to search for your business. Volume matters: aim for at least 2–3 new reviews per week. Businesses with consistent review flow rank higher in local search and convert more enquiries than competitors with the same star rating but fewer, older reviews.
+
+### How should I respond to a negative Google review?
+
+Respond within 24 hours, stay calm, and keep it professional. Acknowledge the customer's concern, apologise for their experience (even if you believe you were in the right — apologise for the experience, not necessarily the facts), and offer to resolve it directly ('Please call us on [number] so we can make this right'). Never argue, never reveal private details, and never make excuses publicly. A well-handled negative review often converts readers who see it — it shows you take accountability. After resolution, you can politely ask the customer if they'd consider updating their review.
+
+### What is local SEO and why does it matter for electricians?
+
+Local SEO is the process of optimising your online presence to appear in Google search results when people search for electricians in your area. The Local Pack (the map and three business listings that appear at the top of local search results) captures a large share of clicks for queries like 'electrician Sydney' or 'emergency electrician near me'. Ranking in the Local Pack is driven by: Google Business Profile completeness and review count/recency, citations (your business name, address and phone number consistent across directories), website relevance to local terms, and proximity to the searcher. For most small electrical businesses, local SEO delivers more leads per dollar than any other marketing channel.
+
+### Should electricians run Google Ads?
+
+Google Ads can be effective for electrical businesses but requires careful management. The cost per click for electrician terms is high ($8–$25+ per click in metro areas), and leads from ads are generally lower intent than organic or referral leads. Ads make sense when: you're a new business without organic ranking and need leads immediately; you're entering a new service area; or you have a specific high-value service (commercial solar, EV chargers) you want to promote. For established businesses with strong Google Business Profile and referral networks, ads are often not the best use of marketing spend. Start with organic and referral channels first.
+
+### How do I get consistent referrals from past customers?
+
+A referral program doesn't need to be complex. The fundamentals: do exceptional work (this is the foundation — no marketing fixes poor quality), follow up after the job to confirm the customer is happy, stay in their memory with occasional touchpoints (annual maintenance reminder, seasonal check-in), and make it easy to refer (a card or message with 'If you know anyone who needs an electrician, we'd love the introduction'). Some businesses incentivise referrals with a gift card for both the referrer and the new customer — this works but isn't necessary if your quality and follow-up are strong.
+
+### Where can I get the full Sparky's Playbook?
+
+This article is an excerpt from The Sparky's Playbook — a free 12-chapter PDF guide for Australian electricians covering compliance, cash flow, scaling, and exit strategy. Download the complete guide at [tradieautomate.com/playbook](https://tradieautomate.com/playbook).
+
 ## Related Reading
 
 - How to Handle Negative Google Reviews — Tradie Guide](/blog/how-to-handle-negative-google-reviews-tradie/)

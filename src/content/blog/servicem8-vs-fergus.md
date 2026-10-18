@@ -1,6 +1,15 @@
 ---
 title: 'ServiceM8 vs Fergus: Honest Comparison for Australian Trade Businesses (2026)'
 description: 'ServiceM8 vs Fergus 2026: $29/mo vs $49/mo. Which job management platform wins for Australian electricians? Compliance tools, job costing, and real pricing compared.'
+faq:
+  - question: "Is Fergus available in Australia?"
+    answer: "Yes. Fergus originated in New Zealand and operates in Australia. It's well established in the ANZ market with an Australian user base across electrical, plumbing, and general trade businesses."
+  - question: "Does ServiceM8 have job costing?"
+    answer: "Yes. ServiceM8 includes time tracking, materials logging, and job cost summary. It provides the fundamental job costing data that most small trade businesses need. If you require more granular margin analysis — profitability by technician, job type, or client segment — Fergus's reporting is more detailed."
+  - question: "Can I switch from Fergus to ServiceM8?"
+    answer: "Yes. ServiceM8's onboarding team can assist with migration. Client records and basic job history can be imported. Compliance form templates will need to be rebuilt in ServiceM8's form builder."
+  - question: "Which platform has better customer support?"
+    answer: "ServiceM8 is Australian-based with Australian support. Fergus has AU-based support as well. Both platforms have responsive support reputations. ServiceM8's larger Australian user base generally means more community resources (forum posts, help articles, YouTube walkthroughs) specific to Australian compliance workflows. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download free →](/playbook) *Related reading:* - *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)* - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia/)* - *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/)*"
 pubDate: 'Apr 27 2026'
 updatedDate: 'Jul 30 2026'
 category: "Software Comparisons"

@@ -7,13 +7,13 @@ category: "Software Comparisons"
 heroImage: '/hero-tradify-comparison.jpg'
 faq:
   - question: "Is ServiceM8 or Tradify cheaper for Australian tradies?"
-    answer: "ServiceM8 starts at $29/month (Starter plan), while Tradify starts at $35/month. At the growth tier, ServiceM8's Growing plan is $79/month vs Tradify's $69/month. For sole traders doing simple work, Tradify is cheaper. For electrical or solar businesses needing CCEW compliance and custom forms, ServiceM8 delivers more value per dollar."
+    answer: "ServiceM8 starts at $29/month (Starter plan), while Tradify starts at $35/month (Starter). At the growth tier, ServiceM8's Growing plan is $79/month vs Tradify's $69/month. For small sole traders doing simple work, Tradify is cheaper. For electrical or solar businesses needing CCEW compliance and custom forms, ServiceM8 delivers more value per dollar."
   - question: "Does Tradify handle CCEW compliance for NSW electricians?"
-    answer: "Tradify does not have built-in CCEW-specific compliance forms or automated lodgement workflows. ServiceM8 supports custom digital forms that match NSW CCEW requirements, with the ability to send copies to customers and homeowners directly from the field."
+    answer: "Tradify does not have built-in CCEW-specific compliance forms or automated lodgement workflows. ServiceM8 supports custom digital forms that match NSW Certificate of Compliance for Electrical Work (CCEW) requirements, with the ability to send copies to customers and homeowners directly from the field."
   - question: "Which is better for solar installers — ServiceM8 or Tradify?"
-    answer: "ServiceM8 is the stronger choice for solar installers. It supports CER documentation workflows, custom forms for STCs and battery compliance, and integrates with Xero for project-level job costing. Tradify's simpler workflow suits small residential or maintenance businesses better than the document-heavy solar sector."
+    answer: "ServiceM8 is the stronger choice for solar installers. It supports CER documentation workflows, custom forms for STCs and battery compliance, and integrates with Xero for project-level job costing. Tradify's simpler workflow suits small residential plumbing or maintenance businesses better than the document-heavy solar sector."
   - question: "Can I switch from Tradify to ServiceM8?"
-    answer: "Yes. ServiceM8 offers a 14-day free trial with onboarding support. Most businesses migrate client details, job history templates, and pricing within a week. ServiceM8 has Australian-based support for the transition."
+    answer: "Yes. ServiceM8 offers a 14-day free trial with onboarding support. Most businesses migrate client details, job history templates, and pricing within a week. ServiceM8 has published migration guides and Australian-based support for the transition."
 ---
 
 When you're researching job management software for your trade business, **ServiceM8 and [Tradify](/blog/tradify-review-2026-australia/)** come up together constantly. They're both designed for small trade businesses, they're both cloud-based, and they're both priced for the sub-enterprise market.

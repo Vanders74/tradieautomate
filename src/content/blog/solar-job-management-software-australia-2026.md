@@ -184,6 +184,29 @@ For **solo operators starting out** who want simplicity above all — **Tradify*
 
 ---
 
+
+## Frequently Asked Questions
+
+### What is the best job management software for solar installers in Australia?
+
+ServiceM8 is the leading choice for small-to-medium solar installation businesses in Australia (1–15 staff). It handles CEC documentation, CCEW compliance paperwork, quoting, scheduling, and same-day mobile invoicing. For larger solar businesses with complex project management needs (20+ staff, multi-day commercial projects), simPRO or AroFlo are worth evaluating — but both carry significantly higher cost and implementation time. For pure simplicity at low cost, Tradify is an option for smaller operators.
+
+### Does solar job management software handle CEC compliance documentation?
+
+ServiceM8 and simPRO both support CEC-related compliance documentation including site assessment forms, design documentation templates, and grid connection paperwork. ServiceM8 handles this through its custom forms system — your CEC accreditation paperwork (site survey, installation checklist, handover documents) can be built as digital forms attached to jobs. simPRO has a dedicated solar project module with CEC workflow support. Tradify and Fergus have more limited compliance documentation tools.
+
+### How much does solar business software cost per month in Australia?
+
+Costs vary by platform and team size. ServiceM8 ranges from $29–$349/month (no per-user fee, job volume-based). Tradify charges ~$35/user/month. simPRO starts at around $150–$200/month per user for basic modules, with solar-specific modules adding cost. For a 3-person solar team, ServiceM8 is typically the most cost-effective option at $99–$199/month total vs $105–$350+ for per-user platforms.
+
+### Can solar job management software integrate with Xero?
+
+Yes — ServiceM8, simPRO, Tradify, Fergus, and AroFlo all offer Xero integration. The depth of integration varies. ServiceM8's Xero sync is real-time and covers invoices, contacts, and payments. simPRO's integration is comprehensive but more complex to configure. For most solar businesses using Xero, ServiceM8's integration is the most seamless to set up and maintain.
+
+### What features should solar installers look for in job management software?
+
+Key features for solar installation businesses: mobile quoting with panel/inverter/battery product catalog, site assessment and design documentation forms, CEC compliance checklist integration, photo capture and attachment to jobs, grid connection and network approval tracking, post-installation handover documentation, STC/rebate paperwork tracking, and customer portal for post-installation support. Scheduling that handles multi-day jobs is important for commercial solar — most platforms handle this, but simPRO and AroFlo do it more robustly for large projects.
+
 ## Related Reading
 
 - [ServiceM8 for Solar Businesses — Full Guide](/blog/servicem8-for-solar-businesses/)

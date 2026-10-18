@@ -1,6 +1,17 @@
 ---
 title: 'How to Take Tap-to-Pay Card Payments on Your iPhone (No Extra Hardware Required)'
 description: "Forget the Square reader. Aussie tradies can now accept contactless card payments directly on their iPhone — no extra hardware, no monthly hardware rental. Here's exactly how it works and which apps support it."
+faq:
+  - question: "Does Tap to Pay on iPhone work with all contactless cards in Australia?"
+    answer: "Yes — it works with Visa, Mastercard, and eftpos contactless cards, as well as Apple Pay, Google Pay, and Samsung Pay. The NFC chip on the iPhone handles any contactless payment method, exactly as a standard EFTPOS terminal would."
+  - question: "Is there a contactless payment limit for Tap to Pay on iPhone?"
+    answer: "The same contactless payment limits that apply to standard EFTPOS terminals apply to Tap to Pay on iPhone — typically $100 per tap without PIN in Australia, though this can vary by card issuer. For payments above the contactless limit, the customer will be prompted to use their PIN via a connected PIN entry device. Stripe is working on PIN on Glass (entering PIN directly on the iPhone screen) for higher-value transactions, but this is not yet widely available in Australia as of 2026."
+  - question: "Can I use Tap to Pay on iPhone with an Android phone?"
+    answer: "Tap to Pay on iPhone is specific to Apple's NFC implementation. For Android, Stripe and other payment providers offer equivalent functionality through Tap to Pay on Android — the NFC chip in compatible Android devices can also function as a payment terminal. The ServiceM8 Android app has this capability via Stripe as well."
+  - question: "What happens if my phone loses signal on-site?"
+    answer: "Stripe requires an internet connection to process payments. If you're in a location with poor coverage, you won't be able to process a Tap to Pay transaction. In this scenario, ServiceM8 allows you to send the customer a payment link by SMS that they can pay once you've both left the site — not as immediate as on-site collection, but still faster than traditional invoicing."
+  - question: "How quickly does Stripe settle funds to my bank account?"
+    answer: "Stripe's standard settlement in Australia is T+2 business days (two business days after the transaction). For example, a payment collected on Monday settles to your bank account by Wednesday. Stripe Instant Payouts (for an additional fee) can accelerate this to within minutes for eligible accounts. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download free →](/playbook)"
 pubDate: 'May 20 2026'
 updatedDate: 'Jul 30 2026'
 category: "Business Growth"

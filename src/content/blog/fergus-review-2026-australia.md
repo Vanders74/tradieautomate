@@ -126,6 +126,29 @@ At minimum, use both free trials and test the actual workflow for your business 
 
 ---
 
+
+## Frequently Asked Questions
+
+### Is Fergus worth it for Australian electricians in 2026?
+
+Fergus is worth considering for small trade businesses that want stronger job costing and margin visibility than Tradify offers, at a lower price point than simPRO. For Australian electricians specifically, Fergus lacks a pre-built CCEW compliance form — a limitation that makes ServiceM8 the better choice for NSW-based electrical businesses with regular compliance documentation requirements. For trades where compliance form depth isn't critical (plumbing, gasfitting, general maintenance), Fergus is a solid mid-tier option.
+
+### How much does Fergus cost in Australia in 2026?
+
+Fergus pricing in Australia is approximately $49–$55 per user per month (AUD), billed monthly. A solo operator pays around $49–$55/month. A 3-person team pays approximately $147–$165/month. A 5-person team pays approximately $245–$275/month. Unlike ServiceM8, which doesn't charge per user, Fergus cost scales directly with team size. A 14-day free trial is available.
+
+### What does Fergus do well compared to Tradify?
+
+Fergus is more sophisticated than Tradify in job costing and margin tracking — it tracks actual vs estimated costs at the job level, making it easier to see which jobs are profitable. Fergus also has a stronger purchasing and supplier integration. Both platforms lack pre-built CCEW forms for electricians. Tradify is cheaper and simpler; Fergus offers more financial visibility for businesses that want to track job-level profitability more carefully.
+
+### Does Fergus have CCEW compliance support for NSW electricians?
+
+No — Fergus does not have a pre-built CCEW form. You can attach documents to jobs, but there's no structured digital CCEW completion workflow like ServiceM8 offers. For NSW-based electrical businesses doing regular installation work with CCEW requirements, ServiceM8 is the better choice. Fergus is more suitable for trades where structured compliance form completion isn't a daily requirement.
+
+### Who is Fergus best suited for in Australia?
+
+Fergus suits: small-to-medium trade businesses (1–8 staff) who want better job costing and margin visibility than Tradify provides; plumbers, gasfitters, and HVAC businesses where compliance form depth is less critical; businesses that find ServiceM8 more complex than they need but want more financial reporting than Tradify offers; and businesses in New Zealand or Australia looking for a platform with strong NZ/AU trade community adoption.
+
 ## Related Reading
 
 - [ServiceM8 vs Fergus — Which Is Better for Australian Trades?](/blog/servicem8-vs-fergus/)

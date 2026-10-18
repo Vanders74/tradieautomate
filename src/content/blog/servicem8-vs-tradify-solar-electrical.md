@@ -1,6 +1,15 @@
 ---
 title: 'ServiceM8 vs Tradify for Solar and Electrical Businesses: A Detailed 2026 Comparison'
 description: 'Comparing ServiceM8 ($29/mo) vs Tradify ($35+/mo). Why compliance-enforced forms make ServiceM8 the winner for solar and electrical businesses in 2026.'
+faq:
+  - question: "Does Tradify handle solar compliance documentation?"
+    answer: "Tradify allows file attachments and job notes, which can store compliance documents. However, it doesn't have a custom form builder for creating AS/NZS 5033 checklists, it doesn't enforce form completion before job close-out, and it doesn't provide GPS metadata on photos. For CER-auditable solar compliance documentation, ServiceM8 provides significantly more structure."
+  - question: "Can ServiceM8 handle both electrical and solar work in the same account?"
+    answer: "Yes — and this is one of its strongest use cases in Australia. You can configure separate job templates, compliance form sets, and workflows for electrical work (CES, test records) and solar installation work (AS/NZS 5033, STC documentation, CEC handover). Both work within the same account, and jobs can be tagged to the correct compliance workflow automatically."
+  - question: "Is the ServiceM8 Tradify difference worth the price premium?"
+    answer: "For solar installers, yes — and ServiceM8 is often cheaper once you have 4+ staff (Tradify's per-user pricing escalates). For sole traders doing simple general trade work where compliance documentation is minimal, Tradify's simplicity might be adequate."
+  - question: "How does ServiceM8 help with CER audits specifically?"
+    answer: "ServiceM8 creates a complete, timestamped, GPS-verified documentation record for every solar installation — forms, photos, client communications, invoices. When the CER requests documentation for an installation from 18 months ago, you pull up the job record and export the complete package. No scrambling, no missing documentation. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download free →](/playbook)"
 pubDate: 'Apr 27 2026'
 updatedDate: 'Jul 30 2026'
 category: "Software Comparisons"

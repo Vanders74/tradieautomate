@@ -217,3 +217,37 @@ Installing across the border? Each state has its own distributor framework, expo
 - [NSW distributors guide](/blog/nsw-electricity-distributors-solar-connection-guide-2026/) — three networks (Ausgrid, Endeavour, Essential), three export limits
 - [QLD Energex & Ergon guide](/blog/qld-energex-ergon-solar-connection-guide-2026/) — dynamic connections on IEEE 2030.5 SEP2
 - [VIC distributors guide](/blog/vic-solar-connection-guide-2026/) — five networks, uniform 5kW limit
+
+## Frequently Asked Questions
+
+### Who is the electricity distributor in Western Australia?
+
+Western Power is the sole electricity distributor for the South West Interconnected System (SWIS) — the main grid covering Perth and the south-west. The SWIS is an isolated grid, not part of the National Electricity Market. Synergy is the retailer for most WA households (a separate role from the distributor). Regional and remote WA outside the SWIS is served by Horizon Power.
+
+### What are the solar export limits in Western Australia?
+
+Western Power applies a maximum export limit of 5kW for standard single-phase and three-phase connections, but only where the customer has an offtake agreement with their energy retailer (such as the Distributed Energy Buyback Scheme). Without an offtake agreement, export is capped at a static 1.5kW regardless of inverter size. Export is measured nett at the connection point — it is a site total, not a per-phase limit.
+
+### What changed on 1 May 2026 for WA solar and battery systems?
+
+From 1 May 2026, the WEM Procedure allows inverter energy systems up to a 30kVA aggregate capacity under a standard connection (single and three-phase). All new and upgraded systems must be capable of remote disconnect and reconnect by the retailer — commonly called emergency solar management — or be export-limited to 1.5kW. Inverters must comply with AS/NZS 4777.2:2020 with the grid code set to Australia Region B, and Synergy customers are commissioned using CSIP-AUS.
+
+### What protocol does WA use — CSIP-AUS or SEP2?
+
+WA uses CSIP-AUS (Common Smart Inverter Profile — Australia), the same open-source communications protocol as South Australia. Synergy customers have their systems commissioned using CSIP-AUS. This differs from Queensland, which uses the IEEE 2030.5 SEP2 protocol for its dynamic connections.
+
+### Are flexible or dynamic exports available in Western Australia?
+
+Not as a standard mandatory offer yet. WA is building toward flexible exports through Western Power's Dynamic Operating Envelopes, virtual power plants, and Project Jupiter, which will let export limits vary with network conditions. Until then, most customers export on a fixed 5kW limit (with an offtake agreement) or a 1.5kW static fallback.
+
+### Do I need emergency solar management (remote disconnect) on a WA system?
+
+Yes, if the customer has an offtake agreement with their retailer (such as DEBS). Emergency solar management has applied to DEBS customers with inverters up to 5kVA since 2022, and under the updated requirements it also applies to inverters over 5kVA with an offtake agreement. Customers without an offtake agreement get a static 1.5kW export limit instead.
+
+### What inverter size can I install in Western Australia?
+
+From 1 May 2026, you can install up to 30kVA aggregate inverter capacity under a standard connection. Single-phase inverters are capped at 10kVA, and three-phase inverters at 15kVA on large networks (a 30kVA inverter must be generation-limited to 15kW). On a three-phase service, a 10kVA single-phase inverter must be generation-limited to 5kW for phase balancing.
+
+### Do I need a certificate of compliance for a WA solar installation?
+
+Yes. Electrical work in WA is regulated under the Electricity (Licensing) Regulations 1991 (WA), administered by Building and Energy. The licensed electrical contractor must provide the required certificate of compliance for the installation. The Western Power connection approval is separate — both are required.

@@ -92,3 +92,21 @@ The 14-page guide includes the at-a-glance reference table, mutual recognition f
 ---
 
 *Licensing information is current as of October 2026. State regulators update fees and requirements periodically. Always check the relevant state regulator's website before submitting an application.*
+
+## Frequently Asked Questions
+
+### Can a NSW-licensed electrician work in Victoria without a REC registration?
+
+No. An NSW ECL holder cannot legally perform electrical contracting work in Victoria without a Victorian REC registration. Under mutual recognition, an individual with a current NSW A-grade electrical licence can apply for a Victorian electrical worker licence without re-examination, but this is a separate process from REC registration. The electrical contracting business itself must hold a current REC registration with Energy Safe Victoria to contract and perform work in Victoria.
+
+### How long does mutual recognition take across state borders?
+
+Mutual recognition processing times vary by state. NSW's Building Commission typically processes within 14 days, Victoria's ESV within 21 days, Queensland's ESO within 14 days, and WA's EnergySafety within 28 days. However, processing delays of 4-8 weeks are common across all states during peak periods. The e-book includes current processing times and tips for expediting your application.
+
+### Does Queensland require both a QBCC licence and an Electrical Safety Office licence?
+
+Yes. Queensland is one of the most complex states for electrical contracting licensing. You need both a QBCC contractor licence (for building work including electrical contracting, covering financial requirements and insurance) AND an Electrical Safety Office (ESO) licence (for electrical safety compliance). The QBCC licence requires demonstrating Minimum Financial Requirements (MFR), while the ESO licence focuses on the technical electrical competency. The e-book has a section dedicated to Queensland's dual-licensing system.
+
+### Do South Australian (SA) electricians need a separate licence for cross-border work into Broken Hill/NSW border regions?
+
+Yes and no. For work done in NSW territory (including Broken Hill postcode areas), an SA electrician must comply with NSW requirements — either hold an NSW licence or meet the exemptions in the NSW Home Building Act. For work in SA territory, NSW licensing doesn't apply. The border towns are the trickiest scenario and the e-book includes a specific cross-border work decision tree.

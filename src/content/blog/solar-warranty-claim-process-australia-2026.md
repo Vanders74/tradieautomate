@@ -1,6 +1,17 @@
 ---
 title: "Solar Warranty Claims Australia 2026: 25-Year Coverage Guide"
 description: "Solar warranty claims: 25-yr panel & 5-yr inverter cover, but claims go through the importer. How to lodge a claim that gets approved in 2–4 weeks."
+faq:
+  - question: "How long do solar panels last in Australia?"
+    answer: "Quality solar panels installed in Australia are routinely expected to produce power for 25–30 years. Most manufacturers offer a 25-year performance warranty guaranteeing at least 80% of original rated output. Real-world data from early Australian installations (2000s-era) shows panel degradation of 0.4–0.6% per year, meaning panels installed in the mid-2010s are still performing close to spec today."
+  - question: "What happens to my solar warranty if I sell my house?"
+    answer: "Panel performance warranties and inverter warranties are typically transferable to new owners — the warranty is against the product, not the buyer. Your workmanship warranty may or may not be transferable depending on your terms of trade. Check with your insurer and update your terms of trade to clarify this."
+  - question: "Can I claim warranty on panels that were damaged by hail?"
+    answer: "Storm and hail damage is typically excluded from product/materials warranties. It may be covered under your home and contents insurance policy — your insurer will send a loss assessor to determine whether the damage was storm-related. Some premium panel brands offer hail resistance ratings (IEC 61730 hail impact test); this is worth highlighting to customers in hail-prone areas (Brisbane, western Sydney, Melbourne northern suburbs)."
+  - question: "What if my solar installer has gone out of business and I have a warranty issue?"
+    answer: "The panel and inverter warranties are with the manufacturer, not the installer — these are unaffected by the installer's insolvency. For workmanship warranty claims, your options are: claim against the installer's professional indemnity insurance (if they had it), pursue under the ACL if the defect falls under consumer guarantees, or lodge a complaint with Fair Trading for assistance."
+  - question: "Does ServiceM8 help with solar warranty job tracking?"
+    answer: "Yes — ServiceM8 allows you to create a warranty job type linked to the original installation job. This gives you a clear record of what work was done under warranty, what materials were used, and whether it was a manufacturer-covered claim or your own workmanship obligation. This documentation is valuable if the manufacturer disputes your claim for labour reimbursement. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download free →](/playbook)"
 pubDate: 'Jul 13 2026'
 category: "Solar & Battery"
 breakdown:

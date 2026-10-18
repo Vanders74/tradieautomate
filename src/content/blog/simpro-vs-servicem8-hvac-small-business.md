@@ -1,6 +1,17 @@
 ---
 title: 'Simpro vs ServiceM8: Which Fits a 3-Man HVAC Business Better?'
 description: "Don't pay for enterprise software your small HVAC team will never use. Here's a straight-up comparison of Simpro and ServiceM8 for split-system installers, duct servicing businesses, and 24/7 breakdown contractors."
+faq:
+  - question: "Can ServiceM8 handle refrigerant logging for Australian compliance?"
+    answer: "Yes. ServiceM8 allows you to capture refrigerant gas quantities (recovered, added, disposed of) as custom fields within the job record. This creates a per-job record of refrigerant handling that satisfies Australian refrigerant handling documentation requirements. For businesses with ARC accreditation, this digital record replaces manual paper log books."
+  - question: "Does Simpro have a free trial?"
+    answer: "Simpro offers a demo rather than a self-serve free trial. You'll be walked through the platform with a Simpro consultant. This reflects the onboarding complexity — Simpro needs to be configured for your business before it's meaningful to trial. ServiceM8, by contrast, offers a self-service 14-day free trial you can set up in 15 minutes."
+  - question: "How do ServiceM8 and Simpro compare for preventive maintenance scheduling?"
+    answer: "Both platforms handle scheduled maintenance. In ServiceM8, you can set recurring jobs against specific assets — a \"6-month service\" for a split-system that automatically generates a job every 6 months. Simpro's planned maintenance module is more sophisticated for large commercial plant (multiple assets, complex schedules, compliance window tracking), but for residential and light commercial HVAC, ServiceM8's recurring job functionality is sufficient."
+  - question: "Can I migrate data from Simpro to ServiceM8?"
+    answer: "Yes, though it requires some work. ServiceM8 can import client and job data from CSV files. Simpro data can be exported to CSV. The migration isn't turnkey — some manual cleaning and re-formatting is typically needed — but it's manageable for a business with a few hundred clients. ServiceM8's support team can assist with migration planning."
+  - question: "What's the best ServiceM8 plan for a 3-man HVAC team?"
+    answer: "For a 3-technician operation doing residential and light commercial HVAC, the ServiceM8 **Grow** or **Manage** plan (depending on feature requirements) with the Asset Management add-on covers most needs. The Asset Management add-on is strongly recommended for any HVAC business — it's the feature that most directly addresses HVAC-specific workflow requirements. Pricing changes — check ServiceM8's current pricing page for the latest. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download free →](/playbook)"
 pubDate: 'May 17 2026'
 updatedDate: 'Jul 30 2026'
 category: "Software Comparisons"

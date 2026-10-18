@@ -1,6 +1,17 @@
 ---
 title: "Negative Google Reviews: The Tradie's Exact Response Playbook"
 description: "How to handle negative Google reviews as a tradie — exact response scripts, when to flag for removal, how to bury a bad review with real volume, and how to stop them happening again."
+faq:
+  - question: "How do I find my Google Business Profile review management page?"
+    answer: "Go to google.com/business or search your business name on Google and click \"Manage profile\" on the business result. From there, click \"Reviews\" in the left menu to see all reviews, respond, and flag."
+  - question: "How long does Google take to remove a flagged review?"
+    answer: "Google typically responds within 3–5 business days for reported reviews. If the review is not removed and you believe it should be, you can escalate via the Business Profile Help Center. Some cases take 2–3 escalation attempts for clearly fake reviews."
+  - question: "Can I respond to anonymous Google reviews?"
+    answer: "Yes — Google allows you to post a public response to any review, including those posted without the reviewer's real name. The same four-part response framework applies."
+  - question: "Should I mention the reviewer's job details in my response?"
+    answer: "Avoid it. Sharing job details (dates, location, what work was done) in a public reply can breach privacy and may open you to legal risk if the information is contested. Move specifics to a private conversation."
+  - question: "Does responding to negative reviews improve my Google ranking?"
+    answer: "Active engagement with reviews (responding promptly and professionally) is a positive signal for Google Business Profile ranking. It also directly increases the likelihood that potential customers choose you when reading the profile. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download free →](/playbook)"
 pubDate: 'Jul 13 2026'
 category: "Business Growth"
 heroImage: '/hero-how-to-handle-negative-google-reviews-tradie.jpg'

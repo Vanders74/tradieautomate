@@ -78,3 +78,21 @@ The 12-page guide is free, no email required. Print the checklist, run through y
 ---
 
 *Disclaimer: This e-book is a practical compliance guide, not legal advice. For specific enforcement matters, consult a qualified legal professional or contact Energy Safe Victoria directly.*
+
+## Frequently Asked Questions
+
+### What is a CES compliance audit?
+
+A CES compliance audit is Energy Safe Victoria's process of reviewing a REC's Certificate of Electrical Safety lodgement history. ESV cross-checks the REC's job records against CES lodged in the ESV Connect portal to identify missing, late, or incorrect certificates. In 2026 ESV has increased audit activity, particularly in the solar installation sector, and non-compliance can result in infringement notices ($2k–$5k per breach), licence conditions, or suspension.
+
+### How many CES failures trigger an ESV audit?
+
+There's no published threshold — ESV can audit for any number of failures — but in practice RECs with 3+ missing or late CES in a 12-month period are at elevated risk. The 2026 audit cycle has focused on solar and battery installers, where CES compliance gaps are more common. A single audit sweep can uncover multiple CES failures, and penalty exposure can reach $15k–$30k in a single inspection.
+
+### Can a CES late fee be waived?
+
+ESV has limited discretion to waive late lodgement penalties. Genuine administrative errors with no pattern of non-compliance may receive a warning rather than an infringement notice, but repeat late lodgements — particularly where the pattern shows systemic compliance failure — are likely to attract monetary penalties. The safest approach is automated lodgement within 48 hours of job completion.
+
+### How do I check if I have CES gaps right now?
+
+The free e-book includes a 5-point self-audit checklist that walks through your current CES record, identifies gaps, and prioritises remediation before ESV comes looking. It takes 20 minutes and covers the same areas ESV checks in an audit.
