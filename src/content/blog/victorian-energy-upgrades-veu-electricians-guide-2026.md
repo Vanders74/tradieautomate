@@ -1,8 +1,8 @@
 ---
-title: 'VEU for Electricians 2026: Accreditation Fees, Deadlines and What a VEEC Is Worth'
-description: 'VEU guide for Victorian electricians: $3,000 accreditation, $1,000 renewal, VEECs around $85 each and a 30 June creation deadline. Step by step.'
+title: 'VEU for Electricians 2026: Accreditation Fees & $85 VEECs'
+description: 'VEU guide for Victorian electricians: $3,000 accreditation, $1,000 renewal, $5M public liability, VEECs around $85 and a 30 June creation deadline.'
 pubDate: 'Jul 19 2026'
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 19 2026'
 category: 'Compliance'
 heroImage: '/hero-replacing-gas-hot-water-electric-heat-pump.jpg'
 tags: ['VEU', 'Victorian Energy Upgrades', 'VEEC', 'electrician', 'heat pump', 'Victoria', 'ESC', 'rebates', 'electrification']
@@ -46,7 +46,7 @@ The flow looks like this:
 3. VEECs are sold (directly to retailers, via brokers, or through aggregators) at the prevailing spot price
 4. Retailers surrender VEECs to meet their annual obligation
 
-**The two words that trip everyone up.** The ESC uses three distinct terms and they are not interchangeable:
+**Three terms that get used interchangeably, and shouldn't be.** The ESC draws a hard line between them:
 
 - **Accredited person** — the entity accredited by the ESC that creates VEECs. DEECA's installer pages call the same role an **accredited provider**. This is the one holding the program liability.
 - **Scheme participant** — an installer, assessor or lighting designer *registered by an accredited person* to carry out the work. The accredited person must register you as a scheme participant before it can submit activities you performed.
@@ -72,8 +72,11 @@ The published accreditation tests are narrower than most guides suggest, and the
 - A complete online accreditation application, referencing the activities you want
 - The **$3,000 accreditation application fee**, paid once the ESC invoices you
 - To pass the ESC's **fit and proper** and **competent and capable** tests — these are re-tested every year you remain accredited
+- **Evidence of insurance**, including a published minimum public liability figure of **$5 million** for every activity except commercial and industrial solar PV, which requires **$10 million**
 
-That's the list. Note what is *not* on it: the ESC does not accredit you on the basis of a trade licence, and it publishes no minimum public liability figure as an accreditation condition. Your **electrical contractor licence** is a separate statutory requirement that attaches to the *work* — every electrical installation under a VEU activity must be carried out by a licensed electrician registered with Energy Safe Victoria, and for activities 13, 14, 15, 45 and 47 the ESC verifies the scheme participant's licence and training before it will approve their registration. Public liability cover of $5M–$20M is a normal commercial and contractual requirement of doing the work, not a published accreditation test — check the ESC's Application Guide for Accredited Persons for the documentary list that applies to your activities.
+That's the list. Two things worth spelling out, because most guides get one or both wrong. First, the licence: a trade licence on its own does not get you accredited, but it is not optional either — the ESC asks applicants for evidence of the licensing and regulatory approvals that attach to the activities they want, and electrician and plumbing licences are named in its application guide as that evidence. Second, insurance is an accreditation condition with hard numbers, not a commercial convention: the Application Guide's minimum insurance table sets **public liability at $5M** (and **product liability at $5M**) for every prescribed activity except C&I solar (activity 47), where both rise to **$10M**, plus **$5M professional indemnity** where the accredited person gives advice on gas efficiency, cold rooms, commercial heat pump water heaters, home energy rating assessments, C&I solar or project-based activities.
+
+Every electrical installation under a VEU activity must also be carried out by a licensed electrician registered with Energy Safe Victoria — that obligation attaches to the *work* regardless of who holds the accreditation. And for scheme participants working under an accredited person's registration, the ESC reviews and approves the registration for **activities 13, 14, 15, 17, 26, 45, 47 and 48**, which means submitting proof of the participant's licence, training and competency before their work can be claimed.
 
 **Fees, from 1 January 2026 (ESC schedule):**
 
@@ -93,8 +96,8 @@ That's the list. Note what is *not* on it: the ESC does not accredit you on the 
 
 **Ongoing obligations that catch people out:**
 
-- **Independent assurance audit at least once every two years**, at your own cost, since 1 July 2024 — plus compliance audits on request
-- **Records kept for six years** after the certificates are created, including evidence that substantiates the activity
+- **Independent assurance audit at least once every two years**, using an auditor from the ESC's approved list and paid for by you — plus compliance audits on request
+- **Records kept until the end of six years** after they were made (or after the transactions they relate to are completed, whichever is later), including the evidence that substantiates the activity
 - Registration of every installer, assessor or lighting designer as a **scheme participant** before their work is submitted
 
 Start from the ESC's program pages — [how to become a VEU accredited person](https://www.esc.vic.gov.au/victorian-energy-upgrades-program/participating-veu-program/how-become-veu-accredited-person) and the [VEU program fees](https://www.esc.vic.gov.au/victorian-energy-upgrades/about-victorian-energy-upgrades-program/veu-program-fees) — then read the current activity guide for the specific activity before you quote a single job.
