@@ -1,6 +1,6 @@
 ---
-title: 'ServiceM8 Pricing 2026: Which Plan Saves You the Most ($29–$349/mo)'
-description: "Compare ServiceM8 plans: $29 Starter (50 jobs) to $349 Premium Plus (1,500+ jobs). Which plan suits a 1-person crew vs a 10-person team vs high-volume. Real pricing, no per-user fees."
+title: 'ServiceM8 Pricing Plans Australia 2026: $0–$349/mo Incl GST'
+description: "All five ServiceM8 AU plans with 2026 card fees by tier (1.19%–1.89% + 30c), the 1 October surcharge ban, which features are gated to Growing ($79) or Premium ($149), and what a 5-person crew really pays."
 pubDate: 2026-07-20
 updatedDate: 2026-10-18
 heroImage: "/hero-servicem8-pricing-plans-australia-2026.jpg"
@@ -8,79 +8,83 @@ category: "ServiceM8"
 tags: ["servicem8 pricing", "servicem8 cost", "servicem8 plans", "servicem8 price australia", "how much does servicem8 cost", "servicem8 add-on costs", "job management software pricing"]
 faq:
   - question: "How much does ServiceM8 cost in Australia in 2026?"
-    answer: "ServiceM8 AU pricing in August 2026: Free plan ($0/mo, 30 jobs, 1 user), Starter ($29/mo, 50 jobs, unlimited users), Growing ($79/mo, 150 jobs, unlimited users), Premium ($149/mo, 500 jobs, unlimited users), and Premium Plus ($349/mo, 1,500+ jobs, unlimited users). All prices in AUD, billed monthly. All paid plans include unlimited staff — ServiceM8 does not charge per user, unlike simPRO, Tradify, Fergus, and AroFlo which all use per-user pricing."
+    answer: "Five plans, all in AUD including GST: Free $0/mo (30 jobs, 1 user, no SMS), Starter $29/mo (50 jobs, 100 SMS), Growing $79/mo (150 jobs, 300 SMS), Premium $149/mo (500 jobs, 1,000 SMS) and Premium Plus $349/mo (1,500+ jobs, 3,000 SMS). Every paid plan includes unlimited staff — ServiceM8 does not charge per user, unlike Tradify, Fergus, AroFlo and simPRO. Card processing is separate and priced by tier: 1.89% + 30c on Free down to 1.19% + 30c on Premium Plus for standard domestic cards."
   - question: "Does ServiceM8 charge per user or per job?"
-    answer: "ServiceM8 charges per job volume, not per user. All paid plans include unlimited staff members at no extra cost. The plan tiers are defined by monthly job caps (50/150/500/1,500+) and SMS allowances (100/300/1,000/3,000). A 10-person electrical business pays the same $149/mo Premium plan as a 2-person business on the same plan. This is ServiceM8's biggest pricing advantage over competitors — Tradify charges $47-$61/user/month, Fergus charges $48-$72/user/month, and simPRO charges per user with additional module fees."
+    answer: "Per job volume, not per user. A 10-person business on Premium pays the same $149/mo as a 2-person business on Premium. The tiers differ by monthly job cap (50/150/500/1,500+) and SMS allowance (100/300/1,000/3,000), plus a handful of features that only unlock from Growing or Premium upward. This is why ServiceM8 gets cheaper per seat as you hire, while per-user platforms scale with headcount."
   - question: "What are the hidden costs in ServiceM8?"
-    answer: "The main costs beyond your base plan: (1) ServiceM8 Phone add-on from $19/mo for a business phone system, (2) excess SMS at 10c per message once you exceed your monthly allowance, (3) excess jobs at 20c each on Premium Plus once past 1,500 jobs, (4) Stripe transaction fees (1.75% + 30c for domestic cards) when using ServiceM8 Pay, and (5) third-party integrations beyond the native Xero/MYOB/QuickBooks connectors may carry their own subscription costs. There are no setup fees, no contracts, and no per-user charges — all core job-management features are included in every paid plan, with higher tiers bundling the extras (forms, asset management, proposals, job costing)."
-  - question: "Is ServiceM8 cheaper than simPRO, Tradify, Fergus, and AroFlo?"
-    answer: "For teams of 2+ people, ServiceM8 is almost always cheaper. A 5-person crew on ServiceM8 Premium pays $149/mo total. The same crew on Tradify pays $235-$305 USD/mo (~$350-$460 AUD), on Fergus pays $240-$360 AUD/mo, and on AroFlo pays ~$335 AUD/mo. ServiceM8's unlimited-user model creates a widening cost gap as team size grows. The exception: solo operators on Tradify Lite ($47 USD/mo) pay slightly more than ServiceM8 Starter ($29/mo) but get 50 jobs vs Tradify's unlimited jobs on Lite. For anyone with 2+ staff, ServiceM8 wins on price."
+    answer: "Four worth budgeting for: (1) card processing fees, which are per tier and changed on 1 October 2026 — 1.89% + 30c (Free), 1.69% (Starter), 1.49% (Growing), 1.39% (Premium), 1.19% (Premium Plus), with international and Amex at 3.70% + 30c on every plan; (2) ServiceM8 Phone, an optional add-on from $19/mo; (3) excess SMS at 10c each and excess jobs at 20c each on Premium Plus; (4) individual Forms bought from the Form Store, which are a one-off cost per form. There are no contracts, no setup fees and no per-user charges."
+  - question: "Is ServiceM8 cheaper than simPRO, Tradify, Fergus and AroFlo?"
+    answer: "For teams of two or more, yes, and the advantage grows with headcount. A 5-user crew on ServiceM8 Growing pays $79/mo including GST for unlimited users. The same five users on Tradify Pro is $52 per user ex GST ($260/mo), on Fergus Essentials $53 per user ex GST ($265/mo), and on AroFlo $80 per user ex GST with a three-user minimum ($400/mo). simPRO does not publish pricing at all, so it is quote-only. The exception is a sole trader: per-user pricing can be cheaper than a $79 plan if you need the features that sit above Starter."
   - question: "Does ServiceM8 have a free plan?"
-    answer: "Yes. ServiceM8 introduced a Free plan in 2026: $0/mo, up to 30 jobs per month, 0 included SMS, 1 user, with self-serve support. It includes all core features — scheduling, quoting, invoicing, checklists, photos, online bookings, and accounting integrations. The Free plan is designed for new businesses testing the platform or very low-volume operators. A 14-day free trial of a paid plan is also available with no credit card required."
+    answer: "Yes — $0/mo, 30 jobs per month, one user, no included SMS, self-serve support. It includes scheduling, quoting, invoicing, checklists, photos, online bookings, reporting and the accounting integrations. Two limits matter: it is one user only, and custom form creation is not included (Forms bought from the Form Store do work on Free). A 14-day free trial of any paid plan is also available with no credit card."
   - question: "What ServiceM8 plan is right for my electrical or solar business?"
-    answer: "Sole traders doing ≤50 jobs/month: Starter at $29/mo. Small crews (2-5 staff, ≤150 jobs/month): Growing at $79/mo is the sweet spot. Mid-size teams (5-15 staff, ≤500 jobs/month): Premium at $149/mo. High-volume operations (15+ staff, 500-1,500+ jobs/month): Premium Plus at $349/mo with 20c/job after 1,500. The Growing plan at $79/mo is the most popular for Australian electrical businesses — it covers a typical 3-person crew doing 25-35 jobs per week."
+    answer: "Sole traders doing 50 or fewer jobs a month: Starter at $29. Small crews (2-5 staff, 150 jobs): Growing at $79, which is also the first tier that includes electronic forms, asset management and proposals. Mid-size teams (5-15 staff, 500 jobs): Premium at $149, which adds job profitability, markup billing and Knowledge. High-volume operations: Premium Plus at $349 with 20c per job beyond 1,500. If your work needs digital compliance certificates, the entry price is $79, not $29."
 ---
 
-ServiceM8 is the most widely used job management platform among Australian trade businesses — it powers over 80,000 businesses globally, with the majority in Australia. For compliance-heavy trades, the platform's built-in digital forms directly support state regulatory requirements: the **Gas and Electricity (Consumer Safety) Act 2017** (administered by **Building Commission NSW**) requires a CCEW for all notifiable electrical work, and solar installers creating STCs must comply with the **Clean Energy Regulator** under the **Renewable Energy (Electricity) Act 2000**. But the pricing page raises more questions than it answers. Five plan tiers. Job caps. SMS limits. Add-ons that live on separate pages. What you actually pay can be very different from the sticker price.
+ServiceM8 is the most widely used job management platform among Australian trade businesses. Its Forms add-on is why compliance-heavy trades end up there: the CCEW required in NSW under the **Gas and Electricity (Consumer Safety) Act 2017** (administered by **Building Commission NSW**) and Victoria's Certificate of Electrical Safety can be captured as a ServiceM8 form and output as a PDF — but you either build that form or buy one from the Form Store, and building your own only works on Growing and above. But the pricing page raises more questions than it answers. Five plan tiers. Job caps. SMS limits. Card fees that differ by tier. Add-ons that live on separate pages. What you actually pay can be very different from the sticker price.
 
 This deep-dive breaks down every ServiceM8 plan, every add-on, every hidden cost, and what you'll actually pay for your specific business — compared dollar-for-dollar against simPRO, Tradify, Fergus, and AroFlo.
+
+**Every figure below was checked against ServiceM8's own AU pricing comparison and help centre on 18 October 2026.** Prices are AUD including GST, because that is how ServiceM8's Australian pages quote them — several competitor tables in this SERP compare a GST-inclusive ServiceM8 price against GST-exclusive rival prices and make ServiceM8 look cheaper than it is.
 
 ---
 
 ## The 30-Second Verdict
 
-**Buy ServiceM8 if:** You run a team of 2+ field staff and want one flat monthly price with unlimited users. The plan price you see is the price you pay — no per-user multipliers, no seat maths as you hire. For Australian compliance-heavy trades (electrical, solar, HVAC), ServiceM8's built-in digital forms for CCEW, CES, and safety checklists save 15-30 minutes per job compared to paper or generic software.
+**Buy ServiceM8 if:** You run a team of 2+ field staff and want one flat monthly price with unlimited users. The plan price you see is the price you pay — no per-user multipliers, no seat maths as you hire. For Australian compliance-heavy trades (electrical, solar, HVAC), the Forms add-on turns a CCEW or a safety checklist into a PDF attached to the job — from the Form Store on any plan, or built yourself from Growing upward.
 
-**Buy ServiceM8 Starter ($29/mo) if:** You're a solo operator or side business doing fewer than 50 jobs per month. It's the cheapest way to get professional quoting, invoicing, and compliance forms on your phone.
+**Buy ServiceM8 Starter ($29/mo) if:** You're a solo operator or side business doing fewer than 50 jobs per month. It's the cheapest way to get professional quoting, invoicing and Xero sync on your phone — but not compliance certificates you build yourself, which start at Growing.
 
-**Buy ServiceM8 Growing ($79/mo) if:** You have 2-5 staff doing up to 150 jobs/month. This is the value sweet spot — $79/mo total for a full crew with scheduling, GPS, compliance forms, and Xero integration.
+**Buy ServiceM8 Growing ($79/mo) if:** You have 2-5 staff doing up to 150 jobs/month. This is the value sweet spot — $79/mo total for a full crew with scheduling, GPS, electronic forms and asset management.
 
 **Look elsewhere if:** You need complex job costing with multi-level assemblies (simPRO wins here), you're a solo operator doing 100+ jobs/month on a budget (Tradify's unlimited job model may work better), or you need enterprise inventory management across multiple warehouses (AroFlo is stronger).
 
 ---
 
-## ServiceM8 Pricing Plans — August 2026
+## ServiceM8 Pricing Plans — verified October 2026
 
-ServiceM8 uses a job-volume pricing model. Every paid plan includes unlimited staff, the essential job features, and the native integrations (Xero, MYOB, QuickBooks). Job caps and SMS allowances rise with each tier, and so does the feature set: progress invoicing on Starter, then asset management, electronic forms, proposals, bundles and Inbox from Growing, and job costing plus markup billing at Premium.
+ServiceM8 uses a job-volume pricing model. Every paid plan includes unlimited staff, the essential job features, and the native integrations (Xero, MYOB, QuickBooks). Job caps and SMS allowances rise with each tier, and so does the feature set — and this is where most published tables get it wrong: the gating is real. Progress invoicing, supplier invoice import and API access start at **Starter**. Asset management, electronic forms, proposals, bundles, Inbox and location insights start at **Growing**. Job profitability, markup billing and Knowledge start at **Premium**. Reporting is on every plan, including Free.
 
-| Plan | Monthly Price (AUD) | Jobs/Month | Included SMS | Users | Best For |
-|---|---|---|---|---|---|
-| **Free** | $0 | 30 | 0 | 1 | Testing the platform, very low volume |
-| **Starter** | $29 | 50 | 100 | Unlimited | Solo operators, side businesses |
-| **Growing** | $79 | 150 | 300 | Unlimited | 2-5 person crews (most popular) |
-| **Premium** | $149 | 500 | 1,000 | Unlimited | 5-15 person teams, multi-crew |
-| **Premium Plus** | $349 | 1,500+ | 3,000 | Unlimited | High-volume operations, 15+ staff |
+| Plan | Price (AUD/mo, incl GST) | Jobs/Month | Included SMS | Users |
+|---|---|---|---|---|
+| **Free** | $0 | 30 | 0 | 1 |
+| **Starter** | $29 | 50 | 100 | Unlimited |
+| **Growing** | $79 | 150 | 300 | Unlimited |
+| **Premium** | $149 | 500 | 1,000 | Unlimited |
+| **Premium Plus** | $349 | 1,500+ | 3,000 | Unlimited |
 
-All prices are in AUD, billed monthly, and include GST. There are no contracts, no setup fees, and you can upgrade or downgrade at any time. Annual billing may attract a discount — contact ServiceM8 directly.
+Prices are AUD and include GST — that is how ServiceM8's Australian pricing page quotes them, and it is worth knowing because Tradify, Fergus and AroFlo all quote ex GST, so a like-for-like table has to convert one side or the other. There are no contracts and no setup fees, and you can upgrade or downgrade at any time. ServiceM8 publishes no annual-billing discount, so don't plan around one.
 
 **Additional usage costs:**
 - Extra SMS: 10c per message (all plans)
 - Extra jobs on Premium Plus: 20c per job beyond 1,500
 - Jobs on Starter/Growing/Premium are hard-capped — you upgrade when you hit the limit
+- Card processing: a per-tier percentage shown in the ServiceM8 Pay section below
 
-**Key difference from competitors:** A Tradify or Fergus customer with 5 field staff pays 5 × the per-user rate. A ServiceM8 customer pays once. This is the single biggest pricing factor — and the reason ServiceM8 dominates Australian trades.
+**Key difference from competitors:** a Tradify or Fergus customer with 5 field staff pays 5 × the per-user rate. A ServiceM8 customer pays once. This is the single biggest pricing factor — and the reason ServiceM8 dominates Australian trades.
 
 ---
 
-## Full Competitor Pricing Comparison — August 2026
+## Full Competitor Pricing Comparison — October 2026
+
+Every competitor figure below is in AUD **excluding GST**, which is how those vendors quote. ServiceM8's column is ex GST too (divide the incl-GST plan price by 1.1) so the comparison is honest.
 
 |  | **ServiceM8** | **simPRO** | **Tradify** | **Fergus** | **AroFlo** |
 |---|---|---|---|---|---|
 | **Pricing model** | Per job volume | Per user + modules | Per user | Per user | Per user |
-| **Entry price (AUD)** | $29/mo (Starter) | ~$130-$150/mo (custom) | ~$70 AUD/mo (Lite, 1 user)* | $48/mo (Essentials, 1 user) | ~$67/mo (1 user) |
+| **Entry price (AUD ex GST)** | $26.36/mo (Starter, 50 jobs) | Not published — quote only | $48/user/mo (Lite) | $53/user/mo (Essentials) | $80/user/mo, 3-user minimum ($240 floor) |
 | **Unlimited users?** | ✅ All paid plans | ❌ Per user | ❌ Per user | ❌ Per user | ❌ Per user |
-| **5-person crew cost** | $79-$149/mo | ~$450-$750/mo | ~$350-$460 AUD/mo* | $240-$360/mo | ~$335/mo |
-| **10-person crew cost** | $149-$349/mo | ~$900-$1,500/mo | ~$700-$920 AUD/mo* | $480-$720/mo | ~$670/mo |
+| **5-person crew cost** | $71.82/mo (Growing) | Quote only | $260/mo (Pro ×5) | $265/mo (Essentials ×5) | $400/mo (5 × $80) |
+| **10-person crew cost** | $135.45/mo (Premium) | Quote only | $520/mo (Pro ×10) | $530/mo (Essentials ×10) | $800/mo (10 × $80) |
 | **Free trial** | 14 days + Free plan | Demo only | 14 days | 14 days | 14 days |
 | **Job caps** | Per plan tier | Unlimited | Unlimited | Unlimited | Unlimited |
-| **AU compliance forms** | ✅ Built-in CCEW/CES | ✅ Custom forms | ❌ Generic only | ⚠️ Limited | ✅ Custom forms |
+| **AU compliance forms** | Forms add-on (Form Store or DIY, DIY needs Growing) | ✅ Custom forms | ❌ Generic only | ⚠️ Limited | ✅ Custom forms |
 | **Xero integration** | ✅ Included | ✅ Included | ✅ Included | ✅ Included | ✅ Included |
-| **iOS quality** | Native, offline mode | Native | Native | Native | Native |
 | **SMS included** | 100-3,000/mo | Extra cost | Extra cost | Extra cost | Extra cost |
 
-*\*Tradify prices in USD. Converted at August 2026 rate of ~1.50 AUD/USD for comparison.*
+**The math is less flattering than most comparison pages claim.** For a 5-person crew, ServiceM8 Growing is $79/mo including GST against roughly $260-$400/mo ex GST for the per-user platforms — a real and recurring saving, but it is a 3-4× gap, not the "one-quarter of simPRO" figure this page used to quote. And simPRO's cost is not knowable from the outside: the company publishes no pricing at all, so any specific number you see in a comparison table (including the ones on this SERP) is unsourced.
 
-**The math is stark.** For a 5-person electrical crew, ServiceM8 Growing ($79/mo) costs roughly one-third of Tradify and one-quarter of simPRO. At 10 people, the gap widens further — ServiceM8 Premium ($149/mo) vs simPRO at $900+.
+Two things also change the maths in ServiceM8's favour beyond the plan price. Setup is $0 — AroFlo's Smart Start runs from $1,450 to $2,900. And ServiceM8's entry price buys 50 jobs, where Tradify Lite and Fergus Essentials are unlimited-job plans, so a high-volume solo operator can be cheaper on a per-user platform.
 
 But the comparison isn't purely about price. simPRO offers deeper job costing and inventory management. AroFlo has stronger asset tracking. Fergus has better quoting for complex commercial jobs. The question is whether you need those features.
 
@@ -105,16 +109,16 @@ Every ServiceM8 plan from Starter upward includes the same essential feature set
 - Client portal for viewing job history, quotes, and invoices online
 
 **Compliance & Documentation**
-- Pre-built CCEW (Certificate of Compliance for Electrical Work) digital form
+- Electronic forms — buy an electrical compliance certificate from the Form Store (one-off cost, works on any plan) or build your own (Growing and above)
 - Custom electronic forms for safety checklists, site inductions, SWMS
 - Geo-tagged photo capture attached to job records
-- Digital signatures on compliance forms and job completion
+- Digital signatures on forms and job completion
 - PDF generation for all forms and certificates
 
 **Accounting Integrations (included, no extra fee)**
-- Xero — real-time two-way sync (invoices, clients, payments)
-- MYOB AccountRight and MYOB Essentials
-- QuickBooks Online
+- Xero — two-way sync (invoices, clients, payments)
+- MYOB Business (AU/NZ) — ServiceM8 also still supports the older MYOB Essentials and AccountRight versions
+- QuickBooks Online (cloud product only — not QuickBooks Desktop)
 - Mailchimp — client sync for email marketing
 - Zapier — connect to 3,000+ apps
 - Deputy — timesheet sync from clock-on/off
@@ -132,10 +136,10 @@ Every ServiceM8 plan from Starter upward includes the same essential feature set
 - Card payment acceptance via Stripe (ServiceM8 Pay)
 - Push notifications for job assignments and status changes
 
-**Reporting (Premium and above)**
+**Reporting (every plan, including Free)**
 - Productivity and revenue dashboards
 - Custom report builder
-- AI-powered Smart Report Helper — type what you want to see, it builds the report
+- Smart Report Helper — type what you want to see, it builds the report (listed against all five tiers on ServiceM8's own comparison)
 
 ---
 
@@ -145,169 +149,133 @@ This is where sticker price diverges from real cost. ServiceM8 publishes add-on 
 
 ### ServiceM8 Phone — From $19/mo
 
-ServiceM8's VoIP phone system integrates with the job management platform. When a client calls, their job history, active quotes, and scheduled work appear on screen automatically.
+ServiceM8's VoIP phone system is an optional add-on, not part of any plan, and it requires a paid plan (it can't be bought on Free). When a client calls, their job history, active quotes and scheduled work appear on screen automatically. The 3-month free trial with any standard subscription is ServiceM8's, not ours.
 
-| Phone Plan | Price (AUD/mo) | What You Get |
+One pricing trap worth knowing: ServiceM8's comparison page advertises the phone add-on "from $19/mo", but the Connect plan's own critical information summary lists **$29/mo including 500 minutes** of inbound and outbound calls, with excess calls at 8c/minute, month-to-month with no lock-in. Ask for a written quote on the phone tier you're being sold rather than budgeting off the "from" figure.
+
+### ServiceM8 Pay — card fees change by plan, and changed again on 1 October 2026
+
+Accept card payments in the app or send a payment link. There is no monthly fee for ServiceM8 Pay — you pay per transaction, and **the rate depends on which ServiceM8 plan you're on**. This is the single most-omitted number in every comparison table on this SERP, and it is the one that moves with your plan.
+
+| Plan | Standard domestic card (from 1 Oct 2026) | Was, before 1 Oct 2026 |
 |---|---|---|
-| **Connect** | From $19 | Basic phone system, caller ID, mobile/desktop app |
-| **Connect Plus** | Contact ServiceM8 | Call recording, transcription, advanced routing |
-| **Unlimited** | Contact ServiceM8 | Unlimited calling, full feature set |
+| **Free** | 1.89% + 30c | 2.10% + 30c |
+| **Starter** | 1.69% + 30c | 1.85% + 30c |
+| **Growing** | 1.49% + 30c | 1.65% + 30c |
+| **Premium** | 1.39% + 30c | 1.49% + 30c |
+| **Premium Plus** | 1.19% + 30c | 1.49% + 30c |
+| **International & Amex (all plans)** | 3.70% + 30c | 3.70% + 30c |
 
-Additional phone numbers cost $5/mo each. You can route calls to multiple staff simultaneously and set after-hours call diversion. A 3-month free trial is available with any paid ServiceM8 subscription.
+Two consequences that matter more than the percentages.
 
-**Real cost for a 5-person crew:** $19/mo for Connect is usually enough. If you want call recording and transcription (useful for dispute resolution and training), budget $30-$50/mo.
+**You can no longer pass the fee on to the customer.** From 1 October 2026 Visa, Mastercard, Amex and eftpos applied no-surcharge rules to Australian card payments. ServiceM8 stopped applying card surcharges automatically on that date — you don't have to switch anything off — and the processing fee now sits with your business, permanently. If your quotes were built on a surcharge absorbing the card cost, the margin you thought you had is gone. Build the fee into your prices instead.
 
-### ServiceM8 Pay — Stripe Transaction Fees
+**The rate is a reason to be on the right plan, not just the cheapest one.** A business processing $60,000/month in card payments pays 1.19% on Premium Plus ($714 + per-transaction 30c) against 1.69% on Starter ($1,014 + 30c) — the plan upgrade can pay for itself in fee difference alone. Run your own numbers before assuming the smaller plan is cheaper.
 
-Accept card payments through the mobile app or send clients a payment link.
-
-| Transaction Type | Fee |
-|---|---|
-| Domestic Visa/Mastercard | 1.75% + $0.30 |
-| International cards | 2.9% + $0.30 |
-| Amex | 2.9% + $0.30 |
-
-There's no monthly fee for ServiceM8 Pay — you only pay when clients pay you. On a $500 invoice, you pay $9.05 in Stripe fees. On a $5,000 job, $87.80.
+ServiceM8 Pay also needs a monthly capped plan — the legacy per-job plan isn't eligible. PayTo is available in Australia through ServiceM8 Pay as a bank-rail alternative, with its own fee that also can't be surcharged.
 
 ### Online Bookings — Included
 
-The online booking widget (previously ~$29/mo as a separate add-on) is now included in all paid plans. Clients can book services, select time slots, and receive automated confirmations — all feeding directly into your ServiceM8 schedule.
+The online booking widget is included on all five plans, including Free. Clients can get a price, pick a time slot and book, and the booking lands straight in your ServiceM8 schedule.
 
 ### Third-Party Add-Ons
 
-ServiceM8's developer partner ecosystem offers paid add-ons that extend functionality:
+ServiceM8's developer partner ecosystem sells add-ons that extend the platform — route optimisation, advanced job costing, supplier catalogue imports, review requests. Pricing is set by each partner and isn't published centrally, so the honest answer is that these are quote-only. Don't budget a figure for them; budget the two that are knowable — the phone add-on and card processing — and treat everything else as optional.
 
-- **Route optimisation:** Partners like Badger Maps or GeoOp (~$30-$60/mo) for multi-stop route planning
-- **Advanced job costing:** Partner add-ons for materials tracking, purchase orders, and margin analysis
-- **Supplier catalogues:** Integration with Middy's, L&H, and Reece product catalogues (pricing varies by partner)
-- **Customer feedback:** Automated review requests via partners like NiceJob (~$60/mo)
-
-**Realistic add-on budget for most electrical businesses:** $19-$50/mo for ServiceM8 Phone + Stripe transaction fees on payments. Most businesses don't need more than that.
+**Realistic add-on budget for most electrical businesses:** the phone add-on plus card processing on the payments you actually take. Most businesses don't need more than that, and every add-on you add should be justified by a job it makes more profitable, not by a feature list.
 
 ---
 
 ## What You Actually Pay — Real-World Scenarios
 
+Each scenario below uses the plan you'd actually be on and that plan's own card rate. Card fees assume every invoice is paid by standard domestic card, which is the worst case — many trades still get bank transfers on the big jobs.
+
 ### Scenario 1: Solo Electrical Contractor (30 jobs/month)
 
-**Business profile:** One-person operation doing residential maintenance and small installations. 30 jobs/month. Takes payment on-site. Uses Xero for accounting.
+**Business profile:** one-person operation doing residential maintenance and small installations. 30 jobs/month. Takes payment on-site. Uses Xero. Sits on Starter (1.69% + 30c).
 
 | Cost Item | Monthly Cost |
 |---|---|
-| ServiceM8 Starter plan | $29 |
+| ServiceM8 Starter plan | $29.00 |
 | SMS usage (80 messages, within 100 allowance) | $0 |
-| ServiceM8 Pay fees (~$12,000 invoiced) | ~$143 |
-| **Total monthly cost** | **~$172** |
-| **Annual cost** | **~$2,064** |
+| Card fees on $12,000 across ~30 payments (1.69% + 30c) | ~$211.80 |
+| **Total monthly cost** | **~$240.80** |
+| **Annual cost** | **~$2,890** |
 
-**What you get for $29/mo:** Professional quoting, scheduling, invoicing, CCEW compliance form, Xero sync, client portal, online bookings. The Stripe fees are a cost of getting paid faster — same-day payment vs waiting 21-28 days for bank transfer.
-
----
+The $29 plan is 12% of the bill. The card rail is the other 88%. Note that at 30 jobs a month the Free plan's 30-job cap is exactly where you land — one extra job and you're forced onto Starter.
 
 ### Scenario 2: 5-Person Electrical Crew (120 jobs/month)
 
-**Business profile:** Owner-operator + 4 electricians. Mixed residential and light commercial. 120 jobs/month. Uses Xero, takes card payments, needs phone system with caller ID.
-
-**ServiceM8:**
+**Business profile:** owner-operator + 4 electricians. Mixed residential and light commercial. 120 jobs/month. Uses Xero, takes card payments, needs a phone system with caller ID. Sits on Growing (1.49% + 30c).
 
 | Cost Item | Monthly Cost |
 |---|---|
-| ServiceM8 Growing plan | $79 |
-| ServiceM8 Phone (Connect) | $19 |
+| ServiceM8 Growing plan | $79.00 |
+| ServiceM8 Phone (Connect) | $29.00 |
 | SMS usage (250 messages, within 300 allowance) | $0 |
-| ServiceM8 Pay fees (~$60,000 invoiced) | ~$701 |
-| **Total monthly cost** | **~$799** |
-| **Annual cost** | **~$9,588** |
+| Card fees on $60,000 across ~120 payments (1.49% + 30c) | ~$930.00 |
+| **Total monthly cost** | **~$1,038** |
+| **Annual cost** | **~$12,456** |
 
-**Competitor equivalent — Tradify Pro (5 users):**
+**Same crew, software and phone only, on the per-user platforms** (card processing excluded, because the fee depends on the payment provider, not the job platform):
 
-| Cost Item | Monthly Cost |
-|---|---|
-| Tradify Pro (5 × $51 USD) | $255 USD (~$383 AUD) |
-| Phone system (third-party) | ~$30 |
-| Payment processing fees | ~$701 |
-| **Total monthly cost** | **~$1,114 AUD** |
-| **Annual cost** | **~$13,368** |
+| Platform | 5 users, ex GST | 5 users, incl GST | Annual |
+|---|---|---|---|
+| **ServiceM8 Growing + Phone** | $71.82 + $26.36 | $108.00 | $1,296 |
+| **Tradify Pro** (5 × $52) | $260.00 | $286.00 | $3,432 |
+| **Fergus Essentials** (5 × $53) | $265.00 | $291.50 | $3,498 |
+| **AroFlo** (5 × $80) | $400.00 | $440.00 | $5,280 |
+| **simPRO** | Quote only | — | — |
 
-**Annual saving with ServiceM8 vs Tradify: ~$3,780.**
-
-**Competitor equivalent — simPRO (5 users):**
-
-| Cost Item | Monthly Cost |
-|---|---|
-| simPRO (5 × ~$130-$150) | ~$650-$750 |
-| Modules (job costing, scheduling) | ~$100-$200 |
-| Phone system (third-party) | ~$30 |
-| Payment processing | ~$701 |
-| **Total monthly cost** | **~$1,481-$1,681 AUD** |
-| **Annual cost** | **~$17,772-$20,172** |
-
-**Annual saving with ServiceM8 vs simPRO: ~$8,184-$10,584.**
-
----
+**Annual software saving vs Tradify: ~$2,136**, and vs AroFlo ~$3,984. Real, but roughly a third of what this page used to claim, because the old version priced Tradify in USD and converted at 1.50 when Tradify's Australian site quotes AUD.
 
 ### Scenario 3: 15-Person Solar & Electrical Company (400 jobs/month)
 
-**Business profile:** 3 office staff + 12 field technicians. Residential solar installations and commercial electrical. 400 jobs/month. Heavy compliance documentation (CCEW, CES, STC paperwork). Uses Xero and Deputy.
+**Business profile:** 3 office staff + 12 field technicians. Residential solar and commercial electrical. 400 jobs/month. Heavy documentation (CCEW, CES, STC paperwork). Uses Xero and Deputy. Sits on Premium (1.39% + 30c).
 
 | Cost Item | Monthly Cost |
 |---|---|
-| ServiceM8 Premium plan | $149 |
-| ServiceM8 Phone (Connect Plus, 3 numbers) | ~$59 |
+| ServiceM8 Premium plan | $149.00 |
+| ServiceM8 Phone (Connect) | $29.00 |
 | SMS usage (900 messages, within 1,000 allowance) | $0 |
-| ServiceM8 Pay fees (~$200,000 invoiced) | ~$2,333 |
+| Card fees on $200,000 across ~400 payments (1.39% + 30c) | ~$2,900.00 |
 | Deputy integration | Included |
-| **Total monthly cost** | **~$2,541** |
-| **Annual cost** | **~$30,492** |
+| **Total monthly cost** | **~$3,078** |
+| **Annual cost** | **~$36,936** |
 
-**Competitor equivalent — simPRO (15 users):**
-
-| Cost Item | Monthly Cost |
-|---|---|
-| simPRO (15 × ~$130-$150) | ~$1,950-$2,250 |
-| Modules (job costing, inventory, scheduling) | ~$300-$500 |
-| Phone system (third-party) | ~$60 |
-| Payment processing | ~$2,333 |
-| **Total monthly cost** | **~$4,643-$5,143** |
-| **Annual cost** | **~$55,716-$61,716** |
-
-**Annual saving with ServiceM8 vs simPRO: ~$25,224-$31,224.**
+At this size the plan decision is worth real money: the same $200,000 processed on Starter's 1.69% costs $3,380 in fees instead of $2,780 — $600 a month, or $7,200 a year, to save $120 a month on the plan. That is the arithmetic nobody publishing a plan table shows you.
 
 ---
 
 ## Total Cost of Ownership — 1, 2, and 3-Year Projections
 
-These projections assume the 5-person electrical crew scenario (Scenario 2 above), with annual price increases of 5% across all platforms.
+These projections use the 5-person crew above, **software and phone only, GST inclusive, no price increases assumed** — ServiceM8 has held the $79 Growing price, and applying an invented 5% annual increase to both sides (as this page used to) just manufactures a bigger gap on paper.
 
-### ServiceM8 Growing — 5-Person Crew
+### ServiceM8 Growing + Phone — 5-Person Crew
 
-| Year | Monthly Plan | Phone | Pay Fees | Annual Total | Cumulative |
-|---|---|---|---|---|---|
-| **Year 1** | $79/mo | $19/mo | ~$701/mo | ~$9,588 | $9,588 |
-| **Year 2** (5% increase) | $83/mo | $20/mo | ~$701/mo | ~$9,648 | $19,236 |
-| **Year 3** (5% increase) | $87/mo | $21/mo | ~$701/mo | ~$9,708 | $28,944 |
+| Year | Monthly | Annual | Cumulative |
+|---|---|---|---|
+| **Year 1** | $108.00 | $1,296 | $1,296 |
+| **Year 2** | $108.00 | $1,296 | $2,592 |
+| **Year 3** | $108.00 | $1,296 | $3,888 |
 
-### Tradify Pro — 5-Person Crew (for comparison)
+### Tradify Pro — 5-Person Crew
 
-| Year | Monthly Plan (5 users) | Phone | Pay Fees | Annual Total | Cumulative |
-|---|---|---|---|---|---|
-| **Year 1** | ~$383 AUD/mo | ~$30/mo | ~$701/mo | ~$13,368 | $13,368 |
-| **Year 2** (5% increase) | ~$402 AUD/mo | ~$32/mo | ~$701/mo | ~$13,620 | $26,988 |
-| **Year 3** (5% increase) | ~$422 AUD/mo | ~$34/mo | ~$701/mo | ~$13,884 | $40,872 |
+| Year | Monthly (5 users, incl GST) | Annual | Cumulative |
+|---|---|---|---|
+| **Year 1** | $286.00 | $3,432 | $3,432 |
+| **Year 2** | $286.00 | $3,432 | $6,864 |
+| **Year 3** | $286.00 | $3,432 | $10,296 |
 
-**3-year saving with ServiceM8: ~$11,928 per 5-person crew.**
+### AroFlo — 5-Person Crew
 
-### simPRO — 5-Person Crew (for comparison)
+| Year | Monthly (5 users, incl GST) | Annual | Cumulative |
+|---|---|---|---|
+| **Year 1** | $440.00 | $5,280 | $5,280 |
+| **Year 2** | $440.00 | $5,280 | $10,560 |
+| **Year 3** | $440.00 | $5,280 | $15,840 |
 
-| Year | Monthly Plan | Phone | Pay Fees | Annual Total | Cumulative |
-|---|---|---|---|---|---|
-| **Year 1** | ~$700/mo | ~$30/mo | ~$701/mo | ~$17,172 | $17,172 |
-| **Year 2** (5% increase) | ~$735/mo | ~$32/mo | ~$701/mo | ~$17,616 | $34,788 |
-| **Year 3** (5% increase) | ~$772/mo | ~$34/mo | ~$701/mo | ~$18,084 | $52,872 |
-
-**3-year saving with ServiceM8: ~$23,928 per 5-person crew.**
-
-The gap widens with every additional team member because ServiceM8's price stays flat while competitors multiply by headcount. For a 10-person business, the 3-year saving exceeds $50,000.
+**3-year software saving vs Tradify: ~$6,408. Vs AroFlo: ~$11,952.** The gap grows with headcount and does not include AroFlo's $1,450-$2,900 setup. Add card processing and the totals converge quickly — the software line is rarely the biggest number on a trade business's SaaS bill.
 
 ---
 
@@ -335,11 +303,11 @@ On the Growing plan (300 SMS allowance), that's 40 SMS over at 10c each = $4/mon
 
 **Rule of thumb:** Budget 2-3 SMS per job. If your plan allowance is less than 2.5× your job volume, you'll pay overage.
 
-### Cost #3: ServiceM8 Pay Transaction Fees Are Real Money
+### Cost #3: ServiceM8 Pay Transaction Fees Are Real Money, and You Can't Bill Them On
 
-On $60,000/month invoiced through card payments, Stripe fees at 1.75% + 30c come to ~$1,050/month. That's real money — but it replaces 21-28 day payment terms with same-day settlement. For most businesses, the cash flow improvement outweighs the fee.
+On $60,000/month processed by card at Growing's 1.49%, fees come to ~$894 plus 30c a transaction — call it $930. That is real money, and since 1 October 2026 it is money you cannot recover with a surcharge: the card networks banned surcharging on Australian card payments, and ServiceM8 stopped applying its own surcharge automatically. The fee is now a permanent line in your margin.
 
-**Alternative:** ServiceM8 supports bank transfer payment links alongside card payments. Encouraging clients to pay via bank transfer on larger jobs ($5,000+) eliminates the fee entirely.
+**What to do instead:** build the percentage into your pricing, the way you'd price any cost of sale. On $60,000 of revenue, 1.49% is roughly 1.5% of turnover — if your hourly rate is $110, that is about $1.65 per hour worked. Two other levers that still work: take bank transfer or PayTo on your largest invoices (PayTo's fee is lower and is not a card surcharge), and check whether a higher plan's lower rate pays for itself, because the rate is tied to the tier.
 
 ### Cost #4: Onboarding Time Isn't Free
 
@@ -364,21 +332,21 @@ ServiceM8 offers local setup partners (at additional cost) and 24/7 chat/email s
 
 ### Starter ($29/mo) — Solo Operators
 
-50 jobs/month, unlimited users, 100 SMS. At $29/month, this is the cheapest way to get professional job management with compliance forms and Xero integration.
+50 jobs/month, unlimited users, 100 SMS. At $29/month, this is the cheapest way to get professional job management with progress invoicing, supplier invoice import, API access and Xero sync on your phone.
 
 **Sweet spot:** Solo electricians, solar installers, or HVAC techs doing 30-50 jobs/month. If you're consistently hitting 40+ jobs, start here — you'll likely need to upgrade within 6-12 months, but at $29/month there's no downside to starting on Starter.
 
-**Watch for:** SMS overage. 100 messages goes fast if you're sending booking confirmations, reminders, and invoices via SMS. At 50 jobs/month, you're likely sending 120-150 messages. Budget an extra $2-$5/month in SMS fees.
+**Watch for:** SMS overage. 100 messages goes fast if you're sending booking confirmations, reminders, and invoices via SMS. At 50 jobs/month, you're likely sending 120-150 messages. Budget an extra $2-$5/month in SMS fees. And if you need to build your own compliance forms, Starter won't do it — that starts at $79.
 
 ---
 
 ### Growing ($79/mo) — The Value Sweet Spot
 
-150 jobs/month, 300 SMS, unlimited users. This is ServiceM8's most popular plan for a reason — it fits the majority of Australian electrical, solar, and HVAC businesses.
+150 jobs/month, 300 SMS, unlimited users. This is ServiceM8's most popular plan for a reason — it fits the majority of Australian electrical, solar, and HVAC businesses, and it is the first tier that includes the features trades actually buy the platform for: electronic forms, asset management, proposals, bundles and Inbox.
 
 **Sweet spot:** 2-5 person crews doing residential and light commercial work. At 150 jobs/month, you're covering a 3-person team doing 10-12 jobs per week — typical for a busy electrical business.
 
-**The math that matters:** At $79/month for a 3-person crew, you're paying $26/person/month. Tradify is $47-$61 USD per person. Fergus is $48-$72 AUD per person. The cost advantage is real and recurring.
+**The math that matters:** at $79/month including GST for a 3-person crew, you're paying about $26/person/month. Tradify Pro is $52 ex GST per person and Fergus Essentials $53 ex GST per person, so the advantage is real and recurring.
 
 **If you're right on the edge** (130-150 jobs/month consistently), upgrade to Premium. Hitting the job cap mid-month is a business disruption — and at $149/month, Premium still costs less than the competitors' 3-user pricing.
 
@@ -386,11 +354,11 @@ ServiceM8 offers local setup partners (at additional cost) and 24/7 chat/email s
 
 ### Premium ($149/mo) — Growing Teams
 
-500 jobs/month, 1,000 SMS, unlimited users. This plan unlocks AI-powered reporting (Smart Report Helper) and fits businesses that have outgrown a single crew.
+500 jobs/month, 1,000 SMS, unlimited users. This plan unlocks the three profit-focused features: **job profitability** (a gauge on a job before you quote it, and the true margin after), **markup billing** and **Knowledge** (your procedures in the technician's app).
 
 **Sweet spot:** 5-15 person teams with multiple crews running simultaneously. If you're dispatching 3+ crews daily, the 500 job cap gives you headroom without worrying about mid-month limits.
 
-**Why step up from Growing:** Beyond the job cap increase (150 → 500), the reporting tools become valuable at this size. The Smart Report Helper lets you type "show me revenue by electrician last month" and get an instant report — replacing the spreadsheet work that becomes unmanageable at 10+ staff.
+**Why step up from Growing:** the job cap (150 → 500), plus job profitability and markup billing, which are the features that change how you quote. Note what Premium does *not* unlock: reporting and Smart Report Helper are on every plan, including Free, so don't upgrade for reporting. Add the card rate as a factor too — Premium's 1.39% against Growing's 1.49% is worth $60/month on $60,000 of card volume.
 
 ---
 
@@ -406,19 +374,20 @@ ServiceM8 offers local setup partners (at additional cost) and 24/7 chat/email s
 
 ## Australian-Specific Considerations
 
-### Compliance Forms Built for Australian Trades
+### Compliance Forms — What ServiceM8 Actually Gives You
 
-This is where ServiceM8 separates from international competitors. The platform includes pre-built digital forms for:
+This is where the platform separates from international competitors, but the mechanism matters if you're choosing a plan on it. ServiceM8 does not ship a pre-built CCEW or CES. What it gives you is a **Forms engine**: either a form bought from the Form Store (250+ ready-made forms across electrical, solar and compliance categories, one-off cost, available on every plan including Free), or a custom form you build from a Word template (Growing and above).
 
-- **CCEW (Certificate of Compliance for Electrical Work):** Required in NSW under the Gas and Electricity (Consumer Safety) Act 2017 (lodged to Building Commission NSW via eCert) and separately in Victoria under the Electricity Safety Act 1998. ServiceM8's CCEW form captures all required fields — installation details, circuit protection, testing results — and generates a compliant PDF.
-- **CES (Certificate of Electrical Safety):** The Victorian certificate, issued by the licensed electrician within 30 days of completing the work under the Electricity Safety (General) Regulations 2019. The WA equivalent is a different document — the electrical safety certificate required within 28 days under the Electricity (Licensing) Regulations 1991 and lodged through eNotice.
-- **Custom safety checklists:** SWMS, site induction forms, risk assessments — all with geo-tagged photo capture and digital signature.
+- **CCEW (Certificate of Compliance for Electrical Work):** required in NSW under the Gas and Electricity (Consumer Safety) Act 2017 and lodged with Building Commission NSW via eCert. ServiceM8 captures the data and produces the PDF; **the lodgement stays in eCert** — a PDF is not a valid lodgement on its own.
+- **CES (Certificate of Electrical Safety, Victoria):** issued under the Electricity Safety (General) Regulations 2019. The deadline that catches people is not the 30-calendar-day customer copy: for **prescribed work** — which includes replacing a switchboard — the certificate details must be notified to ESV electronically within **2 business days**, with inspection inside 8 business days and copies inside 16 calendar days. Non-prescribed work is where the 30-day customer copy applies.
+- **WA:** a different instrument again — an Electrical Safety Certificate under the Electricity (Licensing) Regulations 1991, delivered within 28 days and lodged through eNotice.
+- **Custom safety checklists:** SWMS, site induction forms, risk assessments, with geo-tagged photo capture and digital signature.
 
-For electrical businesses regulated under state electrical safety laws (Electricity Safety Act 1998 in Victoria, Gas and Electricity (Consumer Safety) Act 2017 in NSW, Electrical Safety Act 2002 in Queensland), having compliance documentation built into the job workflow is not just convenient — it's an audit defence. Failing to issue the required certificate on time is an offence in every state, and regulators can issue penalty notices and prosecute.
+For electrical businesses regulated under state electrical safety laws (Electricity Safety Act 1998 in Victoria, Gas and Electricity (Consumer Safety) Act 2017 in NSW, Electrical Safety Act 2002 in Queensland), having documentation inside the job workflow is an audit defence — but the certificate still has to be legally lodged somewhere else, and no job management platform can do that for you. If a vendor tells you it lodges your CCEW, ask which API.
 
 ### GST Handling
 
-ServiceM8 handles Australian GST natively — line items can be marked as GST-inclusive or GST-exclusive, invoices calculate GST automatically, and the Xero/MYOB sync preserves GST coding. No workarounds needed for BAS reporting.
+ServiceM8 handles Australian GST natively — line items can be marked GST-inclusive or GST-exclusive, invoices calculate GST automatically, and the Xero/MYOB sync preserves GST coding. One practical warning: the plan prices are GST-inclusive but the per-user platforms quote ex GST, so if you're comparing quotes across vendors, normalise them first or you'll understate what the other platforms cost you.
 
 ### STC and Solar Compliance
 
@@ -436,7 +405,7 @@ For most electrical and solar businesses, the answer is yes — typically within
 
 **Fewer unbilled hours.** When every job is in the system, nothing falls through the cracks. Businesses typically recover 3-8% of previously unbilled time — missed callouts, forgotten variations, uncaptured materials. On $500K annual revenue, 5% recovery is $25,000.
 
-**Compliance efficiency.** For CCEW-heavy electrical businesses, the pre-built digital form saves 15-30 minutes per job vs manual paper forms. At 100 jobs/month, that's 25-50 hours — roughly $2,000-$4,000/month in recovered billable time.
+**Compliance efficiency.** For CCEW-heavy electrical businesses, a digital form saves 15-30 minutes per job against paper — but only once you've built it or bought it. The building is a one-off few hours on Growing; the Form Store purchase is minutes. Budget the setup honestly and the saving is real from the second job onward.
 
 **At $79/month for Growing, recovering one forgotten invoice or one missed variation per month covers the entire annual software cost.**
 
@@ -451,6 +420,34 @@ For most electrical and solar businesses, the answer is yes — typically within
 > 3. **Start the 14-day free trial of a paid plan.** Set up your real services, rates, labour items, and Xero connection. Test the CCEW form. Run a job end-to-end — quote to invoice to payment. Don't evaluate from screenshots.
 > 4. **If you're borderline between plans,** start on the lower tier. Upgrading is instant and prorated (you only pay the difference for remaining days). Downgrading takes effect at the next billing cycle — so starting high and switching down costs you a full month.
 > 5. **Try the Free plan first if you're genuinely unsure.** 30 jobs gives you enough volume to test the workflow without spending anything. Just note that 1 user and 0 SMS limits make it unsuitable for businesses with any staff or client communication volume.
+
+---
+
+## Frequently Asked Questions
+
+### How much does ServiceM8 cost in Australia in 2026?
+
+Five plans, all in AUD including GST: Free $0/mo (30 jobs, 1 user, no SMS), Starter $29/mo (50 jobs, 100 SMS), Growing $79/mo (150 jobs, 300 SMS), Premium $149/mo (500 jobs, 1,000 SMS) and Premium Plus $349/mo (1,500+ jobs, 3,000 SMS). Every paid plan includes unlimited staff — ServiceM8 does not charge per user, unlike Tradify, Fergus, AroFlo and simPRO. Card processing is separate and priced by tier: 1.89% + 30c on Free down to 1.19% + 30c on Premium Plus for standard domestic cards.
+
+### Does ServiceM8 charge per user or per job?
+
+Per job volume, not per user. A 10-person business on Premium pays the same $149/mo as a 2-person business on Premium. The tiers differ by monthly job cap (50/150/500/1,500+) and SMS allowance (100/300/1,000/3,000), plus a handful of features that only unlock from Growing or Premium upward. This is why ServiceM8 gets cheaper per seat as you hire, while per-user platforms scale with headcount.
+
+### What are the hidden costs in ServiceM8?
+
+Four worth budgeting for: (1) card processing fees, which are per tier and changed on 1 October 2026 — 1.89% + 30c (Free), 1.69% (Starter), 1.49% (Growing), 1.39% (Premium), 1.19% (Premium Plus), with international and Amex at 3.70% + 30c on every plan; (2) ServiceM8 Phone, an optional add-on from $19/mo; (3) excess SMS at 10c each and excess jobs at 20c each on Premium Plus; (4) individual Forms bought from the Form Store, which are a one-off cost per form. There are no contracts, no setup fees and no per-user charges.
+
+### Is ServiceM8 cheaper than simPRO, Tradify, Fergus and AroFlo?
+
+For teams of two or more, yes, and the advantage grows with headcount. A 5-user crew on ServiceM8 Growing pays $79/mo including GST for unlimited users. The same five users on Tradify Pro is $52 per user ex GST ($260/mo), on Fergus Essentials $53 per user ex GST ($265/mo), and on AroFlo $80 per user ex GST with a three-user minimum ($400/mo). simPRO does not publish pricing at all, so it is quote-only. The exception is a sole trader: per-user pricing can be cheaper than a $79 plan if you need the features that sit above Starter.
+
+### Does ServiceM8 have a free plan?
+
+Yes — $0/mo, 30 jobs per month, one user, no included SMS, self-serve support. It includes scheduling, quoting, invoicing, checklists, photos, online bookings, reporting and the accounting integrations. Two limits matter: it is one user only, and custom form creation is not included (Forms bought from the Form Store do work on Free). A 14-day free trial of any paid plan is also available with no credit card.
+
+### What ServiceM8 plan is right for my electrical or solar business?
+
+Sole traders doing 50 or fewer jobs a month: Starter at $29. Small crews (2-5 staff, 150 jobs): Growing at $79, which is also the first tier that includes electronic forms, asset management and proposals. Mid-size teams (5-15 staff, 500 jobs): Premium at $149, which adds job profitability, markup billing and Knowledge. High-volume operations: Premium Plus at $349 with 20c per job beyond 1,500. If your work needs digital compliance certificates, the entry price is $79, not $29.
 
 ---
 
