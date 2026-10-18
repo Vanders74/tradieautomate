@@ -1,6 +1,6 @@
 ---
 title: 'ServiceM8 Review 2026: Honest Pros, Cons & Real Pricing for Aussie Tradies'
-description: "ServiceM8 review: what $29/mo gets an Aussie tradie — invoicing, CCEW forms, Xero sync and the limits."
+description: "ServiceM8 review 2026: what $29/mo (AUD, incl. GST) really gets an Aussie tradie — invoicing, the $79 compliance-form gate, Xero/QuickBooks sync and the limits."
 updatedDate: 'Oct 18 2026'
 pubDate: 'Apr 03 2026'
 category: "ServiceM8"
@@ -15,9 +15,9 @@ faq:
   - question: "How much does ServiceM8 cost in Australia in 2026?"
     answer: "ServiceM8 plans in 2026: Free ($0/mo, 30 jobs, 1 user), Starter ($29/mo, 50 jobs), Growing ($79/mo, 150 jobs), Premium ($149/mo, 500 jobs) and Premium Plus ($349/mo, 1,500+ jobs). All paid plans include unlimited staff — ServiceM8 charges per job volume, not per user. A free 14-day trial is available with no credit card required."
   - question: "Does ServiceM8 work for solar compliance documentation?"
-    answer: "Yes — ServiceM8 supports custom digital forms that capture all required solar compliance data: CER documentation requirements, geo-tagged site photos, AS/NZS 5033 and 5139 checklist items, customer declarations for STC assignment, and CCEW data fields. Forms are completed on-site and synced automatically, creating a timestamped digital audit trail."
+    answer: "Yes — ServiceM8 supports custom digital forms that capture all required solar compliance data: CER documentation requirements, geo-tagged site photos, AS/NZS 5033 and 5139 checklist items, customer declarations for STC assignment, and CCEW data fields. Forms are completed on-site and synced automatically, creating a timestamped digital audit trail. Note the plan gate: the custom form builder is on Growing ($79/mo) and above — Free and Starter can only use forms purchased from the ServiceM8 Form Store."
   - question: "Can ServiceM8 integrate with Xero and MYOB?"
-    answer: "Yes. ServiceM8 has native integrations with both Xero and MYOB AccountRight. Invoices, client records, and payments sync automatically, eliminating double-entry between your job management and accounting platforms."
+    answer: "Yes. ServiceM8 has native integrations with Xero, MYOB Business (AU/NZ) and QuickBooks Online. Invoices, client records, and payments sync automatically, eliminating double-entry between your job management and accounting platforms. AccountRight is MYOB's legacy desktop product, not the integration."
   - question: "What new features does ServiceM8 have in 2026?"
     answer: "ServiceM8's biggest recent release was the ServiceM8 14 update (Sep 2025), led by AI agents: the Phone Agent answers and qualifies calls for you, and the Office Agent handles routine admin tasks. Smart Report Helper builds custom reports from plain-English prompts, and Powerful Reports introduced a new reporting engine. On-site, Tap to Pay on iPhone accepts contactless payments, Auto Routing optimises a technician's day, and SMS Photos & Files lets you send photos to clients by text. The n8n integration adds workflow automation, and ServiceM8 Lite for Android brings scheduling and invoicing to more users."
   - question: "How much revenue does ServiceM8 generate?"
@@ -33,9 +33,9 @@ faq:
 ServiceM8 has become a household name in the Australian trades industry — and for good reason. But with so many job management platforms competing for your subscription dollar, this ServiceM8 review 2026 asks: is ServiceM8 actually the best fit for your business in 2026?
 
 > **ServiceM8 at a glance:**
-> - **Pricing:** From $29/mo (Starter, 50 jobs) to $349/mo (Premium Plus, 1,500+ jobs). No per-user fees — unlimited staff on all paid plans.
+> - **Pricing:** From $29/mo (Starter, 50 jobs) to $349/mo (Premium Plus, 1,500+ jobs) — AUD, incl. GST. No per-user fees — unlimited staff on all paid plans.
 > - **Best for:** 1-15 person trade businesses — electrical contractors, solar installers, plumbers, HVAC crews
-> - **Key features:** CCEW compliance forms, Xero integration, same-day invoicing, GPS dispatch, digital forms
+> - **Key features:** Custom digital forms incl. CCEW data capture (Growing plan, $79), Xero/QuickBooks sync, same-day invoicing, GPS dispatch
 > - **Verdict:** Market leader for Australian small-to-mid trade businesses. Strongest compliance documentation support, weakest for enterprise/commercial project management.
 >
 > [**Start your free 14-day ServiceM8 trial →**](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
@@ -100,7 +100,7 @@ So if you landed here searching for a review of "Service M8" or "Servicemate," y
 
 ServiceM8 operates on a monthly subscription with pricing based on the number of job records created per month (not the number of users — which is a meaningful advantage for growing teams).
 
-| Plan | Jobs/month | Price (AUD) |
+| Plan | Jobs/month | Price (AUD/mo, incl. GST) |
 |---|---|---|
 | Free | 30 | $0/mo |
 | Starter | 50 | $29/mo |
@@ -123,10 +123,10 @@ There are some add-ons that push costs higher — advanced scheduling, job costi
 | ✅ What We Love | ⚠️ Where It Falls Short |
 |---|---|
 | Unlimited staff logins on all plans | iOS app polished first — Android is close but not identical |
-| Compliance-ready digital forms (CER, CCEW, AS/NZS 5033 & 5139) | No native project management for large commercial jobs |
+| Compliance-ready digital forms (CER, CCEW, AS/NZS 5033 & 5139) — custom form builder from Growing ($79) | No native project management for large commercial jobs |
 | Geo-tagged site photos attached directly to job records — auditable instantly | Add-ons (route optimisation, job costing) push the monthly cost above headline price |
 | Invoice-on-completion workflow cuts payment cycles from 3+ weeks to under 10 days | Limited custom reporting — export needed for deep analytics |
-| Native Xero and MYOB integration — no double-entry | Not designed for businesses with 50+ field staff |
+| Native Xero, MYOB Business & QuickBooks sync — no double-entry | Not designed for businesses with 50+ field staff |
 | Mobile-first design built for field use, not the office | |
 | 14-day free trial, no credit card required | |
 
@@ -144,13 +144,13 @@ The regulatory landscape for Australian electricians is demanding: under the **N
 
 ServiceM8's digital job forms are built to capture all of this at the point of work — not in a Friday afternoon paperwork scramble.
 
-Photos attach directly to job records — not floating in someone's camera roll. Every site visit is timestamped and auditable. When Fair Trading NSW, Energy Safe Victoria, or the Clean Energy Regulator comes knocking, your documentation is already organised.
+Photos attach directly to job records — not floating in someone's camera roll. Every site visit is timestamped and auditable. When Building Commission NSW, Energy Safe Victoria, or the Clean Energy Regulator comes knocking, your documentation is already organised.
 
 Working with trades businesses preparing for CER audits, I've seen this shift firsthand: companies that previously spent two days pulling together paper records for a spot audit now do it in under two hours — because everything is tied to the job record automatically. See our [CER audit preparation guide](/blog/cer-audit-prep-solar-installers/) for the full compliance workflow.
 
 ### 2. Automatic Invoice Generation
 
-When a job is marked complete in the field, an invoice can be generated and emailed to the client automatically — without the office touching it. Payment links, card processing, and Xero sync come standard.
+When a job is marked complete in the field, the invoice is produced from the job card, and once you **approve** it, ServiceM8 pushes it to your accounting file and sends it to the client with a payment link — you don't have to re-key anything in the office. The approval step is deliberate: nothing auto-sends to a customer without you signing off on it. Payment links, card processing, and Xero/QuickBooks sync come standard.
 
 The cash flow impact is real. A solar installation business running 20 jobs per month at an average of $8,000 per job — if they cut their average payment cycle from 25 days to 9 days, that's roughly **$260,000 more working capital** moving through the business at any given time. Not an edge case. A pattern that repeats across businesses that implement ServiceM8's invoicing workflow properly.
 
@@ -188,9 +188,9 @@ How does ServiceM8 stack up against the other main players in the Australian mar
 
 | Feature | ServiceM8 | simPRO | [Tradify](/blog/tradify-review-2026-australia/) | Fergus |
 |---|---|---|---|---|
-| Starting price (AUD/mo) | ~$29 | ~$149 | ~$35/user | ~$49/user |
+| Starting price (AUD/mo) | $29 (incl. GST) | Quote only | $48/user (ex GST) | $53 (ex GST) |
 | Per-user pricing | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes |
-| Compliance forms | ✅ Excellent | ✅ Good | ⚠️ Basic | ⚠️ Basic |
+| Compliance forms | ✅ Excellent | ✅ Good | ⚠️ Pro+ only | ⚠️ Basic |
 | Mobile app quality | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
 | Xero integration | ✅ Native | ✅ Native | ✅ Native | ✅ Native |
 | Free trial | ✅ 14 days | ❌ Demo only | ✅ 14 days | ✅ 14 days |
@@ -198,13 +198,15 @@ How does ServiceM8 stack up against the other main players in the Australian mar
 
 For a deeper comparison, see our [ServiceM8 vs simPRO breakdown](/blog/servicem8-vs-simpro-comparison-australia/) and [ServiceM8 vs Tradify comparison](/blog/servicem8-vs-tradify-comparison-australia/).
 
+*Prices verified against each vendor's Australian pricing page in October 2026. ServiceM8 quotes inclusive of GST; Tradify and Fergus quote exclusive of GST (Tradify Lite $48, Pro $52, Plus $62 per user; Fergus Essentials $53, Professional $77). simPRO does not publish pricing — it is quote-only, so any "from $149" figure you see elsewhere is unsourced.*
+
 ---
 
 ## Real-World Results: What ServiceM8 Users Report
 
 Talk to Australian tradies who've switched to ServiceM8, and a few themes come up consistently.
 
-**Invoicing speed.** The biggest win, by far, is how quickly invoices get paid. When the invoice goes out automatically the moment a job is marked complete — with a payment link attached — customers pay faster. Businesses report average payment times dropping from 21–28 days to 7–10 days after implementation. For a 10-person electrical business doing $3M in revenue annually, that 2–3 week improvement in debtor days is worth around **$115,000–$175,000 in freed-up cash flow**.
+**Invoicing speed.** The biggest win, by far, is how quickly invoices get paid. When the invoice is produced from the job card, approved and sent the same day — with a payment link attached — customers pay faster. Businesses report average payment times dropping from 21–28 days to 7–10 days after implementation. For a 10-person electrical business doing $3M in revenue annually, that 2–3 week improvement in debtor days is worth around **$115,000–$175,000 in freed-up cash flow**.
 
 **Compliance confidence.** For solar and electrical businesses, the constant anxiety about incomplete paperwork disappears. Forms are completed on-site. Photos are attached. The audit trail is automatic. CER audit preparation that previously took days now takes an afternoon.
 
@@ -226,8 +228,8 @@ Talk to Australian tradies who've switched to ServiceM8, and a few themes come u
 
 ServiceM8 is the strongest fit for:
 
-- **Solar and battery installers** — compliance documentation, CER audit readiness (under the *Renewable Energy (Electricity) Act 2000*), and certificate generation are built-in
-- **Electricians and plumbers** running residential and light commercial work — particularly those managing CCEW obligations under *Home Building Act 1989 (NSW)* or Certificate of Electrical Safety requirements under *Electricity Safety Act 1998 (Vic)*
+- **Solar and battery installers** — compliance documentation, CER audit readiness (under the *Renewable Energy (Electricity) Act 2000*), and geo-tagged site evidence are built-in (the custom form builder starts on the $79 Growing plan)
+- **Electricians and plumbers** running residential and light commercial work — particularly those managing CCEW obligations under the *Gas and Electricity (Consumer Safety) Act 2017 (NSW)*, administered by Building Commission NSW, or Certificate of Electrical Safety requirements under *Electricity Safety Act 1998 (Vic)*
 - **Growing trade businesses** (2–30 staff) that want to replace paper-based workflows
 - **HVAC and air-conditioning contractors** — [ServiceM8 for HVAC businesses](/blog/servicem8-for-hvac/) covers job templates, maintenance schedules, and the AS/NZS 5149 refrigerant-compliance workflows specific to the trade
 - **Landscaping and garden maintenance businesses** — [ServiceM8 for landscapers](/blog/servicem8-for-landscapers/) handles $/m² quoting, plant and materials tracking, and recurring maintenance contracts alongside one-off project installs
@@ -250,8 +252,8 @@ ServiceM8 connects with the tools Australian trade businesses already use:
 
 **Accounting**
 - **Xero** — Native two-way sync. Invoices, clients, payments, and items sync automatically. GST is handled correctly. Most ServiceM8 users cite this as the integration that saves the most time.
-- **MYOB AccountRight** — Native integration with full sync capability, same as Xero.
-- **QuickBooks** — Supported, though less commonly used in the Australian market.
+- **MYOB Business** — Native integration (AU/NZ), same two-way sync as Xero. Note that MYOB's legacy desktop product, AccountRight, is not the integration ServiceM8 ships.
+- **QuickBooks Online** — Native, same three-way position in ServiceM8's integration lineup; less common than Xero among Australian tradies.
 
 **Payments**
 - **ServiceM8 Payments** — Built-in card processing via Stripe. Accept Visa, Mastercard, and Amex in the field or via payment link. Competitive processing rates with no monthly fee.
@@ -430,7 +432,7 @@ ServiceM8 is priced in AUD for Australian businesses. Plans start at $29/month (
 Yes — ServiceM8 supports custom digital forms that can capture all the data required for solar compliance workflows: CER documentation requirements, geo-tagged site photos (attached directly in the app), AS/NZS 5033 and 5139 checklist items, customer declarations for STC assignment, and CCEW data fields. These forms can be completed on-site and synced automatically, eliminating end-of-day paperwork and creating a timestamped digital audit trail.
 
 ### Can ServiceM8 integrate with Xero and MYOB?
-Yes. ServiceM8 has native integrations with both Xero and MYOB AccountRight. Invoices, client records, and payments sync automatically, eliminating double-entry between your job management and accounting platforms.
+Yes. ServiceM8 has native integrations with Xero, MYOB Business (AU/NZ) and QuickBooks Online. Invoices, client records, and payments sync automatically, eliminating double-entry between your job management and accounting platforms.
 
 ### What new features does ServiceM8 have in 2026?
 ServiceM8's biggest recent release was the ServiceM8 14 update (Sep 2025), led by AI agents: the **Phone Agent** answers and qualifies calls for you, and the **Office Agent** handles routine admin tasks. **Smart Report Helper** builds custom reports from plain-English prompts, and **Powerful Reports** introduced a new reporting engine. On-site, **Tap to Pay on iPhone** accepts contactless payments, **Auto Routing** optimises a technician's day, and **SMS Photos & Files** lets you send photos to clients by text. The n8n integration adds workflow automation, and ServiceM8 Lite for Android brings scheduling and invoicing to more users.
