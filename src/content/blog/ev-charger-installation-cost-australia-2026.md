@@ -50,7 +50,7 @@ A quality residential EV charger installation includes:
 - **Dedicated 32A circuit** from switchboard to charger location
 - **Weatherproof installation** where the charger is mounted externally
 - **RCD protection** on the charger circuit
-- **Compliance certificate** (state-specific — CCEW in NSW under SafeWork NSW requirements, Certificate of Electrical Safety (CES) in VIC under Energy Safe Victoria (ESV) requirements). All electrical work must comply with AS/NZS 3000:2018 (the Wiring Rules).
+- **Compliance certificate** (state-specific — CCEW in NSW under the Gas and Electricity (Consumer Safety) Act 2017, administered by Building Commission NSW, Certificate of Electrical Safety (COES) in VIC under Energy Safe Victoria (ESV) requirements). All electrical work must comply with AS/NZS 3000:2018 (the Wiring Rules).
 - **EVSE commissioning** — app setup, smart charging configuration, solar integration where applicable
 - **Customer handover** including operation instructions and warranty documentation
 

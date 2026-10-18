@@ -117,7 +117,7 @@ The standard is a national framework, but state jurisdictions add their own regu
 
 **NSW:** A Certificate of Compliance Electrical Work (CCEW) is required for battery installations under NSW rules — lodged in BCNSW eCert within 7 days of the safety and compliance test. See the [NSW CCEW guide](/blog/ccew-nsw-7-day-deadline-rule/) for the deadline and submission requirements.
 
-**Queensland:** Electrical Safety Certificate requirements apply via Electrical Safety Queensland. Battery installations typically trigger additional compliance documentation beyond the CEC installer certificate.
+**Queensland:** Certificate obligations come from the *Electrical Safety Regulation 2026* — a certificate of testing and safety (s208) where the work is tested, and a certificate of testing and compliance (s229) where the contractor connects the installation to supply, administered by the Electrical Safety Office. Battery installations typically trigger additional compliance documentation beyond the CEC installer certificate.
 
 **South Australia:** SA Power Networks has specific AS/NZS 5139 documentation requirements for battery installs, tied to the connection approval process.
 

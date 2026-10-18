@@ -61,7 +61,7 @@ Since January 2026, DNSPs (Ausgrid, Endeavour Energy, Essential Energy, Powercor
 
 The Clean Energy Regulator's 2025 Solar Compliance Blitz audited 1,200+ solar installations and found a 22% non-compliance rate. This triggered a second wave of blitzes in 2026 — this time led by state electrical safety regulators rather than the CER alone:
 
-- **NSW:** SafeWork NSW targeted 300+ solar and battery installers in Q1-Q2 2026, with a specific focus on AS/NZS 5033 compliance and CCEW lodgement
+- **NSW:** Building Commission NSW holds the CCEW compliance record via eCert, and solar and battery work is where lodgement failures show up first — the CCEW is due within 7 days of the work
 - **VIC:** ESV audited 180 solar installation businesses, cross-checking CES certificates against CEC accreditation records
 - **QLD:** ESO targeted 200+ solar contractors with an emphasis on battery installations and AS/NZS 5139 compliance
 
@@ -186,7 +186,7 @@ While the six categories above apply everywhere, each state regulator has its ow
 **Regulator:** SafeWork NSW (WHS) + Building Commission NSW (licensing and CCEW)
 
 **Audit triggers unique to NSW:**
-- The **CCEW 7-day rule** is one of the most audited requirements in the country. SafeWork NSW runs quarterly spot-checks on CCEW lodgement timeframes — if 10% or more of your certificates are lodged late, expect a compliance notice.
+- The **CCEW 7-day rule** is one of the most audited requirements in the country. Lodgement goes through Building Commission NSW's eCert — if a run of your certificates is lodged late, expect a compliance notice
 - **BCNSW eCert portal mandatory from 1 July 2026.** Paper CCEWs are no longer valid. If your audit period includes any work after this date without eCert lodgement, you will be found non-compliant.
 
 **Penalties:**
