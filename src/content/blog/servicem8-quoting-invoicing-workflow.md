@@ -1,6 +1,6 @@
 ---
 title: "ServiceM8 Quoting to Payment Workflow 2026: 7 Steps to Get Paid"
-description: "Quote to paid in 7–10 days: ServiceM8's 7-step quoting, invoicing and payment workflow with on-site quotes, auto-invoicing, Stripe and Xero sync."
+description: "ServiceM8 quoting to payment in 7 steps: on-site quotes, one-tap approval, invoice approval, ServiceM8 Pay and Xero sync — with the real 2026 limits."
 pubDate: 'Aug 08 2026'
 updatedDate: 'Oct 18 2026'
 category: 'ServiceM8'
@@ -10,11 +10,11 @@ breakdown:
   - title: "Client approves one-tap"
     summary: "Quote converts to a scheduled job — no phone tag."
   - title: "Work completes with compliance docs"
-    summary: "CCEW/CES forms completed before the job can close."
+    summary: "CCEW/COES forms completed before the job can close."
     href: "/blog/solar-compliance-checklist-2026"
     hrefLabel: "Compliance checklist →"
-  - title: "Invoice auto-generates"
-    summary: "Same-day invoicing, not 3–5 days later."
+  - title: "Invoice ready to approve"
+    summary: "Built from the quote, approved in one click — same day."
   - title: "Client pays via Stripe"
     summary: "Pay Now button + on-site Tap to Pay."
   - title: "Sync to Xero"
@@ -25,18 +25,18 @@ heroImage: '/hero-servicem8-quoting-invoicing-workflow.jpg'
 tags: ['ServiceM8', 'quoting', 'invoicing', 'payments', 'workflow', 'job management', 'Xero', 'cash flow']
 faq:
   - question: "How does ServiceM8 handle quoting for Australian trade businesses?"
-    answer: "ServiceM8 lets you create quotes on-site from a mobile device, add line items with photos, attach compliance forms (CCEW for NSW, CES for Victoria), and send to the client via email or SMS before leaving the property. The client approves with one tap, converting the quote to a scheduled job. The entire on-site quoting process takes under 2 minutes for a standard residential electrical job."
+    answer: "ServiceM8 lets you create quotes on-site from a mobile device, add line items with photos, attach compliance forms (CCEW for NSW, COES for Victoria), and send to the client via email or SMS before leaving the property. The client approves with one tap, converting the quote to a scheduled job. The entire on-site quoting process takes under 2 minutes for a standard residential electrical job."
   - question: "How much faster is ServiceM8 invoicing compared to manual processes?"
-    answer: "ServiceM8 auto-generates the invoice when the job is marked complete and sends it immediately — compressing the typical 3–7 day delay of manual invoicing to same-day delivery. Australian trade businesses using this workflow report average payment times of 7–10 days vs 21–28 days for manual invoicing, a 60–70% reduction in the quote-to-cash cycle."
+    answer: "ServiceM8 does not invoice for you: the job lands in Invoicing → Awaiting Approval, someone approves it, and that approval is also what sends it to Xero or MYOB. Our view is that same-day approval and sending compresses a typical 21–28 day manual cycle to roughly 7–10 days — mostly from removing the office lag, not from the software typing the invoice."
   - question: "Does ServiceM8 handle GST and Australian tax compliance?"
     answer: "Yes. ServiceM8 is Australian-built and handles GST, tax invoices, and ABN requirements natively. Invoices meet ATO specifications for tax invoices including ABN, GST line items, and invoice numbering. The Xero integration ensures all tax data transfers correctly for BAS preparation."
   - question: "Can I take payment on-site with ServiceM8?"
-    answer: "Yes. ServiceM8 supports Tap to Pay on iPhone, allowing the technician to accept credit card or debit card payments on-site at job completion. This eliminates accounts receivable for smaller jobs. For remote payment, the Stripe-integrated \"Pay Now\" button on every invoice lets clients pay by card or bank transfer."
+    answer: "Yes. Tap to Pay on iPhone (iPhone XS or later) and on eligible Android phones (Android 13+ with NFC) lets the technician take contactless card, Apple Pay or digital-wallet payment on-site at job completion, once ServiceM8 Pay is activated. For remote payment, the \"Pay Now\" button on the online invoice takes card, Apple Pay/Google Pay, or PayTo in Australia."
   - question: "How long does it take to set up the full quoting-to-payment workflow?"
     answer: "The basic setup — building your line item library, creating compliance form templates, and connecting Stripe — takes 2–3 hours. Connecting Xero adds 30 minutes. Testing the full cycle on one real job takes 1 hour. Total setup: approximately half a day for a fully operational quoting-to-payment workflow."
 ---
 
-**ServiceM8's quoting-to-payment workflow compresses the average payment cycle from 21–28 days to 7–10 days** — a 60–70% reduction that releases working capital in proportion to how slowly you bill today (the maths is below; it's smaller than most vendor pages claim). The workflow spans seven steps: on-site quote creation, one-tap client approval, job scheduling, work completion with compliance documentation, auto-generated invoicing, integrated payment collection via Stripe, and real-time sync to Xero or MYOB.
+**ServiceM8's quoting-to-payment workflow compresses the average payment cycle from 21–28 days to 7–10 days** — a 60–70% reduction that releases working capital in proportion to how slowly you bill today (the maths is below; it's smaller than most vendor pages claim). The workflow spans seven steps: on-site quote creation, one-tap client approval, job scheduling, work completion with compliance documentation, same-day invoicing with an approval step, integrated payment collection via ServiceM8 Pay (Stripe), and invoice-level sync to Xero or MYOB.
 
 For an electrical contractor doing 20 jobs per month at an average job value of $2,500, that is $50,000 of monthly revenue. Billing five days after the work instead of on the day holds roughly **one-sixth of it — about $8,300 — in "work done, not yet billed"** at any moment. That is the number to plug into your own maths: monthly revenue × (days of billing delay ÷ 30). This guide walks through the complete workflow, what the tradie sees vs what the client sees at each step, and how it compares to manual processes and competitor platforms.
 
@@ -48,7 +48,7 @@ For an electrical contractor doing 20 jobs per month at an average job value of 
 
 The quoting workflow begins on the mobile device. From the ServiceM8 app, the tradie creates a new job, enters the client's name, address, and contact details, then builds the quote using line items. For electrical businesses, the line item library can be pre-loaded with common scope items: switchboard upgrades, RCD installations, downlight replacements, EV charger circuits. For solar installers: system size, panel brand, inverter model, mounting type, STC rebate value.
 
-Photos can be attached to individual line items — a switchboard photo goes with the "switchboard upgrade" line, a roof photo with the "panel mounting" line. Compliance checklists (CCEW form fields, CES sign-off prompts) are built into the quote as mandatory steps the technician completes on-site.
+Photos can be attached to individual line items — a switchboard photo goes with the "switchboard upgrade" line, a roof photo with the "panel mounting" line. Compliance checklists (CCEW form fields, COES sign-off prompts) are built into the quote as mandatory steps the technician completes on-site.
 
 The quote is sent to the client as an email and/or SMS before the tradie leaves the property. The client sees a branded PDF with line items, photos, and an "Approve Quote" button. No printing. No follow-up "I'll email it later."
 
@@ -78,19 +78,21 @@ The assigned technician receives the job on their mobile device with all details
 
 ### Step 4: Work Completion with Compliance Documentation
 
-The technician arrives on-site and executes the job. As they work, they complete mandatory compliance forms directly in the app — CCEW fields for NSW electricians, CES for Victorian electricians, test record templates, AS/NZS 3000 verification checkpoints.
+The technician arrives on-site and executes the job. As they work, they complete mandatory compliance forms directly in the app — CCEW fields for NSW electricians, COES for Victorian electricians, test record templates, AS/NZS 3000 verification checkpoints.
 
 Photos are captured throughout: pre-work state, mid-installation, completed work with serial numbers visible. Every photo is timestamped, GPS-tagged, and attached to the job record. This is the documentation that passes a CER audit or satisfies an electrical safety regulator inspection.
 
-**Compliance anchors:** Under the **Gas and Electricity (Consumer Safety) Act 2017** and Regulation 2018, administered by **Building Commission NSW**, the safety and compliance test must be lodged in **BCNSW eCert** within **7 days** of the test. (The contractor licence itself sits under the *Home Building Act 1989*.) In Victoria, a **Certificate of Electrical Safety** for prescribed work goes to the Local Electrical Inspector within **4 business days**, and the customer copy within the same window; for non-prescribed work the customer copy is due within **30 calendar days**. ServiceM8 can carry the form itself and prompt the technician, but it does **not** lodge anything with the regulator — eCert and ESV lodgement stay separate from the job record.
+**Compliance anchors:** Under the **Gas and Electricity (Consumer Safety) Act 2017** and Regulation 2018, administered by **Building Commission NSW**, the safety and compliance test must be lodged in **BCNSW eCert** within **7 days** of the test. (The contractor licence itself sits under the *Home Building Act 1989*.) In Victoria, the responsible person must complete and **sign a Certificate of Electrical Safety (COES) within 4 business days** of finishing prescribed work, then **notify ESV electronically within 2 business days of signing**; copies of a prescribed COES must reach the customer, the distribution business and ESV within **16 calendar days** of completing the work. For non-prescribed work the customer copy is due within **30 calendar days**. ServiceM8 can carry the form itself and prompt the technician, but it does **not** lodge anything with the regulator — eCert and ESV lodgement stay separate from the job record.
 
 ---
 
-### Step 5: Auto-Generated Invoice on Job Completion
+### Step 5: Invoice on Completion — Approval Required
 
-When the technician marks the job complete, ServiceM8 auto-generates the invoice. It pulls line items from the approved quote, adds any variations recorded during the job, applies payment terms, and includes the compliance certificate as an attachment.
+When the job is marked **Completed**, ServiceM8 moves it to **Invoicing → Awaiting Approval**. The invoice is built from the quote's line items plus any variations added during the job, and someone has to review it and click **Approve** before it goes anywhere — that approval step is also what sends it to your accounting software.
 
-The invoice is sent to the client instantly — the same afternoon as the work, not 3 days later when someone in the office gets around to it.
+ServiceM8's **Auto-Invoice** add-on can draft that description and item list from the job card in seconds, but it is a draft you trigger from the Billing view and then check, not something that fires on completion. ServiceM8's own guidance says it needs roughly 100 completed jobs in the account before the drafts are worth using. The realistic gain is minutes per invoice, not a zero-touch invoice.
+
+Once approved, emailing or texting the invoice takes one more click. Done the same afternoon as the work, that is still far ahead of the 3–7 days a manual office process typically takes.
 
 **The financial impact of same-day invoicing:** for a business doing 25 jobs per month at $3,000 average, monthly revenue is $75,000. A 5-day billing delay parks about **$12,500 of it in accounts receivable** at any given moment; going same-day releases that once, permanently. Be careful with the annual figure though — this is a **one-off release of working capital, not an annual saving**. The yearly value comes from never re-creating the backlog, plus the marginal jobs you can fund with money that would otherwise sit in debtors.
 
@@ -98,9 +100,9 @@ The invoice is sent to the client instantly — the same afternoon as the work, 
 
 ### Step 6: Integrated Payment Collection via Stripe
 
-The invoice includes a "Pay Now" button powered by Stripe integration. The client can pay by credit card, debit card, or bank transfer directly from the invoice — no separate payment app, no bank transfer with wrong reference numbers, no "I'll transfer it tonight."
+The invoice includes a "Pay Now" button powered by ServiceM8 Pay (Stripe). The client can pay by card, Apple Pay/Google Pay, or — in Australia — PayTo from their banking app. That removes the "I'll transfer it tonight" problem without you chasing bank details.
 
-ServiceM8 can also process Tap to Pay on iPhone, allowing the technician to take payment on-site at job completion. For electrical businesses doing smaller service calls ($150–$500), on-site payment eliminates the accounts receivable entirely — the job is paid before the technician leaves.
+ServiceM8 can also process Tap to Pay on iPhone (iPhone XS+) and on eligible Android phones, letting the technician take payment on-site at job completion. For electrical businesses doing smaller service calls ($150–$500), on-site payment eliminates the accounts receivable entirely — the job is paid before the technician leaves.
 
 Payment status updates in real time. The job card shows "Paid" with the amount and date. Payment data syncs to Xero automatically.
 
@@ -108,7 +110,7 @@ Payment status updates in real time. The job card shows "Paid" with the amount a
 
 ### Step 7: Real-Time Sync to Xero or MYOB
 
-ServiceM8 syncs to Xero in real time (MYOB via periodic sync). When a quote is approved, it becomes a draft invoice in Xero. When the job is marked complete, the invoice is finalised and sent. When payment is received, it's reconciled against the invoice automatically.
+Invoices reach Xero when you **approve them from the Invoicing page** — not when the quote is accepted, and not on job completion. ServiceM8's Xero sync sends the invoice at that point (you choose whether it lands in Xero as Awaiting Approval or Approved), then pushes payments against it: immediately if the invoice is already approved, and with the invoice export if the client paid before approval. Changes that affect the total re-sync the line items; payments taken in Xero come back to ServiceM8 within about 30 minutes.
 
 The accounting integration eliminates the most common source of admin error in trade businesses: manual data re-entry from one system to another. An office manager no longer needs to take the technician's job sheet, type it into Xero, cross-reference the quote, and manually match the payment when it arrives. The entire chain is automated.
 
@@ -124,7 +126,7 @@ Based on aggregate user data and discussions with Australian ServiceM8 users acr
 |---|---|---|
 | Quote creation to client delivery | 1–5 days (email later) | Same-day (on-site) |
 | Client approval time | 2–7 days (phone tag) | 1–2 days (one-tap approve) |
-| Job completion to invoice sent | 3–7 days (office processes) | Same-day (auto-generated) |
+| Job completion to invoice sent | 3–7 days (office processes) | Same day, after one-click approval |
 | Invoice to payment received | 14–28 days (manual follow-up) | 7–10 days (auto-reminders + Pay Now) |
 | Total: quote to paid | 21–42 days | 8–14 days |
 
@@ -150,15 +152,15 @@ The cadence is a starting point, not a rule. What actually moves payment times i
 |---|---|---|---|
 | Quote creation speed | On-site, <2 min | Desktop-first, 5–10 min | On-site, fast but basic |
 | Mobile quoting | Full-featured | Limited | Good for simple jobs |
-| Compliance forms in quote | CCEW/CES via Forms add-on — custom forms need Growing ($79/mo) | Custom forms (complex setup) | Not built-in |
+| Compliance forms in quote | CCEW/COES via Forms add-on — custom forms need Growing ($79/mo) | Custom forms (complex setup) | Not built-in |
 | One-tap client approval | Yes | Yes (client portal) | Yes |
 | Auto-invoice on job completion | Yes, with Xero sync | Yes, with deeper job costing | Yes, basic |
 | Integrated payments (Stripe) | Yes | Yes | Yes (Stripe, card only) |
-| NFC Tap to Pay on the phone | Yes (iPhone XS+, iOS 16.4+; not on ServiceM8 Lite for Android) | No | No |
+| NFC Tap to Pay on the phone | Yes — iPhone XS+ and Android 13+ (via ServiceM8 Pay + Stripe) | No | No |
 | Automatic payment reminders | Yes, configurable | Yes | Limited |
 | Best for | 1–20 staff, compliance-heavy | 15+ staff, complex projects | 1–3 staff, simple jobs |
 
-**The verdict for quoting-to-payment specifically:** simPRO has deeper job costing for large commercial projects but adds administrative overhead that slows the residential and light commercial workflow. Tradify is faster for simple quotes, does the basics on payments, but lacks the compliance-form depth electricians and solar installers need. ServiceM8 sits in between — fast enough for residential, deep enough for compliance documentation, and the only one of the three with on-device NFC Tap to Pay.
+**The verdict for quoting-to-payment specifically:** simPRO has deeper job costing for large commercial projects but adds administrative overhead that slows the residential and light commercial workflow. Tradify is faster for simple quotes, does the basics on payments, but lacks the compliance-form depth electricians and solar installers need. ServiceM8 sits in between — fast enough for residential, deep enough for compliance documentation, and the only one of the three with on-device NFC Tap to Pay on both iPhone and Android.
 
 ---
 
@@ -168,9 +170,9 @@ If you're setting up the ServiceM8 quoting-to-payment workflow for the first tim
 
 1. **Build your line item library** — Pre-load common scope items with descriptions, pricing, and units. A 2-hour upfront investment saves 30 seconds per quote, every quote, permanently.
 
-2. **Create your compliance form templates** — Build your CCEW/CES forms as mandatory digital checklists in the job template. Once built, they auto-load on every relevant job type.
+2. **Create your compliance form templates** — Build your CCEW/COES forms as mandatory digital checklists in the job template. Once built, they auto-load on every relevant job type.
 
-3. **Connect Stripe** — Activate Stripe integration in Settings → Payments. This enables the "Pay Now" button on all invoices and Tap to Pay for on-site collection.
+3. **Activate ServiceM8 Pay** — Settings → ServiceM8 Add-ons → ServiceM8 Pay, then connect (or create) the Stripe account. This enables the "Pay Now" button on online invoices and Tap to Pay on eligible phones. The old standalone Stripe Payments add-on is no longer available to new customers.
 
 4. **Connect Xero** — Link your Xero account for real-time invoice sync and automatic payment reconciliation. See the [ServiceM8 Xero integration guide](/blog/servicem8-xero-integration-guide-australia/) for the full setup.
 
@@ -198,11 +200,11 @@ If you're setting up the ServiceM8 quoting-to-payment workflow for the first tim
 
 ### How does ServiceM8 handle quoting for Australian trade businesses?
 
-ServiceM8 lets you create quotes on-site from a mobile device, add line items with photos, attach compliance forms (CCEW for NSW, CES for Victoria), and send to the client via email or SMS before leaving the property. The client approves with one tap, converting the quote to a scheduled job. The entire on-site quoting process takes under 2 minutes for a standard residential electrical job.
+ServiceM8 lets you create quotes on-site from a mobile device, add line items with photos, attach compliance forms (CCEW for NSW, COES for Victoria), and send to the client via email or SMS before leaving the property. The client approves with one tap, converting the quote to a scheduled job. The entire on-site quoting process takes under 2 minutes for a standard residential electrical job.
 
 ### How much faster is ServiceM8 invoicing compared to manual processes?
 
-ServiceM8 auto-generates the invoice when the job is marked complete and sends it immediately — compressing the typical 3–7 day delay of manual invoicing to same-day delivery. Australian trade businesses using this workflow report average payment times of 7–10 days vs 21–28 days for manual invoicing, a 60–70% reduction in the quote-to-cash cycle.
+ServiceM8 does not invoice for you: the job lands in Invoicing → Awaiting Approval, someone approves it, and that approval is also what sends it to Xero or MYOB. Our view is that same-day approval and sending compresses a typical 21–28 day manual cycle to roughly 7–10 days — mostly from removing the office lag, not from the software typing the invoice.
 
 ### Does ServiceM8 handle GST and Australian tax compliance?
 
@@ -210,7 +212,7 @@ Yes. ServiceM8 is Australian-built and handles GST, tax invoices, and ABN requir
 
 ### Can I take payment on-site with ServiceM8?
 
-Yes. ServiceM8 supports Tap to Pay on iPhone, allowing the technician to accept credit card or debit card payments on-site at job completion. This eliminates accounts receivable for smaller jobs. For remote payment, the Stripe-integrated "Pay Now" button on every invoice lets clients pay by card or bank transfer.
+Yes. Tap to Pay on iPhone (iPhone XS or later) and on eligible Android phones (Android 13+ with NFC) lets the technician take contactless card, Apple Pay or digital-wallet payment on-site at job completion, once ServiceM8 Pay is activated. For remote payment, the "Pay Now" button on the online invoice takes card, Apple Pay/Google Pay, or PayTo in Australia.
 
 ### How long does it take to set up the full quoting-to-payment workflow?
 
