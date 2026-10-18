@@ -1,8 +1,8 @@
 ---
-title: 'AI Data Centre Growth: The Electrician Opportunity in Australia 2026'
-description: 'Australia has $21.6 billion of data centre work under construction and 69% of the trades it needs are in shortage. Where the work is, the standards that apply, and how to get on a Tier 1 panel.'
+title: 'AI Data Centre Growth: $21.6B of Work for Electricians'
+description: 'Australia has $21.6B of data centre work underway and 69% of critical trades in shortage. The electrician jobs, the pay, and how to get on a Tier 1 panel.'
 pubDate: 'Jul 2026'
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 19 2026'
 category: 'Business Growth'
 heroImage: '/hero-ai-data-centre-growth.jpg'
 tags: ['data centre', 'commercial', 'electrician', 'HV', 'business growth', 'AI']
