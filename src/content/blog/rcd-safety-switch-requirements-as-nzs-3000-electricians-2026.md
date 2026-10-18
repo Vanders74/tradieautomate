@@ -1,6 +1,6 @@
 ---
-title: 'RCD Types for Solar & EV: Type A vs B Installation Guide'
-description: "Choose the right RCD type for every circuit: Type A for solar, Type B for EV chargers, switchboard upgrade rules, and what auditors check under AS/NZS 3000:2018."
+title: 'RCD Safety Switch Requirements: AS/NZS 3000 Types A/B/F'
+description: "What AS/NZS 3000:2018 actually requires: 30mA RCDs on every residential final subcircuit, the Type AC ban since 30 April 2023, and which RCD type for solar and EV."
 pubDate: 'Jul 20 2026'
 updatedDate: 'Oct 18 2026'
 category: "Compliance"
@@ -8,19 +8,19 @@ heroImage: '/hero-compliance-safety-2026.jpg'
 tags: ['RCD', 'safety switch', 'AS/NZS 3000', 'switchboard', 'electrician', 'compliance', 'solar', 'EV charger']
 faq:
   - question: "Which circuits require RCD protection under AS/NZS 3000:2018?"
-    answer: "Under AS/NZS 3000:2018 Clause 2.6.1 (including Amendment 2), RCD protection at 30mA or less is mandatory for all socket outlet circuits, lighting circuits in residential dwellings, and circuits supplying equipment in outdoor areas, bathrooms, laundries, and kitchens. In new residential installations and full switchboard replacements, all final sub-circuits require RCD protection. Commercial and industrial installations have additional requirements based on occupancy classification."
+    answer: "Under AS/NZS 3000:2018 Clause 2.6.3.2.2, RCDs with a maximum rated residual current of 30mA are required on all final subcircuits in domestic and residential installations, installed at the switchboard where the final subcircuit originates. That covers socket outlets, lighting, and fixed equipment such as ovens, hot water and air conditioning. For non-domestic installations, Clause 2.6.3.2.3 requires 30mA RCDs on final subcircuits rated 32A or less supplying socket outlets, lighting, direct-connected hand-held equipment and equipment with increased shock risk. Clause 2.6.2.2.2, inserted by Amendment 2, prohibits the installation of Type AC RCDs from 30 April 2023."
   - question: "What RCD type do I need for a solar inverter installation?"
-    answer: "Solar grid-connect inverters produce DC fault currents that can blind standard Type AC RCDs. AS/NZS 3000:2018 and inverter manufacturer specifications require a minimum Type A RCD for single-phase solar inverters. Three-phase inverters and those with transformerless topologies typically require a Type B RCD. Always check the specific inverter manufacturer's installation manual — this is a common CER audit failure point."
+    answer: "Solar grid-connect inverters can produce DC fault currents that blind a standard Type AC RCD — which is why Type AC is no longer installable in Australia at all. Amendment 2 recommends Type A as the general type, and Type A is accepted for single-phase solar inverters. Where the inverter manufacturer specifies Type B (common on three-phase and battery-connected systems), that specification governs. Always check the inverter's installation manual — a wrong RCD type is a common CER audit failure point."
   - question: "What RCD type is required for EV charger installations in Australia?"
-    answer: "EV chargers (EVSE) produce DC leakage currents during normal operation. Most EV charger manufacturers specify a Type B RCD as the minimum requirement for their equipment under AS/NZS 3000. Type F RCDs are suitable for variable frequency drive loads but may not cover all DC leakage characteristics. Type B is the safest specification and is increasingly required by DNSP technical standards. Check both the equipment manual and your DNSP's requirements before specifying."
+    answer: "EV chargers (EVSE) can produce smooth DC leakage that blinds Type A and Type AC devices. Appendix P of AS/NZS 3000:2018 accepts either a Type B RCD, or a Type A RCD combined with a Residual Direct Current Detecting Device (RDC-DD) rated to trip at 6mA — which is what most Mode 3 chargers built to IEC 62955 already contain. A Type B RCD is required where the EVSE has no DC fault-current detection of its own. Check both the equipment manual and your DNSP's requirements before specifying."
   - question: "Does a switchboard upgrade trigger full RCD retrofitting under AS/NZS 3000?"
-    answer: "Yes. A switchboard replacement (not just a circuit addition) triggers the requirement to upgrade all final sub-circuits to meet current AS/NZS 3000 requirements, including RCD protection. Adding new circuits to an existing board is treated differently — the new circuits must comply, but existing circuits on that board are not automatically required to be upgraded unless the overall installation is classified as substantially altered. The definition of 'substantially altered' requires judgment and varies by state regulator interpretation."
+    answer: "Yes. Clause 2.6.3.2.5 requires RCD protection for the final subcircuits supplied by a replaced switchboard, so every circuit on the new board needs compliant RCD protection. Adding circuits to an existing board requires the new or altered circuits to comply; untouched circuits on that board are not automatically upgraded unless their source of supply changes."
   - question: "What is the difference between Type AC, Type A, Type F, and Type B RCDs?"
-    answer: "Type AC RCDs detect only sinusoidal AC fault currents. Type A detects sinusoidal AC and pulsating DC fault currents — required for single-phase solar inverters and most residential applications involving electronics. Type F detects sinusoidal AC, pulsating DC, and high-frequency leakage from variable-speed drives. Type B detects all of the above plus smooth DC fault currents — required for most EV chargers and three-phase solar inverters with DC injection risk."
+    answer: "Type AC detects only sinusoidal AC fault currents, and must not be installed in Australia since 30 April 2023. Type A detects sinusoidal AC and pulsating DC — the general type recommended by Amendment 2 and the standard replacement for Type AC. Type F adds high-frequency leakage detection for variable-speed drives. Type B adds smooth DC fault currents — needed where an EV charger or inverter has no built-in DC fault-current detection."
 
 ---
 
-Under **AS/NZS 3000:2018 Clause 2.6.1**, every circuit supplying socket outlets in a residential dwelling requires RCD protection at 30mA or less. Amendment 2 to the standard, adopted progressively across Australian states from 2023, has expanded this coverage significantly — and the wrong RCD type on a solar inverter or EV charger is now a documented CER audit failure point.
+Under **AS/NZS 3000:2018 Clause 2.6.3.2.2**, every final subcircuit in a domestic or residential installation — socket outlets, lighting and fixed equipment alike — requires RCD protection at 30mA or less, installed at the switchboard where the circuit originates. Amendment 2 later added a separate rule in **Clause 2.6.2.2.2** that bans Type AC RCDs outright, and the wrong RCD type on a solar inverter or EV charger is now a documented CER audit failure point.
 
 This guide covers what changed, which circuits need protection, which RCD type applies to each application, and what state regulators and auditors check on-site.
 
@@ -39,16 +39,16 @@ This guide covers what changed, which circuits need protection, which RCD type a
 
 ## What Changed: AS/NZS 3000:2018 and Amendment 2
 
-**AS/NZS 3000** is Australia and New Zealand's Wiring Rules standard — the foundational document governing electrical installation compliance. The 2018 edition replaced the 2007 edition, and **Amendment 2** (released in 2022, progressively mandated across states from 2023) made substantive changes to RCD requirements.
+**AS/NZS 3000** is Australia and New Zealand's Wiring Rules standard — the foundational document governing electrical installation compliance. The 2018 edition replaced the 2007 edition, and **Amendment 2** (published 30 April 2021) added the RCD type rules that now trip up solar and EV work.
 
-Key changes from Amendment 2:
+Key changes from the 2018 edition and its amendments:
 
-1. **Extended mandatory RCD coverage** to lighting circuits in all residential dwellings (previously required only for socket outlets)
-2. **Clarified the "new installation" trigger** — a full switchboard replacement now explicitly triggers whole-board RCD compliance
-3. **Introduced RCD type requirements** for inverter-connected circuits — Type A as a minimum for solar, Type B for DC-capable loads including EV chargers
-4. **Tightened testing documentation requirements** (AS/NZS 3017) for installed RCDs
+1. **Extended mandatory RCD coverage** — the 2018 edition already required 30mA protection on *all* final subcircuits in domestic and residential installations, not just socket outlet circuits as the 2007 edition did
+2. **Banned Type AC RCDs** — Clause 2.6.2.2.2, inserted by Amendment 2, allowed a 24-month transition ending 30 April 2023, after which Type AC RCDs must not be installed in Australia
+3. **Recommended Type A as the general type** for installations, given the growth in electronics, renewables and DC waveforms on the AC supply
+4. **Clarified the alteration trigger** — Clause 2.6.3.2.5 requires RCD protection on circuits affected by alterations or a switchboard replacement
 
-The practical effect: jobs that were compliant under AS/NZS 3000:2007 may not comply with the current standard. Every switchboard upgrade and solar installation must be assessed against the 2018 edition with Amendment 2.
+The practical effect: jobs that were compliant under AS/NZS 3000:2007 may not comply with the current standard, and a Type AC device on the shelf is no longer installable. Every switchboard upgrade and solar installation must be assessed against the 2018 edition with Amendment 2.
 
 ---
 
@@ -56,17 +56,17 @@ The practical effect: jobs that were compliant under AS/NZS 3000:2007 may not co
 
 ### Residential Dwellings
 
-Under AS/NZS 3000:2018 with Amendment 2, the following circuits in a residential dwelling require RCD protection at ≤30mA:
+Under AS/NZS 3000:2018 Clause 2.6.3.2.2, every final subcircuit in a domestic or residential installation requires RCD protection at ≤30mA — there is no longer a socket-outlets-only rule:
 
 | Circuit Type | RCD Required? | Notes |
 |---|---|---|
 | Socket outlet circuits (all) | Yes | All final sub-circuits supplying socket outlets |
-| Lighting circuits | Yes (Amd 2) | All lighting in dwellings — this is the key change |
+| Lighting circuits | Yes | Required since the 2018 edition, not just Amd 2 |
 | Outdoor circuits | Yes | Any circuit with external socket outlets |
 | Bathroom/laundry circuits | Yes | Includes shaver outlets |
 | Kitchen circuits | Yes | Including fixed appliance circuits |
 | Garage/carport socket outlets | Yes | Treated as outdoor circuits |
-| Fixed air conditioning (residential) | Generally yes | Check installation conditions |
+| Fixed equipment (ovens, hot water, air conditioning) | Yes | Covered as final subcircuits in a dwelling |
 
 **What does not require RCD protection in residential:**
 - Circuits protected by other safety measures meeting equivalent electrical safety outcomes (rare and requires specific engineering assessment)
@@ -88,17 +88,17 @@ Commercial and industrial RCD requirements are occupancy-specific. Key triggers:
 This is where most compliance failures occur. Specifying the wrong RCD type creates an audit fail regardless of whether an RCD is installed at all.
 
 **Type AC**
-Detects sinusoidal AC fault currents only. Suitable for simple resistive and inductive loads with no electronics — think basic socket outlet circuits with no inverter or variable-speed drive involvement.
+Detects sinusoidal AC fault currents only. **Type AC RCDs must not be installed in Australia** — Clause 2.6.2.2.2 (Amendment 2) ended the transition period on 30 April 2023. Existing Type AC devices may stay in place if they test correctly, but they cannot be fitted to new work, new final subcircuits, or as a like-for-like replacement.
 
-*Do not use Type AC on circuits serving solar inverters, EV chargers, or variable-speed drives.*
+*On any circuit serving a solar inverter, EV charger or variable-speed drive, Type AC is not just unsuitable — it is unlawful to install.*
 
 **Type A**
-Detects sinusoidal AC and pulsating DC fault currents. Required as the minimum for:
-- Single-phase solar inverters (grid-connect)
+Detects sinusoidal AC and pulsating DC fault currents. This is the general type recommended by Amendment 2 and the default for:
+- Single-phase solar inverters (grid-connect) — unless the inverter manual specifies Type B
 - Most modern appliance circuits with switch-mode power supplies
 - General residential circuits where electronics are connected
 
-Type A is now the practical baseline for residential work. Installing Type AC on a circuit that will serve solar or a modern appliance creates non-compliance immediately upon connection.
+Type A is now the practical baseline for residential work, and it is the only permitted replacement for an existing Type AC device.
 
 **Type F**
 Detects sinusoidal AC, pulsating DC, and high-frequency leakage currents from variable-frequency drives. Required for:
@@ -109,9 +109,9 @@ Detects sinusoidal AC, pulsating DC, and high-frequency leakage currents from va
 Type F is uncommon in residential but increasingly relevant in commercial electrical work.
 
 **Type B**
-Detects all fault current types including smooth DC up to several kHz. Required for:
-- Most EV chargers (EVSE) — both Mode 2 and Mode 3
-- Three-phase solar inverters with DC injection potential
+Detects all fault current types including smooth DC up to several kHz. Required where there is no other DC fault-current detection:
+- EV chargers (EVSE) without a built-in 6mA RDC-DD
+- Three-phase solar inverters where the manufacturer specifies Type B
 - Battery storage systems with DC-connected inverters
 - Any load with a rectifier bridge producing smooth DC output
 
@@ -120,10 +120,10 @@ Detects all fault current types including smooth DC up to several kHz. Required 
 | Standard socket outlets (residential) | Type A |
 | Lighting circuits | Type A |
 | Single-phase solar inverter | Type A (check inverter specs — may require Type B) |
-| Three-phase solar inverter | Type B |
-| Battery storage (DC-coupled) | Type B |
-| EV charger (Mode 3, single-phase) | Type B |
-| EV charger (Mode 3, three-phase) | Type B |
+| Three-phase solar inverter | Type B where specified by the manufacturer |
+| Battery storage (DC-coupled) | Type B where specified by the manufacturer |
+| EV charger with integrated 6mA RDC-DD | Type A |
+| EV charger without DC fault detection | Type B |
 | Variable frequency drives | Type F or Type B |
 
 **Practical rule:** When in doubt, specify Type B. The cost premium is modest compared to a failed audit or a warranty void from the equipment manufacturer.
@@ -136,15 +136,15 @@ This is the grey area that generates the most compliance questions.
 
 **Full switchboard replacement:** Installing a new switchboard — removing the old board and fitting a new one — triggers full compliance with AS/NZS 3000:2018 on all circuits connected to that board. Every final sub-circuit must receive RCD protection compliant with the current standard.
 
-**Adding new circuits to an existing board:** The new circuit must comply with AS/NZS 3000:2018. Existing circuits on the board are not automatically required to be upgraded unless the installation is "substantially altered."
+**Adding new circuits to an existing board:** The new circuit must comply with AS/NZS 3000:2018, and Clause 2.6.3.2.5 requires RCD protection on any circuit that is altered or whose source of supply changes. Existing untouched circuits on the board are not automatically required to be upgraded.
 
-**"Substantially altered" definition:** This is not precisely defined in AS/NZS 3000 and is subject to state regulator interpretation. As a rule of practice:
+**Where the line sits in practice:**
 
-- Adding 1–2 new circuits: typically not substantially altered
-- Replacing the main switch, upgrading the incomer, or reconfiguring the board layout: likely substantially altered, triggering full compliance assessment
-- Adding solar or EV charger circuits that increase total load by more than 30% of the existing board's rated capacity: increasingly being treated as substantially altered by Energy Safe Victoria and SafeWork NSW
+- Adding 1–2 new circuits: the new circuits need RCD protection; the rest of the board does not automatically
+- Replacing the main switch, upgrading the incomer, or replacing all circuit protection on the board: Clause 2.6.3.2.5 treats this as triggering RCD protection for the final subcircuits supplied by that board
+- Adding solar or a battery that back-feeds existing circuits: those circuits are "altered" because their source of supply has changed, so they need RCD protection
 
-**Energy Safe Victoria's specific stance:** ESV's Technical Bulletin TB-080 notes that solar inverter installations that involve the existing switchboard must be assessed against current wiring rule requirements for the circuits affected. This has been used to require RCD retrofitting on solar installs where the existing board had no RCD protection.
+**Energy Safe Victoria's published position:** ESV's guidance on multiple-mode inverters and battery systems states that circuits connected to an alternative supply are deemed altered for the purposes of AS/NZS 3000, so Clause 2.6.3.2.5 applies and suitable RCD protection is required on those circuits — including the correct RCD type specified by the inverter manufacturer.
 
 When uncertain, apply the current standard to the entire board. The cost of an RCD-per-circuit retrofit is orders of magnitude less than a failed inspection and remediation.
 
@@ -159,13 +159,13 @@ ESV is the most active enforcer of AS/NZS 3000 technical requirements in Austral
 Building Commission NSW administers the CCEW (Certificate of Compliance for Electrical Work) through BCNSW eCert — the certificate must be lodged there, not held as a PDF. CCEWs that certify work not meeting AS/NZS 3000 requirements expose the certifying electrician to prosecution under the Gas and Electricity (Consumer Safety) Act 2017. NSW audits of unlicensed or defective electrical work have increased since 2024.
 
 **Queensland (Electrical Safety Office)**
-ESO Queensland requires all electrical work to comply with the current edition of AS/NZS 3000. The ESO's audit program has specifically focused on solar installations with incorrect RCD types. Queensland's Form 4 (Compliance Certificate) requires the certifying person to confirm compliance with the current standard.
+ESO Queensland requires all electrical work to comply with the current edition of AS/NZS 3000. The ESO's audit program has specifically focused on solar installations with incorrect RCD types. Queensland does not use a "Form" for electrical compliance: the contractor must issue a **certificate of testing and compliance** for electrical installation work, and a certificate of testing and safety for work on electrical equipment, under the Electrical Safety Regulation — and keep a copy for five years.
 
 ---
 
 ## Testing Requirements: AS/NZS 3017
 
-Installed RCDs must be tested and results documented under **AS/NZS 3017 — Electrical Installations: Verification Guidelines**.
+Installed RCDs must be tested for correct operation — Clause 8.3.10 of AS/NZS 3000 requires this for newly installed devices, and the test methods sit in **AS/NZS 3017 — Electrical Installations: Verification Guidelines**. Amendment 2 also added Clause 8.3.2.2, which recommends recording test results that produce a value rather than leaving them undocumented.
 
 Required tests per RCD:
 
@@ -190,7 +190,7 @@ Maintaining RCD test records, linking them to job files, and retrieving them for
 - Attach RCD test results directly to the job record
 - Generate structured electrical compliance job cards with test fields built in
 - Set automatic reminders for periodic RCD testing on recurring maintenance contracts
-- Build CCEW and Form 4 compliance into your standard job close-out workflow
+- Build CCEW and certificate of testing and compliance into your standard job close-out workflow
 
 [Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
@@ -200,23 +200,23 @@ Maintaining RCD test records, linking them to job files, and retrieving them for
 
 ### Which circuits require RCD protection under AS/NZS 3000:2018?
 
-All socket outlet circuits, all lighting circuits in residential dwellings, and circuits serving outdoor areas, bathrooms, laundries, and kitchens. Amendment 2 added lighting circuits as a mandatory requirement — the most significant change for residential electricians.
+Every final subcircuit in a domestic or residential installation — socket outlets, lighting and fixed equipment such as ovens, hot water and air conditioning — under Clause 2.6.3.2.2. This has been the rule since the 2018 edition replaced the 2007 edition, which only covered socket outlet circuits. Amendment 2 added the Type AC ban, not the lighting coverage.
 
 ### What RCD type do I need for a solar inverter installation?
 
-Minimum Type A for single-phase inverters. Type B for three-phase inverters and any inverter with DC injection risk. Always check the inverter manufacturer's installation manual — manufacturers specifying Type B in their manual make Type A a non-compliance at the CEC level even if AS/NZS 3000 would accept Type A.
+Type A as the general choice for single-phase inverters, unless the inverter manual specifies Type B — in which case the manufacturer's requirement governs and Type A is a non-compliance. Always check the installation manual before specifying.
 
 ### What RCD type is required for an EV charger?
 
-Type B is required for most EV chargers (Mode 3 AC charging equipment). This covers DC leakage currents that Type AC, A, and F devices cannot detect. Confirm with the charger manufacturer's installation documentation and your DNSP's technical standards.
+Either a Type B RCD, or a Type A RCD with a 6mA RDC-DD (built into most Mode 3 chargers to IEC 62955). Type AC is prohibited. Confirm with both the charger's installation documentation and your DNSP's technical standards.
 
 ### Does replacing a switchboard trigger full RCD compliance on all circuits?
 
-Yes. A full switchboard replacement triggers compliance with AS/NZS 3000:2018 (Amendment 2) on all circuits. Adding circuits to an existing board requires only the new circuits to comply, unless the installation is substantially altered.
+Yes. A full switchboard replacement triggers RCD protection under Clause 2.6.3.2.5 for all final subcircuits supplied by that board. Adding circuits to an existing board requires the new or altered circuits to comply; untouched circuits are not automatically upgraded.
 
 ### What does "substantially altered" mean under AS/NZS 3000?
 
-The standard does not precisely define this term. In practice, it encompasses switchboard layout changes, incomer upgrades, and load additions that materially change the installation's character. When uncertain, apply the current standard to the whole board.
+The standard does not use that phrase — it talks about alterations to an installation and replacement of switchboards (Clauses 2.6.3.2.5 and 1.4.8). What matters is whether a circuit has been altered or had its source of supply changed. When uncertain, apply the current standard to the whole board.
 
 ---
 
