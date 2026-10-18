@@ -207,7 +207,6 @@ Not scoping the switchboard before quoting. EV charger installation requires a d
 ---
 
 
-
 ---
 
 > **This article is featured in Chapter 4 of The Sparky's Playbook.**
@@ -225,6 +224,3 @@ Not scoping the switchboard before quoting. EV charger installation requires a d
 - *[RCD Safety Switch Requirements Under AS/NZS 3000](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026/)*
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)*
 
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much does an electrician earn per EV charger installation?","acceptedAnswer":{"@type":"Answer","text":"Residential installs return $1,500–$2,700 per job at 35–45% margin. Commercial installs return $8,000–$45,000 per job depending on scope."}},{"@type":"Question","name":"What training does an electrician need to install EV chargers in Australia?","acceptedAnswer":{"@type":"Answer","text":"Your existing electrical contractor licence is the legal requirement. Practical competency in AS/NZS 3000 RCD requirements and DNSP application processes is needed. Manufacturer training is recommended, not legally required."}},{"@type":"Question","name":"What is the biggest mistake electricians make when pricing EV charger installations?","acceptedAnswer":{"@type":"Answer","text":"Not scoping the switchboard before quoting. A dedicated 32A circuit is required — if the board can't support it, an upgrade is required. A $1,800 job becomes $4,500."}}]}
-</script>

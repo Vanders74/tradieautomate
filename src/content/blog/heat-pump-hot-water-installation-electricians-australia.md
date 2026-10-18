@@ -208,10 +208,6 @@ In most Australian states, heat pump hot water installation involves both plumbi
 
 ---
 
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What circuit is required for a heat pump hot water system in Australia?","acceptedAnswer":{"@type":"Answer","text":"Most units need a dedicated 240V single-phase circuit with a 10A-16A circuit breaker, RCD protection, and an isolating switch at the unit. Minimum cable size is typically 2.5mm² TPS. Verify against manufacturer specs and AS/NZS 3000. A switchboard upgrade may be needed if no spare slot is available."}},{"@type":"Question","name":"What is the VEU program for heat pump hot water installers?","acceptedAnswer":{"@type":"Answer","text":"The Victorian Energy Upgrades (VEU) program provides point-of-sale discounts on eligible appliances including heat pump hot water. To offer VEU discounts, you must be registered as a VEU-accredited provider with the Essential Services Commission (ESC) in Victoria."}},{"@type":"Question","name":"Can heat pump hot water installers claim STCs?","acceptedAnswer":{"@type":"Answer","text":"Yes. Heat pump hot water systems are eligible for STCs under the federal Renewable Energy Act. The value depends on system capacity, energy factor, and climate zone — typically $600-$1,200+ per installation. Applied as a point-of-sale discount."}},{"@type":"Question","name":"Is a plumber required for heat pump hot water installation?","acceptedAnswer":{"@type":"Answer","text":"Yes, in most states. The water connections and removal of the old unit require a licensed plumber. The dedicated circuit requires a licensed electrician. Most electricians work with a plumbing subcontractor to deliver the complete installation."}}]}
-</script>
-
 ---
 
 

@@ -198,7 +198,6 @@ Yes. Both are STP2 compliant. MYOB's setup is more guided; Xero requires manual 
 ---
 
 
-
 ---
 
 > **This article is featured in Chapter 8 of The Sparky's Playbook.**
@@ -216,6 +215,3 @@ Yes. Both are STP2 compliant. MYOB's setup is more guided; Xero requires manual 
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians/)*
 - *[Scaling a Solar and Electrical Business: Hiring, Systems and Growth](/blog/scaling-solar-electrical-business-hiring-growth/)*
 
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Xero or MYOB better for electricians and solar installers in Australia?","acceptedAnswer":{"@type":"Answer","text":"Xero is better for most electricians and solar installers — particularly ServiceM8 users, as Xero's API integration with ServiceM8 is broader and more reliable. MYOB AccountRight edges ahead only for businesses with 5+ employees needing deep Electrical Contracting Award payroll configuration."}},{"@type":"Question","name":"Which has better BAS and GST handling — Xero or MYOB?","acceptedAnswer":{"@type":"Answer","text":"Both handle BAS and GST correctly. Xero's activity statement preparation is cleaner and easier to use. MYOB is more configurable for complex GST situations. For standard residential electrical and solar businesses, Xero's GST handling is sufficient."}},{"@type":"Question","name":"What does Xero cost for a trade business in Australia in 2026?","acceptedAnswer":{"@type":"Answer","text":"Budget $65/month for the Standard plan, which provides unlimited invoices and bills. The $32/month Starter plan has a 20-invoice/5-bill monthly limit that is not practical for active trade businesses."}},{"@type":"Question","name":"Can both Xero and MYOB handle Single Touch Payroll Phase 2?","acceptedAnswer":{"@type":"Answer","text":"Yes. Both are STP Phase 2 compliant. MYOB's setup is more guided; Xero requires manual ATO reporting category tagging on each pay item."}}]}
-</script>

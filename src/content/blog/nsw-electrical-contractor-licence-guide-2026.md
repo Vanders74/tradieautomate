@@ -269,7 +269,6 @@ $5,000,000 for general electrical work. $20,000,000 for specialist work includin
 ---
 
 
-
 ---
 
 > **This article is featured in Chapter 1 of The Sparky's Playbook.**
@@ -291,6 +290,3 @@ $5,000,000 for general electrical work. $20,000,000 for specialist work includin
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*
 - *[Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia/)*
 
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between an Electrical Contractor Licence and a Qualified Supervisor Certificate in NSW?","acceptedAnswer":{"@type":"Answer","text":"A Qualified Supervisor Certificate (QSC) authorises an individual to personally perform and supervise electrical work. An Electrical Contractor Licence (ECL) authorises a business entity to contract electrical work to clients. A sole trader typically holds both via an Endorsed Contractor Licence."}},{"@type":"Question","name":"Do I need an Electrical Contractor Licence to do solar installation in NSW?","acceptedAnswer":{"@type":"Answer","text":"Yes. Solar PV installation in NSW involves electrical work under the Home Building Act 1989, which requires an Electrical Contractor Licence from Building Commission NSW. You also need CEC accreditation and must issue a CCEW for each installation."}},{"@type":"Question","name":"How long does a NSW electrical contractor licence last?","acceptedAnswer":{"@type":"Answer","text":"Licences are available for 1-year, 3-year or 5-year terms. Renewal notices are sent approximately 60 days before expiry."}},{"@type":"Question","name":"What is the minimum public liability insurance for a NSW electrical contractor?","acceptedAnswer":{"@type":"Answer","text":"$5,000,000 for general electrical work. $20,000,000 for specialist work including high voltage and major infrastructure projects. The policy must name the exact entity holding the licence."}}]}
-</script>
