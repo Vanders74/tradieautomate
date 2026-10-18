@@ -1,6 +1,6 @@
 ---
-title: 'VIC REC Licence 2026: $734 Fee, Nominee Rules & Solar Compliance Guide'
-description: 'Beyond basic REC requirements: $734 fee, nominee rules, $5M insurance, and solar compliance layers CEC/VEU/DNSP. Complete VIC step-by-step guide.'
+title: 'VIC Electrical Contractor Licence 2026: $734 Fee, 5-Year Term'
+description: 'A Victorian REC application costs $734.30 and the registration runs five years, not annually. Supervisor rules, $5M insurance, CES deadlines, solar layers.'
 pubDate: 'Jul 19 2026'
 updatedDate: 'Oct 18 2026'
 category: "Compliance"
@@ -10,7 +10,7 @@ breakdown:
     href: "/blog/how-to-become-electrician-australia-2026"
     hrefLabel: "How to become an electrician →"
   - title: "Nominate supervisors"
-    summary: "Technical nominee needs A-Class; business nominee needs the REC course (~$929)."
+    summary: "Technical nominee needs A-Class; business nominee needs the REC course (~$900–$1,000)."
   - title: "Sort insurance"
     summary: "$5M civil liability, in the exact trading name."
     href: "/blog/electrical-contractor-insurance-australia-2026"
@@ -18,18 +18,18 @@ breakdown:
   - title: "Apply to ESV"
     summary: "Submit the REC application with all nominee forms and certificates."
   - title: "Issue a CES per job"
-    summary: "Within 28 days via ESV Connect — every install, no exceptions."
+    summary: "Notify ESV within 2 business days via ESVConnect — every install, no exceptions."
     href: "/blog/certificate-electrical-safety-ces-victoria-guide-2026"
     hrefLabel: "CES Victoria guide →"
   - title: "Renew + manage solar layers"
-    summary: "Annual REC renewal, plus CEC and VEU accreditation for solar."
+    summary: "Five-year registration term, plus CEC and VEU accreditation for solar."
 heroImage: '/hero-vic-electrical-contractor-licence-guide-2026.jpg'
 tags: ['Victoria', 'electrical contractor', 'REC', 'Energy Safe Victoria', 'ESV', 'compliance', 'solar']
 faq:
   - question: "What licence is required to operate as an electrical contractor in Victoria?"
     answer: "In Victoria, electrical contracting businesses must be registered as a Registered Electrical Contractor (REC) with Energy Safe Victoria (ESV) under the Electricity Safety Act 1998 (Vic). There are three REC registration types: Sole Proprietor, Partnership, and Corporation. Every REC must nominate a Technical Nominee/Supervisor who holds a current Victorian A-Class electrician's licence, and a Business Nominee/Supervisor with relevant business qualifications or experience."
   - question: "What is the REC course and is it required in Victoria?"
-    answer: "The Registered Electrical Contractor (REC) Business Course is required for the Business Nominee/Supervisor nominated under a Victorian REC registration. It covers business management, legal obligations, and contractor responsibilities. Courses are offered by providers including NECA Education and Victoria University. The course completion certificate must be submitted as part of the REC application to Energy Safe Victoria."
+    answer: "The Registered Electrical Contractor (REC) Business Course is required for the Business Supervisor nominated under a Victorian REC registration — ESV lists six approved providers, including NECA Education & Careers, SkillBuild, Victoria University and several TAFE institutes. It covers business management, legal obligations, and contractor responsibilities. The course completion certificate must be submitted as part of the REC application to Energy Safe Victoria."
   - question: "Does a Victorian REC licence cover solar PV installation?"
     answer: "A current REC registration with Energy Safe Victoria is required for the electrical connection work in solar PV installations in Victoria. Solar installers also need Clean Energy Council (CEC) accreditation to install systems eligible for federal STC rebates, and may need accreditation under the Victorian Energy Upgrades (VEU) program to create Victorian Energy Efficiency Certificates (VEECs). All solar work must comply with AS/NZS 5033:2021 and the Electricity Safety Act 1998 (Vic)."
   - question: "What insurance does a Victorian REC need to hold?"
@@ -74,6 +74,8 @@ The REC is a registration, not a personal trade licence. It applies to the busin
 | Partnership | Two or more people jointly operating a contracting business — one or both partners must be Technical Nominee |
 | Corporation | A company (Pty Ltd) structure — requires separate Technical and Business Nominees nominated by the company |
 
+**Family trusts are the exception people miss:** ESV does not register family trust entities at all. If your business trades through a trust, the *trustee company* must be registered as the REC under a company structure. Tell your accountant before you lodge, not after.
+
 ---
 
 ## Technical Nominee and Business Nominee Requirements
@@ -85,19 +87,24 @@ Every REC registration requires two nominee roles. For a sole proprietor, one pe
 The Technical Nominee is responsible for the technical supervision of electrical work carried out under the REC. They must:
 
 - Hold a current Victorian **Electrician's Licence (A-Class)** — the personal trade licence issued by ESV
-- Have completed the **Licensed Electrician's Assessment (LEA)** — previously called the Licensed Electrical Mechanics (LEM) assessment
-- ESV will accept completion of a **Capstone Assessment** for applicants who are licensed in another state or territory and seeking to transfer their licence to Victoria
+- Meet the qualification requirement with **one** of the following, per ESV's Technical Supervisor Consent Form:
+  - Evidence of completing the **Licensed Electrician's Assessment (LEA)** within 5 years of the application (LEA replaced the old Licensed Electrical Mechanics/LEM assessment)
+  - Evidence of holding a **'G' class inspector licence**
+  - Evidence of completing a **Capstone Assessment** in another state or jurisdiction that ESV recognises as equivalent
+  - Evidence of **technical experience** — written references on company letterhead covering roughly 5 years of hands-on installation work
 
-The A-Class electrician's licence is the personal trade licence. Every electrician carrying out installation work in Victoria needs one. If your Technical Nominee's personal licence lapses or is suspended, your REC registration is immediately at risk — ESV requires a replacement Technical Nominee to be nominated within a specific timeframe.
+ESV applies a recency rule that catches people out: an LEA completed more than five years before the application date is not accepted on its own. If your assessment is stale, you either provide the experience references or sit the LEA again.
+
+The A-Class electrician's licence is the personal trade licence. Every electrician carrying out installation work in Victoria needs one. If your Technical Nominee's personal licence lapses or is suspended, your REC registration is immediately at risk — ESV requires notification and a replacement supervisor within **10 business days**.
 
 ### Business Nominee/Supervisor
 
 The Business Nominee is responsible for the business management and administration of the contracting entity. They must have one of:
 
-- Completed the **Registered Electrical Contractor (REC) Business Course** from an approved provider (NECA Education or Victoria University), OR
+- Completed the **Registered Electrical Contractor (REC) Business Course** through an ESV-listed training provider, OR
 - Demonstrated relevant business administration and management experience with appropriate qualifications that ESV deems equivalent (e.g. accounting qualifications and relevant management experience)
 
-The REC Business Course is purpose-built for this requirement. Course fees run approximately $929 at Victoria University (confirm current fee with the provider). Completion of the course results in a certificate that must be submitted as part of the REC application.
+ESV currently lists six providers of the REC business course: Bendigo Regional Institute of TAFE (Bendigo), NECA Education & Careers (Carlton North), SkillBuild, TAFE Gippsland (Morwell), The Centre for U (North Melbourne) and Victoria University (Sunshine). Course fees vary by provider and run in the high hundreds — budget roughly $900–$1,000 and confirm the current fee directly. The completion certificate must be submitted as part of the REC application.
 
 ---
 
@@ -111,7 +118,7 @@ REC applications are submitted to Energy Safe Victoria through the ESV licensing
 
 3. **Technical Nominee Consent Form** — Completed and signed by the nominated Technical Nominee
 
-4. **Copy of LEA or LEM Certificate** — Confirming the Technical Nominee has completed the required assessment
+4. **LEA or equivalent evidence** — LEA results within 5 years of the application, a 'G' class inspector licence, a recognised interstate Capstone Assessment, or technical experience references
 
 5. **REC Business Course Completion Certificate** — Confirming the Business Nominee has completed the approved course (or equivalent qualification documentation)
 
@@ -119,9 +126,9 @@ REC applications are submitted to Energy Safe Victoria through the ESV licensing
 
 7. **Business Name Certificate** — If trading under a business name rather than personal name
 
-8. **Application fee** — Confirm the current fee on the ESV website, as fees are reviewed periodically
+8. **Application fee** — **$734.30** for 2026-27 (includes a $70 non-refundable administration component), payable by credit card at lodgement. Renewal is $352.70.
 
-Applications can be submitted in person at ESV's office (Level 5, Building 2, 4 Riverside Quay, Southbank VIC) or via post/electronic submission depending on current ESV processes.
+Applications can be submitted in person at ESV's office (Level 5, Building 2, 4 Riverside Quay, Southbank VIC) or via post/electronic submission depending on current ESV processes. Most routine changes — adding or removing a supervisor, updating contact details, renewing — are handled in ESVConnect.
 
 ---
 
@@ -136,7 +143,7 @@ Victorian RECs must hold current civil liability insurance (equivalent to public
 - The policy must remain current throughout the registration period
 - If your insurance lapses, your REC registration becomes non-compliant — notify ESV immediately and reinstate coverage
 
-**Insurance exemption:** If you hold a REC registration but are not actively trading (e.g. maintaining registration while transitioning between business structures), you can apply for an insurance exemption from ESV by submitting the Insurance Exemption Form along with your application. This allows you to hold an inactive REC without maintaining the insurance.
+**Insurance exemption — the rule changed:** ESV has lifted insurance exemptions. It no longer requires an application for insurance exemption, and RECs that previously held one without a card are issued a new card automatically on renewal. Running contracting work without the required $5 million cover is a criminal offence, not a paperwork slip — the penalty is **50 penalty units for an individual ($10,455) and 250 penalty units for a body corporate ($52,275)** at the 2026-27 Victorian penalty unit value of $209.10.
 
 See our [electrical contractor insurance guide](/blog/electrical-contractor-insurance-australia-2026/) for a detailed breakdown of coverage types, minimum amounts, and how to structure your policy correctly for Victorian REC requirements.
 
@@ -154,33 +161,45 @@ The Certificate of Electrical Safety (CES) is a mandatory compliance document th
 - Air conditioning installation
 - Any alteration to existing fixed wiring
 
-**Key CES rules:**
-- Must be issued within **28 days** of completing the work
-- Lodged through the **ESV Connect** portal
+**Key CES rules and deadlines:**
+- Certificate of compliance details must be electronically notified to ESV within **2 business days** of completing the work
+- For **prescribed** work (consumer mains, switchboards, main earthing, solar and battery systems), a Licensed Electrical Inspector must inspect within **8 business days** of completion, notify ESV within **4 business days** of the inspection, and the REC must give the customer a copy within **4 days** of the inspection being completed
+- For **non-prescribed** work (power points, lighting, air conditioning, hot water), the REC must provide the customer with a copy of the CES within **30 calendar days**
+- Lodged through the **ESVConnect** portal (paper certificates can only be lodged by phone on 1300 360 366)
 - Must include sufficient job description to identify the work — generic descriptions like "electrical installation" don't meet ESV's requirements
 - Only a licensed REC can issue a CES — individual employees cannot issue one in their own name
 
-Failing to issue a CES within 28 days is a breach of the *Electricity Safety Act 1998* and can result in fines, licence suspension, or revocation. With ESV's increased audit activity for solar installations, timely CES lodgement is not optional — it's a minimum standard that ESV actively monitors.
+The "28 days" figure that circulates in the trade is not the deadline ESV applies. The clock that catches contractors is the 2-business-day notification, because it runs from job completion while the certificate paperwork often waits for the weekend. Missing it is a breach of the *Electricity Safety Act 1998* and exposes you to fines, licence suspension or cancellation.
 
 For a complete guide to CES requirements — including what the document must contain for solar jobs and how to lodge through ESV Connect — see our [Certificate of Electrical Safety Victoria guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/).
 
 ---
 
-## Maintaining Your REC — Annual Renewal
+## Maintaining Your REC — the Five-Year Term
 
-Victorian REC registrations require **annual renewal** through ESV.
+Victorian REC registrations are issued for **five years**, and can be renewed for a further period of up to five years. They are not annual. The A-Class electrician's licence is also a five-year licence.
+
+That long cycle is the trap. Five years is long enough that the renewal email lands in an inbox nobody checks any more, and ESV has no discretion about the consequence: it **must cancel** the registration of an electrical contractor who fails to apply for renewal by the renewal date.
 
 **At renewal time:**
 - Confirm Technical Nominee still holds a current A-Class electrician's licence
 - Confirm Business Nominee details remain accurate
-- Provide updated civil liability insurance certificate of currency
-- Pay renewal fee — confirm current fee on the ESV website
+- Provide updated public liability insurance certificate of currency
+- Pay the **$352.70** renewal fee (2026-27)
 - Notify ESV of any changes to business structure, nominated persons, or trading name
 
-**Critical: Technical Nominee changes**
-If your Technical Nominee leaves the business, retires, or their A-Class licence lapses, you must notify ESV immediately and nominate a replacement. You have a limited window to do this — ESV's requirements specify the timeframe. Operating without a current Technical Nominee puts your REC at risk of suspension.
+ESV emails a renewal reminder to the business supervisor **3 months before expiry**. That email is the only warning you get — it is the business supervisor's responsibility to keep contact details current, so a stale email address is how RECs get cancelled.
 
-Build your REC renewal date — and your Technical Nominee's personal licence renewal date — as separate calendar reminders, ideally flagging 60 days before each expiry.
+**Critical: Technical Nominee changes**
+If your Technical Nominee leaves the business, retires, or their A-Class licence lapses, you must notify ESV **in writing within 10 business days** and nominate a replacement through ESVConnect. The same 10-business-day clock applies to any change in a supervisor's circumstances that affects their ability to supervise, and to any change in the entity's name or legal status. Operating without a current Technical Nominee puts your REC at risk of suspension.
+
+**If your REC is cancelled:** you can apply to reinstate using ESV's REC Reinstatement Form. If the registration has been cancelled for **5 years or more**, the technical supervisor must complete the Licensed Electrician's Assessment again before reinstatement.
+
+**Two obligations most RECs forget** — both are conditions of registration, not optional extras:
+- Your **REC number must appear on all advertising**, notices and statements that indicate you carry out electrical contracting work
+- You must keep a **register of every licensed electrical worker you employ**, available for inspection by ESV at any reasonable time
+
+Build your REC renewal date — and your Technical Nominee's personal licence renewal date — as separate calendar reminders, flagging 60 days before each expiry. Five-year dates are exactly the ones that get missed.
 
 ---
 
@@ -219,7 +238,7 @@ Grid-connected solar systems in Victoria require notification to the relevant Di
 ## Common Compliance Issues for Victorian Electrical Businesses
 
 **1. CES lodgement delays**
-The 28-day window for CES lodgement is strictly enforced. With busy job schedules, it's easy for individual jobs to slip through without timely lodgement — particularly at the end of financial year. Build CES creation into your job completion workflow, not as a separate admin task.
+The 2-business-day electronic notification is strictly enforced and the 30-day customer copy deadline is a backstop, not the standard. With busy job schedules, it's easy for individual jobs to slip through — particularly at the end of financial year. Build CES creation into your job completion workflow, not as a separate admin task.
 
 **2. Technical Nominee licence lapse**
 If the person holding your Technical Nominee role doesn't renew their personal A-Class licence, your REC is at risk. The REC renewal and the personal licence renewal may fall at different times — track them separately.
@@ -242,7 +261,7 @@ Some Victorian solar businesses assume their CEC accreditation covers VEU progra
 
 Victoria's layered compliance framework — ESV registration, CES lodgement, CEC accreditation, DNSP notification, VEU accreditation — requires systematic management. The businesses that run into compliance trouble aren't typically ignoring the rules; they're managing the obligations across too many places to track reliably.
 
-The most effective approach is to build compliance milestones into your job management workflow. For every solar job: quote approval → job scheduled → DNSP notification sent → installation complete → CES lodged within 28 days → STC claim submitted. Each step should be a trackable task, not a remembered obligation.
+The most effective approach is to build compliance milestones into your job management workflow. For every solar job: quote approval → job scheduled → DNSP notification sent → installation complete → CES notified to ESV within 2 business days → STC claim submitted. Each step should be a trackable task, not a remembered obligation.
 
 [Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — manage REC renewal reminders, CES lodgement tracking, DNSP notification steps, and compliance deadlines alongside your job workflow.
 
@@ -253,15 +272,15 @@ The most effective approach is to build compliance milestones into your job mana
 
 ## Summary: What Victorian Electrical & Solar Contractors Need
 
-| Requirement | Issuing Body | Renewal |
+| Requirement | Issuing Body | Term / Frequency |
 |---|---|---|
-| A-Class electrician's licence (personal) | Energy Safe Victoria (ESV) | Annual |
-| Registered Electrical Contractor (REC) | Energy Safe Victoria (ESV) | Annual |
-| Certificate of Electrical Safety (per job) | Self-issued, lodged via ESV Connect | Per job (28-day window) |
+| A-Class electrician's licence (personal) | Energy Safe Victoria (ESV) | 5 years |
+| Registered Electrical Contractor (REC) | Energy Safe Victoria (ESV) | 5 years (renewable up to 5 at a time) |
+| Certificate of Electrical Safety (per job) | Self-issued, lodged via ESVConnect | Per job — 2 business days to notify ESV |
 | DNSP notification (solar) | Relevant network distributor | Per solar job |
 | CEC Accreditation (solar) | Clean Energy Council | Annual + CPD |
 | VEU Accreditation (optional VEEC scheme) | Essential Services Commission (ESC) | Periodic |
-| Civil liability insurance | Commercial insurer | Annual |
+| Public liability insurance | Commercial insurer | Annual |
 | Workers compensation | WorkSafe Victoria | Annual |
 
 ---
@@ -270,11 +289,11 @@ The most effective approach is to build compliance milestones into your job mana
 
 **Can I start an electrical contracting business in Victoria without completing the REC Business Course?**
 
-You need a Business Nominee who has either completed the REC Business Course or who has relevant business administration and management experience with appropriate qualifications that ESV deems suitable (e.g. an accountant with relevant management experience). For most electricians starting a business, completing the REC Business Course is the clearest path — it's approximately $929 at Victoria University or NECA Education, and the certificate is accepted by ESV without assessment.
+You need a Business Nominee who has either completed the REC Business Course or who has relevant business administration and management experience with appropriate qualifications that ESV deems suitable (e.g. an accountant with relevant management experience). For most electricians starting a business, completing the REC Business Course is the clearest path — ESV lists six providers, fees run in the high hundreds, and the certificate is accepted by ESV without assessment.
 
 **My Technical Nominee just resigned. What do I do?**
 
-Notify ESV immediately. You have a limited window to nominate a replacement Technical Nominee before your REC registration is affected. The replacement must hold a current Victorian A-Class electrician's licence and have completed the LEA or LEM assessment. Do not continue trading without a current Technical Nominee — notify ESV first.
+Notify ESV in writing within 10 business days and nominate a replacement through ESVConnect. The replacement must hold a current Victorian A-Class electrician's licence and meet the technical supervisor evidence requirements — LEA completed within the last 5 years, a 'G' class inspector licence, a recognised interstate Capstone, or around 5 years of technical experience references. Do not continue trading without a current Technical Nominee — notify ESV first.
 
 **Do I need a new REC if I change from a sole trader to a company?**
 
@@ -282,7 +301,7 @@ Yes. A REC registration is tied to the specific entity type (sole proprietor, pa
 
 **How does Victorian licensing interact with CEC accreditation?**
 
-They're separate obligations managed through different organisations. Your REC registration from ESV authorises you to carry out electrical contracting work in Victoria. CEC accreditation from the Clean Energy Council authorises you to install solar PV systems eligible for STC rebates under the federal scheme. Both are required for residential solar work. Both require separate annual renewal.
+They're separate obligations managed through different organisations. Your REC registration from ESV authorises you to carry out electrical contracting work in Victoria. CEC accreditation from the Clean Energy Council authorises you to install solar PV systems eligible for STC rebates under the federal scheme. Both are required for residential solar work. The cycles differ — CEC accreditation renews annually with CPD, the REC renews every five years — which is why they drift apart.
 
 **What is the fastest way to have my REC application rejected?**
 
