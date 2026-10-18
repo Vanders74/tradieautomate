@@ -1,6 +1,6 @@
 ---
-title: "3-Phase Power Upgrade Australia 2026: $3K–$10K — Cost, Process & AS/NZS 3000 Rules"
-description: "3-phase power upgrade costs $3K–$10K installed in Australia 2026. AS/NZS 3000 switchboard rules, DNSP application process, and when solar/EV charging makes it essential."
+title: "3-Phase Power Upgrade Cost Australia 2026: $3K–$10K"
+description: "3-phase power upgrade in Australia 2026: $3K–$10K installed, the DNSP application that decides the timeline, and the AS/NZS 3000 rules that get jobs failed."
 pubDate: "Aug 2026"
 updatedDate: "Oct 18 2026"
 category: "Compliance"
@@ -8,9 +8,9 @@ breakdown:
   - title: "Assess the load"
     summary: "Maximum demand calc per AS/NZS 3000 Appendix C."
   - title: "Lodge the DNSP application"
-    summary: "Before ordering anything — 10–20 business days for most networks."
+    summary: "Before ordering anything — this is the long lead time, not the wiring."
   - title: "Upgrade the switchboard"
-    summary: "AS/NZS 3000 Clauses 2.5 + 2.6: RCD on every ≤32A sub-circuit."
+    summary: "AS/NZS 3000 Clauses 2.6 + 2.10: RCD on every ≤32A sub-circuit, clearances at 1 m / 600 mm."
     href: "/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026"
     hrefLabel: "RCD requirements →"
   - title: "Level 2 ASP connection"
@@ -18,7 +18,7 @@ breakdown:
   - title: "Coordinate the meter"
     summary: "Avoid unmetered 3-phase — book the meter near the connection."
   - title: "Test + issue the cert"
-    summary: "Section 8 testing, then the CCEW within 7 days (VIC CES: 30 days)."
+    summary: "Section 8 testing, then the CCEW within 7 days (VIC switchboard work is prescribed: notify ESV in 2 business days)."
     href: "/blog/electrical-switchboard-upgrade-cost-australia-2026"
     hrefLabel: "Switchboard cost guide →"
 heroImage: "/hero-3-phase-power-upgrade-guide.jpg"
@@ -27,9 +27,9 @@ faq:
   - question: "How much does a 3-phase power upgrade cost in Australia?"
     answer: "A single-phase to 3-phase upgrade in Australia typically costs $3,000–$10,000 depending on the switchboard condition, cable run distance, DNSP connection fees, and whether trenching is required. The DNSP service connection fee alone is $500–$1,500. Smart meters with 3-phase capability add $300–$700."
   - question: "Do I need a 3-phase upgrade for solar or an EV charger?"
-    answer: "You need 3-phase power if your solar system exceeds 5kW inverter capacity (single-phase limit in most DNSP areas), or if you're installing a 7kW+ EV charger alongside existing household loads. A 3-phase supply allows up to 15kW solar inverter capacity and balanced EV charging without voltage drop issues."
+    answer: "Usually not for solar alone. Ausgrid and Energex both approve up to 10kW of inverter capacity per phase, so a single-phase home can carry a 10kW inverter without a supply upgrade — 30kW is the three-phase ceiling on the same streamlined approval. A 3-phase upgrade is justified when you need more than 10kW, when you want 22kW (three-phase) EV charging, or when existing single-phase loads already squeeze the 63A–80A supply. Export limits are a separate number from inverter limits: on Energex, a 10kW single-phase inverter is approved to export 5kW."
   - question: "What are the AS/NZS 3000 requirements for a 3-phase switchboard upgrade?"
-    answer: "AS/NZS 3000:2018 Clause 2.5 requires a main switch rated for the maximum demand, RCD protection on all final sub-circuits (Clause 2.6), and discrimination between main and sub-circuit protection. The switchboard must have an IP rating appropriate for its location and adequate fault current rating for the new supply. A compliance certificate (CCEW/CES) must be issued for the upgrade."
+    answer: "AS/NZS 3000:2018 Clause 2.6 requires 30mA RCD protection on all final sub-circuits in domestic installations (Clause 2.6.3.2.2), and Clause 2.6.3.2.5 requires RCD protection to be brought up to that standard whenever a switchboard is replaced or a final sub-circuit is altered. Switchboard installation itself is Clause 2.10 — 1m clear of accessible faces of a closed board and 600mm unobstructed with doors open. The main switch must be rated for the maximum demand calculated under Appendix C, and voltage drop must stay within 5% (Clause 3.6). A compliance certificate must be issued for the work."
   - question: "How long does a 3-phase power upgrade take?"
     answer: "A residential 3-phase upgrade typically takes 1–2 days: Day 1 for switchboard replacement and internal wiring, Day 2 for the DNSP to connect the new service. The DNSP may require a Level 2 ASP (Authorised Service Provider) for the connection work. The entire process from DNSP application to completion is 2–6 weeks depending on the network provider."
   - question: "Do I need council approval for a 3-phase upgrade?"
@@ -42,7 +42,7 @@ A 3-phase power upgrade costs $3,000–$10,000 in Australia, and getting it wron
 
 ## What Is a 3-Phase Power Upgrade?
 
-A 3-phase power upgrade converts a property's electrical supply from single-phase (one 230V active conductor) to 3-phase (three 230V active conductors, 400V between phases). Under **AS/NZS 3000:2018**, this requires a new main switchboard rated for the maximum demand calculation, RCD protection on every final sub-circuit (Clause 2.6), and a compliance certificate — CCEW in NSW, CES in Victoria, certificate of testing and compliance in Queensland — issued by a licensed electrical contractor. The upgrade enables 15kW+ solar inverter capacity, 7kW+ EV charger installation, and simultaneous operation of high-draw equipment without voltage drop.
+A 3-phase power upgrade converts a property's electrical supply from single-phase (one active conductor at 230V to neutral) to 3-phase (three active conductors at 230V each, 120° apart, 400V nominal between phases — commonly quoted on site as 415V). Under **AS/NZS 3000:2018**, this requires a new main switchboard rated for the maximum demand calculation, RCD protection on every final sub-circuit (Clause 2.6), and a compliance certificate — CCEW in NSW, CES in Victoria, certificate of testing and compliance in Queensland — issued by a licensed electrical contractor. The upgrade enables 30kW of solar inverter capacity, 22kW three-phase EV charging, and simultaneous operation of high-draw equipment without voltage drop.
 
 ---
 
@@ -50,7 +50,9 @@ A 3-phase power upgrade converts a property's electrical supply from single-phas
 
 Most Australian homes run on single-phase 80A or 100A supplies. That's fine for standard loads — but the following scenarios make a 3-phase upgrade essential, not optional:
 
-**Solar above 5kW inverter capacity.** Most DNSPs cap single-phase solar inverters at 5kW (Ausgrid, Energex, SA Power Networks). A 3-phase supply allows up to 15kW inverter capacity — three 5kW inverters, one per phase — and 30kW of panel capacity under the Clean Energy Council's 133% oversizing rule. If your customer wants a 10kW system, you're doing a 3-phase upgrade first.
+**Solar above 10kW inverter capacity.** Ausgrid and Energex both approve up to 10kW of inverter capacity per phase through their streamlined processes, so a single-phase home can legitimately carry a 10kW inverter without touching the supply. Three-phase takes that to 30kW (10kW per phase) on the same basic approval — above 30kW in NSW you're into a technical assessment, and above 200kVA you're a negotiated connection. Inverter size and export limit are two different numbers: Energex approves a 10kW single-phase inverter to *export* 5kW, and Ausgrid's flexible-export connections default to 10kW per phase but fall back to a fixed 3kW per system if the customer opts out.
+
+If a customer wants a 13kW system on a single-phase supply, that's when the arithmetic starts pointing at the upgrade. And note the oversizing separate from all of this: the DC array can exceed the inverter rating (the 133% DC/AC ratio is the common ceiling), but the DNSP limit is on inverter nameplate, not panel wattage.
 
 **EV charger installation.** A single-phase 7.4kW EV charger pulls 32A continuously. Add a ducted air conditioner (15A), an oven (20A), and a pool pump (10A), and you've blown past the 80A maximum demand on a single-phase supply. A 3-phase supply lets you put the EV charger on one phase and everything else on the other two.
 
@@ -108,22 +110,24 @@ Every DNSP requires a **connection application** before the upgrade. This is the
 - Solar/EV load details if applicable
 
 DNSPs vary wildly:
-- **Ausgrid (NSW):** Connection application form + Level 2 ASP for the physical connection
+- **Ausgrid (NSW):** connection application lodged through the Connections portal; Level 2 ASP required for the physical connection
 - **Endeavour Energy (NSW):** ASP Level 2 required; minimum 10 business days for a simple connection
-- **Energex (QLD):** Form A connection application + Form B for solar; certificate of testing and compliance (ES Regulation 2013 s227) for the electrical work
-- **SA Power Networks:** Online portal application; service connection fee scales with demand
+- **Energex (QLD):** Electrical Work Request (EWR) lodged through the Electrical Partners Portal — the "Form A / Form B" pair is legacy and no longer how connections are lodged; the certificate of testing and compliance is separate (ES Regulation 2013 s227)
+- **SA Power Networks:** online portal application; service connection fee scales with demand
 - **Western Power (WA):** Residential Connection Application; Western Power does the meter install
-- **TasNetworks:** Connection application + Form 3 compliance certificate
+- **TasNetworks:** connection application via the Connections Portal, plus the Certificate of Electrical Compliance (CEC) submitted to TechSafe Australia
 
 ### 3. Switchboard Upgrade to AS/NZS 3000:2018
 
-Replace or upgrade the existing switchboard to comply with **Clause 2.5** (switchboard construction):
+Replace or upgrade the existing switchboard to comply with **Clause 2.10** (switchboards) and **Clause 2.6** (additional protection by RCD):
 
-**Main switch:** Rated for the calculated maximum demand. A 3-phase 63A main switch is typical for residential. Commercial 3-phase may need 100A or 160A.
+**Main switch:** rated for the calculated maximum demand — Clause 2.2.2 requires that maximum demand be determined for consumer mains and submains, and Appendix C (Tables C1–C3) is the deemed-to-comply method. A 3-phase 63A main switch is typical for residential; commercial 3-phase may need 100A or 160A. Main switches must be manually operated, not controlled by electronic devices.
 
-**RCD protection (Clause 2.6):** Every final sub-circuit ≤32A must have RCD protection with a maximum tripping current of 30mA, installed at the switchboard where the sub-circuit originates (Clause 2.6.3.2.2 domestic/residential; 2.6.3.2.3 for other installations). Individual RCBOs per circuit aren't mandated by the standard, but they are industry best practice because a single shared RCD takes the whole board out on one fault — and you lose discrimination.
+**RCD protection (Clause 2.6):** In domestic and residential installations, 30mA RCDs are required on all final sub-circuits (Clause 2.6.3.2.2) with no exceptions, installed at the switchboard from which the sub-circuit originates. For non-domestic work the obligation attaches to socket-outlet and lighting circuits ≤32A plus fixed-wired equipment up to 32A that presents an increased risk of shock. Critically for this job: **Clause 2.6.3.2.5** requires RCD protection to be brought up to those standards whenever a switchboard is replaced or a final sub-circuit is altered — you cannot re-use an unprotected board on a 3-phase changeover. Individual RCBOs per circuit aren't mandated, but they are industry best practice because a single shared RCD takes the whole board out on one fault.
 
-**IP rating:** IP2X minimum for indoor switchboards, IP3X for outdoor. IP44 or higher if exposed to weather.
+**IP rating (Clause 2.10 / Section 1):** IP2X minimum indoors against contact with live parts. Outdoors is stricter than most tradies assume: equipment needs **at least IP33**, except meter panels which are IP23-rated, and there's a 30° triangular zone under an eave or veranda where IP2X equipment is still acceptable. Inside a meter box, no IP rating applies.
+
+**Clearances (Clause 2.10):** 1.0m clear from accessible faces of a closed switchboard, and 600mm unobstructed around the board with doors open or equipment racked out. Switch rooms need more again — 2.2m door height, 0.9m door width, and two egress paths above 800A or past 3m in length.
 
 **Fault current rating:** The switchboard must be rated for the prospective short-circuit current at the point of installation. For a residential 3-phase supply, typically 6kA minimum. DNSPs can advise the fault level at the connection point.
 
@@ -145,20 +149,20 @@ Your customer's electricity retailer installs the 3-phase smart meter. This is c
 
 ### 6. Testing, Verification, and Compliance Certificate
 
-After installation, mandatory testing per **AS/NZS 3000:2018 Section 8**:
+After installation, mandatory testing per **AS/NZS 3000:2018 Section 8** (8.2 inspection, 8.3 test methods and criteria):
 - Earth fault loop impedance at every point
-- RCD trip time (≤300ms for Type I, ≤40ms for Type II at IΔn)
+- RCD operation: ≤300ms at rated residual current (IΔn), ≤40ms at 5×IΔn
 - Insulation resistance (≥1MΩ on all circuits)
 - Polarity and phase rotation
 - Prospective short-circuit current verification at the main switch
 
 Then, issue the state-specific compliance certificate:
-- **NSW:** CCEW (Certificate of Compliance Electrical Work) — required under the Gas and Electricity (Consumer Safety) Regulation 2018 (s37A) and lodged to Building Commission NSW via the eCert portal within 7 days of testing
-- **Victoria:** CES (Certificate of Electrical Safety) — mandatory under the Electricity Safety Act 1998, administered by Energy Safe Victoria, and must be issued within 30 calendar days of completing the work
-- **Queensland:** Certificate of testing and compliance (ES Regulation 2013 s227) — under the Electrical Safety Act 2002, administered by the Electrical Safety Office
-- **South Australia:** Certificate of Compliance — administered by Consumer and Business Services
-- **Western Australia:** Notice of Completion — administered by Building and Energy (formerly EnergySafety WA)
-- **Tasmania:** Form 3 — administered by Tasmanian Building and Construction (CBOS)
+- **NSW:** CCEW (Certificate of Compliance Electrical Work) — required under the Gas and Electricity (Consumer Safety) Regulation 2018 (s37A) and lodged to Building Commission NSW via the eCert portal within 7 days of the safety and compliance test
+- **Victoria:** CES (Certificate of Electrical Safety) — mandatory under the Electricity Safety Act 1998, administered by Energy Safe Victoria. A switchboard change is **prescribed** electrical work, so an inspection by a Licensed Electrical Inspector is required: completed within 8 business days, and the certificate electronically notified to ESV within 2 business days of completing the certificate. Copies go to the customer, distributor and ESV within 16 calendar days of completion; the customer copy is due within 4 days of the inspection being signed off. The 30-day figure that circulates in the trade applies only to non-prescribed work.
+- **Queensland:** Certificate of testing and compliance (ES Regulation 2013 s227) — issued to the customer as soon as practicable after the installation is connected, copy retained five years; the connection itself is lodged as an EWR
+- **South Australia:** electronic Certificate of Compliance (eCoC) — submitted to the Office of the Technical Regulator within 30 days of completing the work, and required before SA Power Networks will connect
+- **Western Australia:** Notice of Completion — administered by Building and Energy
+- **Tasmania:** Certificate of Electrical Compliance (CEC) — submitted to TechSafe Australia within 3 days of the work being energised or capable of being energised, with the CEC number quoted on the TasNetworks EWR
 
 ---
 
@@ -166,31 +170,31 @@ Then, issue the state-specific compliance certificate:
 
 When a state electrical inspector audits a 3-phase upgrade, these are the clauses they check. Every item is a potential defect notice:
 
-**Clause 2.5 — Switchboards:**
-- Maximum demand calculation documented and main switch rated accordingly
-- Switchboard IP rating appropriate for the installation environment
-- Adequate working space around the switchboard (600mm minimum in front)
-- Fire-rated backing if mounted on a combustible surface
+**Clause 2.10 — Switchboards:**
+- Maximum demand calculation documented and main switch rated accordingly (Clause 2.2.2, Appendix C)
+- 1.0m clear of accessible faces of a closed board; 600mm unobstructed with doors open
+- IP rating appropriate for the location — IP2X indoors, IP33 unprotected outdoors, IP23 for meter panels
+- Switchboard rated for the prospective fault current at that point
 
 **Clause 2.6 — RCD Protection:**
-- RCD on every final sub-circuit ≤32A
-- RCD trip time verified and recorded
-- RCD not shared across multiple circuits where avoidable (individual RCBOs are best practice, not a clause requirement)
+- 30mA RCD on all final sub-circuits in domestic/residential installations (2.6.3.2.2), and RCDs added whenever the board is replaced or a circuit altered (2.6.3.2.5)
+- RCD installed at the board from which the sub-circuit originates
+- RCD trip time verified and recorded — ≤300ms at IΔn, ≤40ms at 5×IΔn
 - RCD test button functional and test date recorded
 
 **Clause 5.3 — Earthing:**
 - MEN connection verified at the main switchboard
-- Earth electrode resistance ≤0.5Ω or verified by an alternative method
+- Earth electrode and main earthing conductor of adequate size and resistance for the fault-loop calculation to hold — the electrode must be one that, with the rest of the loop, lets the protective device disconnect within the required time. There is no fixed ohm figure written into the Wiring Rules; if you're quoting a resistance, quote the one your fault-loop calculation depends on
 - Equipotential bonding to all metallic services (water, gas, communications)
 
-**Clause 3.8 — Consumer Mains:**
-- Cable size adequate for maximum demand + voltage drop (max 5% from point of supply to furthest point)
-- Protection device at the origin of the consumer mains
+**Clause 3.6 — Voltage Drop and Consumer Mains:**
+- Cable size adequate for maximum demand + voltage drop, capped at 5% total from the point of supply to the furthest point of utilisation (mains, submains and final sub-circuit combined — it is a single 5% budget, not 5% per leg)
+- Protection device at the origin of the consumer mains (Clause 2.5.1.2)
 - Labelling of all submains and distribution boards
 
-**Clause 8 — Verification:**
-- All mandatory test results recorded and signed
-- Compliance certificate issued on time — 7 days from test in NSW, 30 calendar days from completion for a VIC CES (state-dependent)
+**Section 8 — Verification:**
+- All mandatory test results recorded and signed (8.2 inspection, 8.3 tests)
+- Compliance certificate issued on time — 7 days from test in NSW, prescribed-work CES times in VIC (state-dependent)
 - Copy provided to the customer and filed with the regulator
 
 A **single missing RCD on one final sub-circuit** will fail an inspection in any state. The defect notice process costs the contractor time and reputation — and in NSW, repeat non-compliance can trigger a licence review by Building Commission NSW under the Gas and Electricity (Consumer Safety) Act 2017.
@@ -203,26 +207,26 @@ A **single missing RCD on one final sub-circuit** will fail an inspection in any
 
 Ausgrid covers Sydney, Central Coast, and Hunter. Endeavour Energy covers Western Sydney, Illawarra, and the Blue Mountains. Essential Energy covers regional NSW.
 
-- **Application:** Ausgrid Connection Application (Form CEOP8020 for overhead, CEOP8021 for underground)
+- **Application:** lodged through Ausgrid's Connections portal; the connection work itself needs a Level 2 ASP
 - **ASP level:** Level 2 ASP required for connection
 - **Fee range:** $500–$1,200 for a simple residential upgrade
-- **Timeline:** 10–20 business days for application processing
+- **Timeline:** supply upgrades are separately assessed — do not quote the solar application timeframes (Ausgrid's solar target is 5 business days up to 10kW, 10 business days for 10–30kW) as if they apply to a new 3-phase service
 
 ### VIC — Powercor, AusNet Services, United Energy, CitiPower, Jemena
 
-Five DNSPs cover different parts of Victoria. All require a CES from Energy Safe Victoria.
+Five DNSPs cover different parts of Victoria. A switchboard change is prescribed electrical work, so a prescribed CES with an inspector's sign-off is required from Energy Safe Victoria.
 
 - **Application:** Via the DNSP's online portal. New connections require a Registered Electrical Contractor (REC) number
 - **Metering:** Smart meter coordinated through the retailer; Victorian smart meters are already 3-phase capable in many cases
 - **Fee range:** $400–$1,000
-- **Timeline:** 5–15 business days
+- **Timeline:** 5–15 business days, plus the LEI inspection window (8 business days) and 2-business-day notification to ESV
 
 ### QLD — Energex and Ergon Energy
 
 Energex covers South East Queensland. Ergon covers the rest.
 
-- **Application:** Form A (Connection Application) + certificate of testing and compliance for the electrical work
-- **Solar:** Form B required if solar is being installed concurrently
+- **Application:** Electrical Work Request (EWR) through the Electrical Partners Portal; the certificate of testing and compliance under s227 is a separate document
+- **Solar:** DER must be approved before installation, and applications are lodged through the same portal — Energex and Ergon forms are not interchangeable
 - **Fee range:** $600–$1,500
 - **Timeline:** 10–20 business days; longer in regional Ergon areas
 
@@ -230,19 +234,20 @@ Energex covers South East Queensland. Ergon covers the rest.
 
 - **Application:** Online portal — residential connection application
 - **Fee range:** $500–$1,000; scales with demand
-- **Metering:** The retailer coordinates the meter install; SA Power Networks provides the meter isolation link
+- **Certification:** electronic Certificate of Compliance (eCoC) lodged with the Office of the Technical Regulator within 30 days; a valid eCoC must exist before SA Power Networks will make the final connection
 - **Timeline:** 5–10 business days for metro, 10–20 for regional
 
 ### WA — Western Power
 
 - **Application:** Residential Connection Application via online portal
-- **Fee range:** $500–$1,200
+- **Fee range:** $500–$1,200; Western Power publishes $586–$853 for an overhead single-to-three-phase conversion
 - **Metering:** Western Power installs the meter directly; no separate metering coordinator
 - **Timeline:** 10–20 business days
 
 ### TAS — TasNetworks
 
-- **Application:** Connection Application + Form 3 compliance certificate
+- **Application:** Connection application through the Connections Portal; above 100A per phase (or where network changes are needed) it becomes a negotiated connection with design costs payable up front
+- **Certification:** Certificate of Electrical Compliance (CEC) to TechSafe Australia within 3 days of energising, CEC number quoted on the EWR
 - **Fee range:** $500–$1,000
 - **Timeline:** 10–15 business days
 
@@ -260,11 +265,11 @@ The existing 16mm² 2-core + earth consumer mains carries single-phase fine. But
 
 ### 3. No RCD on the Metered Load Circuit
 
-Some installers put RCDs on every sub-circuit but leave the main switch side unprotected. AS/NZS 3000:2018 Clause 2.6.2.1 requires RCD protection on **all final sub-circuits** — that includes any circuit downstream of the main switch. The meter isolator doesn't count as a sub-circuit, but anything after it does.
+Some installers put RCDs on every sub-circuit but leave the main switch side unprotected. AS/NZS 3000:2018 Clause 2.6.3.2.2 requires 30mA RCD protection on **all final sub-circuits** in domestic and residential installations — that includes any circuit downstream of the main switch. The meter isolator doesn't count as a sub-circuit, but anything after it does. And because a 3-phase upgrade always replaces the board, Clause 2.6.3.2.5 applies: RCD protection has to be brought up to the current requirement, not matched to whatever the old single-phase board had.
 
 ### 4. CCEW/CES Not Filed Within the Deadline
 
-NSW requires the CCEW to be lodged within 7 days of the safety and compliance test (Gas and Electricity (Consumer Safety) Regulation 2018, s37A) via the Building Commission NSW eCert portal. Victoria requires the CES within 30 calendar days of completing the work (Electricity Safety Act 1998). Missing the deadline triggers an automatic audit flag in the regulator's system. The audit looks at the entire job — not just the late certificate.
+NSW requires the CCEW to be lodged within 7 days of the safety and compliance test (Gas and Electricity (Consumer Safety) Regulation 2018, s37A) via the Building Commission NSW eCert portal. Victoria is where this goes wrong most often: a 3-phase upgrade replaces the switchboard, which is **prescribed** work, so it needs an inspector and a prescribed CES — notification to ESV within 2 business days of completing the certificate, inspection within 8 business days, copies out within 16 calendar days. Contractors who budget on the 30-day non-prescribed figure miss every one of those windows. Missing a deadline triggers an automatic audit flag in the regulator's system, and the audit looks at the entire job — not just the late certificate.
 
 ### 5. No Future-Proofing
 
@@ -282,7 +287,7 @@ Retrofitting any of these after the board is closed and certified costs $500–$
 A 3-phase upgrade opens the door to three high-value add-ons that make the job more profitable and the property more functional:
 
 ### Solar-Ready Prep
-With 3-phase in place, your customer can install up to 15kW of inverter capacity. Quote the solar meter panel, a dedicated solar circuit in the switchboard, and the DNSP's Form B (solar connection) alongside the Form A (service connection). The incremental cost is low — the big cost is already sunk in the upgrade.
+With 3-phase in place, your customer can install up to 30kW of inverter capacity (10kW per phase) on a standard basic connection in NSW and QLD. Quote the solar meter panel, a dedicated solar circuit in the switchboard, and lodge the DER application through the DNSP portal alongside the service connection — in Queensland the DER approval has to exist before the panels go on. The incremental cost is low — the big cost is already sunk in the upgrade.
 
 ### EV Charger Circuit
 Pull the cable now while the switchboard is open. A 32A single-phase (7.4kW) or 32A 3-phase (22kW) circuit to the garage adds $200–$500 in materials during the upgrade vs $1,500–$3,000 if trenched separately later. Even if the customer doesn't have an EV yet, the circuit is there.
@@ -294,21 +299,25 @@ A 3-phase upgrade is a multi-day, multi-trade job — you, a Level 2 ASP, the me
 
 ## FAQ
 
-### Does the switchboard need to be replaced, or can the existing board be upgraded?
+### How much does a 3-phase power upgrade cost in Australia?
 
-If the existing switchboard is a modern enclosure with DIN rail mounting and space for a 3-phase main switch, it can be upgraded. If it's a porcelain fuse panel, a 1960s Memera board, or anything with asbestos backing, it must be fully replaced — not just for compliance, but because the fault current rating won't be documented. The cost difference between an upgrade and a replacement is $500–$1,500 in materials, and a replacement is almost always the right call on pre-2000 installations.
+A single-phase to 3-phase upgrade in Australia typically runs **$3,000–$10,000**: switchboard replacement $1,500–$4,000, the DNSP connection fee $500–$1,500, cable run $500–$2,000, a three-phase smart meter $300–$700, and Level 2 ASP labour $800–$1,500. The $10,000 end is asbestos-backed boards, long underground runs through concrete, and meter relocations. Western Power publishes $586–$853 for an overhead single-to-three-phase conversion; that's the network side only, not the board.
 
-### Can a homeowner apply for the DNSP connection themselves?
+### Do I need a 3-phase upgrade for solar or an EV charger?
 
-Technically yes, but practically no. Most DNSPs require the application to be submitted by a licensed electrical contractor with an ASP accreditation. The homeowner can submit a general enquiry, but the actual connection application — with maximum demand calculations, site plans, and compliance declarations — must come from the contractor who signs the CCEW/CES.
+Usually not for solar alone. Ausgrid and Energex both approve up to 10kW of inverter capacity per phase, so a single-phase home can carry a 10kW inverter without a supply upgrade — 30kW is the three-phase ceiling on the same streamlined approval. Above 10kW per phase in NSW you move to a technical assessment. A 3-phase upgrade is justified when the customer needs more than 10kW of inverter, wants 22kW three-phase EV charging, or already has single-phase loads pressed against a 63A–80A supply. Keep export limits separate from inverter limits: Energex approves a 10kW single-phase inverter to export 5kW.
 
-### How does a 3-phase upgrade affect the electricity tariff?
+### What are the AS/NZS 3000 requirements for a 3-phase switchboard upgrade?
 
-The upgrade itself doesn't change the tariff. But if the customer subsequently installs a large solar system, they may move from a flat-rate tariff to a time-of-use tariff with demand charges. Some DNSPs (Energex, Ausgrid) apply demand tariffs to 3-phase connections above a certain capacity threshold. Check the DNSP's tariff schedule before quoting — your customer might end up on a higher tariff by default.
+Clause 2.6 requires 30mA RCD protection on all final sub-circuits in domestic installations (2.6.3.2.2), and 2.6.3.2.5 requires RCD protection to be brought up to that standard whenever a switchboard is replaced — which a 3-phase upgrade always does. Switchboard installation is Clause 2.10: 1.0m clear of accessible faces of a closed board, 600mm unobstructed with doors open, IP2X indoors and IP33 for unprotected outdoor equipment. The main switch must be rated for the maximum demand determined under Clause 2.2.2 and Appendix C, voltage drop must stay within 5% under Clause 3.6, and individual RCBOs aren't mandated but are the sane choice on a three-phase board. A compliance certificate must be issued for the work.
 
-### Is an RCD on the main switch acceptable, or do I need individual RCBOs?
+### How long does a 3-phase power upgrade take?
 
-AS/NZS 3000:2018 Clause 2.6 requires RCD protection on all final sub-circuits but does not mandate individual RCBOs. A single RCD protecting multiple circuits is technically compliant — but a fault on one circuit trips the entire board, which is a terrible customer experience. Building Commission NSW and Energy Safe Victoria both encourage individual RCBOs as best practice, and many electrical inspectors will note a single-RCD configuration on the inspection report even if it's not a defect. Furthermore, Clause 2.5.5.2 requires discrimination between protection devices — a single upstream RCD provides no discrimination at all.
+The on-site work is 1–2 days. The clock that matters is administrative: the DNSP application has to be lodged and approved before anything is ordered, and that is where jobs blow out to weeks — a supply upgrade is separately assessed, so the 5–10 business-day solar connection targets do not apply. Then the meter, then certification. Only the contractor can lodge the application: it carries maximum demand calculations, a site plan and compliance declarations, and it has to come from the party signing the certificate.
+
+### Do I need council approval for a 3-phase upgrade?
+
+No — it's electrical work, not building work. The approvals that do apply are the DNSP connection application and the state electrical certificate. Council only enters the picture if the board or meter position moves in a way that triggers planning or heritage consent, which is a property-specific question, not a 3-phase one.
 
 ---
 
