@@ -1,8 +1,8 @@
 ---
-title: 'QLD Electrical Contractor Licence 2026: Fees, QTP/QBP & Insurance'
-description: "QLD electrical contractor licence in 2026: $464.30 a year, one-year term, a nominated QTP and QBP, and $5M public and products liability plus $50,000 consumer protection cover."
+title: 'QLD Electrical Contractor Licence 2026: Cost & QTP/QBP Rules'
+description: "QLD electrical contractor licence: $464.30 a year, $5M + $50K cover and the QTP/QBP units. Lose a nominee and the licence is suspended in 30 days."
 pubDate: 'Jun 9 2026'
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 19 2026'
 category: "Compliance"
 breakdown:
   - title: "Hold the worker licence"
@@ -36,6 +36,10 @@ faq:
     answer: "One year. The electrical contractor licence is issued for 12 months and it is your responsibility to keep meeting the eligibility requirements - the nominated QTP and QBP, the insurance policy and the licensing portal details - for the whole term. Renewal is $464.30 and the licence is issued on the same one-year basis."
   - question: "What is the QLeave levy for Queensland electrical contractors?"
     answer: "The QLeave building and construction levy is 0.575 per cent of the total cost of building and construction work worth $150,000 or more, excluding GST - $5.75 per thousand dollars. Of that, 0.125 per cent goes to Workplace Health and Safety Queensland, 0.1 per cent to Construction Skills Queensland and 0.35 per cent funds portable long service leave. It is paid before the development permit is issued or before work starts, and employers separately register workers and lodge service returns with QLeave."
+  - question: "Can a trust hold a Queensland electrical contractor licence?"
+    answer: "No. An electrical contractor licence is only issued to an individual, a partnership or a corporation. It can be issued to the trustee of a trust, but only where the trustee is itself an individual, a partnership or a company, and only the trustee's name is listed on the licence. There is also no requirement for the licence holder to have an ABN, although any ABN supplied must match the legal name on the Australian Business Register."
+  - question: "What happens if the QTP or QBP on a Queensland contractor licence leaves?"
+    answer: "You must notify the Electrical Safety Office within 10 business days if the QTP's work licence expires, is cancelled or suspended, or if the QTP or QBP stops being an employee, partner, director or executive officer, or stops being a nominee. The licence is automatically suspended if there is no endorsed QBP or QTP for 30 days, and automatically cancelled 30 days after that suspension if nobody has been endorsed - and a cancelled licence cannot be reinstated, so you must apply for a new one and receive a new licence number."
 ---
 
 If you're running an electrical contracting business in Queensland, three things decide whether you're trading legally: the **electrical contractor licence** from the Electrical Safety Office, the **insurance policy** behind it, and — only where the job is building work — a **QBCC licence**. The licence costs **$464.30** and lasts **one year**. There is no solar class and no financial-resources test at the ESO; the requirements are a nominated technical person, a nominated business person, and the right cover.
@@ -61,6 +65,7 @@ This guide covers the 2026 rules, including the new *Electrical Safety Regulatio
 | Regulator | Electrical Safety Office (ESO), part of WorkSafe Queensland / Office of Industrial Relations |
 | Governing law | Electrical Safety Act 2002 (Qld) and Electrical Safety Regulation 2026 |
 | Who needs it | Anyone performing electrical work for others — sole trader, partnership or company |
+| Who can hold it | Individual, partnership or company — **not a trust** (a trustee may hold it in its own name) |
 | Term | 1 year |
 | Fee | $464.30 (issue, renewal or reinstatement), FY2026–27 |
 | Mandatory people | At least one QTP and one QBP, both endorsed on the licence |
@@ -82,7 +87,16 @@ So the short version: **ESO licence always. QBCC licence only if there's buildin
 
 ## The Electrical Contractor Licence
 
-Issued under the *Electrical Safety Act 2002* and assessed against section 173 of the *Electrical Safety Regulation 2026*. It authorises a business entity — individual, partnership or company — to carry out electrical work for others.
+Issued under the *Electrical Safety Act 2002* and assessed against **section 162** of the *Electrical Safety Regulation 2026*. It authorises a business entity — individual, partnership or company — to carry out electrical work for others. (WorkSafe's own contractor page cites section 173 for this; 173 is actually the provision for adding *extra* QBP or QTP endorsements later. The issue requirements are 162, and the insurance test is 165.)
+
+### Who can hold one
+
+Only an **individual, a partnership or a corporation**. A licence **cannot be issued to a trust** — it can be issued to the *trustee* of a trust, but only where that trustee is itself an individual, a partnership or a company, and only the trustee's name appears on the licence. If you trade through a discretionary trust and the trustee is a company, the company is the licensee.
+
+Two things that trip people up:
+
+- **No ABN is required.** The ESO does not ask for one. If you do supply an ABN it has to match the legal name on the Australian Business Register, which is where family-trust trading names usually fall over.
+- **A company applicant must be registered with ASIC** — the portal has a search-by-ACN field in the application.
 
 ### Who needs it?
 
@@ -117,20 +131,55 @@ Who can hold those roles depends on the entity:
 | Partnership | A partner, or an employee of the partnership |
 | Company | A director, executive officer, member, or employee of the company |
 
-Every nominated person — QTP, QBP and the authorised person who lodges the application — is emailed to verify their identity and accept the nomination. **The application will not proceed until at least one QTP and one QBP have confirmed and accepted.** If your QTP resigns and nobody is nominated to replace them, you have a licence problem the same day, not at renewal.
+Every nominated person — QTP, QBP and the authorised person who lodges the application — is emailed to verify their identity and accept the nomination. **The application will not proceed until at least one QTP and one QBP have confirmed and accepted.**
+
+**What a QBP actually has to prove.** Section 163 sets the test, and the ESO's eligibility guide sets the evidence. A QBP must have completed both:
+
+- **UEECD0007** — Apply WHS regulations, codes and practices in the workplace, and
+- **UEEEL0040** — Develop compliance policies and plans to conduct an electrical contracting business,
+
+plus **one** of the following:
+
+- **BSBESB402** — Establish legal and risk management requirements of new business ventures, or
+- a business qualification at **diploma level or higher** (a Bachelor of Business, for example), or
+- evidence of having **operated a business for five years**, totalling any number of periods — supplied as a short statement covering the businesses, the dates, the nature of the work and your role, plus one referee with a phone number.
+
+**What a QTP actually has to prove.** Section 164, and this is the stricter one:
+
+- a **current Queensland electrical work licence**, held for **at least two years** (interstate, New Zealand or overseas experience can count toward the two years, but the Queensland licence itself is mandatory), and
+- **UEEEL0002** — Apply currency of safe working practices and compliance verification of electrical installations, completed **within the last three years**, and
+- **UEEEL0030** — Conduct compliance inspection of single-phase LV electrical installations, and
+- **UEEEL0029** — Conduct compliance inspection of LV electrical installations with demand exceeding 100 A per phase.
+
+Both roles also require the person to be **fit and proper** and competent. Someone who has not held a Queensland licence for two years can still be a QTP on a *restricted* contractor licence with a reduced scope. The ESO still accepts the superseded units UEENEEE101A, UEENEEG122A, UEENEEG123A, UEENEEG175A and BSBSMB401.
+
+### What happens when a QTP or QBP leaves
+
+This is the single most expensive misunderstanding in Queensland contracting, and most guides get it backwards.
+
+**There is not an immediate lapse.** Section 175 runs a two-stage clock:
+
+1. **Automatic suspension** — the licence is automatically suspended if, for a period of **30 days**, there is no endorsed QBP, or no endorsed QTP, on the licence.
+2. **Automatic cancellation** — if, **30 days after the suspension date**, there is still nobody endorsed, the licence is automatically **cancelled**, and it **cannot be reinstated**. You apply for a new licence and get a new licence number.
+
+So the real exposure is a 30-day window to get a replacement endorsed, then a second 30-day window before the licence is gone for good. A suspended licence means you cannot perform electrical work at all.
+
+Separately — and this catches people who think the 30 days gives them breathing room — you must **notify the ESO within 10 business days** if the QTP's work licence expires, is cancelled or suspended, or if the QTP or QBP stops being an employee (or partner, director or executive officer) or stops being a nominee. Failing to notify is a separate breach of the eligibility requirements and can draw disciplinary action on its own.
 
 There is also an **authorised person** on every licence: the person with authority to make changes to it. For an individual that's the applicant, for a partnership a partner, for a company a director or executive officer.
 
 ### Insurance requirements
 
-Section 165 of the Electrical Safety Regulation 2026 sets the policy terms. The policy must be issued in the legal name of the business applying, and must include public and products liability with:
+Section 165 of the Electrical Safety Regulation 2026 mandates two numbers and nothing else: **$5,000,000** public and products liability and **$50,000** consumer protection. The policy must be issued in the legal name of the business applying.
 
-- a limit of indemnity of at least **$5,000,000**, and
-- **consumer protection insurance of at least $50,000**
+The ESO then requires the same policy to cover all of the following, and makes you declare it on the application and at renewal:
 
-It must also cover all of the following: liability arising from testing and certification of work under the regulation; injury or damage from faulty design work, including where you didn't charge separately for design; injury or damage from incorrect advice, including where you didn't charge for the advice; and goods in your care, custody or control.
+- liability arising from testing and certification of work under the regulation
+- injury or damage from faulty design work, including where you didn't charge separately for design
+- injury or damage from incorrect advice, including where you didn't charge for the advice
+- goods in your care, custody or control
 
-That last list is where cheap policies fail. A generic public liability certificate for $5M often excludes design liability and advice — which is exactly what an electrical contractor is exposed to. When you apply or renew you declare that you have confirmed with your insurer that the policy meets these requirements. The ESO doesn't want a copy upfront, but it audits, and at audit you produce the policy or written confirmation from the insurer.
+That last list is where cheap policies fail, and it is not in section 165 — it is the regulator's declared requirement, so the only way to satisfy it is to put the question to your insurer in writing. A generic public liability certificate for $5M often excludes design liability and advice — which is exactly what an electrical contractor is exposed to. When you apply or renew you declare that you have confirmed with your insurer that the policy meets these requirements. The ESO doesn't want a copy upfront, but it audits, and at audit you produce the policy or written confirmation from the insurer.
 
 ### Fees (FY2026–27)
 
@@ -175,6 +224,16 @@ Where electrical contractors cross the line:
 
 If you do those jobs, you need both licences, and both are checked by different regulators with different audit powers.
 
+### Moving to Queensland from interstate
+
+Interstate contractors ask this more than any other question, and the answer depends on the entity:
+
+- **Sole trader with an interstate contractor licence in your own name** — you can apply under **mutual recognition**.
+- **Partnership or company** — mutual recognition does **not** apply. There is no external equivalency recognition of contractor licences, so the business applies for a Queensland licence on the ordinary pathway.
+- **In every case, the nominated QTP must hold a Queensland electrical work licence.** An interstate equivalent will not do it.
+
+Working in Queensland on an interstate contractor licence is not permitted, even for a one-off job.
+
 ### Minimum Financial Requirements (MFR)
 
 QBCC licences are set by financial category, and the category is driven by your maximum revenue — not your actual revenue. You need enough net tangible assets to cover the ceiling.
@@ -190,7 +249,7 @@ QBCC licences are set by financial category, and the category is driven by your 
 Two reporting rules that get missed:
 
 - **Individual licensees in SC1 and SC2 do not lodge annual financial information.** Company licensees lodge it regardless of category.
-- **Categories 1–7 lodge annually, from 1 August, due 31 December.** SC1 and SC2 self-certifying reporters use a separate cycle, usually due 31 March.
+- **Categories 1–7 lodge annually, from 1 August, due 31 December** — and QBCC confirms the reporting day in writing, so the notice governs if it differs.
 
 You must also maintain a current ratio of at least 1:1 — current assets to current liabilities — throughout the year, not just at reporting time.
 
@@ -226,10 +285,12 @@ For an electrical contractor, the practical consequences are: on a $150,000-plus
 
 ## Certificates After the Work
 
-Queensland doesn't use a CCEW (that's NSW) or a Certificate of Electrical Safety (that's Victoria). The *Electrical Safety Regulation 2026* creates two documents:
+Queensland doesn't use a CCEW (that's NSW) or a Certificate of Electrical Safety/COES (that's Victoria). The *Electrical Safety Regulation 2026* creates two documents:
 
 - **Certificate of testing and safety (s208)** — the licensed electrical contractor who performs electrical work that must be tested gives the customer a certificate as soon as practicable after testing, stating the equipment tested, the date, the customer's name and address, and the contractor's licence number.
 - **Certificate of testing and compliance (s229)** — where the contractor connects an electrical installation to a source of electricity, they give the customer a certificate confirming the installation has been tested as electrically safe and complies with the wiring rules.
+
+Both carry the same penalties, and they are not trivial. Failing to give the certificate is **40 penalty units — $6,908** at the 2026–27 penalty unit value of $172.70 (which rose 3.5 per cent on 1 July 2026). Failing to keep a copy is **20 penalty units — $3,454**.
 
 In both cases the contractor must **keep a copy for at least five years**. That retention rule is the one that shows up in audits years later, when the job file has been archived or lost.
 
@@ -237,9 +298,9 @@ In both cases the contractor must **keep a copy for at least five years**. That 
 
 ## Common Compliance Issues
 
-**1. Nominating a QTP who leaves.** The licence is endorsed to a person. When they go, the endorsement has to be replaced — a licence with no active QTP is not a licence you can trade on.
+**1. Nominating a QTP who leaves.** The licence is endorsed to a person. When they go you have 30 days before automatic suspension and 60 before automatic cancellation — and a 10-business-day notification duty running alongside it (section 175, covered above). Diarise the day the QTP's employment ends, not the day the licence expires.
 
-**2. Insurance that excludes design and advice.** A $5M public liability certificate is not the same as a policy meeting s165. Check the four mandatory inclusions before you declare.
+**2. Insurance that excludes design and advice.** A $5M public liability certificate is not the same as a policy meeting the ESO's declaration. Check the four inclusions before you declare.
 
 **3. Assuming the ESO licence covers building work.** It doesn't. Solar mounting, roof penetrations and construction fit-outs need the QBCC licence, and the QBCC audits separately.
 
@@ -317,6 +378,14 @@ One year. The electrical contractor licence is issued for 12 months and it is yo
 **What is the QLeave levy for Queensland electrical contractors?**
 
 The QLeave building and construction levy is 0.575 per cent of the total cost of building and construction work worth $150,000 or more, excluding GST - $5.75 per thousand dollars. Of that, 0.125 per cent goes to Workplace Health and Safety Queensland, 0.1 per cent to Construction Skills Queensland and 0.35 per cent funds portable long service leave. It is paid before the development permit is issued or before work starts, and employers separately register workers and lodge service returns with QLeave.
+
+**Can a trust hold a Queensland electrical contractor licence?**
+
+No. An electrical contractor licence is only issued to an individual, a partnership or a corporation. It can be issued to the trustee of a trust, but only where the trustee is itself an individual, a partnership or a company, and only the trustee's name is listed on the licence. There is also no requirement for the licence holder to have an ABN, although any ABN supplied must match the legal name on the Australian Business Register.
+
+**What happens if the QTP or QBP on a Queensland contractor licence leaves?**
+
+You must notify the Electrical Safety Office within 10 business days if the QTP's work licence expires, is cancelled or suspended, or if the QTP or QBP stops being an employee, partner, director or executive officer, or stops being a nominee. The licence is automatically suspended if there is no endorsed QBP or QTP for 30 days, and automatically cancelled 30 days after that suspension if nobody has been endorsed - and a cancelled licence cannot be reinstated, so you must apply for a new one and receive a new licence number.
 
 ---
 
