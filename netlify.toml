@@ -240,3 +240,18 @@
   to = "/blog/best-job-management-software-electricians-australia/"
   status = 301
   force = true
+
+# Defensive: Google displays this page's SERP URL without the /blog/ segment
+# ("tradieautomate.com > ccew-nsw-7-day-deadline-rule"), and that path 404s.
+# Exact-match only, so it cannot loop the canonical /blog/ URL.
+[[redirects]]
+  from = "/ccew-nsw-7-day-deadline-rule"
+  to = "/blog/ccew-nsw-7-day-deadline-rule/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ccew-nsw-7-day-deadline-rule/"
+  to = "/blog/ccew-nsw-7-day-deadline-rule/"
+  status = 301
+  force = true
