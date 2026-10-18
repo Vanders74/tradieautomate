@@ -1,22 +1,26 @@
 ---
-title: "Honest ServiceM8 vs AroFlo 2026: Pros, Cons & Real Pricing"
-description: "ServiceM8 vs AroFlo decision guide: per-job vs per-user pricing, setup speed, compliance tools, and which platform fits crews of 1–40 vs larger ops. Includes current AUD pricing, real cost examples, and the scale where AroFlo actually earns its fee."
+title: "ServiceM8 vs AroFlo 2026: $29 vs $240/mo, Compared"
+description: "ServiceM8 from $29/mo for unlimited users. AroFlo from $80/user, 3-user minimum ($240/mo floor) plus a $1,450 Smart Start fee. Per-job vs per-user, what the $79 compliance gate really costs, and which suits a 3-person crew vs a 20-person one."
 pubDate: 'Apr 27 2026'
 updatedDate: 'Oct 18 2026'
 category: "Software Comparisons"
 heroImage: '/hero-servicem8-vs-aroflo.jpg'
 faq:
   - question: "What's cheaper: ServiceM8 or AroFlo?"
-    answer: "ServiceM8 is significantly cheaper for most businesses. ServiceM8 starts at $29/mo (flat team pricing, unlimited users) while AroFlo starts at $80/user/month with a three-user minimum. A 5-person crew on ServiceM8 Premium pays $149/mo total; the same crew on AroFlo starts at $400/mo. The gap widens as team size grows."
-  - question: "Which is better for a small trade business?"
-    answer: "ServiceM8 is better for small to mid-size trade businesses (1–50 staff). It's fast to set up, mobile-first, and the per-job pricing model prevents cost blowout as you grow. AroFlo is designed for larger operations (20–200+ staff) with complex requirements like multi-division management, asset maintenance, and sophisticated job costing."
-  - question: "Which has better compliance documentation features?"
-    answer: "Both platforms handle compliance documentation, but ServiceM8's custom form builder, enforced completion rules, and GPS-tagged photos make it particularly strong for Australian compliance-heavy trades (electrical, solar, plumbing, HVAC). ServiceM8 generates CCEW forms, CES documentation, and safety checklists directly from job data."
+    answer: "ServiceM8, on every plan and every headcount. ServiceM8 starts at $29/mo with unlimited users (GST inclusive); AroFlo's published rate is $80 per user per month with a three-user minimum — a $240/mo floor — plus a one-off Smart Start fee from $1,450, or $2,900 with implementation. A 5-person crew on ServiceM8 Premium pays $149/mo flat. The same crew on AroFlo starts at $400/mo plus setup. AroFlo's per-user rate slides down as you add licences, but it does not slide far enough to cross over in the 3-20 user range."
   - question: "Does AroFlo have a free trial?"
-    answer: "AroFlo does not offer a self-serve free trial. It uses a demo-based sales process requiring a sales conversation. ServiceM8 offers a 14-day free trial with full feature access, no credit card required, and you can be operational within a week."
+    answer: "Not a self-serve one. AroFlo's pricing page and every 'Get Started' button route to a demo request form, so you cannot spin up an account and test it without a sales conversation. ServiceM8 has a 14-day free trial, no credit card required, plus a permanently free plan capped at 30 jobs a month."
+  - question: "Does ServiceM8 generate CCEW or CES certificates?"
+    answer: "No. Neither ServiceM8 nor AroFlo lodges a compliance certificate with a regulator. ServiceM8 Electronic Forms capture the data and produce a PDF from the job card, and you still lodge in NSW through Service NSW eCert or in Victoria through ESV. Custom form building is included from the Growing plan at $79/mo — the $29 Starter plan can fill forms bought from the Form Store but cannot build them. If a vendor tells you it lodges your CCEW, ask which API."
+  - question: "Can ServiceM8 handle businesses with 30+ staff?"
+    answer: "Yes, and it is priced better there than AroFlo. Every paid ServiceM8 plan includes unlimited staff logins; the constraint is jobs per month, not headcount. Premium at $149 handles 500 new jobs a month and Premium Plus at $349 handles 1,500+, with extra jobs at 20c each. AroFlo at 30 users starts at $2,400/mo on the published rate before any volume discount."
+  - question: "What does each cost in year one?"
+    answer: "Budget the setup fee, not just the subscription. A 3-person crew on ServiceM8 Growing pays $948 in year one ($79 x 12). The same crew on AroFlo pays $2,880 in subscription ($240 x 12) plus $1,450 Smart Start, so $4,330 — around 4.5x. At 10 users it is $948-$1,788 on ServiceM8 against roughly $11,050 on AroFlo at the published rate plus setup. AroFlo's setup fee is currently advertised at 50% off as a spring promotion, which changes the arithmetic but not the ranking."
 ---
 
 **ServiceM8 and AroFlo** sit at different ends of the Australian trade software spectrum. ServiceM8 is purpose-built for small-to-mid-size trade businesses — fast to set up, mobile-first, and deliberately uncomplicated. AroFlo is a full field service management platform designed for larger, more complex operations — highly configurable, deeply featured, and significantly more expensive.
+
+**The money, up front:** ServiceM8 starts at **$29/mo with unlimited users**. AroFlo publishes **$80 per user/month with a three-user minimum** — a $240/mo floor — plus a one-off **$1,450 Smart Start** fee ($2,900 with implementation). For a 3-person crew that is $948 a year against about $4,330. The crossover, if it exists at all, is above 20 users.
 
 If you're comparing the two, the choice often comes down to where your business sits on the complexity spectrum and what you're willing to pay.
 
@@ -28,17 +32,18 @@ This comparison gives you the honest breakdown.
 
 | Feature | ServiceM8 | AroFlo |
 |---|---|---|
-| **Starting price (AUD/mo)** | From ~$29 (incl. GST) | $80/user (incl. GST), 3-user minimum |
-| **Pricing model** | Per-job volume (flat team cost) | Per-user, sliding down as you add users |
+| **Starting price (AUD/mo)** | $29 (GST inclusive) | $80/user, 3-user minimum ($240/mo floor) |
+| **Setup fee** | None | From $1,450 Smart Start, $2,900 with implementation |
+| **Pricing model** | Per-job volume (flat team cost, unlimited users) | Per-user, sliding down as you add users |
 | **Complexity** | Low — most businesses operational within a week | High — typically requires dedicated setup time |
 | **Best for** | Small to mid-size trades, 1–50 staff | Larger field service operations, 20–200+ staff |
-| **Mobile app** | Excellent iOS, solid Android | Functional mobile app |
-| **Compliance documentation** | Custom forms, enforced completion, GPS photos | Comprehensive compliance tools |
+| **Mobile app** | Native iOS and Android, built around a fast job card | Native iOS and Android, mirrors a deeper desktop workflow |
+| **Compliance documentation** | Electronic Forms from Growing ($79/mo); PDF output, lodgement stays with the regulator | Comprehensive compliance and permit-to-work tools |
 | **Job costing** | Functional | Detailed |
 | **Customisation** | Moderate | Extensive |
-| **Accounting integration** | Xero, MYOB and QuickBooks Online (native) | Xero, MYOB, other integrations |
-| **Support** | Australian-based | Australian-based |
-| **Free trial** | 14 days, no credit card | Demo-based (no self-serve trial) |
+| **Accounting integration** | Xero, MYOB and QuickBooks Online (native) | Xero, MYOB, QuickBooks and more |
+| **Card payments** | ServiceM8 Pay, 1.19%–1.89% + 30c by plan | Quoted separately |
+| **Free trial** | 14 days, no credit card, plus a free plan | Demo request only |
 
 **Bottom line:** For Australian trade businesses with up to 30–40 staff, ServiceM8 is the better choice in almost every scenario — lower cost, faster setup, excellent mobile experience, and strong compliance tools. AroFlo's complexity and cost is only justified for larger, more complex field service operations with specific customisation requirements that ServiceM8 can't accommodate.
 
@@ -60,15 +65,37 @@ Per-job pricing, all staff included, prices in AUD and inclusive of GST:
 
 ### AroFlo
 
-AroFlo publishes its starting rate: **$80 per user per month, inclusive of GST, with a minimum of three users** — a $240/month floor before add-ons. The per-user rate slides down as you add licences, so larger crews pay less per seat, and a setup/onboarding fee applies on top. AroFlo has been part of the Simpro Group since 2021, which is why its functionality increasingly overlaps simPRO's at the top end.
+AroFlo publishes one rate and one setup figure, and nothing else: **$80 per user per month with a minimum of three users**, so a sole trader pays for three licences ($240/month) whether they use them or not. The per-user rate slides down as you add licences, but AroFlo does not publish the tiers, so you cannot calculate your own bill above three users without a quote.
+
+Two things to pin down before you compare totals:
+
+- **GST treatment is not stated on AroFlo's pricing page.** If $80 is ex-GST, the three-user floor is $264/month including GST, not $240. Ask for the figure in writing.
+- **The setup fee is the published number.** AroFlo's own FAQ puts the one-off Smart Start cost at **$1,450 AUD, or $2,900 with implementation** — data imports, accounting integration and a training program. It is not part of the subscription, and it is non-refundable if you churn in month three. AroFlo is currently advertising **50% off setup** as a spring promotion, dated October 2026, which halves that number for as long as the promotion runs.
+
+AroFlo has been part of the Simpro Group since 2021, which is why its functionality increasingly overlaps simPRO's at the top end.
 
 ### The Cost Reality
 
 For a 10-person trade business doing 100 jobs per month:
-- **ServiceM8 Growing:** $79/month
-- **AroFlo:** $800/month at the published entry rate (10 users × $80), less whatever the sliding scale takes off, plus a setup fee
+- **ServiceM8 Growing:** $79/month, all 10 users included — $948/year
+- **AroFlo:** $800/month at the published entry rate (10 users × $80), less whatever the sliding scale takes off, plus $1,450 Smart Start in year one
 
-That's a $700+/month cost differential — roughly $8,400 a year — before considering implementation time and the steeper learning curve that comes with AroFlo's complexity.
+That's a **$700+/month** subscription differential — roughly **$8,400 a year** — and about **$10,100 in year one** once AroFlo's setup fee lands. Before considering implementation time and the steeper learning curve that comes with AroFlo's complexity.
+
+### Payments: the cost line neither page used to mention
+
+From **1 October 2026** the card networks stopped permitting Australian businesses to pass card processing fees on as a surcharge. If you have been recovering the fee from clients, that recovery is gone and the fee now sits permanently in your P&L. This is not a subscription cost but it lands in the same budget line, and it moves with the plan you choose:
+
+| ServiceM8 plan | Standard domestic card fee |
+|---|---|
+| Free | 1.89% + 30c |
+| Starter | 1.69% + 30c |
+| Growing | 1.49% + 30c |
+| Premium | 1.39% + 30c |
+| Premium Plus | 1.19% + 30c |
+| All plans, international & Amex | 3.70% + 30c |
+
+On $60,000 of card volume a year, moving from Starter (1.69%) to Premium Plus (1.19%) saves $300 in fees — which does not come close to the extra $3,840 a year the higher plan costs. The card rate is not a reason to climb plans; job volume is. ServiceM8 Pay requires a capped plan (Starter or above) and pays out next business day. AroFlo's payment processing is quoted separately with its own merchant arrangement, so ask for the rate in writing alongside the subscription quote.
 
 For most trade businesses in the sub-30-staff range, the additional cost of AroFlo is difficult to justify unless specific enterprise features are genuinely required.
 
@@ -82,7 +109,7 @@ ServiceM8 is designed for fast implementation. Most trade businesses are operati
 
 - Start the 14-day free trial with full feature access
 - Configure business profile, service types, and pricing
-- Build compliance form templates for your most common job types
+- Build compliance form templates for your most common job types (custom form building is included from the **Growing plan at $79/mo** — on Starter you can fill forms bought from the Form Store but not build them, which is the single most common plan mistake electricians make)
 - Connect Xero or MYOB
 - Add technicians and begin running jobs
 
@@ -102,13 +129,15 @@ Both platforms have compliance documentation capabilities, but they approach it 
 
 ### ServiceM8
 
-ServiceM8's compliance tooling is purpose-built for the way Australian licensed trades actually work:
+ServiceM8's compliance tooling is purpose-built for the way Australian licensed trades actually work — with two limits worth understanding before you buy it expecting a certificate printer:
 
-**Custom form builder.** Any compliance form — CES templates for electricians, plumbing compliance certificates, AS/NZS 5033 solar installation checklists, SWMS for high-risk work, ARCtick refrigerant records — can be built as a digital form. Field staff complete it on-site, on their phone, before the job is marked done.
+**Custom form builder.** Any compliance form — CES templates for electricians, plumbing compliance certificates, SWMS for high-risk work, ARCtick refrigerant records — can be built as a digital form. Field staff complete it on-site, on their phone, and the result is generated as a PDF attached to the job. Building forms requires the **Growing plan ($79/mo)**; forms bought from the Form Store are a one-off purchase and work on any plan, including Free. There is no pre-built CCEW or CES Certificate of Electrical Safety form shipped by ServiceM8.
 
-**Enforced completion.** Forms can be set as mandatory — no job close-out without every required field completed. This eliminates the most common compliance failure: paperwork that doesn't get done because no one was watching.
+**What it does not do: lodge the certificate.** ServiceM8 does not submit anything to a regulator in any state. In NSW the CCEW goes through Service NSW eCert; in Victoria the CES goes to ESV — with prescribed work triggering notification within 2 business days and a safety inspection inside 8. ServiceM8 captures the evidence (photos, test results, signatures, timestamps) and gives you the PDF. The lodgement is still your job, and no field service platform on the market does it for you.
 
-**GPS-tagged photos.** Photos taken through the ServiceM8 app attach to the specific job record with timestamp and GPS coordinates. For CER audits, insurance claims, or licensing reviews, photos have documented provenance.
+**Photos: timestamped and attached, not GPS-stamped.** Photos taken through the ServiceM8 app attach to the job record with a timestamp, visible in the job diary alongside the job's address and check-in data. The image file itself does not carry GPS coordinates — coordinate stamping comes from a third-party add-on (Photo GPS), which works on the iOS app and online dashboard but not the Android Lite app. If your documentation standard requires coordinates in the file, plan for the add-on and know the platform gap.
+
+**Enforced completion.** Forms can be set as mandatory and fields marked required, so the job cannot be closed out with the form half-done. This removes the most common compliance failure — paperwork that doesn't get done because no one was chasing it.
 
 This approach works well for the compliance-heavy trades that make up the majority of ServiceM8's user base — electricians, solar installers, plumbers, gas fitters, HVAC technicians.
 
@@ -140,11 +169,9 @@ For businesses with very sophisticated financial management requirements at the 
 
 ### ServiceM8
 
-The ServiceM8 iOS app is industry-leading. It was designed for trade field work — fast, intuitive, offline-capable, and built around the workflow of a technician doing compliance-heavy work at a customer's property.
+The ServiceM8 app is designed around a fast job card: open the job, take photos, complete the form, invoice, take payment, close out — in a few taps. It works offline and syncs when the phone reconnects, which matters on sites with no signal.
 
-Field staff consistently report that the ServiceM8 mobile app is easy to learn, fast to use, and does everything they need without complexity.
-
-The Android version is functional but has historically been less polished than iOS — worth noting for Android-heavy teams.
+Both platforms now ship a native app on iOS and Android, so this is no longer a platform-parity argument. The difference is depth versus speed: AroFlo's app exposes more of the platform (job costing lines, asset records, timesheets), ServiceM8's exposes less and loads faster. If your technicians only need to complete jobs and capture evidence, the lighter app is the easier one to get adopted. If you want field labour and materials landing straight into job costing as they happen, that needs the heavier one.
 
 ### AroFlo
 
@@ -190,7 +217,7 @@ ServiceM8 is the better choice for:
 - **Compliance-heavy licensed trades** — electrical, plumbing, solar, gas, HVAC
 - **Fast implementation** — businesses that need to be operational quickly, not in 3 months
 - **Mobile-first teams** — field staff who need an excellent, fast mobile experience
-- **Australian-specific compliance workflows** — CES, plumbing compliance certificates, CER documentation
+- **Australian-specific compliance workflows** — CES and CCEW-style form capture, plumbing compliance certificates, safety checklists (capture and PDF, not lodgement)
 - **Growing businesses** — where per-job pricing prevents the cost blowout of per-user models
 
 ---
@@ -224,21 +251,25 @@ Start with ServiceM8's 14-day free trial. Full features, no credit card, operati
 
 ## FAQ
 
+### What's cheaper: ServiceM8 or AroFlo?
+
+ServiceM8, on every plan and every headcount. ServiceM8 starts at $29/mo with unlimited users (GST inclusive); AroFlo's published rate is $80 per user per month with a three-user minimum — a $240/mo floor — plus a one-off Smart Start fee from $1,450, or $2,900 with implementation. A 5-person crew on ServiceM8 Premium pays $149/mo flat. The same crew on AroFlo starts at $400/mo plus setup. AroFlo's per-user rate slides down as you add licences, but it does not slide far enough to cross over in the 3-20 user range.
+
 ### Does AroFlo have a free trial?
 
-AroFlo does not offer a self-serve free trial in the same way ServiceM8 does. AroFlo typically uses a demo-based sales process, which makes direct comparison more difficult without committing to a sales conversation.
+Not a self-serve one. AroFlo's pricing page and every 'Get Started' button route to a demo request form, so you cannot spin up an account and test it without a sales conversation. ServiceM8 has a 14-day free trial, no credit card required, plus a permanently free plan capped at 30 jobs a month.
 
-### What size business is AroFlo designed for?
+### Does ServiceM8 generate CCEW or CES certificates?
 
-AroFlo is best suited for businesses with 20+ field technicians that have complex operational requirements — asset-intensive maintenance, multi-division management, sophisticated project-based field service. At smaller scales, the complexity and cost aren't warranted.
-
-### How long does it take to implement ServiceM8?
-
-Most trade businesses are fully operational on ServiceM8 within a week. The 14-day free trial is sufficient to configure the platform, build compliance templates, and run real jobs through the system before committing. ServiceM8 offers onboarding assistance and their support team is Australia-based.
+No. Neither ServiceM8 nor AroFlo lodges a compliance certificate with a regulator. ServiceM8 Electronic Forms capture the data and produce a PDF from the job card, and you still lodge in NSW through Service NSW eCert or in Victoria through ESV. Custom form building is included from the Growing plan at $79/mo — the $29 Starter plan can fill forms bought from the Form Store but cannot build them. If a vendor tells you it lodges your CCEW, ask which API.
 
 ### Can ServiceM8 handle businesses with 30+ staff?
 
-Yes. ServiceM8's Growing and Premium plans handle businesses with 30+ staff comfortably. The per-job pricing model is particularly economical for larger teams — a 30-person business on ServiceM8 Premium Plus ($349) pays dramatically less than an equivalent team on AroFlo's per-user pricing.
+Yes, and it is priced better there than AroFlo. Every paid ServiceM8 plan includes unlimited staff logins; the constraint is jobs per month, not headcount. Premium at $149 handles 500 new jobs a month and Premium Plus at $349 handles 1,500+, with extra jobs at 20c each. AroFlo at 30 users starts at $2,400/mo on the published rate before any volume discount.
+
+### What does each cost in year one?
+
+Budget the setup fee, not just the subscription. A 3-person crew on ServiceM8 Growing pays $948 in year one ($79 x 12). The same crew on AroFlo pays $2,880 in subscription ($240 x 12) plus $1,450 Smart Start, so $4,330 — around 4.5x. At 10 users it is $948-$1,788 on ServiceM8 against roughly $11,050 on AroFlo at the published rate plus setup. AroFlo's setup fee is currently advertised at 50% off as a spring promotion, which changes the arithmetic but not the ranking.
 
 ---
 
