@@ -22,7 +22,7 @@ faq:
 
 Getting the apprentice ratio wrong is not a paperwork problem. It is a breach of the supervision requirements made under your state's electrical safety legislation, it can suspend or cancel a licence (in NSW it is a condition of the electrician's licence itself), and in a serious incident it exposes the business and the supervising electrician personally. Underpayment is a separate problem again, enforced under the **Fair Work Act 2009**.
 
-**An apprentice ratio is the maximum number of apprentices one licensed electrician may supervise at the same time, at a given level of supervision.** It is a per-supervisor cap, not a headcount formula for the business — which is why the old "one apprentice per tradesperson, scaling 2:2 and 3:3" rule of thumb fails in most states. Exceeding the ratio is a safety breach, and it can also cost you incentive eligibility.
+**An apprentice ratio is the maximum number of apprentices one licensed electrician may supervise at the same time, at a given level of supervision.** It is a per-supervisor cap, not a headcount formula for the business — which is why the old "one apprentice per tradesperson, scaling 2:2 and 3:3" rule of thumb fails in most states.
 
 This guide maps each state's actual supervision ratios, the federal incentives available in 2026, state-specific training subsidies, and the real net cost of hiring your first electrical apprentice.
 
