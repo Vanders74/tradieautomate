@@ -2,7 +2,7 @@
 title: "3-Phase Power Upgrade Cost Australia 2026: $3K–$10K"
 description: "3-phase power upgrade in Australia 2026: $3K–$10K installed, the DNSP application that decides the timeline, and the AS/NZS 3000 rules that get jobs failed."
 pubDate: "Aug 2026"
-updatedDate: "Oct 18 2026"
+updatedDate: "Oct 19 2026"
 category: "Compliance"
 breakdown:
   - title: "Assess the load"
@@ -18,7 +18,7 @@ breakdown:
   - title: "Coordinate the meter"
     summary: "Avoid unmetered 3-phase — book the meter near the connection."
   - title: "Test + issue the cert"
-    summary: "Section 8 testing, then the CCEW within 7 days (VIC switchboard work is prescribed: notify ESV in 2 business days)."
+    summary: "Section 8 testing, then the certificate — CCEW within 7 days in NSW; in VIC a switchboard change is prescribed, so the COES is signed within 4 business days and notified to ESV within 2 of signing."
     href: "/blog/electrical-switchboard-upgrade-cost-australia-2026"
     hrefLabel: "Switchboard cost guide →"
 heroImage: "/hero-3-phase-power-upgrade-guide.jpg"
@@ -42,7 +42,7 @@ A 3-phase power upgrade costs $3,000–$10,000 in Australia, and getting it wron
 
 ## What Is a 3-Phase Power Upgrade?
 
-A 3-phase power upgrade converts a property's electrical supply from single-phase (one active conductor at 230V to neutral) to 3-phase (three active conductors at 230V each, 120° apart, 400V nominal between phases — commonly quoted on site as 415V). Under **AS/NZS 3000:2018**, this requires a new main switchboard rated for the maximum demand calculation, RCD protection on every final sub-circuit (Clause 2.6), and a compliance certificate — CCEW in NSW, CES in Victoria, certificate of testing and compliance in Queensland — issued by a licensed electrical contractor. The upgrade enables 30kW of solar inverter capacity, 22kW three-phase EV charging, and simultaneous operation of high-draw equipment without voltage drop.
+A 3-phase power upgrade converts a property's electrical supply from single-phase (one active conductor at 230V to neutral) to 3-phase (three active conductors at 230V each, 120° apart, 400V nominal between phases — commonly quoted on site as 415V). Under **AS/NZS 3000:2018**, this requires a new main switchboard rated for the maximum demand calculation, RCD protection on every final sub-circuit (Clause 2.6), and a compliance certificate — CCEW in NSW, COES in Victoria, certificate of testing and compliance in Queensland — issued by a licensed electrical contractor. The upgrade enables 30kW of solar inverter capacity, 22kW three-phase EV charging, and simultaneous operation of high-draw equipment without voltage drop.
 
 ---
 
@@ -125,7 +125,7 @@ Replace or upgrade the existing switchboard to comply with **Clause 2.10** (swit
 
 **RCD protection (Clause 2.6):** In domestic and residential installations, 30mA RCDs are required on all final sub-circuits (Clause 2.6.3.2.2) with no exceptions, installed at the switchboard from which the sub-circuit originates. For non-domestic work the obligation attaches to socket-outlet and lighting circuits ≤32A plus fixed-wired equipment up to 32A that presents an increased risk of shock. Critically for this job: **Clause 2.6.3.2.5** requires RCD protection to be brought up to those standards whenever a switchboard is replaced or a final sub-circuit is altered — you cannot re-use an unprotected board on a 3-phase changeover. Individual RCBOs per circuit aren't mandated, but they are industry best practice because a single shared RCD takes the whole board out on one fault.
 
-**IP rating (Clause 2.10 / Section 1):** IP2X minimum indoors against contact with live parts. Outdoors is stricter than most tradies assume: equipment needs **at least IP33**, except meter panels which are IP23-rated, and there's a 30° triangular zone under an eave or veranda where IP2X equipment is still acceptable. Inside a meter box, no IP rating applies.
+**IP rating (Clause 2.10 / Section 1):** IP2X minimum indoors against contact with live parts. Outdoors is stricter than most tradies assume: equipment needs **at least IP33**, except meter panels which are IP23-rated, and there's a 30° triangular zone under an eave or veranda where IP2X equipment is still acceptable.
 
 **Clearances (Clause 2.10):** 1.0m clear from accessible faces of a closed switchboard, and 600mm unobstructed around the board with doors open or equipment racked out. Switch rooms need more again — 2.2m door height, 0.9m door width, and two egress paths above 800A or past 3m in length.
 
@@ -158,7 +158,7 @@ After installation, mandatory testing per **AS/NZS 3000:2018 Section 8** (8.2 in
 
 Then, issue the state-specific compliance certificate:
 - **NSW:** CCEW (Certificate of Compliance Electrical Work) — required under the Gas and Electricity (Consumer Safety) Regulation 2018 (s37A) and lodged to Building Commission NSW via the eCert portal within 7 days of the safety and compliance test
-- **Victoria:** CES (Certificate of Electrical Safety) — mandatory under the Electricity Safety Act 1998, administered by Energy Safe Victoria. A switchboard change is **prescribed** electrical work, so an inspection by a Licensed Electrical Inspector is required: completed within 8 business days, and the certificate electronically notified to ESV within 2 business days of completing the certificate. Copies go to the customer, distributor and ESV within 16 calendar days of completion; the customer copy is due within 4 days of the inspection being signed off. The 30-day figure that circulates in the trade applies only to non-prescribed work.
+- **Victoria:** COES (Certificate of Electrical Safety) — mandatory under the Electricity Safety Act 1998, administered by Energy Safe Victoria. A switchboard change is **prescribed** electrical work, so an independent Licensed Electrical Inspector must inspect it. ESV's sequence: the responsible person completes and signs the COES within 4 business days of finishing the work, gives the electronic notification to ESV within 2 business days of completing the certificate, and the inspection must happen within 8 business days of the work being completed. The inspector lodges their Certificate of Inspection and returns the COES to the responsible person within 4 business days, and the responsible person then distributes all copies within 4 business days of receiving it. Keep your copy for 3 years. The 30-day figure that circulates in the trade is the non-prescribed deadline.
 - **Queensland:** Certificate of testing and compliance (ES Regulation 2013 s227) — issued to the customer as soon as practicable after the installation is connected, copy retained five years; the connection itself is lodged as an EWR
 - **South Australia:** electronic Certificate of Compliance (eCoC) — submitted to the Office of the Technical Regulator within 30 days of completing the work, and required before SA Power Networks will connect
 - **Western Australia:** Notice of Completion — administered by Building and Energy
@@ -194,7 +194,7 @@ When a state electrical inspector audits a 3-phase upgrade, these are the clause
 
 **Section 8 — Verification:**
 - All mandatory test results recorded and signed (8.2 inspection, 8.3 tests)
-- Compliance certificate issued on time — 7 days from test in NSW, prescribed-work CES times in VIC (state-dependent)
+- Compliance certificate issued on time — 7 days from the test in NSW; in VIC the prescribed-work COES clock (4 days to sign, 2 days to notify ESV, 8 days to inspection)
 - Copy provided to the customer and filed with the regulator
 
 A **single missing RCD on one final sub-circuit** will fail an inspection in any state. The defect notice process costs the contractor time and reputation — and in NSW, repeat non-compliance can trigger a licence review by Building Commission NSW under the Gas and Electricity (Consumer Safety) Act 2017.
@@ -214,7 +214,7 @@ Ausgrid covers Sydney, Central Coast, and Hunter. Endeavour Energy covers Wester
 
 ### VIC — Powercor, AusNet Services, United Energy, CitiPower, Jemena
 
-Five DNSPs cover different parts of Victoria. A switchboard change is prescribed electrical work, so a prescribed CES with an inspector's sign-off is required from Energy Safe Victoria.
+Five DNSPs cover different parts of Victoria. A switchboard change is prescribed electrical work, so a prescribed COES with an inspector's sign-off is required under Energy Safe Victoria's scheme.
 
 - **Application:** Via the DNSP's online portal. New connections require a Registered Electrical Contractor (REC) number
 - **Metering:** Smart meter coordinated through the retailer; Victorian smart meters are already 3-phase capable in many cases
@@ -267,9 +267,9 @@ The existing 16mm² 2-core + earth consumer mains carries single-phase fine. But
 
 Some installers put RCDs on every sub-circuit but leave the main switch side unprotected. AS/NZS 3000:2018 Clause 2.6.3.2.2 requires 30mA RCD protection on **all final sub-circuits** in domestic and residential installations — that includes any circuit downstream of the main switch. The meter isolator doesn't count as a sub-circuit, but anything after it does. And because a 3-phase upgrade always replaces the board, Clause 2.6.3.2.5 applies: RCD protection has to be brought up to the current requirement, not matched to whatever the old single-phase board had.
 
-### 4. CCEW/CES Not Filed Within the Deadline
+### 4. CCEW/COES Not Filed Within the Deadline
 
-NSW requires the CCEW to be lodged within 7 days of the safety and compliance test (Gas and Electricity (Consumer Safety) Regulation 2018, s37A) via the Building Commission NSW eCert portal. Victoria is where this goes wrong most often: a 3-phase upgrade replaces the switchboard, which is **prescribed** work, so it needs an inspector and a prescribed CES — notification to ESV within 2 business days of completing the certificate, inspection within 8 business days, copies out within 16 calendar days. Contractors who budget on the 30-day non-prescribed figure miss every one of those windows. Missing a deadline triggers an automatic audit flag in the regulator's system, and the audit looks at the entire job — not just the late certificate.
+NSW requires the CCEW to be lodged within 7 days of the safety and compliance test (Gas and Electricity (Consumer Safety) Regulation 2018, s37A) via the Building Commission NSW eCert portal. Victoria is where this goes wrong most often: a 3-phase upgrade replaces the switchboard, which is **prescribed** work, so it needs an inspector and a prescribed COES — signed within 4 business days of finishing the work, notified to ESV within 2 business days of the certificate being completed, inspected within 8 business days, then copies distributed within 4 business days of the inspector returning it. Contractors who budget on the 30-day non-prescribed figure miss every one of those windows. Missing a deadline triggers an automatic audit flag in the regulator's system, and the audit looks at the entire job — not just the late certificate.
 
 ### 5. No Future-Proofing
 
