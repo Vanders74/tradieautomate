@@ -1,5 +1,5 @@
 ---
-title: 'CCEW NSW 7-Day Deadline: eCert Lodgement Rules & Fines'
+title: 'When Is a CCEW Required in NSW? 7-Day Deadline & Fines'
 description: 'A CCEW must be lodged on BCNSW eCert within 7 days of the safety and compliance test. Triggers, who lodges, and the s37A fines ($2,200 / $4,400).'
 pubDate: 'May 20 2026'
 updatedDate: 'Oct 19 2026'
