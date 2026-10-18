@@ -1,8 +1,8 @@
 ---
-title: 'VIC Electrical Contractor Licence 2026: $734 Fee, 5-Year Term'
-description: 'A Victorian REC application costs $734.30 and the registration runs five years, not annually. Supervisor rules, $5M insurance, CES deadlines, solar layers.'
+title: 'VIC Electrical Contractor Licence 2026: $734, 5-Year Term'
+description: 'A Victorian REC application costs $734.30 and the registration runs five years, not annually. Supervisor rules, $5M insurance, COES deadlines, solar layers.'
 pubDate: 'Jul 19 2026'
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 19 2026'
 category: "Compliance"
 breakdown:
   - title: "Hold the A-Class licence"
@@ -17,10 +17,10 @@ breakdown:
     hrefLabel: "Insurance guide →"
   - title: "Apply to ESV"
     summary: "Submit the REC application with all nominee forms and certificates."
-  - title: "Issue a CES per job"
-    summary: "Notify ESV within 2 business days via ESVConnect — every install, no exceptions."
+  - title: "Issue a COES per job"
+    summary: "Sign the COES within 4 business days, then notify ESV via ESVConnect within 2."
     href: "/blog/certificate-electrical-safety-ces-victoria-guide-2026"
-    hrefLabel: "CES Victoria guide →"
+    hrefLabel: "COES Victoria guide →"
   - title: "Renew + manage solar layers"
     summary: "Five-year registration term, plus CEC and VEU accreditation for solar."
 heroImage: '/hero-vic-electrical-contractor-licence-guide-2026.jpg'
@@ -35,12 +35,12 @@ faq:
   - question: "How does Victorian licensing interact with CEC accreditation?"
     answer: "They're separate obligations managed through different organisations. Your REC registration from ESV authorises you to carry out electrical contracting work in Victoria. CEC accreditation from the Clean Energy Council authorises you to install solar PV systems eligible for STC rebates under the federal scheme. Both are required for residential solar work. The cycles differ — CEC accreditation renews annually with CPD, the REC renews every five years — which is why they drift apart."
   - question: "What is the fastest way to have my REC application rejected?"
-    answer: "Submitting incomplete documentation. The most common rejection reasons are: insurance certificate of currency not matching the exact entity name, missing the Business Nominee consent form, LEA certificate not included, or the REC Business Course certificate not submitted. Prepare all documents before submitting — ESV processing is sequential and incomplete applications extend the timeline significantly. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling."
+    answer: "Submitting incomplete documentation. The most common rejection reasons are: insurance certificate of currency not matching the exact entity name, missing the Business Nominee consent form, LEA certificate not included, or the REC Business Course certificate not submitted. prepare all documents before submitting. ESV processing is sequential, and an incomplete application can add weeks to the timeline."
 ---
 
 Running an electrical contracting business in Victoria means operating under one of Australia's most actively enforced electrical safety regimes. Energy Safe Victoria (ESV) has been increasing compliance activity across the state — particularly for solar and battery installations — and the Registered Electrical Contractor (REC) framework is the foundation of everything you do legally in the Victorian market.
 
-This guide covers the complete REC registration process for 2026: what it is, who needs it, the REC course requirement, technical and business nominee obligations, insurance, Certificate of Electrical Safety requirements, and the solar-specific compliance obligations that Victorian electrical businesses need to manage.
+This guide covers the complete REC registration process for 2026: what it is, who needs it, the REC course requirement, technical and business nominee obligations, insurance, Certificate of Electrical Safety (COES) requirements, and the solar-specific compliance obligations that Victorian electrical businesses need to manage.
 
 ---
 
@@ -48,9 +48,9 @@ This guide covers the complete REC registration process for 2026: what it is, wh
 
 Energy Safe Victoria (ESV) is the independent statutory authority responsible for electrical and gas safety in Victoria. It operates under the *Electricity Safety Act 1998 (Vic)* and the *Gas Safety Act 1997 (Vic)*, and issues licences, registers contractors, sets safety standards, and enforces compliance.
 
-For electrical contractors, ESV is the single agency that handles everything — licensing, registration, compliance certificate (CES) lodgement oversight, and enforcement. Unlike South Australia's dual-body structure, in Victoria your regulatory relationship for electrical contracting sits entirely with ESV.
+For electrical contractors, ESV is the single agency that handles everything — licensing, registration, Certificate of Electrical Safety (COES) lodgement oversight, and enforcement. Unlike South Australia's dual-body structure, in Victoria your regulatory relationship for electrical contracting sits entirely with ESV.
 
-ESV has also significantly increased its audit activity in recent years, with a particular focus on solar installation compliance — CES lodgement timeliness, system documentation, and AS/NZS 5033 and AS/NZS 5139 adherence. This is not a soft compliance environment.
+ESV has also significantly increased its audit activity in recent years, with a particular focus on solar installation compliance — COES lodgement timeliness, system documentation, and AS/NZS 5033 and AS/NZS 5139 adherence. This is not a soft compliance environment.
 
 ---
 
@@ -59,7 +59,7 @@ ESV has also significantly increased its audit activity in recent years, with a 
 The Registered Electrical Contractor (REC) registration is the licence that authorises a business entity to carry out electrical contracting work in Victoria. Without a current REC registration from ESV, you cannot legally:
 
 - Contract or quote for electrical installation or maintenance work in Victoria
-- Issue Certificates of Electrical Safety (CES) for completed electrical work
+- Issue Certificates of Electrical Safety (COES) for completed electrical work
 - Employ or direct licensed electricians to carry out work on your behalf
 - Accept payment for electrical contracting work
 
@@ -148,11 +148,11 @@ See our [electrical contractor insurance guide](/blog/electrical-contractor-insu
 
 ---
 
-## Certificate of Electrical Safety (CES) — Your Post-Installation Obligation
+## Certificate of Electrical Safety (COES) — Your Post-Installation Obligation
 
-The Certificate of Electrical Safety (CES) is a mandatory compliance document that Victorian RECs must issue for all notifiable electrical installation work. It is one of your most critical ongoing obligations — and ESV enforces compliance rigorously.
+The Certificate of Electrical Safety (COES) is a mandatory compliance document that Victorian RECs must issue for all electrical installation work. It is one of your most critical ongoing obligations — and ESV enforces compliance rigorously.
 
-**When a CES is required:**
+**When a COES is required:**
 - Solar PV system installation (every job — no exceptions)
 - EV charger installation (fixed electrical installation)
 - Switchboard installation or upgrade
@@ -160,17 +160,20 @@ The Certificate of Electrical Safety (CES) is a mandatory compliance document th
 - Air conditioning installation
 - Any alteration to existing fixed wiring
 
-**Key CES rules and deadlines:**
-- Certificate of compliance details must be electronically notified to ESV within **2 business days** of completing the work
-- For **prescribed** work (consumer mains, switchboards, main earthing, solar and battery systems), a Licensed Electrical Inspector must inspect within **8 business days** of completion, notify ESV within **4 business days** of the inspection, and the REC must give the customer a copy within **4 days** of the inspection being completed
-- For **non-prescribed** work (power points, lighting, air conditioning, hot water), the REC must provide the customer with a copy of the CES within **30 calendar days**
+**Key COES rules and deadlines (prescribed work):**
+- The responsible person completes and signs the COES within **4 business days** of completing the work
+- Electronic notification to ESV must follow within **2 business days** of completing the certificate — not 2 days from the job itself
+- A Licensed Electrical Inspector must inspect within **8 business days** of completion of the work
+- The inspector notifies ESV within **4 business days** of the inspection and returns the completed COES to the responsible person within the same 4 business days
+- Copies must reach the customer, the distribution business and ESV within **16 calendar days** of completion of the work, and the responsible person keeps their copy for **3 years**
+- For **non-prescribed** work (power points, lighting, air conditioning, hot water), the REC must give the customer a copy of the COES within **30 calendar days**
 - Lodged through the **ESVConnect** portal (paper certificates can only be lodged by phone on 1300 360 366)
 - Must include sufficient job description to identify the work — generic descriptions like "electrical installation" don't meet ESV's requirements
-- Only a licensed REC can issue a CES — individual employees cannot issue one in their own name
+- Only a licensed REC can issue a COES — individual employees cannot issue one in their own name
 
-The "28 days" figure that circulates in the trade is not the deadline ESV applies. The clock that catches contractors is the 2-business-day notification, because it runs from job completion while the certificate paperwork often waits for the weekend. Missing it is a breach of the *Electricity Safety Act 1998* and exposes you to fines, licence suspension or cancellation.
+The clock that catches contractors is the 4-then-2 sequence: the certificate itself is signed within 4 business days of the job, and the ESV notification runs from that signature. Leave the certificate until the weekend and the notification deadline moves with it — but the 8-business-day inspection window and the 16-calendar-day distribution deadline do not. Missing any of them is a breach of the *Electricity Safety Act 1998* and exposes you to fines, licence suspension or cancellation.
 
-For a complete guide to CES requirements — including what the document must contain for solar jobs and how to lodge through ESV Connect — see our [Certificate of Electrical Safety Victoria guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/).
+For a complete guide to COES requirements — including what the document must contain for solar jobs and how to lodge through ESVConnect — see our [Certificate of Electrical Safety Victoria guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/).
 
 ---
 
@@ -226,18 +229,18 @@ All solar work in Victoria must comply with:
 - **AS/NZS 5139:2019** — Electrical Installations — Safety of Battery Systems (for battery storage)
 - **AS/NZS 3000:2018** — Wiring Rules (for all electrical installation work)
 
-ESV has been citing non-compliance with these standards in enforcement action against Victorian solar installers. Document your compliance with each standard for every solar job — your CES description should reference the relevant inverter model, system capacity, and applicable standards.
+ESV has been citing non-compliance with these standards in enforcement action against Victorian solar installers. Document your compliance with each standard for every solar job — your COES description should reference the relevant inverter model, system capacity, and applicable standards.
 
 ### Network Notification (DNSP)
 
-Grid-connected solar systems in Victoria require notification to the relevant Distribution Network Service Provider (DNSP) — AusNet Services, Jemena, CitiPower, Powercor, or United Energy depending on location. The CES lodgement with ESV does not substitute for DNSP notification — both are required. Many Victorian RECs miss the DNSP notification step, particularly on smaller jobs.
+Grid-connected solar systems in Victoria require notification to the relevant Distribution Network Service Provider (DNSP) — AusNet Services, Jemena, CitiPower, Powercor, or United Energy depending on location. The COES lodgement with ESV does not substitute for DNSP notification — both are required. Many Victorian RECs miss the DNSP notification step, particularly on smaller jobs.
 
 ---
 
 ## Common Compliance Issues for Victorian Electrical Businesses
 
-**1. CES lodgement delays**
-The 2-business-day electronic notification is strictly enforced and the 30-day customer copy deadline is a backstop, not the standard. With busy job schedules, it's easy for individual jobs to slip through — particularly at the end of financial year. Build CES creation into your job completion workflow, not as a separate admin task.
+**1. COES lodgement delays**
+The 4-business-day signing window and the 2-business-day notification that follows it are strictly enforced, and the 16-calendar-day distribution deadline for prescribed work is the real backstop — 30 days applies only to the non-prescribed customer copy. With busy job schedules, it's easy for individual jobs to slip through — particularly at the end of financial year. Build COES creation into your job completion workflow, not as a separate admin task.
 
 **2. Technical Nominee licence lapse**
 If the person holding your Technical Nominee role doesn't renew their personal A-Class licence, your REC is at risk. The REC renewal and the personal licence renewal may fall at different times — track them separately.
@@ -246,7 +249,7 @@ If the person holding your Technical Nominee role doesn't renew their personal A
 If you trade under a business name and your insurance certificate doesn't exactly match that name, your REC application will be returned. Get this right before submitting — check the exact entity name on all documents.
 
 **4. DNSP notification omissions**
-Many Victorian solar installers lodge the CES promptly but forget the DNSP notification. Both are required. Build DNSP notification as a separate step in your solar job completion checklist.
+Many Victorian solar installers lodge the COES promptly but forget the DNSP notification. Both are required. Build DNSP notification as a separate step in your solar job completion checklist.
 
 **5. CEC accreditation lapse**
 CEC and REC renewals fall at different times and are managed through different portals. They're easy to let drift apart. Set both as calendar reminders — a lapsed CEC accreditation means no STC assignments, which affects every residential solar job you quote.
@@ -258,14 +261,14 @@ Some Victorian solar businesses assume their CEC accreditation covers VEU progra
 
 ## Managing Compliance as a Victorian REC
 
-Victoria's layered compliance framework — ESV registration, CES lodgement, CEC accreditation, DNSP notification, VEU accreditation — requires systematic management. The businesses that run into compliance trouble aren't typically ignoring the rules; they're managing the obligations across too many places to track reliably.
+Victoria's layered compliance framework — ESV registration, COES lodgement, CEC accreditation, DNSP notification, VEU accreditation — requires systematic management. The businesses that run into compliance trouble aren't typically ignoring the rules; they're managing the obligations across too many places to track reliably.
 
-The most effective approach is to build compliance milestones into your job management workflow. For every solar job: quote approval → job scheduled → DNSP notification sent → installation complete → CES notified to ESV within 2 business days → STC claim submitted. Each step should be a trackable task, not a remembered obligation.
+The most effective approach is to build compliance milestones into your job management workflow. For every solar job: quote approval → job scheduled → DNSP notification sent → installation complete → COES signed within 4 business days → ESV notified within 2 business days of signing → STC claim submitted. Each step should be a trackable task, not a remembered obligation.
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — manage REC renewal reminders, CES lodgement tracking, DNSP notification steps, and compliance deadlines alongside your job workflow.
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — manage REC renewal reminders, COES lodgement tracking, DNSP notification steps, and compliance deadlines alongside your job workflow.
 
 > **Have a compliance question right now?**
-> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CES lodgement, ESV audit requirements, AS/NZS 5033 & 5139 compliance, VEU program requirements, and Victorian electrical safety rules — no login required.
+> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on COES lodgement, ESV audit requirements, AS/NZS 5033 & 5139 compliance, VEU program requirements, and Victorian electrical safety rules — no login required.
 
 ---
 
@@ -275,7 +278,7 @@ The most effective approach is to build compliance milestones into your job mana
 |---|---|---|
 | A-Class electrician's licence (personal) | Energy Safe Victoria (ESV) | 5 years |
 | Registered Electrical Contractor (REC) | Energy Safe Victoria (ESV) | 5 years (renewable up to 5 at a time) |
-| Certificate of Electrical Safety (per job) | Self-issued, lodged via ESVConnect | Per job — 2 business days to notify ESV |
+| Certificate of Electrical Safety (COES, per job) | Self-issued, lodged via ESVConnect | Per job — signed within 4 business days, ESV notified within 2 business days of signing |
 | DNSP notification (solar) | Relevant network distributor | Per solar job |
 | CEC Accreditation (solar) | Clean Energy Council | Annual + CPD |
 | VEU Accreditation (optional VEEC scheme) | Essential Services Commission (ESC) | Periodic |
