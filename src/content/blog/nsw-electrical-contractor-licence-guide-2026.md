@@ -1,8 +1,8 @@
 ---
-title: 'NSW Electrical Contractor Licence 2026: Step-by-Step Application Guide for Sparkies'
+title: 'NSW Electrical Contractor Licence 2026: Fees & 11-Week Wait'
 description: "How to get your NSW electrical contractor licence in 2026: licence types, real FY26–27 fees, the 11-week wait, HBC insurance and Service NSW steps."
 pubDate: 'Jul 20 2026'
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 19 2026'
 category: "Compliance"
 breakdown:
   - title: "Qualify"
