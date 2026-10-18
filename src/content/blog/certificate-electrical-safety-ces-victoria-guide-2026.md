@@ -1,9 +1,9 @@
 ---
-title: 'Certificate of Electrical Safety (CES) Victoria Guide: When It''s Required, Cost & Penalties'
-description: "Certificate of Electrical Safety Victoria — 4 business days to lodge a prescribed COES, 1 month for non-prescribed. $39.70 and $9.00 fees, 2026 penalty scale."
+title: 'Certificate of Electrical Safety Victoria: COES Rules & Fees'
+description: "Certificate of Electrical Safety Victoria — 4 business days from inspection for a prescribed COES, 1 month otherwise. $39.70 and $9.00 fees, real penalties."
 shortDescription: 'Certificate of Electrical Safety (COES) Victoria — the two deadlines, real fees and penalties. Compliance guide for Victorian electrical contractors.'
 pubDate: 'May 15 2026'
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 19 2026'
 category: "Compliance"
 breakdown:
   - title: "Know when it's required"
@@ -32,7 +32,9 @@ faq:
   - question: "Does a solar installation require a Certificate of Electrical Safety in Victoria?"
     answer: "Yes. Solar PV and battery work is electrical installation work, so a COES is required, and most domestic solar work is prescribed — meaning an independent Licensed Electrical Inspector must inspect it before the COES can be issued. The COES does not notify the distribution network (AusNet, Jemena, United Energy, CitiPower or Powercor) of the connection; that is a separate obligation to a separate body."
   - question: "What happens if an electrician doesn't issue a COES in Victoria?"
-    answer: "Failing to complete a COES and give a copy to the customer and Energy Safe Victoria is an offence under s45A of the Electricity Safety Act 1998. The maximum is 60 penalty units in court — $12,546 for an individual at the 2026–27 penalty unit value of $209.10 — and Energy Safe can issue an on-the-spot infringement of 6 penalty units ($1,254.60) for an individual or 30 penalty units ($6,273) for a body corporate. There is no 'late fee'; the exposure is the infringement or the prosecution. Repeat failures can also lead to licence suspension or cancellation."
+    answer: "Failing to complete a COES and give a copy to the customer and Energy Safe Victoria is an offence under s45A of the Electricity Safety Act 1998. The maximum is 60 penalty units in court — $12,546 for an individual at the 2026–27 penalty unit value of $209.10 — and Energy Safe can issue an on-the-spot infringement of 6 penalty units ($1,254.60), which is the same amount for a body corporate — s45A has no corporate multiplier. There is no 'late fee'; the exposure is the infringement or the prosecution. Repeat failures can also lead to licence suspension or cancellation."
+  - question: "Within how many days after completing the work does a licensed electrician have to give a certificate of compliance?"
+    answer: "Four business days. Section 44(2) of the Electricity Safety Act 1998 requires the licensed electrical installation worker who did the work to complete and sign a certificate of compliance within 4 business days after completing it, and to give it to the person responsible for the work if that is someone else. That certificate then forms part of the Certificate of Electrical Safety. The COES itself has a separate clock under s45A(6): 4 business days after the Licensed Electrical Inspector gives the certificate of inspection for prescribed work, 4 business days after the end of the three-month period for a periodic COES, and one month after the certificate of compliance is completed for everything else. Missing the s44(2) certificate was a 10 penalty unit offence until 21 May 2025, when the Energy and Land Legislation Amendment (Energy Safety) Act 2025 lifted the maximum to 60 penalty units and made it infringable at 6 penalty units."
 ---
 
 **Certificate of Electrical Safety Victoria: the essentials**
@@ -42,19 +44,19 @@ faq:
 - **Fee (FY2026–27):** $39.70 per prescribed COES, $9.00 per non-prescribed COES via ESVConnect (no GST)
 - **Who issues:** Any Registered Electrical Contractor or licensed electrical worker can complete a COES — it is not restricted to inspectors
 - **State regulator:** Energy Safe Victoria (ESV)
-- **Penalties (s45A):** 6 penalty units on-the-spot (**$1,254.60** individual / **$6,273** body corporate); 60 penalty units maximum in court (**$12,546**)
+- **Penalties (s45A):** 6 penalty units on-the-spot (**$1,254.60**, same for a company as for an individual); 60 penalty units maximum in court (**$12,546**)
 
 ---
 
-> **A note on terminology:** Victoria's regulator calls this document a **Certificate of Electrical Safety (COES)** — that is the name on the form, the legislation and the ESVConnect screen. "CES" and "electrical safety certificate" are the same thing used colloquially. There is also a Victorian Commissioner for Environmental Sustainability with the acronym CES — unrelated to electrical compliance.
+> **A note on terminology:** Victoria's regulator calls this document a **Certificate of Electrical Safety (COES)** — that is the name on the form, the legislation and the ESVConnect screen. "CES" is a common colloquial shortening, and you will still hear it on site, but it is not the abbreviation Energy Safe Victoria, the Act or the portal uses; searching "CES" also turns up the Victorian Commissioner for Environmental Sustainability, who has nothing to do with electrical compliance. This guide uses COES throughout.
 
 The Certificate of Electrical Safety (COES) is one of the most important compliance obligations for electrical contractors working in Victoria. Yet it's also one of the most commonly misunderstood — particularly around the two different deadlines, who can complete it, and what actually happens if you don't.
 
 Energy Safe Victoria audits completed work against the certificates that describe it. A COES that is late, vague, or missing is one of the easiest things for an auditor to find, because ESV already holds the record of what you lodged and when.
 
-This guide covers the CES requirements comprehensively — when it applies, what it must include, how to issue it, and how to build CES compliance into your job workflow so nothing slips through the cracks.
+This guide covers the COES requirements comprehensively — when it applies, what it must include, how to issue it, and how to build COES compliance into your job workflow so nothing slips through the cracks.
 
-> **⚡ Still doing CES forms manually?** ServiceM8 can pre-fill a custom digital form from job data (custom forms start on the Growing plan, $79/month) — [how Victorian electricians are automating ESV compliance](/blog/servicem8-for-electricians/).
+> **⚡ Still filling out COES forms by hand?** ServiceM8 can pre-fill a custom digital form from the job record (custom forms start on the Growing plan, $79/month) — but it cannot buy or lodge a Victorian COES, which only happens in ESVConnect. [How Victorian electricians are automating ESV compliance](/blog/servicem8-for-electricians/).
 
 ---
 
@@ -135,6 +137,10 @@ Both clocks must land the certificate with **the customer and Energy Safe Victor
 
 In practice, treat 4 business days as the working deadline for anything prescribed. A solar job where the inspector signs on Friday and the office batches certificates at month-end is already in breach by the following Thursday.
 
+**The deadline that isn't in s45A — and catches people.** ESV's guidance is that the inspection of prescribed work should be completed within **8 business days of the work being completed**. That sits on the inspector, not you, but it is your job to book it: ESV does not schedule inspections and Licensed Electrical Inspectors are not ESV employees. So the real end-to-end clock on a prescribed job is up to 8 business days to get the inspection plus 4 business days to get the COES out — roughly 12 business days from finishing the work. If a job is still uninspected after 8 business days, that is already the point at which ESV says the customer should be ringing you.
+
+And prescribed work **cannot be energised or left energised until it has been inspected**. On a switchboard change or a battery install, that is the constraint that decides your program, not the paperwork.
+
 For solar installations, the COES should be issued after:
 - The system installation is complete
 - The system has been inspected and tested
@@ -175,7 +181,7 @@ A valid Victorian COES must include:
 
 ## The Network Notification Requirement
 
-For solar installations, the CES obligation exists alongside (but separate from) the **network notification requirement** — the obligation to notify the relevant distribution network service provider (DNSP) of the new solar installation.
+For solar installations, the COES obligation exists alongside (but separate from) the **network notification requirement** — the obligation to notify the relevant distribution network service provider (DNSP) of the new solar installation.
 
 The network notification must be made using the relevant DNSP's process. In Victoria, this is typically via the DNSP's online portal (AusNet Services, Jemena, United Energy, CitiPower, Powercor depending on the area).
 
@@ -187,7 +193,7 @@ The network notification must be made using the relevant DNSP's process. In Vict
 
 ## How to Issue a COES in Victoria (2026 ESVConnect Fees)
 
-Energy Safe Victoria's portal — **ESVConnect** — is the only place electronic COES can be purchased and lodged. Paper certificates still exist, but they are bought from authorised electrical wholesalers and can only be lodged through the IVR line on 1300 360 366, not through ESVConnect.
+Energy Safe Victoria's portal — **ESVConnect** — is the only place electronic COES can be purchased and lodged. Paper certificates still exist, but the two paper routes are not the same: prescribed and non-prescribed paper forms are bought from authorised electrical wholesalers, while **paper periodic certificates can only be bought directly from ESV** using the periodic order form. All paper certificates are lodged through the IVR line on 1300 360 366, not ESVConnect.
 
 The electronic process:
 
@@ -214,14 +220,14 @@ You can pass the purchase price on to the customer — s45B(12) and regulation 2
 
 | | Individual | Body corporate |
 |---|---|---|
-| Infringement notice (6 / 30 penalty units) | **$1,254.60** | **$6,273** |
-| Maximum in court (60 penalty units) | **$12,546** | — |
+| Infringement notice (6 penalty units) | **$1,254.60** | **$1,254.60** |
+| Prosecution (60 penalty units) | **$12,546** | **$12,546** |
 
-At the 2026–27 penalty unit value of **$209.10**. Failing to have prescribed work inspected at all is a separate and heavier offence — 120 penalty units ($25,092) for an individual, 600 penalty units ($125,460) for a body corporate under s45(1).
+At the 2026–27 penalty unit value of **$209.10**. Note the asymmetry, because most compliance tables get this wrong: s45A has **no corporate multiplier**. Unlike the inspection offence in s45(1), which runs 120 penalty units for a person against 600 for a company, the certificate offence is a flat 60 — a company that fails to issue a COES carries the same ceiling as a sole trader. Failing to have prescribed work inspected at all is the heavier offence — 120 penalty units ($25,092) for an individual, 600 penalty units ($125,460) for a body corporate under s45(1).
 
 ---
 
-## Building CES Compliance Into Your Job Workflow
+## Building COES Compliance Into Your Job Workflow
 
 The most reliable way to ensure every job gets a COES issued inside its deadline is to build it into your job completion workflow — not treat it as a post-job admin task you remember when you have time.
 
@@ -238,7 +244,7 @@ For businesses doing 20+ installations per month, that system discipline is not 
 
 ---
 
-## Common CES Audit Failures — What Triggers ESV Action in 2026
+## Common COES Audit Failures — What Triggers ESV Action in 2026
 
 Energy Safe audits completed installation work against the certificate that describes it, and it already holds your lodgement record. These are the failure patterns that most commonly turn an audit into action:
 
@@ -263,8 +269,8 @@ Solar + battery systems require more documentation than PV-only work. The COES m
 **7. No copy retained and no copy given to the customer**
 ESVConnect records the lodgement, but the obligation is to *give* the certificate to the customer and to ESV — the portal record is not a substitute for the copy. Owners who sell or refinance without a COES on record will pursue the installing contractor, often years after the job.
 
-> **Got a CES compliance question right now?**
-> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CES lodgement, ESV requirements, AS/NZS 5033 & 5139, and solar compliance documentation. No login required.
+> **Got a COES compliance question right now?**
+> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on COES lodgement, ESV requirements, AS/NZS 5033 & 5139, and solar compliance documentation. No login required.
 
 ---
 
@@ -272,13 +278,27 @@ ESVConnect records the lodgement, but the obligation is to *give* the certificat
 
 Failure to issue a required COES, or signing an incorrect one, is an offence under the Electricity Safety Act 1998:
 
-- **Infringement notice:** 6 penalty units as an individual (**$1,254.60**), 30 penalty units for a body corporate (**$6,273**), per certificate
-- **Prosecution:** up to 60 penalty units in court (**$12,546**) for an individual. Skipping the inspection on prescribed work is heavier again — 120 penalty units, $25,092
+- **Infringement notice:** 6 penalty units (**$1,254.60**), per certificate — the same amount for a company as for an individual
+- **Prosecution:** up to 60 penalty units in court (**$12,546**). Skipping the inspection on prescribed work is heavier again — 120 penalty units, $25,092 for a person and $125,460 for a body corporate
 - **Licence action:** ESV can take disciplinary action that results in suspension or cancellation of a licence. That is a separate consequence from the fine, and for most contractors it is the expensive one
 - **Insurance implications:** work that isn't correctly certified can create gaps in professional indemnity coverage
 - **Civil exposure:** if an installation the certificate described causes a fire or injury, a certificate that overstates what was done is evidence against you
 
 The penalty unit value is reset every 1 July, so the dollar figures above move annually — the penalty unit counts (6, 30, 60, 120) are the fixed part.
+
+---
+
+## If You're the Customer: How to Get a Copy
+
+Most of the traffic on "certificate of electrical safety Victoria" is people trying to obtain the certificate for a property, not contractors trying to issue one. The route is different and it is free:
+
+**1. Check whether one exists.** Energy Safe runs a public COES search at `portal-public.energysafe.vic.gov.au/prod/SearchCOES.html`. It covers electronic certificates raised since July 2019, and it returns **a COES number only** — it will confirm a certificate exists and give you the reference, not the document itself.
+
+**2. Request the copy.** If you need the actual certificate, complete ESV's COES search application form. There is **no fee** for this search. You have to demonstrate you are an "interested person with a legitimate relationship to the property", which in practice means attaching one of: a council rates notice, a utilities notice, or another equivalent document — a Victorian driver's licence showing your name and the property address works. An authorised agent must also attach evidence of the authorisation, and if you were the customer but aren't the owner or occupier, attach the invoice for the work.
+
+**3. If someone else engaged the contractor.** Where a rental provider, estate agent or builder engaged the electrician on your behalf, ESV's position is that you may request a copy from that customer or from Energy Safe directly.
+
+**Where the common advice goes wrong.** A number of Victorian electrician sites — including several ranking above this page — state flatly that you must receive your COES "within 30 days". That is only the **non-prescribed** deadline. On prescribed work (switchboards, consumer mains, main earthing, solar, batteries) the customer copy is due within **4 business days** of the inspector signing the certificate of inspection, and the work can't be energised until it has been inspected. If your switchboard was replaced a fortnight ago and no certificate has arrived, the 30-day answer you'll find elsewhere is wrong and you are entitled to ask now.
 
 ---
 
@@ -288,14 +308,12 @@ For electricians working in NSW, the equivalent document is the **Certificate of
 
 ---
 
----
-
 <div class="tradie-brain-cta">
   <div class="tb-cta-inner">
     <div class="tb-cta-icon">🤖</div>
     <div class="tb-cta-content">
-      <strong>Got a CES compliance question right now?</strong>
-      <p>Tradie Brain AI has instant answers on CES lodgement, ESV audit requirements, AS/NZS 5033 & 5139 battery labelling, solar documentation, and Victorian electrical safety rules. No login required.</p>
+      <strong>Got a COES compliance question right now?</strong>
+      <p>Tradie Brain AI has instant answers on COES lodgement, ESV audit requirements, AS/NZS 5033 & 5139 battery labelling, solar documentation, and Victorian electrical safety rules. No login required.</p>
     </div>
     <a href="https://tradieautomate.com/tools/tradie-brain/" class="tb-cta-btn">Ask Tradie Brain Free →</a>
   </div>
@@ -339,8 +357,11 @@ The certificate records the installation address and a description of the work, 
 Yes. Solar PV and battery work is electrical installation work, so a COES is required, and most domestic solar work is prescribed — meaning an independent Licensed Electrical Inspector must inspect it before the COES can be issued. The COES does not notify the distribution network (AusNet, Jemena, United Energy, CitiPower or Powercor) of the connection; that is a separate obligation to a separate body.
 
 ### What happens if an electrician doesn't issue a COES in Victoria?
-Failing to complete a COES and give a copy to the customer and Energy Safe Victoria is an offence under s45A of the Electricity Safety Act 1998. The maximum is 60 penalty units in court — $12,546 for an individual at the 2026–27 penalty unit value of $209.10 — and Energy Safe can issue an on-the-spot infringement of 6 penalty units ($1,254.60) for an individual or 30 penalty units ($6,273) for a body corporate. There is no 'late fee'; the exposure is the infringement or the prosecution. Repeat failures can also lead to licence suspension or cancellation.
+Failing to complete a COES and give a copy to the customer and Energy Safe Victoria is an offence under s45A of the Electricity Safety Act 1998. The maximum is 60 penalty units in court — $12,546 for an individual at the 2026–27 penalty unit value of $209.10 — and Energy Safe can issue an on-the-spot infringement of 6 penalty units ($1,254.60), which is the same amount for a body corporate — s45A has no corporate multiplier. There is no 'late fee'; the exposure is the infringement or the prosecution. Repeat failures can also lead to licence suspension or cancellation.
 
-> **Installing solar or a heat pump in Victoria?** Your customers need a CES certificate AND can claim state rebates. Check what your customer's upgrade qualifies for in under 30 seconds with the [Rebate Finder](/tools/rebate-finder/) — ranked by state, with exact amounts and eligibility.
+### Within how many days after completing the work does a licensed electrician have to give a certificate of compliance?
+Four business days. Section 44(2) of the Electricity Safety Act 1998 requires the licensed electrical installation worker who did the work to complete and sign a certificate of compliance within 4 business days after completing it, and to give it to the person responsible for the work if that is someone else. That certificate then forms part of the Certificate of Electrical Safety. The COES itself has a separate clock under s45A(6): 4 business days after the Licensed Electrical Inspector gives the certificate of inspection for prescribed work, 4 business days after the end of the three-month period for a periodic COES, and one month after the certificate of compliance is completed for everything else. Missing the s44(2) certificate was a 10 penalty unit offence until 21 May 2025, when the Energy and Land Legislation Amendment (Energy Safety) Act 2025 lifted the maximum to 60 penalty units and made it infringable at 6 penalty units.
 
-> Got a compliance question? [Ask Tradie Brain AI](/tools/tradie-brain) — free, no login. Instant answers on CES, ESV audits, and electrical safety.
+> **Installing solar or a heat pump in Victoria?** Your customers need a COES for the electrical work AND can claim state rebates. Check what your customer's upgrade qualifies for in under 30 seconds with the [Rebate Finder](/tools/rebate-finder/) — ranked by state, with exact amounts and eligibility.
+
+> Got a compliance question? [Ask Tradie Brain AI](/tools/tradie-brain) — free, no login. Instant answers on COES, ESV audits, and electrical safety.
