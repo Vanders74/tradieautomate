@@ -1,8 +1,8 @@
 ---
 title: "ServiceM8 vs AroFlo 2026: $29 vs $240/mo, Compared"
-description: "ServiceM8 from $29/mo for unlimited users. AroFlo from $80/user, 3-user minimum ($240/mo floor) plus a $1,450 Smart Start fee. Per-job vs per-user, what the $79 compliance gate really costs, and which suits a 3-person crew vs a 20-person one."
+description: "ServiceM8 from $29/mo for unlimited users; AroFlo $80/user with a 3-user minimum ($240/mo floor) plus a $1,450 setup fee. Full cost tables and who each one fits."
 pubDate: 'Apr 27 2026'
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 19 2026'
 category: "Software Comparisons"
 heroImage: '/hero-servicem8-vs-aroflo.jpg'
 faq:
@@ -10,8 +10,8 @@ faq:
     answer: "ServiceM8, on every plan and every headcount. ServiceM8 starts at $29/mo with unlimited users (GST inclusive); AroFlo's published rate is $80 per user per month with a three-user minimum — a $240/mo floor — plus a one-off Smart Start fee from $1,450, or $2,900 with implementation. A 5-person crew on ServiceM8 Premium pays $149/mo flat. The same crew on AroFlo starts at $400/mo plus setup. AroFlo's per-user rate slides down as you add licences, but it does not slide far enough to cross over in the 3-20 user range."
   - question: "Does AroFlo have a free trial?"
     answer: "Not a self-serve one. AroFlo's pricing page and every 'Get Started' button route to a demo request form, so you cannot spin up an account and test it without a sales conversation. ServiceM8 has a 14-day free trial, no credit card required, plus a permanently free plan capped at 30 jobs a month."
-  - question: "Does ServiceM8 generate CCEW or CES certificates?"
-    answer: "No. Neither ServiceM8 nor AroFlo lodges a compliance certificate with a regulator. ServiceM8 Electronic Forms capture the data and produce a PDF from the job card, and you still lodge in NSW through Service NSW eCert or in Victoria through ESV. Custom form building is included from the Growing plan at $79/mo — the $29 Starter plan can fill forms bought from the Form Store but cannot build them. If a vendor tells you it lodges your CCEW, ask which API."
+  - question: "Does ServiceM8 generate CCEW or COES certificates?"
+    answer: "No. Neither ServiceM8 nor AroFlo lodges a compliance certificate with a regulator. ServiceM8 Electronic Forms capture the data and produce a PDF from the job card, and you still lodge the CCEW in NSW through Service NSW eCert or the Certificate of Electrical Safety (COES) in Victoria through ESV. Custom form building is included from the Growing plan at $79/mo — the $29 Starter plan can fill forms bought from the Form Store but cannot build them. If a vendor tells you it lodges your CCEW, ask which API."
   - question: "Can ServiceM8 handle businesses with 30+ staff?"
     answer: "Yes, and it is priced better there than AroFlo. Every paid ServiceM8 plan includes unlimited staff logins; the constraint is jobs per month, not headcount. Premium at $149 handles 500 new jobs a month and Premium Plus at $349 handles 1,500+, with extra jobs at 20c each. AroFlo at 30 users starts at $2,400/mo on the published rate before any volume discount."
   - question: "What does each cost in year one?"
@@ -133,9 +133,9 @@ Both platforms have compliance documentation capabilities, but they approach it 
 
 ServiceM8's compliance tooling is purpose-built for the way Australian licensed trades actually work — with two limits worth understanding before you buy it expecting a certificate printer:
 
-**Custom form builder.** Any compliance form — CES templates for electricians, plumbing compliance certificates, SWMS for high-risk work, ARCtick refrigerant records — can be built as a digital form. Field staff complete it on-site, on their phone, and the result is generated as a PDF attached to the job. Building forms requires the **Growing plan ($79/mo)**; forms bought from the Form Store are a one-off purchase and work on any plan, including Free. There is no pre-built CCEW or CES Certificate of Electrical Safety form shipped by ServiceM8.
+**Custom form builder.** Any compliance form — COES templates for electricians, plumbing compliance certificates, SWMS for high-risk work, ARCtick refrigerant records — can be built as a digital form. Field staff complete it on-site, on their phone, and the result is generated as a PDF attached to the job. Building forms requires the **Growing plan ($79/mo)**; forms bought from the Form Store are a one-off purchase and work on any plan, including Free. There is no pre-built CCEW or COES form shipped by ServiceM8.
 
-**What it does not do: lodge the certificate.** ServiceM8 does not submit anything to a regulator in any state. In NSW the CCEW goes through Service NSW eCert; in Victoria the CES goes to ESV — with prescribed work triggering notification within 2 business days and a safety inspection inside 8. ServiceM8 captures the evidence (photos, test results, signatures, timestamps) and gives you the PDF. The lodgement is still your job, and no field service platform on the market does it for you.
+**What it does not do: lodge the certificate.** ServiceM8 does not submit anything to a regulator in any state. In NSW the CCEW goes through Service NSW eCert; in Victoria the COES goes to ESV, with prescribed work requiring the responsible person to notify ESV within 2 business days of completing the certificate and an inspection within 8 business days of the work. ServiceM8 captures the evidence (photos, test results, signatures, timestamps) and gives you the PDF. The lodgement is still your job, and no field service platform on the market does it for you.
 
 **Photos: timestamped and attached, not GPS-stamped.** Photos taken through the ServiceM8 app attach to the job record with a timestamp, visible in the job diary alongside the job's address and check-in data. The image file itself does not carry GPS coordinates — coordinate stamping comes from a third-party add-on (Photo GPS), which works on the iOS app and online dashboard but not the Android Lite app. If your documentation standard requires coordinates in the file, plan for the add-on and know the platform gap.
 
@@ -147,7 +147,7 @@ This approach works well for the compliance-heavy trades that make up the majori
 
 AroFlo has comprehensive compliance and safety management tools, including more sophisticated permit-to-work management, safety inspection scheduling, and integrated asset maintenance compliance. For larger operations managing complex compliance frameworks — preventive maintenance programs across large asset portfolios, contractor compliance management, enterprise safety management — AroFlo's compliance features are more powerful.
 
-For a 5-person electrical business managing CES documentation and solar installation compliance, AroFlo's compliance depth is significantly more than required — and the setup to configure it correctly adds weeks to your implementation.
+For a 5-person electrical business managing COES documentation and solar installation compliance, AroFlo's compliance depth is significantly more than required — and the setup to configure it correctly adds weeks to your implementation.
 
 ---
 
@@ -219,7 +219,7 @@ ServiceM8 is the better choice for:
 - **Compliance-heavy licensed trades** — electrical, plumbing, solar, gas, HVAC
 - **Fast implementation** — businesses that need to be operational quickly, not in 3 months
 - **Mobile-first teams** — field staff who need an excellent, fast mobile experience
-- **Australian-specific compliance workflows** — CES and CCEW-style form capture, plumbing compliance certificates, safety checklists (capture and PDF, not lodgement)
+- **Australian-specific compliance workflows** — COES and CCEW-style form capture, plumbing compliance certificates, safety checklists (capture and PDF, not lodgement)
 - **Growing businesses** — where per-job pricing prevents the cost blowout of per-user models
 
 ---
@@ -261,9 +261,9 @@ ServiceM8, on every plan and every headcount. ServiceM8 starts at $29/mo with un
 
 Not a self-serve one. AroFlo's pricing page and every 'Get Started' button route to a demo request form, so you cannot spin up an account and test it without a sales conversation. ServiceM8 has a 14-day free trial, no credit card required, plus a permanently free plan capped at 30 jobs a month.
 
-### Does ServiceM8 generate CCEW or CES certificates?
+### Does ServiceM8 generate CCEW or COES certificates?
 
-No. Neither ServiceM8 nor AroFlo lodges a compliance certificate with a regulator. ServiceM8 Electronic Forms capture the data and produce a PDF from the job card, and you still lodge in NSW through Service NSW eCert or in Victoria through ESV. Custom form building is included from the Growing plan at $79/mo — the $29 Starter plan can fill forms bought from the Form Store but cannot build them. If a vendor tells you it lodges your CCEW, ask which API.
+No. Neither ServiceM8 nor AroFlo lodges a compliance certificate with a regulator. ServiceM8 Electronic Forms capture the data and produce a PDF from the job card, and you still lodge the CCEW in NSW through Service NSW eCert or the Certificate of Electrical Safety (COES) in Victoria through ESV. Custom form building is included from the Growing plan at $79/mo — the $29 Starter plan can fill forms bought from the Form Store but cannot build them. If a vendor tells you it lodges your CCEW, ask which API.
 
 ### Can ServiceM8 handle businesses with 30+ staff?
 
