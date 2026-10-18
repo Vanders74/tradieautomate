@@ -1,6 +1,6 @@
 ---
 title: 'ServiceM8 Review 2026: Real AUD Pricing & Who It Fits'
-description: "ServiceM8 review 2026: what $29/mo (AUD, incl. GST) really gets an Aussie tradie — invoicing, the $79 compliance-form gate, Xero/QuickBooks sync and the limits."
+description: "ServiceM8 review 2026: what $29/mo (AUD, incl. GST) gets an Aussie tradie — invoicing, the $79 compliance-form gate, Xero sync and where it stops."
 updatedDate: 'Oct 19 2026'
 pubDate: 'Apr 03 2026'
 category: "ServiceM8"
