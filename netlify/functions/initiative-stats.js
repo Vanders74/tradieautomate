@@ -56,7 +56,7 @@ async function fetchAllContacts(key) {
   let lastStatus = null;
   let pages = 0;
   while (true) {
-    const res = await fetch(`${API}/contacts?limit=${PAGE}&offset=${offset}&modifiedSince=${encodeURIComponent(new Date(Date.now() - 30 * 864e5).toISOString())}`, {
+    const res = await fetch(`${API}/contacts?limit=${PAGE}&offset=${offset}`, {
       headers: { 'api-key': key, Accept: 'application/json' },
     });
     lastStatus = res.status;
@@ -170,11 +170,36 @@ exports.handler = async () => {
     const all = data.lists || [];
 
     const lists = {};
-    for (const l of all) lists[l.name] = { id: l.id, count: l.totalRecipients || 0 };
+    // Brevo response fields changed: totalRecipients no longer exists, so the
+    // old read always yielded 0 and every list looked empty. uniqueSubscribers
+    // is authoritative; totalSubscribers/uniqueSubscribers are being wound down
+    // on some endpoints, so fall back to a live per-list lookup at the end.
+    for (const l of all) {
+      const count = Number(l.uniqueSubscribers ?? l.totalSubscribers ?? l.totalRecipients ?? NaN);
+      lists[l.name] = { id: l.id, count: Number.isFinite(count) ? count : null };
+    }
     const names = Object.keys(lists).sort();
+    // Live per-list counts for any list the listing endpoint could not size.
+    await Promise.all(names.map(async (n) => {
+      if (lists[n].count !== null) return;
+      try {
+        const r = await fetch(`${API}/contacts/lists/${lists[n].id}`, { headers: { 'api-key': key, Accept: 'application/json' } });
+        if (!r.ok) { lists[n].count = 0; return; }
+        const d = await r.json();
+        const c = Number(d.uniqueSubscribers ?? d.totalSubscribers ?? 0);
+        lists[n].count = Number.isFinite(c) ? c : 0;
+      } catch (e) { lists[n].count = 0; }
+    }));
     const joule = names.filter((n) => n.startsWith('Rebate Leads'));
     const handover = names.filter((n) => n.startsWith('Trade Exit Leads'));
-    const total = (arr) => arr.reduce((s, n) => s + (lists[n].count || 0), 0);
+    // Contacts sit in BOTH the master list and their state list, so summing the
+    // family double-counts. The master list is the headcount; fall back to the
+    // sum only when no master exists.
+    const total = (arr, masterName) => {
+      const m = arr.find((n) => n === masterName);
+      if (m && lists[m].count != null) return lists[m].count;
+      return arr.reduce((s, n) => s + (lists[n].count || 0), 0);
+    };
 
     let jouleBucket = { by_upgrade: {}, segments: 0, listed: 0 };
     let handoverBucket = { ready: 0, building: 0, early: 0, unscored: 0, listed: 0 };
@@ -207,8 +232,8 @@ exports.handler = async () => {
         available: true,
         fetched_at: new Date().toISOString(),
         lists,
-        joule: { lists: joule.map((n) => ({ name: n, count: lists[n].count })), total: total(joule), segments: jouleBucket, effectiveness: effectiveness.joule },
-        handover: { lists: handover.map((n) => ({ name: n, count: lists[n].count })), total: total(handover), tiers: handoverBucket, effectiveness: effectiveness.handover },
+        joule: { lists: joule.map((n) => ({ name: n, count: lists[n].count })), total: total(joule, 'Rebate Leads'), segments: jouleBucket, effectiveness: effectiveness.joule },
+        handover: { lists: handover.map((n) => ({ name: n, count: lists[n].count })), total: total(handover, 'Trade Exit Leads'), tiers: handoverBucket, effectiveness: effectiveness.handover },
       }),
     };
   } catch (e) {
