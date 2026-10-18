@@ -55,6 +55,8 @@ This comparison gives you the honest breakdown.
 
 Per-job pricing, all staff included, prices in AUD and inclusive of GST:
 
+> **Full plan breakdown:** every ServiceM8 tier, 2026 card fees and what a 5-person crew actually pays are in the [ServiceM8 pricing plans guide 2026](/blog/servicem8-pricing-plans-australia-2026/).
+
 | Plan | Monthly cost (AUD inc. GST) | Jobs per month |
 |------|-------------------|----------------|
 | Free | $0 | 30 |

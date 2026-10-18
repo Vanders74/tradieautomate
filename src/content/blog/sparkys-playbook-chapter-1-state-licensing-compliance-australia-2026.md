@@ -80,14 +80,14 @@ Victoria's system is administered by Energy Safe Victoria. The two key credentia
 **Registration of Electrical Contractors (REC)**
 This is your business registration — equivalent to NSW's ECL. It allows your business entity to contract electrical work. REC registration must be renewed every 3 years.
 
-**Certificate of Electrical Safety (CES)**
-The CES is Victoria's version of NSW's CCEW — the compliance document you must lodge after completing electrical installation work. The lodgement obligation is 30 days from completion (more forgiving than NSW, but still strict). CES documents are lodged through the MyESV portal.
+**Certificate of Electrical Safety (COES)**
+The COES is Victoria's version of NSW's CCEW — the compliance document you must issue after completing electrical installation work. There is no blanket 30-day lodgement: for prescribed work (consumer mains, main switchboard, meter box, main earthing, solar, battery) the electrician signs within 4 business days, ESV is notified within 2 business days of that, an independent Licensed Electrical Inspector inspects within 8 business days, and copies go to the customer, the distribution business and ESV within 16 calendar days. The one-month window covers only the customer copy on non-prescribed work. COES are managed through ESVConnect, not "MyESV".
 
 **What catches Victorian contractors out:**
-- The 30-day CES lodgement window — most contractors know about it, but multi-job periods in summer and late year mean lodgements accumulate and get missed
-- Solar installations require a separate CES for the electrical installation component, even when a Certificates of Compliance for Electrical Work is already being issued through the CEC process
+- The prescribed-work clock, not a 30-day one — the 4-business-day signature and 2-business-day notification are what most late lodgements actually miss
+- Solar and battery work is prescribed, so it needs the inspection and the full COES chain, not just a certificate handed to the customer
 
-> **Read more:** [VIC Electrical Contractor Licence Guide 2026 — REC registration, CES lodgement and Energy Safe Victoria](/blog/vic-electrical-contractor-licence-guide-2026/)
+> **Read more:** [VIC Electrical Contractor Licence Guide 2026 — REC registration, COES lodgement and Energy Safe Victoria](/blog/vic-electrical-contractor-licence-guide-2026/)
 
 ---
 

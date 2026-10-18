@@ -1,13 +1,13 @@
 ---
-title: 'ServiceM8 Review 2026: Honest Pros, Cons & Real Pricing for Aussie Tradies'
+title: 'ServiceM8 Review 2026: Real AUD Pricing & Who It Fits'
 description: "ServiceM8 review 2026: what $29/mo (AUD, incl. GST) really gets an Aussie tradie — invoicing, the $79 compliance-form gate, Xero/QuickBooks sync and the limits."
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 19 2026'
 pubDate: 'Apr 03 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-review.jpg'
 faq:
   - question: "Is ServiceM8 worth it for a small electrical or solar business?"
-    answer: "Yes — for a 1–5 person electrical or solar business, ServiceM8 delivers a clear positive ROI. The most immediate benefit is invoice speed: businesses consistently report getting invoices out same-day instead of 3–5 days after job completion, which alone recovers significant working capital. The compliance form support (CCEW, solar site documentation), Xero integration, and mobile-first design make it purpose-built for the way trade businesses actually work in the field."
+    answer: "Yes — for a 1–5 person electrical or solar business, ServiceM8 delivers a clear positive ROI. The most immediate benefit is invoice speed: businesses consistently report getting invoices out same-day instead of 3–5 days after job completion, which alone recovers significant working capital. The custom form builder (Growing plan, $79/mo — Starter can only fill existing Form Store forms) lets you capture CCEW and solar site data against the job, and the Xero sync plus mobile-first design suit the way trade businesses actually work in the field. What it does not do is lodge anything: CCEWs go into NSW eCert and Victoria's COES into ESVConnect, so the form is your evidence, not your submission."
   - question: "Is ServiceM8 the same as \"Service M8\", \"ServiceMate\", or \"Service Mate\"?"
     answer: "Yes — all of these refer to the same platform. The official brand name is *ServiceM8* (one word, capital S, capital M, number 8). Common search variations include \"Service M8\" (with a space), \"Service M 8\" (with two spaces), \"ServiceMate,\" and \"Service Mate.\" If you've seen it referred to as *SM8* in tradie forums or Facebook groups, that's the informal shorthand for the same product."
   - question: "What are the main limitations of ServiceM8?"
@@ -15,17 +15,17 @@ faq:
   - question: "[How much does ServiceM8 cost](/blog/servicem8-pricing-plans-australia-2026/) in Australia in 2026?"
     answer: "ServiceM8 is priced in AUD for Australian businesses. Plans start at $29/month (Starter, 50 jobs/month) and scale to Premium Plus at $349/month for 1,500+ jobs. The most popular plan for small electrical and solar businesses is Growing at $79/month, covering 150 jobs/month with unlimited staff. There is a free 14-day trial with no credit card required."
   - question: "Does ServiceM8 work for solar compliance documentation?"
-    answer: "Yes — ServiceM8 supports custom digital forms that can capture all the data required for solar compliance workflows: CER documentation requirements, geo-tagged site photos (attached directly in the app), AS/NZS 5033 and 5139 checklist items, customer declarations for STC assignment, and CCEW data fields. These forms can be completed on-site and synced automatically, eliminating end-of-day paperwork and creating a timestamped digital audit trail."
+    answer: "Partly, and the limit matters. ServiceM8's custom form builder (Growing plan, $79/mo) can capture the fields a solar job needs — CER documentation, AS/NZS 5033 and 5139 checklist items, customer declarations for STC assignment, CCEW data — completed on-site and synced to the job with a timestamp. What it does not do natively is put coordinates on the photo: images taken in the ServiceM8 camera are saved to the job with a time, job address and check-in record, but no GPS stamp. Location stamping needs the Advanced Photo Branding add-on (its fields include GPS Location, iOS only) or a marketplace add-on like WorkM8 Photo GPS. ServiceM8 also does not lodge anything — the CCEW goes into eCert, the COES into ESVConnect."
   - question: "Can ServiceM8 integrate with Xero and MYOB?"
     answer: "Yes. ServiceM8 has native integrations with Xero, MYOB Business (AU/NZ) and QuickBooks Online. Invoices, client records, and payments sync automatically, eliminating double-entry between your job management and accounting platforms."
   - question: "What new features does ServiceM8 have in 2026?"
-    answer: "ServiceM8's biggest recent release was the ServiceM8 14 update (Sep 2025), led by AI agents: the **Phone Agent** answers and qualifies calls for you, and the **Office Agent** handles routine admin tasks. **Smart Report Helper** builds custom reports from plain-English prompts, and **Powerful Reports** introduced a new reporting engine. On-site, **Tap to Pay on iPhone** accepts contactless payments, **Auto Routing** optimises a technician's day, and **SMS Photos & Files** lets you send photos to clients by text. The n8n integration adds workflow automation, and ServiceM8 Lite for Android brings scheduling and invoicing to more users."
+    answer: "ServiceM8 15, released 18 September 2026, is the current release. Its headline is a full-featured **ServiceM8 app for Android** — the cut-down ServiceM8 Lite app has been retired, and ServiceM8 says Android now has almost all the same functionality as iOS. The release also added **Office Agent** (an AI assistant you can chat to, which can schedule routine tasks, draft quotes and follow-ups, prepare reports and propose actions you approve or decline), a rebuilt **staff schedule** and booking window that shows a whole week of real availability with travel time, **Staff Chat**, note threads and reactions, photo markup online, a new Apple Watch app, and an Add-on Kit CLI for building private add-ons with Codex or Claude Code. The previous release, ServiceM8 14 (September 2025), introduced the Phone Agent that answers calls and the original Office Agent, plus Smart Report Helper and the n8n integration."
   - question: "How much revenue does ServiceM8 generate?"
-    answer: "ServiceM8's estimated annual revenue is around $2.6M (GetLatka estimate, 2025) with a team of roughly 24 staff. The platform has managed over 50 million jobs worth more than $50 billion across 40+ countries since launching in 2010, and was ranked in Deloitte's Technology Fast 50 in 2020."
+    answer: "ServiceM8 does not publish revenue — it is privately held and bootstrapped, with no outside investors, so any figure you see is a third-party estimate. The estimates diverge sharply: one commonly repeated estimate puts it near $2.6M a year, which is hard to reconcile with the company's own stated scale and its Deloitte ranking. What is verifiable is the operating data: ServiceM8 says it has managed over 50 million jobs worth more than $50 billion across 40+ countries since launching in 2010, and it placed 28th on Deloitte's Technology Fast 50 in 2020 with 248% growth over the preceding three years. It was founded in Darwin in 2009 by Kim Ford and his son Ben."
   - question: "How does ServiceM8 compare to Tradify for Australian electricians?"
     answer: "Both are strong mobile-first platforms for Australian trade businesses. ServiceM8 has more mature compliance form support and a larger ecosystem of integrations, which makes it the preferred choice for solar installers who need CER-compatible workflows. Tradify has a simpler interface and is often preferred by newer businesses or sole traders who want faster onboarding. For a 1–3 person electrical business new to job management software, Tradify is a legitimate alternative worth trialling alongside ServiceM8."
   - question: "Is there a free trial for ServiceM8?"
-    answer: "Yes — ServiceM8 offers a 14-day free trial with no credit card required. You get full access to explore the platform before committing. [Start your trial here](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate). > **Thinking about selling your trade business in the next 1-5 years?** The free [Trade Business Valuation](/tools/trade-business-valuation/) scores your sale-readiness across 8 value drivers and estimates your price range in under five minutes — no email required."
+    answer: "Yes — ServiceM8 offers a 14-day free trial with no credit card required. You get full access to explore the platform before committing, and there is also a permanent Free plan limited to one user and 30 jobs a month."
 ---
 
 ServiceM8 has become a household name in the Australian trades industry — and for good reason. But with so many job management platforms competing for your subscription dollar, this ServiceM8 review 2026 asks: is ServiceM8 actually the best fit for your business in 2026?
@@ -62,10 +62,10 @@ At its core, ServiceM8 handles:
 - **Job booking and scheduling** — drag-and-drop dispatch board, GPS tracking, arrival ETAs
 - **Quoting and invoicing** — build quotes on-site, convert to invoice instantly, accept card payments
 - **Client communications** — automated SMS reminders, job confirmations, and follow-ups
-- **Compliance documentation** — digital forms, photo capture, certificate generation
+- **Compliance documentation** — digital forms, photo capture, and certificate data captured against the job (lodgement itself stays in eCert or ESVConnect)
 - **Staff management** — time tracking, job notes, and task checklists per job
 
-It runs as an iOS and Android app for field staff, with a web-based admin dashboard for office management.
+It runs as native apps on both iOS and Android for field staff — since ServiceM8 15 in September 2026 the Android app matches iOS feature-for-feature apart from a few tools (Room Scan with AR measuring, diagram drawing, PDF fill-in) — with a web-based admin dashboard for office management.
 
 <div class="yt-facade" data-vid="VDq0WBZU1Fs" data-title="How ServiceM8 Works" style="position:relative;padding-top:56.25%;max-width:640px;margin:24px auto;border-radius:12px;overflow:hidden;cursor:pointer;background:#0f172a;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
   <img src="https://i.ytimg.com/vi/VDq0WBZU1Fs/hqdefault.jpg" alt="How ServiceM8 Works — official ServiceM8 demo video" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
@@ -108,6 +108,8 @@ ServiceM8 operates on a monthly subscription with pricing based on the number of
 
 **All paid plans include unlimited staff logins** — so you're not paying per head as you hire. This makes ServiceM8 significantly more cost-effective than platforms like simPRO or AroFlo at the growth stage.
 
+The job bands are also the model's main trap: there is nothing between Growing's 150 jobs and Premium's 500. A business doing 170 jobs a month doesn't pay for 20 extra jobs, it pays the next tier — $79 becomes $149, an 89% jump for a 13% increase in volume. Budget for the band above you, not the one you're in.
+
 There are some add-ons that push costs higher — advanced scheduling, job costing modules, and some third-party integrations carry extra monthly fees. Factor these in when comparing total cost of ownership.
 
 **Free trial:** 14 days, no credit card required.
@@ -120,15 +122,15 @@ There are some add-ons that push costs higher — advanced scheduling, job costi
 
 | ✅ What We Love | ⚠️ Where It Falls Short |
 |---|---|
-| Unlimited staff logins on all plans | iOS app polished first — Android is close but not identical |
+| Unlimited staff logins on all plans | Android still missing a few iOS-only tools (Room Scan, diagrams, PDF fill-in) |
 | Compliance-ready digital forms (CER, CCEW, AS/NZS 5033 & 5139) — custom form builder from Growing ($79) | No native project management for large commercial jobs |
-| Geo-tagged site photos attached directly to job records — auditable instantly | Add-ons (route optimisation, job costing) push the monthly cost above headline price |
+| Job photos attach to the job record with a timestamp — no hunting through camera rolls | GPS coordinates on photos need an add-on (Advanced Photo Branding, iPhone only, or WorkM8 Photo GPS) |
 | Invoice-on-completion workflow cuts payment cycles from 3+ weeks to under 10 days | Limited custom reporting — export needed for deep analytics |
 | Native Xero, MYOB Business & QuickBooks sync — no double-entry | Not designed for businesses with 50+ field staff |
 | Mobile-first design built for field use, not the office | |
 | 14-day free trial, no credit card required | |
 
-**Verdict:** ServiceM8 is the strongest fit for Australian solar installers, electricians, and trade businesses doing residential and light commercial work. The compliance form support — geo-tagged photos, CER documentation, CCEW data capture — is purpose-built for the way trades operate in the field.
+**Verdict:** ServiceM8 is the strongest fit for Australian solar installers, electricians, and trade businesses doing residential and light commercial work. The compliance form support — job-attached photos, CER documentation, CCEW data capture — is purpose-built for the way trades operate in the field.
 
 ---
 
@@ -138,11 +140,11 @@ There are some add-ons that push costs higher — advanced scheduling, job costi
 
 For solar installers and electricians operating under strict regulatory requirements, ServiceM8's digital forms are exceptional. You can build custom compliance checklists, inspection reports, and certificate of compliance templates that field staff complete on-site via the app.
 
-The regulatory landscape for Australian electricians is demanding: under the **NSW CCEW framework** (*Gas and Electricity (Consumer Safety) Act 2017* and *Regulation 2018*, administered by Building Commission NSW), a Certificate of Compliance Electrical Work must be lodged within 7 days of the safety and compliance test — with the s37A lodgement offence carrying 20 penalty units for an individual and 40 otherwise, plus on-the-spot fines up to $1,000. In Victoria, **Energy Safe Victoria requires CES lodgement within 30 days** under the *Electricity Safety Act 1998 (Vic)*. Nationally, Clean Energy Regulator audits under the *Renewable Energy (Electricity) Act 2000* require complete installation records including geo-tagged photos and test results. For installers, our [solar compliance checklist](/blog/solar-compliance-checklist-2026/) maps every CER documentation requirement against what ServiceM8's forms capture automatically.
+The regulatory landscape for Australian electricians is demanding: under the **NSW CCEW framework** (*Gas and Electricity (Consumer Safety) Act 2017* and *Regulation 2018*, administered by Building Commission NSW), a Certificate of Compliance Electrical Work must be lodged within 7 days of the safety and compliance test — with the s37A lodgement offence carrying 20 penalty units for an individual and 40 otherwise, plus on-the-spot fines up to $1,000. In Victoria the document is a **Certificate of Electrical Safety (COES)**, and the clock depends on the work: for prescribed work (switchboards, consumer mains, main earthing, solar, battery) the certificate is signed within 4 business days, ESV is notified within 2 business days of that, an independent Licensed Electrical Inspector must inspect within 8 business days, and copies go to the customer, the distribution business and ESV within 16 calendar days. The one-month figure you see quoted applies only to the customer copy on non-prescribed work. Nationally, Clean Energy Regulator audits under the *Renewable Energy (Electricity) Act 2000* require complete installation records including site photos and test results. For installers, our [solar compliance checklist](/blog/solar-compliance-checklist-2026/) maps every CER documentation requirement against what ServiceM8's forms capture.
 
 ServiceM8's digital job forms are built to capture all of this at the point of work — not in a Friday afternoon paperwork scramble.
 
-Photos attach directly to job records — not floating in someone's camera roll. Every site visit is timestamped and auditable. When Building Commission NSW, Energy Safe Victoria, or the Clean Energy Regulator comes knocking, your documentation is already organised.
+Photos attach directly to the job record — not floating in someone's camera roll. Every site visit is timestamped and auditable. One limit is worth knowing before you promise an auditor anything: the ServiceM8 camera saves the photo to the job with the time, job address and check-in record, but it does not write GPS coordinates onto the image. If proving *where* a photo was taken matters — a dispute, an insurance claim, a CER audit — that comes from a paid add-on: Advanced Photo Branding, whose fields include GPS Location and which runs on iPhone and the online dashboard, or a marketplace add-on such as WorkM8 Photo GPS. Neither is available inside the old Android Lite app, which ServiceM8 15 retired anyway. ServiceM8's own AI Photo Tagging tags what is in the photo (a switchboard, a smoke alarm), not where it is.
 
 Working with trades businesses preparing for CER audits, I've seen this shift firsthand: companies that previously spent two days pulling together paper records for a spot audit now do it in under two hours — because everything is tied to the job record automatically. See our [CER audit preparation guide](/blog/cer-audit-prep-solar-installers/) for the full compliance workflow.
 
@@ -162,7 +164,7 @@ Live GPS tracking for field staff with automated customer notifications ("Your t
 
 ### 5. iOS and Android Apps
 
-The mobile apps are genuinely polished — one of the strongest in the category. Field staff can quote, invoice, take photos, capture signatures, and complete compliance forms without a paper form in sight.
+Both apps are now genuinely strong — ServiceM8 15 brought Android up to near-parity with iOS in September 2026. Field staff can quote, invoice, take photos, capture signatures, and complete compliance forms without a paper form in sight.
 
 ---
 
@@ -170,9 +172,9 @@ The mobile apps are genuinely polished — one of the strongest in the category.
 
 **No native project management for large jobs.** ServiceM8 is optimised for single-visit or multi-stage jobs, but it's not designed for complex, multi-month construction projects with cost tracking across dozens of cost codes. If you're doing large commercial solar farms, you may need to supplement with project management tooling.
 
-**iOS-first experience.** While Android works, the iOS app has historically received features and polish first. Android users report a minor but noticeable gap in experience.
+**The Android gap has narrowed but not closed.** Since ServiceM8 15 (September 2026) the Android app is the full app rather than the cut-down Lite it replaced in 2024, and it covers scheduling, quoting, invoicing, payments, proposals, forms and assets. What Android still does not have is the iPhone's extra hardware-adjacent tooling — Room Scan with AR measuring, diagram drawing, and editing or filling PDFs from an attachment preview. If your workflow depends on those, the Android crew will be second-class for a while yet.
 
-**Add-on costs add up.** The base plan is affordable, but enabling advanced features like route optimisation, job costing, or certain integrations pushes the monthly cost higher than the headline price suggests. Calculate total cost carefully before committing.
+**Add-on costs add up.** The base plan is affordable, but the features that separate a basic account from a working one — Job Costing, Advanced Photo Branding, Advanced Reporting Pack, Proposals, partial/progress invoicing — are add-ons with their own monthly fees, and some, like Forms & Certificates, are gated to the $79 Growing plan and above. Calculate total cost carefully before committing.
 
 **Limited custom reporting.** Out-of-the-box reporting is functional but basic. Businesses that need deep operational analytics will find the built-in reports limiting and may need to export data to a separate BI tool.
 
@@ -188,7 +190,7 @@ How does ServiceM8 stack up against the other main players in the Australian mar
 |---|---|---|---|---|
 | Starting price (AUD/mo) | $29 (incl. GST) | Quote only | $48/user (ex GST) | $53 (ex GST) |
 | Per-user pricing | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes |
-| Compliance forms | ✅ Excellent | ✅ Good | ⚠️ Pro+ only | ⚠️ Basic |
+| Compliance forms | ✅ Excellent | ✅ Good | ⚠️ Pro and above | ⚠️ Basic |
 | Mobile app quality | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
 | Xero integration | ✅ Native | ✅ Native | ✅ Native | ✅ Native |
 | Free trial | ✅ 14 days | ❌ Demo only | ✅ 14 days | ✅ 14 days |
@@ -196,7 +198,7 @@ How does ServiceM8 stack up against the other main players in the Australian mar
 
 For a deeper comparison, see our [ServiceM8 vs simPRO breakdown](/blog/servicem8-vs-simpro-comparison-australia/) and [ServiceM8 vs Tradify comparison](/blog/servicem8-vs-tradify-comparison-australia/).
 
-*Prices verified against each vendor's Australian pricing page in October 2026. ServiceM8 quotes inclusive of GST; Tradify and Fergus quote exclusive of GST (Tradify Lite $48, Pro $52, Plus $62 per user; Fergus Essentials $53, Professional $77). simPRO does not publish pricing — it is quote-only, so any "from $149" figure you see elsewhere is unsourced.*
+*Prices verified against each vendor's Australian pricing page in October 2026. ServiceM8 quotes inclusive of GST; Tradify and Fergus quote exclusive of GST (Tradify Lite $48, Pro $52, Plus $62 per user; Fergus Basic $53, Professional $75 — currently promoted at 90% off until December 2026). simPRO does not publish pricing — it is quote-only, so any "from $149" figure you see elsewhere is unsourced.*
 
 ---
 
@@ -226,7 +228,7 @@ Talk to Australian tradies who've switched to ServiceM8, and a few themes come u
 
 ServiceM8 is the strongest fit for:
 
-- **Solar and battery installers** — compliance documentation, CER audit readiness (under the *Renewable Energy (Electricity) Act 2000*), and geo-tagged site evidence are built-in (the custom form builder starts on the $79 Growing plan)
+- **Solar and battery installers** — compliance documentation, CER audit readiness (under the *Renewable Energy (Electricity) Act 2000*), and job-attached site evidence are built-in (the custom form builder starts on the $79 Growing plan; GPS coordinates on photos need a separate add-on)
 - **Electricians and plumbers** running residential and light commercial work — particularly those managing CCEW obligations under the *Gas and Electricity (Consumer Safety) Act 2017 (NSW)*, administered by Building Commission NSW, or Certificate of Electrical Safety requirements under *Electricity Safety Act 1998 (Vic)*
 - **Growing trade businesses** (2–30 staff) that want to replace paper-based workflows
 - **HVAC and air-conditioning contractors** — [ServiceM8 for HVAC businesses](/blog/servicem8-for-hvac/) covers job templates, maintenance schedules, and the AS/NZS 5149 refrigerant-compliance workflows specific to the trade
@@ -239,7 +241,7 @@ ServiceM8 is the strongest fit for:
 
 It's less suitable for:
 - Large commercial or civil contractors with complex project accounting needs
-- Businesses with heavy Android-only workforces
+- Businesses with heavy Android-only workforces that depend on Room Scan, diagrams or PDF fill-in
 - Enterprises needing deep custom reporting and multi-location inventory management
 
 ---
@@ -254,19 +256,20 @@ ServiceM8 connects with the tools Australian trade businesses already use:
 - **QuickBooks Online** — Native, same three-way position in ServiceM8's integration lineup; less common than Xero among Australian tradies.
 
 **Payments**
-- **ServiceM8 Payments** — Built-in card processing via Stripe. Accept Visa, Mastercard, and Amex in the field or via payment link. Competitive processing rates with no monthly fee.
-- **Square** — Integration available for businesses already on Square.
-- **Ezidebit** — Direct debit integration for recurring payment collection.
+- **ServiceM8 Pay** — ServiceM8's own payment solution, run on Stripe. No hardware, no monthly fee; you take card payments in the app or on an emailed invoice, and money lands the next business day. The rate depends on your plan: 1.89% + 30c on Free, 1.69% + 30c on Starter, 1.49% + 30c on Growing, 1.39% + 30c on Premium, 1.19% + 30c on Premium Plus, and 3.70% + 30c for international cards and Amex on every plan. It requires a monthly plan — it is not available on the per-job option.
+- **Tap to Pay** — contactless card and wallet payments straight on the phone, on both iPhone and Android, no terminal or dongle.
+
+**Note the 1 October 2026 change:** Australian card networks stopped permitting businesses to pass card processing fees on as a surcharge. ServiceM8 turned its surcharge feature off on that date, so from now on the processing fee is a permanent cost you absorb rather than one you recover from the client. On $60,000 of card volume a year at Growing's 1.49%, that is roughly $900 of margin you need to price into your quotes. It is also not a reason to climb a plan: moving Starter to Premium Plus to save 0.5% of card fees would cost $3,840 a year in subscription.
 
 **Communications**
-- **Mailchimp** — Sync client lists for email marketing campaigns.
-- **Google Maps** — GPS routing and client location mapping built-in.
+- **Mailchimp** — daily sync of client email addresses into a Mailchimp list.
+- **ServiceM8 Phone** — a phone number inside ServiceM8 with call records against the job; the Phone Agent (ServiceM8 14) answers calls when you can't.
 
-**Industry-specific**
-- **SolarVista** — Solar design and quoting tool integration.
-- **Wufoo / Gravity Forms** — Web form integrations for capturing new enquiries directly into ServiceM8 jobs.
+**Staff and workflow**
+- **Deputy** — clock-on and clock-off times from ServiceM8 flow into Deputy as timesheets, for businesses with rostering needs beyond what ServiceM8 handles.
+- **Zapier and Workato** — the route to everything else. Neither is a direct integration, but they open ServiceM8 up to thousands of apps, which is how tradies wire in quoting tools, CRM and accounting extras that ServiceM8 has no native connection for.
 
-The integration ecosystem is not as extensive as larger enterprise platforms, but it covers the essential workflows that most Australian trade businesses need.
+The integration ecosystem is not as extensive as larger enterprise platforms, but it covers the essential workflows that most Australian trade businesses need. Be sceptical of lists that name a direct ServiceM8 connection to every tool you use — the official add-on catalogue is short, and anything beyond accounting, Mailchimp, Deputy, Zapier, Workato and the SMS/payment rails is usually a Zap rather than an integration.
 
 <div class="yt-facade" data-vid="MJvE2SaY42A" data-title="Ruby Electrical — ServiceM8 & Xero Customer Story" style="position:relative;padding-top:56.25%;max-width:640px;margin:24px auto;border-radius:12px;overflow:hidden;cursor:pointer;background:#0f172a;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
   <img src="https://i.ytimg.com/vi/MJvE2SaY42A/hqdefault.jpg" alt="Ruby Electrical — ServiceM8 and Xero customer story" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
@@ -377,7 +380,7 @@ If you're a solar installer or electrician running more than 15 jobs a month, th
     var j = vals['1'] || '50-150';
     var n,p,d;
     if(j=='lessthan50'){n='Starter';p='$29';d=['50 jobs/month','100 SMS incl.','Unlimited staff','Invoicing & quoting','Mobile app']}
-    else if(j=='50-150'){n='Growing';p='$79';d=['150 jobs/month','300 SMS incl.','Unlimited staff','Xero, MYOB & QB sync','On-site quoting','Card payments 1.65%']}
+    else if(j=='50-150'){n='Growing';p='$79';d=['150 jobs/month','300 SMS incl.','Unlimited staff','Xero, MYOB & QB sync','On-site quoting','Card payments 1.49% + 30c']}
     else if(j=='150-500'){n='Premium';p='$149';d=['500 jobs/month','1000 SMS incl.','Unlimited staff','Advanced scheduling','Job costing','Priority support']}
     else{n='Premium Plus';p='$349';d=['1500+ jobs/month','3000+ SMS incl.','Unlimited staff','20c extra job','Dedicated manager','API access']}
     var el = document.getElementById('pf-plan');
@@ -415,7 +418,7 @@ If you're a solar installer or electrician running more than 15 jobs a month, th
 ## Frequently Asked Questions
 
 ### Is ServiceM8 worth it for a small electrical or solar business?
-Yes — for a 1–5 person electrical or solar business, ServiceM8 delivers a clear positive ROI. The most immediate benefit is invoice speed: businesses consistently report getting invoices out same-day instead of 3–5 days after job completion, which alone recovers significant working capital. The compliance form support (CCEW, solar site documentation), Xero integration, and mobile-first design make it purpose-built for the way trade businesses actually work in the field.
+Yes — for a 1–5 person electrical or solar business, ServiceM8 delivers a clear positive ROI. The most immediate benefit is invoice speed: businesses consistently report getting invoices out same-day instead of 3–5 days after job completion, which alone recovers significant working capital. The custom form builder (Growing plan, $79/mo — Starter can only fill existing Form Store forms) lets you capture CCEW and solar site data against the job, and the Xero sync plus mobile-first design suit the way trade businesses actually work in the field. What it does not do is lodge anything: CCEWs go into NSW eCert and Victoria's COES into ESVConnect, so the form is your evidence, not your submission.
 
 ### Is ServiceM8 the same as "Service M8", "ServiceMate", or "Service Mate"?
 Yes — all of these refer to the same platform. The official brand name is *ServiceM8* (one word, capital S, capital M, number 8). Common search variations include "Service M8" (with a space), "Service M 8" (with two spaces), "ServiceMate," and "Service Mate." If you've seen it referred to as *SM8* in tradie forums or Facebook groups, that's the informal shorthand for the same product.
@@ -427,22 +430,22 @@ ServiceM8 is not well-suited for large businesses (20+ field staff) with complex
 ServiceM8 is priced in AUD for Australian businesses. Plans start at $29/month (Starter, 50 jobs/month) and scale to Premium Plus at $349/month for 1,500+ jobs. The most popular plan for small electrical and solar businesses is Growing at $79/month, covering 150 jobs/month with unlimited staff. There is a free 14-day trial with no credit card required.
 
 ### Does ServiceM8 work for solar compliance documentation?
-Yes — ServiceM8 supports custom digital forms that can capture all the data required for solar compliance workflows: CER documentation requirements, geo-tagged site photos (attached directly in the app), AS/NZS 5033 and 5139 checklist items, customer declarations for STC assignment, and CCEW data fields. These forms can be completed on-site and synced automatically, eliminating end-of-day paperwork and creating a timestamped digital audit trail.
+Partly, and the limit matters. ServiceM8's custom form builder (Growing plan, $79/mo) can capture the fields a solar job needs — CER documentation, AS/NZS 5033 and 5139 checklist items, customer declarations for STC assignment, CCEW data — completed on-site and synced to the job with a timestamp. What it does not do natively is put coordinates on the photo: images taken in the ServiceM8 camera are saved to the job with a time, job address and check-in record, but no GPS stamp. Location stamping needs the Advanced Photo Branding add-on (its fields include GPS Location, iOS only) or a marketplace add-on like WorkM8 Photo GPS. ServiceM8 also does not lodge anything — the CCEW goes into eCert, the COES into ESVConnect.
 
 ### Can ServiceM8 integrate with Xero and MYOB?
 Yes. ServiceM8 has native integrations with Xero, MYOB Business (AU/NZ) and QuickBooks Online. Invoices, client records, and payments sync automatically, eliminating double-entry between your job management and accounting platforms.
 
 ### What new features does ServiceM8 have in 2026?
-ServiceM8's biggest recent release was the ServiceM8 14 update (Sep 2025), led by AI agents: the **Phone Agent** answers and qualifies calls for you, and the **Office Agent** handles routine admin tasks. **Smart Report Helper** builds custom reports from plain-English prompts, and **Powerful Reports** introduced a new reporting engine. On-site, **Tap to Pay on iPhone** accepts contactless payments, **Auto Routing** optimises a technician's day, and **SMS Photos & Files** lets you send photos to clients by text. The n8n integration adds workflow automation, and ServiceM8 Lite for Android brings scheduling and invoicing to more users.
+ServiceM8 15, released 18 September 2026, is the current release. Its headline is a full-featured **ServiceM8 app for Android** — the cut-down ServiceM8 Lite app has been retired, and ServiceM8 says Android now has almost all the same functionality as iOS. The release also added **Office Agent** (an AI assistant you can chat to, which can schedule routine tasks, draft quotes and follow-ups, prepare reports and propose actions you approve or decline), a rebuilt **staff schedule** and booking window that shows a whole week of real availability with travel time, **Staff Chat**, note threads and reactions, photo markup online, a new Apple Watch app, and an Add-on Kit CLI for building private add-ons with Codex or Claude Code. The previous release, ServiceM8 14 (September 2025), introduced the Phone Agent that answers calls and the original Office Agent, plus Smart Report Helper and the n8n integration.
 
 ### How much revenue does ServiceM8 generate?
-ServiceM8's estimated annual revenue is around $2.6M (GetLatka estimate, 2025) with a team of roughly 24 staff. The platform has managed over 50 million jobs worth more than $50 billion across 40+ countries since launching in 2010, and was ranked in Deloitte's Technology Fast 50 in 2020.
+ServiceM8 does not publish revenue — it is privately held and bootstrapped, with no outside investors, so any figure you see is a third-party estimate. The estimates diverge sharply: one commonly repeated estimate puts it near $2.6M a year, which is hard to reconcile with the company's own stated scale and its Deloitte ranking. What is verifiable is the operating data: ServiceM8 says it has managed over 50 million jobs worth more than $50 billion across 40+ countries since launching in 2010, and it placed 28th on Deloitte's Technology Fast 50 in 2020 with 248% growth over the preceding three years. It was founded in Darwin in 2009 by Kim Ford and his son Ben.
 
 ### How does ServiceM8 compare to Tradify for Australian electricians?
 Both are strong mobile-first platforms for Australian trade businesses. ServiceM8 has more mature compliance form support and a larger ecosystem of integrations, which makes it the preferred choice for solar installers who need CER-compatible workflows. Tradify has a simpler interface and is often preferred by newer businesses or sole traders who want faster onboarding. For a 1–3 person electrical business new to job management software, Tradify is a legitimate alternative worth trialling alongside ServiceM8.
 
 ### Is there a free trial for ServiceM8?
-Yes — ServiceM8 offers a 14-day free trial with no credit card required. You get full access to explore the platform before committing. [Start your trial here](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate).
+Yes — ServiceM8 offers a 14-day free trial with no credit card required. You get full access to explore the platform before committing, and there is also a permanent Free plan limited to one user and 30 jobs a month.
 
 ---
 

@@ -14,7 +14,7 @@ faq:
   - question: "What are the most common electrical safety audit failures?"
     answer: "The top 5 audit failures are: (1) missing or incomplete CCEW certificates, (2) test records not matching AS/NZS 3000 requirements, (3) no SWMS for high-risk construction work, (4) expired or incorrect class of electrical licence, (5) poor cable management and labelling in switchboards. 80% of auditors check switchboard labelling first — it sets the tone for the entire audit."
   - question: "How do I prepare for an ESV (Victoria) electrical safety audit?"
-    answer: "ESV audits require the CES (Certificate of Electrical Safety) to be lodged within 30 days (not 7 like NSW CCEW). ESV cross-references CES records against DNSP connection data — discrepancies trigger an automatic audit flag. Ensure your CES records match your job management system exactly, and that all solar installations have a separate CES for the AC and DC sides."
+    answer: "Victoria issues a Certificate of Electrical Safety (COES), not a 30-day lodgement. For prescribed work — switchboards, consumer mains, main earthing, solar, battery — the certificate is signed within 4 business days of completing the work, the responsible person notifies ESV within 2 business days of that, an independent Licensed Electrical Inspector must inspect within 8 business days, and copies go to the customer, the distribution business and ESV within 16 calendar days. The one-month window applies only to the customer copy on non-prescribed work. Keep the COES and the inspection record against the job; ESV audits certificated work and can require rectification."
   - question: "Is there a downloadable electrical safety audit checklist?"
     answer: "Yes — this article includes a free downloadable PDF checklist covering all 6 audit categories: licensing, certificates, test records, SWMS, insurance, and on-site safety. Download it at the end of the article and keep a printed copy in your switchboard prep area."
 ---
@@ -95,8 +95,8 @@ Every electrical safety audit — regardless of the state regulator — follows 
 
 **What auditors check:**
 
-- CCEW (NSW), CES (VIC), or CoTC (QLD) certificates for **all notifiable work** completed in the past 12 months. Auditors typically request the last 20 certificates.
-- That certificates were **lodged within the statutory timeframe** — 7 days in NSW (Gas and Electricity (Consumer Safety) Regulation 2018, s37A), 30 days in VIC (Electricity Safety Act 1998), 30 days in QLD (Electrical Safety Act 2002).
+- CCEW (NSW), COES (VIC), or a Queensland certificate of testing and compliance for **all notifiable work** completed in the past 12 months. Auditors typically request the last 20 certificates.
+- That certificates were **lodged within the statutory timeframe** — 7 days in NSW (Gas and Electricity (Consumer Safety) Regulation 2018, s37A); in VIC prescribed work runs on business-day clocks (signed within 4, ESV notified within 2, inspected within 8, copies out within 16 calendar days) rather than a 30-day lodgement; in QLD there is no lodgement deadline at all — the certificate of testing and compliance is issued and kept for 5 years.
 - That certificate details match the **job records in your system** — same address, same scope of work, same date.
 
 **Most common failure:** Certificates issued but **not lodged** with the regulator. The contractor has a copy on file but never submitted it through the eCert portal (NSW), ESV Connect (VIC), or the Electrical Safety Office portal (QLD). This is an automatic non-compliance finding.
@@ -198,10 +198,10 @@ While the six categories above apply everywhere, each state regulator has its ow
 **Regulator:** Energy Safe Victoria (ESV)
 
 **Audit triggers unique to VIC:**
-- **CES-to-DNSP mismatch audits.** ESV cross-references CES lodgements against DNSP connection records monthly. If your CES data doesn't match the DNSP's record for the same address, you get flagged automatically.
-- **Solar-specific audits require separate CES for AC and DC sides.** ESV expects two CES certificates per solar installation — one for the AC (inverter to switchboard) and one for the DC (panels to inverter). Issuing a single combined CES is a common audit fail.
+- **Prescribed work without an inspection.** Prescribed work — consumer mains, main switchboard, meter box, main earthing, solar, battery — cannot be connected until an independent Licensed Electrical Inspector has inspected it. Work that is connected before inspection is the failure mode ESV finds.
+- **A COES that doesn't match the job.** ESV audits certificated work, and the certificate has to describe the work actually done, signed by the person who did it, with the inspection record attached. A certificate issued for work that doesn't match the installation is the audit finding — there is no published "auto-flag" from DNSP data, so treat any page claiming one as unverified.
 
-**Deadline:** CES must be lodged within **30 days** of completing the work (Electricity Safety Act 1998).
+**Deadline:** for prescribed work (switchboards, consumer mains, main earthing, solar, battery) the COES is signed within **4 business days**, ESV notified within **2 business days** of that, inspection within **8 business days**, and copies to the customer, the distribution business and ESV within **16 calendar days** (Electricity Safety Act 1998 (Vic)). The one-month figure applies only to the customer copy on non-prescribed work.
 
 ### Queensland — Electrical Safety Office (ESO)
 
@@ -211,7 +211,7 @@ While the six categories above apply everywhere, each state regulator has its ow
 - The **Electrical Safety Act 2002** imposes a positive duty on officers of a business (company directors, business owners) to exercise due diligence — this goes beyond employer duties under WHS legislation. Auditors can and do interview company directors about their safety systems.
 - The ESO's **Electrical Compliance Data Exchange** (launched March 2026) links Energex and Ergon Energy metering data to contractor records.
 
-**Deadline:** Certificate of Testing and Compliance (CoTC) must be lodged within **30 days** (Electrical Safety Act 2002).
+**Deadline:** there is no lodgement deadline in Queensland. The licensed electrician issues a **certificate of testing and compliance** for installation work (or a certificate of testing and safety for equipment work) to the person for whom the work was done, and both the person who did the work and the person who received it keep a copy for **5 years** (Electrical Safety Regulation 2013). The 30-day figure does not exist in the QLD instruments.
 
 ### Western Australia — Building and Energy
 
@@ -230,8 +230,8 @@ While the six categories above apply everywhere, each state regulator has its ow
 | State | Certificate Type | Lodgement Deadline | Penalty Caps |
 |-------|-----------------|-------------------|--------------|
 | NSW | CCEW | 7 days | $22K / $110K |
-| VIC | CES | 30 days | $10K / $50K+ |
-| QLD | CoTC | 30 days | $45K / $220K |
+| VIC | COES | 4 business days (prescribed) | $10K / $50K+ |
+| QLD | Certificate of testing and compliance | No lodgement deadline; keep 5 years | $45K / $220K |
 | WA | ESC (eNotice) | 14 days | $25K / $125K |
 | SA | Certificate of Compliance | No central lodgement | $20K / $100K |
 
@@ -274,7 +274,7 @@ The single most effective audit preparation strategy is having every document an
 | Audit Category | How ServiceM8 Helps |
 |---------------|-------------------|
 | **Licensing** | Store licence certificates in the **Company Documents** section. Set expiry reminders so nothing lapses. |
-| **Compliance Certificates** | Generate CCEW/CES/CoTC templates from job data. Attach lodged certificates directly to the job card. |
+| **Compliance Certificates** | Build a form that captures CCEW / COES / QLD certificate fields from job data (custom forms start on the $79 Growing plan), and attach the lodged certificate PDF to the job card. It does not lodge anything — eCert, ESVConnect and the QLD process are separate. |
 | **Test Records** | Upload AS/NZS 3000 test sheets to the job's **Documents** tab. Searchable by job number or property address. |
 | **SWMS** | Create SWMS templates as **Custom Forms**. Workers complete and sign on-site via the mobile app before starting work. |
 | **Insurance** | Store all insurance certificates as permanent documents. Expiry reminders keep you ahead of renewal dates. |
@@ -348,7 +348,7 @@ The top 5 audit failures are: (1) missing or incomplete CCEW certificates, (2) t
 
 ### How do I prepare for an ESV (Victoria) electrical safety audit?
 
-ESV audits require the CES (Certificate of Electrical Safety) to be lodged within 30 days (not 7 like NSW CCEW). ESV cross-references CES records against DNSP connection data — discrepancies trigger an automatic audit flag. Ensure your CES records match your job management system exactly, and that all solar installations have a separate CES for the AC and DC sides.
+Victoria issues a Certificate of Electrical Safety (COES), not a 30-day lodgement. For prescribed work — switchboards, consumer mains, main earthing, solar, battery — the certificate is signed within 4 business days of completing the work, the responsible person notifies ESV within 2 business days of that, an independent Licensed Electrical Inspector must inspect within 8 business days, and copies go to the customer, the distribution business and ESV within 16 calendar days. The one-month window applies only to the customer copy on non-prescribed work. Keep the COES and the inspection record against the job; ESV audits certificated work and can require rectification.
 
 ### Is there a downloadable electrical safety audit checklist?
 

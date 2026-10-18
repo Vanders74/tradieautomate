@@ -9,7 +9,7 @@ faq:
   - question: "Can I switch from Fergus to ServiceM8?"
     answer: "Yes. ServiceM8's onboarding team can assist with migration. Client records and basic job history can be imported. Compliance form templates will need to be rebuilt in ServiceM8's form builder."
   - question: "Which platform has better customer support?"
-    answer: "ServiceM8 is Australian-based with Australian support. Fergus has AU-based support as well. Both platforms have responsive support reputations. ServiceM8's larger Australian user base generally means more community resources (forum posts, help articles, YouTube walkthroughs) specific to Australian compliance workflows. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling. > [Download free →](/playbook) *Related reading:* - *[Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)* - *[ServiceM8 vs Tradify: Australian Tradie Comparison](/blog/servicem8-vs-tradify-comparison-australia/)* - *[Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/)*"
+    answer: "ServiceM8 is Australian-based with Australian support. Fergus has AU-based support as well. Both platforms have responsive support reputations. ServiceM8's larger Australian user base generally means more community resources (forum posts, help articles, YouTube walkthroughs) specific to Australian compliance workflows. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling."
 pubDate: 'Apr 27 2026'
 updatedDate: 'Jul 30 2026'
 category: "Software Comparisons"
@@ -47,6 +47,8 @@ If you're comparing the two seriously, this breakdown gives you the honest asses
 ### ServiceM8
 
 ServiceM8 prices by jobs per month, not by users. Every staff member on your team can access the platform:
+
+> **Full plan breakdown:** every ServiceM8 tier, 2026 card fees and what a 5-person crew actually pays are in the [ServiceM8 pricing plans guide 2026](/blog/servicem8-pricing-plans-australia-2026/).
 
 | Plan | Monthly cost (AUD) | Jobs per month |
 |------|-------------------|----------------|

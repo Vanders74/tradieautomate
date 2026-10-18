@@ -51,6 +51,8 @@ This comparison breaks it down honestly — pricing, features, compliance tools,
 
 ServiceM8 starts at around **$29/month AUD** and scales with your team size and plan features. For most small solar or electrical businesses (1–10 technicians), you'll typically land in the $29–$149/month range.
 
+> **Full plan breakdown:** every ServiceM8 tier, 2026 card fees and what a 5-person crew actually pays are in the [ServiceM8 pricing plans guide 2026](/blog/servicem8-pricing-plans-australia-2026/).
+
 Key pricing points:
 - 14-day free trial — full feature access, no credit card required
 - Plans are transparent and scale predictably

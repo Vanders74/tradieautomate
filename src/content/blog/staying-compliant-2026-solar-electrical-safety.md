@@ -143,7 +143,7 @@ Electrical licensing and compliance requirements vary by state. The key obligati
 
 ### Victoria — Energy Safe Victoria
 
-- **Certificate of Electrical Safety (CES):** Required for electrical installation work, including solar and battery. Must be issued within 30 days of completing the work.
+- **Certificate of Electrical Safety (COES):** Required for electrical installation work, including solar and battery. For prescribed work (switchboards, consumer mains, main earthing, solar, battery) it is signed within 4 business days, ESV notified within 2 business days of that, inspected within 8 business days, and copies distributed within 16 calendar days. The 30-day window applies only to the customer copy on non-prescribed work.
 - **Notification requirements:** Certain work types require notification to your network distributor. Know which jobs trigger this obligation.
 - **Licensed electrical inspection:** Some work types require inspection by a licensed electrical inspector before connection. Confirm requirements for your jurisdiction before scheduling connection.
 - **Victorian Energy Upgrades (VEU):** If you're installing heat pump hot water systems, the state VEU program generates VEECs on top of STCs — with its own ESC accreditation and documentation requirements. See our [VEU guide for electricians](/blog/victorian-energy-upgrades-veu-electricians-guide-2026/).
