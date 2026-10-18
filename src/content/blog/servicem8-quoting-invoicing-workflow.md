@@ -31,14 +31,14 @@ faq:
   - question: "Does ServiceM8 integrate with Xero for invoicing?"
     answer: "Yes. ServiceM8 syncs invoices, payments, and client records to Xero in real time. When a job is marked complete, the invoice is auto-generated in ServiceM8 and pushed to Xero — no double-entry. Payment reconciliation is automatic: when a client pays via Stripe through ServiceM8, the payment is recorded in both systems. Inventory items and COGS also sync if configured."
   - question: "Can ServiceM8 send automatic payment reminders?"
-    answer: "Yes. ServiceM8 has built-in automated payment reminders at configurable intervals — typically 7, 14, and 21 days after invoice. These are sent as SMS or email based on client preference. Businesses using the automated reminder sequence report 80%+ of invoices paid within the first reminder window, eliminating the manual follow-up that typically consumes 2–4 hours per week."
+    answer: "Yes. ServiceM8 has built-in automated payment reminders at configurable intervals — typically 7, 14, and 21 days after invoice. These are sent as SMS or email based on client preference. The reminders carry the invoice link, so the client pays without needing to ask for bank details again. Measure your own average days-to-pay before and after you switch them on — that is the only figure that tells you whether the sequence is earning its keep."
   - question: "How does ServiceM8's quoting compare to simPRO and Tradify?"
-    answer: "ServiceM8's quoting is mobile-first and designed for on-site use — create and send quotes from your phone in under 2 minutes. simPRO offers deeper quoting for large commercial projects with complex job costing but is slower for residential. Tradify is simpler and faster for basic quotes but lacks ServiceM8's compliance form attachments (CCEW, CES) and photo integration. For most electrical and solar businesses doing 5–50 jobs per week, ServiceM8's quoting workflow strikes the best balance of speed and depth."
+    answer: "ServiceM8's quoting is mobile-first and designed for on-site use — create and send quotes from your phone in under 2 minutes. simPRO offers deeper quoting for large commercial projects with complex job costing but is slower for residential. Tradify is simpler and faster for basic quotes and has its own Stripe payments, but its form capability is thinner than ServiceM8's Forms add-on for CCEW/CES-style checklists and photo-per-line-item work. For most electrical and solar businesses doing 5–50 jobs per week, ServiceM8's quoting workflow strikes the best balance of speed and depth."
 ---
 
-**ServiceM8's quoting-to-payment workflow compresses the average payment cycle from 21–28 days to 7–10 days** — a 60–70% reduction that frees up tens of thousands in working capital for a typical trade business. The workflow spans seven steps: on-site quote creation, one-tap client approval, job scheduling, work completion with compliance documentation, auto-generated invoicing, integrated payment collection via Stripe, and real-time sync to Xero or MYOB.
+**ServiceM8's quoting-to-payment workflow compresses the average payment cycle from 21–28 days to 7–10 days** — a 60–70% reduction that releases working capital in proportion to how slowly you bill today (the maths is below; it's smaller than most vendor pages claim). The workflow spans seven steps: on-site quote creation, one-tap client approval, job scheduling, work completion with compliance documentation, auto-generated invoicing, integrated payment collection via Stripe, and real-time sync to Xero or MYOB.
 
-For an electrical contractor doing 20 jobs per month at an average job value of $2,500, the cash flow difference between same-day invoicing and manual invoicing 5 days later is approximately $50,000 in working capital — money that's locked in "work done, not yet billed" at any given time. This guide walks through the complete workflow, what the tradie sees vs what the client sees at each step, and how it compares to manual processes and competitor platforms.
+For an electrical contractor doing 20 jobs per month at an average job value of $2,500, that is $50,000 of monthly revenue. Billing five days after the work instead of on the day holds roughly **one-sixth of it — about $8,300 — in "work done, not yet billed"** at any moment. That is the number to plug into your own maths: monthly revenue × (days of billing delay ÷ 30). This guide walks through the complete workflow, what the tradie sees vs what the client sees at each step, and how it compares to manual processes and competitor platforms.
 
 ---
 
@@ -82,7 +82,7 @@ The technician arrives on-site and executes the job. As they work, they complete
 
 Photos are captured throughout: pre-work state, mid-installation, completed work with serial numbers visible. Every photo is timestamped, GPS-tagged, and attached to the job record. This is the documentation that passes a CER audit or satisfies an electrical safety regulator inspection.
 
-**Compliance anchors:** Under the **Gas and Electricity (Consumer Safety) Act 2017** and Regulation 2018, administered by **Building Commission NSW**, the safety and compliance test must be lodged in **BCNSW eCert** within 7 days. (The contractor licence itself sits under the *Home Building Act 1989*.) In Victoria, **Energy Safe Victoria** requires a Certificate of Electrical Safety (CES) within 30 days. ServiceM8's built-in compliance forms ensure these are completed before the job can be marked done — the system won't let the technician close the job with incomplete compliance documentation.
+**Compliance anchors:** Under the **Gas and Electricity (Consumer Safety) Act 2017** and Regulation 2018, administered by **Building Commission NSW**, the safety and compliance test must be lodged in **BCNSW eCert** within **7 days** of the test. (The contractor licence itself sits under the *Home Building Act 1989*.) In Victoria, a **Certificate of Electrical Safety** for prescribed work goes to the Local Electrical Inspector within **4 business days**, and the customer copy within the same window; for non-prescribed work the customer copy is due within **30 calendar days**. ServiceM8 can carry the form itself and prompt the technician, but it does **not** lodge anything with the regulator — eCert and ESV lodgement stay separate from the job record.
 
 ---
 
@@ -92,7 +92,7 @@ When the technician marks the job complete, ServiceM8 auto-generates the invoice
 
 The invoice is sent to the client instantly — the same afternoon as the work, not 3 days later when someone in the office gets around to it.
 
-**The financial impact of same-day invoicing:** For a business doing 25 jobs per month at $3,000 average, shifting from 5-day delay to same-day invoicing frees approximately $37,500 in working capital. Across a year, that's $450,000 in accelerated cash flow — money available for supplier payments, wages, and growth investment instead of sitting in accounts receivable.
+**The financial impact of same-day invoicing:** for a business doing 25 jobs per month at $3,000 average, monthly revenue is $75,000. A 5-day billing delay parks about **$12,500 of it in accounts receivable** at any given moment; going same-day releases that once, permanently. Be careful with the annual figure though — this is a **one-off release of working capital, not an annual saving**. The yearly value comes from never re-creating the backlog, plus the marginal jobs you can fund with money that would otherwise sit in debtors.
 
 ---
 
@@ -140,7 +140,7 @@ One of the most time-consuming admin tasks in any trade business is chasing unpa
 - **Reminder 2 (14 days):** Follow-up email with invoice reattached
 - **Reminder 3 (21 days):** Final notice before escalation
 
-Businesses using automated reminders report 80%+ of invoices paid within the first reminder window. The 2–4 hours per week that was previously spent on manual follow-up is reclaimed for billable work.
+The cadence is a starting point, not a rule. What actually moves payment times is the reminder landing on the invoice link rather than a fresh request for bank details, and consistency across the sequence — a sequence that stops after one nudge is worth very little. Track your own average days-to-pay before and after; that number, not a quoted industry average, is the one that tells you whether the automation is working.
 
 ---
 
@@ -150,15 +150,15 @@ Businesses using automated reminders report 80%+ of invoices paid within the fir
 |---|---|---|---|
 | Quote creation speed | On-site, <2 min | Desktop-first, 5–10 min | On-site, fast but basic |
 | Mobile quoting | Full-featured | Limited | Good for simple jobs |
-| Compliance forms in quote | CCEW, CES built-in | Custom forms (complex setup) | Not built-in |
+| Compliance forms in quote | CCEW/CES via Forms add-on — custom forms need Growing ($79/mo) | Custom forms (complex setup) | Not built-in |
 | One-tap client approval | Yes | Yes (client portal) | Yes |
 | Auto-invoice on job completion | Yes, with Xero sync | Yes, with deeper job costing | Yes, basic |
-| Integrated payments (Stripe) | Yes | Yes | No |
-| On-site payment (Tap to Pay) | Yes | No | No |
+| Integrated payments (Stripe) | Yes | Yes | Yes (Stripe, card only) |
+| NFC Tap to Pay on the phone | Yes (iPhone XS+, iOS 16.4+; not on ServiceM8 Lite for Android) | No | No |
 | Automatic payment reminders | Yes, configurable | Yes | Limited |
 | Best for | 1–20 staff, compliance-heavy | 15+ staff, complex projects | 1–3 staff, simple jobs |
 
-**The verdict for quoting-to-payment specifically:** simPRO has deeper job costing for large commercial projects but adds administrative overhead that slows the residential and light commercial workflow. Tradify is faster for simple quotes but lacks the compliance integration that electricians and solar installers need. ServiceM8 sits in the sweet spot — fast enough for residential, deep enough for compliance documentation, with integrated payments that competitors don't match at this price point.
+**The verdict for quoting-to-payment specifically:** simPRO has deeper job costing for large commercial projects but adds administrative overhead that slows the residential and light commercial workflow. Tradify is faster for simple quotes, does the basics on payments, but lacks the compliance-form depth electricians and solar installers need. ServiceM8 sits in between — fast enough for residential, deep enough for compliance documentation, and the only one of the three with on-device NFC Tap to Pay.
 
 ---
 
