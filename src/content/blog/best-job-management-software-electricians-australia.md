@@ -1,7 +1,7 @@
 ---
 title: 'Best Job Management Software for Electricians Australia 2026'
 description: "Best job management software for electricians in Australia 2026: what ServiceM8's $29 plan really covers, and what Tradify, simPRO, AroFlo and Fergus cost per user."
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 19 2026'
 pubDate: 'Apr 14 2026'
 category: "Software Comparisons"
 heroImage: '/hero-best-job-management-electricians.jpg'
@@ -17,7 +17,7 @@ faq:
   - question: "Is simPRO worth the extra cost for electricians?"
     answer: "simPRO doesn't publish its pricing, so \"worth the extra cost\" can't be answered from a website — you have to get a written quote covering licence, implementation and add-ons. What is clear is that its depth is aimed at electrical businesses with 20+ staff doing complex commercial project work with sophisticated job costing. For most residential and light commercial electricians, ServiceM8 provides better value. See our [ServiceM8 vs simPRO comparison](/blog/servicem8-vs-simpro-comparison-australia/) for a detailed breakdown."
   - question: "How long does it take to set up ServiceM8 for an electrical business?"
-    answer: "Most electricians are up and running with basic job management within a few hours. Building out full compliance form templates, Xero integration, and custom workflows typically takes 1–2 weeks of configuration (or a few days with hands-on onboarding support). ServiceM8 offers onboarding assistance and their support team is Australia-based. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling."
+    answer: "Most electricians are up and running with basic job management within a few hours. Building out full compliance form templates, Xero integration, and custom workflows typically takes 1–2 weeks of configuration (or a few days with hands-on onboarding support). ServiceM8 offers onboarding assistance and their support team is Australia-based."
 ---
 
 Running an electrical business in Australia in 2026 means navigating licensing requirements under state-based electricity safety legislation — in NSW, for example, the **Gas and Electricity (Consumer Safety) Act 2017**, administered by **Building Commission NSW** — along with compliance documentation, quote-to-invoice workflows, and a customer base that expects real-time communication. The right job management software doesn't just help you stay organised — it's the operational backbone that lets you scale without drowning in paperwork.
@@ -76,7 +76,7 @@ Tradify is a simpler platform that works well for electricians who need basic jo
 
 **Best for:** Electricians who want strong job costing and margin tracking; businesses with heavy focus on profitability analytics.
 
-Fergus originated in New Zealand and has a strong following among trade businesses that want visibility into job-level margin and profitability. Its job costing is excellent. Its compliance documentation tools and mobile experience are less mature than ServiceM8. Australian pricing runs **$53/user/month on Basic and $75/user/month on Professional**, with timesheet-only users at $26/user/month, contractor users at $4/user/day, and — the line most comparisons miss — **certificates as a paid add-on at $30/month for 1–9 staff or $80/month for 10+**, charged on top of either plan. Card payments run at 1.95% + 30c per transaction in Australia, SMS alerts at $15 per 100 texts.
+Fergus originated in New Zealand and has a strong following among trade businesses that want visibility into job-level margin and profitability. Its job costing is excellent. Its compliance documentation tools and mobile experience are less mature than ServiceM8. Australian pricing runs **$53/user/month on Essentials and $77/user/month on Professional**, with timesheet-only users at $26/user/month, contractor users at $4/user/day, and — the line most comparisons miss — **certificates as a paid add-on at $30/month for 1–9 staff or $80/month for 10+**, charged on top of either plan. Card payments run at 1.95% + 30c per transaction in Australia, SMS alerts at $15 per 100 texts.
 
 ---
 
@@ -154,19 +154,19 @@ This is particularly valuable for electricians doing solar and battery work, whe
 | **ServiceM8** | $29 (Starter, 50 jobs/mo, unlimited users); $79 Growing (150 jobs); $149 Premium (500 jobs); $349 Premium Plus (1,500+ jobs); Free tier 30 jobs/1 user | **Included** | No — job-based | 14 days, no card |
 | **simPRO** | Not published — quote only | — | Yes | Demo only |
 | **Tradify** | $48/user (Lite); $52/user (Pro, adds compliance certificates); $62/user (Plus) | Excluded — add 10% | Yes | 14 days |
-| **Fergus** | $53/user (Basic); $75/user (Professional); $26/user timesheet-only; contractor users $4/day | Not stated on pricing page — confirm | Yes | 14 days, no card |
+| **Fergus** | $53/user (Essentials); $77/user (Professional); $26/user timesheet-only; contractor users $4/day | Not stated on pricing page — confirm | Yes | 14 days, no card |
 | **AroFlo** | $80/user, **3-user minimum** ($240/mo floor), plus setup from $1,450 | Not stated by vendor | Yes | Demo only |
 
 **Read the GST column before you compare anything.** ServiceM8 states plainly that its Australian prices are in AUD and include GST; Tradify states its prices are ex GST, so its headline numbers are 10% understated against ServiceM8's. AroFlo publishes an AUD figure and a 3-user minimum but no GST statement, and Fergus's pricing page states neither currency nor GST treatment — on both, treat the published number as a floor and confirm in writing.
 
-**One live discount to check before you sign anything.** Fergus has been running a 90%-off-until-December promotion, which shows Basic at $5.30 and Professional at $7.50 in place of $53 and $75. That is a promotional rate with an end date, not the price you will pay from January — budget on the list figures and treat the discount as a first-year saving.
+**One live discount to check before you sign anything.** Fergus has been running a 90%-off-until-December promotion, which shows Essentials at $5.30 and Professional at $7.70 in place of $53 and $77. That is a promotional rate with an end date, not the price you will pay from January — budget on the list figures and treat the discount as a first-year saving. (Fergus runs the same promotion in the US against different list prices — $31 and $44 — so ignore any American figure you see quoted as an Australian one.)
 
 **Key insight:** ServiceM8's per-job (not per-user) pricing model is a significant advantage for growing businesses. When you hire your 5th or 10th technician, your software cost doesn't scale linearly — it stays flat until you hit the next job tier. But it only stays cheaper if you stay inside your job band; a busy 5-person crew that does 200 jobs a month lands on Premium at $149, not Growing at $79.
 
 For a business doing 100 jobs/month with 8 field technicians (ServiceM8 GST-inclusive; per-user platforms at their published rates):
 - **ServiceM8 Growing:** $79/mo (flat, any number of users)
 - **Tradify Lite:** $422/mo (8 × $48 + GST)
-- **Fergus Basic:** $424/mo (8 × $53) + $30/month certificates add-on
+- **Fergus Essentials:** $424/mo (8 × $53) + $30/month certificates add-on
 
 The savings compound as your team grows — and that gap is the single strongest argument for job-based pricing in this category.
 
@@ -177,7 +177,7 @@ The savings compound as your team grows — and that gap is the single strongest
 | Feature | ServiceM8 | simPRO | Tradify | AroFlo | Fergus |
 |---|---|---|---|---|---|
 | Vendor-supplied CCEW form | ❌ None — you build the PDF | ❌ None | ❌ None | ❌ None | ❌ None |
-| Custom compliance forms | ✅ Growing plan+ ($79) | Digital Forms add-on | ✅ Pro plan+ ($52/user) | ✅ Yes | ✅ Forms on Basic; certificates $30/mo add-on (1–9 staff) |
+| Custom compliance forms | ✅ Growing plan+ ($79) | Digital Forms add-on | ✅ Pro plan+ ($52/user) | ✅ Yes | ✅ Forms on Essentials; certificates $30/mo add-on (1–9 staff) |
 | Mobile-first design | ✅ Excellent | Good | ✅ Good | Good | Good |
 | Per-user fee | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
 | Accounting sync | ✅ Xero, MYOB, QuickBooks Online | ✅ Yes | ✅ Xero, MYOB, QuickBooks Online | ✅ Yes | ✅ Xero, MYOB, QuickBooks Online |
