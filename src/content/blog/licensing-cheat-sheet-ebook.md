@@ -2,7 +2,7 @@
 title: 'Free E-Book: The State-by-State Licensing Cheat Sheet — How Australian Electricians Work Across Borders Without Fines'
 description: "Download the free licensing cheat sheet e-book. NSW ECL vs Vic REC vs QLD QBCC — the licensing requirements, fees, recognition across borders, and mutual recognition rules for every Australian state and territory."
 pubDate: 'Oct 1 2026'
-updatedDate: 'Oct 1 2026'
+updatedDate: 'Oct 18 2026'
 category: "E-Book"
 heroImage: '/hero-licensing-cheat-sheet-ebook.jpg'
 tags: ['licensing', 'electrician', 'NSW', 'Victoria', 'Queensland', 'WA', 'South Australia', 'state-by-state', 'e-book']
@@ -25,7 +25,7 @@ faq:
   - question: "Can a NSW-licensed electrician work in Victoria without a REC registration?"
     answer: "No. An NSW ECL holder cannot legally perform electrical contracting work in Victoria without a Victorian REC registration. Under mutual recognition, an individual with a current NSW A-grade electrical licence can apply for a Victorian electrical worker licence without re-examination, but this is a separate process from REC registration. The electrical contracting business itself must hold a current REC registration with Energy Safe Victoria to contract and perform work in Victoria."
   - question: "How long does mutual recognition take across state borders?"
-    answer: "Mutual recognition processing times vary by state. NSW Fair Trading typically processes within 14 days, Victoria's ESV within 21 days, Queensland's ESO within 14 days, and WA's EnergySafety within 28 days. However, processing delays of 4-8 weeks are common across all states during peak periods. The e-book includes current processing times and tips for expediting your application."
+    answer: "Mutual recognition processing times vary by state. NSW's Building Commission typically processes within 14 days, Victoria's ESV within 21 days, Queensland's ESO within 14 days, and WA's EnergySafety within 28 days. However, processing delays of 4-8 weeks are common across all states during peak periods. The e-book includes current processing times and tips for expediting your application."
   - question: "Does Queensland require both a QBCC licence and an Electrical Safety Office licence?"
     answer: "Yes. Queensland is one of the most complex states for electrical contracting licensing. You need both a QBCC contractor licence (for building work including electrical contracting, covering financial requirements and insurance) AND an Electrical Safety Office (ESO) licence (for electrical safety compliance). The QBCC licence requires demonstrating Minimum Financial Requirements (MFR), while the ESO licence focuses on the technical electrical competency. The e-book has a section dedicated to Queensland's dual-licensing system."
   - question: "Do South Australian (SA) electricians need a separate licence for cross-border work into Broken Hill/NSW border regions?"

@@ -2,7 +2,7 @@
 title: 'NSW Electricity Distributors: Ausgrid, Endeavour & Essential Energy — Solar Connection Guide'
 description: "Which NSW distributor covers your site — Ausgrid, Endeavour Energy or Essential Energy — and their different solar export limits (5–10kW per phase), application portals, and CCEW requirements."
 pubDate: 'Aug 29 2026'
-updatedDate: 'Aug 29 2026'
+updatedDate: 'Oct 18 2026'
 accuracyReviewed: '2026-08-29'
 category: "Grid Connection"
 breakdown:
@@ -37,7 +37,7 @@ faq:
   - question: "What is the NSW Emergency Backstop Mechanism?"
     answer: "A NSW Government measure to remotely manage solar and battery exports during grid emergencies. Ausgrid and Endeavour Energy have advised that approved systems must be installed and commissioned by 31 December 2026 under the current arrangements. Installers should check the current backstop requirements before quoting a new system."
   - question: "Do I need a CCEW for a NSW solar installation?"
-    answer: "Yes. NSW is unique in requiring a Certificate of Compliance for Electrical Work (CCEW) for notifiable electrical work under the Home Building Act 1989, administered by NSW Fair Trading. The distributor connection approval is separate from the CCEW — both are required. See the CCEW guides for the 7-day lodgement rule."
+    answer: "Yes. NSW requires a Certificate of Compliance for Electrical Work (CCEW) for notifiable electrical work under the Gas and Electricity (Consumer Safety) Act 2017, administered by Building Commission NSW and lodged in BCNSW eCert. The distributor connection approval is separate from the CCEW — both are required. See the CCEW guides for the 7-day lodgement rule."
   - question: "Do NSW solar systems need to meet AS/NZS 4777?"
     answer: "Yes. All grid-connected inverters in NSW must meet AS/NZS 4777.1:2024 (installation) and AS/NZS 4777.2:2024 (inverter product requirements), published by Standards Australia in August 2024. The inverter must also be on the Clean Energy Council's approved products list."
   - question: "Which distributor covers my suburb?"
@@ -200,7 +200,7 @@ ServiceM8 lets you attach the distributor approval, track the application agains
 - **Three distributors, three export limits:** Ausgrid (10kW single-phase), Endeavour (5kW), Essential (5kW, 3kW rural) — confirm before quoting.
 - **Flexible exports aren't live in NSW yet** — phasing in from late 2026; design systems CSIP-AUS ready.
 - **Small systems auto-approve** (Essential ≤3kW rural / ≤5kW urban); larger ones need review and take 4–8 weeks.
-- **The CCEW is mandatory and separate** from the connection approval (Home Building Act 1989, NSW Fair Trading).
+- **The CCEW is mandatory and separate** from the connection approval (Gas and Electricity (Consumer Safety) Act 2017, Building Commission NSW, lodged in BCNSW eCert).
 - **Inverters must meet AS/NZS 4777:2024** and be on the CEC approved list.
 
 ## Other State Grid Connection Guides

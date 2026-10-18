@@ -2,7 +2,7 @@
 title: 'AI Data Centres Australia 2026: The Cooling Opportunity for HVAC Contractors'
 description: "Data-centre cooling demand grew 67% — HVAC contractors earn 30-40% above standard rates, with $15,000+ maintenance contracts. How to win the work."
 pubDate: 'Sep 11 2026'
-updatedDate: 'Sep 11 2026'
+updatedDate: 'Oct 18 2026'
 category: 'Business Growth'
 heroImage: '/hero-ai-data-centre-cooling-hvac-contractors-australia-2026.jpg'
 breakdown:
@@ -93,7 +93,7 @@ Any technician who purchases, handles, or recovers refrigerants must hold an **A
 
 **AS/NZS 5149** (Refrigerating systems and heat pumps — Safety and environmental requirements) governs design, installation, operation and maintenance of refrigerant systems, including charge limits and ventilation requirements that get strict in confined plant rooms and below-grade data centre basements. Plant-room refrigeration work also falls under state WHS regulators — in New South Wales, **SafeWork NSW** enforces AS/NZS 5149 compliance alongside the **Work Health and Safety Act 2011** — so a data centre safety file will be audited against it.
 
-Electrical disconnect and reconnect work on HVAC plant — split systems, chiller control circuits, condenser fans — sits with the state electrical regulator: **Energy Safe Victoria** under the **Electricity Safety Act 1998**, SafeWork NSW under the **Electricity (Consumer Safety) Act 2004**, and the **Electrical Safety Office Queensland** under the **Electrical Safety Act 2002**. The regulator that applies is the one where the plant is physically installed, not where your business is registered.
+Electrical disconnect and reconnect work on HVAC plant — split systems, chiller control circuits, condenser fans — sits with the state electrical regulator: **Energy Safe Victoria** under the **Electricity Safety Act 1998**, SafeWork NSW under the **Work Health and Safety Act 2011**, Building Commission NSW under the **Gas and Electricity (Consumer Safety) Act 2017**, and the **Electrical Safety Office Queensland** under the **Electrical Safety Act 2002**. The regulator that applies is the one where the plant is physically installed, not where your business is registered.
 
 ### AS/NZS 3666 — Microbial Control
 

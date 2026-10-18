@@ -3,7 +3,7 @@ title: '2026 Solar Compliance Checklist for Australian Installers: CER, AS/NZS 5
 description: "800+ solar installers audited by CER last year. Free printable 2026 compliance checklist — AS/NZS 5033 & 5139, STC docs, and state-by-state regulator requirements."
 pubDate: 'Feb 18 2026'
 category: "Compliance"
-updatedDate: 'Jul 20 2026'
+updatedDate: 'Oct 18 2026'
 heroImage: '/hero-compliance-checklist.jpg'
 ---
 
@@ -115,7 +115,7 @@ See our full guide to [AS/NZS 5139 battery storage compliance](/blog/as-nzs-5139
 
 Compliance in Australia isn't fully uniform — each state and territory has its own electrical licensing requirements, Certificate of Electrical Safety (CES) lodgement processes, and in some cases specific rules around metering and grid connection:
 
-- **NSW** — Fair Trading requires CES lodgement within 3 business days of inspection. The Inspector of Electrical Work must be notified for certain system sizes. See our full [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/).
+- **NSW** — Building Commission NSW requires CCEW lodgement through BCNSW eCert no later than 7 days after the safety and compliance test. See our full [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/).
 - **VIC** — Energy Safe Victoria has specific requirements around solar design documentation and export limiting. The [VIC Solar Homes battery rebate program](/blog/vic-solar-homes-program-rebate-2026/) adds registration and reporting obligations for participating installers. Victorian electricians installing heat pump hot water systems should also understand the [VEU program](/blog/victorian-energy-upgrades-veu-electricians-guide-2026/) — VEECs operate alongside STCs with their own accreditation and documentation requirements.
 - **QLD** — Electrical Safety Office requires licensed electrical contractors to complete and issue an ESREQ for new connections and major work. See the full [QLD electrical contractor licence guide](/blog/qld-electrical-contractor-licence-guide-2026/) for QBCC, ESQ, and QLeave requirements.
 - **SA** — Consumer and Business Services has specific requirements for Certificate of Compliance (COC) documentation. If you're participating in the [SA Home Battery Scheme](/blog/sa-solar-battery-rebate-2026/), there are additional installer registration and rebate documentation obligations.

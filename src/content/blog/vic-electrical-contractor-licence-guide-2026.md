@@ -2,7 +2,7 @@
 title: 'VIC REC Licence 2026: $734 Fee, Nominee Rules & Solar Compliance Guide'
 description: 'Beyond basic REC requirements: $734 fee, nominee rules, $5M insurance, and solar compliance layers CEC/VEU/DNSP. Complete VIC step-by-step guide.'
 pubDate: 'Jul 19 2026'
-updatedDate: 'Oct 11 2026'
+updatedDate: 'Oct 18 2026'
 category: "Compliance"
 breakdown:
   - title: "Hold the A-Class licence"
@@ -310,7 +310,7 @@ Submitting incomplete documentation. The most common rejection reasons are: insu
 - *[CER Audit Prep for Solar Installers: Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)*
 - *[Staying Compliant in 2026: The Complete Solar & Electrical Safety Guide](/blog/staying-compliant-2026-solar-electrical-safety/)*
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians/)*
-- *[NSW Electrical Contractor Licence 2026: Fair Trading, Home Building Act & Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026/)*
+- *[NSW Electrical Contractor Licence 2026: Step-by-Step Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026/)*
 - *[Apprentice Ratios & Hiring Incentives for Electricians Australia 2026](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026/)*
 - [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)
 - [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)

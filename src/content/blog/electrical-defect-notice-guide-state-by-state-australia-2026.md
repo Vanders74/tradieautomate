@@ -2,7 +2,7 @@
 title: 'Electrical Defect Notice: What to Do State-by-State Australia 2026'
 description: "Received an electrical defect notice? Unresolved notices suspend your contractor licence and compound across jobs. Here's the exact response process, deadlines, and appeal rights in all 8 Australian states."
 pubDate: 'Jul 20 2026'
-updatedDate: 'Jul 20 2026'
+updatedDate: 'Oct 18 2026'
 heroImage: '/hero-cer-audit-prep.jpg'
 category: "Compliance"
 breakdown:
@@ -23,7 +23,7 @@ faq:
   - question: "What is an electrical defect notice?"
     answer: "An electrical defect notice is a formal legal document issued by a state electrical safety regulator, network distributor, or Clean Energy Regulator auditor directing a licensed electrical contractor to rectify a specified non-compliance in completed electrical work. Notices are classified by severity: minor (administrative or documentation), major (installation non-compliance), or immediate danger (safety-critical). Each classification carries different response deadlines and consequences for non-response."
   - question: "Can an electrical defect notice suspend my contractor licence?"
-    answer: "Yes. An unresolved major defect notice or immediate-danger notice can trigger a licence suspension in all Australian states. In Victoria, Energy Safe Victoria (ESV) can issue a Compliance Notice under the Electricity Safety Act 1998, non-compliance with which is grounds for suspension or cancellation of an Electrical Contractor Licence. In NSW, SafeWork NSW can refer persistent or serious non-compliance to NSW Fair Trading for licence action. The risk compounds when multiple defect notices across different jobs remain unresolved."
+    answer: "Yes. An unresolved major defect notice or immediate-danger notice can trigger a licence suspension in all Australian states. In Victoria, Energy Safe Victoria (ESV) can issue a Compliance Notice under the Electricity Safety Act 1998, non-compliance with which is grounds for suspension or cancellation of an Electrical Contractor Licence. In NSW, Building Commission NSW can act on the contractor licence and on CCEW compliance — SafeWork NSW handles WHS notices in parallel. The risk compounds when multiple defect notices across different jobs remain unresolved."
   - question: "How long do I have to respond to an electrical defect notice?"
     answer: "Deadlines vary by state and notice classification. Immediate-danger notices typically require same-day or 24-hour response. Major defects generally require rectification within 7–30 days depending on the jurisdiction and issuing authority. Minor defects may allow 30–60 days. Always read the notice itself for the specific deadline — and contact your state regulator or industry body if you believe the deadline is unachievable."
   - question: "What are the most common triggers for electrical defect notices?"
@@ -80,18 +80,18 @@ ESV Technical Bulletin TB-080 covers RCD requirements and is a common basis for 
 
 ### New South Wales — SafeWork NSW
 
-**Regulator:** SafeWork NSW (installation safety); NSW Fair Trading (licensing and CCEW)  
-**Legislation:** *Work Health and Safety Act 2011 (NSW)*, *Electricity (Consumer Safety) Act 2004 (NSW)*  
+**Regulator:** SafeWork NSW (WHS); Building Commission NSW (licensing and CCEW)  
+**Legislation:** *Work Health and Safety Act 2011 (NSW)*, *Gas and Electricity (Consumer Safety) Act 2017 (NSW)*  
 **Notice type:** Improvement Notice, Prohibition Notice  
 **Response deadline:** Specified on notice — Improvement Notices set a reasonable rectification period; Prohibition Notices are immediate  
 **Appeal pathway:** Internal review → NSW Civil and Administrative Tribunal (NCAT)
 
-Key distinction: SafeWork NSW handles the on-site electrical safety aspects; NSW Fair Trading handles CCEW compliance and contractor licence matters. A defect with documentation failures (e.g., missing CCEW, late lodgement) will involve Fair Trading. An installation defect may involve SafeWork NSW.
+Key distinction: SafeWork NSW handles WHS matters on electrical worksites; Building Commission NSW handles contractor licence matters and CCEW compliance. A defect with documentation failures (e.g., missing CCEW, late lodgement) will involve Building Commission NSW. A WHS or installation-safety failure may involve SafeWork NSW.
 
 Under the *Home Building Act 1989 (NSW)*, contractors also have statutory warranty obligations — a defect notice can trigger both regulatory and civil liability.
 
 **SafeWork NSW contact:** safework.nsw.gov.au | 13 10 50  
-**NSW Fair Trading:** fairtrading.nsw.gov.au | 13 32 20
+**Building Commission NSW:** nsw.gov.au/housing-and-construction/building-commission | 13 77 88
 
 ---
 
@@ -291,7 +291,7 @@ Ignoring a defect notice is one of the fastest ways to lose your electrical cont
 | Jurisdiction | Consequence of Non-Response |
 |---|---|
 | VIC (ESV) | Licence suspension or cancellation under *Electricity Safety Act 1998* s.46 |
-| NSW (SafeWork / Fair Trading) | Prohibition on further work; licence referral to Fair Trading; WHS Act prosecution |
+| NSW (SafeWork NSW / Building Commission NSW) | Prohibition on further work; licence action by Building Commission NSW; WHS Act prosecution |
 | QLD (ESO) | Electrical Safety Act 2002 prosecution; licence suspension |
 | WA (EnergySafety) | Licence review; prosecution under *Electricity (Licensing) Regulations 1991* |
 | All states | CER may suspend your STC authorisation — blocking solar installation work nationally |
@@ -307,7 +307,7 @@ The consequence is not just regulatory. Property owners and insurers can pursue 
 ## Related Reading
 
 - *[RCD Safety Switch Requirements Under AS/NZS 3000 — Electricians' 2026 Guide](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026/)*
-- *[NSW Electrical Contractor Licence 2026: Fair Trading, Home Building Act & Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026/)*
+- *[NSW Electrical Contractor Licence 2026: Step-by-Step Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026/)*
 - *[VIC Electrical Contractor Licence 2026](/blog/vic-electrical-contractor-licence-guide-2026/)*
 - *[CCEW NSW: The 7-Day Deadline Rule Electricians Keep Missing](/blog/ccew-nsw-7-day-deadline-rule/)*
 - *[Solar Compliance Checklist for Australian Installers 2026](/blog/solar-compliance-checklist-2026/)*

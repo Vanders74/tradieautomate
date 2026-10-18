@@ -2,10 +2,10 @@
 title: "The Sparky's Playbook — Chapter 1: Mastering State Licensing & Compliance"
 description: "Excerpt from The Sparky's Playbook — Ch.1: electrical licensing across all Australian states. Renewals, insurance, multi-state work, and compliance traps."
 pubDate: 2026-07-20
-updatedDate: 'Jul 20 2026'
+updatedDate: 'Oct 18 2026'
 heroImage: "/hero-ccew-nsw-compliance.jpg"
 category: "Compliance"
-tags: ["electrical licence", "state licensing", "compliance", "QBCC", "NSW Fair Trading", "Energy Safe Victoria", "EnergySafety WA", "CBS SA", "contractor licence"]
+tags: ["electrical licence", "state licensing", "compliance", "QBCC", "Building Commission NSW", "Energy Safe Victoria", "EnergySafety WA", "CBS SA", "contractor licence"]
 faq:
   - question: "Do I need a separate electrical contractor licence for each Australian state?"
     answer: "Yes, each state issues its own electrical contractor licence through a different body. Mutual recognition provisions allow some portability but do not automatically allow you to contract work in another state — you typically need to apply separately or formally invoke mutual recognition in writing before starting work."
@@ -52,12 +52,12 @@ The good news is that staying compliant is mostly a calendar problem, not a know
 
 ## How Each State System Works
 
-### New South Wales — NSW Fair Trading
+### New South Wales — Building Commission NSW
 
 NSW has a two-track system that most contractors — even experienced ones — don't fully understand.
 
 **Track 1: The Electrical Contractor Licence (ECL)**
-This is issued under the *Home Building Act 1989* by NSW Fair Trading. It authorises a business entity to contract electrical work. Without it, you cannot quote or take on electrical jobs as a business in NSW.
+This is issued under the *Home Building Act 1989* by Building Commission NSW (trade licensing transferred from NSW Fair Trading in December 2023). It authorises a business entity to contract electrical work. Without it, you cannot quote or take on electrical jobs as a business in NSW.
 
 **Track 2: The Contractor Licence with Electrical Work (CCEW)**
 The CCEW — sometimes called the Certificate of Compliance for Electrical Work — is the compliance document you lodge after completing each job. It's issued by you as the licensed contractor. What most electricians miss is that the obligation to lodge the CCEW has a strict 7-day deadline from completion of work. Missing that deadline is the most common compliance breach in NSW — and it carries serious consequences.

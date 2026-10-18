@@ -2,7 +2,7 @@
 title: 'NSW Electrical Contractor Licence 2026: Step-by-Step Application Guide for Sparkies'
 description: "How to get your NSW electrical contractor licence in 2026. Licence classes, $5M PLI insurance, fees, application steps via Service NSW, and renewal — from a sparkie perspective."
 pubDate: 'Jul 20 2026'
-updatedDate: 'Oct 1 2026'
+updatedDate: 'Oct 18 2026'
 category: "Compliance"
 breakdown:
   - title: "Qualify"
@@ -26,7 +26,7 @@ breakdown:
   - title: "Renew"
     summary: "1- or 3-year term; a lapse means you're unlicensed."
 heroImage: '/hero-nsw-electrical-contractor-licence-guide-2026.jpg'
-tags: ['NSW', 'electrical contractor', 'NSW Fair Trading', 'Home Building Act', 'licence', 'compliance', '2026']
+tags: ['NSW', 'electrical contractor', 'Building Commission NSW', 'Home Building Act', 'licence', 'compliance', '2026']
 faq:
   - question: "What is the difference between an Electrical Contractor Licence and a Qualified Supervisor Certificate in NSW?"
     answer: "A Qualified Supervisor Certificate (QSC) authorises an individual to personally perform and supervise electrical work. An Electrical Contractor Licence (ECL) authorises a business entity — sole trader, company, or partnership — to contract electrical work to clients. You need both: the business holds the ECL, and the person on the tools holds the QSC. A corporation cannot hold a QSC; individuals cannot hold an ECL unless they also have a QSC."
@@ -35,7 +35,7 @@ faq:
   - question: "How long does it take to get an Electrical Contractor Licence in NSW?"
     answer: "Building Commission NSW processes straightforward applications within 10–20 business days when all documentation is provided correctly. Missing documents, incomplete insurance certificates, or incorrect insurance minimums are the most common causes of delays. Applications with deficiencies are returned, resetting the clock. Budget 4–6 weeks for a first application to be safe."
   - question: "What happens if I operate as an electrical contractor in NSW without a licence?"
-    answer: "Under the Home Building Act 1989, operating without a contractor licence is a criminal offence. NSW Fair Trading issues penalty notices of $1,100–$2,200 per offence on the spot. Court-imposed fines reach $22,000 for individuals and $110,000 for corporations per offence. Unlicensed contractors cannot enforce payment for completed work — clients can withhold payment without legal recourse. Work defects carry no statutory warranty protection."
+    answer: "Under the Home Building Act 1989, operating without a contractor licence is a criminal offence. Building Commission NSW issues penalty notices of $1,100–$2,200 per offence on the spot. Court-imposed fines reach $22,000 for individuals and $110,000 for corporations per offence. Unlicensed contractors cannot enforce payment for completed work — clients can withhold payment without legal recourse. Work defects carry no statutory warranty protection."
   - question: "How does NSW's Electrical Contractor Licence differ from Victoria's CES system?"
     answer: "Victoria uses the Consumer, Trader and Tenancy Tribunal (CTTT) via Consumer Affairs Victoria, and electrical contractor licensing sits under the Electricity Safety Act 1998 (Vic) through Energy Safe Victoria. NSW operates under the Home Building Act 1989 administered by Building Commission NSW. The key difference: in VIC, a Registered Electrical Contractor (REC) number is the equivalent of NSW's Electrical Contractor Licence. NSW adds the Qualified Supervisor Certificate as an additional individual-level credential. Both states require public liability insurance but at different minimums."
 

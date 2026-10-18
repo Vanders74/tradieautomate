@@ -2,7 +2,7 @@
 title: "ServiceM8 vs simPRO for Electricians Australia 2026"
 description: "ServiceM8 vs simPRO for Australian electrical contractors — honest 2026 comparison on CCEW compliance, real pricing for electricians, mobile features, and which platform wins by business size."
 pubDate: 2026-07-20
-updatedDate: 2026-07-20
+updatedDate: 2026-10-18
 heroImage: '/hero-servicem8-vs-simpro-electricians-australia-2026.jpg'
 category: "Software Comparisons"
 tags: ["servicem8 vs simpro", "simpro vs servicem8", "servicem8 vs simpro electricians", "simpro electricians australia", "electrical contractor software", "job management electricians", "servicem8 simpro comparison 2026"]
@@ -21,7 +21,7 @@ faq:
 
 ServiceM8 and simPRO dominate the job management conversation for Australian electrical contractors. They're both capable platforms — but they're built for different business sizes and workflows.
 
-Before comparing features, the compliance stakes need stating. Under the **Home Building Act 1989**, **NSW Fair Trading** requires electrical contractors to lodge a CCEW within 7 days of completing prescribed work — with penalties of $22,000 for individuals and $110,000 for corporations. The **Clean Energy Regulator (CER)** audits solar installations under the **Renewable Energy (Electricity) Act 2000**, requiring complete documentation demonstrating compliance with **AS/NZS 5033** and **AS/NZS 5139**. Your job management software either supports this workflow — or it becomes your audit failure point.
+Before comparing features, the compliance stakes need stating. Under the **Gas and Electricity (Consumer Safety) Act 2017** and Regulation 2018, **Building Commission NSW** requires the CCEW to be lodged within 7 days of the safety and compliance test — the s37A offence tops out at 20 penalty units for an individual (about $2,200) and 40 otherwise (about $4,400), plus on-the-spot fines up to $1,000. (The $22,000 / $110,000 scale often quoted belongs to the *Home Building Act 1989* unlicensed-contracting offence, not CCEW lodgement.) The **Clean Energy Regulator (CER)** audits solar installations under the **Renewable Energy (Electricity) Act 2000**, requiring complete documentation demonstrating compliance with **AS/NZS 5033** and **AS/NZS 5139**. Your job management software either supports this workflow — or it becomes your audit failure point.
 
 Choosing the wrong one is an expensive mistake. This comparison is written specifically for electrical contractors: CCEW compliance, electrician-specific workflows, and realistic pricing for trade business sizes.
 

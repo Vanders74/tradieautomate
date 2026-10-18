@@ -279,7 +279,7 @@ Yes. Battery storage systems are classified as electrical installation work unde
 
 ## Related Reading
 
-- [NSW Electrical Contractor Licence 2026: Fair Trading, Home Building Act & Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026/)
+- [NSW Electrical Contractor Licence 2026: Step-by-Step Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026/)
 - [CCEW NSW Compliance Guide: Full Requirements & Lodgement Walkthrough](/blog/ccew-nsw-electrical-compliance-guide-2026/)
 - [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)
 - [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/)

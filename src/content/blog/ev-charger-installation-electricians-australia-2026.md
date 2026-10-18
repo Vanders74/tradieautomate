@@ -5,7 +5,7 @@ pubDate: 'May 14 2026'
 category: "Solar & Battery"
 heroImage: '/hero-ev-charger-installation.jpg'
 tags: ['EV charger', 'electrician', 'EVSE', 'compliance', 'solar', 'emerging market']
-updatedDate: 'Jul 18 2026'
+updatedDate: 'Oct 18 2026'
 faq:
   - question: "Do EV chargers need to be certified to Australian standards?"
     answer: "Yes. EV chargers (EVSE) sold and installed in Australia must comply with applicable Australian standards including AS/NZS 3112 (plugs and socket outlets) and IEC 61851 for AC charging equipment. Always install equipment certified to these standards — uncertified imports create product liability and void insurance coverage."
@@ -66,7 +66,7 @@ DC fast chargers are commercial-grade equipment for public charging, fleet depot
 
 ### Licensed Electrical Work
 
-EVSE installation is electrical work. It must be performed by a licensed electrician — regulated by **Energy Safe Victoria (ESV)** under the Electricity Safety Act 1998 (Vic) in Victoria, **SafeWork NSW** under the Electricity (Consumer Safety) Act 2004 in New South Wales, and the **Electrical Safety Office** under the Electrical Safety Act 2002 in Queensland. Your existing electrical contractor licence covers EV charger installation — no additional licence is required for residential Level 2 installations.
+EVSE installation is electrical work. It must be performed by a licensed electrician — regulated by **Energy Safe Victoria (ESV)** under the Electricity Safety Act 1998 (Vic) in Victoria, **Building Commission NSW** under the Gas and Electricity (Consumer Safety) Act 2017 in New South Wales, and the **Electrical Safety Office** under the Electrical Safety Act 2002 in Queensland. Your existing electrical contractor licence covers EV charger installation — no additional licence is required for residential Level 2 installations.
 
 ### AS/NZS 3000:2018 — Wiring Rules
 

@@ -1,7 +1,7 @@
 ---
 title: 'AS/NZS 5139 Battery Storage: Installation Clearances, Enclosures & BMS Rules'
 description: 'AS/NZS 5139 battery compliance in plain English: 600mm side clearances, fire-rated enclosures, and BMS labeling rules every installer needs to know. Clause-by-clause 2026 reference with installation diagrams.'
-updatedDate: 'Apr 18 2026'
+updatedDate: 'Oct 18 2026'
 pubDate: 'Feb 22 2026'
 category: "Compliance"
 heroImage: '/hero-battery-storage.jpg'
@@ -115,7 +115,7 @@ The standard is a national framework, but state jurisdictions add their own regu
 
 **Victoria:** Battery installations require a Certificate of Electrical Safety (CES). This is issued by a Licensed Electrical Inspector or via approved VSA processes. The CES is also required for Solar Victoria battery rebate claims. See our [full CES guide for Victoria](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) for the complete process.
 
-**NSW:** A Certificate of Compliance Electrical Work (CCEW) is required for battery installations under NSW Fair Trading rules — issued within 7 days of job completion. See the [NSW CCEW guide](/blog/ccew-nsw-7-day-deadline-rule/) for the deadline and submission requirements.
+**NSW:** A Certificate of Compliance Electrical Work (CCEW) is required for battery installations under NSW rules — lodged in BCNSW eCert within 7 days of the safety and compliance test. See the [NSW CCEW guide](/blog/ccew-nsw-7-day-deadline-rule/) for the deadline and submission requirements.
 
 **Queensland:** Electrical Safety Certificate requirements apply via Electrical Safety Queensland. Battery installations typically trigger additional compliance documentation beyond the CEC installer certificate.
 

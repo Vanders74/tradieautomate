@@ -2,7 +2,7 @@
 title: 'Electrical Safety Audit Prep Checklist 2026: SafeWork, ESV & State-by-State Requirements'
 description: "SafeWork NSW, ESV & ESO electrical safety audit prep: the 6 checklist categories, documentation you must have on-site, $22K penalty triggers, and how to pass first time. Free downloadable PDF checklist."
 pubDate: 'Aug 2026'
-updatedDate: 'Oct 1 2026'
+updatedDate: 'Oct 18 2026'
 category: 'Compliance'
 heroImage: '/hero-safety-audit-prep-checklist.jpg'
 tags: ['safety audit', 'SafeWork', 'ESV', 'compliance', 'electrical safety', 'checklist']
@@ -10,7 +10,7 @@ faq:
   - question: "What documents do I need for an electrical safety audit?"
     answer: "You need: (1) current electrical contractor licence, (2) CCEW/CES certificates for all notifiable work from the past 12 months, (3) AS/NZS 3000 test records for completed installations, (4) safe work method statements (SWMS) for high-risk work, (5) insurance certificates ($5M+ public liability), and (6) worker induction and competency records. Missing any of these is the #1 audit failure trigger."
   - question: "What triggers a SafeWork NSW electrical audit?"
-    answer: "SafeWork NSW audits are triggered by: (1) a notifiable incident or complaint, (2) random industry blitz targeting specific trades (solar installers were targeted in 2025/2026), (3) a previous non-compliance finding requiring follow-up, or (4) a cross-agency referral from NSW Fair Trading or a DNSP. Audits can be announced (14 days notice) or unannounced."
+    answer: "SafeWork NSW audits are triggered by: (1) a notifiable incident or complaint, (2) random industry blitz targeting specific trades (solar installers were targeted in 2025/2026), (3) a previous non-compliance finding requiring follow-up, or (4) a cross-agency referral from Building Commission NSW or a DNSP. Audits can be announced (14 days notice) or unannounced."
   - question: "What are the most common electrical safety audit failures?"
     answer: "The top 5 audit failures are: (1) missing or incomplete CCEW certificates, (2) test records not matching AS/NZS 3000 requirements, (3) no SWMS for high-risk construction work, (4) expired or incorrect class of electrical licence, (5) poor cable management and labelling in switchboards. 80% of auditors check switchboard labelling first — it sets the tone for the entire audit."
   - question: "How do I prepare for an ESV (Victoria) electrical safety audit?"
@@ -51,7 +51,7 @@ Three forces are converging in 2026 to make electrical safety audits more freque
 
 Since January 2026, DNSPs (Ausgrid, Endeavour Energy, Essential Energy, Powercor, Energex, and others) are sharing connection and defect data directly with state regulators. This means:
 
-- A CCEW lodged with NSW Fair Trading that doesn't match the DNSP's connection record for the same address triggers an automatic mismatch flag. No human complaint needed.
+- A CCEW lodged in BCNSW eCert that doesn't match the DNSP's connection record for the same address triggers an automatic mismatch flag. No human complaint needed.
 - In Victoria, ESV's CES database is cross-referenced against Powercor, Citipower, United Energy, and Jemena connection records monthly. Discrepancies above a 5% threshold for any contractor generate a desk audit automatically.
 - Queensland's Electrical Safety Office (ESO) launched the **Electrical Compliance Data Exchange** in March 2026 — a system that links Energex and Ergon Energy metering data directly to contractor licence records.
 
@@ -183,7 +183,7 @@ While the six categories above apply everywhere, each state regulator has its ow
 
 ### New South Wales — SafeWork NSW
 
-**Regulator:** SafeWork NSW (electrical safety) + NSW Fair Trading (licensing)
+**Regulator:** SafeWork NSW (WHS) + Building Commission NSW (licensing and CCEW)
 
 **Audit triggers unique to NSW:**
 - The **CCEW 7-day rule** is one of the most audited requirements in the country. SafeWork NSW runs quarterly spot-checks on CCEW lodgement timeframes — if 10% or more of your certificates are lodged late, expect a compliance notice.

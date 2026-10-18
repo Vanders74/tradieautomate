@@ -1,7 +1,7 @@
 ---
 title: 'Tradify vs ServiceM8: Which Wins for Australian Tradies in 2026?'
 description: "Tradify vs ServiceM8: $35/mo vs $29/mo. ServiceM8 wins for CCEW compliance; Tradify for simpler jobs. 2026 verdict for Aussie tradies."
-updatedDate: 'Jul 20 2026'
+updatedDate: 'Oct 18 2026'
 pubDate: 'Mar 28 2026'
 category: "Software Comparisons"
 heroImage: '/hero-tradify-comparison.jpg'
@@ -18,7 +18,7 @@ faq:
 
 When you're researching job management software for your trade business, **ServiceM8 and [Tradify](/blog/tradify-review-2026-australia/)** come up together constantly. They're both designed for small trade businesses, they're both cloud-based, and they're both priced for the sub-enterprise market.
 
-But for Australian electricians and solar installers, the decision hinges on more than price. Under the **Home Building Act 1989** administered by **NSW Fair Trading**, electrical contractors must lodge a Certificate of Compliance for Electrical Work (CCEW) within 7 days of completing prescribed work. The **Clean Energy Regulator (CER)** requires installers to retain compliance documentation demonstrating adherence to **AS/NZS 5033** (PV array installation) and **AS/NZS 5139** (battery storage) for up to five years post-installation.
+But for Australian electricians and solar installers, the decision hinges on more than price. Under the **Gas and Electricity (Consumer Safety) Act 2017** and Regulation 2018, administered by **Building Commission NSW**, the CCEW must be lodged in BCNSW eCert within 7 days of the safety and compliance test. The **Clean Energy Regulator (CER)** requires installers to retain compliance documentation demonstrating adherence to **AS/NZS 5033** (PV array installation) and **AS/NZS 5139** (battery storage) for up to five years post-installation.
 
 Your job management software either supports this compliance workflow — or it doesn't.
 

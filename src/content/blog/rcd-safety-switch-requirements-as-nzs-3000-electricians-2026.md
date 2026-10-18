@@ -2,7 +2,7 @@
 title: 'RCD Types for Solar & EV: Type A vs B Installation Guide'
 description: "Choose the right RCD type for every circuit: Type A for solar, Type B for EV chargers, switchboard upgrade rules, and what auditors check under AS/NZS 3000:2018."
 pubDate: 'Jul 20 2026'
-updatedDate: 'Oct 15 2026'
+updatedDate: 'Oct 18 2026'
 category: "Compliance"
 heroImage: '/hero-compliance-safety-2026.jpg'
 tags: ['RCD', 'safety switch', 'AS/NZS 3000', 'switchboard', 'electrician', 'compliance', 'solar', 'EV charger']
@@ -156,7 +156,7 @@ When uncertain, apply the current standard to the entire board. The cost of an R
 ESV is the most active enforcer of AS/NZS 3000 technical requirements in Australia. Amendment 2 requirements have been incorporated into ESV's compliance framework. CES audit teams check RCD type compliance specifically on solar and battery installations.
 
 **NSW (SafeWork NSW)**
-SafeWork NSW enforces via the CCEW (Certificate of Compliance for Electrical Work) submission process. CCEWs that certify work not meeting AS/NZS 3000 requirements expose the certifying electrician to prosecution under the Electricity (Consumer Safety) Act 2004. NSW audits of unlicensed or defective electrical work have increased since 2024.
+Building Commission NSW administers the CCEW (Certificate of Compliance for Electrical Work) through BCNSW eCert — the certificate must be lodged there, not held as a PDF. CCEWs that certify work not meeting AS/NZS 3000 requirements expose the certifying electrician to prosecution under the Gas and Electricity (Consumer Safety) Act 2017. NSW audits of unlicensed or defective electrical work have increased since 2024.
 
 **Queensland (Electrical Safety Office)**
 ESO Queensland requires all electrical work to comply with the current edition of AS/NZS 3000. The ESO's audit program has specifically focused on solar installations with incorrect RCD types. Queensland's Form 4 (Compliance Certificate) requires the certifying person to confirm compliance with the current standard.

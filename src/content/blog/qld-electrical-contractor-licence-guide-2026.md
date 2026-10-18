@@ -2,7 +2,7 @@
 title: 'QLD Electrical Contractor Licence 2026: 6 Steps, Fees & Insurance'
 description: "Get your QLD electrical contractor licence in 6 steps: QBCC + ESQ rules, $5M PLI, MFR reporting and the 1.35% QLeave levy. Full 2026 process guide."
 pubDate: 'Jun 9 2026'
-updatedDate: 'Oct 16 2026'
+updatedDate: 'Oct 18 2026'
 category: "Compliance"
 breakdown:
   - title: "Hold the worker licence"
@@ -250,7 +250,7 @@ You cannot legally carry out or quote electrical work in Queensland while unlice
 
 **Can I operate across the QLD/NSW border with a Queensland contractor licence?**
 
-No — each state has its own licensing framework. To carry out electrical work in NSW, you need a NSW contractor licence (regulated by NSW Fair Trading). To carry out solar installation in NSW, you also need to comply with CCEW (Certificate of Compliance for Electrical Work) requirements. Operating interstate requires separate licensing in each state.
+No — each state has its own licensing framework. To carry out electrical work in NSW, you need a NSW contractor licence (regulated by Building Commission NSW). To carry out solar installation in NSW, you also need to comply with CCEW (Certificate of Compliance for Electrical Work) requirements. Operating interstate requires separate licensing in each state.
 
 ---
 
@@ -286,5 +286,5 @@ No — each state has its own licensing framework. To carry out electrical work 
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians/)*
 - [How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)
 - [EV charger network installation business opportunity](/blog/ev-charger-network-installation-business-opportunity/)
-- *[NSW Electrical Contractor Licence 2026: Fair Trading, Home Building Act & Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026/)*
+- *[NSW Electrical Contractor Licence 2026: Step-by-Step Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026/)*
 - *[Apprentice Ratios & Hiring Incentives for Electricians Australia 2026](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026/)*

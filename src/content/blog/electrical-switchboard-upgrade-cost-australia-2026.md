@@ -2,7 +2,7 @@
 title: "Electrical Switchboard Upgrade Cost Australia 2026: What to Expect and Why"
 description: "Electrical switchboard upgrade costs in Australia 2026 — what actually drives the price, what's included in a quality job, and when your solar or EV install makes an upgrade unavoidable."
 pubDate: 'Jul 13 2026'
-updatedDate: 'Oct 1 2026'
+updatedDate: 'Oct 18 2026'
 category: "Compliance"
 heroImage: '/hero-compliance-safety-2026.jpg'
 tags: ['switchboard upgrade', 'electrical compliance', 'AS/NZS 3000', 'solar', 'EV charger', 'electrician', 'cost guide']
@@ -112,7 +112,7 @@ Under AS/NZS 3000:2018 and state electrical safety legislation, performing new e
 - The upgrade must be inspected and certified by a licensed electrical inspector where required by state regulations
 - Ensure the new board is correctly labelled — all circuit breakers and RCDs must be identified with the circuit they protect
 
-States have different inspection thresholds. Check with your state electrical safety regulator (Energy Safe Victoria, NSW Fair Trading Electrical, EnergySafety WA) for the current requirements in your state.
+States have different inspection thresholds. Check with your state electrical safety regulator (Energy Safe Victoria, Building Commission NSW, EnergySafety WA) for the current requirements in your state.
 
 ---
 

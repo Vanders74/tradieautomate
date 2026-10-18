@@ -2,7 +2,7 @@
 title: 'AI Data Centres Australia 2026: The $50B Infrastructure Opportunity for Electricians'
 description: 'Australia has 500+ MW of data centre projects under construction and 861 electrician jobs listed at $68/hr — the biggest commercial electrical boom in a generation. Here is how electrical contractors position for this decade of sustained work.'
 pubDate: 'Jul 2026'
-updatedDate: 'Sep 11 2026'
+updatedDate: 'Oct 18 2026'
 category: 'Business Growth'
 heroImage: '/hero-ai-data-centre-growth.jpg'
 tags: ['data centre', 'commercial', 'electrician', 'HV', 'business growth', 'AI']
@@ -102,7 +102,7 @@ Data centre clients and Tier 1 main contractors will expect your documentation t
 
 **AS/NZS 3017** — electrical installations — verification and testing. This is the standard that governs how you test and document electrical installations. Data centre commissioning documentation is auditable. The testing records you provide become part of the facility's compliance baseline for its entire operational life.
 
-**State regulators** — each state's electrical safety regulator has jurisdiction over commercial electrical compliance. **SafeWork NSW** under the **Electricity (Consumer Safety) Act 2004**, **Energy Safe Victoria** under the **Electricity Safety Act 1998**, and the **Electrical Safety Office Queensland** under the **Electrical Safety Act 2002** each enforce compliance on data centre electrical installations within their jurisdiction. The regulator that applies is the one where the installation is physically located — not where your business is registered.
+**State regulators** — each state's electrical safety regulator has jurisdiction over commercial electrical compliance. **SafeWork NSW** under the **Work Health and Safety Act 2011** (with Building Commission NSW under the **Gas and Electricity (Consumer Safety) Act 2017** for installation compliance), **Energy Safe Victoria** under the **Electricity Safety Act 1998**, and the **Electrical Safety Office Queensland** under the **Electrical Safety Act 2002** each enforce compliance on data centre electrical installations within their jurisdiction. The regulator that applies is the one where the installation is physically located — not where your business is registered.
 
 ---
 

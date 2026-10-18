@@ -2,7 +2,7 @@
 title: "Electrical Contractor Insurance Australia 2026: $600–$2,500/yr (Full Cost Breakdown)"
 description: "Electrical contractor insurance costs 2026 — PL $600–$2,500/yr, PI $1,200–$3,000/yr, workers comp $3–$6/$100 wages. State-by-state guide with real scenarios."
 pubDate: "May 10 2026"
-updatedDate: "Aug 08 2026"
+updatedDate: "Oct 18 2026"
 category: "Business Growth"
 heroImage: "/hero-electrical-contractor-insurance-australia-2026.jpg"
 tags: ["insurance", "electrician", "public liability", "professional indemnity", "business costs", "state licensing"]
@@ -112,7 +112,7 @@ Licensing bodies in every state require minimum public liability coverage. Home 
 
 | State | Regulator | Minimum PL | Home Warranty Threshold | PI Required? | Workers Comp Authority |
 |---|---|---|---|---|---|
-| **NSW** | Fair Trading | $5M | $20,000 | Not for licence, recommended for design | icare NSW |
+| **NSW** | Building Commission NSW | $5M | $20,000 | Not for licence, recommended for design | icare NSW |
 | **VIC** | Energy Safe Victoria | $5M | $16,000 | Not for licence, recommended for design | WorkSafe VIC |
 | **QLD** | QBCC | $5M | $3,300 | Required for design/advisory contractors | WorkCover QLD |
 | **SA** | Consumer & Business Services | $5M | N/A (different scheme) | Required for design contractors | ReturnToWork SA |
@@ -312,7 +312,7 @@ Every state licensing authority requires specific insurance documentation at ren
 - Home warranty insurance policy details (if you do residential work above state thresholds)
 
 **State-specific requirements by regulator:**
-- **NSW Fair Trading:** $5M PL minimum; home warranty for residential work over $20,000; workers comp through icare NSW
+- **Building Commission NSW:** $5M PL minimum; home warranty for residential work over $20,000; workers comp through icare NSW
 - **Energy Safe Victoria:** $5M PL minimum; domestic building insurance for work over $16,000; workers comp through WorkSafe VIC
 - **QBCC QLD:** $5M PL minimum; PI required for design/advisory contractors; home warranty for work over $3,300; workers comp through WorkCover QLD; policy details must be lodged directly in QBCC's system
 - **CBS SA:** $5M PL minimum; PI required for design contractors; workers comp through ReturnToWork SA

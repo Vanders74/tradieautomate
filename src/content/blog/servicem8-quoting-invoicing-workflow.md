@@ -82,7 +82,7 @@ The technician arrives on-site and executes the job. As they work, they complete
 
 Photos are captured throughout: pre-work state, mid-installation, completed work with serial numbers visible. Every photo is timestamped, GPS-tagged, and attached to the job record. This is the documentation that passes a CER audit or satisfies an electrical safety regulator inspection.
 
-**Compliance anchors:** Under the **Home Building Act 1989** administered by **NSW Fair Trading**, electrical contractors must lodge a Certificate of Compliance for Electrical Work (CCEW) within 7 days of completing prescribed work. In Victoria, **Energy Safe Victoria** requires a Certificate of Electrical Safety (CES) within 30 days. ServiceM8's built-in compliance forms ensure these are completed before the job can be marked done — the system won't let the technician close the job with incomplete compliance documentation.
+**Compliance anchors:** Under the **Gas and Electricity (Consumer Safety) Act 2017** and Regulation 2018, administered by **Building Commission NSW**, the safety and compliance test must be lodged in **BCNSW eCert** within 7 days. (The contractor licence itself sits under the *Home Building Act 1989*.) In Victoria, **Energy Safe Victoria** requires a Certificate of Electrical Safety (CES) within 30 days. ServiceM8's built-in compliance forms ensure these are completed before the job can be marked done — the system won't let the technician close the job with incomplete compliance documentation.
 
 ---
 

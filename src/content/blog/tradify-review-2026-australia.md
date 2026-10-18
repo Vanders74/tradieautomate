@@ -2,7 +2,7 @@
 title: "Tradify Review 2026: Is It Worth It for Australian Trades?"
 description: "Honest Tradify review for Australian electricians, solar installers, and tradies in 2026 — real pricing, features, limitations, and how it compares to ServiceM8 and simPRO."
 pubDate: 2026-07-20
-updatedDate: 2026-07-20
+updatedDate: 2026-10-18
 heroImage: '/hero-tradify-review-2026-australia.jpg'
 category: "Software Comparisons"
 tags: ["tradify review", "tradify australia", "tradify pricing 2026", "tradify vs servicem8", "tradify for electricians", "trade job management software", "tradify review 2026"]
@@ -21,7 +21,7 @@ faq:
 
 Tradify is a New Zealand-founded job management platform widely used by Australian trades businesses. It's simpler than ServiceM8 and significantly cheaper than simPRO — which makes it an attractive option for small operators who are overwhelmed by the complexity of the market-leaders.
 
-But for Australian electricians, simplicity comes with a compliance trade-off. Under the **Home Building Act 1989** administered by **NSW Fair Trading**, electrical contractors must lodge a Certificate of Compliance for Electrical Work (CCEW) within 7 days of completing prescribed work — or face penalties of up to $22,000 per offence. Nationally, the **Clean Energy Regulator** requires solar installers to retain documentation demonstrating adherence to **AS/NZS 5033** and **AS/NZS 5139** for up to five years. Your job management platform either enforces this documentation workflow — or leaves it to technician discipline.
+But for Australian electricians, simplicity comes with a compliance trade-off. Under the **Gas and Electricity (Consumer Safety) Act 2017** and Regulation 2018, administered by **Building Commission NSW**, the CCEW must be lodged in BCNSW eCert within 7 days of the safety and compliance test — the s37A lodgement offence carries 20 penalty units for an individual and 40 otherwise, plus $1,000 on-the-spot fines. Nationally, the **Clean Energy Regulator** requires solar installers to retain documentation demonstrating adherence to **AS/NZS 5033** and **AS/NZS 5139** for up to five years. Your job management platform either enforces this documentation workflow — or leaves it to technician discipline.
 
 But simpler comes with trade-offs. This review gives you an honest picture of what Tradify does well, where it falls short, and who it actually suits in 2026.
 

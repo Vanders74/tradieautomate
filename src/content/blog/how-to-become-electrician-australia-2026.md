@@ -2,7 +2,7 @@
 title: "How to Become an Electrician in Australia 2026: Apprenticeship, Licence & Wages"
 description: "Becoming an electrician in Australia takes 4 years — here's the full pathway. Apprenticeship, Cert III, A-grade licence, costs ($2K–$6K) and wages ($16–$68/hr)."
 pubDate: 'Jul 2026'
-updatedDate: 'Oct 1 2026'
+updatedDate: 'Oct 18 2026'
 category: 'Business Growth'
 heroImage: '/hero-how-to-become-electrician.jpg'
 tags: ['electrician', 'apprentice', 'career', 'licensing', 'business', 'training']
@@ -43,7 +43,7 @@ Australia has no single national electrical licence. Each state and territory ru
 
 ### New South Wales
 
-**Regulator:** NSW Fair Trading under the **Home Building Act 1989** and the **Electricity (Consumer Safety) Act 2004**.
+**Regulator:** Building Commission NSW under the **Home Building Act 1989** (licensing) and the **Gas and Electricity (Consumer Safety) Act 2017** (electrical safety and CCEW).
 
 **Pathway:** Complete Certificate III in Electrotechnology → apply for an **Electrical Contractor Licence** (if planning to contract) or **Qualified Supervisor Certificate** (if working under a contractor's licence). NSW has a two-track system: one for the licence holder (the contractor) and one for the qualified supervisor who oversees the technical work. Many electricians hold both. For full details, see the [NSW Electrical Contractor Licence Guide 2026](/blog/nsw-electrical-contractor-licence-guide-2026/).
 
@@ -241,7 +241,7 @@ Year 10 completion is the minimum, though Year 12 is preferred by many employers
 
 ### How does the state licensing system work?
 
-Each state and territory has its own electrical licensing body. NSW uses NSW Fair Trading, VIC uses Energy Safe Victoria, QLD uses the Electrical Safety Office plus QBCC, SA uses Consumer and Business Services, and WA uses Building and Energy. The Certificate III is nationally recognised, but you apply for your licence in the state where you intend to work. Mutual recognition is available for licensed electricians moving between states, though notification requirements apply in each jurisdiction.
+Each state and territory has its own electrical licensing body. NSW uses Building Commission NSW, VIC uses Energy Safe Victoria, QLD uses the Electrical Safety Office plus QBCC, SA uses Consumer and Business Services, and WA uses Building and Energy. The Certificate III is nationally recognised, but you apply for your licence in the state where you intend to work. Mutual recognition is available for licensed electricians moving between states, though notification requirements apply in each jurisdiction.
 
 ---
 
