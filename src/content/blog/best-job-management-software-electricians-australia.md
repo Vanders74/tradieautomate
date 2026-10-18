@@ -1,6 +1,6 @@
 ---
 title: 'Best Job Management Software for Electricians Australia 2026'
-description: "Best job management software for electricians in Australia 2026: real AUD prices incl GST for ServiceM8, simPRO, AroFlo, Tradify and Fergus, plus the state CCEW/CES certificate rules."
+description: "Best job management software for electricians in Australia 2026: AUD prices, GST treatment and plan limits for ServiceM8, simPRO, AroFlo, Tradify and Fergus, plus the state CCEW/CES certificate rules."
 updatedDate: 'Oct 18 2026'
 pubDate: 'Apr 14 2026'
 category: "Software Comparisons"
@@ -76,7 +76,7 @@ Tradify is a simpler platform that works well for electricians who need basic jo
 
 **Best for:** Electricians who want strong job costing and margin tracking; businesses with heavy focus on profitability analytics.
 
-Fergus originated in New Zealand and has a strong following among trade businesses that want visibility into job-level margin and profitability. Its job costing is excellent. Its compliance documentation tools and mobile experience are less mature than ServiceM8. Australian pricing runs $53/mo per user on Essentials and $77/mo per user on Professional, with timesheet-only users at $26/mo (all ex GST, 14-day trial, no credit card).
+Fergus originated in New Zealand and has a strong following among trade businesses that want visibility into job-level margin and profitability. Its job costing is excellent. Its compliance documentation tools and mobile experience are less mature than ServiceM8. Australian pricing runs **$53/user/month on Basic and $75/user/month on Professional**, with timesheet-only users at $26/user/month, contractor users at $4/user/day, and — the line most comparisons miss — **certificates as a paid add-on at $30/month for 1–9 staff or $80/month for 10+**, charged on top of either plan. Card payments run at 1.95% + 30c per transaction in Australia, SMS alerts at $15 per 100 texts.
 
 ---
 
@@ -121,9 +121,9 @@ This is where ServiceM8 genuinely stands out — but the sequence is not fully a
 3. **Approving** the invoice is the step that pushes it to your connected accounting package — Xero, MYOB or QuickBooks Online. Nothing leaves ServiceM8 until that approval happens.
 4. Emailing the invoice to the client is a separate action from approval. ServiceM8 does not auto-send on completion; you send it, optionally with a payment link.
 
-On payment: card payments run through ServiceM8 Pay (Stripe-processed, no separate merchant account, and the rate improves as you move up plans — 1.89% + 30c on Free, 1.69% + 30c on Starter, 1.49% + 30c on Growing, 1.19% + 30c on Premium Plus). **There is no BPAY.** PayTo is the Australian bank-rail option, and plain bank transfer or cash is recorded against the invoice manually rather than captured automatically.
+On payment: card payments run through ServiceM8 Pay (Stripe-processed, no separate merchant account, and the rate improves as you move up plans — 1.89% + 30c on Free, 1.69% + 30c on Starter, 1.49% + 30c on Growing, 1.39% + 30c on Premium, 1.19% + 30c on Premium Plus). **There is no BPAY.** PayTo is the Australian bank-rail option, and plain bank transfer or cash is recorded against the invoice manually rather than captured automatically.
 
-For electrical businesses chasing faster payment cycles, this workflow alone is transformative. Average payment times for ServiceM8 users drop significantly compared to manual invoicing.
+For electrical businesses chasing faster payment cycles, the workflow itself is the lever: an invoice approved and emailed with a payment link on the day the job closes is usually paid days before one that waits for a month-end batch.
 
 ---
 
@@ -154,17 +154,19 @@ This is particularly valuable for electricians doing solar and battery work, whe
 | **ServiceM8** | $29 (Starter, 50 jobs/mo, unlimited users); $79 Growing (150 jobs); $149 Premium (500 jobs); $349 Premium Plus (1,500+ jobs); Free tier 30 jobs/1 user | **Included** | No — job-based | 14 days, no card |
 | **simPRO** | Not published — quote only | — | Yes | Demo only |
 | **Tradify** | $48/user (Lite); $52/user (Pro, adds compliance certificates); $62/user (Plus) | Excluded — add 10% | Yes | 14 days |
-| **Fergus** | $53/user (Essentials); $77/user (Professional); $26/mo timesheet-only users | Excluded — add 10% | Yes | 14 days, no card |
+| **Fergus** | $53/user (Basic); $75/user (Professional); $26/user timesheet-only; contractor users $4/day | Not stated on pricing page — confirm | Yes | 14 days, no card |
 | **AroFlo** | $80/user, **3-user minimum** ($240/mo floor), plus setup from $1,450 | Not stated by vendor | Yes | Demo only |
 
-**Read the GST column before you compare anything.** ServiceM8 quotes its Australian prices inclusive of GST; Tradify and Fergus quote exclusive, so their headline numbers are 10% understated against ServiceM8's. AroFlo's pricing page states neither currency nor GST treatment, which is itself a reason to get a written quote.
+**Read the GST column before you compare anything.** ServiceM8 states plainly that its Australian prices are in AUD and include GST; Tradify states its prices are ex GST, so its headline numbers are 10% understated against ServiceM8's. AroFlo publishes an AUD figure and a 3-user minimum but no GST statement, and Fergus's pricing page states neither currency nor GST treatment — on both, treat the published number as a floor and confirm in writing.
+
+**One live discount to check before you sign anything.** Fergus has been running a 90%-off-until-December promotion, which shows Basic at $5.30 and Professional at $7.50 in place of $53 and $75. That is a promotional rate with an end date, not the price you will pay from January — budget on the list figures and treat the discount as a first-year saving.
 
 **Key insight:** ServiceM8's per-job (not per-user) pricing model is a significant advantage for growing businesses. When you hire your 5th or 10th technician, your software cost doesn't scale linearly — it stays flat until you hit the next job tier. But it only stays cheaper if you stay inside your job band; a busy 5-person crew that does 200 jobs a month lands on Premium at $149, not Growing at $79.
 
-For a business doing 100 jobs/month with 8 field technicians (comparing like with like, GST included):
+For a business doing 100 jobs/month with 8 field technicians (ServiceM8 GST-inclusive; per-user platforms at their published rates):
 - **ServiceM8 Growing:** $79/mo (flat, any number of users)
 - **Tradify Lite:** $422/mo (8 × $48 + GST)
-- **Fergus Essentials:** $466/mo (8 × $53 + GST)
+- **Fergus Basic:** $424/mo (8 × $53) + $30/month certificates add-on
 
 The savings compound as your team grows — and that gap is the single strongest argument for job-based pricing in this category.
 
@@ -175,14 +177,14 @@ The savings compound as your team grows — and that gap is the single strongest
 | Feature | ServiceM8 | simPRO | Tradify | AroFlo | Fergus |
 |---|---|---|---|---|---|
 | Vendor-supplied CCEW form | ❌ None — you build the PDF | ❌ None | ❌ None | ❌ None | ❌ None |
-| Custom compliance forms | ✅ Growing plan+ ($79) | Digital Forms add-on | ✅ Pro plan+ ($52/user) | ✅ Yes | ✅ Professional plan ($77/user) |
+| Custom compliance forms | ✅ Growing plan+ ($79) | Digital Forms add-on | ✅ Pro plan+ ($52/user) | ✅ Yes | ✅ Forms on Basic; certificates $30/mo add-on (1–9 staff) |
 | Mobile-first design | ✅ Excellent | Good | ✅ Good | Good | Good |
 | Per-user fee | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
 | Accounting sync | ✅ Xero, MYOB, QuickBooks Online | ✅ Yes | ✅ Xero, MYOB, QuickBooks Online | ✅ Yes | ✅ Xero, MYOB, QuickBooks Online |
 | Multi-day project management | Basic | ✅ Advanced | Basic | ✅ Advanced | Basic |
-| GPS tracking | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
+| GPS tracking | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Pro plan only |
 | Online quote acceptance / customer portal | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
-| Entry cost (3 staff, incl GST) | $29–$79/mo flat | Quote only | ~$158/mo (3 × $48 + GST) | ~$240/mo + $1,450 setup | ~$175/mo (3 × $53 + GST) |
+| Entry cost (3 staff) | $29–$79/mo flat, GST incl | Quote only | ~$158/mo (3 × $48 + GST) | ~$240/mo + $1,450 setup | ~$175/mo (3 × $53) + $30 certificates |
 | Implementation time | 1-3 days | 2-4 weeks | 1-2 days | 3-6 weeks | 1-2 weeks |
 
 ---
@@ -197,7 +199,7 @@ The savings compound as your team grows — and that gap is the single strongest
 - You're on Xero, MYOB or QuickBooks Online and want seamless integration
 
 **Choose simPRO if:**
-- You have 10+ field staff
+- You have 20+ field staff (it is priced and built for that scale; smaller crews rarely recover the implementation cost)
 - You regularly manage large commercial electrical projects
 - You need detailed multi-phase project management and job costing
 - You have admin staff to manage the system
