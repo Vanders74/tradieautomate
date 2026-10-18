@@ -144,7 +144,7 @@ It's worth distinguishing the CCEW from other documents in the NSW electrical co
 
 **CCEW (Certificate of Compliance Electrical Work):** Issued by the electrical contractor. Certifies the work complies with applicable standards. Provided to customer, network distributor, and Building Commission NSW.
 
-**Electrical Safety Certificate (ESC):** A separate document required for certain categories of electrical work. Not all jobs that require a CCEW also require an ESC, and vice versa. The specific requirements depend on the nature of the work and the relevant regulation.
+**Electrical Installation Safety Inspection Certificate:** Required where an installation has been de-energised for 6 months or more and is being re-energised. A qualified electrician carries out the safety inspection and completes the certificate for the customer, who gives it to their electricity retailer — it is not lodged with Building Commission NSW. Separate document, separate trigger to the CCEW. (Note there is no NSW "Electrical Safety Certificate" — that naming belongs to Victoria's Certificate of Electrical Safety.)
 
 **Connection/Service Alteration Notice:** Required for work affecting the metered supply point or network connection. Issued to the network distributor separately from the CCEW.
 
@@ -253,7 +253,7 @@ Build the checklist into your job completion workflow. The 7-day clock starts on
 
 ### Does a CCEW need to be submitted for every electrical job in NSW?
 
-No — only for jobs that involve prescribed electrical work, which broadly means any work that modifies a wiring installation, adds new circuits, increases connected load, or installs new electrical equipment connected to the supply system. Minor repairs and like-for-like replacements on existing circuits typically don't require a CCEW. When uncertain, issue one — the downside of issuing unnecessarily is minor compared to the penalty for not issuing when required.
+No — but the test is much broader than most electricians assume. Building Commission NSW's advisory note 2/2026 (issued August 2026, updated September 2026) requires a CCEW for **any** electrical work that installs, repairs, adds or alters electrical equipment on an installation, and it expressly names like-for-like replacement of water heaters, ovens, stove tops and electrical accessories. So a straight swap of an oven or a cooktop is certificate work in NSW. What falls outside is work that does not touch the installation at all — testing and tagging a portable appliance, for example. When uncertain, issue one: the cost of an unnecessary certificate is trivial next to the penalty for a missing one.
 
 ### Who can sign a CCEW in NSW?
 
