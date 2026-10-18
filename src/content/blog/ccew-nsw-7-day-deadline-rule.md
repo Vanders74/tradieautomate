@@ -1,8 +1,8 @@
 ---
-title: 'When Is a CCEW Required in NSW? 7-Day Rule & 2026 eCert Steps'
-description: 'When is a CCEW required in NSW? The lodgement rule is 7 days from the safety and compliance test — the triggers, who gets a copy, and the real s37A penalty scale.'
+title: 'CCEW NSW 7-Day Deadline: eCert Lodgement Rules & Fines'
+description: 'A CCEW must be lodged on BCNSW eCert within 7 days of the safety and compliance test. Triggers, who lodges, and the s37A fines ($2,200 / $4,400).'
 pubDate: 'May 20 2026'
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 19 2026'
 category: "Compliance"
 breakdown:
   - title: "Know the triggers"
@@ -21,15 +21,15 @@ heroImage: '/hero-ccew-nsw-compliance.jpg'
 tags: ['CCEW', 'NSW', 'electrical compliance', 'electrician', 'Building Commission NSW', 'certificate of compliance']
 faq:
   - question: "Does a CCEW need to be submitted for every electrical job in NSW?"
-    answer: "No — but the test is much broader than most electricians assume. Building Commission NSW's advisory note 2/2026 (issued August 2026, updated September 2026) requires a CCEW for **any** electrical work that installs, repairs, adds or alters electrical equipment on an installation, and it expressly names like-for-like replacement of water heaters, ovens, stove tops and electrical accessories. So a straight swap of an oven or a cooktop is certificate work in NSW. What falls outside is work that does not touch the installation at all — testing and tagging a portable appliance, for example. When uncertain, issue one: the cost of an unnecessary certificate is trivial next to the penalty for a missing one."
+    answer: "No — but the test is much broader than most electricians assume. Building Commission NSW's advisory note 2/2026 (issued August 2026, updated September 2026) requires a CCEW for any electrical work that installs, repairs, adds or alters electrical equipment on an installation, and it expressly names like-for-like replacement of water heaters, ovens, stove tops and electrical accessories. So a straight swap of an oven or a cooktop is certificate work in NSW. What falls outside is work that does not touch the installation at all — testing and tagging a portable appliance, for example. When uncertain, issue one: the cost of an unnecessary certificate is trivial next to the penalty for a missing one."
   - question: "Who can sign a CCEW in NSW?"
-    answer: "The CCEW must be signed by the licensed electrical contractor of record — not just any licensed electrician. The licensed contractor accepts legal responsibility for the work with their signature. If the contractor didn't personally do the work, they must be satisfied the work was carried out to the required standard before signing."
+    answer: "Lodgement is the tester's job. Under s37A of the Gas and Electricity (Consumer Safety) Regulation 2018, the obligation sits on the qualified person who conducted the safety and compliance test — an individual contractor licence holder, or a qualified supervisor certificate holder, who did or supervised the work. A company contractor licence cannot be registered in BCNSW eCert, so the individual who tested the installation lodges the certificate even where a company holds the contracting licence. That individual's signature is the declaration that the work was tested against AS/NZS 3000."
   - question: "What happens if the 7-day CCEW deadline passes?"
     answer: "Missing the 7-day deadline is a compliance breach and exposes the contractor to the applicable penalties (20 penalty units for an individual, about $2,200, and 40 penalty units otherwise under s37A, plus on-the-spot fines up to $1,000). If you've missed the deadline, issue the CCEW as soon as possible — a late CCEW is better than none — but be aware that you may still be subject to penalties for the delay. Contact your industry association for advice on your specific situation."
   - question: "Can a CCEW be issued electronically?"
     answer: "Yes. Building Commission NSW accepts electronic CCEW lodgement through BCNSW eCert, and since 1 July 2026 it is the only channel it accepts. Customers can receive their copy by email. The requirement is that the document be issued — the format (electronic or paper) is secondary to the substance and timeliness."
   - question: "Does solar battery storage require a CCEW in NSW?"
-    answer: "Yes. Battery storage systems are classified as electrical installation work under NSW regulations, and their installation typically involves switchboard modifications and increased connected load — both of which trigger the CCEW requirement. The 7-day rule applies in the same way as for any other triggering job. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling."
+    answer: "Yes. Battery storage systems are classified as electrical installation work under NSW regulations, and their installation typically involves switchboard modifications and increased connected load — both of which trigger the CCEW requirement. The 7-day rule applies in the same way as for any other triggering job."
 ---
 
 The Certificate of Compliance Electrical Work is a legal obligation with real financial penalties, and the rules around when it's required — and when the clock starts ticking — are genuinely confusing for many electricians and contractors.
@@ -218,7 +218,7 @@ The businesses that never have compliance failures aren't necessarily the ones w
 
 **Step 4 — Multi-party distribution.** The CCEW is emailed to the customer, submitted to the relevant distributor portal, and lodged with Building Commission NSW — all on the same day.
 
-**Step 5 — Record archiving.** The CCEW and all supporting test documentation are attached to the job record in your job management system. Retrievable in seconds, stored for 7 years.
+**Step 5 — Record archiving.** The CCEW and all supporting test documentation are attached to the job record in your job management system. Retrievable in seconds, kept to your own retention policy (seven years is the common contractor standard).
 
 This is not a complicated system. It's a disciplined process. The discipline is built into the software workflow so it doesn't rely on individual memory.
 
@@ -259,7 +259,7 @@ No — but the test is much broader than most electricians assume. Building Comm
 
 ### Who can sign a CCEW in NSW?
 
-The CCEW must be signed by the licensed electrical contractor of record — not just any licensed electrician. The licensed contractor accepts legal responsibility for the work with their signature. If the contractor didn't personally do the work, they must be satisfied the work was carried out to the required standard before signing.
+Lodgement is the tester's job. Under s37A of the Gas and Electricity (Consumer Safety) Regulation 2018, the obligation sits on the qualified person who conducted the safety and compliance test — an individual contractor licence holder, or a qualified supervisor certificate holder, who did or supervised the work. A company contractor licence cannot be registered in BCNSW eCert, so the individual who tested the installation lodges the certificate even where a company holds the contracting licence. That individual's signature is the declaration that the work was tested against AS/NZS 3000.
 
 ### What happens if the 7-day CCEW deadline passes?
 
