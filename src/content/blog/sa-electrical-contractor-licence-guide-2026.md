@@ -1,6 +1,6 @@
 ---
 title: "SA Electrical Contractor Licence 2026: Fees, eCoC & CBS Rules"
-description: "SA electrical contractor PGE licence: $779 new, $504 annual renewal, worker registration $617 new then $342 every 3 years. CBS business units, eCoC and OTR rules for 2026."
+description: "SA electrical contractor licence 2026: $779 new, $504 a year renewal, worker registration $617 then $342 every 3 years. CBS requirements, eCoC on every job, SAA solar rules."
 pubDate: 'Jul 19 2026'
 updatedDate: '2026-10-18'
 category: "Compliance"
@@ -19,8 +19,8 @@ breakdown:
     summary: "Electronic certificate of compliance via the OTR portal — all work, not just notifiable work."
   - title: "Two renewal clocks"
     summary: "Contractor licence yearly ($504 / $737 company); worker registration every 3 years."
-  - title: "Add CEC for solar"
-    summary: "Separate accreditation for STC-eligible installs."
+  - title: "Add SAA accreditation for solar"
+    summary: "STCs need SAA accreditation (not CEC) — 3-year term, 100 CPD points a year."
 heroImage: '/hero-sa-electrical-contractor-licence-guide-2026.jpg'
 tags: ['South Australia', 'electrical contractor', 'CBS', 'OTR', 'compliance', 'solar', 'PGE licence']
 faq:
@@ -29,11 +29,13 @@ faq:
   - question: "What is the difference between CBS and OTR for SA electricians?"
     answer: "CBS (Consumer and Business Services) issues the occupational and contractor licences that legally authorise electricians and electrical contracting businesses to operate in SA. The Office of the Technical Regulator (OTR) oversees the technical safety side — including approval of electrical installations, eCoC certification, and network connection requirements. Both bodies have oversight roles; SA electricians must satisfy both."
   - question: "Does an SA electrical contractor licence cover solar PV installation?"
-    answer: "A current CBS electrical contractor licence is required for all electrical connection work in solar PV installations in South Australia. In addition, solar installers must hold Clean Energy Council (CEC) accreditation to design and install systems eligible for federal STC rebates under the SRES. The OTR governs eCoC certification for solar electrical work under the Electricity Act 1996 (SA)."
+    answer: "A current CBS electrical contractor licence covers the electrical work in a solar PV installation, and the individual doing the work must hold a current electrical worker registration. To claim small-scale technology certificates on the system you also need accreditation with Solar Accreditation Australia (SAA), which has run installer and designer accreditation since 29 February 2024 — a former Clean Energy Council accreditation number cannot be used to claim STCs for work from 29 May 2024. The OTR governs eCoC certification for the electrical work under the Electricity Act 1996 (SA)."
   - question: "How often must SA electrical contractor licences be renewed?"
     answer: "Two different clocks apply. The contractor licence itself is an occupational licence and must be renewed every 12 months — $504 for an individual contractor and $737 for a body corporate. The electrical worker registration underneath it must be renewed every three years, at $342 for the three-year period. Both are renewed through CBS."
   - question: "What insurance is required for an SA electrical contractor?"
     answer: "CBS does not prescribe a public liability minimum as a condition of the PGE licence. In practice every commercial client, head contractor and strata manager will ask for a certificate of currency, and $5 million is the usual floor with $10–20 million common on commercial and solar work. Workers compensation through ReturnToWorkSA is a separate, mandatory obligation for any business that employs people."
+  - question: "What happens if I carry out electrical work in SA without a current licence?"
+    answer: "Contracting for electrical work without a current CBS PGE contractor licence, or performing it without a current worker registration, is an offence under the Plumbers, Gas Fitters and Electricians Act 1995 (SA), and it voids your insurance position on the work. Separately, failing to issue an eCoC after electrical work carries penalties of up to $5,000 under section 61 of the Electricity Act 1996."
 
 ---
 
@@ -76,8 +78,8 @@ The electrical worker registration is the personal authority that allows an indi
 The electrical contractor licence authorises a business entity — sole trader, partnership, or company — to contract electrical work to customers. You cannot legally take on paying electrical jobs in SA without it, and holding it does **not** let you perform the work yourself: a contractor licence and a worker registration are separate, and the contractor must either hold a registration personally or engage someone who does.
 
 **Requirements to obtain:**
-- The applicant — or a director, if the applicant is a company — must hold a current SA electrical worker registration
-- **Business criteria** — this is the requirement most applicants underestimate. You must pass one of CBS's nine approved options, most commonly completing one unit from Category A (BSBESB402 *Establish legal and risk management requirements of a business venture*) plus one from Category B (BSBESB403 *Plan finances for new business ventures* or equivalent), through a registered training organisation. A Certificate IV on its own is not accepted. Holding an existing contractor licence under the same Act, an equivalent interstate licence, or a business/accounting diploma or degree also satisfies the test.
+- The business must have a **nominated supervisor** holding a current SA electrical worker registration. As a sole trader that's you; for a company it can be a director or an employee, but the registration must be current and the nomination lodged with CBS
+- **Business criteria** — this is the requirement most applicants underestimate. You must pass one of CBS's nine approved options, most commonly completing one unit from Category A (BSBESB402 *Establish legal and risk management requirements of a business venture*) plus one from Category B (BSBESB403 *Plan finances for new business ventures* or equivalent), through a registered training organisation. A Certificate IV on its own is not accepted. Holding an existing contractor licence under the same Act, an equivalent interstate licence, or a business/accounting diploma or degree also satisfies the test. Companies must show that a director meets it.
 - Net assets of at least **$10,000** — if you can't meet it, CBS offers a **restricted subcontractor licence**, which limits you to subcontracted work
 - A National Police Certificate no more than 12 months old (exemptions apply — e.g. directors of ASX-listed companies, or if you've lodged an NPC with CBS in the last year)
 - Photo and 100-point ID check in person
@@ -136,13 +138,13 @@ For grid-connected solar systems, SA also has network connection approval requir
 Insurance is not a CBS licensing condition in South Australia — but it is a commercial one, and treating it as optional is the fastest way to lose work.
 
 **Public liability insurance:**
-- No prescribed minimum is attached to the PGE licence. CBS doesn't ask for a certificate of currency and won't refuse a licence for want of one.
+- No prescribed minimum is attached to the PGE licence. Insurance does not appear anywhere in CBS's published contractor licence requirements — no certificate of currency, no minimum cover.
 - In practice: $5 million is the floor every commercial client, builder and strata manager asks for, and $10–20 million is common on commercial, solar and utility-scale work. Government and tier-one construction prequalification usually sets the number for you.
 - Keep a current certificate of currency — you'll be asked for it far more often than any regulator asks you for anything.
 
 **Professional indemnity:**
 - Rarely a licensing requirement, but expected on design-and-construct solar work and any advisory role
-- CEC accreditation and retailer code obligations may impose additional cover
+- SAA accreditation (and the CEC Approved Solar Retailer code, if you sell to households) may impose additional cover
 
 **Workers compensation:**
 - Mandatory for all SA employers — administered through ReturnToWorkSA
@@ -169,26 +171,46 @@ Track both dates in your job management system with a 60-day advance alert. Many
 
 ---
 
-## Solar-Specific Requirements for SA Electrical Contractors
+## Solar and Battery Work — Accreditation, Rebates and Smarter Homes
 
-Solar PV installation in South Australia involves compliance obligations across multiple layers:
+Solar and battery work adds three layers on top of your CBS licence: who is allowed to sign off STC-eligible installations, what the customer's rebate actually is in 2026, and the SA-specific connection rules that decide whether the job passes.
 
-**Clean Energy Council (CEC) Accreditation**
-Required to design and/or install solar PV systems eligible for federal STC rebates under the Small-scale Renewable Energy Scheme (SRES). CEC accreditation is issued by the Clean Energy Council, not CBS or the OTR. Without current CEC accreditation, STCs cannot be assigned for installations your business carries out — a significant commercial disadvantage.
+### Installer accreditation is SAA, not the CEC
 
-CEC accreditation requires:
-- Annual renewal with Continuing Professional Development (CPD) obligations
-- Compliance with the CEC's Solar Retailer Code of Conduct (if selling to households)
-- Compliance with AS/NZS 5033:2021 (Installation and Safety Requirements for PV Arrays) and AS/NZS 4777 (Grid Connection of Energy Systems via Inverters)
+**This is the single most common stale fact on SA solar guides.** The Clean Energy Regulator appointed **Solar Accreditation Australia (SAA)** as the installer and designer accreditation scheme operator on 29 February 2024. From 29 May 2024, only SAA-accredited designers and installers can interact with the Small-scale Renewable Energy Scheme, and a Clean Energy Council accreditation number can no longer be used to claim STCs. If you are still quoting a "CEC accreditation number", you cannot claim STCs on the job.
 
-**Battery Storage**
-Battery storage installations in SA must comply with AS/NZS 5139:2019 (Electrical Installations — Safety of Battery Systems for Use with Power Conversion Equipment). This is technically demanding and increasingly important as SA has among the highest residential battery adoption rates in Australia.
+The Clean Energy Council still does two things, and they matter — it accredits the *products* (the CEC approved module, inverter and battery lists every eligible install must draw from) and it runs the **Approved Solar Retailer Code of Conduct** for businesses selling to households. But it no longer accredits people.
 
-**Home Battery Scheme (SA)**
-South Australia has historically operated battery incentive programs. Check the SA Government energy portal (sa.gov.au/energy) for the current status of any available rebates or incentives — these change and may have eligibility conditions that affect your installation workflow.
+**What SAA accreditation involves:**
 
-**Network connection and inverter standards**
-SA Power Networks has specific technical requirements for grid-connected systems, including inverter standards compliance under AS/NZS 4777.2 and, for larger systems, export limit management. Always confirm current connection requirements directly with SA Power Networks before finalising system design.
+- Three classes — Grid Connected PV (GCPV), Grid Connected Battery Systems (GCBS), Stand Alone Power Systems (SPS) — in Design Only, Install Only, or Design & Install. GCBS Install Only is an additional accreditation only, not a first accreditation.
+- **A three-year term, not annual.** Fees: $605 incl GST for first full accreditation, **$759 incl GST to renew**, $209 to add a class, $181.50 provisional. All inclusive of GST, transaction fees extra.
+- **100 CPD points every 12 months** during the term, with a minimum 60 from core training. Miss it and accreditation is *suspended*, not cancelled — and while suspended you cannot claim STCs, and no work may be done on an installation intended to claim them.
+
+### The money in 2026 is the federal battery rebate
+
+The **Cheaper Home Batteries Program** has applied since 1 July 2025: roughly 30% off the installed cost of a 5–100 kWh battery, delivered as STCs and discounted at the point of sale by the installer.
+
+- The battery and inverter must be on the CEC approved product list, and installation must be by — or supervised on site by — an SAA-accredited **GCBS** installer.
+- The battery must connect to new or existing solar. Grid-charged-only batteries don't qualify.
+- One battery system per premises. No means test. Inverter must be VPP-capable.
+- **From 1 May 2026 the STC factor tapers by capacity:** 100% for the first 14 kWh, 60% from 14 to 28 kWh, 15% from 28 to 50 kWh, and nothing above 50 kWh. The base factor also fell from 8.4 to 6.8 STCs per kWh. Oversizing purely to maximise rebate no longer works — a 40 kWh job is worth markedly less per kWh than a 13 kWh one.
+
+**The SA Home Battery Scheme is closed.** It stopped taking applications in September 2022 and has not reopened. Any page, quote or sales script still offering it in 2026 is describing a scheme that does not exist. What SA has left is a **VPP incentive under the Retailer Energy Productivity Scheme (REPS)** — offered by participating retailers, not the government, with value and terms set by the retailer, and in 2026 largely reserved for concession-card and other priority households.
+
+### Smarter Homes — the SA obligation that actually fails jobs
+
+Under the *Electricity (General) Regulations 1997* (the Smarter Homes amendments, in force since 28 September 2020), every new embedded generation installation in SA must be:
+
+- **capable of being remotely disconnected and reconnected** by a nominated **Relevant Agent**, with the customer's authorisation in place;
+- **capable of dynamic export limits** updated remotely;
+- metered so generation and controllable load can be measured and controlled separately.
+
+Practically: you nominate the Relevant Agent at the SA Power Networks network application stage, install the system so it can actually action remote commands, and **confirm the nominated agent in the eCoC**. Get that last step wrong and the job is non-compliant even though the wiring is right. Flexible export connections default to SA Power Networks as relevant agent.
+
+**EV chargers are caught too.** Hard-wired EVSE installed at residential and small-business sites must support remote demand response, and only equipment on the OTR's registered EVSE compliance list can be installed — equipment off that list is non-compliant regardless of how well it's fitted. From July 2026, V2G-capable chargers must also support OCPP 2.1 and AS 5438 (CSIP-AUS).
+
+**Standards to hold:** AS/NZS 5033:2021 (PV arrays), AS/NZS 4777.2:2020 (grid connection via inverters — the Technical Regulator has issued a time-limited notice exempting home battery inverters from amendment 2, provided the device is certified to amendment 1), and AS/NZS 5139:2019 (battery systems).
 
 ---
 
@@ -206,8 +228,8 @@ The certificate goes on **any** electrical work, not just work you'd call notifi
 **4. Treating public liability as someone else's problem**
 No CBS officer will ever check your certificate of currency, so it feels discretionary. It isn't: builders, strata managers and commercial clients ask for it before they'll let you on site, and a claim without cover is personal exposure. Same for the five-year warranty claim window and the ten-year cover on defective work.
 
-**5. CEC accreditation lapse for solar work**
-CEC accreditation requires annual renewal with CPD. Many SA solar electricians miss the renewal window because it falls at a different time to their CBS cycle. These are separate obligations — manage them separately in your calendar.
+**5. Managing STC accreditation like a licence renewal**
+SAA accreditation runs a three-year term but a **12-month CPD cycle** of 100 points inside it. Plenty of SA solar businesses treat it as a three-yearly event, run out of CPD points at the end of year one, get suspended, and only find out when a claim is rejected. Suspension also stops you working on any installation intended to claim STCs — so the cost is the job, not the fee.
 
 **6. Not understanding how interstate recognition actually works**
 Two different mechanisms apply, and they depend on where you live, not where you work. Under **automatic mutual recognition (AMR)**, if your principal place of residence is in another state or territory you can work in SA on your interstate licence without applying for an SA one. The moment your principal residence moves to SA, that stops: you must hold an SA licence and apply through the **Mutual Recognition** process instead. Licences granted either way appear on the SA Licensing Register so the public can verify them. One catch that surprises contractors: your interstate registration's *conditions* come with you, so check the scope of work your registration actually covers before quoting SA jobs.
@@ -219,14 +241,14 @@ South Australian contractors must display their licence number in any advertisin
 
 ## Managing SA Compliance Without Losing Your Mind
 
-Running a compliant electrical contracting business in SA requires active management of CBS renewals, OTR lodgement obligations, CEC accreditation, and insurance — across different renewal cycles and different agencies. Most SA electrical businesses that run into compliance trouble do so not because the obligations are unclear, but because there's no system tracking them.
+Running a compliant electrical contracting business in SA requires active management of CBS renewals, OTR lodgement obligations, SAA accreditation and CPD, and insurance — across different renewal cycles and different agencies. Most SA electrical businesses that run into compliance trouble do so not because the obligations are unclear, but because there's no system tracking them.
 
 The practical solution is to centralise compliance tracking in your job management platform. For each regulatory obligation, create a recurring reminder that fires 60 days before expiry — enough time to act without panic. Log every eCoC against the relevant job record. Keep current certificates of currency in a folder accessible to whoever handles your admin.
 
 [Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — manage both licence renewal dates, eCoC records, and the compliance calendar alongside your job workflow.
 
 > **Have a compliance question right now?**
-> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on SA electrical licensing, eCoC requirements, CEC accreditation, STC claims, and battery storage compliance — no login required.
+> [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on SA electrical licensing, eCoC requirements, SAA accreditation, STC claims, and battery storage compliance — no login required.
 
 ---
 
@@ -236,8 +258,8 @@ The practical solution is to centralise compliance tracking in your job manageme
 |---|---|---|---|
 | Electrical worker registration (personal) | CBS (Consumer and Business Services) | Every 3 years | $617 new / $342 per 3 years |
 | Electrical contractor licence (PGE) | CBS (Consumer and Business Services) | Annual | $779 new / $504 renewal ($737 company) |
-| eCoC certification | OTR (Office of the Technical Regulator) | Per job | Portal-based, no fee to certify |
-| CEC Accreditation (solar) | Clean Energy Council | Annual + CPD | Varies |
+| eCoC certification | OTR (Office of the Technical Regulator) | Per job | Via ecoc.otr.sa.gov.au |
+| CEC accreditation (solar) | Solar Accreditation Australia (SAA) | 3 years + 100 CPD points yearly | $605 new / $759 renewal |
 | Public liability insurance | Commercial insurer | Annual | Not a CBS condition — $5M+ market standard |
 | Workers compensation | ReturnToWorkSA | Annual | Mandatory for employers |
 
@@ -245,25 +267,29 @@ The practical solution is to centralise compliance tracking in your job manageme
 
 ## FAQ
 
-**Do I need separate licences from both CBS and OTR to operate as an electrical contractor in SA?**
+**What licence do I need to operate as an electrical contractor in South Australia?**
 
-The CBS PGE contractor licence is your operating licence — it authorises you to contract electrical work in SA. The OTR doesn't issue a separate licence, but runs the compliance framework including eCoC certification. Think of it as CBS giving you the right to operate, and the OTR governing how you document and certify the work once it's done.
+In South Australia, electrical contractors require a Plumbers, Gas Fitters and Electricians (PGE) contractor licence issued by Consumer and Business Services (CBS) under the *Plumbers, Gas Fitters and Electricians Act 1995*. Individual electricians carrying out the work must also hold a current electrical worker registration. The Office of the Technical Regulator (OTR) oversees technical safety and electronic certificates of compliance (eCoC) separately from the CBS licensing function.
 
-**How long does it take to get an electrical contractor licence in SA?**
+**What is the difference between CBS and OTR for SA electricians?**
 
-CBS publishes current processing times for occupational licensing applications on its website — check those rather than trusting a blog's estimate. Two things stretch the timeline beyond CBS's own processing: business-criteria evidence (if you haven't completed the Category A/B units or don't hold an accepted qualification, you need to enrol and finish them first) and a National Police Certificate that's slow to arrive. Lodge a complete application in one go.
+CBS issues the occupational and contractor licences that legally authorise electricians and electrical contracting businesses to operate in SA. The OTR oversees the technical safety side — including approval of electrical installations, eCoC certification, and network connection requirements. Both bodies have oversight roles; SA electricians must satisfy both.
 
-**Can I use my interstate electrical contractor licence to do work in SA?**
+**Does an SA electrical contractor licence cover solar PV installation?**
 
-It depends on where you live. If your principal place of residence is interstate, automatic mutual recognition lets you work in SA on your interstate licence. If you move your principal residence to SA, you must hold an SA licence and apply through the Mutual Recognition process. Either way, check the conditions on your existing registration — restrictions travel with you, and the SA Licensing Register shows what you're actually authorised for.
+A current CBS electrical contractor licence covers the electrical work in a solar PV installation, and the individual doing the work must hold a current electrical worker registration. To claim small-scale technology certificates on the system you also need accreditation with Solar Accreditation Australia (SAA), which has run installer and designer accreditation since 29 February 2024 — a former Clean Energy Council accreditation number cannot be used to claim STCs for work from 29 May 2024. The OTR governs eCoC certification for the electrical work under the *Electricity Act 1996* (SA).
 
-**What happens if I carry out electrical work in SA without a current CBS licence?**
+**How often must SA electrical contractor licences be renewed?**
 
-Working without a current CBS PGE licence is an offence under the *Plumbers, Gas Fitters and Electricians Act 1995 (SA)*. It also voids your insurance position on the work and gives customers a basis to walk away from the contract. Separately, failing to issue an eCoC carries penalties of up to $5,000 under section 61 of the *Electricity Act 1996*.
+Two different clocks apply. The contractor licence itself is an occupational licence and must be renewed every 12 months — $504 for an individual contractor and $737 for a body corporate. The electrical worker registration underneath it must be renewed every three years, at $342 for the three-year period. Both are renewed through CBS.
 
-**Does my SA electrical contractor licence cover battery storage installation?**
+**What insurance is required for an SA electrical contractor?**
 
-Your CBS electrical contractor licence covers the electrical installation work for battery systems. However, battery storage installations must also comply with AS/NZS 5139:2019, and there may be additional network notification requirements through SA Power Networks for grid-connected systems with battery. Solar-and-battery systems claiming federal STCs also require current CEC accreditation — and note that SA's home battery scheme landscape has changed, so check the SA Government energy portal for current programs rather than assuming a subsidy applies.
+CBS does not prescribe a public liability minimum as a condition of the PGE licence. In practice every commercial client, head contractor and strata manager will ask for a certificate of currency, and $5 million is the usual floor with $10–20 million common on commercial and solar work. Workers compensation through ReturnToWorkSA is a separate, mandatory obligation for any business that employs people.
+
+**What happens if I carry out electrical work in SA without a current licence?**
+
+Contracting for electrical work without a current CBS PGE contractor licence, or performing it without a current worker registration, is an offence under the *Plumbers, Gas Fitters and Electricians Act 1995* (SA), and it voids your insurance position on the work. Separately, failing to issue an eCoC after electrical work carries penalties of up to $5,000 under section 61 of the *Electricity Act 1996*.
 
 ---
 
