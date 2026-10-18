@@ -724,7 +724,7 @@ def compute_deltas(today_data, yesterday_data, live_slugs=None, redirect_map=Non
                             "type": "ctr_cliff",
                             "severity": "medium",
                             "slug": slug,
-                            "detail": f"CTR dropped {abs(ctr_change)}% to {tp['ctr']}% with position unchanged.{note}",
+                            "detail": f"CTR fell {abs(ctr_change)} pts: {yp['ctr']}% -> {tp['ctr']}% with position unchanged (pos {tp['position']}).{note}",
                             "action": "CTR fell while position held — likely a SERP/competitor change or intent mismatch. Check the live SERP for competing snippets and verify title/meta still matches search intent.",
                         })
 
