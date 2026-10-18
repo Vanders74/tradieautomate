@@ -1,8 +1,8 @@
 ---
 title: 'CCEW NSW 2026: eCert Deadline, Fees & When You Need One'
-description: "CCEW explained: the 7-day test-to-lodgement rule, no government lodgement fee, and the real s37A penalties. How NSW sparkies lodge via BCNSW eCert in 2026."
+description: "CCEW NSW: lodge via BCNSW eCert within 7 days of the test, no lodgement fee, late lodgement up to $2,200 — and what the approved API doesn't cover."
 pubDate: 'May 09 2026'
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 19 2026'
 category: "Compliance"
 heroImage: '/hero-ccew-nsw-guide.jpg'
 tags: ['CCEW', 'NSW', 'compliance', 'electrician', 'electrical certificate', 'Building Commission NSW']
@@ -12,11 +12,11 @@ faq:
   - question: "Who can issue a CCEW in NSW?"
     answer: "The tester — a qualified person authorised under the Home Building Act 1989 to do electrical wiring work without supervision — must lodge the CCEW. In practice that means the individual contractor licence or qualified supervisor certificate holder who performed the safety and compliance test. BCNSW eCert does not accept business licences at all: you cannot register a company or partnership contractor licence to lodge certificates."
   - question: "What happens if you don't lodge a CCEW within 7 days in NSW?"
-    answer: "Lodging late or not at all is an offence under s37A of the Gas and Electricity (Consumer Safety) Regulation 2018. The maximum penalty is 20 penalty units for an individual (about $2,200 at the NSW penalty unit value of $110) and 40 penalty units otherwise. Building Commission NSW also issues on-the-spot fines of up to $1,000 for each occasion a CCEW is not supplied."
+    answer: "Lodging late or not at all is an offence under s37A of the Gas and Electricity (Consumer Safety) Regulation 2018. The maximum penalty is 20 penalty units for an individual (about $2,200 at the NSW penalty unit value of $110) and 40 penalty units otherwise. Building Commission NSW also issues on-the-spot fines of up to $1,000 for each occasion a CCEW is not supplied. In practice, electricians breach this most often on large multi-job weeks where paperwork piles up — a job management trigger at the point of sign-off prevents it."
   - question: "Does a CCEW need to be issued for solar installations in NSW?"
-    answer: "Yes. Any solar PV installation that involves electrical connection work requires a CCEW in NSW. This includes the AC wiring from the inverter to the switchboard, any switchboard modifications, and the grid connection. From 2 November 2026 (23 November for Ausgrid) CER systems up to 200kW can instead be commissioned through the NSW CER Installer Portal, which captures the CCEW and DERR in the one process."
+    answer: "Yes. Any solar PV installation that involves electrical connection work requires a CCEW in NSW. This includes the AC wiring from the inverter to the switchboard, any switchboard modifications, and the grid connection. From 2 November 2026 (23 November for Ausgrid), new and upgrading CER systems up to 200kW whose DNSP connection application is submitted and approved from that date must be commissioned through the NSW CER Installer Portal, which replaces the separate eCert CCEW lodgement and the AEMO DERR submission for that work. In addition to the CCEW, solar installers must lodge STC documentation with the Clean Energy Regulator and hold Solar Accreditation Australia (SAA) accreditation — the Clean Energy Council has not accredited installers since 29 May 2024."
   - question: "What information must be included on a NSW CCEW?"
-    answer: "A valid NSW CCEW records the installer and tester details (names and individual licence or supervisor certificate numbers), the installation address, the work performed, the safety and compliance test results, and the declaration. For solar it also records array and inverter details; for battery, the storage system details. The BCNSW eCert form only asks you to complete the sections that apply to the work you are certifying."
+    answer: "A valid NSW CCEW records the installer and tester details (names and individual licence or supervisor certificate numbers), the installation address, the work performed, the safety and compliance test results, and the declaration. For solar it also records array and inverter details; for battery, the storage system details. The BCNSW eCert form only asks you to complete the sections that apply to the work you are certifying — incomplete certificates are a common trigger for compliance action."
 ---
 
 The Certificate of Compliance — Electrical Work (CCEW) — also commonly searched as the NSW electrical certificate of compliance — is the cornerstone compliance document for electrical contractors working in New South Wales. It is created by the **Gas and Electricity (Consumer Safety) Act 2017** and the **Gas and Electricity (Consumer Safety) Regulation 2018**: s36 requires a safety and compliance test once the work is finished, and s37A requires the tester to lodge the certificate within 7 days. The CCEW itself is the legal record that the work has been tested and complies with AS/NZS 3000.
@@ -25,14 +25,14 @@ In 2025 and 2026, **Building Commission NSW** — not SafeWork NSW and not NSW F
 
 Getting your CCEW obligations right is not complex, but it is non-negotiable. This guide covers everything you need to know.
 
-> **⚡ Using ServiceM8?** Its custom form builder auto-generates CCEW templates from your job data — [see how it works for NSW electricians](/blog/servicem8-for-electricians/).
+> **⚡ Using ServiceM8?** It will hold the CCEW number and the 7-day due date against the job — but it cannot generate or lodge the certificate, and the custom form builder sits on the Growing plan ($79/mo). [How NSW electricians run it](/blog/servicem8-for-electricians/).
 
 <div class="compliance-bridge-box">
   <div class="cb-inner">
     <div class="cb-text">
-      <strong class="cb-title">Tired of manually generating CCEW forms after hours?</strong>
+      <strong class="cb-title">Tired of chasing CCEW lodgement after hours?</strong>
       <p class="cb-body">
-        ServiceM8 can attach a CCEW checklist to the job, hold the certificate number against the job record, and remind you before the 7-day window closes — so lodgement in BCNSW eCert doesn't get forgotten on a Friday.
+        ServiceM8 cannot generate or lodge a CCEW — BCNSW eCert is the only channel. What it can do is hold the checklist, the certificate number and the due date against the job and fire a follow-up before day 7, so the lodgement doesn't get forgotten on a Friday. Set it up as a checklist item plus a follow-up rule; on Free or Starter you'd use a job note and a follow-up rather than a custom form.
       </p>
     </div>
     <a href="https://www.servicem8.com/au/register/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=ccew_bridge" target="_blank" rel="nofollow sponsored" class="cb-link">
@@ -128,7 +128,7 @@ Best practice is to lodge within 24–48 hours of the test — while the install
 
 - **On-the-spot fines of up to $1,000** for each occasion a CCEW is not supplied to Building Commission NSW
 - **s37A maximum penalty of 20 penalty units** for an individual (about $2,200 at the NSW penalty unit value of $110) and **40 penalty units** otherwise (about $4,400)
-- **Up to $550,000** for failure to carry out electrical installation work in accordance with the technical standards in the Regulation — the much larger number, and the one attached to the work itself rather than the paperwork
+- **Up to $55,000 for an individual and $550,000 for a corporation** for failure to carry out electrical installation work in accordance with the technical standards in the Regulation (Gas and Electricity (Consumer Safety) Act 2017, s34) — the much larger number, and the one attached to the work itself rather than the paperwork. Guides that quote "$550,000" on its own are quoting the corporate maximum at a sole trader.
 
 One clarification, because this figure is widely miscopied: **$22,000 for an individual and $110,000 for a corporation is the Home Building Act 1989 penalty scale for unlicensed contracting** (200 and 1,000 penalty units). It is not the CCEW lodgement penalty, and it is not the number that applies if you lodge late.
 
@@ -202,6 +202,15 @@ Registration is free. The portal is at [ecert.buildingcommission.nsw.gov.au](htt
 5. Submit — the portal records the certificate with Building Commission NSW and emails you a PDF copy
 6. File the certificate number against the job record and retain the PDF
 
+### Lodging from job software — what the approved API actually covers
+
+The portal is not the only channel, but it is the only *default* one. Building Commission NSW runs a self-service API that lets eligible businesses and job-management vendors submit CCEW data straight from their system into eCert. It is worth knowing exactly what it does, because "integrated with eCert" is becoming a sales line:
+
+- **Eligibility is gated and onboarding is manual.** Access is limited to eligible entities — job-management software vendors, and electrical businesses holding a company or partnership contractor licence that submit high volume — who have been onboarded by BCNSW. There is no public list of approved products, so ask the vendor for their Agency ID, not a screenshot.
+- **Rectification CCEWs are excluded.** A rectification certificate (work done under a written direction notice) cannot be submitted through an integrated system at all — it has to be lodged directly in the eCert portal.
+- **The API moves the paperwork, not the responsibility.** The individual electrician stays legally responsible for the accuracy and completeness of every CCEW submitted under their licence, and eCert remains the system of record. The business using the API must be able to give BCNSW the CCEW information within 7 days of receiving it from the electrician.
+- **A form builder is not an integration.** Software that produces a PDF still leaves you keying the certificate into eCert by hand. If a vendor says it "lodges your CCEW", ask which API and whether they are onboarded.
+
 ---
 
 ## CCEW and Solar — Specific Requirements
@@ -225,8 +234,9 @@ From **2 November 2026**, new and upgrading consumer energy resources (CER) syst
 
 For those jobs, the portal replaces the separate CCEW lodgement in eCert and the AEMO Distributed Energy Resources Register (DERR) submission — both are captured in the one commissioning process. There is no installer fee to register or submit through the CER portal, though DNSP application fees still apply.
 
-Two things to watch:
-- If the job also includes electrical work outside the CER scope, you still lodge a **separate CCEW through BCNSW eCert** for that work.
+Three things to watch:
+- If the job also includes electrical work outside the CER scope, you still lodge a **separate CCEW through BCNSW eCert** for that work — the portal only replaces the CCEW for the CER work itself.
+- **From November 2026 the inverter requirement changes too:** new and upgrading rooftop systems up to 200kW must be fitted with inverters compliant with CSIP-AUS (Common Smart Inverter Profile — Australia), and the portal tests that each newly registered system is actually communicating with the DNSP's utility server over the internet. Where a site has no reliable connection, a low default export limit applies until it does. That is a quoting problem as much as a compliance one: a compliant CSIP-AUS inverter and a working data connection are now part of the job, not an optional extra.
 - The Emergency Backstop Mechanism (EBM) enablement rolls out in phases per network, managed by each DNSP.
 
 ### AS/NZS 5033 installation records
@@ -250,7 +260,7 @@ In [ServiceM8](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieau
 - A follow-up task created automatically when a NSW job is marked complete, due within 5 days, so there are two clear days before the 7-day window shuts
 - A notes field for the CCEW certificate number and issue date, stored against the job record
 
-For businesses working across both NSW and VIC (or other states), your job management system should prompt the appropriate certificate type based on the job's state — CES for VIC, CCEW for NSW, CoTC for QLD.
+For businesses working across both NSW and VIC (or other states), your job management system should prompt the appropriate certificate type based on the job's state — COES for VIC, CCEW for NSW, Certificate of Test for QLD, eCoC for SA, Notice of Completion for WA.
 
 > **Choosing your platform?** ServiceM8 is the strongest option for compliance-heavy electrical work — see our [ServiceM8 for Electricians deep-dive](/blog/servicem8-for-electricians/) and the full [job management software comparison for Australian sparkies](/blog/best-job-management-software-electricians-australia/).
 
@@ -281,7 +291,7 @@ A CCEW certifies that the safety and compliance test has been carried out and th
 **7. Poor photo documentation for solar**
 While photos aren't part of the CCEW itself, Building Commission NSW and DNSPs increasingly cross-reference CCEW records against installation photos during solar audits. A CCEW with no corresponding job documentation is a red flag. Geo-tagged, timestamped photos should be stored against every job.
 
-> **Working across state lines?** Victoria's CES system has different deadlines (30 days), different regulator (Energy Safe Victoria), and different audit triggers. See our [CES Victoria complete guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) for the side-by-side comparison — getting this wrong when your crews cross the Murray is a material compliance risk.
+> **Working across state lines?** Victoria issues a COES, not a CCEW — and the clock is far tighter than the "one month" most guides quote. For prescribed work (switchboards, consumer mains, main earthing, solar, battery) the certificate must be signed within 4 business days of completing the work, ESV notified within 2 business days of signing, an independent LEI inspection done within 8 business days, and copies issued within 16 calendar days. The one-month window applies only to non-prescribed work. Different regulator too — Energy Safe Victoria. See our [Victoria COES complete guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) for the side-by-side comparison — getting this wrong when your crews cross the Murray is a material compliance risk.
 
 > **Need to check a CCEW requirement right now?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers on CCEW lodgement, network notification rules, solar documentation requirements, and more. No login required.
@@ -292,7 +302,7 @@ While photos aren't part of the CCEW itself, Building Commission NSW and DNSPs i
 
 **Lodgement penalties (s37A):** The Regulation sets the maximum at 20 penalty units for an individual and 40 penalty units otherwise. At the NSW penalty unit value of $110 that is roughly **$2,200 and $4,400** — per certificate, not per year. Building Commission NSW also issues **on-the-spot fines of up to $1,000** for each occasion a CCEW is not supplied.
 
-**The big number:** failure to carry out electrical installation work in accordance with the technical standards in the Regulation attracts penalties of **up to $550,000**. That is the exposure that follows bad work, not late paperwork.
+**The big number:** failure to carry out electrical installation work in accordance with the technical standards in the Regulation attracts **up to $55,000 for an individual and $550,000 for a corporation** (Act s34). That is the exposure that follows bad work, not late paperwork — and the $550,000 figure you see quoted everywhere is the corporate one.
 
 **Licence risk:** Repeated or serious non-compliance can result in licence conditions or suspension — and since eCert lodgement is tied to your individual licence, a pattern of missed or defective certificates shows up against your name, not just the business's.
 
@@ -353,10 +363,10 @@ A Certificate of Compliance — Electrical Work (CCEW) is the certificate a lice
 The tester — a qualified person authorised under the Home Building Act 1989 to do electrical wiring work without supervision — must lodge the CCEW. In practice that means the individual contractor licence or qualified supervisor certificate holder who performed the safety and compliance test. BCNSW eCert does not accept business licences at all: you cannot register a company or partnership contractor licence to lodge certificates.
 
 ### What happens if you don't lodge a CCEW within 7 days in NSW?
-Lodging late or not at all is an offence under s37A of the Gas and Electricity (Consumer Safety) Regulation 2018. The maximum penalty is 20 penalty units for an individual (about $2,200 at $110 per penalty unit) and 40 penalty units otherwise. Building Commission NSW also issues on-the-spot fines of up to $1,000 for each occasion a CCEW is not supplied. In practice, electricians breach this most often on large multi-job weeks where paperwork piles up — a job management trigger at the point of sign-off prevents it.
+Lodging late or not at all is an offence under s37A of the Gas and Electricity (Consumer Safety) Regulation 2018. The maximum penalty is 20 penalty units for an individual (about $2,200 at the NSW penalty unit value of $110) and 40 penalty units otherwise. Building Commission NSW also issues on-the-spot fines of up to $1,000 for each occasion a CCEW is not supplied. In practice, electricians breach this most often on large multi-job weeks where paperwork piles up — a job management trigger at the point of sign-off prevents it.
 
 ### Does a CCEW need to be issued for solar installations in NSW?
-Yes. Any solar PV installation that involves electrical connection work requires a CCEW in NSW. This includes the AC wiring from the inverter to the switchboard, any switchboard modifications, and the grid connection. From 2 November 2026 (23 November for Ausgrid) CER systems up to 200kW can instead be commissioned through the NSW CER Installer Portal, which captures the CCEW and DERR in the one process. In addition to the CCEW, solar installers must lodge STC documentation with the Clean Energy Regulator and meet CEC accreditation requirements.
+Yes. Any solar PV installation that involves electrical connection work requires a CCEW in NSW. This includes the AC wiring from the inverter to the switchboard, any switchboard modifications, and the grid connection. From 2 November 2026 (23 November for Ausgrid), new and upgrading CER systems up to 200kW whose DNSP connection application is submitted and approved from that date must be commissioned through the NSW CER Installer Portal, which replaces the separate eCert CCEW lodgement and the AEMO DERR submission for that work. In addition to the CCEW, solar installers must lodge STC documentation with the Clean Energy Regulator and hold Solar Accreditation Australia (SAA) accreditation — the Clean Energy Council has not accredited installers since 29 May 2024.
 
 ### What information must be included on a NSW CCEW?
 A valid NSW CCEW records the installer and tester details (names and individual licence or supervisor certificate numbers), the installation address, the work performed, the safety and compliance test results, and the declaration. For solar it also records array and inverter details; for battery, the storage system details. The BCNSW eCert form only asks you to complete the sections that apply to the work you are certifying — incomplete certificates are a common trigger for compliance action.
