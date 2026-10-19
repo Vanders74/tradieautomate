@@ -76,6 +76,12 @@ Two things to pin down before you compare totals:
 
 AroFlo has been part of the Simpro Group since 2021, which is why its functionality increasingly overlaps simPRO's at the top end.
 
+### Why other comparison sites quote $39, $65 or $67 for AroFlo
+
+If you have three tabs open and the numbers do not match, this is why. As at October 2026, the directory listings and older reviews still carry pre-increase figures: GetApp and Capterra both show **$39/user**, AroFlo's own blog still quotes **$67/user with a $335 monthly minimum**, and two comparison blogs list a **$195–$235 three-user minimum**. None of those match the pricing page, which is the only page AroFlo keeps current.
+
+The practical effect is that our $240 floor looks high next to a $117 floor. It isn't — those figures are older plans that are no longer sold. Use the published $80 × 3, then add the setup fee, because the directories do not include it at all.
+
 ### The Cost Reality
 
 For a 10-person trade business doing 100 jobs per month:
