@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "Australian energy rebate & incentive dataset for the TradieAutomate Rebate Finder. Maintained by the Bonsai maintenance cron — diff against source pages listed per program, update amounts/eligibility/status, bump last_verified. NEVER invent figures; when a source page contradicts this file, the source wins.",
-    "last_verified": "2026-10-14",
+    "last_verified": "2026-10-20",
     "verify_frequency_days": 7,
     "sources": [
       "https://www.solar.vic.gov.au/hot-water-rebate",
@@ -38,7 +38,7 @@
       "how_to_claim": "Apply via an authorised hot water retailer; rebate applied after STCs and VEECs.",
       "source_url": "https://www.solar.vic.gov.au/hot-water-rebate",
       "source_name": "Solar Victoria",
-      "last_verified": "2026-10-14"
+      "last_verified": "2026-10-20"
     },
     "vic_veu_hot_water": {
       "state": "VIC",
@@ -47,8 +47,8 @@
         "heat_pump",
         "solar_hot_water"
       ],
-      "amount_range": "Up to $560 (heat pump) / up to $700 (efficient upgrade)",
-      "amount_note": "VEU discount on approved heat pump or solar hot water systems via an accredited provider. Works alongside the Solar Homes rebate.",
+      "amount_range": "$560 - $630 (heat pump replacement)",
+      "amount_note": "VEU discount on approved heat pump or solar hot water systems via an accredited provider. The Essential Services Commission states $560-$630 when an inefficient electric or gas system is replaced with an eligible heat pump; discounts for solar-boosted systems vary by product. Works alongside the Solar Homes rebate.",
       "eligibility": [
         "Victorian household or business",
         "Install in a home or building at least 2 years old",
@@ -58,7 +58,8 @@
       "expiry": "Ongoing",
       "how_to_claim": "Order an approved appliance through a VEU-accredited installer — discount applied at point of sale.",
       "source_url": "https://www.secvictoria.com.au/households/help-centre/rebates-and-discounts/hot-water-system-rebates",
-      "source_name": "Essential Services Commission VIC"
+      "source_name": "Essential Services Commission VIC",
+      "last_verified": "2026-10-20"
     },
     "vic_solar_pv": {
       "state": "VIC",
@@ -70,14 +71,15 @@
       "amount_note": "Plus optional interest-free loan. Rebate amounts held steady from 1 July 2026; households earning $150K-$210K no longer eligible from 1 July 2026.",
       "eligibility": [
         "Victorian owner-occupier",
-        "Household income under threshold (per Solar Victoria current rules)",
+        "Combined household taxable income under $150,000 (threshold reduced from $210,000 on 1 July 2026)",
         "Existing property, not new build"
       ],
       "status": "open",
       "expiry": "Ongoing",
       "how_to_claim": "Apply through Solar Victoria; panels must be on the approved product list and installed by approved retailer.",
       "source_url": "https://www.solar.vic.gov.au/programs",
-      "source_name": "Solar Victoria"
+      "source_name": "Solar Victoria",
+      "last_verified": "2026-10-20"
     },
     "vic_battery_loan": {
       "state": "VIC",
@@ -92,7 +94,8 @@
       "expiry": "Closed",
       "how_to_claim": "N/A — see federal Cheaper Home Batteries Program instead.",
       "source_url": "https://www.solar.vic.gov.au/programs",
-      "source_name": "Solar Victoria"
+      "source_name": "Solar Victoria",
+      "last_verified": "2026-10-20"
     },
     "nsw_ess_hot_water": {
       "state": "NSW",
@@ -113,7 +116,8 @@
       "expiry": "No current closing date",
       "how_to_claim": "Get a quote from an ESS-registered provider showing the discount applied.",
       "source_url": "https://www.energy.nsw.gov.au/households/grants-rebates/household-energy-saving-upgrades/hot-water-upgrade-incentive",
-      "source_name": "NSW Climate and Energy Action"
+      "source_name": "NSW Climate and Energy Action",
+      "last_verified": "2026-10-20"
     },
     "nsw_home_energy_saver": {
       "state": "NSW",
@@ -123,16 +127,20 @@
         "insulation"
       ],
       "amount_range": "Up to $4,000 discount or $15,000 zero-interest loan",
-      "amount_note": "Successor to Empowering Homes (closed 2024). Covers home batteries, insulation and other efficiency upgrades.",
+      "amount_note": "Successor to Empowering Homes (closed 2024). Covers home batteries, insulation and other efficiency upgrades. The zero-interest loan (up to $15,000, repaid over up to 10 years) has been open since 17 June 2026. The up-to-$4,000 discount component was announced but reported as not yet open to applications as at 15 October 2026 — eligible households earn up to $80,000 or hold an eligible concession card.",
       "eligibility": [
         "NSW households",
+        "Homeowner or landlord",
+        "Zero-interest loan: combined household income up to $210,000",
+        "Discount component: household income up to $80,000 or an eligible concession card",
         "Technology must be on the eligible list (e.g. home batteries)"
       ],
       "status": "open",
       "expiry": "Ongoing",
       "how_to_claim": "Apply through participating providers / Service NSW referral.",
       "source_url": "https://www.service.nsw.gov.au/referral/energy-efficient-savings",
-      "source_name": "Service NSW"
+      "source_name": "Service NSW",
+      "last_verified": "2026-10-20"
     },
     "nsw_vpp": {
       "state": "NSW",
@@ -141,16 +149,19 @@
         "battery"
       ],
       "amount_range": "Varies by VPP operator",
-      "amount_note": "Sign your battery up to a demand-response contract; paid for making stored energy available at peak times.",
+      "amount_note": "Sign your battery up to a demand-response contract; paid for making stored energy available at peak times. Paid through the NSW Peak Demand Reduction Scheme — the VPP provider claims it and passes it on, so there is no government application form.",
       "eligibility": [
-        "NSW households with an eligible battery",
-        "Join a participating VPP"
+        "NSW households with an eligible battery (batteries up to 50 kWh, from 1 July 2026)",
+        "Join a participating VPP",
+        "Claimable once per electricity meter (NMI)",
+        "Stacks with the federal Cheaper Home Batteries Program"
       ],
       "status": "open",
       "expiry": "Ongoing",
       "how_to_claim": "Register with a participating VPP operator.",
       "source_url": "https://www.service.nsw.gov.au/referral/energy-efficient-savings",
-      "source_name": "Service NSW"
+      "source_name": "Service NSW",
+      "last_verified": "2026-10-20"
     },
     "qld_battery_booster": {
       "state": "QLD",
@@ -165,7 +176,8 @@
       "expiry": "Closed",
       "how_to_claim": "N/A — use federal Cheaper Home Batteries Program instead.",
       "source_url": "https://pumpswap.com.au/heat-pump-hot-water/rebates/qld",
-      "source_name": "Queensland Government (historical)"
+      "source_name": "Queensland Government (historical)",
+      "last_verified": "2026-10-20"
     },
     "fed_cheaper_home_batteries": {
       "state": "ALL",
@@ -174,7 +186,7 @@
         "battery"
       ],
       "amount_range": "~30% upfront discount",
-      "amount_note": "Administered by the Clean Energy Regulator. Point-of-sale reduction on eligible 5-100 kWh battery systems; battery must be VPP-capable and on the approved list.",
+      "amount_note": "Administered by the Clean Energy Regulator. Point-of-sale reduction on eligible 5-100 kWh battery systems; battery must be VPP-capable and on the approved list. Since 1 May 2026 support is tapered by size: 100% of the STC factor on the first 14 kWh, 60% from 14-28 kWh, 15% from 28-50 kWh and nothing above 50 kWh — a bigger battery does not earn twice the discount. The factor is 6.8 certificates per usable kWh for installs from May to December 2026 (roughly $258-$272 per usable kWh), and it steps down every six months through to 2030.",
       "eligibility": [
         "Battery 5 kWh to 100 kWh nominal capacity (STCs on first 50 kWh)",
         "Must be paired with rooftop solar (new or existing)",
@@ -184,10 +196,11 @@
         "No income test"
       ],
       "status": "open",
-      "expiry": "Ongoing",
+      "expiry": "Runs to 2030, stepping down every 6 months — next cut 1 January 2027 (STC factor 6.8 to 5.7)",
       "how_to_claim": "Ask your installer to apply the discount at point of sale — no application form.",
       "source_url": "https://www.energymatters.com.au/renewable-news/every-solar-battery-and-ev-incentive-change-from-1-july-2026/",
-      "source_name": "Clean Energy Regulator"
+      "source_name": "Clean Energy Regulator",
+      "last_verified": "2026-10-20"
     },
     "fed_stc_solar": {
       "state": "ALL",
@@ -206,7 +219,8 @@
       "expiry": "Scales down annually (rate step-down continues to 2030)",
       "how_to_claim": "Ask for STC discount as a separate line on the quote.",
       "source_url": "https://pumpswap.com.au/heat-pump-hot-water/rebates/qld",
-      "source_name": "Clean Energy Regulator"
+      "source_name": "Clean Energy Regulator",
+      "last_verified": "2026-10-20"
     },
     "fed_stc_hot_water": {
       "state": "ALL",
@@ -226,7 +240,8 @@
       "expiry": "Ongoing",
       "how_to_claim": "Ask the installer to show the STC discount as a separate line on the quote.",
       "source_url": "https://pumpswap.com.au/heat-pump-hot-water/rebates/qld",
-      "source_name": "Clean Energy Regulator (via retailer)"
+      "source_name": "Clean Energy Regulator (via retailer)",
+      "last_verified": "2026-10-20"
     },
     "sa_reps_vpp": {
       "state": "SA",
@@ -245,7 +260,8 @@
       "expiry": "Ongoing — value and terms set by retailer",
       "how_to_claim": "Contact participating SA energy retailers for a VPP battery deal.",
       "source_url": "https://missiongreen.com.au/rebate-data",
-      "source_name": "Retailer Energy Productivity Scheme (SA)"
+      "source_name": "Retailer Energy Productivity Scheme (SA)",
+      "last_verified": "2026-10-20"
     },
     "wa_residential_battery": {
       "state": "WA",
@@ -266,7 +282,8 @@
       "expiry": "Until all 100,000 rebates distributed — expected to 2027",
       "how_to_claim": "Get quotes from approved battery retailers; rebate applied as upfront discount.",
       "source_url": "https://www.wa.gov.au/organisation/energy-policy-wa/wa-residential-battery-scheme",
-      "source_name": "Energy Policy WA"
+      "source_name": "Energy Policy WA",
+      "last_verified": "2026-10-20"
     },
     "act_sustainable_household": {
       "state": "ACT",
@@ -287,7 +304,8 @@
       "expiry": "Ongoing",
       "how_to_claim": "Apply through the ACT Government — loans repaid via your electricity bill.",
       "source_url": "https://www.energy.gov.au/rebate-type/loan",
-      "source_name": "ACT Government"
+      "source_name": "ACT Government",
+      "last_verified": "2026-10-20"
     },
     "act_hot_water_rebate": {
       "state": "ACT",
@@ -306,7 +324,8 @@
       "expiry": "Ongoing",
       "how_to_claim": "Apply via the ACT Home Energy Support program.",
       "source_url": "https://whatsthedamage.com.au/hot-water-rebate/",
-      "source_name": "ACT Government"
+      "source_name": "ACT Government",
+      "last_verified": "2026-10-20"
     },
     "tas_energy_saver": {
       "state": "TAS",
@@ -323,7 +342,8 @@
       "expiry": "Closed 1 September 2025",
       "how_to_claim": "N/A — federal programs apply instead.",
       "source_url": "https://www.solarcobber.com/blog/solar-battery-rebates-by-state-2026",
-      "source_name": "Tasmanian Government (historical)"
+      "source_name": "Tasmanian Government (historical)",
+      "last_verified": "2026-10-20"
     },
     "nt_battery_scheme": {
       "state": "NT",
@@ -338,7 +358,8 @@
       "expiry": "Closed",
       "how_to_claim": "N/A — check with local installers for current NT eligibility under federal programs.",
       "source_url": "https://www.solarcobber.com/blog/solar-battery-rebates-by-state-2026",
-      "source_name": "NT Government (historical)"
+      "source_name": "NT Government (historical)",
+      "last_verified": "2026-10-20"
     }
   }
 }
