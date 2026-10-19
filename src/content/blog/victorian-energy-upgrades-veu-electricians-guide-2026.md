@@ -1,6 +1,6 @@
 ---
 title: 'VEU for Electricians 2026: Accreditation Fees & $85 VEECs'
-description: 'VEU guide for Victorian electricians: $3,000 accreditation, $1,000 renewal, $5M public liability, VEECs around $85 and a 30 June creation deadline.'
+description: 'VEU guide for Victorian electricians: $3,000 accreditation, $1,000 renewal, $5M public liability, VEECs around $83 and a 30 June creation deadline.'
 pubDate: 'Jul 19 2026'
 updatedDate: 'Oct 19 2026'
 category: 'Compliance'
@@ -23,9 +23,9 @@ faq:
 
 Victorian electricians doing heat pump hot water installations, lighting upgrades, and gas-to-electric space heating replacements are sitting on a revenue stream most aren't claiming. The Victorian Energy Upgrades (VEU) program — established under the **Victorian Energy Efficiency Target Act 2007 (VEET Act)** and administered by the **Essential Services Commission (ESC)** — lets accredited persons create **Victorian Energy Efficiency Certificates (VEECs)** after completing eligible upgrades. Those certificates are then sold on the open market.
 
-**What a VEEC is worth right now.** VEECs are a traded commodity, not a fixed rebate, and the spot price moves week to week. Through September and October 2026 parcels have been changing hands at roughly **$85 per certificate**, inside an $85–$89 band for most of the year. (This page previously quoted $25–$55 — that was the price two years earlier, and it understated every number below by a factor of two or more.)
+**What a VEEC is worth right now.** VEECs are a traded commodity, not a fixed rebate, and the spot price moves week to week. In the week to 16 October 2026 the spot closed at **$83.25**, with late-2026 forwards around $83. That is down from a peak near **$96 in mid-September**, and the fall has a cause worth understanding: the ESC opened **Activity 47 (commercial and industrial solar)** on 1 October, the market expects large certificate volumes from it, and the 2026 scheme target was cut from 7.3 million certificates to 4.4 million. More expected supply plus a smaller target is a lower price. Budget at the low end of the recent range, not the middle. (This page previously quoted $25–$55 — that was the price two years earlier, and it understated every number below by a factor of two or more.)
 
-The certificate count is the variable you control; the price is the one you don't. At $85, a job that creates 8 VEECs is worth about $680 and a job that creates 20 is worth about $1,700. The count depends on the activity, the approved product, the postcode's climate zone and what is being replaced — the ESC's activity calculator in the VEU Registry gives the exact figure. Run it before you quote, not after.
+The certificate count is the variable you control; the price is the one you don't. At $83, a job that creates 8 VEECs is worth about $665 and a job that creates 20 is worth about $1,660. The count depends on the activity, the approved product, the postcode's climate zone and what is being replaced — the ESC's activity calculator in the VEU Registry gives the exact figure. Run it before you quote, not after.
 
 Two sanity checks before you put a number in front of a customer. The Department of Energy, Environment and Climate Action advertises discounts of **up to $630 on heat pump hot water**, up to $5,530 on reverse-cycle air conditioning and up to $34,300 on a 200 kW commercial solar system. Those are the published programme maxima for consumers. If your calculated discount is several times the advertised maximum for that product, you have over-counted certificates, not discovered a deal.
 
@@ -145,11 +145,17 @@ The appliance category is where a lot of electrician work now sits, and it is th
 
 ### 5. Commercial and Industrial Solar PV
 
-Easily the largest certificate value per job on the activity list: commercial and industrial solar PV systems under the program carry advertised discounts of up to $34,300 on a 200 kW system. This sits alongside the federal STC scheme, not instead of it — see the STC section below, because getting the interaction wrong is where claims get cancelled.
+Easily the largest certificate value per job on the activity list: commercial and industrial solar PV systems under the program carry advertised discounts of up to $34,300 on a 200 kW system. This is **Activity 47**, and it runs from 30 kW to 200 kW — below 30 kW there is no VEU claim, above 200 kW there is none either.
+
+**This is the one activity where the 2026 rules changed in your favour, and most guides have not caught up.** The federal Small-scale Renewable Energy Scheme was expanded from 100 kW to 1 MW for systems **installed on or after 1 October 2026**, which means a commercial job in that band can now create **STCs as well as VEECs from the same installation** — previously anything over 100 kW was locked out of STCs and eligible only for large-scale generation certificates. The two certificates are created under different schemes, by different parties: the VEEC through your VEU accreditation or that of the accredited provider you work with, the STC through the Clean Energy Regulator.
+
+Two timing details that decide whether a job actually gets paid. First, the SRES expansion carries a **fixed five-year deeming period** to 2030 for systems between 100 kW and 1 MW, rather than the declining deeming period that applies under 100 kW. Second, the CER has said STC applications for mid-scale systems **will not open until mid to late November 2026** — so a system installed on 1 October is eligible, but nobody can lodge the STC paperwork yet. Do not promise a customer an STC payment date before applications open.
+
+There is a choice buried in this, not just a bonus: systems between 100 kW and 1 MW can take STCs **or** participate in the Renewable Electricity Guarantee of Origin for REGO certificates, and the CER warns that eligibility under one scheme may affect eligibility under the other. Run both numbers before you specify the job. The STC option pays upfront; REGOs pay on generation and suit a system owner who keeps the asset.
 
 ### What is *not* an activity any more
 
-Two things this page used to list — **hot water pipe insulation** and **draught sealing** — are not current VEU activities. The published activity list is: commercial and public lighting, water and space heating and cooling, appliance activities, space conditioning and shower rose activities, project-based activities, other activities (gas efficiency and cold rooms), commercial and industrial solar PV, and ceiling insulation. If a guide lists an activity that isn't on that page, check the ESC activity guide before you build a quote on it.
+Two things this page used to list — **hot water pipe insulation** and a standalone **draught sealing** activity — are not current VEU activities. Draught sealing did not disappear, though, and this is worth knowing if you have been quoting it: it now sits inside **activity 15, weather sealing**, which is residential-only and still live. The catch for electricians is a training condition — activity 15 requires the *Weather Sealing Safely with Gas Appliances* module, and while licensed electricians are otherwise exempt from the program's mandatory training units, that module is not one of the exemptions. The published activity list is: commercial and public lighting, water and space heating and cooling, appliance activities, space conditioning and shower rose activities, project-based activities, other activities (gas efficiency and cold rooms), commercial and industrial solar PV, and ceiling insulation. If a guide lists an activity that isn't on that page, check the ESC activity guide before you build a quote on it.
 
 ---
 
@@ -229,7 +235,7 @@ In 2026, VEECs for heat pump hot water are generally higher value per installati
 
 The VEEC value should inform your customer pricing, not just your margin. Most accredited persons offer customers a **point-of-sale discount** equivalent to the VEEC value — making the installation cheaper for the customer while maintaining or improving your net margin. This is the standard commercial model for heat pump hot water under VEU.
 
-Work the example backwards from the advertised discount, because that is the number the customer has already seen. The program advertises **up to $630 off a heat pump hot water system**. At an $85 certificate, $630 is a bit over seven VEECs. If your calculator says twenty for the same job, one of the inputs is wrong — the climate zone, the system being replaced, or a product that isn't on the ESC register. The calculator's number is the one to quote; the marketing figure is a ceiling, not a target.
+Work the example backwards from the advertised discount, because that is the number the customer has already seen. The program advertises **up to $630 off a heat pump hot water system**. At an $83 certificate, $630 is about seven and a half VEECs. If your calculator says twenty for the same job, one of the inputs is wrong — the climate zone, the system being replaced, or a product that isn't on the ESC register. The calculator's number is the one to quote; the marketing figure is a ceiling, not a target.
 
 This is a genuine competitive differentiator against non-accredited competitors quoting the same job at full price.
 
