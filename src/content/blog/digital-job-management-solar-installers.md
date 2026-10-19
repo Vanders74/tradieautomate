@@ -146,6 +146,14 @@ The ones still running on WhatsApp groups and paper checklists? They're one CER 
 
 ---
 
+## Sources & regulators
+
+Primary sources this guide is based on:
+- [Clean Energy Council](https://cleanenergycouncil.org.au/) — accredited installer obligations
+- [Fair Work Ombudsman](https://www.fairwork.gov.au/) — employment records for field staff
+
+---
+
 ## Frequently Asked Questions
 
 **What is digital job management for solar installers?**

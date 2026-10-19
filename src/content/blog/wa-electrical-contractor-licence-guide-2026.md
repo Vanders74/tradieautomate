@@ -211,6 +211,14 @@ WA's licensing framework is manageable for electrical and solar businesses, but 
 
 ---
 
+## Sources & regulators
+
+Primary sources this guide is based on:
+- [Building and Energy WA](https://www.wa.gov.au/organisation/building-and-energy/building-and-energy) — Western Australian electrical licensing
+- [Australian Taxation Office](https://www.ato.gov.au/) — ABN and business registration required to contract
+
+---
+
 ## FAQ
 
 ### What is the difference between an electrical worker licence and an electrical contractor licence in WA?

@@ -211,6 +211,14 @@ For most businesses we see, it's either unbilled time or late payment float. Bot
 
 ---
 
+## Sources & regulators
+
+Primary sources this guide is based on:
+- [Australian Taxation Office](https://www.ato.gov.au/) — deductions and business records
+- [Fair Work Ombudsman](https://www.fairwork.gov.au/) — employee entitlements
+
+---
+
 ## Related Reading
 
 - [How to Price Solar Installations in Australia (2026)](/blog/how-to-price-solar-installations-australia-2026/)

@@ -150,6 +150,14 @@ This is what a mature solar installation business looks like — and it starts w
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)
 
+## Sources & regulators
+
+Primary sources this guide is based on:
+- [Clean Energy Regulator](https://cer.gov.au/) — STC and system registration
+- [Clean Energy Council](https://cleanenergycouncil.org.au/) — accredited installer requirements
+
+---
+
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*

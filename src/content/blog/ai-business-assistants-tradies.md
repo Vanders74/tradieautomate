@@ -209,6 +209,14 @@ We've put together a practical guide covering the specific automation workflows 
 *Running a solar installation or electrical business in Australia? The admin automation landscape has changed significantly in 2026. [AI Automation for Trade Businesses: The 2026 Guide](/blog/ai-automation-trade-business-australia/) to reclaim their time and grow without adding overhead.*
 ---
 
+## Sources & regulators
+
+Primary sources this guide is based on:
+- [Fair Work Ombudsman](https://www.fairwork.gov.au/) — employment obligations
+- [Australian Taxation Office](https://www.ato.gov.au/) — business records
+
+---
+
 ## FAQ
 
 ### What is an AI business assistant for tradies and how does it work?

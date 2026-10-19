@@ -212,6 +212,14 @@ Installing across the border? Each state has its own distributor framework, expo
 - [WA Western Power guide](/blog/wa-western-power-solar-connection-guide-2026/) — isolated SWIS grid, 30kVA aggregate inverter rule
 - [VIC distributors guide](/blog/vic-solar-connection-guide-2026/) — five networks, uniform 5kW limit
 
+## Sources & regulators
+
+Primary sources this guide is based on:
+- [AEMO](https://aemo.com.au/) — national electricity market
+- [NSW Fair Trading](https://www.nsw.gov.au/departments-and-agencies/fair-trading) — NSW electrical licensing
+
+---
+
 ## Frequently Asked Questions
 
 ### Which electricity distributors cover New South Wales?

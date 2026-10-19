@@ -178,6 +178,14 @@ The businesses winning in the Australian trades market in 2026 are those that tr
 
 ---
 
+## Sources & regulators
+
+Primary sources this guide is based on:
+- [Fair Work Ombudsman](https://www.fairwork.gov.au/) — employment obligations when automating admin
+- [Australian Taxation Office](https://www.ato.gov.au/) — record-keeping and digital records
+
+---
+
 ## Frequently Asked Questions
 
 ### Do I need to be tech-savvy to use AI automation in my trade business?

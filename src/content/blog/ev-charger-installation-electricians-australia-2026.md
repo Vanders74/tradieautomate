@@ -192,6 +192,14 @@ That conversation is worth $1,500–$3,000 in additional revenue — and it's a 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)
 
+## Sources & regulators
+
+Primary sources this guide is based on:
+- [AEMO](https://aemo.com.au/) — grid connection and EV load
+- [Clean Energy Council](https://cleanenergycouncil.org.au/) — EV charger installation standards
+
+---
+
 ## Related Reading
 
 - *[ServiceM8 for Electricians: The Job Management Platform Australian Sparkies Actually Use](/blog/servicem8-for-electricians/)*

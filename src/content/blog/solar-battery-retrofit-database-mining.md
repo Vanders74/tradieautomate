@@ -175,6 +175,14 @@ Related reading:
 
 *TradieAutomate is an authorised ServiceM8 affiliate. We earn a commission when you sign up through our link — at no extra cost to you.*
 
+## Sources & regulators
+
+Primary sources this guide is based on:
+- [Clean Energy Regulator](https://cer.gov.au/) — battery and STC eligibility
+- [Clean Energy Council](https://cleanenergycouncil.org.au/) — battery installation standards
+
+---
+
 ## Related Reading
 
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*

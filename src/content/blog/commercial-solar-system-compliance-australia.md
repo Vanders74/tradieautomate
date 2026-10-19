@@ -201,6 +201,14 @@ See the [digital job management guide for solar installers](/blog/digital-job-ma
 
 ---
 
+## Sources & regulators
+
+Primary sources this guide is based on:
+- [Clean Energy Regulator](https://cer.gov.au/) — large-scale solar accreditation
+- [Clean Energy Council](https://cleanenergycouncil.org.au/) — CEC installation standards
+
+---
+
 ## FAQ
 
 **What Australian Standards apply to commercial solar PV installation?**

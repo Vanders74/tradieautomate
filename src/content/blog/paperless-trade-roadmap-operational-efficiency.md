@@ -218,6 +218,14 @@ Not sure where your business stands? The first step is an honest assessment of y
 - *[How to Get More Solar Leads in Australia (2026 Guide)](/blog/how-to-get-more-solar-leads-australia-2026/)*
 - *[Tap to Pay on iPhone for Australian Tradies: Get Paid on the Spot](/blog/tap-to-pay-iphone-tradies-australia/)*
 
+## Sources & regulators
+
+Primary sources this guide is based on:
+- [Fair Work Ombudsman](https://www.fairwork.gov.au/) — employment records and pay slips
+- [Australian Taxation Office](https://www.ato.gov.au/) — digital record retention
+
+---
+
 ## Frequently Asked Questions
 
 ### What is the main benefit of going paperless for solar and electrical businesses?

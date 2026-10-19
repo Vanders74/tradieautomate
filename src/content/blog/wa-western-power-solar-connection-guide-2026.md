@@ -218,6 +218,14 @@ Installing across the border? Each state has its own distributor framework, expo
 - [QLD Energex & Ergon guide](/blog/qld-energex-ergon-solar-connection-guide-2026/) — dynamic connections on IEEE 2030.5 SEP2
 - [VIC distributors guide](/blog/vic-solar-connection-guide-2026/) — five networks, uniform 5kW limit
 
+## Sources & regulators
+
+Primary sources this guide is based on:
+- [AEMO](https://aemo.com.au/) — national electricity market
+- [Building and Energy WA](https://www.wa.gov.au/organisation/building-and-energy/building-and-energy) — Western Australian electrical licensing
+
+---
+
 ## Frequently Asked Questions
 
 ### Who is the electricity distributor in Western Australia?

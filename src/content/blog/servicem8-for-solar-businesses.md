@@ -210,6 +210,14 @@ For a deeper look at specific aspects of solar business compliance and operation
 
 ---
 
+## Sources & regulators
+
+Primary sources this guide is based on:
+- [Clean Energy Council](https://cleanenergycouncil.org.au/) — solar accreditation requirements
+- [Australian Taxation Office](https://www.ato.gov.au/) — GST and invoicing obligations
+
+---
+
 ## FAQ
 
 ### Can ServiceM8 handle both solar PV and battery storage compliance?

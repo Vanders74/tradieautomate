@@ -233,6 +233,14 @@ An ageing gas hot water system that's failing is a replacement decision, not a d
 
 ---
 
+## Sources & regulators
+
+Primary sources this guide is based on:
+- [Clean Energy Regulator](https://cer.gov.au/) — heat pump incentives and certificates
+- [Victorian Energy Upgrades](https://www.energy.vic.gov.au/victorian-energy-upgrades) — Victorian Energy Upgrades
+
+---
+
 ## FAQ
 
 **How much does it cost to replace gas hot water with a heat pump in Australia?**

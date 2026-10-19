@@ -222,6 +222,14 @@ Installing across the border? Each state has its own distributor framework, expo
 - [QLD Energex & Ergon guide](/blog/qld-energex-ergon-solar-connection-guide-2026/) — dynamic connections on IEEE 2030.5 SEP2
 - [WA Western Power guide](/blog/wa-western-power-solar-connection-guide-2026/) — isolated SWIS grid, 30kVA aggregate inverter rule
 
+## Sources & regulators
+
+Primary sources this guide is based on:
+- [AEMO](https://aemo.com.au/) — national electricity market
+- [Energy Safe Victoria](https://www.energysafe.vic.gov.au/) — Victorian electrical safety
+
+---
+
 ## Frequently Asked Questions
 
 ### Which electricity distributors cover Victoria?
