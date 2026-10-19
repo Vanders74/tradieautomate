@@ -27,7 +27,7 @@ faq:
   - question: "What happens if the 7-day CCEW deadline passes?"
     answer: "Missing the 7-day deadline is a compliance breach and exposes the contractor to the applicable penalties (20 penalty units for an individual, about $2,200, and 40 penalty units otherwise under s37A, plus on-the-spot fines up to $1,000). If you've missed the deadline, issue the CCEW as soon as possible — a late CCEW is better than none — but be aware that you may still be subject to penalties for the delay. Contact your industry association for advice on your specific situation."
   - question: "Can a CCEW be issued electronically?"
-    answer: "Yes. Building Commission NSW accepts electronic CCEW lodgement through BCNSW eCert, and since 1 July 2026 it is the only channel it accepts. Customers can receive their copy by email. The requirement is that the document be issued — the format (electronic or paper) is secondary to the substance and timeliness."
+    answer: "It is not optional. Since 1 July 2026 the CCEW must be lodged through BCNSW eCert (individually or by approved API) — handwritten and PDF forms are no longer accepted, so a paper certificate is not a compliant substitute. Customers receive their copy by email when their address is entered on the form."
   - question: "Does solar battery storage require a CCEW in NSW?"
     answer: "Yes. Battery storage systems are classified as electrical installation work under NSW regulations, and their installation typically involves switchboard modifications and increased connected load — both of which trigger the CCEW requirement. The 7-day rule applies in the same way as for any other triggering job."
 ---
@@ -91,9 +91,11 @@ Seven days is not "this week." A test completed on a Wednesday has a lodgement d
 
 ### Who Receives the CCEW?
 
-The certificate is **lodged with Building Commission NSW** — that is the statutory recipient, and eCert is the only channel. Copies go out based on the details in the form:
+The certificate is **lodged with the Secretary (Building Commission NSW)** — that is the recipient s37A names, and eCert is the only channel. The tester can satisfy the duty either by lodging on eCert or by giving the relevant information to an **eligible entity** (a business approved to lodge on the tester's behalf) within the same 7 days; under s37B that entity then has 7 days from receipt to lodge.
 
-1. **The customer (property owner)** — emailed automatically if you enter their email when lodging
+Copies to other parties are a distribution function of the lodgement, not a separate statutory deadline:
+
+1. **The customer (property owner)** — emailed automatically if you enter their email when lodging. There is no standalone 7-day duty to hand the customer a copy; the obligation is lodgement, and eCert does the distribution.
 2. **The relevant network distributor** — where required, for example new installations or work affecting the network connection (Ausgrid, Endeavour Energy, Essential Energy)
 3. **Your employer or principal contractor** — if their email is included
 
@@ -110,7 +112,7 @@ The penalties under NSW law for CCEW failures are significant and apply per offe
 **Technical standards breach:** up to $550,000 for failure to carry out electrical installation work in accordance with the technical standards in the Regulation
 **Repeated non-compliance:** licence conditions or suspension, with the record now attached to the individual's eCert history
 
-Note on the number you'll see everywhere else: **$22,000 for an individual and $110,000 for a corporation is the Home Building Act 1989 penalty scale for unlicensed contracting**, not the CCEW lodgement penalty. It gets copied from guide to guide, including on our own pages until this run.
+Watch the number you'll see everywhere else: **$22,000 for an individual and $110,000 for a corporation is the Home Building Act 1989 penalty scale for unlicensed contracting**, not the CCEW lodgement penalty. It gets copied from guide to guide and has nothing to do with certificates of compliance.
 
 Building Commission NSW's Electrical Compliance Team investigates complaints, and electrical work disputes between homeowners and contractors frequently trigger certificate audits. If the CCEW wasn't lodged, wasn't lodged on time, or doesn't accurately reflect the work performed, the tester carries the liability.
 
@@ -144,7 +146,7 @@ The pattern we see most commonly in electrical contracting businesses:
 
 It's worth distinguishing the CCEW from other documents in the NSW electrical compliance stack:
 
-**CCEW (Certificate of Compliance Electrical Work):** Issued by the electrical contractor. Certifies the work complies with applicable standards. Provided to customer, network distributor, and Building Commission NSW.
+**CCEW (Certificate of Compliance Electrical Work):** Lodged by the individual tester (not the company licence holder). Certifies the work complies with applicable standards. Given to the Secretary via BCNSW eCert within 7 days; copies then flow to the customer and, where relevant, the network distributor.
 
 **Electrical Installation Safety Inspection Certificate:** Required where an installation has been de-energised for 6 months or more and is being re-energised. A qualified electrician carries out the safety inspection and completes the certificate for the customer, who gives it to their electricity retailer — it is not lodged with Building Commission NSW. Separate document, separate trigger to the CCEW. (Note there is no NSW "Electrical Safety Certificate" — that naming belongs to Victoria's Certificate of Electrical Safety.)
 
@@ -167,7 +169,7 @@ Solar installations deserve specific attention because the paperwork chain is lo
 
 **The solar documentation chain for NSW:**
 1. Grid connection application to network distributor (before installation)
-2. CCEW issued within 7 days of completion (to customer, distributor, Building Commission NSW)
+2. CCEW lodged on BCNSW eCert within 7 days of the test (copies then auto-distributed to the customer and, where required, the distributor)
 3. CEC installation report / STC paperwork lodged with the Clean Energy Regulator
 4. Any required metering change notification to the distributor
 
@@ -232,9 +234,9 @@ When a job is complete, ask these questions before your technician leaves site:
 - [ ] Does this job add new circuits or increase connected load? → CCEW required
 - [ ] Does this involve new wiring, solar, or battery storage? → CCEW required
 - [ ] Has all required testing been completed and recorded? → Must be captured before sign-off
-- [ ] Has the customer received their copy? → Required within 7 days
+- [ ] Has the CCEW been lodged on BCNSW eCert? → Required within 7 days of the test
+- [ ] Is the customer's email on the certificate? → That is how eCert sends them their copy
 - [ ] Has the network distributor been notified (if applicable)? → Check network requirements
-- [ ] Has Building Commission NSW received the lodgement? → Required within 7 days
 
 If the answer to any of the first three is yes and the rest of the checklist isn't done, your business has an open compliance liability.
 
@@ -267,7 +269,7 @@ Missing the 7-day deadline is a compliance breach and exposes the contractor to 
 
 ### Can a CCEW be issued electronically?
 
-Yes. Building Commission NSW accepts electronic CCEW lodgement through BCNSW eCert, and since 1 July 2026 it is the only channel it accepts. Customers can receive their copy by email. The requirement is that the document be issued — the format (electronic or paper) is secondary to the substance and timeliness.
+It is not optional. Since 1 July 2026 the CCEW must be lodged through BCNSW eCert (individually or by approved API) — handwritten and PDF forms are no longer accepted, so a paper certificate is not a compliant substitute. Customers receive their copy by email when their address is entered on the form.
 
 ### Does solar battery storage require a CCEW in NSW?
 
