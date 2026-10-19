@@ -95,7 +95,7 @@ The test is the contract, not the tools. A sole trader electrician who quotes an
 
 ## The Licence Types That Actually Exist
 
-NSW issues four electrical licence and certificate types. They are not interchangeable, and one of them — the endorsed contractor licence — is widely misdescribed online as a "combined QSC plus ECL" for sole traders. It isn't.
+NSW issues four electrical licence and certificate types to people who qualified here. They are not interchangeable, and there is a fifth credential — the endorsed contractor licence — that only interstate holders can get. That one is widely misdescribed online as a "combined QSC plus ECL" for sole traders. It isn't.
 
 **Individual contractor licence**
 
@@ -114,6 +114,8 @@ Held by an individual. Authorises that person to do electrical wiring work and s
 For applicants who trained overseas. Issued for 3 years and cannot be renewed — it is a pathway credential, not a permanent one.
 
 **Where the "endorsed contractor licence" fits:** it is the NSW product for **interstate** holders under the East Coast Electricians scheme and mutual recognition, not a shortcut for local sole traders. It is issued to a person who already holds an ACT unrestricted electrician's licence, or both a QLD unrestricted electrical mechanic licence and an electrical contractor licence in the same name, or a VIC electrician's licence plus REC registration. It authorises electrical wiring work without supervision. If you qualified in NSW, it is not your pathway.
+
+There is also a **lower rung** on the same scheme that most guides skip: a QLD unrestricted electrical mechanic licence on its own, or a VIC electrician's licence on its own, converts to a NSW **qualified supervisor certificate** rather than an endorsed contractor licence. So a Queensland sparky moving south does not need to hold a contractor licence at home to get the NSW QSC — but the QSC still does not let them contract in NSW.
 
 | Licence / certificate | Held by | Permits |
 |---|---|---|
