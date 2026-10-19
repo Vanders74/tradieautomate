@@ -87,7 +87,7 @@ So the short version: **ESO licence always. QBCC licence only if there's buildin
 
 ## The Electrical Contractor Licence
 
-Issued under the *Electrical Safety Act 2002* and assessed against **section 162** of the *Electrical Safety Regulation 2026*. It authorises a business entity — individual, partnership or company — to carry out electrical work for others. (WorkSafe's own contractor page cites section 173 for this; 173 is actually the provision for adding *extra* QBP or QTP endorsements later. The issue requirements are 162, and the insurance test is 165.)
+Issued under the *Electrical Safety Act 2002* and assessed against **section 162** of the *Electrical Safety Regulation 2026*. It authorises a business entity — individual, partnership or company — to carry out electrical work for others. (The ESO's contractor page still cites section 173 for this. Section 173 is the provision for endorsing *additional* QBP or QTP nominees; the issue requirements are section 162 and the insurance test is section 165.)
 
 ### Who can hold one
 
@@ -151,7 +151,9 @@ plus **one** of the following:
 - **UEEEL0030** — Conduct compliance inspection of single-phase LV electrical installations, and
 - **UEEEL0029** — Conduct compliance inspection of LV electrical installations with demand exceeding 100 A per phase.
 
-Both roles also require the person to be **fit and proper** and competent. Someone who has not held a Queensland licence for two years can still be a QTP on a *restricted* contractor licence with a reduced scope. The ESO still accepts the superseded units UEENEEE101A, UEENEEG122A, UEENEEG123A, UEENEEG175A and BSBSMB401.
+Both roles also require the person to be **fit and proper** and competent. A nominee who cannot show two years on a Queensland licence can still qualify as a QTP on a contractor licence with a **reduced scope of work** — for example, one restricted to electrical equipment maintenance.
+
+The ESO also still accepts superseded units, but the list differs by role. For the **QBP**: UEENEEE101A, UEENEEG175A (or UEENEEG075A) and BSBSMB401 (or BSBSMB401A). For the **QTP**: UEENEEG197A in place of UEEEL0002, plus UEENEEG122A (or UEENEEG022B) and UEENEEG123A (or UEENEEG023B).
 
 ### What happens when a QTP or QBP leaves
 
@@ -244,7 +246,8 @@ QBCC licences are set by financial category, and the category is driven by your 
 | SC2 | Up to $800,000 | $46,000 |
 | Category 1 | $800,001 – $3,000,000 | $46,001 – $156,000 |
 | Category 2 | $3,000,001 – $12,000,000 | $156,001 – $480,000 |
-| Categories 3–7 | Above $12,000,000 | Scales to category |
+| Category 3 | $12,000,001 – $30,000,000 | $480,001 – $1,200,000 |
+| Categories 4–7 | Above $30,000,000 | Scales to category |
 
 Two reporting rules that get missed:
 
