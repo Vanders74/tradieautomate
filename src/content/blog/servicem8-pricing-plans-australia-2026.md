@@ -12,7 +12,7 @@ faq:
   - question: "Does ServiceM8 charge per user or per job?"
     answer: "Per job volume, not per user. A 10-person business on Premium pays the same $149/mo as a 2-person business on Premium. The tiers differ by monthly job cap (50/150/500/1,500+) and SMS allowance (100/300/1,000/3,000), plus a handful of features that only unlock from Growing or Premium upward. This is why ServiceM8 gets cheaper per seat as you hire, while per-user platforms scale with headcount."
   - question: "What are the hidden costs in ServiceM8?"
-    answer: "Four worth budgeting for: (1) card processing fees, which are per tier and changed on 1 October 2026 — 1.89% + 30c (Free), 1.69% (Starter), 1.49% (Growing), 1.39% (Premium), 1.19% (Premium Plus), with international and Amex at 3.70% + 30c on every plan; (2) ServiceM8 Phone, an optional add-on from $19/mo; (3) excess SMS at 10c each and excess jobs at 20c each on Premium Plus; (4) individual Forms bought from the Form Store, which are a one-off cost per form. There are no contracts, no setup fees and no per-user charges."
+    answer: "Four worth budgeting for: (1) card processing fees, which are per tier and changed on 1 October 2026 — 1.89% + 30c (Free), 1.69% (Starter), 1.49% (Growing), 1.39% (Premium), 1.19% (Premium Plus), with international and Amex at 3.70% + 30c on every plan; (2) ServiceM8 Phone, an optional add-on at $29/mo on the Australian Connect plan (the $19 figure you may see elsewhere is ServiceM8's US price, from the global page that prints 'US Pricing Shown'); (3) excess SMS at 10c each and excess jobs at 20c each on Premium Plus; (4) individual Forms bought from the Form Store, which are a one-off cost per form. There are no contracts, no setup fees and no per-user charges."
   - question: "Is ServiceM8 cheaper than simPRO, Tradify, Fergus and AroFlo?"
     answer: "For teams of two or more, yes, and the advantage grows with headcount. A 5-user crew on ServiceM8 Growing pays $79/mo including GST for unlimited users. The same five users on Tradify Pro is $52 per user ex GST ($260/mo), on Fergus Essentials $53 per user ex GST ($265/mo), and on AroFlo $80 per user ex GST with a three-user minimum ($400/mo). simPRO does not publish pricing at all, so it is quote-only. The exception is a sole trader: per-user pricing can be cheaper than a $79 plan if you need the features that sit above Starter."
   - question: "Does ServiceM8 have a free plan?"
@@ -25,7 +25,7 @@ ServiceM8 is the most widely used job management platform among Australian trade
 
 This deep-dive breaks down every ServiceM8 plan, every add-on, every hidden cost, and what you'll actually pay for your specific business — compared dollar-for-dollar against simPRO, Tradify, Fergus, and AroFlo.
 
-**Every figure below was checked against ServiceM8's own AU pricing comparison and help centre on 18 October 2026.** Prices are AUD including GST, because that is how ServiceM8's Australian pages quote them — several competitor tables in this SERP compare a GST-inclusive ServiceM8 price against GST-exclusive rival prices and make ServiceM8 look cheaper than it is.
+**Every figure below was checked against ServiceM8's own AU pricing page, pricing comparison, phone page and help centre on 19 October 2026.** Prices are AUD including GST, because that is how ServiceM8's Australian pages quote them — several competitor tables in this SERP compare a GST-inclusive ServiceM8 price against GST-exclusive rival prices and make ServiceM8 look cheaper than it is.
 
 ---
 
@@ -147,11 +147,15 @@ Every ServiceM8 plan from Starter upward includes the same essential feature set
 
 This is where sticker price diverges from real cost. ServiceM8 publishes add-on pricing on separate pages, so many businesses discover these costs after signing up.
 
-### ServiceM8 Phone — From $19/mo
+### ServiceM8 Phone — $29/mo in Australia
 
-ServiceM8's VoIP phone system is an optional add-on, not part of any plan, and it requires a paid plan (it can't be bought on Free). When a client calls, their job history, active quotes and scheduled work appear on screen automatically. The 3-month free trial with any standard subscription is ServiceM8's, not ours.
+ServiceM8's VoIP phone system is an optional add-on, not part of any plan, and it requires a paid plan (it can't be bought on Free). When a client calls, their job history, active quotes and scheduled work appear on screen automatically.
 
-One pricing trap worth knowing: ServiceM8's comparison page advertises the phone add-on "from $19/mo", but the Connect plan's own critical information summary lists **$29/mo including 500 minutes** of inbound and outbound calls, with excess calls at 8c/minute, month-to-month with no lock-in. Ask for a written quote on the phone tier you're being sold rather than budgeting off the "from" figure.
+There are three Australian tiers, all with unlimited users and no lock-in: **Connect at $29/mo** and **Connect Plus at $49/mo**, each with 500 combined inbound and outbound minutes and excess calls at 8c/minute, plus **Unlimited at $199/mo** with no minute cap. The AI Phone Agent is on Connect Plus and Unlimited, not on Connect. The $29 Connect figure is confirmed in two places — the AU phone page and the Connect plan's critical information summary.
+
+**Ignore the $19/mo figure — it is the US price.** ServiceM8's global page prints "US Pricing Shown" above the plan card and lists Connect at $19. Several Australian comparison sites, and older versions of this page, have quoted that number as if it were local. Budget $29 and treat the phone add-on as a $348/year line, or $26.36/mo ex GST if you are building an ex-GST comparison against per-user rivals.
+
+One caveat on the trial: the AU phone page says "1-Month free trial", while the feature list on ServiceM8's own pricing-comparison page says "3-month Free Trial ... with any standard ServiceM8 subscription". The two pages contradict each other, so confirm the trial length when you activate rather than assuming either.
 
 ### ServiceM8 Pay — card fees change by plan, and changed again on 1 October 2026
 
@@ -435,7 +439,7 @@ Per job volume, not per user. A 10-person business on Premium pays the same $149
 
 ### What are the hidden costs in ServiceM8?
 
-Four worth budgeting for: (1) card processing fees, which are per tier and changed on 1 October 2026 — 1.89% + 30c (Free), 1.69% (Starter), 1.49% (Growing), 1.39% (Premium), 1.19% (Premium Plus), with international and Amex at 3.70% + 30c on every plan; (2) ServiceM8 Phone, an optional add-on from $19/mo; (3) excess SMS at 10c each and excess jobs at 20c each on Premium Plus; (4) individual Forms bought from the Form Store, which are a one-off cost per form. There are no contracts, no setup fees and no per-user charges.
+Four worth budgeting for: (1) card processing fees, which are per tier and changed on 1 October 2026 — 1.89% + 30c (Free), 1.69% (Starter), 1.49% (Growing), 1.39% (Premium), 1.19% (Premium Plus), with international and Amex at 3.70% + 30c on every plan; (2) ServiceM8 Phone, an optional add-on at $29/mo on the Australian Connect plan (the $19 figure you may see elsewhere is ServiceM8's US price, from the global page that prints 'US Pricing Shown'); (3) excess SMS at 10c each and excess jobs at 20c each on Premium Plus; (4) individual Forms bought from the Form Store, which are a one-off cost per form. There are no contracts, no setup fees and no per-user charges.
 
 ### Is ServiceM8 cheaper than simPRO, Tradify, Fergus and AroFlo?
 

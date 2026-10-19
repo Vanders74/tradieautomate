@@ -110,14 +110,16 @@ ServiceM8 operates on a monthly subscription with pricing based on the number of
 
 The job bands are also the model's main trap: there is nothing between Growing's 150 jobs and Premium's 500. A business doing 170 jobs a month doesn't pay for 20 extra jobs, it pays the next tier — $79 becomes $149, an 89% jump for a 13% increase in volume. Budget for the band above you, not the one you're in.
 
+If you're costing the platform properly, the plan price is only part of it: the [full ServiceM8 pricing breakdown for Australia](/blog/servicem8-pricing-plans-australia-2026/) covers the card-fee ladder by tier (including the 1 October 2026 surcharge ban), the phone tiers, Forms, and three worked costs — sole trader, 5-person crew and 15-person solar company — so you can see the whole bill rather than the sticker price.
+
 **What sits on top of the plan (AUD):**
 
 | Extra | Price | What it buys |
 |---|---|---|
 | Office Agent Pro | A$49/mo | Higher daily AI allowance and Scheduled Tasks; standard Office Agent chat is included on Starter and above, not on Free |
-| ServiceM8 Phone — Connect | $29/mo + GST | Business number, caller ID, recording, 500 call minutes, no AI agent |
-| ServiceM8 Phone — Connect Plus | $49/mo + GST | As Connect, plus the AI Phone Agent that answers calls |
-| ServiceM8 Phone — Unlimited | $199/mo + GST | Unlimited call minutes, plus the AI Phone Agent |
+| ServiceM8 Phone — Connect | $29/mo incl. GST | Business number, caller ID, recording, 500 call minutes, no AI agent |
+| ServiceM8 Phone — Connect Plus | $49/mo incl. GST | As Connect, plus the AI Phone Agent that answers calls |
+| ServiceM8 Phone — Unlimited | $199/mo incl. GST | Unlimited call minutes, plus the AI Phone Agent |
 | Advanced Reporting Pack | Add-on | Custom reports and CSV job/client exports |
 | Advanced Photo Branding | Add-on | GPS coordinates stamped onto job photos (iPhone and dashboard) |
 
