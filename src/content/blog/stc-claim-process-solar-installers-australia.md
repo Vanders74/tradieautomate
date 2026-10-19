@@ -1,6 +1,6 @@
 ---
 title: 'STC Claim Process 2026: Step-by-Step Lodgement for Solar Installers'
-description: 'Lodge STC claims in 5 steps: 12-month deadline, $40/STC floor and deeming to 2030. Eligibility, declarations, lodgement and CER audit prep.'
+description: 'Lodge STC claims in 5 steps: 12-month deadline, the new 1MW cap for installs from 1 Oct 2026, heat pump STC counts and CER audit prep.'
 faq:
   - question: "How do STCs work for solar installers in Australia?"
     answer: "Small-scale Technology Certificates (STCs) are the federal solar rebate mechanism under the Small-scale Renewable Energy Scheme (SRES). When a solar system is installed, a number of STCs are created based on the system's expected electricity output over its deeming period (to 2030), the installation zone, and the system size. The installer or agent assigns the STCs (with the customer's consent) and sells them to liable entities (electricity retailers) via the STC clearing house or spot market. The value is typically passed to the customer as an upfront discount on the system price."
@@ -11,13 +11,17 @@ faq:
   - question: "What are the most common STC errors that trigger CER audits?"
     answer: "The most common STC errors that attract CER attention are: (1) STC quantity calculation errors (wrong zone code, incorrect system size rounding, or using the wrong year multiplier); (2) installation date discrepancies between the STC lodgement and compliance certificate; (3) missing or non-compliant install photos — the CER wants geotagged, time-stamped images of you on site at job setup, mid-installation and commissioning, plus the completed system and its labelling; (4) using panels or inverters not on the CEC approved products list; and (5) lapsed accreditation at the time of installation. All of these are preventable with a robust job documentation workflow."
   - question: "Do heat pumps and hot water systems get STCs too?"
-    answer: "Yes. Air source heat pumps and solar water heaters are eligible systems under the SRES, alongside solar PV, batteries, wind and hydro. They are calculated on the unit's rated energy savings for the installation zone rather than on panel capacity, and they are still subject to the 2030 deeming end, the 12-month lodgement window and the SAA accreditation requirement for that system type. STC eligibility depends on the exact model being on the CEC approved products list, so quote from the listed model rather than a family name."
+    answer: "Yes. Air source heat pumps and solar water heaters are eligible systems under the SRES, alongside solar PV, batteries, wind and hydro. They are calculated on the unit's rated energy savings for the installation zone rather than on panel capacity, and they are still subject to the 2030 deeming end, the 12-month lodgement window and the SAA accreditation requirement for that system type. STC eligibility depends on the exact model being on the register of solar water heaters — not the CEC approved products list, which is for panels and inverters — so quote from the listed model rather than a family name."
+  - question: "How many STCs does a heat pump get in 2026?"
+    answer: "Take the model's certificate count from the register of solar water heaters for the 10-year deeming period in your zone, then multiply by 0.5 for a 2026 install (the multiplication factor for a 5-year deeming period). A model listed at 33 certificates in Zone 3 earns 16 STCs — 33 × 0.5 = 16.5, rounded down — around $638 at $39.85/STC. Heat pumps are zoned across five postcode zones, not four, and air source units must be no more than 425L to be eligible."
+  - question: "Do systems over 100kW still get STCs?"
+    answer: "Yes, if they were installed on or after 1 October 2026. The Renewable Energy (Electricity) Regulations 2001 were amended to extend SRES eligibility from 100kW to 1MW, with a fixed 5-year deeming period for the 100kW–1MW band. A mid-scale system claimed under the SRES cannot also create REGO certificates for the same deeming period, so large commercial jobs need a scheme choice documented before you quote. CER applications for mid-scale systems were not yet open at the time of writing — expected mid to late November 2026."
   - question: "How many STC-eligible installations can one installer complete in a day?"
     answer: "Two. SAA caps claims at two installations per installer per day — two solar PV systems, two batteries, or one of each — and a third job completed that day cannot be claimed. The cap is tied to the accredited individual, so splitting a third job across another installer's accreditation number is exactly the pattern CER auditors look for."
   - question: "How long does the STC lodgement process take?"
     answer: "It depends on how the claim is lodged. Claims submitted with validated panel serial numbers through Solar Panel Validation are typically processed within 24 hours of a complete submission; manual or unvalidated claims take longer and are more likely to be held for a document check. Lodgement can be done by the installer directly or through an STC agent (aggregator), and most residential solar businesses use an agent who pays out within a set window after the certificates are created. Errors or missing documentation can delay the process by weeks and may trigger a CER audit before certificates are issued."
 pubDate: 'May 13 2026'
-updatedDate: 'Oct 19 2026'
+updatedDate: 'Oct 20 2026'
 category: "Solar & Battery"
 breakdown:
   - title: "Confirm eligibility"
@@ -54,11 +58,13 @@ This guide walks through the complete STC process: eligibility, calculation, cus
 
 Under the Small-scale Renewable Energy Scheme (SRES), eligible solar PV, solar hot water, and small-scale wind systems create Small-scale Technology Certificates. Each certificate represents 1 megawatt hour of renewable energy the system is expected to generate (or displace) over its deeming period.
 
-For residential solar PV in 2026:
-- Systems up to 100kW are eligible under the small-scale scheme
+For solar PV in 2026:
+- Systems up to 100kW are eligible as standard small-scale systems. **If the system was installed on or after 1 October 2026, the ceiling is now 1MW** — the Renewable Energy (Electricity) Regulations 2001 were amended (F2026L01232) to bring mid-scale solar into the SRES, so a 250kW commercial array is an STC job now, not a large-scale generation certificate job
+- Mid-scale systems (100kW to 1MW) get a **fixed 5-year deeming period** rather than the declining small-scale period, which is why the same 5-year number applies to a 2026 and a 2028 mid-scale install. CER has not opened STC applications for mid-scale yet — they were expected mid to late November 2026, with assessment starting after that
 - STCs are calculated based on system size, location (installation zone), and deeming period
 - The deeming period is the number of years from installation to 2030 (the current end of the SRES scheme)
 - STCs are sold on the market — either direct to buyers or through STC traders at the point of sale
+- Above 1MW the system is a power station and goes to the Large-scale Renewable Energy Target instead, or to the Renewable Electricity Guarantee of Origin (REGO) scheme — and a mid-scale system claimed under the SRES cannot also create REGO certificates for the same deeming period
 
 **Point-of-sale discount:** Most residential solar installations use the STC value as an upfront discount at the point of sale. The customer assigns the right to create STCs to the installer (or the trader), who then lodges and sells the certificates. The customer gets a lower system price; the installer recovers the discount value plus a small handling margin from the STC market.
 
@@ -83,7 +89,9 @@ A 6.6kW system therefore earns 45 STCs in Sydney or Brisbane but 39 in Melbourne
 **Example calculation (2026 install, Zone 3, 6.6kW system):**
 6.6 × 1.382 × 5 = **45.6 STCs** (rounded down to **45 STCs**)
 
-At a market price of $36/STC: **$1,620 STC value**
+At the market price in the week to 9 October 2026 — $39.85–$39.90, just under the $40 clearing house cap: **45 × $39.85 = $1,793 STC value**
+
+Quoting a customer off a stale price is a quiet margin leak. The spot price has sat in a narrow band under $40 all year, so any quote built on $35–$36 understates the discount by roughly $170 on a 6.6kW job — and you wear it, because the customer was promised the discount at signing.
 
 **Important:** Always use the CER's STC calculator (available on their website) rather than manual calculation for lodgement. Manual calculation errors are a primary audit trigger.
 
@@ -111,7 +119,14 @@ Your SAA accreditation endorsement must also match the work you perform:
 
 On top of accreditation you must hold an **unrestricted electrical licence** in the state or territory where the system is installed, and the CER expects the installing electrician to have physically attended the site for the three staged checks — job setup, mid-installation, and testing/commissioning — with geotagged, time-stamped photos showing your face at each stage.
 
-Battery claims carry their own limit: STCs are only created for the **first 50kWh of a battery's usable capacity**, so a 60kWh system and a 100kWh system earn the same battery certificate count.
+Battery claims do not work like PV, and quoting one as if it does is the fastest way to promise a discount you cannot deliver. Battery STCs use a per-kWh **STC factor** set twice a year — 6.8 for May to December 2026, dropping to 5.7 for January to June 2027 — and the factor tapers with capacity:
+
+- 0 to 14kWh of usable capacity: factor applied at **100%**
+- above 14 to 28kWh: **60%**
+- above 28 to 50kWh: **15%**
+- above 50kWh: **nothing** — which is why a 60kWh battery and a 100kWh battery earn the same count
+
+Eligibility runs from 1 July 2025, the battery itself must be between 5kWh and 100kWh nominal, and **only one battery claim is allowed per premises** — no second claim for an upgrade, expansion or replacement, even after the property changes hands.
 
 There is also a hard cap on volume rather than capacity: SAA limits installers to **no more than two STC-eligible installations per day** — two solar PV systems, two batteries, or one of each. A third job completed on the same day cannot be claimed, whatever the paperwork says. If you run multiple crews, the limit applies per installer, so the accreditation number on the claim has to match the person who actually attended site.
 
@@ -127,7 +142,15 @@ Only equipment on the CEC approved products list can be used in STC-eligible ins
 
 The scheme covers more than PV. Air source heat pumps and solar water heaters create STCs too, and they are claimed differently from a solar system: the certificate count comes from the unit's rated energy savings for its zone, not from panel kilowatts, and the deeming period still runs to 2030. That means the model number on the quote is the thing that determines the rebate — swap to an unlisted or differently rated unit mid-job and the claim changes with it.
 
-The same installer obligations apply: SAA accreditation for the system type, CEC-approved equipment, photos, and a signed assignment from the owner before lodgement. If you install hot water as well as PV, the two claims on one property are separate — do not roll them into a single assignment form unless the form explicitly covers both system types, or the CER will treat the paper as invalid for one of them.
+**How many STCs a heat pump actually gets.** Two numbers, multiplied. The register of solar water heaters lists each eligible model's certificate count for a **10-year deeming period**, by zone — and heat pumps use **five** postcode zones, not the four that apply to PV. So a model listed at 33 certificates in Zone 3 does not earn 33 in 2026. The multiplication factor for a 5-year deeming period is **0.5** (it moves in lockstep: 0.5 for 5 years, 0.4 for 4, and so on), so the entitlement is:
+
+**33 (register, Zone 3, 10-year) × 0.5 = 16.5 → 16 STCs** for a 2026 install, rounded down
+
+At $39.85 that is roughly **$638** off the job. The zone spread is real and worth checking per postcode: the same Aestiva AS53-210HPA lists 28 certificates in Zone 1, 27 in Zone 2, 33 in Zone 3, 36 in Zone 4 and 35 in Zone 5 — so the install postcode changes the rebate by up to 9 certificates before you touch the price.
+
+Capacity gates you can fail on the quote: air source heat pumps must be **no more than 425L**, solar water heaters under 700L (larger units need statutory declarations and extra documentation). The model must be on the register and installed **exactly as listed** — swap a component and the system is not eligible at all, no partial claim.
+
+The same installer obligations apply: SAA accreditation for the system type, register-listed equipment, photos, and a signed assignment from the owner before lodgement. If you install hot water as well as PV, the two claims on one property are separate — do not roll them into a single assignment form unless the form explicitly covers both system types, or the CER will treat the paper as invalid for one of them. Note the paperwork difference too: a heat pump claim needs the certificate of compliance (or equivalent) and an invoice or date-stamped photo of the unit, where a PV claim needs the full written compliance statements and serial-number photos.
 
 ### The written compliance statement
 
@@ -173,7 +196,7 @@ For businesses that want to sell STCs on the open market or hold them for a bett
    - Enter installer accreditation number
    - Confirm customer declaration obtained
 3. Once created, STCs can be sold through the Registry to registered agents, large energy retailers, or the clearing house
-4. The clearing house buys at a fixed price of $40/STC — a guaranteed floor price, but lower than open market during periods of high demand
+4. The clearing house pays a fixed **$40/STC**. Read that as a ceiling, not a bonus: because any seller can lodge at $40, the open market never trades meaningfully above it — spot sat at $39.85–$39.90 through October 2026 for exactly that reason. What the clearing house does not guarantee is speed; when it is in surplus, your certificates can sit waiting for a buyer
 
 **Timeline:** STCs must be lodged within 12 months of installation. Don't let this deadline slip.
 
@@ -279,7 +302,13 @@ To create STCs, the installing electrician must hold current **Solar Accreditati
 The most common STC errors that attract CER attention are: (1) STC quantity calculation errors (wrong zone code, incorrect system size rounding, or using the wrong year multiplier); (2) installation date discrepancies between the STC lodgement and compliance certificate; (3) missing or non-compliant install photos — the CER wants geotagged, time-stamped images of you on site at job setup, mid-installation and commissioning, plus the completed system and its labelling; (4) using panels or inverters not on the CEC approved products list; and (5) lapsed accreditation at the time of installation. All of these are preventable with a robust job documentation workflow.
 
 ### Do heat pumps and hot water systems get STCs too?
-Yes. Air source heat pumps and solar water heaters are eligible systems under the SRES, alongside solar PV, batteries, wind and hydro. They are calculated on the unit's rated energy savings for the installation zone rather than on panel capacity, and they are still subject to the 2030 deeming end, the 12-month lodgement window and the SAA accreditation requirement for that system type. STC eligibility depends on the exact model being on the CEC approved products list, so quote from the listed model rather than a family name.
+Yes. Air source heat pumps and solar water heaters are eligible systems under the SRES, alongside solar PV, batteries, wind and hydro. They are calculated on the unit's rated energy savings for the installation zone rather than on panel capacity, and they are still subject to the 2030 deeming end, the 12-month lodgement window and the SAA accreditation requirement for that system type. STC eligibility depends on the exact model being on the register of solar water heaters — not the CEC approved products list, which is for panels and inverters — so quote from the listed model rather than a family name.
+
+### How many STCs does a heat pump get in 2026?
+Take the model's certificate count from the register of solar water heaters for the 10-year deeming period in your zone, then multiply by 0.5 for a 2026 install (the multiplication factor for a 5-year deeming period). A model listed at 33 certificates in Zone 3 earns 16 STCs — 33 × 0.5 = 16.5, rounded down — which is around $638 at $39.85/STC. Heat pumps are zoned across five postcode zones, not four, and air source units must be no more than 425L to be eligible.
+
+### Do systems over 100kW still get STCs?
+Yes, if they were installed on or after 1 October 2026. The Renewable Energy (Electricity) Regulations 2001 were amended to extend SRES eligibility from 100kW to 1MW, with a fixed 5-year deeming period for the 100kW–1MW band. The trade-off is that a mid-scale system claimed under the SRES cannot also create REGO certificates for the same deeming period, so large commercial jobs now need a scheme choice documented before you quote. CER applications for mid-scale systems were not yet open at the time of writing — expected mid to late November 2026.
 
 ### How many STC-eligible installations can one installer complete in a day?
 Two. SAA caps claims at two installations per installer per day — two solar PV systems, two batteries, or one of each — and a third job completed that day cannot be claimed. The cap is tied to the accredited individual, so splitting a third job across another installer's accreditation number is exactly the pattern CER auditors look for.
