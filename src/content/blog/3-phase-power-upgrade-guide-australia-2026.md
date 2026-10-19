@@ -112,7 +112,7 @@ Every DNSP requires a **connection application** before the upgrade. This is the
 DNSPs vary wildly:
 - **Ausgrid (NSW):** connection application lodged through the Connections portal; Level 2 ASP required for the physical connection
 - **Endeavour Energy (NSW):** ASP Level 2 required; minimum 10 business days for a simple connection
-- **Energex (QLD):** Electrical Work Request (EWR) lodged through the Electrical Partners Portal — the "Form A / Form B" pair is legacy and no longer how connections are lodged; the certificate of testing and compliance is separate (ES Regulation 2013 s227)
+- **Energex (QLD):** Electrical Work Request (EWR) lodged through the Electrical Partners Portal — the "Form A / Form B" pair is legacy and no longer how connections are lodged; the certificate of testing and compliance is separate (Electrical Safety Regulation 2026 s229)
 - **SA Power Networks:** online portal application; service connection fee scales with demand
 - **Western Power (WA):** Residential Connection Application; Western Power does the meter install
 - **TasNetworks:** connection application via the Connections Portal, plus the Certificate of Electrical Compliance (CEC) submitted to TechSafe Australia
@@ -159,7 +159,7 @@ After installation, mandatory testing per **AS/NZS 3000:2018 Section 8** (8.2 in
 Then, issue the state-specific compliance certificate:
 - **NSW:** CCEW (Certificate of Compliance Electrical Work) — required under the Gas and Electricity (Consumer Safety) Regulation 2018 (s37A) and lodged to Building Commission NSW via the eCert portal within 7 days of the safety and compliance test
 - **Victoria:** COES (Certificate of Electrical Safety) — mandatory under the Electricity Safety Act 1998, administered by Energy Safe Victoria. A switchboard change is **prescribed** electrical work, so an independent Licensed Electrical Inspector must inspect it. ESV's sequence: the responsible person completes and signs the COES within 4 business days of finishing the work, gives the electronic notification to ESV within 2 business days of completing the certificate, and the inspection must happen within 8 business days of the work being completed. The inspector lodges their Certificate of Inspection and returns the COES to the responsible person within 4 business days, and the responsible person then distributes all copies within 4 business days of receiving it. Keep your copy for 3 years. The 30-day figure that circulates in the trade is the non-prescribed deadline.
-- **Queensland:** Certificate of testing and compliance (ES Regulation 2013 s227) — issued to the customer as soon as practicable after the installation is connected, copy retained five years; the connection itself is lodged as an EWR
+- **Queensland:** Certificate of testing and compliance (Electrical Safety Regulation 2026 s229) — given to the customer as soon as practicable after the installation is connected, copy retained five years; the connection itself is lodged as an EWR. The 2013 regulation was repealed on 31 August 2026 and the 2026 regulation renumbered this from s227 to s229, so quotes and SWMS citing s227 are now out of date. Note the separate s208 certificate of testing and safety, which applies to electrical work that isn't a connection
 - **South Australia:** electronic Certificate of Compliance (eCoC) — submitted to the Office of the Technical Regulator within 30 days of completing the work, and required before SA Power Networks will connect
 - **Western Australia:** Notice of Completion — administered by Building and Energy
 - **Tasmania:** Certificate of Electrical Compliance (CEC) — submitted to TechSafe Australia within 3 days of the work being energised or capable of being energised, with the CEC number quoted on the TasNetworks EWR
@@ -225,7 +225,7 @@ Five DNSPs cover different parts of Victoria. A switchboard change is prescribed
 
 Energex covers South East Queensland. Ergon covers the rest.
 
-- **Application:** Electrical Work Request (EWR) through the Electrical Partners Portal; the certificate of testing and compliance under s227 is a separate document
+- **Application:** Electrical Work Request (EWR) through the Electrical Partners Portal; the certificate of testing and compliance under s229 of the Electrical Safety Regulation 2026 is a separate document
 - **Solar:** DER must be approved before installation, and applications are lodged through the same portal — Energex and Ergon forms are not interchangeable
 - **Fee range:** $600–$1,500
 - **Timeline:** 10–20 business days; longer in regional Ergon areas
