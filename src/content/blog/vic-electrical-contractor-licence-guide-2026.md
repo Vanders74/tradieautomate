@@ -163,13 +163,14 @@ The Certificate of Electrical Safety (COES) is a mandatory compliance document t
 **Key COES rules and deadlines (prescribed work):**
 - The responsible person completes and signs the COES within **4 business days** of completing the work
 - Electronic notification to ESV must follow within **2 business days** of completing the certificate — not 2 days from the job itself
+- Prescribed work **cannot be energised, or left energised, until the inspector has inspected it** — the inspection comes before connection to supply, not after
 - A Licensed Electrical Inspector must inspect within **8 business days** of completion of the work
 - The inspector notifies ESV within **4 business days** of the inspection and returns the completed COES to the responsible person within the same 4 business days
-- Copies must reach the customer, the distribution business and ESV within **4 business days** of the inspector returning the completed COES, and the responsible person keeps their copy for **3 years**
-- For **non-prescribed** work (power points, lighting, air conditioning, hot water), the REC must give the customer a copy of the COES within **30 calendar days**
+- All copies — customer, relevant distribution business and ESV — must be distributed within **4 days** of the inspector returning the completed certificate, and in any event within **16 calendar days of completion of the work**. The responsible person keeps their copy for **3 years**
+- For **non-prescribed** work (power points, lighting, air conditioning, hot water), the REC or licensed electrical worker must give the customer a copy of the COES within **30 calendar days**
 - Lodged through the **ESVConnect** portal (paper certificates can only be lodged by phone on 1300 360 366)
 - Must include sufficient job description to identify the work — generic descriptions like "electrical installation" don't meet ESV's requirements
-- Only a licensed REC can issue a COES — individual employees cannot issue one in their own name
+- The COES is completed and signed by the **licensed electrical worker who did the work**, who is the "responsible person" for it. An employee electrician can sign and lodge a COES in their own name — what they cannot do is contract for the work. Only unlicensed people are barred from purchasing or lodging certificates. If the worker is not the responsible person for the job, they must hand the completed certificate to that person within **4 business days** of finishing
 
 The clock that catches contractors is the 4-then-2 sequence: the certificate itself is signed within 4 business days of the job, and the ESV notification runs from that signature. Leave the certificate until the weekend and the notification deadline moves with it — but the 8-business-day inspection window and the 16-calendar-day distribution deadline do not. Missing any of them is a breach of the *Electricity Safety Act 1998* and exposes you to fines, licence suspension or cancellation.
 
