@@ -17,7 +17,7 @@ breakdown:
     href: "/blog/vic-solar-connection-guide-2026"
     hrefLabel: "VIC connection guide →"
   - title: "Mind the penalties"
-    summary: "$1,254.60 on-the-spot infringement per certificate (individual), $12,546 maximum in court."
+    summary: "$1,254.60 on-the-spot infringement per certificate — same for a company — and $12,546 maximum in court."
     href: "/blog/vic-electrical-contractor-licence-guide-2026"
     hrefLabel: "VIC REC licence →"
 heroImage: '/hero-ces-victoria-guide.jpg'
@@ -204,7 +204,7 @@ The electronic process:
 5. Complete all required fields including equipment details for solar/battery
 6. Submit — the certificate is lodged electronically
 
-**Keep a copy.** After lodging, download and store a copy against the job record. If ESV or a property owner queries the certificate later, you need to be able to retrieve it immediately. ESV does not amend certificates once generated, so errors are corrected by cancellation and reissue.
+**Keep a copy.** After lodging, download and store a copy against the job record. If ESV or a property owner queries the certificate later, you need to be able to retrieve it immediately. ESV does not amend a final certificate once it has been generated or lodged — draft electronic certificates can still be edited before lodgement, but after that an error is corrected by cancellation and reissue.
 
 **COES fees for FY2026–27** (from 1 July 2026; no GST — the purchase of a COES from ESV does not attract GST):
 
@@ -214,7 +214,7 @@ The electronic process:
 | Non-prescribed | **$9.00** | $10.00 |
 | Periodic (3 months, non-prescribed) | not available electronically | $984.40 |
 
-You can pass the purchase price on to the customer — s45B(12) and regulation 265 of the General Regulations 2019 allow it — but you cannot add a margin to it.
+You can pass the purchase price on to the customer — the authorised purchase amount is set by s45B(12) and regulation 265 of the General Regulations 2019 — **and you can add a handling fee on top**. ESV's own guidance says a REC or Restricted Electrical Licence holder may charge for the time spent purchasing, completing and lodging the certificate, that the amount is set by the contractor and should be explained to the customer, and that anything above the purchase price is a contractual matter. The purchase itself is GST-free; GST may still apply to what you charge.
 
 **What a late or missing certificate actually costs.** There is **no late lodgement fee**. ESV does not bill you $150–$300 for a late certificate; the exposure is an infringement notice or a prosecution under s45A of the Act:
 
@@ -298,7 +298,7 @@ Most of the traffic on "certificate of electrical safety Victoria" is people try
 
 **3. If someone else engaged the contractor.** Where a rental provider, estate agent or builder engaged the electrician on your behalf, ESV's position is that you may request a copy from that customer or from Energy Safe directly.
 
-**Where the common advice goes wrong.** A number of Victorian electrician sites — including several ranking above this page — state flatly that you must receive your COES "within 30 days". That is only the **non-prescribed** deadline. On prescribed work (switchboards, consumer mains, main earthing, solar, batteries) the customer copy is due within **4 business days** of the inspector signing the certificate of inspection, and the work can't be energised until it has been inspected. If your switchboard was replaced a fortnight ago and no certificate has arrived, the 30-day answer you'll find elsewhere is wrong and you are entitled to ask now.
+**Where the common advice goes wrong.** Energy Safe Victoria's own consumer FAQ states that "a certificate must be provided for all electrical installation work and issued within 30 calendar days of the completion of that work", and a number of Victorian electrician sites repeat that flatly. That is only the **non-prescribed** deadline. On prescribed work (switchboards, consumer mains, main earthing, solar, batteries) the customer copy is due within **4 business days** of the inspector signing the certificate of inspection, and the work can't be energised until it has been inspected. If your switchboard was replaced a fortnight ago and no certificate has arrived, the 30-day answer you'll find elsewhere is wrong and you are entitled to ask now.
 
 ---
 
