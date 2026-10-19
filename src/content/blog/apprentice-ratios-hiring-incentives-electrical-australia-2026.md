@@ -2,7 +2,7 @@
 title: "Apprentice Ratios Electrical 2026: State Caps, Incentives, Net Cost"
 description: "Apprentice ratios electrical by state: NSW and VIC 1:1 direct, 1:3 general, 1:5 broad; QLD sets no number. Plus the $5,000 employer incentive and the real $38K–$40K first-year cost."
 pubDate: 'Jul 20 2026'
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 19 2026'
 category: "Compliance"
 heroImage: '/hero-electrical-award-rates-2026.jpg'
 tags: ['apprentice', 'hiring', 'Fair Work', 'electrical award', 'apprentice ratio', 'incentives', 'electrician', '2026']
@@ -72,7 +72,7 @@ Ratios below are per supervisor, per supervision level. "Direct" means constant 
 - **The cap is per supervisor, per moment** — not per business. Two licensed electricians on site do not double one supervisor's limit unless both are genuinely supervising.
 - **Supervision level tracks competence, not just year of apprenticeship.** In NSW and Victoria the move from direct to general to broad depends on an assessment of the individual apprentice's competence for that task, and combination limits apply (for example, one apprentice under direct plus one under general).
 - **The ratio only bites on licensed electrical installation work.** In Victoria the requirements apply when the apprentice is doing electrical installation work as defined in the Electricity Safety Act 1998 — not to sweeping the van or stacking conduit. Queensland draws the same line differently: an apprentice with less than six months' training cannot work in the immediate vicinity of live parts at all, testing included, and must be constantly supervised.
-- **Victoria's numbers changed in September 2025, and most trade forums still quote the old ones.** Direct moved from 1:2 to 1:1, general from 1:4 to 1:3, and broad went from undefined to 1:5. If you are working from a 2024 supervision guide, you are over your cap. Victoria also bars first-year apprentices from fault-finding until at least year three.
+- **Victoria's numbers changed in September 2025, and most trade forums still quote the old ones.** Direct moved from 1:2 to 1:1, general from 1:4 to 1:3, and broad went from undefined to 1:5. If you are working from a 2024 supervision guide, you are over your cap. Victoria also splits fault-finding into basic and advanced, and the rule is stricter than most summaries suggest: **first and second-year apprentices cannot do any fault-finding at all**, regardless of supervision; **third years may do basic fault-finding only under direct supervision** and cannot do advanced fault-finding even then; and only **fourth years** may do both, still under direct supervision with the supervisor in audible and visual range.
 - **SA works differently from every other state.** The 1:3 / 1:6 / 1:10 figures attach to the *qualification's* risk rating, not to a supervision level, and the ratio is set by the Skills Commission, not the electrical regulator. Exceeding it needs written approval from the Commission, which you must then keep on site. SA also recognises direct, indirect and remote supervision — and prohibits remote supervision outright without written approval.
 - **A licensed subcontractor does not count toward your ratio** unless they are directly engaged by your business and actually supervising.
 
