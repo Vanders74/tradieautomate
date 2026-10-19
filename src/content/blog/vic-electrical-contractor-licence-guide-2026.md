@@ -2,7 +2,7 @@
 title: 'VIC Electrical Contractor Licence 2026: $734, 5-Year Term'
 description: 'A Victorian REC application costs $734.30 and the registration runs five years, not annually. Supervisor rules, $5M insurance, COES deadlines, solar layers.'
 pubDate: 'Jul 19 2026'
-updatedDate: 'Oct 19 2026'
+updatedDate: 'Oct 20 2026'
 category: "Compliance"
 breakdown:
   - title: "Hold the A-Class licence"
@@ -111,7 +111,7 @@ ESV currently lists six providers of the REC business course: Bendigo Regional I
 
 REC applications are submitted to Energy Safe Victoria through the ESV licensing portal. The application process involves:
 
-1. **Complete the REC application form** — Available from the ESV website (esv.vic.gov.au) under Electricity Professionals > Licensing and Registration > Registered Electrical Contractors
+1. **Complete the REC application form** — Download it from ESV's Registered Electrical Contractors licensing page (energysafe.vic.gov.au), or start the application in ESVConnect. The old "Electricity Professionals" menu path is gone; search the licence name instead.
 
 2. **Business Nominee Consent Form** — Completed and signed by the nominated Business Nominee
 
@@ -127,7 +127,7 @@ REC applications are submitted to Energy Safe Victoria through the ESV licensing
 
 8. **Application fee** — **$734.30** for 2026-27 (includes a $70 non-refundable administration component), payable by credit card at lodgement. Renewal is $352.70.
 
-Applications can be submitted in person at ESV's office (Level 5, Building 2, 4 Riverside Quay, Southbank VIC) or via post/electronic submission depending on current ESV processes. Most routine changes — adding or removing a supervisor, updating contact details, renewing — are handled in ESVConnect.
+**Where to lodge:** online through ESVConnect, or by post to Energy Safe Victoria, PO Box 262, Collins St West VIC 8007. ESV's counter is at **Level 22, 2 Southbank Boulevard, Southbank VIC 3006** — open 8:30am to 4:30pm weekdays. The Brandon Park and 4 Riverside Quay offices have closed, so any guide still sending you to "Level 5, Building 2, 4 Riverside Quay" is pointing at an empty building. Adding or removing a supervisor, updating contact details and renewing are all handled in ESVConnect.
 
 ---
 
