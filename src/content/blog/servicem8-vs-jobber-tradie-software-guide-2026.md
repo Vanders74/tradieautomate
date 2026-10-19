@@ -1,6 +1,6 @@
 ---
-title: 'ServiceM8 vs Jobber 2026: Honest Review for Aussie Solar & Electrical Tradies'
-description: 'ServiceM8 from $29/mo beats Jobber for compliance-heavy Aussie trades; Jobber wins on client experience. Full pricing & feature breakdown.'
+title: "ServiceM8 vs Jobber 2026: $29/mo vs $69/mo for Aussie Tradies"
+description: "ServiceM8 $29/mo vs Jobber ~$69/mo in 2026. ServiceM8 wins on CCEW forms, Xero and MYOB; Jobber wins on client hub."
 faq:
   - question: "Is ServiceM8 or Jobber better for Australian electricians?"
     answer: "ServiceM8 is the stronger choice for Australian electricians in almost all cases. The key reasons: ServiceM8 supports Australian compliance documentation workflows (CCEW, CER forms, geo-tagged photos) that Jobber does not — Jobber is a North American platform and lacks these local compliance features. ServiceM8 integrates natively with Xero and MYOB (the dominant accounting platforms in Australia), while Jobber's accounting integration is primarily built for QuickBooks (common in North America but less prevalent here). For Australian solar and electrical businesses, this compliance and accounting integration gap is decisive."
@@ -13,7 +13,7 @@ faq:
   - question: "Does ServiceM8 work offline for field technicians?"
     answer: "Yes — the ServiceM8 mobile app stores job data locally and continues to function without internet connectivity. Technicians can view job details, complete forms, and capture photos while offline. Data syncs automatically when the device reconnects to mobile data or WiFi. This is important for electrical and solar work where roof-level connectivity can be patchy. Jobber similarly supports offline functionality in its mobile app, so this is not a differentiating factor between the two platforms."
 pubDate: 'May 22 2026'
-updatedDate: 'Jul 30 2026'
+updatedDate: 'Oct 20 2026'
 category: "Software Comparisons"
 heroImage: '/hero-servicem8-vs-jobber.jpg'
 tags: ['software comparison', 'ServiceM8', 'Jobber', 'solar', 'electrician', 'job management']

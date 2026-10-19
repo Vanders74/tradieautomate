@@ -1,6 +1,6 @@
 ---
-title: "Electrical Switchboard Upgrade Cost Australia 2026: What to Expect and Why"
-description: "Electrical switchboard upgrade costs in Australia 2026 — what actually drives the price, what's included in a quality job, and when your solar or EV install makes an upgrade unavoidable."
+title: "Electrical Switchboard Upgrade Cost 2026: $1,200–$3,500 by Job Type"
+description: "A basic switchboard upgrade costs $1,200–$2,400 in 2026; three-phase $3,500–$6,000. What's included, what drives the quote, and when it's required."
 faq:
   - question: "How long does a switchboard upgrade take?"
     answer: "A standard single-phase residential switchboard upgrade takes 2–4 hours. A more complex upgrade — three-phase, larger board, difficult access, multiple new circuits — may take 4–8 hours. Allow additional time if the network distributor needs to isolate the meter."
@@ -13,7 +13,7 @@ faq:
   - question: "Is a switchboard upgrade covered by home insurance?"
     answer: "No — switchboard upgrades are a maintenance and compliance cost, not an insured event. Some home warranty policies include electrical systems, but switchboard replacement due to age or non-compliance is typically excluded. Check your policy wording."
 pubDate: 'Jul 13 2026'
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 20 2026'
 category: "Compliance"
 heroImage: '/hero-compliance-safety-2026.jpg'
 tags: ['switchboard upgrade', 'electrical compliance', 'AS/NZS 3000', 'solar', 'EV charger', 'electrician', 'cost guide']
