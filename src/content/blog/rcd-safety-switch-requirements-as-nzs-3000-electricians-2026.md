@@ -67,7 +67,7 @@ Under AS/NZS 3000:2018 Clause 2.6.3.2.2, every final subcircuit in a domestic or
 | Garage/carport socket outlets | Yes | Treated as outdoor circuits |
 | Fixed equipment (ovens, hot water, air conditioning) | Yes | Covered as final subcircuits in a dwelling |
 
-**What does not require RCD protection in residential:** narrower than most guides suggest. The 2018 residential rule is written as an all-final-subcircuit requirement, so there is no general exemption list to work from — only the specific cases the standard carves out where RCD operation would itself create a hazard greater than the shock risk (some safety-service and emergency-lighting arrangements), and those are a documented design decision, not a default. "It's hard-wired, so it doesn't need one" is not an exemption under the wiring rules; the only place that logic appears is the Victorian rental standard, which is a separate instrument and does not override AS/NZS 3000 on new work.
+**What does not require RCD protection in residential:** narrower than most guides suggest. The 2018 residential rule is written as an all-final-subcircuit requirement, so there is no general exemption list to work from — only the specific cases the standard carves out where RCD operation would itself create a hazard greater than the shock risk (some safety-service and emergency-lighting arrangements), and those are a documented design decision, not a default. "It's hard-wired, so it doesn't need one" is not an exemption under the wiring rules. The rental minimum standards are where that logic comes from — Victoria's covers power and lighting circuits but not fixed cooking, hot water or air-conditioning where the board already has circuit breakers, and Queensland's applies to power point circuits only — and neither instrument overrides AS/NZS 3000 on new work.
 
 ### Commercial and Industrial
 
@@ -159,7 +159,7 @@ When uncertain, apply the current standard to the entire board. The cost of an R
 **Victoria (Energy Safe Victoria)**
 ESV is the most active enforcer of AS/NZS 3000 technical requirements in Australia. Amendment 2 requirements have been incorporated into ESV's compliance framework, and its electrical inspection and audit teams check RCD type compliance specifically on solar and battery installations.
 
-Victoria also has the only rental-specific RCD mandate in the country. Under the rental minimum standards, the electrical safety standard commenced **29 March 2023**: every power outlet circuit and every lighting circuit in a rented premises must be protected by a switchboard-type circuit breaker and a switchboard-type RCD (or RCBO). The practical trap is the wording — where the board already has circuit breakers, the electrician can add RCD protection to the power and lighting circuits **without** touching fixed cooking, hot water or air-conditioning circuits; where it is an old fuse board, the whole switchboard must be replaced and every circuit, fixed equipment included, must have circuit breaker components. Rental providers must also have an AS/NZS 3019 electrical safety check every two years, which is recurring inspection work most electricians never quote for.
+Victoria's rental mandate is the broadest in the country, but it is not the only one. Queensland requires an approved safety switch on every power point circuit within 90 days of a tenancy starting, with fines of up to $1,500 for a landlord who does not comply. Western Australia requires at least two RCDs protecting all power and lighting circuits on the switchboard before a property can be leased, enforced under the Electricity Regulations 1947 (up to $15,000 for an individual, $100,000 for a body corporate). What is unique to Victoria is the scope plus the recurring check. Under the rental minimum standards, the electrical safety standard commenced **29 March 2023**: every power outlet circuit and every lighting circuit in a rented premises must be protected by a switchboard-type circuit breaker and a switchboard-type RCD (or RCBO). The practical trap is the wording — where the board already has circuit breakers, the electrician can add RCD protection to the power and lighting circuits **without** touching fixed cooking, hot water or air-conditioning circuits; where it is an old fuse board, the whole switchboard must be replaced and every circuit, fixed equipment included, must have circuit breaker components. Rental providers must also have an AS/NZS 3019 electrical safety check every two years, which is recurring inspection work most electricians never quote for.
 
 **NSW (Building Commission NSW)**
 Building Commission NSW administers the CCEW (Certificate of Compliance for Electrical Work) through BCNSW eCert — the certificate must be lodged there, not held as a PDF. A CCEW is the certifying electrician's declaration that the work meets AS/NZS 3000, so a certificate issued on non-compliant work is the exposure under the Gas and Electricity (Consumer Safety) Act 2017. Audit is the mechanism: BCNSW audits certificated work against the standard and can require rectification by written direction notice.
@@ -202,8 +202,6 @@ What it does not do: it does not generate or lodge a CCEW, a certificate of test
 
 [Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)
 
----
-
 ## FAQ
 
 ### Which circuits require RCD protection under AS/NZS 3000:2018?
@@ -228,8 +226,6 @@ The standard does not use that phrase — it talks about alterations to an insta
 
 ---
 
-
----
 
 > **This article is featured in Chapter 2 of The Sparky's Playbook.**
 > The free 12-chapter guide for Australian electricians — licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
