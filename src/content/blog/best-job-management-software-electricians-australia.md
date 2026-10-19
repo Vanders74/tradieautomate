@@ -1,7 +1,7 @@
 ---
 title: 'Best Job Management Software for Electricians Australia 2026'
 description: "Best job management software for electricians Australia 2026: what ServiceM8's $29 plan covers, and what Tradify, simPRO, AroFlo and Fergus cost per user."
-updatedDate: 'Oct 19 2026'
+updatedDate: 'Oct 20 2026'
 pubDate: 'Apr 14 2026'
 category: "Software Comparisons"
 heroImage: '/hero-best-job-management-electricians.jpg'
@@ -76,7 +76,7 @@ Tradify is a simpler platform that works well for electricians who need basic jo
 
 **Best for:** Electricians who want strong job costing and margin tracking; businesses with heavy focus on profitability analytics.
 
-Fergus originated in New Zealand and has a strong following among trade businesses that want visibility into job-level margin and profitability. Its job costing is excellent. Its compliance documentation tools and mobile experience are less mature than ServiceM8. Australian pricing runs **$53/user/month on Essentials and $77/user/month on Professional**, with timesheet-only users at $26/user/month, contractor users at $4/user/day, and — the line most comparisons miss — **certificates as a paid add-on at $30/month for 1–9 staff or $80/month for 10+**, charged on top of either plan. Card payments run at 1.95% + 30c per transaction in Australia, SMS alerts at $15 per 100 texts.
+Fergus originated in New Zealand and has a strong following among trade businesses that want visibility into job-level margin and profitability. Its job costing is excellent. Its compliance documentation tools and mobile experience are less mature than ServiceM8. Australian pricing runs **$53/user/month on Essentials and $77/user/month on Professional**, with timesheet-only users at $26/user/month, contractor users at $4/user/day, and — the line most comparisons miss — **certificates as a paid add-on at $30/month for 1–9 staff or $80/month for 10+**, charged on top of either plan. Card payments run at 1.95% + 30c per transaction in Australia, SMS alerts at $15 per 100 texts. Watch the split between those two compliance items: the certificate add-on works on either plan, but the **custom form builder is Pro-only** — so an electrician building their own state certificate template is on $77/user, not $53.
 
 ---
 
@@ -177,14 +177,14 @@ The savings compound as your team grows — and that gap is the single strongest
 | Feature | ServiceM8 | simPRO | Tradify | AroFlo | Fergus |
 |---|---|---|---|---|---|
 | Vendor-supplied CCEW form | ❌ None — you build the PDF | ❌ None | ❌ None | ❌ None | ❌ None |
-| Custom compliance forms | ✅ Growing plan+ ($79) | Digital Forms add-on | ✅ Pro plan+ ($52/user) | ✅ Yes | ✅ Forms on Essentials; certificates $30/mo add-on (1–9 staff) |
+| Custom compliance forms | ✅ Growing plan+ ($79) | Digital Forms add-on | ✅ Pro plan+ ($52/user) | ✅ Yes | ✅ Forms on Pro only ($77/user); certificates add-on $30/mo (1–9 staff) available on either plan |
 | Mobile-first design | ✅ Excellent | Good | ✅ Good | Good | Good |
 | Per-user fee | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
 | Accounting sync | ✅ Xero, MYOB, QuickBooks Online | ✅ Yes | ✅ Xero, MYOB, QuickBooks Online | ✅ Yes | ✅ Xero, MYOB, QuickBooks Online |
 | Multi-day project management | Basic | ✅ Advanced | Basic | ✅ Advanced | Basic |
-| GPS tracking | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Pro plan only |
+| GPS tracking | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes — on Essentials and Pro |
 | Online quote acceptance / customer portal | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
-| Entry cost (3 staff) | $29–$79/mo flat, GST incl | Quote only | ~$158/mo (3 × $48 + GST) | ~$240/mo + $1,450 setup | ~$189/mo (3 × $53 + $30 certificates) |
+| Entry cost (3 staff) | $29–$79/mo flat, GST incl | Quote only | ~$158/mo (3 × $48 + GST) | ~$240/mo + $1,450 setup | ~$189/mo (3 × $53 + $30 certificates); ~$261/mo if you need custom forms (3 × $77 + $30) |
 | Implementation time | 1-3 days | 2-4 weeks | 1-2 days | 3-6 weeks | 1-2 weeks |
 
 ---
