@@ -2,7 +2,7 @@
 title: 'NSW Electrical Contractor Licence 2026: Fees & 11-Week Wait'
 description: "How to get your NSW electrical contractor licence in 2026: licence types, real FY26–27 fees, the 11-week wait, HBC insurance and Service NSW steps."
 pubDate: 'Jul 20 2026'
-updatedDate: 'Oct 19 2026'
+updatedDate: 'Oct 20 2026'
 category: "Compliance"
 breakdown:
   - title: "Qualify"
@@ -229,7 +229,7 @@ You need both: the licence to legally contract the work, and a CCEW to comply wi
 
 ### How NSW Differs from Victoria
 
-Victoria's licensing is administered by **Energy Safe Victoria** under the Electricity Safety Act 1998 (Vic), with disputes going to **NCAT** — the Civil and Administrative Tribunal. (The Consumer, Trader and Tenancy Tribunal was abolished on 1 January 2014 and replaced by NCAT; any guide still citing the CTTT is quoting a body that hasn't existed for over a decade.)
+Victoria's licensing is administered by **Energy Safe Victoria** under the Electricity Safety Act 1998 (Vic), and a review of an ESV licensing decision goes to **VCAT** — the Victorian Civil and Administrative Tribunal — not to a NSW tribunal. (NSW is the state that uses NCAT, which replaced the Consumer, Trader and Tenancy Tribunal on 1 January 2014. If a guide cites the CTTT or sends a Victorian licensing dispute to NCAT, it is quoting the wrong state's tribunal system.)
 
 The interesting inversion is on insurance:
 
