@@ -2,7 +2,7 @@
 title: "SA Electrical Contractor Licence 2026: Fees, eCoC & CBS Rules"
 description: "SA electrical contractor licence: $779 new, $504 a year to renew, worker registration $617 then $342 every 3 years. CBS rules, eCoC on every job."
 pubDate: 'Jul 19 2026'
-updatedDate: '2026-10-19'
+updatedDate: '2026-10-20'
 category: "Compliance"
 breakdown:
   - title: "Hold the worker registration"
@@ -199,7 +199,7 @@ The **Cheaper Home Batteries Program** has applied since 1 July 2025: roughly 30
 
 ### Smarter Homes — the SA obligation that actually fails jobs
 
-Under the *Electricity (General) Regulations 1997* (the Smarter Homes amendments, in force since 28 September 2020), every new embedded generation installation in SA must be:
+Under the *Electricity (General) Regulations 2012* (the Smarter Homes amendments, in force since 28 September 2020 — the remote disconnect/reconnect obligation sits in regulation 55B), every new embedded generation installation in SA must be:
 
 - **capable of being remotely disconnected and reconnected** by a nominated **Relevant Agent**, with the customer's authorisation in place;
 - **capable of dynamic export limits** updated remotely;
