@@ -2,7 +2,7 @@
 title: 'AI Data Centre Growth: $21.6B of Work for Electricians'
 description: 'Australia has $21.6B of data centre work underway and 69% of critical trades in shortage. The electrician jobs, the pay, and how to get on a Tier 1 panel.'
 pubDate: 'Jul 2026'
-updatedDate: 'Oct 19 2026'
+updatedDate: 'Oct 20 2026'
 category: 'Business Growth'
 heroImage: '/hero-ai-data-centre-growth.jpg'
 tags: ['data centre', 'commercial', 'electrician', 'HV', 'business growth', 'AI']
@@ -62,9 +62,18 @@ Two policy facts matter for pipeline confidence, and they are often misreported:
 |---|---|
 | NSW (Western Sydney) | $11B+ — CDC Marsden Park (504 MW), AirTrunk SYD3 (~400 MW), NEXTDC S4 Horsley Park (350 MW planned), Microsoft Kemps Creek |
 | Victoria (Melbourne west) | $8B — CDC Laverton, Stack MEL02, AirTrunk MEL2 (354 MW), NEXTDC M4 Fishermans Bend (162 MW, approved January 2026) |
-| Queensland (Brisbane) | Smaller but growing — NEXTDC and emerging operators |
+| Queensland (Brisbane) | Smaller but growing — NEXTDC and emerging operators. The bigger Queensland story is pipeline, not construction — see below |
 
-Two things follow from that table. First, the work is geographically clustered, which is good news for contractors within driving distance of these precincts — you do not need to mobilise interstate. Second, the scale is easy to misjudge: CDC's Marsden Park campus alone was approved at 504 MW, described by the NSW Government as the largest data centre in the Southern Hemisphere. A single campus can keep a mid-size contractor's crews busy for years.
+Two things follow from that table. First, the work is geographically clustered, which is good news for contractors within driving distance of these precincts — you do not need to mobilise interstate. RLB puts 95% of the future pipeline in Sydney and Melbourne. Second, the scale is easy to misjudge: CDC's Marsden Park campus alone was approved at 504 MW, described by the NSW Government as the largest data centre in the Southern Hemisphere. A single campus can keep a mid-size contractor's crews busy for years.
+
+### Announced, Not Yet Under Construction
+
+The $21.6 billion above counts work **under construction**. Two proposals announced in October 2026 sit outside that number and will not appear in the ABS commencement data until they are approved — but they are the pipeline a contractor should be watching, and they are the exceptions worth tracking against that 95% concentration:
+
+- **Western Downs Digital Park, Queensland** — four 360 MW buildings on 725 hectares near Dalby, 250 km north-west of Brisbane, giving 1.44 GW of IT capacity and about 2.16 GW of peak draw. Developer Zerra DC puts the build cost at A$14.5 billion, rising to A$31.9 billion of private capital if the campus expands to six buildings. **Anthropic has signed a long-term lease over the first stage** — its first Australian data centre agreement, announced in Queensland Parliament in mid-September 2026 — and is targeting 2027 for first use, subject to Foreign Investment Review Board approval. The development application was lodged with Western Downs Regional Council on 17 August 2026 and is still being assessed. The campus connects via a dedicated high-voltage line to the Braemar substation rather than the local distribution network, which is the detail that shapes the electrical scope: transmission-level connection, on-site battery storage, and roughly 540 MVA of demand per stage.
+- **Wagga Wagga, New South Wales** — IREN announced the 900 MW Redbank campus on 14 October 2026, a project it expects to cost more than A$10 billion, built in stages over six to eight years with a grid connection targeted for 2029. It sits near CDC's separately proposed 1.4 GW Gregadoo campus, so the two together represent up to 2.3 GW of proposed capacity in one regional cluster. IREN's scoping report goes to the NSW Department of Planning, Housing and Infrastructure at the end of October 2026; the project is outside IREN's 5 GW secured-power portfolio, so the connection is not yet assured.
+
+Read those correctly: neither is a job you can quote today. Both matter because a 900 MW campus and a 1.4 GW campus in the same regional city is the pattern that catches contractors unprepared — the shortlist for a project of that size is built 6 to 12 months before the tender, which means the relationship work starts while the development application is still in council.
 
 The AEMO queue tells you what is coming rather than what is pouring: 11 projects totalling 5.4 GW, about 60% in NSW and 40% in Victoria, with seven of the 11 (4.1 GW) still in the application phase at the end of the March 2026 quarter. Those are the jobs that will need electricians in 2028 and 2029.
 

@@ -218,6 +218,7 @@ def main(dry_run=False, cap_only=False):
              "note": i.get("triage_note", "recently updated")}
             for i in monitoring
         ]
+        q["triage_at"] = __import__("datetime").datetime.now().isoformat(timespec="seconds")
         write_queue(q)
         print(f"\n✅ Scores written to {FIX_QUEUE}")
         print(f"   ranked_actions: {len(q['ranked_actions'])} | monitoring: {len(q['monitoring'])}")
