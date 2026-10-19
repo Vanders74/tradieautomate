@@ -1,7 +1,7 @@
 ---
 title: 'ServiceM8 Review 2026: Real AUD Pricing & Who It Fits'
 description: "ServiceM8 review 2026: what $29/mo (AUD, incl. GST) gets an Aussie tradie — invoicing, the $79 compliance-form gate, Xero sync and where it stops."
-updatedDate: 'Oct 19 2026'
+updatedDate: 'Oct 20 2026'
 pubDate: 'Apr 03 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-review.jpg'
@@ -201,9 +201,9 @@ How does ServiceM8 stack up against the other main players in the Australian mar
 
 | Feature | ServiceM8 | simPRO | [Tradify](/blog/tradify-review-2026-australia/) | Fergus |
 |---|---|---|---|---|
-| Starting price (AUD/mo) | $29 (incl. GST) | Quote only | $48/user (ex GST) | $53 (ex GST) |
+| Starting price (AUD/mo) | $29 (incl. GST) | Quote only | $48/user (ex GST) | $53/user (Essentials, ex GST) |
 | Per-user pricing | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes |
-| Compliance forms | ✅ Excellent | ✅ Good | ⚠️ Pro and above | ⚠️ Basic |
+| Compliance forms | ✅ Excellent | ✅ Good | ⚠️ Pro and above | ⚠️ Pro only ($77/user) |
 | Mobile app quality | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
 | Xero integration | ✅ Native | ✅ Native | ✅ Native | ✅ Native |
 | Free trial | ✅ 14 days | ❌ Demo only | ✅ 14 days | ✅ 14 days |
@@ -211,7 +211,7 @@ How does ServiceM8 stack up against the other main players in the Australian mar
 
 For a deeper comparison, see our [ServiceM8 vs simPRO breakdown](/blog/servicem8-vs-simpro-comparison-australia/) and [ServiceM8 vs Tradify comparison](/blog/servicem8-vs-tradify-comparison-australia/).
 
-*Prices verified against each vendor's Australian pricing page in October 2026. ServiceM8 quotes inclusive of GST; Tradify and Fergus quote exclusive of GST (Tradify Lite $48, Pro $52, Plus $62 per user; Fergus Basic $53, Professional $75 — currently promoted at 90% off until December 2026). simPRO does not publish pricing — it is quote-only, so any "from $149" figure you see elsewhere is unsourced.*
+*Prices verified against each vendor's Australian pricing page in October 2026. ServiceM8 quotes inclusive of GST; Tradify and Fergus quote exclusive of GST (Tradify Lite $48, Pro $52, Plus $62 per user; Fergus Essentials $53, Professional $77 per user — Forms sit on Professional only, so a crew that needs compliance forms is on $77/user, not $53; currently promoted at 90% off until December 2026). simPRO does not publish pricing — it is quote-only, so any "from $149" figure you see elsewhere is unsourced.*
 
 ---
 
