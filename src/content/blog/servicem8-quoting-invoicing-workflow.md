@@ -104,6 +104,8 @@ The invoice includes a "Pay Now" button powered by ServiceM8 Pay (Stripe). The c
 
 ServiceM8 can also process Tap to Pay on iPhone (iPhone XS+) and on eligible Android phones, letting the technician take payment on-site at job completion. For electrical businesses doing smaller service calls ($150–$500), on-site payment eliminates the accounts receivable entirely — the job is paid before the technician leaves.
 
+**The fee is now yours to carry.** From **1 October 2026** Visa, Mastercard, Amex and eftpos banned surcharging on debit and credit card payments in Australia, and ServiceM8 stopped adding a card fee on top of the invoice. The processing rate still applies, but you can no longer pass it to the client — so it comes straight off the job margin. On ServiceM8 Pay that is **1.49% + 30c** on Growing, 1.69% + 30c on Starter, 1.39% on Premium and 1.19% on Premium Plus for standard domestic cards, and **3.70% + 30c** for international cards and Amex on every plan. On $50,000 of monthly card takings at Growing rates that is roughly $745 a month, or about $9,000 a year, before any Amex. PayTo costs less at **1% + 30c** and cannot be surcharged either, which is why it is worth switching repeat clients onto it rather than leaving them on card.
+
 Payment status updates in real time. The job card shows "Paid" with the amount and date. Payment data syncs to Xero automatically.
 
 ---
@@ -154,7 +156,7 @@ The cadence is a starting point, not a rule. What actually moves payment times i
 | Mobile quoting | Full-featured | Limited | Good for simple jobs |
 | Compliance forms in quote | CCEW/COES via Forms add-on — custom forms need Growing ($79/mo) | Custom forms (complex setup) | Not built-in |
 | One-tap client approval | Yes | Yes (client portal) | Yes |
-| Auto-invoice on job completion | Yes, with Xero sync | Yes, with deeper job costing | Yes, basic |
+| Invoice auto-created on completion | No — Auto-Invoice drafts on request, then you approve | Yes, with deeper job costing | Yes, basic |
 | Integrated payments (Stripe) | Yes | Yes | Yes (Stripe, card only) |
 | NFC Tap to Pay on the phone | Yes — iPhone XS+ and Android 13+ (via ServiceM8 Pay + Stripe) | No | No |
 | Automatic payment reminders | Yes, configurable | Yes | Limited |
