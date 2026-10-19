@@ -211,7 +211,7 @@ While the six categories above apply everywhere, each state regulator has its ow
 - The **Electrical Safety Act 2002** imposes a positive duty on officers of a business (company directors, business owners) to exercise due diligence — this goes beyond employer duties under WHS legislation. Auditors can and do interview company directors about their safety systems.
 - The ESO's **Electrical Compliance Data Exchange** (launched March 2026) links Energex and Ergon Energy metering data to contractor records.
 
-**Deadline:** there is no lodgement deadline in Queensland. The licensed electrician issues a **certificate of testing and compliance** for installation work (or a certificate of testing and safety for equipment work) to the person for whom the work was done, and both the person who did the work and the person who received it keep a copy for **5 years** (Electrical Safety Regulation 2013). The 30-day figure does not exist in the QLD instruments.
+**Deadline:** there is no lodgement deadline in Queensland. The licensed electrician issues a **certificate of testing and compliance** for installation work (or a certificate of testing and safety for equipment work) to the person for whom the work was done, and both the person who did the work and the person who received it keep a copy for **5 years** (Electrical Safety Regulation 2026, s229 — the 2013 regulation was repealed on 31 August 2026). The 30-day figure does not exist in the QLD instruments.
 
 ### Western Australia — Building and Energy
 
