@@ -1,8 +1,8 @@
 ---
 title: 'When Is a CCEW Required in NSW? 7-Day Deadline & Fines'
-description: 'A CCEW must be lodged on BCNSW eCert within 7 days of the safety and compliance test. Triggers, who lodges, and the s37A fines ($2,200 / $4,400).'
+description: 'CCEW NSW: lodge on BCNSW eCert within 7 days of the safety and compliance test — and from Nov 2026 solar and battery move to the CER portal. Triggers and s37A fines.'
 pubDate: 'May 20 2026'
-updatedDate: 'Oct 19 2026'
+updatedDate: 'Oct 20 2026'
 category: "Compliance"
 breakdown:
   - title: "Know the triggers"
@@ -29,7 +29,7 @@ faq:
   - question: "Can a CCEW be issued electronically?"
     answer: "It is not optional. Since 1 July 2026 the CCEW must be lodged through BCNSW eCert (individually or by approved API) — handwritten and PDF forms are no longer accepted, so a paper certificate is not a compliant substitute. Customers receive their copy by email when their address is entered on the form."
   - question: "Does solar battery storage require a CCEW in NSW?"
-    answer: "Yes. Battery storage systems are classified as electrical installation work under NSW regulations, and their installation typically involves switchboard modifications and increased connected load — both of which trigger the CCEW requirement. The 7-day rule applies in the same way as for any other triggering job."
+    answer: "Yes — the CCEW is still required, but from November 2026 the lodgement route changes. Battery storage and rooftop solar up to 200kW inverter capacity are CER systems, and from 2 November 2026 (Endeavour Energy and Essential Energy) or 23 November 2026 (Ausgrid) new and upgrading CER systems whose DNSP connection application is submitted and approved from that date must be commissioned through the NSW CER Installer Portal. The portal completes the CCEW and the AEMO DERR record in one submission, so you do not lodge a separate CCEW in BCNSW eCert for that work. Any non-CER electrical work on the same job still needs its own CCEW through eCert within the same 7 days."
 ---
 
 The Certificate of Compliance Electrical Work is a legal obligation with real financial penalties, and the rules around when it's required — and when the clock starts ticking — are genuinely confusing for many electricians and contractors.
@@ -58,7 +58,7 @@ This article cuts through the confusion. Here is exactly when a CCEW is legally 
 
 A Certificate of Compliance Electrical Work (CCEW) is the certificate required by the *Gas and Electricity (Consumer Safety) Act 2017 (NSW)* and the *Gas and Electricity (Consumer Safety) Regulation 2018 (NSW)*. It certifies that a safety and compliance test was carried out on the electrical installation work in accordance with the Australian/New Zealand Wiring Rules (AS/NZS 3000) and the other requirements of the Regulation.
 
-**As of 1 July 2026, all CCEWs must be lodged digitally through the mandatory BCNSW eCert portal** — paper forms and old submission methods are no longer accepted. See our [full CCEW compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/) for the complete lodgement workflow and portal registration steps.
+**As of 1 July 2026, all CCEWs must be lodged digitally through the mandatory BCNSW eCert portal** — paper forms and old submission methods are no longer accepted. The one exception arriving later is eligible CER work (solar, battery, inverters up to 200 kW), which moves to the NSW CER Installer Portal from November 2026 — covered below. See our [full CCEW compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/) for the complete lodgement workflow and portal registration steps.
 
 The certificate is lodged by the **tester** — the qualified person who conducted the safety and compliance test. That is the individual contractor licence or qualified supervisor certificate holder who did or supervised the work; a company contractor licence cannot even be registered in eCert.
 
@@ -86,6 +86,8 @@ The CCEW 7-day rule is where most compliance failures happen.
 Under s37A of the Gas and Electricity (Consumer Safety) Regulation 2018, the tester must give the certificate to the Secretary **no later than 7 days after completing the safety and compliance test** — by lodging it on BCNSW eCert, or by giving the relevant information to an eligible entity within the same 7 days.
 
 "Completed" means the test is finished and the installation has been verified as safe to energise. Not when the customer pays. Not when the paperwork is done. Not when it's convenient.
+
+**Seven days is a backstop, not a grace period.** Building Commission NSW's own electrical compliance page states the certificate must be submitted "as soon as practical, but no later than seven days after the electrical test has been completed." Advisory note 2/2026 puts it the same way: no later than 7 days after completing the work, including the safety and compliance test. So a job tested Monday morning and lodged the following Monday is inside the maximum but outside the standard — the obligation is prompt lodgement, and the 7-day figure only caps it.
 
 Seven days is not "this week." A test completed on a Wednesday has a lodgement deadline of the following Wednesday. A job tested on a Thursday afternoon before a long weekend is already tight.
 
@@ -169,13 +171,34 @@ Solar installations deserve specific attention because the paperwork chain is lo
 
 **The solar documentation chain for NSW:**
 1. Grid connection application to network distributor (before installation)
-2. CCEW lodged on BCNSW eCert within 7 days of the test (copies then auto-distributed to the customer and, where required, the distributor)
+2. CCEW returned within 7 days of the test — **but for eligible CER work from November 2026 this happens inside the NSW CER Installer Portal, not eCert** (see the next section; copies then auto-distributed to the customer and, where required, the distributor)
 3. CEC installation report / STC paperwork lodged with the Clean Energy Regulator
 4. Any required metering change notification to the distributor
 
 Missing any step in this chain creates both regulatory and commercial problems — STC claims can't be lodged without the installation certificate, and the distributor won't approve export if the connection notification hasn't been received.
 
 For the complete solar compliance documentation workflow including CER requirements and audit preparation, see our [solar compliance checklist](/blog/solar-compliance-checklist-2026/).
+
+### From November 2026: solar and battery leave eCert for the CER Installer Portal
+
+This is the one change that overrides the 7-day eCert workflow above for a large share of CCEW work, and it lands within weeks.
+
+The **NSW Consumer Energy Resources (CER) Installer Portal** becomes mandatory for new and upgrading CER systems up to **200 kW inverter capacity** — rooftop solar, battery storage and their inverters — where the DNSP connection application is submitted and approved from the start date:
+
+| Network | Start date |
+|---|---|
+| Endeavour Energy and Essential Energy | 2 November 2026 |
+| Ausgrid | 23 November 2026 |
+
+For those jobs the portal handles the CCEW *and* the AEMO Distributed Energy Resources Register record in one commissioning submission. The NSW Government's position is explicit: for eligible CER work the portal replaces the existing obligation to complete the CCEW through BCNSW eCert and to submit a separate DERR record. **You do not lodge a second CCEW in eCert for the CER work itself.**
+
+Three things that catch people out:
+
+1. **The 7-day clock does not disappear, it moves.** The CCEW is generated as part of commissioning, so the practical discipline is the same — capture test results at commissioning, not at month end. If the installation includes electrical work outside the CER scope (a sub-board for a shed, extra GPOs, switchboard upgrades unrelated to the inverter), a **separate CCEW still goes through BCNSW eCert for that work**, on the same 7-day rule.
+2. **The trigger is the connection application date, not the install date.** A job whose DNSP application was approved in October is outside the mandate; one approved on 2 November is inside it, whichever network it sits on.
+3. **The EBM requirement rolls out by network**, managed by each DNSP — so a 200 kW commercial install in one network and an identical one in another can have different go-live obligations in the same week.
+
+For work completed before your network's start date, the eCert workflow on this page applies in full. We keep the [full CCEW compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/) updated with the portal detail as each DNSP publishes its arrangements.
 
 ---
 
@@ -273,7 +296,9 @@ It is not optional. Since 1 July 2026 the CCEW must be lodged through BCNSW eCer
 
 ### Does solar battery storage require a CCEW in NSW?
 
-Yes. Battery storage systems are classified as electrical installation work under NSW regulations, and their installation typically involves switchboard modifications and increased connected load — both of which trigger the CCEW requirement. The 7-day rule applies in the same way as for any other triggering job.
+Yes — the CCEW is still required, but from November 2026 the **lodgement route** changes. Battery storage and rooftop solar up to 200 kW inverter capacity are CER systems, and from **2 November 2026** (Endeavour Energy and Essential Energy) or **23 November 2026** (Ausgrid), new and upgrading CER systems whose DNSP connection application is submitted and approved from that date must be commissioned through the [NSW CER Installer Portal](https://www.energy.nsw.gov.au/nsw-plans-and-progress/regulation-and-policy/installer-portal).
+
+The portal completes the CCEW and the AEMO DERR record in the one submission — you do **not** lodge a separate CCEW in BCNSW eCert for that CER work. Any non-CER electrical work on the same job (extra circuits, an unrelated sub-board) still needs its own CCEW through eCert, inside the same 7 days.
 
 ---
 
