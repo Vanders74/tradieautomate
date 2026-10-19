@@ -20,10 +20,13 @@ const faqSchema = faq && faq.length > 0 ? {
   "@type": "FAQPage",
   "mainEntity": faq.map((item: { question: string; answer: string }) => ({
     "@type": "Question",
-    "name": item.question,
+    "name": item.question.replace(/\*\*([^*]+)\*\*/g, '$1').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1'),
     "acceptedAnswer": {
       "@type": "Answer",
+      // Strip markdown emphasis/link syntax so rich-result text renders literally
       "text": item.answer
+        .replace(/\*\*([^*]+)\*\*/g, '$1')
+        .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
     }
   }))
 } : null;
