@@ -202,6 +202,8 @@ After 20–30 jobs with accurate tracking, your pricing model will be calibrated
 
 ## Related Reading
 
+- *[Rebate Finder: Current Solar, Battery & Heat Pump Rebates by State](/tools/rebate-finder/)*
+- *[Trade Business Valuation: What Your Solar Business Is Worth](/tools/trade-business-valuation/)*
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
 - *[5 Hidden Costs Killing Your Profit as a Solar Installer or Electrician](/blog/hidden-costs-killing-profit-solar-electrician/)*
 - *[The Paperless Trade Roadmap: Building Admin Systems That Scale](/blog/paperless-trade-roadmap-operational-efficiency/)*
