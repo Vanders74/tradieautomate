@@ -10,10 +10,14 @@ faq:
     answer: "To create STCs, the installing electrician must hold current **Solar Accreditation Australia (SAA)** accreditation with the endorsement that matches the work — grid-connect PV, battery, and off-grid are separate endorsements. CEC no longer issues accreditation: SAA took it over on 30 May 2024, and any installation completed on or after that date must be claimed using the SAA number. If you're still holding only a legacy CEC number and never transferred, you cannot create STCs until SAA issues you one. Accreditation must be current at the date of installation, not the date of lodgement — a lapse before the install date invalidates the claim for that job."
   - question: "What are the most common STC errors that trigger CER audits?"
     answer: "The most common STC errors that attract CER attention are: (1) STC quantity calculation errors (wrong zone code, incorrect system size rounding, or using the wrong year multiplier); (2) installation date discrepancies between the STC lodgement and compliance certificate; (3) missing or non-compliant install photos — the CER wants geotagged, time-stamped images of you on site at job setup, mid-installation and commissioning, plus the completed system and its labelling; (4) using panels or inverters not on the CEC approved products list; and (5) lapsed accreditation at the time of installation. All of these are preventable with a robust job documentation workflow."
+  - question: "Do heat pumps and hot water systems get STCs too?"
+    answer: "Yes. Air source heat pumps and solar water heaters are eligible systems under the SRES, alongside solar PV, batteries, wind and hydro. They are calculated on the unit's rated energy savings for the installation zone rather than on panel capacity, and they are still subject to the 2030 deeming end, the 12-month lodgement window and the SAA accreditation requirement for that system type. STC eligibility depends on the exact model being on the CEC approved products list, so quote from the listed model rather than a family name."
+  - question: "How many STC-eligible installations can one installer complete in a day?"
+    answer: "Two. SAA caps claims at two installations per installer per day — two solar PV systems, two batteries, or one of each — and a third job completed that day cannot be claimed. The cap is tied to the accredited individual, so splitting a third job across another installer's accreditation number is exactly the pattern CER auditors look for."
   - question: "How long does the STC lodgement process take?"
     answer: "It depends on how the claim is lodged. Claims submitted with validated panel serial numbers through Solar Panel Validation are typically processed within 24 hours of a complete submission; manual or unvalidated claims take longer and are more likely to be held for a document check. Lodgement can be done by the installer directly or through an STC agent (aggregator), and most residential solar businesses use an agent who pays out within a set window after the certificates are created. Errors or missing documentation can delay the process by weeks and may trigger a CER audit before certificates are issued."
 pubDate: 'May 13 2026'
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 19 2026'
 category: "Solar & Battery"
 breakdown:
   - title: "Confirm eligibility"
@@ -109,6 +113,8 @@ On top of accreditation you must hold an **unrestricted electrical licence** in 
 
 Battery claims carry their own limit: STCs are only created for the **first 50kWh of a battery's usable capacity**, so a 60kWh system and a 100kWh system earn the same battery certificate count.
 
+There is also a hard cap on volume rather than capacity: SAA limits installers to **no more than two STC-eligible installations per day** — two solar PV systems, two batteries, or one of each. A third job completed on the same day cannot be claimed, whatever the paperwork says. If you run multiple crews, the limit applies per installer, so the accreditation number on the claim has to match the person who actually attended site.
+
 Installing work outside your endorsed category is a serious compliance violation that invalidates the STCs and may result in accreditation suspension.
 
 **Check your accreditation certificate before every new job type.** If you're adding batteries to your offerings and don't have the battery endorsement, get it before you install, not after.
@@ -116,6 +122,16 @@ Installing work outside your endorsed category is a serious compliance violation
 ### Equipment Eligibility
 
 Only equipment on the CEC approved products list can be used in STC-eligible installations. Check the CEC list before purchasing new panel or inverter brands — not all products sold in Australia are on the approved list.
+
+### Hot water and heat pump claims
+
+The scheme covers more than PV. Air source heat pumps and solar water heaters create STCs too, and they are claimed differently from a solar system: the certificate count comes from the unit's rated energy savings for its zone, not from panel kilowatts, and the deeming period still runs to 2030. That means the model number on the quote is the thing that determines the rebate — swap to an unlisted or differently rated unit mid-job and the claim changes with it.
+
+The same installer obligations apply: SAA accreditation for the system type, CEC-approved equipment, photos, and a signed assignment from the owner before lodgement. If you install hot water as well as PV, the two claims on one property are separate — do not roll them into a single assignment form unless the form explicitly covers both system types, or the CER will treat the paper as invalid for one of them.
+
+### The written compliance statement
+
+Every STC claim rests on a written statement, signed by the installer and designer, confirming the design and installation met SAA requirements, state and territory requirements, and the on-site attendance rules — and that a licensed electrician did the work. The installer who completes testing and commissioning also has to obtain the certificate of electrical safety/compliance and list their own name as the installer on the claim form. This is the document auditors ask for first; if it is generic, unsigned or missing the design details, the claim has no foundation even when the install itself was correct.
 
 ---
 
@@ -261,6 +277,12 @@ To create STCs, the installing electrician must hold current **Solar Accreditati
 
 ### What are the most common STC errors that trigger CER audits?
 The most common STC errors that attract CER attention are: (1) STC quantity calculation errors (wrong zone code, incorrect system size rounding, or using the wrong year multiplier); (2) installation date discrepancies between the STC lodgement and compliance certificate; (3) missing or non-compliant install photos — the CER wants geotagged, time-stamped images of you on site at job setup, mid-installation and commissioning, plus the completed system and its labelling; (4) using panels or inverters not on the CEC approved products list; and (5) lapsed accreditation at the time of installation. All of these are preventable with a robust job documentation workflow.
+
+### Do heat pumps and hot water systems get STCs too?
+Yes. Air source heat pumps and solar water heaters are eligible systems under the SRES, alongside solar PV, batteries, wind and hydro. They are calculated on the unit's rated energy savings for the installation zone rather than on panel capacity, and they are still subject to the 2030 deeming end, the 12-month lodgement window and the SAA accreditation requirement for that system type. STC eligibility depends on the exact model being on the CEC approved products list, so quote from the listed model rather than a family name.
+
+### How many STC-eligible installations can one installer complete in a day?
+Two. SAA caps claims at two installations per installer per day — two solar PV systems, two batteries, or one of each — and a third job completed that day cannot be claimed. The cap is tied to the accredited individual, so splitting a third job across another installer's accreditation number is exactly the pattern CER auditors look for.
 
 ### How long does the STC lodgement process take?
 It depends on how the claim is lodged. Claims submitted with validated panel serial numbers through Solar Panel Validation are typically processed within 24 hours of a complete submission; manual or unvalidated claims take longer and are more likely to be held for a document check. Lodgement can be done by the installer directly or through an STC agent (aggregator), and most residential solar businesses use an agent who pays out within a set window after the certificates are created. Errors or missing documentation can delay the process by weeks and may trigger a CER audit before certificates are issued.
