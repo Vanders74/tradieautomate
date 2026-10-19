@@ -92,7 +92,7 @@ This is the most consistently underestimated cost category.
 
 **Per-job compliance costs:**
 - CEC/CER documentation preparation: 30–60 min admin time
-- State electrical certificate (CES in VIC, CCEW in NSW, CoTC in QLD): $0–$100 fee depending on state
+- State electrical certificate (COES in VIC, CCEW in NSW, CoTC in QLD): $0–$100 fee depending on state
 - Network notification and connection forms: 30–60 min admin time
 - STC lodgement process: 30–60 min (if doing in-house) or ~$100–$200 fee to STC trader
 - AS/NZS 5033 documentation (string sizing calculations, labelling compliance): 15–30 min

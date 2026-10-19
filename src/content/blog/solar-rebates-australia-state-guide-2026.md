@@ -74,7 +74,7 @@ The Victorian solar panel rebate has been reduced and availability is limited in
 
 ### Installer registration tip
 
-Solar Victoria's CES (Code of Conduct) registration requires maintenance — annual renewal, installation record submission, and compliance with any updated standards. Keep your registration current to avoid delays when a customer qualifies.
+Solar Victoria's Solar Homes Code of Conduct registration (an approved-retailer requirement, unrelated to the electrical safety certificate) requires maintenance — annual renewal, installation record submission, and compliance with any updated standards. Keep your registration current to avoid delays when a customer qualifies.
 
 ---
 

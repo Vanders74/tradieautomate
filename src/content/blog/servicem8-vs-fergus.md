@@ -82,7 +82,7 @@ This is the area where ServiceM8 has the most meaningful advantage for Australia
 
 ### ServiceM8 Compliance Features
 
-**Custom form builder.** Build any compliance form, checklist, or certificate template inside ServiceM8. Australian electricians build CES and CCEW templates. Plumbers build compliance certificate templates matched to their state regulator's requirements. Solar installers build AS/NZS 5033 and 5139 installation checklists. These templates enforce completion — field staff can't mark a job done without completing all required forms.
+**Custom form builder.** Build any compliance form, checklist, or certificate template inside ServiceM8. Australian electricians build COES and CCEW templates. Plumbers build compliance certificate templates matched to their state regulator's requirements. Solar installers build AS/NZS 5033 and 5139 installation checklists. These templates enforce completion — field staff can't mark a job done without completing all required forms.
 
 **GPS-tagged photo capture.** Every photo taken through the ServiceM8 app is attached to the specific job record with timestamp and GPS coordinates. For CER audits, insurance claims, or compliance reviews, photos have provenance — tied to a specific job, date, and location.
 

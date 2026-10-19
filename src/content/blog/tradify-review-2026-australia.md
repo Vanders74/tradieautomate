@@ -61,7 +61,7 @@ ServiceM8 includes a client portal at all plan levels — customers can log in t
 
 ### Limited compliance form builder
 
-Beyond CCEW, electrical businesses in other states need state-specific compliance forms (CES in VIC, CEC in SA, etc.). ServiceM8's custom form builder lets you create structured digital forms for any compliance requirement. Tradify's document attachment approach is less structured.
+Beyond CCEW, electrical businesses in other states need state-specific compliance forms (COES in VIC, eCoC in SA, etc.). ServiceM8's custom form builder lets you create structured digital forms for any compliance requirement. Tradify's document attachment approach is less structured.
 
 ### GPS and customer notification features
 

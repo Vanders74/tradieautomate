@@ -63,7 +63,7 @@ For a solar installer, this means:
 - A post-installation checklist covering system commissioning, STC verification, and customer handover
 - Clear guidance on what to do when something doesn't meet compliance requirements on-site
 
-For an electrician, the equivalent includes CES template completion, state-specific variation in certificate requirements, and the test record format your licensing authority expects.
+For an electrician, the equivalent includes COES template completion, state-specific variation in certificate requirements, and the test record format your licensing authority expects.
 
 When these workflows are embedded in your job management platform as mandatory digital forms, delegation becomes reliable. Your new technician doesn't need to memorise the compliance requirements — the system enforces them.
 

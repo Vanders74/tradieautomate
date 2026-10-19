@@ -16,7 +16,7 @@ faq:
   - question: "What is the reservation process for the Solar Victoria battery rebate?"
     answer: "Because Solar Victoria funding is capped and allocated in rounds, eligible customers must make a reservation before installation proceeds. The homeowner applies via the Solar Victoria portal, receives a reservation confirmation, and then engages a Solar Victoria-registered installer to complete the installation within the reservation window. Installations completed without a valid reservation are not eligible for the rebate."
   - question: "What certificates are required after a Solar Victoria battery installation in Victoria?"
-    answer: "After a Solar Victoria battery installation, the installing electrician must issue a Certificate of Electrical Safety (CES) for the electrical work. The CES must be lodged with Energy Safe Victoria. The installer also needs to upload the relevant compliance documentation to the Solar Victoria portal to trigger the rebate claim. Maintaining organised job records for these submissions is essential — this is where a job management system pays for itself. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling."
+    answer: "After a Solar Victoria battery installation, the installing electrician must issue a Certificate of Electrical Safety (COES) for the electrical work. The COES must be lodged with Energy Safe Victoria. The installer also needs to upload the relevant compliance documentation to the Solar Victoria portal to trigger the rebate claim. Maintaining organised job records for these submissions is essential — this is where a job management system pays for itself. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling."
 ---
 
 Victoria's Solar Homes Program remains one of the most significant state-level incentives for residential solar and battery storage in Australia. For solar and battery installation businesses operating in Victoria, Solar Victoria registration — and a thorough understanding of the current rebate structure — is foundational to your business model.
@@ -120,14 +120,14 @@ The customer provides you with their reservation number. This number must be quo
 ### Step 3: Installation
 Install the approved battery system alongside the qualifying solar system. Ensure the installation meets AS/NZS 5139 and all applicable safety standards.
 
-### Step 4: Certificate of Electrical Safety (CES)
+### Step 4: Certificate of Electrical Safety (COES)
 In Victoria, a Certificate of Electrical Safety must be issued for battery installations. This is issued by the Licensed Electrical Inspector (LEI) or — in some circumstances — by the installing contractor using VSA-approved processes. Ensure this is correctly handled. See the [VIC Certificate of Electrical Safety guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) for the full process.
 
 ### Step 5: Claim submission to Solar Victoria
 After installation, submit your claim through the Solar Victoria portal. Documentation required typically includes:
 - Customer details and reservation number
 - System details (battery model, serial number, capacity)
-- CES certificate reference
+- COES certificate reference
 - Installation compliance documentation
 
 ### Step 6: Rebate payment
@@ -143,7 +143,7 @@ Solar Victoria processes the claim and pays the rebate to the installer. The cus
 
 **Keep your Code of Conduct compliance watertight.** Solar Victoria conducts installer audits. Record-keeping, accurate quoting, and proper use of the rebate aren't just ethical requirements — they're contractual obligations that protect your registration.
 
-**Integrate Solar Victoria claims into your job management workflow.** Chasing CES certificates and claim documentation after the fact creates cash flow delays. Use your job management software to trigger post-installation documentation steps automatically. The [digital job management guide for solar installers](/blog/digital-job-management-solar-installers/) shows how to set this up.
+**Integrate Solar Victoria claims into your job management workflow.** Chasing COES certificates and claim documentation after the fact creates cash flow delays. Use your job management software to trigger post-installation documentation steps automatically. The [digital job management guide for solar installers](/blog/digital-job-management-solar-installers/) shows how to set this up.
 
 **Track your cash flow on Solar Victoria jobs.** The rebate payment comes from Solar Victoria after you've completed the job, not before. If you're running a high volume of Solar Victoria installations, this can create a working capital gap. See the solar installer cash flow guide](/blog/solar-installer-cash-flow-management-australia/) for strategies to manage this.
 
@@ -171,13 +171,13 @@ Both can apply to the same job. Make sure your quotes itemise these separately a
 | Installer requirement | CEC-accredited + Solar Victoria-registered |
 | Battery requirement | Solar Victoria approved product list |
 | Key rule | Rebate reservation before installation |
-| Post-install requirement | Certificate of Electrical Safety (CES) |
+| Post-install requirement | Certificate of Electrical Safety (COES) |
 
 ---
 
-[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — manage Solar Victoria reservation tracking, CES certificate generation, and customer follow-up in one system.
+[Start your free ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate) — manage Solar Victoria reservation tracking, COES certificate generation, and customer follow-up in one system.
 
-> **Questions on Solar Victoria registration, CES obligations, or AS/NZS 5139 compliance?**
+> **Questions on Solar Victoria registration, COES obligations, or AS/NZS 5139 compliance?**
 > [Ask Tradie Brain AI free →](https://tradieautomate.com/tools/tradie-brain/) Instant answers, no login required.
 
 ---
@@ -202,7 +202,7 @@ Because Solar Victoria funding is capped and allocated in rounds, eligible custo
 
 **What certificates are required after a Solar Victoria battery installation in Victoria?**
 
-After a Solar Victoria battery installation, the installing electrician must issue a Certificate of Electrical Safety (CES) for the electrical work. The CES must be lodged with Energy Safe Victoria. The installer also needs to upload the relevant compliance documentation to the Solar Victoria portal to trigger the rebate claim. Maintaining organised job records for these submissions is essential — this is where a job management system pays for itself.
+After a Solar Victoria battery installation, the installing electrician must issue a Certificate of Electrical Safety (COES) for the electrical work. The COES must be lodged with Energy Safe Victoria. The installer also needs to upload the relevant compliance documentation to the Solar Victoria portal to trigger the rebate claim. Maintaining organised job records for these submissions is essential — this is where a job management system pays for itself.
 
 ---
 
@@ -219,7 +219,7 @@ After a Solar Victoria battery installation, the installing electrician must iss
 - *[SA Solar Battery Rebate 2026: Home Battery Scheme Guide](/blog/sa-solar-battery-rebate-2026/)*
 - *[Adding Battery Storage to Your Solar Business: The Complete Guide](/blog/adding-battery-storage-solar-business-australia/)*
 - *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance/)*
-- *[Certificate of Electrical Safety (CES) Victoria: Full Guide for Installers](/blog/certificate-electrical-safety-ces-victoria-guide-2026/)*
+- *[Certificate of Electrical Safety (COES) Victoria: Full Guide for Installers](/blog/certificate-electrical-safety-ces-victoria-guide-2026/)*
 - *[Battery Retrofit Installations: Adding Storage to Existing Solar Systems](/blog/battery-retrofit-installations-existing-solar/)*
 - *Solar Installer Cash Flow Management](/blog/solar-installer-cash-flow-management-australia/)*
 - *[Digital Job Management for Solar Installers](/blog/digital-job-management-solar-installers/)*

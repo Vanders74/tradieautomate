@@ -119,7 +119,7 @@ The most common source of dispute in solar and EV charger jobs is a switchboard 
 
 Under AS/NZS 3000:2018 and state electrical safety legislation, performing new electrical work on a non-compliant installation creates risk for both the customer and the electrician. Key obligations:
 
-- Issue a Certificate of Electrical Safety (CES in VIC) or CCEW (NSW) for the upgrade work, separate from the solar or EV job if different work was performed
+- Issue a Certificate of Electrical Safety (COES in VIC) or CCEW (NSW) for the upgrade work, separate from the solar or EV job if different work was performed
 - The upgrade must be inspected and certified by a licensed electrical inspector where required by state regulations
 - Ensure the new board is correctly labelled — all circuit breakers and RCDs must be identified with the circuit they protect
 
@@ -137,7 +137,7 @@ When a switchboard upgrade is triggered by a solar installation, the most effici
 4. Add solar circuit breaker and AC isolator
 5. Commission solar system
 6. Test and certify the board
-7. Issue CES/CCEW for the upgrade (and separately for the solar installation)
+7. Issue COES/CCEW for the upgrade (and separately for the solar installation)
 8. Notify DNSP with confirmation of network-connected system
 
 Using ServiceM8, you can set up a job template that captures both sets of compliance documentation — switchboard and solar — in a single job with separate checklist items. This prevents documentation gaps that arise when the upgrade is treated as an afterthought.

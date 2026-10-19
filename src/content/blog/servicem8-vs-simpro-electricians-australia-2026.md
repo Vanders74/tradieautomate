@@ -82,7 +82,7 @@ ServiceM8 includes a **pre-built CCEW form** in the job workflow:
 
 No paper, no separate PDF process, no administrative follow-up. The CCEW is part of the natural job completion workflow.
 
-For state compliance in other states (CES in VIC, CEC in SA, EWC in WA), ServiceM8's custom form builder lets you create structured digital compliance forms for any requirement.
+For state compliance in other states (COES in VIC, eCoC in SA, EWC in WA), ServiceM8's custom form builder lets you create structured digital compliance forms for any requirement.
 
 ### simPRO
 

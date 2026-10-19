@@ -150,7 +150,7 @@ Electrical licensing and compliance requirements vary by state. The key obligati
 
 ### New South Wales — SafeWork NSW
 
-- **Certificate of Compliance — Electrical Work (CCEW):** The NSW equivalent of the Victorian CES. Must be issued for most electrical installation work. For full detail on timeframes, categories, and digital workflows, see our [complete CCEW guide for NSW electricians](/blog/ccew-nsw-electrical-compliance-guide-2026/).
+- **Certificate of Compliance — Electrical Work (CCEW):** The NSW equivalent of the Victorian COES. Must be issued for most electrical installation work. For full detail on timeframes, categories, and digital workflows, see our [complete CCEW guide for NSW electricians](/blog/ccew-nsw-electrical-compliance-guide-2026/).
 - **Accredited Service Provider (ASP) requirements:** Work on the network — including solar connection — often requires involvement of an Accredited Service Provider. Know whether your work type requires ASP involvement.
 
 ### Queensland — Electrical Safety Office
@@ -202,7 +202,7 @@ Use this checklist to assess your business's current compliance position across 
 - ☐ Customer handover documentation completed including safety information
 
 ### State Electrical Certificates
-- ☐ CES/CCEW/CoTC issued within required timeframe for all electrical work
+- ☐ COES/CCEW/CoTC issued within required timeframe for all electrical work
 - ☐ Network notification completed where required
 - ☐ Certificates stored against job records in your job management system
 

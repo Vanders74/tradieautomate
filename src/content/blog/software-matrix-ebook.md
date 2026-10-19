@@ -14,16 +14,16 @@ breakdown:
     href: "/blog/servicem8-review-2026"
     hrefLabel: "ServiceM8 review →"
   - title: "Compliance feature audit"
-    summary: "Which platforms support CCEW, CES, and state-specific compliance forms natively."
+    summary: "Which platforms support CCEW, COES, and state-specific compliance forms natively."
   - title: "Migration cost calculator"
     summary: "The true cost of switching — data transfer, training time, and productivity dip."
   - title: "The 14-day test plan"
     summary: "How to trial 3 platforms in parallel and pick the winner in 2 weeks, not 2 months."
 faq:
   - question: "What is the best job management software for a 1-3 person electrical business?"
-    answer: "For small electrical businesses (1-3 staff), ServiceM8 offers the best value at $29–$99/month with unlimited users, CCEW/CES compliance forms, and Xero integration. AroFlo starts at $80/user/month (minimum 3 users = $240/month), making it more expensive at this size. Jobber charges per user ($49/user/month) and lacks Australian compliance form support. SimPRO is designed for 10+ staff businesses and is overkill at this size. The e-book includes a size-by-size recommendation table."
+    answer: "For small electrical businesses (1-3 staff), ServiceM8 offers the best value at $29–$99/month with unlimited users, CCEW/COES compliance forms, and Xero integration. AroFlo starts at $80/user/month (minimum 3 users = $240/month), making it more expensive at this size. Jobber charges per user ($49/user/month) and lacks Australian compliance form support. SimPRO is designed for 10+ staff businesses and is overkill at this size. The e-book includes a size-by-size recommendation table."
   - question: "Does SimPRO support Australian compliance forms?"
-    answer: "SimPRO has a customisable form builder that can be configured for CCEW, CES, and other state-specific compliance forms, but there's no native pre-built template. Setting up compliance forms in SimPRO typically requires 4-8 hours of configuration work. ServiceM8 has native CCEW, CES, and Form 7 templates that work out of the box. The e-book includes a compliance feature comparison table across all four platforms."
+    answer: "SimPRO has a customisable form builder that can be configured for CCEW, COES, and other state-specific compliance forms, but there's no native pre-built template. Setting up compliance forms in SimPRO typically requires 4-8 hours of configuration work. ServiceM8 has native CCEW, COES, and Form 7 templates that work out of the box. The e-book includes a compliance feature comparison table across all four platforms."
   - question: "How long does it take to switch from one job management platform to another?"
     answer: "A full platform migration typically takes 4-8 weeks for an established trade business with historical data, customer records, and integrated workflows. The productivity dip during transition is 2-4 weeks. The e-book includes a migration timeline template and cost calculator that accounts for data transfer, staff training, dual-platform overlap, and the post-migration optimisation period."
   - question: "Which platform has the best Xero integration for Australian tradies?"
@@ -55,7 +55,7 @@ The free **Software Decision Matrix** e-book walks through:
 
 2. **The pricing decoder** — what each platform actually costs at 1, 3, 5, 10, and 15 staff. Including hidden per-user fees, setup costs, and the "premium" tiers that contain the features you actually need.
 
-3. **Compliance feature audit** — which platforms support CCEW, CES, Form 7, and state-specific compliance forms natively, which require custom configuration, and which don't support them at all.
+3. **Compliance feature audit** — which platforms support CCEW, COES, Form 7, and state-specific compliance forms natively, which require custom configuration, and which don't support them at all.
 
 4. **Migration cost calculator** — the real cost of switching platforms, including data transfer time, staff training, productivity dip, and dual-platform overlap period. Most quotes miss these costs by $2k–$5k.
 
@@ -84,11 +84,11 @@ The 18-page guide includes the full comparison matrix, pricing table, compliance
 
 ### What is the best job management software for a 1-3 person electrical business?
 
-For small electrical businesses (1-3 staff), ServiceM8 offers the best value at $29–$99/month with unlimited users, CCEW/CES compliance forms, and Xero integration. AroFlo starts at $80/user/month (minimum 3 users = $240/month), making it more expensive at this size. Jobber charges per user ($49/user/month) and lacks Australian compliance form support. SimPRO is designed for 10+ staff businesses and is overkill at this size. The e-book includes a size-by-size recommendation table.
+For small electrical businesses (1-3 staff), ServiceM8 offers the best value at $29–$99/month with unlimited users, CCEW/COES compliance forms, and Xero integration. AroFlo starts at $80/user/month (minimum 3 users = $240/month), making it more expensive at this size. Jobber charges per user ($49/user/month) and lacks Australian compliance form support. SimPRO is designed for 10+ staff businesses and is overkill at this size. The e-book includes a size-by-size recommendation table.
 
 ### Does SimPRO support Australian compliance forms?
 
-SimPRO has a customisable form builder that can be configured for CCEW, CES, and other state-specific compliance forms, but there's no native pre-built template. Setting up compliance forms in SimPRO typically requires 4-8 hours of configuration work. ServiceM8 has native CCEW, CES, and Form 7 templates that work out of the box. The e-book includes a compliance feature comparison table across all four platforms.
+SimPRO has a customisable form builder that can be configured for CCEW, COES, and other state-specific compliance forms, but there's no native pre-built template. Setting up compliance forms in SimPRO typically requires 4-8 hours of configuration work. ServiceM8 has native CCEW, COES, and Form 7 templates that work out of the box. The e-book includes a compliance feature comparison table across all four platforms.
 
 ### How long does it take to switch from one job management platform to another?
 

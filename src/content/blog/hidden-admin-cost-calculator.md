@@ -19,7 +19,7 @@ faq:
     answer: "No. Sole traders are often proportionally more affected than multi-person businesses, because there's no one to delegate admin to — it all falls on the owner. A sole trader electrician doing 3 hours of admin per evening is effectively working a 55-hour week for a 40-hour revenue base. The ROI on automation for a one-person business is typically among the highest."
 ---
 
-Competition is tough. Materials are expensive. Fuel isn't getting cheaper. But the quiet killer of Australian trade profit margins is none of those things — it's the hours vanishing into unbillable evening paperwork. For electrical contractors, the compliance burden is especially acute: the **Fair Work Act 2009** (enforced by the **Fair Work Ombudsman**) governs award wages, allowances, and record-keeping obligations, while state-based regulators like **Building Commission NSW** and **Energy Safe Victoria** require CCEW and CES documentation for every job — each certificate adding 20–45 minutes of unbillable admin per job if managed manually.
+Competition is tough. Materials are expensive. Fuel isn't getting cheaper. But the quiet killer of Australian trade profit margins is none of those things — it's the hours vanishing into unbillable evening paperwork. For electrical contractors, the compliance burden is especially acute: the **Fair Work Act 2009** (enforced by the **Fair Work Ombudsman**) governs award wages, allowances, and record-keeping obligations, while state-based regulators like **Building Commission NSW** and **Energy Safe Victoria** require CCEW and COES documentation for every job — each certificate adding 20–45 minutes of unbillable admin per job if managed manually.
 
 If you're quoting at 10pm or chasing invoices on Friday afternoons, your business is leaking pure profit. The worst part? Most owners dramatically *underestimate* how much.
 
@@ -74,13 +74,13 @@ These figures are based on typical patterns across Australian sole trader to 10-
 | Admin Task | Hours/Week | Avg Cost at $130/hr | Annual Leak |
 |---|---|---|---|
 | Quoting & follow-up | 4–6 hrs | $650 | $33,800 |
-| CCEW / CES documentation | 2–3 hrs | $325 | $16,900 |
+| CCEW / COES documentation | 2–3 hrs | $325 | $16,900 |
 | Invoicing & payment chasing | 2–3 hrs | $325 | $16,900 |
 | Scheduling & rescheduling | 1.5–2 hrs | $227 | $11,800 |
 | Customer comms & email | 1–2 hrs | $162 | $8,400 |
 | **Total (mid estimate)** | **11–16 hrs** | **$1,495/wk** | **$77,700/yr** |
 
-The compliance load is particularly heavy for electrical contractors. CCEW documentation in NSW, CES certificates in Victoria, AS/NZS 5139 sign-offs for battery installations — each job generates 20–45 minutes of post-job admin if managed manually.
+The compliance load is particularly heavy for electrical contractors. CCEW documentation in NSW, COES certificates in Victoria, AS/NZS 5139 sign-offs for battery installations — each job generates 20–45 minutes of post-job admin if managed manually.
 
 ### Solar Installers (1–5 crew)
 
@@ -180,7 +180,7 @@ Reducing admin overhead doesn't require hiring staff. It requires removing the m
 
 **Quoting:** Technicians build quotes on-site from a pre-configured parts and labour library on their phone. The quote is sent to the customer as a PDF within minutes of the site assessment. No typing up notes at 9pm. No quote that gets delayed because the office was busy.
 
-**Compliance documentation:** Forms, photos, checklists, and compliance certificates are completed at the job site on a tablet before the technician leaves. The compliance record is attached to the job automatically. [CCEW lodgement in NSW](/blog/ccew-nsw-electrical-compliance-guide-2026/), CES certificates in Victoria, AS/NZS 5139 battery sign-offs — all captured as part of the job closeout workflow.
+**Compliance documentation:** Forms, photos, checklists, and compliance certificates are completed at the job site on a tablet before the technician leaves. The compliance record is attached to the job automatically. [CCEW lodgement in NSW](/blog/ccew-nsw-electrical-compliance-guide-2026/), COES certificates in Victoria, AS/NZS 5139 battery sign-offs — all captured as part of the job closeout workflow.
 
 **Invoicing:** Invoices are generated from the job record — materials logged on-site, labour time tracked automatically, variations added during the job. The invoice is sent when the job is closed, not when someone remembers to type it up.
 
@@ -260,7 +260,7 @@ If your current admin overhead is $60,000/year and software cuts it by 60%, you'
 
 **[Start your free 14-day ServiceM8 trial →](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate)**
 
-Sign up through this link and receive our pre-built Australian trade compliance checklists — NSW CCEW, VIC CES, and AS/NZS 5139 battery storage — for free.
+Sign up through this link and receive our pre-built Australian trade compliance checklists — NSW CCEW, VIC COES, and AS/NZS 5139 battery storage — for free.
 
 ---
 

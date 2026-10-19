@@ -70,7 +70,7 @@ An immediate-danger notice may include a direction to de-energise the installati
 **Response deadline:** Specified on notice — typically 7–28 days for major defects, immediate for prohibition notices  
 **Appeal pathway:** Victorian Civil and Administrative Tribunal (VCAT) — file before deadline for automatic stay consideration
 
-ESV issues Certificates of Electrical Safety (CES) compliance as a condition of contractor licensing. Non-compliance with a Compliance Notice is grounds for suspension or cancellation of an Electrical Contractor Licence under s.46 of the *Electricity Safety Act 1998*.
+ESV issues Certificates of Electrical Safety (COES) compliance as a condition of contractor licensing. Non-compliance with a Compliance Notice is grounds for suspension or cancellation of an Electrical Contractor Licence under s.46 of the *Electricity Safety Act 1998*.
 
 ESV Technical Bulletin TB-080 covers RCD requirements and is a common basis for defect notices following AS/NZS 3000:2018 Amendment 2.
 
@@ -203,7 +203,7 @@ Solar PV work generates a disproportionate share of defect notices nationally. T
 
 ### Documentation Failures
 
-A "documentation defect" is still a defect. Missing CCEWs, late CES lodgements, and incomplete test records are issued as notices just as readily as installation defects in some jurisdictions.
+A "documentation defect" is still a defect. Missing CCEWs, late COES lodgements, and incomplete test records are issued as notices just as readily as installation defects in some jurisdictions.
 
 ---
 
@@ -229,7 +229,7 @@ This is where many contractors underdo the paperwork and set themselves up for a
 
 - Photograph the before and after state (timestamped, geo-tagged if possible)
 - Record test results for any testing required as part of the fix
-- If a CCEW, CES, or other compliance document is required for the rectification work itself, issue it
+- If a CCEW, COES, or other compliance document is required for the rectification work itself, issue it
 
 ### Step 5 — Lodge the Response
 
@@ -275,7 +275,7 @@ Before completing any solar job:
 
 - Capture test results digitally on-site, not on paper that lives in the ute
 - Attach geo-tagged photos to the job record before leaving site
-- Issue compliance certificates (CCEW, CES) the same day as job completion, not at end of week
+- Issue compliance certificates (CCEW, COES) the same day as job completion, not at end of week
 - Never estimate or transpose test results — if you can't read a figure, retest it
 
 For appliance-level testing and tagging obligations, see our [Test & Tag AS/NZS 3760 compliance guide](/blog/test-and-tag-asnzs-3760-compliance-guide/).

@@ -124,7 +124,7 @@ The customer interview element surprises many installers. A technically perfect 
 
 The standard is a national framework, but state jurisdictions add their own regulatory layers:
 
-**Victoria:** Battery installations require a Certificate of Electrical Safety (CES). This is issued by a Licensed Electrical Inspector or via approved VSA processes. The CES is also required for Solar Victoria battery rebate claims. See our [full CES guide for Victoria](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) for the complete process.
+**Victoria:** Battery installations require a Certificate of Electrical Safety (COES). This is issued by a Licensed Electrical Inspector or via approved VSA processes. The COES is also required for Solar Victoria battery rebate claims. See our [full COES guide for Victoria](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) for the complete process.
 
 **NSW:** A Certificate of Compliance Electrical Work (CCEW) is required for battery installations under NSW rules — lodged in BCNSW eCert within 7 days of the safety and compliance test. See the [NSW CCEW guide](/blog/ccew-nsw-7-day-deadline-rule/) for the deadline and submission requirements.
 

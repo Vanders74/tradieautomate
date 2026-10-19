@@ -191,7 +191,7 @@ Registration is free. The portal is at [ecert.buildingcommission.nsw.gov.au](htt
 
 **For compliance-heavy electrical businesses:** If you lodge 10+ CCEWs per month, the portal's pre-fill and history features will save hours over the old manual methods. The mandatory transition is actually a workflow improvement — but only if you register and learn the system before you need it for a live job.
 
-> **Working across NSW and VIC?** Victoria's equivalent system is ESV Connect for CES lodgement. See our [CES Victoria complete guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) for the side-by-side comparison of both state portals.
+> **Working across NSW and VIC?** Victoria's equivalent system is ESV Connect for COES lodgement. See our [COES Victoria complete guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) for the side-by-side comparison of both state portals.
 
 ### How to Lodge a CCEW via BCNSW eCert
 
@@ -339,7 +339,7 @@ While photos aren't part of the CCEW itself, Building Commission NSW and DNSPs i
 
 > **When you're ready to sell, the paperwork matters.** Buyers scrutinise compliance history before any trade-business acquisition — so do your CCEW records pass inspection? The free [Trade Business Valuation](/tools/trade-business-valuation/) scores your sale-readiness (compliance included) and estimates your sale range in under five minutes.
 
-- *[Certificate of Electrical Safety (CES) — Complete Guide for Victorian Electricians](/blog/certificate-electrical-safety-ces-victoria-guide-2026/)*
+- *[Certificate of Electrical Safety (COES) — Complete Guide for Victorian Electricians](/blog/certificate-electrical-safety-ces-victoria-guide-2026/)*
 - *[RCD Safety Switch Requirements AS/NZS 3000: Which Type for Each Circuit](/blog/rcd-safety-switch-requirements-as-nzs-3000-electricians-2026/)*
 - *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety/)*
 - *[Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)*

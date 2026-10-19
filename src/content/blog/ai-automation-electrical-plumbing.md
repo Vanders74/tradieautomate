@@ -205,7 +205,7 @@ Being clear about limitations:
 
 **Trade skill.** The licensed electrician or plumber who does the work is irreplaceable. AI can automate the workflow around the work; it can't do the work.
 
-**Compliance sign-off.** The licensed individual who signs the CES or compliance certificate is legally responsible. Automation makes this workflow more accurate and efficient; it doesn't change the accountability.
+**Compliance sign-off.** The licensed individual who signs the COES or compliance certificate is legally responsible. Automation makes this workflow more accurate and efficient; it doesn't change the accountability.
 
 **Complex problem-solving.** Fault-finding, non-standard installations, heritage properties with unusual configurations — these require experienced human judgment that AI currently cannot provide.
 

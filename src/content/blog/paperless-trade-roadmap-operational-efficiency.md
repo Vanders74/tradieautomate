@@ -1,6 +1,6 @@
 ---
 title: 'The Paperless Trade Roadmap: How Solar and Electrical Businesses Eliminate Admin Chaos'
-description: "Replace paper checklists and WhatsApp photos with digital job records that survive a CER audit. AS/NZS 5033:2021 installation documentation, SWMS compliance, and CCEW/CES lodgement — how solar and electrical businesses cut 15-20 admin hours per week while meeting Work Health and Safety Act 2011 and state regulator requirements."
+description: "Replace paper checklists and WhatsApp photos with digital job records that survive a CER audit. AS/NZS 5033:2021 installation documentation, SWMS compliance, and CCEW/COES lodgement — how solar and electrical businesses cut 15-20 admin hours per week while meeting Work Health and Safety Act 2011 and state regulator requirements."
 pubDate: 'May 01 2026'
 updatedDate: 'Jul 19 2026'
 category: "Business Growth"
@@ -78,7 +78,7 @@ For solar and battery installers, this typically means creating:
 - **Post-installation checklist** — System commissioning, STC verification data, safety checks
 - **Customer handover form** — System specification, warranty documentation, monitoring setup, safety briefing sign-off
 
-For electricians, the equivalent forms include the CES template for your state, test record templates, and isolation verification records.
+For electricians, the equivalent forms include the COES template for your state, test record templates, and isolation verification records.
 
 In ServiceM8, you build these forms once. From that point on, every technician in your business uses the same form, in the same sequence, on every job. The system won't let them mark a job complete until the required forms are done.
 

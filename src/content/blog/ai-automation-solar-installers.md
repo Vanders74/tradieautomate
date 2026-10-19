@@ -30,7 +30,7 @@ Solar installation businesses have a specific operational profile that makes the
 
 **High-value, considered purchases.** The average residential solar + battery system runs $10,000–$25,000. Customers research, compare quotes, and take time to decide. AI-powered nurturing sequences — timed follow-ups, education content, objection handling — are more valuable in high-ticket, considered purchase sales than in impulse-buy businesses.
 
-**Documentation-heavy compliance requirements.** Every installation requires the same core documentation: AS/NZS 5033 compliance, STC documentation, CES, customer handover. This is highly repetitive, highly structured work — exactly what AI and automation handles best.
+**Documentation-heavy compliance requirements.** Every installation requires the same core documentation: AS/NZS 5033 compliance, STC documentation, COES, customer handover. This is highly repetitive, highly structured work — exactly what AI and automation handles best.
 
 **Significant lead volume with variable conversion rates.** Solar businesses generate substantial enquiry volume, and the conversion rate from initial enquiry to signed contract is highly variable. The businesses that automate their lead nurturing and follow-up convert at significantly higher rates.
 

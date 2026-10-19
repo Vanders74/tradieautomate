@@ -161,7 +161,7 @@ Track your past solar customers in [ServiceM8](https://www.servicem8.com/?ref=tr
 Heat pump hot water installation involves both plumbing and electrical work. In most states, a licensed plumber is required for the water connections and a licensed electrician for the electrical connection. If your business isn't dual-licensed, establish a reliable plumbing subcontractor relationship before offering heat pump hot water.
 
 Post-installation compliance documentation:
-- Electrical compliance certificate (state-specific — CES in VIC, CCEW in NSW, etc.)
+- Electrical compliance certificate (state-specific — COES in VIC, CCEW in NSW, etc.)
 - Any rebate-program-specific documentation (VEU activity statement, ESS certificate, etc.)
 
 Build these documentation steps into your job completion checklist so they're not skipped.

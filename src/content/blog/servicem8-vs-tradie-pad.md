@@ -84,13 +84,13 @@ This is where the gap between ServiceM8 and TradiePad is most significant for Au
 
 ServiceM8 was built with compliance-heavy trades in mind — electrical, plumbing, solar, gas fitting — where documentation is regulatory requirement, not optional.
 
-**Custom form builder.** Create any compliance form, checklist, or certificate template in ServiceM8. Certificates of Electrical Safety, CES forms for Victorian electricians, plumbing compliance certificates, solar installation checklists, SWMS templates — all can be built as digital forms that field staff complete on-site, before the job is marked done.
+**Custom form builder.** Create any compliance form, checklist, or certificate template in ServiceM8. Certificates of Electrical Safety, COES forms for Victorian electricians, plumbing compliance certificates, solar installation checklists, SWMS templates — all can be built as digital forms that field staff complete on-site, before the job is marked done.
 
 **Enforced completion.** Forms can be set as required. Field staff cannot mark a job complete without completing all required forms. This eliminates the common scenario of paperwork left incomplete because "we'll do it in the morning."
 
 **Photo capture with metadata.** Photos taken through ServiceM8 are attached to the specific job record with timestamp and GPS coordinates. For CER audits, insurance claims, or compliance verification, these photos have documented provenance — tied to a specific job, date, and location, not sitting in a camera roll.
 
-**Certificate generation.** Completed compliance form data can populate PDF certificates that are emailed to the client or stored with the job record. Solar installers commonly use this for CEC handover documentation. Electricians use it for CES generation.
+**Certificate generation.** Completed compliance form data can populate PDF certificates that are emailed to the client or stored with the job record. Solar installers commonly use this for CEC handover documentation. Electricians use it for COES generation.
 
 This compliance infrastructure is what makes ServiceM8 genuinely valuable for Australian electricians, plumbers, solar installers, and other licensed trades.
 

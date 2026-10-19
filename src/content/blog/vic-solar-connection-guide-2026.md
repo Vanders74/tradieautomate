@@ -1,6 +1,6 @@
 ---
 title: 'VIC Solar Connection: 5 Distributors, Export Limits & Flexible Exports'
-description: "Victoria's 5 electricity distributors (AusNet, Powercor, Jemena, CitiPower, United Energy) — who covers your site, the 5kW export limit & CES rules."
+description: "Victoria's 5 electricity distributors (AusNet, Powercor, Jemena, CitiPower, United Energy) — who covers your site, the 5kW export limit & COES rules."
 pubDate: 'Sep 03 2026'
 updatedDate: 'Sep 03 2026'
 accuracyReviewed: '2026-09-03'
@@ -18,10 +18,10 @@ breakdown:
     summary: "CSIP-AUS-ready inverter so the customer can unlock flexible exports later."
     href: "/blog/csip-aus-export-limit-1-5kw-solar"
     hrefLabel: "CSIP-AUS explainer →"
-  - title: "Submit the CES"
+  - title: "Submit the COES"
     summary: "Victoria's Certificate of Electrical Safety, separate from connection approval."
     href: "/blog/certificate-electrical-safety-ces-victoria-guide-2026"
-    hrefLabel: "CES Victoria guide →"
+    hrefLabel: "COES Victoria guide →"
   - title: "Close out"
     summary: "Complete the connection in the portal."
 heroImage: '/hero-vic-solar-connection-guide-2026.jpg'
@@ -32,8 +32,8 @@ faq:
     answer: "Victoria has a uniform 5kW per-phase export limit across all five distributors — unlike NSW where limits differ by network. On a single-phase connection the limit is a 10kW inverter with 5kW export. On a three-phase connection the limit is a 30kW inverter with 15kW export (5kW per phase). Battery inverters count toward the phase inverter limit on CitiPower, Powercor and Jemena networks, but not on United Energy."
   - question: "Are flexible exports available in Victoria?"
     answer: "Yes, and they are rolling out. United Energy launched the first phase of flexible exports from 1 July 2026, allowing dynamic export up to 10kW per phase most of the time. CitiPower and Powercor are rolling out flexible exports across their networks, and AusNet already offers flexible exports (1.5–5kW per phase single, 4.5–15kW three-phase) where the grid is constrained. The full rollout spans the 2026–2031 regulatory period."
-  - question: "Do I need a CES for a Victorian solar installation?"
-    answer: "Yes. Victoria requires a Certificate of Electrical Safety (CES), administered by Energy Safe Victoria (ESV) — not the CCEW used in NSW. The CES is a separate obligation from the distributor connection approval, and both are required. Solar installers must also meet ESV's licensing and prescribed electrical work requirements."
+  - question: "Do I need a COES for a Victorian solar installation?"
+    answer: "Yes. Victoria requires a Certificate of Electrical Safety (COES), administered by Energy Safe Victoria (ESV) — not the CCEW used in NSW. The COES is a separate obligation from the distributor connection approval, and both are required. Solar installers must also meet ESV's licensing and prescribed electrical work requirements."
   - question: "Do Victorian solar systems need to meet AS/NZS 4777?"
     answer: "Yes. All grid-connected inverters in Victoria must meet AS/NZS 4777.1:2024 (installation) and AS/NZS 4777.2:2024 (inverter product requirements), and be on the Clean Energy Council's approved products list. Flexible-exports-ready systems must also use CSIP-AUS compliant, internet-connected inverters."
   - question: "Which distributor covers my suburb?"
@@ -44,7 +44,7 @@ Connecting solar in Victoria means working with **one of five electricity distri
 
 **Victoria has five electricity distributors:** **AusNet Services** (outer northern/eastern suburbs, eastern Victoria), **Powercor** (western suburbs, Geelong, western Victoria), **Jemena** (northern/north-western suburbs), **CitiPower** (Melbourne CBD and inner suburbs), and **United Energy** (southern suburbs, Mornington Peninsula). The distributor — not your retailer — approves the connection and sets the export limit.
 
-This guide is the navigator: who covers what, the uniform export limits, the flexible-exports rollout (live from 1 July 2026), the CES compliance layer, and the mistakes that get applications knocked back.
+This guide is the navigator: who covers what, the uniform export limits, the flexible-exports rollout (live from 1 July 2026), the COES compliance layer, and the mistakes that get applications knocked back.
 
 ---
 
@@ -117,22 +117,22 @@ The exact portal differs by distributor, but the shape is consistent across Vict
 3. **Receive approval** — small systems auto-approve; larger or constrained-area systems go to technical review.
 4. **Install per the approved documents** — the Single Line Diagram you submitted is binding; a deviation requires a new application.
 5. **Commission + register** — the inverter, plus device registration where flexible exports apply.
-6. **Submit the CES** — the Victorian Certificate of Electrical Safety (see below).
+6. **Submit the COES** — the Victorian Certificate of Electrical Safety (see below).
 7. **Close out** — complete the connection in the portal.
 
 The documentation discipline is the same as NSW: an accurate **Single Line Diagram** is binding, and incomplete applications are declined. Five distributors means five portals — confirm which one you're lodging with before you start.
 
 ---
 
-## The Victorian CES: Compliance Is Different Here
+## The Victorian COES: Compliance Is Different Here
 
-Victoria's compliance certificate is **not** the CCEW (that's NSW). It's the **Certificate of Electrical Safety (CES)**, administered by **Energy Safe Victoria (ESV)**.
+Victoria's compliance certificate is **not** the CCEW (that's NSW). It's the **Certificate of Electrical Safety (COES)**, administered by **Energy Safe Victoria (ESV)**.
 
-- The CES is a **separate obligation** from the distributor connection approval — both are required.
+- The COES is a **separate obligation** from the distributor connection approval — both are required.
 - ESV also governs **licensing and prescribed electrical work** for solar installers in Victoria.
 - Solar-specific work triggers prescribed electrical work requirements, including inverter and battery installations.
 
-See the full [CES Victoria guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) for the lodgement process, and the [solar compliance checklist](/blog/solar-compliance-checklist-2026/) for the complete documentation set.
+See the full [COES Victoria guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) for the lodgement process, and the [solar compliance checklist](/blog/solar-compliance-checklist-2026/) for the complete documentation set.
 
 ---
 
@@ -188,20 +188,20 @@ The discipline is identical to solar: confirm the network constraints and distri
 - **Wrong battery-inverter assumption** — assuming the battery inverter doesn't count toward the phase limit on CitiPower, Powercor or Jemena (it does).
 - **Missing or inaccurate Single Line Diagram** — a binding document; deviations require a new application, not a note.
 - **Non-compliant inverter** — not on the CEC approved list, or not meeting AS/NZS 4777:2024.
-- **Missing CES** — the Victorian Certificate of Electrical Safety is separate from the connection approval and mandatory.
+- **Missing COES** — the Victorian Certificate of Electrical Safety is separate from the connection approval and mandatory.
 - **Quoting a flexible-export limit that isn't granted yet** — design CSIP-AUS ready, but quote to the fixed 5kW limit until the customer's network has actually flipped flexible exports on.
 
 ---
 
 ## How ServiceM8 Manages the Victorian Connection Job
 
-Every Victorian connection is a multi-step job across five possible distributor portals, with an approval trail, a CES at the end, and (increasingly) a flexible-exports opt-in — exactly what job-management software is built to handle.
+Every Victorian connection is a multi-step job across five possible distributor portals, with an approval trail, a COES at the end, and (increasingly) a flexible-exports opt-in — exactly what job-management software is built to handle.
 
 A typical solar connection in ServiceM8 runs:
 
-**Lead → Site visit → Quote → Distributor application → Approval tracking → Install → Commission & register → CES → Invoice**
+**Lead → Site visit → Quote → Distributor application → Approval tracking → Install → Commission & register → COES → Invoice**
 
-ServiceM8 lets you attach the distributor approval, track the application against the job, store the CES and compliance photos, and fire the invoice the moment the job closes — so the paperwork doesn't lag the installation. See [ServiceM8 for solar installers](/blog/servicem8-for-solar-installers/), and keep the [solar compliance checklist](/blog/solar-compliance-checklist-2026/) and [CES Victoria guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) close to hand.
+ServiceM8 lets you attach the distributor approval, track the application against the job, store the COES and compliance photos, and fire the invoice the moment the job closes — so the paperwork doesn't lag the installation. See [ServiceM8 for solar installers](/blog/servicem8-for-solar-installers/), and keep the [solar compliance checklist](/blog/solar-compliance-checklist-2026/) and [COES Victoria guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) close to hand.
 
 ---
 
@@ -210,7 +210,7 @@ ServiceM8 lets you attach the distributor approval, track the application agains
 - **Five distributors, one uniform limit:** 5kW per phase (10kW inverter single-phase / 30kW three-phase) across AusNet, Powercor, Jemena, CitiPower and United Energy.
 - **The battery-inverter rule differs:** United Energy excludes it from the phase limit; CitiPower, Powercor and Jemena include it.
 - **Flexible exports are live** — United Energy from 1 July 2026 (up to 10kW), with CitiPower, Powercor and AusNet rolling out through 2031.
-- **The CES is mandatory and separate** from the connection approval (Energy Safe Victoria).
+- **The COES is mandatory and separate** from the connection approval (Energy Safe Victoria).
 - **Inverters must meet AS/NZS 4777:2024** and be on the CEC approved list.
 
 ## Other State Grid Connection Guides
@@ -236,9 +236,9 @@ Victoria has a uniform 5kW per-phase export limit across all five distributors �
 
 Yes, and they are rolling out. United Energy launched the first phase of flexible exports from 1 July 2026, allowing dynamic export up to 10kW per phase most of the time. CitiPower and Powercor are rolling out flexible exports across their networks, and AusNet already offers flexible exports (1.5–5kW per phase single, 4.5–15kW three-phase) where the grid is constrained. The full rollout spans the 2026–2031 regulatory period.
 
-### Do I need a CES for a Victorian solar installation?
+### Do I need a COES for a Victorian solar installation?
 
-Yes. Victoria requires a Certificate of Electrical Safety (CES), administered by Energy Safe Victoria (ESV) — not the CCEW used in NSW. The CES is a separate obligation from the distributor connection approval, and both are required. Solar installers must also meet ESV's licensing and prescribed electrical work requirements.
+Yes. Victoria requires a Certificate of Electrical Safety (COES), administered by Energy Safe Victoria (ESV) — not the CCEW used in NSW. The COES is a separate obligation from the distributor connection approval, and both are required. Solar installers must also meet ESV's licensing and prescribed electrical work requirements.
 
 ### Do Victorian solar systems need to meet AS/NZS 4777?
 

@@ -96,7 +96,7 @@ This is where commercial projects diverge sharply from residential:
 | Protection relay supply and installation | $2,500–$5,500 |
 | Engineering sign-off (100kW+) | $1,500–$4,000 |
 | Metering installation (CT metering, three-phase) | $800–$2,500 |
-| State electrical certificate (CES in VIC, or equivalent) | $200–$500 |
+| State electrical certificate (COES in VIC, or equivalent) | $200–$500 |
 | AS/NZS 5033:2021 commissioning documentation | Staff time, $200–$600 in labour equivalent |
 
 **Total compliance cost (100kW project):** $5,700–$15,600 depending on DNSP, state, and system complexity.

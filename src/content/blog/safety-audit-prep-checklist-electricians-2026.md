@@ -8,7 +8,7 @@ heroImage: '/hero-safety-audit-prep-checklist.jpg'
 tags: ['safety audit', 'SafeWork', 'ESV', 'compliance', 'electrical safety', 'checklist']
 faq:
   - question: "What documents do I need for an electrical safety audit?"
-    answer: "You need: (1) current electrical contractor licence, (2) CCEW/CES certificates for all notifiable work from the past 12 months, (3) AS/NZS 3000 test records for completed installations, (4) safe work method statements (SWMS) for high-risk work, (5) insurance certificates ($5M+ public liability), and (6) worker induction and competency records. Missing any of these is the #1 audit failure trigger."
+    answer: "You need: (1) current electrical contractor licence, (2) CCEW/COES certificates for all notifiable work from the past 12 months, (3) AS/NZS 3000 test records for completed installations, (4) safe work method statements (SWMS) for high-risk work, (5) insurance certificates ($5M+ public liability), and (6) worker induction and competency records. Missing any of these is the #1 audit failure trigger."
   - question: "What triggers a SafeWork NSW electrical audit?"
     answer: "SafeWork NSW audits are triggered by: (1) a notifiable incident or complaint, (2) random industry blitz targeting specific trades (solar installers were targeted in 2025/2026), (3) a previous non-compliance finding requiring follow-up, or (4) a cross-agency referral from Building Commission NSW or a DNSP. Audits can be announced (14 days notice) or unannounced."
   - question: "What are the most common electrical safety audit failures?"
@@ -52,7 +52,7 @@ Three forces are converging in 2026 to make electrical safety audits more freque
 Since January 2026, DNSPs (Ausgrid, Endeavour Energy, Essential Energy, Powercor, Energex, and others) are sharing connection and defect data directly with state regulators. This means:
 
 - A CCEW lodged in BCNSW eCert that doesn't match the DNSP's connection record for the same address triggers an automatic mismatch flag. No human complaint needed.
-- In Victoria, ESV's CES database is cross-referenced against Powercor, Citipower, United Energy, and Jemena connection records monthly. Discrepancies above a 5% threshold for any contractor generate a desk audit automatically.
+- In Victoria, ESV's COES database is cross-referenced against Powercor, Citipower, United Energy, and Jemena connection records monthly. Discrepancies above a 5% threshold for any contractor generate a desk audit automatically.
 - Queensland's Electrical Safety Office (ESO) launched the **Electrical Compliance Data Exchange** in March 2026 — a system that links Energex and Ergon Energy metering data directly to contractor licence records.
 
 **What this means for you:** If your job management system says one thing and your certificate lodgements say another, the regulator will find it without ever leaving their desk. This is why 2026 is seeing a sharp increase in "desk audits" — audits that start with a data review before an inspector ever visits a site.
@@ -62,7 +62,7 @@ Since January 2026, DNSPs (Ausgrid, Endeavour Energy, Essential Energy, Powercor
 The Clean Energy Regulator's 2025 Solar Compliance Blitz audited 1,200+ solar installations and found a 22% non-compliance rate. This triggered a second wave of blitzes in 2026 — this time led by state electrical safety regulators rather than the CER alone:
 
 - **NSW:** Building Commission NSW holds the CCEW compliance record via eCert, and solar and battery work is where lodgement failures show up first — the CCEW is due within 7 days of the work
-- **VIC:** ESV audited 180 solar installation businesses, cross-checking CES certificates against CEC accreditation records
+- **VIC:** ESV audited 180 solar installation businesses, cross-checking COES certificates against CEC accreditation records
 - **QLD:** ESO targeted 200+ solar contractors with an emphasis on battery installations and AS/NZS 5139 compliance
 
 ### Random Industry Blitzes Are Now Routine
@@ -91,7 +91,7 @@ Every electrical safety audit — regardless of the state regulator — follows 
 - Set a calendar reminder 90 days before licence expiry
 - If you hold multiple state licences, create a licence expiry tracker showing all dates on one page
 
-### Category 2: Compliance Certificates (CCEW, CES, CoTC)
+### Category 2: Compliance Certificates (CCEW, COES, CoTC)
 
 **What auditors check:**
 
@@ -106,7 +106,7 @@ Every electrical safety audit — regardless of the state regulator — follows 
 - Use the regulator's portal to download your lodgement history and cross-check against your own records
 - For NSW: all CCEWs from 1 July 2026 must be submitted through BCNSW eCert — handwritten forms and PDFs are no longer accepted
 
-> **Related:** [CCEW NSW Electrical Compliance Guide 2026](/blog/ccew-nsw-electrical-compliance-guide-2026/) — full details on who can issue, 7-day deadline, and $22K penalty. Also see [CES Victoria Compliance Guide 2026](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) for VIC-specific certificate rules.
+> **Related:** [CCEW NSW Electrical Compliance Guide 2026](/blog/ccew-nsw-electrical-compliance-guide-2026/) — full details on who can issue, 7-day deadline, and $22K penalty. Also see [COES Victoria Compliance Guide 2026](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) for VIC-specific certificate rules.
 
 ### Category 3: Test Records & AS/NZS 3000 Documentation
 
@@ -329,14 +329,14 @@ This article covers the core audit framework. But for your van, your office wall
 > **Related articles:**
 > - [Solar Compliance Checklist 2026](/blog/solar-compliance-checklist-2026/) — solar-specific audit requirements, CEC accreditation, and AS/NZS 5033 compliance
 > - [CCEW NSW Electrical Compliance Guide 2026](/blog/ccew-nsw-electrical-compliance-guide-2026/) — NSW CCEW rules, deadlines, and penalty details
-> - [CES Victoria Electrical Safety Certificate Guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) — VIC CES lodgement requirements and audit process
+> - [COES Victoria Electrical Safety Certificate Guide](/blog/certificate-electrical-safety-ces-victoria-guide-2026/) — VIC COES lodgement requirements and audit process
 > - [Electrical Contractor Insurance Australia 2026](/blog/electrical-contractor-insurance-australia-2026/) — coverage minimums and compliance cost breakdown by state
 
 ## Frequently Asked Questions
 
 ### What documents do I need for an electrical safety audit?
 
-You need: (1) current electrical contractor licence, (2) CCEW/CES certificates for all notifiable work from the past 12 months, (3) AS/NZS 3000 test records for completed installations, (4) safe work method statements (SWMS) for high-risk work, (5) insurance certificates ($5M+ public liability), and (6) worker induction and competency records. Missing any of these is the #1 audit failure trigger.
+You need: (1) current electrical contractor licence, (2) CCEW/COES certificates for all notifiable work from the past 12 months, (3) AS/NZS 3000 test records for completed installations, (4) safe work method statements (SWMS) for high-risk work, (5) insurance certificates ($5M+ public liability), and (6) worker induction and competency records. Missing any of these is the #1 audit failure trigger.
 
 ### What triggers a SafeWork NSW electrical audit?
 

@@ -5,7 +5,7 @@ faq:
   - question: "What compliance standards apply to solar installations in Australia in 2026?"
     answer: "The primary standards are AS/NZS 5033 (PV arrays), AS/NZS 3000 (Wiring Rules), and CEC installation guidelines. Battery storage adds AS/NZS 5139:2019. Installers must hold current CEC accreditation and valid state/territory electrical licences."
   - question: "What documentation does the CER require?"
-    answer: "The CER requires a completed STC assignment form signed by the customer, proof of CEC accreditation, Certificate of Electrical Safety (CES), installation photos at key milestones, serial numbers for all components, and documentation confirming installed equipment matches the approved design."
+    answer: "The CER requires a completed STC assignment form signed by the customer, proof of CEC accreditation, Certificate of Electrical Safety (COES), installation photos at key milestones, serial numbers for all components, and documentation confirming installed equipment matches the approved design."
   - question: "How long do I need to keep solar installation records?"
     answer: "Minimum 5 years from the date of installation. This includes STC documentation, checklists, photos, certificates, and customer sign-off documents. Cloud-based [digital job management platforms](/blog/digital-job-management-solar-installers/) handle retention automatically."
   - question: "What are the most common reasons for failing a CER audit?"
@@ -90,7 +90,7 @@ This checklist covers everything you need to have in order **before, during, and
 - ✅ Inverter registered on monitoring platform (if provided) and customer access enabled
 
 ### Paperwork
-- ✅ Certificate of Electrical Safety (CES) completed and lodged with the relevant state electrical safety authority
+- ✅ Certificate of Electrical Safety (COES) completed and lodged with the relevant state electrical safety authority
 - ✅ CEC installation details submitted within required timeframe (typically within 10 business days)
 - ✅ STC assignment form completed and signed by customer **on the day of installation**
 - ✅ Grid connection confirmation received from DNSP (export limiting settings confirmed if required)
@@ -124,7 +124,7 @@ See our full guide to [AS/NZS 5139 battery storage compliance](/blog/as-nzs-5139
 
 ## State-Specific Considerations
 
-Compliance in Australia isn't fully uniform — each state and territory has its own electrical licensing requirements, Certificate of Electrical Safety (CES) lodgement processes, and in some cases specific rules around metering and grid connection:
+Compliance in Australia isn't fully uniform — each state and territory has its own electrical licensing requirements, Certificate of Electrical Safety (COES) lodgement processes, and in some cases specific rules around metering and grid connection:
 
 - **NSW** — Building Commission NSW requires CCEW lodgement through BCNSW eCert no later than 7 days after the safety and compliance test. See our full [NSW electrical compliance guide](/blog/ccew-nsw-electrical-compliance-guide-2026/).
 - **VIC** — Energy Safe Victoria has specific requirements around solar design documentation and export limiting. The [VIC Solar Homes battery rebate program](/blog/vic-solar-homes-program-rebate-2026/) adds registration and reporting obligations for participating installers. Victorian electricians installing heat pump hot water systems should also understand the [VEU program](/blog/victorian-energy-upgrades-veu-electricians-guide-2026/) — VEECs operate alongside STCs with their own accreditation and documentation requirements.
@@ -196,7 +196,7 @@ The primary standards are AS/NZS 5033 (PV arrays), AS/NZS 3000 (Wiring Rules), a
 
 **What documentation does the CER require?**
 
-The CER requires a completed STC assignment form signed by the customer, proof of CEC accreditation, Certificate of Electrical Safety (CES), installation photos at key milestones, serial numbers for all components, and documentation confirming installed equipment matches the approved design.
+The CER requires a completed STC assignment form signed by the customer, proof of CEC accreditation, Certificate of Electrical Safety (COES), installation photos at key milestones, serial numbers for all components, and documentation confirming installed equipment matches the approved design.
 
 **How long do I need to keep solar installation records?**
 
@@ -252,7 +252,7 @@ Yes. [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance/) has specific r
 ## FAQ
 
 ### What compliance documents are required for a solar installation in Australia?
-A standard residential solar installation in Australia requires: (1) a Certificate of Compliance for Electrical Work (CCEW in NSW) or equivalent state certificate (CES in VIC, CCEW in QLD), issued within 7 days of completion; (2) STC lodgement with the Clean Energy Regulator (CER) for the applicable zone and system size; (3) geo-tagged installation photos meeting CER requirements for audit purposes; (4) customer STC assignment declaration; and (5) DNSP network notification where required. Battery installs additionally require AS/NZS 5139 documentation.
+A standard residential solar installation in Australia requires: (1) a Certificate of Compliance for Electrical Work (CCEW in NSW) or equivalent state certificate (COES in VIC, CCEW in QLD), issued within 7 days of completion; (2) STC lodgement with the Clean Energy Regulator (CER) for the applicable zone and system size; (3) geo-tagged installation photos meeting CER requirements for audit purposes; (4) customer STC assignment declaration; and (5) DNSP network notification where required. Battery installs additionally require AS/NZS 5139 documentation.
 
 ### What does the Clean Energy Regulator audit during a solar inspection?
 CER audits assess whether installations comply with the requirements of the Renewable Energy (Electricity) Act 2000 and the Small-scale Renewable Energy Scheme. Auditors check: CEC accreditation currency for the installing electrician, STC lodgement accuracy (system size, location, STC quantity), geo-tagged photo documentation showing panel layout and labelling, inverter and panel model compliance with the approved product list, AS/NZS 5033 adherence for DC wiring, and proper labelling of AC/DC isolators. The most common audit failure points are inaccurate STC calculations and missing or low-quality geo-tagged photos.
@@ -261,7 +261,7 @@ CER audits assess whether installations comply with the requirements of the Rene
 The primary standards for Australian solar installations are: AS/NZS 5033 (Installation and Safety Requirements for PV Arrays — DC wiring, isolators, labelling), AS/NZS 4777.1 and 4777.2 (Grid Connection of Energy Systems — inverter requirements and installation), and for battery storage, AS/NZS 5139 (Electrical Installations — Safety of Battery Systems). Compliance with AS/NZS 3000 Wiring Rules is also required for all AC electrical work. These standards are referenced in CER audit assessments and in state compliance certificates.
 
 ### How do I prepare for a CER audit as a solar installer?
-The best preparation is maintaining a complete job file for every installation. This should include: a copy of the signed customer STC assignment form, CEC accreditation certificate (current), geo-tagged photos of the installation (roof layout, inverter, meter board, labelling), the compliance certificate (CCEW/CES), the DNSP notification (if applicable), the inverter and panel data sheets confirming they're on the approved product list, and your AS/NZS 5033 site assessment notes. Using a digital job management system like ServiceM8 to capture and store all of this per-job means you can produce the full audit file in minutes if contacted by the CER.
+The best preparation is maintaining a complete job file for every installation. This should include: a copy of the signed customer STC assignment form, CEC accreditation certificate (current), geo-tagged photos of the installation (roof layout, inverter, meter board, labelling), the compliance certificate (CCEW/COES), the DNSP notification (if applicable), the inverter and panel data sheets confirming they're on the approved product list, and your AS/NZS 5033 site assessment notes. Using a digital job management system like ServiceM8 to capture and store all of this per-job means you can produce the full audit file in minutes if contacted by the CER.
 
 ### What happens if my solar installation fails a CER audit?
 CER audit failures can result in: revocation of STC certificates (meaning you or your customer loses the rebate), requirement to rectify the installation at your cost, suspension or revocation of your CEC accreditation (preventing future STC claims), and referral to state electrical safety regulators. Serious or repeated breaches can result in criminal penalties under the Renewable Energy (Electricity) Act 2000. The most common outcome of a minor first-time audit failure is a rectification notice — but accreditation suspension is a real risk for documentation or installation deficiencies.

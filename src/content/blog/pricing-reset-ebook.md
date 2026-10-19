@@ -10,9 +10,9 @@ breakdown:
   - title: "The hourly trap"
     summary: "Why billing by the hour caps your income at ~$180k and how to escape it."
   - title: "Compliance premium"
-    summary: "The 30-50% margin most electricians leave on the table on CES/CCEW jobs."
+    summary: "The 30-50% margin most electricians leave on the table on COES/CCEW jobs."
     href: "/blog/certificate-electrical-safety-ces-victoria-guide-2026"
-    hrefLabel: "CES pricing →"
+    hrefLabel: "COES pricing →"
   - title: "Switchboard upcharge framework"
     summary: "How to quote $3,500+ switchboard upgrades without losing the job to a cheaper sparkie."
   - title: "The 5-job pricing audit"
@@ -23,7 +23,7 @@ faq:
   - question: "What is value-based pricing for electricians?"
     answer: "Value-based pricing means charging based on the outcome delivered to the customer rather than the time spent. For an electrical contractor, this means quoting a switchboard upgrade at $3,500–$6,000 because it enables the customer's solar or EV installation — not because it takes 8 hours. The materials and labour are the floor, not the ceiling, of the price. The e-book includes a 5-step framework for switching from hourly to value-based pricing without losing customers."
   - question: "What is the compliance premium?"
-    answer: "The compliance premium is the additional margin electrical contractors can and should charge for work that requires a Certificate of Electrical Safety (CES) or CCEW. Customers paying $12k–$18k for a solar installation expect the compliance paperwork as part of the job — they don't price-shop the CES component. Yet most electricians price CES/CCEW work the same as uncertified work, leaving 30-50% margin on the table."
+    answer: "The compliance premium is the additional margin electrical contractors can and should charge for work that requires a Certificate of Electrical Safety (COES) or CCEW. Customers paying $12k–$18k for a solar installation expect the compliance paperwork as part of the job — they don't price-shop the COES component. Yet most electricians price COES/CCEW work the same as uncertified work, leaving 30-50% margin on the table."
   - question: "Is value-based pricing legal for electrical contractors?"
     answer: "Yes. There is no Australian regulation that requires electricians to charge by the hour. Fixed-price quoting based on scope of work is standard practice across the industry. The key is being transparent about what's included and having a clear variation process for scope changes. The e-book covers the regulatory framework around fixed-price electrical quoting in each state."
   - question: "How do I raise prices without losing customers?"
@@ -46,7 +46,7 @@ The e-book focuses on three specific pricing gaps that apply to virtually every 
 
 **1. The Compliance Premium**
 
-When a customer is paying $15k for a solar installation, the $39.04 CES lodgement fee isn't the price anchor — the $15k is. The compliance work that wraps around the installation — CES documentation, DNSP notification, design compliance sign-off — is work you already do but don't separately value. The e-book shows how to price compliance-explicit work at 40-60% margin rather than the 20-25% most sparkies achieve on hourly billing.
+When a customer is paying $15k for a solar installation, the $39.70 COES form fee isn't the price anchor — the $15k is. The compliance work that wraps around the installation — COES documentation, DNSP notification, design compliance sign-off — is work you already do but don't separately value. The e-book shows how to price compliance-explicit work at 40-60% margin rather than the 20-25% most sparkies achieve on hourly billing.
 
 **2. The Switchboard Upcharge**
 
@@ -83,7 +83,7 @@ Value-based pricing means charging based on the outcome delivered to the custome
 
 ### What is the compliance premium?
 
-The compliance premium is the additional margin electrical contractors can and should charge for work that requires a Certificate of Electrical Safety (CES) or CCEW. Customers paying $12k–$18k for a solar installation expect the compliance paperwork as part of the job — they don't price-shop the CES component. Yet most electricians price CES/CCEW work the same as uncertified work, leaving 30-50% margin on the table.
+The compliance premium is the additional margin electrical contractors can and should charge for work that requires a Certificate of Electrical Safety (COES) or CCEW. Customers paying $12k–$18k for a solar installation expect the compliance paperwork as part of the job — they don't price-shop the COES component. Yet most electricians price COES/CCEW work the same as uncertified work, leaving 30-50% margin on the table.
 
 ### Is value-based pricing legal for electrical contractors?
 
