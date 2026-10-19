@@ -1,6 +1,6 @@
 ---
 title: 'Best Job Management Software for Electricians Australia 2026'
-description: "Best job management software for electricians in Australia 2026: what ServiceM8's $29 plan really covers, and what Tradify, simPRO, AroFlo and Fergus cost per user."
+description: "Best job management software for electricians Australia 2026: what ServiceM8's $29 plan covers, and what Tradify, simPRO, AroFlo and Fergus cost per user."
 updatedDate: 'Oct 19 2026'
 pubDate: 'Apr 14 2026'
 category: "Software Comparisons"
@@ -30,7 +30,7 @@ This guide compares the five most widely used platforms for Australian electrici
 
 Generic business software doesn't cut it for electrical contractors. Here's what actually matters:
 
-**Compliance documentation built in.** Electrical work in Australia carries strict documentation requirements — a certificate of compliance for every job, named and lodged differently in each state (CCEW via eCert in NSW, CES in Victoria, a certificate of testing and compliance in Queensland, eCoC in SA), plus test and inspection records and AS/NZS standards compliance. Your software needs to handle this, not just store photos.
+**Compliance documentation built in.** Electrical work in Australia carries strict documentation requirements — a certificate of compliance for every job, named and lodged differently in each state (CCEW via eCert in NSW, COES in Victoria, a certificate of testing and compliance in Queensland, eCoC in SA), plus test and inspection records and AS/NZS standards compliance. Your software needs to handle this, not just store photos.
 
 **Mobile-first field experience.** Your team is on-site, not at a desk. The mobile app needs to be fast, reliable, and functional offline — because job sites don't always have reception.
 
@@ -244,7 +244,7 @@ One complexity that Australian electricians face — and that your job managemen
 | NSW | Building Commission NSW | Certificate of Compliance for Electrical Work (CCEW) | Under the Gas and Electricity (Consumer Safety) Act 2017. Must be lodged via the BCNSW eCert portal within **7 days** of the safety and compliance test; from 1 July 2026 eCert (or an approved API) is the only accepted channel — no PDFs, no carbon books |
 | VIC | Energy Safe Victoria | Certificate of Electrical Safety (COES) | **Prescribed** work (switchboards, consumer mains, main earthing, solar and battery): certificate signed within **4 business days** of completing the work, electronic notification to ESV within **2 business days** of signing, independent Licensed Electrical Inspector inspection within **8 business days**, copies to the customer, ESV and the distribution business within **4 business days of the inspector returning the completed COES** (the inspector has 4 business days after the inspection to return it). **Non-prescribed** work: copy to the customer within one month |
 | QLD | Electrical Safety Office (WorkSafe QLD) | Certificate of testing and compliance | Required for prescribed electrical work under the Electrical Safety Regulation 2013 — it is not a "Form 7" |
-| SA | Office of the Technical Regulator (within CBS) | electronic Certificate of Compliance (eCoC) | Required after **any** electrical work, not just notifiable work; prepared and lodged via ecoc.otr.sa.gov.au, with penalties up to $5,000 under s61 of the Electricity Act 1996 |
+| SA | Office of the Technical Regulator (within CBS) | electronic Certificate of Compliance (eCoC) | Required after **any** electrical work, not just notifiable work; prepared and lodged via ecoc.otr.sa.gov.au, with a maximum penalty under s61 of the Electricity Act 1996 of $50,000 for a body corporate or $10,000 otherwise, and an expiation fee of $315 |
 | WA | Building and Energy (EnergySafety) | Electrical Safety Certificate | Under Electricity (Licensing) Regulations 1991 reg 52B, delivered within **28 days**, lodged via eNotice. Not required for maintenance work or like-for-like replacement |
 | TAS | CBOS (Consumer, Building and Occupational Services) | Certificate of Electrical Compliance (CEC) | Lodged with TechSafe Australia within **3 days** of the work being energised, for notifiable electrical work. WorkSafe Tasmania handles WHS and licensing, not certificates |
 | ACT | Access Canberra Electrical Inspectorate | Certificate of Electrical Safety (CES) | Lodged with Access Canberra; new installations cannot be energised until they pass an Access Canberra electrical audit |
