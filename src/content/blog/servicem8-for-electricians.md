@@ -13,7 +13,7 @@ faq:
   - question: "Is ServiceM8 better than Tradify for electricians?"
     answer: "On price, for a team, clearly yes: ServiceM8 Growing is $79/mo flat with unlimited users, where Tradify is per user — Lite $48, Pro $52, Plus $62 per user per month ex GST, so five seats is $240–$310 a month. On features the gap is narrower than it used to be, because Tradify's Pro tier bundles compliance certificates and health-and-safety forms. The practical difference for an Australian electrician is the form builder that turns your own Word template into a per-jurisdiction certificate, plus a flat bill that doesn't rise with every apprentice."
   - question: "Does ServiceM8 work for solar and electrical combined businesses?"
-    answer: "Yes, and the compliance paperwork is where it earns its keep. Separate job templates and form sets for electrical and solar work can live in the same account — STC assignment details, AS/NZS 5033 and AS/NZS 5139 checklist items, DNSP notification records and install photos, all attached to the job. One correction worth knowing: solar installer accreditation has been run by Solar Accreditation Australia (SAA) since 29 May 2024, not the Clean Energy Council — the CEC still maintains the approved product lists, so both names appear on a compliant install file."
+    answer: "Yes, and the compliance paperwork is where it earns its keep. Separate job templates and form sets for electrical and solar work can live in the same account — STC assignment details, AS/NZS 5033 and AS/NZS 5139 checklist items, DNSP notification records and install photos, all attached to the job. One correction worth knowing: solar installer accreditation has been run by Solar Accreditation Australia (SAA) since 29 February 2024, not the Clean Energy Council — CEC accreditation numbers stopped being valid for STC claims after 29 May 2024, and the CEC now only maintains the approved product lists, so both names appear on a compliant install file."
   - question: "What accounting software does ServiceM8 connect to?"
     answer: "ServiceM8 integrates with three accounting packages: Xero, MYOB Business (AU/NZ) and QuickBooks Online. The integration is bidirectional: invoices sync to your accounting file when approved, payment status flows back, and client and item records created in the accounting file sync into ServiceM8 within about 30 minutes."
 ---
@@ -218,7 +218,7 @@ For the majority of Australian electrical businesses — residential, solar, and
 
 Staff are unlimited from Starter up — only the job volume and feature gates change. International and Amex cards cost 3.70% + 30c on every plan.
 
-For a 5-person electrical team doing 80 jobs a month, ServiceM8 Growing at $79 covers the job volume and the form builder. The same five seats cost far more on per-user rivals: Tradify is $48 (Lite), $52 (Pro) or $62 (Plus) per user per month ex GST, so five seats is $240–$310; Fergus is $53 (Basic) or $75 (Pro) per user, so $265–$375. That is $186–$296 a month — roughly $2,200–$3,550 a year — before SMS or add-ons, and it is the single biggest cost difference between these products for an electrical contractor.
+For a 5-person electrical team doing 80 jobs a month, ServiceM8 Growing at $79 covers the job volume and the form builder. The same five seats cost far more on per-user rivals: Tradify is $48 (Lite), $52 (Pro) or $62 (Plus) per user per month ex GST, so five seats is $240–$310; Fergus is $53 (Basic) or $75 (Professional) per user, so $265–$375. That is $161–$231 a month more than ServiceM8 on Tradify, or $186–$296 more on Fergus — roughly $1,930–$3,550 a year — before SMS or add-ons, and it is the single biggest cost difference between these products for an electrical contractor.
 
 A 14-day free trial with full feature access is available. No credit card required.
 
@@ -276,7 +276,7 @@ On price, for a team, clearly yes: ServiceM8 Growing is $79/mo flat with unlimit
 
 ### Does ServiceM8 work for solar and electrical combined businesses?
 
-Yes, and the compliance paperwork is where it earns its keep. Separate job templates and form sets for electrical and solar work can live in the same account — STC assignment details, AS/NZS 5033 and AS/NZS 5139 checklist items, DNSP notification records and install photos, all attached to the job. One correction worth knowing: solar installer accreditation has been run by Solar Accreditation Australia (SAA) since 29 May 2024, not the Clean Energy Council — the CEC still maintains the approved product lists, so both names appear on a compliant install file.
+Yes, and the compliance paperwork is where it earns its keep. Separate job templates and form sets for electrical and solar work can live in the same account — STC assignment details, AS/NZS 5033 and AS/NZS 5139 checklist items, DNSP notification records and install photos, all attached to the job. One correction worth knowing: solar installer accreditation has been run by Solar Accreditation Australia (SAA) since 29 February 2024, not the Clean Energy Council — CEC accreditation numbers stopped being valid for STC claims after 29 May 2024, and the CEC now only maintains the approved product lists, so both names appear on a compliant install file.
 
 ### What accounting software does ServiceM8 connect to?
 
