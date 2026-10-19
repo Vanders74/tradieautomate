@@ -29,6 +29,16 @@ This deep-dive breaks down every ServiceM8 plan, every add-on, every hidden cost
 
 ---
 
+<div class="tool-cta-box">
+  <div class="tc-inner">
+    <div class="tc-text">
+      <strong class="tc-title">📈 What's your trade business actually worth?</strong>
+      <p class="tc-body">Software is a margin decision and a sale-readiness decision. Free 12-question Sellability Scorecard grades your business across 8 value drivers and estimates what it would sell for. No email required.</p>
+    </div>
+    <a href="/tools/trade-business-valuation/" class="tc-link">Value My Business →</a>
+  </div>
+</div>
+
 ## The 30-Second Verdict
 
 **Buy ServiceM8 if:** You run a team of 2+ field staff and want one flat monthly price with unlimited users. The plan price you see is the price you pay — no per-user multipliers, no seat maths as you hire. For Australian compliance-heavy trades (electrical, solar, HVAC), the Forms add-on turns a CCEW or a safety checklist into a PDF attached to the job — from the Form Store on any plan, or built yourself from Growing upward.

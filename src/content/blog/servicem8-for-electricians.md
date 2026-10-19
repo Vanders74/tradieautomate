@@ -28,6 +28,16 @@ Most electricians manage this across a mix of paper forms, WhatsApp, and a sprea
 
 ---
 
+<div class="tool-cta-box">
+  <div class="tc-inner">
+    <div class="tc-text">
+      <strong class="tc-title">📈 What's your trade business actually worth?</strong>
+      <p class="tc-body">Systems like ServiceM8 are what make an electrical business sellable without the owner in the van. Free 12-question Sellability Scorecard grades yours across 8 value drivers and estimates your sale range. No email required.</p>
+    </div>
+    <a href="/tools/trade-business-valuation/" class="tc-link">Value My Business →</a>
+  </div>
+</div>
+
 ## What Is ServiceM8?
 
 ServiceM8 is a cloud-based job management platform built in Australia, designed for trade and field service businesses. It's been adopted widely across the Australian electrical industry because it addresses exactly what electricians need:

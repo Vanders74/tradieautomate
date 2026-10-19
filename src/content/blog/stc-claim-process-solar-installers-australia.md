@@ -54,6 +54,16 @@ This guide walks through the complete STC process: eligibility, calculation, cus
 
 ---
 
+<div class="tool-cta-box">
+  <div class="tc-inner">
+    <div class="tc-text">
+      <strong class="tc-title">💸 What rebates can you claim on this job?</strong>
+      <p class="tc-body">STCs are only one stack. Free Rebate Finder maps every state and federal rebate available on a solar or battery job — updated weekly against regulator sources, so you quote the right number first time.</p>
+    </div>
+    <a href="/tools/rebate-finder/" class="tc-link">Find Rebates →</a>
+  </div>
+</div>
+
 ## What Are STCs and How Do They Work?
 
 Under the Small-scale Renewable Energy Scheme (SRES), eligible solar PV, solar hot water, and small-scale wind systems create Small-scale Technology Certificates. Each certificate represents 1 megawatt hour of renewable energy the system is expected to generate (or displace) over its deeming period.

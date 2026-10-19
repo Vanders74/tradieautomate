@@ -25,6 +25,16 @@ This review gives you an honest assessment of what AroFlo does well, where it fa
 
 ---
 
+<div class="tool-cta-box">
+  <div class="tc-inner">
+    <div class="tc-text">
+      <strong class="tc-title">📈 What's your trade business actually worth?</strong>
+      <p class="tc-body">The right system for your trade is also what makes the business sellable later. Free 12-question Sellability Scorecard grades your exit readiness across 8 value drivers and estimates your sale range. No email required.</p>
+    </div>
+    <a href="/tools/trade-business-valuation/" class="tc-link">Value My Business →</a>
+  </div>
+</div>
+
 ## What AroFlo Is Built For
 
 AroFlo's design centres on two capabilities that distinguish it from simpler platforms:

@@ -27,6 +27,16 @@ This guide covers where the projects actually are, what work is accessible at wh
 
 ---
 
+<div class="tool-cta-box">
+  <div class="tc-inner">
+    <div class="tc-text">
+      <strong class="tc-title">📈 What's your trade business actually worth?</strong>
+      <p class="tc-body">Data centre work is the fastest way to make a trade business acquirable — but only if the revenue is contracted and systemised. Free 12-question Sellability Scorecard grades your exit readiness across 8 value drivers in under 5 minutes. No email required.</p>
+    </div>
+    <a href="/tools/trade-business-valuation/" class="tc-link">Value My Business →</a>
+  </div>
+</div>
+
 ## The Numbers That Matter
 
 **$21.6B** — data centre construction underway nationally, July 2026 (RLB)

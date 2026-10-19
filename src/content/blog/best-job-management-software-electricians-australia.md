@@ -26,6 +26,16 @@ This guide compares the five most widely used electrical job management software
 
 ---
 
+<div class="tool-cta-box">
+  <div class="tc-inner">
+    <div class="tc-text">
+      <strong class="tc-title">📈 What's your trade business actually worth?</strong>
+      <p class="tc-body">The software you pick either builds a sellable business or locks you into the owner's chair. Free 12-question Sellability Scorecard grades your exit readiness across 8 value drivers and estimates your sale range. No email required.</p>
+    </div>
+    <a href="/tools/trade-business-valuation/" class="tc-link">Value My Business →</a>
+  </div>
+</div>
+
 ## What Electrical Job Management Software Has to Do
 
 Generic business software doesn't cut it for electrical contractors. Here's what actually matters:

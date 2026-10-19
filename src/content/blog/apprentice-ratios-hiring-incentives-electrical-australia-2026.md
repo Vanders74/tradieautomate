@@ -28,6 +28,16 @@ This guide maps each state's actual supervision ratios, the federal incentives a
 
 ---
 
+<div class="tool-cta-box">
+  <div class="tc-inner">
+    <div class="tc-text">
+      <strong class="tc-title">📈 What's your trade business actually worth?</strong>
+      <p class="tc-body">Adding apprentices builds capacity — and enterprise value, if the systems hold. Free 12-question Sellability Scorecard grades your exit readiness across 8 value drivers and estimates your sale range. No email required.</p>
+    </div>
+    <a href="/tools/trade-business-valuation/" class="tc-link">Value My Business →</a>
+  </div>
+</div>
+
 ## Why Ratios Exist — and Who Enforces Them
 
 Apprentice supervision ratios exist because an apprentice working without adequate supervision is a safety risk in a licensed trade — and the completion data backs that up. NCVER's 2025 completion study puts the six-year completion rate for electricians at **71.7%**, the best of the ten biggest trades, but four-year attrition across trade apprenticeships in the 2021 commencing cohort was **42.1%**, the highest on record. Read those two numbers together and the story is retention over time, not mass walkout: a lot of the apparent loss is apprentices still training at the four-year mark, and the ones who leave mostly leave early.

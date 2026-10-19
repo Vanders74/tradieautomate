@@ -42,6 +42,16 @@ For an electrical contractor doing 20 jobs per month at an average job value of 
 
 ---
 
+<div class="tool-cta-box">
+  <div class="tc-inner">
+    <div class="tc-text">
+      <strong class="tc-title">📈 What's your trade business actually worth?</strong>
+      <p class="tc-body">A quoting-to-payment workflow you can hand over is worth real money at sale. Free 12-question Sellability Scorecard grades your exit readiness across 8 value drivers and estimates your sale range. No email required.</p>
+    </div>
+    <a href="/tools/trade-business-valuation/" class="tc-link">Value My Business →</a>
+  </div>
+</div>
+
 ## The 7-Step Quoting-to-Payment Workflow
 
 ### Step 1: Create the Quote On-Site

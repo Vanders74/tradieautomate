@@ -44,6 +44,16 @@ This guide covers the complete REC registration process for 2026: what it is, wh
 
 ---
 
+<div class="tool-cta-box">
+  <div class="tc-inner">
+    <div class="tc-text">
+      <strong class="tc-title">📈 What's your trade business actually worth?</strong>
+      <p class="tc-body">Licensed and established in Victoria? Find out what the business behind the licence is worth. Free 12-question Sellability Scorecard grades your exit readiness across 8 value drivers and estimates your sale range. No email required.</p>
+    </div>
+    <a href="/tools/trade-business-valuation/" class="tc-link">Value My Business →</a>
+  </div>
+</div>
+
 ## Energy Safe Victoria — Victoria's Electrical Safety Regulator
 
 Energy Safe Victoria (ESV) is the independent statutory authority responsible for electrical and gas safety in Victoria. It operates under the *Electricity Safety Act 1998 (Vic)* and the *Gas Safety Act 1997 (Vic)*, and issues licences, registers contractors, sets safety standards, and enforces compliance.

@@ -54,6 +54,16 @@ This article cuts through the confusion. Here is exactly when a CCEW is legally 
 
 ---
 
+<div class="tool-cta-box">
+  <div class="tc-inner">
+    <div class="tc-text">
+      <strong class="tc-title">💸 What rebates can you claim on this job?</strong>
+      <p class="tc-body">Miss the CCEW deadline and the job still has to be fixed. Free Rebate Finder shows the current state and federal incentives on switchboard, solar, battery and heat pump work — checked weekly against regulator sources.</p>
+    </div>
+    <a href="/tools/rebate-finder/" class="tc-link">Find Rebates →</a>
+  </div>
+</div>
+
 ## What Is a CCEW?
 
 A Certificate of Compliance Electrical Work (CCEW) is the certificate required by the *Gas and Electricity (Consumer Safety) Act 2017 (NSW)* and the *Gas and Electricity (Consumer Safety) Regulation 2018 (NSW)*. It certifies that a safety and compliance test was carried out on the electrical installation work in accordance with the Australian/New Zealand Wiring Rules (AS/NZS 3000) and the other requirements of the Regulation.

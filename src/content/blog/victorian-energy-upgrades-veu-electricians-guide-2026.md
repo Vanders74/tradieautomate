@@ -35,6 +35,16 @@ This guide explains how the VEU program works for electricians — who can parti
 
 ---
 
+<div class="tool-cta-box">
+  <div class="tc-inner">
+    <div class="tc-text">
+      <strong class="tc-title">💸 What rebates can you claim on this job?</strong>
+      <p class="tc-body">VEU certificates stack with federal and state programs. Free Rebate Finder shows every rebate available on a heat pump, solar or battery job in your state — checked weekly against regulator sources.</p>
+    </div>
+    <a href="/tools/rebate-finder/" class="tc-link">Find Rebates →</a>
+  </div>
+</div>
+
 ## How the VEU Program Works
 
 The VEU program creates a market-based mechanism for reducing energy consumption across Victoria. Established under the **Victorian Energy Efficiency Target Act 2007**, with eligible activities defined in the **Victorian Energy Upgrades Specifications 2018** and the VEET Regulations, the scheme obligates electricity and gas retailers with a liability under the program to surrender VEECs each year to meet targets set by the government. They buy VEECs from the entities that create them. The program is legislated to continue until 2045.
