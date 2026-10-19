@@ -1,8 +1,8 @@
 ---
 title: "SA Electrical Contractor Licence 2026: Fees, eCoC & CBS Rules"
-description: "SA electrical contractor licence 2026: $779 new, $504 a year renewal, worker registration $617 then $342 every 3 years. CBS requirements, eCoC on every job, SAA solar rules."
+description: "SA electrical contractor licence: $779 new, $504 a year to renew, worker registration $617 then $342 every 3 years. CBS rules, eCoC on every job."
 pubDate: 'Jul 19 2026'
-updatedDate: '2026-10-18'
+updatedDate: '2026-10-19'
 category: "Compliance"
 breakdown:
   - title: "Hold the worker registration"
@@ -35,7 +35,7 @@ faq:
   - question: "What insurance is required for an SA electrical contractor?"
     answer: "CBS does not prescribe a public liability minimum as a condition of the PGE licence. In practice every commercial client, head contractor and strata manager will ask for a certificate of currency, and $5 million is the usual floor with $10–20 million common on commercial and solar work. Workers compensation through ReturnToWorkSA is a separate, mandatory obligation for any business that employs people."
   - question: "What happens if I carry out electrical work in SA without a current licence?"
-    answer: "Contracting for electrical work without a current CBS PGE contractor licence, or performing it without a current worker registration, is an offence under the *Plumbers, Gas Fitters and Electricians Act 1995* (SA), and it voids your insurance position on the work. Separately, failing to issue an eCoC after electrical work carries penalties of up to $5,000 under section 61 of the *Electricity Act 1996*. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling."
+    answer: "Contracting for electrical work without a current CBS PGE contractor licence, or performing it without a current worker registration, is an offence under the *Plumbers, Gas Fitters and Electricians Act 1995* (SA), and it voids your insurance position on the work. Separately, failing to issue an eCoC after electrical work is an offence under section 61 of the *Electricity Act 1996*, carrying a maximum penalty of $10,000 for an individual and $50,000 for a body corporate, with an expiation fee of $315."
 ---
 
 If you're running an electrical contracting business in South Australia — whether residential solar, commercial installation, EV charger fit-outs, or general maintenance work — understanding the licensing framework is essential before you take a job. Unlike some states where a single agency handles everything, South Australia has a dual-body structure: Consumer and Business Services (CBS) issues the occupational licences, while the Office of the Technical Regulator (OTR) oversees technical safety and compliance certificates.
@@ -107,7 +107,7 @@ Once you're licensed to operate, the Office of the Technical Regulator becomes t
 
 ### Electronic Certificate of Compliance (eCoC)
 
-South Australia requires an **electronic certificate of compliance (eCoC)** for electrical work — the SA equivalent of the CCEW in NSW or the Certificate of Electrical Safety in Victoria. It's a legal document under the *Electricity Act 1996 (SA)*, and only a person holding the appropriate registered licence can complete and certify one.
+South Australia requires an **electronic certificate of compliance (eCoC)** for electrical work — the SA equivalent of the CCEW in NSW or the Certificate of Electrical Safety (COES) in Victoria. It's a legal document under the *Electricity Act 1996 (SA)*, and only a person holding the appropriate registered licence can complete and certify one.
 
 **Scope — this is where most interstate guides get SA wrong.** The eCoC is required after **any electrical work**, not only "notifiable" work. The OTR's own wording is that electricians must issue an eCoC to customers after completing any electrical work. That covers:
 
@@ -120,7 +120,7 @@ South Australia requires an **electronic certificate of compliance (eCoC)** for 
 
 **How it's issued.** Certificates are prepared, submitted and tracked on the OTR's eCoC portal at ecoc.otr.sa.gov.au. The certifier can email the certificate to the customer from the system or print and post it. It is not a certificate you lodge with CBS.
 
-**Penalty for getting it wrong:** up to **$5,000** under section 61 of the *Electricity Act 1996*, plus warnings, expiation notices and disciplinary interviews. The OTR audits installations, and can audit your work at random as well as on complaint.
+**Penalty for getting it wrong:** section 61 of the *Electricity Act 1996* sets a maximum penalty of **$10,000 for an individual** and **$50,000 for a body corporate**, with an expiation fee of **$315** per breach. In practice the OTR works through warnings, expiation notices and disciplinary interviews before prosecution. The OTR audits installations, and can audit your work at random as well as on complaint.
 
 ### Consumer Guarantees You Incur
 
@@ -153,7 +153,7 @@ Insurance is not a CBS licensing condition in South Australia — but it is a co
 
 ## Licence Renewal — The Two-Clock Problem
 
-This is where SA differs from every other state, and where the page you're reading would previously have misled you: **the two authorities renew on different cycles.**
+This is where SA differs from every other state: **the two authorities renew on different cycles.**
 
 **Contractor licence — every 12 months.** All occupational licences issued by CBS renew annually. Renewal is $504 for an individual contractor and $737 for a body corporate.
 
@@ -222,7 +222,7 @@ The most common point of confusion in SA is thinking the CBS licence covers ever
 SA runs two clocks, and this is the defect most guides get wrong. The contractor licence renews every 12 months; the worker registration renews every three years. An electrician who renews "on the anniversary" like they did in another state will keep the licence current and let the registration lapse — and a lapsed registration means they cannot legally perform the work even with a valid contractor licence.
 
 **3. Not issuing the eCoC on every job**
-The certificate goes on **any** electrical work, not just work you'd call notifiable. Missing certificates are the OTR's most direct enforcement lever — up to $5,000 under s61 of the *Electricity Act 1996* — and the OTR audits both at random and on complaint. Delays also cause issues with final payment and customer handover, particularly on solar jobs.
+The certificate goes on **any** electrical work, not just work you'd call notifiable. Missing certificates are the OTR's most direct enforcement lever — s61 of the *Electricity Act 1996* carries a maximum penalty of $10,000 for an individual and $50,000 for a body corporate, with a $315 expiation fee — and the OTR audits both at random and on complaint. Delays also cause issues with final payment and customer handover, particularly on solar jobs.
 
 **4. Treating public liability as someone else's problem**
 No CBS officer will ever check your certificate of currency, so it feels discretionary. It isn't: builders, strata managers and commercial clients ask for it before they'll let you on site, and a claim without cover is personal exposure. Same for the five-year warranty claim window and the ten-year cover on defective work.
@@ -258,7 +258,7 @@ The practical solution is to centralise compliance tracking in your job manageme
 | Electrical worker registration (personal) | CBS (Consumer and Business Services) | Every 3 years | $617 new / $342 per 3 years |
 | Electrical contractor licence (PGE) | CBS (Consumer and Business Services) | Annual | $779 new / $504 renewal ($737 company) |
 | eCoC certification | OTR (Office of the Technical Regulator) | Per job | Via ecoc.otr.sa.gov.au |
-| CEC accreditation (solar) | Solar Accreditation Australia (SAA) | 3 years + 100 CPD points yearly | $605 new / $759 renewal |
+| SAA accreditation (solar) | Solar Accreditation Australia (SAA) — not the CEC | 3 years + 100 CPD points yearly | $605 new / $759 renewal |
 | Public liability insurance | Commercial insurer | Annual | Not a CBS condition — $5M+ market standard |
 | Workers compensation | ReturnToWorkSA | Annual | Mandatory for employers |
 
@@ -288,7 +288,7 @@ CBS does not prescribe a public liability minimum as a condition of the PGE lice
 
 **What happens if I carry out electrical work in SA without a current licence?**
 
-Contracting for electrical work without a current CBS PGE contractor licence, or performing it without a current worker registration, is an offence under the *Plumbers, Gas Fitters and Electricians Act 1995* (SA), and it voids your insurance position on the work. Separately, failing to issue an eCoC after electrical work carries penalties of up to $5,000 under section 61 of the *Electricity Act 1996*.
+Contracting for electrical work without a current CBS PGE contractor licence, or performing it without a current worker registration, is an offence under the *Plumbers, Gas Fitters and Electricians Act 1995* (SA), and it voids your insurance position on the work. Separately, failing to issue an eCoC after electrical work is an offence under section 61 of the *Electricity Act 1996*, with a maximum penalty of $10,000 for an individual ($50,000 for a body corporate) and a $315 expiation fee.
 
 ---
 
