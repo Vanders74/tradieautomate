@@ -2,7 +2,7 @@
 title: "ServiceM8 for Electricians 2026: What It Does & Costs"
 description: "ServiceM8 for electricians from $29/mo incl GST — but compliance forms need the $79 Growing plan. Real card fees, 5-user costs, offline limits, Xero/MYOB sync."
 pubDate: 'Apr 27 2026'
-updatedDate: 'Oct 19 2026'
+updatedDate: 'Oct 20 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-for-electricians.jpg'
 faq:
@@ -123,7 +123,7 @@ That separation is deliberate — it's why an electrician can invoice a job with
 
 Payments run through **ServiceM8 Pay** (processed by Stripe, no separate merchant account): Tap to Pay on an eligible iPhone or Android phone, Scan & Pay, or the Pay Now button on an online invoice. In Australia, ServiceM8 Pay also offers **PayTo**, a bank-rail payment option alongside cards. Plain bank transfer and cash aren't captured by the software — you record them against the job manually and they still reconcile through to your accounting file.
 
-**The card rate is priced by plan, and it changed in October 2026.** ServiceM8 Pay charges 1.89% + 30c on Free, 1.69% on Starter, 1.49% on Growing, 1.39% on Premium and 1.19% + 30c on Premium Plus, with 3.70% + 30c on international and Amex cards on every plan. From **1 October 2026** the Australian card networks banned surcharging, so ServiceM8 stopped adding its own surcharge and the processing fee now sits with the business permanently. Run the arithmetic before you upgrade for the rate: on $60,000 of card volume the fee difference between Growing (1.49%) and Premium Plus (1.19%) is about $180 a year, against $3,240 of extra subscription. Plan choice should follow job volume, not the card rate.
+**The card rate is priced by plan, and it changed in October 2026.** ServiceM8 Pay charges 1.89% + 30c on Free, 1.69% + 30c on Starter, 1.49% + 30c on Growing, 1.39% + 30c on Premium and 1.19% + 30c on Premium Plus, with 3.70% + 30c on international and Amex cards on every plan. From **1 October 2026** the Australian card networks banned surcharging, so ServiceM8 stopped adding its own surcharge and the processing fee now sits with the business permanently. Run the arithmetic before you upgrade for the rate: on $60,000 of card volume the fee difference between Growing (1.49%) and Premium Plus (1.19%) is about $180 a year, against $3,240 of extra subscription. Plan choice should follow job volume, not the card rate.
 
 The old **Stripe Payments** add-on is closed to new accounts — ServiceM8 Pay is the product you'll be activating in 2026, and it's the one that carries the Pay Now button on every online invoice.
 
@@ -218,7 +218,7 @@ For the majority of Australian electrical businesses — residential, solar, and
 
 Staff are unlimited from Starter up — only the job volume and feature gates change. International and Amex cards cost 3.70% + 30c on every plan.
 
-For a 5-person electrical team doing 80 jobs a month, ServiceM8 Growing at $79 covers the job volume and the form builder. The same five seats cost far more on per-user rivals: Tradify is $48 (Lite), $52 (Pro) or $62 (Plus) per user per month ex GST, so five seats is $240–$310; Fergus is $53 (Basic) or $75 (Professional) per user, so $265–$375. That is $161–$231 a month more than ServiceM8 on Tradify, or $186–$296 more on Fergus — roughly $1,930–$3,550 a year — before SMS or add-ons, and it is the single biggest cost difference between these products for an electrical contractor.
+For a 5-person electrical team doing 80 jobs a month, ServiceM8 Growing at $79 covers the job volume and the form builder. The same five seats cost far more on per-user rivals: Tradify is $48 (Lite), $52 (Pro) or $62 (Plus) per user per month ex GST, so five seats is $240–$310; Fergus is $53 (Essentials) or $77 (Professional) per user, so $265–$385. That is $161–$231 a month more than ServiceM8 on Tradify, or $186–$306 more on Fergus — roughly $1,930–$3,670 a year — before SMS or add-ons, and it is the single biggest cost difference between these products for an electrical contractor.
 
 A 14-day free trial with full feature access is available. No credit card required.
 
