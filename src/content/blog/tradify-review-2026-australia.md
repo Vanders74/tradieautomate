@@ -1,8 +1,8 @@
 ---
-title: "Tradify Review 2026: Is It Worth It for Australian Trades?"
-description: "Honest Tradify review for Australian electricians, solar installers, and tradies in 2026 — real pricing, features, limitations, and how it compares to ServiceM8 and simPRO."
+title: "Tradify Review 2026: $48/User, Honest Pros & the CCEW Gap"
+description: "Tradify costs $48–$62 per user/month ex GST in 2026 and has no built-in CCEW form. Compare real pricing against ServiceM8 from $29 to see which suits your crew."
 pubDate: 2026-07-20
-updatedDate: 2026-10-18
+updatedDate: 2026-10-21
 heroImage: '/hero-tradify-review-2026-australia.jpg'
 category: "Software Comparisons"
 tags: ["tradify review", "tradify australia", "tradify pricing 2026", "tradify vs servicem8", "tradify for electricians", "trade job management software", "tradify review 2026"]
@@ -10,7 +10,7 @@ faq:
   - question: "Is Tradify worth it for Australian electricians in 2026?"
     answer: "Tradify is worth it for solo electricians or very small teams (1–3 staff) who want simple job management at a low cost. It handles quoting, scheduling, and invoicing cleanly. However, it lacks a pre-built CCEW compliance form — a significant limitation for NSW electrical businesses with regular compliance documentation requirements. For any electrical business where CCEW compliance is a daily workflow, ServiceM8 is the better choice despite the potentially higher cost for small teams."
   - question: "How much does Tradify cost in 2026?"
-    answer: "Tradify pricing in 2026 is approximately $35 per user per month (AUD), billed monthly. For a solo operator that's $35/month, for a 3-person team $105/month, for a 5-person team $175/month. A 14-day free trial is available. Unlike ServiceM8, Tradify charges per user — this makes it cost-competitive for 1–3 users but less so as the team grows."
+    answer: "Tradify pricing in 2026 is $48 (Lite), $52 (Pro) and $62 (Plus) per user per month in AUD, ex GST, billed monthly. A solo operator on Lite pays $48/month, a 3-person team on Pro $156/month, and a 5-person team on Pro $260/month. A 14-day free trial is included, SMS costs 20 cents per message, and the Instant Website add-on is $19/month. Unlike ServiceM8, Tradify charges per user — cost-competitive for a single user but less so as the team grows."
   - question: "Does Tradify integrate with Xero?"
     answer: "Yes. Tradify integrates with Xero, MYOB, and QuickBooks. The Xero integration syncs invoices and contacts. It's functional but less seamless than ServiceM8's Xero integration, which syncs in real-time including payments and is generally considered the more polished integration by users who have used both."
   - question: "What are the main limitations of Tradify?"
@@ -43,7 +43,9 @@ Jobs are easy to create, assign to staff, and track through completion. The dash
 
 ### Pricing
 
-At $35/user/month, Tradify costs $35/month for a solo operator — slightly more than ServiceM8's Starter plan at $29/month (50 jobs). Because ServiceM8 prices by job volume rather than per user, the gap widens as teams grow: at 3 users Tradify costs $105/month versus ServiceM8 Growing at $79/month, and Tradify becomes progressively more expensive from there.
+At $48/user/month on the Lite plan, Tradify costs $48/month for a solo operator — $19 more than ServiceM8's Starter plan at $29/month (50 jobs). Because ServiceM8 prices by job volume rather than per user, the gap widens as teams grow: at 3 users Tradify Pro costs $156/month versus ServiceM8 Growing at $79/month, and Tradify becomes progressively more expensive from there.
+
+Tradify's 2026 Australian plans are Lite $48, Pro $52 and Plus $62 per user per month, ex GST, checked against Tradify's AU pricing page in October 2026.
 
 ---
 
@@ -73,15 +75,17 @@ ServiceM8 includes real-time GPS tracking for field staff and the "On My Way" no
 
 | Team size | Tradify | ServiceM8 |
 |---|---|---|
-| 1 user | $35/month | $29/month (Starter) |
-| 2 users | $70/month | $29/month (Starter) |
-| 3 users | $105/month | $79/month (Growing) |
-| 5 users | $175/month | $79/month (Growing) |
-| 8 users | $280/month | $149/month (Premium) |
-| 12 users | $420/month | $349/month (Premium Plus) |
+| 1 user | $48/month (Lite) | $29/month (Starter) |
+| 2 users | $104/month (Pro) | $29/month (Starter) |
+| 3 users | $156/month (Pro) | $79/month (Growing) |
+| 5 users | $260/month (Pro) | $79/month (Growing) |
+| 8 users | $416/month (Pro) | $149/month (Premium) |
+| 12 users | $624/month (Pro) | $349/month (Premium Plus) |
 
-**At 1 user:** ServiceM8 Starter ($29) is $6/month cheaper than Tradify ($35).
-**At 3 users:** ServiceM8 Growing ($79) is $26/month cheaper than Tradify ($105).
+Tradify figures are AUD per user per month, ex GST, on the Pro plan (Lite is $48 for one user).
+
+**At 1 user:** ServiceM8 Starter ($29) is $19/month cheaper than Tradify Lite ($48).
+**At 3 users:** ServiceM8 Growing ($79) is $77/month cheaper than Tradify Pro ($156).
 **At 5+ users:** ServiceM8 is meaningfully cheaper and includes more features.
 
 ---
@@ -95,8 +99,8 @@ ServiceM8 includes real-time GPS tracking for field staff and the "On My Way" no
 | Client portal | ❌ Not standard | ✅ Included |
 | "On My Way" customer SMS | ❌ Limited | ✅ Full |
 | Per-user pricing | ✅ Yes | ❌ No (job volume) |
-| Cost for 3 staff | ~$105/month | ~$79/month |
-| Cost for 8 staff | ~$280/month | ~$149/month |
+| Cost for 3 staff | ~$156/month | ~$79/month |
+| Cost for 8 staff | ~$416/month | ~$149/month |
 | Mobile app quality | Good | Excellent |
 | Setup time | Very fast (hours) | Fast (1–2 days) |
 | Learning curve | Very low | Low |
@@ -108,7 +112,7 @@ ServiceM8 includes real-time GPS tracking for field staff and the "On My Way" no
 
 **Tradify is a solid, simple job management platform.** For trades businesses where compliance documentation isn't a daily critical workflow — painters, landscapers, general maintenance, plumbers with standard work — it does the job at a fair price.
 
-**For electricians specifically**, the CCEW gap is a real problem. If you're doing regular electrical installation work in NSW (or structured compliance documentation in any state), Tradify forces you to maintain a separate compliance workflow alongside your digital system. That friction costs you more time than the $64/month saving on a solo plan.
+**For electricians specifically**, the CCEW gap is a real problem. If you're doing regular electrical installation work in NSW (or structured compliance documentation in any state), Tradify forces you to maintain a separate compliance workflow alongside your digital system. That friction costs you more time than the $19/month saving on a solo plan.
 
 **The honest recommendation:**
 - Solo electrician, CCEW not a regular requirement → Tradify is fine
@@ -127,7 +131,7 @@ Tradify is worth it for solo electricians or very small teams (1–3 staff) who 
 
 ### How much does Tradify cost in 2026?
 
-Tradify pricing in 2026 is approximately $35 per user per month (AUD), billed monthly. For a solo operator that's $35/month, for a 3-person team $105/month, for a 5-person team $175/month. A 14-day free trial is available. Unlike ServiceM8, Tradify charges per user — this makes it cost-competitive for 1–3 users but less so as the team grows.
+Tradify pricing in 2026 is $48 (Lite), $52 (Pro) and $62 (Plus) per user per month in AUD, ex GST, billed monthly. A solo operator on Lite pays $48/month, a 3-person team on Pro $156/month, and a 5-person team on Pro $260/month. A 14-day free trial is included, SMS costs 20 cents per message, and the Instant Website add-on is $19/month. Unlike ServiceM8, Tradify charges per user — cost-competitive for a single user but less so as the team grows.
 
 ### Does Tradify integrate with Xero?
 
