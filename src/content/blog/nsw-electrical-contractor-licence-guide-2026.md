@@ -109,6 +109,8 @@ Held by the entity. Lets the company or partnership contract for electrical work
 
 Held by an individual. Authorises that person to do electrical wiring work and supervise it. On its own it does not authorise contracting with clients.
 
+A QSC also carries the supervision cap, and this is the part new contractors get caught by. Under the NSW Supervision Practice Standard — a mandatory condition of every electrician's licence since 1 September 2024 — one licensed electrician can supervise **1 apprentice under direct supervision, 3 under general supervision, and 5 under broad supervision**. Taking on a fourth apprentice without moving them to broad supervision is a licence breach, not a rostering problem. Our [apprentice supervision ratios by state](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026/) page sets out what each supervision level covers and how the NSW caps compare with VIC, QLD and SA.
+
 **Provisional tradesperson certificate**
 
 For applicants who trained overseas. Issued for 3 years and cannot be renewed — it is a pathway credential, not a permanent one.

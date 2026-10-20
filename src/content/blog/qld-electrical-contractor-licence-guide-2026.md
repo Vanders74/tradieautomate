@@ -123,6 +123,8 @@ There is no separate solar or battery class. If you install solar, you hold the 
 
 This is the requirement that matters most, and the one most guides skip. To be eligible you must nominate at least one **qualified technical person (QTP)** to perform or supervise the electrical work, and at least one **qualified business person (QBP)** to cover the business and safety side of the contracting operation. Both are endorsed on the licence. They can be the same person.
 
+Queensland is the outlier on supervision numbers: WorkSafe QLD prescribes **no fixed apprentice-to-supervisor ratio**, so the QTP's obligation is "effective supervision" rather than a headcount — which makes the QTP nomination the only point where a supervision standard is actually attached to your licence. For how many apprentices an electrician can supervise in each state, and where QLD's position diverges from the NSW, VIC and SA caps, see our [apprentice ratios electrical guide](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026/).
+
 Who can hold those roles depends on the entity:
 
 | Entity | Who can be the QTP or QBP |
