@@ -1,8 +1,8 @@
 ---
-title: 'VEU for Electricians 2026: Accreditation Fees & $85 VEECs'
+title: 'VEU for Electricians 2026: Accreditation Fees & $83 VEECs'
 description: 'VEU guide for Victorian electricians: $3,000 accreditation, $1,000 renewal, $5M public liability, VEECs around $83 and a 30 June creation deadline.'
 pubDate: 'Jul 19 2026'
-updatedDate: 'Oct 19 2026'
+updatedDate: 'Oct 20 2026'
 category: 'Compliance'
 heroImage: '/hero-replacing-gas-hot-water-electric-heat-pump.jpg'
 tags: ['VEU', 'Victorian Energy Upgrades', 'VEEC', 'electrician', 'heat pump', 'Victoria', 'ESC', 'rebates', 'electrification']
