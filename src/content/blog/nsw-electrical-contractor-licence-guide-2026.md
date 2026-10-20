@@ -323,7 +323,7 @@ No. Contractor licences are state-specific. A NSW contractor licence does not le
 
 > **Own the business, not just the licence.** If you're an established NSW electrical contractor — or planning to sell in the next few years — find out what your business is worth in under five minutes with the free [Trade Business Valuation](/tools/trade-business-valuation/). It scores your sale-readiness across 8 value drivers (recurring revenue, systems, books, independence, compliance) and estimates your sale range.
 
-- *[QLD Electrical Contractor Licence 2026: QBCC, ESQ & QLeave Requirements](/blog/qld-electrical-contractor-licence-guide-2026/)*
+- *[QLD Electrical Contractor Licence 2026: Cost & QTP/QBP Rules](/blog/qld-electrical-contractor-licence-guide-2026/)*
 - *[VIC Electrical Contractor Licence Guide 2026](/blog/vic-electrical-contractor-licence-guide-2026/)*
 - *[WA Electrical Contractor Licence Guide 2026](/blog/wa-electrical-contractor-licence-guide-2026/)*
 - *[SA Electrical Contractor Licence 2026](/blog/sa-electrical-contractor-licence-guide-2026/)*

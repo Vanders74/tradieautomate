@@ -104,7 +104,7 @@ ESQ issues the electrical work licence — the individual licence that authorise
 **QLeave**
 QLD also has a portable long service leave scheme — QLeave — that applies to electrical contractors. Contributions are based on the value of building and construction work performed. This is a payroll-adjacent obligation that many interstate contractors setting up in QLD miss entirely in their first year.
 
-> **Read more:** [QLD Electrical Contractor Licence Guide 2026 — QBCC, ESQ and QLeave requirements](/blog/qld-electrical-contractor-licence-guide-2026/)
+> **Read more:** [QLD Electrical Contractor Licence 2026: Cost & QTP/QBP Rules](/blog/qld-electrical-contractor-licence-guide-2026/)
 
 ---
 

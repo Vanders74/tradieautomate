@@ -247,7 +247,7 @@ Build your compliance workflows, embed your SWMS checklist, and create the docum
 - [Victorian Energy Upgrades (VEU) Guide: $250–$1,650 per heat pump job via VEECs](/blog/victorian-energy-upgrades-veu-electricians-guide-2026/)
 
 
-**See also:** [QLD Electrical Contractor Licence 2026: QBCC, ESQ & QLeave Requirements](/blog/qld-electrical-contractor-licence-guide-2026/)
+**See also:** [QLD Electrical Contractor Licence 2026: Cost & QTP/QBP Rules](/blog/qld-electrical-contractor-licence-guide-2026/)
 
 
 **See also:** [WA Electrical Contractor Licence 2026: EnergySafety, CCEI & Compliance Guide](/blog/wa-electrical-contractor-licence-guide-2026/)
