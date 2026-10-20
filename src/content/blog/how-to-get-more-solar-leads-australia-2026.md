@@ -1,11 +1,11 @@
 ---
-title: 'How to Get More Solar Leads in Australia in 2026'
-description: 'Solar lead costs in Australia: aggregators $30-$120, Google Ads $60-$200, referrals $0. 2026 breakdown of GBP, SEO, and Google Ads channels that convert.'
+title: 'How to Get More Solar Leads in Australia 2026: $0 vs $250 a Lead'
+description: 'Referrals convert 3–5x better at $0 cost; Google Ads runs $80–$250 per lead at $8–$25 a click. Rank all 6 channels for your crew in 2026.'
 pubDate: 'May 16 2026'
 category: "Business Growth"
 heroImage: '/hero-solar-leads-australia.jpg'
 tags: ['solar', 'lead generation', 'marketing', 'electrician', 'Google', 'business growth']
-updatedDate: 'Jul 18 2026'
+updatedDate: 'Oct 21 2026'
 faq:
   - question: "What is the best way to get solar leads in Australia in 2026?"
     answer: "The highest-ROI lead source for most Australian solar businesses is Google Business Profile (GBP) — it's free, drives local search traffic, and delivers high-intent leads from people actively looking for a solar installer. The next highest-ROI source is referrals, which convert at 3–5× the rate of cold leads and typically require only a systematic review request and referral incentive program. Paid Google Ads can deliver consistent volume but require careful keyword management to avoid low-quality traffic. SEO (ranking for local solar installation terms) delivers compounding returns over 6–18 months."
