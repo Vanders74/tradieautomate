@@ -14,6 +14,8 @@ faq:
     answer: "No. Neither ServiceM8 nor AroFlo lodges a compliance certificate with a regulator. ServiceM8 Electronic Forms capture the data and produce a PDF from the job card, and you still lodge the CCEW in NSW through Service NSW eCert or the Certificate of Electrical Safety (COES) in Victoria through ESV. Custom form building is included from the Growing plan at $79/mo — the $29 Starter plan can fill forms bought from the Form Store but cannot build them. If a vendor tells you it lodges your CCEW, ask which API."
   - question: "Can ServiceM8 handle businesses with 30+ staff?"
     answer: "Yes, and it is priced better there than AroFlo. Every paid ServiceM8 plan includes unlimited staff logins; the constraint is jobs per month, not headcount. Premium at $149 handles 500 new jobs a month and Premium Plus at $349 handles 1,500+, with extra jobs at 20c each. AroFlo at 30 users starts at $2,400/mo on the published rate before any volume discount."
+  - question: "What kind of teams use AroFlo for field service management?"
+    answer: "Teams where an office coordinates field crews. AroFlo fits 20-200+ staff doing commercial, maintenance and project work — multi-site contracts, asset registers, planned maintenance schedules, job costing across stages and timesheets that a coordinator reviews. It fits badly at the other end: a one-to-three person residential service business pays for three licences (a $240/mo floor) for depth it will not use, and implementation typically runs four to eight weeks. ServiceM8 is the mirror image — 1-50 staff, residential service and short-project work, live in days, priced per job volume with unlimited logins."
   - question: "What does each cost in year one?"
     answer: "Budget the setup fee, not just the subscription. A 3-person crew on ServiceM8 Growing pays $948 in year one ($79 x 12). The same crew on AroFlo pays $2,880 in subscription ($240 x 12) plus $1,450 Smart Start, so $4,330 — around 4.5x. At 10 users it is $948-$1,788 on ServiceM8 against roughly $11,050 on AroFlo at the published rate plus setup. AroFlo's setup fee is currently advertised at 50% off as a spring promotion, which changes the arithmetic but not the ranking."
 ---
@@ -274,6 +276,10 @@ No. Neither ServiceM8 nor AroFlo lodges a compliance certificate with a regulato
 ### Can ServiceM8 handle businesses with 30+ staff?
 
 Yes, and it is priced better there than AroFlo. Every paid ServiceM8 plan includes unlimited staff logins; the constraint is jobs per month, not headcount. Premium at $149 handles 500 new jobs a month and Premium Plus at $349 handles 1,500+, with extra jobs at 20c each. AroFlo at 30 users starts at $2,400/mo on the published rate before any volume discount.
+
+### What kind of teams use AroFlo for field service management?
+
+Teams where an office coordinates field crews. AroFlo fits 20-200+ staff doing commercial, maintenance and project work — multi-site contracts, asset registers, planned maintenance schedules, job costing across stages and timesheets that a coordinator reviews. It fits badly at the other end: a one-to-three person residential service business pays for three licences (a $240/mo floor) for depth it will not use, and implementation typically runs four to eight weeks. ServiceM8 is the mirror image — 1-50 staff, residential service and short-project work, live in days, priced per job volume with unlimited logins.
 
 ### What does each cost in year one?
 
