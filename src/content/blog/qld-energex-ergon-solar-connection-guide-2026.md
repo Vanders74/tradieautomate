@@ -86,7 +86,7 @@ Queensland offers two export connection options:
 
 **The dynamic connection is the key upgrade.** A dynamic connection lets you export up to **10kW per phase** — double the fixed limit — and install a larger system on single-phase:
 
-- **Single-phase dynamic:** up to **20kVA** total — 10kVA solar inverter plus 10kVA battery inverter — without upgrading to three-phase (a fixed connection would require the upgrade).
+- **Single-phase dynamic:** up to **20kVA** total — 10kVA solar inverter plus 10kVA battery inverter — without upgrading to three-phase (a fixed connection would require the upgrade, and the [Energex 3-phase application](/blog/3-phase-power-upgrade-guide-australia-2026/) is the long lead time, not the wiring).
 - **Hybrid inverter on single-phase:** capped at **10kVA total** combined solar + battery capacity.
 - **Minimum export:** even when the network needs to restrict exports, you're still allowed **1.5kW** unless there's a significant emergency requiring all generation to stop.
 

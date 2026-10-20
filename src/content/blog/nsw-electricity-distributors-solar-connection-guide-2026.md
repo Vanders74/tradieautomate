@@ -151,7 +151,7 @@ EV chargers pull meaningful load and increasingly trigger distributor sign-off:
 Beyond solar, the same distributors handle the full connection range:
 
 - **New homes and subdivisions** — new connections, temporary builder's supplies
-- **Service upgrades** — consumer mains, switchboard, and three-phase upgrades
+- **Service upgrades** — consumer mains, switchboard, and three-phase upgrades (the [3-phase upgrade cost guide](/blog/3-phase-power-upgrade-guide-australia-2026/) covers the Ausgrid and Endeavour application steps)
 - **Capacity increases** — when demand (EV chargers, heat pumps, growth) outgrows the existing supply
 
 The discipline is identical to solar: confirm the network constraints and distributor requirements *before* quoting, because an upgrade that needs a line or transformer study is a different job to a switchboard swap.

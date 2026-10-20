@@ -87,7 +87,7 @@ Victoria's export limit is the cleanest in the country to quote, because it's **
 
 **The battery inverter difference is a real quoting factor.** On United Energy's network, a battery inverter does **not** count toward the phase inverter limit — so you can add a 10kW solar inverter plus a 5kW battery inverter on a single phase. On CitiPower, Powercor and Jemena, the battery inverter *does* count toward the limit. Getting this wrong at the quote stage either undersizes the system or produces a rejection.
 
-**The practical upshot:** quote the 5kW single-phase export / 15kW three-phase export ceiling, then check the battery-inverter rule for the specific distributor before finalising the design.
+**The practical upshot:** quote the 5kW single-phase export / 15kW three-phase export ceiling, then check the battery-inverter rule for the specific distributor before finalising the design. If the customer needs three-phase at the property rather than at the inverter, the [3-phase upgrade cost and DNSP process](/blog/3-phase-power-upgrade-guide-australia-2026/) sets out the Powercor, CitiPower and United Energy path.
 
 Export limits are one of the fastest-moving parts of this space — always confirm the current figure in the distributor's portal or connection guidelines before quoting, not from memory.
 

@@ -131,7 +131,7 @@ EV chargers increasingly trigger their own network considerations, especially as
 Grid connection work isn't just solar. The same SAPN framework covers:
 
 - **New homes and subdivisions** — new connections and temporary builder's supplies
-- **Service upgrades** — consumer mains upgrades, switchboard upgrades, and three-phase upgrades
+- **Service upgrades** — consumer mains upgrades, switchboard upgrades, and three-phase upgrades (the [3-phase upgrade cost guide](/blog/3-phase-power-upgrade-guide-australia-2026/) covers the SAPN application and lead times)
 - **Capacity increases** — when a site's demand (EV chargers, heat pumps, a growing business) outgrows its existing supply
 
 The key discipline here is the same as solar: confirm the network constraints *before* quoting, because an upgrade that needs a transformer or line study is a different job to a simple switchboard swap.

@@ -61,7 +61,7 @@ For most commercial electrician businesses in 2026, AC Level 2 is the core produ
 
 ### AC Three-Phase 22 kW
 
-The high end of AC Level 2. Requires three-phase supply at the site (most commercial premises have this). Compatible vehicles can achieve close to full charge in 2–3 hours, or gain 120–140 km/hour on a capable vehicle.
+The high end of AC Level 2. Requires three-phase supply at the site (most commercial premises have this) — where the site is single-phase, the [cost to upgrade the supply](/blog/3-phase-power-upgrade-guide-australia-2026/) is a separate line in the quote, not part of the charger install. Compatible vehicles can achieve close to full charge in 2–3 hours, or gain 120–140 km/hour on a capable vehicle.
 
 Not all EVs can charge at the full 22 kW — check vehicle on-board charger ratings. Most current-generation EVs cap at 7–11 kW AC; 22 kW is future-proofing.
 
