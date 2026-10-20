@@ -94,6 +94,18 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
       .related-links h3 { font-size:1rem; color:#0f172a; margin-bottom:10px; }
       .related-links a { display:block; color:#0284c7; text-decoration:none; font-size:.9rem; padding:4px 0; }
       .related-links a:hover { text-decoration:underline; }
+      .sg { margin-top:36px; }
+      .sg h2 { font-size:1.3rem; color:#0f172a; margin-bottom:8px; }
+      .sg-intro { color:#475569; font-size:.95rem; line-height:1.6; margin-bottom:18px; }
+      .sg-block { border-top:1px solid #e2e8f0; padding:14px 0; }
+      .sg-block h3 { font-size:1rem; color:#0f172a; margin:0 0 8px; }
+      .sg-block ul { list-style:none; margin:0; padding:0; }
+      .sg-block li { font-size:.92rem; line-height:1.55; color:#334155; padding:6px 0; border-bottom:1px dashed #f1f5f9; }
+      .sg-block li strong { color:#0f172a; display:block; }
+      .sg-amt { display:block; color:#c2410c; font-weight:600; margin-top:2px; }
+      .sg-faq details { border-bottom:1px solid #e2e8f0; padding:12px 0; }
+      .sg-faq summary { font-weight:600; color:#0f172a; font-size:.95rem; cursor:pointer; }
+      .sg-faq details p { color:#475569; font-size:.92rem; line-height:1.65; margin:10px 0 0; }
       .lead-form input { padding:10px; border:1px solid #cbd5e1; border-radius:8px; font-size:.9rem; width:100%; box-sizing:border-box; }
       @media (max-width:480px) { .opt-grid { grid-template-columns:1fr; } .result-card .rc-top { flex-direction:column; gap:4px; align-items:flex-start; } }
     </style>
@@ -294,6 +306,49 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
           <a href="/tools/rebate-finder/">Rebate Finder 2026 — heat pump, solar &amp; battery rebates →</a>
         </div>
       </div>
+
+      <section class="sg">
+        <h2>What Australian trade businesses sell for in 2026</h2>
+        <p class="sg-intro">Buyers value a trade business on a multiple of EBITDA — your adjusted net profit before interest, tax, depreciation, amortisation and non-recurring items. The multiple is set by how much of that profit survives you leaving.</p>
+        <div class="sg-block">
+          <h3>Typical EBITDA multiples, electrical &amp; trade businesses</h3>
+          <ul>
+            <li><strong>Owner-operator, no systems, no recurring revenue</strong><span class="sg-amt">1.0–1.5× &nbsp;·&nbsp; $200K EBITDA ≈ $200K–$300K</span></li>
+            <li><strong>Small team, some systems, limited recurring revenue</strong><span class="sg-amt">1.5–2.5× &nbsp;·&nbsp; $200K EBITDA ≈ $300K–$500K</span></li>
+            <li><strong>Established team, documented systems, some contracts</strong><span class="sg-amt">2.5–3.5× &nbsp;·&nbsp; $200K EBITDA ≈ $500K–$700K</span></li>
+            <li><strong>Strong recurring revenue, owner-independent, diversified</strong><span class="sg-amt">3.5–5.0× &nbsp;·&nbsp; $200K EBITDA ≈ $700K–$1M</span></li>
+          </ul>
+        </div>
+        <div class="sg-block">
+          <h3>The 8 value drivers the calculator scores</h3>
+          <ul>
+            <li><strong>Recurring revenue</strong> — maintenance contracts and repeat clients a buyer can bank on</li>
+            <li><strong>Owner independence</strong> — can the business run a month without you?</li>
+            <li><strong>Documented systems</strong> — quoting, scheduling and job processes written down</li>
+            <li><strong>Clean books</strong> — reconciled accounts and add-backs a buyer's accountant will accept</li>
+            <li><strong>Compliance history</strong> — certificates, licences and safety records that survive due diligence</li>
+            <li><strong>Team depth</strong> — licensed staff who stay after settlement</li>
+            <li><strong>Customer concentration</strong> — no single client carrying the revenue</li>
+            <li><strong>Transferability</strong> — contracts, supplier terms and IP that move with the sale</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="sg sg-faq">
+        <h2>Trade business valuation: common questions</h2>
+        <details>
+          <summary>How much is my electrical business worth in Australia?</summary>
+          <p>Most small-to-medium electrical businesses sell for 1.0–5.0× EBITDA depending on systems, recurring revenue and owner dependence. An owner-operator with no systems typically sees 1.0–1.5×; a systematised, owner-independent business with contracted revenue can reach 3.5–5.0×.</p>
+        </details>
+        <details>
+          <summary>What lifts a trade business multiple fastest?</summary>
+          <p>Recurring maintenance revenue and owner independence move the multiple more than top-line growth. Documented systems and clean, reconciled books are what let a buyer's accountant accept the profit figure you are claiming — without them the multiple compresses toward the owner-operator band.</p>
+        </details>
+        <details>
+          <summary>Is this valuation free, and do I need to give my email?</summary>
+          <p>The calculator is free and gives you a price range and sellability scorecard in about 90 seconds. You only enter an email if you want the report sent to you.</p>
+        </details>
+      </section>
     </main>
 
     <Footer />
