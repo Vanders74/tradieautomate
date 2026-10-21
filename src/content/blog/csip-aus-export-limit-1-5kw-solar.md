@@ -1,8 +1,8 @@
 ---
-title: 'The 1.5kW Solar Export Clamp Explained: How CSIP-Aus Affects Every System Installed After May 2026'
-description: "From May 2026, non-CSIP-Aus-compliant solar inverters face a permanent 1.5kW export limit — zero flexibility, zero appeal. AS/NZS 4777.2:2024 mandate explained: which inverters are affected, how to check compliance, and the upgrade conversation that turns a regulatory problem into a $3,000-$6,000 inverter replacement job."
+title: 'CSIP-Aus Export Limit 2026: 1.5kW Clamp, Affected Inverters & Replacement Cost for Aussie Installers'
+description: "1.5kW export cap, 1 May 2026: CSIP-Aus compliance decides. Check affected inverters and what the $3,000-$6,000 swap costs."
 pubDate: 'May 18 2026'
-updatedDate: 'Jul 19 2026'
+updatedDate: 'Oct 22 2026'
 category: "Solar & Battery"
 heroImage: '/hero-csip-aus-export-clamp.jpg'
 tags: ['solar', 'CSIP compliance', 'export limit', 'AS4777', 'solar installer', 'electrician']
