@@ -2,7 +2,7 @@
 title: "How to Become an Electrician in Australia 2026: Apprenticeship, Licence & Wages"
 description: "Becoming an electrician in Australia takes 4 years — here's the full pathway. Apprenticeship, Cert III, A-grade licence, costs ($2K–$6K) and wages ($16–$68/hr)."
 pubDate: 'Jul 2026'
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 21 2026'
 category: 'Business Growth'
 heroImage: '/hero-how-to-become-electrician.jpg'
 tags: ['electrician', 'apprentice', 'career', 'licensing', 'business', 'training']
@@ -65,7 +65,7 @@ Australia has no single national electrical licence. Each state and territory ru
 
 **Regulator:** Consumer and Business Services (CBS) and the Office of the Technical Regulator (OTR).
 
-**Pathway:** Complete Certificate III → apply for an **Electrical Worker's Registration** through CBS. Contractor licensing is handled through OTR. SA requires registration of both the individual and the contracting entity. For detail, see the [SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026/).
+**Pathway:** Complete Certificate III → apply for an **Electrical Worker's Registration** through CBS. Contractor licensing is also issued by CBS — the OTR regulates technical safety and runs the eCoC system, not the licence. SA requires registration of both the individual and the contracting entity. For detail, see the [SA Electrical Contractor Licence Guide 2026](/blog/sa-electrical-contractor-licence-guide-2026/).
 
 ### Western Australia
 

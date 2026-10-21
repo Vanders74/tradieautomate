@@ -2,7 +2,7 @@
 title: 'Electrical Safety Audit Prep Checklist 2026: SafeWork, ESV & State-by-State Requirements'
 description: "SafeWork NSW, ESV & ESO electrical safety audit prep: the 6 checklist categories, documentation you must have on-site, $22K penalty triggers, and how to pass first time. Free downloadable PDF checklist."
 pubDate: 'Aug 2026'
-updatedDate: 'Oct 19 2026'
+updatedDate: 'Oct 21 2026'
 category: 'Compliance'
 heroImage: '/hero-safety-audit-prep-checklist.jpg'
 tags: ['safety audit', 'SafeWork', 'ESV', 'compliance', 'electrical safety', 'checklist']
@@ -223,7 +223,7 @@ While the six categories above apply everywhere, each state regulator has its ow
 
 **Regulator:** Consumer and Business Services (CBS) — Office of the Technical Regulator
 
-**Key difference:** The Certificate of Compliance must be provided to the customer and a copy retained — but SA does not currently have a centralised digital lodgement system equivalent to NSW's BCNSW eCert or VIC's ESV Connect. This makes record-keeping even more critical since there's no regulator-side backup of your lodgements.
+**Key difference:** The Certificate of Compliance must be issued electronically through the OTR's **eCoC system** — plumbing, gas fitting and electrical work must all be certified this way, and the eCoC portal is free for contractors and workers. That means SA *does* have a centralised digital record, unlike the "keep your own copies" regimes: the eCoC system stores a full history of every certificate a contractor or worker has completed, and the OTR can retrieve copies for new property owners on request. Audit prep here is about lodging on every job, not about archiving paper.
 
 ### Quick Reference: Certificate Deadlines by State
 
@@ -233,7 +233,7 @@ While the six categories above apply everywhere, each state regulator has its ow
 | VIC | COES | 4 business days (prescribed) | $10K / $50K+ |
 | QLD | Certificate of testing and compliance | No lodgement deadline; keep 5 years | $45K / $220K |
 | WA | ESC (eNotice) | 14 days | $25K / $125K |
-| SA | Certificate of Compliance | No central lodgement | $20K / $100K |
+| SA | eCoC (Certificate of Compliance) | Via OTR eCoC portal on every job; record held by OTR | $20K / $100K |
 
 ---
 
