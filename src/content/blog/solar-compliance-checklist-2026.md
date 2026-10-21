@@ -237,6 +237,7 @@ Yes. [AS/NZS 5139](/blog/as-nzs-5139-battery-storage-compliance/) has specific r
 
 ## Related Reading
 
+- *[Staying Compliant in 2026: CER Accreditation, SWMS & AS/NZS 5033/5139](/blog/staying-compliant-2026-solar-electrical-safety/)*
 - *[Solar Savings & Break-Even Calculator: Estimate System Cost, Payback & 25-Year Returns](/tools/solar-savings-calculator)*
 - [how ServiceM8 adds value to your trade business](/blog/sell-servicem8-trade-business-value/)
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)
