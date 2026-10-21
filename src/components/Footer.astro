@@ -8,6 +8,11 @@ const today = new Date();
       <p><strong>⚡ TradieAutomate</strong></p>
       <p class="tagline">Compliance. Automation. Growth.</p>
     </div>
+    <div class="footer-links footer-tools">
+      <span class="footer-tools-label">Free tools:</span>
+      <a href="/tools/rebate-finder/">Rebate Finder — what rebates you qualify for</a>
+      <a href="/tools/trade-business-valuation/">Trade Business Value Calculator</a>
+    </div>
     <div class="footer-links">
       <a href="/blog">Blog</a>
       <a href="/about">About</a>
@@ -47,6 +52,27 @@ const today = new Date();
     justify-content: center;
     gap: 1.5em;
     margin: 1em 0;
+  }
+  /* Money-tool links — site-wide crawl path to the two tools */
+  .footer-tools {
+    flex-wrap: wrap;
+    gap: 0.75em 1.25em;
+    margin: 1em 0 0.5em;
+    padding: 0.75em 1em;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+  }
+  .footer-tools-label {
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.45);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  .footer-tools a {
+    color: var(--accent, #f97316) !important;
+    font-weight: 600;
+    font-size: 0.85em;
   }
   .footer-links a {
     color: rgba(255, 255, 255, 0.7);
