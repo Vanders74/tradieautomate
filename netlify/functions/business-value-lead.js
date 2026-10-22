@@ -35,6 +35,28 @@ exports.handler = async (event) => {
 
     // 1. Add contact to Brevo list 7 with valuation attributes
     if (BREVO_API_KEY) {
+      // Declare custom attributes first — Brevo silently drops undeclared ones,
+      // which leaves every valuation lead unscored (no revenue/staff/band data),
+      // breaking HANDOVER's TV_SCORE tiering and sponsor matching.
+      const ATTRS = {
+        BV_REVENUE: 'text', BV_STAFF: 'text', BV_SYSTEMS: 'text', BV_RECURRING: 'text',
+        BV_LOW: 'number', BV_HIGH: 'number', BV_DATE: 'text',
+      };
+      for (const [name, type] of Object.entries(ATTRS)) {
+        try {
+          const ar = await fetch(`https://api.brevo.com/v3/contacts/attributes/normal/${encodeURIComponent(name)}`, {
+            method: 'POST',
+            headers: { 'api-key': BREVO_API_KEY, 'Content-Type': 'application/json', Accept: 'application/json' },
+            body: JSON.stringify({ type }),
+          });
+          if (!ar.ok && ar.status !== 400) {
+            console.error(`Attribute declare ${name} failed:`, ar.status, (await ar.text()).slice(0, 120));
+          }
+        } catch (e) {
+          console.error(`Attribute declare ${name} errored:`, e.message);
+        }
+      }
+
       try {
         const res = await fetch('https://api.brevo.com/v3/contacts', {
           method: 'POST',
