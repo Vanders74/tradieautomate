@@ -136,6 +136,8 @@ Every licensed electrical contractor in WA must nominate a Responsible Superviso
 
 > **Read more:** [WA Electrical Contractor Licence Guide 2026 — EnergySafety, CCEI and contractor licence requirements](/blog/wa-electrical-contractor-licence-guide-2026/)
 
+For a practical walkthrough of how to keep every certificate, inspection and deadline in one system, see our [solar and electrical safety compliance guide](/blog/staying-compliant-2026-solar-electrical-safety/).
+
 ---
 
 ## Keeping Your Licence Active — The Systems That Work

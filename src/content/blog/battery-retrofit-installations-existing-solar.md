@@ -189,6 +189,7 @@ You can automate this follow-up in [ServiceM8](https://www.servicem8.com/?ref=tr
 - *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance/)*
 - *[Solar Monitoring and After-Sales Revenue: How to Turn Installs Into Recurring Income](/blog/solar-monitoring-after-sales-revenue-australia/)*
 - *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026/)*
+- *[Solar Battery System Cost Australia 2026: Prices & Payback](/blog/solar-battery-system-cost-australia-2026/)*
 - *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)*
 - *[Certificate of Electrical Safety (COES) — Complete Guide for Victorian Electricians](/blog/certificate-electrical-safety-ces-victoria-guide-2026/)*
 - [Full ServiceM8 Review 2026: Is It Worth It?](/blog/servicem8-review-2026/)

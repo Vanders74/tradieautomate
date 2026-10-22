@@ -100,7 +100,7 @@ A quote without a follow-up strategy is a quote without a conversion strategy.
 
 Most Australian solar businesses follow up once — usually a week after the quote is sent. This is not enough. Research in solar sales shows that the majority of conversions happen after the third or fourth meaningful contact.
 
-A systematic follow-up sequence — email at day 2, SMS at day 4, educational email at day 7, case study at day 10, final check-in at day 14 — converts significantly more quotes than a single follow-up. We've covered this framework in detail in our piece on [hidden profit costs for solar installers](/blog/hidden-costs-killing-profit-solar-electrician/).
+A systematic follow-up sequence — email at day 2, SMS at day 4, educational email at day 7, case study at day 10, final check-in at day 14 — converts significantly more quotes than a single follow-up. We've covered this framework in detail in our piece on [hidden profit costs for solar installers](/blog/hidden-costs-killing-profit-solar-electrician/), and our [solar installation pricing guide](/blog/how-to-price-solar-installations-australia-2026/) covers how to build the margin model that tells you whether that conversion is worth the effort.
 
 ### 3. Social Proof and Trust Signals
 

@@ -64,6 +64,8 @@ The installing electrician and the business must hold:
 
 For large-scale systems over 100kW capacity (different from the design threshold), the federal Large-scale Renewable Energy scheme (LRET) applies rather than the Small-scale Renewable Energy Scheme (SRES). This means Large-scale Generation Certificates (LGCs) rather than STCs — a different registration and certification process.
 
+If you need a single reference that covers CEC accreditation, AS/NZS 5033, AS/NZS 5139, certificate lodgement and the common compliance traps, see our [solar and electrical safety compliance guide](/blog/staying-compliant-2026-solar-electrical-safety/).
+
 ---
 
 ## AS/NZS 5033: The Technical Compliance Standard

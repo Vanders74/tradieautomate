@@ -142,7 +142,7 @@ One technician wasting 3 hours a week on paperwork is an annoyance. A crew of 6 
 
 That's almost half a full-time employee — gone, without a payslip. The bigger your team, the more catastrophic the multiplier. And the cruel part is that admin overhead per person rarely shrinks as you grow. Without systems, it gets worse.
 
-A 10-person electrical or solar business running on paper processes is typically losing $120,000–$180,000 per year in combined admin overhead. That's not a productivity problem. That's a structural business problem.
+A 10-person electrical or solar business running on paper processes is typically losing $120,000–$180,000 per year in combined admin overhead. That's not a productivity problem. That's a structural business problem. If you're not pricing your jobs to recover that overhead, you're subsidising your customers' paperwork. Our [solar installation pricing guide](/blog/how-to-price-solar-installations-australia-2026/) shows how to bake compliance and admin time into every quote so it never disappears into the margin again.
 
 ### 2. The Cash Flow Friction
 

@@ -109,7 +109,7 @@ For a 10kWh battery with 8kWh usable capacity, a single peak event can generate 
 
 The pitch: *"Your battery isn't just backup power. When you join a VPP, the network pays you to stabilise the grid. It's the closest thing to passive income from your solar system."*
 
-Stack regional incentives where applicable — NSW's Peak Demand Reduction Scheme currently offers up to **$1,100 upfront** for VPP-capable systems.
+Stack regional incentives where applicable — NSW's Peak Demand Reduction Scheme currently offers up to **$1,100 upfront** for VPP-capable systems. For a full breakdown of battery hardware, installation and payback costs, see our [solar battery system cost guide](/blog/solar-battery-system-cost-australia-2026/).
 
 ### Play B: Wholesale Arbitrage — For the Analytically-Minded Customer
 

@@ -99,7 +99,7 @@ Switchboards are the most common source of compliance disputes — primarily bec
 
 You are not required to upgrade an entire switchboard simply because you attend a property to do unrelated work. The "trigger" obligation applies to the scope of work you're doing and any defects you identify — not to the entire installation by virtue of your presence.
 
-This is a nuanced area and state-specific. WA has historically had broader mandatory upgrade provisions than other states. Know your state's specific requirements.
+This is a nuanced area and state-specific. WA has historically had broader mandatory upgrade provisions than other states. Know your state's specific requirements. For the practical checklist that covers switchboard upgrades, AS/NZS 3000, RCD selection and certificate lodgement in one place, see our [solar and electrical safety compliance guide](/blog/staying-compliant-2026-solar-electrical-safety/).
 
 ---
 

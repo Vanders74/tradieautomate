@@ -78,7 +78,7 @@ Cold call or email? For existing customers, both work — but the framing matter
 **The wrong framing:** "We have a great deal on battery storage."
 **The right framing:** "We installed your solar system in [year] and there are some regulatory changes affecting systems like yours that I want to make sure you know about."
 
-The regulatory framing is honest (the CSIP changes are real) and creates genuine urgency without sounding like a sales pitch. You're informing a past customer about something that directly affects their investment.
+The regulatory framing is honest (the CSIP changes are real) and creates genuine urgency without sounding like a sales pitch. You're informing a past customer about something that directly affects their investment — and the numbers behind that investment are laid out in our [solar battery system cost guide](/blog/solar-battery-system-cost-australia-2026/).
 
 ### Email Template (Adapt to Your Voice)
 
