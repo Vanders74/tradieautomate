@@ -1,6 +1,6 @@
 ---
-title: 'AS/NZS 5139 Battery Storage: Installation Clearances, Enclosures & BMS Rules'
-description: 'AS/NZS 5139 battery compliance in plain English: 600mm side clearances, fire-rated enclosures, and BMS labeling rules every installer needs to know. Clause-by-clause 2026 reference with installation diagrams.'
+title: 'AS/NZS 5139 Battery Storage 2026: Amendment 1 Clearances, Barriers & SDS Rules'
+description: "AS/NZS 5139 Amendment 1 is mandatory: 600mm opening clearances, 6mm barriers, kA ratings and SDS rules. Clause-by-clause 2026 installer guide."
 faq:
   - question: "Does AS/NZS 5139 apply to all battery systems or only lithium-ion?"
     answer: "AS/NZS 5139:2019 applies to all electrochemical battery energy storage systems used with renewable energy generation — including lithium-ion (LFP, NMC, LTO), lead-acid (VRLA, flooded), and flow battery systems. Lithium-ion is the dominant technology for residential and small commercial installs in Australia, so most installer focus is on LI-ion requirements, but the standard applies regardless of chemistry."
@@ -12,7 +12,7 @@ faq:
     answer: "CER audit outcomes for non-compliant past installations can include: installer remediation requirements, suspension of accreditation, and — in serious cases — STC clawback for improperly claimed STCs. The customer may also have recourse against the installer for non-compliant work under consumer protection law. This is why systematic compliance documentation for every install is essential — not just for current installs, but as a protection for past work."
   - question: "Does the CSIP-Aus mandate interact with AS/NZS 5139?"
     answer: "Yes — from May 2026, new battery installations using inverters that aren't CSIP-Aus compliant (AS4777.2:2024) are subject to the 1.5kW static export limit. AS/NZS 5139 handles the physical installation safety requirements; CSIP-Aus handles the network communication requirements. Both standards must be satisfied for a new installation to be fully compliant and to avoid the export limit penalty. See our [CSIP-Aus export clamp guide](/blog/csip-aus-export-limit-1-5kw-solar/) for the full story. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling."
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 23 2026'
 pubDate: 'Feb 22 2026'
 category: "Compliance"
 heroImage: '/hero-battery-storage.jpg'
@@ -26,7 +26,7 @@ This article breaks down what the standard actually requires, where installers c
 
 ## What Is AS/NZS 5139? (2026 Requirements)
 
-AS/NZS 5139 is the governing electrical safety standard for battery energy storage systems connected to renewable generation in Australia. AS/NZS 5139:2019 specifically covers design, installation, maintenance, and safety requirements for battery systems connected to solar arrays.
+AS/NZS 5139 is the governing electrical safety standard for battery energy storage systems connected to renewable generation in Australia. AS/NZS 5139:2019 (incorporating Amendment 1, published 19 December 2025) covers design, installation, maintenance, and safety requirements for battery systems connected to solar arrays.
 
 It replaced and significantly updated the previous guidance that applied to battery installations, and it applies to:
 
@@ -37,6 +37,21 @@ It replaced and significantly updated the previous guidance that applied to batt
 The standard is referenced in CER accreditation requirements — Clean Energy Council (CEC) accreditation requirements reference AS/NZS 5139 Clause 4.3 for battery system installation competence — and is the benchmark used during CEC audits. For a broader compliance picture that covers your full solar install (not just battery), see our [complete solar compliance checklist for Australian installers](/blog/solar-compliance-checklist-2026/).
 
 A typical battery installation incurs $800–$1,200 in compliance documentation and testing costs per job when done properly. This includes the compliance checklist, test records, handover documentation, and CEC reporting. The alternative — a non-compliant installation flagged in a CER audit — can trigger STC clawback of $3,000–$6,000 per system plus accreditation suspension. The cost of compliance is a fraction of the cost of non-compliance.
+
+## Amendment 1 (19 December 2025): What Changed and What Is Now Mandatory
+
+**Amendment 1 to AS/NZS 5139:2019 was published on 19 December 2025 and is now mandatory.** If you are still installing to the 2019 text alone, your clearances and labelling may already be non-compliant. NSW Fair Trading's electrical advisory confirms the amendment applies to new installations and any battery work completed after the publication date.
+
+The changes that bite on site:
+
+- **Clearances near openings relaxed — conditionally.** Battery systems may now be installed within 600mm of an opening *provided* the opening is wider than 900mm (for example, a standard garage door). The 600mm/900mm-below rule against windows to habitable rooms still applies everywhere else.
+- **Inverters are now "associated appliances."** Inverters may sit inside the restricted location — previously installers were separating them unnecessarily and losing wall space.
+- **Barriers to habitable rooms must be 6mm minimum.** Exempt-material barriers thinner than 6mm no longer comply. Check your barrier supplier's datasheet before the next install.
+- **kA rating for paralleled pre-assembled systems.** Overcurrent protection devices must now have a kA rating that matches or exceeds the combined fault current of the paralleled battery systems — a common miss on multi-battery installs.
+- **Building materials within 1 metre.** New requirements apply to building materials installed within 1m of a battery categorised as a chemical hazard.
+- **Safety Data Sheets must be physical.** A printed SDS must be supplied and protected from damage — "it's on the manufacturer's website" is not compliance. Store it in a sealed, durable clear pouch on site.
+
+**Why this matters commercially:** non-compliance surfaces in CER audits, and an audit finding on a battery installed after 19 December 2025 is a straight documentation failure — not a judgement call. Budget the extra $50–$150 per job for barrier upgrades and SDS pouches; that is cheaper than remediating a flagged install.
 
 ## The 4 Areas Where Installers Most Often Fail (2026 Audit Data)
 
