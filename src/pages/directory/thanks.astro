@@ -1,0 +1,34 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+const title = 'Introduction request received | TradieAutomate Directory';
+const description = 'Thanks — we have your details and will introduce you to suitable ServiceM8 providers within two business days.';
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <div class="wrap">
+        <h1>Thanks — we've got it</h1>
+        <p>
+          We'll review your details and introduce you to up to three ServiceM8 providers who fit your trade and
+          state. That usually takes one to two business days.
+        </p>
+        <p><a href="/directory/">← Back to the directory</a></p>
+      </div>
+    </main>
+    <Footer />
+    <style>
+      .wrap { max-width: 620px; margin: 0 auto; padding: 80px 20px; text-align: center; }
+      h1 { color: #0f172a; }
+      p { color: #475569; line-height: 1.7; }
+      a { color: #0284c7; }
+    </style>
+  </body>
+</html>

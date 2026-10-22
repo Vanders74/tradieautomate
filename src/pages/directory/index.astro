@@ -1,0 +1,219 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import directory from '../../data/directory.json';
+
+const listings = directory.listings.filter((l) => l.status === 'live');
+const states = [
+  { key: 'nsw', label: 'New South Wales', code: 'NSW' },
+  { key: 'vic', label: 'Victoria', code: 'VIC' },
+  { key: 'qld', label: 'Queensland', code: 'QLD' },
+];
+const categories = [
+  { key: 'servicem8-partners', label: 'ServiceM8 partners', blurb: 'Setup, training and ongoing support' },
+  { key: 'servicem8-developers', label: 'ServiceM8 developers', blurb: 'Custom add-ons, API work and integrations' },
+  { key: 'accountants-bookkeepers', label: 'Accountants & bookkeepers', blurb: 'Trade-savvy books and job management together' },
+];
+const title = 'ServiceM8 Partner Directory Australia 2026 | TradieAutomate';
+const description = 'Independent directory of Australian ServiceM8 partners, developers and trade-savvy accountants. Compare local providers by state, request an introduction, or claim your free listing.';
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'ServiceM8 Partner Directory Australia 2026',
+  numberOfItems: listings.length,
+  itemListElement: listings.slice(0, 20).map((l, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: l.name,
+    url: `https://tradieautomate.com/directory/partner/${l.slug}/`,
+  })),
+};
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section class="hero">
+        <div class="wrap">
+          <p class="eyebrow">Independent directory</p>
+          <h1>ServiceM8 partners, developers and trade accountants</h1>
+          <p class="sub">
+            {listings.length} verified providers across NSW, VIC and QLD. Compare what they do, where they work,
+            and request an introduction — or claim your free listing.
+          </p>
+          <div class="stats">
+            <span><strong>{listings.length}</strong> providers</span>
+            <span><strong>3</strong> states</span>
+            <span><strong>Free</strong> to be listed</span>
+          </div>
+          <div class="hero-cta">
+            <a class="btn primary" href="/directory/get-matched/">Get matched with a provider</a>
+            <a class="btn ghost" href="#claim">Claim your listing</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="wrap body">
+        <section class="hubs">
+          <h2>Browse by state</h2>
+          <div class="chips">
+            {states.map((s) => (
+              <a class="chip" href={`/directory/${s.key}/`}>
+                {s.label} <span>{listings.filter((l) => l.state === s.code).length}</span>
+              </a>
+            ))}
+          </div>
+          <h2>Browse by category</h2>
+          <div class="catgrid">
+            {categories.map((c) => (
+              <a class="cat" href={`/directory/${c.key}/`}>
+                <strong>{c.label}</strong>
+                <span>{c.blurb}</span>
+                <em>{listings.filter((l) => l.categories.includes(c.key)).length} listed</em>
+              </a>
+            ))}
+          </div>
+        </section>
+
+        <section class="tools">
+          <h2>All providers ({listings.length})</h2>
+          <div class="filters">
+            <input id="q" type="search" placeholder="Search by name or city" aria-label="Search providers" />
+            <select id="state" aria-label="Filter by state">
+              <option value="">All states</option>
+              {states.map((s) => <option value={s.code}>{s.code}</option>)}
+            </select>
+            <select id="cat" aria-label="Filter by category">
+              <option value="">All categories</option>
+              {categories.map((c) => <option value={c.key}>{c.label}</option>)}
+            </select>
+          </div>
+          <p class="count" id="count">{listings.length} providers</p>
+          <div class="grid" id="grid">
+            {listings.map((l) => (
+              <article class="card" data-state={l.state} data-cats={l.categories.join(' ')} data-name={`${l.name} ${l.city}`.toLowerCase()}>
+                <div class="card-top">
+                  <h3><a href={`/directory/partner/${l.slug}/`}>{l.name}</a></h3>
+                  <span class="loc">{l.city}, {l.state}</span>
+                </div>
+                <p>{l.summary.slice(0, 155)}…</p>
+                <div class="tags">
+                  {l.services.slice(0, 3).map((s) => <span>{s}</span>)}
+                </div>
+                <div class="card-foot">
+                  {l.tier !== 'free' ? <span class="badge">Featured</span> : <span class="badge muted">Listed</span>}
+                  <a href={`/directory/partner/${l.slug}/`}>View profile →</a>
+                </div>
+              </article>
+            ))}
+          </div>
+          <p class="empty" id="empty" hidden>No providers match that search. Try a different state or category.</p>
+        </section>
+
+        <section id="claim" class="claim">
+          <h2>Is this your business?</h2>
+          <p>
+            Listings are free. Claim yours to correct your details, add your specialties and be eligible for
+            introduction requests from tradies in your state.
+          </p>
+          <p class="claim-actions">
+            <a class="btn primary" href="mailto:info@tradieautomate.com?subject=Claim%20my%20directory%20listing&body=Business%20name%3A%0AState%3A%0AWebsite%3A%0AWhat%20you%20do%3A%0A">Claim your listing</a>
+            <a class="btn ghost dark" href="/directory/get-matched/">Request an introduction</a>
+          </p>
+          <p class="fineprint">
+            TradieAutomate is independent and not endorsed by ServiceM8. Listings are compiled from ServiceM8's
+            public partner and developer directories and each provider's own public information. We do not charge
+            for a basic listing, and outbound links are marked nofollow.
+          </p>
+        </section>
+
+        <section class="why">
+          <h2>How we verify listings</h2>
+          <ul>
+            <li>Business is listed in ServiceM8's public partner or developer directory, or independently confirmed.</li>
+            <li>Location and service categories are taken from the official listing, not guessed.</li>
+            <li>Every listing shows the date it was last checked.</li>
+            <li>If something is wrong, the business can claim the listing and correct it.</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <Footer />
+
+    <script is:inline>
+      const q = document.getElementById('q');
+      const st = document.getElementById('state');
+      const cat = document.getElementById('cat');
+      const cards = [...document.querySelectorAll('#grid .card')];
+      const count = document.getElementById('count');
+      const empty = document.getElementById('empty');
+      function apply() {
+        const term = q.value.trim().toLowerCase();
+        let shown = 0;
+        cards.forEach((c) => {
+          const ok = (!term || c.dataset.name.includes(term)) &&
+            (!st.value || c.dataset.state === st.value) &&
+            (!cat.value || c.dataset.cats.includes(cat.value));
+          c.hidden = !ok;
+          if (ok) shown++;
+        });
+        count.textContent = shown + (shown === 1 ? ' provider' : ' providers');
+        empty.hidden = shown !== 0;
+      }
+      [q, st, cat].forEach((el) => el.addEventListener('input', apply));
+    </script>
+
+    <style>
+      .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+      .hero { background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%); color: #e2e8f0; padding: 56px 0 44px; }
+      .eyebrow { color: #38bdf8; text-transform: uppercase; letter-spacing: .12em; font-size: .72rem; font-weight: 700; }
+      .hero h1 { color: #fff; font-size: clamp(1.8rem, 4vw, 2.7rem); line-height: 1.15; margin: 8px 0 14px; max-width: 780px; }
+      .sub { color: #94a3b8; max-width: 640px; line-height: 1.6; }
+      .stats { display: flex; gap: 22px; flex-wrap: wrap; margin: 22px 0; color: #cbd5e1; font-size: .92rem; }
+      .stats strong { color: #fff; }
+      .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
+      .btn { display: inline-block; padding: 12px 20px; border-radius: 8px; font-weight: 700; text-decoration: none; }
+      .btn.primary { background: #0ea5e9; color: #062033; }
+      .btn.ghost { border: 1px solid #475569; color: #e2e8f0; }
+      .btn.ghost.dark { border-color: #cbd5e1; color: #0f172a; }
+      .body { padding: 40px 20px 70px; }
+      h2 { font-size: 1.3rem; margin: 34px 0 14px; color: #0f172a; }
+      .chips { display: flex; gap: 10px; flex-wrap: wrap; }
+      .chip { background: #f1f5f9; border: 1px solid #e2e8f0; border-radius: 999px; padding: 8px 14px; color: #0f172a; text-decoration: none; font-weight: 600; }
+      .chip span { color: #64748b; font-weight: 500; }
+      .catgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+      .cat { display: flex; flex-direction: column; gap: 4px; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px; text-decoration: none; color: #0f172a; }
+      .cat span { color: #475569; font-size: .9rem; }
+      .cat em { color: #0284c7; font-style: normal; font-size: .8rem; font-weight: 700; margin-top: 6px; }
+      .filters { display: grid; grid-template-columns: 1fr auto auto; gap: 8px; margin-bottom: 10px; }
+      .filters input, .filters select { padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: .95rem; background: #fff; }
+      .count { color: #64748b; font-size: .85rem; margin: 0 0 12px; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+      .card { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px; display: flex; flex-direction: column; }
+      .card h3 { margin: 0; font-size: 1.02rem; }
+      .card h3 a { color: #0f172a; text-decoration: none; }
+      .loc { color: #64748b; font-size: .8rem; }
+      .card p { color: #475569; font-size: .88rem; line-height: 1.5; margin: 10px 0; flex: 1; }
+      .tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+      .tags span { background: #f8fafc; border: 1px solid #e2e8f0; color: #475569; font-size: .7rem; padding: 3px 7px; border-radius: 5px; }
+      .card-foot { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #f1f5f9; padding-top: 10px; }
+      .card-foot a { color: #0284c7; font-size: .85rem; font-weight: 700; text-decoration: none; }
+      .badge { font-size: .68rem; text-transform: uppercase; letter-spacing: .05em; font-weight: 700; background: #0f766e; color: #fff; padding: 3px 7px; border-radius: 4px; }
+      .badge.muted { background: #f1f5f9; color: #64748b; }
+      .empty { color: #64748b; text-align: center; padding: 30px 0; }
+      .claim { margin-top: 44px; background: #0f172a; color: #e2e8f0; border-radius: 14px; padding: 28px; }
+      .claim h2 { color: #fff; margin-top: 0; }
+      .claim p { color: #cbd5e1; line-height: 1.6; }
+      .claim-actions { display: flex; gap: 10px; flex-wrap: wrap; margin: 18px 0; }
+      .fineprint { font-size: .78rem; color: #94a3b8 !important; margin-top: 16px; }
+      .why ul { color: #475569; line-height: 1.7; padding-left: 20px; }
+      @media (max-width: 640px) { .filters { grid-template-columns: 1fr; } }
+    </style>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+const title = 'Get matched with a ServiceM8 partner | TradieAutomate Directory';
+const description = 'Tell us your trade, state and what you need help with. We will introduce you to up to three ServiceM8 partners, developers or trade accountants who fit.';
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section class="hero">
+        <div class="wrap">
+          <nav class="crumbs"><a href="/directory/">Directory</a> / Get matched</nav>
+          <h1>Get matched with the right ServiceM8 partner</h1>
+          <p>Tell us what you need. We'll introduce you to up to three providers who work with your trade and your state — no obligation, no fee.</p>
+        </div>
+      </section>
+
+      <div class="wrap body">
+        <form name="directory-intro" method="POST" data-netlify="true" action="/directory/thanks/">
+          <input type="hidden" name="form-name" value="directory-intro" />
+          <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
+
+          <div class="row">
+            <label>Your name
+              <input type="text" name="name" required />
+            </label>
+            <label>Email
+              <input type="email" name="email" required />
+            </label>
+          </div>
+
+          <div class="row">
+            <label>Business name
+              <input type="text" name="business" />
+            </label>
+            <label>Trade
+              <select name="trade" required>
+                <option value="">Select</option>
+                <option>Electrical</option>
+                <option>Plumbing</option>
+                <option>HVAC / refrigeration</option>
+                <option>Solar / battery</option>
+                <option>Building / construction</option>
+                <option>Other trade</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="row">
+            <label>State
+              <select name="state" required>
+                <option value="">Select</option>
+                <option>NSW</option><option>VIC</option><option>QLD</option>
+                <option>SA</option><option>WA</option><option>TAS</option>
+                <option>ACT</option><option>NT</option>
+              </select>
+            </label>
+            <label>Staff
+              <select name="staff">
+                <option value="">Select</option>
+                <option>Just me</option>
+                <option>2–5</option>
+                <option>6–15</option>
+                <option>16–50</option>
+                <option>50+</option>
+              </select>
+            </label>
+          </div>
+
+          <label>What do you need help with?
+            <textarea name="message" rows="5" required placeholder="e.g. We're on ServiceM8 but quotes and job cards are inconsistent. We want someone to rebuild our setup and train the team."></textarea>
+          </label>
+
+          <label class="consent">
+            <input type="checkbox" name="consent" value="yes" required />
+            I agree to TradieAutomate sharing these details with up to three providers so they can contact me.
+          </label>
+
+          <button type="submit">Request an introduction</button>
+          <p class="fine">
+            We'll respond within two business days. We don't sell your details, and we don't take a commission from
+            providers. See our <a href="/privacy/">privacy policy</a>.
+          </p>
+        </form>
+      </div>
+    </main>
+    <Footer />
+    <style>
+      .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+      .hero { background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%); color: #e2e8f0; padding: 40px 0 32px; }
+      .crumbs { font-size: .78rem; color: #94a3b8; margin-bottom: 10px; }
+      .crumbs a { color: #38bdf8; text-decoration: none; }
+      .hero h1 { color: #fff; font-size: clamp(1.5rem, 3.4vw, 2.1rem); margin: 0 0 8px; }
+      .hero p { color: #94a3b8; line-height: 1.6; }
+      .body { padding: 32px 20px 70px; }
+      form { display: flex; flex-direction: column; gap: 16px; }
+      .row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+      label { display: flex; flex-direction: column; gap: 6px; font-size: .88rem; font-weight: 600; color: #0f172a; }
+      input, select, textarea { padding: 11px 12px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: .95rem; font-family: inherit; background: #fff; }
+      .consent { flex-direction: row; align-items: flex-start; gap: 9px; font-weight: 400; color: #334155; font-size: .85rem; line-height: 1.5; }
+      .consent input { width: 18px; height: 18px; margin-top: 2px; }
+      button { background: #0ea5e9; color: #062033; border: 0; padding: 13px 22px; border-radius: 8px; font-weight: 800; font-size: 1rem; cursor: pointer; }
+      .fine { color: #64748b; font-size: .78rem; line-height: 1.6; }
+      .fine a { color: #0284c7; }
+      @media (max-width: 560px) { .row { grid-template-columns: 1fr; } }
+    </style>
+  </body>
+</html>

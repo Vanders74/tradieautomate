@@ -1,0 +1,169 @@
+---
+import BaseHead from '../../../components/BaseHead.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import directory from '../../../data/directory.json';
+
+export function getStaticPaths() {
+  return directory.listings
+    .filter((l) => l.status === 'live')
+    .map((l) => ({ params: { slug: l.slug }, props: { listing: l } }));
+}
+
+const { listing } = Astro.props;
+const all = directory.listings.filter((l) => l.status === 'live');
+const related = all.filter((l) => l.state === listing.state && l.slug !== listing.slug).slice(0, 3);
+const title = `${listing.name} — ServiceM8 Partner in ${listing.city}, ${listing.state} | TradieAutomate`;
+const description = listing.summary.slice(0, 158);
+const claimHref = `mailto:info@tradieautomate.com?subject=${encodeURIComponent('Claim listing: ' + listing.name)}&body=${encodeURIComponent(`Business name: ${listing.name}\nState: ${listing.state}\nWebsite:\nWhat we do:\n`)}`;
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: listing.name,
+  description: listing.summary,
+  url: listing.website,
+  areaServed: { '@type': 'State', name: listing.state },
+  address: { '@type': 'PostalAddress', addressLocality: listing.city, addressRegion: listing.state, addressCountry: 'AU' },
+};
+const crumbs = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Directory', item: 'https://tradieautomate.com/directory/' },
+    { '@type': 'ListItem', position: 2, name: listing.state, item: `https://tradieautomate.com/directory/${listing.state.toLowerCase()}/` },
+    { '@type': 'ListItem', position: 3, name: listing.name, item: `https://tradieautomate.com/directory/partner/${listing.slug}/` },
+  ],
+};
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(crumbs)} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section class="hero">
+        <div class="wrap">
+          <nav class="crumbs">
+            <a href="/directory/">Directory</a> /
+            <a href={`/directory/${listing.state.toLowerCase()}/`}>{listing.state}</a> /
+            <span>{listing.name}</span>
+          </nav>
+          <h1>{listing.name}</h1>
+          <p class="loc">{listing.city}, {listing.state} · ServiceM8 provider</p>
+          <div class="pills">
+            {listing.tier !== 'free' ? <span class="pill paid">Featured partner</span> : <span class="pill">Listed</span>}
+            <span class="pill verified">Verified {listing.verified_at}</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="wrap body">
+        <div class="cols">
+          <div class="main">
+            <h2>What they do</h2>
+            <p class="summary">{listing.summary}</p>
+
+            <h2>Services</h2>
+            <ul class="services">
+              {listing.services.map((s) => <li>{s}</li>)}
+            </ul>
+
+            <h2>Who they work with</h2>
+            <p>
+              Trade and service businesses in {listing.city} and across {listing.state} — electrical, plumbing,
+              HVAC, solar and general contracting — looking for help implementing or improving ServiceM8.
+            </p>
+
+            <h2>Contact</h2>
+            <p class="contact">
+              <a class="btn" href={listing.website} target="_blank" rel="nofollow noopener">Visit website</a>
+              <a class="btn ghost" href={listing.official_profile} target="_blank" rel="nofollow noopener">ServiceM8 profile</a>
+            </p>
+            <p class="fine">
+              Outbound links are nofollow. TradieAutomate does not take a commission on work booked through this
+              directory, and is not endorsed by ServiceM8.
+            </p>
+
+            <h2>Want an introduction?</h2>
+            <p>
+              Tell us your trade, state and what you need help with and we'll introduce you to up to three suitable
+              providers.
+            </p>
+            <p><a class="btn" href="/directory/get-matched/">Request an introduction</a></p>
+          </div>
+
+          <aside class="side">
+            <div class="box">
+              <h3>Listing details</h3>
+              <dl>
+                <dt>Location</dt><dd>{listing.city}, {listing.state}</dd>
+                <dt>Categories</dt><dd>{listing.categories.map((c) => c.replace(/-/g, ' ')).join(', ')}</dd>
+                <dt>Last verified</dt><dd>{listing.verified_at}</dd>
+                <dt>Source</dt><dd>{listing.verification_source}</dd>
+              </dl>
+            </div>
+            <div class="box claim">
+              <h3>Is this your business?</h3>
+              <p>Claim the listing free to correct details and receive introduction requests.</p>
+              <a class="btn" href={claimHref}>Claim this listing</a>
+            </div>
+          </aside>
+        </div>
+
+        {related.length > 0 && (
+          <section class="related">
+            <h2>Other providers in {listing.state}</h2>
+            <div class="relgrid">
+              {related.map((r) => (
+                <a class="rel" href={`/directory/partner/${r.slug}/`}>
+                  <strong>{r.name}</strong>
+                  <span>{r.city}, {r.state}</span>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+      </div>
+    </main>
+    <Footer />
+    <style>
+      .wrap { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+      .hero { background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%); color: #e2e8f0; padding: 40px 0 32px; }
+      .crumbs { font-size: .78rem; color: #94a3b8; margin-bottom: 10px; }
+      .crumbs a { color: #38bdf8; text-decoration: none; }
+      .hero h1 { color: #fff; font-size: clamp(1.6rem, 3.5vw, 2.2rem); margin: 0 0 6px; }
+      .loc { color: #94a3b8; margin: 0 0 12px; }
+      .pills { display: flex; gap: 8px; flex-wrap: wrap; }
+      .pill { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; background: #1e293b; border: 1px solid #334155; color: #cbd5e1; padding: 4px 9px; border-radius: 999px; }
+      .pill.verified { border-color: #0f766e; color: #5eead4; }
+      .pill.paid { background: #0f766e; border-color: #0f766e; color: #fff; }
+      .body { padding: 34px 20px 70px; }
+      .cols { display: grid; grid-template-columns: 1fr 300px; gap: 32px; }
+      h2 { font-size: 1.2rem; color: #0f172a; margin: 28px 0 10px; }
+      .summary { color: #334155; line-height: 1.7; font-size: 1rem; }
+      .services { color: #334155; line-height: 1.7; padding-left: 20px; }
+      .contact { display: flex; gap: 10px; flex-wrap: wrap; }
+      .btn { display: inline-block; background: #0ea5e9; color: #062033; padding: 11px 18px; border-radius: 8px; font-weight: 700; text-decoration: none; }
+      .btn.ghost { background: #fff; border: 1px solid #cbd5e1; color: #0f172a; }
+      .fine { color: #64748b; font-size: .78rem; line-height: 1.6; }
+      .box { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px; margin-bottom: 14px; }
+      .box h3 { margin: 0 0 10px; font-size: 1rem; }
+      dl { margin: 0; font-size: .85rem; }
+      dt { color: #64748b; margin-top: 8px; }
+      dd { margin: 2px 0 0; color: #0f172a; }
+      .box.claim { background: #0f172a; border-color: #0f172a; color: #e2e8f0; }
+      .box.claim h3 { color: #fff; }
+      .box.claim p { color: #cbd5e1; font-size: .87rem; }
+      .related { margin-top: 44px; border-top: 1px solid #e2e8f0; padding-top: 8px; }
+      .relgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
+      .rel { display: flex; flex-direction: column; gap: 2px; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 14px; text-decoration: none; }
+      .rel strong { color: #0f172a; font-size: .92rem; }
+      .rel span { color: #64748b; font-size: .8rem; }
+      @media (max-width: 760px) { .cols { grid-template-columns: 1fr; } }
+    </style>
+  </body>
+</html>
