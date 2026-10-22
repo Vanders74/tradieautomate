@@ -91,11 +91,19 @@ const crumbs = {
         <div class="grid">
           {items.map((l) => (
             <article class="card">
-              <h2><a href={`/directory/partner/${l.slug}/`}>{l.name}</a></h2>
-              <p class="loc">{l.city}, {l.state}</p>
-              <p class="sum">{l.summary.slice(0, 165)}…</p>
+              <div class="chead">
+                {l.logo ? <img src={l.logo} alt="" width="44" height="44" loading="lazy" /> : <span class="cfallback">{l.name.slice(0,1)}</span>}
+                <div>
+                  <h2><a href={`/directory/partner/${l.slug}/`}>{l.name}</a></h2>
+                  <p class="loc">{l.city}, {l.state}</p>
+                </div>
+              </div>
+              <p class="sum">{l.summary.replace(/^[^.]*\.\s*/, '').slice(0, 130)}…</p>
               <div class="tags">{l.services.slice(0, 3).map((s) => <span>{s}</span>)}</div>
-              <a class="more" href={`/directory/partner/${l.slug}/`}>View profile →</a>
+              <div class="cfoot">
+                <span class="badge">Verified</span>
+                <a class="more" href={`/directory/partner/${l.slug}/`}>View profile →</a>
+              </div>
             </article>
           ))}
         </div>
@@ -123,7 +131,12 @@ const crumbs = {
       .body { padding: 34px 20px 70px; }
       .count { color: #64748b; font-size: .85rem; margin-bottom: 14px; }
       .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
-      .card { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px; }
+      .card { background: #fff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 18px; display: flex; flex-direction: column; }
+      .chead { display: flex; gap: 12px; align-items: center; }
+      .chead img { width: 44px; height: 44px; object-fit: contain; border-radius: 8px; background: #f8fafc; border: 1px solid #eef2f7; }
+      .cfallback { width: 44px; height: 44px; border-radius: 8px; background: #e2e8f0; display: grid; place-items: center; font-weight: 800; color: #475569; }
+      .cfoot { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #f1f5f9; padding-top: 10px; margin-top: auto; }
+      .badge { font-size: .62rem; text-transform: uppercase; letter-spacing: .06em; font-weight: 800; background: #ecfdf5; color: #047857; padding: 3px 7px; border-radius: 4px; }
       .card h2 { font-size: 1.02rem; margin: 0 0 4px; }
       .card h2 a { color: #0f172a; text-decoration: none; }
       .loc { color: #64748b; font-size: .8rem; margin: 0 0 8px; }

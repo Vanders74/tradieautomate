@@ -34,7 +34,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "3f9d4452-6b15-44b6-9d8e-1c2b1a45f55b",
+   "website_direct": "https://autom8me.com.au",
+   "logo": "/directory/logos/autom8-me-pty-ltd.png"
   },
   {
    "slug": "kefi-effect",
@@ -58,7 +61,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "7216e833-f999-42ae-ab88-23a102d3f30b",
+   "website_direct": "https://kefieffect.com.au",
+   "logo": "/directory/logos/kefi-effect.png"
   },
   {
    "slug": "limes-digital",
@@ -83,7 +89,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "fd6660c9-c978-48cb-9c2e-238cf867362b",
+   "website_direct": "https://limesdigital.com",
+   "logo": "/directory/logos/limes-digital.jpg"
   },
   {
    "slug": "maximum-efficiency",
@@ -109,7 +118,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "d4c63fb5-97db-4680-bb68-1da8232a41db",
+   "website_direct": "https://maximumefficiency.com.au",
+   "logo": "/directory/logos/maximum-efficiency.png"
   },
   {
    "slug": "pengwen-bookkeeping-pty-ltd",
@@ -133,7 +145,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "84027590-358c-45c0-a9ea-87be1ccd041b",
+   "website_direct": "https://pgbk.com.au",
+   "logo": "/directory/logos/pengwen-bookkeeping-pty-ltd.png"
   },
   {
    "slug": "workm8-consulting",
@@ -158,7 +173,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "22846baa-5e0a-411b-a03d-1b98804c465b",
+   "website_direct": "https://workm8consulting.com",
+   "logo": "/directory/logos/workm8-consulting.jpg"
   },
   {
    "slug": "aignition",
@@ -183,7 +201,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "235813a1-2eb7-432e-b8bf-211913387f4b",
+   "website_direct": "https://portal.mychatbot.com.au",
+   "logo": "/directory/logos/aignition.png"
   },
   {
    "slug": "altf4",
@@ -208,7 +229,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "6906f59e-ef06-481e-aa85-53654fed218b",
+   "website_direct": "https://altf4.com.au",
+   "logo": "/directory/logos/altf4.png"
   },
   {
    "slug": "acacia-safety-consulting",
@@ -233,7 +257,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "de7cc58e-70e8-4071-a546-220bdd3b5e3b",
+   "website_direct": "https://acaciasafety.au",
+   "logo": "/directory/logos/acacia-safety-consulting.png"
   },
   {
    "slug": "account-aspects",
@@ -252,7 +279,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "cb1d7058-d5bf-4fe3-9c5f-bb6dc2044afb",
+   "website_direct": "https://accountaspects.com.au",
+   "logo": "/directory/logos/account-aspects.jpg"
   },
   {
    "slug": "accountsconnect",
@@ -275,7 +305,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "84593756-c146-40b5-a9cb-9151c6cdb1db",
+   "website_direct": null,
+   "logo": "/directory/logos/accountsconnect.jpg"
   },
   {
    "slug": "anthill-technologies",
@@ -300,7 +333,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "11fdf9a8-6b8f-46b7-b093-15d7b8798e7b",
+   "website_direct": "https://anthill.com.au",
+   "logo": "/directory/logos/anthill-technologies.jpg"
   },
   {
    "slug": "behind-the-boots",
@@ -323,7 +359,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "c7debb0a-5e9b-49d7-9d02-1b776e102f1b",
+   "website_direct": "https://behindtheboots.com.au",
+   "logo": "/directory/logos/behind-the-boots.png"
   },
   {
    "slug": "blue-safe-online",
@@ -345,7 +384,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "d53b9190-d720-45db-9bf2-2410a91d77cb",
+   "website_direct": "https://bluesafeonline.com.au",
+   "logo": "/directory/logos/blue-safe-online.png"
   },
   {
    "slug": "customer-co-lab",
@@ -363,7 +405,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "74c38927-5cd7-44c5-b89d-23a78316249b",
+   "website_direct": "https://customercolab.com",
+   "logo": "/directory/logos/customer-co-lab.png"
   },
   {
    "slug": "cutting-edge-support",
@@ -388,7 +433,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "8ef41ec4-255b-455c-81e4-6a27103ee77b",
+   "website_direct": null,
+   "logo": "/directory/logos/cutting-edge-support.jpg"
   },
   {
    "slug": "gck-consulting",
@@ -411,7 +459,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "32734809-171c-4ee7-a1d3-77c5bc55c3ab",
+   "website_direct": "https://fast.wistia.com",
+   "logo": "/directory/logos/gck-consulting.jpg"
   },
   {
    "slug": "katwill-services",
@@ -436,7 +487,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "53b3e481-a43a-46e9-b0d6-b5aa5a244d8b",
+   "website_direct": "https://katwillservices.com.au",
+   "logo": "/directory/logos/katwill-services.png"
   },
   {
    "slug": "mint-dynamics",
@@ -461,7 +515,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "bb64610a-9307-4e13-814b-1d2eb5767dab",
+   "website_direct": null,
+   "logo": "/directory/logos/mint-dynamics.jpg"
   },
   {
    "slug": "patricia-virtual-assistant",
@@ -484,7 +541,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "26b9d845-4cd6-499b-8e63-1de94dd9c65b",
+   "website_direct": "https://pvassist.com.au",
+   "logo": "/directory/logos/patricia-virtual-assistant.png"
   },
   {
    "slug": "aussie-tradies-business-mate",
@@ -509,7 +569,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "9895593b-57bd-42ed-b458-1f9324edeb9b",
+   "website_direct": "https://fast.wistia.com",
+   "logo": "/directory/logos/aussie-tradies-business-mate.jpg"
   },
   {
    "slug": "back-pocket-solutions",
@@ -532,7 +595,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "d4c2bf97-ecdc-4669-a289-22db99bfb0db",
+   "website_direct": "https://fast.wistia.com",
+   "logo": "/directory/logos/back-pocket-solutions.png"
   },
   {
    "slug": "cloud-mind-accounts-pty-ltd",
@@ -556,7 +622,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "936c46bc-e990-4519-b9a3-1d3179ad971b",
+   "website_direct": "https://cloudmindaccounts.com.au",
+   "logo": "/directory/logos/cloud-mind-accounts-pty-ltd.jpg"
   },
   {
    "slug": "exceptional-tradie-solutions",
@@ -582,7 +651,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "cf11cc8e-ba8f-4383-a042-1d27f6a2b81b",
+   "website_direct": "https://exceptionaltradiesolutions.com.au",
+   "logo": "/directory/logos/exceptional-tradie-solutions.png"
   },
   {
    "slug": "gippsland-pest-management",
@@ -604,7 +676,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "d457e649-9c5f-4f56-815f-950a5efb8d3b",
+   "website_direct": "https://gippspest.com.au",
+   "logo": "/directory/logos/gippsland-pest-management.jpg"
   },
   {
    "slug": "the-numbers-chic",
@@ -630,7 +705,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "6402c57f-0e80-43eb-b1fd-2067bb23f53b",
+   "website_direct": "https://sheraleeping.com.au",
+   "logo": "/directory/logos/the-numbers-chic.jpg"
   },
   {
    "slug": "trade-magnet",
@@ -653,7 +731,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "4d27ad8d-59df-4d37-9d17-22120ac14c9b",
+   "website_direct": "https://trademagnet.com.au",
+   "logo": "/directory/logos/trade-magnet.png"
   },
   {
    "slug": "tradie-support-services",
@@ -678,7 +759,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "5a857af5-559e-4686-aad4-6901fd82bc3b",
+   "website_direct": "https://tradiesupport.com.au",
+   "logo": "/directory/logos/tradie-support-services.jpg"
   },
   {
    "slug": "all-in-the-cloud",
@@ -701,7 +785,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "028267d8-856b-4d8e-b326-0e37edb3fe3b",
+   "website_direct": "https://allinthecloud.com.au",
+   "logo": "/directory/logos/all-in-the-cloud.png"
   },
   {
    "slug": "aloka-technology-solutions",
@@ -726,7 +813,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "efff9a59-a6e3-4a1e-9b27-202239b759db",
+   "website_direct": "https://aloka.com.au",
+   "logo": "/directory/logos/aloka-technology-solutions.png"
   },
   {
    "slug": "aureolink",
@@ -751,7 +841,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "01a0ce10-f8d7-7664-8929-1593dabc2f1b",
+   "website_direct": "https://aureolink.com.au",
+   "logo": "/directory/logos/aureolink.png"
   },
   {
    "slug": "bell-curve-solutions",
@@ -774,7 +867,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "d0661a1e-92bc-48bc-b274-221fd9dd36bb",
+   "website_direct": "https://bellcurvesolutions.com.au",
+   "logo": "/directory/logos/bell-curve-solutions.png"
   },
   {
    "slug": "sbaas",
@@ -797,7 +893,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "31096ce0-70a0-47da-a712-1f73a6074b2b",
+   "website_direct": "https://sbaas.com.au",
+   "logo": "/directory/logos/sbaas.png"
   },
   {
    "slug": "scale-your-service",
@@ -822,7 +921,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "019f20ba-4882-77c1-aaa3-9c26ee12d82b",
+   "website_direct": null,
+   "logo": "/directory/logos/scale-your-service.png"
   },
   {
    "slug": "skilled-business-solutions",
@@ -846,7 +948,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "dbd5203b-5b40-4b4b-96ad-20874dce0b4b",
+   "website_direct": null,
+   "logo": "/directory/logos/skilled-business-solutions.png"
   },
   {
    "slug": "accountify",
@@ -870,7 +975,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "e61151cb-7426-4b9e-9617-312ec466d48b",
+   "website_direct": "https://accountify.com.au",
+   "logo": "/directory/logos/accountify.jpg"
   },
   {
    "slug": "admin-advantage-qld-pty-ltd",
@@ -894,7 +1002,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "92a37e4b-e618-4abe-9473-4b202865821b",
+   "website_direct": null,
+   "logo": "/directory/logos/admin-advantage-qld-pty-ltd.jpg"
   },
   {
    "slug": "adoptech",
@@ -919,7 +1030,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "54efef1e-04ac-4fbe-b3fd-1cab9fb053db",
+   "website_direct": "https://adoptech.com.au",
+   "logo": "/directory/logos/adoptech.png"
   },
   {
    "slug": "beetle-digital",
@@ -944,7 +1058,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "a69db44e-686d-43a3-8762-1f92a101694b",
+   "website_direct": "https://beetledigital.com",
+   "logo": "/directory/logos/beetle-digital.png"
   },
   {
    "slug": "blacksheep-creative",
@@ -967,7 +1084,10 @@
    "verification_source": "ServiceM8 official partner directory",
    "tier": "free",
    "claimed": false,
-   "status": "live"
+   "status": "live",
+   "logo_uuid": "762c30d2-3d7c-45ee-8ff7-241bea2391fb",
+   "website_direct": null,
+   "logo": "/directory/logos/blacksheep-creative.png"
   }
  ]
 }
