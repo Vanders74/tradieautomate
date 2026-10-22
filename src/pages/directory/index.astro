@@ -109,9 +109,9 @@ const schema = {
                     <p class="loc">{l.city}, {l.state}</p>
                   </div>
                 </div>
-                <p class="desc">{l.summary.replace(/^[^.]*\.\s*/, '').slice(0, 120)}…</p>
+                <p class="desc">{(l.positioning || l.summary).slice(0, 132)}…</p>
                 <div class="tags">
-                  {l.services.slice(0, 2).map((s) => <span>{s}</span>)}
+                  {(l.specialties && l.specialties.length ? l.specialties : l.services).slice(0, 2).map((s) => <span>{s}</span>)}
                 </div>
                 <div class="card-foot">
                   <span class={`badge ${l.tier === 'free' ? 'muted' : 'paid'}`}>{l.tier === 'free' ? 'Verified listing' : 'Featured'}</span>

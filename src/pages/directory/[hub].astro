@@ -98,8 +98,8 @@ const crumbs = {
                   <p class="loc">{l.city}, {l.state}</p>
                 </div>
               </div>
-              <p class="sum">{l.summary.replace(/^[^.]*\.\s*/, '').slice(0, 130)}…</p>
-              <div class="tags">{l.services.slice(0, 3).map((s) => <span>{s}</span>)}</div>
+              <p class="sum">{(l.positioning || l.summary).slice(0, 130)}…</p>
+              <div class="tags">{(l.specialties && l.specialties.length ? l.specialties : l.services).slice(0, 3).map((s) => <span>{s}</span>)}</div>
               <div class="cfoot">
                 <span class="badge">Verified</span>
                 <a class="more" href={`/directory/partner/${l.slug}/`}>View profile →</a>

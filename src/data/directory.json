@@ -27,7 +27,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Autom8 Me Pty Ltd is a ServiceM8 partner based in Wollongong, NSW. They work with trade and service businesses on consulting, account setup and conversion, team training and custom forms. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Job management consultants for tradies \u2014 ServiceM8 setup plus Fergus, WorxSafety, Deputy and Next Minute. Based in Wollongong, NSW. Best for mixed field-service teams \u2014 lawn, cleaning, mobile mechanics, plumbing and electrical.",
    "website": "https://www.servicem8.com/partner_website?uuid=276133e3-a0d3-4c1b-b3ef-1c2b129c381b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=276133e3-a0d3-4c1b-b3ef-1c2b129c381b",
    "verified_at": "2026-10-22",
@@ -37,7 +37,17 @@
    "status": "live",
    "logo_uuid": "3f9d4452-6b15-44b6-9d8e-1c2b1a45f55b",
    "website_direct": "https://autom8me.com.au",
-   "logo": "/directory/logos/autom8-me-pty-ltd.png"
+   "logo": "/directory/logos/autom8-me-pty-ltd.png",
+   "positioning": "Job management consultants for tradies \u2014 ServiceM8 setup plus Fergus, WorxSafety, Deputy and Next Minute.",
+   "specialties": [
+    "ServiceM8 setup",
+    "Fergus",
+    "WorxSafety",
+    "Deputy",
+    "Next Minute"
+   ],
+   "best_for": "Mixed field-service teams \u2014 lawn, cleaning, mobile mechanics, plumbing and electrical.",
+   "info_quality": "full"
   },
   {
    "slug": "kefi-effect",
@@ -54,7 +64,7 @@
     "Developer",
     "Training"
    ],
-   "summary": "Kefi Effect is a ServiceM8 partner and developer based in Central Coast, NSW. They work with trade and service businesses on consulting, account setup and conversion, team training and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Small-business operations partner offering admin support, HR and recruitment alongside ServiceM8 implementation. Based in Central Coast, NSW. Best for owners who need operational help as well as a software setup.",
    "website": "https://www.servicem8.com/partner_website?uuid=e8f59a55-01e1-4d95-8b55-23a101d68cfb",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=e8f59a55-01e1-4d95-8b55-23a101d68cfb",
    "verified_at": "2026-10-22",
@@ -64,7 +74,15 @@
    "status": "live",
    "logo_uuid": "7216e833-f999-42ae-ab88-23a102d3f30b",
    "website_direct": "https://kefieffect.com.au",
-   "logo": "/directory/logos/kefi-effect.png"
+   "logo": "/directory/logos/kefi-effect.png",
+   "positioning": "Small-business operations partner offering admin support, HR and recruitment alongside ServiceM8 implementation.",
+   "specialties": [
+    "Admin support",
+    "HR & recruitment",
+    "ServiceM8 implementation"
+   ],
+   "best_for": "Owners who need operational help as well as a software setup.",
+   "info_quality": "full"
   },
   {
    "slug": "limes-digital",
@@ -82,7 +100,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Limes Digital is a ServiceM8 partner and developer based in Marsden Park, NSW. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "AI and automation consultancy that builds a custom AI layer for business admin \u2014 adjacent to ServiceM8, not a core implementation partner. Based in Marsden Park, NSW. Best for businesses wanting automation beyond job management.",
    "website": "https://www.servicem8.com/partner_website?uuid=16df2094-a724-40a0-b667-238cff40805b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=16df2094-a724-40a0-b667-238cff40805b",
    "verified_at": "2026-10-22",
@@ -92,7 +110,15 @@
    "status": "live",
    "logo_uuid": "fd6660c9-c978-48cb-9c2e-238cf867362b",
    "website_direct": "https://limesdigital.com",
-   "logo": "/directory/logos/limes-digital.jpg"
+   "logo": "/directory/logos/limes-digital.jpg",
+   "positioning": "AI and automation consultancy that builds a custom AI layer for business admin \u2014 adjacent to ServiceM8, not a core implementation partner.",
+   "specialties": [
+    "AI agents",
+    "Workflow automation",
+    "Admin automation"
+   ],
+   "best_for": "Businesses wanting automation beyond job management.",
+   "info_quality": "full"
   },
   {
    "slug": "maximum-efficiency",
@@ -111,7 +137,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Maximum Efficiency is a ServiceM8 partner and bookkeeping practice based in Wallsend, NSW. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Process and profitability consulting with ServiceM8 setup, based in Wallsend. Based in Wallsend, NSW. Best for owners who want the business systems fixed, not just the software.",
    "website": "https://www.servicem8.com/partner_website?uuid=b42ae919-8f5b-46e2-80d9-1daf70aa809b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=b42ae919-8f5b-46e2-80d9-1daf70aa809b",
    "verified_at": "2026-10-22",
@@ -121,7 +147,15 @@
    "status": "live",
    "logo_uuid": "d4c63fb5-97db-4680-bb68-1da8232a41db",
    "website_direct": "https://maximumefficiency.com.au",
-   "logo": "/directory/logos/maximum-efficiency.png"
+   "logo": "/directory/logos/maximum-efficiency.png",
+   "positioning": "Process and profitability consulting with ServiceM8 setup, based in Wallsend.",
+   "specialties": [
+    "Process improvement",
+    "ServiceM8 setup",
+    "Profitability consulting"
+   ],
+   "best_for": "Owners who want the business systems fixed, not just the software.",
+   "info_quality": "full"
   },
   {
    "slug": "pengwen-bookkeeping-pty-ltd",
@@ -138,7 +172,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Pengwen Bookkeeping Pty Ltd is a ServiceM8 partner and bookkeeping practice based in Rouse Hill, NSW. They work with trade and service businesses on consulting, account setup and conversion, team training and custom forms. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Rouse Hill bookkeeping practice working across Xero, MYOB, Dext and ServiceM8. Based in Rouse Hill, NSW. Best for trades that want their books and job data handled by one practice.",
    "website": "https://www.servicem8.com/partner_website?uuid=9d9fd1e4-6a3a-457f-9705-4dfcc47e03cb",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=9d9fd1e4-6a3a-457f-9705-4dfcc47e03cb",
    "verified_at": "2026-10-22",
@@ -148,7 +182,17 @@
    "status": "live",
    "logo_uuid": "84027590-358c-45c0-a9ea-87be1ccd041b",
    "website_direct": "https://pgbk.com.au",
-   "logo": "/directory/logos/pengwen-bookkeeping-pty-ltd.png"
+   "logo": "/directory/logos/pengwen-bookkeeping-pty-ltd.png",
+   "positioning": "Rouse Hill bookkeeping practice working across Xero, MYOB, Dext and ServiceM8.",
+   "specialties": [
+    "Bookkeeping",
+    "BAS",
+    "Xero",
+    "MYOB",
+    "Dext"
+   ],
+   "best_for": "Trades that want their books and job data handled by one practice.",
+   "info_quality": "full"
   },
   {
    "slug": "workm8-consulting",
@@ -166,7 +210,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "WorkM8 Consulting is a ServiceM8 partner and developer based in Sydney, NSW. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "ServiceM8 Gold Partner and 2021 Emerging Partner of the Year \u2014 implementation, custom forms, integrations and automation across AU, NZ and the US. Also sells WorkM8 Automation, a Zapier connector to 8,000+ apps. Based in Sydney, NSW. Best for established trades wanting deep automation and custom builds, not just a setup.",
    "website": "https://www.servicem8.com/partner_website?uuid=4cc13b00-0ce2-48b5-b7db-1b99c68e496b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=4cc13b00-0ce2-48b5-b7db-1b99c68e496b",
    "verified_at": "2026-10-22",
@@ -176,7 +220,17 @@
    "status": "live",
    "logo_uuid": "22846baa-5e0a-411b-a03d-1b98804c465b",
    "website_direct": "https://workm8consulting.com",
-   "logo": "/directory/logos/workm8-consulting.jpg"
+   "logo": "/directory/logos/workm8-consulting.jpg",
+   "positioning": "ServiceM8 Gold Partner and 2021 Emerging Partner of the Year \u2014 implementation, custom forms, integrations and automation across AU, NZ and the US. Also sells WorkM8 Automation, a Zapier connector to 8,000+ apps.",
+   "specialties": [
+    "Gold Partner",
+    "Custom forms",
+    "API integrations",
+    "Zapier automation",
+    "Training"
+   ],
+   "best_for": "Established trades wanting deep automation and custom builds, not just a setup.",
+   "info_quality": "full"
   },
   {
    "slug": "aignition",
@@ -194,7 +248,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "AIgnition is a ServiceM8 partner and developer based in Surry Hills, NSW. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "AI and automation consultancy behind MyChatbot, working with ServiceM8 on custom add-ons and workflows. Based in Surry Hills, NSW. Best for businesses wanting AI layered onto ServiceM8.",
    "website": "https://www.servicem8.com/partner_website?uuid=e51807da-f751-4602-b8b4-21191d7144eb",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=e51807da-f751-4602-b8b4-21191d7144eb",
    "verified_at": "2026-10-22",
@@ -204,7 +258,15 @@
    "status": "live",
    "logo_uuid": "235813a1-2eb7-432e-b8bf-211913387f4b",
    "website_direct": "https://portal.mychatbot.com.au",
-   "logo": "/directory/logos/aignition.png"
+   "logo": "/directory/logos/aignition.png",
+   "positioning": "AI and automation consultancy behind MyChatbot, working with ServiceM8 on custom add-ons and workflows.",
+   "specialties": [
+    "AI tools",
+    "Custom add-ons",
+    "Automation"
+   ],
+   "best_for": "Businesses wanting AI layered onto ServiceM8.",
+   "info_quality": "full"
   },
   {
    "slug": "altf4",
@@ -222,7 +284,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "ALTF4 is a ServiceM8 partner and developer based in Glenwood, NSW. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "IT sales, service and repair business that specialises in ServiceM8 job management. Based in Glenwood, NSW. Best for sydney businesses wanting IT and job management from one supplier.",
    "website": "https://www.servicem8.com/partner_website?uuid=178c8c5a-1ec9-4dbf-97eb-75a566d80b7b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=178c8c5a-1ec9-4dbf-97eb-75a566d80b7b",
    "verified_at": "2026-10-22",
@@ -232,7 +294,15 @@
    "status": "live",
    "logo_uuid": "6906f59e-ef06-481e-aa85-53654fed218b",
    "website_direct": "https://altf4.com.au",
-   "logo": "/directory/logos/altf4.png"
+   "logo": "/directory/logos/altf4.png",
+   "positioning": "IT sales, service and repair business that specialises in ServiceM8 job management.",
+   "specialties": [
+    "ServiceM8 support",
+    "IT services",
+    "Hardware"
+   ],
+   "best_for": "Sydney businesses wanting IT and job management from one supplier.",
+   "info_quality": "full"
   },
   {
    "slug": "acacia-safety-consulting",
@@ -250,7 +320,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Acacia Safety Consulting is a ServiceM8 partner and developer based in Forbes, NSW. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Work health and safety consultants building WHS systems for trades, with ServiceM8 and WorxSafety setup and a free 20-minute fit call. Based in Forbes, NSW. Best for businesses that need compliance systems alongside job management.",
    "website": "https://www.servicem8.com/partner_website?uuid=51930810-2781-4c01-8222-220bd37e196b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=51930810-2781-4c01-8222-220bd37e196b",
    "verified_at": "2026-10-22",
@@ -260,7 +330,16 @@
    "status": "live",
    "logo_uuid": "de7cc58e-70e8-4071-a546-220bdd3b5e3b",
    "website_direct": "https://acaciasafety.au",
-   "logo": "/directory/logos/acacia-safety-consulting.png"
+   "logo": "/directory/logos/acacia-safety-consulting.png",
+   "positioning": "Work health and safety consultants building WHS systems for trades, with ServiceM8 and WorxSafety setup and a free 20-minute fit call.",
+   "specialties": [
+    "WHS systems",
+    "SWMS",
+    "ServiceM8",
+    "WorxSafety"
+   ],
+   "best_for": "Businesses that need compliance systems alongside job management.",
+   "info_quality": "full"
   },
   {
    "slug": "account-aspects",
@@ -272,7 +351,7 @@
     "accountants-bookkeepers"
    ],
    "services": [],
-   "summary": "Account Aspects is a ServiceM8 partner and bookkeeping practice based in Warners Bay, NSW. They work with trade and service businesses on ServiceM8 support. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Newcastle bookkeeping and BAS agency, Xero and ServiceM8 specialists, servicing Australia-wide. Based in Warners Bay, NSW. Best for trades wanting bookkeeping plus ServiceM8 training.",
    "website": "https://www.servicem8.com/partner_website?uuid=9e116970-9f8e-4c0b-9a35-cae4c5bbaf3b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=9e116970-9f8e-4c0b-9a35-cae4c5bbaf3b",
    "verified_at": "2026-10-22",
@@ -282,7 +361,17 @@
    "status": "live",
    "logo_uuid": "cb1d7058-d5bf-4fe3-9c5f-bb6dc2044afb",
    "website_direct": "https://accountaspects.com.au",
-   "logo": "/directory/logos/account-aspects.jpg"
+   "logo": "/directory/logos/account-aspects.jpg",
+   "positioning": "Newcastle bookkeeping and BAS agency, Xero and ServiceM8 specialists, servicing Australia-wide.",
+   "specialties": [
+    "Bookkeeping",
+    "BAS",
+    "Payroll",
+    "Xero",
+    "ServiceM8 training"
+   ],
+   "best_for": "Trades wanting bookkeeping plus ServiceM8 training.",
+   "info_quality": "full"
   },
   {
    "slug": "accountsconnect",
@@ -298,7 +387,7 @@
     "Setup & Conversions",
     "Training"
    ],
-   "summary": "AccountsConnect is a ServiceM8 partner and bookkeeping practice based in Church Point, NSW. They work with trade and service businesses on consulting, account setup and conversion and team training. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Bookkeeping and ServiceM8 support from Church Point, Sydney. Based in Church Point, NSW. Best for trades on Sydney's northern beaches.",
    "website": "https://www.servicem8.com/partner_website?uuid=ff8059ea-d55a-495e-9c8c-8b48cb7ebacb",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=ff8059ea-d55a-495e-9c8c-8b48cb7ebacb",
    "verified_at": "2026-10-22",
@@ -308,7 +397,14 @@
    "status": "live",
    "logo_uuid": "84593756-c146-40b5-a9cb-9151c6cdb1db",
    "website_direct": null,
-   "logo": "/directory/logos/accountsconnect.jpg"
+   "logo": "/directory/logos/accountsconnect.jpg",
+   "positioning": "Bookkeeping and ServiceM8 support from Church Point, Sydney.",
+   "specialties": [
+    "Bookkeeping",
+    "ServiceM8 support"
+   ],
+   "best_for": "Trades on Sydney's northern beaches.",
+   "info_quality": "limited"
   },
   {
    "slug": "anthill-technologies",
@@ -326,7 +422,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Anthill Technologies is a ServiceM8 partner and developer based in Leichhardt, NSW. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Service integration specialists across MobiPOS, Vend, Abacus, MYOB, Xero, MoneyWorks and ServiceM8. Based in Leichhardt, NSW. Best for businesses running several retail or accounting systems that need to talk to each other.",
    "website": "https://www.servicem8.com/partner_website?uuid=91c30db2-09ae-4469-847d-01932aebd8ea",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=91c30db2-09ae-4469-847d-01932aebd8ea",
    "verified_at": "2026-10-22",
@@ -336,7 +432,16 @@
    "status": "live",
    "logo_uuid": "11fdf9a8-6b8f-46b7-b093-15d7b8798e7b",
    "website_direct": "https://anthill.com.au",
-   "logo": "/directory/logos/anthill-technologies.jpg"
+   "logo": "/directory/logos/anthill-technologies.jpg",
+   "positioning": "Service integration specialists across MobiPOS, Vend, Abacus, MYOB, Xero, MoneyWorks and ServiceM8.",
+   "specialties": [
+    "System integration",
+    "MYOB",
+    "Xero",
+    "ServiceM8"
+   ],
+   "best_for": "Businesses running several retail or accounting systems that need to talk to each other.",
+   "info_quality": "full"
   },
   {
    "slug": "behind-the-boots",
@@ -352,7 +457,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Behind the Boots is a ServiceM8 partner based in East Jindabyne, NSW. They work with trade and service businesses on consulting, account setup and conversion, team training and custom forms. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Admin support for tradies with ServiceM8 setup, based in East Jindabyne. Based in East Jindabyne, NSW. Best for small trades that want admin handled after setup.",
    "website": "https://www.servicem8.com/partner_website?uuid=5dca6a3b-5f01-42f3-be52-1b776e0a970b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=5dca6a3b-5f01-42f3-be52-1b776e0a970b",
    "verified_at": "2026-10-22",
@@ -362,7 +467,15 @@
    "status": "live",
    "logo_uuid": "c7debb0a-5e9b-49d7-9d02-1b776e102f1b",
    "website_direct": "https://behindtheboots.com.au",
-   "logo": "/directory/logos/behind-the-boots.png"
+   "logo": "/directory/logos/behind-the-boots.png",
+   "positioning": "Admin support for tradies with ServiceM8 setup, based in East Jindabyne.",
+   "specialties": [
+    "Admin support",
+    "ServiceM8 setup",
+    "Bookings"
+   ],
+   "best_for": "Small trades that want admin handled after setup.",
+   "info_quality": "full"
   },
   {
    "slug": "blue-safe-online",
@@ -377,7 +490,7 @@
     "Developer",
     "Forms"
    ],
-   "summary": "Blue Safe Online is a ServiceM8 partner and developer based in Sydney, NSW. They work with trade and service businesses on custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Trade-specific SWMS, WHS packs and ServiceM8 forms, used by more than 10,000 Australian SMBs. Based in Sydney, NSW. Best for trades that need compliant forms and safety documentation.",
    "website": "https://www.servicem8.com/partner_website?uuid=0b45dafc-b7b0-4ea8-b7d4-2410a140561b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=0b45dafc-b7b0-4ea8-b7d4-2410a140561b",
    "verified_at": "2026-10-22",
@@ -387,7 +500,15 @@
    "status": "live",
    "logo_uuid": "d53b9190-d720-45db-9bf2-2410a91d77cb",
    "website_direct": "https://bluesafeonline.com.au",
-   "logo": "/directory/logos/blue-safe-online.png"
+   "logo": "/directory/logos/blue-safe-online.png",
+   "positioning": "Trade-specific SWMS, WHS packs and ServiceM8 forms, used by more than 10,000 Australian SMBs.",
+   "specialties": [
+    "SWMS",
+    "WHS packs",
+    "ServiceM8 forms"
+   ],
+   "best_for": "Trades that need compliant forms and safety documentation.",
+   "info_quality": "full"
   },
   {
    "slug": "customer-co-lab",
@@ -398,7 +519,7 @@
     "servicem8-partners"
    ],
    "services": [],
-   "summary": "CUSTOMER CO-LAB is a ServiceM8 partner based in Randwick, NSW. They work with trade and service businesses on ServiceM8 support. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Certified ServiceM8 partner offering fixed-price setup with no lock-in, and eligible for ServiceM8 setup rebates. Based in Randwick, NSW. Best for trades that want a fixed scope and a fast 14-day setup.",
    "website": "https://www.servicem8.com/partner_website?uuid=e01095d7-e270-4498-9395-23a78fffa22b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=e01095d7-e270-4498-9395-23a78fffa22b",
    "verified_at": "2026-10-22",
@@ -408,7 +529,15 @@
    "status": "live",
    "logo_uuid": "74c38927-5cd7-44c5-b89d-23a78316249b",
    "website_direct": "https://customercolab.com",
-   "logo": "/directory/logos/customer-co-lab.png"
+   "logo": "/directory/logos/customer-co-lab.png",
+   "positioning": "Certified ServiceM8 partner offering fixed-price setup with no lock-in, and eligible for ServiceM8 setup rebates.",
+   "specialties": [
+    "Fixed-price setup",
+    "ServiceM8 rebates",
+    "Quotes and invoicing"
+   ],
+   "best_for": "Trades that want a fixed scope and a fast 14-day setup.",
+   "info_quality": "full"
   },
   {
    "slug": "cutting-edge-support",
@@ -426,7 +555,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Cutting Edge Support is a ServiceM8 partner and developer based in CRANEBROOK, NSW. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Bookkeeping and admin support from Cranebrook, Sydney. Based in CRANEBROOK, NSW. Best for western Sydney trades.",
    "website": "https://www.servicem8.com/partner_website?uuid=1c3a19e1-dce7-49cc-80a8-c610a9ef48db",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=1c3a19e1-dce7-49cc-80a8-c610a9ef48db",
    "verified_at": "2026-10-22",
@@ -436,7 +565,15 @@
    "status": "live",
    "logo_uuid": "8ef41ec4-255b-455c-81e4-6a27103ee77b",
    "website_direct": null,
-   "logo": "/directory/logos/cutting-edge-support.jpg"
+   "logo": "/directory/logos/cutting-edge-support.jpg",
+   "positioning": "Bookkeeping and admin support from Cranebrook, Sydney.",
+   "specialties": [
+    "Bookkeeping",
+    "Admin support",
+    "ServiceM8"
+   ],
+   "best_for": "Western Sydney trades.",
+   "info_quality": "limited"
   },
   {
    "slug": "gck-consulting",
@@ -452,7 +589,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "GCK Consulting is a ServiceM8 partner based in South Windsor, NSW. They work with trade and service businesses on consulting, account setup and conversion, team training and custom forms. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Business consulting and ServiceM8 support from South Windsor, Sydney. Based in South Windsor, NSW. Best for sydney trades wanting business advice with their software.",
    "website": "https://www.servicem8.com/partner_website?uuid=de54ff68-6f2e-453b-9c18-a6e88d05875b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=de54ff68-6f2e-453b-9c18-a6e88d05875b",
    "verified_at": "2026-10-22",
@@ -462,7 +599,14 @@
    "status": "live",
    "logo_uuid": "32734809-171c-4ee7-a1d3-77c5bc55c3ab",
    "website_direct": "https://fast.wistia.com",
-   "logo": "/directory/logos/gck-consulting.jpg"
+   "logo": "/directory/logos/gck-consulting.jpg",
+   "positioning": "Business consulting and ServiceM8 support from South Windsor, Sydney.",
+   "specialties": [
+    "Consulting",
+    "ServiceM8 support"
+   ],
+   "best_for": "Sydney trades wanting business advice with their software.",
+   "info_quality": "full"
   },
   {
    "slug": "katwill-services",
@@ -480,7 +624,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Katwill Services is a ServiceM8 partner and developer based in East Maitland, NSW. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Virtual office and bookkeeping team, including a certified bookkeeper and ServiceM8 partner. Based in East Maitland, NSW. Best for trades wanting remote admin staff rather than a one-off setup.",
    "website": "https://www.servicem8.com/partner_website?uuid=eda118b2-670c-48e8-be38-920339f0337b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=eda118b2-670c-48e8-be38-920339f0337b",
    "verified_at": "2026-10-22",
@@ -490,7 +634,15 @@
    "status": "live",
    "logo_uuid": "53b3e481-a43a-46e9-b0d6-b5aa5a244d8b",
    "website_direct": "https://katwillservices.com.au",
-   "logo": "/directory/logos/katwill-services.png"
+   "logo": "/directory/logos/katwill-services.png",
+   "positioning": "Virtual office and bookkeeping team, including a certified bookkeeper and ServiceM8 partner.",
+   "specialties": [
+    "Virtual office",
+    "Bookkeeping",
+    "ServiceM8"
+   ],
+   "best_for": "Trades wanting remote admin staff rather than a one-off setup.",
+   "info_quality": "full"
   },
   {
    "slug": "mint-dynamics",
@@ -508,7 +660,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Mint Dynamics is a ServiceM8 partner and developer based in Charlestown, NSW. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Bookkeeping and cloud accounting support from Charlestown, Newcastle. Based in Charlestown, NSW. Best for newcastle trades.",
    "website": "https://www.servicem8.com/partner_website?uuid=3eabfc43-1475-4f33-ac10-1d2ebb3f014b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=3eabfc43-1475-4f33-ac10-1d2ebb3f014b",
    "verified_at": "2026-10-22",
@@ -518,7 +670,15 @@
    "status": "live",
    "logo_uuid": "bb64610a-9307-4e13-814b-1d2eb5767dab",
    "website_direct": null,
-   "logo": "/directory/logos/mint-dynamics.jpg"
+   "logo": "/directory/logos/mint-dynamics.jpg",
+   "positioning": "Bookkeeping and cloud accounting support from Charlestown, Newcastle.",
+   "specialties": [
+    "Bookkeeping",
+    "Cloud accounting",
+    "ServiceM8"
+   ],
+   "best_for": "Newcastle trades.",
+   "info_quality": "limited"
   },
   {
    "slug": "patricia-virtual-assistant",
@@ -534,7 +694,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Patricia Virtual Assistant is a ServiceM8 partner based in Forestville, NSW. They work with trade and service businesses on consulting, account setup and conversion, team training and custom forms. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Virtual assistant offering admin, business documents, transcription and ServiceM8 support. Based in Forestville, NSW. Best for owners who want ongoing admin help, not just implementation.",
    "website": "https://www.servicem8.com/partner_website?uuid=d92189eb-2e05-4049-b294-1de9471103eb",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=d92189eb-2e05-4049-b294-1de9471103eb",
    "verified_at": "2026-10-22",
@@ -544,7 +704,16 @@
    "status": "live",
    "logo_uuid": "26b9d845-4cd6-499b-8e63-1de94dd9c65b",
    "website_direct": "https://pvassist.com.au",
-   "logo": "/directory/logos/patricia-virtual-assistant.png"
+   "logo": "/directory/logos/patricia-virtual-assistant.png",
+   "positioning": "Virtual assistant offering admin, business documents, transcription and ServiceM8 support.",
+   "specialties": [
+    "Virtual assistant",
+    "Admin",
+    "Transcription",
+    "ServiceM8"
+   ],
+   "best_for": "Owners who want ongoing admin help, not just implementation.",
+   "info_quality": "full"
   },
   {
    "slug": "aussie-tradies-business-mate",
@@ -562,7 +731,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Aussie Tradies Business Mate is a ServiceM8 partner and developer based in Echuca, VIC. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Family-run plumbing business in Echuca that also helps other trades set up ServiceM8. Based in Echuca, VIC. Best for regional Victorian trades wanting help from someone who has run a trade business.",
    "website": "https://www.servicem8.com/partner_website?uuid=bce688aa-56d5-45fa-8092-20d2446d8a5b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=bce688aa-56d5-45fa-8092-20d2446d8a5b",
    "verified_at": "2026-10-22",
@@ -572,7 +741,15 @@
    "status": "live",
    "logo_uuid": "9895593b-57bd-42ed-b458-1f9324edeb9b",
    "website_direct": "https://fast.wistia.com",
-   "logo": "/directory/logos/aussie-tradies-business-mate.jpg"
+   "logo": "/directory/logos/aussie-tradies-business-mate.jpg",
+   "positioning": "Family-run plumbing business in Echuca that also helps other trades set up ServiceM8.",
+   "specialties": [
+    "ServiceM8 setup",
+    "Forms",
+    "Plumbing operations"
+   ],
+   "best_for": "Regional Victorian trades wanting help from someone who has run a trade business.",
+   "info_quality": "full"
   },
   {
    "slug": "back-pocket-solutions",
@@ -588,7 +765,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Back Pocket Solutions is a ServiceM8 partner based in Greensborough, VIC. They work with trade and service businesses on consulting, account setup and conversion, team training and custom forms. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Bookkeeping and business support from Greensborough, Melbourne. Based in Greensborough, VIC. Best for melbourne trades.",
    "website": "https://www.servicem8.com/partner_website?uuid=289630ad-69e8-4090-a66b-22db9e330dfb",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=289630ad-69e8-4090-a66b-22db9e330dfb",
    "verified_at": "2026-10-22",
@@ -598,7 +775,15 @@
    "status": "live",
    "logo_uuid": "d4c2bf97-ecdc-4669-a289-22db99bfb0db",
    "website_direct": "https://fast.wistia.com",
-   "logo": "/directory/logos/back-pocket-solutions.png"
+   "logo": "/directory/logos/back-pocket-solutions.png",
+   "positioning": "Bookkeeping and business support from Greensborough, Melbourne.",
+   "specialties": [
+    "Bookkeeping",
+    "Admin",
+    "ServiceM8"
+   ],
+   "best_for": "Melbourne trades.",
+   "info_quality": "full"
   },
   {
    "slug": "cloud-mind-accounts-pty-ltd",
@@ -615,7 +800,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Cloud Mind Accounts Pty Ltd is a ServiceM8 partner and bookkeeping practice based in Oakleigh South, VIC. They work with trade and service businesses on consulting, account setup and conversion, team training and custom forms. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Oakleigh South bookkeeping and BAS practice across Xero, MYOB, payroll and ServiceM8. Based in Oakleigh South, VIC. Best for trades that want their accountant inside their job management system.",
    "website": "https://www.servicem8.com/partner_website?uuid=2f7403f7-cd9e-4753-928e-1d31761b1e0b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=2f7403f7-cd9e-4753-928e-1d31761b1e0b",
    "verified_at": "2026-10-22",
@@ -625,7 +810,17 @@
    "status": "live",
    "logo_uuid": "936c46bc-e990-4519-b9a3-1d3179ad971b",
    "website_direct": "https://cloudmindaccounts.com.au",
-   "logo": "/directory/logos/cloud-mind-accounts-pty-ltd.jpg"
+   "logo": "/directory/logos/cloud-mind-accounts-pty-ltd.jpg",
+   "positioning": "Oakleigh South bookkeeping and BAS practice across Xero, MYOB, payroll and ServiceM8.",
+   "specialties": [
+    "Bookkeeping",
+    "BAS",
+    "Payroll",
+    "Xero",
+    "MYOB"
+   ],
+   "best_for": "Trades that want their accountant inside their job management system.",
+   "info_quality": "full"
   },
   {
    "slug": "exceptional-tradie-solutions",
@@ -644,7 +839,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Exceptional Tradie Solutions is a ServiceM8 partner and bookkeeping practice based in Mulgrave, VIC. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Back-office operations for established trades, with ServiceM8 implementation and published case studies. Based in Mulgrave, VIC. Best for established trades (roughly 5+ staff) outgrowing ad-hoc admin.",
    "website": "https://www.servicem8.com/partner_website?uuid=4832af5d-10fc-454e-9aeb-1d27f2cde05b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=4832af5d-10fc-454e-9aeb-1d27f2cde05b",
    "verified_at": "2026-10-22",
@@ -654,7 +849,15 @@
    "status": "live",
    "logo_uuid": "cf11cc8e-ba8f-4383-a042-1d27f6a2b81b",
    "website_direct": "https://exceptionaltradiesolutions.com.au",
-   "logo": "/directory/logos/exceptional-tradie-solutions.png"
+   "logo": "/directory/logos/exceptional-tradie-solutions.png",
+   "positioning": "Back-office operations for established trades, with ServiceM8 implementation and published case studies.",
+   "specialties": [
+    "Back-office ops",
+    "ServiceM8 implementation",
+    "Case studies"
+   ],
+   "best_for": "Established trades (roughly 5+ staff) outgrowing ad-hoc admin.",
+   "info_quality": "full"
   },
   {
    "slug": "gippsland-pest-management",
@@ -669,7 +872,7 @@
     "Developer",
     "Forms"
    ],
-   "summary": "Gippsland Pest Management is a ServiceM8 partner and developer based in Warragul, VIC. They work with trade and service businesses on custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Pest management business in Warragul that also builds ServiceM8 forms and development work. Based in Warragul, VIC. Best for trades wanting forms built by someone who runs a field business.",
    "website": "https://www.servicem8.com/partner_website?uuid=d2bacb24-353a-4efa-a7db-1bddea0fed9b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=d2bacb24-353a-4efa-a7db-1bddea0fed9b",
    "verified_at": "2026-10-22",
@@ -679,7 +882,15 @@
    "status": "live",
    "logo_uuid": "d457e649-9c5f-4f56-815f-950a5efb8d3b",
    "website_direct": "https://gippspest.com.au",
-   "logo": "/directory/logos/gippsland-pest-management.jpg"
+   "logo": "/directory/logos/gippsland-pest-management.jpg",
+   "positioning": "Pest management business in Warragul that also builds ServiceM8 forms and development work.",
+   "specialties": [
+    "ServiceM8 forms",
+    "Development",
+    "Pest control operations"
+   ],
+   "best_for": "Trades wanting forms built by someone who runs a field business.",
+   "info_quality": "full"
   },
   {
    "slug": "the-numbers-chic",
@@ -698,7 +909,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "The Numbers Chic is a ServiceM8 partner and bookkeeping practice based in Melbourne, VIC. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Melbourne bookkeeping service for tradies with ServiceM8 support. Based in Melbourne, VIC. Best for trades that want bookkeeping and job management aligned.",
    "website": "https://www.servicem8.com/partner_website?uuid=fc4f0e7c-89a2-43fc-93ef-2067bc515d2b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=fc4f0e7c-89a2-43fc-93ef-2067bc515d2b",
    "verified_at": "2026-10-22",
@@ -708,7 +919,15 @@
    "status": "live",
    "logo_uuid": "6402c57f-0e80-43eb-b1fd-2067bb23f53b",
    "website_direct": "https://sheraleeping.com.au",
-   "logo": "/directory/logos/the-numbers-chic.jpg"
+   "logo": "/directory/logos/the-numbers-chic.jpg",
+   "positioning": "Melbourne bookkeeping service for tradies with ServiceM8 support.",
+   "specialties": [
+    "Bookkeeping",
+    "ServiceM8 support",
+    "Admin"
+   ],
+   "best_for": "Trades that want bookkeeping and job management aligned.",
+   "info_quality": "full"
   },
   {
    "slug": "trade-magnet",
@@ -724,7 +943,7 @@
     "Developer",
     "Training"
    ],
-   "summary": "Trade Magnet is a ServiceM8 partner and developer based in Warranwood, VIC. They work with trade and service businesses on consulting, team training and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Automation and CRM specialists working across ServiceM8, Simpro and GoHighLevel, with published pricing and done-for-you setup. Based in Warranwood, VIC. Best for trades wanting lead capture and CRM layered onto ServiceM8.",
    "website": "https://www.servicem8.com/partner_website?uuid=04236591-0ef2-42d2-bbe2-22120274808b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=04236591-0ef2-42d2-bbe2-22120274808b",
    "verified_at": "2026-10-22",
@@ -734,7 +953,17 @@
    "status": "live",
    "logo_uuid": "4d27ad8d-59df-4d37-9d17-22120ac14c9b",
    "website_direct": "https://trademagnet.com.au",
-   "logo": "/directory/logos/trade-magnet.png"
+   "logo": "/directory/logos/trade-magnet.png",
+   "positioning": "Automation and CRM specialists working across ServiceM8, Simpro and GoHighLevel, with published pricing and done-for-you setup.",
+   "specialties": [
+    "Automation",
+    "CRM",
+    "ServiceM8",
+    "Simpro",
+    "GoHighLevel"
+   ],
+   "best_for": "Trades wanting lead capture and CRM layered onto ServiceM8.",
+   "info_quality": "full"
   },
   {
    "slug": "tradie-support-services",
@@ -752,7 +981,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Tradie Support Services is a ServiceM8 partner and developer based in Eltham, VIC. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Cloud software implementation from consultation through setup, training and ongoing support. Based in Eltham, VIC. Best for trades that want one provider from scoping to support.",
    "website": "https://www.servicem8.com/partner_website?uuid=41ff58a5-f84c-4e46-b4ab-5ea55baa426b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=41ff58a5-f84c-4e46-b4ab-5ea55baa426b",
    "verified_at": "2026-10-22",
@@ -762,7 +991,15 @@
    "status": "live",
    "logo_uuid": "5a857af5-559e-4686-aad4-6901fd82bc3b",
    "website_direct": "https://tradiesupport.com.au",
-   "logo": "/directory/logos/tradie-support-services.jpg"
+   "logo": "/directory/logos/tradie-support-services.jpg",
+   "positioning": "Cloud software implementation from consultation through setup, training and ongoing support.",
+   "specialties": [
+    "Implementation",
+    "Training",
+    "Ongoing support"
+   ],
+   "best_for": "Trades that want one provider from scoping to support.",
+   "info_quality": "full"
   },
   {
    "slug": "all-in-the-cloud",
@@ -778,7 +1015,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "All in the Cloud is a ServiceM8 partner based in Caulfield, VIC. They work with trade and service businesses on consulting, account setup and conversion, team training and custom forms. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Xero setup, bookkeeping and Xero training for small businesses in Melbourne. Based in Caulfield, VIC. Best for trades that need their accounting stack fixed first.",
    "website": "https://www.servicem8.com/partner_website?uuid=cb84e8e8-d9c3-4cf8-9989-cfa52cac958b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=cb84e8e8-d9c3-4cf8-9989-cfa52cac958b",
    "verified_at": "2026-10-22",
@@ -788,7 +1025,15 @@
    "status": "live",
    "logo_uuid": "028267d8-856b-4d8e-b326-0e37edb3fe3b",
    "website_direct": "https://allinthecloud.com.au",
-   "logo": "/directory/logos/all-in-the-cloud.png"
+   "logo": "/directory/logos/all-in-the-cloud.png",
+   "positioning": "Xero setup, bookkeeping and Xero training for small businesses in Melbourne.",
+   "specialties": [
+    "Xero setup",
+    "Bookkeeping",
+    "Training"
+   ],
+   "best_for": "Trades that need their accounting stack fixed first.",
+   "info_quality": "full"
   },
   {
    "slug": "aloka-technology-solutions",
@@ -806,7 +1051,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Aloka Technology Solutions is a ServiceM8 partner and developer based in Mulgrave, VIC. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "SIMPRO ERP consulting, data migration, BI and workflow automation \u2014 Simpro-focused rather than ServiceM8. Based in Mulgrave, VIC. Best for businesses comparing or moving to Simpro.",
    "website": "https://www.servicem8.com/partner_website?uuid=66567d64-2bbb-4355-8d3d-20223a8fe59b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=66567d64-2bbb-4355-8d3d-20223a8fe59b",
    "verified_at": "2026-10-22",
@@ -816,7 +1061,16 @@
    "status": "live",
    "logo_uuid": "efff9a59-a6e3-4a1e-9b27-202239b759db",
    "website_direct": "https://aloka.com.au",
-   "logo": "/directory/logos/aloka-technology-solutions.png"
+   "logo": "/directory/logos/aloka-technology-solutions.png",
+   "positioning": "SIMPRO ERP consulting, data migration, BI and workflow automation \u2014 Simpro-focused rather than ServiceM8.",
+   "specialties": [
+    "Simpro",
+    "Data migration",
+    "BI",
+    "Automation"
+   ],
+   "best_for": "Businesses comparing or moving to Simpro.",
+   "info_quality": "full"
   },
   {
    "slug": "aureolink",
@@ -834,7 +1088,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Aureolink is a ServiceM8 partner and developer based in Portland, VIC. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Connects ServiceM8 with Xero, Gmail and Google Drive, and builds SMS review-request automation. Based in Portland, VIC. Best for trades wanting integrations and automated review requests.",
    "website": "https://www.servicem8.com/partner_website?uuid=01a0ce12-5882-7a73-8a0b-ea06b34df6eb",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=01a0ce12-5882-7a73-8a0b-ea06b34df6eb",
    "verified_at": "2026-10-22",
@@ -844,7 +1098,16 @@
    "status": "live",
    "logo_uuid": "01a0ce10-f8d7-7664-8929-1593dabc2f1b",
    "website_direct": "https://aureolink.com.au",
-   "logo": "/directory/logos/aureolink.png"
+   "logo": "/directory/logos/aureolink.png",
+   "positioning": "Connects ServiceM8 with Xero, Gmail and Google Drive, and builds SMS review-request automation.",
+   "specialties": [
+    "ServiceM8 integrations",
+    "Xero",
+    "Google Workspace",
+    "Review automation"
+   ],
+   "best_for": "Trades wanting integrations and automated review requests.",
+   "info_quality": "full"
   },
   {
    "slug": "bell-curve-solutions",
@@ -860,7 +1123,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Bell Curve Solutions is a ServiceM8 partner based in Port Melbourne, VIC. They work with trade and service businesses on consulting, account setup and conversion, team training and custom forms. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "ServiceM8 partner with quote and invoice templates, pre-built forms, reports and media. Based in Port Melbourne, VIC. Best for trades that want better documents and forms rather than a full rebuild.",
    "website": "https://www.servicem8.com/partner_website?uuid=f1bf6df2-3393-482b-9986-2220dd6cd1eb",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=f1bf6df2-3393-482b-9986-2220dd6cd1eb",
    "verified_at": "2026-10-22",
@@ -870,7 +1133,16 @@
    "status": "live",
    "logo_uuid": "d0661a1e-92bc-48bc-b274-221fd9dd36bb",
    "website_direct": "https://bellcurvesolutions.com.au",
-   "logo": "/directory/logos/bell-curve-solutions.png"
+   "logo": "/directory/logos/bell-curve-solutions.png",
+   "positioning": "ServiceM8 partner with quote and invoice templates, pre-built forms, reports and media.",
+   "specialties": [
+    "Templates",
+    "Forms",
+    "Reports",
+    "ServiceM8 training"
+   ],
+   "best_for": "Trades that want better documents and forms rather than a full rebuild.",
+   "info_quality": "full"
   },
   {
    "slug": "sbaas",
@@ -886,7 +1158,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "SBAAS is a ServiceM8 partner based in Kenmore, QLD. They work with trade and service businesses on consulting, account setup and conversion, team training and custom forms. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Hands-on business consulting Australia-wide, with ServiceM8 among the systems they implement. Based in Kenmore, QLD. Best for owners who want strategy and systems advice together.",
    "website": "https://www.servicem8.com/partner_website?uuid=61224d91-cedf-4816-97e8-1f73a1fdce6b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=61224d91-cedf-4816-97e8-1f73a1fdce6b",
    "verified_at": "2026-10-22",
@@ -896,7 +1168,15 @@
    "status": "live",
    "logo_uuid": "31096ce0-70a0-47da-a712-1f73a6074b2b",
    "website_direct": "https://sbaas.com.au",
-   "logo": "/directory/logos/sbaas.png"
+   "logo": "/directory/logos/sbaas.png",
+   "positioning": "Hands-on business consulting Australia-wide, with ServiceM8 among the systems they implement.",
+   "specialties": [
+    "Business consulting",
+    "Systems",
+    "ServiceM8"
+   ],
+   "best_for": "Owners who want strategy and systems advice together.",
+   "info_quality": "full"
   },
   {
    "slug": "scale-your-service",
@@ -914,7 +1194,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Scale Your Service is a ServiceM8 partner and developer based in Riverhills, QLD. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "ServiceM8 setup, optimisation, training and ongoing support. Based in Riverhills, QLD. Best for brisbane trades wanting practical support after go-live.",
    "website": "https://www.servicem8.com/partner_website?uuid=019f20bb-a82e-7d41-aa53-335ef8242abb",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=019f20bb-a82e-7d41-aa53-335ef8242abb",
    "verified_at": "2026-10-22",
@@ -924,7 +1204,15 @@
    "status": "live",
    "logo_uuid": "019f20ba-4882-77c1-aaa3-9c26ee12d82b",
    "website_direct": null,
-   "logo": "/directory/logos/scale-your-service.png"
+   "logo": "/directory/logos/scale-your-service.png",
+   "positioning": "ServiceM8 setup, optimisation, training and ongoing support.",
+   "specialties": [
+    "ServiceM8 setup",
+    "Optimisation",
+    "Training"
+   ],
+   "best_for": "Brisbane trades wanting practical support after go-live.",
+   "info_quality": "limited"
   },
   {
    "slug": "skilled-business-solutions",
@@ -941,7 +1229,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Skilled Business Solutions is a ServiceM8 partner and bookkeeping practice based in Urraween, QLD. They work with trade and service businesses on consulting, account setup and conversion, team training and custom forms. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Business and software support from Urraween, Hervey Bay. Based in Urraween, QLD. Best for fraser Coast trades.",
    "website": "https://www.servicem8.com/partner_website?uuid=06ec425e-6925-4f54-9db1-20874e65391b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=06ec425e-6925-4f54-9db1-20874e65391b",
    "verified_at": "2026-10-22",
@@ -951,7 +1239,14 @@
    "status": "live",
    "logo_uuid": "dbd5203b-5b40-4b4b-96ad-20874dce0b4b",
    "website_direct": null,
-   "logo": "/directory/logos/skilled-business-solutions.png"
+   "logo": "/directory/logos/skilled-business-solutions.png",
+   "positioning": "Business and software support from Urraween, Hervey Bay.",
+   "specialties": [
+    "ServiceM8 support",
+    "Business support"
+   ],
+   "best_for": "Fraser Coast trades.",
+   "info_quality": "limited"
   },
   {
    "slug": "accountify",
@@ -968,7 +1263,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Accountify is a ServiceM8 partner and bookkeeping practice based in Pacific Pines, QLD. They work with trade and service businesses on consulting, account setup and conversion, team training and custom forms. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Gold Coast bookkeeping practice with ServiceM8 solutions. Based in Pacific Pines, QLD. Best for trades wanting books and job management from one place.",
    "website": "https://www.servicem8.com/partner_website?uuid=2ba8ed50-7fa9-4d69-b358-d01830dd3f0b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=2ba8ed50-7fa9-4d69-b358-d01830dd3f0b",
    "verified_at": "2026-10-22",
@@ -978,7 +1273,15 @@
    "status": "live",
    "logo_uuid": "e61151cb-7426-4b9e-9617-312ec466d48b",
    "website_direct": "https://accountify.com.au",
-   "logo": "/directory/logos/accountify.jpg"
+   "logo": "/directory/logos/accountify.jpg",
+   "positioning": "Gold Coast bookkeeping practice with ServiceM8 solutions.",
+   "specialties": [
+    "Bookkeeping",
+    "ServiceM8",
+    "Admin"
+   ],
+   "best_for": "Trades wanting books and job management from one place.",
+   "info_quality": "full"
   },
   {
    "slug": "admin-advantage-qld-pty-ltd",
@@ -995,7 +1298,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Admin Advantage (Qld) Pty Ltd is a ServiceM8 partner and bookkeeping practice based in SUMNER PARK, QLD. They work with trade and service businesses on consulting, account setup and conversion, team training and custom forms. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Administration support for trades from Sumner Park, Brisbane. Based in SUMNER PARK, QLD. Best for brisbane trades wanting back-office help.",
    "website": "https://www.servicem8.com/partner_website?uuid=10dc934f-52f8-4e9a-ae72-878fde23deab",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=10dc934f-52f8-4e9a-ae72-878fde23deab",
    "verified_at": "2026-10-22",
@@ -1005,7 +1308,14 @@
    "status": "live",
    "logo_uuid": "92a37e4b-e618-4abe-9473-4b202865821b",
    "website_direct": null,
-   "logo": "/directory/logos/admin-advantage-qld-pty-ltd.jpg"
+   "logo": "/directory/logos/admin-advantage-qld-pty-ltd.jpg",
+   "positioning": "Administration support for trades from Sumner Park, Brisbane.",
+   "specialties": [
+    "Admin support",
+    "ServiceM8"
+   ],
+   "best_for": "Brisbane trades wanting back-office help.",
+   "info_quality": "limited"
   },
   {
    "slug": "adoptech",
@@ -1023,7 +1333,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Adoptech is a ServiceM8 partner and developer based in Smithfield, QLD. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "AI adoption training and workshops with ServiceM8 support, based in Cairns. Based in Smithfield, QLD. Best for owners who want to learn AI and automation themselves.",
    "website": "https://www.servicem8.com/partner_website?uuid=6f58f4b1-79fb-4405-88d8-1cab9844b39b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=6f58f4b1-79fb-4405-88d8-1cab9844b39b",
    "verified_at": "2026-10-22",
@@ -1033,7 +1343,15 @@
    "status": "live",
    "logo_uuid": "54efef1e-04ac-4fbe-b3fd-1cab9fb053db",
    "website_direct": "https://adoptech.com.au",
-   "logo": "/directory/logos/adoptech.png"
+   "logo": "/directory/logos/adoptech.png",
+   "positioning": "AI adoption training and workshops with ServiceM8 support, based in Cairns.",
+   "specialties": [
+    "AI training",
+    "Workshops",
+    "ServiceM8"
+   ],
+   "best_for": "Owners who want to learn AI and automation themselves.",
+   "info_quality": "full"
   },
   {
    "slug": "beetle-digital",
@@ -1051,7 +1369,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Beetle Digital is a ServiceM8 partner and developer based in Mackay, QLD. They work with trade and service businesses on consulting, account setup and conversion, team training, custom forms and custom development and integrations. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "IT support, Microsoft 365, websites and marketing, with ServiceM8 consulting, from Mackay and Brisbane. Based in Mackay, QLD. Best for regional Queensland trades wanting IT and marketing in one place.",
    "website": "https://www.servicem8.com/partner_website?uuid=1da9d82e-3384-40f6-b520-1f92a776994b",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=1da9d82e-3384-40f6-b520-1f92a776994b",
    "verified_at": "2026-10-22",
@@ -1061,7 +1379,16 @@
    "status": "live",
    "logo_uuid": "a69db44e-686d-43a3-8762-1f92a101694b",
    "website_direct": "https://beetledigital.com",
-   "logo": "/directory/logos/beetle-digital.png"
+   "logo": "/directory/logos/beetle-digital.png",
+   "positioning": "IT support, Microsoft 365, websites and marketing, with ServiceM8 consulting, from Mackay and Brisbane.",
+   "specialties": [
+    "IT support",
+    "Microsoft 365",
+    "Websites",
+    "ServiceM8 consulting"
+   ],
+   "best_for": "Regional Queensland trades wanting IT and marketing in one place.",
+   "info_quality": "full"
   },
   {
    "slug": "blacksheep-creative",
@@ -1077,7 +1404,7 @@
     "Training",
     "Forms"
    ],
-   "summary": "Blacksheep Creative is a ServiceM8 partner based in Sippy Downs, QLD. They work with trade and service businesses on consulting, account setup and conversion, team training and custom forms. Best suited to businesses that want a local implementation partner rather than a self-guided setup. Listed from ServiceM8's official partner directory; confirm scope, availability and pricing directly with the provider.",
+   "summary": "Web, brand and digital support from Sippy Downs on the Sunshine Coast. Based in Sippy Downs, QLD. Best for trades wanting their online presence fixed alongside their systems.",
    "website": "https://www.servicem8.com/partner_website?uuid=5a9e6c17-b463-42be-b147-241bef56cedb",
    "official_profile": "https://www.servicem8.com/partner-enquiry?uuid=5a9e6c17-b463-42be-b147-241bef56cedb",
    "verified_at": "2026-10-22",
@@ -1087,7 +1414,15 @@
    "status": "live",
    "logo_uuid": "762c30d2-3d7c-45ee-8ff7-241bea2391fb",
    "website_direct": null,
-   "logo": "/directory/logos/blacksheep-creative.png"
+   "logo": "/directory/logos/blacksheep-creative.png",
+   "positioning": "Web, brand and digital support from Sippy Downs on the Sunshine Coast.",
+   "specialties": [
+    "Web design",
+    "Branding",
+    "Digital"
+   ],
+   "best_for": "Trades wanting their online presence fixed alongside their systems.",
+   "info_quality": "limited"
   }
  ]
 }

@@ -1,0 +1,180 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+const title = 'How to Choose a ServiceM8 Partner in Australia (2026) | TradieAutomate';
+const description = 'What a ServiceM8 setup should cost, the three pricing models, what belongs in scope, the $2,000 setup rebate, data ownership, and the questions that separate a good partner from an expensive one.';
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: 'How to choose a ServiceM8 partner in Australia',
+  description: 'Scope, pricing models, the setup rebate, data ownership and the questions to ask before you engage a ServiceM8 partner.',
+  author: { '@type': 'Organization', name: 'TradieAutomate' },
+  publisher: { '@type': 'Organization', name: 'TradieAutomate' },
+  datePublished: '2026-10-22',
+  dateModified: '2026-10-22',
+};
+const faq = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    { '@type': 'Question', name: 'How much does a ServiceM8 setup cost in Australia?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Most Australian partners price a standard setup between roughly $800 and $2,500. Complex builds with custom forms, integrations or multiple crews run higher. Fixed-price setup is the most common model, with training and ongoing support either included or billed separately.' } },
+    { '@type': 'Question', name: 'Is there a rebate for using a ServiceM8 partner?',
+      acceptedAnswer: { '@type': 'Answer', text: 'ServiceM8 has offered a setup and training credit of up to $2,000 for new subscribers who engage a certified partner listed in its official Partner Directory, pay the partner in full and claim within the stated window. Terms change, so confirm the current offer and conditions directly with ServiceM8 before you rely on it.' } },
+    { '@type': 'Question', name: 'Should I choose a local partner or a remote one?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Remote delivery is normal and works well for standard setups. Choose local when you want on-site training, when your team needs hands-on help, or when the build involves physical workflow changes. Choose remote when the scope is clear and you mainly need configuration and training.' } },
+    { '@type': 'Question', name: 'Who owns the forms and automations if we stop working together?',
+      acceptedAnswer: { '@type': 'Answer', text: 'You should. Ask for it in writing before work starts: the account stays in your name, custom forms and documents are exported to you, and any automation built on your account remains yours. A partner who will not agree to that is a risk.' } },
+  ],
+};
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faq)} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section class="hero">
+        <div class="wrap">
+          <nav class="crumbs"><a href="/directory/">Directory</a> / Buying guide</nav>
+          <h1>How to choose a ServiceM8 partner</h1>
+          <p>What you're actually buying, what it should cost, and the questions that change the outcome.</p>
+        </div>
+      </section>
+
+      <article class="wrap body">
+        <p class="lead">
+          A ServiceM8 partner is not one job. It can mean a two-day configuration, a full rebuild of how your
+          business quotes and schedules, or a custom integration. The price difference between those is tenfold,
+          and so is the value. This guide is about telling them apart before you pay.
+        </p>
+
+        <h2>1. The four things you can actually buy</h2>
+        <ul>
+          <li><strong>Setup and conversion.</strong> Account configuration, job categories, templates, staff, tax and pricing. The most common engagement.</li>
+          <li><strong>Training.</strong> Teaching your team to use what was built. Often bundled, often too short.</li>
+          <li><strong>Custom forms and documents.</strong> Safety forms, SWMS, quotes and invoices that match how you actually work.</li>
+          <li><strong>Integrations and development.</strong> Connecting ServiceM8 to Xero, MYOB, scheduling or CRM tools, or building add-ons through the API.</li>
+        </ul>
+        <p>
+          A good partner will tell you which of these you need. A weak one will sell you the biggest one.
+        </p>
+
+        <h2>2. The three pricing models</h2>
+        <p><strong>Fixed price.</strong> Best when the scope is clear. You know the number before work starts. Ask exactly what is included and what counts as a variation.</p>
+        <p><strong>Hourly.</strong> Reasonable for small fixes and unclear scope. Risky for a full setup, because the meter runs while they learn your business.</p>
+        <p><strong>Retainer or support plan.</strong> Pays for ongoing help after go-live. Worth it if you have staff turnover or keep adding services. Not worth it if you never call.</p>
+        <p>
+          As a rough market range, a standard small-business setup in Australia sits somewhere between $800 and
+          $2,500. Complex builds with custom forms and integrations go higher. Treat any quote well outside that
+          band as a prompt to ask why.
+        </p>
+
+        <h2>3. The setup rebate — check it before you sign</h2>
+        <p>
+          ServiceM8 has offered a setup and training credit of <strong>up to $2,000</strong> for new subscribers who
+          engage a certified partner listed in its official Partner Directory, pay the partner in full and claim
+          within the stated window. The conditions matter: the partner generally has to be listed in
+          ServiceM8's directory, and the claim has a deadline.
+        </p>
+        <p>
+          We list partners but we are not ServiceM8, and being listed here does not by itself make you eligible.
+          Confirm the current offer, the eligible-partner rule and the deadline directly with ServiceM8 before you
+          rely on it. <a href="https://www.servicem8.com/au/partner-directory" rel="nofollow noopener" target="_blank">ServiceM8's partner directory</a> is the authoritative list.
+        </p>
+
+        <h2>4. What belongs in the scope document</h2>
+        <ul>
+          <li>The exact modules and workflows being configured</li>
+          <li>How many forms and templates, and who writes the content</li>
+          <li>Training hours, format and how many staff</li>
+          <li>Data migration — what moves, who checks it, what happens to the old system</li>
+          <li>Go-live date and what "done" means</li>
+          <li>Support period after go-live, and what it covers</li>
+          <li>Change-request process and hourly rate for out-of-scope work</li>
+        </ul>
+        <p>If it isn't written down, it isn't included.</p>
+
+        <h2>5. Data ownership and exit</h2>
+        <p>
+          Your ServiceM8 account should be in your name, on your billing, with you as the owner. Custom forms,
+          documents and automations built for you should be exportable. Ask what happens to them if the
+          relationship ends.
+        </p>
+        <p>
+          A partner who insists on holding the account, or who won't document what they built, is creating
+          lock-in. That is a commercial decision on their part, and a risk on yours.
+        </p>
+
+        <h2>6. Questions worth asking</h2>
+        <ol>
+          <li>Who does the actual work — you, your team, or a subcontractor?</li>
+          <li>How many businesses my size and trade have you set up? Can I speak to one?</li>
+          <li>What's the fixed price, and what would make it change?</li>
+          <li>How many training hours are included, and who delivers them?</li>
+          <li>What happens in the first month after go-live?</li>
+          <li>Can you show me a form or workflow you built for a business like mine?</li>
+          <li>Who owns the account, the forms and the automations?</li>
+          <li>What don't you do?</li>
+        </ol>
+
+        <h2>7. Red flags</h2>
+        <ul>
+          <li>A quote with no written scope</li>
+          <li>No named person doing the work</li>
+          <li>Training described only as "included"</li>
+          <li>Pressure to sign before you've seen a sample build</li>
+          <li>Reluctance to put data ownership in writing</li>
+          <li>Promises about the rebate without checking your eligibility</li>
+        </ul>
+
+        <h2>8. Using this directory</h2>
+        <p>
+          Every listing shows what the provider says they do, where they're based, and when we last checked it.
+          Listings marked as limited mean we couldn't verify much beyond their ServiceM8 entry — treat those as a
+          starting point, not a recommendation.
+        </p>
+        <p>
+          If you'd rather not shortlist yourself, <a href="/directory/get-matched/">tell us what you need</a> and
+          we'll introduce you to up to three providers who fit your trade and state.
+        </p>
+
+        <div class="callout">
+          <strong>Still deciding on the software?</strong>
+          <p>Read our <a href="/blog/servicem8-review-2026/">independent ServiceM8 review</a> or the <a href="/blog/servicem8-pricing-plans-australia-2026/">2026 pricing breakdown</a> before you engage anyone.</p>
+        </div>
+
+        <p class="fine">
+          TradieAutomate is independent and not endorsed by ServiceM8. We don't take a commission on work booked
+          through this directory. Price ranges are indicative market observations, not quotes.
+        </p>
+      </article>
+    </main>
+    <Footer />
+    <style>
+      .wrap { max-width: 780px; margin: 0 auto; padding: 0 20px; }
+      .hero { background: radial-gradient(900px 320px at 40% -20%, #1c3a5e 0%, #0b1220 65%); color: #e2e8f0; padding: 44px 0 34px; }
+      .crumbs { font-size: .78rem; color: #94a3b8; margin-bottom: 12px; }
+      .crumbs a { color: #38bdf8; text-decoration: none; }
+      .hero h1 { color: #fff; font-size: clamp(1.7rem, 3.8vw, 2.4rem); margin: 0 0 8px; letter-spacing: -.02em; }
+      .hero p { color: #9fb0c7; margin: 0; }
+      .body { padding: 36px 20px 80px; }
+      .lead { font-size: 1.08rem; line-height: 1.7; color: #1e293b; }
+      h2 { font-size: 1.2rem; color: #0f172a; margin: 34px 0 10px; }
+      p, li { color: #334155; line-height: 1.75; }
+      ul, ol { padding-left: 22px; }
+      li { margin-bottom: 7px; }
+      a { color: #0284c7; }
+      .callout { margin: 34px 0; background: #f1f5f9; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px; }
+      .callout strong { color: #0f172a; }
+      .callout p { margin: 6px 0 0; font-size: .92rem; }
+      .fine { color: #64748b; font-size: .78rem; line-height: 1.6; }
+    </style>
+  </body>
+</html>
