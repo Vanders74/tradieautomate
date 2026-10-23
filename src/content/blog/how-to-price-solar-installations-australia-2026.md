@@ -1,6 +1,6 @@
 ---
-title: 'How to Price Solar Installations in Australia 2026: The Complete Guide for Solar Businesses'
-description: 'How to price solar installations in Australia — labour rates, equipment costs, overhead recovery, profit margins, and a real-world pricing model for solar businesses in 2026.'
+title: 'How to Price Solar Installations in Australia 2026: $70/hr Labour, 40–55% Margin'
+description: 'Build a solar pricing model that holds: $70/hr true labour cost, overhead recovery and 40–55% gross margin per job. Full 2026 breakdown.'
 faq:
   - question: "What is the average cost of a solar installation in Australia in 2026?"
     answer: "A standard 6.6kW residential solar system in Australia costs $5,500–$8,500 fully installed in 2026 (after STC rebate). Higher-quality components (Tier 1 panels, string inverters from SMA, Fronius, or SolarEdge) sit at the upper end; value-tier systems with less-established brands sit at the lower end. A 10kW system typically costs $8,000–$12,000 installed. Adding a battery (e.g. Tesla Powerwall 3 or Alpha ESS) adds $8,000–$15,000 to the installed price. State rebates (VIC, SA) can reduce the effective customer price further. Prices vary by state, roof complexity, and installation difficulty."
@@ -13,7 +13,7 @@ faq:
   - question: "What is the best pricing strategy for winning solar quotes in Australia?"
     answer: "Lead with value, not price. The customers most worth winning are those comparing quality and service, not hunting for the lowest price — those customers are more profitable and generate better referrals. Present three pricing tiers (good/better/best) where possible, with clear differentiation in equipment quality, warranty, and service. Always show the STC calculation transparently — it builds trust and explains the pricing structure. Follow up unconverted quotes systematically (5 touchpoints over 21 days) — most solar leads are delayed decisions, not rejections. Response speed also matters: quoting within 24 hours of inquiry closes significantly more business than quoting after 48–72 hours."
 pubDate: 'May 12 2026'
-updatedDate: 'Jul 30 2026'
+updatedDate: 'Oct 24 2026'
 accuracyReviewed: '2026-08-02'
 category: "Solar & Battery"
 heroImage: '/hero-how-to-price-solar.jpg'
