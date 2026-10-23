@@ -109,8 +109,56 @@ Rotation state: `serp_state.json` (next_index, cycle). Canonical domain: **tradi
   agencies and brokers, not over other installers.
 - Carried over: EV charger tool page title/H1 swap still open; webblend framing fixes on keyword 3 page still open.
 
+### 5. electrical switchboard upgrade cost australia - 2026-10-23 - rank >20
+- Target page: /blog/electrical-switchboard-upgrade-cost-australia-2026/ (live 200 via Netlify edge, canonical
+  correct, title/H1 "Electrical Switchboard Upgrade Cost 2026: $1,200–$3,500 by Job Type", Article + FAQPage
+  schema, published 2026-07-13, modified 2026-10-20). ~1,990 words, **one table**.
+- Not in top 20 on either the exact query or the quoted variant. Confirmed indexed (site: query returns it).
+- Top 20: energy.nsw.gov.au #1, electrosurge #2, kongstruction #3, goingrate #4, otterair #5, thequoteyard VIC #6,
+  whatsthedamage #7, lckelectrical #8, quotcha guide #9, sparky.fyi #10, thequoteyard SA #11, jentech #12,
+  eleco #13, landmark #14, amplus #15, dynamicgroup #16, dlg #17, switchwire #18, sparky.fyi Adelaide #19,
+  hipages #20.
+- **Intent mismatch, inverted from the EV case.** The title is homeowner ("What Australians pay"), but the body
+  opens "the conversation Australian electricians dread most" and the whole article is written to the installer
+  (how to quote the conditional allowance, how to script the conversation, how to itemise the invoice). Google
+  reads the query as a homeowner price query and serves homeowner cost pages. Same disease as keywords 1–2,
+  opposite symptom: there the URL was installer and the H1 consumer; here the H1 is consumer and the body is installer.
+- **The winning format is a granular cost table, not a range.** lckelectrical (#8) carries four tables: job-type
+  bands with time-on-site, a line-item build-up (enclosure / breakers+RCDs / labour / distributor fee /
+  compliance+disposal), a single-vs-three-phase table by amperage, and Reddit invoice corroboration. goingrate (#4)
+  runs an interactive state calculator. whatsthedamage (#7) publishes an installed-cost table across job types.
+  Our single 5-row table has no per-circuit price, no asbestos line, no distributor fee, no state split — the exact
+  columns every page above us publishes.
+- **Our price bands are defensible but not quotable.** $1,200–$2,400 basic vs market $900–$2,200 (goingrate),
+  $1,200–$1,800 (lck), $1,000–$3,600 (sparky.fyi). The page is not wrong on price; it is under-specified on scope.
+  Asbestos removal — a $500–$1,500 line on half the competing pages — appears nowhere in our cost table.
+- **Third confirmed page with no "checked on" date.** Now 3 of 5 pages checked this cycle (job management,
+  solar leads, switchboard) publish undated prices. This is a template/content-checklist fix, not a per-page one.
+- **Programmatic city-page cluster is hogging slots.** quotcha holds 5 of the 20 results in the quoted variant via
+  suburb pages (Bilgola Plateau, Wheeler Heights, Fairlight, Beacon Hill, Allambie Heights) that all answer the same
+  switchboard-cost question with the same paragraph. That is a doorway pattern worth watching: it can be beaten on
+  quality, but it means a single national page will keep losing long-tail real estate to suburb-level pages.
+- Cannibalisation: **not** an issue here — ours is the only tradieautomate URL in either top 20. But 18 of our blog
+  pages mention switchboards (playbook ch2, RCD page, 3-phase page, EV pages), and none link to this cost page as
+  the pricing destination. Fix is internal links, not de-optimisation.
+- Action worth taking (highest return first):
+  1. Rewrite the opening 80 words for the homeowner who typed the query, then keep the installer sections below an
+     explicit "If you're the electrician quoting this job" subhead. Same URL, same title.
+  2. Rebuild the single table into three stacked blocks (mobile-first, no wide tables): job-type bands with
+     time-on-site; line-item build-up including asbestos and distributor fee; single vs three-phase by amperage.
+     All figures already exist in the body or in the linked 3-phase guide — this is re-presentation, not new research.
+  3. Add a "checked Oct 2026" line under the cost table and roll the same into the blog template.
+  4. Point the RCD, 3-phase and EV pages' switchboard-cost sentences at this page.
+
 ### 20. electrical contractor award rates australia - 2026-10-23 - rank 5
 - Page 1 mid-pack against Fair Work, AwardScale, Valont, VeriTradie, ECA WA. Rate-table snippet holding.
+
+## Queue integrity note (2026-10-23)
+- `keyword_queue.txt` now holds **18** keywords; the ccew keyword processed last run is no longer in it, so the
+  file shifted by one under the saved `next_index`. This run was pinned to the announced keyword
+  (electrical switchboard upgrade cost), which now sits at file index 5, and `next_index` was left at 6 so
+  **fergus review australia** is next. If keywords get added/removed again, reconcile against `last_keyword`
+  before trusting the index or a run will silently skip one.
 
 ## Domain note (2026-10-23)
 - tradieautomate.com.au resolves to 103.42.108.46 and serves a parked "Your Domains" page over
