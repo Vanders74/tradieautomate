@@ -17,8 +17,8 @@ const title = `${listing.name} — ServiceM8 Partner in ${listing.city}, ${listi
 const description = listing.summary.slice(0, 158);
 const claimHref = `mailto:info@tradieautomate.com?subject=${encodeURIComponent('Claim listing: ' + listing.name)}&body=${encodeURIComponent(`Business name: ${listing.name}\nState: ${listing.state}\nWebsite:\nWhat we do:\n`)}`;
 const hasSite = Boolean(listing.website_direct);
-const primaryHref = listing.website_direct || listing.official_profile;
-const primaryLabel = hasSite ? 'Visit website' : 'Contact via ServiceM8';
+const primaryHref = listing.website_direct || `mailto:info@tradieautomate.com?subject=${encodeURIComponent('Enquiry about ' + listing.name)}`;
+const primaryLabel = hasSite ? 'Visit website' : 'Email this provider';
 const schema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
