@@ -15,7 +15,7 @@ const description = 'One practical email every Tuesday on pricing, compliance, a
   </head>
   <body>
     <Header />
-    <main style="max-width:720px;margin:0 auto;padding:48px 20px 80px;">
+    <main class="nl-main">
       <h1 style="font-size:clamp(1.6rem,4vw,2.2rem);font-weight:800;color:#0f172a;margin-bottom:8px;">
         The TradieAutomate Field Note
       </h1>
@@ -24,7 +24,7 @@ const description = 'One practical email every Tuesday on pricing, compliance, a
         No fluff, no upsell — just the stuff worth knowing before you quote.
       </p>
 
-      <div style="padding:18px 20px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:14px;margin-bottom:40px;">
+      <div class="nl-signup-wrap">
         <NewsletterSignup variant="homepage" source="newsletter_page" />
       </div>
 
@@ -84,7 +84,8 @@ const description = 'One practical email every Tuesday on pricing, compliance, a
       .issue-close { font-size:0.9rem; color:#475569; margin-top:20px; padding-top:14px; border-top:1px dashed #e2e8f0; }
 
       @media (max-width: 480px) {
-        main { padding: 32px 16px 60px !important; }
+        .nl-main { max-width: 100% !important; padding: 32px 16px 60px !important; }
+        .nl-signup-wrap { max-width: 100% !important; padding: 14px !important; }
         .issue-title { font-size: 1rem; }
         .issue-block { padding-left: 10px; border-left-width: 2px; }
         .issue-headline { font-size: 0.9rem; }
