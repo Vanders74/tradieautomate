@@ -21,6 +21,16 @@ faq:
 
 The Certificate of Compliance — Electrical Work (CCEW) — also commonly searched as the NSW electrical certificate of compliance — is the cornerstone compliance document for electrical contractors working in New South Wales. It is created by the **Gas and Electricity (Consumer Safety) Act 2017** and the **Gas and Electricity (Consumer Safety) Regulation 2018**: s36 requires a safety and compliance test once the work is finished, and s37A requires the tester to lodge the certificate within 7 days. The CCEW itself is the legal record that the work has been tested and complies with AS/NZS 3000.
 
+<div class="tool-cta-box">
+  <div class="tc-inner">
+    <div class="tc-text">
+      <strong class="tc-title">💸 What rebates can you claim this job?</strong>
+      <p class="tc-body">Free Rebate Finder — current state and federal incentives for switchboard upgrades, solar, batteries and heat pumps, checked weekly against regulator sources.</p>
+    </div>
+    <a href="/tools/rebate-finder/" class="tc-link">Find Rebates →</a>
+  </div>
+</div>
+
 In 2025 and 2026, **Building Commission NSW** — not SafeWork NSW and not NSW Fair Trading — has carried the electrical compliance function, and it has increased its focus on contractors in the solar and battery sector, where rapid market growth has led to a mix of highly professional operators and those cutting corners on documentation.
 
 Getting your CCEW obligations right is not complex, but it is non-negotiable. This guide covers everything you need to know.
@@ -44,17 +54,6 @@ Getting your CCEW obligations right is not complex, but it is non-negotiable. Th
 ![CCEW NSW 7-Day Compliance Process — step-by-step lodgement guide](/hero-ccew-nsw-compliance-infographic.png)
 
 ---
-
-
-<div class="tool-cta-box">
-  <div class="tc-inner">
-    <div class="tc-text">
-      <strong class="tc-title">💸 What rebates can you claim this job?</strong>
-      <p class="tc-body">Free Rebate Finder — current state and federal incentives for switchboard upgrades, solar, batteries and heat pumps, checked weekly against regulator sources.</p>
-    </div>
-    <a href="/tools/rebate-finder/" class="tc-link">Find Rebates →</a>
-  </div>
-</div>
 
 ## What Is the CCEW? (2026 Requirements)
 
