@@ -2,6 +2,7 @@
 import BaseHead from '../../components/BaseHead.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
+import NewsletterSignup from '../../components/NewsletterSignup.astro';
 
 const title = "Solar Savings & Break-Even Calculator | Know Your Payback Before You Buy";
 const description = "Free homeowner calculator for Australian solar. Enter your usage, tariff, system specs and rebates — instantly see Year 1 savings, break-even year, and a 25-year forecast. Generates copy-paste quote text for solar installers.";
@@ -363,7 +364,10 @@ const faqSchema = {
           </ul>
         </div>
       </div>
-    </main>
+      <div style="border-top:1px dashed #e2e8f0;padding-top:18px;margin-top:8px;">
+      <NewsletterSignup variant="tool-exit" source="tool_exit" />
+    </div>
+  </main>
     <Footer />
   </body>
 </html>

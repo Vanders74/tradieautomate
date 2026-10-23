@@ -2,6 +2,7 @@
 import BaseHead from '../../components/BaseHead.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
+import NewsletterSignup from '../../components/NewsletterSignup.astro';
 import directory from '../../data/directory.json';
 
 const listings = directory.listings.filter((l) => l.status === 'live');
@@ -157,6 +158,10 @@ const schema = {
         </section>
       </div>
     </main>
+    <div style="max-width:720px;margin:0 auto 24px;padding:0 20px;">
+      <NewsletterSignup variant="directory" source="directory" />
+    </div>
+
     <Footer />
 
     <script is:inline>

@@ -2,6 +2,7 @@
 import BaseHead from '../../components/BaseHead.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
+import NewsletterSignup from '../../components/NewsletterSignup.astro';
 import { SITE_TITLE } from '../../consts';
 import rebatesJson from '../../data/rebates.json';
 
@@ -262,6 +263,9 @@ const faqSchema = {
           <p>Yes. The rebate finder is completely free — no email or sign-up. Rebate data is verified against official sources (Solar Victoria, NSW Climate and Energy Action, Service NSW, Clean Energy Regulator) on a weekly cycle.</p>
         </details>
       </section>
+      <div class="tool-body" style="border-top:1px dashed #e2e8f0;padding-top:18px;margin-top:8px;">
+        <NewsletterSignup variant="tool-exit" source="tool_exit" />
+      </div>
     </main>
 
     <Footer />

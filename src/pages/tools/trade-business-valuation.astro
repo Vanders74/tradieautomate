@@ -2,6 +2,7 @@
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import BaseHead from '../../components/BaseHead.astro';
+import NewsletterSignup from '../../components/NewsletterSignup.astro';
 import sellability from '../../data/sellability.json';
 
 const title = "Trade Business Valuation Calculator: How Much Is Your Business Worth?";
@@ -351,7 +352,10 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
           <p>The calculator is free and gives you a price range and sellability scorecard in about 90 seconds. You only enter an email if you want the report sent to you.</p>
         </details>
       </section>
-    </main>
+      <div style="border-top:1px dashed #e2e8f0;padding-top:18px;margin-top:8px;">
+      <NewsletterSignup variant="tool-exit" source="tool_exit" />
+    </div>
+  </main>
 
     <Footer />
     <script is:inline set:html={`window.__TV_DATA = ${tvDataJson};\nwindow.__TV_SPONSORS = ${tvSponsors};`}></script>

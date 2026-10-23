@@ -1,0 +1,126 @@
+---
+// src/components/NewsletterSignup.astro
+// Variants: tool-exit | blog-inline | homepage | directory
+const { variant = 'blog-inline', source = 'unknown' } = Astro.props;
+---
+
+<div class={`nl nl-${variant}`}>
+  <form class="nl-form" data-source={source}>
+    <label class="nl-label" for={`nl-email-${variant}`}>
+      {variant === 'tool-exit' && "Got 30 seconds? Get one practical email every Tuesday on pricing, compliance and margins."}
+      {variant === 'blog-inline' && "If this was useful, join tradies getting the Field Note every Tuesday."}
+      {variant === 'homepage' && "The weekly email that tells you what changed before your competitors find out."}
+      {variant === 'directory' && "The Field Note — one email a week on ServiceM8, pricing, compliance and finding the right clients."}
+    </label>
+    <div class="nl-row">
+      <input
+        class="nl-input"
+        type="email"
+        id={`nl-email-${variant}`}
+        name="email"
+        placeholder="you@example.com"
+        required
+      />
+      <button class="nl-btn" type="submit">Join →</button>
+    </div>
+    <p class="nl-success" aria-live="polite">You're in. Check your inbox.</p>
+    <p class="nl-error" aria-live="polite">Something went wrong — try again.</p>
+  </form>
+</div>
+
+<script>
+  (function () {
+    const form = document.currentScript?.parentElement?.querySelector('.nl-form')
+      || document.querySelector(`.nl-form[data-source="${'${source}'}"]`);
+    if (!form) return;
+
+    const success = form.querySelector('.nl-success');
+    const errorEl = form.querySelector('.nl-error');
+    const btn = form.querySelector('.nl-btn');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = form.email.value.trim();
+      if (!email || !email.includes('@')) return;
+
+      btn.disabled = true;
+      btn.textContent = '...';
+      success.style.display = 'none';
+      errorEl.style.display = 'none';
+
+      try {
+        const res = await fetch('/.netlify/functions/newsletter-signup', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, source: form.dataset.source || 'unknown' }),
+        });
+        const data = await res.json();
+        if (data.success) {
+          success.style.display = 'block';
+          form.reset();
+        } else {
+          throw new Error(data.error || 'failed');
+        }
+      } catch (err) {
+        errorEl.style.display = 'block';
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Join →';
+      }
+    });
+  })();
+</script>
+
+<style>
+  .nl { margin: 18px 0; }
+  .nl-label {
+    display: block;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 8px;
+    line-height: 1.4;
+  }
+  .nl-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .nl-input {
+    flex: 1 1 220px;
+    padding: 12px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    background: #fff;
+    color: #0f172a;
+  }
+  .nl-input:focus {
+    outline: none;
+    border-color: #f97316;
+    box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.15);
+  }
+  .nl-btn {
+    padding: 12px 18px;
+    background: #f97316;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .nl-btn:hover { background: #ea580c; }
+  .nl-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+  .nl-success, .nl-error { display: none; font-size: 0.85rem; margin-top: 8px; }
+  .nl-success { color: #166534; }
+  .nl-error { color: #991b1b; }
+
+  /* variant-specific */
+  .nl-tool-exit .nl-label { font-size: 0.9rem; color: #334155; }
+  .nl-blog-inline { padding: 14px 0 0; border-top: 1px dashed #e2e8f0; }
+  .nl-blog-inline .nl-label { font-size: 0.85rem; color: #475569; }
+  .nl-homepage { padding: 18px 20px; background: #f8fafc; border-radius: 14px; border: 1px solid #e2e8f0; }
+  .nl-directory .nl-label { font-size: 0.85rem; color: #334155; }
+</style>

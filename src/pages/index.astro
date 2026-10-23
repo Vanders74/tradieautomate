@@ -2,6 +2,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
 import { SITE_DESCRIPTION, SITE_TITLE, SITE_URL } from '../consts';
 import { getCollection } from 'astro:content';
 
@@ -243,6 +244,10 @@ const localBusinessSchema = {
       )}
 
     </main>
+    <div style="max-width:720px;margin:0 auto 24px;padding:0 20px;">
+      <NewsletterSignup variant="homepage" source="homepage" />
+    </div>
+
     <Footer />
   </body>
 </html>
