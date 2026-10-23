@@ -367,3 +367,90 @@ Rotation state: `serp_state.json` (next_index, cycle). Canonical domain: **tradi
      other. Our existing AUD pricing tables give us that in one edit.
   5. Do NOT create a fifth AI page. Four pages with no head term is already the problem.
 - Next keyword: **"nsw electrical contractor licence guide"** (state advanced 9→10, cycle 1).
+
+## Keyword 10 — "nsw electrical contractor licence guide" (2026-10-23, cycle 1)
+
+- **Rank: >20. Absent from the top 20 on the exact query.** All 20 results are government, regulatory, or credentialling pages — zero tradieautomate URLs.
+- **Target page: /blog/nsw-electrical-contractor-licence-guide-2026/** — live, title "NSW Electrical Contractor Licence 2026: Fees & 11-Week Wait", H1 matches, FAQPage schema, 7-item breakdown block, updated Oct 20 2026, ~3,000 words. This is one of the strongest-formatted pages on the site: real FY26–27 fees ($403 / $803 / $1,235), the 11-week wait, HBC vs PLI distinction, CCEW hand-off, and the $22k/$110k unlicensed-work penalties.
+- **SERP composition — pure regulatory lockout.** Top 20: Service NSW online application #1, nsw.gov.au electrical work #2, Service NSW get-started #3, nsw.gov.au AMR #4, nsw.gov.au apply #5, nsw.gov.au company/partnership #6, ABLIS individual #7, ABLIS duplicate #8, ABLIS company #9, ABLIS duplicate #10, nsw.gov.au East Coast scheme #11, **upcover #12**, nsw.gov.au compliance #13, nsw.gov.au air-con #14, Trades Recognition Australia #15, **thequoteyard #16**, nsw.gov.au minor work #17, **bluecollarnews #18**, **bi.edu.au #19**, nsw.gov.au forms #20.
+  - 14 of 20 slots are official (.nsw.gov.au, service.nsw.gov.au, ablis.business.gov.au, tradesrecognitionaustralia.gov.au).
+  - Only 4 editorial/third-party guides rank: upcover (#12), thequoteyard (#16), bluecollarnews (#18), bi.edu.au (#19). These are the slots we are actually competing for, and all four are shorter, less specific, and none carry the fee/wait-time/insurance detail our page has.
+- **Diagnosis: the exact query is an application-navigation query, not a research query.** The searcher wants the form, the fee, and the office. Google satisfies that with the official application portal. Our page is a *guide*, and guides lose to portals on "how do I apply" phrasing. The page's strength — fee table, 11-week wait, HBC vs PLI — is not what the exact query asks for.
+- **The gap we can win is the long-tail, not the head term.** The four editorial pages rank on variants like "NSW electrical licence: types, fees, application and renewal" (upcover), "Electrician Licensing Guide Australia 2026" (thequoteyard), "Electrical licence by state" (bluecollarnews), and "Applying for a NSW Individual Contractor Licence" (bi.edu.au). Our page already answers every one of those better than they do. The fix is internal linking and title alignment, not a rewrite.
+- **No site-wide freshness gap here.** This page carries `updatedDate: Oct 20 2026` and the body dates the 11-week wait "as at 1 October 2026". That is the template pattern working — contrast with keywords 3, 4, 5, 7 and 8 which still have undated prices.
+- **Action order:**
+  1. **Retitle the SEO title to match the long-tail** — keep the H1 but make the `<title>` "NSW Electrical Contractor Licence 2026: Fees, Wait Times & Application" so it matches the query searchers actually type after they've seen the government page.
+  2. **Add a "Start here" block above the fold** linking to the official Service NSW application portal, then position the page as the "what the portal doesn't tell you" layer (fees, 11-week wait, insurance, CCEW). This mirrors the "translation layer" strategy and stops fighting the portal for the navigational click.
+  3. **Internal links in** from `/blog/ccew-nsw-electrical-compliance-guide-2026/`, `/blog/electrical-contractor-insurance-australia-2026/`, `/blog/how-to-become-electrician-australia-2026/`, and the switchboard/EV pages that mention licensing. The page currently has no visible hub role.
+  4. **Build a small comparison block** (individual vs company vs QSC vs provisional) with the fee column — the government pages split this across four URLs; no single editorial page on the SERP does it in one table.
+- **Cannibalisation:** clean — one tradieautomate URL would be the only one in the top 20 if it ranked. No competing internal page.
+- **Carried over:** EV tool page title/H1 swap; webblend framing fixes on keyword 3; job-management undated prices; switchboard table rebuild; AroFlo price reconciliation; ServiceM8 alternatives hub.
+- Next keyword: **"heat pump hot water installation cost australia"** (state advanced 10→11, cycle 1).
+
+## Keyword 12 — "commercial solar roi australia" (2026-10-23, cycle 1)
+
+- **Rank: >20. Absent from the top 20 on two independent boards** (default backend, 20 results; second board on
+  the "payback period / ROI 2026" variant, 20 results). Zero tradieautomate URLs on either.
+- **Target page: /blog/commercial-solar-roi-pricing-electricians-australia-2026/** — live 200, title
+  "Commercial Solar ROI and Pricing for Electricians: The 2026 Business Case", 2,616 words, pubDate + updatedDate
+  both `Jul 19 2026`, accuracyReviewed 2026-08-02. **Only 2 inbound internal links site-wide.**
+- **GSC reality check (90d to 2026-10-20):** the page has **33 impressions, 0 clicks**, and exactly one query
+  row — "retailer margin commercial energy", 1 impression, position 73. 28d: 4 impressions, pos 6.0 (a single
+  low-volume row). Site-wide 90d, the only commercial-solar impression of any size is
+  "commercial solar battery installation" → /blog/adding-battery-storage-solar-business-australia/ (53 imp, pos 91),
+  plus "commercial solar contracts" (1 imp, pos 8). The whole commercial solar cluster is effectively invisible;
+  this isn't a page that lost ground, it's a page that never entered the index's consideration set.
+- **SERP composition — buyer-side intent, not contractor-side.** Top 20 across both boards: installer and vendor
+  commercial-solar pages (agileenergy #6, theenergyexperts #4, pacificsolar #5, aykasolar #7, mpvsolar #10,
+  solazone #2, supplysolar #4, nrgsolar #15, sharpeit #11, ecobridge #8, energyaction ×3, selectra #16), plus
+  product/efficiency content (aikosolar #1, solaxpower #3) and one news item (medianet press release #2).
+  Every ranking page is written for **the business owner deciding whether to buy solar**, with a payback table.
+  Ours is written for **the electrician deciding whether to enter the market** — revenue per install-day, margin
+  targets, crew transitions. Same words, opposite reader. That is the whole gap.
+- **Accuracy issue found — this is the real headline, not the rank.** The page states: *"For systems over 100kW,
+  STCs are not available. Instead, the system is eligible for Large-scale Generation Certificates (LGCs)."*
+  That has been **wrong since 1 October 2026**. CER + DCCEEW confirm the SRES was expanded to 100kW–1MW by the
+  Renewable Energy (Electricity) Amendment (Mid-scale Solar) Regulations 2026: eligible systems installed on or
+  after 1 Oct 2026 create STCs, with a **fixed 5-year deeming period**, and a choice between STCs and REGO
+  certificates (not both, same deeming period). STC applications for mid-scale were not open at time of writing —
+  CER says mid-to-late November 2026. Indicative discounts in government messaging: ~$68k on 250kW, ~$136k on
+  500kW, up to ~$200k on the largest eligible systems — roughly a 20% project-cost reduction.
+  - Our own /blog/stc-claim-process-solar-installers-australia/ already has this right, in detail, with the
+    regulation number (F2026L01232). So the site **contradicts itself** on a three-week-old rule change.
+  - The 100kW STC cliff is also repeated as current on commercial-solar-compliance-australia-2026,
+    commercial-solar-system-compliance-australia and sparkys-playbook-chapter-5. Four pages, one wrong claim.
+  - Not edited in this run: the page's pricing model and ROI arithmetic downstream of that paragraph assume no
+    STC above 100kW, so a one-line patch would leave the numbers contradicting the text. It needs the pricing
+    section reworked on the new basis, not a sentence swapped.
+- **Why this matters commercially:** the 100kW–1MW band is precisely the segment the market just re-rated. A 250kW
+  job now carries a five-figure upfront discount it didn't have in September. Any installer pricing off our page
+  is over-quoting by ~20% on the exact jobs the incentive was designed to unlock. This is a revenue error on the
+  reader's side, and it is the strongest reason to update this page before chasing its rank.
+- **SERP opportunity:** the news of the expansion is ranking (#2, a vendor press release) and no editorial page
+  owns "what the 1MW change does to commercial solar ROI" yet. That is a live, unclaimed angle with a dated hook,
+  and we already hold the underlying facts on the STC page.
+- **Action order:**
+  1. **Fix the incentive paragraph and the pricing model together** — restate 100kW–1MW as STC-eligible from
+     1 Oct 2026, fixed 5-year deeming, STC-vs-REGO choice, applications expected mid-to-late November. Then
+     recompute the worked examples in "How to Price Commercial Solar" on the post-1-Oct basis.
+  2. **Retitle for the query that exists** — "Commercial Solar ROI Australia: Payback, Pricing & the 1MW STC
+     Change (2026)". Keep the electrician framing in the H1 and body, but put "ROI", "Australia" and the news
+     hook in the title. Currently the title contains neither "Australia" nor "payback".
+  3. **Add a payback table by system size** (30 / 50 / 100 / 250 / 500kW: net cost, annual savings, simple
+     payback, 25-yr saving). Every page ranking on this SERP has one; ours has none, and the numbers are already
+     in our own copy. This is the single highest-leverage edit for the searcher we're actually getting.
+  4. **Fix the internal linking.** Two inbound links is orphan-adjacent. Link in from
+     stc-claim-process-solar-installers-australia (now the authority page on the rule), the two compliance pages,
+     how-to-win-commercial-solar-contracts-australia and sparkys-playbook-chapter-5 — all of which currently
+     either contradict this page or ignore it.
+  5. **Decide whether the compliance pages get the same correction.** They carry the same wrong 100kW claim.
+     Consistency across four pages matters more for trust than a single perfect page.
+- **Cannibalisation:** mild but present — commercial-solar-roi-pricing (business case), commercial-solar-compliance
+  ×2 (near-duplicate slugs), sparkys-playbook-ch5 (commercial solar overview), how-to-win-commercial-solar-contracts.
+  Five URLs, one cluster, effectively zero impressions between them. The duplication between
+  commercial-solar-compliance-australia-2026 and commercial-solar-system-compliance-australia is real and worth a
+  canonical check — those two slugs are close enough to be splitting themselves.
+- **Carried over:** webpage title/H1 swap; webblend framing fixes; job-management undated prices; switchboard
+  table rebuild; AroFlo price reconciliation; ServiceM8 alternatives hub; heat pump cost-string retirement decision
+  (keyword 11 — two pages, wrong intent in opposite directions; technical cluster at pos 26–48 is the winnable one).
+- Next keyword: **"electrical contractor insurance australia"** (state advanced 12→13, cycle 1).

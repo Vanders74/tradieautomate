@@ -1,6 +1,7 @@
 {
-  "next_index": 10,
+  "next_index": 13,
   "cycle": 1,
-  "last_keyword": "ai automation for tradies",
-  "updated": "2026-10-23"
+  "last_keyword": "commercial solar roi australia",
+  "updated": "2026-10-23",
+  "note": "Canonical queue = repo/keyword_queue.txt + keyword_ranks.csv (18 keywords, one per run). /Users/shane/tradieautomate/seo/serp-queue-state.json + serp-ranks.csv is the older 20-keyword 'recheck-15' forensic archive, NOT this job's queue - do not consume it. 23 Oct: earlier runs mixed the two files (kw06-fergus, kw08-sm8alt, kw09-aiauto backups exist); rows for 3-phase/VIC/NSW-based 'recheck-15' keywords in keyword_ranks.csv are that drift. Google direct returns a 93KB JS shell with no result markup and r.jina.ai hits CAPTCHA (23 Oct, third consecutive day) - Brave AU + default backend used as substitute boards. Index 12 was run as 'commercial solar roi australia' (the true next unchecked queue line); the earlier 23 Oct report predicted 'electrical contractor insurance australia' for index 12 and was off by one - that keyword is index 13."
 }
