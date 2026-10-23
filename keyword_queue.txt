@@ -1,3 +1,5 @@
+# SERP rank monitor rotation - all keywords re-checked per cycle.
+# State (next_index, cycle) lives in serp_state.json. One keyword per line.
 how to price solar installations australia
 ev charger installation cost australia
 best job management software electricians australia
