@@ -143,4 +143,19 @@ const { variant = 'blog-inline', source = 'unknown' } = Astro.props;
   .nl-blog-inline .nl-input { flex: 1 1 180px; }
   .nl-homepage { padding: 18px 20px; background: #f8fafc; border-radius: 14px; border: 1px solid #e2e8f0; }
   .nl-directory .nl-label { font-size: 0.85rem; color: #334155; }
+
+  @media (max-width: 480px) {
+    .nl { margin: 12px 0; }
+    .nl-tool-exit,
+    .nl-blog-inline {
+      max-width: 100%;
+      margin: 12px 0 0;
+      padding: 14px 14px;
+      border-radius: 10px;
+    }
+    .nl-homepage { padding: 14px; border-radius: 10px; }
+    .nl-label { font-size: 0.88rem; }
+    .nl-input { flex: 1 1 100%; padding: 11px 12px; font-size: 0.9rem; }
+    .nl-btn { width: 100%; padding: 11px; font-size: 0.9rem; }
+  }
 </style>
