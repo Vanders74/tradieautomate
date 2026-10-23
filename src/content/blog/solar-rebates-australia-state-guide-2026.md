@@ -178,6 +178,7 @@ The most efficient rebate workflow uses job management software with compliance 
 
 ## Related Reading
 
+- [Solar Battery System Costs Australia 2026 — What the Rebate Does Not Cover](/blog/solar-battery-system-cost-australia-2026/)
 - [SA Solar Battery Rebate 2026 — Application Guide for Installers](/blog/sa-solar-battery-rebate-2026/)
 - [VIC Solar Homes Program 2026 — Battery Rebate Guide](/blog/vic-solar-homes-program-rebate-2026/)
 - [STC Claim Process for Solar Installers Australia](/blog/stc-claim-process-solar-installers-australia/)

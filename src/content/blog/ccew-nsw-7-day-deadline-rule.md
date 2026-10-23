@@ -318,6 +318,7 @@ The portal completes the CCEW and the AEMO DERR record in the one submission —
 
 ## Related Reading
 
+- [Staying Compliant 2026 — Solar & Electrical Safety](/blog/staying-compliant-2026-solar-electrical-safety/)
 - [NSW Electrical Contractor Licence 2026: Step-by-Step Application Guide](/blog/nsw-electrical-contractor-licence-guide-2026/)
 - [CCEW NSW Compliance Guide: Full Requirements & Lodgement Walkthrough](/blog/ccew-nsw-electrical-compliance-guide-2026/)
 - [Solar Compliance Checklist for Australian Installers (2026)](/blog/solar-compliance-checklist-2026/)

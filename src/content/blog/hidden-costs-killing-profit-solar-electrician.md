@@ -51,7 +51,7 @@ The common leak points:
 
 **Travel time:** For installation businesses covering a metro area, technicians can spend 45–90 minutes per day in transit. Is travel time built into your job pricing? Many solar businesses absorb this as overhead without quantifying it.
 
-**Quote preparation time:** How long does it take to prepare a residential solar quote? If the answer is 60–90 minutes including site assessment, proposal writing, and follow-up, that time needs to be in your cost model — even if you're not billing quotes separately.
+**Quote preparation time:** How long does it take to prepare a residential solar quote? If the answer is 60–90 minutes including site assessment, proposal writing, and follow-up, that time needs to be in your cost model — even if you're not billing quotes separately. For a full framework, see our guide on [how to price solar installations in Australia](/blog/how-to-price-solar-installations-australia-2026/).
 
 **Compliance documentation time:** Post-job compliance admin — completing certificates, uploading geo-tagged panel photos, lodging STC documentation with the Clean Energy Regulator (CER), and completing Certificates of Compliance for Electrical Work (CCEW) in states like NSW and Victoria — often takes 20–40 minutes per install. This is typically unbilled time absorbed by whoever does it (often the owner). CER audits randomly sample these submissions, so skimping on documentation carries both a financial and compliance risk.
 
