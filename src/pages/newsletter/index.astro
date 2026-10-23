@@ -1,0 +1,89 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import NewsletterSignup from '../../components/NewsletterSignup.astro';
+
+const title = 'The TradieAutomate Field Note — Newsletter';
+const description = 'One practical email every Tuesday on pricing, compliance, and growing a trade business. Past issues inside.';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
+  <body>
+    <Header />
+    <main style="max-width:720px;margin:0 auto;padding:48px 20px 80px;">
+      <h1 style="font-size:clamp(1.6rem,4vw,2.2rem);font-weight:800;color:#0f172a;margin-bottom:8px;">
+        The TradieAutomate Field Note
+      </h1>
+      <p style="font-size:1.05rem;color:#475569;line-height:1.6;margin-bottom:24px;">
+        One practical email every Tuesday on pricing, compliance, and growing a trade business.
+        No fluff, no upsell — just the stuff worth knowing before you quote.
+      </p>
+
+      <div style="padding:18px 20px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:14px;margin-bottom:40px;">
+        <NewsletterSignup variant="homepage" source="newsletter_page" />
+      </div>
+
+      <h2 style="font-size:1.2rem;font-weight:700;color:#0f172a;margin-bottom:18px;">
+        Past issues
+      </h2>
+
+      <div class="issue">
+        <div class="issue-meta">
+          <span class="issue-num">Issue #1</span>
+          <span class="issue-date">22 Oct 2026</span>
+        </div>
+        <h3 class="issue-title">This week: battery costs, CCEW deadlines, and the $20K pricing mistake</h3>
+
+        <p class="issue-body">
+          Three things worth knowing before you quote this week.
+        </p>
+
+        <div class="issue-block">
+          <p class="issue-headline">🔋 Battery system costs dropped again in October</p>
+          <p>If you quoted a 10kWh battery install last quarter, your price is now 8–12% too high. BYD and Sungrow both moved hardware prices in September, but most tradies price from memory or a spreadsheet that's six months old.</p>
+          <p class="issue-q">Are your current quotes using October 2026 costs, or last quarter's?</p>
+          <p><a href="/blog/solar-battery-system-cost-australia-2026/">Here's how to price it right →</a></p>
+        </div>
+
+        <div class="issue-block">
+          <p class="issue-headline">⚡ The CCEW 7-day lodgement clock is catching people on holiday jobs</p>
+          <p>The clock starts when the safety test finishes, not when the invoice goes out or the office catches up. Christmas and school-holiday bookings are where this one bites hardest — you're quoting in January for jobs that need certificates lodged before the crew leaves site.</p>
+          <p class="issue-q">Do you know exactly when your clock starts on every job type?</p>
+          <p><a href="/blog/ccew-nsw-electrical-compliance-guide-2026/">Here's the full breakdown →</a></p>
+        </div>
+
+        <div class="issue-block">
+          <p class="issue-headline">💰 One pricing error is quietly eating $20K+ from electrical businesses</p>
+          <p>Most businesses underprice jobs because they don't recover compliance admin time. It doesn't show on the P&L as a line item — it's invisible. But at $130/hr charge-out rate, three hours of unbilled compliance per week is $20K/year that disappears before you've paid yourself.</p>
+          <p class="issue-q">How many hours a week does your team spend on CCEW paperwork — and is it in your quote?</p>
+          <p><a href="/blog/how-to-price-solar-installations-australia-2026/">Here's how to recover it →</a></p>
+        </div>
+
+        <p class="issue-close">Questions or job stories worth covering? Hit reply — this goes to a human.</p>
+      </div>
+    </main>
+
+    <style>
+      .issue { border-top:1px solid #e2e8f0; padding-top:24px; }
+      .issue-meta { display:flex; gap:12px; align-items:center; margin-bottom:6px; }
+      .issue-num { font-size:0.8rem; font-weight:700; color:#f97316; text-transform:uppercase; letter-spacing:0.04em; }
+      .issue-date { font-size:0.8rem; color:#64748b; }
+      .issue-title { font-size:1.05rem; font-weight:700; color:#0f172a; margin-bottom:12px; }
+      .issue-body { font-size:0.95rem; color:#475569; line-height:1.6; margin-bottom:16px; }
+      .issue-block { margin-bottom:18px; padding-left:14px; border-left:3px solid #f97316; }
+      .issue-headline { font-size:0.95rem; font-weight:700; color:#0f172a; margin-bottom:6px; }
+      .issue-block p { font-size:0.92rem; color:#475569; line-height:1.6; margin:6px 0; }
+      .issue-q { font-style:italic; color:#334155; }
+      .issue-block a { color:#f97316; font-weight:600; text-decoration:none; }
+      .issue-block a:hover { text-decoration:underline; }
+      .issue-close { font-size:0.9rem; color:#475569; margin-top:20px; padding-top:14px; border-top:1px dashed #e2e8f0; }
+    </style>
+
+    <Footer />
+  </body>
+</html>
