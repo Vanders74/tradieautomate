@@ -77,6 +77,38 @@ Rotation state: `serp_state.json` (next_index, cycle). Canonical domain: **tradi
   /blog/servicem8-for-electricians/, sparkys-playbook ch8, servicem8-vs-jobber, servicem8-review-2026).
   Split link equity rather than a single strong cluster page - the wiki-hub pattern is the fix, if we build one.
 
+### 4. how to get more solar leads australia - 2026-10-23 - rank 1
+- Target page: /blog/how-to-get-more-solar-leads-australia-2026/ (HTTP 200, Netlify edge, canonical correct,
+  title/H1 "How to Get More Solar Leads in Australia 2026: $0 vs $250 a Lead", Article + FAQPage schema,
+  3,292 words, published 2026-05-16, modified 2026-10-21). **First #1 of the cycle.**
+- Top 20: us #1, odindigital.com.au #2, clickclickmedia #3, solarinsights (PDF) #4, growthlocal #5,
+  uprisedigital #6, whysolar #7, capitalleads #8, uprisedigital #9, solproof #10, uprisedigital #11,
+  leadsnow #12, uprisedigital #13, solproof #14, capitalleads #15, leadshq #16, monstermedia #17,
+  click-vision #18, getbatteryquotes #19, localsearch #20.
+- Confirms the intent diagnosis from keywords 1-2: we rank >20 on consumer cost queries but #1 where the
+  query is installer/business intent. This page's title does the work - a numeric payoff ("$0 vs $250 a
+  lead") in the title and meta description. That is the same "answer in the title/snippet" framing that
+  webblend used to take #1 on keyword 3. Two data points now; treat it as the house style for blog titles.
+- **The win is fragile on the page body.** The title promises a cost comparison and the page contains
+  **zero tables** and **zero "checked on"/"as of" dates** on its figures ($80-$250 per lead, $8-$25 per
+  click). It opens with ~2 paragraphs of market context before resolving anything. The reader who clicked
+  the promise gets prose. whysolar.com.au (#7) publishes a full channel table - cost per lead, close rate,
+  time to results, scalability; Odin (#2) ranks "7 Channels Ranked by Effort and Quality". Our ranking is
+  currently being carried by title + freshness (updated 2 days ago), not by the body delivering the
+  comparison.
+- Action worth taking: add a compact 6-row channel comparison block (cost per lead / close rate / time to
+  results) under the H1, using figures already in the article, with a "checked Oct 2026" line. Build it as
+  stacked cards, not a wide table, so it reads on a phone without horizontal scroll. This is copy plus one
+  component, no rebuild.
+- **Recurring gap, now confirmed site-wide:** "checked on [date]" price verification is missing here and on
+  keyword 3's page. Stop treating it as a per-page fix and add it to the blog template / content checklist.
+- Cannibalisation contrast: only **one** tradieautomate URL in this top 20, against five on keyword 3. The
+  split-equity problem is local to the job-management cluster, not site-wide. Don't over-generalise the fix.
+- Commercial landscape: 6 of 20 slots are lead brokers / bought-lead sellers (capitalleads x2, solproof x2,
+  leadsnow, leadshq, getbatteryquotes) and uprisedigital holds 4 slots as an agency cluster. We are #1 over
+  agencies and brokers, not over other installers.
+- Carried over: EV charger tool page title/H1 swap still open; webblend framing fixes on keyword 3 page still open.
+
 ### 20. electrical contractor award rates australia - 2026-10-23 - rank 5
 - Page 1 mid-pack against Fair Work, AwardScale, Valont, VeriTradie, ECA WA. Rate-table snippet holding.
 
