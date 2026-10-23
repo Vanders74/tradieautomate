@@ -8,7 +8,7 @@ const { variant = 'blog-inline', source = 'unknown' } = Astro.props;
   <form class="nl-form" data-source={source}>
     <label class="nl-label" for={`nl-email-${variant}`}>
       {variant === 'tool-exit' && "Got 30 seconds? Get one practical email every Tuesday on pricing, compliance and margins."}
-      {variant === 'blog-inline' && <>Most tradies lose <strong>$20K+ a year</strong> to pricing and compliance mistakes they never spot until tax time. One email every Tuesday catches them before you quote.</>}
+      {variant === 'blog-inline' && <>Most tradies leave <strong>$20K+ a year</strong> on the table in pricing and compliance mistakes. One email every Tuesday catches them before you quote.</>}
       {variant === 'homepage' && "The weekly email that tells you what changed before your competitors find out."}
       {variant === 'directory' && "The Field Note — one email a week on ServiceM8, pricing, compliance and finding the right clients."}
     </label>
@@ -154,7 +154,7 @@ const { variant = 'blog-inline', source = 'unknown' } = Astro.props;
       border-radius: 10px;
     }
     .nl-homepage { padding: 14px; border-radius: 10px; }
-    .nl-label { font-size: 0.88rem; }
+    .nl-label { font-size: 0.88rem; line-height: 1.4; }
     .nl-input { flex: 1 1 100%; padding: 11px 12px; font-size: 0.9rem; }
     .nl-btn { width: 100%; padding: 11px; font-size: 0.9rem; }
   }
