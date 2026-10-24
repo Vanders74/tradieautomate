@@ -15,8 +15,27 @@ import path from 'node:path';
 // publishing a false one.
 const BLOG_DIR = './src/content/blog';
 
+// Tool pages are .astro, so they carry no frontmatter date and previously
+// serialized with NO lastmod. That left the two money tools sitting at
+// "Discovered - currently not indexed" for 90 days. These dates are the real
+// last-substantive-change commits (git log -1 --format=%cI) for each file.
+// UPDATE the matching entry whenever a tool page's content changes.
+const TOOL_LASTMOD = {
+  '/tools/rebate-finder/': '2026-10-23T20:31:34+11:00',
+  '/tools/trade-business-valuation/': '2026-10-23T20:31:34+11:00',
+  '/tools/admin-cost-calculator/': '2026-10-23T20:31:34+11:00',
+  '/tools/solar-savings-calculator/': '2026-10-23T20:31:34+11:00',
+  '/tools/ev-charger-quote-calculator/': '2026-10-19T13:28:48+11:00',
+  '/tools/solar-quote-calculator/': '2026-08-08T04:48:05+10:00',
+  '/tools/': '2026-10-22T10:03:09+11:00',
+};
+
 function buildLastmodMap() {
   const map = new Map();
+  for (const [p, raw] of Object.entries(TOOL_LASTMOD)) {
+    const d = new Date(raw);
+    if (!Number.isNaN(d.getTime())) map.set(p, d.toISOString());
+  }
   let files = [];
   try {
     files = fs.readdirSync(BLOG_DIR);
