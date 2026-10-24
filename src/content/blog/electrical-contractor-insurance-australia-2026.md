@@ -265,7 +265,7 @@ These coverage failures turn small incidents into five-figure uninsured losses:
 
 **No home warranty insurance for large residential jobs.** In NSW ($20K+), VIC ($16K+), and QLD ($3,300+), residential electrical and solar work above these thresholds requires domestic building insurance (home warranty). It protects the homeowner if you die, become insolvent, or disappear before completing the work. Not holding it is a licensing offence and leaves you personally liable for incomplete-work claims.
 
-**Underinsured public liability for commercial work.** A $5M PL limit is adequate for domestic work. A single serious incident on a commercial or industrial site — building fire, business interruption to a major tenant, or a fatality with dependants — can produce a claim exceeding $20M. Review your limit every time you take on a new class of commercial work.
+**Underinsured public liability for commercial work.** A $5M PL limit is adequate for domestic work. A single serious incident on a commercial or industrial site — building fire, business interruption to a major tenant, or a fatality with dependants — can produce a claim exceeding $20M. Review your limit every time you take on a new class of commercial work. Data centre fire protection is the extreme case: AS 1851 service records on a multi-tenant facility are an underwriting condition, so a documentation lapse can void cover for the whole site. See the [data centre fire protection requirements for 2026](/blog/data-centre-fire-protection-australia-2026/) before you quote the work.
 
 ---
 

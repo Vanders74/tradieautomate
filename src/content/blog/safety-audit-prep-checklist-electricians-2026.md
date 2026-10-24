@@ -69,6 +69,8 @@ The Clean Energy Regulator's 2025 Solar Compliance Blitz audited 1,200+ solar in
 
 SafeWork NSW alone has indicated that at least 2 industry-wide electrical safety blitzes will run every year from 2026 onward. These are announced (usually with 14 days notice) but the scope is broad — every contractor in the target region or trade category can be selected.
 
+Critical infrastructure jobs raise the documentation bar further: a data centre audit pulls fire system service records, not just electrical certificates. If you're moving into that work, the [data centre fire protection compliance requirements](/blog/data-centre-fire-protection-australia-2026/) are the entry gate.
+
 ---
 
 ## The 6-Category Electrical Safety Audit Checklist
