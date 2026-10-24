@@ -45,7 +45,7 @@ For homeowners who have an ageing gas hot water system, the replacement decision
 
 A homeowner with a 6.6kW solar system generating 25–30kWh per day in summer has significant excess solar generation that currently goes to the grid at a low feed-in tariff. A heat pump hot water system, set to heat during the middle of the day, consumes 1–2kWh to heat a full tank. That energy comes from solar — effectively free.
 
-The "drive on sunshine" pitch works for EV chargers; the "shower on sunshine" pitch works equally well for heat pump hot water. It resonates with customers who feel like their solar investment isn't working as hard as it should.
+The "drive on sunshine" pitch works for EV chargers; the "shower on sunshine" pitch works equally well for heat pump hot water. It resonates with customers who feel like their solar investment isn't working as hard as it should. A heat pump running on solar is compelling, but the economics change when you add a battery. See [Solar Battery System Costs Australia 2026](/blog/solar-battery-system-cost-australia-2026/) for how battery storage shifts the self-consumption maths.
 
 ---
 

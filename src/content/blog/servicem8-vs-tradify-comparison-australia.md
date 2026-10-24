@@ -22,7 +22,7 @@ But for Australian electricians and solar installers, the decision hinges on mor
 
 Your job management software either supports this compliance workflow — or it doesn't.
 
-This comparison breaks it down honestly — pricing, features, compliance tools, and the specific use cases where each platform shines. If you're an Australian solar installer, electrician, plumber, or HVAC technician, this is the comparison you need.
+This comparison breaks it down honestly — pricing, features, compliance tools, and the specific use cases where each platform shines. If you're an Australian solar installer, electrician, plumber, or HVAC technician, this is the comparison you need. For solar and electrical businesses specifically, the compliance stakes are even higher — see [ServiceM8 vs Tradify for Solar and Electrical Businesses](/blog/servicem8-vs-tradify-solar-electrical/) for a breakdown of CER, CCEW and AS/NZS workflow differences.
 
 ---
 

@@ -209,7 +209,7 @@ How does ServiceM8 stack up against the other main players in the Australian mar
 | Free trial | ✅ 14 days | ❌ Demo only | ✅ 14 days | ✅ 14 days |
 | Best for | SMB tradies | Enterprise | Sole traders | Job costing |
 
-For a deeper comparison, see our [ServiceM8 vs simPRO breakdown](/blog/servicem8-vs-simpro-comparison-australia/) and [ServiceM8 vs Tradify comparison](/blog/servicem8-vs-tradify-comparison-australia/).
+For a deeper comparison, see our [ServiceM8 vs simPRO breakdown](/blog/servicem8-vs-simpro-comparison-australia/), [ServiceM8 vs Tradify comparison](/blog/servicem8-vs-tradify-comparison-australia/), and [ServiceM8 vs Tradify for Solar and Electrical Businesses](/blog/servicem8-vs-tradify-solar-electrical/).
 
 *Prices verified against each vendor's Australian pricing page in October 2026. ServiceM8 quotes inclusive of GST; Tradify and Fergus quote exclusive of GST (Tradify Lite $48, Pro $52, Plus $62 per user; Fergus Essentials $53, Professional $77 per user — Forms sit on Professional only, so a crew that needs compliance forms is on $77/user, not $53; currently promoted at 90% off until December 2026). simPRO does not publish pricing — it is quote-only, so any "from $149" figure you see elsewhere is unsourced.*
 

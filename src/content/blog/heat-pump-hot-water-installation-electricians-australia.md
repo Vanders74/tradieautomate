@@ -33,7 +33,7 @@ A few numbers that explain why this market is worth pursuing in 2026:
 
 - **Gas replacement wave:** State and territory governments across Australia are progressively restricting gas connections in new builds and incentivising existing gas customers to switch. Hot water is the first appliance most households consider replacing.
 - **Rebate programs:** Federal and state rebate programs (detailed below) significantly reduce the upfront cost of heat pump hot water systems, making them competitive with gas replacements in most markets.
-- **Solar synergy:** A heat pump hot water system paired with solar PV is the most efficient way to use daytime solar generation for water heating — displacing grid energy consumption. For solar-installed homes, it's a genuinely compelling upgrade.
+- **Solar synergy:** A heat pump hot water system paired with solar PV is the most efficient way to use daytime solar generation for water heating — displacing grid energy consumption. For solar-installed homes, it's a genuinely compelling upgrade. For installers already doing solar, the battery conversation is even more direct — see [Solar Battery System Costs Australia 2026](/blog/solar-battery-system-cost-australia-2026/) for pricing and payback on the battery upgrades your solar customers are already asking about.
 - **Repeat customer activation:** Your existing solar and electrical customers are the warmest leads for heat pump hot water. They already trust you, and many are actively considering the upgrade.
 
 The job values are solid: a heat pump hot water installation typically runs $2,500–$5,000 installed (hardware + labour + compliance), often with rebates reducing the customer's out-of-pocket cost significantly.

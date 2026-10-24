@@ -24,6 +24,8 @@ When you add a second person, that breaks immediately.
 
 The new technician can't access what's in your head. They don't know which compliance photos are required at which stage. They don't know your standard follow-up sequence with customers. They don't know how to complete the STC documentation the way you do it. They don't know what to do when a job takes longer than quoted.
 
+If your new hire can't access what's in your head — including which compliance photos are required at which stage — see [Staying Compliant 2026 — Solar & Electrical Safety](/blog/staying-compliant-2026-solar-electrical-safety/) for how to build repeatable CER, CCEW and AS/NZS workflows before you hire.
+
 The owner's response is to manage all of this — which means spending a significant portion of every day managing the second person rather than doing billable work. You've added a staff cost but reduced your own output. Net profit per job often *falls* when you first scale from one to two people.
 
 The solution is building the systems before you hire — or at minimum, simultaneously.

@@ -111,7 +111,7 @@ ServiceM8 has built-in features that directly address the compliance and workflo
 - **Automated follow-ups** — Post-job review requests and maintenance reminders
 - **Xero and MYOB integration** — Clean two-way sync so your accounts stay current
 
-For solar installers managing CER audits, having photos, checklists, and signed documentation attached to every job record is invaluable. We've covered this in depth in our guide to [ServiceM8 for Solar Installers](/blog/servicem8-for-solar-installers/).
+For solar installers managing CER audits, having photos, checklists, and signed documentation attached to every job record is invaluable. We've covered this in depth in our guide to [ServiceM8 for Solar Installers](/blog/servicem8-for-solar-installers/) and [ServiceM8 vs Tradify for Solar and Electrical Businesses](/blog/servicem8-vs-tradify-solar-electrical/).
 
 ### simPRO
 

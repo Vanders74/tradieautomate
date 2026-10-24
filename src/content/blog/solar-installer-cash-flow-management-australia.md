@@ -40,7 +40,7 @@ Solar is different for three reasons:
 
 **The STC mechanism adds complexity.** You might be passing the STC discount through to the customer upfront — reducing their invoice by the STC value — but you don't receive the STC cash until after you've lodged the claim and the certificates are traded. That can be 2–4 weeks post-installation. You're effectively lending the customer the STC value.
 
-The result: in a business doing $200,000/month of solar installations, it's not unusual for $60,000–$100,000 of cash to be permanently tied up in the cycle at any given time.
+The result: in a business doing $200,000/month of solar installations, it's not unusual for $60,000–$100,000 of cash to be permanently tied up in the cycle at any given time. And if your compliance documentation is slipping at the same time — missing CCEWs, late STC lodgements, incomplete photo records — you're not just carrying a working capital gap. You're carrying an enforcement gap. See [Staying Compliant 2026 — Solar & Electrical Safety](/blog/staying-compliant-2026-solar-electrical-safety/) for how the businesses with the fastest payment cycles handle CER, CCEW and AS/NZS records without slowing down the job.
 
 ---
 
