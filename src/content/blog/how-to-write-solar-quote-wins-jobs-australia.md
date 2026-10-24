@@ -10,9 +10,9 @@ tags: ['solar quote', 'quoting', 'solar', 'electrician', 'sales', 'business grow
 
 The solar quote is the single most important sales document you produce. It's the moment between a customer expressing interest and making a decision — and most solar businesses are losing jobs they should be winning at this step.
 
-In the Australian solar market in 2026, homeowners are well-informed. They've done their research. They're comparing multiple quotes. They know what a kilowatt-hour is. They've heard about the SRES. They may have used a solar calculator online before they contacted you.
+Most installers think the quote that wins is the cheapest one, or the most detailed one, or the one that goes out fastest. It's none of those. The quotes that win are the ones that read like a diagnosis, not a price list. The ones that show the customer exactly what their situation costs, why your system fits, and what happens if they do nothing. Templated quotes — the kind you assemble from a document library in five minutes — leave money on the table because they signal that you haven't looked at their house, their roof, or their bill.
 
-Winning the quote isn't about being the cheapest. It's about being the most trusted, the most professional, and the most convincing that your system will deliver what you're promising — and that your business will be there if anything goes wrong.
+In the Australian solar market in 2026, homeowners are well-informed. They've done their research. They're comparing multiple quotes. They know what a kilowatt-hour is. They've heard about the SRES. They may have used a solar calculator online before they contacted you.
 
 This guide covers what a winning solar quote includes, how to present the financials in a way that customers understand, the common mistakes that lose jobs, and a structure you can use for your own templates.
 

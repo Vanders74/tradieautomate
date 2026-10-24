@@ -19,7 +19,11 @@ heroImage: '/hero-accounting-software-solar.jpg'
 tags: ['accounting software', 'Xero', 'MYOB', 'QuickBooks', 'solar', 'electrician', 'business']
 ---
 
-Most solar installers and electricians start out with someone doing the books — a spouse, a bookkeeper, or just themselves with a spreadsheet. At some point, the business grows beyond what that can handle, and a cloud accounting platform becomes necessary. But before comparing platforms, understand the regulatory context: the **Fair Work Act 2009** (enforced by the **Fair Work Ombudsman**) governs how you pay staff under the **Electrical, Electronic and Communications Contracting Award 2020 (MA000025)**, and solar installers must comply with **Clean Energy Regulator** STC lodgement requirements under the **Renewable Energy (Electricity) Act 2000**. Your accounting software needs to support both.
+Most solar installers and electricians start out with someone doing the books — a spouse, a bookkeeper, or just themselves with a spreadsheet. At some point, the business grows beyond what that can handle, and a cloud accounting platform becomes necessary.
+
+But here's what most guides don't tell you: switching to Xero or MYOB doesn't fix bad pricing. It doesn't fix a broken quoting process. And it doesn't stop you from undercharging for compliance time. What it does is make the problem visible faster — which is exactly why so many tradies resist it. The real question isn't which platform is best. It's whether your current numbers are accurate enough to make a decision, and whether your job management system feeds your accounting automatically or requires someone to re-type it twice a week.
+
+But before comparing platforms, understand the regulatory context: the **Fair Work Act 2009** (enforced by the **Fair Work Ombudsman**) governs how you pay staff under the **Electrical, Electronic and Communications Contracting Award 2020 (MA000025)**, and solar installers must comply with **Clean Energy Regulator** STC lodgement requirements under the **Renewable Energy (Electricity) Act 2000**. Your accounting software needs to support both.
 
 The three dominant players in the Australian small business accounting market are Xero, MYOB, and QuickBooks Online. All three handle the basics: invoicing, expenses, GST, payroll (in some tiers), bank reconciliation, and financial reporting. The differences are in depth, ease of use, integration with trade software like ServiceM8, and price.
 

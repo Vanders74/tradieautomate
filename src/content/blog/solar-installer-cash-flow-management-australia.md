@@ -20,6 +20,8 @@ tags: ['cash flow', 'solar business', 'invoicing', 'deposits', 'ServiceM8', 'bus
 
 Solar installation is one of the worst cash flow businesses in the trades sector. You carry the cost — equipment, labour, compliance — weeks before you see the money. And in a high-volume growth phase, getting paid slowly while your workload grows is a fast road to insolvency despite a full diary.
 
+Most solar installers fix cash flow by chasing harder — more reminders, more phone calls, more pressure on customers who are already behind. That's treating the symptom. The businesses that actually fix their cash flow do something different: they change when and how they invoice, automate the triggers, and stop doing unbilled work on credit by default. The result isn't "better collection." It's a 14-day shorter payment cycle, from the same customers, without a single awkward conversation.
+
 This isn't hypothetical. Solar businesses with strong revenue and healthy order books fail every year in Australia because they can't cover their working capital gap. The Australian Securities and Investments Commission consistently lists cash flow problems as a top driver of small business failure in the construction and trades sectors.
 
 The fixes are straightforward. But they require changing habits that feel uncomfortable — until you've used them long enough to see the difference in your bank account.

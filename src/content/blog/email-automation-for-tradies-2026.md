@@ -21,9 +21,9 @@ faq:
 
 A 5-person electrical crew that automates quote follow-ups recovers roughly $15,000 per year in forgotten leads — money already earned through marketing and reputation, left on the table because no one sent a second email.
 
-**Email automation for tradies** is the practice of using software to send pre-written, timed email sequences — such as quote follow-ups, review requests, and service reminders — triggered automatically by customer actions like enquiry submission or job completion, without manual intervention.
+Most trade businesses lose 30–40% of their leads by never following up after a first quote. The fix isn't hiring an admin to send emails. It's setting up four automated workflows that run while you're on the tools.
 
-Most trade businesses lose 30–40% of their leads by never following up after a first quote. The fix isn't hiring an admin — it's setting up four automated workflows that run while you're on the tools.
+**Email automation for tradies** is the practice of using software to send pre-written, timed email sequences — such as quote follow-ups, review requests, and service reminders — triggered automatically by customer actions like enquiry submission or job completion, without manual intervention.
 
 ---
 

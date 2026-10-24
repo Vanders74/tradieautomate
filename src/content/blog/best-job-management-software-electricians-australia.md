@@ -22,6 +22,8 @@ faq:
 
 Running an electrical business in Australia in 2026 means navigating licensing requirements under state-based electricity safety legislation — in NSW, for example, the **Gas and Electricity (Consumer Safety) Act 2017**, administered by **Building Commission NSW** — along with compliance documentation, quote-to-invoice workflows, and a customer base that expects real-time communication. The right job management software doesn't just help you stay organised — it's the operational backbone that lets you scale without drowning in paperwork.
 
+Most electricians shop for software the wrong way. They look for one platform that does everything — quoting, scheduling, invoicing, compliance, inventory, customer management — and end up with a system that does half of it badly and locks them into expensive seat tiers they don't need. The trades that grow fastest in 2026 aren't the ones who found an all-in-one. They're the ones who connected three lightweight tools with simple automations and cut their admin time by 70%.
+
 This guide compares the five most widely used electrical job management software platforms for Australian electricians, cuts through the marketing, and gives you a clear recommendation based on your business size and needs.
 
 ---
