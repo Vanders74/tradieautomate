@@ -22,7 +22,7 @@ If you're installing solar panels in Australia, compliance isn't optional — it
 
 The Clean Energy Regulator (CER) has been tightening enforcement through 2026. Installer accreditation reviews have increased significantly, and the penalties for non-compliance are getting steeper. In 2023–24 alone, the CER completed over 800 installer audits and took action against dozens of businesses for documentation failures — not substandard physical work. The 2026 audit cycle is expected to exceed that number.
 
-This checklist covers everything you need to have in order **before, during, and after** every solar installation job.
+Most installers think CER audits catch bad installations — shoddy wiring, undersized inverters, unsafe mounting. They don't. The 2026 audit cycle is targeting documentation failures: missing STC assignments, incomplete photo records, absent compliance certificates. The businesses getting fined aren't the ones with bad work. They're the ones with perfect installs and missing forms. This checklist covers everything you need to have in order **before, during, and after** every solar installation job.
 
 > **☀️ Solar compliance at scale:** [How ServiceM8 handles CER documentation, STC forms, and AS/NZS checklists](/blog/servicem8-for-solar-businesses/) — built into your job workflow.
 

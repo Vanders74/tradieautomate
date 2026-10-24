@@ -33,6 +33,8 @@ faq:
 
 CER audit activity is increasing. The Clean Energy Regulator has been ramping up compliance work across the Small-scale Renewable Energy Scheme (SRES), and solar installers are firmly in scope. Whether you're a sole trader with a CEC accreditation or running a crew of installers, understanding what auditors look for — and getting your documentation in order before they come knocking — is no longer optional.
 
+Most installers prepare for a CER audit by frantically gathering documents the week before. That's exactly when the auditor arrives. The installers who pass without drama — or never get audited at all — have documentation built into their job workflow, not bolted on at the end. CER doesn't flag random businesses. They flag the ones with gaps in their records: missing STC assignments, incomplete photo evidence, or accreditation mismatches between the installer and the system design. Getting that right before the audit is cheaper than fixing it during one.
+
 This guide covers exactly what a CER audit involves, what triggers one, where installers typically fall short, and how to make sure you're not one of them.
 
 ---

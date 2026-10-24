@@ -23,7 +23,7 @@ The compliance landscape for Australian solar installers and electricians has ne
 
 The Clean Energy Regulator increased its audit activity in 2025 and has continued ramping up enforcement in 2026. State electrical safety regulators from Energy Safe Victoria to SafeWork NSW are tightening requirements and increasing penalties for documentation failures. And on worksites, Safe Work Method Statements (SWMS) that were once treated as a formality are now being scrutinised as part of contractor prequalification and incident investigation.
 
-For a solar or electrical installation business in Australia, staying compliant in 2026 isn't about doing more paperwork. It's about building systems where compliance happens automatically as part of every job — and where the documentation exists to prove it.
+Most installers think compliance is a paperwork problem — something you handle at the end of the job, or when the auditor arrives. It's not. The businesses that breeze through audits don't have better filing cabinets. They have workflows where compliance documentation is created, captured, and stored automatically as part of the installation process — not bolted on afterwards. For a solar or electrical installation business in Australia, staying compliant in 2026 isn't about doing more paperwork. It's about building systems where compliance happens automatically as part of every job — and where the documentation exists to prove it.
 
 This guide covers the full compliance picture: SWMS requirements, CER and accreditation obligations, AS/NZS standards, and a practical safety audit checklist you can use to assess your business's current position.
 

@@ -34,6 +34,8 @@ faq:
 
 The Certificate of Compliance Electrical Work is a legal obligation with real financial penalties, and the rules around when it's required — and when the clock starts ticking — are genuinely confusing for many electricians and contractors.
 
+Most electricians think the 7-day CCEW deadline starts when the invoice goes out, or when the customer pays, or when the office admin gets back from holiday and enters the job into the system. It doesn't. The clock starts the moment the safety and compliance test finishes on site. That misunderstanding is why more NSW tradies are getting hit with **$2,200–$4,400 penalties** under s37A than for any other compliance breach — not because they did bad work, but because they counted the days wrong.
+
 This article cuts through the confusion. Here is exactly when a CCEW is legally required, the 7-day rule that most electricians underestimate, who you have to submit it to, and the compliance gap that field software closes.
 
 > **⚡ Deadline stress?** ServiceM8 can capture the test results on the job as a custom digital form and trigger 7-day reminders — [how NSW electricians are automating compliance](/blog/servicem8-for-electricians/). Note that custom forms require the Growing plan ($79/mo); the CCEW itself is still lodged in BCNSW eCert.
