@@ -1,8 +1,8 @@
 ---
-title: 'Data Centre Fire Protection Australia 2026: Critical Infrastructure Compliance'
-description: "Data centre fire protection is a compliance-mandated annuity: AS 1851 maintenance renews forever, VESDA installs from $40K. How fire contractors win it."
+title: 'Data Centre Fire Protection 2026: AS 1851, NFPA 855 & FPAS'
+description: "Data centre fire protection 2026: AS 1851 annual service, NFPA 855 lithium-ion rules and FPAS accreditation — plus $25K-$80K contract economics."
 pubDate: 'Sep 11 2026'
-updatedDate: 'Sep 11 2026'
+updatedDate: 'Oct 25 2026'
 category: 'Business Growth'
 heroImage: '/hero-data-centre-fire-protection-australia-2026.jpg'
 breakdown:

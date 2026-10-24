@@ -1,6 +1,6 @@
 ---
 title: 'Solar Safety Compliance Guide 2026: SWMS, CER & Audit Checklist'
-description: 'SWMS requirements, CER audit obligations, AS/NZS 5033 & 5139 standards, and the compliance checklist every solar installer needs. From SafeWork to Energy Safe Victoria — all in one guide.'
+description: 'Who issues what in 2026: SWMS, CCEW and CES certificates, CER audit evidence and AS/NZS 5033 & 5139 — the state-by-state solar compliance checklist.'
 faq:
   - question: "What is a Safe Work Method Statement (SWMS) and is it required for solar installations?"
     answer: "A Safe Work Method Statement (SWMS) is a written document that identifies high-risk construction work, the hazards involved, and the control measures in place to manage those risks. Under the Work Health and Safety (WHS) Regulations in all Australian states and territories (except Victoria, which uses OHS), a SWMS is legally required before commencing any high-risk construction work. Solar installation consistently triggers SWMS requirements because it involves work at heights (roof work) — one of the defined categories of high-risk construction work under the regulations. A SWMS must be prepared and reviewed by the workers involved before work commences on each site."
@@ -13,7 +13,7 @@ faq:
   - question: "How do I stay compliant as solar and electrical standards change in 2026?"
     answer: "The most reliable approach is layered: (1) subscribe to CEC update emails and the relevant state electrical safety regulator's bulletins; (2) complete your annual CEC CPD units, which are updated to reflect standard changes; (3) review your compliance checklist and job documentation workflows at the start of each year; and (4) use job management software that supports custom form updates, so when a new documentation requirement is introduced (e.g. a new field on the CCEW, or a new CER photo requirement), you can update your digital form in minutes rather than reprinting paper checklists. Standards updates in 2024–2025 have primarily affected battery storage (AS/NZS 5139 tightening) and grid connection limits."
 pubDate: 'May 24 2026'
-updatedDate: 'Oct 19 2026'
+updatedDate: 'Oct 25 2026'
 category: "Compliance"
 heroImage: '/hero-compliance-safety-2026.jpg'
 tags: ['compliance', 'safety', 'SWMS', 'solar', 'electrician', 'CER', 'AS/NZS']
