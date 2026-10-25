@@ -27,17 +27,15 @@ This article breaks down exactly what you need to have ready before an inspector
 
 > **⚡ Using ServiceM8?** The job diary and document storage features auto-organise compliance certificates, SWMS, and test records by job — so when an auditor asks, you can pull any document in seconds. [See how it works for electrical contractors](/blog/servicem8-review-2026/).
 
-<div class="compliance-bridge-box" style="border-left:4px solid #f97316;background:#0f172a;padding:20px 24px;border-radius:8px;margin:32px 0;color:#e2e8f0">
-  <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
-    <div style="flex:1;min-width:220px">
-      <strong style="display:block;font-size:1.05rem;margin-bottom:4px">Worried about an upcoming audit? Download the free 6-category checklist.</strong>
-      <p style="margin:0;font-size:0.9rem;color:#94a3b8">
+<div class="compliance-bridge-box">
+  <div class="cb-inner">
+    <div class="cb-text">
+      <strong class="cb-title">Worried about an upcoming audit? Download the free 6-category checklist.</strong>
+      <p class="cb-body">
         Print-and-post checklist covering licensing, certificates, test records, SWMS, insurance, and on-site safety. Know what auditors check before they arrive.
       </p>
     </div>
-    <a href="#download-checklist" style="background:#f97316;color:#fff;padding:12px 20px;border-radius:8px;font-weight:700;text-decoration:none;white-space:nowrap;flex-shrink:0">
-      Download Checklist →
-    </a>
+    <a href="#download-checklist" class="cb-link">Download Checklist →</a>
   </div>
 </div>
 

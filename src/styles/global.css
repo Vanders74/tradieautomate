@@ -21,6 +21,8 @@
     0 16px 32px rgba(var(--gray), 33%);
 }
 
+*, *::before, *::after { box-sizing: border-box; }
+
 @font-face {
   font-family: 'Atkinson';
   src: url('/fonts/atkinson-regular.woff') format('woff');
@@ -48,6 +50,7 @@ body {
   color: rgb(var(--gray-dark));
   font-size: 19px;
   line-height: 1.7;
+  overflow-x: hidden;
 }
 
 main {
@@ -79,6 +82,18 @@ p { margin-bottom: 1em; }
 textarea { width: 100%; font-size: 16px; }
 input { font-size: 16px; }
 table { width: 100%; }
+
+.prose table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.prose td, .prose th {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  padding: 8px 12px;
+  border-bottom: 1px solid #e2e8f0;
+}
 
 img {
   max-width: 100%;
@@ -249,11 +264,164 @@ hr {
   flex-shrink: 0;
 }
 
+/* YouTube facade (used in blog markdown) */
+.yt-facade {
+  position: relative;
+  padding-top: 56.25%;
+  max-width: 640px;
+  margin: 24px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  background: #0f172a;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+.yt-facade img {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+.yt-facade .yt-play {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 68px; height: 48px;
+  background: rgba(15,23,42,0.85);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+.yt-facade .yt-caption {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  padding: 12px 16px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.85));
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: left;
+}
+.yt-facade .yt-thumb {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+
+/* Award rates calculator (used in blog markdown) */
+.award-calc-wrapper {
+  background: #0f172a;
+  border-radius: 16px;
+  padding: 32px 24px;
+  margin: 24px 0;
+  color: #e2e8f0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+.award-calc-wrapper .ot-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: end;
+  margin-bottom: 24px;
+}
+.award-calc-wrapper h3 {
+  margin: 0 0 4px;
+  font-size: 1.15rem;
+  color: #f97316;
+}
+.award-calc-wrapper .calc-intro {
+  margin: 0 0 24px;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+.award-calc-wrapper .calc-grid,
+.award-calc-wrapper .calc-grid-alt,
+.award-calc-wrapper .results-grid {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.award-calc-wrapper .calc-grid { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.award-calc-wrapper .calc-grid-alt { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+.award-calc-wrapper .results-grid { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); text-align: center; }
+.award-calc-wrapper label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #cbd5e1;
+  margin-bottom: 4px;
+}
+.award-calc-wrapper input,
+.award-calc-wrapper select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #1e293b;
+  color: #f1f5f9;
+  font-size: 1rem;
+}
+.award-calc-wrapper .calc-btn {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.award-calc-wrapper .result-item { text-align: center; }
+.award-calc-wrapper .result-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64748b;
+  margin-bottom: 4px;
+}
+.award-calc-wrapper .result-value {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.award-calc-wrapper .result-total { font-size: 1.75rem; }
+.award-calc-wrapper #res-breakdown {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #334155;
+  font-size: 0.8rem;
+  color: #94a3b8;
+  line-height: 1.6;
+}
+.award-calc-wrapper .calc-disclaimer {
+  margin: 12px 0 0;
+  font-size: 0.7rem;
+  color: #64748b;
+}
+
 @media (max-width: 720px) {
   body { font-size: 17px; }
-  main { padding: 1em; }
+  main { padding: 1em; width: 100%; }
   h1 { font-size: 2em; }
   h2 { font-size: 1.6em; }
+}
+
+@media (max-width: 480px) {
+  .compliance-bridge-box .cb-inner { flex-direction: column; }
+  .compliance-bridge-box .cb-link { width: 100%; text-align: center; }
+  .tradie-brain-cta .tb-cta-inner { flex-direction: column; }
+  .tradie-brain-cta .tb-cta-btn { width: 100%; text-align: center; }
+  .yt-facade { max-width: 100% !important; }
+  .award-calc-wrapper { padding: 20px 16px !important; }
+  .award-calc-wrapper .calc-grid,
+  .award-calc-wrapper .calc-grid-alt,
+  .award-calc-wrapper .results-grid { grid-template-columns: 1fr !important; }
+  .award-calc-wrapper .ot-flex > div { min-width: 0 !important; flex-basis: 100% !important; }
 }
 
 .sr-only {

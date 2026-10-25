@@ -40,17 +40,15 @@ This article cuts through the confusion. Here is exactly when a CCEW is legally 
 
 > **⚡ Deadline stress?** ServiceM8 can capture the test results on the job as a custom digital form and trigger 7-day reminders — [how NSW electricians are automating compliance](/blog/servicem8-for-electricians/). Note that custom forms require the Growing plan ($79/mo); the CCEW itself is still lodged in BCNSW eCert.
 
-<div class="compliance-bridge-box" style="border-left:4px solid #f97316;background:#0f172a;padding:20px 24px;border-radius:8px;margin:32px 0;color:#e2e8f0">
-  <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
-    <div style="flex:1;min-width:220px">
-      <strong style="display:block;font-size:1.05rem;margin-bottom:4px">CCEW deadline stress? There's a faster way.</strong>
-      <p style="margin:0;font-size:0.9rem;color:#94a3b8">
+<div class="compliance-bridge-box">
+  <div class="cb-inner">
+    <div class="cb-text">
+      <strong class="cb-title">CCEW deadline stress? There's a faster way.</strong>
+      <p class="cb-body">
         ServiceM8 generates CCEW forms from your job data and sends automatic reminders before the 7-day window closes. No more late lodgements.
       </p>
     </div>
-    <a href="https://www.servicem8.com/au/register/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=ccew7day_bridge" target="_blank" rel="nofollow sponsored" style="background:#f97316;color:#fff;padding:12px 20px;border-radius:8px;font-weight:700;text-decoration:none;white-space:nowrap;flex-shrink:0">
-      Try Free 14 Days →
-    </a>
+    <a href="https://www.servicem8.com/au/register/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=ccew7day_bridge" target="_blank" rel="nofollow sponsored" class="cb-link">Try Free 14 Days →</a>
   </div>
 </div>
 

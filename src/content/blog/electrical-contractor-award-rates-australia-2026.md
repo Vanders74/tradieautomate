@@ -37,7 +37,7 @@ This guide covers the current rates, the classification structure, key allowance
 
 ## ⚡ Interactive Award Rates Calculator
 
-<div class="award-calc-wrapper" style="background:#0f172a;border-radius:16px;padding:32px 24px;margin:24px 0;color:#e2e8f0;font-family:system-ui,-apple-system,sans-serif;">
+<div class="award-calc-wrapper">
   <h3 style="margin:0 0 4px;font-size:1.15rem;color:#f97316;">Enter Your Crew</h3>
   <p style="margin:0 0 24px;font-size:0.85rem;color:#94a3b8;">Rates effective from first full pay period on or after 1 July 2026.</p>
 
@@ -64,7 +64,7 @@ This guide covers the current rates, the classification structure, key allowance
     </div>
   </div>
 
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-bottom:24px;">
+  <div class="calc-grid-alt" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-bottom:24px;">
     <div>
       <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">1st Year Apprentice</label>
       <input type="number" id="app1" value="0" min="0" max="50" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
@@ -83,7 +83,7 @@ This guide covers the current rates, the classification structure, key allowance
     </div>
   </div>
 
-  <div style="display:flex;flex-wrap:wrap;gap:16px;align-items:end;margin-bottom:24px;">
+  <div class="ot-flex" style="display:flex;flex-wrap:wrap;gap:16px;align-items:end;margin-bottom:24px;">
     <div style="flex:1;min-width:160px;">
       <label style="display:block;font-size:0.8rem;font-weight:700;color:#cbd5e1;margin-bottom:4px;">Overtime Hours (1.5x)</label>
       <input type="number" id="ot15" value="0" min="0" max="200" style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:1rem;">
@@ -104,7 +104,7 @@ This guide covers the current rates, the classification structure, key allowance
   <button onclick="calcAwardRates()" style="display:block;width:100%;padding:14px;background:linear-gradient(135deg,#f97316,#ea580c);color:#fff;border:none;border-radius:10px;font-size:1.05rem;font-weight:700;cursor:pointer;margin-bottom:20px;transition:transform 0.1s;" onmouseover="this.style.transform='translateY(-1px)'" onmouseout="this.style.transform='none'">Calculate Total Pay →</button>
 
   <div id="calc-results" style="display:none;background:#1e293b;border-radius:12px;padding:24px;">
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:16px;text-align:center;">
+    <div class="results-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:16px;text-align:center;">
       <div>
         <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;color:#64748b;margin-bottom:4px;">Weekly Base</div>
         <div style="font-size:1.5rem;font-weight:800;color:#38bdf8;" id="res-weekly">$0</div>
