@@ -1,20 +1,20 @@
 ---
-title: 'How to Price Solar Installations in Australia 2026: $70/hr Labour, 40–55% Margin'
-description: 'Build a solar pricing model that holds: $70/hr true labour cost, overhead recovery and 40–55% gross margin per job. Full 2026 breakdown.'
+title: 'Solar Installation Profit Margin Australia 2026: 30–40%'
+description: 'The 30–40% gross margin a direct-install solar job needs: $70/hr labour, overhead recovery and a worked 6.6kW example with 2026 STC and super rates.'
 faq:
   - question: "What is the average cost of a solar installation in Australia in 2026?"
     answer: "A standard 6.6kW residential solar system in Australia costs $5,500–$8,500 fully installed in 2026 (after STC rebate). Higher-quality components (Tier 1 panels, string inverters from SMA, Fronius, or SolarEdge) sit at the upper end; value-tier systems with less-established brands sit at the lower end. A 10kW system typically costs $8,000–$12,000 installed. Adding a battery (e.g. Tesla Powerwall 3 or Alpha ESS) adds $8,000–$15,000 to the installed price. State rebates (VIC, SA) can reduce the effective customer price further. Prices vary by state, roof complexity, and installation difficulty."
   - question: "What profit margin should a solar installer target in Australia?"
-    answer: "A well-run residential solar installation business should target 40–55% gross margin per job (revenue minus direct costs of labour, materials, compliance, and travel). Net profit margin (after overhead) should be 15–25% for an efficiently operated business. If your gross margins are consistently below 35%, review your direct cost structure — particularly unbilled compliance time, travel cost absorption, and materials pricing. Battery-add installations can achieve slightly higher margins (40–60%) due to less price competition than the solar-only market."
+    answer: "A direct-install residential solar business should target 30–40% gross margin per job (revenue minus the direct costs of labour, materials, compliance and travel). The published Australian benchmarks sit lower — 20–35% gross and 8–15% net, with a typical gross margin of 18% across the industry — because that data averages volume installers who subcontract crews and buy leads. If you self-perform with an employed crew, 30–40% gross is achievable and is what funds 12–18% net after overheads. If your gross margin is consistently below 30%, review your direct cost structure first: unbilled compliance time, travel absorption and materials pricing. Battery-add installations can run 35–45% gross because there is less price competition than solar-only work."
   - question: "How do you calculate the labour cost for a solar installation quote?"
-    answer: "Calculate your true cost rate per technician: annual salary + super (11.5% in 2026) + WorkCover premium + vehicle running cost + tools and equipment depreciation + pro-rata training and certification costs. Divide by billable hours per year (typically 1,400–1,600 for a full-time technician after leave, training, travel, and admin). For a technician on $75,000 base salary in 2026, the true cost rate is typically $65–$80/hour. A standard 6.6kW installation takes 4–6 hours for a 2-person crew (8–12 labour hours total). At $70/hour true cost, that's $560–$840 in direct labour cost per job."
+    answer: "Calculate your true cost rate per technician: annual salary + super (12% since 1 July 2025) + WorkCover premium + vehicle running cost + tools and equipment depreciation + pro-rata training and certification costs. Divide by billable hours per year (typically 1,400–1,600 for a full-time technician after leave, training, travel, and admin). For a technician on $75,000 base salary in 2026, the true cost rate is typically $65–$80/hour. A standard 6.6kW installation takes 4–6 hours for a 2-person crew (8–12 labour hours total). At $70/hour true cost, that's $560–$840 in direct labour cost per job."
   - question: "How do STC rebates affect solar pricing in Australia?"
-    answer: "STCs (Small-scale Technology Certificates) reduce the effective system cost for customers. The STC value is typically passed through as an upfront discount on the customer's invoice — you install at the \"post-STC\" price and claim the STC value from the market (via an agent or directly through the CER clearing house at $40/certificate). For a 6.6kW system in Zone 3 (Sydney), 2026 STCs are worth approximately $3,200–$3,400. You receive this amount from the STC agent (typically within 2–5 business days of lodgement), while the customer has already received the discount at point of sale. The cash flow timing between customer discount and STC receipt is important to model correctly."
+    answer: "STCs (Small-scale Technology Certificates) reduce the effective system cost for customers. The STC value is typically passed through as an upfront discount on the customer's invoice — you install at the \"post-STC\" price and claim the STC value from the market (via an agent, or through the CER STC Clearing House at its fixed $40 per certificate excluding GST). A 6.6kW system in Zone 3 (Sydney, Brisbane, Adelaide, Perth, Canberra) creates 45 STCs in 2026 — 6.6kW x 1.382 x the 5-year deeming period, rounded down — worth roughly $1,710–$1,800 at the $38–$40 market price. That is the whole rebate: the deeming period drops by a year every year to the scheme's 2030 end, so the number falls annually and any figure near $3,000 is a pre-2024 number. You receive the cash from the STC agent (typically within 2–5 business days of lodgement) while the customer has already had the discount at point of sale, so the timing gap has to be modelled."
   - question: "What is the best pricing strategy for winning solar quotes in Australia?"
     answer: "Lead with value, not price. The customers most worth winning are those comparing quality and service, not hunting for the lowest price — those customers are more profitable and generate better referrals. Present three pricing tiers (good/better/best) where possible, with clear differentiation in equipment quality, warranty, and service. Always show the STC calculation transparently — it builds trust and explains the pricing structure. Follow up unconverted quotes systematically (5 touchpoints over 21 days) — most solar leads are delayed decisions, not rejections. Response speed also matters: quoting within 24 hours of inquiry closes significantly more business than quoting after 48–72 hours."
 pubDate: 'May 12 2026'
-updatedDate: 'Oct 24 2026'
-accuracyReviewed: '2026-08-02'
+updatedDate: 'Oct 26 2026'
+accuracyReviewed: '2026-10-26'
 category: "Solar & Battery"
 heroImage: '/hero-how-to-price-solar.jpg'
 tags: ['solar', 'pricing', 'job costing', 'business', 'electrician', 'profitability']
@@ -91,7 +91,7 @@ Solar equipment costs vary by supplier relationships, volume purchasing, and mar
 This is the most consistently underestimated cost category.
 
 **Per-job compliance costs:**
-- CEC/CER documentation preparation: 30–60 min admin time
+- SAA/CER documentation preparation: 30–60 min admin time
 - State electrical certificate (COES in VIC, CCEW in NSW, CoTC in QLD): $0–$100 fee depending on state
 - Network notification and connection forms: 30–60 min admin time
 - STC lodgement process: 30–60 min (if doing in-house) or ~$100–$200 fee to STC trader
@@ -138,20 +138,25 @@ Many installers have never calculated this number. They price based on materials
 
 After recovering all costs — materials, labour, compliance, overhead — your profit margin is the return on your capital, risk, and time as a business owner.
 
-**Industry benchmark:** 10–20% net profit margin is healthy for a well-run solar installation business. Below 10% leaves you vulnerable to cost increases and provides no buffer for bad jobs. Above 20% is excellent and usually indicates strong repeat/referral business or premium positioning.
+**Two benchmarks, and you need both.** Published Australian data puts solar installers at **20–35% gross and 8–15% net**, with a typical gross margin of 18% across the industry. That average includes volume installers who subcontract crews and buy leads. If you self-perform with an employed crew and pay nothing for leads, **30–40% gross and 12–18% net** is achievable, and it is the number to price towards. Below 30% gross there is no buffer for warranty callbacks, travel blowouts or a bad job.
 
 **Calculate it on your fully-loaded cost, not just materials:**
 
 If a 6.6kW job costs you:
 - Materials: $4,500
-- Labour (6 hours at $73/hr effective): $438
+- Labour (8 labour hours at $70/hr): $560
 - Compliance: $150
+- **Direct cost: $5,210**
 - Overhead allocation: $950
-- **Total cost: $6,038**
+- **Total cost: $6,160**
 
-At 15% net margin: **Quote $6,038 ÷ (1 - 0.15) = $7,103**
+| Target net margin | Quote | Gross profit | Gross margin |
+|---|---|---|---|
+| 10% | $6,844 | $1,634 | 31.4% |
+| 15% | $7,247 | $2,037 | 32.9% |
+| 18% | $7,512 | $2,302 | 35.6% |
 
-At 20% net margin: **$6,038 ÷ 0.80 = $7,548**
+**Check the gross line as well as the net.** Pricing at 15% net here produces a 32.9% gross margin — inside the 30–40% band. Drop to a 10% net target and gross falls to 31.4%: still workable, but the first bad job eats it. The reverse trap is more common: a quote that "looks like 15% net" is often a 25% gross quote because the overhead allocation was too light. Both numbers belong in the same spreadsheet, calculated the same way every time.
 
 ---
 
@@ -168,19 +173,19 @@ For context, average market pricing ranges for residential solar installation in
 | 6.6kW + 10kWh battery | Standard | $13,000–$18,000 |
 | 6.6kW + 13.5kWh (Powerwall 3) | Tesla | $18,000–$24,000 |
 
-**STC offset:** At the 2026 STC deeming period and current market price (~$35–$38 per STC), a 6.6kW system in zone 3 generates approximately $1,800–$2,200 in STC value. This is typically passed through to the customer as a point-of-sale discount. Make sure your quote shows the pre-STC price and the STC discount separately — this is a customer trust signal and also clarifies your actual revenue.
+**STC offset:** In 2026 the deeming period is 5 years, so a 6.6kW system in zone 3 creates 45 STCs — 6.6 x 1.382 x 5, rounded down — worth about **$1,710–$1,800** at the current $38–$40 market price. (Zone 1 cities such as Darwin create more certificates; Melbourne and Hobart, in a lower zone, create fewer.) This is typically passed through to the customer as a point-of-sale discount. Make sure your quote shows the pre-STC price and the STC discount separately — this is a customer trust signal and also clarifies your actual revenue. The deeming period drops one year annually to the scheme's 2030 end, so budget the discount shrinking every year rather than holding at today's number.
 
 ---
 
 ## Pricing Strategy: How to Win at the Right Margin
 
-The cheapest quote wins less than 30% of solar jobs in the current market, according to consistent industry surveys. Homeowners buying solar in 2026 are more educated — they've been stung by cheap installers, they read reviews, they check CEC accreditation.
+The cheapest quote wins less than 30% of solar jobs in the current market, according to consistent industry surveys. Homeowners buying solar in 2026 are more educated — they've been stung by cheap installers, they read reviews, they check SAA accreditation.
 
 **What actually wins jobs:**
 - Fast quote turnaround (within 24 hours — use [ServiceM8 quote automation](https://www.servicem8.com/?ref=tradieautomate&utm_source=tradieautomate&utm_medium=blog&utm_campaign=affiliate))
 - Professional quote presentation with clear breakdown
 - Google reviews and social proof
-- CEC accreditation prominently displayed
+- SAA (Solar Accreditation Australia) accreditation prominently displayed
 - Specific system design (shade analysis, consumption data review) rather than generic quote
 - Clear warranty terms on labour and equipment
 
@@ -225,13 +230,13 @@ After 20–30 jobs with accurate tracking, your pricing model will be calibrated
 A standard 6.6kW residential solar system in Australia costs $5,500–$8,500 fully installed in 2026 (after STC rebate). Higher-quality components (Tier 1 panels, string inverters from SMA, Fronius, or SolarEdge) sit at the upper end; value-tier systems with less-established brands sit at the lower end. A 10kW system typically costs $8,000–$12,000 installed. Adding a battery (e.g. Tesla Powerwall 3 or Alpha ESS) adds $8,000–$15,000 to the installed price. State rebates (VIC, SA) can reduce the effective customer price further. Prices vary by state, roof complexity, and installation difficulty.
 
 ### What profit margin should a solar installer target in Australia?
-A well-run residential solar installation business should target 40–55% gross margin per job (revenue minus direct costs of labour, materials, compliance, and travel). Net profit margin (after overhead) should be 15–25% for an efficiently operated business. If your gross margins are consistently below 35%, review your direct cost structure — particularly unbilled compliance time, travel cost absorption, and materials pricing. Battery-add installations can achieve slightly higher margins (40–60%) due to less price competition than the solar-only market.
+A direct-install residential solar business should target 30–40% gross margin per job (revenue minus the direct costs of labour, materials, compliance and travel). The published Australian benchmarks sit lower — 20–35% gross and 8–15% net, with a typical gross margin of 18% across the industry — because that data averages volume installers who subcontract crews and buy leads. If you self-perform with an employed crew, 30–40% gross is achievable and is what funds 12–18% net after overheads. If your gross margin is consistently below 30%, review your direct cost structure first: unbilled compliance time, travel absorption and materials pricing. Battery-add installations can run 35–45% gross because there is less price competition than solar-only work.
 
 ### How do you calculate the labour cost for a solar installation quote?
-Calculate your true cost rate per technician: annual salary + super (11.5% in 2026) + WorkCover premium + vehicle running cost + tools and equipment depreciation + pro-rata training and certification costs. Divide by billable hours per year (typically 1,400–1,600 for a full-time technician after leave, training, travel, and admin). For a technician on $75,000 base salary in 2026, the true cost rate is typically $65–$80/hour. A standard 6.6kW installation takes 4–6 hours for a 2-person crew (8–12 labour hours total). At $70/hour true cost, that's $560–$840 in direct labour cost per job.
+Calculate your true cost rate per technician: annual salary + super (12% since 1 July 2025) + WorkCover premium + vehicle running cost + tools and equipment depreciation + pro-rata training and certification costs. Divide by billable hours per year (typically 1,400–1,600 for a full-time technician after leave, training, travel, and admin). For a technician on $75,000 base salary in 2026, the true cost rate is typically $65–$80/hour. A standard 6.6kW installation takes 4–6 hours for a 2-person crew (8–12 labour hours total). At $70/hour true cost, that's $560–$840 in direct labour cost per job.
 
 ### How do STC rebates affect solar pricing in Australia?
-STCs (Small-scale Technology Certificates) reduce the effective system cost for customers. The STC value is typically passed through as an upfront discount on the customer's invoice — you install at the "post-STC" price and claim the STC value from the market (via an agent or directly through the CER clearing house at $40/certificate). For a 6.6kW system in Zone 3 (Sydney), 2026 STCs are worth approximately $3,200–$3,400. You receive this amount from the STC agent (typically within 2–5 business days of lodgement), while the customer has already received the discount at point of sale. The cash flow timing between customer discount and STC receipt is important to model correctly.
+STCs (Small-scale Technology Certificates) reduce the effective system cost for customers. The STC value is typically passed through as an upfront discount on the customer's invoice — you install at the "post-STC" price and claim the STC value from the market (via an agent, or through the CER STC Clearing House at its fixed $40 per certificate excluding GST). A 6.6kW system in Zone 3 (Sydney, Brisbane, Adelaide, Perth, Canberra) creates 45 STCs in 2026 — 6.6kW x 1.382 x the 5-year deeming period, rounded down — worth roughly $1,710–$1,800 at the $38–$40 market price. That is the whole rebate: the deeming period drops by a year every year to the scheme's 2030 end, so the number falls annually and any figure near $3,000 is a pre-2024 number. You receive the cash from the STC agent (typically within 2–5 business days of lodgement) while the customer has already had the discount at point of sale, so the timing gap has to be modelled.
 
 ### What is the best pricing strategy for winning solar quotes in Australia?
 Lead with value, not price. The customers most worth winning are those comparing quality and service, not hunting for the lowest price — those customers are more profitable and generate better referrals. Present three pricing tiers (good/better/best) where possible, with clear differentiation in equipment quality, warranty, and service. Always show the STC calculation transparently — it builds trust and explains the pricing structure. Follow up unconverted quotes systematically (5 touchpoints over 21 days) — most solar leads are delayed decisions, not rejections. Response speed also matters: quoting within 24 hours of inquiry closes significantly more business than quoting after 48–72 hours.
