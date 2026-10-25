@@ -1,14 +1,15 @@
 ---
-title: "EV Charger Installation Cost Australia 2026: What Electricians Charge and Why"
-description: "Residential EV charger installation costs $900-$2,500; switchboard upgrades add $1,200-$3,500. AS/NZS 3000:2018 Wiring Rules compliance, state-by-state electrical contractor licence requirements (ESV Victoria, SafeWork NSW, Electrical Safety Office QLD), and how to price EV charging work at 35-50% margin."
+title: "EV Charger Installation Cost Australia 2026: Electrician Pricing"
+description: "EV charger installation in Australia costs $1,200-$2,500 all-in, $2,255 average. Labour and hardware costs, and how electricians price at 35-50% margin."
 pubDate: 'Jun 9 2026'
-updatedDate: 'Oct 18 2026'
+updatedDate: 'Oct 26 2026'
+accuracyReviewed: 'Oct 26 2026'
 category: "Business Growth"
 heroImage: '/hero-ev-charger-installation.jpg'
 tags: ['EV charger cost', 'EVSE installation', 'pricing', 'electrician', 'solar', 'EV charging Australia']
 faq:
   - question: "How much does a residential EV charger installation cost in Australia in 2026?"
-    answer: "A standard residential EV charger installation in Australia typically costs $900–$2,500 including labour and materials, but not the charger hardware. Simple installs (modern home, switchboard capacity available, short cable run) sit at the lower end. Switchboard upgrades and long cable runs add $400–$2,500 to the total."
+    answer: "All-in, a standard single-phase 7kW residential EV charger installation costs $1,200–$2,500 in Australia, with a national average of about $2,255 — that includes the charger unit ($600–$1,400) plus installation labour and materials. Simple installs in a modern home with spare switchboard capacity and a short cable run sit at the lower end. Switchboard upgrades add $800–$2,500 and long cable runs add $200–$800. If the customer supplies the charger, the installer's charge is labour and materials only — typically $900–$2,500 depending on switchboard work and cable run."
   - question: "Do electricians need special certification to install EV chargers in Australia?"
     answer: "A licensed electrical contractor's licence is required in all states. All EV charger wiring must comply with AS/NZS 3000:2018 (the Australian Wiring Rules). In Victoria, Energy Safe Victoria (ESV) governs compliance certificate requirements. In NSW, SafeWork NSW regulates electrical contractor licensing and compliance obligations."
   - question: "When does an EV charger installation require a switchboard upgrade?"
@@ -30,14 +31,18 @@ This guide covers realistic EV charger installation costs for residential and co
 
 ### Typical Price Range
 
-| Installation Type | Typical Price to Customer |
-|---|---|
-| Basic single-phase 7.2kW (simple install, no switchboard work) | $900–$1,400 |
-| Standard single-phase 7.2kW with minor switchboard modification | $1,200–$1,800 |
-| Three-phase 22kW EVSE installation | $1,800–$3,500 |
-| Installation requiring switchboard upgrade | Add $800–$2,500 |
-| Long cable run (10m+ from switchboard to charger) | Add $200–$800 |
-| Outdoor weatherproof installation with conduit | Add $150–$400 |
+The single most common quoting error on this job type is confusing the installer's charge with the customer's total. They are not the same number, and the gap is the charger unit itself — $600–$1,400 of the ticket. Both are shown below.
+
+| Installation Type | Installer's charge (labour + materials) | All-in to customer (incl. EVSE hardware) |
+|---|---|---|
+| Basic single-phase 7kW, simple install, no switchboard work | $900–$1,400 | $1,500–$2,800 |
+| Standard single-phase 7kW with minor switchboard modification | $1,200–$1,800 | $1,800–$3,200 |
+| Three-phase 22kW EVSE installation | $1,800–$3,500 | $2,500–$4,500 |
+| Installation requiring switchboard upgrade | Add $800–$2,500 | Add $800–$2,500 |
+| Long cable run (10m+ from switchboard to charger) | Add $200–$800 | Add $200–$800 |
+| Outdoor weatherproof installation with conduit | Add $150–$400 | Add $150–$400 |
+
+**How this compares to the published market.** National average all-in cost is **$2,255** (Solar Choice price index, April 2026), with a median of **$2,150** (cable-co 2026 survey) and a typical band of **$1,200–$2,800** for a simple single-phase 7kW install (Gridly), **$1,200–$2,500** all-in (EV Roadside) and **$1,000–$3,000 with $2,000 typical** (What's The Damage, October 2026 re-verification). The all-in column above sits inside that band; the labour-and-materials column does not, because it excludes the unit. If a quote of yours reads $900 for a job the market prices at $2,200, check whether you have quoted labour only while the customer is comparing against all-in figures.
 
 The wide range reflects the genuine variability in residential EV charger jobs. A straightforward installation in a modern home with spare switchboard capacity and a garage next to the metre box is a very different job from a 1970s brick veneer with a full fuse board, a carport 25 metres from the switchboard, and no conduit path.
 
@@ -171,7 +176,7 @@ For building a broader lead generation system for your solar and electrical busi
 
 ### How much does a residential EV charger installation cost in Australia in 2026?
 
-A standard residential EV charger installation in Australia typically costs $900–$2,500 including labour and materials, but not the charger hardware. Simple installs (modern home, switchboard capacity available, short cable run) sit at the lower end. Switchboard upgrades and long cable runs add $400–$2,500 to the total.
+All-in, a standard single-phase 7kW residential EV charger installation costs $1,200–$2,500 in Australia, with a national average of about $2,255 — that includes the charger unit ($600–$1,400) plus installation labour and materials. Simple installs in a modern home with spare switchboard capacity and a short cable run sit at the lower end. Switchboard upgrades add $800–$2,500 and long cable runs add $200–$800. If the customer supplies the charger, the installer's charge is labour and materials only — typically $900–$2,500 depending on switchboard work and cable run.
 
 ### Do electricians need special certification to install EV chargers in Australia?
 
