@@ -27,12 +27,12 @@ const STATE_GROUPS = STATE_ORDER.map((st) => [
 // Serialize safely for inline JS injection (escape < to avoid HTML parsing issues)
 const rfDataJson = JSON.stringify(rebatesJson).replace(/</g, '\\u003c');
 
-const title = "Rebate Finder Australia 2026 | Heat Pump, Solar & Battery Rebates by State";
-const description = "Free rebate finder for Australian homeowners and tradies. Enter your state and upgrade type — heat pump hot water, solar or battery — and get ranked rebates with exact amounts, eligibility and expiry dates, verified weekly.";
+const title = "Solar Rebate Calculator Australia 2026 | Rebates by State";
+const description = "Free solar rebate calculator for Australia 2026 — see exact solar, battery and heat pump rebate amounts, eligibility and expiry dates by state.";
 const webPageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Rebate Finder Australia 2026",
+  "name": "Solar Rebate Calculator Australia 2026",
   "description": description,
   "url": "https://tradieautomate.com/tools/rebate-finder/",
   "dateModified": meta.last_verified,
@@ -133,7 +133,7 @@ const faqSchema = {
   <body>
     <Header />
     <section class="tool-hero">
-      <h1>🇦🇺 Rebate Finder 2026</h1>
+      <h1>🇦🇺 Solar Rebate Calculator Australia 2026</h1>
       <p>Heat pump, solar &amp; battery rebates in your state — exact amounts, eligibility and expiry dates. Verified against official sources weekly.</p>
       <span class="verified-badge">✓ Last verified {meta.last_verified}</span>
     </section>
