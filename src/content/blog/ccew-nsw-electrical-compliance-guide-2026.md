@@ -336,6 +336,8 @@ While photos aren't part of the CCEW itself, Building Commission NSW and DNSPs i
 
 ## Related Reading
 
+> **Check the rebate before you quote the job.** NSW hot water, solar and battery jobs hinge on which certificate and rebate category applies. The free [Rebate Finder](/tools/rebate-finder/) tells you what your customer qualifies for in under two minutes — and flags compliance gaps before you install.
+
 > **When you're ready to sell, the paperwork matters.** Buyers scrutinise compliance history before any trade-business acquisition — so do your CCEW records pass inspection? The free [Trade Business Valuation](/tools/trade-business-valuation/) scores your sale-readiness (compliance included) and estimates your sale range in under five minutes.
 
 - *[Certificate of Electrical Safety (COES) — Complete Guide for Victorian Electricians](/blog/certificate-electrical-safety-ces-victoria-guide-2026/)*
