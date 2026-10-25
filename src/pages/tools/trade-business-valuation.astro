@@ -6,7 +6,7 @@ import NewsletterSignup from '../../components/NewsletterSignup.astro';
 import sellability from '../../data/sellability.json';
 
 const title = "Trade Business Valuation Calculator: How Much Is Your Business Worth?";
-const description = "Free sellability scorecard for Australian electricians, plumbers and trade businesses — get your SDE/EBITDA multiple, price range, report card and actionable improvements to sell at a top price.";
+const description = "Free sellability scorecard for Australian trade businesses — get your SDE/EBITDA multiple, price range and the fixes that lift your sale price.";
 const tvDataJson = JSON.stringify(sellability).replace(/</g, '\\u003c');
 const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).replace(/</g, '\\u003c');
 ---
@@ -14,11 +14,6 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
 <html lang="en-AU">
   <head>
     <BaseHead title={title} description={description} />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title}</title>
-    <meta name="description" content={description} />
-    <link rel="canonical" href="https://tradieautomate.com/tools/trade-business-valuation/" />
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebApplication",
