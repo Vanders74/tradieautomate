@@ -1,7 +1,7 @@
 ---
-title: "CER Audit Prep for Solar Installers: How to Pass Your Clean Energy Regulator Audit"
-description: "STC claims can be suspended after a failed CER audit — and audits are increasing in 2026. How Australian solar installers can prepare documentation, avoid common failure points, and stay compliant with the Clean Energy Regulator."
-updatedDate: 'Jul 18 2026'
+title: "CER Audit Prep 2026: 12-Point Checklist for Solar Installers"
+description: "STC claims must be lodged within 12 months and records kept 5 years. The 12-point checklist solar installers need before a Clean Energy Regulator audit."
+updatedDate: 2026-10-26
 pubDate: "Apr 05 2026"
 category: "Compliance"
 breakdown:

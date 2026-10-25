@@ -1,8 +1,8 @@
 ---
-title: "Solar Job Management Software Australia 2026: Top Platforms Compared"
-description: "Best job management software for Australian solar installers in 2026 — ServiceM8, simPRO, Tradify and more compared on CEC compliance, quoting, real pricing, and solar-specific workflows."
+title: "Solar Job Management Software 2026: Pricing & Pros Compared"
+description: "AroFlo from $65/mo, ServiceM8 from $29/mo, Tradify $35/mo — what each does for CEC compliance, STC claims and solar quoting in 2026. See the full comparison."
 pubDate: 2026-07-20
-updatedDate: 2026-09-09
+updatedDate: 2026-10-26
 heroImage: "/hero-servicem8-for-solar-installers.jpg"
 category: "Software Comparisons"
 breakdown:
