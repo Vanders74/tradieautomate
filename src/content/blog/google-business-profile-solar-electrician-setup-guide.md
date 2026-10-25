@@ -2,7 +2,7 @@
 title: 'Google Business Profile for Solar Installers & Electricians'
 description: "Google Maps optimisation for Australian solar installers and electricians: claim your profile, win the local pack and build reviews that rank in 2026."
 pubDate: 'May 22 2026'
-updatedDate: 'Oct 25 2026'
+updatedDate: 'Oct 26 2026'
 category: "Business Growth"
 heroImage: '/hero-google-business-profile-solar.jpg'
 tags: ['Google Business Profile', 'local SEO', 'solar', 'electrician', 'marketing', 'lead generation']
@@ -13,8 +13,10 @@ faq:
     answer: "The most effective approach is an automated SMS review request sent within 2 hours of job completion with a direct Google review link. This typically converts 15–30% of customers into reviewers. Consistency matters — 10 reviews per month beats 100 reviews once and nothing since."
   - question: "Which GBP categories should a solar installer and electrician use?"
     answer: "Use 'Solar Energy Contractor' as your primary category and 'Electrician' as a secondary. You can add up to 9 additional categories — but only use those that accurately describe your actual services. Over-categorising dilutes your relevance signal for your core searches."
+  - question: "Is CEC accreditation still required for solar installers in Australia?"
+    answer: "No. The Clean Energy Council stopped issuing installer and designer accreditation on 29 May 2024. Solar Accreditation Australia (SAA) is now the accreditation scheme operator under the Small-scale Renewable Energy Scheme: installers must hold current SAA accreditation (GCPV for grid-connected solar, GCBS for batteries) or the system is not eligible for STCs. If a business still advertises itself as 'CEC accredited', that is the old name for the same accreditation — ask for the SAA number and check it at saaustralia.com.au. The Clean Energy Council still runs the Approved Products list, and the New Energy Tech Consumer Code (NETCC) replaced its Approved Solar Retailer program."
   - question: "How do I set up Google Business Profile for a solar installation business?"
-    answer: "Go to business.google.com and claim or create your listing. Use your exact legal trading name, your primary service address (or service area if you don't have a shopfront), and select \"Solar energy contractor\" or \"Electrician\" as your primary category (you can add both). Add your phone, website, business hours, and a detailed description that includes your service area, main services, and any certifications (CEC accreditation, licensed electrician). Verify via postcard or instant phone verification if eligible. A fully completed GBP listing with 10+ reviews typically ranks in the top 3 of Google Maps for local solar searches."
+    answer: "Go to business.google.com and claim or create your listing. Use your exact legal trading name, your primary service address (or service area if you don't have a shopfront), and select \"Solar energy contractor\" or \"Electrician\" as your primary category (you can add both). Add your phone, website, business hours, and a detailed description that includes your service area, main services, and your credentials — your SAA accreditation number and your electrical licence number, not the retired \"CEC accreditation\" claim. Verify by video, phone or postcard — which routes you get depends on the business and address Google can confirm. A fully completed GBP listing with 10+ reviews typically ranks in the top 3 of Google Maps for local solar searches."
   - question: "What is the most important factor for Google Business Profile local rankings?"
     answer: "Reviews are the single most important ranking and conversion factor for GBP. The number of reviews, recency, and average rating all influence both where you appear in the local pack and whether searchers choose to contact you. A business with 50 reviews at 4.8 stars will consistently outperform a competitor with 10 reviews at 5.0 stars in both rankings and click-through rates. The fastest way to build reviews is an automated request system — SMS sent within 2 hours of job completion with a direct Google review link. This typically converts 15–30% of customers into reviewers."
   - question: "How often should I post on Google Business Profile?"
@@ -63,7 +65,7 @@ The rest of this guide walks through each field in the order Google's setup flow
 6. Choose whether to add a physical address (only if customers visit you) or use a service area only (most solar/electrical businesses)
 7. Add your service area — list every suburb you genuinely service
 8. Enter your phone number, website, and business hours
-9. Complete verification — Google will send a postcard with a verification code to your business address, or you may be eligible for phone/email verification
+9. Complete verification — options vary by business and address: **video verification** (record your premises, signage, vehicle, tools and workspace in one continuous take — now the most common route for service-area businesses), phone or email verification where eligible, or a postcard with a code mailed to your business address
 
 **Important:** Don't set up multiple GBP profiles for the same business from different addresses. Multiple profiles for one business is a violation of Google's guidelines and can result in suspension.
 
@@ -92,6 +94,8 @@ Category selection is one of the most important GBP decisions. It tells Google w
 
 **Don't over-categorise.** Adding irrelevant categories confuses Google and can dilute your relevance signal for your core searches. Stick to categories that accurately describe your actual services.
 
+> **Accreditation check — most GBP guides get this wrong.** Solar installer accreditation has not been issued by the Clean Energy Council since **29 May 2024**. It moved to **Solar Accreditation Australia (SAA)**, and a system designed or installed without current SAA accreditation (GCPV for solar, GCBS for batteries) is not eligible for STCs. So put your **SAA accreditation number** on your profile, not "CEC accredited". The Clean Energy Council still matters for two different things: its **Approved Products** list (panels, inverters and batteries must be listed for STC eligibility) and the **New Energy Tech Consumer Code (NETCC)**, which replaced the old Approved Solar Retailer program. If you're an NETCC Approved Seller, say that separately. Three programs, three different claims — conflating them is the fastest way to look out of date to a customer who has done their homework.
+
 ---
 
 ## Step 3: NAP Consistency — The Foundation of Local SEO
@@ -104,7 +108,7 @@ Inconsistencies in NAP across the web reduce Google's confidence in your busines
 - Your website (header, footer, contact page)
 - Facebook Business Page
 - Yelp, TrueLocal, Hotfrog, HiPages, Service Seeking listings
-- **Clean Energy Council (CEC)** installer directory listing — your CEC accreditation page is an authoritative citation that strengthens your NAP consistency and trust signals with Google
+- **Solar Accreditation Australia (SAA)** — your accreditation number and trading name must match what appears on your website, quotes and invoices, and you should be findable under the installer accreditation check at saaustralia.com.au
 - Yellow Pages, White Pages
 
 Even small variations matter: "Solar Co" vs "Solar Company", "38 Smith St" vs "38 Smith Street", different phone number formats. Fix every discrepancy you find.
@@ -122,11 +126,11 @@ A fully completed GBP profile ranks better than an incomplete one, and converts 
 Write a clear, keyword-rich description of your business. Include:
 - What you do (solar installation, battery storage, electrical installation)
 - Where you operate (suburb/region)
-- Your CEC accreditation (trust signal)
+- Your SAA accreditation number and electrical licence number (the two credentials homeowners now check)
 - Years in business or notable credentials
 
 *Example:*
-*"[Business Name] is a CEC-accredited solar and battery installation business serving [region]. We specialise in residential and small commercial solar panel installation, battery storage systems (Tesla Powerwall, BYD, Sungrow), and electrical installation for homes and businesses. With [X] years' experience and over [X] installations completed, we're [region]'s trusted choice for quality solar and electrical work."*
+*"[Business Name] is an SAA-accredited solar and battery installation business serving [region]. We specialise in residential and small commercial solar panel installation, battery storage systems (Tesla Powerwall, BYD, Sungrow), and electrical installation for homes and businesses. With [X] years' experience and over [X] installations completed, we're [region]'s trusted choice for quality solar and electrical work."*
 
 ### Services
 
@@ -211,7 +215,8 @@ The Q&A section of your GBP appears below your profile and is open for anyone to
 
 **Seed your own Q&A.** Use a separate Google account (or ask a friend) to post common customer questions, then answer them comprehensively from your business account:
 - "How much does solar installation cost in [suburb]?"
-- "Are you CEC accredited?"
+- "Are you SAA accredited?"
+- "Are you CEC accredited?" (homeowners still ask this — answer with your SAA number and explain the 2024 handover)
 - "Do you install battery storage?"
 - "How long does a solar installation take?"
 - "Do you offer payment plans?"
@@ -268,8 +273,12 @@ The most effective approach is an automated SMS review request sent within 2 hou
 
 Use 'Solar Energy Contractor' as your primary category and 'Electrician' as a secondary. You can add up to 9 additional categories — but only use those that accurately describe your actual services. Over-categorising dilutes your relevance signal for your core searches.
 
+### Is CEC accreditation still required for solar installers in Australia?
+
+No. The Clean Energy Council stopped issuing installer and designer accreditation on 29 May 2024. Solar Accreditation Australia (SAA) is now the accreditation scheme operator under the Small-scale Renewable Energy Scheme: installers must hold current SAA accreditation (GCPV for grid-connected solar, GCBS for batteries) or the system is not eligible for STCs. If a business still advertises itself as "CEC accredited", that is the old name for the same accreditation — ask for the SAA number and check it at saaustralia.com.au. The Clean Energy Council still runs the Approved Products list, and the New Energy Tech Consumer Code (NETCC) replaced its Approved Solar Retailer program.
+
 ### How do I set up Google Business Profile for a solar installation business?
-Go to business.google.com and claim or create your listing. Use your exact legal trading name, your primary service address (or service area if you don't have a shopfront), and select "Solar energy contractor" or "Electrician" as your primary category (you can add both). Add your phone, website, business hours, and a detailed description that includes your service area, main services, and any certifications (CEC accreditation, licensed electrician). Verify via postcard or instant phone verification if eligible. A fully completed GBP listing with 10+ reviews typically ranks in the top 3 of Google Maps for local solar searches.
+Go to business.google.com and claim or create your listing. Use your exact legal trading name, your primary service address (or service area if you don't have a shopfront), and select "Solar energy contractor" or "Electrician" as your primary category (you can add both). Add your phone, website, business hours, and a detailed description that includes your service area, main services, and your credentials — your SAA accreditation number and your electrical licence number, not the retired "CEC accreditation" claim. Verify by video, phone or postcard — which routes you get depends on the business and address Google can confirm. A fully completed GBP listing with 10+ reviews typically ranks in the top 3 of Google Maps for local solar searches.
 
 ### What is the most important factor for Google Business Profile local rankings?
 Reviews are the single most important ranking and conversion factor for GBP. The number of reviews, recency, and average rating all influence both where you appear in the local pack and whether searchers choose to contact you. A business with 50 reviews at 4.8 stars will consistently outperform a competitor with 10 reviews at 5.0 stars in both rankings and click-through rates. The fastest way to build reviews is an automated request system — SMS sent within 2 hours of job completion with a direct Google review link. This typically converts 15–30% of customers into reviewers.
