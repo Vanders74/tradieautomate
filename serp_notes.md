@@ -1850,3 +1850,30 @@ Title, description and H1 were **not** touched. The 25 Oct head is #1 on the win
 
 **Next keyword:** "apprentice ratios electrical australia" — queue index 18, cycle 7.
 
+
+## kw18 — "apprentice ratios electrical australia" (queue index 18, cycle 7, run 52)
+
+**Fourth consecutive zero on the head term, and the honest conclusion is that the head term is not the measurement. The one number worth tracking is the "by state" variant where we sit #2, and today's probes killed the state-qualified retarget idea that cycle 5 proposed.**
+
+Head term, two reads, both zero TradieAutomate URLs in the top 20. Board: ESV apprentice supervision FAQ #1, ESV decision paper PDF #2, Reddit r/AusElectricians #3, certifiedstrategic #4, ETU apprentice report PDF #5, NSW Supervision Practice Standard #6, Ai Group #7, Powering Skills PSO paper #8, Medianet/ETU release #9, ESV Requirements PDF #10, then ETU submissions at #11/#14/#17/#18/#19, NECA SA #12, WorkSafe ACT #13, WorkSafe NT #15, ausinet #16 and an Energy Skills QLD workforce plan #20. **Zero editorial blogs on the board.** That is now four consecutive absent measurements (24 Oct, 25 Oct x2, cycle 4, cycle 6 x2, today x2) and the shape has not shifted once. Continuing to score this slot against the head term is scoring a number that cannot move.
+
+**"apprentice ratios by state australia electrical" — #2, held from cycle 6.** ESV decision paper PDF #1, **TradieAutomate #2**, ESV FAQ #3, NCVER 2025 #4, electricianm8 #5, Powering Skills workforce study #6. That is page 1, second slot, on the phrase the current title actually leads with ("State Caps"). It is the only position this page holds anywhere.
+
+**"how many apprentices can one electrician supervise australia" — absent from a full top-20 read** (cycle 5 could only capture positions 1–6 and 9–15, so this is the first complete read). WorkSafe NT #1, ESV Requirements PDF #2, ESV FAQ #3, ECA WA #4, WA guidelines PDF #5, HSEQ VIC #6, ESV consultation paper #7. Another statutory wall.
+
+**The cycle-5 recommendation was tested and does not work — this is the new information in this run.** Cycle 5 proposed retargeting the slot to a state-qualified string because theapprenticehub held #11 on one. Two probes:
+
+- **"nsw apprentice supervision ratio electrical"** — we are absent, but the board is genuinely enterable: **theapprenticehub #4 and tradieverify #7** are plain content sites on a board otherwise made of nsw.gov.au, ESV PDFs, UNSW ITAB documents and a Productivity Commission report. So an editorial publisher *can* hold a page-1 slot here. We still don't, despite having an NSW section with the right numbers and an inbound link from the NSW licence guide. Enterable board, absent page — that is a selection problem, not a board problem.
+- **"victoria apprentice electrician supervision ratio requirements 2025"** — absent, and this board is sealed: 20/20 ESV pages and PDFs, VRQA, ohsrep, AGA employer handbook, apprenticeships.vic.gov.au, Kangan, futureenergyskills. One detail worth keeping: **vic.hseq.asn.au sits at #9 still publishing the superseded 1:2 direct / 1:4 general numbers.** That is exactly the failure mode our page names ("most trade forums still quote the old ones") — a differentiator that is real, not invented.
+
+Net: a state-qualified retarget buys a board we are not on. The by-state phrase buys a board we are #2 on. Retarget to the by-state phrase at cycle end, not to a state.
+
+**Index: unchanged. 73 days.** PASS / "Submitted and indexed" / lastCrawlTime 2026-08-14T05:36:16Z, the oldest crawl in the tracked set, carried forward from 25 Oct (no GSC API in this session). The frozen copy still publishes the fabricated 2:2 / 3:3 "standard scaling" table, the retired $3,500 incentive and 11.5% super.
+
+**No page change this run — and that is the deliberate call, not an omission.** Last run's value came from finding a factual error. This run I audited the page against primary sources instead and found none: all eight jurisdictions match (NSW SPS 1:1/1:3/1:5; ESV Requirements V1.1 effective 1 Sep 2025 — direct 1:2 → 1:1, general 1:4 → 1:3, broad undefined → 1:5; QLD no numeric cap; SA Skills Commission risk-rated 1:3/1:6/1:10; WA 1:2 where one of the two needs direct supervision, 1:4 absolute; TAS 1:1 adjustable after risk assessment; WorkSafe ACT 1:1 years 1–2 then 1:5; NT Electrical Safety Regulations 2024 1:1 / 1:3 L1 / 1:5 L2). It already carries the VIC s8.2/s8.3 combination caps (1 direct + 1 general, 1 direct + 3 broad, 1 general + 3 broad), the ESV scoping to electrical installation work excluding routine tasks, and the 2025 fault-finding tiers. With no defect to fix, a fourth head generation behind a 73-day crawl would only add another unseen variant — the exact mistake this page has already made twice.
+
+**Verified live:** HTTP 200 in 0.98s, 53,543 bytes, title 1 @ 67 chars, description 1 @ 181 chars, 4,328 words, updatedDate Oct 19, canonical self-referential. Inbound source mesh 10 files (NSW / VIC / QLD / SA licence guides, award rates, how-to-become, Xero payroll, scaling-solar, Sparky's Playbook ch10, digital job management).
+
+**Action order.** (1) DONE — no page change; audit passed. (2) Request indexing in the GSC UI — item 32 in `gsc-manual-reindex.txt`, single entry, already carries the current content state; do not double-log. (3) **At cycle end (2 Nov read) retarget this slot to "apprentice ratios by state australia electrical"** and drop the head term — it has produced four consecutive zeroes on a board no publisher has ever cracked. (4) If a crawl younger than 14 Aug lands by 2 Nov and CTR is still 0 at position ~7.4, the constraint is intent: searchers want the statutory rule and the regulators own it. The escape is the employer decision queries the regulators do not answer (apprentice cost, the $5,000 incentive, "can I take a second apprentice"), not more ratio copy. (5) Do not build state-specific pages to chase the NSW string — one eight-state explainer already covers it and thin duplicates would cannibalise the #2.
+
+**Cycle 7 complete — 18/18 keywords read. Next run: queue wraps to index 1, cycle 8.**
