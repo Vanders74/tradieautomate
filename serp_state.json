@@ -1,7 +1,7 @@
 {
-  "next_index": 2,
+  "next_index": 3,
   "cycle": 8,
-  "last_keyword": "how to price solar installations australia",
+  "last_keyword": "ev charger installation cost australia",
   "updated": "2026-10-26",
   "note": "26 Oct (run 53, cycle 8 index 1/18): kw1 'how to price solar installations australia'. Head term ABSENT top 20 on 2/2 reads - board is 20/20 consumer cost/quote sites (finder #1, whysolar #2, solarpowersavings #3, ecoflow #4, solarquotes #5, solazone #6, hipages #14/#15, energy.gov.au #17) with ZERO installer-business content. Installer-intent variant 'solar installation pricing profit margin electrician australia how to price jobs' = #3 with four TradieAutomate URLs in the top 11. FIX SHIPPED this run: reconciled four contradictory margin figures to one model (30-40% gross / 12-18% net, with published AU benchmark 20-35% gross / 8-15% net / 18% typical stated alongside); worked example labour corrected 6h@$73=$438 -> 8h@$70=$560, total cost $6,160, quote table at 10/15/18% net showing gross 31.4/32.9/35.6%; STC corrected from pre-2024 $3,200-$3,400 to 45 STCs / ~$1,710-$1,800 at 2026 five-year deeming; super 11.5% -> 12% since 1 Jul 2025; CEC -> SAA in 3 places; title 80 -> 55 chars 'Solar Installation Profit Margin Australia 2026: 30-40%'; description 136 -> 148 chars. Index healthy and fresh: PASS, lastCrawl 23 Oct = 3 days (freshest in tracked set), not re-measured this run. Verified LIVE post-deploy: HTTP 200 in 0.68s, 45,728 bytes, title 55, desc 148, canonical self-referential, 4 JSON-LD, FAQPage 5 questions, all stale figures 0 occurrences. Action: request indexing in GSC UI; do not re-add 'how to price' to title; watch 28d CTR at pos ~4."
 }
