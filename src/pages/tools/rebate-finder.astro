@@ -213,7 +213,7 @@ const faqSchema = {
           </form>
         </div>
 
-        <div class="sponsor-slot" id="rf-sponsor-slot">📢 Sponsor slot — your rebate-eligible product or installer service could appear here (contact info@tradieautomate.com)</div>
+        <div class="sponsor-slot" id="rf-sponsor-slot" style="display:none;"></div>
 
         <div class="related-links">
           <h3>Related guides</h3>
@@ -404,8 +404,12 @@ window.__RF_SPONSORS = ${JSON.stringify({
           var sp = window.__RF_SPONSORS[answers.state];
           if(sp && sp.name){
             sponsorSlot.innerHTML = '🏆 <strong>' + sp.name + '</strong> — ' + sp.offer + (sp.url ? ' <a href="' + sp.url + '" style="color:#0284c7;" rel="sponsored nofollow">Learn more →</a>' : '');
+            sponsorSlot.style.display = 'block';
           } else {
-            sponsorSlot.innerHTML = '📢 Sponsor slot — your rebate-eligible product or installer service could appear here (contact info@tradieautomate.com)';
+            // No sponsor sold for this state — render nothing rather than a visible
+            // unfilled-advert placeholder, which reads as an unfinished page.
+            sponsorSlot.innerHTML = '';
+            sponsorSlot.style.display = 'none';
           }
         }
 
