@@ -1,7 +1,0 @@
-{
-  "next_index": 10,
-  "cycle": 5,
-  "last_keyword": "ai automation for tradies",
-  "updated": "2026-10-24",
-  "note": "24 Oct (run 9, cycle 5): queue index 9 = 'ai automation for tradies'. Headline: target page /blog/ai-automation-trade-business-australia/ is NOT INDEXED - URL Inspection verdict NEUTRAL, coverageState 'Crawled - currently not indexed', lastCrawlTime 2026-07-12 (104 days), robots/indexing allowed, fetch successful, canonical self-referential. GSC 28d 0 clicks / 0 impressions with 0/0 on every day 24 Sep-21 Oct; prev28d 1/270/pos 19.44; 90d 2/1,004/pos 33.75. Coverage cliff on 24 Sep, not a ranking slide. 90d real queries: 'automate tradie business' 487 @26.7, 'business automation for tradies' 357 @31.9, 'email automation for tradies' 112 @70.1. Tracked string zero named rows - 13th consecutive gap. SERP absent: Brave AU 22 results zero tradieautomate (tradiewebguys #1, servicescale #2/#16, four Reddit threads, five YouTube); DDG organic zero; Google bot-challenged; Bing mangled. Cycle-1 retitle/un-orphan action order still unexecuted; title still 'Tradie Automation: Use AI to Run Your Business on Autopilot'. Row appended to serp-ranks.csv + keyword_ranks.csv (backups .bak-20261024-kw09-aiauto-c5); notes appended. No page change. Next run: index 10, 'nsw electrical contractor licence guide', cycle 5."
-}
