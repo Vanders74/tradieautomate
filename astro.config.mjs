@@ -22,7 +22,7 @@ const BLOG_DIR = './src/content/blog';
 // UPDATE the matching entry whenever a tool page's content changes.
 const TOOL_LASTMOD = {
   '/tools/rebate-finder/': '2026-10-23T20:31:34+11:00',
-  '/tools/trade-business-valuation/': '2026-10-23T20:31:34+11:00',
+  '/tools/trade-business-valuation/': '2026-10-25T11:56:31+11:00',
   '/tools/admin-cost-calculator/': '2026-10-23T20:31:34+11:00',
   '/tools/solar-savings-calculator/': '2026-10-23T20:31:34+11:00',
   '/tools/ev-charger-quote-calculator/': '2026-10-19T13:28:48+11:00',

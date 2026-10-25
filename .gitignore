@@ -23,3 +23,6 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 .hermes/bonsai/build_state.json
+
+# serp monitor backup artifacts (created per run)
+*.bak-*
