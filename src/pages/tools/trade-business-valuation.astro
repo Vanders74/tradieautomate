@@ -29,12 +29,12 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "AUD" }
     })} />
     <style is:global>
-      .tool-hero { background:linear-gradient(135deg,#0f172a 0%,#1e293b 100%); color:#f8fafc; padding:48px 24px; text-align:center; }
-      .tool-hero-inner { max-width:800px; margin:0 auto; }
+      .tool-hero { background:linear-gradient(135deg,#0f172a 0%,#1e293b 100%); color:#f8fafc; padding:48px 24px; text-align:center; width:100%; box-sizing:border-box; }
+      .tool-hero-inner { max-width:800px; margin:0 auto; width:100%; box-sizing:border-box; }
       .tool-hero h1 { font-size:1.8rem; font-weight:800; color:#ffffff; margin-bottom:10px; line-height:1.2; }
       .tool-hero p { color:#cbd5e1; max-width:680px; margin:0 auto; font-size:1rem; }
       .verified-badge { display:inline-block; margin-top:14px; background:#16a34a22; border:1px solid #16a34a55; color:#86efac; padding:4px 12px; border-radius:999px; font-size:.8rem; }
-      .tool-body { max-width:760px; margin:0 auto; padding:32px 20px 60px; }
+      .tool-body { max-width:760px; margin:0 auto; padding:32px 20px 60px; width:100%; box-sizing:border-box; }
       .value-strip { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin-bottom:14px; }
       .vs-item { background:#fff; border:1px solid #e2e8f0; border-radius:10px; padding:12px 14px; }
       .vs-item strong { display:block; font-size:.88rem; color:#0f172a; margin-bottom:3px; }
@@ -109,7 +109,21 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
       .sg-faq summary { font-weight:600; color:#0f172a; font-size:.95rem; cursor:pointer; }
       .sg-faq details p { color:#475569; font-size:.92rem; line-height:1.65; margin:10px 0 0; }
       .lead-form input { padding:10px; border:1px solid #cbd5e1; border-radius:8px; font-size:.9rem; width:100%; box-sizing:border-box; }
-      @media (max-width:480px) { .opt-grid { grid-template-columns:1fr; } .result-card .rc-top { flex-direction:column; gap:4px; align-items:flex-start; } }
+      @media (max-width:768px) {
+        .tool-hero { padding:36px 18px; }
+        .tool-hero h1 { font-size:1.5rem; }
+        .tool-hero p { font-size:.95rem; }
+        .tool-body { padding:24px 16px 48px; }
+        .value-strip { grid-template-columns:1fr; }
+        .finder-card { padding:18px; }
+        .why-line { padding:10px 14px; font-size:.85rem; }
+        .pf-btn { padding:12px 14px; font-size:.85rem; }
+        .tv-price-range { font-size:1.6rem; }
+      }
+      @media (max-width:480px) {
+        .opt-grid { grid-template-columns:1fr; }
+        .result-card .rc-top { flex-direction:column; gap:4px; align-items:flex-start; }
+      }
     </style>
   </head>
   <body>
