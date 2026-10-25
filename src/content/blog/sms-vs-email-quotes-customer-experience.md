@@ -10,7 +10,7 @@ tags: ['customer experience', 'quoting', 'solar', 'electrician', 'sales']
 
 You've spent 45 minutes putting together a solar quote. System sizing done. Equipment specified. STC rebate calculated. Proposal formatted professionally.
 
-Now you need to send it.
+Now you need to send it. (If you're still tightening the document itself, our guide on [how to write a solar quote](/blog/how-to-write-solar-quote-wins-jobs-australia/) covers the page-by-page structure first.)
 
 Most solar installers and electricians default to email. It's what they've always done. It feels professional. The quote looks good on a laptop screen.
 

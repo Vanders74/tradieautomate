@@ -87,7 +87,7 @@ For a detailed look at how ServiceM8 enables this compliance workflow, see our [
 
 ### 4. AI-Assisted System Sizing and Quoting
 
-**The problem:** Creating a solar quote involves gathering customer data, analysing a power bill, sizing the system for the property and usage profile, selecting appropriate equipment, calculating STC value, and presenting a professional proposal. Done manually, a thorough quote takes 30–60 minutes.
+**The problem:** Creating a solar quote involves gathering customer data, analysing a power bill, sizing the system for the property and usage profile, selecting appropriate equipment, calculating STC value, and presenting a professional proposal. Done manually, a thorough quote takes 30–60 minutes. The document structure itself is covered in our [how to write a solar quote](/blog/how-to-write-solar-quote-wins-jobs-australia/) guide — automation only speeds up a format that already works.
 
 **What AI does:** AI-powered solar quoting tools (Solargraf, OpenSolar with AI features, Aurora Solar) can dramatically reduce this time:
 

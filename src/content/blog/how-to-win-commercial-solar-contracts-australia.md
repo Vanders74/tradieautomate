@@ -120,7 +120,7 @@ Rather than going it alone on your first mid-size commercial project, consider s
 
 ## Writing a Winning Commercial Solar Proposal
 
-The proposal is your sales document for commercial solar. A strong commercial proposal includes:
+The proposal is your sales document for commercial solar. The structure is an extension of the residential document — start with our [how to write a solar quote](/blog/how-to-write-solar-quote-wins-jobs-australia/) guide for the page order and financial sections, then add the tender material below. A strong commercial proposal includes:
 
 **Executive Summary:** One page. What's the recommendation, what's the investment, what's the return, what are the next steps. Busy decision-makers read this first.
 
