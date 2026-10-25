@@ -1,8 +1,8 @@
 ---
-title: 'How to Write a Solar Quote That Wins the Job: Templates, Strategy and What Customers Actually Want'
-description: 'A practical guide for Australian solar installers on writing compelling, professional solar quotes that convert — what to include, how to present the numbers, common mistakes, and a solar quote template to use today.'
+title: 'How to Write a Solar Quote That Wins the Job (2026 Guide)'
+description: 'How Australian solar installers write quotes that win jobs — what to include, how to present the numbers, common mistakes and a page-by-page structure.'
 pubDate: 'May 11 2026'
-updatedDate: 'Jul 30 2026'
+updatedDate: 'Oct 25 2026'
 category: "Business Growth"
 heroImage: '/hero-solar-quote-template.jpg'
 tags: ['solar quote', 'quoting', 'solar', 'electrician', 'sales', 'business growth']
@@ -15,6 +15,22 @@ Most installers think the quote that wins is the cheapest one, or the most detai
 In the Australian solar market in 2026, homeowners are well-informed. They've done their research. They're comparing multiple quotes. They know what a kilowatt-hour is. They've heard about the SRES. They may have used a solar calculator online before they contacted you.
 
 This guide covers what a winning solar quote includes, how to present the financials in a way that customers understand, the common mistakes that lose jobs, and a structure you can use for your own templates.
+
+---
+
+## The 7 Things Every Solar Quote Must Include
+
+If you read nothing else, check these seven against your current template before you send the next quote:
+
+1. **A cover page** with your business name, logo, contact details, customer name and address, quote reference, and a validity date (30 days is standard — STC values change quarterly).
+2. **A plain-English system summary** the customer can repeat to their partner: system size, what it covers, year-1 savings and payback in one short paragraph.
+3. **The design rationale** — roof direction, pitch, shading and available space, and why *this* system size was chosen for *this* house rather than "our most popular size".
+4. **Named equipment**, not "Tier 1 panels or equivalent": exact panel and inverter brands and models, wattage, quantity and warranty terms for each.
+5. **The financials** — current annual electricity cost, year-1 savings, simple payback, and a 10 and 25-year model with assumptions stated.
+6. **Your credentials** — CEC or SAA accreditation number, years in business, insurance held, and what happens if something goes wrong.
+7. **An investment summary and next steps** — total cost before and after STC, payment options, expected install window, and exactly what the customer does next.
+
+Most losing quotes fail at items 4 and 5: they name a panel brand without a model, and they show a payback figure without showing how it was calculated. Both read as guesswork to a customer who has already compared three other quotes.
 
 ---
 
