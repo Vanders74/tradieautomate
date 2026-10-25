@@ -45,6 +45,8 @@ Google Business Profile (GBP) is the single highest-ROI marketing activity for l
 
 When someone searches "solar installation [suburb]" or "solar panels near me", Google shows a local pack of three businesses at the top of the results page — above organic listings, before most paid ads. Getting into that local pack is the closest thing to free leads that exists in digital marketing.
 
+If your profile isn't set up properly yet, our [step-by-step Google Business Profile setup and optimisation guide for solar installers](/blog/google-business-profile-solar-electrician-setup-guide/) covers every field, category and review signal in the order Google asks for them.
+
 ### What determines local pack ranking
 
 **Proximity:** How close your business location is to the searcher. List your actual operating area, not just your registered address if they differ.

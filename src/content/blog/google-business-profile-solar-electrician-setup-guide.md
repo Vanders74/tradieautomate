@@ -1,8 +1,8 @@
 ---
-title: 'Google Business Profile for Solar Installers and Electricians: Setup & Optimisation Guide'
-description: "Most solar installers are invisible on Google Maps while competitors in the local pack take 60% of clicks. Step-by-step GBP setup for Australian solar and electrical businesses — CEC accreditation, review strategy, and the local ranking signals that actually matter."
+title: 'Google Business Profile for Solar Installers & Electricians'
+description: "Google Maps optimisation for Australian solar installers and electricians: claim your profile, win the local pack and build reviews that rank in 2026."
 pubDate: 'May 22 2026'
-updatedDate: 'Jul 18 2026'
+updatedDate: 'Oct 25 2026'
 category: "Business Growth"
 heroImage: '/hero-google-business-profile-solar.jpg'
 tags: ['Google Business Profile', 'local SEO', 'solar', 'electrician', 'marketing', 'lead generation']
@@ -32,6 +32,22 @@ When a homeowner searches "solar installer [suburb]" or "electrician near me", G
 The businesses in those top three positions aren't there by accident. They've built GBP profiles that Google trusts — with consistent information, strong review signals, and evidence of local relevance.
 
 This guide covers exactly how to set up and optimise your GBP for maximum local visibility in 2026.
+
+## The seven fields that decide whether you rank
+
+If you only fix seven things on your profile, fix these. Everything in the eight steps below is detail on how to get each one right.
+
+| Profile field | What to enter for a solar or electrical business | Why it moves the local pack |
+|--|--|--|
+| Primary category | "Solar Energy Contractor" (solar) or "Electrician" (electrical) | The single strongest relevance signal. A vague category like "Contractor" loses to an exact one every time |
+| Secondary categories | Electrician, Solar Panel Installation Service, Battery Storage | Google matches secondary categories to niche searches. Cap at 4–5 that you genuinely do |
+| Business name | Exact legal trading name, no suburb or keyword stuffing | Keyword-stuffed names risk suspension. NAP consistency outranks a stuffed name |
+| Service area | Every suburb you actually service, honestly | Drives proximity matching. Overstating the area dilutes relevance across all of it |
+| Reviews | 20+ recent reviews, replied to within 48 hours | Review count and recency are the top ranking and conversion factor after proximity |
+| Photos | 10+ real install photos, geotagged to the job suburb | Profile completeness signal. Stock photos do nothing for local relevance |
+| Services list | Each service listed separately with a short description | Matches "solar panel installation near me"-style queries that categories miss |
+
+The rest of this guide walks through each field in the order Google's setup flow asks for them, so you can work top to bottom without backtracking.
 
 ---
 

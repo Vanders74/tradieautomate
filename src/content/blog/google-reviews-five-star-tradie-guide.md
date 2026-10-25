@@ -19,7 +19,7 @@ faq:
 
 Your Google Business Profile is the first thing a prospective solar customer sees when they search for an installer in their suburb. Before they visit your website. Before they read your quote. Before they call.
 
-And what they see — your star rating, your review count, what past customers have said about your work — determines whether they contact you or your competitor.
+And what they see — your star rating, your review count, what past customers have said about your work — determines whether they contact you or your competitor. The profile itself has to be built correctly before reviews can do their job; our [Google Business Profile setup guide for solar installers and electricians](/blog/google-business-profile-solar-electrician-setup-guide/) covers the fields that matter.
 
 This isn't theoretical. Multiple studies of home service purchases in Australia show that consumers consider Google review scores and review counts as a primary trust signal when choosing between trade businesses they haven't worked with before.
 
