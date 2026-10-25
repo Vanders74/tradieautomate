@@ -29,8 +29,9 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "AUD" }
     })} />
     <style is:global>
-      .tool-hero { background: linear-gradient(135deg,#0f172a 0%,#1e293b 100%); color:#f8fafc; padding:48px 24px; text-align:center; }
-      .tool-hero h1 { font-size:1.8rem; margin-bottom:10px; }
+      .tool-hero { background:linear-gradient(135deg,#0f172a 0%,#1e293b 100%); color:#f8fafc; padding:48px 24px; text-align:center; }
+      .tool-hero-inner { max-width:800px; margin:0 auto; }
+      .tool-hero h1 { font-size:1.8rem; font-weight:800; color:#ffffff; margin-bottom:10px; line-height:1.2; }
       .tool-hero p { color:#cbd5e1; max-width:680px; margin:0 auto; font-size:1rem; }
       .verified-badge { display:inline-block; margin-top:14px; background:#16a34a22; border:1px solid #16a34a55; color:#86efac; padding:4px 12px; border-radius:999px; font-size:.8rem; }
       .tool-body { max-width:760px; margin:0 auto; padding:32px 20px 60px; }
@@ -114,9 +115,11 @@ const tvSponsors = JSON.stringify({ systems: [], books: [], coaching: [] }).repl
   <body>
     <Header />
     <section class="tool-hero">
-      <h1>⚡ How Much Is Your Trade Business Worth?</h1>
-      <p>12 questions, 90 seconds. Get your indicative sale price range, a sellability report card, and the exact improvements that lift your multiple.</p>
-      <span class="verified-badge">✓ Based on current Australian broker multiples (SDE &amp; EBITDA)</span>
+      <div class="tool-hero-inner">
+        <h1>⚡ How Much Is Your Trade Business Worth?</h1>
+        <p>12 questions, 90 seconds. Get your indicative sale price range, a sellability report card, and the exact improvements that lift your multiple.</p>
+        <span class="verified-badge">✓ Based on current Australian broker multiples (SDE &amp; EBITDA)</span>
+      </div>
     </section>
 
     <main class="tool-body">
