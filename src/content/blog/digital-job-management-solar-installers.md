@@ -28,7 +28,7 @@ Now multiply that by 20 jobs a month.
 
 ## The Problem With Paper
 
-Paper-based systems worked fine when you were running 5 jobs a month as a sole trader. But the moment you add a second crew, hire an apprentice, or try to scale past $500K revenue, the cracks appear fast:
+Paper-based systems worked fine when you were running 5 jobs a month as a sole trader. But the moment you add a second crew, hire an apprentice — and hit the [supervision ratio caps that limit how many you can put on](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026/) — or try to scale past $500K revenue, the cracks appear fast:
 
 - **No audit trail** — when the CER asks for installation records from 18 months ago, you're digging through filing cabinets
 - **Inconsistent documentation** — every installer fills out forms differently

@@ -88,7 +88,7 @@ Technical competence matters, but it's verifiable. What's harder to assess and m
 
 ## Taking On an Apprentice
 
-An electrical apprentice is a 4-year investment. Done well, it's one of the best talent strategies available to a small electrical business — you train someone exactly the way you want them to work, they're loyal, and you develop a pipeline of skilled staff.
+An electrical apprentice is a 4-year investment. Done well, it's one of the best talent strategies available to a small electrical business — you train someone exactly the way you want them to work, they're loyal, and you develop a pipeline of skilled staff. Before you take one on, check the [supervision ratio caps in your state](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026/) — they set how many apprentices one licensed electrician can supervise, and they are not the same across jurisdictions.
 
 **The process:**
 1. Find a candidate (school leaver, career changer, existing employee who wants to go to the trades)

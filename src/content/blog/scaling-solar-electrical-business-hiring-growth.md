@@ -95,7 +95,7 @@ For electrical businesses wanting to build long-term team capacity while managin
 - Long-term skill development — in 4 years, you have a qualified electrician who knows your business systems
 
 **What you need to manage:**
-- Supervision requirements — apprentices cannot perform certain electrical work unsupervised under Australian licensing frameworks. Know what your state requires before scheduling apprentice-led jobs
+- Supervision requirements — apprentices cannot perform certain electrical work unsupervised under Australian licensing frameworks. Know what your state requires before scheduling apprentice-led jobs; the [apprentice ratio caps differ by state](/blog/apprentice-ratios-hiring-incentives-electrical-australia-2026/) (NSW and VIC 1:1 direct, 1:3 general, 1:5 broad)
 - Training time — the first 6 months involve significant knowledge transfer. This is an investment in your future capacity, but it has a short-term productivity cost
 - Wage obligations — apprentice wages vary by year of training and by state award. Understand your obligations under the relevant electrical industry award before making an offer
 
