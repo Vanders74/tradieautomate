@@ -149,25 +149,24 @@ The middle ground — multi-trade operators with some compliance requirements �
 
 ---
 
-## Frequently Asked Questions
+## FAQ
 
 ### Is ServiceM8 + Xero cheaper than Tradify + MYOB for Australian tradies?
+
 Yes, in almost every scenario. ServiceM8 charges per job volume, not per user, so a 5-person crew on ServiceM8 Growing + Xero pays roughly $79–109/month combined. The same crew on Tradify Pro + MYOB pays $260+ per month for Tradify alone, plus MYOB Essentials or AccountRight. The gap widens as you hire. The exception is a sole trader on Tradify's unlimited plan plus MYOB Essentials — that can be cheaper than ServiceM8 + Xero at the very smallest scale.
 
 ### Does ServiceM8 integrate better with Xero than Tradify integrates with MYOB?
+
 Both integrations are mature, but they work differently. ServiceM8 + Xero syncs invoices, contacts, and payment status in real time with minimal configuration. Tradify + MYOB also syncs invoices and contacts, but MYOB's mapping requires more setup and some Tradify features (like progress invoicing) don't map cleanly to MYOB's project accounting. For businesses that live in their accounting software, ServiceM8 + Xero is smoother.
 
 ### Which stack is better for BAS and tax time?
-ServiceM8 + Xero. Xero's Australian tax engine is purpose-built for GST, BAS, and single-touch payroll. When ServiceM8 pushes an invoice to Xero, the GST status, income account, and contact details are already mapped. Your accountant opens Xero and the data is there. MYOB handles GST and BAS correctly, but its project-level reporting is less intuitive for trade businesses that need to see gross margin by job.
+
+ServiceM8 + Xero. Xero's Australian tax engine is purpose-built for GST, BAS, and single-touch payroll. MYOB is compliant but its project-level reporting is less intuitive for trade businesses that need to see gross margin by job. ServiceM8 pushes job-level data (materials, labour, markups) into Xero, so your accountant can slice P&L by job type, trade, or customer without leaving the spreadsheet. Tradify + MYOB can do this but requires more manual mapping.
 
 ### Can I use ServiceM8 with MYOB, or Tradify with Xero?
+
 Yes — both platforms integrate with both accounting packages. ServiceM8 has native MYOB integration, and Tradify has native Xero integration. The combinations above (ServiceM8 + Xero, Tradify + MYOB) are simply the most common pairings among Australian trade businesses, and they happen to be the strongest integrations in each ecosystem.
 
----
-
-*TradieAutomate is an authorised ServiceM8 affiliate. We earn a small commission if you sign up through our links — at no extra cost to you. We only recommend tools we'd use ourselves.*
-
----
 
 ## Related Reading
 - [ServiceM8 vs Tradify: Which Wins for Australian Tradies in 2026?](/blog/servicem8-vs-tradify-comparison-australia/)
