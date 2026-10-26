@@ -1,12 +1,14 @@
 ---
-title: "Heat Pump Hot Water for Electricians: Circuits, Rebates & Sales"
-description: "Electricians guide to heat pump hot water in Australia — load requirements, circuit specs, VEU and ESS rebates, STCs, brands, and solar integration tips."
+title: "Heat Pump Hot Water Installation Cost Australia 2026"
+description: "What heat pump hot water installation costs in Australia in 2026 — state averages, STCs and rebates, plus the circuit, quoting and compliance detail electricians need."
 pubDate: 'Jun 9 2026'
 category: "Business Growth"
 heroImage: '/hero-heat-pump-hot-water-installation-electricians.jpg'
 tags: ['heat pump hot water', 'electrician', 'VEU', 'rebates', 'STC', 'solar integration', 'electrification', 'business growth']
-updatedDate: 'Sep 10 2026'
+updatedDate: 'Oct 27 2026'
 faq:
+  - question: "How much does heat pump hot water installation cost in Australia?"
+    answer: "A heat pump hot water system costs about $4,620 fully installed on average across Australia in 2026, including basic installation and federal STCs. By state the average runs from $4,101 in Queensland to $6,369 in Tasmania — NSW $4,827, Victoria $4,317 and the ACT $4,727. After state rebates, out-of-pocket cost falls to roughly $4,061–$4,160 in NSW and $2,600–$2,737 in Victoria. The electrical portion of the job — new circuit, switchboard capacity, controlled load — is usually $300–$1,900 of that depending on the site."
   - question: "What circuit is required for a heat pump hot water system in Australia?"
     answer: "Most residential heat pump hot water units require a dedicated 240V single-phase circuit with a 10A–16A circuit breaker (check the manufacturer's specifications — this varies by model). The circuit requires RCD protection and an isolating switch at the unit. Minimum cable size is typically 2.5mm² TPS, but verify cable sizing against the current draw and cable run length per AS/NZS 3000. If the existing switchboard doesn't have a spare circuit breaker slot, a switchboard upgrade may be required — assess this before quoting."
   - question: "What is the VEU program and how does it work for heat pump hot water installers?"
@@ -18,6 +20,8 @@ faq:
   - question: "Is a plumber required for heat pump hot water installation, or can an electrician do the full job?"
     answer: "In most Australian states, heat pump hot water installation involves both plumbing work (water connections, pressure relief valve, removal of the old unit) and electrical work (dedicated circuit installation). The plumbing connections require a licensed plumber in most states. The electrical circuit requires a licensed electrician. Most electricians offering heat pump hot water as a service line work with a regular plumbing subcontractor to deliver the complete installation. If you decommission a gas hot water system, a licensed plumber is also required to cap the gas line. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling."
 ---
+
+Heat pump hot water installation cost in Australia averages **$4,620 fully installed** including federal STCs, and ranges from about $4,100 in Queensland to $6,369 in Tasmania. That is the number customers arrive with.
 
 Heat pump hot water systems are having a moment in Australia — and the moment is becoming a movement. As gas prices climb, governments push electrification incentives, and homeowners increasingly seek alternatives to both gas and traditional resistance electric hot water, heat pump systems have moved from niche to mainstream.
 
@@ -37,6 +41,34 @@ A few numbers that explain why this market is worth pursuing in 2026:
 - **Repeat customer activation:** Your existing solar and electrical customers are the warmest leads for heat pump hot water. They already trust you, and many are actively considering the upgrade.
 
 The job values are solid: a heat pump hot water installation typically runs $2,500–$5,000 installed (hardware + labour + compliance), often with rebates reducing the customer's out-of-pocket cost significantly.
+
+---
+
+## What Heat Pump Hot Water Installation Costs in Australia (2026)
+
+Your quote has a ceiling: whatever the customer can get the job done for elsewhere. Know the market rate before you price the job.
+
+[Solar Choice's heat pump price index](https://www.solarchoice.net.au/heat-pumps/price-index/) — built monthly from a network of more than 40 vetted installers — tracks average installed cost including basic installation and federal STCs. October 2026 read:
+
+| State | Average installed (incl. STCs) | After state rebates |
+|---|---|---|
+| National | $4,620 | — |
+| NSW | $4,827 | $4,061–$4,160 |
+| VIC | $4,317 | $2,600–$2,737 |
+| QLD | $4,101 | — |
+| ACT | $4,727 | — |
+| TAS | $6,369 | — |
+
+The rebate column is the customer's out-of-pocket after the state scheme — NSW ESS and Victorian Energy Upgrades — for an upgrade from gas or from electric resistance. A dash means no state scheme is priced into the index for that state.
+
+Four things move a quote away from those averages:
+
+- **Electrical scope.** A spare breaker slot and an existing dedicated circuit keeps labour at the bottom of the range. A new circuit, switchboard upgrade or controlled-load metering pushes it up — [Energy Matters](https://www.energymatters.com.au/renewable-news/heat-pump-installation-costs-australia/) puts the complexity uplift at $300–$1,900. This is the part of the job you control, and it is the part to quote as its own line.
+- **System type.** Split systems (separate tank and outdoor unit) installed run roughly $1,000–$2,000 more than all-in-one units, because there is more pipework, more refrigerant work and more time on site. See [brands and product selection](#brands-and-product-selection) below.
+- **State scheme.** Rebates are deducted at the point of sale, so the customer sees the net figure on your invoice and you claim the certificates back afterwards. Victoria and NSW do the heavy lifting; Queensland and Tasmania leave more of the cost with the customer.
+- **Removal and plumbing.** Decommissioning a gas unit means capping the gas line — licensed plumber, priced line item, not an afterthought. iStore's own guidance puts the professional installation portion at $800–$1,200; that is labour and connection, not the box.
+
+For the installer, the practical read is that the electrical work is rarely the biggest line on the quote but it is the line that decides whether the job makes money. Price the circuit and switchboard work explicitly, price the unit and plumbing as pass-through, and the rebate paperwork stops being the thing that eats your margin.
 
 ---
 
@@ -177,7 +209,7 @@ Build these documentation steps into your job completion checklist so they're no
 | Plumbing required? | Yes — partner with a licensed plumber |
 | STC eligible? | Yes — "solar water heater" category under SRES |
 | Solar integration | Timer, solar diverter, or inverter integration |
-| Average install value | $2,500–$5,500 installed (before rebates) |
+| Average install value | $4,620 national average installed incl. STCs (Oct 2026); $2,500–$5,500 before rebates |
 
 ---
 
@@ -189,6 +221,10 @@ Build these documentation steps into your job completion checklist so they're no
 ---
 
 ## FAQ
+
+**How much does heat pump hot water installation cost in Australia?**
+
+A heat pump hot water system costs about $4,620 fully installed on average across Australia in 2026, including basic installation and federal STCs. By state the average runs from $4,101 in Queensland to $6,369 in Tasmania — NSW $4,827, Victoria $4,317 and the ACT $4,727. After state rebates, out-of-pocket cost falls to roughly $4,061–$4,160 in NSW and $2,600–$2,737 in Victoria. The electrical portion of the job — new circuit, switchboard capacity, controlled load — is usually $300–$1,900 of that depending on the site.
 
 **What circuit is required for a heat pump hot water system in Australia?**
 
