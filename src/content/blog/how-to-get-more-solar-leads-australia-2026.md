@@ -5,7 +5,8 @@ pubDate: 'May 16 2026'
 category: "Business Growth"
 heroImage: '/hero-solar-leads-australia.jpg'
 tags: ['solar', 'lead generation', 'marketing', 'electrician', 'Google', 'business growth']
-updatedDate: 'Oct 21 2026'
+updatedDate: 'Oct 26 2026'
+accuracyReviewed: '2026-10-26'
 faq:
   - question: "What is the best way to get solar leads in Australia in 2026?"
     answer: "The highest-ROI lead source for most Australian solar businesses is Google Business Profile (GBP) — it's free, drives local search traffic, and delivers high-intent leads from people actively looking for a solar installer. The next highest-ROI source is referrals, which convert at 3–5× the rate of cold leads and typically require only a systematic review request and referral incentive program. Paid Google Ads can deliver consistent volume but require careful keyword management to avoid low-quality traffic. SEO (ranking for local solar installation terms) delivers compounding returns over 6–18 months."
@@ -21,7 +22,7 @@ faq:
 
 Getting consistent solar installation leads is the number one challenge for most solar businesses in Australia in 2026. The market is large — hundreds of thousands of homeowners are still considering solar — but so is the competition. Every suburb has three to ten installation businesses competing for the same enquiries.
 
-Most installers solve the lead problem by spending more on marketing. More Facebook ads. More Google clicks. More lead-gen sites promising "3 free quotes." That strategy works if your conversion rate is high enough to cover the cost — but most solar businesses are leaking leads at the quote and follow-up stage, so they're paying top dollar for enquiries that never become jobs. The installers who are growing in this market aren't spending more. They're spending smarter — on channels that generate high-quality, high-intent leads at a sustainable cost, and on the reputation infrastructure that converts those leads into signed jobs. Critically, they also understand the regulatory framework: the **Clean Energy Regulator (CER)** administers the Small-scale Renewable Energy Scheme under the **Renewable Energy (Electricity) Act 2000**, which governs STC eligibility — and only **Clean Energy Council (CEC)** accredited installers can create STCs. Displaying that accreditation isn't just a trust signal; it's a legal prerequisite for customers to access the federal solar rebate.
+Most installers solve the lead problem by spending more on marketing. More Facebook ads. More Google clicks. More lead-gen sites promising "3 free quotes." That strategy works if your conversion rate is high enough to cover the cost — but most solar businesses are leaking leads at the quote and follow-up stage, so they're paying top dollar for enquiries that never become jobs. The installers who are growing in this market aren't spending more. They're spending smarter — on channels that generate high-quality, high-intent leads at a sustainable cost, and on the reputation infrastructure that converts those leads into signed jobs. Critically, they also understand the regulatory framework: the **Clean Energy Regulator (CER)** administers the Small-scale Renewable Energy Scheme under the **Renewable Energy (Electricity) Act 2000**, which governs STC eligibility — and only **Solar Accreditation Australia (SAA)** accredited installers can create STCs. The Clean Energy Council has not accredited installers since 29 May 2024; SAA is the scheme operator now. Displaying that accreditation isn't just a trust signal; it's a legal prerequisite for customers to access the federal solar rebate.
 
 This guide covers the proven lead generation channels for Australian solar businesses in 2026, with a practical implementation guide for each.
 
@@ -35,7 +36,20 @@ Understanding what's changed helps you allocate budget intelligently:
 
 **What's declining:** Solar lead aggregators (high volume but low quality, shared with 5–10 competitors), cold outbound at scale, generic Facebook ads without strong local targeting.
 
-**The core shift:** Homeowners in 2026 are more educated. They've seen cheap solar fail. They research before they contact. They read reviews. They check **Clean Energy Council (CEC)** accreditation — governed by the CEC Installer Code of Conduct, which is a prerequisite for claiming STCs under the federal Small-scale Renewable Energy Scheme administered by the **Clean Energy Regulator (CER)**. The businesses that win are the ones that appear authoritative and trustworthy before the first conversation — not the ones with the lowest price in a comparison table.
+**The core shift:** Homeowners in 2026 are more educated. They've seen cheap solar fail. They research before they contact. They read reviews. They check **Solar Accreditation Australia (SAA)** accreditation — governed by the SAA Installer Code of Conduct, which is a prerequisite for claiming STCs under the federal Small-scale Renewable Energy Scheme administered by the **Clean Energy Regulator (CER)**. The businesses that win are the ones that appear authoritative and trustworthy before the first conversation — not the ones with the lowest price in a comparison table.
+
+### All 6 channels ranked by cost per lead
+
+| Channel | Cost per lead | Time to first lead |
+|---|---|---|
+| 1. Customer referrals | $0 cash ($100–$200 credit per referral) | Weeks |
+| 2. Google Business Profile | $0 | Days to weeks |
+| 3. Social proof (reviews, reputation) | $0 | 30–90 days to compound |
+| 4. SEO and local content | $0 media spend, time cost | 6–12 months |
+| 5. Trade partnerships | $0–$500 referral fee | Weeks to months |
+| 6. Google Ads | $80–$250 ($8–$25 CPC at 10% conversion) | Days |
+
+The ranking is by cash cost, not by speed. Google Ads is the only channel on this list that reliably buys volume today; the five above it cost nothing but time and consistency. That inversion — cheapest channels take longest — is why most installers default to ads and then wonder why their cost per job keeps climbing.
 
 ---
 
@@ -132,10 +146,10 @@ A homeowner who finds you through Google, a referral, or a Facebook ad will then
 
 **The social proof assets that matter most:**
 1. **Google reviews:** 50+ reviews at 4.8+ stars is the benchmark to aim for. See our [complete Google reviews guide](/blog/google-reviews-five-star-tradie-guide/).
-2. **CEC accreditation badge:** Prominently displayed on your website and GBP. It's an immediate trust signal for educated solar buyers. Ensure your CEC accreditation number is current — the CEC publishes a public register of accredited installers, and customers increasingly verify accreditation before contacting a business.
+2. **SAA accreditation badge:** Prominently displayed on your website and GBP. It's an immediate trust signal for educated solar buyers. Ensure your SAA accreditation number is current — SAA publishes a public register of accredited installers at saaustralia.com.au, and customers increasingly verify accreditation before contacting a business. Note that "CEC accredited" is the old label; the Clean Energy Council stopped accrediting installers on 29 May 2024.
 3. **State electrical contractor licence:** Display your licence number in your website footer. Homeowners are learning to check state regulator databases — NSW Fair Trading, Energy Safe Victoria (ESV), the Electrical Safety Office (QLD), and Building and Energy (WA) all maintain public licence registers. A verifiable licence is a trust signal that competitors without one can't match.
-3. **Before/after installation photos:** Real jobs, real results. Post them on Google, your website, and social media.
-4. **Case studies:** One detailed case study ("We installed a 13.2kW system on a dual-roof home in [suburb] — here's what we designed and why") is worth more than a generic testimonial.
+4. **Before/after installation photos:** Real jobs, real results. Post them on Google, your website, and social media.
+5. **Case studies:** One detailed case study ("We installed a 13.2kW system on a dual-roof home in [suburb] — here's what we designed and why") is worth more than a generic testimonial.
 
 ---
 
