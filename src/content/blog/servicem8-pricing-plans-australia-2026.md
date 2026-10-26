@@ -2,7 +2,7 @@
 title: 'ServiceM8 Pricing Plans Australia 2026: $0–$349/mo Incl GST'
 description: "All five ServiceM8 AU plans with 2026 card fees by tier (1.19%–1.89% + 30c), the 1 October surcharge ban, which features are gated to Growing ($79) or Premium ($149), and what a 5-person crew really pays."
 pubDate: 2026-07-20
-updatedDate: 2026-10-19
+updatedDate: 2026-10-26
 heroImage: "/hero-servicem8-pricing-plans-australia-2026.jpg"
 category: "ServiceM8"
 tags: ["servicem8 pricing", "servicem8 cost", "servicem8 plans", "servicem8 price australia", "how much does servicem8 cost", "servicem8 add-on costs", "job management software pricing"]

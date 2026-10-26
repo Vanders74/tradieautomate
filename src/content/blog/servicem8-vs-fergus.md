@@ -11,7 +11,7 @@ faq:
   - question: "Which platform has better customer support?"
     answer: "ServiceM8 is Australian-based with Australian support. Fergus has AU-based support as well. Both platforms have responsive support reputations. ServiceM8's larger Australian user base generally means more community resources (forum posts, help articles, YouTube walkthroughs) specific to Australian compliance workflows. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling."
 pubDate: 'Apr 27 2026'
-updatedDate: 'Jul 30 2026'
+updatedDate: 'Oct 26 2026'
 category: "Software Comparisons"
 heroImage: '/hero-servicem8-vs-fergus.jpg'
 ---

@@ -2,7 +2,7 @@
 title: "ServiceM8 for Electricians 2026: What It Does & Costs"
 description: "ServiceM8 for electricians from $29/mo incl GST — but compliance forms need the $79 Growing plan. Real card fees, 5-user costs, offline limits, Xero/MYOB sync."
 pubDate: 'Apr 27 2026'
-updatedDate: 'Oct 20 2026'
+updatedDate: 'Oct 26 2026'
 category: "ServiceM8"
 heroImage: '/hero-servicem8-for-electricians.jpg'
 faq:
