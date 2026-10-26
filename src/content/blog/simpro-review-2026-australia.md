@@ -166,9 +166,10 @@ The main disadvantages: high per-user cost that scales with team size; steep lea
 
 - [ServiceM8 vs simPRO Australia — Full Comparison 2026](/blog/servicem8-vs-simpro-comparison-australia/)
 - [ServiceM8 vs simPRO for Electricians Australia 2026](/blog/servicem8-vs-simpro-electricians-australia-2026/)
-For a comparison of all platforms, see [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia/).
-- [ServiceM8 Pricing 2026 — Plans and Real Costs](/blog/servicem8-pricing-plans-australia-2026/)
+- [Trade Business Valuation — free 12-question Sellability Scorecard for trade businesses](/tools/trade-business-valuation/)
+- [Hidden Costs Killing Profit for Solar & Electrical Businesses](/blog/hidden-costs-killing-profit-solar-electrician/)
 - [Best Job Management Software for Electricians Australia 2026](/blog/best-job-management-software-electricians-australia/)
+- [ServiceM8 Pricing 2026 — Plans and Real Costs](/blog/servicem8-pricing-plans-australia-2026/)
 
 > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling.
 > [Download free →](/playbook)

@@ -201,6 +201,8 @@ Tradify is a credible general tradie platform. But "general" is exactly its limi
 - [ServiceM8 for Solar Businesses: Scale Without Admin Overload](/blog/servicem8-for-solar-businesses/)
 - [AS/NZS 5139 Battery Storage Compliance Guide](/blog/as-nzs-5139-battery-storage-compliance/)
 - [ServiceM8 vs simPRO: Which Is Right for Your Trade Business?](/blog/servicem8-vs-simpro-comparison-australia/)
+- [Solar Rebate Finder — check what rebates and STCs your solar business can claim](/tools/rebate-finder/)
+- [Trade Business Valuation — is your solar or electrical business sale-ready?](/tools/trade-business-valuation/)
 
 ---
 

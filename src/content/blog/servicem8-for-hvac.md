@@ -1,6 +1,6 @@
 ---
-title: 'ServiceM8 for HVAC Technicians: Job Management Built for Australian Air Con and Refrigeration Businesses'
-description: 'How Australian HVAC and refrigeration businesses use ServiceM8 to manage ARCtick compliance, streamline service contracts, and grow without the admin chaos.'
+title: 'ServiceM8 for HVAC Australia 2026: ARCtick Compliance, Service Contracts & $79/mo'
+description: 'Australian HVAC and refrigeration businesses use ServiceM8 for ARCtick compliance, service contracts, seasonal dispatch, and plans from $79/mo in 2026.'
 pubDate: 'Apr 27 2026'
 updatedDate: 'Jul 18 2026'
 category: "ServiceM8"
