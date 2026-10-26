@@ -1,8 +1,8 @@
 ---
-title: 'NSW Electrical Contractor Licence 2026: Fees & 11-Week Wait'
-description: "How to get your NSW electrical contractor licence in 2026: licence types, real FY26–27 fees, the 11-week wait, HBC insurance and Service NSW steps."
+title: 'NSW Electrical Contractor Licence Guide 2026: Fees & 11 Weeks'
+description: "NSW electrical contractor licence guide 2026: every licence type, real FY26–27 fees ($403–$1,235), the 11-week wait, HBC insurance and Service NSW steps."
 pubDate: 'Jul 20 2026'
-updatedDate: 'Oct 20 2026'
+updatedDate: 'Oct 27 2026'
 category: "Compliance"
 breakdown:
   - title: "Qualify"
@@ -47,7 +47,7 @@ Performing electrical contracting work in New South Wales without a licence expo
 
 That is the statutory maximum, and it applies to *all* electrical wiring work — not just jobs over a threshold. NSW requires a licence or certificate for electrical wiring work **regardless of the cost of the work and regardless of whether it's residential, commercial or industrial**. The $5,000 threshold people quote applies to residential *building* work; specialist work like electrical has no floor.
 
-This guide covers the licence types that actually exist, the real FY26–27 fees, what insurance you do and don't need, and why the application currently takes 11 weeks rather than the two weeks most guides still claim.
+This NSW electrical contractor licence guide covers the licence types that actually exist, the real FY26–27 fees, what insurance you do and don't need, and why the application currently takes 11 weeks rather than the two weeks most guides still claim.
 
 ---
 
