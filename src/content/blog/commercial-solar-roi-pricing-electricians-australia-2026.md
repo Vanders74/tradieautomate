@@ -1,8 +1,8 @@
 ---
-title: 'Commercial Solar ROI and Pricing for Electricians: The 2026 Business Case'
-description: 'The business case for Australian electricians entering commercial solar — how to price 30–500kW systems, real ROI numbers, revenue per install vs residential, and what the transition actually costs.'
+title: 'Commercial Solar ROI for Electricians: 2026 Pricing Guide'
+description: 'The business case for Australian electricians moving into commercial solar — 30–500kW pricing, real ROI numbers, payback and the 1MW STC rule change.'
 pubDate: 'Jul 19 2026'
-updatedDate: 'Jul 19 2026'
+updatedDate: 'Oct 26 2026'
 accuracyReviewed: '2026-08-02'
 category: 'Business Growth'
 heroImage: '/hero-commercial-solar-contracts.jpg'
@@ -15,7 +15,7 @@ faq:
   - question: "What's the biggest hidden cost in commercial solar that catches businesses out?"
     answer: "DNSP delays are the most common cashflow surprise — you've ordered equipment for a project and the DNSP approval takes three months longer than expected. The second biggest is protection relay scope creep: quoting without confirming the DNSP's protection requirements for the specific connection point. Get the DNSP's technical requirements in writing before finalising your quote on any system above 30kW."
   - question: "Can I use the Solar Quote Calculator for commercial systems?"
-    answer: "The [Solar Quote Profitability Calculator](/tools/solar-quote-calculator) works for systems up to 100kW and handles the core commercial pricing model — materials, labour, STC calculation, and margin. For systems above 100kW (LGC territory) or embedded networks, you'll need to customise the model for your specific compliance and engineering cost profile."
+    answer: "The [Solar Quote Profitability Calculator](/tools/solar-quote-calculator) works for systems up to 100kW and handles the core commercial pricing model — materials, labour, STC calculation, and margin. For 100kW–1MW mid-scale systems installed on or after 1 October 2026, STCs now apply as well, so add the mid-scale certificate value to the model. For systems above 1MW (LGC territory) or embedded networks, you'll need to customise the model for your specific compliance and engineering cost profile."
 ---
 
 The residential solar market in Australia is mature, crowded, and increasingly price-sensitive. System prices have compressed. Competition from national installers and volume dealers has tightened margins on the 6.6kW bread-and-butter install. Meanwhile, the commercial solar market — warehouses, factories, shopping centres, farms, strata complexes — is growing faster than the residential market, and the electricians and solar businesses moving into it are generating significantly more revenue per install-day.
@@ -133,7 +133,9 @@ Use the [Solar Quote Profitability Calculator](/tools/solar-quote-calculator) to
 
 The Small-scale Technology Certificate (STC) mechanism works the same way for commercial systems under 100kW as it does for residential — reducing the customer price at point of sale, with certificates assigned to the installer and sold on the STC market.
 
-**For systems over 100kW**, STCs are not available. Instead, the system is eligible for **Large-scale Generation Certificates (LGCs)** under the Large-scale Renewable Energy Target (LRET), administered by the **Clean Energy Regulator (CER)**. LGCs accrue over time based on actual generation — they're not a point-of-sale mechanism. For commercial clients, this means the upfront discount is smaller, but ongoing LGC revenue over the system life adds value.
+**The 100kW boundary moved to 1MW on 1 October 2026.** The Small-scale Renewable Energy Scheme was expanded by the *Renewable Energy (Electricity) Amendment (Mid-scale Solar) Regulations 2026* so that solar PV systems **above 100kW and up to 1MW, installed on or after 1 October 2026**, are now eligible for STCs. It is the single biggest change to commercial solar economics in years — a 250kW system can now take an upfront STC discount worth roughly 20% of installed cost, applied at point of sale exactly as it is on residential. The deeming period is fixed at five years through to 2030, and applications open in mid-to-late November 2026. Three conditions matter when you quote: eligibility is determined by the **installation date**, not the contract or procurement date; expansions to an existing system qualify only on the additional capacity installed on or after 1 October 2026; and a system can claim benefits under **one scheme only** — a mid-scale system that takes STCs cannot also create LGCs for the same capacity.
+
+**For systems above 1MW**, STCs are not available. Those remain eligible for **Large-scale Generation Certificates (LGCs)** under the Large-scale Renewable Energy Target (LRET), administered by the **Clean Energy Regulator (CER)**. LGCs accrue over time based on actual generation — they're not a point-of-sale mechanism. For commercial clients at that scale, the upfront discount is smaller, but ongoing LGC revenue over the system life adds value.
 
 **CEC accreditation** is required for all STC-eligible commercial installations. The Clean Energy Council (CEC) Installer Code of Conduct applies, and all grid-connected inverters must appear on the CEC's approved products list. Installation must comply with **AS/NZS 5033:2021** as a condition of CER audit eligibility.
 
@@ -243,7 +245,7 @@ DNSP delays are the most common cashflow surprise — you've ordered equipment f
 
 **Can I use the Solar Quote Calculator for commercial systems?**
 
-The [Solar Quote Profitability Calculator](/tools/solar-quote-calculator) works for systems up to 100kW and handles the core commercial pricing model — materials, labour, STC calculation, and margin. For systems above 100kW (LGC territory) or embedded networks, you'll need to customise the model for your specific compliance and engineering cost profile.
+The [Solar Quote Profitability Calculator](/tools/solar-quote-calculator) works for systems up to 100kW and handles the core commercial pricing model — materials, labour, STC calculation, and margin. For 100kW–1MW mid-scale systems installed on or after 1 October 2026, STCs now apply as well, so add the mid-scale certificate value to the model. For systems above 1MW (LGC territory) or embedded networks, you'll need to customise the model for your specific compliance and engineering cost profile.
 
 ---
 
