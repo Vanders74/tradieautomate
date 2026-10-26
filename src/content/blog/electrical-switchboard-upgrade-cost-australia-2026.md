@@ -13,7 +13,7 @@ faq:
   - question: "Is a switchboard upgrade covered by home insurance?"
     answer: "No — switchboard upgrades are a maintenance and compliance cost, not an insured event. Some home warranty policies include electrical systems, but switchboard replacement due to age or non-compliance is typically excluded. Check your policy wording."
 pubDate: 'Jul 13 2026'
-updatedDate: 'Oct 20 2026'
+updatedDate: 'Oct 26 2026'
 category: "Compliance"
 heroImage: '/hero-compliance-safety-2026.jpg'
 tags: ['switchboard upgrade', 'electrical compliance', 'AS/NZS 3000', 'solar', 'EV charger', 'electrician', 'cost guide']
@@ -41,6 +41,22 @@ Switchboard upgrade costs in Australia vary significantly based on board size, c
 
 These ranges are indicative. An electrician quoting a specific job will consider the factors below before pricing.
 
+### What's Actually Included in the Quote
+
+The job-type ranges above bundle several separate components. When you compare two quotes that look similar, this is where the difference usually sits — a cheaper quote often leaves out the enclosure, the surge protection, or the compliance certificate.
+
+| Component | Typical Cost (AUD incl. GST) | What It Covers |
+|---|---|---|
+| Switchboard enclosure | $300 – $800 | The cabinet, mounting plate and busbars |
+| Circuit breakers / RCBOs | $50 – $250 each | One device per circuit; RCBOs cost more than separate MCB + RCD |
+| Safety switches (RCDs) | $100 – $300 per circuit | Required on power and lighting circuits under AS/NZS 3000 |
+| Labour and installation | $500 – $2,000 | 2–8 hours depending on board size and access |
+| Metering coordination (if required) | $150 – $400 | DNSP isolation and reconnection |
+| Compliance certificate | $50 – $150 | Lodged by the licensed electrician in most states |
+| **Typical all-in total** | **$1,200 – $6,000** | Residential single-phase to three-phase |
+
+Ask for the quote broken down by these lines. A single "supply and install" figure makes it impossible to tell whether the certificate, the surge protection, or the RCBO upgrade is included — and those are the items that get dropped to win on price.
+
 ---
 
 ## What's Driving Switchboard Upgrades in 2026?
@@ -55,7 +71,7 @@ Three forces are pushing more Australian homes into upgrade territory in 2026:
 
 ---
 
-## The 5 Things That Actually Drive Cost
+## The 6 Things That Actually Drive Cost
 
 ### 1. Fuse Board vs. Circuit Breaker Board
 
@@ -84,6 +100,22 @@ The electrician is required to identify and flag these issues. Replacing a singl
 ### 5. New Circuits Required
 
 Each new circuit added at upgrade time — a solar feed, EV charger circuit, additional power circuits — adds to the job cost. Budget approximately $200–$400 per new circuit for breaker, RCD (if required separately), and cabling to the point of connection.
+
+### 6. Asbestos Backing Board Removal
+
+Many Australian homes built or renovated before 1990 have a switchboard mounted on an asbestos-containing backing board — a flat sheet of compressed asbestos cement behind the panel. It's not always visible until the old board comes off.
+
+If asbestos is present, removal is a licensed task. An electrician cannot simply pull the old board off and mount the new one over the top. A licensed asbestos removalist handles the sheet, and the electrician returns after clearance to install.
+
+This is the single most commonly omitted line in a switchboard quote, and the most common reason a quote blows out mid-job:
+
+| Scenario | Typical Additional Cost (AUD incl. GST) |
+|---|---|
+| Asbestos-backed board, licensed removal + clearance | $500 – $1,500 |
+| Removal requiring containment or air monitoring | $1,500 – $3,000 |
+| New board relocated off the asbestos sheet (avoids removal) | $300 – $800 extra labour |
+
+Ask your electrician before work starts whether the existing backing board has been assessed for asbestos. In Victoria and the ACT, pre-1990 switchboards should be treated as presumed asbestos-containing until tested. If a quote doesn't mention asbestos at all, ask what happens if it's found — the answer tells you whether the quote is realistic or optimistic.
 
 ---
 
