@@ -8,6 +8,10 @@ import rebatesJson from '../../data/rebates.json';
 
 const programs = rebatesJson.programs;
 const meta = rebatesJson.meta;
+// dateModified tracks the page's last substantive edit (sponsor-slot removal, 26 Oct 02:12 AEDT),
+// NOT meta.last_verified (the rebate dataset's verification date). Keeping them separate stops the
+// JSON-LD and the sitemap lastmod contradicting each other on freshness — flagged cycle 8, fixed here.
+const pageModified = "2026-10-26T02:12:26+11:00";
 
 // Static, server-rendered rebate summary. The finder itself is JS-rendered, which
 // left the page with almost no crawlable text — Google would not index it
@@ -35,7 +39,7 @@ const webPageSchema = {
   "name": "Solar Rebate Calculator Australia 2026",
   "description": description,
   "url": "https://tradieautomate.com/tools/rebate-finder/",
-  "dateModified": meta.last_verified,
+  "dateModified": pageModified,
   "publisher": { "@type": "Organization", "name": "TradieAutomate" }
 };
 const faqSchema = {

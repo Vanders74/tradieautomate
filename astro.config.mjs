@@ -27,7 +27,7 @@ const TOOL_LASTMOD = {
   '/tools/solar-savings-calculator/': '2026-10-23T20:31:34+11:00',
   '/tools/ev-charger-quote-calculator/': '2026-10-19T13:28:48+11:00',
   '/tools/solar-quote-calculator/': '2026-08-08T04:48:05+10:00',
-  '/tools/': '2026-10-22T10:03:09+11:00',
+  '/tools/': '2026-10-27T04:07:46+11:00',
 };
 
 function buildLastmodMap() {
