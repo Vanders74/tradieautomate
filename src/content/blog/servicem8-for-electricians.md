@@ -200,9 +200,17 @@ If you're running solar and battery alongside general electrical work, see our f
 
 ---
 
-## How ServiceM8 Compares to the Alternatives
+## ServiceM8 Alternatives for Electricians: Which One Fits Your Business
 
-Australian electricians evaluating job management software typically consider ServiceM8 alongside Tradify, Fergus, simPRO, and AroFlo. Here's the honest assessment:
+Capterra rates ServiceM8 **4.5 out of 5 from 311 reviews** — strong, but it is not the only option. If you are weighing a ServiceM8 alternative for electricians, the right pick depends on crew size and how compliance-heavy your work is:
+
+- **Tradify** — simple per-seat pricing from $48/user/month ex GST, easy to run, but lighter on Australian compliance forms. Best for 2–4 person residential crews.
+- **simPRO** — the pick for 20+ staff running commercial projects with real job costing. Overkill and expensive below that.
+- **Fergus** — strong job costing and margin tracking at $53–$77/user/month ex GST, with thinner electrical compliance tooling. See our [Fergus review](/blog/fergus-review-2026-australia/).
+- **AroFlo** — per-user pricing from $80/user/month with a three-user minimum, built for asset-heavy service work. See our [AroFlo review](/blog/aroflo-review-2026-australia/).
+- **Jobber** — the international generalist with the strongest mobile app, but less Australian-specific compliance depth. See our [ServiceM8 vs Jobber comparison](/blog/servicem8-vs-jobber-tradie-software-guide-2026/).
+
+For most Australian electrical businesses — residential, solar and light commercial — ServiceM8 remains the strongest balance of flat pricing and local compliance tooling. Here is where each alternative wins and loses:
 
 **ServiceM8 vs Tradify:** Tradify is simpler, and its per-user pricing means it is never actually cheaper than ServiceM8 — even a sole trader pays $48/mo ex GST for Lite against ServiceM8 Starter at $29 incl GST. What Tradify gives you for that is less depth and a much smaller Australian compliance footprint. For electricians doing compliance-heavy work, ServiceM8 is the stronger choice. See our [ServiceM8 vs Tradify comparison](/blog/servicem8-vs-tradify-comparison-australia/) for a detailed breakdown.
 
