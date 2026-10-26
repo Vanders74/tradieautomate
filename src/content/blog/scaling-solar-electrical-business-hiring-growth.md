@@ -77,7 +77,7 @@ Booking confirmation. 24-hour reminder. On-route notification. Job completion me
 
 Every one of these can be templated and automated in ServiceM8. When a second technician is doing jobs independently, the customer experience remains consistent — they get the same professional communication regardless of which team member handled their job.
 
-This matters for your Google review accumulation. The automated review request that goes out after every completed job is what builds the 200+ review Google Business Profile that [converts more quotes without additional ad spend](/blog/sms-vs-email-quotes-customer-experience/).
+This matters for your Google review accumulation. The automated review request that goes out after every completed job is what builds the 200+ review [Google Business Profile for solar installers](/blog/google-business-profile-solar-electrician-setup-guide/) that [converts more quotes without additional ad spend](/blog/sms-vs-email-quotes-customer-experience/).
 
 ---
 

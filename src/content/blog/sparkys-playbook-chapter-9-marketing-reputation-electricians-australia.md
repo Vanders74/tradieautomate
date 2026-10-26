@@ -114,7 +114,7 @@ Local SEO determines whether your business appears in the Google Local Pack (the
 
 ### Google Business Profile
 
-Your Google Business Profile (GBP) is the most important local SEO asset. Optimise it:
+Your [Google Business Profile for solar electricians and electrical contractors](/blog/google-business-profile-solar-electrician-setup-guide/) (GBP) is the most important local SEO asset. Optimise it:
 
 **Completeness:**
 - Business name, address, phone — exactly consistent with your website and other directories

@@ -36,7 +36,7 @@ Unlike residential solar — where the homeowner calls you, you visit the site, 
 
 ### Direct negotiation (small commercial)
 
-Small commercial customers often find you the same way residential customers do: Google, referral, GBP. The process is more like residential: site visit, energy analysis, proposal, negotiation. Decision is typically made by the business owner or operations manager.
+Small commercial customers often find you the same way residential customers do: Google, referral, GBP. The process is more like residential: site visit, energy analysis, proposal, negotiation. Decision is typically made by the business owner or operations manager. If the profile is only half built, that referral never gets a chance — our [Google Business Profile setup guide for solar installers and electricians](/blog/google-business-profile-solar-electrician-setup-guide/) covers the fields that actually move map-pack ranking.
 
 **Your advantage here:** The same trust signals that win residential work (reviews, CEC accreditation, local presence) also work for small commercial buyers. Relationships matter.
 
