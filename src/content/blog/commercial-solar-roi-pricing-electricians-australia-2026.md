@@ -2,7 +2,7 @@
 title: 'Commercial Solar ROI for Electricians: 2026 Pricing Guide'
 description: 'The business case for Australian electricians moving into commercial solar — 30–500kW pricing, real ROI numbers, payback and the 1MW STC rule change.'
 pubDate: 'Jul 19 2026'
-updatedDate: 'Oct 26 2026'
+updatedDate: 'Oct 27 2026'
 accuracyReviewed: '2026-08-02'
 category: 'Business Growth'
 heroImage: '/hero-commercial-solar-contracts.jpg'
@@ -131,7 +131,7 @@ Use the [Solar Quote Profitability Calculator](/tools/solar-quote-calculator) to
 
 ## The STC Calculation for Commercial Systems
 
-The Small-scale Technology Certificate (STC) mechanism works the same way for commercial systems under 100kW as it does for residential — reducing the customer price at point of sale, with certificates assigned to the installer and sold on the STC market.
+The Small-scale Technology Certificate (STC) mechanism works the same way for commercial systems inside the scheme ceiling as it does for residential — reducing the customer price at point of sale, with certificates assigned to the installer and sold on the STC market. For most of the scheme's history that ceiling was 100kW. Since 1 October 2026 it is 1MW for newly installed systems.
 
 **The 100kW boundary moved to 1MW on 1 October 2026.** The Small-scale Renewable Energy Scheme was expanded by the *Renewable Energy (Electricity) Amendment (Mid-scale Solar) Regulations 2026* so that solar PV systems **above 100kW and up to 1MW, installed on or after 1 October 2026**, are now eligible for STCs. It is the single biggest change to commercial solar economics in years — a 250kW system can now take an upfront STC discount worth roughly 20% of installed cost, applied at point of sale exactly as it is on residential. The deeming period is fixed at five years through to 2030, and applications open in mid-to-late November 2026. Three conditions matter when you quote: eligibility is determined by the **installation date**, not the contract or procurement date; expansions to an existing system qualify only on the additional capacity installed on or after 1 October 2026; and a system can claim benefits under **one scheme only** — a mid-scale system that takes STCs cannot also create LGCs for the same capacity.
 

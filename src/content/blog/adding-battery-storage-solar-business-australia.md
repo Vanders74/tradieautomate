@@ -2,7 +2,7 @@
 title: 'Adding Battery Storage to Your Solar Business: The Complete Guide for Australian Installers'
 description: "Adding battery storage to your solar business can push job values from $8K to $22K+ — here's exactly how to get CEC-endorsed, meet AS/NZS 5139:2019, price jobs profitably, and build battery storage into your revenue line."
 pubDate: 'May 19 2026'
-updatedDate: 'Jul 18 2026'
+updatedDate: 'Oct 27 2026'
 category: "Solar & Battery"
 heroImage: '/hero-adding-battery-storage-business.jpg'
 tags: ['battery storage', 'solar', 'AS/NZS 5139', 'business growth', 'electrician', 'CEC']
@@ -206,6 +206,7 @@ Battery storage incentives vary by state and change frequently. Current relevant
 - *[AS/NZS 5139 Battery Storage Compliance: What Every Solar Installer Needs to Know](/blog/as-nzs-5139-battery-storage-compliance/)*
 - *[Battery Retrofit Installations: Adding Storage to Existing Solar Systems](/blog/battery-retrofit-installations-existing-solar/)*
 - *[How to Price Solar Installations in Australia 2026](/blog/how-to-price-solar-installations-australia-2026/)*
+- *[Commercial Solar ROI for Electricians: 2026 Pricing Guide](/blog/commercial-solar-roi-pricing-electricians-australia-2026/)*
 - *[Staying Compliant in 2026: The Complete Safety and Compliance Guide](/blog/staying-compliant-2026-solar-electrical-safety/)*
 - *[CER Audit Prep: How to Pass Your Clean Energy Regulator Audit](/blog/cer-audit-prep-solar-installers/)*
 - *[ServiceM8 for Solar Businesses: Scale Your Installation Operations](/blog/servicem8-for-solar-businesses/)*

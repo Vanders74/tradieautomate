@@ -13,7 +13,7 @@ faq:
   - question: "What is the best pricing strategy for winning solar quotes in Australia?"
     answer: "Lead with value, not price. The customers most worth winning are those comparing quality and service, not hunting for the lowest price — those customers are more profitable and generate better referrals. Present three pricing tiers (good/better/best) where possible, with clear differentiation in equipment quality, warranty, and service. Always show the STC calculation transparently — it builds trust and explains the pricing structure. Follow up unconverted quotes systematically (5 touchpoints over 21 days) — most solar leads are delayed decisions, not rejections. Response speed also matters: quoting within 24 hours of inquiry closes significantly more business than quoting after 48–72 hours."
 pubDate: 'May 12 2026'
-updatedDate: 'Oct 26 2026'
+updatedDate: 'Oct 27 2026'
 accuracyReviewed: '2026-10-26'
 category: "Solar & Battery"
 heroImage: '/hero-how-to-price-solar.jpg'
@@ -174,6 +174,8 @@ For context, average market pricing ranges for residential solar installation in
 | 6.6kW + 13.5kWh (Powerwall 3) | Tesla | $18,000–$24,000 |
 
 **STC offset:** In 2026 the deeming period is 5 years, so a 6.6kW system in zone 3 creates 45 STCs — 6.6 x 1.382 x 5, rounded down — worth about **$1,710–$1,800** at the current $38–$40 market price. (Zone 1 cities such as Darwin create more certificates; Melbourne and Hobart, in a lower zone, create fewer.) This is typically passed through to the customer as a point-of-sale discount. Make sure your quote shows the pre-STC price and the STC discount separately — this is a customer trust signal and also clarifies your actual revenue. The deeming period drops one year annually to the scheme's 2030 end, so budget the discount shrinking every year rather than holding at today's number.
+
+**Commercial pricing is a different model, not a bigger version of this one.** Above roughly 30kW the price is set by per-watt installed cost, DNSP connection scope and the customer's load profile rather than by a residential price list — and since 1 October 2026 the STC ceiling sits at 1MW, which changes the net price on mid-scale jobs. If you are quoting commercial work, the [commercial solar ROI and pricing guide](/blog/commercial-solar-roi-pricing-electricians-australia-2026/) covers the 30–500kW band, payback maths and the mid-scale STC boundary.
 
 ---
 

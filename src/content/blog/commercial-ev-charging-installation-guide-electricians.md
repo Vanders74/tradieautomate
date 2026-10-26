@@ -13,6 +13,7 @@ faq:
   - question: "What's the difference between a dedicated EV charger and a heavy-duty power outlet?"
     answer: "A dedicated EVSE (Electric Vehicle Supply Equipment) is purpose-designed for EV charging — it includes safety features such as pilot signal communication with the vehicle (which prevents charging unless the vehicle is properly connected), ground fault protection, and thermal management. A heavy-duty outlet (e.g. 32A single-phase industrial socket) lacks these safety features and is not recommended for EV charging. Most EV manufacturers void charging warranties for damage caused by non-EVSE charging sources. > **The Sparky's Playbook** — the free 12-chapter guide for Australian electricians covering licensing, EV charging, commercial solar, cash flow, tech stack, and building a business worth selling."
 pubDate: 'Jul 13 2026'
+updatedDate: 'Oct 27 2026'
 category: "Solar & Battery"
 heroImage: '/hero-ev-charger-installation.jpg'
 tags: ['commercial EV charging', 'EV charger installation', 'EVSE', 'load management', 'OCPP', 'electrician', 'AS/NZS 3000']
@@ -182,7 +183,7 @@ A commercial EV charger quote is materially different from a residential quote. 
 - DNSP application and any network contribution fees
 
 **6. Operating Cost and ROI Model**
-Commercial clients expect this. Simple version: annual energy cost per charger, charging session revenue potential (if charging employees or customers), total investment payback.
+Commercial clients expect this. Simple version: annual energy cost per charger, charging session revenue potential (if charging employees or customers), total investment payback. If the site is also considering rooftop solar to offset charging load, the [commercial solar ROI and pricing guide](/blog/commercial-solar-roi-pricing-electricians-australia-2026/) covers the payback modelling and the 1MW STC boundary.
 
 ---
 
