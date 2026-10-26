@@ -1,6 +1,6 @@
 ---
 title: "Apprentice Ratios Electrical 2026: State Caps, Incentives, Net Cost"
-description: "Apprentice ratios electrical by state: NSW and VIC 1:1 direct, 1:3 general, 1:5 broad; QLD sets no number. Plus the $5,000 employer incentive and the real $38K–$40K first-year cost."
+description: "Apprentice ratios electrical by state: NSW and VIC 1:1 direct, 1:3 general, 1:5 broad; QLD sets no number. Year-one cost $38K–$40K before the $5,000 incentive."
 pubDate: 'Jul 20 2026'
 updatedDate: 'Oct 19 2026'
 category: "Compliance"
