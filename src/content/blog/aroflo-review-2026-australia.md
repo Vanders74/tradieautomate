@@ -2,7 +2,7 @@
 title: "AroFlo Review 2026: Honest Pros, Cons & Real Pricing"
 description: "AroFlo review 2026: per-user pricing from $80, strong asset tools, weak for small crews. Honest pros and cons."
 pubDate: 2026-07-21
-updatedDate: Oct 20 2026
+updatedDate: Oct 26 2026
 heroImage: '/hero-aroflo-review-2026-australia.jpg'
 category: "Software Comparisons"
 tags: ["aroflo review", "aroflo australia", "aroflo pricing 2026", "aroflo vs servicem8", "aroflo for electricians", "trade job management software", "aroflo review 2026"]
@@ -10,7 +10,7 @@ faq:
   - question: "Is AroFlo worth it for Australian trade businesses in 2026?"
     answer: "AroFlo is worth it for Australian trade businesses that need comprehensive project management, asset management, and compliance documentation tools — typically 10+ field staff doing a mix of project work and ongoing maintenance contracts. For most small-to-medium electrical and solar businesses (1–10 staff), AroFlo's cost and complexity is hard to justify. ServiceM8 covers the workflow at significantly lower cost and with faster setup."
   - question: "How much does AroFlo cost in Australia?"
-    answer: "AroFlo uses custom per-user pricing — you must contact them for a quote. Based on user-reported data, AroFlo typically costs $80–$150/user/month, with a minimum user count often applied. For a 5-person team, expect $400–$750/month. AroFlo also charges an implementation fee, which varies based on business complexity. Unlike ServiceM8's flat job-volume pricing, AroFlo's cost scales directly with team size."
+    answer: "AroFlo publishes its starting price: AUD $80 per user per month, with a minimum of three users — so the entry point is roughly $240/month. The per-user rate falls as you add licences, but office users and field users are priced differently, so mixed teams often pay above the floor; user reports put a 5-person team at $400–$750/month. AroFlo also charges a setup/implementation fee, which varies with business complexity. Unlike ServiceM8's flat job-volume pricing, AroFlo's cost scales directly with team size."
   - question: "What is AroFlo best used for?"
     answer: "AroFlo is best suited for: trade businesses with ongoing maintenance contracts that need systematic asset tracking and scheduled service reminders; multi-stage commercial project management with detailed progress tracking; businesses needing compliance certificate management across multiple clients and assets; and medium-to-large operations (8–50+ staff) that have outgrown simpler platforms. AroFlo is particularly strong in HVAC, fire protection, and facilities management — trades with recurring maintenance obligations."
   - question: "Does AroFlo work for electricians in Australia?"
@@ -49,7 +49,7 @@ AroFlo's design centres on two capabilities that distinguish it from simpler pla
 
 ## Pricing
 
-AroFlo doesn't publish pricing — a quote is required. Based on market data and user reports:
+AroFlo does publish a starting price: **AUD $80 per user per month, with a minimum of three users** — so the entry point is roughly $240/month for a 3-person team. The per-user rate slides down as you add licences, and office users are priced differently from field users, so real bills vary. Volume pricing is still negotiated. Based on market data and user reports:
 
 | Team size | Estimated monthly cost (AUD) |
 |---|---|
@@ -59,11 +59,11 @@ AroFlo doesn't publish pricing — a quote is required. Based on market data and
 | 20 staff | $1,600–$3,000/month |
 
 Additional costs:
-- **Implementation fee:** Varies by business complexity — typically $1,500–$4,000
+- **Setup/implementation fee:** Varies by business complexity — typically $1,500–$4,000. AroFlo periodically discounts this (it is currently advertising 50% off setup).
 - **Data migration:** If moving from another platform
 - **Training:** Often an add-on
 
-AroFlo is generally considered mid-tier in cost — more expensive than ServiceM8, less expensive than simPRO. For a 3–5 person team, it's 3–5× the cost of ServiceM8 with no per-user fee.
+AroFlo is generally considered mid-tier in cost — more expensive than ServiceM8, less expensive than simPRO. For a 3–5 person team, it's 3–5× the cost of ServiceM8: AroFlo charges per user, while ServiceM8's plans are priced on job volume rather than headcount.
 
 ---
 
@@ -176,7 +176,7 @@ AroFlo is worth it for Australian trade businesses that need comprehensive proje
 
 ### How much does AroFlo cost in Australia?
 
-AroFlo uses custom per-user pricing — you must contact them for a quote. Based on user-reported data, AroFlo typically costs $80–$150/user/month, with a minimum user count often applied. For a 5-person team, expect $400–$750/month. AroFlo also charges an implementation fee, which varies based on business complexity. Unlike ServiceM8's flat job-volume pricing, AroFlo's cost scales directly with team size.
+AroFlo publishes its starting price: AUD $80 per user per month, with a minimum of three users — so the entry point is roughly $240/month. The per-user rate falls as you add licences, but office users and field users are priced differently, so mixed teams often pay above the floor; user reports put a 5-person team at $400–$750/month. AroFlo also charges a setup/implementation fee, which varies with business complexity. Unlike ServiceM8's flat job-volume pricing, AroFlo's cost scales directly with team size.
 
 ### What is AroFlo best used for?
 
