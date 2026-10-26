@@ -2,7 +2,7 @@
 title: "The Sparky's Playbook — Chapter 12: Exit Strategy & Business Valuation"
 description: "Excerpt from The Sparky's Playbook — Ch.12: exit strategy for electricians. Valuation multiples, what buyers want, maximising sale price, and CGT."
 pubDate: 2026-07-20
-updatedDate: 'Jul 20 2026'
+updatedDate: 'Oct 27 2026'
 heroImage: "/hero-sell-servicem8-trade-business-value.jpg"
 category: "Business Growth"
 tags: ["sell electrical business", "electrical business valuation", "business exit strategy", "tradie business sale", "EBITDA multiple", "business broker Australia", "electrical contractor sale", "business succession"]
@@ -51,6 +51,8 @@ The standard valuation method for small-to-medium businesses is a multiple of EB
 | Strong recurring revenue, owner-independent, diversified | 3.5–5.0× | $700K–$1M |
 
 The difference between a 1.5× and a 4× business is not luck — it's the deliberate building of systems, recurring revenue, and team capability over years.
+
+Before you plan that work, get your own number. Our free [trade business valuation calculator](/tools/trade-business-valuation/) takes 12 questions and about 90 seconds, then returns an indicative price range and a sellability scorecard showing which of these levers is holding your multiple down.
 
 ### Normalising EBITDA
 
