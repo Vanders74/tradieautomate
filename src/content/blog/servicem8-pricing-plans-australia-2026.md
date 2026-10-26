@@ -96,7 +96,7 @@ Every competitor figure below is in AUD **excluding GST**, which is how those ve
 
 Two things also change the maths in ServiceM8's favour beyond the plan price. Setup is $0 — AroFlo's Smart Start runs from $1,450 to $2,900. And ServiceM8's entry price buys 50 jobs, where Tradify Lite and Fergus Essentials are unlimited-job plans, so a high-volume solo operator can be cheaper on a per-user platform.
 
-But the comparison isn't purely about price. simPRO offers deeper job costing and inventory management. AroFlo has stronger asset tracking. Fergus has better quoting for complex commercial jobs. The question is whether you need those features.
+But the comparison isn't purely about price. simPRO offers deeper job costing and inventory management. AroFlo has stronger asset tracking. Fergus has better quoting for complex commercial jobs — our [Fergus review for Australian tradies](/blog/fergus-review-2026-australia/) breaks down its $53/$77 per-user tiers and what they include. The question is whether you need those features.
 
 ---
 

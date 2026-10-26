@@ -208,7 +208,7 @@ Australian electricians evaluating job management software typically consider Se
 
 **ServiceM8 vs simPRO:** simPRO is designed for larger electrical contractors with complex project management needs and 20+ staff. If you're running large commercial electrical projects with sophisticated job costing, simPRO has more depth. For residential and light commercial electricians under 20 staff, ServiceM8 provides significantly better value. See our [ServiceM8 vs simPRO for electricians](/blog/servicem8-vs-simpro-electricians-australia-2026/) comparison for the full breakdown.
 
-**ServiceM8 vs Fergus:** Fergus has strong job costing and margin tracking. ServiceM8 wins on compliance documentation tools and Australian-specific feature development.
+**ServiceM8 vs Fergus:** Fergus has strong job costing and margin tracking. ServiceM8 wins on compliance documentation tools and Australian-specific feature development. Fergus's 2026 pricing is $53/user on Essentials and $77/user on Professional, both ex GST — our [Fergus review](/blog/fergus-review-2026-australia/) covers the tier differences and the missing CCEW form.
 
 For the majority of Australian electrical businesses — residential, solar, and light commercial — ServiceM8 is the clear recommendation in 2026. See our full [Best Job Management Software for Australian Electricians (2026)](/blog/best-job-management-software-electricians-australia/) for a comprehensive platform comparison.
 

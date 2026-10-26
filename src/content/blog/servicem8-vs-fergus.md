@@ -1,6 +1,6 @@
 ---
 title: 'ServiceM8 vs Fergus: Honest Comparison for Australian Trade Businesses (2026)'
-description: 'ServiceM8 vs Fergus 2026: $29/mo vs $49/mo. Which job management platform wins for Australian electricians? Compliance tools, job costing, and real pricing compared.'
+description: 'ServiceM8 vs Fergus 2026: $29/mo vs $53/user. Which job management platform wins for Australian electricians? Compliance tools, job costing, and real pricing compared.'
 faq:
   - question: "Is Fergus available in Australia?"
     answer: "Yes. Fergus originated in New Zealand and operates in Australia. It's well established in the ANZ market with an Australian user base across electrical, plumbing, and general trade businesses."
@@ -16,7 +16,7 @@ category: "Software Comparisons"
 heroImage: '/hero-servicem8-vs-fergus.jpg'
 ---
 
-**ServiceM8 and Fergus** are two of the most frequently compared job management platforms in Australian trade businesses. Both target the small-to-mid-size market, both are mobile-first, and both have genuine followings. But they have different origins, different strengths, and different pricing philosophies.
+**ServiceM8 and Fergus** are two of the most frequently compared job management platforms in Australian trade businesses. Both target the small-to-mid-size market, both are mobile-first, and both have genuine followings. But they have different origins, different strengths, and different pricing philosophies. For the deeper verdict on Fergus itself — including where its job costing genuinely beats ServiceM8 — see our [full Fergus review for Australian tradies](/blog/fergus-review-2026-australia/).
 
 If you're comparing the two seriously, this breakdown gives you the honest assessment.
 
@@ -26,7 +26,7 @@ If you're comparing the two seriously, this breakdown gives you the honest asses
 
 | Feature | ServiceM8 | Fergus |
 |---|---|---|
-| **Starting price (AUD/mo)** | From ~$29 | From ~$49/user |
+| **Starting price (AUD/mo)** | From ~$29 | From ~$53/user |
 | **Pricing model** | Per-job (flat team cost) | Per-user |
 | **Origin** | Australian-built | New Zealand-built |
 | **Best for** | Compliance-heavy trades, solar, electrical, automated workflows | Job costing and margin-focused businesses |
@@ -60,17 +60,17 @@ ServiceM8 prices by jobs per month, not by users. Every staff member on your tea
 
 ### Fergus
 
-Fergus prices per user per month — typically around $49/user in the Australian market. Additional users add linearly to your monthly cost.
+Fergus prices per user per month — **$53/user on Essentials and $77/user on Professional in 2026** (AUD, excluding GST). Additional users add linearly to your monthly cost. Timesheet-only users are an add-on from $26/month. Note that some comparison sites still quote the old $48/$72 figures; the current published pricing is $53/$77 — see our full [Fergus review for Australian tradies](/blog/fergus-review-2026-australia/) for what each tier actually includes.
 
 ### The Cost Comparison Over Time
 
-| Team size (100 jobs/mo) | ServiceM8 Growing ($79) | Fergus ($49/user) |
+| Team size (100 jobs/mo) | ServiceM8 Growing ($79) | Fergus Essentials ($53/user) |
 |---|---|---|
-| 2 staff | $79 | $98 |
-| 4 staff | $79 | $196 |
-| 6 staff | $79 | $294 |
-| 8 staff | $79 | $392 |
-| 10 staff | $79 | $490 |
+| 2 staff | $79 | $106 |
+| 4 staff | $79 | $212 |
+| 6 staff | $79 | $318 |
+| 8 staff | $79 | $424 |
+| 10 staff | $79 | $530 |
 
 At 4 or more staff doing consistent job volume, ServiceM8 is more economical. At 2–3 staff, Fergus may cost less. As businesses grow, the economics shift increasingly in ServiceM8's favour — and they continue to shift as the team grows.
 
